@@ -1,0 +1,14 @@
+name = "Voyage"
+filename = "voyage-1.16.4-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3148/743/voyage-1.16.4-1.0.3.jar"
+hash-format = "murmur2"
+hash = "1539671506"
+
+[update]
+[update.curseforge]
+file-id = 3148743
+project-id = 332943
+release-channel = "beta"

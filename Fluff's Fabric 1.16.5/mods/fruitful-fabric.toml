@@ -1,0 +1,14 @@
+name = "Fruitful (Fabric)"
+filename = "Fruitful-1.16.5-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3343/804/Fruitful-1.16.5-1.0.0.jar"
+hash-format = "murmur2"
+hash = "3791026570"
+
+[update]
+[update.curseforge]
+file-id = 3343804
+project-id = 491943
+release-channel = "beta"

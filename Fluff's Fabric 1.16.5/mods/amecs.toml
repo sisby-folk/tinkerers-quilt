@@ -1,0 +1,14 @@
+name = "Amecs (Fabric)"
+filename = "amecs-1.3.4+mc.1.16.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3285/961/amecs-1.3.4+mc.1.16.3.jar"
+hash-format = "murmur2"
+hash = "1867342213"
+
+[update]
+[update.curseforge]
+file-id = 3285961
+project-id = 324564
+release-channel = "beta"

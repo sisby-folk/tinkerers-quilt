@@ -1,0 +1,14 @@
+name = "Neapolitan"
+filename = "neapolitan-1.16.5-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3221/772/neapolitan-1.16.5-2.1.0.jar"
+hash-format = "murmur2"
+hash = "3014960968"
+
+[update]
+[update.curseforge]
+file-id = 3221772
+project-id = 382016
+release-channel = "beta"

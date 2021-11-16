@@ -1,0 +1,13 @@
+name = "Mod Menu"
+filename = "modmenu-1.16.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/1.16.11/modmenu-1.16.11.jar"
+hash-format = "sha512"
+hash = "215bd4c1126e82e247c05f83d9cef70439424bcdcf2b23dcd5e9d12b4c8a2c1a6c124d820dbb3831c64b1d66958f2fd8f31c6111a23ba8815259e8b0649eb11d"
+
+[update]
+[update.modrinth]
+mod-id = "mOgUt4GM"
+version = "NyFB1gry"

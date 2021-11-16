@@ -1,0 +1,85 @@
+
+#forest_lush biome generation
+[forest_lush_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 3
+
+#desert_mixed biome generation
+[desert_mixed_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 4
+
+#desert_polar biome generation
+[desert_polar_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 2
+
+#lagoon_lukewarm biome generation
+[lagoon_lukewarm_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 4
+
+#steppe biome generation
+[steppe_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 5
+
+#desert_mixed_hills biome generation
+[desert_mixed_hills_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 2
+
+#rock_field biome generation
+[rock_field_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 3
+
+#bog biome generation
+[bog_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 5
+
+#rocky_peaks biome generation
+[rocky_peaks_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 1
+
+#desert_mountains biome generation
+[desert_mountains_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 3
+
+#lagoon_warm biome generation
+[lagoon_warm_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 4
+
+#mount biome generation
+[mount_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 2
+
+#lagoon_cold biome generation
+[lagoon_cold_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 4
+
+#flower_plains biome generation
+[flower_plains_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: > 0
+	weight = 4
+

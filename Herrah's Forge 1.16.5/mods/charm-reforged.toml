@@ -1,0 +1,14 @@
+name = "Charm Reforged"
+filename = "charm-forge-1.16.5-2.3.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3214/651/charm-forge-1.16.5-2.3.2.jar"
+hash-format = "murmur2"
+hash = "678595414"
+
+[update]
+[update.curseforge]
+file-id = 3214651
+project-id = 430988
+release-channel = "beta"

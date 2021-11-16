@@ -1,0 +1,18 @@
+name = "Sodium + Iris Shaders"
+filename = "iris-mc1.16.5-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YL57xq9U/versions/mc1.16.5-v1.1.1/iris-mc1.16.5-1.1.1.jar"
+hash-format = "sha512"
+hash = "a2e6b52c16d42750b19f0dda93a94235df15a8c4ec061866585a4ca4899c2b5caedce30b5af4bb41eb7df7cb6a958d82ff9502c508756ea8e40f0cc23e03c34e"
+
+[update]
+[update.modrinth]
+mod-id = "YL57xq9U"
+version = "AosvzXCO"
+
+[option]
+optional = true
+description = "[Incompatible with Canvas] Improves performance. Adds shaders"
+default = true

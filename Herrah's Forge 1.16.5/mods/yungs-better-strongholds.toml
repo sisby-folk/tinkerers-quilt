@@ -1,0 +1,14 @@
+name = "YUNG's Better Strongholds (Forge)"
+filename = "BetterStrongholds-1.16.4-1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3386/965/BetterStrongholds-1.16.4-1.2.jar"
+hash-format = "murmur2"
+hash = "2928323508"
+
+[update]
+[update.curseforge]
+file-id = 3386965
+project-id = 465575
+release-channel = "beta"

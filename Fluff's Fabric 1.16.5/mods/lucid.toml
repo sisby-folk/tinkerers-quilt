@@ -1,0 +1,13 @@
+name = "lucid"
+filename = "lucid-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MZs181S1/versions/v1.2.0/lucid-1.2.0.jar"
+hash-format = "sha512"
+hash = "1f89253730e7c201e3171e58bb58211f8c881aea6a8968837733f616cce9cd3f99e6fb93ba2aa340e96c0806fc7b5ffc026e06df06e1efbaa0e4fe1c674258ef"
+
+[update]
+[update.modrinth]
+mod-id = "MZs181S1"
+version = "fsNQv0sO"

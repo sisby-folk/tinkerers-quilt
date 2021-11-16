@@ -1,0 +1,13 @@
+name = "Lakeside"
+filename = "Lakeside-1.1.0+1.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EpOyJ9mh/versions/1.1.0/Lakeside-1.1.0+1.17.jar"
+hash-format = "sha512"
+hash = "198cf42bd26714bd884f46cbb443c3f45ea200354b9be68c7247ed101e6cf60040076ae1220d649246a6f434c90fe696f04b709871083f3efb58fedb70835dae"
+
+[update]
+[update.modrinth]
+mod-id = "EpOyJ9mh"
+version = "FPkVE3dk"

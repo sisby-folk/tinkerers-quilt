@@ -1,0 +1,14 @@
+name = "Rhino"
+filename = "rhino-1605.1.1-build.21.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3354/586/rhino-1605.1.1-build.21.jar"
+hash-format = "murmur2"
+hash = "2782461907"
+
+[update]
+[update.curseforge]
+file-id = 3354586
+project-id = 416294
+release-channel = "beta"

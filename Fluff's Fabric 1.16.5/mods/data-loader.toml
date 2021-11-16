@@ -1,0 +1,14 @@
+name = "Data Loader (Fabric)"
+filename = "data-loader-2.1.0+mc1.16.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/2989/927/data-loader-2.1.0+mc1.16.1.jar"
+hash-format = "murmur2"
+hash = "194482227"
+
+[update]
+[update.curseforge]
+file-id = 2989927
+project-id = 318894
+release-channel = "beta"

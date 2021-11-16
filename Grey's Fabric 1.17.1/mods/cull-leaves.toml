@@ -1,0 +1,13 @@
+name = "Cull Leaves"
+filename = "cullleaves-2.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.0/cullleaves-2.3.0.jar"
+hash-format = "sha512"
+hash = "fce2b27c774752787b873cfd6c4e02da8445c75f31bcaa982e487cb4d3824c5b55bdd066ab8bfb73381e27ebc49e2ce4971424b9cb64bbbe226c4511b223cf4c"
+
+[update]
+[update.modrinth]
+mod-id = "GNxdLCoP"
+version = "d6b1Ezyz"

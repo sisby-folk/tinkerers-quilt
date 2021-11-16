@@ -1,0 +1,13 @@
+name = "Kiln"
+filename = "kiln-1.1.1+1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EanpIMHb/versions/1.1.1+1.16.5/kiln-1.1.1+1.16.5.jar"
+hash-format = "sha512"
+hash = "80a2b02d9e9942ceabf9af5d1d8b2f8790defa6196cf7dd249c07e9c11f9ba2b0a9e2ba3bf0c82ca1302abe37b5c798fd3f1ad3a3d70457178b7433ab8a71ec6"
+
+[update]
+[update.modrinth]
+mod-id = "EanpIMHb"
+version = "iVr2UUwO"

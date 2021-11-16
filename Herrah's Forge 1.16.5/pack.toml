@@ -1,0 +1,16 @@
+name = "Herrah's Forge 1.16.5"
+author = "SleepyDragonInn"
+version = "1.0.0"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a0277805a21aa1c4865815b5060617621005c248592f0d7624507ec4f176ada7"
+
+[versions]
+forge = "36.1.25"
+minecraft = "1.16.5"
+
+[options]
+acceptable-game-versions = ["1.16.1", "1.16.2", "1.16.3", "1.16.4"]

@@ -1,0 +1,14 @@
+name = "Placebo"
+filename = "Placebo-1.16.4-4.5.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3331/459/Placebo-1.16.4-4.5.0.jar"
+hash-format = "murmur2"
+hash = "17501126"
+
+[update]
+[update.curseforge]
+file-id = 3331459
+project-id = 283644
+release-channel = "beta"

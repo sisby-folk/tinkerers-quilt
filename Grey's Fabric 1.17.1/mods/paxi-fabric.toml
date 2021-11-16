@@ -1,0 +1,14 @@
+name = "Paxi (Fabric)"
+filename = "Paxi-Fabric-1.17-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3425/423/Paxi-Fabric-1.17-1.2.2.jar"
+hash-format = "murmur2"
+hash = "2400962910"
+
+[update]
+[update.curseforge]
+file-id = 3425423
+project-id = 418881
+release-channel = "beta"

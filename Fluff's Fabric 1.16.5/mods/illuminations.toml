@@ -1,0 +1,14 @@
+name = "Illuminations 🔥"
+filename = "illuminations-1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3302/815/illuminations-1.5.1.jar"
+hash-format = "murmur2"
+hash = "3807441904"
+
+[update]
+[update.curseforge]
+file-id = 3302815
+project-id = 292908
+release-channel = "beta"

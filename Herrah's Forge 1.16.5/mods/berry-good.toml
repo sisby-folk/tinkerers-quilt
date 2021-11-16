@@ -1,0 +1,14 @@
+name = "Berry Good"
+filename = "berry_good-1.16.5-4.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3249/305/berry_good-1.16.5-4.1.1.jar"
+hash-format = "murmur2"
+hash = "306615765"
+
+[update]
+[update.curseforge]
+file-id = 3249305
+project-id = 355589
+release-channel = "beta"

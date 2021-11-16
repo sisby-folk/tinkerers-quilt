@@ -1,0 +1,14 @@
+name = "Extra Boats"
+filename = "extraboats-1.16.5-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3175/92/extraboats-1.16.5-2.1.0.jar"
+hash-format = "murmur2"
+hash = "1175534343"
+
+[update]
+[update.curseforge]
+file-id = 3175092
+project-id = 337396
+release-channel = "beta"

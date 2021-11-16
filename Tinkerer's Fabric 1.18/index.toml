@@ -1,0 +1,11 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/fabric-api.toml"
+hash = "9c440c3062bbc3e43b551d35a81ea4c614a8699b02369a6d3ff8eeeb3d5af986"
+metafile = true
+
+[[files]]
+file = "mods/iris.toml"
+hash = "5a91ecb4bc146ce18e4fa7de7978185c290041c5c6c7f4f98224b1422ad245d3"
+metafile = true

@@ -1,0 +1,14 @@
+name = "Particle Rain"
+filename = "particle-rain-1.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3404/112/particle-rain-1.4.jar"
+hash-format = "murmur2"
+hash = "2132218569"
+
+[update]
+[update.curseforge]
+file-id = 3404112
+project-id = 421897
+release-channel = "beta"

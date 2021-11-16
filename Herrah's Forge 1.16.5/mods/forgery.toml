@@ -1,0 +1,14 @@
+name = "Forgery"
+filename = "forgery-1.3.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3227/647/forgery-1.3.4.jar"
+hash-format = "murmur2"
+hash = "1834868912"
+
+[update]
+[update.curseforge]
+file-id = 3227647
+project-id = 434087
+release-channel = "beta"

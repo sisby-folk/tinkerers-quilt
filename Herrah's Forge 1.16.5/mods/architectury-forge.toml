@@ -1,0 +1,14 @@
+name = "Architectury API (Forge)"
+filename = "architectury-1.20.28-forge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3385/660/architectury-1.20.28-forge.jar"
+hash-format = "murmur2"
+hash = "3717966649"
+
+[update]
+[update.curseforge]
+file-id = 3385660
+project-id = 419699
+release-channel = "beta"

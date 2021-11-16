@@ -1,0 +1,14 @@
+name = "CleanCut"
+filename = "cleancut-1.17-4.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3351/574/cleancut-1.17-4.0-fabric.jar"
+hash-format = "murmur2"
+hash = "3318364072"
+
+[update]
+[update.curseforge]
+file-id = 3351574
+project-id = 392805
+release-channel = "beta"

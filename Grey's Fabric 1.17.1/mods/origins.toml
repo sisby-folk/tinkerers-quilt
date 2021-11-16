@@ -1,0 +1,13 @@
+name = "Origins"
+filename = "Origins-1.17-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3BeIrqZR/versions/1.1.0/Origins-1.17-1.1.0.jar"
+hash-format = "sha512"
+hash = "21bae2df2f4241e4dffda68d8a50381e0a5e0ea3ea617c7003f40f20b2ce0d56babc05bfc687a2154f0daeadf8764ff3726026cfbc0ef8158bb75eb2cb7d8dc0"
+
+[update]
+[update.modrinth]
+mod-id = "3BeIrqZR"
+version = "iH6CdywM"

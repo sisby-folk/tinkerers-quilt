@@ -1,0 +1,13 @@
+name = "Augmented Autojump"
+filename = "augmentedautojump-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4aLzfBel/versions/1.1.0/augmentedautojump-1.1.0.jar"
+hash-format = "sha512"
+hash = "1aa85937d7715b2f3754c1a1d58af8067c89adecbfb83b71dd132289e96421ba1cb05df37f85dca97bc14b0089c03be0e1005a3268668f519e4976d3e92da62b"
+
+[update]
+[update.modrinth]
+mod-id = "4aLzfBel"
+version = "vBG4bPzR"

@@ -1,0 +1,79 @@
+{
+  "generator": {
+    "world": {
+      "terrain": {
+        "terrain_cleaning_pass[def: true]": true,
+        "world_fixing_pass[def: true]": true
+      },
+      "environment": {
+        "generate_caves[def: true]": true,
+        "generate_paths[def: true]": true
+      },
+      "ores": {
+        "cincinnasite_ore_density[def: 9.765625E-4]": 9.765625E-4,
+        "ruby_ore_density[def: 2.5E-4]": 2.5E-4,
+        "lapis_ore_density[def: 2.5E-4]": 2.5E-4
+      },
+      "structures_density[def: 0.0625]": 0.0625,
+      "lava_structures_density[def: 0.005]": 0.005,
+      "global_plant_and_structures_density[def: 1.0]": 1.0,
+      "cities": {
+        "distance[def: 64]": 64,
+        "generate[def: true]": true
+      }
+    }
+  },
+  "generator_world": {
+    "biome_size_xz[def: 200]": 200,
+    "biome_size_y[def: 40]": 40,
+    "volumetric_biomes[def: true]": true
+  },
+  "biomes": {
+    "minecraft": {
+      "main": {
+        "nether_wastes_chance[def: 1.0]": 1.0,
+        "soul_sand_valley_chance[def: 1.0]": 1.0,
+        "crimson_forest_chance[def: 1.0]": 1.0,
+        "warped_forest_chance[def: 1.0]": 1.0,
+        "basalt_deltas_chance[def: 1.0]": 1.0
+      }
+    },
+    "betternether": {
+      "main": {
+        "gravel_desert_chance[def: 1.0]": 1.0,
+        "nether_jungle_chance[def: 1.0]": 1.0,
+        "wart_forest_chance[def: 1.0]": 1.0,
+        "nether_grasslands_chance[def: 1.0]": 1.0,
+        "nether_mushroom_forest_chance[def: 1.0]": 1.0,
+        "bone_reef_chance[def: 1.0]": 1.0,
+        "nether_swampland_chance[def: 1.0]": 1.0,
+        "magma_land_chance[def: 1.0]": 1.0,
+        "upside_down_forest_chance[def: 1.0]": 1.0
+      },
+      "edge": {
+        "nether_mushroom_forest_edge_size[def: 2.0]": 2.0,
+        "wart_forest_edge_size[def: 2.0]": 2.0
+      },
+      "variation": {
+        "sulfuric_bone_reef_chance[def: 0.3]": 0.3,
+        "poor_nether_grasslands_chance[def: 0.3]": 0.3,
+        "nether_swampland_terraces_chance[def: 1.0]": 1.0,
+        "soul_plain_chance[def: 1.0]": 1.0,
+        "crimson_glowing_woods_chance[def: 0.3]": 0.3,
+        "old_warped_woods_chance[def: 1.0]": 1.0,
+        "crimson_pinewood_chance[def: 0.3]": 0.3,
+        "old_fungiwoods_chance[def: 0.3]": 0.3,
+        "flooded_deltas_chance[def: 1.0]": 1.0,
+        "old_swampland_chance[def: 1.0]": 1.0
+      }
+    },
+    "cinderscapes": {
+      "main": {
+        "blackstone_shales_chance[def: 1.0]": 1.0,
+        "quartz_canyon_chance[def: 1.0]": 1.0,
+        "luminous_grove_chance[def: 1.0]": 1.0,
+        "ashy_shoals_chance[def: 1.0]": 1.0
+      }
+    }
+  }
+}

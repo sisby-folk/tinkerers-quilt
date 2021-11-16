@@ -1,0 +1,14 @@
+name = "Couplings"
+filename = "Couplings-1.5.1+1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3378/759/Couplings-1.5.1+1.17.jar"
+hash-format = "murmur2"
+hash = "1335031964"
+
+[update]
+[update.curseforge]
+file-id = 3378759
+project-id = 311120
+release-channel = "beta"

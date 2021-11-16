@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "overrides": {
+	"inventorytabs": {
+	  "+depends": {
+		"minecraft": "1.16.x"
+	  }
+	}
+  }
+}

@@ -1,0 +1,14 @@
+name = "Controlling"
+filename = "Controlling-7.0.0.23.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3348/514/Controlling-7.0.0.23.jar"
+hash-format = "murmur2"
+hash = "1724968788"
+
+[update]
+[update.curseforge]
+file-id = 3348514
+project-id = 250398
+release-channel = "beta"

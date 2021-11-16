@@ -1,0 +1,14 @@
+name = "Curio of Undying (Forge)"
+filename = "curioofundying-forge-1.16.5-5.2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3308/969/curioofundying-forge-1.16.5-5.2.0.0.jar"
+hash-format = "murmur2"
+hash = "3233436746"
+
+[update]
+[update.curseforge]
+file-id = 3308969
+project-id = 316873
+release-channel = "beta"

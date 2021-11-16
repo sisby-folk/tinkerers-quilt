@@ -1,0 +1,14 @@
+name = "Origins: Classes"
+filename = "Origins-Classes-1.16.5-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3185/590/Origins-Classes-1.16.5-1.1.1.jar"
+hash-format = "murmur2"
+hash = "582687979"
+
+[update]
+[update.curseforge]
+file-id = 3185590
+project-id = 401833
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "RandomPatches (Fabric)"
+filename = "randompatches-2.4.5-fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3212/546/randompatches-2.4.5-fabric.jar"
+hash-format = "murmur2"
+hash = "1505769975"
+
+[update]
+[update.curseforge]
+file-id = 3212546
+project-id = 396245
+release-channel = "beta"

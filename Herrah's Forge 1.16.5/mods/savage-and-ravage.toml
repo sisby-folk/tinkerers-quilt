@@ -1,0 +1,14 @@
+name = "Savage & Ravage"
+filename = "savageandravage-1.16.5-3.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3226/442/savageandravage-1.16.5-3.1.0.jar"
+hash-format = "murmur2"
+hash = "1229189559"
+
+[update]
+[update.curseforge]
+file-id = 3226442
+project-id = 381736
+release-channel = "beta"

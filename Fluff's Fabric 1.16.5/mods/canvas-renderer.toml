@@ -1,0 +1,18 @@
+name = "Canvas Renderer"
+filename = "canvas-mc116-1.0.1511.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3324/572/canvas-mc116-1.0.1511.jar"
+hash-format = "murmur2"
+hash = "3268311387"
+
+[update]
+[update.curseforge]
+file-id = 3324572
+project-id = 318440
+release-channel = "beta"
+
+[option]
+optional = true
+description = "[Incompatible with Sodium] Adds FREX Shader Support"

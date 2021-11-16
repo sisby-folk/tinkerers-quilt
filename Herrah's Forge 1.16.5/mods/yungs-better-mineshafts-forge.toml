@@ -1,0 +1,14 @@
+name = "YUNG's Better Mineshafts (Forge)"
+filename = "BetterMineshafts-Forge-1.16.4-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3344/719/BetterMineshafts-Forge-1.16.4-2.0.4.jar"
+hash-format = "murmur2"
+hash = "1126142459"
+
+[update]
+[update.curseforge]
+file-id = 3344719
+project-id = 389665
+release-channel = "beta"

@@ -1,0 +1,97 @@
+
+#meadow biome generation
+[meadow_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 5.0
+
+#coniferous_forest biome generation
+[coniferous_forest_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 4.0
+
+#plains_plateau biome generation
+[plains_plateau_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 3.0
+
+#snowy_coniferous_forest biome generation
+[snowy_coniferous_forest_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 3.0
+
+#rolling_hills biome generation
+[rolling_hills_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 4.0
+
+#wooded_islands biome generation
+[wooded_islands_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#desert_shrubland biome generation
+[desert_shrubland_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 4.0
+
+#lush_swamp biome generation
+[lush_swamp_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#woodlands biome generation
+[woodlands_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 5.0
+
+#snowy_high_coniferous_forest biome generation
+[snowy_high_coniferous_forest_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#arid_highlands biome generation
+[arid_highlands_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 10.0
+
+#autumnal_woods biome generation
+[autumnal_woods_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 5.0
+
+#high_coniferous_forest biome generation
+[high_coniferous_forest_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+
+#cliffs biome generation
+[cliffs_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 4.0
+
+#snowy_cliffs biome generation
+[snowy_cliffs_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 3.0
+
+#mini_jungle biome generation
+[mini_jungle_biome]
+	#spawn weight of the biome (0 to disable generation)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weight = 1.0
+

@@ -1,0 +1,14 @@
+name = "Fishing Real"
+filename = "fishingreal-1.16.3-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3074/201/fishingreal-1.16.3-1.0.0.jar"
+hash-format = "murmur2"
+hash = "647678123"
+
+[update]
+[update.curseforge]
+file-id = 3074201
+project-id = 348834
+release-channel = "beta"

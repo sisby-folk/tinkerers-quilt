@@ -1,0 +1,13 @@
+name = "Pettable"
+filename = "pettable-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PFVwk20g/versions/1.1.0/pettable-1.1.0.jar"
+hash-format = "sha512"
+hash = "bb50280b2f3967bd306ed64cee4cdaa426812c6d14aef735b254f67a62397d673a92c9bdbacac207d8a8d5120aca9fb1ce76c76f1be2147cdf8646ceea4ead97"
+
+[update]
+[update.modrinth]
+mod-id = "PFVwk20g"
+version = "gxBsNsmt"

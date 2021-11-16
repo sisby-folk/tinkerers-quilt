@@ -1,0 +1,14 @@
+name = "Simply Improved Terrain [Forge]"
+filename = "SimplyImprovedTerrain-0.3.2-Forge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3302/984/SimplyImprovedTerrain-0.3.2-Forge.jar"
+hash-format = "murmur2"
+hash = "2021514616"
+
+[update]
+[update.curseforge]
+file-id = 3302984
+project-id = 472872
+release-channel = "beta"

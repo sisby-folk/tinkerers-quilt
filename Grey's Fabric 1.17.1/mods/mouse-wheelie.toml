@@ -1,0 +1,13 @@
+name = "Mouse Wheelie"
+filename = "mousewheelie-1.7.3-newconfig+mc1.17.1-pre1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u5Ic2U1u/versions/1.7.3-newconfig+mc1.17.1-pre1/mousewheelie-1.7.3-newconfig+mc1.17.1-pre1.jar"
+hash-format = "sha512"
+hash = "12071164564bdf887e34a6736ae96c49bc98d99b3512010ae9df51f87bfbbc90dd4bde889e368476446e66e59e7c7a3ea583e42e21672c0eb85e6556f36f5e1b"
+
+[update]
+[update.modrinth]
+mod-id = "u5Ic2U1u"
+version = "fzZPBH5c"

@@ -1,0 +1,14 @@
+name = "Create"
+filename = "create-mc1.16.5_v0.3.2b.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3386/319/create-mc1.16.5_v0.3.2b.jar"
+hash-format = "murmur2"
+hash = "3859372213"
+
+[update]
+[update.curseforge]
+file-id = 3386319
+project-id = 328085
+release-channel = "beta"

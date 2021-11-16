@@ -1,0 +1,14 @@
+name = "Kiwi 🥝"
+filename = "Kiwi-1.16.5-3.5.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3377/53/Kiwi-1.16.5-3.5.2.jar"
+hash-format = "murmur2"
+hash = "125253871"
+
+[update]
+[update.curseforge]
+file-id = 3377053
+project-id = 303657
+release-channel = "beta"

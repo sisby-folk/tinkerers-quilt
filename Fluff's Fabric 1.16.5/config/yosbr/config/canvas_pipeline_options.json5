@@ -1,0 +1,77 @@
+{
+	"canvas:basic_light_config": {
+		"ao_shading_mode": "normal",
+		"diffuse_shading_mode": "normal"
+	},
+	"canvas:fog_config": {
+		"fog_mode": "vanilla"
+	},
+	"canvas:handheld_light_config": {
+		"handheld_light_radius": 10
+	},
+	"canvas:bloom_config": {
+		"bloom_intensity": 0.1,
+		"bloom_downsample_dist": 1.0,
+		"bloom_upsample_dist": 0.1,
+		"bloom_cutoff": 0.02
+	},
+	"lumi:aesthetics_config": {
+		"block_light_mode": "warm",
+		"bloom_intensity": 20,
+		"bloom_scale": 25,
+		"sky_bloom_intensity": 2,
+		"godrays_intensity": 5,
+		"sky_mode": "lumi",
+		"lumi_sky_color": "bright_cyan",
+		"glint_style": "glint_a",
+		"glint_red": 0.655,
+		"glint_green": 0.333,
+		"glint_blue": 1.0,
+		"toon_outline": false,
+		"name_tag_shadow": false
+	},
+	"lumi:performance_config": {
+		"antialiasing": "taa",
+		"ambient_occlusion": "no_ao",
+		"blocklight_specular_mode": "fancy",
+		"reflection_profile": "medium",
+		"reflection_maximum_roughness_relative": 7,
+		"reflection_on_hand": true,
+		"cloud_rendering": "vanilla",
+		"volumetric_fog": true
+	},
+	"lumi:clouds_config": {
+		"parallax_cloud_altitude": 100,
+		"parallax_cloud_thickness": 40,
+		"volumetric_cloud_mode": "skybox"
+	},
+	"lumi:gameplay_config": {
+		"handheld_light_radius": 10,
+		"true_darkness_default": false,
+		"true_darkness_nether": false,
+		"true_darkness_end": false,
+		"true_darkness_moonlight": false
+	},
+	"lumi:fog_config": {
+		"overworld_fog_altitude_affected": false,
+		"fog_far_chunks": 8,
+		"fog_density_relative": 10,
+		"underwater_fog_far_chunks": 1,
+		"underwater_fog_density_relative": 15
+	},
+	"lumi:experimental_config": {
+		"noise_mode": "halton",
+		"parallax_cloud_density": 1.0,
+		"volumetric_fog_softness_relative": 12,
+		"glint_mode": "shader",
+		"taa_debug_render": "off",
+		"multi_bounce_reflection": false,
+		"kaleidoskop": false,
+		"rgb_caves": false,
+		"tone_profile": "standard",
+		"rain_puddles": false,
+		"caustics_mode": "none",
+		"cloud_time": "world",
+		"overlay_debug": "none"
+	}
+}

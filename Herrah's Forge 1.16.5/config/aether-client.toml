@@ -1,0 +1,19 @@
+
+[Rendering]
+	#Disables the Aether's custom skybox in case you have a shader that is incompatible with custom skyboxes
+	"Disables Aether custom skybox" = false
+	#Changes Zephyr and Aerwhale rendering to use their old models from the b1.7.3 version of the mod
+	"Switches to legacy mob models" = false
+
+[Gui]
+	#Adds a button to the top right of the main menu screen to toggle between the Aether and vanilla menu
+	"Enables Aether menu button" = true
+	#Changes the vanilla Minecraft menu into the Aether menu
+	"Enables Aether menu" = false
+	#Adds random trivia and tips to the bottom of loading screens
+	"Enables random trivia" = true
+
+["Resource Pack"]
+	#Allows the built-in programmer art resource packs for b1.7.3 and 1.2.5 textures to be automatically downloaded
+	"Installs resource packs" = true
+

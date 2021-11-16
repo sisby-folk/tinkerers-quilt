@@ -1,0 +1,13 @@
+name = "MixinTrace"
+filename = "mixintrace-1.1.0+1.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sGmHWmeL/versions/1.1.0/mixintrace-1.1.0+1.17.jar"
+hash-format = "sha512"
+hash = "70587fde860c3ac0971e68aa70cba923cfae122cd7775e754f674d044cd549714c9f8977733589c19f5e46bb33bb3fc0e28fb33ebbeeee46467f46caf8936c71"
+
+[update]
+[update.modrinth]
+mod-id = "sGmHWmeL"
+version = "GaXP6TGe"

@@ -1,0 +1,13 @@
+name = "The Aether Reborn"
+filename = "aether-1.16.5-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IKpsG0nF/versions/b1.4.1/aether-1.16.5-1.4.1.jar"
+hash-format = "sha512"
+hash = "40f02fd6d3e3d5330c7e9f72c8342d6949e63db98df2676e87ca13ad57d83f8e76c7376a1d2f420f91618fca31e1f7e79bc920b532ce7a99e98e9ef955be1607"
+
+[update]
+[update.modrinth]
+mod-id = "IKpsG0nF"
+version = "fjM0qcIV"

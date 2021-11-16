@@ -1,0 +1,14 @@
+name = "Buzzier Bees"
+filename = "buzzier_bees-1.16.5-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3226/433/buzzier_bees-1.16.5-3.0.1.jar"
+hash-format = "murmur2"
+hash = "3091123072"
+
+[update]
+[update.curseforge]
+file-id = 3226433
+project-id = 355458
+release-channel = "beta"

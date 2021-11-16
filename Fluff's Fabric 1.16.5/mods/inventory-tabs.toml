@@ -1,0 +1,14 @@
+name = "Inventory Tabs"
+filename = "inventorytabs-0.3.0-1.16.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3137/66/inventorytabs-0.3.0-1.16.4.jar"
+hash-format = "murmur2"
+hash = "693049696"
+
+[update]
+[update.curseforge]
+file-id = 3137066
+project-id = 400285
+release-channel = "beta"

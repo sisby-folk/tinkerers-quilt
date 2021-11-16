@@ -1,0 +1,14 @@
+name = "Falling Leaves (Forge)"
+filename = "Fallingleaves-1.16.3-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3357/285/Fallingleaves-1.16.3-1.1.1.jar"
+hash-format = "murmur2"
+hash = "1828938988"
+
+[update]
+[update.curseforge]
+file-id = 3357285
+project-id = 463155
+release-channel = "beta"

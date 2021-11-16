@@ -1,0 +1,13 @@
+name = "Blame - Fabric"
+filename = "blame-1.17-4.2.0-fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/kbYX74kg/versions/1.17-4.2.0-fabric/blame-1.17-4.2.0-fabric.jar"
+hash-format = "sha512"
+hash = "655980e34a1517e568918b384b1ae5804f15cd5225e2259b307be29fe1943cb772a2f25c16608e5d2174ae25594a6c37022d727a255e211a9830c8951f12fbb5"
+
+[update]
+[update.modrinth]
+mod-id = "kbYX74kg"
+version = "AJhYBXSo"

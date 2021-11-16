@@ -1,0 +1,14 @@
+name = "FastWorkbench Minus Replacement"
+filename = "fastbenchminusreplacement-1.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3276/56/fastbenchminusreplacement-1.4.jar"
+hash-format = "murmur2"
+hash = "926961457"
+
+[update]
+[update.curseforge]
+file-id = 3276056
+project-id = 394185
+release-channel = "beta"

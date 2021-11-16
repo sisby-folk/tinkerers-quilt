@@ -1,0 +1,13 @@
+name = "Beenfo"
+filename = "beenfo-1.16.5-fabric0.30.0-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Bta0Pt47/versions/1.16.5-fabric0.30.0-1.3.1/beenfo-1.16.5-fabric0.30.0-1.3.1.jar"
+hash-format = "sha512"
+hash = "9bb81ff10b8b08a7103d3ffc48c0b1999028ce4e4c22df4cbf5464652bb73dbd5a961a8a6742320f3ed6a35e54507765bf76625368172ed8218884a4f48b6927"
+
+[update]
+[update.modrinth]
+mod-id = "Bta0Pt47"
+version = "ypBYgjXZ"

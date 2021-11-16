@@ -1,0 +1,13 @@
+name = "Biome Makeover"
+filename = "biome-makeover-1.16.4-1.2.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jG8Q2YwT/versions/1.2.11/biome-makeover-1.16.4-1.2.11.jar"
+hash-format = "sha512"
+hash = "f437d90c0fc8b90e2274677f6d3fd6690f00ee2d1cc2e9c3d27a35bc5d10ba555e244112de9668d4d0ca44acb3541688818184b79045cf3bbad5b5dca964677f"
+
+[update]
+[update.modrinth]
+mod-id = "jG8Q2YwT"
+version = "GkSmAlQs"

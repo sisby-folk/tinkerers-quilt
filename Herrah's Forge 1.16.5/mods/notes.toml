@@ -1,0 +1,14 @@
+name = "Notes"
+filename = "Notes-1.16.5-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3191/743/Notes-1.16.5-1.2.3.jar"
+hash-format = "murmur2"
+hash = "3216354075"
+
+[update]
+[update.curseforge]
+file-id = 3191743
+project-id = 256087
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Simply Improved Terrain [Fabric]"
+filename = "SimplyImprovedTerrain-0.3.2.1-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3315/998/SimplyImprovedTerrain-0.3.2.1-Fabric.jar"
+hash-format = "murmur2"
+hash = "819580406"
+
+[update]
+[update.curseforge]
+file-id = 3315998
+project-id = 484242
+release-channel = "beta"

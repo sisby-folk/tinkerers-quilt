@@ -1,0 +1,13 @@
+name = "Cinderscapes"
+filename = "cinderscapes-1.3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QC4wcUXZ/versions/1.3.3/cinderscapes-1.3.3.jar"
+hash-format = "sha512"
+hash = "f6d4b7ac6a91f45c745513631b00303de902dc702b38da2cb5242b1fbc7d99ec312e71fed7cd199bfcac69a9a789547d2b0af0b5e8dd3b49352caff1a80de35a"
+
+[update]
+[update.modrinth]
+mod-id = "QC4wcUXZ"
+version = "SrOlbalS"

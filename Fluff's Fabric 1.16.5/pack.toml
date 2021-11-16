@@ -1,0 +1,16 @@
+name = "Fluff's Fabric 1.16.5"
+author = "SleepyDragonInn"
+version = "1.0.3"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3caa0383bc204ed4556293b16ff46980ddf4dde11d770bd843d8088aa25a11db"
+
+[versions]
+fabric = "0.11.3"
+minecraft = "1.16.5"
+
+[options]
+acceptable-game-versions = ["1.16.1", "1.16.2", "1.16.3", "1.16.4"]
