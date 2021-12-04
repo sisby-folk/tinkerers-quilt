@@ -116,6 +116,11 @@ hash = "0f946c13155503a375132d8c73e1e50ee82c06e0e1da35b5aaa0da59a2769db1"
 metafile = true
 
 [[files]]
+file = "mods/extra-origins.toml"
+hash = "f6d003eccd0414d5c3216e6ee295103d1cd04fc1841ea741f1ca57e8e3e15d00"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.toml"
 hash = "8f7148ddea91eb8e149e84a07d378d4c0cf12223ca12689036a600672bd24554"
 metafile = true
@@ -193,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/origins.toml"
 hash = "d2a1c5d47321e5870e11b288efec99126071b7462441681d0a644df1e0242f72"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.toml"
+hash = "f7c277e5f5fc5f59fa02d168a490118cb7482cdeb8963545fbae7c59bc5eb100"
 metafile = true
 
 [[files]]

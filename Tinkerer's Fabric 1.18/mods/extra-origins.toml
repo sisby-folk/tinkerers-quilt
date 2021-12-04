@@ -1,0 +1,13 @@
+name = "Extra Origins"
+filename = "extraorigins-1.18-1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3542/865/extraorigins-1.18-1.jar"
+hash-format = "murmur2"
+hash = "4287308069"
+
+[update]
+[update.curseforge]
+file-id = 3542865
+project-id = 398419
