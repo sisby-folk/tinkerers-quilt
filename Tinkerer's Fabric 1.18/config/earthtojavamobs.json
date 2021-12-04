@@ -1,17 +1,4 @@
 {
-  "modWanderingTrader": {
-    "canSpawn": false,
-    "delay": 4,
-    "chance": 20,
-    "currencyItem": "earthtojavamobs:ruby"
-  },
-  "rubyOre": {
-    "canGenerate": false,
-    "topOffset": 0,
-    "bottomOffset": 0,
-    "count": 2,
-    "maximum": 8
-  },
   "mudLakeConfig": {
     "canGenerate": true,
     "mudLakeFrequency": 25
@@ -172,21 +159,6 @@
       "forest",
       "jungle",
       "forest"
-    ]
-  },
-  "glowSquid": {
-    "spawn": true,
-    "weight": 10,
-    "groupMin": 2,
-    "groupMax": 4,
-    "spawnHeight": {
-      "spawnHeightMin": 20,
-      "spawnHeightMax": 45
-    },
-    "spawnBiomes": [
-      "ocean",
-      "river",
-      "swamp"
     ]
   },
   "goldCrestedChicken": {
