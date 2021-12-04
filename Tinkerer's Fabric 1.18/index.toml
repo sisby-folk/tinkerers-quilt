@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/earthtojavamobs.json"
+hash = "0018fc1760cebb1ea693f681478a914fdbc8fb1ccdee118127ee2229864d09b9"
+
+[[files]]
+file = "datapacks/VanillaTweaks_c806583.zip"
+hash = "3cb2244d18de104546983f7f983f7535f84241bf11a54fff50788414ef5695b2"
+
+[[files]]
+file = "datapacks/anti ghast grief v1.1.2.zip"
+hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
+
+[[files]]
+file = "datapacks/fast leaf decay v2.0.5.zip"
+hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
+
+[[files]]
 file = "mods/addadd.toml"
 hash = "b33acc18997a608667e1ba027b307003873558ce4507700178184e6f6dfa63fd"
 metafile = true
@@ -179,3 +195,19 @@ metafile = true
 file = "mods/yigd.toml"
 hash = "951f100ac6096250da0401124821957de3704b3c84001851c027ed1b282a65ba"
 metafile = true
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_r600813.zip"
+hash = "df14293eb4b299611115f58fdcd44e98ee03a4e18bafdf18a9b828a83809ab4a"
+
+[[files]]
+file = "shaderpacks/ComplementaryShaders_v4.3.2.zip"
+hash = "a10a038e683bc550e3131bf2ba43ed206958b95a038da8f0704844f0a275a9c0"
+
+[[files]]
+file = "shaderpacks/Sildur's+Enhanced+Default+v1.13+Fancy.zip"
+hash = "626ad03774494e077b82687d9fb3cda8de89e1e7b8ca66109f83da82b6c40455"
+
+[[files]]
+file = "shaderpacks/Sildur's+Enhanced+Default+v1.13+Fast.zip"
+hash = "9262dbadb2c9c0f475d35f4ef4b9ae04cc74277cae1dc1b1aeda46102e2432e3"
