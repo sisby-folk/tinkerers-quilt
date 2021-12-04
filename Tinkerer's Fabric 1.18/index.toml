@@ -1,8 +1,304 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "11ba09a6771da982f9bdc906cb50b803804ab4d627566c85fc5ce9a7c4a72d68"
+
+[[files]]
+file = "config/additional-additions-config.json"
+hash = "c099c917e49f185be609e7967d24be0584ecd514ac32526f7f815b00bd83d617"
+
+[[files]]
+file = "config/advancementinfo.json5"
+hash = "82fb3f9fd7931ded27c4c0cc78b86bed8a82e2d17b587f26f3a094a8589e13e6"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
+
+[[files]]
+file = "config/betterf3.json"
+hash = "2e17bb730ed6918df9c493d6d5aaeefeafafa9e4650f20da22eff90708f736ec"
+
+[[files]]
+file = "config/citresewn.json"
+hash = "dc29439a8641a9605368c854e44914fe4dabee5be990a7b1dff40e53eec72792"
+
+[[files]]
+file = "config/crowdin.txt"
+hash = "fadbd1094e4079597c631b59da43ea2e315aa610c47282045384e888894ecc41"
+
+[[files]]
 file = "config/earthtojavamobs.json"
-hash = "0018fc1760cebb1ea693f681478a914fdbc8fb1ccdee118127ee2229864d09b9"
+hash = "87b0260a1d99226c45d153a438a5877ff6bb32fe92eea4c4a49c71819c6a8ae5"
+
+[[files]]
+file = "config/easiercrafting.json"
+hash = "5d1f30e349c19774e5361d9f9938a9896f1f896235f27f3896f4ff0cbe8a9bdd"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "c300c5e8000dac3262cb5b2f81a396ab1fdd7685096a9260779f9f0221bc0326"
+
+[[files]]
+file = "config/fabrication/block_logo.ini"
+hash = "1a58d3ffaaf266eb0f6f3574f15559689fa237be980a13b741834d640d9a8375"
+
+[[files]]
+file = "config/fabrication/block_logo.png"
+hash = "f2938cfb35d857049425b51f59ce557dd8f329e6b76bef68ffb561f118a4def0"
+
+[[files]]
+file = "config/fabrication/classic_block_drops.ini"
+hash = "45e501b8528ef8d27c2a67efd27304c81cd0503f8b0671094e6653eefd394b12"
+
+[[files]]
+file = "config/fabrication/dimensional_tools.ini"
+hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
+
+[[files]]
+file = "config/fabrication/features.ini"
+hash = "61693cd889499eff7e13743e320ad1047eefbccb0da759b4ab5c124dc3781032"
+
+[[files]]
+file = "config/fabrication/fscript.ini"
+hash = "06d742af1c186bd89bb808f7ff407865f1c08b1ebf7bb2e52ae2d042b64acd16"
+
+[[files]]
+file = "config/fabrication/gear_components.ini"
+hash = "5a9291467f9f7918687a0d138a61e396cb9299b0b4ea2e4cf4f4d6f3594f865b"
+
+[[files]]
+file = "config/fabrication/item_despawn.ini"
+hash = "24b26ac0b8ff13889b6b3b00b2309366eb72c36014a9679a82f4cbff46c275f4"
+
+[[files]]
+file = "config/fabrication/yeet_recipes.ini"
+hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
+
+[[files]]
+file = "config/fallingleaves.json"
+hash = "e45425c576a9b6112a43476c92fb3f8265fe280c3428cef604afde57b7e22448"
+
+[[files]]
+file = "config/fvt/fvt.properties"
+hash = "f1481791af81845be32acf7777a4afef40ed9f7d9f5f6f7e6368fd1e78237687"
+
+[[files]]
+file = "config/fvt/translations/assets/fvt/lang/cs_cz.json"
+hash = "42973da10f547744366c56936b69234822d3e8000b02fed423cd5b75c6b95ef3"
+
+[[files]]
+file = "config/fvt/translations/assets/fvt/lang/pt_br.json"
+hash = "a4522b2e14ee67f4643595887bddce1098eab7979357a436b6274f7f9e778072"
+
+[[files]]
+file = "config/inspecio.json"
+hash = "dbd2bab5bced373f4b106cbf314e7b376e713ef193f2c79d10e4c0598a1dfd29"
+
+[[files]]
+file = "config/iris.properties"
+hash = "73fc936f5e2cfcd1822a00ce944e1a2608a1be202aa7df8da799fba645a89a15"
+
+[[files]]
+file = "config/lambdacontrols.toml"
+hash = "5399114c76101f5619e08f713440850cf26e54d8ca8c165cf9c7bc6c6dfde107"
+
+[[files]]
+file = "config/lambdynlights.toml"
+hash = "bb06a8b738b7475e3e3db725fd57d1091671fffa76fcb0be2b6310a253c03a5b"
+
+[[files]]
+file = "config/libgui.json5"
+hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
+
+[[files]]
+file = "config/localrecipes.zip"
+hash = "864af477727595f658caca7f6a41996b8648b7e9302da3c58314174db737882c"
+
+[[files]]
+file = "config/loomrecipes.zip"
+hash = "d5f71510f70667a68f70267de781ca6c6b6b6f9dd231c0d4fc99d058f0a773eb"
+
+[[files]]
+file = "config/loomrecipes/letter_A.lr"
+hash = "6582a5a76a0e5b84a77fdbb72094358e295da3428eab119d772d5ada8de0d292"
+
+[[files]]
+file = "config/loomrecipes/letter_B.lr"
+hash = "2a731475da3400f3d5dd975bda3de096bb3b4893e00ebb66a3a66cd0e9de208f"
+
+[[files]]
+file = "config/loomrecipes/letter_C.lr"
+hash = "d4508f68082def07a1ced479291bd8e865d478fd13c250e64d73ac0f98c628c5"
+
+[[files]]
+file = "config/loomrecipes/letter_D.lr"
+hash = "765c4b8b685517f1a2699f42e3edf2de5fba9df994ab9a0a6b8cc0fa07b7cf37"
+
+[[files]]
+file = "config/loomrecipes/letter_E.lr"
+hash = "c740acb83caeaa5aef5140fe6db9d565348240afbffbb33d11e7e85ceef91c33"
+
+[[files]]
+file = "config/loomrecipes/letter_F.lr"
+hash = "7f877fc776b74d9cb38671e1169653e201c83a4ef789bbbe5e926d301c8185ea"
+
+[[files]]
+file = "config/loomrecipes/letter_G.lr"
+hash = "9c442da072b78959c1419e1ca730663948f4c3caa8630f24d1f78cbc90ce940e"
+
+[[files]]
+file = "config/loomrecipes/letter_H.lr"
+hash = "4f5c08245fe595f17d6cbdd67af05c27c0dad234f74f0acf2db23fe644f6155c"
+
+[[files]]
+file = "config/loomrecipes/letter_I.lr"
+hash = "0d736c0cae4bd13a5788138a81f0e1b4beaa388d194458f04e2c714254fdd6e7"
+
+[[files]]
+file = "config/loomrecipes/letter_J.lr"
+hash = "2ff51af91c94a21287f8acea31ba43e354ee87dc3913a786ad13f41931f06f57"
+
+[[files]]
+file = "config/loomrecipes/letter_K.lr"
+hash = "100b80aa33a60dd6106a1f21921c44eafaf7e5e698f28a32afbbbe3eab3095b7"
+
+[[files]]
+file = "config/loomrecipes/letter_L.lr"
+hash = "3bef9c03d9bb60a936f71aea73df3b91b2bf0025f386a8bf499070af79d58b22"
+
+[[files]]
+file = "config/loomrecipes/letter_M.lr"
+hash = "f0068d242536471f252d032f5930eb86b3d339155fe5add5ccf53bfa9ffea94b"
+
+[[files]]
+file = "config/loomrecipes/letter_N.lr"
+hash = "7bb22346ef57bfccdfe8602d7a102ba6dd5150042aa3766ee9b46cc209027a40"
+
+[[files]]
+file = "config/loomrecipes/letter_O.lr"
+hash = "33c87bad8874074e8e6ede938c13d8de6bd5c81dc351d0370e72b8d7133c252b"
+
+[[files]]
+file = "config/loomrecipes/letter_P.lr"
+hash = "bbaec063918158e851e0ae6658a38016c5327e7339cb74a395480886766dd760"
+
+[[files]]
+file = "config/loomrecipes/letter_Q.lr"
+hash = "0dffcb6cbbe7292cf35b2bd142fba3b34d19934d0ab7a2cefa7a5fdbf464fcdf"
+
+[[files]]
+file = "config/loomrecipes/letter_R.lr"
+hash = "7a3810bbc97467760791349192a3384594d882c10b8e96d6c1cde3a9bc620e65"
+
+[[files]]
+file = "config/loomrecipes/letter_S.lr"
+hash = "049e052cb8ff1b921ebba017f2dc1f485964864d56c02f5a03bec16f4175bbeb"
+
+[[files]]
+file = "config/loomrecipes/letter_T.lr"
+hash = "132fcaf2b48cc3316d5c66301c6342d5c541d7463c94db3bb444125dfe1ee08e"
+
+[[files]]
+file = "config/loomrecipes/letter_U.lr"
+hash = "67ac1aca4b23abaedbae03460c77a57c49ab8f382bd611fc5190d1f867b67d4e"
+
+[[files]]
+file = "config/loomrecipes/letter_V.lr"
+hash = "0cc7b4ba8dd14ad76b2df136a343ec68c491db0d37430ce72d87c1caa46e11d3"
+
+[[files]]
+file = "config/loomrecipes/letter_W.lr"
+hash = "8be23d1ada19eeff34959247a854bfff4601720a524bd088307a25e6bc4a07b3"
+
+[[files]]
+file = "config/loomrecipes/letter_X.lr"
+hash = "f2171dc5d2b0e044978618cb88aee6bef3bc807ddbeb6f06e0581a4a0a630147"
+
+[[files]]
+file = "config/loomrecipes/letter_Y.lr"
+hash = "edebf912c6b940fe3c7071cbc8893b2a28182cdac2ed091dff53c4fe14ba8724"
+
+[[files]]
+file = "config/loomrecipes/letter_Z.lr"
+hash = "87bf819facf3c3e59bb530be804a8e9ce05a2ded00b0fea52693592641c4997f"
+
+[[files]]
+file = "config/loomrecipes/mark_dot.lr"
+hash = "789f2153ca265e720588bc0f557d7feaf8cb89dc2a05961443711a5f39573265"
+
+[[files]]
+file = "config/loomrecipes/mark_exclam.lr"
+hash = "ee1ba96d6b17770c3be739ddb478cbd72b19ae08ce5fa4633eff922a902e891d"
+
+[[files]]
+file = "config/loomrecipes/mark_question.lr"
+hash = "2f9ab13e2bc2afd021981c94a11ead8d82c57fc74d2940443d26a8a8ea15abf7"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
+
+[[files]]
+file = "config/notenoughcrashes.json"
+hash = "8deed1a37e1d8b3741c5059ec8351ab8855ea44614ae22b2c377f9d3c7b34aaf"
+
+[[files]]
+file = "config/okzoomer.json5"
+hash = "e7e05a60ee978b45b069ec4f08c5ee98b21a33c6620f7af9946a2bdcaed297f5"
+
+[[files]]
+file = "config/origins_server.toml"
+hash = "3df326eacd3e957cdab0886143c8abc51884df8c875ef78f5f4e96a9889b6b53"
+
+[[files]]
+file = "config/power_config.json5"
+hash = "42a3b6aa1fee02a1f5d0b3adf58399d534312908ccc76cf21814275bc30a40ec"
+
+[[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "524701657cedb38afec111f0e7307d132d77d4d0585063f602aaa0614227a87c"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "62a95a6f12762d3424960d087df674ed0a448f45c3e51d6ffb913593bb2ecd15"
+
+[[files]]
+file = "config/quilt-loading-screen.json"
+hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
+
+[[files]]
+file = "config/resclone/config.json"
+hash = "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+
+[[files]]
+file = "config/resclone/urlCache.properties"
+hash = "e42e290d528d9234c9caa30831d23c4705c9a66cee74cfc0eb95d35adcbfcb2f"
+
+[[files]]
+file = "config/respackopts/_respackopts.conf"
+hash = "87fec59816cbda8a54106c09d4b48140d0a300c2ccfa4d6a67daa3187cdf1f91"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "1035d796adb1919ca82ffb1822bd8450897f0cd2f06d1f9a0f33f22292829461"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
+
+[[files]]
+file = "config/visuality.json"
+hash = "23c09a10eaa3047df54a8ce7d2a51163334e0033bf25782dcdf1898bb0acaa3f"
+
+[[files]]
+file = "config/yigd.toml"
+hash = "2cce48901b34ff5ba543132f61209e2fbd68fb669446dd86f542685ca75260cc"
 
 [[files]]
 file = "datapacks/VanillaTweaks_c806583.zip"
@@ -197,8 +493,16 @@ hash = "951f100ac6096250da0401124821957de3704b3c84001851c027ed1b282a65ba"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "b237649e9783585c703e20b162e9f91b9f6967c5e688b44f4e176a16f0f92162"
+
+[[files]]
 file = "resourcepacks/VanillaTweaks_r600813.zip"
 hash = "df14293eb4b299611115f58fdcd44e98ee03a4e18bafdf18a9b828a83809ab4a"
+
+[[files]]
+file = "servers.dat"
+hash = "486fc14cade8f116f745533891994bb37b461b5d3c9b6d1a6765d72eb441a150"
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.3.2.zip"
