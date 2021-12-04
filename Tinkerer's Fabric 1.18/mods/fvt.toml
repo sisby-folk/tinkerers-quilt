@@ -1,0 +1,13 @@
+name = "Flour's Various Tweaks"
+filename = "fvt-fabric-1.8.0-mc1.18.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TjrP0eTG/versions/v1.8.0-mc1.18/fvt-fabric-1.8.0-mc1.18.jar"
+hash-format = "sha512"
+hash = "d5ab67ad70467a2a721ff57b8232cbb8467ac84aaa90a29442d690bade2e2159dbb60c8599c03b47ea4646c7d05fdfd61b2f1dabe30cea6b6dc4a6a199bee955"
+
+[update]
+[update.modrinth]
+mod-id = "TjrP0eTG"
+version = "5cJ2WFCe"

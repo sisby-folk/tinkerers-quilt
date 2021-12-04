@@ -1,0 +1,13 @@
+name = "Mouse Tweaks"
+filename = "MouseTweaks-fabric-mc1.18-2.16.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3546/383/MouseTweaks-fabric-mc1.18-2.16.jar"
+hash-format = "murmur2"
+hash = "3228332734"
+
+[update]
+[update.curseforge]
+file-id = 3546383
+project-id = 60089

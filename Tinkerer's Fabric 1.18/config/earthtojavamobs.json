@@ -1,0 +1,513 @@
+{
+  "modWanderingTrader": {
+    "canSpawn": false,
+    "delay": 4,
+    "chance": 20,
+    "currencyItem": "earthtojavamobs:ruby"
+  },
+  "rubyOre": {
+    "canGenerate": false,
+    "topOffset": 0,
+    "bottomOffset": 0,
+    "count": 2,
+    "maximum": 8
+  },
+  "mudLakeConfig": {
+    "canGenerate": true,
+    "mudLakeFrequency": 25
+  },
+  "albinoCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills"
+    ]
+  },
+  "amberChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "desert",
+      "savanna"
+    ]
+  },
+  "ashenCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "extreme_hills"
+    ]
+  },
+  "boneSpider": {
+    "spawn": false,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "mesa"
+    ]
+  },
+  "boldStripedRabbit": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest",
+      "extreme_hills"
+    ]
+  },
+  "boulderingZombie": {
+    "spawn": false,
+    "weight": 15,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "extreme_hills"
+    ]
+  },
+  "bronzedChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains"
+    ]
+  },
+  "cluckshroom": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "mushroom"
+    ]
+  },
+  "cookieCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "taiga",
+      "extreme_hills"
+    ]
+  },
+  "creamCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest",
+      "jungle",
+      "savanna"
+    ]
+  },
+  "dairyCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest",
+      "jungle",
+      "extreme_hills"
+    ]
+  },
+  "fancyChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest"
+    ]
+  },
+  "fleckedSheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills",
+      "taiga",
+      "forest"
+    ]
+  },
+  "freckledRabbit": {
+    "spawn": true,
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "savanna",
+      "plains",
+      "forest",
+      "jungle"
+    ]
+  },
+  "fuzzySheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "savanna",
+      "plains",
+      "forest",
+      "jungle",
+      "forest"
+    ]
+  },
+  "glowSquid": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnHeight": {
+      "spawnHeightMin": 20,
+      "spawnHeightMax": 45
+    },
+    "spawnBiomes": [
+      "ocean",
+      "river",
+      "swamp"
+    ]
+  },
+  "goldCrestedChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills",
+      "forest",
+      "savanna"
+    ]
+  },
+  "harelequinRabbit": {
+    "spawn": true,
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains"
+    ]
+  },
+  "hornedSheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills"
+    ]
+  },
+  "inkySheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills"
+    ]
+  },
+  "jollyLlama": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "taiga",
+      "icy"
+    ]
+  },
+  "jumboRabbit": {
+    "spawn": true,
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains"
+    ]
+  },
+  "lobberZombie": {
+    "spawn": false,
+    "weight": 15,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "swamp"
+    ]
+  },
+  "longNosedSheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "savanna",
+      "desert"
+    ]
+  },
+  "midnightChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "forest",
+      "jungle"
+    ]
+  },
+  "moobloom": {
+    "spawn": false,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:flower_forest"
+    ]
+  },
+  "moolip": {
+    "spawn": false,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "minecraft:flower_forest"
+    ]
+  },
+  "mottledPig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills",
+      "forest"
+    ]
+  },
+  "muddyPig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills",
+      "river"
+    ]
+  },
+  "muddyFootRabbit": {
+    "spawn": true,
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains"
+    ]
+  },
+  "palePig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "taiga",
+      "icy"
+    ]
+  },
+  "patchedSheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills"
+    ]
+  },
+  "piebaldPig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "forest",
+      "plains",
+      "extreme_hills",
+      "taiga",
+      "savanna"
+    ]
+  },
+  "pinkFootedPig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest"
+    ]
+  },
+  "pintoCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "taiga",
+      "extreme_hills"
+    ]
+  },
+  "rainbowSheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest"
+    ]
+  },
+  "rockySheep": {
+    "spawn": true,
+    "weight": 12,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills"
+    ]
+  },
+  "skeletonWolf": {
+    "spawn": false,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "forest",
+      "taiga",
+      "mesa"
+    ]
+  },
+  "skewbaldChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "forest",
+      "jungle"
+    ]
+  },
+  "sootyPig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "jungle",
+      "savanna"
+    ]
+  },
+  "spottedPig": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "swamp"
+    ]
+  },
+  "stormyChicken": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains",
+      "extreme_hills",
+      "taiga"
+    ]
+  },
+  "sunsetCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "savanna"
+    ]
+  },
+  "tropicalSlime": {
+    "spawn": true,
+    "weight": 10,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "beach"
+    ]
+  },
+  "umbraCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "taiga",
+      "icy",
+      "extreme_hills"
+    ]
+  },
+  "vestedRabbit": {
+    "spawn": true,
+    "weight": 4,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "plains"
+    ]
+  },
+  "vilerWitch": {
+    "spawn": false,
+    "weight": 1,
+    "groupMin": 1,
+    "groupMax": 1,
+    "spawnBiomes": [
+      "swamp"
+    ]
+  },
+  "woolyCow": {
+    "spawn": true,
+    "weight": 8,
+    "groupMin": 2,
+    "groupMax": 4,
+    "spawnBiomes": [
+      "taiga"
+    ]
+  }
+}

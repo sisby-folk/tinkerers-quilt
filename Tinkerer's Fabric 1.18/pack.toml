@@ -1,13 +1,13 @@
 name = "Tinkerer's Fabric 1.18"
-author = "Tinkby"
+author = "Grey"
 version = "1.0.0"
 pack-format = "packwiz:1.0.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f17e72d3dd1ff57a8d4ecee42f2ec1b83a7e700a1feb182444ba4b77ca788c01"
+hash = "b3d58c069900419e5a878dd8584551b6f27f9995668ea348167e2cfe7d4c868f"
 
 [versions]
-fabric = "0.11.6"
-minecraft = "21w37a"
+fabric = "0.12.8"
+minecraft = "1.18"

@@ -1,0 +1,13 @@
+name = "LambdaControls"
+filename = "lambdacontrols-1.7.1+1.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W1D3UXEc/versions/1.7.1+1.17/lambdacontrols-1.7.1+1.17.jar"
+hash-format = "sha512"
+hash = "2b1820f0ab8a32ce6c202a639c13da5d34edc067658e90d5ab4be2502aebca2f2a43699e5729235128c3d12ffd41b865cea1a1a31d159d048d3d288e4cc5bbb8"
+
+[update]
+[update.modrinth]
+mod-id = "W1D3UXEc"
+version = "hJZ6lCyM"
