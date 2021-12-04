@@ -16,6 +16,11 @@ hash = "1dc74cad62eea96232cc197b3d1e54de4ae63f7e918e56371dd1613fe24b7355"
 metafile = true
 
 [[files]]
+file = "mods/architectury-fabric.toml"
+hash = "85fcebe729646abf8af1451dfe7feab6b062860cf9dc2e82f6f4536dea4487f6"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.toml"
 hash = "1533a9f950aee1feabc94605625910c42d0148c51b4388422f26e1640fd02047"
 metafile = true
