@@ -1,13 +1,13 @@
 name = "Sound Physics"
-filename = "soundphysics-0.5.0.jar"
+filename = "soundphysics-0.5.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Af0DueBa/versions/v0.5.0/soundphysics-0.5.0.jar"
+url = "https://cdn.modrinth.com/data/Af0DueBa/versions/v0.5.2/soundphysics-0.5.2.jar"
 hash-format = "sha512"
-hash = "f220a1eacdaed01a47b95b743ca72155864873c8c56f58cd19e446e2a6124e9e9c5b0436df820271cd1f2da6a8293a97941123b39bca64701dec993831764b7a"
+hash = "ef0fe2d299b806293d6be9bfb6f89ee6182626efb17d1000c9247c9d5f6ffb5977a88bc41dc38369e85a875b334f0d78f25e71710553838cbc0feb9e41f56c06"
 
 [update]
 [update.modrinth]
 mod-id = "Af0DueBa"
-version = "WaXAsRn8"
+version = "fUxVyBLC"
