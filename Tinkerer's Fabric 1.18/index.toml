@@ -236,6 +236,11 @@ hash = "55f39b31f37997e41e0578693103e50cebc79d4eee509801479cc50a75eeb347"
 metafile = true
 
 [[files]]
+file = "mods/soundphysics.toml"
+hash = "cf25d50d8e5c61529db49923f4beeb66931f8d7c2828de9057dfe46ac211a4fa"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.toml"
 hash = "dc1a8d61499956d206373f24798acd393b11199bf91873906b6f5164bf08f964"
 metafile = true
@@ -255,8 +260,8 @@ file = "options.txt"
 hash = "b237649e9783585c703e20b162e9f91b9f6967c5e688b44f4e176a16f0f92162"
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_r600813.zip"
-hash = "df14293eb4b299611115f58fdcd44e98ee03a4e18bafdf18a9b828a83809ab4a"
+file = "resourcepacks/VanillaTweaks_r121078.zip"
+hash = "4a01c321fa70a6a620dc2de29e13671a0668048a7c3959ba9ccbe778c4feb608"
 
 [[files]]
 file = "servers.dat"
