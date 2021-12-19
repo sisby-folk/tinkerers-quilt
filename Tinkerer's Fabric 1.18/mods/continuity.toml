@@ -1,0 +1,13 @@
+name = "Continuity"
+filename = "continuity-1.0.3+1.18.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1IjD5062/versions/1.0.3+1.18/continuity-1.0.3+1.18.jar"
+hash-format = "sha512"
+hash = "3c50271b487a05b7c7fb7f8a4c4537183ad8bb144f71037cb771ce76c11189541b4d4d1f61167d5837d6800fea6cb699672add78a5f2ecf804c207a4c4267632"
+
+[update]
+[update.modrinth]
+mod-id = "1IjD5062"
+version = "SffGs8Ro"
