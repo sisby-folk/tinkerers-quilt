@@ -81,8 +81,28 @@ hash = "1cd5f30cd826c92a345487d6c8111beed7d7dc6d87959676def4b244d5de6572"
 metafile = true
 
 [[files]]
+file = "mods/bclib.toml"
+hash = "86d9dbd60a8c3a67ff9a3e87ffe9dd3ff917f7d7804833a14967c51ba967cc37"
+metafile = true
+
+[[files]]
+file = "mods/beenfo.toml"
+hash = "d7c7fc33052275d2f741412dc40876b891401347790cf0fe7bcdf8e4f3db0dbf"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.toml"
 hash = "9ddffddaf686b62cac5299de0534bc913bd3957b2c2e16dfe0d2f6f5539c4ee4"
+metafile = true
+
+[[files]]
+file = "mods/betternether.toml"
+hash = "7b863847361c0dca526bff18f88a3d29c721a9e4ab66d1086ee36f557494e8e7"
+metafile = true
+
+[[files]]
+file = "mods/blast.toml"
+hash = "a4eefa92cc08b706ae57b0a5147d166c34d03c03a94ac7f3921d342ed023d86e"
 metafile = true
 
 [[files]]
@@ -121,6 +141,11 @@ hash = "31ac7e90238cee7ee04c0442ab8a3c2a8cf40f298cafb3f31118cbb36b2c4e4b"
 metafile = true
 
 [[files]]
+file = "mods/ears.toml"
+hash = "47b2e8aca7535ba92e5eb53adb420136f33e3a35eaea6a473af285b2ef6904eb"
+metafile = true
+
+[[files]]
 file = "mods/earth2java.toml"
 hash = "c055106f839eadbc32ff48fdc26620c81fb36526c796910edc6ca2cca05a6a6f"
 metafile = true
@@ -128,6 +153,16 @@ metafile = true
 [[files]]
 file = "mods/easiercrafting.toml"
 hash = "0f946c13155503a375132d8c73e1e50ee82c06e0e1da35b5aaa0da59a2769db1"
+metafile = true
+
+[[files]]
+file = "mods/ebe.toml"
+hash = "c58834af10ab46edeb4946b55f4d71cf9bced4d37aef0ee122a5a7e4e9e17153"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-attack-indicator.toml"
+hash = "9b1c918c59502179e032d1094bbd0749e67c2781e197ebac61228ca3b2183bd7"
 metafile = true
 
 [[files]]
@@ -148,6 +183,11 @@ metafile = true
 [[files]]
 file = "mods/fallingleaves.toml"
 hash = "78aadfae6568d528db5c8fd4e77cdb5c708e37c6303bb70cd50b1013fe99a185"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-fabric.toml"
+hash = "69164630b81dcb000fcf1d9a67e8158c2b70c60dd10c04c1b46e6156e43c886b"
 metafile = true
 
 [[files]]
