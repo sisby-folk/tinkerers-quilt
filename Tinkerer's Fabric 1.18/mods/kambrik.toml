@@ -1,0 +1,13 @@
+name = "Kambrik"
+filename = "Kambrik-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3532/109/Kambrik-3.0.0.jar"
+hash-format = "murmur2"
+hash = "1700822607"
+
+[update]
+[update.curseforge]
+file-id = 3532109
+project-id = 455585

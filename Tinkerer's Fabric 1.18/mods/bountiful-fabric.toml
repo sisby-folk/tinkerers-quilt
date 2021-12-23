@@ -1,0 +1,13 @@
+name = "Bountiful (Fabric)"
+filename = "BountifulFabric-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3532/889/BountifulFabric-2.0.1.jar"
+hash-format = "murmur2"
+hash = "3334168596"
+
+[update]
+[update.curseforge]
+file-id = 3532889
+project-id = 521673

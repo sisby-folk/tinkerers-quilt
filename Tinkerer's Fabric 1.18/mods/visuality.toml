@@ -1,13 +1,13 @@
-name = "Visuality"
+name = "Visuality [Fabric]"
 filename = "visuality-0.3.3-1.18-fabric.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rI0hvYcd/versions/0.3.3-1.18-fabric/visuality-0.3.3-1.18-fabric.jar"
-hash-format = "sha512"
-hash = "af70431baff0223110c3a82b2e833c5d7f1628e574fdc3dbec9c855c43a1a6ffd9a3fc92115244704426d6f9643566bc9050de1a43a77efaaffe3289eacb76c7"
+url = "https://edge.forgecdn.net/files/3543/841/visuality-0.3.3-1.18-fabric.jar"
+hash-format = "murmur2"
+hash = "3899203072"
 
 [update]
-[update.modrinth]
-mod-id = "rI0hvYcd"
-version = "HwPpVNWJ"
+[update.curseforge]
+file-id = 3543841
+project-id = 521126

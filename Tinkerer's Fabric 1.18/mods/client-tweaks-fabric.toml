@@ -1,0 +1,13 @@
+name = "Client Tweaks (Fabric Edition)"
+filename = "clienttweaks-fabric-1.18-7.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3549/496/clienttweaks-fabric-1.18-7.0.0.jar"
+hash-format = "murmur2"
+hash = "3974127195"
+
+[update]
+[update.curseforge]
+file-id = 3549496
+project-id = 547692

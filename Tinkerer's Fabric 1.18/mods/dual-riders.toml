@@ -1,0 +1,13 @@
+name = "Dual Riders"
+filename = "dual_riders-1.18.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3576/954/dual_riders-1.18.1-1.0.5.jar"
+hash-format = "murmur2"
+hash = "4152795745"
+
+[update]
+[update.curseforge]
+file-id = 3576954
+project-id = 435980

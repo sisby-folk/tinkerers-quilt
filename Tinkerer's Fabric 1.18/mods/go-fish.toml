@@ -1,0 +1,13 @@
+name = "Go Fish"
+filename = "go-fish-1.4.1-1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3561/290/go-fish-1.4.1-1.18.1.jar"
+hash-format = "murmur2"
+hash = "813421526"
+
+[update]
+[update.curseforge]
+file-id = 3561290
+project-id = 431135
