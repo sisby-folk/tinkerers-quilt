@@ -175,6 +175,11 @@ hash = "9303f6ef825ac9dac488d37017ed6ef9eec0572e0e87133eb4450de4182d7af2"
 metafile = true
 
 [[files]]
+file = "mods/dawn.toml"
+hash = "1d341cffda3caea9911882a8c4508bc0934fe93563a6dd3c158aaf20f9ade07c"
+metafile = true
+
+[[files]]
 file = "mods/dual-riders.toml"
 hash = "a3772c8f00c5085245b1d04c20b0a7c3b14bdf21f5fef322e877689c5d7bf804"
 metafile = true
