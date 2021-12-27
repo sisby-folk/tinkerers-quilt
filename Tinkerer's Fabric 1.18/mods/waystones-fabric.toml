@@ -1,0 +1,13 @@
+name = "Waystones (Fabric Edition)"
+filename = "waystones-fabric-1.18.1-9.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3558/792/waystones-fabric-1.18.1-9.0.1.jar"
+hash-format = "murmur2"
+hash = "2420828789"
+
+[update]
+[update.curseforge]
+file-id = 3558792
+project-id = 500087

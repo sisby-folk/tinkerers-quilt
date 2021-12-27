@@ -1,0 +1,13 @@
+name = "Data Loader Updated"
+filename = "data-loader-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3573/536/data-loader-1.0.0.jar"
+hash-format = "murmur2"
+hash = "4229007129"
+
+[update]
+[update.curseforge]
+file-id = 3573536
+project-id = 558571

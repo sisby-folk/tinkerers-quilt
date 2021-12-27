@@ -1,13 +1,13 @@
 name = "Consistency+"
-filename = "consistency_plus-0.4.2+1.17-fabric.jar"
+filename = "consistency_plus-0.4.3+1.18-fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nDHcEOt3/versions/0.4.2+1.17-Fabric/consistency_plus-0.4.2+1.17-fabric.jar"
+url = "https://cdn.modrinth.com/data/nDHcEOt3/versions/0.4.3+Fabric-1.18/consistency_plus-0.4.3+1.18-fabric.jar"
 hash-format = "sha512"
-hash = "91fb68bd44a357c2057655e46d3a4de2bace3491531ddb4189554edfacf613f2924a0c54ee2ce43509d0b94d16ffb106489c8810cffb71f39b5c7907a076c002"
+hash = "96621473a5b7d00ed1397fa13d0343e1b7aee14a5372d75441c78b935057febe9e6452a1afc985206943ec230d539d8b682e629560055962fd1e53fc74085ee7"
 
 [update]
 [update.modrinth]
 mod-id = "nDHcEOt3"
-version = "KZPVLjBO"
+version = "BMLpSyHg"

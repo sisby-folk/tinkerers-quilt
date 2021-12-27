@@ -1,13 +1,13 @@
 name = "Architectury API (Fabric)"
-filename = "architectury-3.2.57.jar"
+filename = "architectury-3.3.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3576/373/architectury-3.2.57.jar"
+url = "https://edge.forgecdn.net/files/3581/238/architectury-3.3.2.jar"
 hash-format = "murmur2"
-hash = "1668042498"
+hash = "3961390870"
 
 [update]
 [update.curseforge]
-file-id = 3576373
+file-id = 3581238
 project-id = 419697

@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/datapacks/VanillaTweaks_c806583.zip"
+hash = "3cb2244d18de104546983f7f983f7535f84241bf11a54fff50788414ef5695b2"
+
+[[files]]
+file = "config/datapacks/anti ghast grief v1.1.2.zip"
+hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
+
+[[files]]
+file = "config/datapacks/fast leaf decay v2.0.5.zip"
+hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
+
+[[files]]
 file = "config/earthtojavamobs.json"
 hash = "87b0260a1d99226c45d153a438a5877ff6bb32fe92eea4c4a49c71819c6a8ae5"
 
@@ -49,18 +61,6 @@ file = "config/yigd.toml"
 hash = "2cce48901b34ff5ba543132f61209e2fbd68fb669446dd86f542685ca75260cc"
 
 [[files]]
-file = "datapacks/VanillaTweaks_c806583.zip"
-hash = "3cb2244d18de104546983f7f983f7535f84241bf11a54fff50788414ef5695b2"
-
-[[files]]
-file = "datapacks/anti ghast grief v1.1.2.zip"
-hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
-
-[[files]]
-file = "datapacks/fast leaf decay v2.0.5.zip"
-hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
-
-[[files]]
 file = "mods/addadd.toml"
 hash = "60acef8379dd63512b73dbbfc5eb8bfbd5552e081b233e8e41dc04af72ece6cd"
 metafile = true
@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "2350cbc54a1becb05b8f196679d6cfbd80c364e2d7a379beb75ba8d0be3d69a2"
+hash = "2d36586b673f89daea0f09d82a3f3f31b59c385d56f995beb10e6af22e7be687"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/consistencyplus.toml"
-hash = "6c9ef3422269a5617fec2b2cb3fa2609f7597a2d0060d1171df958a215c82dc6"
+hash = "0cfc8bb9e8194b01b341efce4546fb82f50fc976ad34e8dea5becad8e5e3527b"
 metafile = true
 
 [[files]]
@@ -172,6 +172,11 @@ metafile = true
 [[files]]
 file = "mods/cull-leaves.toml"
 hash = "9303f6ef825ac9dac488d37017ed6ef9eec0572e0e87133eb4450de4182d7af2"
+metafile = true
+
+[[files]]
+file = "mods/data-loader-updated.toml"
+hash = "f69760d4f02383d6855a07ea0b4827afab81cc7853417b30da58331757c0f8db"
 metafile = true
 
 [[files]]
@@ -191,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/ears.toml"
-hash = "47b2e8aca7535ba92e5eb53adb420136f33e3a35eaea6a473af285b2ef6904eb"
+hash = "757169158a4be3d7ecf5e93a7b30c7f521ea2937ee7d36dc68ef57e436070eac"
 metafile = true
 
 [[files]]
@@ -211,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/effective.toml"
-hash = "f14e5ff3613049a5140d3c879e7df93a7a475e1c91c114d5fbef4a2f2e16aaba"
+hash = "bf12203d7923bcc1060bbec8aaab382ebb3df9fb11575dace8aa6b6a68125fe7"
 metafile = true
 
 [[files]]
@@ -246,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.toml"
-hash = "39081e9a3b0bb92a355fbd83335c834d891f5ecc1de2c8011ec9e260d44c9f19"
+hash = "ad6d0b81d0dc46189f83ceca1d3b362cf0f380934e718a773003a1490a574952"
 metafile = true
 
 [[files]]
@@ -280,6 +285,11 @@ hash = "d4beda34ea4d7c3544510d2615f28f193bdcc2c25253406dce157155971a4582"
 metafile = true
 
 [[files]]
+file = "mods/indium.toml"
+hash = "177d9e7706d685b7d8b8f964702aac4f9bd080687ee1496fc289f295056b8a23"
+metafile = true
+
+[[files]]
 file = "mods/inspecio.toml"
 hash = "bce6867f72621654ca3ca06cebec58ca7ecd3d0104a20dd97e83c1aab1f9c81a"
 metafile = true
@@ -292,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/kambrik.toml"
 hash = "e39d2fb6e9834ae31831820662e521eb1e225efb2140a2205a229818f17858d5"
+metafile = true
+
+[[files]]
+file = "mods/kiwi-fabric.toml"
+hash = "5a73f71d7ceac354140d0bd7e72eb44884e63748df612802de1d5e8e8888a80a"
 metafile = true
 
 [[files]]
@@ -336,7 +351,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughcrashes.toml"
-hash = "507fb6185c31ff0a3adf2669369ca32a832fd336fcf8019020d144ef064e855f"
+hash = "02834111fcc87805b3a2e5b03697635b0cbee7d8732a521d4d5595137c42ea80"
 metafile = true
 
 [[files]]
@@ -391,12 +406,17 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "93e3bcfaa398054a3f68c3d8937cf7e7b715876702ea906cf4ee1e493d911518"
+hash = "323d51fa4929b7192311a6d3f73586efa3066f332c4e525ae0a652a854454fb9"
 metafile = true
 
 [[files]]
 file = "mods/roughly-enough-resources.toml"
 hash = "d8ba22ad0ade6d2260eb5d2d10492fba2f1c8ecf32c5994cb1eaf2a515338bf4"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic-fabric.toml"
+hash = "39f2dd48ceacb9d903d63a5f23300f43df1d1f364cac0e4c8a8e7349009e605a"
 metafile = true
 
 [[files]]
@@ -425,6 +445,11 @@ hash = "9d9d32ba51d39e293be9557b47b9f777ef90bc81d9581b969e7cac3cf27a0359"
 metafile = true
 
 [[files]]
+file = "mods/towers-of-the-wild-reworked.toml"
+hash = "808878b9bd2817237b5bb37da3dcc416516ee604f5e94d402e6d580b3cdbec74"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.toml"
 hash = "dc1a8d61499956d206373f24798acd393b11199bf91873906b6f5164bf08f964"
 metafile = true
@@ -440,13 +465,18 @@ hash = "3126e44f05ac13dbfa6f5095c3bc5f86ea7970b3e8c874624cb674e973e206da"
 metafile = true
 
 [[files]]
+file = "mods/waystones-fabric.toml"
+hash = "c84fdb54d2b5ec0027929c75913fca771f9f98874df6d1501e2106f7498d5343"
+metafile = true
+
+[[files]]
 file = "mods/wthit.toml"
 hash = "b4083f6bb921553a48bb8b2f3f2ccc15c68c5d4cae40b055da389d2b32d76b20"
 metafile = true
 
 [[files]]
 file = "mods/yigd.toml"
-hash = "5be0139cdee0fd179deaed52d308d62970bf70f363167243bc59d250a36b838e"
+hash = "f02c9aad0cabf8be83110d92296a7c9a9f326ef2a8f96db9d02d0fc5de05fa3f"
 metafile = true
 
 [[files]]
