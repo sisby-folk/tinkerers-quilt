@@ -255,6 +255,11 @@ hash = "ad6d0b81d0dc46189f83ceca1d3b362cf0f380934e718a773003a1490a574952"
 metafile = true
 
 [[files]]
+file = "mods/fabrictailor.toml"
+hash = "8bf6ee51f1968cceeac373635a07f92815fcf0b6c480ad793da210bbc82894fe"
+metafile = true
+
+[[files]]
 file = "mods/fallingleaves.toml"
 hash = "78aadfae6568d528db5c8fd4e77cdb5c708e37c6303bb70cd50b1013fe99a185"
 metafile = true
