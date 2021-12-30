@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "beaskinencoded.png"
+hash = "4057291d88ce1761d03cd9293d2ceede12a98bb1b2ee9243307facf154276f4f"
+
+[[files]]
+file = "clawbskinencoded.png"
+hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
+
+[[files]]
 file = "config/datapacks/VanillaTweaks_c806583.zip"
 hash = "3cb2244d18de104546983f7f983f7535f84241bf11a54fff50788414ef5695b2"
 
@@ -59,6 +67,10 @@ hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 [[files]]
 file = "config/yigd.toml"
 hash = "2cce48901b34ff5ba543132f61209e2fbd68fb669446dd86f542685ca75260cc"
+
+[[files]]
+file = "hornbyskinencoded.png"
+hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
 
 [[files]]
 file = "mods/addadd.toml"
@@ -507,3 +519,7 @@ hash = "626ad03774494e077b82687d9fb3cda8de89e1e7b8ca66109f83da82b6c40455"
 [[files]]
 file = "shaderpacks/Sildur's+Enhanced+Default+v1.13+Fast.zip"
 hash = "9262dbadb2c9c0f475d35f4ef4b9ae04cc74277cae1dc1b1aeda46102e2432e3"
+
+[[files]]
+file = "tinkbyskinencode.png"
+hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
