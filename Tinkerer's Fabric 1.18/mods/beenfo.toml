@@ -1,13 +1,13 @@
 name = "Beenfo"
-filename = "beenfo-1.18-fabric0.43.1-1.3.3.jar"
+filename = "beenfo-1.18.1-fabric0.45.0-1.3.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Bta0Pt47/versions/1.18-fabric0.43.1-1.3.3/beenfo-1.18-fabric0.43.1-1.3.3.jar"
+url = "https://cdn.modrinth.com/data/Bta0Pt47/versions/1.18.1-fabric0.45.0-1.3.3/beenfo-1.18.1-fabric0.45.0-1.3.3.jar"
 hash-format = "sha512"
-hash = "d7682cda58fa8608d6e7c0c9d8bd699f30ccc1eb809741ebabcccd79880fdaa91a7b736651810d47a567b530d78ba5fecca0f6a2c1c00eba78ac6ef9e424bc14"
+hash = "e3a6972703f705153083907c46a94d025528c7a028235ed9cc6eaa3cddb2b9e7cc72e319f6dba265830d85da5e682b3faeacf993b9d498e2e3e659029ffceb30"
 
 [update]
 [update.modrinth]
 mod-id = "Bta0Pt47"
-version = "RF9cnx8k"
+version = "RHGSXGak"

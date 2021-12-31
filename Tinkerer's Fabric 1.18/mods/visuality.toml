@@ -1,13 +1,13 @@
 name = "Visuality [Fabric]"
-filename = "visuality-0.3.3-1.18-fabric.jar"
+filename = "visuality-0.4.0-1.18-fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3543/841/visuality-0.3.3-1.18-fabric.jar"
+url = "https://edge.forgecdn.net/files/3585/609/visuality-0.4.0-1.18-fabric.jar"
 hash-format = "murmur2"
-hash = "3899203072"
+hash = "1056300002"
 
 [update]
 [update.curseforge]
-file-id = 3543841
+file-id = 3585609
 project-id = 521126

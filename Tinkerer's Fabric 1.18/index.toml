@@ -1,11 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
-file = "beaskinencoded.png"
+file = "bea"
 hash = "4057291d88ce1761d03cd9293d2ceede12a98bb1b2ee9243307facf154276f4f"
 
 [[files]]
-file = "clawbskinencoded.png"
+file = "clawby"
 hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
 
 [[files]]
@@ -69,7 +69,7 @@ file = "config/yigd.toml"
 hash = "2cce48901b34ff5ba543132f61209e2fbd68fb669446dd86f542685ca75260cc"
 
 [[files]]
-file = "hornbyskinencoded.png"
+file = "hornby"
 hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
 
 [[files]]
@@ -103,22 +103,27 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "dc5608b76a7cde5e7d13841995b191678bcbe8158648108a8f7878b22920ccbc"
+hash = "201c1e17730f46051226ae92870a7ea89dffb096379fed3f7ad09c84ded2dfb4"
 metafile = true
 
 [[files]]
 file = "mods/balm-fabric.toml"
-hash = "160ca7be5abc827c485bfded6564556315aca5a3e75d64123471e7956774ffca"
+hash = "d1a1628cb3fd818b928bb06058958a7e603c27371efd87c101a67c46f0b44b26"
 metafile = true
 
 [[files]]
 file = "mods/bclib.toml"
-hash = "d5d82211a83544b65d33354f4ee8f143ea1fe8ff4168093fb7cd13dd865a2f3c"
+hash = "420c11472125f13e4b34e79499564b36d9698fa5f9f88fff23ef1badf199a811"
 metafile = true
 
 [[files]]
 file = "mods/beenfo.toml"
-hash = "d7c7fc33052275d2f741412dc40876b891401347790cf0fe7bcdf8e4f3db0dbf"
+hash = "09675fc928c5029c5fa0db9f6fa56ee8ada4c5b14de61588a8df60eb493f5084"
+metafile = true
+
+[[files]]
+file = "mods/betterend.toml"
+hash = "b876dede98e12eb7c5d357a116c1e402a830ef8f767ef19547693cbb3c681f77"
 metafile = true
 
 [[files]]
@@ -158,7 +163,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-tweaks-fabric.toml"
-hash = "b80cf8eb0e0fbb07e1761bc9f3e5b4413790be3354115e808cc06114d21d5eaa"
+hash = "73f5b049e67c2c83f4390f413b680953d27c08489b9efa268b09f9b463db581f"
 metafile = true
 
 [[files]]
@@ -208,7 +213,7 @@ metafile = true
 
 [[files]]
 file = "mods/ears.toml"
-hash = "757169158a4be3d7ecf5e93a7b30c7f521ea2937ee7d36dc68ef57e436070eac"
+hash = "a4900d7a30c74ab737bc42139f954514721849d0fe2bca8448136a88f362f42b"
 metafile = true
 
 [[files]]
@@ -243,7 +248,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-origins.toml"
-hash = "f6d003eccd0414d5c3216e6ee295103d1cd04fc1841ea741f1ca57e8e3e15d00"
+hash = "c57e62165e2b2b063e45926daee0c94804aa30f4c975485cf8fb0663a7d8d3bc"
 metafile = true
 
 [[files]]
@@ -398,7 +403,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.toml"
-hash = "a7cd730b256f590cad6e32b7fa6c2d52dd632c58fd87a7b4fe4d21f4377f10d8"
+hash = "fd1409e7804d658a0144b903be9db3304e7766c0d2f784d3222c211f53c58487"
 metafile = true
 
 [[files]]
@@ -433,7 +438,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-real-magic-fabric.toml"
-hash = "866b176244900c0fe40b527c6ace5dfb756c9d4f36fa294601ecfa6e941d4dbf"
+hash = "0c8858e6b0d485f308985f08bc6cc90d0ddcadd558de5d2443d0d2409df55197"
 metafile = true
 
 [[files]]
@@ -472,13 +477,18 @@ hash = "dc1a8d61499956d206373f24798acd393b11199bf91873906b6f5164bf08f964"
 metafile = true
 
 [[files]]
+file = "mods/universal-graves.toml"
+hash = "8c2670dd54b26789c6ffc70521eeb7720eb4cb7f5836d59a6392813dcf805703"
+metafile = true
+
+[[files]]
 file = "mods/universal_ores.toml"
 hash = "a596efb55b00b44aa9180dd89aacc574899f728ad7a01f8ce849cd3205f8c50a"
 metafile = true
 
 [[files]]
 file = "mods/visuality.toml"
-hash = "3126e44f05ac13dbfa6f5095c3bc5f86ea7970b3e8c874624cb674e973e206da"
+hash = "ec594cee3b75d7bd7497f235e431a87c98f87e138c4d137f61a916904727b4b8"
 metafile = true
 
 [[files]]
@@ -489,11 +499,6 @@ metafile = true
 [[files]]
 file = "mods/wthit.toml"
 hash = "b4083f6bb921553a48bb8b2f3f2ccc15c68c5d4cae40b055da389d2b32d76b20"
-metafile = true
-
-[[files]]
-file = "mods/yigd.toml"
-hash = "f02c9aad0cabf8be83110d92296a7c9a9f326ef2a8f96db9d02d0fc5de05fa3f"
 metafile = true
 
 [[files]]
@@ -521,5 +526,5 @@ file = "shaderpacks/Sildur's+Enhanced+Default+v1.13+Fast.zip"
 hash = "9262dbadb2c9c0f475d35f4ef4b9ae04cc74277cae1dc1b1aeda46102e2432e3"
 
 [[files]]
-file = "tinkbyskinencode.png"
+file = "tinkby"
 hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
