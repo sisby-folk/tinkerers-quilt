@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "201c1e17730f46051226ae92870a7ea89dffb096379fed3f7ad09c84ded2dfb4"
+hash = "5c87334b84ed36f60b1729c24daabf8975c2f1062bde04429c38d893c27da13b"
 metafile = true
 
 [[files]]
@@ -153,7 +153,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.toml"
-hash = "4bb58d967d9a940a6fba0e9155dbce5e4deed6a86ead3f913648ed64be570162"
+hash = "662c4290b6cb893f17754badc199be1069f435e3fda28ee4aed876892a465162"
 metafile = true
 
 [[files]]
@@ -419,6 +419,11 @@ metafile = true
 [[files]]
 file = "mods/quilt-loading-screen.toml"
 hash = "372dbd8b7394ee50d24298b092017689dbec5962658221d0bcc5ee492076d860"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.toml"
+hash = "1b13536a1c6ad0fae0bded3657f91146b157384b787b4f7c660ee33ab34c7178"
 metafile = true
 
 [[files]]
