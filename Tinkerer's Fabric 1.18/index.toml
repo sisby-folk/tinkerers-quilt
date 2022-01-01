@@ -427,6 +427,11 @@ hash = "1b13536a1c6ad0fae0bded3657f91146b157384b787b4f7c660ee33ab34c7178"
 metafile = true
 
 [[files]]
+file = "mods/removehud.toml"
+hash = "8995a9b8ecc7d462533443ff5c63380afd0e230bdc75dcbe3e84face37f35420"
+metafile = true
+
+[[files]]
 file = "mods/reroll.toml"
 hash = "90c1ca383d513365a1f0bf5601f3fc5b484dc4489ed4b7def4925f39643ad66f"
 metafile = true

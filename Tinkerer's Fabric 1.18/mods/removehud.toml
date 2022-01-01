@@ -1,0 +1,13 @@
+name = "Remove HUD But Not Hand"
+filename = "removehud-1.18.1-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/MiPOIx6b/versions/v1.2.0/removehud-1.18.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "74cd5118dd41029907b009a304bacb6be303d05ae42505f7c0b26316d99e7d618eb6e5571494b0bcbbbc5567c334a8d2354ac0088ccd2db85f207586b8b64ae2"
+
+[update]
+[update.modrinth]
+mod-id = "MiPOIx6b"
+version = "fXhn8pi5"
