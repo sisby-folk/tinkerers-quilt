@@ -1,0 +1,13 @@
+name = "Icarus"
+filename = "icarus-1.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dw7M6XKW/versions/1.9/icarus-1.9.jar"
+hash-format = "sha512"
+hash = "5e61878bee76140767fdf47021747ffb11788b2c4c1e6e67a826922297ac4525a474f4fa6474d560e18b16d9519a7f1dbcf28d8dd075933107db6b9948db7baf"
+
+[update]
+[update.modrinth]
+mod-id = "Dw7M6XKW"
+version = "xer5tIjB"

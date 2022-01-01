@@ -1,0 +1,13 @@
+name = "I Know What I'm Doing"
+filename = "IKnowWhatImDoing-4.0.0-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/S5ivha5X/versions/4.0.0-fabric/IKnowWhatImDoing-4.0.0-fabric.jar"
+hash-format = "sha512"
+hash = "176c0567cc7f5bd51a1f584540ef78a8000061f755049daaca981e23fb04682f150dfb60f2b76d6bee2efb3ad2e5d16c437d5d4a5bc9707b4593af62f01f7693"
+
+[update]
+[update.modrinth]
+mod-id = "S5ivha5X"
+version = "pzILffdn"

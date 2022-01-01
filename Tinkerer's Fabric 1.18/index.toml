@@ -302,6 +302,16 @@ hash = "0c251dac5f971df5513ba624dcb4b7bc3f2a2e83ed88edf57e1c56f2cf1393f6"
 metafile = true
 
 [[files]]
+file = "mods/i-know-what-im-doing.toml"
+hash = "bede0fb8bbff683baa05d4a50c5ebaf3cf7c401bc67feb8cf8597d57593e9d46"
+metafile = true
+
+[[files]]
+file = "mods/icarus.toml"
+hash = "409838030494b694ce34d858526cf0f3d7e9c0eef6e86c0123f657d1933226ae"
+metafile = true
+
+[[files]]
 file = "mods/illuminations.toml"
 hash = "d4beda34ea4d7c3544510d2615f28f193bdcc2c25253406dce157155971a4582"
 metafile = true
