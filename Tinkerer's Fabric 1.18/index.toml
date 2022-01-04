@@ -417,6 +417,11 @@ hash = "fd1409e7804d658a0144b903be9db3304e7766c0d2f784d3222c211f53c58487"
 metafile = true
 
 [[files]]
+file = "mods/puzzle.toml"
+hash = "d70b3e771211d0becd9442e02dceb2aca5f71d4c9d9c7317589b05ca8b621920"
+metafile = true
+
+[[files]]
 file = "mods/quilt-loading-screen.toml"
 hash = "372dbd8b7394ee50d24298b092017689dbec5962658221d0bcc5ee492076d860"
 metafile = true
