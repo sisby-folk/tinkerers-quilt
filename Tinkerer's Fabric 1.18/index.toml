@@ -393,6 +393,11 @@ hash = "490cf7564c6825e36933785196a6302c58f9d2658f60e2d2fb1f85ed112e36d1"
 metafile = true
 
 [[files]]
+file = "mods/mcwifipnp.toml"
+hash = "456428225dcdce63cc0dd0d68d8177840b1c11bba230c7d0385d34ad470e431b"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.toml"
 hash = "113730a58c9e46dbf8b17632baf1fbafe4e24ccbb8d8b3e9898bf3f5a38f435c"
 metafile = true
