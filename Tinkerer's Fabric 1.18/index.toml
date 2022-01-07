@@ -9,8 +9,8 @@ file = "clawby"
 hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
 
 [[files]]
-file = "config/datapacks/VanillaTweaks_c806583.zip"
-hash = "3cb2244d18de104546983f7f983f7535f84241bf11a54fff50788414ef5695b2"
+file = "config/datapacks/VanillaTweaks_c504077.zip"
+hash = "0acdc405c11294b55d950102c8fab7ed6a822112588af98594816ded60514150"
 
 [[files]]
 file = "config/datapacks/anti ghast grief v1.1.2.zip"
@@ -19,54 +19,6 @@ hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
 [[files]]
 file = "config/datapacks/fast leaf decay v2.0.5.zip"
 hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
-
-[[files]]
-file = "config/earthtojavamobs.json"
-hash = "87b0260a1d99226c45d153a438a5877ff6bb32fe92eea4c4a49c71819c6a8ae5"
-
-[[files]]
-file = "config/easiercrafting.json"
-hash = "5d1f30e349c19774e5361d9f9938a9896f1f896235f27f3896f4ff0cbe8a9bdd"
-
-[[files]]
-file = "config/fabrication/features.ini"
-hash = "61693cd889499eff7e13743e320ad1047eefbccb0da759b4ab5c124dc3781032"
-
-[[files]]
-file = "config/fvt/fvt.properties"
-hash = "f1481791af81845be32acf7777a4afef40ed9f7d9f5f6f7e6368fd1e78237687"
-
-[[files]]
-file = "config/iris.properties"
-hash = "73fc936f5e2cfcd1822a00ce944e1a2608a1be202aa7df8da799fba645a89a15"
-
-[[files]]
-file = "config/quilt-loading-screen.json"
-hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
-
-[[files]]
-file = "config/resclone/config.json"
-hash = "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
-
-[[files]]
-file = "config/resclone/urlCache.properties"
-hash = "e42e290d528d9234c9caa30831d23c4705c9a66cee74cfc0eb95d35adcbfcb2f"
-
-[[files]]
-file = "config/sodium-extra-options.json"
-hash = "1035d796adb1919ca82ffb1822bd8450897f0cd2f06d1f9a0f33f22292829461"
-
-[[files]]
-file = "config/sodium-mixins.properties"
-hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
-
-[[files]]
-file = "config/sodium-options.json"
-hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
-
-[[files]]
-file = "config/yigd.toml"
-hash = "2cce48901b34ff5ba543132f61209e2fbd68fb669446dd86f542685ca75260cc"
 
 [[files]]
 file = "hornby"
@@ -289,11 +241,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.toml"
 hash = "ee1384200c35fee039a2a6f95a62a7de25340cd831521a0a90ab82b94b36e951"
-metafile = true
-
-[[files]]
-file = "mods/fvt.toml"
-hash = "d0f5374e01537b8b8341ee8627607e4cc37d719235e00cc548102f1ba5c33356"
 metafile = true
 
 [[files]]
@@ -527,28 +474,32 @@ hash = "71dd5475b43b2125953efa9d9abd940299c6d663721646d79777b519cf714df9"
 metafile = true
 
 [[files]]
-file = "options.txt"
-hash = "b237649e9783585c703e20b162e9f91b9f6967c5e688b44f4e176a16f0f92162"
+file = "resourcepacks/VanillaTweaks_r818758.zip"
+hash = "ba8b1f853f7321027ed8309cb74a4239fd3eaf794e6d81432635daef8cc50ab2"
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_r121078.zip"
-hash = "4a01c321fa70a6a620dc2de29e13671a0668048a7c3959ba9ccbe778c4feb608"
+file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
+hash = "17dcb7e7144e14653029586edfb8cfb4bb9bec723b8dacfeb2301c46e89a4bcb"
 
 [[files]]
-file = "servers.dat"
-hash = "486fc14cade8f116f745533891994bb37b461b5d3c9b6d1a6765d72eb441a150"
+file = "shaderpacks/ComplementaryShaders_v4.3.3.zip"
+hash = "e47fb57d7acd74af4d3dcb622f6f8c94cac039efd2d826d7da56b12622656d1f"
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.3.2.zip"
-hash = "a10a038e683bc550e3131bf2ba43ed206958b95a038da8f0704844f0a275a9c0"
+file = "shaderpacks/Prismarine+V4.0a+[Rewrite+Stage+4].zip"
+hash = "ea47ce039b59854ff39693d4e6f83fb21cd209b0d4a2e8825039764a6219c819"
 
 [[files]]
-file = "shaderpacks/Sildur's+Enhanced+Default+v1.13+Fancy.zip"
-hash = "626ad03774494e077b82687d9fb3cda8de89e1e7b8ca66109f83da82b6c40455"
+file = "shaderpacks/RedHat_v33.0.zip"
+hash = "302ee9ddf069db29ee8f3fdcb70dcdacf21e608c0df37e3d01ae0f48d0147b10"
 
 [[files]]
-file = "shaderpacks/Sildur's+Enhanced+Default+v1.13+Fast.zip"
-hash = "9262dbadb2c9c0f475d35f4ef4b9ae04cc74277cae1dc1b1aeda46102e2432e3"
+file = "shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip"
+hash = "b98ec31ee7d1c779914b003236702fbd101faf136d22761ea7ed56dbd421c3ab"
+
+[[files]]
+file = "shaderpacks/Skylec_Shader_v.4.0.zip"
+hash = "fc8d4ee6e83b5ab589e61833927793e7d5b796a8afa6f119bd4ddf4f065a7b9a"
 
 [[files]]
 file = "tinkby"
