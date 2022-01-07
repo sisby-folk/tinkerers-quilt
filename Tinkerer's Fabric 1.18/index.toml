@@ -25,18 +25,8 @@ file = "hornby"
 hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
 
 [[files]]
-file = "mods/addadd.toml"
-hash = "60acef8379dd63512b73dbbfc5eb8bfbd5552e081b233e8e41dc04af72ece6cd"
-metafile = true
-
-[[files]]
 file = "mods/advancementinfo.toml"
 hash = "3038c49289bf9688d81e821d6f246e74b8ff17d155f6e354310c0fb095002644"
-metafile = true
-
-[[files]]
-file = "mods/advancements-enlarger.toml"
-hash = "2be72d6a4aaafb3237855823530a96a4edfd022873629422537c5a1031823879"
 metafile = true
 
 [[files]]
@@ -76,11 +66,6 @@ metafile = true
 [[files]]
 file = "mods/betterend.toml"
 hash = "b876dede98e12eb7c5d357a116c1e402a830ef8f767ef19547693cbb3c681f77"
-metafile = true
-
-[[files]]
-file = "mods/betterf3.toml"
-hash = "9ddffddaf686b62cac5299de0534bc913bd3957b2c2e16dfe0d2f6f5539c4ee4"
 metafile = true
 
 [[files]]
@@ -174,11 +159,6 @@ hash = "c055106f839eadbc32ff48fdc26620c81fb36526c796910edc6ca2cca05a6a6f"
 metafile = true
 
 [[files]]
-file = "mods/easiercrafting.toml"
-hash = "0f946c13155503a375132d8c73e1e50ee82c06e0e1da35b5aaa0da59a2769db1"
-metafile = true
-
-[[files]]
 file = "mods/ebe.toml"
 hash = "c58834af10ab46edeb4946b55f4d71cf9bced4d37aef0ee122a5a7e4e9e17153"
 metafile = true
@@ -246,16 +226,6 @@ metafile = true
 [[files]]
 file = "mods/go-fish.toml"
 hash = "0c251dac5f971df5513ba624dcb4b7bc3f2a2e83ed88edf57e1c56f2cf1393f6"
-metafile = true
-
-[[files]]
-file = "mods/i-know-what-im-doing.toml"
-hash = "bede0fb8bbff683baa05d4a50c5ebaf3cf7c401bc67feb8cf8597d57593e9d46"
-metafile = true
-
-[[files]]
-file = "mods/icarus.toml"
-hash = "409838030494b694ce34d858526cf0f3d7e9c0eef6e86c0123f657d1933226ae"
 metafile = true
 
 [[files]]
@@ -329,11 +299,6 @@ hash = "a1c38359daea0f1cf506400e0eba55de50f3f8a155cc685c41c6cb5d748730ff"
 metafile = true
 
 [[files]]
-file = "mods/notenoughcrashes.toml"
-hash = "02834111fcc87805b3a2e5b03697635b0cbee7d8732a521d4d5595137c42ea80"
-metafile = true
-
-[[files]]
 file = "mods/notes-fabric.toml"
 hash = "1518eb3d19314b9188421bc10837b575cfb72623fd2fba2ab9f29145dd4f3361"
 metafile = true
@@ -376,11 +341,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.toml"
 hash = "1b13536a1c6ad0fae0bded3657f91146b157384b787b4f7c660ee33ab34c7178"
-metafile = true
-
-[[files]]
-file = "mods/removehud.toml"
-hash = "8995a9b8ecc7d462533443ff5c63380afd0e230bdc75dcbe3e84face37f35420"
 metafile = true
 
 [[files]]
@@ -471,6 +431,11 @@ metafile = true
 [[files]]
 file = "mods/wthit.toml"
 hash = "71dd5475b43b2125953efa9d9abd940299c6d663721646d79777b519cf714df9"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.toml"
+hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
 metafile = true
 
 [[files]]
