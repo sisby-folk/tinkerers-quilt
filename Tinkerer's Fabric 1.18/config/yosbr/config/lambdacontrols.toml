@@ -1,0 +1,126 @@
+# LambdaControls configuration.
+# The controls mode. Available modes: default, controller, touchscreen
+controls = "default"
+# Debug mode
+debug = false
+# Auto switch mode.
+auto_switch_mode = false
+
+# Controller settings
+[controller]
+	max_value_0 = 1.0
+	# Virtual mouse skin
+	virtual_mouse_skin = "default_light"
+	# Allow unfocused input.
+	unfocused_input = false
+	# Controller's type.
+	type = "default"
+	max_value_2 = 1.0
+	# Mouse speed in GUI.
+	mouse_speed = 30.0
+	max_value_1 = 1.0
+	# Rotation speed for look directions.
+	rotation_speed = 10.0
+	# Inverts the right Y axis.
+	invert_right_y_axis = false
+	max_value_3 = 1.0
+	# Inverts the right X axis.
+	invert_right_x_axis = false
+	# Second controller to use.
+	id2 = -1
+	# Virtual mouse.
+	virtual_mouse = false
+	# Controller to use.
+	id = 0
+	right_dead_zone = 0.2
+	left_dead_zone = 0.25
+
+	# Controller controls.
+	[controller.controls]
+		# Drop item control.
+		drop_item = "1"
+		# Use control.
+		use = "104"
+		# Left slot control.
+		slot_left = "14"
+		# Sprint control.
+		sprint = "9"
+		# Back control.
+		back = "201"
+		# Take screenshot control.
+		screenshot = "11+0"
+		# Inventory control.
+		inventory = "3"
+		# Show player list control.
+		player_list = "6"
+		# Attack control.
+		attack = "105"
+		# Pick block control.
+		pick_block = "14"
+		# Sneak control.
+		sneak = "10"
+		# Toggle perspective control.
+		toggle_perspective = "11+3"
+		# Jump control.
+		jump = "0"
+		# Toggle smooth camera control.
+		toggle_smooth_camera = "-1"
+		# Swap hands control.
+		swap_hands = "2"
+		# Forward control.
+		forward = "101"
+		# Hot-bar left control.
+		hotbar_left = "4"
+		# Zoom control.
+		zoom = "11+2"
+		# Right movement control.
+		right = "100"
+		# Down slot control.
+		slot_down = "13"
+		# Switch to next tab control.
+		tab_next = "5"
+		# Pause game control.
+		pause_game = "7"
+		# Left movement control.
+		left = "200"
+		# Open chat control.
+		chat = "12"
+		# Up slot control.
+		slot_up = "11"
+		# Hot-bar right control.
+		hotbar_right = "5"
+		# Switch to back tab control.
+		tab_back = "4"
+		# Right slot control.
+		slot_right = "12"
+
+[hud]
+	# Dertermines where the movements buttons are.
+	side = "left"
+	# Enables the HUD.
+	enable = true
+
+# Gameplay settings
+[gameplay]
+	# Enables fast block placing like in Bedrock Edition.
+	fast_block_placing = true
+	# Enables analogic movement if possible.
+	analog_movement = true
+
+	# Fly behaviors
+	[gameplay.fly]
+		# Enables vertical fly drifting.
+		vertical_drifting = true
+		# Enables fly drifting.
+		drifting = false
+
+	[gameplay.reacharound]
+		# Enables front block placing like in Bedrock Edition.
+		horizontal = true
+		# Enables front block placing outline.
+		outline = true
+		# Enables vertical reacharound.
+		vertical = true
+		# The color in a hexadecimal format of the outline.
+		outline_color = "#ffffff66"
+

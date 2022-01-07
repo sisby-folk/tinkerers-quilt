@@ -9,6 +9,46 @@ file = "clawby"
 hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
 
 [[files]]
+file = "config/advancementinfo.json5"
+hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
+
+[[files]]
+file = "config/antiqueatlas.json5"
+hash = "45f0aa19fe87548ecbe530301735dd3c399fc7ed3c76c1f53cc28b7b47dbea69"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
+
+[[files]]
+file = "config/beenfo.json"
+hash = "7454ba9e8a9ebcaadf4de64b1bb1856ef8a3dede69b9549f676acf9cb228fc0b"
+
+[[files]]
+file = "config/betternether/blocks.json"
+hash = "8d5fc0ba5efc7b329e72eaf49c32df337db35fe8f9cf792cae4c97bf2a729685"
+
+[[files]]
+file = "config/betternether/generator.json"
+hash = "ccb46d923ef7df2f45ab7eef3f65359a35bb38ca2a0f968a07a7c0d5eacdfd0d"
+
+[[files]]
+file = "config/betternether/items.json"
+hash = "fd1f13298e2c04efbcb42f088f59bfc2498d807dac1b52d290978941652790b7"
+
+[[files]]
+file = "config/betternether/main.json"
+hash = "6d4f1aa22a4c974936e5e6924d644f1755fd995a87092e99e113bdd494371f02"
+
+[[files]]
+file = "config/betternether/mobs.json"
+hash = "31dd19cf5684f35ac66d1365bac809306cb6a7c20e5be8412805a9628a14eb99"
+
+[[files]]
+file = "config/betternether/recipes.json"
+hash = "fc1a8f46e71b001df990b472310345525c98a5adae40b011e75f00f81bae5ed8"
+
+[[files]]
 file = "config/datapacks/VanillaTweaks_c504077.zip"
 hash = "0acdc405c11294b55d950102c8fab7ed6a822112588af98594816ded60514150"
 
@@ -19,6 +59,74 @@ hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
 [[files]]
 file = "config/datapacks/fast leaf decay v2.0.5.zip"
 hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
+
+[[files]]
+file = "config/earthtojavamobs.json"
+hash = "31163c33fa7ebe1b4be357cc5c3f62f04b68115d9093e6da20f9529dcd93781f"
+
+[[files]]
+file = "config/fabrication/features.ini"
+hash = "61693cd889499eff7e13743e320ad1047eefbccb0da759b4ab5c124dc3781032"
+
+[[files]]
+file = "config/illuminations.properties"
+hash = "eb83172a366fc27bf19ea64db8bd8130255ae402dead5c311f7791f2a5878d7d"
+
+[[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "4ad2bc274fc46da9c2dd48083e6cb25206a4fea13a11112e94671af80647e87c"
+
+[[files]]
+file = "config/puzzle.json"
+hash = "bb01300b4751c873564043902f371896adf024a2cf8bed3b67be074b74ed8dc9"
+
+[[files]]
+file = "config/quilt-loading-screen.json"
+hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
+
+[[files]]
+file = "config/waystones.toml"
+hash = "86bdae1794f1b121e3e0e47044e93870281d5cd39fa1eb58d2f606c7687bff3d"
+
+[[files]]
+file = "config/yosbr/config/clienttweaks.toml"
+hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
+
+[[files]]
+file = "config/yosbr/config/lambdacontrols.toml"
+hash = "c3ec3a4759eebb1215b425190cd7260022da55c5dca6b35a04ecec959aa4b3f8"
+
+[[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "2e9d0c1348c35c9555f3e0355fe95f29bd27b5f4c73e3fa46577df2654745061"
+
+[[files]]
+file = "config/yosbr/config/roughlyenoughitems/config.json5"
+hash = "7785c0f0fe2695229b7249a163c64b838366427b11e2873a69396376bb6aabdb"
+
+[[files]]
+file = "config/yosbr/config/sodium-extra-options.json"
+hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
+
+[[files]]
+file = "config/yosbr/config/sodium-mixins.properties"
+hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
+
+[[files]]
+file = "config/yosbr/config/sodium-options.json"
+hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "677126f6eba75b778ea9641a74193b48f7aacefce99ee1159d559726e0797175"
+
+[[files]]
+file = "config/yosbr/servers.dat"
+hash = "7249998a2e1a8f45f612c23ebc81c6c8bd6882c7efcea89e7b696e449643ae5c"
 
 [[files]]
 file = "hornby"
@@ -76,11 +184,6 @@ metafile = true
 [[files]]
 file = "mods/blast.toml"
 hash = "a4eefa92cc08b706ae57b0a5147d166c34d03c03a94ac7f3921d342ed023d86e"
-metafile = true
-
-[[files]]
-file = "mods/bountiful-fabric.toml"
-hash = "cfef23bb4d24b8d5019556770374b22c0a5865bdc5e959ef034209ff6d2d3c99"
 metafile = true
 
 [[files]]
@@ -244,14 +347,8 @@ hash = "fff5e781b15e25c4c56f81b3d5082311058b529ddf63cc81880a29f4c50f5827"
 metafile = true
 
 [[files]]
-file = "mods/iris.toml"
-hash = "6b18c57be576f939b657db7c0a02477ca1867b192846cc272b2e79be26698cc1"
-metafile = true
-
-[[files]]
-file = "mods/kambrik.toml"
-hash = "bf33fa0a2b955200e734ebab0c67c27f8db11a1828bbf8c46b21457ac95936f3"
-metafile = true
+file = "mods/iris-mc1.18.1-1.2.0-prerev.fffb90d-dirty.jar"
+hash = "9238a6bbd9b21bf41f1818e033efc485f8264145e607ac8e7daf684d8d13e8ba"
 
 [[files]]
 file = "mods/kiwi-fabric.toml"
@@ -346,16 +443,6 @@ metafile = true
 [[files]]
 file = "mods/reroll.toml"
 hash = "90c1ca383d513365a1f0bf5601f3fc5b484dc4489ed4b7def4925f39643ad66f"
-metafile = true
-
-[[files]]
-file = "mods/resclone.toml"
-hash = "5a2487b8284ea1a6e6140f1d293e1d4f89717b9f8308bb5b136cb83f857fa71a"
-metafile = true
-
-[[files]]
-file = "mods/respackopts.toml"
-hash = "27bc95c0cc6c5c077d98ca52c9ad9b7561ba4f98f53f50f8c5ed9af420d0ff40"
 metafile = true
 
 [[files]]
