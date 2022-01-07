@@ -121,8 +121,20 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
 [[files]]
+file = "config/yosbr/config/waila/blacklist.json"
+hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
+
+[[files]]
+file = "config/yosbr/config/waila/waila.json"
+hash = "a53a0f0c0c3c4b0ddae72dd02c20f6bf8b69c149b290de45881a615bc2d45fd6"
+
+[[files]]
+file = "config/yosbr/config/waila/waila_plugins.json"
+hash = "c59e56099a0ace24113aa7756b46f58fcb43024d915179c064c93a0c197df33a"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "677126f6eba75b778ea9641a74193b48f7aacefce99ee1159d559726e0797175"
+hash = "b1fe6414c3c67c3a55694eac27ec464dc637195a9a95d72f603c46b0c69abca9"
 
 [[files]]
 file = "config/yosbr/servers.dat"
