@@ -1,0 +1,13 @@
+name = "Patchouli (Fabric)"
+filename = "Patchouli-1.18.1-64-FABRIC.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3594/392/Patchouli-1.18.1-64-FABRIC.jar"
+hash-format = "murmur2"
+hash = "3500237163"
+
+[update]
+[update.curseforge]
+file-id = 3594392
+project-id = 393236

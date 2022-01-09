@@ -49,18 +49,6 @@ file = "config/betternether/recipes.json"
 hash = "fc1a8f46e71b001df990b472310345525c98a5adae40b011e75f00f81bae5ed8"
 
 [[files]]
-file = "config/datapacks/VanillaTweaks_c504077.zip"
-hash = "0acdc405c11294b55d950102c8fab7ed6a822112588af98594816ded60514150"
-
-[[files]]
-file = "config/datapacks/anti ghast grief v1.1.2.zip"
-hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
-
-[[files]]
-file = "config/datapacks/fast leaf decay v2.0.5.zip"
-hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
-
-[[files]]
 file = "config/earthtojavamobs.json"
 hash = "31163c33fa7ebe1b4be357cc5c3f62f04b68115d9093e6da20f9529dcd93781f"
 
@@ -71,6 +59,22 @@ hash = "61693cd889499eff7e13743e320ad1047eefbccb0da759b4ab5c124dc3781032"
 [[files]]
 file = "config/illuminations.properties"
 hash = "eb83172a366fc27bf19ea64db8bd8130255ae402dead5c311f7791f2a5878d7d"
+
+[[files]]
+file = "config/openloader/data/VanillaTweaks_c504077.zip"
+hash = "0acdc405c11294b55d950102c8fab7ed6a822112588af98594816ded60514150"
+
+[[files]]
+file = "config/openloader/data/anti ghast grief v1.1.2.zip"
+hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
+
+[[files]]
+file = "config/openloader/data/fast leaf decay v2.0.5.zip"
+hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
+
+[[files]]
+file = "config/openloader/resources/VanillaTweaks_r818758.zip"
+hash = "ba8b1f853f7321027ed8309cb74a4239fd3eaf794e6d81432635daef8cc50ab2"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -155,6 +159,11 @@ hash = "0dc200fa927b1e4b2d7d055efe6009be3fb891f4dcfe3770515a01d46ccd9823"
 metafile = true
 
 [[files]]
+file = "mods/amplified-nether.toml"
+hash = "2222401134fb27a9086e997ff1ad8b4787eb9e4938e646391f4c410d9d460dc4"
+metafile = true
+
+[[files]]
 file = "mods/antiqueatlas-6.2.0-fabric-mc1.18.1.jar"
 hash = "6f1c2964c8332ee8c4b7cd4d9fd2198a9e605adb8bcb4d9623478fb875319cb7"
 
@@ -199,6 +208,11 @@ hash = "a4eefa92cc08b706ae57b0a5147d166c34d03c03a94ac7f3921d342ed023d86e"
 metafile = true
 
 [[files]]
+file = "mods/botania-fabric.toml"
+hash = "34c570df2f540503e6bd8fee4e0f1020c4c2651380e4970aeb43375070d47b27"
+metafile = true
+
+[[files]]
 file = "mods/chalk.toml"
 hash = "3d8044b465d3e65f50666700a4ba391dc7b49dbfdb39e76a2b7461628629b77b"
 metafile = true
@@ -206,6 +220,11 @@ metafile = true
 [[files]]
 file = "mods/cit-resewn.toml"
 hash = "662c4290b6cb893f17754badc199be1069f435e3fda28ee4aed876892a465162"
+metafile = true
+
+[[files]]
+file = "mods/clean-f3.toml"
+hash = "c534f65a51e4a07ba7684ddc797eefa2b48b9b8d32a639abec0ca774baac398c"
 metafile = true
 
 [[files]]
@@ -241,11 +260,6 @@ metafile = true
 [[files]]
 file = "mods/cull-leaves.toml"
 hash = "9303f6ef825ac9dac488d37017ed6ef9eec0572e0e87133eb4450de4182d7af2"
-metafile = true
-
-[[files]]
-file = "mods/data-loader-updated.toml"
-hash = "f69760d4f02383d6855a07ea0b4827afab81cc7853417b30da58331757c0f8db"
 metafile = true
 
 [[files]]
@@ -311,6 +325,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.toml"
 hash = "7f4996fc7ac9367f157cbd94ac9b4601225279d457df78f66941a157e8592eb0"
+metafile = true
+
+[[files]]
+file = "mods/fabric-seasons.toml"
+hash = "3fdd6aa2ef59ee2ca773a51c5ac83d6cfc66f10293b1f58cbc9191bbdb992d2c"
 metafile = true
 
 [[files]]
@@ -433,6 +452,11 @@ hash = "35896238f01852acacb531ac15ab855452fe0c767a59ef3ca31861f511033225"
 metafile = true
 
 [[files]]
+file = "mods/patchouli-fabric.toml"
+hash = "0fe48729e9ef6e97753ca84ad59e87960b1d1440a00f6803ade27069a06bb43b"
+metafile = true
+
+[[files]]
 file = "mods/pehkui.toml"
 hash = "ac52fdf6db9fb9a99fe1768f54f0fbef094540422d23620f48a907458f02aff4"
 metafile = true
@@ -541,10 +565,6 @@ metafile = true
 file = "mods/yosbr.toml"
 hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
 metafile = true
-
-[[files]]
-file = "resourcepacks/VanillaTweaks_r818758.zip"
-hash = "ba8b1f853f7321027ed8309cb74a4239fd3eaf794e6d81432635daef8cc50ab2"
 
 [[files]]
 file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
