@@ -293,11 +293,6 @@ hash = "c58834af10ab46edeb4946b55f4d71cf9bced4d37aef0ee122a5a7e4e9e17153"
 metafile = true
 
 [[files]]
-file = "mods/effective.toml"
-hash = "bf12203d7923bcc1060bbec8aaab382ebb3df9fb11575dace8aa6b6a68125fe7"
-metafile = true
-
-[[files]]
 file = "mods/enhanced-attack-indicator.toml"
 hash = "9b1c918c59502179e032d1094bbd0749e67c2781e197ebac61228ca3b2183bd7"
 metafile = true
