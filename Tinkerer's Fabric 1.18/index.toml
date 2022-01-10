@@ -374,7 +374,7 @@ metafile = true
 
 [[files]]
 file = "mods/inspecio.toml"
-hash = "fff5e781b15e25c4c56f81b3d5082311058b529ddf63cc81880a29f4c50f5827"
+hash = "fefbb071ac416bf6da0bfa991d3e39336892f73b8b4758b8f39df3019b34ab86"
 metafile = true
 
 [[files]]
@@ -442,6 +442,11 @@ hash = "b7ac708769978f4b8e1176ab7b5c83b2213c4edae3c5aeced6a480ce6f401535"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.toml"
+hash = "a685f73418951dbadd8f8c56f79c00027496f1affbba662f5f1d6b75e875f735"
+metafile = true
+
+[[files]]
 file = "mods/origins-classes.toml"
 hash = "79a188fae92de723cd8ee6ebd6645ed069ec23eb21103128ca4b3d8013322c67"
 metafile = true
@@ -468,7 +473,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.toml"
-hash = "d70b3e771211d0becd9442e02dceb2aca5f71d4c9d9c7317589b05ca8b621920"
+hash = "4a7581b733f58a5188e2dbd0bd6098150c9639cde672a9ed2febcc9087895259"
 metafile = true
 
 [[files]]
