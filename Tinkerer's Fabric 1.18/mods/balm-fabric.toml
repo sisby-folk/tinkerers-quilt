@@ -1,13 +1,13 @@
 name = "Balm (Fabric Edition)"
-filename = "balm-fabric-2.4.0+0.jar"
+filename = "balm-fabric-2.4.1+0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3584/834/balm-fabric-2.4.0+0.jar"
+url = "https://edge.forgecdn.net/files/3606/151/balm-fabric-2.4.1+0.jar"
 hash-format = "murmur2"
-hash = "2943482516"
+hash = "277662906"
 
 [update]
 [update.curseforge]
-file-id = 3584834
+file-id = 3606151
 project-id = 500525

@@ -1,13 +1,13 @@
 name = "Fabric Tailor"
-filename = "fabrictailor-1.7.3.jar"
+filename = "fabrictailor-1.8.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/g8w1NapE/versions/1.7.3/fabrictailor-1.7.3.jar"
+url = "https://cdn.modrinth.com/data/g8w1NapE/versions/1.8.0/fabrictailor-1.8.0.jar"
 hash-format = "sha512"
-hash = "5b1bfd4ac3180ee0b4c2914a7523872a8f9e86287f28af0a3e930889fe12c59a448aaccb32f7c3c933126ff38af43f6b5d99429b68779127bde2b110dce53ba0"
+hash = "7b0a9ce44b753f8adff09dc6b0d43b86faca95c4f67746c9fb67a657a83f675bd600be3b32f07ed343a5f60c2b3c8195f0872ea84fda8a088f174ccd7026b162"
 
 [update]
 [update.modrinth]
 mod-id = "g8w1NapE"
-version = "BKPOV03q"
+version = "s0W061rZ"
