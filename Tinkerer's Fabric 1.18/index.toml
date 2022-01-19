@@ -377,8 +377,9 @@ file = "mods/inventorytabs-0.4.2-1.18.1.jar"
 hash = "9bca14d7a7820ebd5eea6dbf1a2959dc1b05db6779cd5cf0aa5f5421a3caf182"
 
 [[files]]
-file = "mods/iris-mc1.18.1-1.2.0-prerev.fffb90d-dirty.jar"
-hash = "9238a6bbd9b21bf41f1818e033efc485f8264145e607ac8e7daf684d8d13e8ba"
+file = "mods/iris.toml"
+hash = "86de763b5496190c776b15871c109ecddf64f4a8f9c2d611e689d9976dd359e3"
+metafile = true
 
 [[files]]
 file = "mods/kiwi-fabric.toml"
