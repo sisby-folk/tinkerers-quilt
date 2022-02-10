@@ -1,14 +1,14 @@
 name = "Environmental"
-filename = "environmental-1.16.5-1.0.0.jar"
+filename = "environmental-1.16.5-1.1.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3221/635/environmental-1.16.5-1.0.0.jar"
+url = "https://edge.forgecdn.net/files/3561/534/environmental-1.16.5-1.1.1.jar"
 hash-format = "murmur2"
-hash = "3974166663"
+hash = "1343392408"
 
 [update]
 [update.curseforge]
-file-id = 3221635
+file-id = 3561534
 project-id = 388992
 release-channel = "beta"

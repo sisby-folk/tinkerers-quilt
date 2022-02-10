@@ -1,14 +1,14 @@
 name = "Enchantment Descriptions"
-filename = "EnchantmentDescriptions-1.16.5-7.0.14.jar"
+filename = "EnchantmentDescriptions-1.16.5-7.0.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3363/585/EnchantmentDescriptions-1.16.5-7.0.14.jar"
+url = "https://edge.forgecdn.net/files/3566/132/EnchantmentDescriptions-1.16.5-7.0.18.jar"
 hash-format = "murmur2"
-hash = "1267835223"
+hash = "1805165402"
 
 [update]
 [update.curseforge]
-file-id = 3363585
+file-id = 3566132
 project-id = 250419
 release-channel = "beta"

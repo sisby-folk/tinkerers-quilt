@@ -1,14 +1,14 @@
 name = "Controlling"
-filename = "Controlling-7.0.0.23.jar"
+filename = "Controlling-7.0.0.28.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3348/514/Controlling-7.0.0.23.jar"
+url = "https://edge.forgecdn.net/files/3531/453/Controlling-7.0.0.28.jar"
 hash-format = "murmur2"
-hash = "1724968788"
+hash = "3120290373"
 
 [update]
 [update.curseforge]
-file-id = 3348514
+file-id = 3531453
 project-id = 250398
 release-channel = "beta"
