@@ -1,16 +1,16 @@
 name = "Sodium + Iris Shaders"
-filename = "iris-mc1.16.5-1.1.1.jar"
+filename = "iris-mc1.16.5-1.2.0-pre.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/YL57xq9U/versions/mc1.16.5-v1.1.1/iris-mc1.16.5-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/YL57xq9U/versions/1.16.x/v1.2.0/iris-mc1.16.5-1.2.0-pre.jar"
 hash-format = "sha512"
-hash = "a2e6b52c16d42750b19f0dda93a94235df15a8c4ec061866585a4ca4899c2b5caedce30b5af4bb41eb7df7cb6a958d82ff9502c508756ea8e40f0cc23e03c34e"
+hash = "22ed7ca2f6431c91a9e9d67258ab56556fc97ce628ad3818b3fb9294da0050aaaefb7bb192720e4ab1107e1c37636b4817d38c4ac8e20827fa6361e9fe4367db"
 
 [update]
 [update.modrinth]
 mod-id = "YL57xq9U"
-version = "AosvzXCO"
+version = "TzYtPcBt"
 
 [option]
 optional = true

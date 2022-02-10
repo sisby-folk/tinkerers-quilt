@@ -11,9 +11,3 @@ hash = "c2abb988a3a5f6a487c26f65ea80c3c7d5830dc9f1078b2e00f8dd07727c9b9287de6900
 [update.modrinth]
 mod-id = "Orvt0mRa"
 version = "Zk2jPxcx"
-
-[option]
-default = true
-description = "[Requires Sodium] Improves Compatibility"
-optional = true
-
