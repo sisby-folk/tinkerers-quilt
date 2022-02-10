@@ -1,13 +1,13 @@
 name = "Extra Origins"
-filename = "extraorigins-1.18-7.jar"
+filename = "extraorigins-1.18-8.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3621/547/extraorigins-1.18-7.jar"
+url = "https://edge.forgecdn.net/files/3636/445/extraorigins-1.18-8.jar"
 hash-format = "murmur2"
-hash = "1256313924"
+hash = "267996699"
 
 [update]
 [update.curseforge]
-file-id = 3621547
+file-id = 3636445
 project-id = 398419
