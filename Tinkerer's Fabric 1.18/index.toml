@@ -174,17 +174,17 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "95ededcb5f4b95bd68c42d4c43b7b051e29238d6b3bb6d8b4a92a4341135a1de"
+hash = "8669954f0a3a7573db472acb7335b88e8d0d61cd83488a8b558619114ee331f3"
 metafile = true
 
 [[files]]
 file = "mods/balm-fabric.toml"
-hash = "4520fc3c1966dd15bedf15fb4facdbf3b80d60727962be6cdc6c5f72584eb14a"
+hash = "fabff8ff2bb0df530143c293f0668472dedaee244c4700e04185729b7aa15b26"
 metafile = true
 
 [[files]]
 file = "mods/bclib.toml"
-hash = "3c4a089a21f404794571596170971821e4725de03e0ea722c4f89283472777f6"
+hash = "653f78fd7aa922217b73ff91a0e77e2434d59227cd279d35de9f3be8eb16b0eb"
 metafile = true
 
 [[files]]
@@ -209,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania-fabric.toml"
-hash = "34c570df2f540503e6bd8fee4e0f1020c4c2651380e4970aeb43375070d47b27"
+hash = "3af301c78c1747afe44f5016ab448bb1e83a8ef917c5635f40750c87c2dfc352"
 metafile = true
 
 [[files]]
@@ -249,7 +249,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.toml"
-hash = "4d3086d640c86bf3625ce9067d02d9ed586d23ff6bd3398655fd2fbfdce83de6"
+hash = "006a14c972eaeaea050b9e4e0d024f8782c2fe44e5f7a502eb392e9aa7793bae"
 metafile = true
 
 [[files]]
@@ -304,7 +304,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-origins.toml"
-hash = "85b87eef73e9762506994905c228ea90ee923ef0fb2ada3d92ff7daa67e1b001"
+hash = "5850f0d0a69f7534b858c95ff5f0f394cf2a42f0888b61fe9625f46ba0f86ebd"
 metafile = true
 
 [[files]]
@@ -349,7 +349,12 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.toml"
-hash = "6c4c39000e6ef4c4996244f26ad34217dd7e4f69f76ae2086f3818de640d885a"
+hash = "3590b0046a05328fa8f4f3d499be14514002d8658879b600b5e2a46f60f85783"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port-fabric.toml"
+hash = "16460cf6b9527d4ba6c2f66e7518f60fed71cabf5833dd8152f965930f5bd139"
 metafile = true
 
 [[files]]
@@ -408,12 +413,17 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.toml"
-hash = "490cf7564c6825e36933785196a6302c58f9d2658f60e2d2fb1f85ed112e36d1"
+hash = "3fba2888b45044b8e058b6be4ffd8fe1241eace50004b76b6576dd5e78843a5a"
 metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.toml"
 hash = "456428225dcdce63cc0dd0d68d8177840b1c11bba230c7d0385d34ad470e431b"
+metafile = true
+
+[[files]]
+file = "mods/mod-settings.toml"
+hash = "886f4c2fc96c52fc2b899bf50b82ab5701767f9691129274eb3cb88adf91a652"
 metafile = true
 
 [[files]]
@@ -423,7 +433,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.toml"
-hash = "c2dffe8da35f12e88f9a7094f631823ed2ae1fc0c7c4d9d7f32bf6e5bc8187b5"
+hash = "3b22fd93a757f999f11eddd22debd55c3bbebb3ed1978f3854039b6574b7a041"
 metafile = true
 
 [[files]]
@@ -467,6 +477,11 @@ hash = "ac52fdf6db9fb9a99fe1768f54f0fbef094540422d23620f48a907458f02aff4"
 metafile = true
 
 [[files]]
+file = "mods/pick-up-notifier-fabric.toml"
+hash = "c0d52e842953a285544dc13e124ffee1cf261a1fa3fdcc19728424a466ed660a"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.toml"
 hash = "fd1409e7804d658a0144b903be9db3304e7766c0d2f784d3222c211f53c58487"
 metafile = true
@@ -474,6 +489,11 @@ metafile = true
 [[files]]
 file = "mods/puzzle.toml"
 hash = "4a7581b733f58a5188e2dbd0bd6098150c9639cde672a9ed2febcc9087895259"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib-fabric.toml"
+hash = "e6e44da3781afb388ebdfbe7cdb7d09d5c264adce12875656192fd45b7717b1b"
 metafile = true
 
 [[files]]
@@ -493,12 +513,12 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "1e3965e82f0f22a9f50c263a806415d1182371a708432d841287c485acf7af13"
+hash = "df0dae75ea001f08aee698df84b74f9b83ce9e70982232549789db38ea6cb8c8"
 metafile = true
 
 [[files]]
 file = "mods/roughly-enough-resources.toml"
-hash = "e1a508b8711771c301eb07b410a6880c9da0e5a584b041aa03a3e18aefc12876"
+hash = "2e67219f8f002ce762154f3e9e2174c0d0cf77ece08991361295657e78cae9f5"
 metafile = true
 
 [[files]]
@@ -508,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.toml"
-hash = "8c95fbf4fa91da74a1375e6ec69a1a3dfc25fc2a033da9be618d1e97d6619c18"
+hash = "695c23257beaf0fc6eb2945c84b4fb840c876b10dd36a2ee21cbe2a88d477329"
 metafile = true
 
 [[files]]
@@ -529,6 +549,11 @@ metafile = true
 [[files]]
 file = "mods/stoneholm.toml"
 hash = "47322552c7d9b4873a031e6e4561bc502be78af4a4f201c6d2ea398845bcb19d"
+metafile = true
+
+[[files]]
+file = "mods/terralith.toml"
+hash = "ed80424cac5fad9b781d68405efb285121391a7032185ccdbc34d1556bb20341"
 metafile = true
 
 [[files]]
@@ -553,12 +578,12 @@ metafile = true
 
 [[files]]
 file = "mods/visuality.toml"
-hash = "ec594cee3b75d7bd7497f235e431a87c98f87e138c4d137f61a916904727b4b8"
+hash = "141861d63977c780911ab3b258f04257ecf7ee16c29a472480d513521bad64db"
 metafile = true
 
 [[files]]
 file = "mods/waystones-fabric.toml"
-hash = "62077bbd68064ad0a7a47b0babdf8ddb9ee0558432f4df0e195db4d22c747ce1"
+hash = "f398fc533b83e103da91fd3f47324eca204a9b0d494f46594a6fd31646bc9b9c"
 metafile = true
 
 [[files]]

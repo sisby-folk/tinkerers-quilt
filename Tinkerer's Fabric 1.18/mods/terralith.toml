@@ -1,0 +1,13 @@
+name = "Terralith 2.0 ~ Overworld Evolved"
+filename = "Terralith_v2.0.12_Fabric+Forge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3606/78/Terralith_v2.0.12_Fabric+Forge.jar"
+hash-format = "murmur2"
+hash = "1425685143"
+
+[update]
+[update.curseforge]
+file-id = 3606078
+project-id = 513688
