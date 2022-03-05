@@ -174,7 +174,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "8669954f0a3a7573db472acb7335b88e8d0d61cd83488a8b558619114ee331f3"
+hash = "ffbaf2c501e3b3c1cc279b29b205eb04a5f79dcd4891cd584b6e00c5c082dc9f"
 metafile = true
 
 [[files]]
@@ -209,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania-fabric.toml"
-hash = "3af301c78c1747afe44f5016ab448bb1e83a8ef917c5635f40750c87c2dfc352"
+hash = "8761bfd3814ef69a56130ebdda90d9de1cb9072175dc45b4f087d3260738ec05"
 metafile = true
 
 [[files]]
@@ -234,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-tweaks-fabric.toml"
-hash = "73f5b049e67c2c83f4390f413b680953d27c08489b9efa268b09f9b463db581f"
+hash = "c69148f925958977bebc4d634f64d8ae12f592104d0f22bea11d52883d373c03"
 metafile = true
 
 [[files]]
@@ -309,7 +309,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "da62be08037c326851ea1443be7532120dc09b24aac93144120126717d6813d1"
+hash = "70e570f8897a9dbe737e13e4f627fc746ddc52562ea7ff9cae35bacc5600f481"
 metafile = true
 
 [[files]]
@@ -369,12 +369,17 @@ metafile = true
 
 [[files]]
 file = "mods/indium.toml"
-hash = "89f5ed5d28ea532046afeb96cb51ec7e450729e2e201011706cc0612a7d18c49"
+hash = "e0df87d5222af05343a3432bae50faf773df9b78f82a00f183d66b10524ad0a3"
 metafile = true
 
 [[files]]
 file = "mods/inspecio.toml"
 hash = "fefbb071ac416bf6da0bfa991d3e39336892f73b8b4758b8f39df3019b34ab86"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tabs-updated.toml"
+hash = "a571f51b7975e2a34996cdd3e8ca589e2c12fff33c15c18ba21692757761ad21"
 metafile = true
 
 [[files]]
@@ -393,7 +398,7 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.toml"
-hash = "ffa430c24d8d6862b804c483a9070340fd3a89f858f8a5869b715534a06a04de"
+hash = "492ccef1b220ed135344c864959b560fcedb53a40d2c828af92c2ad59d873512"
 metafile = true
 
 [[files]]
@@ -418,7 +423,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.toml"
-hash = "456428225dcdce63cc0dd0d68d8177840b1c11bba230c7d0385d34ad470e431b"
+hash = "a022f0fa7e5656e6cf21ff805d6d00bb2d01a242372a92511691089cd87eaea0"
 metafile = true
 
 [[files]]
@@ -493,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib-fabric.toml"
-hash = "e6e44da3781afb388ebdfbe7cdb7d09d5c264adce12875656192fd45b7717b1b"
+hash = "732944b28372c683a6fd076290d14e3622b823796865cb866c1b46e2a941b4dc"
 metafile = true
 
 [[files]]
@@ -513,7 +518,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "df0dae75ea001f08aee698df84b74f9b83ce9e70982232549789db38ea6cb8c8"
+hash = "53d54d60234c39fcda6ff212e3b9eadaaf622d04bd3f3cadf86aec42daeff922"
 metafile = true
 
 [[files]]
@@ -558,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/towers-of-the-wild-reworked.toml"
-hash = "88518b9672cea49c02cc665bf299148d03f047fecaa1e624f062064afdaaf973"
+hash = "c97e42fad3ce372d2153384a0ec447c408bb3d863e175e46b6a2f38c13f4c7cf"
 metafile = true
 
 [[files]]
@@ -568,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal-graves.toml"
-hash = "461328a804e98523c827c31ebb981219b8e0ce17b7b404287dc7550919a9efc1"
+hash = "687018b8dc9669a0a9ea51a5c4aae21eebe47d099b7170b245cc8725479a21e2"
 metafile = true
 
 [[files]]
@@ -588,7 +593,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.toml"
-hash = "dac34129a01190d3a87015aa96f6ab65c175afe1a4e0224f02619a259de2d1ff"
+hash = "b72faa65a24166092664ace874c5a0b3ace10444804b22b8bf340bf9e4aaaefc"
 metafile = true
 
 [[files]]
