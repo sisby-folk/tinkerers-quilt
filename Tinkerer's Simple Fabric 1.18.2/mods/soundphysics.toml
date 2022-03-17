@@ -1,0 +1,13 @@
+name = "Sound Physics"
+filename = "soundphysics-0.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Af0DueBa/versions/0.5.5/soundphysics-0.5.5.jar"
+hash-format = "sha512"
+hash = "37f256477202075a6cb5fab26f6a5b5f298cdda4a8755cf064caeac76bcf44c4f777ac31fb7117f15c4bf3917c7f5eea0b2b60251717225f7eba37496d4c547b"
+
+[update]
+[update.modrinth]
+mod-id = "Af0DueBa"
+version = "abVPABOF"

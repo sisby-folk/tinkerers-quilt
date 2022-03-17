@@ -1,0 +1,16 @@
+name = "Tinkerer's Simple-Fabric 1.18.2"
+author = "Tinkby"
+version = "1.0.0"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d8ceb21a98283187cb7c8358fb873f77a9ab2d0241f47c22c5425139879532b1"
+
+[versions]
+fabric = "0.13.3"
+minecraft = "1.18.2"
+
+[options]
+acceptable-game-versions = ["1.18", "1.18.1", "1.18.2"]
