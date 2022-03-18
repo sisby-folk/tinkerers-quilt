@@ -102,11 +102,6 @@ hash = "58d28456989f3cbaffe63b02e89373b436432b5f10743b7b171da8178e56b0ba"
 metafile = true
 
 [[files]]
-file = "mods/cit-resewn.toml"
-hash = "4c4a87a05ed89f6a0a99b2783c9c4e9dfdaef462fed8ff88bd73d27da73d4ed5"
-metafile = true
-
-[[files]]
 file = "mods/cleancut.toml"
 hash = "0b4442cfc298e15261c9dfd17baab7e869c5201fc61ca81d739e1cf9ce9052a6"
 metafile = true
@@ -142,11 +137,6 @@ hash = "c3775741edc094735abe1882c84031e0793a2456666624e6440034f1376db72b"
 metafile = true
 
 [[files]]
-file = "mods/ebe.toml"
-hash = "c58834af10ab46edeb4946b55f4d71cf9bced4d37aef0ee122a5a7e4e9e17153"
-metafile = true
-
-[[files]]
 file = "mods/enhanced-attack-indicator.toml"
 hash = "9b1c918c59502179e032d1094bbd0749e67c2781e197ebac61228ca3b2183bd7"
 metafile = true
@@ -154,11 +144,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-api.toml"
 hash = "59cedfbefe7c2657cdd674e3559235fbfcc16217266a6f70515c39c15b141f6c"
-metafile = true
-
-[[files]]
-file = "mods/fabrication.toml"
-hash = "ad6d0b81d0dc46189f83ceca1d3b362cf0f380934e718a773003a1490a574952"
 metafile = true
 
 [[files]]
@@ -174,11 +159,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.toml"
 hash = "263be2d355829560e28a8f8600de3beb98eec20d4f03b0ac78504991b947371c"
-metafile = true
-
-[[files]]
-file = "mods/illuminations.toml"
-hash = "d4beda34ea4d7c3544510d2615f28f193bdcc2c25253406dce157155971a4582"
 metafile = true
 
 [[files]]
@@ -224,6 +204,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.toml"
 hash = "64a4b886ff13e45a06ae3714f4ec3fd5c15a1a4e0573df1cdfa35d673eec45ad"
+metafile = true
+
+[[files]]
+file = "mods/mcwifipnp.toml"
+hash = "a022f0fa7e5656e6cf21ff805d6d00bb2d01a242372a92511691089cd87eaea0"
 metafile = true
 
 [[files]]
@@ -292,11 +277,6 @@ hash = "0c83c344046d0b96fd7dcd9e5c98c44caa3d307126d502f202dba50855304fb9"
 metafile = true
 
 [[files]]
-file = "mods/soundphysics.toml"
-hash = "602a8fc947cfb9af560a1428dd33903eaa019cb94fb5eaa9f30b56cca04c23c9"
-metafile = true
-
-[[files]]
 file = "mods/starlight.toml"
 hash = "ab37bb833d205f015f036157645e05a61c837b7e1f9e0132bfa8a6b14c8064a6"
 metafile = true
@@ -305,6 +285,10 @@ metafile = true
 file = "mods/yosbr.toml"
 hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
 metafile = true
+
+[[files]]
+file = "removed.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
