@@ -18,7 +18,7 @@ hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
 
 [[files]]
 file = "config/charm.toml"
-hash = "70bbb572d5e462e86cfe371e7ac25dd4f971994b1caa518a67e078902b4dc607"
+hash = "c1fc50b86b5d5e3751efd9f94102509f430d0c99cc1b6851b081b8abe99bd672"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -254,7 +254,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-loader.toml"
-hash = "47ea2edcce7fbcb93cc5ee0d89e224e8c33ec6a9c44def23856a1f5b93b02aec"
+hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
 metafile = true
 
 [[files]]
@@ -304,7 +304,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "285521caaca117798430f2f5487c5439be8425625060146b32f968e26bf98055"
 
 [[files]]
 file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"

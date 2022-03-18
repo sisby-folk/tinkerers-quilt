@@ -7,7 +7,7 @@
 #Storage for maps that automatically updates the displayed map as you explore.
 "Atlases Enabled" = false
 #Refills your hotbar from your inventory.
-"AutoRestock Enabled" = true
+"AutoRestock Enabled" = false
 #Unlocks all vanilla recipes.
 "AutomaticRecipeUnlock Enabled" = false
 #Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.
@@ -67,7 +67,7 @@
 #Armor returns a single ingot, leather or diamond when used on the grindstone.
 "GrindableArmor Enabled" = true
 #Scroll the mouse while hovering over a bundle or shulker box to change the order of its contents.
-"HoverSorting Enabled" = true
+"HoverSorting Enabled" = false
 #A husk has a chance to drop sand when killed.
 "HusksDropSand Enabled" = true
 #Husks spawn anywhere within their biome rather than just the surface.
@@ -145,7 +145,7 @@
 #Drag and drop items into a shulkerbox from within your inventory.
 "ShulkerBoxDragDrop Enabled" = true
 #A shulker box's contents is shown in the item tooltip when hovering over.
-"ShulkerBoxTooltip Enabled" = true
+"ShulkerBoxTooltip Enabled" = false
 #Increases snow layers when snowing in cold biomes
 "SnowAccumulation Enabled" = true
 #Allows enchanted books to stack.
