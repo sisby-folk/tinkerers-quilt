@@ -1,13 +1,13 @@
 name = "Pick Up Notifier [Fabric]"
-filename = "PickUpNotifier-v3.1.0-1.18.1-Fabric.jar"
+filename = "PickUpNotifier-v3.2.0-1.18.2-Fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3562/317/PickUpNotifier-v3.1.0-1.18.1-Fabric.jar"
+url = "https://edge.forgecdn.net/files/3671/362/PickUpNotifier-v3.2.0-1.18.2-Fabric.jar"
 hash-format = "murmur2"
-hash = "78555904"
+hash = "3967806529"
 
 [update]
 [update.curseforge]
-file-id = 3562317
+file-id = 3671362
 project-id = 547474

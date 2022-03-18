@@ -1,13 +1,13 @@
 name = "Ambient Environment"
-filename = "AmbientEnvironment-fabric-1.18.1-7.0+17.jar"
+filename = "AmbientEnvironment-fabric-1.18.2-7.0+18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3616/315/AmbientEnvironment-fabric-1.18.1-7.0+17.jar"
+url = "https://edge.forgecdn.net/files/3669/307/AmbientEnvironment-fabric-1.18.2-7.0+18.jar"
 hash-format = "murmur2"
-hash = "2701939276"
+hash = "2742428267"
 
 [update]
 [update.curseforge]
-file-id = 3616315
+file-id = 3669307
 project-id = 320163

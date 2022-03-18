@@ -1,13 +1,13 @@
 name = "Couplings"
-filename = "Couplings-1.7.1+1.18.jar"
+filename = "Couplings-1.8.0+1.18.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3554/499/Couplings-1.7.1+1.18.jar"
+url = "https://edge.forgecdn.net/files/3684/132/Couplings-1.8.0+1.18.2.jar"
 hash-format = "murmur2"
-hash = "2417305744"
+hash = "1234881294"
 
 [update]
 [update.curseforge]
-file-id = 3554499
+file-id = 3684132
 project-id = 311120

@@ -1,13 +1,13 @@
 name = "BetterEnd"
-filename = "better-end-1.0.2.jar"
+filename = "better-end-1.0.3.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3636/291/better-end-1.0.2.jar"
+url = "https://edge.forgecdn.net/files/3680/606/better-end-1.0.3.jar"
 hash-format = "murmur2"
-hash = "2415918512"
+hash = "2615005261"
 
 [update]
 [update.curseforge]
-file-id = 3636291
+file-id = 3680606
 project-id = 413596

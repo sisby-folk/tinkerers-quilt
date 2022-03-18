@@ -1,13 +1,13 @@
 name = "Amplified Nether"
-filename = "Amplifier Nether 1.0.1 ~ Fabric.jar"
+filename = "Amplified_Nether_v1.1.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3550/743/Amplifier Nether 1.0.1 ~ Fabric.jar"
+url = "https://edge.forgecdn.net/files/3683/373/Amplified_Nether_v1.1.1.jar"
 hash-format = "murmur2"
-hash = "3525982706"
+hash = "934511485"
 
 [update]
 [update.curseforge]
-file-id = 3550743
+file-id = 3683373
 project-id = 552176

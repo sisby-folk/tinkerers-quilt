@@ -1,13 +1,13 @@
 name = "Earth2Java"
-filename = "Earth2Java-1.7.4+1.18.jar"
+filename = "Earth2Java-1.8.0+1.18.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/D2Q91keW/versions/1.7.4/Earth2Java-1.7.4+1.18.jar"
+url = "https://cdn.modrinth.com/data/D2Q91keW/versions/1.8.0/Earth2Java-1.8.0%2B1.18.2.jar"
 hash-format = "sha512"
-hash = "50ea9fbdf668253bd00c47ba0351b3ffc15e4160f4c8943a7723b766403b0929593c523c5964cfbeda5d7fb020f73895fc9ec7849ad4cd410b9a8971a7ba7c6b"
+hash = "185ebeca4b08d181c24afce88b874697ebe144bb8c745059113c0ccade1b929ac5584544cabb0ea615364f960a8e2f74ce07d9d1ee8ea0c92b8c4c719f9c79ac"
 
 [update]
 [update.modrinth]
 mod-id = "D2Q91keW"
-version = "2QdYJgMl"
+version = "CaBSGdlJ"

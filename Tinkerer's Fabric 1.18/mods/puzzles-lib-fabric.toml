@@ -1,13 +1,13 @@
 name = "Puzzles Lib [Fabric]"
-filename = "PuzzlesLib-v3.2.1-1.18.1-Fabric.jar"
+filename = "PuzzlesLib-v3.3.1-1.18.2-Fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3662/348/PuzzlesLib-v3.2.1-1.18.1-Fabric.jar"
+url = "https://edge.forgecdn.net/files/3671/283/PuzzlesLib-v3.3.1-1.18.2-Fabric.jar"
 hash-format = "murmur2"
-hash = "3256787219"
+hash = "3611887319"
 
 [update]
 [update.curseforge]
-file-id = 3662348
+file-id = 3671283
 project-id = 547429

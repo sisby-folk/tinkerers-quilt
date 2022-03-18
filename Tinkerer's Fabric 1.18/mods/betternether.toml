@@ -1,13 +1,13 @@
 name = "BetterNether"
-filename = "better-nether-6.0.10.jar"
+filename = "better-nether-6.0.11.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3636/290/better-nether-6.0.10.jar"
+url = "https://edge.forgecdn.net/files/3680/568/better-nether-6.0.11.jar"
 hash-format = "murmur2"
-hash = "2405044414"
+hash = "2003865269"
 
 [update]
 [update.curseforge]
-file-id = 3636290
+file-id = 3680568
 project-id = 311377
