@@ -237,6 +237,11 @@ hash = "10fe275dec07aef824f1adbdfdf45d29f1451f89216c57b65e5efc2c9edaaeb1"
 metafile = true
 
 [[files]]
+file = "mods/notenoughcrashes.toml"
+hash = "11bc71ee9a75a7b4d1c10f0c61a3f18f88e21aa92bc750e00bb879be2c3a209a"
+metafile = true
+
+[[files]]
 file = "mods/notes-fabric.toml"
 hash = "23da50b9d19bb340c58ede1007d7d885127add854e6d13312c5d43887fd38104"
 metafile = true
