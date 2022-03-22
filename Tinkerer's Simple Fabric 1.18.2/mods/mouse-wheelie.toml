@@ -1,13 +1,13 @@
 name = "Mouse Wheelie"
-filename = "mousewheelie-1.8.3+mc1.18.2.jar"
+filename = "mousewheelie-1.8.5+mc1.18-pre5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/u5Ic2U1u/versions/1.8.3+mc1.18.2/mousewheelie-1.8.3%2Bmc1.18.2.jar"
+url = "https://cdn.modrinth.com/data/u5Ic2U1u/versions/1.8.5+mc1.18-pre5/mousewheelie-1.8.5%2Bmc1.18-pre5.jar"
 hash-format = "sha512"
-hash = "42e3a96460af83742f05906b047425c46045299382d09ba0a6948ef7f9289deed4fcb5b4f58d43ebae2575da45d2bc8222a996afc76aa0f2b3ad042c2758ab47"
+hash = "34a0724985065463d3f735ebab1b7a1cedad9cb8a5886769e94b2bbe75d09232ea9b827d264bf4e05d6b5afe0673676a37ca3d6dd4396a38ae9fd41f85b3a353"
 
 [update]
 [update.modrinth]
 mod-id = "u5Ic2U1u"
-version = "NTpvjLr2"
+version = "7hY6TItH"

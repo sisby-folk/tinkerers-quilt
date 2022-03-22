@@ -22,7 +22,7 @@ hash = "c1fc50b86b5d5e3751efd9f94102509f430d0c99cc1b6851b081b8abe99bd672"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "61693cd889499eff7e13743e320ad1047eefbccb0da759b4ab5c124dc3781032"
+hash = "1e011e8b3e358fe8f3f29af2d5a61aad432c3a61f8575acdbd36cdc1100f5c13"
 
 [[files]]
 file = "config/illuminations.properties"
@@ -109,7 +109,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "75dbf362cb9b4c641d76a95094e572bfedf793da1df7825b55c89980b2f93024"
+hash = "58ae007df3eab90aed2684db6a0f2ba2d7c59b1e431a8d3e8c70a06eae5683b5"
 metafile = true
 
 [[files]]
@@ -120,6 +120,11 @@ metafile = true
 [[files]]
 file = "mods/charm.toml"
 hash = "ea33987a3fb814fda6bbee0b05317771aefcd5fa851a4176f23abb5608f48092"
+metafile = true
+
+[[files]]
+file = "mods/cit-resewn.toml"
+hash = "03e734343ae43cadbf86e972990933f75342e4a3046956c9e4871fef1ddb6bee"
 metafile = true
 
 [[files]]
@@ -163,8 +168,12 @@ hash = "59cedfbefe7c2657cdd674e3559235fbfcc16217266a6f70515c39c15b141f6c"
 metafile = true
 
 [[files]]
+file = "mods/fabrication-1.18.2-2.3.1-exp2.jar"
+hash = "41f205f56ee4cb9d8f7c623028b7d505f59fdfb22ac254cb7ca8832bdfd3d9e3"
+
+[[files]]
 file = "mods/fabrictailor.toml"
-hash = "4c8fc6be81b6399520bd8aeca8c5db94955a2b0e8bbe7743b8f4d19afc8c1f09"
+hash = "9b5679daab5116fea795c21499be95d977d2c16d67890a32eee832bb25b9e133"
 metafile = true
 
 [[files]]
@@ -180,11 +189,6 @@ metafile = true
 [[files]]
 file = "mods/indium.toml"
 hash = "7215a34a544194eecb37e9bdfd9664edf21ac991f5a7b19c661e033975fe735f"
-metafile = true
-
-[[files]]
-file = "mods/inspecio.toml"
-hash = "74d53dfcdbf226640db096722c7ffe685d9185aa13654fd4f33c87074a5ddea8"
 metafile = true
 
 [[files]]
@@ -234,7 +238,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.toml"
-hash = "10fe275dec07aef824f1adbdfdf45d29f1451f89216c57b65e5efc2c9edaaeb1"
+hash = "7d4d66ef532eab2ae0c2e068f9b132c5f0c744fab9396936941d4121a529e9ea"
 metafile = true
 
 [[files]]
@@ -264,7 +268,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.toml"
-hash = "3f2fe30129b5380d43b9faeddab3a8f8cc0c289144a2457731d948fb8690908f"
+hash = "1754cb3e21a8732d329328a3ccc65e25977eb40e1d4f9ba4f3e57cb60bfd423a"
 metafile = true
 
 [[files]]
@@ -304,7 +308,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "285521caaca117798430f2f5487c5439be8425625060146b32f968e26bf98055"
+hash = "62c306c0d7a4e581e81a948593d95f38922a8fc2f17907873fe2b3d77eeb2e45"
 
 [[files]]
 file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
