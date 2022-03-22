@@ -224,7 +224,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.toml"
-hash = "4c4a87a05ed89f6a0a99b2783c9c4e9dfdaef462fed8ff88bd73d27da73d4ed5"
+hash = "03e734343ae43cadbf86e972990933f75342e4a3046956c9e4871fef1ddb6bee"
 metafile = true
 
 [[files]]
@@ -255,11 +255,6 @@ metafile = true
 [[files]]
 file = "mods/continuity.toml"
 hash = "642eedf14c0875215d1d15a39ecab4b1bfcec093e43626cb002f2c890f78c520"
-metafile = true
-
-[[files]]
-file = "mods/couplings.toml"
-hash = "c5624c2139ebf4d2812a9b3e649c9d1bf4ae3af35d29b871aed274124dcde671"
 metafile = true
 
 [[files]]
@@ -439,7 +434,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.toml"
-hash = "10fe275dec07aef824f1adbdfdf45d29f1451f89216c57b65e5efc2c9edaaeb1"
+hash = "7d4d66ef532eab2ae0c2e068f9b132c5f0c744fab9396936941d4121a529e9ea"
 metafile = true
 
 [[files]]
@@ -459,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-loader.toml"
-hash = "47ea2edcce7fbcb93cc5ee0d89e224e8c33ec6a9c44def23856a1f5b93b02aec"
+hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
 metafile = true
 
 [[files]]
@@ -494,7 +489,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.toml"
-hash = "3f2fe30129b5380d43b9faeddab3a8f8cc0c289144a2457731d948fb8690908f"
+hash = "1754cb3e21a8732d329328a3ccc65e25977eb40e1d4f9ba4f3e57cb60bfd423a"
 metafile = true
 
 [[files]]
