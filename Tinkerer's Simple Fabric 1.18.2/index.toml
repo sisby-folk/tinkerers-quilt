@@ -22,7 +22,7 @@ hash = "c1fc50b86b5d5e3751efd9f94102509f430d0c99cc1b6851b081b8abe99bd672"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "1e011e8b3e358fe8f3f29af2d5a61aad432c3a61f8575acdbd36cdc1100f5c13"
+hash = "bc0aff3b6e6f547b9e2353215febb61130541ed8e91870703017e32af27323d5"
 
 [[files]]
 file = "config/illuminations.properties"
@@ -166,6 +166,10 @@ metafile = true
 file = "mods/fabric-api.toml"
 hash = "59cedfbefe7c2657cdd674e3559235fbfcc16217266a6f70515c39c15b141f6c"
 metafile = true
+
+[[files]]
+file = "mods/fabrication-1.18.2-2.3.1-exp2.jar"
+hash = "41f205f56ee4cb9d8f7c623028b7d505f59fdfb22ac254cb7ca8832bdfd3d9e3"
 
 [[files]]
 file = "mods/fabrictailor.toml"
