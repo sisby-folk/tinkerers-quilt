@@ -18,7 +18,7 @@ hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
 
 [[files]]
 file = "config/charm.toml"
-hash = "c1fc50b86b5d5e3751efd9f94102509f430d0c99cc1b6851b081b8abe99bd672"
+hash = "308a83ec27c6f19502ac96aa0980174f4f7ff3f78eee1ff9ab8bce89d209a320"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -109,7 +109,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "58ae007df3eab90aed2684db6a0f2ba2d7c59b1e431a8d3e8c70a06eae5683b5"
+hash = "e9bdc5d6ab0224c5bd0dcb73f221c2104cb8de229934ca41e2b19a6ce54a8ae6"
 metafile = true
 
 [[files]]
@@ -192,6 +192,11 @@ hash = "7215a34a544194eecb37e9bdfd9664edf21ac991f5a7b19c661e033975fe735f"
 metafile = true
 
 [[files]]
+file = "mods/inspecio.toml"
+hash = "04e52fb1abeb1921e2de71447db36a81947a1eeed6d4709ed5cbe48c03f7dcab"
+metafile = true
+
+[[files]]
 file = "mods/inventory-tabs-updated.toml"
 hash = "a571f51b7975e2a34996cdd3e8ca589e2c12fff33c15c18ba21692757761ad21"
 metafile = true
@@ -203,7 +208,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi-fabric.toml"
-hash = "9d144c48726331e7fae7703cbd21825b152dadb8cc5f7b23ae690856f940eb9f"
+hash = "fbb9662ed3d8d0c111fa742f1a63876846d3d70aadc44460ad982d27072025d9"
 metafile = true
 
 [[files]]
@@ -238,7 +243,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.toml"
-hash = "7f63d392806a6597ea039302384c673f5334a55fc3b89e226455454ef5399bae"
+hash = "186fc382cbf4b72640573f256949df68dd19e34d0867a29f8ff6f3270fcb6048"
 metafile = true
 
 [[files]]
