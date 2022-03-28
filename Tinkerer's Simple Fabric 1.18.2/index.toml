@@ -109,7 +109,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "e9bdc5d6ab0224c5bd0dcb73f221c2104cb8de229934ca41e2b19a6ce54a8ae6"
+hash = "d51ef44b3ca26a54e55179de00ae4bd87e57b7404e8e9c6e683e122dd42b6959"
 metafile = true
 
 [[files]]
@@ -155,6 +155,11 @@ metafile = true
 [[files]]
 file = "mods/ears.toml"
 hash = "c3775741edc094735abe1882c84031e0793a2456666624e6440034f1376db72b"
+metafile = true
+
+[[files]]
+file = "mods/ebe.toml"
+hash = "50780c17b5bb008c6786a9ab8e4405fba1908a8276a1d7d03dff90f8f7408d78"
 metafile = true
 
 [[files]]
@@ -243,7 +248,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.toml"
-hash = "186fc382cbf4b72640573f256949df68dd19e34d0867a29f8ff6f3270fcb6048"
+hash = "18e96dad454288e6de4eb8e8fb519c1147e67f49a629cfd005f1a28488be76a6"
 metafile = true
 
 [[files]]
