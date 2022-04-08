@@ -113,6 +113,11 @@ hash = "2ed0458c1f09c92c401f0f36eeddb8fd893f7e66b461daa1d59ea436fb8d2316"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.toml"
+hash = "3dd60057dc1fed26c95cefbe3335f157b4ddcfbbd8b50f4295f943dbf91387d7"
+metafile = true
+
+[[files]]
 file = "mods/brb.toml"
 hash = "58d28456989f3cbaffe63b02e89373b436432b5f10743b7b171da8178e56b0ba"
 metafile = true
@@ -165,6 +170,11 @@ metafile = true
 [[files]]
 file = "mods/ebe.toml"
 hash = "50780c17b5bb008c6786a9ab8e4405fba1908a8276a1d7d03dff90f8f7408d78"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.toml"
+hash = "111087dc8c844f22401b24e75a1eb450c08d2add83579eef2ae38bd532a056c4"
 metafile = true
 
 [[files]]
