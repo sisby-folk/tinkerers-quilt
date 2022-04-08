@@ -299,11 +299,6 @@ hash = "40860c6ac8115a772af0e960f646fe166bcc772f0116be9c298ade157580f0ab"
 metafile = true
 
 [[files]]
-file = "mods/extra-origins.toml"
-hash = "5850f0d0a69f7534b858c95ff5f0f394cf2a42f0888b61fe9625f46ba0f86ebd"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.toml"
 hash = "59cedfbefe7c2657cdd674e3559235fbfcc16217266a6f70515c39c15b141f6c"
 metafile = true
