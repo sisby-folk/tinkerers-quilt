@@ -104,12 +104,12 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.toml"
-hash = "2bf2b46c9007e93a001295951e7401b7b87d2171bc35a885d09f230307557a35"
+hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
 metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "d51ef44b3ca26a54e55179de00ae4bd87e57b7404e8e9c6e683e122dd42b6959"
+hash = "2ed0458c1f09c92c401f0f36eeddb8fd893f7e66b461daa1d59ea436fb8d2316"
 metafile = true
 
 [[files]]
@@ -120,6 +120,11 @@ metafile = true
 [[files]]
 file = "mods/charm.toml"
 hash = "ea33987a3fb814fda6bbee0b05317771aefcd5fa851a4176f23abb5608f48092"
+metafile = true
+
+[[files]]
+file = "mods/charmonium.toml"
+hash = "4c8578c4bfb8fc97b1b506a995890198f58db6a72f39e7573bc91fd35e0fe1b7"
 metafile = true
 
 [[files]]
@@ -164,7 +169,7 @@ metafile = true
 
 [[files]]
 file = "mods/enhanced-attack-indicator.toml"
-hash = "9b1c918c59502179e032d1094bbd0749e67c2781e197ebac61228ca3b2183bd7"
+hash = "0ad7e183c4b803999a0f45b67a63c32e6638a3f1b33e8a659ad0ca08651caecd"
 metafile = true
 
 [[files]]
@@ -198,7 +203,7 @@ metafile = true
 
 [[files]]
 file = "mods/inspecio.toml"
-hash = "04e52fb1abeb1921e2de71447db36a81947a1eeed6d4709ed5cbe48c03f7dcab"
+hash = "f616e150a1cedfa51c9a7d4571941e107a37ae184f2e8d6624fe56d68f2844c0"
 metafile = true
 
 [[files]]
@@ -298,7 +303,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.toml"
-hash = "6121898a2ea393a0b28fd8de996c53a9c10c276e180eb0f2b95479b365876214"
+hash = "f8d262a27787b948f6ec71d548131bcac4a60adc616a78db852a40d6461563be"
 metafile = true
 
 [[files]]
