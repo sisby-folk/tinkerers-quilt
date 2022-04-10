@@ -4,3 +4,8 @@
 .git
 .gitattributes
 .gitignore
+_layouts
+_layouts/
+_layouts/**
+README.md
+_config.yml
