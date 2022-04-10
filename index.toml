@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bea"
-hash = "4057291d88ce1761d03cd9293d2ceede12a98bb1b2ee9243307facf154276f4f"
-
-[[files]]
-file = "clawby"
-hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
-
-[[files]]
 file = "config/advancementinfo.json5"
 hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 
@@ -89,10 +81,6 @@ file = "config/yosbr/options.txt"
 hash = "b1fe6414c3c67c3a55694eac27ec464dc637195a9a95d72f603c46b0c69abca9"
 
 [[files]]
-file = "hornby"
-hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
-
-[[files]]
 file = "mods/advancementinfo.toml"
 hash = "03cbe0e1d8149d327463ed4119dea934fdc479b33740da7a3d704ec4673a1a06"
 metafile = true
@@ -109,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "2ed0458c1f09c92c401f0f36eeddb8fd893f7e66b461daa1d59ea436fb8d2316"
+hash = "c666f233906de8530744ca54f5bc37241ca235690c4a41b3399e3956b8ae97fe"
 metafile = true
 
 [[files]]
@@ -292,7 +280,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.toml"
-hash = "2947b498b93b02767662f55a8c883d2ca124c6ca0cf7aa6a9066a6ed525cb8d7"
+hash = "7bb446109174fb831ced527d41df13962b1c46677f7001557b7211e54e5d3e34"
 metafile = true
 
 [[files]]
@@ -377,7 +365,3 @@ hash = "b98ec31ee7d1c779914b003236702fbd101faf136d22761ea7ed56dbd421c3ab"
 [[files]]
 file = "shaderpacks/Skylec_Shader_v.4.0.zip"
 hash = "fc8d4ee6e83b5ab589e61833927793e7d5b796a8afa6f119bd4ddf4f065a7b9a"
-
-[[files]]
-file = "tinkby"
-hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
