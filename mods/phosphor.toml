@@ -1,0 +1,13 @@
+name = "Phosphor"
+filename = "ALPHA.phosphor-forge-mc1.16.5-0.7.1-build_1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/AeiouEnigma/phosphor-forge/releases/download/mc1.16.5-0.7.2-forge/ALPHA.phosphor-forge-mc1.16.5-0.7.1-build_1.jar"
+hash-format = "sha1"
+hash = "80189c83c53302b7d24365cb0cd934705056ebf8"
+
+[option]
+default = false
+description = "Incompatible with Starlight."
+optional = true

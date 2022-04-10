@@ -1,0 +1,14 @@
+name = "Allurement"
+filename = "allurement-1.16.5-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3520/927/allurement-1.16.5-1.2.1.jar"
+hash-format = "murmur2"
+hash = "1083389972"
+
+[update]
+[update.curseforge]
+file-id = 3520927
+project-id = 438003
+release-channel = "beta"

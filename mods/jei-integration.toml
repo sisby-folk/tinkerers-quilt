@@ -1,0 +1,14 @@
+name = "JEI Integration"
+filename = "jeiintegration_1.16.5-7.0.1.15.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3202/331/jeiintegration_1.16.5-7.0.1.15.jar"
+hash-format = "murmur2"
+hash = "4109937957"
+
+[update]
+[update.curseforge]
+file-id = 3202331
+project-id = 265917
+release-channel = "beta"

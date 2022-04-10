@@ -1,0 +1,14 @@
+name = "Client Tweaks"
+filename = "ClientTweaks_1.16.3-5.3.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3222/131/ClientTweaks_1.16.3-5.3.0.jar"
+hash-format = "murmur2"
+hash = "3821383761"
+
+[update]
+[update.curseforge]
+file-id = 3222131
+project-id = 251407
+release-channel = "beta"

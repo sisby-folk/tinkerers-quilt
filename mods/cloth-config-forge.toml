@@ -1,0 +1,14 @@
+name = "Cloth Config API (Forge)"
+filename = "cloth-config-4.14.54-forge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3641/85/cloth-config-4.14.54-forge.jar"
+hash-format = "murmur2"
+hash = "4284469558"
+
+[update]
+[update.curseforge]
+file-id = 3641085
+project-id = 348521
+release-channel = "beta"

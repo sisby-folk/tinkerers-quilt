@@ -1,0 +1,14 @@
+name = "Atmospheric"
+filename = "atmospheric-1.16.5-3.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3553/332/atmospheric-1.16.5-3.1.1.jar"
+hash-format = "murmur2"
+hash = "714255259"
+
+[update]
+[update.curseforge]
+file-id = 3553332
+project-id = 362393
+release-channel = "beta"

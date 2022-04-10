@@ -1,0 +1,14 @@
+name = "Forgery"
+filename = "forgery-1.16-2.3.0-exp2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3566/126/forgery-1.16-2.3.0-exp2.jar"
+hash-format = "murmur2"
+hash = "3091443016"
+
+[update]
+[update.curseforge]
+file-id = 3566126
+project-id = 434087
+release-channel = "beta"

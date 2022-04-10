@@ -1,0 +1,14 @@
+name = "The Endergetic Expansion"
+filename = "endergetic-1.16.4-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3154/938/endergetic-1.16.4-3.0.0.jar"
+hash-format = "murmur2"
+hash = "107704933"
+
+[update]
+[update.curseforge]
+file-id = 3154938
+project-id = 291509
+release-channel = "beta"

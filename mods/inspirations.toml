@@ -1,0 +1,14 @@
+name = "Inspirations"
+filename = "Inspirations-1.16.5-1.2.3.38.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3414/517/Inspirations-1.16.5-1.2.3.38.jar"
+hash-format = "murmur2"
+hash = "267486913"
+
+[update]
+[update.curseforge]
+file-id = 3414517
+project-id = 284007
+release-channel = "beta"

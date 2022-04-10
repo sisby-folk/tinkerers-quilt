@@ -1,4 +1,4 @@
-name = ""
+name = "Demon Forge 1.16.5"
 author = "Sisby Folks"
 version = "1.0.0"
 pack-format = "packwiz:1.0.0"
@@ -6,11 +6,11 @@ pack-format = "packwiz:1.0.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = ""
+hash = "7774468c4e57464a821248a9a56b2d95a71c9c3b34335b41e5ce5e68849bb188"
 
 [versions]
 forge = "40.0.44"
-minecraft = ""
+minecraft = "1.16.5"
 
 [options]
-acceptable-game-versions = [""]
+acceptable-game-versions = ["1.16.3", "1.16.4", "1.16.5"]

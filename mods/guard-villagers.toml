@@ -1,0 +1,14 @@
+name = "Guard Villagers"
+filename = "guardvillagers-1.16.5.1.2.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3449/429/guardvillagers-1.16.5.1.2.6.jar"
+hash-format = "murmur2"
+hash = "1355245201"
+
+[update]
+[update.curseforge]
+file-id = 3449429
+project-id = 360203
+release-channel = "beta"

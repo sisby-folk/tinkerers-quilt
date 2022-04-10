@@ -1,0 +1,9 @@
+
+#Client only settings
+[client]
+	#If true tools will show additional info in their tooltips
+	extraToolTips = true
+	#Experimental. If true, renders fluids in tanks using a dynamic model, being more efficient when the tank is static
+	#If false, renders fluids in tanks using a TESR, which is more efficient when the tank contents are changing
+	tankFluidModel = false
+

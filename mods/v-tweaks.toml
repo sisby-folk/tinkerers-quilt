@@ -1,0 +1,14 @@
+name = "V-Tweaks"
+filename = "VTweaks-1.16.4-3.5.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3296/506/VTweaks-1.16.4-3.5.0.jar"
+hash-format = "murmur2"
+hash = "2125966701"
+
+[update]
+[update.curseforge]
+file-id = 3296506
+project-id = 238048
+release-channel = "beta"

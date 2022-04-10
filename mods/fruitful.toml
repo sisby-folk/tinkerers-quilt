@@ -1,0 +1,14 @@
+name = "Fruitful (Forge)"
+filename = "Fruitful-1.16.5-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3342/857/Fruitful-1.16.5-2.1.0.jar"
+hash-format = "murmur2"
+hash = "2168302192"
+
+[update]
+[update.curseforge]
+file-id = 3342857
+project-id = 395502
+release-channel = "beta"

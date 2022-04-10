@@ -1,0 +1,14 @@
+name = "Enhanced Mushrooms (Forge)"
+filename = "Enhanced-Mushrooms-1.16.5-3.0.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3353/212/Enhanced-Mushrooms-1.16.5-3.0.9.jar"
+hash-format = "murmur2"
+hash = "2318524843"
+
+[update]
+[update.curseforge]
+file-id = 3353212
+project-id = 383725
+release-channel = "beta"

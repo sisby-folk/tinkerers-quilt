@@ -1,0 +1,14 @@
+name = "GraveStone Mod"
+filename = "gravestone-1.16.5-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3447/911/gravestone-1.16.5-1.0.7.jar"
+hash-format = "murmur2"
+hash = "3108101030"
+
+[update]
+[update.curseforge]
+file-id = 3447911
+project-id = 238551
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Flamboyant Recrafted"
+filename = "flamboyant-1.16.5-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3491/168/flamboyant-1.16.5-1.5.0.jar"
+hash-format = "murmur2"
+hash = "1438305865"
+
+[update]
+[update.curseforge]
+file-id = 3491168
+project-id = 436280
+release-channel = "beta"

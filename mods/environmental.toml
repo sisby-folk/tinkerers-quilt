@@ -1,0 +1,14 @@
+name = "Environmental"
+filename = "environmental-1.16.5-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3561/534/environmental-1.16.5-1.1.1.jar"
+hash-format = "murmur2"
+hash = "1343392408"
+
+[update]
+[update.curseforge]
+file-id = 3561534
+project-id = 388992
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Just Enough Resources (JER)"
+filename = "JustEnoughResources-1.16.5-0.12.1.133.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/538/JustEnoughResources-1.16.5-0.12.1.133.jar"
+hash-format = "murmur2"
+hash = "2580369004"
+
+[update]
+[update.curseforge]
+file-id = 3545538
+project-id = 240630
+release-channel = "beta"

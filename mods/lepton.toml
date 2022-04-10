@@ -1,0 +1,14 @@
+name = "Lepton (Forge)"
+filename = "lepton-1.16.5-1.3.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3433/589/lepton-1.16.5-1.3.2.jar"
+hash-format = "murmur2"
+hash = "1222883592"
+
+[update]
+[update.curseforge]
+file-id = 3433589
+project-id = 407384
+release-channel = "beta"

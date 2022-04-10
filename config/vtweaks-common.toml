@@ -1,0 +1,102 @@
+
+#Miscellaneous
+[miscellaneous]
+	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
+	enableStormTweak = false
+	#Prints your death point in chat
+	enableDeathPoint = false
+	#Show food hunger & saturation on item hover
+	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+	foodTooltipSetting = "NEVER"
+	#Makes all anvil tool repairs always cost 1 level of XP
+	enableCheapAnvilRepair = true
+	#Show a welcome message in chat when joining a world for the first time
+	enableGuideNotifier = false
+	#Show tool durability on item hover
+	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+	durabilityTooltipSetting = "NEVER"
+
+#Block Tweaks
+["block tweaks"]
+	#A list of blocks to ignore, of form <modid:block>
+	cropTweaksBlacklist = []
+	#Allows for r-clicking to harvest most any (including mod) crops
+	cropTweaksEnabled = false
+	#Allows more plants to be bonemealed
+	enableBonemealTweak = true
+	#Fixes some tools NOT being effective on certain materials
+	enableToolEffTweaks = true
+	#Allows for uneaten cake to drop on break
+	enableCakeDrop = true
+
+#Enchantments
+[enchantments]
+	#Number of levels Imperishable costs to create in an anvil
+	#Range: 1 ~ 40
+	imperishableCost = 3
+	#Should the lumbering enchantment also prune the leaves of a tree?
+	lumberingCutsLeaves = false
+	#Should the lumbering enchantment be strict about wood types?
+	#e.g. if you're in a forest with mixed woods touching, should lumbering only break the same type of wood that was initially broken?
+	lumberingIsStrictAboutWood = true
+	#Enable the Imperishable enchantment for any breakable item
+	enableImperishable = true
+	#Feather Falling IV or above directs 100% of fall damage to boots
+	enableFeatherFallTweak = false
+	#Number of levels Lumbering costs to create in an anvil
+	#Range: 1 ~ 40
+	lumberingCost = 16
+	#Enable the Lumbering enchantment for Axes
+	enableLumbering = true
+
+#Mob Tweaks
+["mob tweaks"]
+	#Enable custom nametags on challenger mobs
+	challengerMobsNames = true
+	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
+	#Allowed Values: DISABLED, OWNER, ALL
+	disablePetFriendlyFire = "OWNER"
+	#Randomly spawns more difficult (but more lootworthy) enemies.
+	#Applies to ALL enemies but those in this blacklist.
+	challengerMobsEnabled = true
+	#The class name (or part of it) of any entities that should not be turned to challenger mobs
+	challengerMobsBlacklist = ["minecraft:pillager"]
+	#The frequency (out of 100 - higher means more frequent) of a mob being turned into a Challenger
+	#Range: 1 ~ 100
+	challengerMobsFrequency = 4
+	#Prevents mobs from spawning above sea level unless it's a new moon
+	peacefulSurfaceEnabled = false
+	#A list of dimensions (of form <modid:type>) to ignore when prevent surface mob spawns.
+	peacefulSurfaceDimBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
+	#If enabled, all bees will always be half the size they are in Vanilla. Does not affect breeding or hitboxes
+	enableSmallBees = true
+	#A string list of form <modid:item> of possible loot items a Challenger Mob could drop
+	challengerMobsLoot = ["minecraft:gold_ingot", "minecraft:iron_ingot*3", "minecraft:gold_nugget*15", "minecraft:emerald", "minecraft:ghast_tear", "minecraft:ender_pearl", "minecraft:emerald", "minecraft:experience_bottle", "minecraft:experience_bottle"]
+	#Allows chicken feathers to be plucked w/ shears
+	enableFeatherPlucking = false
+	#The lowest Y-level which mobs will be prevented from spawning
+	#Range: 1 ~ 255
+	peacefulSurfaceMinY = 60
+	#Allows you to gear up tamed pets any armor and/or weapon. Doesn't render, but DOES work!
+	enablePetArmory = false
+
+#Item Tweaks
+["item tweaks"]
+	#Allows egg items in the world to hatch instead of despawn
+	eggHatchingEnabled = true
+	#The chance (out of 100 - higher means more frequent) that the egg will turn into a chick
+	#**DO NOT SET THIS TOO HIGH OR ELSE CHICKENS MAY INFINITELY LAG YOUR WORLD**
+	#Range: 1 ~ 100
+	eggHatchingChance = 1
+	#Convert Concrete Powder to Concrete when the item is thrown into water
+	enableConreteTweaks = true
+	#Allow for modifications to item despawn timers
+	enableDespawnTimeAdjustments = false
+	#Adjust Item Despawn Time (in ticks: 20 ticks in a second - default despawn delay is 6000 ticks)
+	#-1 prevents items from despawning at all.
+	#If other "do x on despawn" configs are enabled, then those items **will still despawn**
+	#Range: > -1
+	despawnTimeAdjustments = 6000
+	#Instead of de-spawning, saplings will attempt to plant themselves
+	enableSaplingPlanting = true
+

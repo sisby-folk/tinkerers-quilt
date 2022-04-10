@@ -1,0 +1,13 @@
+name = "Starlight"
+filename = "starlight-forge-1.0.0-RC2-1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Spottedleaf/Starlight/releases/download/1.0.0-RC2/starlight-forge-1.0.0-RC2-1.16.5.jar"
+hash-format = "sha1"
+hash = "50375716c89607c4a8a206baf4def4c74e525dd7"
+
+[option]
+default = true
+description = "Incompatible with Phosphor."
+optional = true

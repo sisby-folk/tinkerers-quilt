@@ -1,0 +1,14 @@
+name = "Mouse Tweaks"
+filename = "MouseTweaks-2.14-mc1.16.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar"
+hash-format = "murmur2"
+hash = "2888735780"
+
+[update]
+[update.curseforge]
+file-id = 3202662
+project-id = 60089
+release-channel = "beta"

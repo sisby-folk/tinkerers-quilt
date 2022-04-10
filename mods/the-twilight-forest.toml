@@ -1,0 +1,14 @@
+name = "The Twilight Forest"
+filename = "twilightforest-1.16.5-4.0.870-universal.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3575/220/twilightforest-1.16.5-4.0.870-universal.jar"
+hash-format = "murmur2"
+hash = "788113085"
+
+[update]
+[update.curseforge]
+file-id = 3575220
+project-id = 227639
+release-channel = "beta"

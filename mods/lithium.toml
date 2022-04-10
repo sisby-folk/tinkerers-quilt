@@ -1,0 +1,8 @@
+name = "Lithium"
+filename = "lithium-forge-mc1.16.5-0.6.4-build_3a.jar"
+side = "both"
+
+[download]
+url = "https://github.com/AeiouEnigma/lithium-forge/releases/download/mc1.16.5-0.6.4-forge-alpha.3/lithium-forge-mc1.16.5-0.6.4-build_3a.jar"
+hash-format = "sha1"
+hash = "916f49d41c61950435f78d4c7de470e41a34f920"

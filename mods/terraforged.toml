@@ -1,0 +1,14 @@
+name = "TerraForged"
+filename = "TerraForged-1.16.5-0.2.16-BETA-2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3460/560/TerraForged-1.16.5-0.2.16-BETA-2.jar"
+hash-format = "murmur2"
+hash = "3901499587"
+
+[update]
+[update.curseforge]
+file-id = 3460560
+project-id = 363820
+release-channel = "beta"

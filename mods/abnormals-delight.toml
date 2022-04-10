@@ -1,0 +1,14 @@
+name = "Abnormals Delight"
+filename = "abnormals_delight-1.16.5-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3549/585/abnormals_delight-1.16.5-1.2.1.jar"
+hash-format = "murmur2"
+hash = "2463339563"
+
+[update]
+[update.curseforge]
+file-id = 3549585
+project-id = 442719
+release-channel = "beta"

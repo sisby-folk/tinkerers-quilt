@@ -1,0 +1,40 @@
+{
+  "minecraft": {
+    "crop_progress": true,
+    "comparator": true,
+    "hide_infestations": true,
+    "display_furnace_contents": true,
+    "jukebox": true,
+    "lever": true,
+    "spawner_type": true,
+    "redstone": true,
+    "repeater": true
+  },
+  "wawla": {
+    "blast_resistance": false,
+    "beehive_honey": true,
+    "growing_cooldown": true,
+    "hide_trap_chest": true,
+    "beehive_count": true,
+    "break_progress": true,
+    "horse_jump": true,
+    "villager_tier_progress": true,
+    "breeding_item": true,
+    "hardness": false,
+    "block_ench_power": true,
+    "table_ench_power": true,
+    "skull_owner": true,
+    "villager_tier": true,
+    "beehive_smoked": true,
+    "armor_points": true,
+    "frame_contents": true,
+    "horse_speed": true,
+    "breeding_cooldown": true
+  },
+  "waila": {
+    "show_registry": false,
+    "show_entity_hp": true,
+    "show_states": false,
+    "show_entities": true
+  }
+}

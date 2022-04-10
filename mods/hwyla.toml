@@ -1,0 +1,14 @@
+name = "Hwyla"
+filename = "Hwyla-forge-1.10.11-B78_1.16.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3033/593/Hwyla-forge-1.10.11-B78_1.16.2.jar"
+hash-format = "murmur2"
+hash = "1045783304"
+
+[update]
+[update.curseforge]
+file-id = 3033593
+project-id = 253449
+release-channel = "beta"

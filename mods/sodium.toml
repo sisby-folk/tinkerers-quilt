@@ -1,0 +1,13 @@
+name = "Sodium"
+filename = "sodium-forge-mc1.16.5-0.1.1-build_3-EXPERIMENTAL.jar"
+side = "client"
+
+[download]
+url = "https://github.com/AeiouEnigma/sodium-forge/releases/download/v0.1.1-build1/sodium-forge-mc1.16.5-0.1.1-build_3-EXPERIMENTAL.jar"
+hash-format = "sha1"
+hash = "158c7e6a82d03a5ee867d689ddc1285d49a3962b"
+
+[option]
+default = false
+description = "Issues"
+optional = true

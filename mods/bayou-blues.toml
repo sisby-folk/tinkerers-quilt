@@ -1,0 +1,14 @@
+name = "Bayou Blues"
+filename = "Bayou-Blues-1.16.5-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3342/861/Bayou-Blues-1.16.5-1.0.5.jar"
+hash-format = "murmur2"
+hash = "797610327"
+
+[update]
+[update.curseforge]
+file-id = 3342861
+project-id = 452344
+release-channel = "beta"
