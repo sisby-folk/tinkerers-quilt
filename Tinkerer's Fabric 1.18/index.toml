@@ -319,8 +319,8 @@ hash = "3fdd6aa2ef59ee2ca773a51c5ac83d6cfc66f10293b1f58cbc9191bbdb992d2c"
 metafile = true
 
 [[files]]
-file = "mods/fabrication-1.18.2-2.3.1-exp2.jar"
-hash = "41f205f56ee4cb9d8f7c623028b7d505f59fdfb22ac254cb7ca8832bdfd3d9e3"
+file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
+hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
 
 [[files]]
 file = "mods/fabrication.toml"
@@ -599,7 +599,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "62c10d24e721f38edc4488340f0a01935c1d757359c77d2e1c2ae3d315e36250"
+hash = "58abc1b9956106966e5131607ee85c93cb0e802b6b9fcc00317729ad95394898"
 
 [[files]]
 file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"

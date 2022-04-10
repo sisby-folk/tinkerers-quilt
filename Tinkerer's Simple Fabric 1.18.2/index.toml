@@ -114,7 +114,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.toml"
-hash = "3dd60057dc1fed26c95cefbe3335f157b4ddcfbbd8b50f4295f943dbf91387d7"
+hash = "44d132eadb08765cf31d67d3ff66c1ebb93d58135f9d5636dba61f0e7e87e616"
 metafile = true
 
 [[files]]
@@ -188,8 +188,13 @@ hash = "59cedfbefe7c2657cdd674e3559235fbfcc16217266a6f70515c39c15b141f6c"
 metafile = true
 
 [[files]]
-file = "mods/fabrication-1.18.2-2.3.1-exp2.jar"
-hash = "41f205f56ee4cb9d8f7c623028b7d505f59fdfb22ac254cb7ca8832bdfd3d9e3"
+file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
+hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
+
+[[files]]
+file = "mods/fabricshieldlib.toml"
+hash = "3fa20c7a4f4b3ed95d5959a2864a8a2b269e26cb33884c1acc297d72acbc2fca"
+metafile = true
 
 [[files]]
 file = "mods/fabrictailor.toml"
@@ -207,6 +212,10 @@ hash = "263be2d355829560e28a8f8600de3beb98eec20d4f03b0ac78504991b947371c"
 metafile = true
 
 [[files]]
+file = "mods/illuminations-1.10.3.jar"
+hash = "9f22ace94f939fd22d89642c68c251b84d7b81ea71ff67ec5cb1433025c3c748"
+
+[[files]]
 file = "mods/indium.toml"
 hash = "7215a34a544194eecb37e9bdfd9664edf21ac991f5a7b19c661e033975fe735f"
 metafile = true
@@ -214,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/inspecio.toml"
 hash = "f616e150a1cedfa51c9a7d4571941e107a37ae184f2e8d6624fe56d68f2844c0"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.toml"
+hash = "a2ebf3766d3b4f0d36ff774d8f5f0c50ba414c8784f01a0bd1871a572c5c2485"
 metafile = true
 
 [[files]]
@@ -302,6 +316,11 @@ hash = "372dbd8b7394ee50d24298b092017689dbec5962658221d0bcc5ee492076d860"
 metafile = true
 
 [[files]]
+file = "mods/raised.toml"
+hash = "c5a983620ec2c1a72c58d5a7ce74fdc76084cb8fa7bf1f18ca1ae11e27ded513"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.toml"
 hash = "4985f89d51a99f7e49ba2f317f3254b1470e78d3e0f37781751160160c3acb72"
 metafile = true
@@ -333,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "62c306c0d7a4e581e81a948593d95f38922a8fc2f17907873fe2b3d77eeb2e45"
+hash = "6a9ca20d5f621a0995262a7e764ecbda3ee46bdbc0e642ac9fe5a7ef5d1a511b"
 
 [[files]]
 file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
