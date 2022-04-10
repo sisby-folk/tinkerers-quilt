@@ -1,13 +1,13 @@
-name = ""
+name = "Tinkerer's Simple-Fabric 1.18.2"
 author = "Tinkby"
-version = ""
+version = "1.2.0"
 pack-format = "packwiz:1.0.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = ""
+hash = "fc1d450965459be79e4399405d6581876f2df17bf12a5e44d365c71e6bd5d491"
 
 [versions]
 fabric = "0.13.3"
-minecraft = ""
+minecraft = "1.18.2"
