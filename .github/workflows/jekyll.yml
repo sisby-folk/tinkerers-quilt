@@ -1,7 +1,12 @@
 name: GH Pages CI
 
 on:
-  push
+  push:
+    branches-ignore:
+      - main
+      - base
+      - fabric
+      - forge
 
 jobs:
   jekyll:
