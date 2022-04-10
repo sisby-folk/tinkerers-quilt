@@ -1,6 +1,6 @@
 name = ""
-author = "Tinkby"
-version = ""
+author = "Sisby Folks"
+version = "1.0.0"
 pack-format = "packwiz:1.0.0"
 
 [index]
@@ -11,3 +11,6 @@ hash = ""
 [versions]
 fabric = "0.13.3"
 minecraft = ""
+
+[options]
+acceptable-game-versions = [""]
