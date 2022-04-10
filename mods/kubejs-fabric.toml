@@ -1,0 +1,14 @@
+name = "KubeJS (Fabric)"
+filename = "kubejs-fabric-1605.3.19-build.289.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3631/752/kubejs-fabric-1605.3.19-build.289.jar"
+hash-format = "murmur2"
+hash = "2032402951"
+
+[update]
+[update.curseforge]
+file-id = 3631752
+project-id = 395864
+release-channel = "beta"

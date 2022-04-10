@@ -1,0 +1,13 @@
+name = "LambdaControls"
+filename = "lambdacontrols-fabric-1.6.0+1.16.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W1D3UXEc/versions/1.6.0+1.16/lambdacontrols-fabric-1.6.0+1.16.jar"
+hash-format = "sha512"
+hash = "bac1651a866fb233acc4b4dfeb454f150a86f546de21a53b7e57d400dfcf3e56db2d9abbcca1dfe32f18a4e44055ca1742b297bb7dc0610caf933d2d813fb96f"
+
+[update]
+[update.modrinth]
+mod-id = "W1D3UXEc"
+version = "NexczI3X"

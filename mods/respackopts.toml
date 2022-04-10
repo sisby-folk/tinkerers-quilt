@@ -1,0 +1,14 @@
+name = "Respackopts"
+filename = "respackopts-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3315/300/respackopts-1.4.2.jar"
+hash-format = "murmur2"
+hash = "489908165"
+
+[update]
+[update.curseforge]
+file-id = 3315300
+project-id = 430090
+release-channel = "beta"

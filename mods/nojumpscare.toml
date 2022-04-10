@@ -1,0 +1,14 @@
+name = "NoJumpscare"
+filename = "nojumpscare-1.0.1+1.16.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3037/375/nojumpscare-1.0.1+1.16.jar"
+hash-format = "murmur2"
+hash = "3277096660"
+
+[update]
+[update.curseforge]
+file-id = 3037375
+project-id = 403387
+release-channel = "beta"

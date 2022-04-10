@@ -1,15 +1,15 @@
-author = "Sisby Folks"
+name = "Fluff Fabric 1.16.5"
 version = "1.0.0"
 pack-format = "packwiz:1.0.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = ""
+hash = "4b798a3f9a6c0a3d32906e1337f3eb076865e298bc456366f84f892cebbc30fc"
 
 [versions]
-fabric = "0.13.3"
-minecraft = ""
+fabric = "0.11.3"
+minecraft = "1.16.5"
 
 [options]
-acceptable-game-versions = [""]
+acceptable-game-versions = ["1.16.3", "1.16.4", "1.16.5"]

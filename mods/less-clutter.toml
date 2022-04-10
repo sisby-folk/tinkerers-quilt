@@ -1,0 +1,13 @@
+name = "Less Clutter"
+filename = "lessclutter-1.1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/D1qJeIGv/versions/r1.1.4/lessclutter-1.1.4.jar"
+hash-format = "sha512"
+hash = "de78956756ed90818c9c2e8a2564d5a8a38b284eb6209ddf53a6dc74ca9f9441cc1fcc04526b55f119804427e9f764ca97f6d08ea652eed52d6f986445540062"
+
+[update]
+[update.modrinth]
+mod-id = "D1qJeIGv"
+version = "GYeFdGFL"

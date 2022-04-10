@@ -1,0 +1,14 @@
+name = "VehicleFix"
+filename = "vehiclefix-1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3197/154/vehiclefix-1.0.jar"
+hash-format = "murmur2"
+hash = "4017533428"
+
+[update]
+[update.curseforge]
+file-id = 3197154
+project-id = 444658
+release-channel = "beta"

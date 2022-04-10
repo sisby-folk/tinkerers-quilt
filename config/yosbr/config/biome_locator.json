@@ -1,0 +1,11 @@
+{
+  "client": {
+    "uiLocation": "TOP_LEFT",
+    "high_contrast_mode": false
+  },
+  "server": {
+    "maxBiomeDistance": 6400,
+    "requiredAdvancement": "none",
+    "chanceAsLoot": 0.16
+  }
+}

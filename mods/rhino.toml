@@ -1,0 +1,14 @@
+name = "Rhino"
+filename = "rhino-fabric-1605.1.5-build.75.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3525/703/rhino-fabric-1605.1.5-build.75.jar"
+hash-format = "murmur2"
+hash = "3315042592"
+
+[update]
+[update.curseforge]
+file-id = 3525703
+project-id = 416294
+release-channel = "beta"

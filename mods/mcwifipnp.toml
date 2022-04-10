@@ -1,0 +1,13 @@
+name = "Minecraft WLAN Plug-n-Play"
+filename = "mcwifipnp-1.5.3-1.16.5-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/RTWpcTBp/versions/Fabric 1.16.x/mcwifipnp-1.5.3-1.16.5-fabric.jar"
+hash-format = "sha512"
+hash = "86b0e26ba5678d8f1741f7a25d24d20180f83ccc337d012cc6a8c25f837a10c1ff3b684cb0836c3309973af2f6063e9d2561f3c2e968bac4eb75bb902c282a70"
+
+[update]
+[update.modrinth]
+mod-id = "RTWpcTBp"
+version = "474RSbqJ"

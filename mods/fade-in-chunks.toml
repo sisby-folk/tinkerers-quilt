@@ -1,0 +1,18 @@
+name = "Fade In Chunks"
+filename = "fadeinchunks-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uWSgLtUe/versions/1.0.0/fadeinchunks-1.0.0.jar"
+hash-format = "sha512"
+hash = "90b8d9a37b597cc1a89b646cae9c563d09125fd00067fcf0de90d4a46acdb3e9af919cc5ae9520f3aa7e33938ed8d134c8129b6a76522ae8b392f815e345ac42"
+
+[update]
+[update.modrinth]
+mod-id = "uWSgLtUe"
+version = "y9D5ULC5"
+
+[option]
+default = false
+description = "[Currently Broken] Adds fade-in to chunk loading"
+optional = true

@@ -1,0 +1,13 @@
+name = "Stoneholm"
+filename = "stoneholm-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zQoJfY3W/versions/1.2.3/stoneholm-1.2.3.jar"
+hash-format = "sha512"
+hash = "4f01e4640262f5035f7f27bb395bd800e97ce2f32fbed52212aaae8e30a1b968f95a91a4cf50e098aaf142e2416df88e0c393c81f7ba2649145bb87fe630a281"
+
+[update]
+[update.modrinth]
+mod-id = "zQoJfY3W"
+version = "Ppygf4Ly"

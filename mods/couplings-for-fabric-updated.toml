@@ -1,0 +1,14 @@
+name = "Door(s) Coupling [FABRIC]"
+filename = "Couplings-1.3.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3111/745/Couplings-1.3.6.jar"
+hash-format = "murmur2"
+hash = "1830950752"
+
+[update]
+[update.curseforge]
+file-id = 3111745
+project-id = 395659
+release-channel = "beta"
