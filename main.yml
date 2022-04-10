@@ -14,10 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
+      # main
       - uses: actions/checkout@v2
-        with:
-          ref: gh-pages
 
       # fabric 1.18.2 vanilla
       - uses: actions/checkout@v2
@@ -31,11 +29,4 @@ jobs:
       - uses:  helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Deploy to gh pages
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: '.cdi/'
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          
