@@ -1,0 +1,13 @@
+name = ""
+author = "Tinkby"
+version = ""
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = ""
+
+[versions]
+fabric = "0.13.3"
+minecraft = "1.18.2"
