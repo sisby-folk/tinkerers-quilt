@@ -1,0 +1,87 @@
+name: GH Pages CI
+
+on:
+  push:
+    branches:
+      - main
+      - website
+      - fabric_1.18.2
+      - fabric_1.18.2_modded
+      - fabric_1.18.2_modded
+      - fabric_1.17.1
+      - fabric_1.16.5
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+
+    steps:
+      # main
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: website
+
+      # fabric_1.18.2
+      - name: import fabric_1.18.2
+        uses: actions/checkout@v2
+        with:
+          ref: fabric_1.18.2
+          path: cdn/fabric_1.18.2
+          clean: false
+      - name: import fabric_1.18.2 - clean
+        run: rm -rf cdn/fabric_1.18.2/.git
+      
+      # fabric_1.18.2_modded
+      - name: import fabric_1.18.2_modded
+        uses: actions/checkout@v2
+        with:
+          ref: fabric_1.18.2_modded
+          path: cdn/fabric_1.18.2_modded
+          clean: false
+      - name: import fabric_1.18.2 - clean
+        run: rm -rf cdn/fabric_1.18.2_modded/.git
+        
+      # fabric_1.17.1
+      - name: import fabric_1.17.1
+        uses: actions/checkout@v2
+        with:
+          ref: fabric_1.17.1
+          path: cdn/fabric_1.17.1
+          clean: false
+      - name: import fabric_1.17.1 - clean
+        run: rm -rf cdn/fabric_1.17.1/.git
+        
+      # fabric_1.16.5
+      - name: import fabric_1.16.5
+        uses: actions/checkout@v2
+        with:
+          ref: fabric_1.16.5
+          path: cdn/fabric_1.16.5
+          clean: false
+      - name: import fabric_1.16.5 - clean
+        run: rm -rf cdn/fabric_1.16.5/.git
+        
+      # forge_1.16.5
+      - name: import forge_1.16.5
+        uses: actions/checkout@v2
+        with:
+          ref: forge_1.16.5
+          path: cdn/forge_1.16.5
+          clean: false
+      - name: import forge_1.16.5 - clean
+        run: rm -rf cdn/forge_1.16.5/.git
+      
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      
+      # Specify the target branch (optional)
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
+          jekyll_src: '.'
