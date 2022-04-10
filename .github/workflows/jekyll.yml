@@ -2,11 +2,14 @@ name: GH Pages CI
 
 on:
   push:
-    branches-ignore:
+    branches:
       - main
-      - base
-      - fabric
-      - forge
+      - website
+      - fabric_1.18.2
+      - fabric_1.18.2_modded
+      - fabric_1.18.2_modded
+      - fabric_1.17.1
+      - fabric_1.16.5
 
 jobs:
   jekyll:
