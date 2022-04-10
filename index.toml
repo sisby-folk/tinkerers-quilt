@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "bea"
+hash = "4057291d88ce1761d03cd9293d2ceede12a98bb1b2ee9243307facf154276f4f"
+
+[[files]]
+file = "clawby"
+hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
+
+[[files]]
 file = "config/advancementinfo.json5"
 hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 
@@ -79,6 +87,10 @@ hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "b1fe6414c3c67c3a55694eac27ec464dc637195a9a95d72f603c46b0c69abca9"
+
+[[files]]
+file = "hornby"
+hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
 
 [[files]]
 file = "mods/advancementinfo.toml"
@@ -365,3 +377,7 @@ hash = "b98ec31ee7d1c779914b003236702fbd101faf136d22761ea7ed56dbd421c3ab"
 [[files]]
 file = "shaderpacks/Skylec_Shader_v.4.0.zip"
 hash = "fc8d4ee6e83b5ab589e61833927793e7d5b796a8afa6f119bd4ddf4f065a7b9a"
+
+[[files]]
+file = "tinkby"
+hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
