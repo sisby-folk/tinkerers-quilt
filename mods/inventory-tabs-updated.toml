@@ -1,13 +1,13 @@
 name = "Inventory Tabs (updated)"
-filename = "inventorytabs-0.4.2-1.18.1.jar"
+filename = "inventorytabs-0.4.4-1.18.x.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3670/32/inventorytabs-0.4.2-1.18.1.jar"
-hash-format = "murmur2"
-hash = "1210646220"
+url = "https://edge.forgecdn.net/files/3755/952/inventorytabs-0.4.4-1.18.x.jar"
+hash-format = "sha1"
+hash = "b4cae01edbaface6323dc2f19849463178bc4cfb"
 
 [update]
 [update.curseforge]
-file-id = 3670032
+file-id = 3755952
 project-id = 585506
