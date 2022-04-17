@@ -184,7 +184,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "56341f743528a406c4d51f22ba1640dca5c475696a9c21d8924b4813accdfa71"
+hash = "3ee0aa082e8d2e55feded0679db62dd5c7d643c7478eba6daa78a4211945b187"
 metafile = true
 
 [[files]]
@@ -223,11 +223,6 @@ metafile = true
 [[files]]
 file = "mods/inspecio.toml"
 hash = "f616e150a1cedfa51c9a7d4571941e107a37ae184f2e8d6624fe56d68f2844c0"
-metafile = true
-
-[[files]]
-file = "mods/inventory-profiles-next.toml"
-hash = "a2ebf3766d3b4f0d36ff774d8f5f0c50ba414c8784f01a0bd1871a572c5c2485"
 metafile = true
 
 [[files]]
