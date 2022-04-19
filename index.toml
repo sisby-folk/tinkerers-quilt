@@ -290,6 +290,11 @@ hash = "da1b3ee71d9ed1f17da4c85ca3da39af3e49fcc5bb032689613c4e00fc587a40"
 metafile = true
 
 [[files]]
+file = "mods/leaves-us-in-peace.toml"
+hash = "d779c647ab2cfa5a640173405966aa930333ce9977e7004c3592f226fb0ff08b"
+metafile = true
+
+[[files]]
 file = "mods/lithium.toml"
 hash = "64a4b886ff13e45a06ae3714f4ec3fd5c15a1a4e0573df1cdfa35d673eec45ad"
 metafile = true
