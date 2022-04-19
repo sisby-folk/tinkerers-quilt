@@ -98,6 +98,11 @@ hash = "03cbe0e1d8149d327463ed4119dea934fdc479b33740da7a3d704ec4673a1a06"
 metafile = true
 
 [[files]]
+file = "mods/ambient-environment.toml"
+hash = "af72f0e7903fb87f2098008486d6ce66c9c52c8df6eb551f1732c2aa00750154"
+metafile = true
+
+[[files]]
 file = "mods/animatica.toml"
 hash = "4d0ec016f84e052cb473acfc0d350559c842c086f8f3f68f73f79a355c7640de"
 metafile = true
@@ -109,7 +114,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "881b5a462da325f7d506150314c57b4ab2a1cfb9357de86ea102b1fab32f9c41"
+hash = "9458f2379e1a68cb81337b694da4ff1d76344cc5c87a49fbc6880cef61c76187"
+metafile = true
+
+[[files]]
+file = "mods/balm-fabric.toml"
+hash = "f16e09ced52586796952de5d6bf341b4ae079c1bed915612fb82c297bb0cb9e3"
 metafile = true
 
 [[files]]
@@ -143,6 +153,11 @@ hash = "0b4442cfc298e15261c9dfd17baab7e869c5201fc61ca81d739e1cf9ce9052a6"
 metafile = true
 
 [[files]]
+file = "mods/client-tweaks-fabric.toml"
+hash = "7cb6f326559c37de479704a5de7b26966ba1ce2477a158f77373c9e83f135447"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.toml"
 hash = "61a15f37dbaee42076eb50b29b17279561ef44ec14208db6790c0c0981723823"
 metafile = true
@@ -170,6 +185,11 @@ metafile = true
 [[files]]
 file = "mods/ebe.toml"
 hash = "50780c17b5bb008c6786a9ab8e4405fba1908a8276a1d7d03dff90f8f7408d78"
+metafile = true
+
+[[files]]
+file = "mods/effective.toml"
+hash = "b4ad5be545658ef1264aaef1b1e4376a2c8425d36d95f537395fbb4788dd33a7"
 metafile = true
 
 [[files]]
@@ -266,6 +286,11 @@ hash = "a022f0fa7e5656e6cf21ff805d6d00bb2d01a242372a92511691089cd87eaea0"
 metafile = true
 
 [[files]]
+file = "mods/mod-settings.toml"
+hash = "f494cb48d6e1d8d5c3460a8f689d2b05b2a0a5cebe70a3f70a305ef620e4b860"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.toml"
 hash = "e14ec21802432c7da8fd1746c3704d4cc86a66685ae3d32c0fce88b6a7a15818"
 metafile = true
@@ -312,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.toml"
-hash = "c5a983620ec2c1a72c58d5a7ce74fdc76084cb8fa7bf1f18ca1ae11e27ded513"
+hash = "e96382dc2f00318804171da24bab458c69198febbf5a8047c07737aa38a5ca45"
 metafile = true
 
 [[files]]
@@ -338,6 +363,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.toml"
 hash = "ab37bb833d205f015f036157645e05a61c837b7e1f9e0132bfa8a6b14c8064a6"
+metafile = true
+
+[[files]]
+file = "mods/visuality.toml"
+hash = "c47c339948a3dff50f1b879d6748e949c85e1a79c094aa639886b76c5b7301c8"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Mod Settings for Fabric"
+filename = "modsettings-1.1.0+1.18.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mfDfQvcJ/versions/1.1.0+1.18.1/modsettings-1.1.0%2B1.18.1.jar"
+hash-format = "sha1"
+hash = "cb115242cbbe5f766c58fef3b26fafdd1214d97e"
+
+[update]
+[update.modrinth]
+mod-id = "mfDfQvcJ"
+version = "dTWtqJro"
