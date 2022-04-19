@@ -41,8 +41,12 @@ file = "config/openloader/data/fast leaf decay v2.0.5.zip"
 hash = "6678d65d0b30ba1014151d3a46445cf6efb4b3539a03f20d30699070c7a9d01a"
 
 [[files]]
-file = "config/openloader/resources/VanillaTweaks_r818758.zip"
-hash = "ba8b1f853f7321027ed8309cb74a4239fd3eaf794e6d81432635daef8cc50ab2"
+file = "config/openloader/resources/VanillaTweaks_r585540-densewater.zip"
+hash = "f63ed227465ca8d52a429bc36d628d9cc2f5e531d714556092531adcc7ffdab9"
+
+[[files]]
+file = "config/openloader/resources/Varied Connected Bookshelves.zip"
+hash = "b801fef53e793a0df9fdf0be92304646e60c1c9a7f3ef1ef9930e3361b542247"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -173,6 +177,11 @@ hash = "5042a5c75a0e7965504e3c8519bfd932eec8f7f594497d31f5af3eb89ffa4ab1"
 metafile = true
 
 [[files]]
+file = "mods/dual-riders.toml"
+hash = "5e7774a80d16637f0cfdc4099a428c92d3bf4097a1d312cf71c8d3fa42b6c08a"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.toml"
 hash = "895af62871364c14a635aa674074ab0e5dc88fa41eb6a60bdab075feb106a6fe"
 metafile = true
@@ -224,6 +233,11 @@ metafile = true
 [[files]]
 file = "mods/fallingleaves.toml"
 hash = "2113ed79f309da317c5e23bc5a47eee9d538e8f15d959ae8da0b3e833e344bfc"
+metafile = true
+
+[[files]]
+file = "mods/female-gender.toml"
+hash = "c2744765640b216e7ad591b1f877db44c4bf667ea225cc9aab68df96f0d40a7d"
 metafile = true
 
 [[files]]
@@ -363,6 +377,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.toml"
 hash = "ab37bb833d205f015f036157645e05a61c837b7e1f9e0132bfa8a6b14c8064a6"
+metafile = true
+
+[[files]]
+file = "mods/statuseffecttimer.toml"
+hash = "3610cc0efd4c0bfa58b962452b7ee2c735f3c9a86c66b175a5c186258aaeecc7"
 metafile = true
 
 [[files]]
