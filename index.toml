@@ -97,6 +97,10 @@ file = "hornby"
 hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
 
 [[files]]
+file = "mods/Wildfire Female Gender Mod-2.9.jar"
+hash = "f371b800ef67a2cb06c1f0b7a28361b8fa34620c405c5ca5bb7224c3c870d125"
+
+[[files]]
 file = "mods/advancementinfo.toml"
 hash = "03cbe0e1d8149d327463ed4119dea934fdc479b33740da7a3d704ec4673a1a06"
 metafile = true
@@ -233,11 +237,6 @@ metafile = true
 [[files]]
 file = "mods/fallingleaves.toml"
 hash = "2113ed79f309da317c5e23bc5a47eee9d538e8f15d959ae8da0b3e833e344bfc"
-metafile = true
-
-[[files]]
-file = "mods/female-gender.toml"
-hash = "7c24a6f35c6f4471ac0eb40496be398d5c3c87ca89d7d49adf467a5f583bdf1d"
 metafile = true
 
 [[files]]
