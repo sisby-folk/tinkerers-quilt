@@ -314,18 +314,8 @@ hash = "18e96dad454288e6de4eb8e8fb519c1147e67f49a629cfd005f1a28488be76a6"
 metafile = true
 
 [[files]]
-file = "mods/notenoughcrashes.toml"
-hash = "11bc71ee9a75a7b4d1c10f0c61a3f18f88e21aa92bc750e00bb879be2c3a209a"
-metafile = true
-
-[[files]]
 file = "mods/notes-fabric.toml"
 hash = "23da50b9d19bb340c58ede1007d7d885127add854e6d13312c5d43887fd38104"
-metafile = true
-
-[[files]]
-file = "mods/ok-zoomer.toml"
-hash = "7bb446109174fb831ced527d41df13962b1c46677f7001557b7211e54e5d3e34"
 metafile = true
 
 [[files]]
