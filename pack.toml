@@ -1,16 +1,13 @@
-name = "Tinkerer's Simple-Fabric 1.18.2"
-author = "Sisby Folks"
-version = "1.2.0"
+name = "Tinkerer's 1.18.2"
+author = "Sisby Folk"
+version = "2.0.0"
 pack-format = "packwiz:1.0.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e5bd338d74b1a4e41fc8c498219d71e975288b749ba2199b9a836faecb564f3f"
+hash = "4e9f28dc5ac3b8aa338a684d58a84465160b3437cac535daaccf6627be708f81"
 
 [versions]
-fabric = "0.13.3"
 minecraft = "1.18.2"
-
-[options]
-acceptable-game-versions = ["1.18.2"]
+quilt = "0.16.0-beta.7"

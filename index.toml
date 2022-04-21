@@ -216,11 +216,6 @@ hash = "0ad7e183c4b803999a0f45b67a63c32e6638a3f1b33e8a659ad0ca08651caecd"
 metafile = true
 
 [[files]]
-file = "mods/fabric-api.toml"
-hash = "3ee0aa082e8d2e55feded0679db62dd5c7d643c7478eba6daa78a4211945b187"
-metafile = true
-
-[[files]]
 file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
 hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
 
@@ -255,7 +250,7 @@ metafile = true
 
 [[files]]
 file = "mods/inspecio.toml"
-hash = "f616e150a1cedfa51c9a7d4571941e107a37ae184f2e8d6624fe56d68f2844c0"
+hash = "0e89684da352997f2663602d571b67bcc840576f5c13fc32cafeb92054370325"
 metafile = true
 
 [[files]]
@@ -349,8 +344,13 @@ hash = "1754cb3e21a8732d329328a3ccc65e25977eb40e1d4f9ba4f3e57cb60bfd423a"
 metafile = true
 
 [[files]]
+file = "mods/qsl.toml"
+hash = "786b7613d8ef0c5b02296c4900548f345d614246b9bbd76260a5f31cc7c57bd0"
+metafile = true
+
+[[files]]
 file = "mods/quilt-loading-screen.toml"
-hash = "372dbd8b7394ee50d24298b092017689dbec5962658221d0bcc5ee492076d860"
+hash = "8c0b6b4af1aa2dda3b4d09ac32640b4f06523100a66be0c794d39688bacae3bc"
 metafile = true
 
 [[files]]
@@ -386,6 +386,11 @@ metafile = true
 [[files]]
 file = "mods/statuseffecttimer.toml"
 hash = "3610cc0efd4c0bfa58b962452b7ee2c735f3c9a86c66b175a5c186258aaeecc7"
+metafile = true
+
+[[files]]
+file = "mods/tips.toml"
+hash = "a6e7a551643518686eeffb6a82888a1b60be749aeb4af786897ff1d331667cfb"
 metafile = true
 
 [[files]]
