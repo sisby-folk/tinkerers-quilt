@@ -1,4 +1,5 @@
-version:2865
+version:2975
+quilt_available_resource_packs:["charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","illuminations/lowerres","illuminations/pixelaccurate","programer_art","resources/VanillaTweaks_r585540-densewater.zip","resources/Varied Connected Bookshelves.zip","vanilla"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -36,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","file/VanillaTweaks_r818758.zip","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","illuminations/lowerres"]
-incompatibleResourcePacks:["cullleaves/smartleaves"]
+resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","illuminations/lowerres","charmonium/journeyman"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 soundDevice:
@@ -62,11 +63,12 @@ useNativeTransport:true
 mainHand:right
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:find_tree
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
+skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
@@ -107,40 +109,32 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.dynamicfps.toggle_forced:key.keyboard.unknown
-key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
+key_[Fabrication] Crawl:key.keyboard.unknown
 key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown
 key_[Fabrication] Toggle Stance:key.keyboard.z
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
-key_key.entityculling.toggle:key.keyboard.unknown
-key_key.fabrictailor.toggle_skin_gui:key.keyboard.semicolon
+key_key.dynamicfps.toggle_forced:key.keyboard.unknown
+key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.toggleShaders:key.keyboard.left.bracket
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_key.lambdacontrols.look_up:key.keyboard.unknown
-key_key.lambdacontrols.look_right:key.keyboard.unknown
-key_key.lambdacontrols.look_down:key.keyboard.unknown
-key_key.lambdacontrols.look_left:key.keyboard.unknown
+key_modsettings.key.open:key.keyboard.f6
 key_key.mousewheelie.open_config_screen:key.keyboard.unknown
 key_key.mousewheelie.sort_inventory:key.mouse.middle
 key_key.mousewheelie.scroll_up:key.amecsapi.mouse.scroll.up
 key_key.mousewheelie.scroll_down:key.amecsapi.mouse.scroll.down
 key_key.mousewheelie.pick_tool:key.keyboard.unknown
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
 key_key.notes.open_notes_menu:key.keyboard.n
-key_key.okzoomer.zoom:key.keyboard.c
-key_key.okzoomer.decrease_zoom:key.keyboard.unknown
-key_key.okzoomer.increase_zoom:key.keyboard.unknown
-key_key.okzoomer.reset_zoom:key.keyboard.unknown
-key_key.origins.primary_active:key.keyboard.g
-key_key.origins.secondary_active:key.keyboard.h
-key_key.origins.view_origin:key.keyboard.o
+key_key.wildfire_gender.gender_menu:key.keyboard.apostrophe
+key_inventorytabs.key.next_tab:key.keyboard.tab
+key_key.fabrictailor.toggle_skin_gui:key.keyboard.semicolon
 key_presencefootsteps.settings.key:key.keyboard.f10
-key_key.waila.config:key.keyboard.unknown
-key_key.waila.show_overlay:key.keyboard.left.alt
-key_key.waila.toggle_liquid:key.keyboard.unknown
-key_key.waila.show_recipe_input:key.keyboard.unknown
-key_key.waila.show_recipe_output:key.keyboard.unknown
+key_key.ok_zoomer.zoom:key.keyboard.c
+key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
+key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
+key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
