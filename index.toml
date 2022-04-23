@@ -137,12 +137,12 @@ metafile = true
 
 [[files]]
 file = "mods/brb.toml"
-hash = "58d28456989f3cbaffe63b02e89373b436432b5f10743b7b171da8178e56b0ba"
+hash = "d225c6ff1ddf6be8fed438d159d802a7b23e536b7caed920450b836134b723dc"
 metafile = true
 
 [[files]]
 file = "mods/charm.toml"
-hash = "ea33987a3fb814fda6bbee0b05317771aefcd5fa851a4176f23abb5608f48092"
+hash = "67813cd548cd798036ff54373aed8a09ede000f89be8d1990465661f523be7ee"
 metafile = true
 
 [[files]]
@@ -345,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.toml"
-hash = "4b30621b408247a7f48859681a507395c9e7093f26fc91209c64b5f235822964"
+hash = "fb226f346fbbb51a24545d51d13ef764ef2d7e37d7904b4c0862e187e8fd5665"
 metafile = true
 
 [[files]]
