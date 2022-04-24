@@ -408,28 +408,44 @@ file = "removed.txt"
 hash = "6a9ca20d5f621a0995262a7e764ecbda3ee46bdbc0e642ac9fe5a7ef5d1a511b"
 
 [[files]]
-file = "shaderpacks/Builders_QOL_Shaders_V2.8.2.zip"
-hash = "17dcb7e7144e14653029586edfb8cfb4bb9bec723b8dacfeb2301c46e89a4bcb"
+file = "shaderpacks/astralex.toml"
+hash = "c05fbc8f33296962cd2e529ec76d25c4f45ee0f70c768feafb46bcb5b4df5843"
+metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.4.zip"
-hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
+file = "shaderpacks/builders-qol.toml"
+hash = "06572977b40dff26eca555b57d4606a71b0522637de7c7ee5dcb55d3aef5e9e9"
+metafile = true
 
 [[files]]
-file = "shaderpacks/Prismarine+V4.0a.zip"
-hash = "ea47ce039b59854ff39693d4e6f83fb21cd209b0d4a2e8825039764a6219c819"
+file = "shaderpacks/complementary.toml"
+hash = "ac91846a4b34c651ea5da2b73f73682009b70faa03005b753129a52dff18e837"
+metafile = true
 
 [[files]]
-file = "shaderpacks/RedHat_v33.0.zip"
-hash = "302ee9ddf069db29ee8f3fdcb70dcdacf21e608c0df37e3d01ae0f48d0147b10"
+file = "shaderpacks/lux.toml"
+hash = "b8732b3d28bda830e8abe7a9ddadb5c192eb5fe9de11ef4e9da22cffa2be876b"
+metafile = true
 
 [[files]]
-file = "shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip"
-hash = "b98ec31ee7d1c779914b003236702fbd101faf136d22761ea7ed56dbd421c3ab"
+file = "shaderpacks/prismarine.toml"
+hash = "f744970123faf3f20a461dfc2554893e6584311872b996be11616f7ab265f67f"
+metafile = true
 
 [[files]]
-file = "shaderpacks/Skylec_Shader_v.4.0.zip"
-hash = "fc8d4ee6e83b5ab589e61833927793e7d5b796a8afa6f119bd4ddf4f065a7b9a"
+file = "shaderpacks/redhat.toml"
+hash = "def58a9bd19ddd5f5160e4d75af57282f4253f440665f8fba9cba85f307c658a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-enhanced-default.toml"
+hash = "3f8bcbd118eb817a87f0f2d09ee2cef6e2d63b3485d0e3ef1e74686d1f610e99"
+metafile = true
+
+[[files]]
+file = "shaderpacks/skylex.toml"
+hash = "9d1468d817fd5bb17fa2ff13eaad64bba6591b89593074b91789180276159cca"
+metafile = true
 
 [[files]]
 file = "tinkby"
