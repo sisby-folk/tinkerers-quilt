@@ -13,6 +13,6 @@ mod-id = "bpii4Xsa"
 version = "eGTFdJii"
 
 [option]
-optional = true
+optional = false
 default = false
 description = "Adds ambient sound and additional music. Configurable"
