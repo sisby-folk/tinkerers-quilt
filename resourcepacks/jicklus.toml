@@ -1,0 +1,13 @@
+name = "Jicklus"
+filename = "Jicklus 1.18.2.zip"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3746/963/Jicklus%201.18.2.zip"
+hash-format = "sha1"
+hash = "92d3c17e0fc96fddef80aa1cd26363cd15ee202e"
+
+[update]
+[update.curseforge]
+file-id = 3746963
+project-id = 333412

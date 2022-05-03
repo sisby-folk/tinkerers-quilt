@@ -1,0 +1,13 @@
+name = "F8thful"
+filename = "F8thful - 1.18.zip"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3568/15/F8thful%20-%201.18.zip"
+hash-format = "sha1"
+hash = "dd097334583354cb12c1d2a35f6ee0eacb8ae38b"
+
+[update]
+[update.curseforge]
+file-id = 3568015
+project-id = 364688

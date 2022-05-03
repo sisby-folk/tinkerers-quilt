@@ -1,0 +1,13 @@
+name = "Teyemas 1.18.x  Java & Bedrock (Snapshots) (Some modded support!)"
+filename = "Teyemas 1.18-1.18.2.zip"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3723/509/Teyemas%201.18-1.18.2.zip"
+hash-format = "sha1"
+hash = "dac9cc9191406b91134c6b2140175e20f8546a2f"
+
+[update]
+[update.curseforge]
+file-id = 3723509
+project-id = 418784

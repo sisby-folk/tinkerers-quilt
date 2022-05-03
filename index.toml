@@ -49,6 +49,11 @@ file = "config/openloader/resources/Varied Connected Bookshelves.zip"
 hash = "b801fef53e793a0df9fdf0be92304646e60c1c9a7f3ef1ef9930e3361b542247"
 
 [[files]]
+file = "config/openloader/resources/xalis-enchanted-books.toml"
+hash = "8556e17843d3c50a5eac60f152d6917293e8e3bd201fac1a0a79d1adfed700fb"
+metafile = true
+
+[[files]]
 file = "config/presencefootsteps/updater.json"
 hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
@@ -122,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "9458f2379e1a68cb81337b694da4ff1d76344cc5c87a49fbc6880cef61c76187"
+hash = "612eb5b02d9f18e9c5327bb96373c692c72c9ebbae3541eea03feda76dcd764a"
 metafile = true
 
 [[files]]
@@ -152,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.toml"
-hash = "03e734343ae43cadbf86e972990933f75342e4a3046956c9e4871fef1ddb6bee"
+hash = "514fca35d56842bf057e04b93848ef977156678bfc8949dfa2cdb2cdc04a7a0e"
 metafile = true
 
 [[files]]
@@ -264,6 +269,11 @@ hash = "cbc3d6649757c3751ac73aed8df427b3ebc5685a808935b0e631d213bf6a760b"
 metafile = true
 
 [[files]]
+file = "mods/item-model-fix.toml"
+hash = "9ab8949bcb4280b1a4b97d40ded17b4786a6c4db1271c121a7fc52ea6f838e0e"
+metafile = true
+
+[[files]]
 file = "mods/kiwi-fabric.toml"
 hash = "fbb9662ed3d8d0c111fa742f1a63876846d3d70aadc44460ad982d27072025d9"
 metafile = true
@@ -314,6 +324,11 @@ hash = "18e96dad454288e6de4eb8e8fb519c1147e67f49a629cfd005f1a28488be76a6"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.toml"
+hash = "0b27e2f0c72ad7e7aad9a83bd7dc18b0c4771304b6834f4d115cc239724334c6"
+metafile = true
+
+[[files]]
 file = "mods/notenoughcrashes.toml"
 hash = "22ead426c002828d3d2f4da9caf5454fabae689bbf4291020919da7909095794"
 metafile = true
@@ -345,7 +360,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.toml"
-hash = "d0c4d23f688618f6c47e21d4760a619a389bbac2cd5b8ef8d625c7ade32b0229"
+hash = "618cb76373c647b872a313cdf1c80ce2f37e18301cb31f49b62bb78f09c48661"
 metafile = true
 
 [[files]]
@@ -355,7 +370,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.toml"
-hash = "e96382dc2f00318804171da24bab458c69198febbf5a8047c07737aa38a5ca45"
+hash = "8725ecd93d424fbde33676ca47f75ddd51ac33b4389b1670a977b934ece49e69"
 metafile = true
 
 [[files]]
@@ -405,7 +420,59 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "6a9ca20d5f621a0995262a7e764ecbda3ee46bdbc0e642ac9fe5a7ef5d1a511b"
+hash = "4fb767173b58eb932a3e640e28bce0847cb9735f8cdf084e42800d295c7bc47f"
+
+[[files]]
+file = "resourcepacks/1-18-woodpecker-6-2.zip"
+hash = "2b9e53a4387a2d5515be30c06ca847e852f274d1105b9edec9538e3915deb0b8"
+
+[[files]]
+file = "resourcepacks/bare-bones-texture-pack.toml"
+hash = "fdfcf29c42deec906d4f84a59f20e5e81affe89a47dbad2f8f96162844c99b6e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/blockpixel-javaedition-1-19-e1213.zip"
+hash = "7c2e363604eb70449288f5f84e0d782fbd256c5172fc15744206370fe5f78bed"
+
+[[files]]
+file = "resourcepacks/excalibur.toml"
+hash = "f509f16493bf4a48dff72c52d1b94a70748d240611343321a07a9adeea1efa35"
+metafile = true
+
+[[files]]
+file = "resourcepacks/f8thful.toml"
+hash = "e906b6f711ecdb168740453cc73daa4bedc0aa9ebc4ad0d15d360a32ee2500c3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/jicklus.toml"
+hash = "699f2813913d2e089509aac271bb8c02ed332cfec0f3310f60e80d9664c928f9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/punchy-8x8-texture-pack-e2620-1.zip"
+hash = "89b84f13bc2673e28ccde8883d2cc35dbef26745284cab7b4c7e5919e2a8319f"
+
+[[files]]
+file = "resourcepacks/quadral-pack.toml"
+hash = "cc128bd0492e933e96094daffde3ebcd496f0b84c3308bbfd2d7ed3107a9dd59"
+metafile = true
+
+[[files]]
+file = "resourcepacks/smoube.toml"
+hash = "2628322bf469cda24cb1608796e1901a8e78c174935be2afa5e8a92ab918644e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/splotch.toml"
+hash = "0d01ee29d3468e365c3a689ff8e9ac311f6ab590e5c2ff6889945c9faa3a9c68"
+metafile = true
+
+[[files]]
+file = "resourcepacks/teyemas-1-18-x-java-bedrock-snapshots-some-modded.toml"
+hash = "4325374a4fae842ec7afd75a62f3690bd683074f4b8226f65f94235aac5bfd9c"
+metafile = true
 
 [[files]]
 file = "shaderpacks/astralex.toml"
