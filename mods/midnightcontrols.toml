@@ -1,0 +1,13 @@
+name = "MidnightControls"
+filename = "midnightcontrols-0.3.1+1.18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bXX9h73M/versions/0.3.1/midnightcontrols-0.3.1%2B1.18.jar"
+hash-format = "sha1"
+hash = "ae44fa531616309ba86be891cb17c54e3d1d4ada"
+
+[update]
+[update.modrinth]
+mod-id = "bXX9h73M"
+version = "pI0aV4ae"

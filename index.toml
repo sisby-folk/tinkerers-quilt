@@ -181,8 +181,8 @@ hash = "642eedf14c0875215d1d15a39ecab4b1bfcec093e43626cb002f2c890f78c520"
 metafile = true
 
 [[files]]
-file = "mods/cull-leaves.toml"
-hash = "5042a5c75a0e7965504e3c8519bfd932eec8f7f594497d31f5af3eb89ffa4ab1"
+file = "mods/cull-less-leaves.toml"
+hash = "50740aecae5d1bfa78cd95f5623063ee1e3dc5bc3bc00851e2a45dac0313b867"
 metafile = true
 
 [[files]]
@@ -306,6 +306,11 @@ metafile = true
 [[files]]
 file = "mods/mcwifipnp.toml"
 hash = "a022f0fa7e5656e6cf21ff805d6d00bb2d01a242372a92511691089cd87eaea0"
+metafile = true
+
+[[files]]
+file = "mods/midnightcontrols.toml"
+hash = "9fb3538bc5fc60e0483cb98b070759b37e1485fca7877a4a7e68e93f3484f440"
 metafile = true
 
 [[files]]
