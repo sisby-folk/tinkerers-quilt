@@ -1,0 +1,13 @@
+name = "Rhino"
+filename = "rhino-fabric-1801.1.9-build.135.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3742/384/rhino-fabric-1801.1.9-build.135.jar"
+hash-format = "sha1"
+hash = "d25b1f6939cf1e91adf6f977d42eec6fde522e96"
+
+[update]
+[update.curseforge]
+file-id = 3742384
+project-id = 416294

@@ -245,6 +245,21 @@ hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.toml"
+hash = "4b37db97044d84331d071a6fdefc2cf7df803478d91378c457ac9f36085d8d4c"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.toml"
+hash = "82e3915e6135ad09d14a7b1fb02636a3a42ae590b34729dd56a7a493e13dfd91"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.toml"
+hash = "276193a9bb2f0dfab2eb49bebca2c089b55c00526b3d17f2d03a16f33c51d9a8"
+metafile = true
+
+[[files]]
 file = "mods/illuminations-1.10.3.jar"
 hash = "9f22ace94f939fd22d89642c68c251b84d7b81ea71ff67ec5cb1433025c3c748"
 
@@ -269,6 +284,11 @@ hash = "cbc3d6649757c3751ac73aed8df427b3ebc5685a808935b0e631d213bf6a760b"
 metafile = true
 
 [[files]]
+file = "mods/item-filters-fabric.toml"
+hash = "8b42cd9d059950600e1ce0ef28980fa7f9db78ba873bb5e7a0c45371b194f5c3"
+metafile = true
+
+[[files]]
 file = "mods/item-model-fix.toml"
 hash = "9ab8949bcb4280b1a4b97d40ded17b4786a6c4db1271c121a7fc52ea6f838e0e"
 metafile = true
@@ -281,6 +301,11 @@ metafile = true
 [[files]]
 file = "mods/krypton.toml"
 hash = "d609573e65a0c0417060648951d396133b295f172fa8f21ce6566d66d27e8320"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.toml"
+hash = "851690e362c432d1a5dc3dba77daeda405251a935564fa831e1f06b0f3f10f7f"
 metafile = true
 
 [[files]]
@@ -381,6 +406,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.toml"
 hash = "4985f89d51a99f7e49ba2f317f3254b1470e78d3e0f37781751160160c3acb72"
+metafile = true
+
+[[files]]
+file = "mods/rhino.toml"
+hash = "60e343e928538a577ca751e223cf898eb02dddc38e3ec3fe5e25d737be6507d9"
 metafile = true
 
 [[files]]
