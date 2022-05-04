@@ -131,6 +131,11 @@ hash = "612eb5b02d9f18e9c5327bb96373c692c72c9ebbae3541eea03feda76dcd764a"
 metafile = true
 
 [[files]]
+file = "mods/badpackets.toml"
+hash = "d8fe226cd050b8c94fcb98819b2646a74863ad8d52fc22db37c29fe66e53996d"
+metafile = true
+
+[[files]]
 file = "mods/balm-fabric.toml"
 hash = "f16e09ced52586796952de5d6bf341b4ae079c1bed915612fb82c297bb0cb9e3"
 metafile = true
@@ -540,13 +545,12 @@ hash = "8538f10d8236f4bb48efc6032faebd319450379fdcf585832e38e25a9a2d451d"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "82c989f2a4f9217d701ec317e892da711fc133e7c45db761c7f266991604f1e2"
+file = "shaderpacks/AstraLex Shaders (BSL Edit) By LexBoost.zip"
+hash = "0be5fb52a2cde60c420c2ca96bbeefb44b19ede4e51b414910af953da553b71f"
 
 [[files]]
-file = "shaderpacks/astralex.toml"
-hash = "c05fbc8f33296962cd2e529ec76d25c4f45ee0f70c768feafb46bcb5b4df5843"
-metafile = true
+file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
+hash = "82c989f2a4f9217d701ec317e892da711fc133e7c45db761c7f266991604f1e2"
 
 [[files]]
 file = "shaderpacks/builders-qol.toml"
