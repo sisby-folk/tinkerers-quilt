@@ -221,6 +221,11 @@ hash = "0ad7e183c4b803999a0f45b67a63c32e6638a3f1b33e8a659ad0ca08651caecd"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.toml"
+hash = "c2ee93e74ad106f20b997ffb054f46189f941da0c37c73a1a97d5dd85ff530a5"
+metafile = true
+
+[[files]]
 file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
 hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
 
@@ -309,6 +314,11 @@ hash = "851690e362c432d1a5dc3dba77daeda405251a935564fa831e1f06b0f3f10f7f"
 metafile = true
 
 [[files]]
+file = "mods/lambdabettergrass.toml"
+hash = "01f79a7fb966690009a42f285e779bac8f7958df56240494e4d3d7d862332c2d"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.toml"
 hash = "47458ce2df66d83b675111daa48e7721ecfb30284a595235f1cce1cabcae638e"
 metafile = true
@@ -359,11 +369,6 @@ hash = "0b27e2f0c72ad7e7aad9a83bd7dc18b0c4771304b6834f4d115cc239724334c6"
 metafile = true
 
 [[files]]
-file = "mods/notenoughcrashes.toml"
-hash = "22ead426c002828d3d2f4da9caf5454fabae689bbf4291020919da7909095794"
-metafile = true
-
-[[files]]
 file = "mods/notes-fabric.toml"
 hash = "23da50b9d19bb340c58ede1007d7d885127add854e6d13312c5d43887fd38104"
 metafile = true
@@ -406,6 +411,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.toml"
 hash = "4985f89d51a99f7e49ba2f317f3254b1470e78d3e0f37781751160160c3acb72"
+metafile = true
+
+[[files]]
+file = "mods/reroll.toml"
+hash = "97ff0cc000d1c0d39a54c953641f23dc1caef8bb2840454dca5a5ad99d518c9f"
 metafile = true
 
 [[files]]
