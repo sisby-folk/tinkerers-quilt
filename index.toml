@@ -22,7 +22,7 @@ hash = "308a83ec27c6f19502ac96aa0980174f4f7ff3f78eee1ff9ab8bce89d209a320"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "d5320b65e4f38507fc4ebe1e4d01e758ec1fb290de8d76e0b754741e525c9099"
+hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
 
 [[files]]
 file = "config/illuminations.properties"
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/dual-riders.toml"
-hash = "5e7774a80d16637f0cfdc4099a428c92d3bf4097a1d312cf71c8d3fa42b6c08a"
+hash = "a5445c600eb11546ac0e6e3f7b60e76e54c4b5424e4a6a4b81a17bfd2e3565c1"
 metafile = true
 
 [[files]]
@@ -520,6 +520,10 @@ hash = "8538f10d8236f4bb48efc6032faebd319450379fdcf585832e38e25a9a2d451d"
 metafile = true
 
 [[files]]
+file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
+hash = "82c989f2a4f9217d701ec317e892da711fc133e7c45db761c7f266991604f1e2"
+
+[[files]]
 file = "shaderpacks/astralex.toml"
 hash = "c05fbc8f33296962cd2e529ec76d25c4f45ee0f70c768feafb46bcb5b4df5843"
 metafile = true
@@ -551,7 +555,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/sildurs-enhanced-default.toml"
-hash = "3f8bcbd118eb817a87f0f2d09ee2cef6e2d63b3485d0e3ef1e74686d1f610e99"
+hash = "9962a7f1835cc2a4ececfff38c9ae8a0ed5eb47656a4e06cbf9395c4b83c24bb"
 metafile = true
 
 [[files]]
