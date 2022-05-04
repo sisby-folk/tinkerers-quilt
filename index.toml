@@ -424,6 +424,16 @@ hash = "60e343e928538a577ca751e223cf898eb02dddc38e3ec3fe5e25d737be6507d9"
 metafile = true
 
 [[files]]
+file = "mods/roughly-enough-items.toml"
+hash = "fb3132af2dd8a755ad4d23d93b99166751f4c81ea1f9a74f194119d148f73844"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-resources.toml"
+hash = "eb6150a90b50591452feb9fd110e369f4d2eca3f10e1f3f2c0f262703a575899"
+metafile = true
+
+[[files]]
 file = "mods/snow-real-magic-fabric.toml"
 hash = "4e88e88e2b25c77e40743e0dc91ba9961530e6813f678a35eace77f480c0b7f4"
 metafile = true
@@ -456,6 +466,16 @@ metafile = true
 [[files]]
 file = "mods/visuality.toml"
 hash = "c47c339948a3dff50f1b879d6748e949c85e1a79c094aa639886b76c5b7301c8"
+metafile = true
+
+[[files]]
+file = "mods/wthit-plugins.toml"
+hash = "1c1bf0596512ff55686a55b0dbbaa29a7436330a33fcdcef8f089ba8366555dd"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+hash = "9f348462d03c0815838a45316c2e0d22f2c9ba5b0e0175cb3871a55dc098fed2"
 metafile = true
 
 [[files]]
