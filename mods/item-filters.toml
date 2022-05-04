@@ -1,0 +1,13 @@
+name = "Item Filters"
+filename = "item-filters-fabric-1802.2.7-build.25.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3769/889/item-filters-fabric-1802.2.7-build.25.jar"
+hash-format = "sha1"
+hash = "4957a173efde22b27ce32d0989dc998049226616"
+
+[update]
+[update.curseforge]
+file-id = 3769889
+project-id = 309674

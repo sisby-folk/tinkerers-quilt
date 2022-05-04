@@ -284,8 +284,8 @@ hash = "cbc3d6649757c3751ac73aed8df427b3ebc5685a808935b0e631d213bf6a760b"
 metafile = true
 
 [[files]]
-file = "mods/item-filters-fabric.toml"
-hash = "8b42cd9d059950600e1ce0ef28980fa7f9db78ba873bb5e7a0c45371b194f5c3"
+file = "mods/item-filters.toml"
+hash = "8e73c7933e670f1383a76f878a580bbdb6d1655cc13b64c5e6ad1bd12971ac64"
 metafile = true
 
 [[files]]
