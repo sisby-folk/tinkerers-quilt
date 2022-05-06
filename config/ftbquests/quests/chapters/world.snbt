@@ -1,0 +1,34 @@
+{
+	id: "21C1A3CB857EC4AE"
+	group: "76943CFECD75C4AD"
+	order_index: 0
+	filename: "world"
+	title: "World"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Visit a Snow Village"
+		x: -0.5d
+		y: -1.5d
+		subtitle: "Shivery!"
+		description: [
+			"Charm makes villages a little more biome-appropriate"
+			""
+			"Blue ice allows boats to move at rapid speeds - try it out!"
+		]
+		id: "51415C8C88AA350B"
+		tasks: [{
+			id: "0E98F0430979C3AB"
+			type: "structure"
+			title: "Visit a Snow Village"
+			icon: "minecraft:snow_block"
+			structure: "minecraft:village_snowy"
+		}]
+		rewards: [{
+			id: "71B460D6870DE179"
+			type: "item"
+			item: "minecraft:blue_ice"
+			count: 32
+		}]
+	}]
+}

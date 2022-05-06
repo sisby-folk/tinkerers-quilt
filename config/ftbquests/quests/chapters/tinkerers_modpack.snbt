@@ -1,0 +1,94 @@
+{
+	id: "26D6454CBC062E3D"
+	group: "735E26125A90EB5D"
+	order_index: 0
+	filename: "tinkerers_modpack"
+	title: "Tinkerer's Quilt"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Tinkerer's Quilt!"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Humans are also allowed, but you're on thin ice, buddy!"
+			description: [
+				"This is a Vanilla-Compatible Modpack made by Kapesi, Clawby, Le'mer and Herrah"
+				""
+				"It avoids adding any blocks or items."
+				""
+				"Instead, it focuses on minor Quality of Life (QoL) changes, tweaks, and simple added features."
+			]
+			id: "15402DCFAC7CC56A"
+			tasks: [{
+				id: "5E8CF952F6B3C8B7"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "7F1DBC92AA84645F"
+				type: "item"
+				auto: "enabled"
+				item: "ftbquests:book"
+			}]
+		}
+		{
+			title: "Basic Controls"
+			icon: "minecraft:command_block"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Zoom, Crawl, and More!"
+			description: [
+				"Hold C at any time to zoom in your field of view to see far away objects."
+				""
+				""
+				"By pressing Z, you can toggle between standing, sneaking, and crawling - useful for entering tight spaces."
+				""
+				"If you want to know more about a block or entity you're looking at, you can hold ALT to see information about it."
+			]
+			dependencies: ["15402DCFAC7CC56A"]
+			dependency_requirement: "one_started"
+			id: "7840EB3C8B8048EF"
+			tasks: [{
+				id: "1458865ACC4EFFB5"
+				type: "checkmark"
+				title: "Click Here"
+			}]
+		}
+		{
+			title: "Character Customization"
+			icon: "minecraft:dragon_breath"
+			x: 2.0d
+			y: 0.5d
+			subtitle: "funky plural modpack :)"
+			description: [
+				""
+				"Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press F6 and click \"Ears\" to learn more."
+				""
+				"Tailor allows you to change what skin you're using at any time by pressing ; Skins can be stolen from other players, or loaded from an online image or your .minecraft folder."
+				""
+				"Wildfire's Chest Mod (or so I choose to call it) allows you to add and configure a chest bump on your player model, visible in multiplayer. Press ' to configure it."
+				""
+				"Illuminations comes with some free pride effects, unlockable if you create an account at https://illuminations.uuid.gg"
+			]
+			dependencies: ["7840EB3C8B8048EF"]
+			id: "227C88C00E509DAD"
+			tasks: [{
+				id: "636D01F223970749"
+				type: "checkmark"
+				title: "Press F6 and click \"Ears\" to create your own Ears skin"
+			}]
+			rewards: [{
+				id: "5640B17D2DD06407"
+				type: "item"
+				item: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
