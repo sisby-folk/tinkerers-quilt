@@ -146,11 +146,6 @@ hash = "7182ffc62445fb6a8276cba3474db95d4c9b01e0e918dc4833455a176f407fb5"
 metafile = true
 
 [[files]]
-file = "mods/brb.toml"
-hash = "d225c6ff1ddf6be8fed438d159d802a7b23e536b7caed920450b836134b723dc"
-metafile = true
-
-[[files]]
 file = "mods/charm.toml"
 hash = "67813cd548cd798036ff54373aed8a09ede000f89be8d1990465661f523be7ee"
 metafile = true
