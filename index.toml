@@ -29,10 +29,6 @@ file = "config/fabrication/features.ini"
 hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
 
 [[files]]
-file = "config/flytre_lib.json5"
-hash = "1c44b60df8b4b8c9d4727a79a0ffd9071d18324ee98bffccad94e8b9a3211442"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "047e19711bb7e93080c67692f268c0076c6aa1dd5d1876fdd6d61a321de5aa3b"
 
@@ -222,11 +218,6 @@ hash = "50740aecae5d1bfa78cd95f5623063ee1e3dc5bc3bc00851e2a45dac0313b867"
 metafile = true
 
 [[files]]
-file = "mods/dual-riders.toml"
-hash = "4b8ad0002da73f21fad0232a1ece46e08ebe851e5152460d43ba809c33773c22"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.toml"
 hash = "895af62871364c14a635aa674074ab0e5dc88fa41eb6a60bdab075feb106a6fe"
 metafile = true
@@ -362,11 +353,6 @@ metafile = true
 [[files]]
 file = "mods/leaves-us-in-peace.toml"
 hash = "d779c647ab2cfa5a640173405966aa930333ce9977e7004c3592f226fb0ff08b"
-metafile = true
-
-[[files]]
-file = "mods/lib.toml"
-hash = "3eead2cfad3240937f202e766ba873042ed2a08d1f821c542718319435ac9592"
 metafile = true
 
 [[files]]
