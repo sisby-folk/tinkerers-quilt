@@ -329,6 +329,11 @@ hash = "d779c647ab2cfa5a640173405966aa930333ce9977e7004c3592f226fb0ff08b"
 metafile = true
 
 [[files]]
+file = "mods/lib.toml"
+hash = "3eead2cfad3240937f202e766ba873042ed2a08d1f821c542718319435ac9592"
+metafile = true
+
+[[files]]
 file = "mods/lithium.toml"
 hash = "64a4b886ff13e45a06ae3714f4ec3fd5c15a1a4e0573df1cdfa35d673eec45ad"
 metafile = true

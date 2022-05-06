@@ -1,5 +1,5 @@
 version:2975
-quilt_available_resource_packs:["charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","illuminations/lowerres","illuminations/pixelaccurate","programer_art","resources/VanillaTweaks_r585540-densewater.zip","resources/Varied Connected Bookshelves.zip","vanilla"]
+quilt_available_resource_packs:["charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","illuminations/lowerres","illuminations/pixelaccurate","programer_art","resources/VanillaTweaks_r585540-densewater.zip","resources/Varied Connected Bookshelves.zip","vanilla","file/1-18-woodpecker-6-2.zip","file/1.18-Quadral v.6.05.zip","file/Bare Bones 1.18.zip","file/Excalibur_V1.18.1.zip","file/F8thful - 1.18.zip","file/Jicklus 1.18.2.zip","file/Smoube (1.18).zip","file/Splotch v1.2.0.zip","file/Teyemas 1.18-1.18.2.zip","file/blockpixel-javaedition-1-19-e1213.zip","lambdabettergrass/default","resources/xali\u0027s Enchanted Books v0.9.zip"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","cullleaves/smartleaves","illuminations/lowerres","charmonium/journeyman"]
+resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","illuminations/lowerres","charmonium/journeyman","lambdabettergrass/default"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -63,7 +63,7 @@ useNativeTransport:true
 mainHand:right
 attackIndicator:1
 narrator:0
-tutorialStep:find_tree
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
@@ -114,20 +114,29 @@ key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown
 key_[Fabrication] Toggle Stance:key.keyboard.z
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.left.bracket
-key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_modsettings.key.open:key.keyboard.f6
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.left.alt
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
+key_key.waila.show_recipe_input:key.keyboard.keypad.3
+key_key.waila.show_recipe_output:key.keyboard.keypad.4
 key_key.mousewheelie.open_config_screen:key.keyboard.unknown
 key_key.mousewheelie.sort_inventory:key.mouse.middle
 key_key.mousewheelie.scroll_up:key.amecsapi.mouse.scroll.up
 key_key.mousewheelie.scroll_down:key.amecsapi.mouse.scroll.down
 key_key.mousewheelie.pick_tool:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.g
+key_key.midnightcontrols.look_up:key.keyboard.keypad.8
+key_key.midnightcontrols.look_right:key.keyboard.keypad.6
+key_key.midnightcontrols.look_down:key.keyboard.keypad.2
+key_key.midnightcontrols.look_left:key.keyboard.keypad.4
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
 key_key.notes.open_notes_menu:key.keyboard.n
+key_key.wthit-plugins.show_author:key.keyboard.period
 key_key.wildfire_gender.gender_menu:key.keyboard.apostrophe
+key_key.entityculling.toggle:key.keyboard.unknown
 key_inventorytabs.key.next_tab:key.keyboard.tab
 key_key.fabrictailor.toggle_skin_gui:key.keyboard.semicolon
 key_presencefootsteps.settings.key:key.keyboard.f10
@@ -135,6 +144,9 @@ key_key.ok_zoomer.zoom:key.keyboard.c
 key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
 key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
 key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.left.bracket
+key_iris.keybind.shaderPackSelection:key.keyboard.right.bracket
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
