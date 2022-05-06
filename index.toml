@@ -21,8 +21,32 @@ file = "config/charm.toml"
 hash = "308a83ec27c6f19502ac96aa0980174f4f7ff3f78eee1ff9ab8bce89d209a320"
 
 [[files]]
+file = "config/charmonium.toml"
+hash = "f4360cb49ac911a248ad8c16931a5d1281dea03f8382964ecc8ff5b012c873bf"
+
+[[files]]
 file = "config/fabrication/features.ini"
 hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
+
+[[files]]
+file = "config/flytre_lib.json5"
+hash = "1c44b60df8b4b8c9d4727a79a0ffd9071d18324ee98bffccad94e8b9a3211442"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "047e19711bb7e93080c67692f268c0076c6aa1dd5d1876fdd6d61a321de5aa3b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
+hash = "ba996eae77ed5ac4d207230e92f73709e4067daf29c867e6d135b58311b54e7e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/world.snbt"
+hash = "1ca103885aa27d94aa1c54ec59e8f86effdf64855d7431c93be37d18826b0f1d"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "07083338152e81b92c4c1b03a2f8c65d00480941b17b6e1ee15c1dfb4dc305ca"
 
 [[files]]
 file = "config/illuminations.properties"
@@ -54,14 +78,6 @@ hash = "8556e17843d3c50a5eac60f152d6917293e8e3bd201fac1a0a79d1adfed700fb"
 metafile = true
 
 [[files]]
-file = "config/presencefootsteps/updater.json"
-hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
-
-[[files]]
-file = "config/presencefootsteps/userconfig.json"
-hash = "4ad2bc274fc46da9c2dd48083e6cb25206a4fea13a11112e94671af80647e87c"
-
-[[files]]
 file = "config/puzzle.json"
 hash = "bb01300b4751c873564043902f371896adf024a2cf8bed3b67be074b74ed8dc9"
 
@@ -74,12 +90,24 @@ file = "config/yosbr/config/clienttweaks.toml"
 hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
 [[files]]
-file = "config/yosbr/config/lambdacontrols.toml"
-hash = "c3ec3a4759eebb1215b425190cd7260022da55c5dca6b35a04ecec959aa4b3f8"
+file = "config/yosbr/config/midnightcontrols.json"
+hash = "9bf1bc020360669d6eed8efb8320ca0d10437d40f5fc6c2e57d5c30a1df812f1"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
 hash = "2e9d0c1348c35c9555f3e0355fe95f29bd27b5f4c73e3fa46577df2654745061"
+
+[[files]]
+file = "config/yosbr/config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/yosbr/config/presencefootsteps/userconfig.json"
+hash = "4ad2bc274fc46da9c2dd48083e6cb25206a4fea13a11112e94671af80647e87c"
+
+[[files]]
+file = "config/yosbr/config/roughlyenoughitems/config.json5"
+hash = "cb4f3ad28b1a7bb39b86730b92fbfd2bd566a45d4a984d810e90717f3632cca5"
 
 [[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
@@ -94,8 +122,20 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
 [[files]]
+file = "config/yosbr/config/waila/blacklist.json"
+hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
+
+[[files]]
+file = "config/yosbr/config/waila/waila.json"
+hash = "a6aa56d476321af40170060736245ac49f2c0f3d1d3b24edfede0cbcf1dba9da"
+
+[[files]]
+file = "config/yosbr/config/waila/waila_plugins.json"
+hash = "a5c790cce27b07ff7d73b4f0eac1386e3d28dcc9a051eaac1845a00bac950eba"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "bb3d4270d66a35d4894769e1dfc7e543213de83cf3f79d397b3b7565224439c1"
+hash = "bad5ed657013c8cf66071ac1dc67999cbdae21179db95b9d1e532812c9771c63"
 
 [[files]]
 file = "hornby"
