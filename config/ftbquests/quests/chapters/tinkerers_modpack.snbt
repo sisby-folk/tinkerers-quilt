@@ -3,7 +3,8 @@
 	group: "735E26125A90EB5D"
 	order_index: 0
 	filename: "tinkerers_modpack"
-	title: "Tinkerer's Quilt"
+	title: "Overview"
+	icon: "minecraft:bookshelf"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -11,6 +12,7 @@
 			title: "Welcome to Tinkerer's Quilt!"
 			x: 0.0d
 			y: -1.0d
+			shape: "rsquare"
 			subtitle: "Humans are also allowed, but you're on thin ice, buddy!"
 			description: [
 				"This is a Vanilla-Compatible Modpack made by Kapesi, Clawby, Le'mer and Herrah"
@@ -35,16 +37,13 @@
 		{
 			title: "Basic Controls"
 			icon: "minecraft:command_block"
-			x: 0.0d
+			x: -2.0d
 			y: 0.5d
 			subtitle: "Zoom, Crawl, and More!"
 			description: [
-				"Hold C at any time to zoom in your field of view to see far away objects."
+				"Use WASD to move, Space to jump, Shift to sprint, and Ctrl to sneak!"
 				""
-				""
-				"By pressing Z, you can toggle between standing, sneaking, and crawling - useful for entering tight spaces."
-				""
-				"If you want to know more about a block or entity you're looking at, you can hold ALT to see information about it."
+				"You can change these and further binds in the controls menu!"
 			]
 			dependencies: ["15402DCFAC7CC56A"]
 			dependency_requirement: "one_started"
@@ -61,22 +60,13 @@
 			x: 2.0d
 			y: 0.5d
 			subtitle: "funky plural modpack :)"
-			description: [
-				""
-				"Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press F6 and click \"Ears\" to learn more."
-				""
-				"Tailor allows you to change what skin you're using at any time by pressing ; Skins can be stolen from other players, or loaded from an online image or your .minecraft folder."
-				""
-				"Wildfire's Chest Mod (or so I choose to call it) allows you to add and configure a chest bump on your player model, visible in multiplayer. Press ' to configure it."
-				""
-				"Illuminations comes with some free pride effects, unlockable if you create an account at https://illuminations.uuid.gg"
-			]
-			dependencies: ["7840EB3C8B8048EF"]
+			description: ["You can use /showarmor and /hidearmor to disable armor showing over your skin."]
+			dependencies: ["15402DCFAC7CC56A"]
 			id: "227C88C00E509DAD"
 			tasks: [{
 				id: "636D01F223970749"
 				type: "checkmark"
-				title: "Press F6 and click \"Ears\" to create your own Ears skin"
+				title: "Click Here"
 			}]
 			rewards: [{
 				id: "5640B17D2DD06407"
@@ -88,6 +78,204 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			icon: "minecraft:spyglass"
+			x: -3.0d
+			y: 1.0d
+			subtitle: "Press C!"
+			description: ["Hold C at any time to zoom in your field of view to see far away objects."]
+			dependencies: ["7840EB3C8B8048EF"]
+			hide: true
+			id: "7FB0EF27995193D0"
+			tasks: [{
+				id: "22C4AF07A114E0C3"
+				type: "checkmark"
+				title: "Ok Zoomer"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:turtle_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Custom Nonhuman Skins!"
+			description: ["Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press F6 and click \"Ears\" to learn more."]
+			dependencies: ["227C88C00E509DAD"]
+			hide: true
+			id: "750E0AD647A0E1B9"
+			tasks: [{
+				id: "1596BC71E3F57772"
+				type: "checkmark"
+				title: "Ears"
+			}]
+		}
+		{
+			title: "Fabric Tailor"
+			icon: "minecraft:loom"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Swap your skin any time!"
+			description: ["Tailor allows you to change what skin you're using at any time by pressing ; Skins can be stolen from other players, or loaded from an online image or your .minecraft folder."]
+			dependencies: ["227C88C00E509DAD"]
+			hide: true
+			id: "25F883DE9018F64F"
+			tasks: [{
+				id: "67C587D15AB24543"
+				type: "checkmark"
+				title: "Click Here"
+			}]
+		}
+		{
+			icon: "minecraft:chest"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "(It's not called that)"
+			description: ["Wildfire's Chest Mod (or so I choose to call it) allows you to add and configure a chest bump on your player model, visible in multiplayer. Press ALT+G to configure it."]
+			dependencies: ["227C88C00E509DAD"]
+			hide: true
+			id: "2EC9784A91A2F9CC"
+			tasks: [{
+				id: "1696B8578E406417"
+				type: "checkmark"
+				title: "Wildfire's Chest Mod"
+			}]
+		}
+		{
+			title: "Illuminations"
+			icon: "minecraft:lantern"
+			x: 2.5d
+			y: 2.0d
+			subtitle: "Get a pride heart pet!"
+			description: ["Illuminations comes with some free pride effects, unlockable if you create an account at https://illuminations.uuid.gg"]
+			dependencies: ["227C88C00E509DAD"]
+			hide: true
+			id: "1C5E62A1B4B818B6"
+			tasks: [{
+				id: "26AAEFF5A4721389"
+				type: "checkmark"
+				title: "Click Here"
+			}]
+		}
+		{
+			title: "Crawling"
+			icon: "minecraft:oak_trapdoor"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Why not?"
+			description: ["By pressing Z, you can toggle between standing, sneaking, and crawling - useful for entering tight spaces."]
+			dependencies: ["7840EB3C8B8048EF"]
+			hide: true
+			id: "3897F1E5A9B9F288"
+			tasks: [{
+				id: "084362F3F8C026F7"
+				type: "checkmark"
+				title: "Crawling"
+			}]
+		}
+		{
+			icon: "minecraft:book"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "In-Game Wiki Part 1"
+			description: ["If you want to know more about a block or entity you're looking at, you can hold ALT to see information about it."]
+			dependencies: ["7840EB3C8B8048EF"]
+			hide: true
+			id: "3370C1D403E805EE"
+			tasks: [{
+				id: "789FA5A1933F692F"
+				type: "checkmark"
+				title: "What The Hell Is That?"
+			}]
+		}
+		{
+			icon: "minecraft:repeating_command_block"
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"At any time, you can press ALT+M to enter the mod settings menu."
+				""
+				"This grants access to many of the below options."
+			]
+			dependencies: ["15402DCFAC7CC56A"]
+			id: "337730F25EC36332"
+			tasks: [{
+				id: "22742977937BA2B1"
+				type: "checkmark"
+				title: "Configuration"
+			}]
+		}
+		{
+			icon: "minecraft:orange_stained_glass"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Pretty Lighting!"
+			description: ["Iris provides shader options to the pack, which can be set with ALT+I and then toggled with I"]
+			dependencies: ["337730F25EC36332"]
+			hide: true
+			id: "4CF64C7CE9868214"
+			tasks: [{
+				id: "6B3CFBCE6D2F59FF"
+				type: "checkmark"
+				title: "Iris Shaders"
+			}]
+		}
+		{
+			icon: "minecraft:music_disc_cat"
+			x: 1.0d
+			y: 3.5d
+			subtitle: "Aural Ambience"
+			description: [
+				"Charmonium adds ambience tracks to various biomes and situations."
+				""
+				"Their volume can be tweaked and individual ambience tracks disabled in the configuration menu."
+			]
+			dependencies: ["337730F25EC36332"]
+			hide: true
+			id: "13C62F809AC9E5C0"
+			tasks: [{
+				id: "6FA74E220F002409"
+				type: "checkmark"
+				title: "Charmonium"
+			}]
+		}
+		{
+			icon: "minecraft:note_block"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Species-Apt Footsteps"
+			dependencies: ["337730F25EC36332"]
+			hide: true
+			id: "400B5F405E1E93F9"
+			tasks: [{
+				id: "6EDE69526CCB82A3"
+				type: "checkmark"
+				title: "Presence Footsteps"
+			}]
+		}
+		{
+			title: "Notes"
+			icon: "minecraft:writable_book"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Keep track of things!"
+			description: [
+				"Press N at any time to access the Notes menu."
+				""
+				"Here you can take notes to help remember what you're up to, points of interest, and more!"
+			]
+			dependencies: ["7840EB3C8B8048EF"]
+			id: "2B3376C79B6DB1C5"
+			tasks: [{
+				id: "164B9DCDA58586E1"
+				type: "checkmark"
+				title: "Click Here"
 			}]
 		}
 	]

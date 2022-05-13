@@ -1,5 +1,7 @@
 {
 	version: 13
+	title: "Tinkerer's Quilt"
+	icon: "minecraft:anvil"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
