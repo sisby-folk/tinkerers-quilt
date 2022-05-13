@@ -23,6 +23,12 @@
 				count: 10L
 				only_from_crafting: true
 			}]
+			rewards: [{
+				id: "711336121988CB06"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 16
+			}]
 		}
 		{
 			title: "Back to Basics"
@@ -30,6 +36,7 @@
 			y: -1.0d
 			subtitle: "Obtain 11 Cobblestone"
 			description: ["Wooden pickaxes allow you to obtain cobblestone, which can be used to make (among other things) tools and furnaces."]
+			dependencies: ["53AFBD6DDF572701"]
 			id: "548555BB1E839006"
 			tasks: [{
 				id: "050711EC7A11A624"
@@ -49,6 +56,11 @@
 			x: -1.0d
 			y: 2.0d
 			subtitle: "Obtain 3 Diamonds"
+			description: [
+				"Diamonds spawn deep underground, increasing in quantity in the lowest deepslate layers."
+				""
+				"An enchanted pickaxe with *Fortune* can yield more diamonds per block later on."
+			]
 			dependencies: ["41C9341CA261E52B"]
 			id: "28AFD82AD9C0B721"
 			tasks: [{
@@ -57,13 +69,31 @@
 				item: "minecraft:diamond"
 				count: 3L
 			}]
+			rewards: [{
+				id: "2328FD11217D18D9"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
 		}
 		{
 			title: "Where are the Hot Demons?"
 			x: 1.0d
 			y: 2.0d
 			subtitle: "Visit the Nether"
-			description: ["A Nether Portal is a 4-wide by 5-high (minimum) cornerles frame of obsidian blocks, set alight on the inside with a flint and steel or fire charge."]
+			description: [
+				"A Nether Portal is a 4-wide by 5-high (minimum) cornerles frame of obsidian blocks, set alight on the inside with a flint and steel or fire charge."
+				""
+				"Piglins, the villagers of the nether, are hostile to any player not wearing gold armor, and will attack those who mine for gold."
+			]
 			dependencies: [
 				"28AFD82AD9C0B721"
 				"41C9341CA261E52B"
@@ -76,13 +106,28 @@
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
+			rewards: [{
+				id: "07F2FBF6621572C3"
+				type: "item"
+				item: {
+					id: "minecraft:golden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "Getaway Voucher"
 			x: 2.0d
 			y: 0.5d
 			subtitle: "Find a Ruined Portal"
-			description: ["Fire Charges act as single-use flint and steel."]
+			description: [
+				"Fire Charges act as single-use flint and steel."
+				""
+				"Did you get lucky?"
+			]
 			id: "7AF853FC528DE6C6"
 			tasks: [{
 				id: "711B997B0F3BC7B3"
@@ -157,9 +202,9 @@
 			title: "Geometry Dash"
 			x: 1.0d
 			y: 6.5d
-			subtitle: "Find a Stronghold"
+			subtitle: "Find a Stronghold*"
 			description: [
-				"The closest strongholds are located between 1280-2820 blocks of world spawn (X=0, Z=0)."
+				"The closest underground strongholds are located between 1280-2820 blocks of world spawn (X=0, Z=0)."
 				""
 				"Throwing an ender eye will point in the direction of the nearest one, at the risk of consuming it."
 				""
@@ -194,6 +239,125 @@
 				item: "minecraft:ender_pearl"
 				count: 7
 			}]
+		}
+		{
+			title: "Recipe Chim-Cheri"
+			icon: "minecraft:crafting_table"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Craft a Wooden Pickaxe*"
+			description: [
+				"When the inventory is open, REI appears in a pane on the right of the screen."
+				""
+				"By pressing CTRL+F or clicking the Search box, you can filter the list of items by name."
+				""
+				"Try searching for \"wooden pickaxe\" and then left clicking on the icon to see its *Recipe*"
+				""
+				"The wooden pickaxe is made using a crafting table (shown left of the recipe) which itself can also be left clicked for its own recipe."
+			]
+			id: "53AFBD6DDF572701"
+			tasks: [{
+				id: "6B547341AB9F3005"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DE872D39C3E7272"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["2803B3AF9D4E64A3"]
+			id: "345A5D446CD0E0D2"
+			tasks: [{
+				id: "3702B57CC4464B30"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			title: "It's Just Like Breath of the Wild!"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Find ancient debris."
+			description: [
+				"Ancient debris is a rare material found in small quantities by stripmining in the upper nether."
+				""
+				"It can be used to make the best gear!"
+			]
+			dependencies: ["3079DAC3AB1B0AD9"]
+			id: "5DA11E4FA4C52495"
+			tasks: [{
+				id: "0F6EBD8A1A1D375E"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			rewards: [{
+				id: "191C95A50E20CDF1"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+			}]
+		}
+		{
+			title: "Desperate Times"
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Make a Netherite Ingot"
+			description: ["Ancient debris can be combined with gold and heat to make Netherite - a superior material for tools and armor alike."]
+			dependencies: ["5DA11E4FA4C52495"]
+			id: "4413A0B2A6BF9695"
+			tasks: [{
+				id: "72FC9B9A148AAA24"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			title: "I have over 9 powers"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Craft an Enchanting Table"
+			description: [
+				"Enchantments are the main source of \"upgrades\" from here on in, costing XP and lapis to place and being difficult to remove."
+				""
+				"Anvils can combine enchantments, grindstones can wipe them for a partial refund, and bookshelves increase their level when surrounding the table with 1 block space."
+			]
+			dependencies: ["28AFD82AD9C0B721"]
+			id: "594D5FA160E7C304"
+			tasks: [{
+				id: "28E2B53465A55920"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "2C4C838C36BEFAA3"
+					type: "item"
+					item: "minecraft:grindstone"
+				}
+				{
+					id: "2E328D292A34A71A"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 3
+				}
+			]
 		}
 	]
 }

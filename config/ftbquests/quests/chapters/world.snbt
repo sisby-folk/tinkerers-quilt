@@ -6,29 +6,127 @@
 	title: "World"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Visit a Snow Village"
-		x: -0.5d
-		y: -1.5d
-		subtitle: "Shivery!"
-		description: [
-			"Charm makes villages a little more biome-appropriate"
-			""
-			"Blue ice allows boats to move at rapid speeds - try it out!"
-		]
-		id: "51415C8C88AA350B"
-		tasks: [{
-			id: "0E98F0430979C3AB"
-			type: "structure"
+	quests: [
+		{
 			title: "Visit a Snow Village"
-			icon: "minecraft:snow_block"
-			structure: "minecraft:village_snowy"
-		}]
-		rewards: [{
-			id: "71B460D6870DE179"
-			type: "item"
-			item: "minecraft:blue_ice"
-			count: 32
-		}]
-	}]
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Shivery!"
+			description: [
+				"Charm makes villages a little more biome-appropriate"
+				""
+				"Blue ice allows boats to move at rapid speeds - try it out!"
+			]
+			id: "51415C8C88AA350B"
+			tasks: [{
+				id: "0E98F0430979C3AB"
+				type: "structure"
+				title: "Visit a Snow Village"
+				icon: "minecraft:snow_block"
+				structure: "minecraft:village_snowy"
+			}]
+			rewards: [
+				{
+					id: "71B460D6870DE179"
+					type: "item"
+					item: "minecraft:blue_ice"
+					count: 64
+				}
+				{
+					id: "0B772BFDD48FD535"
+					type: "item"
+					item: "minecraft:spruce_boat"
+				}
+			]
+		}
+		{
+			title: "Find an Ocean Monument"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "You'll probably need more than this one."
+			description: [
+				"1.8 added Ocean Monuments - underground fortresses with niche loot but interesting architecture."
+				""
+				""
+				"They're guarded by - get this - guardians. Who prevent you from mining through the structure and can shoot short range bolts."
+			]
+			id: "5DC1E9DC98895E6F"
+			tasks: [{
+				id: "5568AF3262E9717C"
+				type: "structure"
+				icon: "minecraft:prismarine_bricks"
+				structure: "minecraft:monument"
+			}]
+			rewards: [{
+				id: "5CF5264902A13E2F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Make a Beehive"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Farm favourites!"
+			description: [
+				"Minecraft 1.15 added Bees! allowing you to add them to your farms as pollinators and collect their honey."
+				""
+				"You'll need to \"smoke\" a beehive or nest using a lit campfire in order to safely shear honeycomb from it."
+			]
+			id: "05737FE8552841E9"
+			tasks: [{
+				id: "7D638DEB65BF4575"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "TRUCK PARTS!!!!"
+			description: [
+				"Abandoned mineshafts are a good way to find your way between caves and collect loot (especially minecarts and rails!)"
+				""
+				"Minecarts in this modpack have some improvements - try make some \"coasters\" to travel around your base!"
+			]
+			id: "55DDA9D21E24AF10"
+			tasks: [{
+				id: "4C668EE4C88BCB5B"
+				type: "structure"
+				title: "Find an Abandoned Mineshaft"
+				icon: "minecraft:rail"
+				structure: "minecraft:mineshaft"
+			}]
+			rewards: [
+				{
+					id: "123484FB0AFF0886"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 12
+				}
+				{
+					id: "10A6F077FDB7EE3B"
+					type: "item"
+					item: "minecraft:rail"
+					count: 40
+				}
+				{
+					id: "67EB60D542878ED0"
+					type: "item"
+					item: "minecraft:furnace_minecart"
+				}
+				{
+					id: "0173CC76F25E5D16"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+			]
+		}
+	]
 }

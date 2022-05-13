@@ -30,19 +30,27 @@ hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "047e19711bb7e93080c67692f268c0076c6aa1dd5d1876fdd6d61a321de5aa3b"
+hash = "66fb711bbe3d1a27c726231b4c75d54902f8001ebc0efe3d84eeed6ab4b575f4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/discrepancies.snbt"
+hash = "0938ebe2b3c47a104e339924e5c6fbb3a56a686a06a3362132aeb6cade8c9b78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_basics.snbt"
+hash = "4df46b13347878bdecc0b9f8d4f25847e38bc7267a05acc79d6122f0bef61e0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "ba996eae77ed5ac4d207230e92f73709e4067daf29c867e6d135b58311b54e7e"
+hash = "51d85035270605d6274711dd329b14889cdf7236886578b16dd4298cba23ca6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "1ca103885aa27d94aa1c54ec59e8f86effdf64855d7431c93be37d18826b0f1d"
+hash = "cc0b25e044e586eb1dd594270458079a06d9d1849dbd4cf205f8c006a36ea22b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "07083338152e81b92c4c1b03a2f8c65d00480941b17b6e1ee15c1dfb4dc305ca"
+hash = "be4933ebb232c5606a57ebd814de7acb07752cc52d7624d9053bfe332568a6e5"
 
 [[files]]
 file = "config/illuminations.properties"

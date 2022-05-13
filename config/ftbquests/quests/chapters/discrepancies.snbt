@@ -1,0 +1,97 @@
+{
+	id: "14954CE23B2CB8C2"
+	group: "735E26125A90EB5D"
+	order_index: 1
+	filename: "discrepancies"
+	title: "Discrepancies"
+	icon: "ftbquests:missing_item"
+	subtitle: ["Just in case you were wondering..."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Inventory Tabs"
+			icon: "minecraft:paper"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "Flip, flip, flip!"
+			description: ["Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the TAB key."]
+			id: "303012ABADCBFBCB"
+			tasks: [{
+				id: "3473A781A4FCF39E"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Lambda Better Grass"
+			icon: "minecraft:grass_block"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Green mode."
+			description: [
+				"Lambdaurora's Better Grass changes grass sides for 1 and 2-block drops."
+				""
+				"Freely configure this from the Mod Settings menu."
+			]
+			id: "72631298179FD53C"
+			tasks: [{
+				id: "4BF46AFAB501CC2E"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Inspecio"
+			icon: "minecraft:glow_item_frame"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Tooltips!"
+			description: ["Inspecio adds some extra tooltips, such as weapon damage and speed, and potion effects."]
+			id: "5416B6A2CAC03692"
+			tasks: [{
+				id: "5F5BC643C103AB76"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Midnight Controls"
+			icon: "minecraft:scaffolding"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "This is the greatest bridge building of all time."
+			description: [
+				"Midnight Controls provides \"reacharound block placement\" - which allows you to place floating ground in front of you."
+				""
+				"It also allows you to place blocks under the block you're standing on by sneaking over the edge."
+			]
+			id: "6C5C137C0A65216D"
+			tasks: [{
+				id: "7C1A33219D47ABAB"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Fabrication"
+			icon: "minecraft:writable_book"
+			x: -0.5d
+			y: 2.5d
+			subtitle: "... You were probably looking for this one."
+			description: [
+				"Fabrication is a large compilation of minor changes and tweaks (way too many to list here!)"
+				""
+				"In this pack, it buffs furnace minecarts, makes item pickup automatic (like terraria), and makes tridents a viable weapon again, and wayyy too much more."
+				""
+				"Of useful note - Cactus doesn't do damage with the right armor nor deletes items, berry bushes don't do damage at all, saddles can be removed from animals with shift+right-click, nether stripmining is viable, feather falling V exists, obsidian takes less time to break, creepers and ghasts can't break blocks, and you can farm arrows shot by skeletons."
+			]
+			id: "1474F51D2832FCD5"
+			tasks: [{
+				id: "2B6CD287B75CD676"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+	]
+}

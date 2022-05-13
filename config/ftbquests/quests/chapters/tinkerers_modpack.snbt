@@ -20,11 +20,14 @@
 				"It avoids adding any blocks or items."
 				""
 				"Instead, it focuses on minor Quality of Life (QoL) changes, tweaks, and simple added features."
+				""
+				"To access these quests, use the quest book or press G at any time."
 			]
 			id: "15402DCFAC7CC56A"
 			tasks: [{
 				id: "5E8CF952F6B3C8B7"
 				type: "dimension"
+				title: "Start a new World!"
 				dimension: "minecraft:overworld"
 			}]
 			rewards: [{
@@ -46,6 +49,7 @@
 				"You can change these and further binds in the controls menu!"
 			]
 			dependencies: ["15402DCFAC7CC56A"]
+			hide: true
 			dependency_requirement: "one_started"
 			id: "7840EB3C8B8048EF"
 			tasks: [{
@@ -62,11 +66,12 @@
 			subtitle: "funky plural modpack :)"
 			description: ["You can use /showarmor and /hidearmor to disable armor showing over your skin."]
 			dependencies: ["15402DCFAC7CC56A"]
+			hide: true
 			id: "227C88C00E509DAD"
 			tasks: [{
 				id: "636D01F223970749"
 				type: "checkmark"
-				title: "Click Here"
+				title: "Click Here!"
 			}]
 			rewards: [{
 				id: "5640B17D2DD06407"
@@ -81,21 +86,27 @@
 			}]
 		}
 		{
+			title: "Ok Zoomer"
 			icon: "minecraft:spyglass"
 			x: -3.0d
 			y: 1.0d
 			subtitle: "Press C!"
-			description: ["Hold C at any time to zoom in your field of view to see far away objects."]
+			description: [
+				"Ok Zoomer allows you to zoom in your field of view at any time."
+				""
+				"Hold C to zoom and see far away objects."
+			]
 			dependencies: ["7840EB3C8B8048EF"]
 			hide: true
 			id: "7FB0EF27995193D0"
 			tasks: [{
 				id: "22C4AF07A114E0C3"
 				type: "checkmark"
-				title: "Ok Zoomer"
+				title: "Click Here!"
 			}]
 		}
 		{
+			title: "Ears"
 			icon: {
 				id: "minecraft:turtle_helmet"
 				Count: 1b
@@ -113,7 +124,7 @@
 			tasks: [{
 				id: "1596BC71E3F57772"
 				type: "checkmark"
-				title: "Ears"
+				title: "Click Here!"
 			}]
 		}
 		{
@@ -129,10 +140,11 @@
 			tasks: [{
 				id: "67C587D15AB24543"
 				type: "checkmark"
-				title: "Click Here"
+				title: "Click Here!"
 			}]
 		}
 		{
+			title: "Wildfire's Chest Mod"
 			icon: "minecraft:chest"
 			x: 1.5d
 			y: 2.0d
@@ -160,7 +172,7 @@
 			tasks: [{
 				id: "26AAEFF5A4721389"
 				type: "checkmark"
-				title: "Click Here"
+				title: "Click Here!"
 			}]
 		}
 		{
@@ -169,35 +181,45 @@
 			x: -1.0d
 			y: 1.0d
 			subtitle: "Why not?"
-			description: ["By pressing Z, you can toggle between standing, sneaking, and crawling - useful for entering tight spaces."]
+			description: [
+				"Fabrication adds many small mechanic changes."
+				""
+				"By pressing Z, you can toggle between standing, sneaking, and crawling - useful for entering tight spaces."
+			]
 			dependencies: ["7840EB3C8B8048EF"]
 			hide: true
 			id: "3897F1E5A9B9F288"
 			tasks: [{
 				id: "084362F3F8C026F7"
 				type: "checkmark"
-				title: "Crawling"
+				title: "Click Here!"
 			}]
 		}
 		{
+			title: "What The Hell Is That?"
 			icon: "minecraft:book"
 			x: -2.5d
 			y: 2.0d
 			subtitle: "In-Game Wiki Part 1"
-			description: ["If you want to know more about a block or entity you're looking at, you can hold ALT to see information about it."]
+			description: [
+				"WTHIT provides useful world tooltips."
+				""
+				"If you want to know more about a block or entity you're looking at, you can hold ALT to see information about it."
+			]
 			dependencies: ["7840EB3C8B8048EF"]
 			hide: true
 			id: "3370C1D403E805EE"
 			tasks: [{
 				id: "789FA5A1933F692F"
 				type: "checkmark"
-				title: "What The Hell Is That?"
+				title: "Click Here"
 			}]
 		}
 		{
 			icon: "minecraft:repeating_command_block"
 			x: 0.0d
 			y: 2.5d
+			subtitle: "Tweak Stuff!"
 			description: [
 				"At any time, you can press ALT+M to enter the mod settings menu."
 				""
@@ -271,11 +293,46 @@
 				"Here you can take notes to help remember what you're up to, points of interest, and more!"
 			]
 			dependencies: ["7840EB3C8B8048EF"]
+			hide: true
 			id: "2B3376C79B6DB1C5"
 			tasks: [{
 				id: "164B9DCDA58586E1"
 				type: "checkmark"
-				title: "Click Here"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Roughly Enough Items"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 3s
+					}]
+				}
+			}
+			x: -3.0d
+			y: 3.0d
+			subtitle: "In-Game Wiki Part 2 through ∞"
+			description: [
+				"Roughly Enough Items provides an in-game wiki for how to find or acquire almost any item in the game."
+				""
+				"In any inventory, you can hover over an item and press \"R\" (Recipe) to find out how to make or find it"
+				""
+				"You can also press \"U\" (usages) to find out what you can craft an item into."
+				""
+				"Additionally, REI prodives a searchable pane of every item, shown on the right of the screen. Press CTRL+O to toggle this at any time."
+				""
+				"R and U can be used here, or left and right clicking, respectively."
+			]
+			dependencies: ["3370C1D403E805EE"]
+			id: "393F164200CAC675"
+			tasks: [{
+				id: "29C23CC02A755D6D"
+				type: "checkmark"
+				title: "Click Here!"
 			}]
 		}
 	]
