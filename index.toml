@@ -300,10 +300,6 @@ hash = "276193a9bb2f0dfab2eb49bebca2c089b55c00526b3d17f2d03a16f33c51d9a8"
 metafile = true
 
 [[files]]
-file = "mods/illuminations-1.10.3.jar"
-hash = "9f22ace94f939fd22d89642c68c251b84d7b81ea71ff67ec5cb1433025c3c748"
-
-[[files]]
 file = "mods/illuminations.toml"
 hash = "56e7d48ea1939c0030abb2b78b2dc2d36a73e0437eb8efca19030f932a6a816b"
 metafile = true
