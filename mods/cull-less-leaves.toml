@@ -1,13 +1,13 @@
 name = "Cull Less Leaves"
-filename = "CullLessLeaves-1.0.0.jar"
+filename = "CullLessLeaves-1.0.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/iG6ZHsUV/versions/1.0.0/CullLessLeaves-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/iG6ZHsUV/versions/1.0.1/CullLessLeaves-1.0.1.jar"
 hash-format = "sha1"
-hash = "19559b8892f43cfd938a3900d9bec47baf51b767"
+hash = "784f03a763ae04cd4c8df4af74b10f2efbe8f186"
 
 [update]
 [update.modrinth]
 mod-id = "iG6ZHsUV"
-version = "ml8Zv0AV"
+version = "ndxl1iq4"

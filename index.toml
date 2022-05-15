@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/cull-less-leaves.toml"
-hash = "50740aecae5d1bfa78cd95f5623063ee1e3dc5bc3bc00851e2a45dac0313b867"
+hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
@@ -302,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/illuminations-1.10.3.jar"
 hash = "9f22ace94f939fd22d89642c68c251b84d7b81ea71ff67ec5cb1433025c3c748"
+
+[[files]]
+file = "mods/illuminations.toml"
+hash = "56e7d48ea1939c0030abb2b78b2dc2d36a73e0437eb8efca19030f932a6a816b"
+metafile = true
 
 [[files]]
 file = "mods/indium.toml"
@@ -385,7 +390,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.toml"
-hash = "a73f71d58f3a3c5f01e86f32209d03d002f73768eedff9cb6f9cbd150ecb6361"
+hash = "8f501b0b0f968e3b4819219c5fd5c656500bb0a2736cafff092ce7279fe85574"
 metafile = true
 
 [[files]]
@@ -500,7 +505,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.toml"
-hash = "70596f9325e0070be39406f799bc156d17796983cf90f42bfa0efdcceaa6eceb"
+hash = "b9ef0cbac7cfe547d83b3e9aeebed95099b037d03bab2ab885fddb91d083b5b3"
 metafile = true
 
 [[files]]
