@@ -280,8 +280,11 @@
 			}]
 		}
 		{
+			title: "Where are the Hot Dra-oh"
+			icon: "minecraft:end_portal_frame"
 			x: 1.0d
 			y: 8.0d
+			subtitle: "Reach the End"
 			dependencies: ["2803B3AF9D4E64A3"]
 			id: "345A5D446CD0E0D2"
 			tasks: [{
@@ -358,6 +361,78 @@
 					count: 3
 				}
 			]
+		}
+		{
+			title: "*static noises*"
+			x: 1.0d
+			y: 9.5d
+			subtitle: "Escape the central End"
+			description: [
+				"Defeating the ender dragon spawns an End Gateway - a very small bedrock pill-shaped structure with a single portal block in the middle."
+				""
+				"By tossing an enderpearl through the portal, you can travel to the outer end."
+			]
+			dependencies: ["345A5D446CD0E0D2"]
+			id: "6CDF6FE603499CB1"
+			tasks: [{
+				id: "2A9ADEEF5B006F41"
+				type: "advancement"
+				title: "Escape the Central End"
+				icon: "minecraft:end_crystal"
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Shell City"
+			x: -1.0d
+			y: 9.5d
+			subtitle: "Find an End City"
+			description: [
+				"End cities contain endgame loot, such as enchanted tools and armor, ender chests, and shulker shells."
+				""
+				"The rarest loot is contained within End Ships - giant end-city-colored boats in the sky, often a part of end cities."
+			]
+			dependencies: ["6CDF6FE603499CB1"]
+			id: "4631772288F2177D"
+			tasks: [{
+				id: "3403F8CB9F8DB4E1"
+				type: "structure"
+				icon: "minecraft:purpur_block"
+				structure: "minecraft:end_city"
+			}]
+		}
+		{
+			title: "Takeoff"
+			x: -1.0d
+			y: 11.0d
+			subtitle: "Obtain an Elytra"
+			description: [
+				"Obtain an Elytra from the item frame at the inner bow of an end ship."
+				""
+				"Press \"Space\" while in the air to deploy, use mouse to control. Firework rockets can be used as boosters while flying."
+				""
+				"Hitting surfaces at speed deals damage, so turning before impact and pulling up to slow down is advised."
+			]
+			dependencies: ["4631772288F2177D"]
+			id: "06B5F4D5D8A0D202"
+			tasks: [{
+				id: "6C7823064E1563F1"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C6D37B53B9A2DF5"
+				type: "item"
+				item: "minecraft:firework_rocket"
+				count: 16
+			}]
 		}
 	]
 }

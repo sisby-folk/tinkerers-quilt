@@ -117,7 +117,7 @@
 			x: 1.0d
 			y: 1.0d
 			subtitle: "Custom Nonhuman Skins!"
-			description: ["Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press F6 and click \"Ears\" to learn more."]
+			description: ["Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press ALT+M and click \"Ears\" to learn more."]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "750E0AD647A0E1B9"
@@ -133,7 +133,11 @@
 			x: 3.0d
 			y: 1.0d
 			subtitle: "Swap your skin any time!"
-			description: ["Tailor allows you to change what skin you're using at any time by pressing ; Skins can be stolen from other players, or loaded from an online image or your .minecraft folder."]
+			description: [
+				"Tailor allows you to change what skin you're using at any time by pressing ALT+T"
+				""
+				"Skins can be stolen from other players, or loaded from an online image or your .minecraft folder."
+			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "25F883DE9018F64F"
