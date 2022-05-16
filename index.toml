@@ -216,6 +216,11 @@ hash = "61a15f37dbaee42076eb50b29b17279561ef44ec14208db6790c0c0981723823"
 metafile = true
 
 [[files]]
+file = "mods/colormatic.toml"
+hash = "0b9c8fa1e2dfa64f787a0562200f54bb5afc401196dac20a9886c0f92f575b5d"
+metafile = true
+
+[[files]]
 file = "mods/continuity.toml"
 hash = "642eedf14c0875215d1d15a39ecab4b1bfcec093e43626cb002f2c890f78c520"
 metafile = true
@@ -223,6 +228,11 @@ metafile = true
 [[files]]
 file = "mods/cull-less-leaves.toml"
 hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
+metafile = true
+
+[[files]]
+file = "mods/debugify.toml"
+hash = "9d5d339c329cb7e2a8c7540da5dff5e81cb99b769986c3f88fcfa17d21477f18"
 metafile = true
 
 [[files]]
@@ -395,6 +405,10 @@ hash = "18e96dad454288e6de4eb8e8fb519c1147e67f49a629cfd005f1a28488be76a6"
 metafile = true
 
 [[files]]
+file = "mods/nofade-1.18-2.0.1.jar"
+hash = "cb6345b67f2f14708f0476d6797267466862d1a0e5b1a5dd530f43c0d45951ca"
+
+[[files]]
 file = "mods/not-enough-animations.toml"
 hash = "0b27e2f0c72ad7e7aad9a83bd7dc18b0c4771304b6834f4d115cc239724334c6"
 metafile = true
@@ -460,6 +474,11 @@ hash = "eb6150a90b50591452feb9fd110e369f4d2eca3f10e1f3f2c0f262703a575899"
 metafile = true
 
 [[files]]
+file = "mods/smooth-boot.toml"
+hash = "0bb8efa177ff2c5b54bb0bcbadf5e5fd2ae57c0cb71e533e7d8b896f12d9af4b"
+metafile = true
+
+[[files]]
 file = "mods/snow-real-magic-fabric.toml"
 hash = "4e88e88e2b25c77e40743e0dc91ba9961530e6813f678a35eace77f480c0b7f4"
 metafile = true
@@ -496,12 +515,12 @@ metafile = true
 
 [[files]]
 file = "mods/wthit-plugins.toml"
-hash = "1c1bf0596512ff55686a55b0dbbaa29a7436330a33fcdcef8f089ba8366555dd"
+hash = "822a0af12ddd67f9c970f428b04bb564bed6bc902920216388e9e212c95f0285"
 metafile = true
 
 [[files]]
 file = "mods/wthit.toml"
-hash = "b9ef0cbac7cfe547d83b3e9aeebed95099b037d03bab2ab885fddb91d083b5b3"
+hash = "0f51270c426ece64c5436d39cf1a17fba5a58de32e4de175929acdd21edc7bc6"
 metafile = true
 
 [[files]]
