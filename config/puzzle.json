@@ -1,11 +1,12 @@
 {
+  "disabledIntegrations": [],
+  "enablePuzzleButton": false,
   "debugMessages": false,
   "checkUpdates": false,
   "showPuzzleInfo": false,
   "resourcepackSplashScreen": true,
   "disableSplashScreenBlend": false,
   "emissiveTextures": true,
-  "customRenderLayers": true,
   "unlimitedRotations": true,
   "biggerModels": true,
   "backgroundColor": 15675965,

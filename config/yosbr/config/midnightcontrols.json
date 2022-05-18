@@ -28,8 +28,17 @@
   "unfocusedInput": false,
   "virtualMouse": false,
   "virtualMouseSkin": "DEFAULT_LIGHT",
-  "controllerID": 0,
-  "secondControllerID": -1,
+  "controllerID": 0.0,
+  "secondControllerID": -1.0,
+  "mouseScreens": [
+    "me.jellysquid.mods.sodium.client.gui",
+    "net.coderbot.iris.gui",
+    "net.minecraft.client.gui.screen.advancement",
+    "net.minecraft.client.gui.screen.pack.PackScreen",
+    "net.minecraft.class_5375",
+    "net.minecraft.class_457",
+    "net.minecraft.class_408"
+  ],
   "BINDINGS": {},
   "maxAnalogValues": [
     1.0,

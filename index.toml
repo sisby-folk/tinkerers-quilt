@@ -17,12 +17,12 @@ file = "config/appleskin.json5"
 hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
 
 [[files]]
-file = "config/charm.toml"
-hash = "308a83ec27c6f19502ac96aa0980174f4f7ff3f78eee1ff9ab8bce89d209a320"
+file = "config/citresewn.json"
+hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
 
 [[files]]
-file = "config/charmonium.toml"
-hash = "f4360cb49ac911a248ad8c16931a5d1281dea03f8382964ecc8ff5b012c873bf"
+file = "config/colormatic.properties"
+hash = "2e668d54f365736fbd4c97b1f42535ce889587d18b3caa48830219f25f48d124"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -53,8 +53,8 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "be4933ebb232c5606a57ebd814de7acb07752cc52d7624d9053bfe332568a6e5"
 
 [[files]]
-file = "config/illuminations.properties"
-hash = "eb83172a366fc27bf19ea64db8bd8130255ae402dead5c311f7791f2a5878d7d"
+file = "config/inspecio.json"
+hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c504077.zip"
@@ -79,11 +79,15 @@ metafile = true
 
 [[files]]
 file = "config/puzzle.json"
-hash = "bb01300b4751c873564043902f371896adf024a2cf8bed3b67be074b74ed8dc9"
+hash = "4b8f41e58609c3933456ae462fbbe0f9f2c0f37d4a1bfda8c98f85e90c94cd91"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
+
+[[files]]
+file = "config/yosbr/config/charmonium.toml"
+hash = "de7057d00f1ebfe02a01b299778660eb23c13564f7796df828b8c0d437b25d1c"
 
 [[files]]
 file = "config/yosbr/config/clienttweaks.toml"
@@ -91,11 +95,11 @@ hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
 [[files]]
 file = "config/yosbr/config/midnightcontrols.json"
-hash = "9bf1bc020360669d6eed8efb8320ca0d10437d40f5fc6c2e57d5c30a1df812f1"
+hash = "73b6c889f2ea2e0ea2448830944874a1ca0be0c857dc5416845acc9b5969c7e8"
 
 [[files]]
-file = "config/yosbr/config/modmenu.json"
-hash = "2e9d0c1348c35c9555f3e0355fe95f29bd27b5f4c73e3fa46577df2654745061"
+file = "config/yosbr/config/midnightlib.json"
+hash = "2e3350eba8775df655664378743a5b7897135cd146207dd5bc0782efea89a611"
 
 [[files]]
 file = "config/yosbr/config/presencefootsteps/updater.json"
@@ -114,10 +118,6 @@ file = "config/yosbr/config/sodium-extra-options.json"
 hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
 
 [[files]]
-file = "config/yosbr/config/sodium-mixins.properties"
-hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
-
-[[files]]
 file = "config/yosbr/config/sodium-options.json"
 hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
@@ -134,8 +134,12 @@ file = "config/yosbr/config/waila/waila_plugins.json"
 hash = "a5c790cce27b07ff7d73b4f0eac1386e3d28dcc9a051eaac1845a00bac950eba"
 
 [[files]]
+file = "config/yosbr/options.amecsapi.txt"
+hash = "0d036ad288b9dd5dceb7bfede80e557d9af3bf57b3163293f00a15a096556218"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "bad5ed657013c8cf66071ac1dc67999cbdae21179db95b9d1e532812c9771c63"
+hash = "a90c92e3f3eb7ec1f6f19143eb3fe08c879390613195185dab02818e719c1a2d"
 
 [[files]]
 file = "hornby"
@@ -183,11 +187,6 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.toml"
 hash = "7182ffc62445fb6a8276cba3474db95d4c9b01e0e918dc4833455a176f407fb5"
-metafile = true
-
-[[files]]
-file = "mods/charm.toml"
-hash = "67813cd548cd798036ff54373aed8a09ede000f89be8d1990465661f523be7ee"
 metafile = true
 
 [[files]]
@@ -268,6 +267,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.toml"
 hash = "c2ee93e74ad106f20b997ffb054f46189f941da0c37c73a1a97d5dd85ff530a5"
+metafile = true
+
+[[files]]
+file = "mods/extended-clouds.toml"
+hash = "52805169296b24b09e68695bb1ca5df2534296bfdefb335b9609617b20f3abaf"
 metafile = true
 
 [[files]]
@@ -395,11 +399,6 @@ hash = "f494cb48d6e1d8d5c3460a8f689d2b05b2a0a5cebe70a3f70a305ef620e4b860"
 metafile = true
 
 [[files]]
-file = "mods/modmenu.toml"
-hash = "8f501b0b0f968e3b4819219c5fd5c656500bb0a2736cafff092ce7279fe85574"
-metafile = true
-
-[[files]]
 file = "mods/mouse-wheelie.toml"
 hash = "18e96dad454288e6de4eb8e8fb519c1147e67f49a629cfd005f1a28488be76a6"
 metafile = true
@@ -485,7 +484,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.toml"
-hash = "9f50922d190120ef3f832a8a3c6bdd123a80b9b16559a58e1b5c5a1520d9b2c4"
+hash = "524e91432b8c7a9e8862daa60928ac283d36de6c2fc1c3649d9a102942b5670b"
 metafile = true
 
 [[files]]

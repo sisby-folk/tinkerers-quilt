@@ -1,0 +1,13 @@
+name = "Extended Clouds"
+filename = "extendedclouds-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SRvY3a39/versions/1.0.0/extendedclouds-1.0.0.jar"
+hash-format = "sha1"
+hash = "362d4549a3cfba3775871ba6a869a85c1c9fbb90"
+
+[update]
+[update.modrinth]
+mod-id = "SRvY3a39"
+version = "COMZEtKH"
