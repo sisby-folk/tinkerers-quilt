@@ -222,7 +222,7 @@
 		{
 			title: "Long Boy"
 			icon: "minecraft:ender_pearl"
-			x: 2.5d
+			x: -1.0d
 			y: 5.0d
 			subtitle: "Kill 10 Endermen"
 			description: ["Endermen are most easily fought in numbers in the desert at night, where the flat light ground makes them very visible."]
@@ -330,6 +330,11 @@
 				type: "item"
 				item: "minecraft:netherite_ingot"
 			}]
+			rewards: [{
+				id: "746DDD2B48B97608"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
 		}
 		{
 			title: "I have over 9 powers"
@@ -432,6 +437,218 @@
 				type: "item"
 				item: "minecraft:firework_rocket"
 				count: 16
+			}]
+		}
+		{
+			title: "Mob Grinder"
+			x: 5.0d
+			y: 3.5d
+			subtitle: "Obtain 3 Wither Skeleton Skulls"
+			description: [
+				"The Wither is arguably the hardest boss in the game, and one best fought in a large arena deep underground in the overworld, or close to the roof in the nether."
+				""
+				"It's summoned using a T of soul sand, with 3 heads in a row above it."
+				""
+				"You'll need to make more of these potions."
+			]
+			dependencies: ["4048B08BA7BA39BE"]
+			id: "71B31B0EAE8DCD3D"
+			tasks: [{
+				id: "0B1FFAD97E03BE43"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "62D79C7D22C67DEC"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4
+				}
+				{
+					id: "58344DE55762F044"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "I am a Comet"
+			x: 5.0d
+			y: 9.5d
+			subtitle: "Defeat the Wither"
+			description: ["The Nether Star is used to create a \"Beacon\" - a structure made of ore blocks (iron blocks, etc) that provides a permanent positive potion effect in a radius."]
+			dependencies: ["71B31B0EAE8DCD3D"]
+			id: "7D7CE9AD22CE6A29"
+			tasks: [{
+				id: "1E03C0456495EB2B"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [
+				{
+					id: "598DAB4227729FA0"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9
+				}
+				{
+					id: "302BD6A4F9A4AEE5"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			title: "*cackles*"
+			x: 3.0d
+			y: 5.0d
+			subtitle: "Acquire Brewing Ingredients"
+			description: ["Blaze rods and Nether wart can both be found in the nether. The latter of which can be farmed on soul sand."]
+			dependencies: ["4048B08BA7BA39BE"]
+			id: "274780E9080AF463"
+			tasks: [
+				{
+					id: "57C85AE7D22E4328"
+					type: "item"
+					item: "minecraft:brewing_stand"
+				}
+				{
+					id: "702F50852618854C"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+			]
+			rewards: [
+				{
+					id: "46B82B5C477BA0F3"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 10
+				}
+				{
+					id: "5D033BFC370CD3BF"
+					type: "item"
+					item: "minecraft:magma_cream"
+					count: 6
+				}
+				{
+					id: "1528B67155CB6378"
+					type: "item"
+					item: "minecraft:pufferfish"
+					count: 6
+				}
+				{
+					id: "39B9A72FFADE2792"
+					type: "item"
+					item: "minecraft:phantom_membrane"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Nether-Proof Soup"
+			x: 3.0d
+			y: 6.5d
+			subtitle: "Brew an Extended Fire Resistance and Slow Fall Potion"
+			description: [
+				"Click for the Recipes! The nether causes most deaths through fall damage or lava damage."
+				""
+				"Striders are found in the Nether's lava seas, and can be saddled and ridden using a Warped Fungus on a Stick. "
+				""
+				"This allows the nether to be crossed fairly safely, in combination with a few staircases."
+			]
+			dependencies: ["274780E9080AF463"]
+			id: "0C2C9057CE459E63"
+			tasks: [
+				{
+					id: "1BE9417FD5079964"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "2D377D47EF1F29FC"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "74647DB1EEC564B3"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "2CE4CC0075F94E19"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Bitch i'm Far-ming"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Acquire Staple Crops"
+			description: [
+				"This pack can be played well without killing passive mobs. Often called a \"Vegetarian\" playthrough."
+				""
+				"A solid source of bread, baked potatoes, and (eventually) golden carrots is a good start."
+				""
+				"Leather can be applied by drying rotten flesh in a furnace."
+				""
+				"Books can also be acquired from existing bookshelves"
+			]
+			dependencies: ["548555BB1E839006"]
+			id: "5C7110BA96ECA231"
+			tasks: [
+				{
+					id: "036531D2966228F2"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "2253B55A7A56A119"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "3D39CA4E39238D3E"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+			]
+			rewards: [{
+				id: "046833CC8D4ADAF5"
+				type: "item"
+				item: "minecraft:golden_carrot"
+				count: 10
 			}]
 		}
 	]

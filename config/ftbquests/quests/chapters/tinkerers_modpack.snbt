@@ -30,12 +30,20 @@
 				title: "Start a new World!"
 				dimension: "minecraft:overworld"
 			}]
-			rewards: [{
-				id: "7F1DBC92AA84645F"
-				type: "item"
-				auto: "enabled"
-				item: "ftbquests:book"
-			}]
+			rewards: [
+				{
+					id: "7F1DBC92AA84645F"
+					type: "item"
+					auto: "enabled"
+					item: "ftbquests:book"
+				}
+				{
+					id: "590D6DB22646789C"
+					type: "item"
+					item: "minecraft:bread"
+					count: 10
+				}
+			]
 		}
 		{
 			title: "Basic Controls"

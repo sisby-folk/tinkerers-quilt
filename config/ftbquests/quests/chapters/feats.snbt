@@ -1,0 +1,68 @@
+{
+	id: "0812D8295CFC0E04"
+	group: "62B6788D48F57D15"
+	order_index: 0
+	filename: "feats"
+	title: "Feats"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Stay Fiesty, Hellspawn"
+		x: 0.0d
+		y: -1.5d
+		subtitle: "Craft a Respawn Anchor"
+		description: [
+			"A *Respawn Anchor* Allows you to create a proper home in the nether, where you'll respawn."
+			""
+			""
+			"It needs to be charged by right clicking it with glowstone blocks."
+			""
+			"However, it can also be charged using a dispenser containing glowstone blocks."
+			""
+			"By using a comparator to measure how charged an anchor is, and inverting the signal with a redstone torch, you can ensure it always stays charged."
+			""
+			"Monsters can never spawn on half slabs, even in the nether."
+		]
+		id: "1214A9D25F1AA9AB"
+		tasks: [{
+			id: "3521FE6D48EDF5D8"
+			type: "item"
+			item: "minecraft:respawn_anchor"
+		}]
+		rewards: [
+			{
+				id: "4E4AD351A8263C5B"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 64
+			}
+			{
+				id: "02B40E660E812F1B"
+				type: "item"
+				item: "minecraft:dispenser"
+			}
+			{
+				id: "2E860F5CE3D5969C"
+				type: "item"
+				item: "minecraft:comparator"
+			}
+			{
+				id: "13C96D3601DCC981"
+				type: "item"
+				item: "minecraft:redstone_torch"
+			}
+			{
+				id: "2A19DFBBB29850A1"
+				type: "item"
+				item: "minecraft:warped_slab"
+				count: 64
+			}
+			{
+				id: "0345D9EB28581597"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 15
+			}
+		]
+	}]
+}

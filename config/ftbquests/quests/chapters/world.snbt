@@ -8,12 +8,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Visit a Snow Village"
+			title: "Shivery!"
 			x: -0.5d
 			y: -1.5d
-			subtitle: "Shivery!"
+			subtitle: "Visit a Snow Village"
 			description: [
-				"Charm makes villages a little more biome-appropriate"
+				"Minecraft has made many villages more biome-appropriate."
 				""
 				"Blue ice allows boats to move at rapid speeds - try it out!"
 			]
@@ -40,10 +40,10 @@
 			]
 		}
 		{
-			title: "Find an Ocean Monument"
+			title: "Snorkel not included"
 			x: -0.5d
 			y: 0.5d
-			subtitle: "You'll probably need more than this one."
+			subtitle: "Find an Ocean Monument"
 			description: [
 				"1.8 added Ocean Monuments - underground fortresses with niche loot but interesting architecture."
 				""
@@ -54,6 +54,7 @@
 			tasks: [{
 				id: "5568AF3262E9717C"
 				type: "structure"
+				title: "Find an Ocean Monument"
 				icon: "minecraft:prismarine_bricks"
 				structure: "minecraft:monument"
 			}]
@@ -70,14 +71,16 @@
 			}]
 		}
 		{
-			title: "Make a Beehive"
+			title: "Farm Favourites!"
 			x: -3.0d
 			y: -1.5d
-			subtitle: "Farm favourites!"
+			subtitle: "Make a Beehive"
 			description: [
 				"Minecraft 1.15 added Bees! allowing you to add them to your farms as pollinators and collect their honey."
 				""
 				"You'll need to \"smoke\" a beehive or nest using a lit campfire in order to safely shear honeycomb from it."
+				""
+				"Carpet can be placed over campfires to prevent them from damaging mobs."
 			]
 			id: "05737FE8552841E9"
 			tasks: [{
@@ -85,11 +88,18 @@
 				type: "item"
 				item: "minecraft:beehive"
 			}]
+			rewards: [{
+				id: "510A8473FAD36C9F"
+				type: "item"
+				item: "minecraft:moss_carpet"
+				count: 10
+			}]
 		}
 		{
+			title: "TRUCK PARTS!!!"
 			x: 2.0d
 			y: -1.5d
-			subtitle: "TRUCK PARTS!!!!"
+			subtitle: "Find an Abandoned Mineshaft"
 			description: [
 				"Abandoned mineshafts are a good way to find your way between caves and collect loot (especially minecarts and rails!)"
 				""
@@ -127,6 +137,109 @@
 					item: "minecraft:minecart"
 				}
 			]
+		}
+		{
+			title: "Prettier than the average cave"
+			x: -0.5d
+			y: -3.5d
+			subtitle: "Find a Lush Cave"
+			id: "0305A29ECBFA79FA"
+			tasks: [{
+				id: "0FB37F4ABF69F503"
+				type: "biome"
+				title: "Find a Lush Cave"
+				icon: "minecraft:moss_block"
+				biome: "minecraft:lush_caves"
+			}]
+		}
+		{
+			title: "Underwater Fighting Team!"
+			x: 2.0d
+			y: -3.5d
+			subtitle: "Bucket an Axolotl"
+			dependencies: ["0305A29ECBFA79FA"]
+			id: "3602D52A78391BFA"
+			tasks: [{
+				id: "372E5994E7E2ABAB"
+				type: "item"
+				item: {
+					id: "minecraft:axolotl_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "What is it, Boy."
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Acquire a Trident"
+			description: [
+				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins."
+				""
+				"In this pack, tridents can be enchanted to deal more damage."
+			]
+			id: "2F6EDECBF7606385"
+			tasks: [{
+				id: "423493D133AB8111"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DEC4FBAE4CF706D"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:riptide"
+							lvl: 3s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "A Proper Story"
+			x: -3.0d
+			y: -3.5d
+			subtitle: "Find a Bastion Remnant"
+			description: [
+				"These ruiins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
+				""
+			]
+			id: "08398FBBB792C742"
+			tasks: [{
+				id: "49C795AA701ECB2D"
+				type: "structure"
+				icon: "minecraft:polished_blackstone_bricks"
+				structure: "minecraft:bastion_remnant"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "Find a Lodestone"
+			description: ["Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."]
+			dependencies: ["08398FBBB792C742"]
+			id: "449397788969C004"
+			tasks: [{
+				id: "6222355C0CE72BA1"
+				type: "item"
+				item: "minecraft:lodestone"
+			}]
+			rewards: [{
+				id: "2CB308083236D0E5"
+				type: "item"
+				item: "minecraft:compass"
+			}]
 		}
 	]
 }
