@@ -61,6 +61,42 @@ file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
+file = "config/openloader/data/Arachnid.zip"
+hash = "c923412ab419749d4fffb64ebe33ba5ef0bbf647ac0ed14d0da8c8a59ffd34af"
+
+[[files]]
+file = "config/openloader/data/Avian_V3.1.zip"
+hash = "23840fe6c7bcb559ed3f8bc759708238b9f4d504f60fb3690434a32e95c07695"
+
+[[files]]
+file = "config/openloader/data/Blazeborn_V2.2.zip"
+hash = "75ef1063f11d4f34524cfc776659835eb9c559e9d7b4fa526a9f09ab8dc268be"
+
+[[files]]
+file = "config/openloader/data/Feline.zip"
+hash = "9b5fbdc1a4ae425e79fc2c9f7e7deb4d873f8aa275c89ef3f863c6d082a8dd5c"
+
+[[files]]
+file = "config/openloader/data/Lepus_6.5.zip"
+hash = "960dd9722bdae593e63c8a7f9046b96e6160aefcb611b50be8dc0a6c5025c3a8"
+
+[[files]]
+file = "config/openloader/data/Merling.zip"
+hash = "ea92ad032cc8376570a0145371f27b2e2e1c1b2372026527caf212d66be02e38"
+
+[[files]]
+file = "config/openloader/data/Phantom.zip"
+hash = "64116a6d87af567bb67311bbc62152f8578fc221caad07a70f6adec88bfc4f44"
+
+[[files]]
+file = "config/openloader/data/Shulk.zip"
+hash = "b4e14792fd0ca8e36d83122e71fd3d666ec0cca8669ab29fdca6928dbd24cbfd"
+
+[[files]]
+file = "config/openloader/data/Tinkerers_Origins.zip"
+hash = "1a6335070203aca85173153517cc3a2d51623546ac5753a851290a4d65665a9b"
+
+[[files]]
 file = "config/openloader/data/VanillaTweaks_c504077.zip"
 hash = "0acdc405c11294b55d950102c8fab7ed6a822112588af98594816ded60514150"
 
@@ -283,6 +319,10 @@ hash = "52805169296b24b09e68695bb1ca5df2534296bfdefb335b9609617b20f3abaf"
 metafile = true
 
 [[files]]
+file = "mods/extraorigins-1.18-10.jar"
+hash = "71167dac6f491a1ce76dbe580e2c3a43e17917726f91bf608c83e14c6b88a9fc"
+
+[[files]]
 file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
 hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
 
@@ -319,6 +359,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-fabric.toml"
 hash = "276193a9bb2f0dfab2eb49bebca2c089b55c00526b3d17f2d03a16f33c51d9a8"
+metafile = true
+
+[[files]]
+file = "mods/grounded-origins.toml"
+hash = "2f5c49a0939582c50e54cee0d401dfb819e386a7e8fc118489be90b415243349"
 metafile = true
 
 [[files]]
@@ -433,6 +478,21 @@ metafile = true
 [[files]]
 file = "mods/open-loader.toml"
 hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
+metafile = true
+
+[[files]]
+file = "mods/origins-classes.toml"
+hash = "e86696acaa29f3e9732505a051010a98dd247ded2d669349a754602e72962916"
+metafile = true
+
+[[files]]
+file = "mods/origins.toml"
+hash = "f8cf32a9a4872c9c66312237e1d12bd6dd427ebce1686cd2c499991a86f0ad7e"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.toml"
+hash = "42f2e5c741eb458efcf1cd71ba22eb67f3ecd312e57970770514264d88eb8d13"
 metafile = true
 
 [[files]]
