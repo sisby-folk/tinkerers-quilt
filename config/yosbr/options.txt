@@ -134,7 +134,7 @@ key_key.waila.show_overlay:key.keyboard.left.alt
 key_key.waila.toggle_liquid:key.keyboard.unknown
 key_key.waila.show_recipe_input:key.keyboard.unknown
 key_key.waila.show_recipe_output:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.g
+key_key.ftbquests.quests:key.keyboard.j
 key_key.notes.open_notes_menu:key.keyboard.n
 key_key.wthit-plugins.show_author:key.keyboard.unknown
 key_key.wildfire_gender.gender_menu:key.keyboard.g
@@ -149,6 +149,9 @@ key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.i
 key_iris.keybind.shaderPackSelection:key.keyboard.i
+key_key.origins.primary_active:key.keyboard.g
+key_key.origins.secondary_active:key.keyboard.h
+key_key.origins.view_origin:key.keyboard.o
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
