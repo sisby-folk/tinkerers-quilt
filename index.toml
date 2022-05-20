@@ -78,7 +78,7 @@ hash = "75ef1063f11d4f34524cfc776659835eb9c559e9d7b4fa526a9f09ab8dc268be"
 
 [[files]]
 file = "config/openloader/data/Feline.zip"
-hash = "9b5fbdc1a4ae425e79fc2c9f7e7deb4d873f8aa275c89ef3f863c6d082a8dd5c"
+hash = "603977a84e329caad95b6098a525fe4d34f316cb72848703f6d7fe71e5e6ffc4"
 
 [[files]]
 file = "config/openloader/data/Lepus_6.5.zip"
@@ -97,8 +97,8 @@ file = "config/openloader/data/Shulk.zip"
 hash = "b4e14792fd0ca8e36d83122e71fd3d666ec0cca8669ab29fdca6928dbd24cbfd"
 
 [[files]]
-file = "config/openloader/data/Tinkerers_Origins.zip"
-hash = "1a6335070203aca85173153517cc3a2d51623546ac5753a851290a4d65665a9b"
+file = "config/openloader/data/Tinkerers_Cleanup.zip"
+hash = "7be4cfbf56aec9dc142bd2caf5c7e68d07247ac9e6548069cefc5f867d9e973b"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c504077.zip"
@@ -192,6 +192,10 @@ hash = "f2313a425eae6f790257ffa85549dbc866e876f405134080d26e7f96b19882d6"
 [[files]]
 file = "hornby"
 hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
+
+[[files]]
+file = "mods/Couplings-1.8.0+1.18.2.jar"
+hash = "df72fda20ce8def50a22f97ca67e87239da46a2501cd8eb3e7648b23107b1599"
 
 [[files]]
 file = "mods/Wildfire Female Gender Mod-2.9.jar"
@@ -319,7 +323,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-clouds.toml"
-hash = "52805169296b24b09e68695bb1ca5df2534296bfdefb335b9609617b20f3abaf"
+hash = "bcbadf6eebf7e2199555d27272daaed5aeb52bb57a8763b3f5b1d9062dbed358"
 metafile = true
 
 [[files]]
@@ -521,7 +525,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.toml"
-hash = "82bf62a035b5d56ac6f1da8e70f6e321e22edc7fc662e5f744e5414fed65a447"
+hash = "03eae1b9ebedcc384d7cbc5bc799484512b7065b782ee8865216f1f778118cef"
 metafile = true
 
 [[files]]
