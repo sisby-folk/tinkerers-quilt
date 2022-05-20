@@ -1,0 +1,38 @@
+{
+	"origins": [{
+		"condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:origin",
+					"origin": "extraorigins:inchling",
+					"layer": "origins:origin"
+				},
+				{
+					"type": "origins:origin",
+					"origin": "grounded_origins:moth",
+					"layer": "origins:origin"
+				}
+			],
+			"inverted": true
+		},
+		"origins": [
+			"tinkerer:unaffected",
+			"tinkerer:sized",
+			"tinkerer:hemidemishort",
+			"tinkerer:demishort",
+			"tinkerer:semishort",
+			"tinkerer:short",
+			"tinkerer:impish",
+			"tinkerer:demitall",
+			"tinkerer:tall",
+			"tinkerer:taller",
+			"tinkerer:tallest",
+			"tinkerer:orcish",
+			"tinkerer:oversize1",
+			"tinkerer:oversize2",
+			"tinkerer:oversize3"
+		]
+	}],
+	"name": "Stature",
+	"order": 20
+}

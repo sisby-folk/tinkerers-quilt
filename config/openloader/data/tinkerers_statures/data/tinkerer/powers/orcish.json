@@ -1,0 +1,61 @@
+{
+    "type": "origins:action_on_callback",
+    "execute_chosen_when_orb": true,
+	"name": "Orcish",
+	"description": "You are larger and broader.\nHeight: 2.4 Blocks\nSneak Height: 2 Blocks\nWidth: 1 Block Exactly",
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set 1.2 @s",
+                "permission_level": 4
+            },            
+			{
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width 1.3 @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:model_width 1 @s",
+                "permission_level": 4
+            }
+        ]
+    },
+    "entity_action_respawn": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set 1.2 @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width 1.3 @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:model_width 1 @s",
+                "permission_level": 4
+            }
+        ]
+    },
+    "entity_action_lost": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale reset pehkui:width @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale reset pehkui:model_width @s",
+                "permission_level": 4
+            }
+        ]
+    }
+}
