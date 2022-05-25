@@ -572,6 +572,11 @@ hash = "d609573e65a0c0417060648951d396133b295f172fa8f21ce6566d66d27e8320"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.toml"
+hash = "20dd6271d2a7619b9e7378115cd3a434ea38d07e279a8914255084bc0cf1f985"
+metafile = true
+
+[[files]]
 file = "mods/lambdabettergrass.toml"
 hash = "01f79a7fb966690009a42f285e779bac8f7958df56240494e4d3d7d862332c2d"
 metafile = true
@@ -588,12 +593,12 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-us-in-peace.toml"
-hash = "d779c647ab2cfa5a640173405966aa930333ce9977e7004c3592f226fb0ff08b"
+hash = "e969f8b43e5679d9adf2f027a744f65b011904aa5ad9dd451a48dcb0521f2966"
 metafile = true
 
 [[files]]
 file = "mods/lithium.toml"
-hash = "64a4b886ff13e45a06ae3714f4ec3fd5c15a1a4e0573df1cdfa35d673eec45ad"
+hash = "83541b1d3e1e936638a6938eb505bf0f508c13aed7f8416af8d064ffc7cda4dc"
 metafile = true
 
 [[files]]
@@ -688,6 +693,11 @@ metafile = true
 [[files]]
 file = "mods/reroll.toml"
 hash = "97ff0cc000d1c0d39a54c953641f23dc1caef8bb2840454dca5a5ad99d518c9f"
+metafile = true
+
+[[files]]
+file = "mods/rhino.toml"
+hash = "cfd4496517e58bb2406164c9b598879d7f835484564109bf14352f618f891b43"
 metafile = true
 
 [[files]]
