@@ -1,0 +1,111 @@
+{
+	id: "746E19B508D7413D"
+	group: "614D55B25CC6BACC"
+	order_index: 1
+	filename: "homesteading"
+	title: "Homesteading"
+	icon: "minecraft:jungle_planks"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "796366A8D7D8BBF8"
+			tasks: [{
+				id: "58184DF53B179A23"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			id: "0BB19BE0BA8A2037"
+			tasks: [{
+				id: "296F49FBB8B236FA"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			id: "643F41D93DC1FB81"
+			tasks: [{
+				id: "09786F5FDCD26DED"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "1BCC72C060356F02"
+			tasks: [{
+				id: "38A7D9A1F4B61BE4"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "2F461D711895F36B"
+			tasks: [{
+				id: "1B0C87963A2673AE"
+				type: "item"
+				item: "minecraft:lantern"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "096988E67755A423"
+			tasks: [{
+				id: "12C095116F80A80B"
+				type: "item"
+				item: "minecraft:glass_pane"
+			}]
+		}
+		{
+			title: "Plotting"
+			x: 1.0d
+			y: -3.0d
+			subtitle: "Make a Fence Gate"
+			id: "1FFD2B27BC87EADB"
+			tasks: [{
+				id: "4120F1E913227A16"
+				type: "item"
+				title: "Any #c:fence_gates"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:fence_gates"
+					}
+				}
+			}]
+		}
+		{
+			title: "Rest"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Make a Bed"
+			id: "20E2938DD7365207"
+			tasks: [{
+				id: "394B1747873BEBD6"
+				type: "item"
+				title: "Make a Bed"
+				icon: "minecraft:red_bed"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+		}
+	]
+}

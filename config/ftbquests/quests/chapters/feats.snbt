@@ -8,8 +8,8 @@
 	default_hide_dependency_lines: false
 	quests: [{
 		title: "Stay Fiesty, Hellspawn"
-		x: 0.0d
-		y: -1.5d
+		x: -1.0d
+		y: -2.5d
 		subtitle: "Craft a Respawn Anchor"
 		description: [
 			"A *Respawn Anchor* Allows you to create a proper home in the nether, where you'll respawn."

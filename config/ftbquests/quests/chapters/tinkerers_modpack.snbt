@@ -25,10 +25,12 @@
 			]
 			id: "15402DCFAC7CC56A"
 			tasks: [{
-				id: "5E8CF952F6B3C8B7"
-				type: "dimension"
-				title: "Start a new World!"
-				dimension: "minecraft:overworld"
+				id: "774A1B2AF13DC558"
+				type: "stat"
+				title: "Start a New World"
+				icon: "ftbquests:book"
+				stat: "minecraft:play_time"
+				value: 1
 			}]
 			rewards: [
 				{
@@ -383,138 +385,138 @@
 							Items: [
 								{
 									Slot: 0b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 1b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 2b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 3b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 4b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 5b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 6b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 7b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 8b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 9b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 10b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 11b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 12b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 13b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 14b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 15b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 16b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 17b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 18b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 19b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 20b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 21b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 22b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 23b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 24b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 25b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 26b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 							]
 						}
@@ -550,138 +552,138 @@
 							Items: [
 								{
 									Slot: 0b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 1b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 2b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 3b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 4b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 5b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 6b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 7b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 8b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 9b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 10b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 11b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 12b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 13b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 14b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 15b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 16b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 17b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 18b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 19b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 20b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 21b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 22b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 23b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 24b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 25b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 								{
 									Slot: 26b
-									Count: 1b
 									id: "origins:orb_of_origin"
+									Count: 1b
 								}
 							]
 						}
@@ -718,138 +720,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -871,138 +873,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -1024,138 +1026,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -1177,138 +1179,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -1330,138 +1332,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -1483,138 +1485,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -1636,138 +1638,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}
@@ -1789,138 +1791,138 @@
 								Items: [
 									{
 										Slot: 0b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 1b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 2b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 3b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 4b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 5b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 6b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 7b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 8b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 9b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 10b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 11b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 12b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 13b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 14b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 15b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 16b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 17b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 18b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 19b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 20b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 21b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 22b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 23b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 24b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 25b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 									{
 										Slot: 26b
-										Count: 1b
 										id: "origins:orb_of_origin"
+										Count: 1b
 									}
 								]
 							}

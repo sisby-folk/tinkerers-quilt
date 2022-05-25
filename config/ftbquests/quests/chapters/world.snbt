@@ -9,8 +9,8 @@
 	quests: [
 		{
 			title: "Shivery!"
-			x: -0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -1.0d
 			subtitle: "Visit a Snow Village"
 			description: [
 				"Minecraft has made many villages more biome-appropriate."
@@ -22,7 +22,7 @@
 				id: "0E98F0430979C3AB"
 				type: "structure"
 				title: "Visit a Snow Village"
-				icon: "minecraft:snow_block"
+				icon: "minecraft:blue_ice"
 				structure: "minecraft:village_snowy"
 			}]
 			rewards: [
@@ -41,8 +41,8 @@
 		}
 		{
 			title: "Snorkel not included"
-			x: -0.5d
-			y: 0.5d
+			x: 2.0d
+			y: 2.5d
 			subtitle: "Find an Ocean Monument"
 			description: [
 				"1.8 added Ocean Monuments - underground fortresses with niche loot but interesting architecture."
@@ -73,7 +73,7 @@
 		{
 			title: "Farm Favourites!"
 			x: -3.0d
-			y: -1.5d
+			y: 3.5d
 			subtitle: "Make a Beehive"
 			description: [
 				"Minecraft 1.15 added Bees! allowing you to add them to your farms as pollinators and collect their honey."
@@ -140,8 +140,8 @@
 		}
 		{
 			title: "Prettier than the average cave"
-			x: -0.5d
-			y: -3.5d
+			x: -1.5d
+			y: -2.5d
 			subtitle: "Find a Lush Cave"
 			id: "0305A29ECBFA79FA"
 			tasks: [{
@@ -154,8 +154,8 @@
 		}
 		{
 			title: "Underwater Fighting Team!"
-			x: 2.0d
-			y: -3.5d
+			x: -1.5d
+			y: -4.0d
 			subtitle: "Bucket an Axolotl"
 			dependencies: ["0305A29ECBFA79FA"]
 			id: "3602D52A78391BFA"
@@ -209,11 +209,13 @@
 		{
 			title: "A Proper Story"
 			x: -3.0d
-			y: -3.5d
+			y: -2.5d
 			subtitle: "Find a Bastion Remnant"
 			description: [
-				"These ruiins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
+				"These ruins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
 				""
+				""
+				"And immense amounts of gold."
 			]
 			id: "08398FBBB792C742"
 			tasks: [{
@@ -224,7 +226,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -4.0d
 			y: -3.5d
 			subtitle: "Find a Lodestone"
 			description: ["Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."]
@@ -239,6 +241,217 @@
 				id: "2CB308083236D0E5"
 				type: "item"
 				item: "minecraft:compass"
+			}]
+		}
+		{
+			title: "Send Stones"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Visit a Desert Village"
+			id: "0B63891D4F70167D"
+			tasks: [{
+				id: "18D4E5CF52B9AE80"
+				type: "structure"
+				title: "Visit a Desert Village"
+				icon: "minecraft:sandstone"
+				structure: "minecraft:village_desert"
+			}]
+			rewards: [{
+				id: "6AACB5F65B2E3633"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "Hey, Little Blue!"
+			x: -4.5d
+			y: -1.0d
+			subtitle: "Find a Turtle"
+			description: [
+				"Turtles can be found roaming on beaches. And can be bred using Seagrass"
+				""
+				"Raising a turtle will grant you a Scute."
+			]
+			id: "687ED1196101F48D"
+			tasks: [{
+				id: "2D8CC208859BC15D"
+				type: "observation"
+				title: "Find a Turtle"
+				icon: "minecraft:scute"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:turtle"
+			}]
+			rewards: [{
+				id: "7C89F52AB86043C4"
+				type: "item"
+				item: "minecraft:seagrass"
+				count: 10
+			}]
+		}
+		{
+			title: "Cowabunga!"
+			x: -6.0d
+			y: -1.0d
+			subtitle: "Craft a Turtle Shell"
+			description: [
+				"Turtle shells provide additional time underwater, similar to the Respiration enchantment. "
+				""
+				"They can also be brewed into Potions of the Turtle Master."
+			]
+			dependencies: ["687ED1196101F48D"]
+			id: "56295946AF0DD074"
+			tasks: [{
+				id: "4332DE476304087F"
+				type: "item"
+				item: {
+					id: "minecraft:turtle_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "777F2EAF4C750945"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+				{
+					id: "256FDDB934BF6FDE"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_turtle_master"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Plain and Simple"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Visit a Plains Village"
+			id: "3F3A1267F224AD07"
+			tasks: [{
+				id: "34CCB8903E66DB2B"
+				type: "structure"
+				title: "Enter a Plains Village"
+				icon: "minecraft:oak_planks"
+				structure: "minecraft:village_plains"
+			}]
+			rewards: [{
+				id: "5F91BA9B5A136015"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "High in the mountains"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Visit a Taiga Village"
+			id: "65DADF56E2AB01DF"
+			tasks: [{
+				id: "0996CC3858DEAB84"
+				type: "structure"
+				title: "Visit a Taiga Village"
+				icon: "minecraft:spruce_planks"
+				structure: "minecraft:village_taiga"
+			}]
+			rewards: [{
+				id: "15FDCC798069BA29"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "Madagascar 2"
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Visit a Savannah Village"
+			id: "2591980163249EF1"
+			tasks: [{
+				id: "3A1BD6DEB90F7E2D"
+				type: "structure"
+				title: "Enter a Savanna Village"
+				icon: "minecraft:acacia_log"
+				structure: "minecraft:village_savanna"
+			}]
+			rewards: [{
+				id: "0963101C49748680"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "Well Travelled"
+			icon: "minecraft:filled_map"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Visit every village"
+			dependencies: [
+				"2591980163249EF1"
+				"51415C8C88AA350B"
+				"3F3A1267F224AD07"
+				"65DADF56E2AB01DF"
+				"0B63891D4F70167D"
+			]
+			id: "01646EC056D18511"
+			rewards: [
+				{
+					id: "5F533ACB0CD57C46"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "7464DF60ADE26E4B"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "3838C1067FEF0042"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "443294621BF1DF97"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+			]
+		}
+		{
+			title: "On the Road"
+			x: 3.5d
+			y: -1.5d
+			subtitle: "Travel 200 Blocks by Minecart"
+			dependencies: ["55DDA9D21E24AF10"]
+			id: "394ECD6E04D05843"
+			tasks: [{
+				id: "249ED3136171674E"
+				type: "stat"
+				title: "Travel 200 Blocks by Minecart"
+				icon: "minecraft:minecart"
+				stat: "minecraft:minecart_one_cm"
+				value: 200
 			}]
 		}
 	]

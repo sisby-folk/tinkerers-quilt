@@ -10,32 +10,58 @@
 	quests: [
 		{
 			title: "Getting Started"
-			x: 0.0d
+			x: -1.0d
 			y: 0.5d
 			subtitle: "Smelt 10 Iron Ingots"
-			description: ["Stone pickaxes allow you to mine Iron, which can be smelted into Ingots"]
+			description: [
+				"Stone pickaxes allow you to mine Iron, which can be smelted into Ingots"
+				""
+				"Iron pickaxes can be used to mine diamonds."
+				""
+				"Iron can also be made into tools, weapons, and armor."
+			]
 			dependencies: ["548555BB1E839006"]
 			id: "41C9341CA261E52B"
 			tasks: [{
 				id: "1017D28DD8548D65"
 				type: "item"
-				item: "minecraft:iron_ingot"
+				title: "Iron Ingot"
+				icon: "minecraft:iron_ingot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beacon_payment_items"
+					}
+				}
 				count: 10L
 				only_from_crafting: true
 			}]
-			rewards: [{
-				id: "711336121988CB06"
-				type: "item"
-				item: "minecraft:charcoal"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "711336121988CB06"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 16
+				}
+				{
+					id: "46199844089D3F1D"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 10
+				}
+			]
 		}
 		{
 			title: "Back to Basics"
-			x: 0.0d
+			x: -1.0d
 			y: -1.0d
 			subtitle: "Obtain 11 Cobblestone"
-			description: ["Wooden pickaxes allow you to obtain cobblestone, which can be used to make (among other things) tools and furnaces."]
+			description: [
+				"Wooden pickaxes allow you to obtain cobblestone, which can be used to make (among other things) pickaxes and furnaces."
+				""
+				"By pressing F while holding an item, you can place it in your \"off hand\" - this can allow you to do things like hold torches while caving."
+			]
 			dependencies: ["53AFBD6DDF572701"]
 			id: "548555BB1E839006"
 			tasks: [{
@@ -57,7 +83,7 @@
 			y: 2.0d
 			subtitle: "Obtain 3 Diamonds"
 			description: [
-				"Diamonds spawn deep underground, increasing in quantity in the lowest deepslate layers."
+				"Diamonds spawn deep underground, increasing in quantity in the lowest deepslate layers. Pickaxes made from them can mine obsidian."
 				""
 				"An enchanted pickaxe with *Fortune* can yield more diamonds per block later on."
 			]
@@ -86,18 +112,13 @@
 		}
 		{
 			title: "Where are the Hot Demons?"
-			x: 1.0d
-			y: 2.0d
-			subtitle: "Visit the Nether"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "Enter the Nether"
 			description: [
 				"A Nether Portal is a 4-wide by 5-high (minimum) cornerles frame of obsidian blocks, set alight on the inside with a flint and steel or fire charge."
 				""
 				"Piglins, the villagers of the nether, are hostile to any player not wearing gold armor, and will attack those who mine for gold."
-			]
-			dependencies: [
-				"28AFD82AD9C0B721"
-				"41C9341CA261E52B"
-				"7AF853FC528DE6C6"
 			]
 			dependency_requirement: "one_completed"
 			id: "3079DAC3AB1B0AD9"
@@ -120,13 +141,13 @@
 		}
 		{
 			title: "Getaway Voucher"
-			x: 2.0d
-			y: 0.5d
+			x: 4.5d
+			y: -2.5d
 			subtitle: "Find a Ruined Portal"
 			description: [
-				"Fire Charges act as single-use flint and steel."
+				"Ruined portals are partially built Nether portals. If repaired and lit, they function as normal."
 				""
-				"Did you get lucky?"
+				"Fire charges act as a single-use flint and steel."
 			]
 			id: "7AF853FC528DE6C6"
 			tasks: [{
@@ -145,14 +166,14 @@
 					id: "66D4926373F59523"
 					type: "item"
 					item: "minecraft:obsidian"
-					count: 2
+					count: 4
 				}
 			]
 		}
 		{
 			title: "Stairway to Hell"
-			x: 1.0d
-			y: 3.5d
+			x: 6.0d
+			y: -1.0d
 			subtitle: "Find a Nether Fortress"
 			dependencies: ["3079DAC3AB1B0AD9"]
 			id: "4048B08BA7BA39BE"
@@ -165,8 +186,8 @@
 		}
 		{
 			title: "Finders Keepers"
-			x: 1.0d
-			y: 5.0d
+			x: -0.5d
+			y: 6.5d
 			subtitle: "Craft 12 Eyes of Ender"
 			description: [
 				"I hope you've learned how to use REI by now."
@@ -174,8 +195,8 @@
 				"12 Eyes of Ender are used to open the portal to the End."
 			]
 			dependencies: [
-				"4048B08BA7BA39BE"
 				"2F14C1EBEBA3F558"
+				"6C5A4279D8850C52"
 			]
 			id: "55AB6125B20E666B"
 			tasks: [{
@@ -200,8 +221,8 @@
 		}
 		{
 			title: "Geometry Dash"
-			x: 1.0d
-			y: 6.5d
+			x: -0.5d
+			y: 7.5d
 			subtitle: "Find a Stronghold*"
 			description: [
 				"The closest underground strongholds are located between 1280-2820 blocks of world spawn (X=0, Z=0)."
@@ -222,8 +243,8 @@
 		{
 			title: "Long Boy"
 			icon: "minecraft:ender_pearl"
-			x: -1.0d
-			y: 5.0d
+			x: -1.5d
+			y: 5.5d
 			subtitle: "Kill 10 Endermen"
 			description: ["Endermen are most easily fought in numbers in the desert at night, where the flat light ground makes them very visible."]
 			id: "2F14C1EBEBA3F558"
@@ -243,7 +264,7 @@
 		{
 			title: "Recipe Chim-Cheri"
 			icon: "minecraft:crafting_table"
-			x: 0.0d
+			x: -1.0d
 			y: -2.5d
 			subtitle: "Craft a Wooden Pickaxe*"
 			description: [
@@ -282,8 +303,8 @@
 		{
 			title: "Where are the Hot Dra-oh"
 			icon: "minecraft:end_portal_frame"
-			x: 1.0d
-			y: 8.0d
+			x: -0.5d
+			y: 8.5d
 			subtitle: "Reach the End"
 			dependencies: ["2803B3AF9D4E64A3"]
 			id: "345A5D446CD0E0D2"
@@ -303,7 +324,7 @@
 				""
 				"It can be used to make the best gear!"
 			]
-			dependencies: ["3079DAC3AB1B0AD9"]
+			dependencies: ["28AFD82AD9C0B721"]
 			id: "5DA11E4FA4C52495"
 			tasks: [{
 				id: "0F6EBD8A1A1D375E"
@@ -342,9 +363,11 @@
 			y: 2.0d
 			subtitle: "Craft an Enchanting Table"
 			description: [
-				"Enchantments are the main source of \"upgrades\" from here on in, costing XP and lapis to place and being difficult to remove."
+				"Using an Enchanting Table, you can spend XP and lapis lazuli to apply \"Enchantments\" to tools, armor, or books."
 				""
-				"Anvils can combine enchantments, grindstones can wipe them for a partial refund, and bookshelves increase their level when surrounding the table with 1 block space."
+				"Enchantments increase the effectiveness of items in various ways. Try searching \"Enchanted\" in REI to see what enchantments exist."
+				""
+				"Enchantments are random, and the most expensive ones require Level 30, but only cost 3 levels. Achieving this requires the table to be surrounded with 15 bookshelves, with one block space between."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
 			id: "594D5FA160E7C304"
@@ -355,21 +378,34 @@
 			}]
 			rewards: [
 				{
-					id: "2C4C838C36BEFAA3"
-					type: "item"
-					item: "minecraft:grindstone"
-				}
-				{
 					id: "2E328D292A34A71A"
 					type: "item"
 					item: "minecraft:bookshelf"
+					count: 5
+				}
+				{
+					id: "225520377FB917DE"
+					type: "item"
+					item: "minecraft:book"
 					count: 3
+				}
+				{
+					id: "349E11C88CDBE958"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 6
+				}
+				{
+					id: "26E9795985070CF2"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 10
 				}
 			]
 		}
 		{
 			title: "*static noises*"
-			x: 1.0d
+			x: -0.5d
 			y: 9.5d
 			subtitle: "Escape the central End"
 			description: [
@@ -390,7 +426,7 @@
 		}
 		{
 			title: "Shell City"
-			x: -1.0d
+			x: -1.5d
 			y: 9.5d
 			subtitle: "Find an End City"
 			description: [
@@ -409,8 +445,8 @@
 		}
 		{
 			title: "Takeoff"
-			x: -1.0d
-			y: 11.0d
+			x: -2.5d
+			y: 9.0d
 			subtitle: "Obtain an Elytra"
 			description: [
 				"Obtain an Elytra from the item frame at the inner bow of an end ship."
@@ -441,15 +477,15 @@
 		}
 		{
 			title: "Mob Grinder"
-			x: 5.0d
-			y: 3.5d
+			x: 7.0d
+			y: 0.5d
 			subtitle: "Obtain 3 Wither Skeleton Skulls"
 			description: [
 				"The Wither is arguably the hardest boss in the game, and one best fought in a large arena deep underground in the overworld, or close to the roof in the nether."
 				""
 				"It's summoned using a T of soul sand, with 3 heads in a row above it."
 				""
-				"You'll need to make more of these potions."
+				"You'll probably need to make more of these potions."
 			]
 			dependencies: ["4048B08BA7BA39BE"]
 			id: "71B31B0EAE8DCD3D"
@@ -482,8 +518,8 @@
 		}
 		{
 			title: "I am a Comet"
-			x: 5.0d
-			y: 9.5d
+			x: 7.0d
+			y: 2.0d
 			subtitle: "Defeat the Wither"
 			description: ["The Nether Star is used to create a \"Beacon\" - a structure made of ore blocks (iron blocks, etc) that provides a permanent positive potion effect in a radius."]
 			dependencies: ["71B31B0EAE8DCD3D"]
@@ -509,8 +545,8 @@
 		}
 		{
 			title: "*cackles*"
-			x: 3.0d
-			y: 5.0d
+			x: 5.0d
+			y: 0.5d
 			subtitle: "Acquire Brewing Ingredients"
 			description: ["Blaze rods and Nether wart can both be found in the nether. The latter of which can be farmed on soul sand."]
 			dependencies: ["4048B08BA7BA39BE"]
@@ -556,8 +592,8 @@
 		}
 		{
 			title: "Nether-Proof Soup"
-			x: 3.0d
-			y: 6.5d
+			x: 5.0d
+			y: 2.0d
 			subtitle: "Brew an Extended Fire Resistance and Slow Fall Potion"
 			description: [
 				"Click for the Recipes! The nether causes most deaths through fall damage or lava damage."
@@ -613,8 +649,8 @@
 		}
 		{
 			title: "Bitch i'm Far-ming"
-			x: -2.5d
-			y: 0.5d
+			x: 2.0d
+			y: -1.0d
 			subtitle: "Acquire Staple Crops"
 			description: [
 				"This pack can be played well without killing passive mobs. Often called a \"Vegetarian\" playthrough."
@@ -625,7 +661,7 @@
 				""
 				"Books can also be acquired from existing bookshelves"
 			]
-			dependencies: ["548555BB1E839006"]
+			dependencies: ["763A00EE3BDDD967"]
 			id: "5C7110BA96ECA231"
 			tasks: [
 				{
@@ -649,6 +685,176 @@
 				type: "item"
 				item: "minecraft:golden_carrot"
 				count: 10
+			}]
+		}
+		{
+			title: "Hello, World!"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Enter The Overworld"
+			id: "763A00EE3BDDD967"
+			tasks: [{
+				id: "3B88BD75F11B88FC"
+				type: "dimension"
+				title: "Enter The Overworld"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "Snuffed"
+			x: 0.5d
+			y: 5.5d
+			subtitle: "Kill 10 Blazes"
+			id: "6C5A4279D8850C52"
+			tasks: [{
+				id: "0334AFF40C4CFD82"
+				type: "kill"
+				title: "Kill 10 Blazes"
+				icon: "minecraft:blaze_rod"
+				entity: "minecraft:blaze"
+				value: 10L
+			}]
+		}
+		{
+			title: "Plate Mail"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Equip a piece of Iron Armor"
+			description: [
+				"Armor increases your defense, which reduces the damage from incoming attacks"
+				""
+				"Your defense is shown on a meter above your health."
+				""
+				"Further armor can be crafted from better materials."
+				""
+				"Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks. In this pack, they can also be lightly enchanted."
+			]
+			dependencies: ["41C9341CA261E52B"]
+			id: "4FF54D00F9D67A59"
+			tasks: [{
+				id: "449F2483BED2C27E"
+				type: "advancement"
+				title: "Equip some Iron Armor"
+				disable_toast: true
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "52E20E5197263BE5"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "1CC849BB1725F345"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Minmaxing"
+			icon: "minecraft:anvil"
+			x: -4.0d
+			y: 2.0d
+			subtitle: "Craft an Anvil and a Grindstone"
+			description: [
+				"Anvils allow enchanted tools of the same type to be crafted together, combining their enchantments at the cost of increasing the cost of further crafts."
+				""
+				"Anvils can also be used to apply enchanted books to items, even enchanted ones."
+				""
+				"Grindstones allow you to unenchant an item, refunding some XP and allowing the item to be Re-Enchanted."
+				""
+				"Some enchantments, like Silk Touch and Fortune, are incompatible, and can't be applied on the same item."
+			]
+			dependencies: ["594D5FA160E7C304"]
+			id: "324EABD3C7110E53"
+			tasks: [
+				{
+					id: "6940D98A01D79913"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "04915670EB15183D"
+					type: "item"
+					item: "minecraft:grindstone"
+				}
+			]
+			rewards: [
+				{
+					id: "1E8AA706DE3AC6CC"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+						}
+					}
+				}
+				{
+					id: "5A48D6CAB7553D84"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 8
+				}
+				{
+					id: "1226DEE0DE353976"
+					type: "item"
+					item: "minecraft:book"
+					count: 16
+				}
+				{
+					id: "4536BA12AC5AE554"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fiends on Speed Dial"
+			x: 3.5d
+			y: -2.5d
+			subtitle: "Warp into the Nether"
+			id: "5284C4BF9EAC6D9E"
+			tasks: [{
+				id: "5852D5C0FDC4FE05"
+				type: "advancement"
+				title: "Reach the Nether via Portal"
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Not a Backpack"
+			x: -2.5d
+			y: 10.0d
+			subtitle: "Craft a Shulker Box"
+			dependencies: ["4631772288F2177D"]
+			id: "58FCE9FA57CB5D39"
+			tasks: [{
+				id: "46644D7C1F998D18"
+				type: "item"
+				item: "minecraft:shulker_box"
 			}]
 		}
 	]

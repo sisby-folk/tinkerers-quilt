@@ -42,19 +42,23 @@ hash = "0938ebe2b3c47a104e339924e5c6fbb3a56a686a06a3362132aeb6cade8c9b78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/feats.snbt"
-hash = "f20fd4d36eb08271f44f1e145bf0162fedd63efa8af81c0337558387c6ebff9b"
+hash = "632a97852754dfa3bec709a6e36c3a754c42ee1942e097194ab8e30fcd38149a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/homesteading.snbt"
+hash = "f63450c8f03e04a95d17b2d3c2f29b5bab596d59d75e73f44e700f61b3f68d9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "21aa26d9fda80ba606341d9782e3eda325d63b9ad1df4aaeb2ef7791fd3115b8"
+hash = "591bb1214fe72d9ec2cfaaa0e1257c25a48dde2ce9f2e194c877004a6cfca38e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "49b7aa56b462d421e8f5c516a0534d1943568ccb53cc8be23a045acc0d420db5"
+hash = "5491d25be78cd3ef4f12a8d6225e30f2eaabbe2dd617b4c43451cb7c0e707c3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "c668bc9ee283b29bd7e9813419e295464e7a64ace7f0197bedb4dc384ba10dc5"
+hash = "72914949d54fbfad7d41efbfcb37d53896cadbeb33fa95caa098ec4c46d9fbda"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -743,6 +747,11 @@ metafile = true
 [[files]]
 file = "mods/tips.toml"
 hash = "a6e7a551643518686eeffb6a82888a1b60be749aeb4af786897ff1d331667cfb"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.toml"
+hash = "63d72c66b2249f6879a0ee28032127ccd03580bbc77b9c374b7910da1685d77b"
 metafile = true
 
 [[files]]
