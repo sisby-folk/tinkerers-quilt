@@ -1,0 +1,13 @@
+name = "(8x8) Smoube | 85% finished"
+filename = "Smoube (1.18).zip"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3561/394/Smoube%20%281.18%29.zip"
+hash-format = "sha1"
+hash = "7d49aca5ce00a6d7973d041b02304ca2f91f0146"
+
+[update]
+[update.curseforge]
+file-id = 3561394
+project-id = 551139

@@ -1,0 +1,13 @@
+name = "Sildurs Enhanced Default Shaders"
+filename = "Sildur's+Enhanced+Default+v1.131+Fancy.zip"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3590/068/Sildur's Enhanced Default v1.131 Fancy.zip"
+hash-format = "sha1"
+hash = "e5f3749689157216ea6adcbf6372e23f2de44f42"
+
+[update]
+[update.curseforge]
+file-id = 3590068
+project-id = 544140

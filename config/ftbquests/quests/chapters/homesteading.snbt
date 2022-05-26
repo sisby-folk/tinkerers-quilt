@@ -9,18 +9,42 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Sheetmetal"
 			x: 0.0d
 			y: -1.5d
+			subtitle: "Craft a Blast Furnace"
+			description: [
+				"A Blast Furnace is a special kind of furnace that smelts ores at double speed."
+				""
+				"A hopper can be used to push items in and out of blocks. Try placing one above and below your new furnace, along with chests!"
+			]
 			id: "796366A8D7D8BBF8"
 			tasks: [{
 				id: "58184DF53B179A23"
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+			rewards: [
+				{
+					id: "47C766F3D087F2F2"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 2
+				}
+				{
+					id: "170B785E7A4604F5"
+					type: "item"
+					item: "minecraft:chest"
+					count: 2
+				}
+			]
 		}
 		{
+			title: "Roasty"
 			x: 1.0d
 			y: -1.5d
+			subtitle: "Craft a Smoker"
+			description: ["A Smoker is a special furnace that cooks food at twice the speed."]
 			id: "0BB19BE0BA8A2037"
 			tasks: [{
 				id: "296F49FBB8B236FA"
@@ -49,14 +73,35 @@
 			}]
 		}
 		{
+			title: "Lit"
 			x: -1.0d
 			y: -3.0d
+			subtitle: "Craft a Lantern"
+			description: [
+				"Lanterns provide slightly more light than torches, and can be placed on walls or hung from ceilings"
+				""
+				"They also work underwater, including when held in the hand."
+			]
 			id: "2F461D711895F36B"
 			tasks: [{
 				id: "1B0C87963A2673AE"
 				type: "item"
 				item: "minecraft:lantern"
 			}]
+			rewards: [
+				{
+					id: "3EBA24A48CFB4618"
+					type: "item"
+					item: "minecraft:redstone_lamp"
+					count: 8
+				}
+				{
+					id: "6DA66B7DB0E6B2AA"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -105,6 +150,56 @@
 						value: "minecraft:beds"
 					}
 				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "63C534CA1FC2DADE"
+			tasks: [{
+				id: "3E3C60D53FD25DBB"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			id: "3811025165802342"
+			tasks: [{
+				id: "47F35CC118356E8D"
+				type: "item"
+				item: "minecraft:honey_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "5DE40B33B987E149"
+			tasks: [{
+				id: "36831BB40E3FD9DA"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "1FADE18B62E069A1"
+			tasks: [{
+				id: "3A8FF31B49C83CB6"
+				type: "item"
+				item: "minecraft:loom"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			id: "1D22455B9931408B"
+			tasks: [{
+				id: "3075251E9DC7E660"
+				type: "item"
+				item: "minecraft:cartography_table"
 			}]
 		}
 	]

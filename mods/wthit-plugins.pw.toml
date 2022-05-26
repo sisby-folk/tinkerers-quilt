@@ -1,0 +1,13 @@
+name = "WTHIT Plugins"
+filename = "wthit-plugins-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/34431T56/versions/1.0.5/wthit-plugins-1.0.5.jar"
+hash-format = "sha1"
+hash = "ef4002ddae812a554ed5ab0b789f5431d2ac31e6"
+
+[update]
+[update.modrinth]
+mod-id = "34431T56"
+version = "UVZvVwm2"

@@ -1,0 +1,87 @@
+{
+	id: "18300B5482AC0CC0"
+	group: "614D55B25CC6BACC"
+	order_index: 2
+	filename: "combat"
+	title: "Self-Defense"
+	icon: {
+		id: "minecraft:netherite_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Others-Offence"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Acquire Melee Weapons"
+			description: [
+				"Melee weapons all have an \"attack speed\", which is shown by the cooldown timer near the crosshair."
+				""
+				"Swords are the oldest weapon in the game, and can perform a *sweeping attack* when used off cooldown, damaging enemies in a small area."
+				""
+				"Axes have been more recently adapted as a weapon, and focus on slower use, higher single target damage. They're harder to enchant due to also taking harvesting enchantments."
+			]
+			id: "72CC6869A3793E22"
+			tasks: [
+				{
+					id: "2ABA43D1E425E35D"
+					type: "item"
+					title: "Axe"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:axes"
+						}
+					}
+				}
+				{
+					id: "4BFE3469B59F7C8F"
+					type: "item"
+					title: "Sword"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:swords"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6093370F7D02C88C"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Craft a Shield"
+			description: ["Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks. In this pack, they can also be lightly enchanted."]
+			id: "42A9FC81752B5A9F"
+			tasks: [{
+				id: "7A3DABD5009149C4"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

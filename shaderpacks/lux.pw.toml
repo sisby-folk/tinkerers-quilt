@@ -1,0 +1,8 @@
+name = "Lux Shaders"
+filename = "Lux-EA-B1-P1.zip"
+side = "client"
+
+[download]
+url = "https://github.com/TechDevOnGitHub/Lux-Shader/releases/download/Lux-EA-B1-P1/Lux-EA-B1-P1.zip"
+hash-format = "sha1"
+hash = "f2ff7433ddd89b2e97c94754dbb898ba24e714be"

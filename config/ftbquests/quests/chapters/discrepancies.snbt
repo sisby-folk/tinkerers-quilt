@@ -5,7 +5,6 @@
 	filename: "discrepancies"
 	title: "Discrepancies"
 	icon: "ftbquests:missing_item"
-	subtitle: ["Just in case you were wondering..."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,7 +12,7 @@
 			title: "Inventory Tabs"
 			icon: "minecraft:paper"
 			x: -0.5d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "Flip, flip, flip!"
 			description: ["Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the TAB key."]
 			id: "303012ABADCBFBCB"
@@ -26,7 +25,7 @@
 		{
 			title: "Lambda Better Grass"
 			icon: "minecraft:grass_block"
-			x: -0.5d
+			x: 0.0d
 			y: 1.0d
 			subtitle: "Green mode."
 			description: [
@@ -44,7 +43,7 @@
 		{
 			title: "Inspecio"
 			icon: "minecraft:glow_item_frame"
-			x: 1.0d
+			x: 0.5d
 			y: 0.0d
 			subtitle: "Tooltips!"
 			description: ["Inspecio adds some extra tooltips, such as weapon damage and speed, and potion effects."]
@@ -58,7 +57,7 @@
 		{
 			title: "Midnight Controls"
 			icon: "minecraft:scaffolding"
-			x: -2.0d
+			x: -1.5d
 			y: 0.0d
 			subtitle: "This is the greatest bridge building of all time."
 			description: [
@@ -77,7 +76,7 @@
 			title: "Fabrication"
 			icon: "minecraft:writable_book"
 			x: -0.5d
-			y: 2.5d
+			y: 2.0d
 			subtitle: "... You were probably looking for this one."
 			description: [
 				"Fabrication is a large compilation of minor changes and tweaks (way too many to list here!)"
@@ -91,6 +90,19 @@
 				id: "2B6CD287B75CD676"
 				type: "checkmark"
 				title: "Click Here!"
+			}]
+		}
+		{
+			title: "LambDyamicLights"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Caving Helper"
+			description: ["When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"]
+			id: "1B0FB35AB16E8938"
+			tasks: [{
+				id: "199E1FD0E34DD731"
+				type: "item"
+				item: "minecraft:light"
 			}]
 		}
 	]
