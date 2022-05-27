@@ -398,7 +398,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "7182ffc62445fb6a8276cba3474db95d4c9b01e0e918dc4833455a176f407fb5"
+hash = "2eaf54d060f96426c2d99b497d24aa2afb4e7d29ee1d72b3b347591edc9a666e"
 metafile = true
 
 [[files]]
@@ -516,7 +516,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "4b37db97044d84331d071a6fdefc2cf7df803478d91378c457ac9f36085d8d4c"
+hash = "c45625f3335196b60ed0159425645a7d439095bbd0fb21f10db01dca591948e3"
 metafile = true
 
 [[files]]
@@ -674,6 +674,11 @@ hash = "42f2e5c741eb458efcf1cd71ba22eb67f3ecd312e57970770514264d88eb8d13"
 metafile = true
 
 [[files]]
+file = "mods/portable-crafting-standalone.pw.toml"
+hash = "9c6d3e47db115de2d035eae294065033b9b5ae72b5809727e22b327976a02eda"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "a33ba9d0301377138b4f838468a14a6ef89ba92bf85c588b15a9ff04d81cbb67"
 metafile = true
@@ -715,7 +720,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "fb3132af2dd8a755ad4d23d93b99166751f4c81ea1f9a74f194119d148f73844"
+hash = "c0e2ebc766c8680d6845ed6694f5d89ab418f67217059320d681b5d1ccdac502"
 metafile = true
 
 [[files]]

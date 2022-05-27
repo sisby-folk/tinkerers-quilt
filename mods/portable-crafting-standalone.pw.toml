@@ -1,0 +1,14 @@
+name = "Portable Crafting Standalone"
+filename = "portable_crafting_standalone-1.0.0+1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qmVRzDCY/versions/1.0.0+1.18.2/portable_crafting_standalone-1.0.0%2B1.18.2.jar"
+hash-format = "sha1"
+hash = "9daeef3bb43cb63cf8aee62d92283f18e8f41df3"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "qmVRzDCY"
+version = "ZdhYKZGS"
