@@ -13,6 +13,7 @@
 			icon: "minecraft:paper"
 			x: -0.5d
 			y: -0.5d
+			shape: "square"
 			subtitle: "Flip, flip, flip!"
 			description: ["Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the TAB key."]
 			id: "303012ABADCBFBCB"
@@ -27,6 +28,7 @@
 			icon: "minecraft:grass_block"
 			x: 0.0d
 			y: 1.0d
+			shape: "square"
 			subtitle: "Green mode."
 			description: [
 				"Lambdaurora's Better Grass changes grass sides for 1 and 2-block drops."
@@ -45,6 +47,7 @@
 			icon: "minecraft:glow_item_frame"
 			x: 0.5d
 			y: 0.0d
+			shape: "square"
 			subtitle: "Tooltips!"
 			description: ["Inspecio adds some extra tooltips, such as weapon damage and speed, and potion effects."]
 			id: "5416B6A2CAC03692"
@@ -59,6 +62,7 @@
 			icon: "minecraft:scaffolding"
 			x: -1.5d
 			y: 0.0d
+			shape: "square"
 			subtitle: "This is the greatest bridge building of all time."
 			description: [
 				"Midnight Controls provides \"reacharound block placement\" - which allows you to place floating ground in front of you."
@@ -77,6 +81,7 @@
 			icon: "minecraft:writable_book"
 			x: -0.5d
 			y: 2.0d
+			shape: "square"
 			subtitle: "... You were probably looking for this one."
 			description: [
 				"Fabrication is a large compilation of minor changes and tweaks (way too many to list here!)"
@@ -94,15 +99,38 @@
 		}
 		{
 			title: "LambDyamicLights"
+			icon: "minecraft:light"
 			x: -1.0d
 			y: 1.0d
+			shape: "square"
 			subtitle: "Caving Helper"
 			description: ["When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"]
 			id: "1B0FB35AB16E8938"
 			tasks: [{
-				id: "199E1FD0E34DD731"
-				type: "item"
-				item: "minecraft:light"
+				id: "0AFF1FBFCDDC8F2A"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Leaf Mode"
+			icon: "minecraft:kelp"
+			x: -0.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "[not a real mod]"
+			description: [
+				"This pack has fairly good support for a \"vegetarian\" playthrough - one that avoids killing passive mobs. This makes the game slightly more challenging. Some origins require this for food."
+				""
+				"Leather can be obtained by \"tanning\" rotten flesh in a furnace, and books can be obtained from naturally spawned bookshelves."
+				""
+				"Arrows can be obtained from skeletons, including by farming fired arrows."
+			]
+			id: "4310FEC9EFD18272"
+			tasks: [{
+				id: "1582556E28469EC6"
+				type: "checkmark"
+				title: "Click Here!"
 			}]
 		}
 	]

@@ -1,13 +1,14 @@
 name = "Extended Clouds"
-filename = "extendedclouds-1.1.0-fabric.jar"
+filename = "extendedclouds-1.1.1-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/SRvY3a39/versions/1.1.0/extendedclouds-1.1.0-fabric.jar"
+url = "https://cdn.modrinth.com/data/SRvY3a39/versions/1.1.1+fabric/extendedclouds-1.1.1-fabric.jar"
 hash-format = "sha1"
-hash = "729db0dc2f875c3776efcb38cd5652bfd78151b7"
+hash = "755e2817e604af637db7701323cd8aef98b83f23"
+mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "SRvY3a39"
-version = "osuUyyT6"
+version = "NjK6mewM"

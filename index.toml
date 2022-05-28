@@ -34,35 +34,31 @@ hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "2fed74228fd06b376fafcd09640b391a7fcf552d919458b69c534d2bb13cc31f"
+hash = "79c83d06f72513b48b047b8c131aee06c857a5a3d816d5f66dd688f2ecb03258"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "b17c7c7f6d64ad05da42a4064fcd4148a55fcfe279113c917e82af832ead2489"
+hash = "908b5c133c5582d044882b9c36348d00ab41b857c467b26d71c9232486ecb999"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "e2a1651eed5b4269c5e14dfdce3f6c0de1575a92aa787f589c01cc215ac461af"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/feats.snbt"
-hash = "632a97852754dfa3bec709a6e36c3a754c42ee1942e097194ab8e30fcd38149a"
+hash = "168f5638bda852302438e29790f6c67a161362692a2c392e03acd49f934228f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "4d2805169878e57e9411f286d09ff917da9730c81a58d6a3655a9ed10b60b822"
+hash = "1ce54b0d29d9fef5aef596b5ab21e9a1c1ecdee57c8dcea4c1c57b299a58b03c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "84a84a6dd4be6f1927dceeca56f0f512fa0595a16f277095b975f612bdc0c38d"
+hash = "8e78d817aa43099adb2765ce086d2515b588f27cd3e9123ca593715641254f1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "dbc483acabb6c67dba8874f225e4762a538f0d5e2b3175efaba4a6d8a9c7c2b2"
+hash = "bb10aa07be6c0bf93e14c3dea1996ce5a69335b18f925cb8fd8fb65597c52538"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "5dd84b39b460b4d9716e4bb01d0a8430f207b4a5433a1b5c84801b62a3620b5c"
+hash = "b91aa30a5dbabdd6dd6e4bff6db7d1a6ae36025801bfbb29bfd82b9acf9ce712"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -398,7 +394,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "2eaf54d060f96426c2d99b497d24aa2afb4e7d29ee1d72b3b347591edc9a666e"
+hash = "f90500d8a671a20939619caee98bc58aee30c9c58362e20b8c01463c9173cd6a"
 metafile = true
 
 [[files]]
@@ -483,7 +479,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-clouds.pw.toml"
-hash = "bcbadf6eebf7e2199555d27272daaed5aeb52bb57a8763b3f5b1d9062dbed358"
+hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
@@ -581,7 +577,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "20dd6271d2a7619b9e7378115cd3a434ea38d07e279a8914255084bc0cf1f985"
+hash = "b8e7627a069979632fcd4f490df9cfbbd0fe6c581fc7d73084a755a710eea971"
 metafile = true
 
 [[files]]
@@ -616,7 +612,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "4b1f9a1ce99921a16d760c72cd385d338877f0031cce507d89d849016afd237e"
+hash = "88cc6278f17ebfc8032951c41a681cd493262fa590a42627910cf0dcabc4b6fc"
 metafile = true
 
 [[files]]
@@ -670,7 +666,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "42f2e5c741eb458efcf1cd71ba22eb67f3ecd312e57970770514264d88eb8d13"
+hash = "427fda4ecbc844bf6640b34458fcf050e2f49644fc950eb1a34381afd8060d18"
 metafile = true
 
 [[files]]
@@ -710,7 +706,7 @@ metafile = true
 
 [[files]]
 file = "mods/reroll.pw.toml"
-hash = "97ff0cc000d1c0d39a54c953641f23dc1caef8bb2840454dca5a5ad99d518c9f"
+hash = "dc8ef389dc9b6a1ee2b6f88e8855d2b7de753375aab7f4c87ba0be49f5074035"
 metafile = true
 
 [[files]]
@@ -720,7 +716,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "c0e2ebc766c8680d6845ed6694f5d89ab418f67217059320d681b5d1ccdac502"
+hash = "2d34728267efdf73da2f3f844e9e577b7939ab508e56c44c267613406c541826"
 metafile = true
 
 [[files]]

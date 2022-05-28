@@ -15,9 +15,63 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Others-Offence"
-			x: 0.0d
+			title: "Longshot"
+			x: -1.5d
 			y: -2.0d
+			subtitle: "Acquire a Bow"
+			description: [
+				"Arrows can be made by scavenging from skeletons, or crafting."
+				""
+				"Bows can be enchanted."
+				""
+				"Special effect arrows can be created through Brewing."
+			]
+			id: "0F4FAE3B1041001F"
+			tasks: [{
+				id: "314AE6BD6989969B"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "563CD36069D1D81A"
+				type: "item"
+				item: {
+					id: "minecraft:tipped_arrow"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "6F32C33B97BE205B"
+			tasks: [{
+				id: "145253845DFC11C4"
+				type: "item"
+				item: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Others-Offence"
+			x: -1.5d
+			y: -3.5d
+			shape: "rsquare"
 			subtitle: "Acquire Melee Weapons"
 			description: [
 				"Melee weapons all have an \"attack speed\", which is shown by the cooldown timer near the crosshair."
@@ -66,7 +120,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -3.0d
 			y: -2.0d
 			subtitle: "Craft a Shield"
 			description: ["Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks. In this pack, they can also be lightly enchanted."]
@@ -82,6 +136,51 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "What is it, Boy."
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Acquire a Trident"
+			description: [
+				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins."
+				""
+				"In this pack, tridents can be enchanted to deal more damage."
+			]
+			id: "2F6EDECBF7606385"
+			tasks: [{
+				id: "423493D133AB8111"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DEC4FBAE4CF706D"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:riptide"
+							lvl: 3s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Well-Dressed"
+			x: 3.0d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Acquire armor for every slot"
+			id: "6F439133A6E64D41"
 		}
 	]
 }

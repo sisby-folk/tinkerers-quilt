@@ -9,8 +9,8 @@
 	quests: [
 		{
 			title: "Shivery!"
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -0.5d
 			subtitle: "Visit a Snow Village"
 			description: ["Blue ice allows boats to move at rapid speeds - try it out!"]
 			id: "51415C8C88AA350B"
@@ -37,8 +37,8 @@
 		}
 		{
 			title: "Snorkel not included"
-			x: 1.0d
-			y: 2.5d
+			x: 2.0d
+			y: 0.5d
 			subtitle: "Find an Ocean Monument"
 			description: [
 				"1.8 added Ocean Monuments - underground fortresses with niche loot but interesting architecture."
@@ -100,7 +100,7 @@
 		}
 		{
 			title: "TRUCK PARTS!!!"
-			x: 2.0d
+			x: -0.5d
 			y: -1.5d
 			subtitle: "Find an Abandoned Mineshaft"
 			description: [
@@ -144,8 +144,9 @@
 		{
 			title: "Prettier than the average cave"
 			x: -1.5d
-			y: -2.5d
+			y: -3.0d
 			subtitle: "Find a Lush Cave"
+			description: ["Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."]
 			id: "0305A29ECBFA79FA"
 			tasks: [{
 				id: "0FB37F4ABF69F503"
@@ -154,11 +155,24 @@
 				icon: "minecraft:moss_block"
 				biome: "minecraft:lush_caves"
 			}]
+			rewards: [
+				{
+					id: "7C42CA8EE45CCBEB"
+					type: "item"
+					item: "minecraft:glow_berries"
+					count: 16
+				}
+				{
+					id: "42C6047CBB7C0A61"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
 		}
 		{
 			title: "Underwater Fighting Team!"
 			x: -1.5d
-			y: -4.0d
+			y: -4.5d
 			subtitle: "Bucket an Axolotl"
 			dependencies: ["0305A29ECBFA79FA"]
 			id: "3602D52A78391BFA"
@@ -171,48 +185,40 @@
 					tag: { }
 				}
 			}]
-		}
-		{
-			title: "What is it, Boy."
-			x: 2.0d
-			y: 1.0d
-			subtitle: "Acquire a Trident"
-			description: [
-				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins."
-				""
-				"In this pack, tridents can be enchanted to deal more damage."
+			rewards: [
+				{
+					id: "6EC735EE10ADF7A1"
+					type: "item"
+					item: {
+						id: "minecraft:tropical_fish_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "55F85E84106E9EE7"
+					type: "item"
+					item: {
+						id: "minecraft:tropical_fish_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6ED6A0A24EC1C4FB"
+					type: "item"
+					item: {
+						id: "minecraft:tropical_fish_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
 			]
-			id: "2F6EDECBF7606385"
-			tasks: [{
-				id: "423493D133AB8111"
-				type: "item"
-				item: {
-					id: "minecraft:trident"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7DEC4FBAE4CF706D"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:riptide"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
 		}
 		{
 			title: "A Proper Story"
-			x: -3.0d
-			y: -2.5d
+			x: -2.5d
+			y: -1.5d
 			subtitle: "Find a Bastion Remnant"
 			description: [
 				"These ruins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
@@ -229,8 +235,9 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -3.5d
+			x: -3.5d
+			y: -3.0d
+			shape: "hexagon"
 			subtitle: "Find a Lodestone"
 			description: ["Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."]
 			dependencies: ["08398FBBB792C742"]
@@ -248,8 +255,8 @@
 		}
 		{
 			title: "Send Stones"
-			x: -2.0d
-			y: -1.0d
+			x: -3.0d
+			y: -0.5d
 			subtitle: "Visit a Desert Village"
 			description: [
 				"Villagers are often attacked by zombies, who can Zombify them on harder difficulties. Zombified villagers can also spawn naturally."
@@ -289,8 +296,8 @@
 		}
 		{
 			title: "Hey, Little Blue!"
-			x: 1.0d
-			y: 1.5d
+			x: 0.0d
+			y: 0.5d
 			subtitle: "Find a Turtle"
 			description: [
 				"Turtles can be found roaming on beaches. And can be bred using Seagrass"
@@ -316,8 +323,9 @@
 		}
 		{
 			title: "Cowabunga!"
-			x: 2.5d
-			y: 2.5d
+			x: 1.5d
+			y: 1.5d
+			shape: "hexagon"
 			subtitle: "Craft a Turtle Shell"
 			description: [
 				"Turtle shells provide additional time underwater, similar to the Respiration enchantment. "
@@ -367,8 +375,8 @@
 		}
 		{
 			title: "Plain and Simple"
-			x: -2.5d
-			y: 0.0d
+			x: -1.5d
+			y: -2.0d
 			subtitle: "Visit a Plains Village"
 			description: [
 				"Villages are full of Villagers! Who can be traded with using emeralds."
@@ -393,7 +401,7 @@
 		{
 			title: "High in the mountains"
 			x: -0.5d
-			y: 0.0d
+			y: 1.5d
 			subtitle: "Visit a Taiga Village"
 			description: [
 				"Villagers repopulate naturally by farming, but an appropriate amount of homes need to be present in the village."
@@ -417,8 +425,8 @@
 		}
 		{
 			title: "Madagascar 2"
-			x: -1.5d
-			y: 1.0d
+			x: -2.5d
+			y: 1.5d
 			subtitle: "Visit a Savannah Village"
 			description: [
 				"Every employed villager has a Job Site block. They can visit this block up to twice a day to restock their trades if one runs out."
@@ -444,7 +452,8 @@
 			icon: "minecraft:filled_map"
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Visit every village"
+			shape: "pentagon"
+			subtitle: "Visit every type of village"
 			description: [
 				"Villages are often protected by Iron Golems, which can be spawned by making a 4-block T of iron and topping it with a carved pumpkin."
 				""
@@ -494,8 +503,9 @@
 		}
 		{
 			title: "On the Road"
-			x: 3.5d
-			y: -1.5d
+			x: 0.5d
+			y: -3.0d
+			shape: "hexagon"
 			subtitle: "Travel 200 Blocks by Minecart"
 			dependencies: ["55DDA9D21E24AF10"]
 			id: "394ECD6E04D05843"
@@ -510,8 +520,8 @@
 		}
 		{
 			title: "Not for the faint of heart"
-			x: -4.0d
-			y: 1.0d
+			x: -3.0d
+			y: 0.5d
 			subtitle: "Find a Mansion"
 			id: "7CEE48A412C94320"
 			tasks: [{
@@ -522,8 +532,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 2.0d
+			x: -4.5d
+			y: 1.5d
 			dependencies: ["7CEE48A412C94320"]
 			id: "3C5FCE8C61F8A84B"
 			tasks: [{
@@ -553,8 +563,8 @@
 		}
 		{
 			title: "Catch"
-			x: 0.5d
-			y: -2.0d
+			x: 2.0d
+			y: -0.5d
 			subtitle: "Dig up a Snowball"
 			description: [
 				"Snowballs can be thrown to knock mobs around slightly"
