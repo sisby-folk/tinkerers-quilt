@@ -2011,6 +2011,7 @@
 				"Triangles are optional quests. Not completing them wont block you from collecting rewards from later quests."
 			]
 			dependencies: ["71F61BF18E54FCCE"]
+			hide: true
 			id: "17EA8F543FBC7A6B"
 			tasks: [{
 				id: "44259D76A7BD8554"
@@ -2035,6 +2036,7 @@
 				"The \"Discovery\" group covers small, disconnected quests that detail some of the harder to find additions to the game. There's little overall progression, but it helps to know if you've missed out on anything cool!"
 			]
 			dependencies: ["71F61BF18E54FCCE"]
+			hide: true
 			id: "3BACF138C63C57B9"
 			tasks: [{
 				id: "700E335DABA81566"

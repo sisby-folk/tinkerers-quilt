@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:honey_bottle",
+            "remainder": { "item": "minecraft:glass_bottle" }
+        },
+        {
+            "item": "minecraft:wheat"
+        },        
+		{
+            "item": "minecraft:wheat"
+        },		
+		{
+            "item": "minecraft:wheat"
+        },
+		{
+			"item": "minecraft:vine"
+		},		
+		{
+			"item": "minecraft:vine"
+		}
+    ],
+    "result": {
+        "item": "minecraft:slime_ball",
+		"count": 4
+    }
+}

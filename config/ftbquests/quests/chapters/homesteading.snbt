@@ -87,7 +87,7 @@
 			title: "Mason's Supplies"
 			icon: "minecraft:light_gray_shulker_box"
 			x: 7.5d
-			y: -3.0d
+			y: -3.5d
 			shape: "gear"
 			subtitle: "All Stonecut-able blocks"
 			description: [
@@ -345,14 +345,30 @@
 			}]
 		}
 		{
+			title: "Rancher"
 			x: -5.5d
 			y: -3.0d
+			subtitle: "Do some Ranching"
 			id: "63C534CA1FC2DADE"
-			tasks: [{
-				id: "3E3C60D53FD25DBB"
-				type: "item"
-				item: "minecraft:milk_bucket"
-			}]
+			tasks: [
+				{
+					id: "3E3C60D53FD25DBB"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+				{
+					id: "47609D194C5D4BA2"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 10L
+				}
+				{
+					id: "3E9A11449E0BF316"
+					type: "item"
+					item: "minecraft:egg"
+					count: 4L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -367,6 +383,7 @@
 		{
 			x: -7.0d
 			y: -3.0d
+			dependencies: ["5C7110BA96ECA231"]
 			id: "5DE40B33B987E149"
 			tasks: [{
 				id: "36831BB40E3FD9DA"
@@ -709,6 +726,104 @@
 					type: "item"
 					item: "minecraft:lava_bucket"
 					count: 4
+				}
+			]
+		}
+		{
+			title: "WOMEN FEAR ME"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "Craft a Fishing Rod"
+			description: [
+				"Fishing can be used to acquire live fish, junk, and treasure. Fishing rods can also be used to \"yank\" mobs at a 5x durability cost."
+				""
+				"Fishing in this modpack is catch-and-release. Given room, reeled-in fish will simply swim away."
+				""
+				"Fishing for treasure, which requires a 5x5x4 area around the bobber, allows you to fish up enchantments, nautilus shells, saddles, and name tags."
+				""
+				"You can dye your fishing line with any dye in the crafting table. Additionally if you rename your fishing rod to common pride-flag words (e.g. aro, pan, plural) the line will appear in that color."
+			]
+			id: "2DF95382AC7B7AD4"
+			tasks: [{
+				id: "5A8BF1DC3D8BAEA7"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "758977765A6FA05B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:luck_of_the_sea"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Terracotta Builder's Pack"
+			icon: "minecraft:orange_terracotta"
+			x: 7.5d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "Glazed Foresight"
+			description: [
+				"This has like, a 75% chance of working. Maybe."
+				""
+				"Don't forget to note down the coordinates in you Notes! (N)"
+			]
+			dependencies: ["1233042213A9729E"]
+			optional: true
+			id: "58CAA3CF4CE89A65"
+			tasks: [
+				{
+					id: "759F54485E9734BA"
+					type: "checkmark"
+					title: "Click Here!"
+				}
+				{
+					id: "273128C5D85D7B63"
+					type: "item"
+					item: "minecraft:white_glazed_terracotta"
+				}
+			]
+			rewards: [
+				{
+					id: "7D1A0DD72136D14D"
+					type: "command"
+					title: "Prepare Foresight..."
+					icon: "minecraft:red_sand"
+					auto: "no_toast"
+					command: "/op @p"
+					player_command: false
+				}
+				{
+					id: "58BD55E774BC4DD8"
+					type: "command"
+					title: "Locate the nearest Badlands..."
+					icon: "minecraft:terracotta"
+					auto: "no_toast"
+					command: "/locatebiome minecraft:badlands"
+					player_command: true
+				}
+				{
+					id: "51D1A2C53843604A"
+					type: "command"
+					title: "Deliver the verdict..."
+					icon: "minecraft:orange_terracotta"
+					auto: "no_toast"
+					command: "/deop @p"
+					player_command: false
 				}
 			]
 		}

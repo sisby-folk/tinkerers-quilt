@@ -1,0 +1,13 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "potion": "minecraft:awkward"
+    },
+    "ingredient": {
+        "item": "minecraft:slime_ball",
+		"remainder": { "item": "minecraft:snowball" }
+    },
+    "result": {
+        "potion": "minecraft:leaping"
+    }
+}
