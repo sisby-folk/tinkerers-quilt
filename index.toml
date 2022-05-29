@@ -378,8 +378,8 @@ hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
 metafile = true
 
 [[files]]
-file = "mods/architectury-fabric.pw.toml"
-hash = "fd6f7453e6b6a66b26d32fc6da52d2545e7aadb1b7ccdacb7674ac3d4066a28a"
+file = "mods/architectury-api.pw.toml"
+hash = "1ec5c09edc8d27af569ef4e087f1e74cf175e43de0172316a1fffd28290d1bd9"
 metafile = true
 
 [[files]]
@@ -577,7 +577,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b8e7627a069979632fcd4f490df9cfbbd0fe6c581fc7d73084a755a710eea971"
+hash = "ff45daf976ff376382a91f597fd8498f42c20c1fb45b9297b37a682877df2c2b"
 metafile = true
 
 [[files]]
@@ -813,7 +813,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/jicklus.pw.toml"
-hash = "75a39c7b7953a3dd6267e5fc9ff9916693b6a43c4b28be2f2202ae22b38520ad"
+hash = "775fbb6cb57d22dbddb708c7cc0c647fa98d346f0870a19e8d40fc1746b4017c"
 metafile = true
 
 [[files]]

@@ -3,11 +3,11 @@ filename = "Jicklus 1.18.2.zip"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3783/811/Jicklus%201.18.2.zip"
 hash-format = "sha1"
-hash = "361a0fc925064b1bde3645cc9b1d17c534cc3ee1"
+hash = "eaeeaff2afd06772b074bc9e7f37606564f2c565"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3783811
+file-id = 3808390
 project-id = 333412
