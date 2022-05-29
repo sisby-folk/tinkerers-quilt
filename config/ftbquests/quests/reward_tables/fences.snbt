@@ -1,0 +1,18 @@
+{
+	id: "34D391BA8D1D1CE2"
+	order_index: 0
+	title: "fences"
+	icon: "minecraft:oak_fence"
+	loot_size: 64
+	rewards: [
+		{ item: "minecraft:oak_fence", count: 128 }
+		{ item: "minecraft:spruce_fence", count: 128 }
+		{ item: "minecraft:birch_fence", count: 128 }
+		{ item: "minecraft:jungle_fence", count: 128 }
+		{ item: "minecraft:acacia_fence", count: 128 }
+		{ item: "minecraft:dark_oak_fence", count: 128 }
+		{ item: "minecraft:crimson_fence", count: 128 }
+		{ item: "minecraft:warped_fence", count: 128 }
+		{ item: "minecraft:nether_brick_fence", count: 128 }
+	]
+}

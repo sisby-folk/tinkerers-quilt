@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "world"
 	title: "World"
+	icon: "minecraft:globe_banner_pattern"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -544,8 +545,8 @@
 		}
 		{
 			title: "Come on, P!"
-			x: -4.0d
-			y: -1.0d
+			x: -5.0d
+			y: -0.5d
 			subtitle: "Acquire an Amethyst Shard"
 			description: ["Amethyst grows in large geodes underground, and can be used to make Tinted Glass for your builds."]
 			id: "2393A9D50B18EEAE"

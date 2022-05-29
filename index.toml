@@ -46,7 +46,7 @@ hash = "168f5638bda852302438e29790f6c67a161362692a2c392e03acd49f934228f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "1ce54b0d29d9fef5aef596b5ab21e9a1c1ecdee57c8dcea4c1c57b299a58b03c"
+hash = "ffb304534fec478bc75dd70ce71ab1109cb739bcc74eb0605cb253c2588d4313"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -54,15 +54,19 @@ hash = "8e78d817aa43099adb2765ce086d2515b588f27cd3e9123ca593715641254f1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "bb10aa07be6c0bf93e14c3dea1996ce5a69335b18f925cb8fd8fb65597c52538"
+hash = "dce5969042f7083b28f66377e8c3dcf9788575d386710f128b5e85225e0e8eac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "b91aa30a5dbabdd6dd6e4bff6db7d1a6ae36025801bfbb29bfd82b9acf9ce712"
+hash = "6eab1e38d45c60a6b24c6700ef97c432aae389c9354e668145e3f3ff401c1f6c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "be4933ebb232c5606a57ebd814de7acb07752cc52d7624d9053bfe332568a6e5"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/fences.snbt"
+hash = "27c0b67841f23e281c1117b5d7e1fd3064f76e5cb595f289793574f15204f2c2"
 
 [[files]]
 file = "config/inspecio.json"
@@ -443,6 +447,11 @@ hash = "9d5d339c329cb7e2a8c7540da5dff5e81cb99b769986c3f88fcfa17d21477f18"
 metafile = true
 
 [[files]]
+file = "mods/dyeable-fishing-lines.pw.toml"
+hash = "c158b1949068207598f5ce696da793f3f6499042ac332a36a9c7ffef12a7e4ad"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "895af62871364c14a635aa674074ab0e5dc88fa41eb6a60bdab075feb106a6fe"
 metafile = true
@@ -604,6 +613,10 @@ metafile = true
 file = "mods/lithium.pw.toml"
 hash = "83541b1d3e1e936638a6938eb505bf0f508c13aed7f8416af8d064ffc7cda4dc"
 metafile = true
+
+[[files]]
+file = "mods/live-fishing-1.1.1.jar"
+hash = "ca0587b2c2b82595cd13de2c4cda44226939c78da57c3676cb72cca391237b3e"
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"

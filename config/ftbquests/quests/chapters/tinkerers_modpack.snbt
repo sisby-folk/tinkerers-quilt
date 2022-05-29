@@ -1961,5 +1961,86 @@
 				}
 			]
 		}
+		{
+			title: "Quests"
+			icon: "ftbquests:barrier"
+			x: 0.0d
+			y: -3.0d
+			shape: "octagon"
+			subtitle: "Literally what is this screen"
+			description: [
+				"Welcome to Quests! This is a system supplied by *FTB Quests* and filled out specifically for this modpack."
+				""
+				"Quests are similar to achievements in other games, but they have a specific order, as well as providing rewards."
+				""
+				"In most packs, quests are used to show what features and mods the pack has to offer. In this pack, quests are used to do the same thing, but for the base game! "
+				""
+				"You'll see features of the game you've maybe never delved into, and get information on what's different in this pack."
+			]
+			dependencies: ["15402DCFAC7CC56A"]
+			hide: true
+			id: "71F61BF18E54FCCE"
+			tasks: [{
+				id: "2D6C6B3CC2F0EBFF"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Quest Legend"
+			icon: "ftbquests:missing_item"
+			x: 0.5d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Symbols for Nerds"
+			description: [
+				"We chose a few shapes for the quests to help give them more visual flow. While there's no hard rules, here's the overall idea we went for, in case you're curious."
+				""
+				"Rounded rectangles are \"Entry\" quests. They start a sequence of other quests, and are often the beginning quest of a tab."
+				""
+				"Squares are \"Info\" quests. They usually have no tasks but a checkmark and (usually) no rewards."
+				""
+				"Octagons are packs of info quests, usually with many dependents."
+				""
+				"Circles are standard quests."
+				""
+				"Pentagons are \"Feat\" quests. They represent a major crowning achievement in the game, and usually have hefty awards associated with them."
+				""
+				"Hexagons are \"Special Interest\" quests. They represent an opportunity to dive into a niche mechanic at a low cost."
+				""
+				"Triangles are optional quests. Not completing them wont block you from collecting rewards from later quests."
+			]
+			dependencies: ["71F61BF18E54FCCE"]
+			id: "17EA8F543FBC7A6B"
+			tasks: [{
+				id: "44259D76A7BD8554"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Category Legend"
+			icon: "minecraft:bookshelf"
+			x: -0.5d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Categorization for Nerds"
+			description: [
+				"By moving your mouse to the left hand side of the screen, you can browse the categories of quests in this pack"
+				""
+				"The \"Information\" group covers information on the pack, including the introduction tab (You're here!), which outlines the main features of the pack, and the \"Discrepancies\" tab, which covers minor features that are easy to miss."
+				""
+				"The \"Minecraft\" group covers quest progressions for core gameplay elements. \"The Basics\" covers gearing up to play, Nether progression, and End progression. \"Homesteading\" covers elements relating to building player bases, restoring villages, and generally having places to settle. \"Self-Defense\" covers the nichest aspects of combat, for those inclined."
+				""
+				"The \"Discovery\" group covers small, disconnected quests that detail some of the harder to find additions to the game. There's little overall progression, but it helps to know if you've missed out on anything cool!"
+			]
+			dependencies: ["71F61BF18E54FCCE"]
+			id: "3BACF138C63C57B9"
+			tasks: [{
+				id: "700E335DABA81566"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
 	]
 }

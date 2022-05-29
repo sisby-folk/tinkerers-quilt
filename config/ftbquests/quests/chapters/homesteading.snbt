@@ -16,8 +16,15 @@
 			description: [
 				"A Blast Furnace is a special kind of furnace that smelts ores at double speed."
 				""
-				"A hopper can be used to push items in and out of blocks. Try placing one above and below your new furnace, along with chests!"
+				"Hoppers automatically catch and insert items into furnaces, chests, and other blocks with inventories."
+				""
+				"A furnace can have a hopper placed above it, a hopper placed on its side, and a hopper placed below it. "
+				""
+				"These three hoppers will insert items into the smelting slot, insert items into the fuel slot, and extract items from the result slot, respectively."
+				""
+				"By adding chests to each of these hoppers, you can set up a furnace to run over very long times."
 			]
+			dependencies: ["55783EE248BAC550"]
 			id: "796366A8D7D8BBF8"
 			tasks: [{
 				id: "58184DF53B179A23"
@@ -29,7 +36,7 @@
 					id: "47C766F3D087F2F2"
 					type: "item"
 					item: "minecraft:hopper"
-					count: 2
+					count: 3
 				}
 				{
 					id: "170B785E7A4604F5"
@@ -44,44 +51,182 @@
 			x: 4.5d
 			y: -3.0d
 			subtitle: "Craft a Smoker"
-			description: ["A Smoker is a special furnace that cooks food at twice the speed."]
+			description: [
+				"A Smoker is a special furnace that cooks food at twice the speed."
+				""
+				"Furnaces of all kinds accept many types of fuel. Smaller fuels are less wasteful when processing smaller numbers of items. Some fuels (e.g. Lava buckets at 100 items) are only efficient for large loads."
+			]
+			dependencies: ["55783EE248BAC550"]
 			id: "0BB19BE0BA8A2037"
 			tasks: [{
 				id: "296F49FBB8B236FA"
 				type: "item"
 				item: "minecraft:smoker"
 			}]
+			rewards: [
+				{
+					id: "0ACB3CC0E9B9D3F7"
+					type: "item"
+					item: "minecraft:coal_block"
+					count: 16
+				}
+				{
+					id: "18573A5F8C328475"
+					type: "item"
+					item: "minecraft:dried_kelp_block"
+					count: 16
+				}
+				{
+					id: "484F8FCB4B3A66BE"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
 		}
 		{
-			x: 6.0d
+			title: "Mason's Supplies"
+			icon: "minecraft:light_gray_shulker_box"
+			x: 7.5d
 			y: -3.0d
+			shape: "gear"
+			subtitle: "All Stonecut-able blocks"
+			description: [
+				"Some players enjoy tearing the world half to shreds to collect enough rarer stones to build the prettiest buildings!"
+				""
+				"Some players do not."
+			]
+			dependencies: ["1233042213A9729E"]
+			hide: true
 			id: "643F41D93DC1FB81"
 			tasks: [{
-				id: "09786F5FDCD26DED"
-				type: "item"
-				item: "minecraft:stonecutter"
+				id: "1BEA60CCCFAE7024"
+				type: "checkmark"
+				title: "Click here if you do not."
 			}]
+			rewards: [
+				{
+					id: "6C0A6B21AD7C1390"
+					type: "item"
+					item: "minecraft:stone"
+					count: 64
+				}
+				{
+					id: "46138A5E35DE232F"
+					type: "item"
+					item: "minecraft:granite"
+					count: 64
+				}
+				{
+					id: "1171EE8F19695858"
+					type: "item"
+					item: "minecraft:diorite"
+					count: 64
+				}
+				{
+					id: "2D7E8E30AFF0FE2A"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 64
+				}
+				{
+					id: "0DC0EDE3A5174EA9"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 64
+				}
+				{
+					id: "0E870E4C20AF3893"
+					type: "item"
+					item: "minecraft:red_sandstone"
+					count: 64
+				}
+				{
+					id: "6DF9DCDBF4600CE8"
+					type: "item"
+					item: "minecraft:prismarine_bricks"
+					count: 64
+				}
+				{
+					id: "24C5D61B8F35AFFE"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 64
+				}
+				{
+					id: "1CD81BFA7D7D8283"
+					type: "item"
+					item: "minecraft:dark_prismarine"
+					count: 64
+				}
+				{
+					id: "1B39366065BBCD7D"
+					type: "item"
+					item: "minecraft:purpur_block"
+					count: 64
+				}
+				{
+					id: "34F74B99602E7DCD"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 64
+				}
+				{
+					id: "2C5FCC4FD4454AB5"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 64
+				}
+			]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			title: "Super Position!"
+			x: -3.0d
+			y: -2.0d
+			subtitle: "Craft an Ender Chest"
+			description: [
+				"Ender chests contain the same items, no matter where you open them from."
+				""
+				"These items belong to only one player - every other player has their own inventory. No items are lost on death."
+				""
+				"Shulker boxes can be placed into ender chests, greatly expanding their overall capacity and ability to transport items infinite distances."
+			]
+			dependencies: ["20E2938DD7365207"]
 			id: "1BCC72C060356F02"
 			tasks: [{
 				id: "38A7D9A1F4B61BE4"
 				type: "item"
 				item: "minecraft:ender_chest"
 			}]
+			rewards: [{
+				id: "51D88DAC4B7F5615"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
 		}
 		{
 			title: "Lit"
-			x: -1.0d
+			x: -3.5d
 			y: -3.0d
 			subtitle: "Craft a Lantern"
 			description: [
 				"Lanterns provide slightly more light than torches, and can be placed on walls or hung from ceilings"
 				""
 				"They also work underwater, including when held in the hand."
+				""
+				"Keeping areas well-lit prevents them from being able to spawn mobs. Torches do this for 14 blocks, while lanterns do this for 15."
+				""
+				"This is essential for building a safe base area!"
 			]
+			dependencies: ["20E2938DD7365207"]
 			id: "2F461D711895F36B"
 			tasks: [{
 				id: "1B0C87963A2673AE"
@@ -104,25 +249,57 @@
 			]
 		}
 		{
-			x: 0.0d
+			title: "Mr. Cellophane"
+			x: -2.0d
 			y: -3.0d
+			subtitle: "Craft some Glass Panes"
+			description: [
+				"Glass panes are an alternative to full glass blocks, both of which allow you to make windows and skylights for buildings."
+				""
+				"Glass can also be Stained using dye, coloring it. Tinted glass can be created with amethyst, which blocks light."
+			]
+			dependencies: ["20E2938DD7365207"]
 			id: "096988E67755A423"
 			tasks: [{
 				id: "12C095116F80A80B"
 				type: "item"
 				item: "minecraft:glass_pane"
 			}]
+			rewards: [
+				{
+					id: "36196BC047ECD6F4"
+					type: "item"
+					item: "minecraft:light_gray_stained_glass_pane"
+					count: 16
+				}
+				{
+					id: "06431CBC247EA616"
+					type: "item"
+					item: "minecraft:black_stained_glass_pane"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Plotting"
-			x: 1.0d
+			x: -0.5d
 			y: -3.0d
 			subtitle: "Make a Fence Gate"
+			description: [
+				"Fence gates allow you to open and close them, while also connecting to fences."
+				""
+				"Fence gates can be stacked vertically, and in this pack will open all at once."
+				""
+				"Fences and walls are an essential part of keeping hostile mobs from wandering into your base!"
+				""
+				"Carpet can also be used to create a \"jumpable\" area of fence, by placing it on top of a fence post."
+			]
+			dependencies: ["20E2938DD7365207"]
 			id: "1FFD2B27BC87EADB"
 			tasks: [{
 				id: "4120F1E913227A16"
 				type: "item"
-				title: "Any #c:fence_gates"
+				title: "Make any Fence Gate"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -131,10 +308,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "007B699DEE2A8811"
+					type: "choice"
+					icon: "minecraft:oak_fence"
+					table_id: 3806546340475641058L
+				}
+				{
+					id: "2470161007F8B771"
+					type: "item"
+					item: "minecraft:brown_carpet"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Rest"
-			x: 0.0d
+			x: -2.0d
 			y: -5.0d
 			shape: "rsquare"
 			subtitle: "Make a Bed"
@@ -154,7 +345,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -5.5d
 			y: -3.0d
 			id: "63C534CA1FC2DADE"
 			tasks: [{
@@ -164,7 +355,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -7.0d
 			y: -2.0d
 			id: "3811025165802342"
 			tasks: [{
@@ -174,7 +365,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -7.0d
 			y: -3.0d
 			id: "5DE40B33B987E149"
 			tasks: [{
@@ -184,43 +375,151 @@
 			}]
 		}
 		{
-			x: 5.0d
+			title: "Represent"
+			x: 5.5d
 			y: -2.0d
+			subtitle: "Craft a Loom"
+			description: [
+				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps (simply right click a hanging banner with a map)"
+				""
+				"Many designs for pictures, pride flags, and other patterns are available online."
+				""
+				"All 16 colors of dye can be made from 7 base colors, by crafting them together."
+			]
+			dependencies: ["55783EE248BAC550"]
 			id: "1FADE18B62E069A1"
 			tasks: [{
 				id: "3A8FF31B49C83CB6"
 				type: "item"
 				item: "minecraft:loom"
 			}]
+			rewards: [
+				{
+					id: "7444D5FD1B81724D"
+					type: "item"
+					item: "minecraft:skull_banner_pattern"
+				}
+				{
+					id: "00B4C19857875706"
+					type: "item"
+					item: "minecraft:flower_banner_pattern"
+				}
+				{
+					id: "2280ECB485E70195"
+					type: "item"
+					item: "minecraft:piglin_banner_pattern"
+				}
+				{
+					id: "60C7D7B8FC33486F"
+					type: "item"
+					item: "minecraft:globe_banner_pattern"
+				}
+				{
+					id: "7BB131F81CE0EE05"
+					type: "item"
+					item: "minecraft:white_dye"
+					count: 64
+				}
+				{
+					id: "240752E0B3758DDD"
+					type: "item"
+					item: "minecraft:blue_dye"
+					count: 64
+				}
+				{
+					id: "603A66AEFB21253E"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 64
+				}
+				{
+					id: "7CD45A7D585FF971"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 64
+				}
+				{
+					id: "1AB47C5DBDFE0A43"
+					type: "item"
+					item: "minecraft:green_dye"
+					count: 64
+				}
+				{
+					id: "6F48D4D4BCE46394"
+					type: "item"
+					item: "minecraft:yellow_dye"
+					count: 64
+				}
+				{
+					id: "794E4D2D3C56C124"
+					type: "item"
+					item: "minecraft:brown_dye"
+					count: 64
+				}
+			]
 		}
 		{
-			x: 4.0d
+			title: "Explorer"
+			x: 3.5d
 			y: -2.0d
+			subtitle: "Craft a Cartography Table"
+			description: [
+				"Cartography tables allow you to duplicate the contents of maps, including their zoom level. They also allow cheaper \"zooming out\" of maps with paper."
+				""
+				"This means you can share large regions of map (e.g. the region around your base) with other players."
+				""
+				"You can also mark points of interest on a map by placing down a banner, and then right clicking it while holding the map."
+				""
+				"Maps can be placed into item frames, allowing them to be assembled into much larger physical maps."
+			]
+			dependencies: ["55783EE248BAC550"]
 			id: "1D22455B9931408B"
 			tasks: [{
 				id: "3075251E9DC7E660"
 				type: "item"
 				item: "minecraft:cartography_table"
 			}]
+			rewards: [
+				{
+					id: "60E3542185DA5F63"
+					type: "item"
+					item: "minecraft:map"
+					count: 9
+				}
+				{
+					id: "6D0F8920542CF32D"
+					type: "item"
+					item: "minecraft:paper"
+					count: 64
+				}
+				{
+					id: "474AF377E296BE69"
+					type: "item"
+					item: "minecraft:item_frame"
+					count: 6
+				}
+			]
 		}
 		{
 			title: "Stay Fiesty, Hellspawn"
-			x: 0.0d
-			y: -1.0d
+			x: -1.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Craft a Respawn Anchor"
 			description: [
-				"A *Respawn Anchor* Allows you to create a proper home in the nether, where you'll respawn."
+				"A *Respawn Anchor* Allows you to create a proper home in the nether. By placing it and charging it with glowstone blocks, you'll respawn there."
 				""
+				"Monsters spawn at any light level in the nether but never on half slabs, even in the overworld. This is essential for making a nether base."
 				""
-				"It needs to be charged by right clicking it with glowstone blocks."
+				"Respawn anchors can also be charged using a dispenser."
 				""
-				"However, it can also be charged using a dispenser containing glowstone blocks."
+				"A small, 3x2 setup can automate the filling of a Respawn Anchor. Including the anchor (RA), an Observer (Ob), a Dispenser with glowstone (D), and two redstone dust (rd). Here it is shown from the side."
 				""
-				"By using a comparator to measure how charged an anchor is, and inverting the signal with a redstone torch, you can ensure it always stays charged."
+				"|  Bl  |  Ob> |  RA  |"
 				""
-				"Monsters can never spawn on half slabs, even in the nether."
+				"|  rd  |  rd  | D^  |"
 			]
+			dependencies: ["20E2938DD7365207"]
 			id: "392E005585B652A4"
 			tasks: [{
 				id: "7A605FF99394FAAE"
@@ -240,16 +539,6 @@
 					item: "minecraft:dispenser"
 				}
 				{
-					id: "017BB5781677C92E"
-					type: "item"
-					item: "minecraft:comparator"
-				}
-				{
-					id: "332D1F94FBD5B585"
-					type: "item"
-					item: "minecraft:redstone_torch"
-				}
-				{
 					id: "3E2FBE9ED10CF886"
 					type: "item"
 					item: "minecraft:warped_slab"
@@ -259,13 +548,23 @@
 					id: "64DF48505B2D5E1E"
 					type: "item"
 					item: "minecraft:redstone"
-					count: 15
+					count: 3
+				}
+				{
+					id: "6869C011564C4AAA"
+					type: "item"
+					item: "minecraft:observer"
+				}
+				{
+					id: "3FD207A473E4E169"
+					type: "item"
+					item: "minecraft:white_glazed_terracotta"
 				}
 			]
 		}
 		{
 			title: "Bitch i'm Far-ming"
-			x: -3.5d
+			x: -6.5d
 			y: -5.0d
 			shape: "rsquare"
 			subtitle: "Acquire Staple Crops"
@@ -300,15 +599,118 @@
 			}]
 		}
 		{
+			title: "Workshop"
+			icon: "minecraft:furnace"
 			x: 4.5d
 			y: -5.0d
 			shape: "rsquare"
-			id: "187CCFE0368049D0"
+			subtitle: "Hold a Chest, Furnace, and Crafting Table"
+			id: "55783EE248BAC550"
+			tasks: [
+				{
+					id: "69DB2CD979E668E6"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "24F8238455346F0E"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "769F2FC573E160FD"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+			]
+		}
+		{
+			title: "Architect"
+			x: 6.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Craft a Stonecutter"
+			description: [
+				"Stonecutters are used to cheaply craft many decorative blocks in the game."
+				""
+				"By placing a stone or brick block of almost any type, you can transform it into one of its decorative variants."
+				""
+				"This includes stairs, slabs, polished and chiseled variants, and walls."
+				""
+				"Did you know? Shears can be used to collect decorative plants that otherwise drop nothing. They can also be used to collect whole cobwebs, and destroy tripwires without activating them."
+			]
+			dependencies: ["55783EE248BAC550"]
+			id: "1233042213A9729E"
 			tasks: [{
-				id: "424592BAC3530E0D"
+				id: "19EF31E91BB0C484"
 				type: "item"
-				item: "minecraft:furnace"
+				item: "minecraft:stonecutter"
 			}]
+			rewards: [
+				{
+					id: "6C023B3A87A36F36"
+					type: "item"
+					item: "minecraft:stone"
+					count: 64
+				}
+				{
+					id: "644AE2B6532BE25D"
+					type: "item"
+					item: "minecraft:lily_pad"
+					count: 16
+				}
+				{
+					id: "0FB0D11621F75B0A"
+					type: "item"
+					item: "minecraft:vine"
+					count: 16
+				}
+				{
+					id: "62EEBCECC191CD5F"
+					type: "item"
+					item: "minecraft:grass"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Back in a sec!"
+			x: 1.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Build a Furnace Minecart"
+			description: [
+				"Furnace minecarts are used to travel long distances by pushing minecart trains."
+				""
+				"However, in this pack they also have a special use - Chunk Loading."
+				""
+				"When you walk far enough away from your base, your farm, and any machines (redstone, furnaces, etc) will halt."
+				""
+				"A Chunk Loader prevents this from happening in a 16x16 area (A chunk!) - You can press F3+B at any time to view chunks in the world."
+				""
+				"Furnace minecarts will only load the chunk they are in, and will keep them loaded for as long as it has fuel. At maximum this means you can fill a furnace minecart with a lava bucket and it will keep the area loaded and running for 17 minutes."
+			]
+			dependencies: ["796366A8D7D8BBF8"]
+			id: "54557BCF50D4E3EA"
+			tasks: [{
+				id: "46C8036E99DA86DC"
+				type: "item"
+				item: "minecraft:furnace_minecart"
+			}]
+			rewards: [
+				{
+					id: "6AAB5E2685C1561F"
+					type: "item"
+					item: "minecraft:coal_block"
+					count: 16
+				}
+				{
+					id: "2718EBD9A068D8C2"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 4
+				}
+			]
 		}
 	]
 }
