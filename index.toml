@@ -46,7 +46,7 @@ hash = "e20d97fc648630d3be3e728fbf72a354e0b781aeca6e096c5599e300b9959d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "88e585c903111b31a5ee081aab0e4a1f2b54292db54e4a1aeb1f898636e549f2"
+hash = "52ef1e3671fa26231118e265e6c3f9fe7e07723517e3fc65780f9b211cb52866"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -58,7 +58,7 @@ hash = "b6ac784f82f5ef56af1a7e8cd425d56afaa5934eaa32dbf571149203f0b46f26"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "6eab1e38d45c60a6b24c6700ef97c432aae389c9354e668145e3f3ff401c1f6c"
+hash = "7d59f2b80506f926f4b88afcc253f776756c9dfda1db11ed6e50c4af1e7d89f7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -360,6 +360,10 @@ hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/gui/conduit_quest_diagram.png"
+hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
@@ -814,6 +818,11 @@ metafile = true
 [[files]]
 file = "mods/statuseffecttimer.pw.toml"
 hash = "3610cc0efd4c0bfa58b962452b7ee2c735f3c9a86c66b175a5c186258aaeecc7"
+metafile = true
+
+[[files]]
+file = "mods/tax-free-levels.pw.toml"
+hash = "d6f0667f2bbfb1036d3586ad2431c440b85bb267c4f7ad60985842b940e023a2"
 metafile = true
 
 [[files]]

@@ -13,7 +13,17 @@
 			x: 0.0d
 			y: -0.5d
 			subtitle: "Visit a Snow Village"
-			description: ["Blue ice allows boats to move at rapid speeds - try it out!"]
+			description: [
+				"Illagers are a hostile faction of villagers, which hunt in small packs and gather at outposts."
+				""
+				"If you defeat a banner-flying illager, they'll inflict you with a \"bad omen\" causing a raid to occur when you next enter a village (unless you drink a milk bucket)."
+				""
+				"Defeating the many waves of pillagers, witches, evokers, ravagers, and vindicators, provides the player with the \"Hero of the Village\" buff - providing discounts with all villagers for 40 minutes."
+				""
+				"Raids are a good way to farm Totem of the Undying, which allows you to cheat death when in the inventory, by killing Evokers."
+				""
+				"During a Raid, villagers will hide, often by ringing the town bell. This can be done manually by the player at any time."
+			]
 			id: "51415C8C88AA350B"
 			tasks: [{
 				id: "0E98F0430979C3AB"
@@ -24,15 +34,23 @@
 			}]
 			rewards: [
 				{
-					id: "71B460D6870DE179"
+					id: "497BDF0CD32B821B"
 					type: "item"
-					item: "minecraft:blue_ice"
-					count: 64
+					item: "minecraft:bell"
 				}
 				{
-					id: "0B772BFDD48FD535"
+					id: "4D17D0F47149180D"
 					type: "item"
-					item: "minecraft:spruce_boat"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:piercing"
+								lvl: 2s
+							}]
+						}
+					}
 				}
 			]
 		}
@@ -433,6 +451,8 @@
 				"Every employed villager has a Job Site block. They can visit this block up to twice a day to restock their trades if one runs out."
 				""
 				"If a villager hasn't been traded with before, their profession can be changed by breaking this block, and enticing them to a new one."
+				""
+				"This can help with finding villagers with rare trades - such as Enchanted books of Mending from librarians."
 			]
 			id: "2591980163249EF1"
 			tasks: [{

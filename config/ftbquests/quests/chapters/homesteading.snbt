@@ -94,6 +94,8 @@
 				"Some players enjoy tearing the world half to shreds to collect enough rarer stones to build the prettiest buildings!"
 				""
 				"Some players do not."
+				""
+				"NB: Please don't use the prismarine for conduits or I will be sad"
 			]
 			dependencies: ["1233042213A9729E"]
 			hide: true
@@ -181,7 +183,7 @@
 		{
 			title: "Super Position!"
 			x: -3.0d
-			y: -2.0d
+			y: -2.5d
 			subtitle: "Craft an Ender Chest"
 			description: [
 				"Ender chests contain the same items, no matter where you open them from."
@@ -214,8 +216,8 @@
 		}
 		{
 			title: "Lit"
-			x: -3.5d
-			y: -3.0d
+			x: -4.0d
+			y: -2.5d
 			subtitle: "Craft a Lantern"
 			description: [
 				"Lanterns provide slightly more light than torches, and can be placed on walls or hung from ceilings"
@@ -250,8 +252,8 @@
 		}
 		{
 			title: "Mr. Cellophane"
-			x: -2.0d
-			y: -3.0d
+			x: -1.0d
+			y: -2.5d
 			subtitle: "Craft some Glass Panes"
 			description: [
 				"Glass panes are an alternative to full glass blocks, both of which allow you to make windows and skylights for buildings."
@@ -282,8 +284,8 @@
 		}
 		{
 			title: "Plotting"
-			x: -0.5d
-			y: -3.0d
+			x: 0.0d
+			y: -2.5d
 			subtitle: "Make a Fence Gate"
 			description: [
 				"Fence gates allow you to open and close them, while also connecting to fences."
@@ -349,6 +351,7 @@
 			x: -5.5d
 			y: -3.0d
 			subtitle: "Do some Ranching"
+			dependencies: ["5C7110BA96ECA231"]
 			id: "63C534CA1FC2DADE"
 			tasks: [
 				{
@@ -371,17 +374,39 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -2.0d
+			title: "Unlikely (and sticky) ally"
+			x: -9.0d
+			y: -3.0d
+			subtitle: "Craft a Honey Block"
+			description: [
+				"Honey blocks can be used to augment slime elevators, allowing you to easily stick and arrive at particular floors of a large base."
+				""
+				"Vines are part of this pack's alternate slimeball recipe."
+			]
+			dependencies: ["5DE40B33B987E149"]
 			id: "3811025165802342"
 			tasks: [{
 				id: "47F35CC118356E8D"
 				type: "item"
 				item: "minecraft:honey_block"
 			}]
+			rewards: [
+				{
+					id: "541513A64B024FDD"
+					type: "item"
+					item: "minecraft:vine"
+					count: 16
+				}
+				{
+					id: "21CA961DC7B55768"
+					type: "item"
+					item: "minecraft:honey_block"
+					count: 5
+				}
+			]
 		}
 		{
-			x: -7.0d
+			x: -7.5d
 			y: -3.0d
 			dependencies: ["5C7110BA96ECA231"]
 			id: "5DE40B33B987E149"
@@ -519,7 +544,7 @@
 		}
 		{
 			title: "Stay Fiesty, Hellspawn"
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 			shape: "hexagon"
 			subtitle: "Craft a Respawn Anchor"
@@ -731,7 +756,7 @@
 		}
 		{
 			title: "WOMEN FEAR ME"
-			x: -5.5d
+			x: -6.0d
 			y: -2.0d
 			subtitle: "Craft a Fishing Rod"
 			description: [
@@ -743,6 +768,7 @@
 				""
 				"You can dye your fishing line with any dye in the crafting table. Additionally if you rename your fishing rod to common pride-flag words (e.g. aro, pan, plural) the line will appear in that color."
 			]
+			dependencies: ["5C7110BA96ECA231"]
 			id: "2DF95382AC7B7AD4"
 			tasks: [{
 				id: "5A8BF1DC3D8BAEA7"
@@ -783,6 +809,7 @@
 				"Don't forget to note down the coordinates in you Notes! (N)"
 			]
 			dependencies: ["1233042213A9729E"]
+			hide: true
 			optional: true
 			id: "58CAA3CF4CE89A65"
 			tasks: [
@@ -826,6 +853,261 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "Treasure Fisher"
+			x: -5.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "Fish up a Nautilus Shell"
+			description: [
+				"Nautilus shells can be fished at a 1% chance, up to 2% with Luck of the Sea III."
+				""
+				"Nautilus shells are the basis of creating a *Conduit* - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
+			]
+			dependencies: ["2DF95382AC7B7AD4"]
+			id: "665ED9CB789FB958"
+			tasks: [{
+				id: "01CB40E24772863D"
+				type: "item"
+				item: "minecraft:nautilus_shell"
+			}]
+			rewards: [
+				{
+					id: "7218EEC8E37D0D61"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 3s
+							}]
+						}
+					}
+				}
+				{
+					id: "6AF69D0FC37EB581"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Core of Atlantis"
+			x: -6.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "Find a Heart of the Sea"
+			description: ["A \"Heart of the Sea\" can be found as buried treasure underwater and under beaches. To find buried treasure, one can follow maps sold by some cartographers, or feed raw fish to a dolphin."]
+			id: "4FA802A874FC1A24"
+			tasks: [{
+				id: "3185D01BB3B3A323"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+			rewards: [
+				{
+					id: "7BD813AE660B2A00"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					count: 16
+				}
+				{
+					id: "0458D41D54EE0301"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "Craft a Conduit"
+			description: [
+				"A *Conduit* allows you to make advanced multi-species underwater bases."
+				""
+				"To activate them, they need to be placed in a 3x3x3 cube of water, that is surrounded by 5x5 squares of prismarine aligned with it in 1-3 axes (each increasing the range)."
+				""
+			]
+			dependencies: [
+				"4FA802A874FC1A24"
+				"665ED9CB789FB958"
+			]
+			id: "0953453F97BA921D"
+			tasks: [{
+				id: "7CFE7B70313152E9"
+				type: "item"
+				item: "minecraft:conduit"
+			}]
+		}
+		{
+			title: "Aye 'yam amphibious"
+			x: -13.5d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "Craft a Boat"
+			description: [
+				"Boats allow you to move long distances over water without a hunger cost."
+				""
+				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
+			]
+			id: "423E897DEB76653D"
+			tasks: [{
+				id: "3DA9DDCFB85248ED"
+				type: "item"
+				title: "Wooden Boat"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}]
+		}
+		{
+			title: "Hyperspeed Lane"
+			x: -12.0d
+			y: -3.0d
+			subtitle: "Acquire 1 Blue Ice"
+			description: ["Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."]
+			dependencies: ["423E897DEB76653D"]
+			id: "51AC2E4D1053FC19"
+			tasks: [{
+				id: "4EDE04AAE35B8B8E"
+				type: "item"
+				item: "minecraft:blue_ice"
+			}]
+			rewards: [{
+				id: "3FFC081E8E887B66"
+				type: "item"
+				item: "minecraft:blue_ice"
+				count: 64
+			}]
+		}
+		{
+			title: "Invention of Rail"
+			x: -17.0d
+			y: -5.0d
+			subtitle: "Gather some Rail materials"
+			dependencies: ["423E897DEB76653D"]
+			id: "0EF299A1A5009971"
+			tasks: [{
+				id: "64AA0C69C81F13E5"
+				type: "item"
+				item: "minecraft:rail"
+			}]
+		}
+		{
+			title: "Glub Glub"
+			icon: {
+				id: "minecraft:lingering_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			x: -14.5d
+			y: -1.5d
+			subtitle: "Gather Bubble Elevator materials"
+			dependencies: ["423E897DEB76653D"]
+			id: "4E780825E91BA9CA"
+			tasks: [
+				{
+					id: "0343D01EE4CED033"
+					type: "item"
+					item: "minecraft:magma_block"
+				}
+				{
+					id: "01AB8E607E758E63"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "48F6931772905D71"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			title: "Keep an eye on gravity"
+			icon: "minecraft:slime_block"
+			x: -12.5d
+			y: -1.5d
+			subtitle: "Make slime Bounce-Elevator materials"
+			dependencies: ["423E897DEB76653D"]
+			id: "039E822D32DC0A9B"
+			tasks: [
+				{
+					id: "581C4156E009B165"
+					type: "item"
+					item: "minecraft:slime_block"
+				}
+				{
+					id: "3218F9009FCE1D9F"
+					type: "item"
+					item: "minecraft:sticky_piston"
+				}
+			]
+		}
+		{
+			title: "Olympic Highway"
+			x: -13.5d
+			y: -3.0d
+			subtitle: "Gather Soulspeed Highway materials"
+			dependencies: ["423E897DEB76653D"]
+			id: "56FFE5307AA82DCD"
+			tasks: [{
+				id: "193B528A78694A90"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 64L
+			}]
+		}
+		{
+			title: "Yeehaw"
+			x: -13.5d
+			y: 0.0d
+			subtitle: "Saddle and ride a Horse"
+			dependencies: ["423E897DEB76653D"]
+			id: "7AA799B6789ABD71"
+			tasks: [{
+				id: "61C1C9ADFC09F727"
+				type: "stat"
+				icon: "minecraft:saddle"
+				stat: "minecraft:horse_one_cm"
+				value: 100
+			}]
+		}
+		{
+			title: "Olympic Underwater Highway"
+			icon: {
+				id: "minecraft:tropical_fish_bucket"
+				Count: 1b
+				tag: { }
+			}
+			x: -15.0d
+			y: -3.0d
+			subtitle: "Swim 300 Blocks"
+			dependencies: ["423E897DEB76653D"]
+			id: "56E8B3168203AA6F"
+			tasks: [{
+				id: "1989BBAD04C1D853"
+				type: "stat"
+				icon: {
+					id: "minecraft:tropical_fish_bucket"
+					Count: 1b
+					tag: { }
+				}
+				stat: "minecraft:swim_one_cm"
+				value: 300
+			}]
 		}
 	]
 }
