@@ -125,7 +125,7 @@
 			description: [
 				"Abandoned mineshafts are a good way to find your way between caves and collect loot (especially minecarts and rails!)"
 				""
-				"Minecarts in this modpack have some improvements - try make some \"coasters\" to travel around your base!"
+				"Minecarts in this modpack have some improvements - check out the travel section of Homesteading for more!"
 			]
 			id: "55DDA9D21E24AF10"
 			tasks: [{
@@ -194,6 +194,7 @@
 			y: -4.5d
 			subtitle: "Bucket an Axolotl"
 			dependencies: ["0305A29ECBFA79FA"]
+			hide: true
 			id: "3602D52A78391BFA"
 			tasks: [{
 				id: "372E5994E7E2ABAB"
@@ -260,6 +261,7 @@
 			subtitle: "Find a Lodestone"
 			description: ["Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."]
 			dependencies: ["08398FBBB792C742"]
+			hide: true
 			id: "449397788969C004"
 			tasks: [{
 				id: "6222355C0CE72BA1"
@@ -351,7 +353,9 @@
 				""
 				"They can also be brewed into Potions of the Turtle Master."
 			]
+			hide_dependency_lines: false
 			dependencies: ["687ED1196101F48D"]
+			hide: true
 			id: "56295946AF0DD074"
 			tasks: [{
 				id: "4332DE476304087F"
@@ -523,23 +527,6 @@
 			]
 		}
 		{
-			title: "On the Road"
-			x: 0.5d
-			y: -3.0d
-			shape: "hexagon"
-			subtitle: "Travel 200 Blocks by Minecart"
-			dependencies: ["55DDA9D21E24AF10"]
-			id: "394ECD6E04D05843"
-			tasks: [{
-				id: "249ED3136171674E"
-				type: "stat"
-				title: "Travel 200 Blocks by Minecart"
-				icon: "minecraft:minecart"
-				stat: "minecraft:minecart_one_cm"
-				value: 200
-			}]
-		}
-		{
 			title: "Not for the faint of heart"
 			x: -3.0d
 			y: 0.5d
@@ -556,6 +543,7 @@
 			x: -4.5d
 			y: 1.5d
 			dependencies: ["7CEE48A412C94320"]
+			hide: true
 			id: "3C5FCE8C61F8A84B"
 			tasks: [{
 				id: "7E973FBCC832794D"

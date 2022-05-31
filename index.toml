@@ -29,6 +29,10 @@ file = "config/colormatic.properties"
 hash = "2e668d54f365736fbd4c97b1f42535ce889587d18b3caa48830219f25f48d124"
 
 [[files]]
+file = "config/darkness.properties"
+hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
+
+[[files]]
 file = "config/fabrication/features.ini"
 hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
 
@@ -46,19 +50,19 @@ hash = "e20d97fc648630d3be3e728fbf72a354e0b781aeca6e096c5599e300b9959d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "52ef1e3671fa26231118e265e6c3f9fe7e07723517e3fc65780f9b211cb52866"
+hash = "1a55563e5a8733ea504cc995467197bc1f2398ac6c2e94a1b9172733feb87741"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "8e78d817aa43099adb2765ce086d2515b588f27cd3e9123ca593715641254f1e"
+hash = "abc24b527a4fcf263f0921dac7520f5bbe298c0f4ab2a1ac0aa416fccd04e3b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "b6ac784f82f5ef56af1a7e8cd425d56afaa5934eaa32dbf571149203f0b46f26"
+hash = "f7a5fde743f7ccfd1dcf8593d2ae8cd151b21a32a3b87e01a742242693e5ea70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "7d59f2b80506f926f4b88afcc253f776756c9dfda1db11ed6e50c4af1e7d89f7"
+hash = "685dd94219a09b23c2aecca1d6a2b10cdcec1723692b67e208881f4d3d8bde16"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -290,6 +294,10 @@ file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
 
 [[files]]
+file = "config/universal-graves.json"
+hash = "98aa54aa781ba624315696108e1e4b7842eba3c67ed680e23cd7d8627f004e0b"
+
+[[files]]
 file = "config/yosbr/config/charmonium.toml"
 hash = "de7057d00f1ebfe02a01b299778660eb23c13564f7796df828b8c0d437b25d1c"
 
@@ -490,6 +498,10 @@ hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
+file = "mods/darkness-fabric-mc118-2.0.89.jar"
+hash = "5c3150b586a786236a719325680c25e5e847a97fd15550195879669c65a607e5"
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "9d5d339c329cb7e2a8c7540da5dff5e81cb99b769986c3f88fcfa17d21477f18"
 metafile = true
@@ -634,7 +646,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "ff45daf976ff376382a91f597fd8498f42c20c1fb45b9297b37a682877df2c2b"
+hash = "fd8cf69c84c9b30f2532cd4dc23bcc461c712785211235976ab0205839134571"
 metafile = true
 
 [[files]]
@@ -643,9 +655,8 @@ hash = "01f79a7fb966690009a42f285e779bac8f7958df56240494e4d3d7d862332c2d"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "47458ce2df66d83b675111daa48e7721ecfb30284a595235f1cce1cabcae638e"
-metafile = true
+file = "mods/lambdynamiclights-2.1.1limitless1.18.jar"
+hash = "80abe987afe04ca124ce85861d03e7d3dc2c875d71c59cba2b78c0866cba3cb3"
 
 [[files]]
 file = "mods/lazydfu.pw.toml"
@@ -752,7 +763,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "046d2a1630f05efc4c6dc894ca73c0f1f0868ef610262340af86a81283728294"
+hash = "1b8646c09f572f1b71bf5c77a8e12f0b7f17b82ea2b877ed3c0a39a9fba0984e"
 metafile = true
 
 [[files]]

@@ -25,6 +25,7 @@
 				"By adding chests to each of these hoppers, you can set up a furnace to run over very long times."
 			]
 			dependencies: ["55783EE248BAC550"]
+			hide: true
 			id: "796366A8D7D8BBF8"
 			tasks: [{
 				id: "58184DF53B179A23"
@@ -57,6 +58,7 @@
 				"Furnaces of all kinds accept many types of fuel. Smaller fuels are less wasteful when processing smaller numbers of items. Some fuels (e.g. Lava buckets at 100 items) are only efficient for large loads."
 			]
 			dependencies: ["55783EE248BAC550"]
+			hide: true
 			id: "0BB19BE0BA8A2037"
 			tasks: [{
 				id: "296F49FBB8B236FA"
@@ -193,6 +195,7 @@
 				"Shulker boxes can be placed into ender chests, greatly expanding their overall capacity and ability to transport items infinite distances."
 			]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "1BCC72C060356F02"
 			tasks: [{
 				id: "38A7D9A1F4B61BE4"
@@ -229,6 +232,7 @@
 				"This is essential for building a safe base area!"
 			]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "2F461D711895F36B"
 			tasks: [{
 				id: "1B0C87963A2673AE"
@@ -261,6 +265,7 @@
 				"Glass can also be Stained using dye, coloring it. Tinted glass can be created with amethyst, which blocks light."
 			]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "096988E67755A423"
 			tasks: [{
 				id: "12C095116F80A80B"
@@ -297,6 +302,7 @@
 				"Carpet can also be used to create a \"jumpable\" area of fence, by placing it on top of a fence post."
 			]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "1FFD2B27BC87EADB"
 			tasks: [{
 				id: "4120F1E913227A16"
@@ -352,6 +358,7 @@
 			y: -3.0d
 			subtitle: "Do some Ranching"
 			dependencies: ["5C7110BA96ECA231"]
+			hide: true
 			id: "63C534CA1FC2DADE"
 			tasks: [
 				{
@@ -384,6 +391,7 @@
 				"Vines are part of this pack's alternate slimeball recipe."
 			]
 			dependencies: ["5DE40B33B987E149"]
+			hide: true
 			id: "3811025165802342"
 			tasks: [{
 				id: "47F35CC118356E8D"
@@ -409,6 +417,7 @@
 			x: -7.5d
 			y: -3.0d
 			dependencies: ["5C7110BA96ECA231"]
+			hide: true
 			id: "5DE40B33B987E149"
 			tasks: [{
 				id: "36831BB40E3FD9DA"
@@ -515,6 +524,7 @@
 				"Maps can be placed into item frames, allowing them to be assembled into much larger physical maps."
 			]
 			dependencies: ["55783EE248BAC550"]
+			hide: true
 			id: "1D22455B9931408B"
 			tasks: [{
 				id: "3075251E9DC7E660"
@@ -562,6 +572,7 @@
 				"|  rd  |  rd  | D^  |"
 			]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "392E005585B652A4"
 			tasks: [{
 				id: "7A605FF99394FAAE"
@@ -682,6 +693,7 @@
 				"Did you know? Shears can be used to collect decorative plants that otherwise drop nothing. They can also be used to collect whole cobwebs, and destroy tripwires without activating them."
 			]
 			dependencies: ["55783EE248BAC550"]
+			hide: true
 			id: "1233042213A9729E"
 			tasks: [{
 				id: "19EF31E91BB0C484"
@@ -733,6 +745,7 @@
 				"Furnace minecarts will only load the chunk they are in, and will keep them loaded for as long as it has fuel. At maximum this means you can fill a furnace minecart with a lava bucket and it will keep the area loaded and running for 17 minutes."
 			]
 			dependencies: ["796366A8D7D8BBF8"]
+			hide: true
 			id: "54557BCF50D4E3EA"
 			tasks: [{
 				id: "46C8036E99DA86DC"
@@ -769,6 +782,7 @@
 				"You can dye your fishing line with any dye in the crafting table. Additionally if you rename your fishing rod to common pride-flag words (e.g. aro, pan, plural) the line will appear in that color."
 			]
 			dependencies: ["5C7110BA96ECA231"]
+			hide: true
 			id: "2DF95382AC7B7AD4"
 			tasks: [{
 				id: "5A8BF1DC3D8BAEA7"
@@ -866,6 +880,7 @@
 				"Nautilus shells are the basis of creating a *Conduit* - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
 			]
 			dependencies: ["2DF95382AC7B7AD4"]
+			hide: true
 			id: "665ED9CB789FB958"
 			tasks: [{
 				id: "01CB40E24772863D"
@@ -902,6 +917,8 @@
 			shape: "hexagon"
 			subtitle: "Find a Heart of the Sea"
 			description: ["A \"Heart of the Sea\" can be found as buried treasure underwater and under beaches. To find buried treasure, one can follow maps sold by some cartographers, or feed raw fish to a dolphin."]
+			hide_dependency_lines: true
+			dependencies: ["20E2938DD7365207"]
 			id: "4FA802A874FC1A24"
 			tasks: [{
 				id: "3185D01BB3B3A323"
@@ -938,6 +955,7 @@
 				"4FA802A874FC1A24"
 				"665ED9CB789FB958"
 			]
+			hide: true
 			id: "0953453F97BA921D"
 			tasks: [{
 				id: "7CFE7B70313152E9"
@@ -977,6 +995,7 @@
 			subtitle: "Acquire 1 Blue Ice"
 			description: ["Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."]
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "51AC2E4D1053FC19"
 			tasks: [{
 				id: "4EDE04AAE35B8B8E"
@@ -996,6 +1015,7 @@
 			y: -5.0d
 			subtitle: "Gather some Rail materials"
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "0EF299A1A5009971"
 			tasks: [{
 				id: "64AA0C69C81F13E5"
@@ -1016,6 +1036,7 @@
 			y: -1.5d
 			subtitle: "Gather Bubble Elevator materials"
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "4E780825E91BA9CA"
 			tasks: [
 				{
@@ -1042,6 +1063,7 @@
 			y: -1.5d
 			subtitle: "Make slime Bounce-Elevator materials"
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "039E822D32DC0A9B"
 			tasks: [
 				{
@@ -1062,6 +1084,7 @@
 			y: -3.0d
 			subtitle: "Gather Soulspeed Highway materials"
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "56FFE5307AA82DCD"
 			tasks: [{
 				id: "193B528A78694A90"
@@ -1076,6 +1099,7 @@
 			y: 0.0d
 			subtitle: "Saddle and ride a Horse"
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "7AA799B6789ABD71"
 			tasks: [{
 				id: "61C1C9ADFC09F727"
@@ -1096,6 +1120,7 @@
 			y: -3.0d
 			subtitle: "Swim 300 Blocks"
 			dependencies: ["423E897DEB76653D"]
+			hide: true
 			id: "56E8B3168203AA6F"
 			tasks: [{
 				id: "1989BBAD04C1D853"

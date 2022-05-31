@@ -398,6 +398,7 @@
 				"The ender dragon can also \"fling\" players large distances, often killing them instantly from fall damage."
 			]
 			dependencies: ["2803B3AF9D4E64A3"]
+			hide: true
 			id: "345A5D446CD0E0D2"
 			tasks: [{
 				id: "3702B57CC4464B30"
@@ -444,6 +445,7 @@
 				"It can be used to make the best gear!"
 			]
 			dependencies: ["28AFD82AD9C0B721"]
+			hide: true
 			id: "5DA11E4FA4C52495"
 			tasks: [{
 				id: "0F6EBD8A1A1D375E"
@@ -476,6 +478,7 @@
 				"Netherite can be added directly to diamond gear using the Smithing Table."
 			]
 			dependencies: ["5DA11E4FA4C52495"]
+			hide: true
 			id: "4413A0B2A6BF9695"
 			tasks: [{
 				id: "72FC9B9A148AAA24"
@@ -501,6 +504,7 @@
 				"Enchantments are random, and the most expensive ones require Level 30, but only cost 3 levels. Achieving this requires the table to be surrounded with 15 bookshelves, with one block space between."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
+			hide: true
 			id: "594D5FA160E7C304"
 			tasks: [{
 				id: "28E2B53465A55920"
@@ -546,6 +550,7 @@
 				"By tossing an enderpearl through the portal, you can travel to the outer end."
 			]
 			dependencies: ["345A5D446CD0E0D2"]
+			hide: true
 			id: "6CDF6FE603499CB1"
 			tasks: [{
 				id: "2A9ADEEF5B006F41"
@@ -574,6 +579,7 @@
 				"End cities are full of Shulkers, who cause levitation on hit - this can cause massive damage due to falling, but can be negated with ender pearls or chorus fruit."
 			]
 			dependencies: ["6CDF6FE603499CB1"]
+			hide: true
 			id: "4631772288F2177D"
 			tasks: [{
 				id: "3403F8CB9F8DB4E1"
@@ -601,6 +607,7 @@
 				"Hitting surfaces at speed deals damage, so turning before impact and pulling up to slow down is advised."
 			]
 			dependencies: ["4631772288F2177D"]
+			hide: true
 			id: "06B5F4D5D8A0D202"
 			tasks: [{
 				id: "6C7823064E1563F1"
@@ -633,6 +640,7 @@
 				"You'll probably need to make more of these potions."
 			]
 			dependencies: ["4048B08BA7BA39BE"]
+			hide: true
 			id: "71B31B0EAE8DCD3D"
 			tasks: [{
 				id: "0B1FFAD97E03BE43"
@@ -675,6 +683,7 @@
 				"to improve a beacons effect, place more ore blocks below in a pyramid structure. First a 4x4 below the 3x3, and so on."
 			]
 			dependencies: ["71B31B0EAE8DCD3D"]
+			hide: true
 			id: "7D7CE9AD22CE6A29"
 			tasks: [{
 				id: "1E03C0456495EB2B"
@@ -702,6 +711,7 @@
 			subtitle: "Acquire Brewing Ingredients"
 			description: ["Blaze rods and Nether wart can both be found in the nether. The latter of which can be farmed on soul sand."]
 			dependencies: ["4048B08BA7BA39BE"]
+			hide: true
 			id: "274780E9080AF463"
 			tasks: [
 				{
@@ -762,6 +772,7 @@
 				"This allows the nether to be crossed fairly safely, in combination with a few staircases."
 			]
 			dependencies: ["274780E9080AF463"]
+			hide: true
 			id: "0C2C9057CE459E63"
 			tasks: [
 				{
@@ -855,6 +866,7 @@
 				""
 			]
 			dependencies: ["41C9341CA261E52B"]
+			hide: true
 			id: "4FF54D00F9D67A59"
 			tasks: [{
 				id: "449F2483BED2C27E"
@@ -887,6 +899,7 @@
 				"Some enchantments, like Silk Touch and Fortune, are incompatible, and can't be applied on the same item."
 			]
 			dependencies: ["594D5FA160E7C304"]
+			hide: true
 			id: "324EABD3C7110E53"
 			tasks: [
 				{
@@ -980,6 +993,7 @@
 				"Pouches are an unobtainable item that allows any 64 of miscellaneous items to be stored, which can help when your inventory has lots of little things (mob drops, blocks, etc)"
 			]
 			dependencies: ["4631772288F2177D"]
+			hide: true
 			id: "58FCE9FA57CB5D39"
 			tasks: [{
 				id: "46644D7C1F998D18"
@@ -1013,6 +1027,7 @@
 			y: 0.5d
 			subtitle: "Have one of every tool"
 			dependencies: ["41C9341CA261E52B"]
+			hide: true
 			id: "358409FE5C2E19E6"
 			tasks: [
 				{
