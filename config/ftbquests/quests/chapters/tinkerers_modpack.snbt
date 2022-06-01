@@ -394,9 +394,7 @@
 			description: [
 				"Origins provides a system for gaining various attributes, advantages, and disadvantages based on an \"Origin\""
 				""
-				"Considering this is a plural modpack, here's a shulker box stuffed full of \"Orb of Origin\" - which allows you to change your origin."
-				""
-				"Try not to abuse the free switches for a gamplay advantage! This was the best solution I could come up with without making a whole-ass pluralkit integration mod"
+				"In this pack, you're also able to choose a \"Class\", which provides you a minor buff. And a \"Stature\" which changes your character's size."
 			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
@@ -1909,6 +1907,11 @@
 			y: -0.5d
 			shape: "gear"
 			subtitle: "bc y'know euphoria or whatever"
+			description: [
+				"Considering this is a plural modpack, here's a shulker box stuffed full of \"Orb of Origin\" - which allows you to change your origin."
+				""
+				"Try not to abuse the free switches for a gamplay advantage! This was the best solution I could come up with without making a whole-ass pluralkit integration mod"
+			]
 			dependencies: ["1FE5F243E8C8329E"]
 			optional: true
 			id: "28721A928E53EFE4"

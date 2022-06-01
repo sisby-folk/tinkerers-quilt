@@ -50,7 +50,7 @@ hash = "e20d97fc648630d3be3e728fbf72a354e0b781aeca6e096c5599e300b9959d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "cb509076d018485d728044c28eef6c0394ff0b781ae88efc3643d4af409704b7"
+hash = "31daba29ced40602f759963eff6dda4c79f4b67e50417e45b3cb4c0c7568367d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -58,7 +58,7 @@ hash = "abc24b527a4fcf263f0921dac7520f5bbe298c0f4ab2a1ac0aa416fccd04e3b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "46e1d2c52f94ce3bf38bf0d18464f734eb8e2d1afa9afe37ccfccb039d09ea81"
+hash = "d32c6effaf2a63a389a0488bf79b609ceb561f2124fa582e128ff3b4ab39d955"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -503,7 +503,7 @@ hash = "5c3150b586a786236a719325680c25e5e847a97fd15550195879669c65a607e5"
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "9d5d339c329cb7e2a8c7540da5dff5e81cb99b769986c3f88fcfa17d21477f18"
+hash = "5c05e7323ec7f46a986c6cb90a7cff289a9f5edf532ebcb90667a7c4ade3e519"
 metafile = true
 
 [[files]]
@@ -646,7 +646,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "fd8cf69c84c9b30f2532cd4dc23bcc461c712785211235976ab0205839134571"
+hash = "57003f2221e0aafe1370a1fb03d731d081e31d8b60b849638b5c483b589c7a69"
 metafile = true
 
 [[files]]
@@ -684,7 +684,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "88cc6278f17ebfc8032951c41a681cd493262fa590a42627910cf0dcabc4b6fc"
+hash = "25075b52feaf123e7d1bc500834e1b26dbd787383e42621df84b304a616f878a"
 metafile = true
 
 [[files]]
