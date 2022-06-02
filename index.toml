@@ -711,11 +711,6 @@ hash = "e969f8b43e5679d9adf2f027a744f65b011904aa5ad9dd451a48dcb0521f2966"
 metafile = true
 
 [[files]]
-file = "mods/lessbubbles.pw.toml"
-hash = "55c7a97f1a234ead5dbeaa049337c72b95026eb99fce2050c12134b9c939cbb9"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "83541b1d3e1e936638a6938eb505bf0f508c13aed7f8416af8d064ffc7cda4dc"
 metafile = true
