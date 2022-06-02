@@ -422,6 +422,10 @@ file = "kubejs/startup_scripts/script.js"
 hash = "fbe2f595a1348b04aa3e3500c9356523e6c3c343ea0642abe26f8998d797def3"
 
 [[files]]
+file = "meru"
+hash = "01283e3b008982f1b4506a36ee8d606b92313cadafc1316f78222cd94fc8ed7b"
+
+[[files]]
 file = "mods/Couplings-1.8.0+1.18.2.jar"
 hash = "df72fda20ce8def50a22f97ca67e87239da46a2501cd8eb3e7648b23107b1599"
 
@@ -912,6 +916,10 @@ metafile = true
 file = "mods/yosbr.pw.toml"
 hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
 metafile = true
+
+[[files]]
+file = "mollymauk"
+hash = "6e79012dfa673fcfef91018336fd159b6dab4bed87e5fd0b1a28906dabd199da"
 
 [[files]]
 file = "removed.txt"
