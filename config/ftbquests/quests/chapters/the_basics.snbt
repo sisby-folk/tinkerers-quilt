@@ -350,7 +350,7 @@
 			tasks: [{
 				id: "6B547341AB9F3005"
 				type: "item"
-				title: "Any #c:pickaxes"
+				title: "Wooden Pickaxe"
 				icon: {
 					id: "minecraft:wooden_pickaxe"
 					Count: 1b
@@ -645,6 +645,7 @@
 			tasks: [{
 				id: "0B1FFAD97E03BE43"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:wither_skeleton_skull"
 				count: 3L
 			}]
@@ -688,6 +689,7 @@
 			tasks: [{
 				id: "1E03C0456495EB2B"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:nether_star"
 			}]
 			rewards: [
@@ -717,11 +719,13 @@
 				{
 					id: "57C85AE7D22E4328"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:brewing_stand"
 				}
 				{
 					id: "702F50852618854C"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:nether_wart"
 				}
 			]
@@ -778,6 +782,7 @@
 				{
 					id: "1BE9417FD5079964"
 					type: "item"
+					disable_toast: true
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
@@ -789,6 +794,7 @@
 				{
 					id: "2D377D47EF1F29FC"
 					type: "item"
+					disable_toast: true
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
@@ -869,10 +875,8 @@
 			hide: true
 			id: "4FF54D00F9D67A59"
 			tasks: [{
-				id: "449F2483BED2C27E"
+				id: "7F5C1B92A8E5D119"
 				type: "advancement"
-				title: "Equip some Iron Armor"
-				disable_toast: true
 				advancement: "minecraft:story/obtain_armor"
 				criterion: ""
 			}]
@@ -905,11 +909,13 @@
 				{
 					id: "6940D98A01D79913"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:anvil"
 				}
 				{
 					id: "04915670EB15183D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:grindstone"
 				}
 			]
@@ -1033,7 +1039,8 @@
 				{
 					id: "5FC0E582CDFDC762"
 					type: "item"
-					title: "Any #c:pickaxes"
+					title: "Pickaxe"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1045,7 +1052,8 @@
 				{
 					id: "4D0BFD3A0D9238C9"
 					type: "item"
-					title: "Any #c:shovels"
+					title: "Shovel"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1057,7 +1065,8 @@
 				{
 					id: "553123730A74F060"
 					type: "item"
-					title: "Any #c:axes"
+					title: "Axe"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1069,7 +1078,8 @@
 				{
 					id: "3AAD0A84BDDF6E04"
 					type: "item"
-					title: "Any #c:hoes"
+					title: "Hoe"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b

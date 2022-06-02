@@ -396,17 +396,20 @@
 				{
 					id: "3E3C60D53FD25DBB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:milk_bucket"
 				}
 				{
 					id: "47609D194C5D4BA2"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 10L
 				}
 				{
 					id: "3E9A11449E0BF316"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:egg"
 					count: 4L
 				}
@@ -476,6 +479,8 @@
 				"When harvesting honeycomb (with shears) or honey (with a bottle), beehives, like bee nests, need to be \"Smoked\" - with a campfire placed below them."
 				""
 				"Carpets can be placed above campfires to keep them safe."
+				""
+				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By placing your farm between a bee's hive and its flowers, you will improve its growth."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -766,16 +771,19 @@
 				{
 					id: "69DB2CD979E668E6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:chest"
 				}
 				{
 					id: "24F8238455346F0E"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:furnace"
 				}
 				{
 					id: "769F2FC573E160FD"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:crafting_table"
 				}
 			]
@@ -956,6 +964,7 @@
 				{
 					id: "273128C5D85D7B63"
 					type: "item"
+					title: "White Glazed Terracotta - Open Quests!"
 					item: "minecraft:white_glazed_terracotta"
 				}
 			]
@@ -1143,7 +1152,11 @@
 			x: -16.5d
 			y: -6.0d
 			subtitle: "Acquire 1 Blue Ice"
-			description: ["Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."]
+			description: [
+				"Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."
+				""
+				"Try Ice Farming! There's a tutorial in the *Variety Fair* section of the farming quest tree."
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "51AC2E4D1053FC19"
@@ -1165,6 +1178,17 @@
 			y: -6.5d
 			shape: "hexagon"
 			subtitle: "Gather some Rail materials"
+			description: [
+				"Minecarts and rails can be used to make easy transit between known locations."
+				""
+				"Just set the rail down, place down a minecart, and hop in!"
+				""
+				"Minecarts can't go up steep hills without a push. Try using a Powered Rail with a redstone torch, or a furnace minecart with fuel!"
+				""
+				"In this pack, magenta terracotta can be placed under powered rails to force them to operate in one direction - great for loading new carts onto a rail!"
+				""
+				"Detector rails can be used to trigger redstone circuits when passed by. Try it out!"
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "0EF299A1A5009971"
@@ -1172,7 +1196,50 @@
 				id: "64AA0C69C81F13E5"
 				type: "item"
 				item: "minecraft:rail"
+				count: 32L
 			}]
+			rewards: [
+				{
+					id: "66BC7E72767B1509"
+					type: "item"
+					item: "minecraft:magenta_glazed_terracotta"
+					count: 8
+				}
+				{
+					id: "36F053E83568DB0C"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 8
+				}
+				{
+					id: "4E9F3C7796CE03C2"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 8
+				}
+				{
+					id: "4EFAEFD4C85ABCC9"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "6D24221752287D3D"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "723355EEC64996EC"
+					type: "item"
+					item: "minecraft:detector_rail"
+					count: 2
+				}
+				{
+					id: "5B9889C5B7BB26F8"
+					type: "item"
+					item: "minecraft:rail"
+					count: 64
+				}
+			]
 		}
 		{
 			title: "Glub Glub"
@@ -1186,6 +1253,11 @@
 			x: -14.5d
 			y: -3.0d
 			subtitle: "Gather Bubble Elevator materials"
+			description: [
+				"Magma Blocks and Soul Sand under water creates \"Bubble Columns\" in either direction, which both provide air and pull/push the mobs and the player down/up in the water"
+				""
+				"These can be used to make elevators for your home. Fence gates work great as blocks that prevent water flow."
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "4E780825E91BA9CA"
@@ -1193,17 +1265,34 @@
 				{
 					id: "0343D01EE4CED033"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:magma_block"
 				}
 				{
 					id: "01AB8E607E758E63"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:soul_sand"
 				}
 				{
 					id: "48F6931772905D71"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:water_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "5DF53F8015B9942B"
+					type: "item"
+					item: "minecraft:spruce_fence_gate"
+					count: 10
+				}
+				{
+					id: "062569DA6AD87480"
+					type: "item"
+					item: "minecraft:spruce_trapdoor"
+					count: 10
 				}
 			]
 		}
@@ -1213,6 +1302,13 @@
 			x: -14.5d
 			y: -7.0d
 			subtitle: "Make slime Bounce-Elevator materials"
+			description: [
+				"Try placing a slime block above a sticky piston, and turning it on with a button while standing on the slime block!"
+				""
+				"Should be enough height to reach another floor - try adding a honey block to help catch you at the top!"
+				""
+				"Hay Bales reduce fall damage."
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "039E822D32DC0A9B"
@@ -1220,26 +1316,44 @@
 				{
 					id: "581C4156E009B165"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:slime_block"
 				}
 				{
 					id: "3218F9009FCE1D9F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:sticky_piston"
 				}
 			]
-			rewards: [{
-				id: "2946ECA038C2E873"
-				type: "item"
-				item: "minecraft:honey_block"
-			}]
+			rewards: [
+				{
+					id: "2946ECA038C2E873"
+					type: "item"
+					item: "minecraft:honey_block"
+				}
+				{
+					id: "3181FD8D6DCF864A"
+					type: "item"
+					item: "minecraft:stone_button"
+				}
+				{
+					id: "1A048A683E8B3CFD"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+			]
 		}
 		{
 			title: "Olympic Highway"
 			x: -17.5d
 			y: -5.0d
 			subtitle: "Gather Soulspeed Highway materials"
-			description: ["Soul sand slows the player down, soul soil does not. With soul speed, the player is no longer slowed down, and sped up on both."]
+			description: [
+				"Soul sand slows the player down, soul soil does not. With soul speed, the player is no longer slowed down, and sped up on both."
+				""
+				"The enchantment can only be acquired by trading with piglins. But that's a little hardbasket for a cool highway, innit?"
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "56FFE5307AA82DCD"
@@ -1247,18 +1361,20 @@
 				{
 					id: "193B528A78694A90"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:soul_sand"
 					count: 64L
 				}
 				{
 					id: "2071C293A277F0B7"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:soul_soil"
 					count: 64L
 				}
 			]
 			rewards: [{
-				id: "40EC1DD749FC1FBB"
+				id: "586193A0EA230FBE"
 				type: "item"
 				item: {
 					id: "minecraft:enchanted_book"
@@ -1266,7 +1382,7 @@
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:soul_speed"
-							lvl: 1s
+							lvl: 3s
 						}]
 					}
 				}
@@ -1278,6 +1394,15 @@
 			y: -3.5d
 			shape: "hexagon"
 			subtitle: "Saddle and ride a Horse"
+			description: [
+				"Horses are some of the simplest forms of improved transport. Simply saddle one and be on your way."
+				""
+				"You can check a horse's stats by holding ALT. Breeding horses together requires Golden Carrots or Golden Apples, and the horse produced will be close to the average of its parents."
+				""
+				"Horses can also equip armor to improve their surviveability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them. I'll look into pet-preserving mods in future."
+				""
+				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them. Sneak-right-click to remove the saddle afterwards."
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "7AA799B6789ABD71"
@@ -1288,6 +1413,30 @@
 				stat: "minecraft:horse_one_cm"
 				value: 10000
 			}]
+			rewards: [
+				{
+					id: "610567D311799E3F"
+					type: "item"
+					item: "minecraft:leather_horse_armor"
+				}
+				{
+					id: "1A2C8CF7874030CE"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 10
+				}
+				{
+					id: "681402F43E21EDA4"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Olympic Underwater Highway"
@@ -1299,6 +1448,7 @@
 			x: -16.5d
 			y: -4.0d
 			subtitle: "Swim 300 Blocks"
+			description: ["By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "56E8B3168203AA6F"
@@ -1313,6 +1463,50 @@
 				stat: "minecraft:swim_one_cm"
 				value: 30000
 			}]
+			rewards: [
+				{
+					id: "4D4D6EDD8F5896F7"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 3s
+							}]
+						}
+					}
+				}
+				{
+					id: "42737083D92865C9"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:respiration"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+				{
+					id: "300CCD3C108FB644"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:depth_strider"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Variety Fair"
@@ -1448,11 +1642,13 @@
 				{
 					id: "5A02D956E22116A1"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:water_bucket"
 				}
 				{
 					id: "7F11AFC27592F6A8"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:lava_bucket"
 				}
 			]
@@ -1490,9 +1686,10 @@
 			}]
 		}
 		{
+			title: "Cocoa Farming"
 			x: -8.0d
 			y: -9.0d
-			subtitle: "Farm Cocoa Beans"
+			subtitle: "Farm 32 Cocoa Beans"
 			description: [
 				"Cocoa beans can be grown on the side of any jungle log - Not just trees."
 				""
@@ -1534,47 +1731,55 @@
 				"Feel free to add the banners to decorate. They can also be build 1 higher off of the ground with another spruce fence."
 			]
 			dependencies: ["192BAFDE101F900B"]
+			hide: true
 			id: "2D74603197C7629C"
 			tasks: [
 				{
 					id: "77E92354F1DDDFCA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:sugar_cane"
 					count: 32L
 				}
 				{
 					id: "0E343560095A48E3"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:wheat_seeds"
 					count: 32L
 				}
 				{
 					id: "0BEB433BA59213DA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:potato"
 					count: 32L
 				}
 				{
 					id: "4A960FBD73A0DCD5"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:carrot"
 					count: 32L
 				}
 				{
 					id: "1943791BC82BE452"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:pumpkin"
 					count: 8L
 				}
 				{
 					id: "6A13495A82B9D2D1"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:melon_slice"
 					count: 64L
 				}
 				{
 					id: "31C19C20A9214A51"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:beetroot"
 					count: 32L
 				}
@@ -1658,6 +1863,7 @@
 				"Bonemeal can be used to instantly grow crops using right-click."
 			]
 			dependencies: ["5C7110BA96ECA231"]
+			hide: true
 			id: "192BAFDE101F900B"
 			tasks: [{
 				id: "40348E6A122D7614"
@@ -1705,9 +1911,10 @@
 			}]
 		}
 		{
+			title: "Mushroom Farming"
 			x: -8.0d
 			y: -10.5d
-			subtitle: "Farm Mushrooms"
+			subtitle: "Farm 32+32 Mushrooms"
 			description: [
 				"Mushrooms can be bonemeal'd into \"Giant Mushrooms\", which yield 0-2 mushrooms per block."
 				""
@@ -1719,21 +1926,24 @@
 				{
 					id: "0ED6664E26DBEDE4"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:brown_mushroom"
 					count: 32L
 				}
 				{
 					id: "07198A4D07D6F53D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:red_mushroom"
 					count: 32L
 				}
 			]
 		}
 		{
+			title: "Nether Wart Farming"
 			x: -6.5d
 			y: -11.0d
-			subtitle: "Farm Nether Wart"
+			subtitle: "Farm 64 Nether Wart"
 			description: ["Nether wart can be grown on soul sand, in any dimension. It doesn't require light to grow."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			id: "54AA1BD5E8241369"
@@ -1745,9 +1955,10 @@
 			}]
 		}
 		{
+			title: "Sweet Berry Farming"
 			x: -5.0d
 			y: -10.5d
-			subtitle: "Farm Sweet Berries"
+			subtitle: "Farm 64 Sweet Berries"
 			description: ["Just throw a bunch on the ground, honestly. There's not much to it. Maybe put them in rows? I'm not a cop."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			id: "531358BD1C258F99"
@@ -1765,6 +1976,7 @@
 			subtitle: "Make some Ladders"
 			description: ["Multi-floor bases are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "645EFC73CEB1C918"
 			tasks: [{
 				id: "193C30D87FA711CF"
@@ -1790,6 +2002,7 @@
 				"In this pack, doors often need to be modified to accommodate for taller players. Adding trapdoors or inverted stairs can often accomplish this."
 			]
 			dependencies: ["20E2938DD7365207"]
+			hide: true
 			id: "413BD03774B3B9D5"
 			tasks: [{
 				id: "215F03C618FC5D76"
@@ -1826,6 +2039,51 @@
 					id: "1CD14BAA58E27C26"
 					type: "item"
 					item: "minecraft:honey_bottle"
+				}
+			]
+		}
+		{
+			title: "Conductor"
+			icon: "minecraft:chest_minecart"
+			x: -17.0d
+			y: -7.5d
+			shape: "hexagon"
+			subtitle: "Travel far by rail"
+			description: ["Lots of designs for train stations made with fancy track patterns and redstone are available in videos online!"]
+			dependencies: ["0EF299A1A5009971"]
+			hide: true
+			id: "471B71E3199030AC"
+			tasks: [{
+				id: "6E143ADB9519AE94"
+				type: "stat"
+				title: "Travel 1000 Blocks by Minecart"
+				icon: "minecraft:minecart"
+				stat: "minecraft:minecart_one_cm"
+				value: 1000000
+			}]
+			rewards: [
+				{
+					id: "6602F9A433E4F2E5"
+					type: "item"
+					item: "minecraft:rail"
+					count: 1024
+				}
+				{
+					id: "4479B131B6E6A2A6"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 64
+				}
+				{
+					id: "1C20D59F776801F5"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 64
+				}
+				{
+					id: "1240BB05CA2384CF"
+					type: "item"
+					item: "minecraft:chest_minecart"
 				}
 			]
 		}

@@ -54,6 +54,16 @@
 		{
 			x: -1.5d
 			y: -0.5d
+			subtitle: "Acquire a Crossbow"
+			description: [
+				"Crossbows can be crafted, or dropped from pillagers."
+				""
+				"Unlike bows, they're individually loaded and fired, allowing for many to be loaded at once."
+				""
+				"They can be enchanted to pierce through enemies, shoot multiple arrows, and more."
+				""
+				"They can also fire firework rockets, dealing explosive damage."
+			]
 			id: "6F32C33B97BE205B"
 			tasks: [{
 				id: "145253845DFC11C4"
@@ -65,6 +75,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "715E3056DA36D20F"
+				type: "item"
+				item: "minecraft:firework_rocket"
+				count: 16
 			}]
 		}
 		{
@@ -86,6 +102,7 @@
 					id: "2ABA43D1E425E35D"
 					type: "item"
 					title: "Axe"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -98,6 +115,7 @@
 					id: "4BFE3469B59F7C8F"
 					type: "item"
 					title: "Sword"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -123,7 +141,11 @@
 			x: -3.0d
 			y: -2.0d
 			subtitle: "Craft a Shield"
-			description: ["Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks. In this pack, they can also be lightly enchanted."]
+			description: [
+				"Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks."
+				""
+				"Shields can be equipped with banners and renamed. They can be enchanted with books, and in this pack, they can also be enchanted at a table."
+			]
 			id: "42A9FC81752B5A9F"
 			tasks: [{
 				id: "7A3DABD5009149C4"
@@ -136,6 +158,57 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "0B28372E3FA38A08"
+					type: "item"
+					item: {
+						id: "minecraft:white_banner"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"\\\"Down with Cis\\\" Frigate Crest\"}"
+							}
+							BlockEntityTag: {
+								id: "minecraft:banner"
+								Patterns: [
+									{
+										Pattern: "ls"
+										Color: 3
+									}
+									{
+										Pattern: "rs"
+										Color: 3
+									}
+									{
+										Pattern: "bo"
+										Color: 6
+									}
+									{
+										Pattern: "sku"
+										Color: 7
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "6EAB026D6644F841"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "What is it, Boy."

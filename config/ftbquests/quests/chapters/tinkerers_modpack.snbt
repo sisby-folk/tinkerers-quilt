@@ -35,6 +35,7 @@
 				type: "stat"
 				title: "Start a New World"
 				icon: "ftbquests:book"
+				disable_toast: true
 				stat: "minecraft:play_time"
 				value: 1
 			}]
@@ -65,6 +66,7 @@
 		{
 			title: "Basic Controls"
 			icon: "minecraft:command_block"
+			disable_toast: true
 			x: -2.0d
 			y: 0.5d
 			shape: "octagon"
@@ -87,6 +89,7 @@
 		{
 			title: "Character Customization"
 			icon: "minecraft:dragon_breath"
+			disable_toast: true
 			x: 2.0d
 			y: 0.5d
 			shape: "octagon"
@@ -115,6 +118,7 @@
 		{
 			title: "Ok Zoomer"
 			icon: "minecraft:spyglass"
+			disable_toast: true
 			x: -3.0d
 			y: 1.0d
 			shape: "square"
@@ -142,6 +146,7 @@
 					Damage: 0
 				}
 			}
+			disable_toast: true
 			x: 1.0d
 			y: 1.0d
 			shape: "square"
@@ -159,6 +164,7 @@
 		{
 			title: "Fabric Tailor"
 			icon: "minecraft:loom"
+			disable_toast: true
 			x: 3.0d
 			y: 1.0d
 			shape: "square"
@@ -180,6 +186,7 @@
 		{
 			title: "Wildfire's Chest Mod"
 			icon: "minecraft:chest"
+			disable_toast: true
 			x: 1.5d
 			y: 2.0d
 			shape: "square"
@@ -197,6 +204,7 @@
 		{
 			title: "Illuminations"
 			icon: "minecraft:lantern"
+			disable_toast: true
 			x: 2.5d
 			y: 2.0d
 			shape: "square"
@@ -214,6 +222,7 @@
 		{
 			title: "Crawling"
 			icon: "minecraft:oak_trapdoor"
+			disable_toast: true
 			x: -1.0d
 			y: 1.0d
 			shape: "square"
@@ -235,6 +244,7 @@
 		{
 			title: "What The Hell Is That?"
 			icon: "minecraft:book"
+			disable_toast: true
 			x: -2.5d
 			y: 2.0d
 			shape: "square"
@@ -255,6 +265,7 @@
 		}
 		{
 			icon: "minecraft:repeating_command_block"
+			disable_toast: true
 			x: 0.0d
 			y: 2.5d
 			shape: "octagon"
@@ -274,6 +285,7 @@
 		}
 		{
 			icon: "minecraft:orange_stained_glass"
+			disable_toast: true
 			x: -1.0d
 			y: 3.5d
 			shape: "square"
@@ -290,6 +302,7 @@
 		}
 		{
 			icon: "minecraft:music_disc_cat"
+			disable_toast: true
 			x: 1.0d
 			y: 3.5d
 			shape: "square"
@@ -310,6 +323,7 @@
 		}
 		{
 			icon: "minecraft:note_block"
+			disable_toast: true
 			x: 0.0d
 			y: 4.0d
 			shape: "square"
@@ -331,6 +345,7 @@
 		{
 			title: "Notes"
 			icon: "minecraft:writable_book"
+			disable_toast: true
 			x: -1.5d
 			y: 2.0d
 			shape: "square"
@@ -361,6 +376,7 @@
 					}]
 				}
 			}
+			disable_toast: true
 			x: -3.0d
 			y: 3.0d
 			shape: "square"
@@ -387,6 +403,7 @@
 		{
 			title: "Origins"
 			icon: "origins:orb_of_origin"
+			disable_toast: true
 			x: 3.0d
 			y: 0.0d
 			shape: "square"
@@ -407,6 +424,7 @@
 		}
 		{
 			icon: "minecraft:cyan_shulker_box"
+			disable_toast: true
 			x: 5.0d
 			y: -1.0d
 			shape: "gear"
@@ -577,6 +595,7 @@
 		{
 			title: "8x Origin Swap Boxes"
 			icon: "minecraft:cyan_shulker_box"
+			disable_toast: true
 			x: 6.0d
 			y: -1.5d
 			shape: "gear"
@@ -1820,6 +1839,7 @@
 		{
 			title: "Quests"
 			icon: "ftbquests:barrier"
+			disable_toast: true
 			x: 0.0d
 			y: -3.0d
 			shape: "octagon"
@@ -1845,6 +1865,7 @@
 		{
 			title: "Quest Legend"
 			icon: "ftbquests:missing_item"
+			disable_toast: true
 			x: 0.5d
 			y: -4.5d
 			shape: "square"
@@ -1878,6 +1899,7 @@
 		{
 			title: "Category Legend"
 			icon: "minecraft:bookshelf"
+			disable_toast: true
 			x: -0.5d
 			y: -4.5d
 			shape: "square"
@@ -1898,11 +1920,13 @@
 				id: "700E335DABA81566"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Origin swaps for Systems"
 			icon: "minecraft:cyan_shulker_box"
+			disable_toast: true
 			x: 4.0d
 			y: -0.5d
 			shape: "gear"
@@ -2072,6 +2096,27 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Portable Crafting Standalone"
+			disable_toast: true
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "I made this :)"
+			description: [
+				"Portable Crafting Standalone allows you to open the crafting grid anywhere, as long as you have a crafting table in your inventory."
+				""
+				"Just press V and get Crafting!"
+			]
+			dependencies: ["7840EB3C8B8048EF"]
+			hide: true
+			id: "438625063C95601F"
+			tasks: [{
+				id: "76FB43E66BB7C9A9"
+				type: "item"
+				item: "minecraft:crafting_table"
 			}]
 		}
 	]
