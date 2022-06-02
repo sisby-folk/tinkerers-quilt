@@ -5,6 +5,7 @@ console.info('Hello, World! (You will only see this line once in console, during
 onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
+	// event.create('netherite_nugget').displayname('Netherite Nugget')
 })
 
 onEvent('block.registry', event => {

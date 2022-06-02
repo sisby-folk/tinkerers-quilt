@@ -32,10 +32,10 @@ guiScale:2
 particles:0
 maxFps:145
 difficulty:2
-graphicsMode:1
+graphicsMode:2
 ao:2
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:29
 renderClouds:true
 resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","illuminations/lowerres","charmonium/journeyman","lambdabettergrass/default"]
 incompatibleResourcePacks:[]
@@ -151,6 +151,8 @@ key_iris.keybind.toggleShaders:key.keyboard.i
 key_iris.keybind.shaderPackSelection:key.keyboard.i
 key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.h
+key_key.origins.ternary_active:key.keyboard.unknown
+key_key.origins.quaternary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
 soundCategory_master:1.0
 soundCategory_music:0.0

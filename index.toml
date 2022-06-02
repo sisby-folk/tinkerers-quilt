@@ -73,6 +73,10 @@ file = "config/ftbquests/quests/reward_tables/fences.snbt"
 hash = "27c0b67841f23e281c1117b5d7e1fd3064f76e5cb595f289793574f15204f2c2"
 
 [[files]]
+file = "config/idwtialsimmoedm.json"
+hash = "8b683921d981cf2e815ce726b04f5b9bfeb6d0551440bf39318754bf0a99c86d"
+
+[[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
@@ -93,8 +97,8 @@ file = "config/openloader/data/Feline.zip"
 hash = "603977a84e329caad95b6098a525fe4d34f316cb72848703f6d7fe71e5e6ffc4"
 
 [[files]]
-file = "config/openloader/data/Lepus_6.5.zip"
-hash = "960dd9722bdae593e63c8a7f9046b96e6160aefcb611b50be8dc0a6c5025c3a8"
+file = "config/openloader/data/Lepus.zip"
+hash = "e6e28ac64ccb5ecf4877e7e52261f620a92dd2ef726918c535c71fb8898666a5"
 
 [[files]]
 file = "config/openloader/data/Merling.zip"
@@ -102,7 +106,7 @@ hash = "ea92ad032cc8376570a0145371f27b2e2e1c1b2372026527caf212d66be02e38"
 
 [[files]]
 file = "config/openloader/data/Phantom.zip"
-hash = "64116a6d87af567bb67311bbc62152f8578fc221caad07a70f6adec88bfc4f44"
+hash = "5a231c232096108192c89da354fa0ae3844ad9e59e8ec7c89a1a5d11d3bb86b6"
 
 [[files]]
 file = "config/openloader/data/Shulk.zip"
@@ -310,6 +314,10 @@ file = "config/yosbr/config/illuminations.properties"
 hash = "66f8b45a4b5b90f0fd6ae4e641a807d2d3bbcd8cfda3441502ddf1a9df3c689f"
 
 [[files]]
+file = "config/yosbr/config/iris.properties"
+hash = "2ca45b5d72c1660be8e627f4536377b2af58454c391f66d3416ffd18c094fd14"
+
+[[files]]
 file = "config/yosbr/config/midnightcontrols.json"
 hash = "73b6c889f2ea2e0ea2448830944874a1ca0be0c857dc5416845acc9b5969c7e8"
 
@@ -335,7 +343,7 @@ hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
-hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
+hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
 
 [[files]]
 file = "config/yosbr/config/waila/blacklist.json"
@@ -355,7 +363,7 @@ hash = "050dc01dff3a02ee088540de17abcee571e4213b738dd19c1d9bcffa7383f098"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "f2313a425eae6f790257ffa85549dbc866e876f405134080d26e7f96b19882d6"
+hash = "d690e659e6072441d0c7f9108e1f390e4f585ab1c80921fbd642a4efeadc78fc"
 
 [[files]]
 file = "hornby"
@@ -376,6 +384,10 @@ hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/netherite_nugget.png"
+hash = "2a4deccccec37b88d6dead046dc6eb04ae1e5f458aa33642636d6646efc8bcba"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -407,7 +419,7 @@ hash = "198f04de97dc9628160fa6f816314b1503023124506b8b3390bf50cdf015fcd7"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
-hash = "849597780f489579d0c3af2b80d9d1209b152be22e2c270c9085623bbf0a5aea"
+hash = "fbe2f595a1348b04aa3e3500c9356523e6c3c343ea0642abe26f8998d797def3"
 
 [[files]]
 file = "mods/Couplings-1.8.0+1.18.2.jar"
@@ -450,6 +462,11 @@ metafile = true
 [[files]]
 file = "mods/balm-fabric.pw.toml"
 hash = "f16e09ced52586796952de5d6bf341b4ae079c1bed915612fb82c297bb0cb9e3"
+metafile = true
+
+[[files]]
+file = "mods/better-biome-blend.pw.toml"
+hash = "dc919fbccb9d268f08d65b6cb9411f9bb6eae98b8770f4d6ebec43157ac679d9"
 metafile = true
 
 [[files]]
@@ -517,6 +534,11 @@ hash = "895af62871364c14a635aa674074ab0e5dc88fa41eb6a60bdab075feb106a6fe"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-view-fabric.pw.toml"
+hash = "685850cd7d55ca8ff8feb375342adef44e35f2fdff84a6b54f976cfb374bf8ef"
+metafile = true
+
+[[files]]
 file = "mods/ears.pw.toml"
 hash = "c3775741edc094735abe1882c84031e0793a2456666624e6440034f1376db72b"
 metafile = true
@@ -575,6 +597,11 @@ hash = "a2f5ac9241681699e8bcd7da4c90e9899686290f883a63c56f7009f18f731e7e"
 metafile = true
 
 [[files]]
+file = "mods/farsight-fabric.pw.toml"
+hash = "41233eadb61c59cd9fb298f21709c79f45c78dc3e03b08c40d0c094c86a821d5"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
@@ -597,6 +624,21 @@ metafile = true
 [[files]]
 file = "mods/grounded-origins.pw.toml"
 hash = "2f5c49a0939582c50e54cee0d401dfb819e386a7e8fc118489be90b415243349"
+metafile = true
+
+[[files]]
+file = "mods/horsebuff.pw.toml"
+hash = "8e64e605cb87282d854c4cbc974ff166f3bcd4f989c6eaa511cfa3a82f49d4fc"
+metafile = true
+
+[[files]]
+file = "mods/hwyla-addon-horse-info.pw.toml"
+hash = "d0fa6d90658e788afef7be9e18df3a6504c6041c4987484d796adc1d99cb4707"
+metafile = true
+
+[[files]]
+file = "mods/idwtialsimmoedm.pw.toml"
+hash = "10c699c77defe5cfd20628da8ca27bd395a8c8baef4b1552f3b5ac7f79866536"
 metafile = true
 
 [[files]]
@@ -666,6 +708,11 @@ metafile = true
 [[files]]
 file = "mods/leaves-us-in-peace.pw.toml"
 hash = "e969f8b43e5679d9adf2f027a744f65b011904aa5ad9dd451a48dcb0521f2966"
+metafile = true
+
+[[files]]
+file = "mods/lessbubbles.pw.toml"
+hash = "55c7a97f1a234ead5dbeaa049337c72b95026eb99fce2050c12134b9c939cbb9"
 metafile = true
 
 [[files]]
@@ -792,6 +839,11 @@ hash = "cfd4496517e58bb2406164c9b598879d7f835484564109bf14352f618f891b43"
 metafile = true
 
 [[files]]
+file = "mods/right-click-harvest.pw.toml"
+hash = "994f07f6d9d37e93a5187ddc65efe9a4eb09326a0d650bca16bad289dac449c3"
+metafile = true
+
+[[files]]
 file = "mods/roughly-enough-items.pw.toml"
 hash = "2d34728267efdf73da2f3f844e9e577b7939ab508e56c44c267613406c541826"
 metafile = true
@@ -843,7 +895,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal-graves.pw.toml"
-hash = "63d72c66b2249f6879a0ee28032127ccd03580bbc77b9c374b7910da1685d77b"
+hash = "7a1300eb98aef97135125d2b608136f2f5b1f2c3cd33377417c069c95135e403"
 metafile = true
 
 [[files]]

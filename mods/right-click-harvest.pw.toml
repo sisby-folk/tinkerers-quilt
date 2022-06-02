@@ -1,0 +1,14 @@
+name = "Right-Click-Harvest"
+filename = "right-click-harvest-1.2.0+1.18.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xQgFileM/versions/1.2.0+1.18/right-click-harvest-1.2.0%2B1.18.2-fabric.jar"
+hash-format = "sha1"
+hash = "6e3bd425cdd11a0aaaaf382bf050923e9824a3fb"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "xQgFileM"
+version = "ELIB5QZ2"
