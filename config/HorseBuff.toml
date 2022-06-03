@@ -1,0 +1,14 @@
+noWander = true
+fairBreeds = true
+portalPatch = true
+rubberBand = true
+breakSpeed = true
+stepHeight = true
+horseHeadAngleOffset = 30
+jeb_Horses = true
+
+[pitchFade]
+enabled = true
+startAngle = 30
+endAngle = 50
+maxTransparency = 90

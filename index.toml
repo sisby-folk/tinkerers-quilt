@@ -9,6 +9,10 @@ file = "clawby"
 hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
 
 [[files]]
+file = "config/HorseBuff.toml"
+hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
+
+[[files]]
 file = "config/WildfireGender/09391869-132f-4fc2-9c92-e58af55cbabb.json"
 hash = "0136cf965d6336ded22c5210458d3bde076a22919526673b11adf6c394551fd3"
 
@@ -19,6 +23,18 @@ hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 [[files]]
 file = "config/appleskin.json5"
 hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
+
+[[files]]
+file = "config/blanket_client-fixes.json"
+hash = "d10ce3f6169d35d2b7e09cefc5e6c2c77cc897690f11aac9fae62f1f3e1d637e"
+
+[[files]]
+file = "config/carpet/default_carpet-fixes.conf"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/carpet/default_carpet.conf"
+hash = "bdd56fc62bb8f6d2c4cf27869c762d47c2090bf05667ac682b3f09b6ebb3409d"
 
 [[files]]
 file = "config/citresewn.json"
@@ -35,6 +51,10 @@ hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
 [[files]]
 file = "config/fabrication/features.ini"
 hash = "3bffcff97f39d264d3e88e31e3514fae711d37c2dd5dd5b4f55d2251ecc1e418"
+
+[[files]]
+file = "config/forcecloseloadingscreen.json"
+hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -298,6 +318,10 @@ file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
 
 [[files]]
+file = "config/tiefix.json"
+hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
+
+[[files]]
 file = "config/universal-graves.json"
 hash = "98aa54aa781ba624315696108e1e4b7842eba3c67ed680e23cd7d8627f004e0b"
 
@@ -474,8 +498,23 @@ hash = "dc919fbccb9d268f08d65b6cb9411f9bb6eae98b8770f4d6ebec43157ac679d9"
 metafile = true
 
 [[files]]
-file = "mods/bookshelf.pw.toml"
-hash = "f90500d8a671a20939619caee98bc58aee30c9c58362e20b8c01463c9173cd6a"
+file = "mods/blanket.pw.toml"
+hash = "11c0c6c0d68da8c5e66efab619ac6f6cd982c906d51ffb16d67b347ebb1d8ae6"
+metafile = true
+
+[[files]]
+file = "mods/carpet-extra.pw.toml"
+hash = "7d8f41b1d67756a024ed291bdb5fe10a55e4a1a4934cb5ba2f1a819cae8becf0"
+metafile = true
+
+[[files]]
+file = "mods/carpet-fixes.pw.toml"
+hash = "fafb8b44d3f00f2d63dba642ae46704d21ccfceb4ae510b320fc76e031e10669"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "ce68fe066c471b3a2c503e694c3b88581ad5af3e509f8c5cf672adeb1adf11f2"
 metafile = true
 
 [[files]]
@@ -523,11 +562,6 @@ file = "mods/darkness-fabric-mc118-2.0.89.jar"
 hash = "5c3150b586a786236a719325680c25e5e847a97fd15550195879669c65a607e5"
 
 [[files]]
-file = "mods/debugify.pw.toml"
-hash = "5c05e7323ec7f46a986c6cb90a7cff289a9f5edf532ebcb90667a7c4ade3e519"
-metafile = true
-
-[[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
 hash = "c158b1949068207598f5ce696da793f3f6499042ac332a36a9c7ffef12a7e4ad"
 metafile = true
@@ -555,11 +589,6 @@ metafile = true
 [[files]]
 file = "mods/effective.pw.toml"
 hash = "b4ad5be545658ef1264aaef1b1e4376a2c8425d36d95f537395fbb4788dd33a7"
-metafile = true
-
-[[files]]
-file = "mods/enchantment-descriptions.pw.toml"
-hash = "82ef828b58e8bf0d8c03787f7b919a569341ffa30fee8bea935235ca02e7639e"
 metafile = true
 
 [[files]]
@@ -606,8 +635,18 @@ hash = "41233eadb61c59cd9fb298f21709c79f45c78dc3e03b08c40d0c094c86a821d5"
 metafile = true
 
 [[files]]
+file = "mods/fastopenlinksandfolders.pw.toml"
+hash = "8a2498e02882121efeac1e1836e93ecaa06370828117295a589163de4008c46f"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
+metafile = true
+
+[[files]]
+file = "mods/forgetmechunk.pw.toml"
+hash = "bd8c6d669b805accb1d4936edaf9b4890492dacdaca20dfebaacbeeca93d0f8d"
 metafile = true
 
 [[files]]
@@ -730,7 +769,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "25075b52feaf123e7d1bc500834e1b26dbd787383e42621df84b304a616f878a"
+hash = "0125ce8d9c966df14c71ec27aa4e1b1862e66687c56d73749a600ef88d9b35e8"
 metafile = true
 
 [[files]]
@@ -741,6 +780,11 @@ metafile = true
 [[files]]
 file = "mods/mod-settings.pw.toml"
 hash = "f494cb48d6e1d8d5c3460a8f689d2b05b2a0a5cebe70a3f70a305ef620e4b860"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "1539f20be35e238e2bd3d6430657287172db9047dc0d3e87c1a3d2f1664cb8ab"
 metafile = true
 
 [[files]]
@@ -809,7 +853,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "1b8646c09f572f1b71bf5c77a8e12f0b7f17b82ea2b877ed3c0a39a9fba0984e"
+hash = "d29f3453270997e009cf7dc946594053b717c2eb6981d7a2515ab287751564d7"
 metafile = true
 
 [[files]]
@@ -888,8 +932,18 @@ hash = "d6f0667f2bbfb1036d3586ad2431c440b85bb267c4f7ad60985842b940e023a2"
 metafile = true
 
 [[files]]
+file = "mods/tiefix.pw.toml"
+hash = "82be603fd1c5c6b19b82a11d1bb8a227b02224f5abe71830d156512f442b4897"
+metafile = true
+
+[[files]]
 file = "mods/tips.pw.toml"
 hash = "a6e7a551643518686eeffb6a82888a1b60be749aeb4af786897ff1d331667cfb"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.pw.toml"
+hash = "69214e78788c8db0b1b2e9fa48deff5fdb090dd590ced6898ac5b4286aa370b2"
 metafile = true
 
 [[files]]

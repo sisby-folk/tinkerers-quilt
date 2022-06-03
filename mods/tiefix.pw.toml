@@ -1,0 +1,14 @@
+name = "TieFix"
+filename = "TieFix-1.10.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jxuxsA0D/versions/1.10.0/TieFix-1.10.0.jar"
+hash-format = "sha1"
+hash = "351e3ad97d6bf4eec562c16a3523fc676bace039"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "jxuxsA0D"
+version = "Td0RvPEK"

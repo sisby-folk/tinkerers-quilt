@@ -1,0 +1,13 @@
+name = "FastOpenLinksAndFolders"
+filename = "fastopenlinksandfolders-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c24a170d663445455e3d8851c2dd5134499f336c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3806979
+project-id = 513840
