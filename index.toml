@@ -34,7 +34,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
-hash = "ba48890711e860d76e43888be2bd9f55538a9bd8a21bacd29738a787720ab611"
+hash = "7782219290068125168685aa8f3d37a1f4e164b7d610e7ba941272728824785d"
 
 [[files]]
 file = "config/citresewn.json"
@@ -645,6 +645,11 @@ hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "41bc0a9806bc79afa3dfc650fe251b85711a166b059c5a1273634afd0b5a792a"
+metafile = true
+
+[[files]]
 file = "mods/forgetmechunk.pw.toml"
 hash = "bd8c6d669b805accb1d4936edaf9b4890492dacdaca20dfebaacbeeca93d0f8d"
 metafile = true
@@ -769,7 +774,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "0125ce8d9c966df14c71ec27aa4e1b1862e66687c56d73749a600ef88d9b35e8"
+hash = "7cc859ed46d4677edfe0f318af0897e76f102a9d9c8fc91df8863caf44fc87bc"
 metafile = true
 
 [[files]]
