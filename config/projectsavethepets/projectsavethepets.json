@@ -1,0 +1,31 @@
+{
+  "version": 0,
+  "shears": [],
+  "allowDefaultShears": true,
+  "revivalBlocks": [
+    "minecraft:copper_block"
+  ],
+  "entities": {
+    "allowTameableEntities": true,
+    "allowFoxEntities": true,
+    "allowHorseBaseEntities": true,
+    "blacklistedEntities": [],
+    "revivableEntities": [],
+    "reviveNamedMobs": true
+  },
+  "damage": {
+    "preventProjectiles": true,
+    "preventSwordSweep": true,
+    "preventAttack": true,
+    "preventExplosions": true,
+    "preventHarmingPotions": true,
+    "livingEffects": [
+      "minecraft:instant_damage",
+      "minecraft:poison"
+    ],
+    "undeadEffects": [
+      "minecraft:instant_health",
+      "minecraft:regeneration"
+    ]
+  }
+}

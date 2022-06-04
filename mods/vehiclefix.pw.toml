@@ -1,0 +1,13 @@
+name = "VehicleFix"
+filename = "vehiclefix-3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "31ede36a5d7b99364b128f478426d7ce4a49354e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3668181
+project-id = 444658

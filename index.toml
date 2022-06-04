@@ -30,11 +30,11 @@ hash = "d10ce3f6169d35d2b7e09cefc5e6c2c77cc897690f11aac9fae62f1f3e1d637e"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "498eddb1de1695ab78c300f326ace36f0c7d55022bfa678ad0d6acadfd8d3909"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
-hash = "7782219290068125168685aa8f3d37a1f4e164b7d610e7ba941272728824785d"
+hash = "572103533c00bc1a73040fb2721b4c90889e925541e6ca2bb75308023999a7b2"
 
 [[files]]
 file = "config/citresewn.json"
@@ -122,7 +122,7 @@ hash = "e6e28ac64ccb5ecf4877e7e52261f620a92dd2ef726918c535c71fb8898666a5"
 
 [[files]]
 file = "config/openloader/data/Merling.zip"
-hash = "ea92ad032cc8376570a0145371f27b2e2e1c1b2372026527caf212d66be02e38"
+hash = "6978808a2c0b518fe58fa58a7f84b9ad9816705eefb8710cb8e7d386d9a188e5"
 
 [[files]]
 file = "config/openloader/data/Phantom.zip"
@@ -171,6 +171,10 @@ hash = "085899a59c3255e296cd0a7bb071010f6f1ed3b863de98362145fea0c805e1b2"
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/pack.mcmeta"
 hash = "acc77ba0c1b99842eedcecc9c6205e776ec444395060f779f7d9e39f5bc22d6a"
+
+[[files]]
+file = "config/openloader/data/tinkerers_statures/Origins_Statures.zip"
+hash = "5788a3e68654f1a72a8dfb750cf4fdccd259e3a868b13137aa12c75e40662492"
 
 [[files]]
 file = "config/openloader/data/tinkerers_statures/data/origins/origin_layers/stature.json"
@@ -297,8 +301,8 @@ file = "config/openloader/data/tinkerers_statures/pack.mcmeta"
 hash = "91d0272a8f73222367d360ec46873c4087f5f5cd29ee3c87f9232bffbbf175f8"
 
 [[files]]
-file = "config/openloader/resources/VanillaTweaks_r585540-densewater.zip"
-hash = "f63ed227465ca8d52a429bc36d628d9cc2f5e531d714556092531adcc7ffdab9"
+file = "config/openloader/resources/VanillaTweaks_r682025.zip"
+hash = "abf139ea63e5be72937fac10ab71d87da6c6e3f034c8264c895af2f4b50e9ea5"
 
 [[files]]
 file = "config/openloader/resources/Varied Connected Bookshelves.zip"
@@ -310,12 +314,28 @@ hash = "8556e17843d3c50a5eac60f152d6917293e8e3bd201fac1a0a79d1adfed700fb"
 metafile = true
 
 [[files]]
+file = "config/pettable.json"
+hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
+
+[[files]]
+file = "config/projectsavethepets/projectsavethepets.json"
+hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
+
+[[files]]
 file = "config/puzzle.json"
 hash = "4b8f41e58609c3933456ae462fbbe0f9f2c0f37d4a1bfda8c98f85e90c94cd91"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
+
+[[files]]
+file = "config/sidebar_buttons.json"
+hash = "bd06f02dd732a2b24c13b7b98a89ef873568f44fbcff1ca608f3fa9f70b05104"
+
+[[files]]
+file = "config/simplefog.json"
+hash = "f57fad623a4d05f111b923cf126984f15830f8dc24b10d048002b079d47e9257"
 
 [[files]]
 file = "config/tiefix.json"
@@ -387,7 +407,7 @@ hash = "050dc01dff3a02ee088540de17abcee571e4213b738dd19c1d9bcffa7383f098"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "d690e659e6072441d0c7f9108e1f390e4f585ab1c80921fbd642a4efeadc78fc"
+hash = "55e2ed4c69266af4e14c19716d07938cb583e72e21d53cee63f6e4c5df8d1335"
 
 [[files]]
 file = "hornby"
@@ -736,7 +756,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "57003f2221e0aafe1370a1fb03d731d081e31d8b60b849638b5c483b589c7a69"
+hash = "d8fa4c250a2123f61903e9b73b0da813701d059cf017fa677b46162f0eb59b3a"
 metafile = true
 
 [[files]]
@@ -769,12 +789,12 @@ hash = "ca0587b2c2b82595cd13de2c4cda44226939c78da57c3676cb72cca391237b3e"
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "a022f0fa7e5656e6cf21ff805d6d00bb2d01a242372a92511691089cd87eaea0"
+hash = "6462203758e90567e4c28139886c94e3a6103ec9cbde0f6049d5eb788e6eae46"
 metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "aa48d24a0a38f5c1925142ba9ddce2a8142f3777adb8c90b89bb8fe3c7b2bc22"
+hash = "b99ac27df2f720034b01acc2ea7637b5f020be861a5ac691135fdbd815eb3882"
 metafile = true
 
 [[files]]
@@ -842,6 +862,11 @@ hash = "427fda4ecbc844bf6640b34458fcf050e2f49644fc950eb1a34381afd8060d18"
 metafile = true
 
 [[files]]
+file = "mods/pettable.pw.toml"
+hash = "21fa7484096522ee95c09131ea8dc3246e1001253d483784844832bee6dd9b07"
+metafile = true
+
+[[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
 hash = "9c6d3e47db115de2d035eae294065033b9b5ae72b5809727e22b327976a02eda"
 metafile = true
@@ -849,6 +874,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "a33ba9d0301377138b4f838468a14a6ef89ba92bf85c588b15a9ff04d81cbb67"
+metafile = true
+
+[[files]]
+file = "mods/projectsavethepets.pw.toml"
+hash = "070b99c11a57885dd39c1064c1ea4a1d7654ee47c2f6b304d1d506f562033cc5"
 metafile = true
 
 [[files]]
@@ -902,6 +932,10 @@ hash = "eb6150a90b50591452feb9fd110e369f4d2eca3f10e1f3f2c0f262703a575899"
 metafile = true
 
 [[files]]
+file = "mods/simplefog-1.2.0.jar"
+hash = "6c8a517085c11e91c2dd35715a3daf3a78a96293fe005efda3a46c1ebf1a4657"
+
+[[files]]
 file = "mods/smooth-boot.pw.toml"
 hash = "0bb8efa177ff2c5b54bb0bcbadf5e5fd2ae57c0cb71e533e7d8b896f12d9af4b"
 metafile = true
@@ -913,7 +947,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "524e91432b8c7a9e8862daa60928ac283d36de6c2fc1c3649d9a102942b5670b"
+hash = "8a2f7bd4e0b892213e121ace77cbe399351a8c9d1ce12a8dc13973d9ec7a50dc"
 metafile = true
 
 [[files]]
@@ -957,6 +991,11 @@ hash = "7a1300eb98aef97135125d2b608136f2f5b1f2c3cd33377417c069c95135e403"
 metafile = true
 
 [[files]]
+file = "mods/vehiclefix.pw.toml"
+hash = "44a9a2d3e95649b67f37548a674776df177b002d8b9b0cb8bb8af72657df9f45"
+metafile = true
+
+[[files]]
 file = "mods/visuality.pw.toml"
 hash = "c47c339948a3dff50f1b879d6748e949c85e1a79c094aa639886b76c5b7301c8"
 metafile = true
@@ -987,6 +1026,10 @@ hash = "58e973b2db753512dc4d17ed8f68a8b960ce9880ffa84605111b8f2d010a5dec"
 [[files]]
 file = "resourcepacks/1-18-woodpecker-6-2.zip"
 hash = "2b9e53a4387a2d5515be30c06ca847e852f274d1105b9edec9538e3915deb0b8"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_BlockVariation.zip"
+hash = "9b3f189a889a95ad441d79e7e415134960e4b6db8a87fd2de75e8dd70b92b9b6"
 
 [[files]]
 file = "resourcepacks/bare-bones-texture-pack.pw.toml"
