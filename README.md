@@ -2,12 +2,8 @@
 
 using [PackWiz](https://github.com/comp500/packwiz)
 
-A small variety of minecraft modpacks primarily focused on optimisations and QoL.
+### Stable Packs
 
-| Version                                  | CDN Link                                                                              |
-|------------------------------------------|---------------------------------------------------------------------------------------|
-| Fabric 1.18.2 (Vanilla-World Compatible) | [pack.toml](https://sisby-folk.github.io/mc-packs/cdn/fabric_1.18.2/pack.toml)        |
-| Fabric 1.18.2 (Modded)                   | [pack.toml](https://sisby-folk.github.io/mc-packs/cdn/fabric_1.18.2_modded/pack.toml) |
-| Fabric 1.17.1                            | [pack.toml](https://sisby-folk.github.io/mc-packs/cdn/fabric_1.17.1/pack.toml)        |
-| Fabric 1.16.5                            | [pack.toml](https://sisby-folk.github.io/mc-packs/cdn/fabric_1.16.5/pack.toml)        |
-| Forge 1.16.5                             | [pack.toml](https://sisby-folk.github.io/mc-packs/cdn/forge_1.16.5/pack.toml)         |
+[Tinkerer's Quilt (1.18.2)](https://gist.github.com/sisby-folk/af78214db3631ccbf68c61da94d44505)
+
+[Tinkerer's Modded Quilt (1.18.2)](#) (TBA)
