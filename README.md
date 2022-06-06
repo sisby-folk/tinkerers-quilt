@@ -149,7 +149,8 @@ Tinkerer's Edits for Minecraft ""vegetarianism"" (homebrew)
 ```
 
 ## Credits 
-
+```
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
 OriginsPlus and Lepus: Dan's Other Clone https://www.youtube.com/c/DansOtherClone
+```
