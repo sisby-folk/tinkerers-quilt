@@ -301,8 +301,9 @@ file = "config/openloader/resources/VanillaTweaks_r682025.zip"
 hash = "abf139ea63e5be72937fac10ab71d87da6c6e3f034c8264c895af2f4b50e9ea5"
 
 [[files]]
-file = "config/openloader/resources/Varied Connected Bookshelves.zip"
-hash = "b801fef53e793a0df9fdf0be92304646e60c1c9a7f3ef1ef9930e3361b542247"
+file = "config/openloader/resources/varied-connected-bookshelves.pw.toml"
+hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
+metafile = true
 
 [[files]]
 file = "config/openloader/resources/xalis-enchanted-books.pw.toml"
@@ -407,7 +408,7 @@ hash = "55e2ed4c69266af4e14c19716d07938cb583e72e21d53cee63f6e4c5df8d1335"
 
 [[files]]
 file = "credits.txt"
-hash = "48223064bc86ff061e5a04529cdbfdbba954ef9b462dc7f2369960f46c9be595"
+hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
 
 [[files]]
 file = "hornby"
@@ -925,8 +926,9 @@ hash = "eb6150a90b50591452feb9fd110e369f4d2eca3f10e1f3f2c0f262703a575899"
 metafile = true
 
 [[files]]
-file = "mods/simplefog-1.2.0.jar"
-hash = "6c8a517085c11e91c2dd35715a3daf3a78a96293fe005efda3a46c1ebf1a4657"
+file = "mods/simplefog.pw.toml"
+hash = "afbd71d5fb7c1c001608a25a9c6b3b540713fd662524db7c43222ff6f50658c0"
+metafile = true
 
 [[files]]
 file = "mods/smooth-boot.pw.toml"
