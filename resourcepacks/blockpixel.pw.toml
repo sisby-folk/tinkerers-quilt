@@ -1,0 +1,13 @@
+name = "BlockPixel"
+filename = "BlockPixel_JavaEdition_1.19.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "edb3fbee2b3a3271d5164d3305e4ef92e3032dbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3804324
+project-id = 305952

@@ -406,6 +406,10 @@ file = "config/yosbr/options.txt"
 hash = "55e2ed4c69266af4e14c19716d07938cb583e72e21d53cee63f6e4c5df8d1335"
 
 [[files]]
+file = "credits.txt"
+hash = "48223064bc86ff061e5a04529cdbfdbba954ef9b462dc7f2369960f46c9be595"
+
+[[files]]
 file = "hornby"
 hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
 
@@ -464,10 +468,6 @@ hash = "fbe2f595a1348b04aa3e3500c9356523e6c3c343ea0642abe26f8998d797def3"
 [[files]]
 file = "meru"
 hash = "01283e3b008982f1b4506a36ee8d606b92313cadafc1316f78222cd94fc8ed7b"
-
-[[files]]
-file = "mods/Couplings-1.8.0+1.18.2.jar"
-hash = "df72fda20ce8def50a22f97ca67e87239da46a2501cd8eb3e7648b23107b1599"
 
 [[files]]
 file = "mods/Wildfire Female Gender Mod-2.9.jar"
@@ -569,13 +569,14 @@ hash = "642eedf14c0875215d1d15a39ecab4b1bfcec093e43626cb002f2c890f78c520"
 metafile = true
 
 [[files]]
-file = "mods/cull-less-leaves.pw.toml"
-hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
+file = "mods/couplings.pw.toml"
+hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
 metafile = true
 
 [[files]]
-file = "mods/darkness-fabric-mc118-2.0.89.jar"
-hash = "5c3150b586a786236a719325680c25e5e847a97fd15550195879669c65a607e5"
+file = "mods/cull-less-leaves.pw.toml"
+hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
+metafile = true
 
 [[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
@@ -623,8 +624,9 @@ hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
-file = "mods/extraorigins-1.18-10.jar"
-hash = "71167dac6f491a1ce76dbe580e2c3a43e17917726f91bf608c83e14c6b88a9fc"
+file = "mods/extra-origins.pw.toml"
+hash = "a02a4050d398d977f8f4fa9ed400e8b5f3013e969f29b195c20f0ceae8670ef2"
+metafile = true
 
 [[files]]
 file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
@@ -977,6 +979,11 @@ hash = "69214e78788c8db0b1b2e9fa48deff5fdb090dd590ced6898ac5b4286aa370b2"
 metafile = true
 
 [[files]]
+file = "mods/true-darkness.pw.toml"
+hash = "fc08346de3d1f134796e6b8a88470cfca55f610445e210e0fced2fd2caaff378"
+metafile = true
+
+[[files]]
 file = "mods/universal-graves.pw.toml"
 hash = "7a1300eb98aef97135125d2b608136f2f5b1f2c3cd33377417c069c95135e403"
 metafile = true
@@ -1015,10 +1022,6 @@ file = "removed.txt"
 hash = "58e973b2db753512dc4d17ed8f68a8b960ce9880ffa84605111b8f2d010a5dec"
 
 [[files]]
-file = "resourcepacks/1-18-woodpecker-6-2.zip"
-hash = "2b9e53a4387a2d5515be30c06ca847e852f274d1105b9edec9538e3915deb0b8"
-
-[[files]]
 file = "resourcepacks/VanillaTweaks_BlockVariation.zip"
 hash = "9b3f189a889a95ad441d79e7e415134960e4b6db8a87fd2de75e8dd70b92b9b6"
 
@@ -1028,8 +1031,9 @@ hash = "722b4b8fee15609bc9ebcbee1dddc2b407e1a4d0dc3c1a0f542d15cf3548171e"
 metafile = true
 
 [[files]]
-file = "resourcepacks/blockpixel-javaedition-1-19-e1213.zip"
-hash = "7c2e363604eb70449288f5f84e0d782fbd256c5172fc15744206370fe5f78bed"
+file = "resourcepacks/blockpixel.pw.toml"
+hash = "455d28af374378b5444b8ca33e33911cf45861d9e7b17afa383f8050cd55f3fe"
+metafile = true
 
 [[files]]
 file = "resourcepacks/excalibur.pw.toml"
@@ -1047,8 +1051,9 @@ hash = "ac107b274b350d21faa5b12837797860c0b5468c1258cf9248326da732d84455"
 metafile = true
 
 [[files]]
-file = "resourcepacks/punchy-8x8-texture-pack-e2620-1.zip"
-hash = "89b84f13bc2673e28ccde8883d2cc35dbef26745284cab7b4c7e5919e2a8319f"
+file = "resourcepacks/punchy-8x8.pw.toml"
+hash = "e7c19a6ae797b74b0ff518acee5d006ba6c160469abed59dd1eca3adaa2627a9"
+metafile = true
 
 [[files]]
 file = "resourcepacks/quadral-pack.pw.toml"
@@ -1071,8 +1076,9 @@ hash = "e0b1a2464216a89a9a95120958e2ae1afac285455f4f6d16af5892555cb9fda5"
 metafile = true
 
 [[files]]
-file = "shaderpacks/AstraLex Shaders (BSL Edit) By LexBoost.zip"
-hash = "03dbf2027a6188b4e66deeaca9792aadbc102f6c3edd88af501b9d094b3e1fb6"
+file = "resourcepacks/woodpecker.pw.toml"
+hash = "eec14f80e431664c69099f230948b4a5cfc78e3af2b9807a87aa3f92bdd05305"
+metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"

@@ -1,0 +1,8 @@
+name = "Woodpecker 1.18"
+filename = "1-18-woodpecker-6-2.zip"
+side = "client"
+
+[download]
+url = "https://static.planetminecraft.com/files/resource_media/texture/1-18-woodpecker-6-2.zip"
+hash-format = "sha1"
+hash = "55460ad0789e97bb565a70dabea38dc2a793ed85"

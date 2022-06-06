@@ -1,0 +1,14 @@
+name = "True Darkness"
+filename = "darkness-fabric-mc118-2.0.91.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ja7zPEaN/versions/fabric-mc118-2.0.91/darkness-fabric-mc118-2.0.91.jar"
+hash-format = "sha1"
+hash = "2b4c4d12530ac07888a1a9076856d866648aa9da"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "Ja7zPEaN"
+version = "Kf8pZbaq"
