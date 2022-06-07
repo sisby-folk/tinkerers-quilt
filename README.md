@@ -51,10 +51,10 @@ Negative (thanks jellysquid et al)
 
 Render Distance: 12 Chunks. 
 3500U + Vega 8. 
-Sprinting, forcing new chunks to load. 
+Sprinting, forcing new chunks to load.       
 Vanilla (Left) - Tinkerer's Quilt (Right)
 
-<img width="380" height="288" src="https://user-images.githubusercontent.com/55819817/172338808-062954c2-6e43-4b30-bd35-572167840c72.png"><img width="380" height="288" src="https://user-images.githubusercontent.com/55819817/172338559-39ae33ee-49bd-4cf1-806a-1b7358e16733.png">
+<img width="400" height="288" src="https://user-images.githubusercontent.com/55819817/172338808-062954c2-6e43-4b30-bd35-572167840c72.png"><img width="400" height="288" src="https://user-images.githubusercontent.com/55819817/172338559-39ae33ee-49bd-4cf1-806a-1b7358e16733.png">
 
 ---
 
