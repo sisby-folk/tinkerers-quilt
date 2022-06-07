@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Sheetmetal"
-			x: 3.0d
-			y: -3.0d
+			x: 7.5d
+			y: -13.0d
 			subtitle: "Craft a Blast Furnace"
 			description: [
 				"A Blast Furnace is a special kind of furnace that smelts ores at double speed."
@@ -49,8 +49,8 @@
 		}
 		{
 			title: "Roasty"
-			x: 4.5d
-			y: -3.0d
+			x: 7.5d
+			y: -11.5d
 			subtitle: "Craft a Smoker"
 			description: [
 				"A Smoker is a special furnace that cooks food at twice the speed."
@@ -88,8 +88,8 @@
 		{
 			title: "Mason's Supplies"
 			icon: "minecraft:light_gray_shulker_box"
-			x: 7.5d
-			y: -3.5d
+			x: 8.0d
+			y: -8.5d
 			shape: "gear"
 			subtitle: "All Stonecut-able blocks"
 			description: [
@@ -185,7 +185,7 @@
 		{
 			title: "Super Position!"
 			x: -3.0d
-			y: -3.5d
+			y: -10.5d
 			subtitle: "Craft an Ender Chest"
 			description: [
 				"Ender chests contain the same items, no matter where you open them from."
@@ -220,7 +220,7 @@
 		{
 			title: "Lit"
 			x: -3.5d
-			y: -4.5d
+			y: -11.5d
 			subtitle: "Craft a Lantern"
 			description: [
 				"Lanterns provide slightly more light than torches, and can be placed on walls or hung from ceilings"
@@ -257,7 +257,7 @@
 		{
 			title: "Mr. Cellophane"
 			x: -1.0d
-			y: -3.5d
+			y: -10.5d
 			subtitle: "Craft some Glass Panes"
 			description: [
 				"Glass panes are an alternative to full glass blocks, both of which allow you to make windows and skylights for buildings."
@@ -290,7 +290,7 @@
 		{
 			title: "Plotting"
 			x: -0.5d
-			y: -4.5d
+			y: -11.5d
 			subtitle: "Make a Fence Gate"
 			description: [
 				"Fence gates allow you to open and close them, while also connecting to fences."
@@ -305,16 +305,9 @@
 			hide: true
 			id: "1FFD2B27BC87EADB"
 			tasks: [{
-				id: "4120F1E913227A16"
+				id: "4DDBDC4E84C56443"
 				type: "item"
-				title: "Make any Fence Gate"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "c:fence_gates"
-					}
-				}
+				item: "minecraft:oak_fence_gate"
 			}]
 			rewards: [
 				{
@@ -334,7 +327,7 @@
 		{
 			title: "Blanky Mode [Housing]"
 			x: -2.0d
-			y: -5.0d
+			y: -11.5d
 			shape: "rsquare"
 			subtitle: "Make a Bed"
 			description: [
@@ -379,8 +372,8 @@
 		{
 			title: "Rancher"
 			icon: "minecraft:spruce_fence"
-			x: -6.0d
-			y: -2.0d
+			x: 3.5d
+			y: -13.0d
 			subtitle: "Do some Ranching"
 			description: [
 				"Cows and Sheep can be lead around by holding Wheat either hand. Many mobs can be lead this way, including chickens being led by seeds."
@@ -436,8 +429,8 @@
 		}
 		{
 			title: "Unlikely (and sticky) ally"
-			x: -9.5d
-			y: -3.5d
+			x: 4.0d
+			y: -10.0d
 			shape: "circle"
 			subtitle: "Craft a Honey Block"
 			description: [
@@ -470,8 +463,8 @@
 		}
 		{
 			title: "Buzzed"
-			x: -8.5d
-			y: -3.5d
+			x: 4.0d
+			y: -11.5d
 			subtitle: "Craft a Beehive"
 			description: [
 				"Bees can be farmed for honeycomb, honey, and also used as pollinators to improve your crop farms."
@@ -512,8 +505,8 @@
 		}
 		{
 			title: "Represent"
-			x: 5.5d
-			y: -2.0d
+			x: 8.5d
+			y: -10.5d
 			subtitle: "Craft a Loom"
 			description: [
 				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps (simply right click a hanging banner with a map)"
@@ -521,6 +514,8 @@
 				"Many designs for pictures, pride flags, and other patterns are available online."
 				""
 				"All 16 colors of dye can be made from 7 base colors, by crafting them together."
+				""
+				"Banners and dyed leather armor can be washed clean in a cauldron of water."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -597,8 +592,8 @@
 		}
 		{
 			title: "Explorer"
-			x: 3.5d
-			y: -2.0d
+			x: 8.5d
+			y: -12.5d
 			subtitle: "Craft a Cartography Table"
 			description: [
 				"Cartography tables allow you to duplicate the contents of maps, including their zoom level. They also allow cheaper \"zooming out\" of maps with paper."
@@ -641,7 +636,7 @@
 		{
 			title: "Stay Fiesty, Hellspawn"
 			x: -2.0d
-			y: -7.0d
+			y: -13.5d
 			shape: "hexagon"
 			subtitle: "Craft a Respawn Anchor"
 			description: [
@@ -710,8 +705,8 @@
 					Damage: 0
 				}
 			}
-			x: -6.5d
-			y: -5.0d
+			x: 2.5d
+			y: -11.5d
 			shape: "rsquare"
 			subtitle: "Acquire basic farming equipment"
 			description: [
@@ -757,8 +752,8 @@
 		{
 			title: "Here in my Garage [Workshopping]"
 			icon: "minecraft:furnace"
-			x: 4.5d
-			y: -5.0d
+			x: 6.0d
+			y: -11.5d
 			shape: "rsquare"
 			subtitle: "Have a Chest, Furnace, and Crafting Table"
 			description: [
@@ -808,8 +803,8 @@
 		}
 		{
 			title: "Architect"
-			x: 6.0d
-			y: -3.0d
+			x: 7.5d
+			y: -10.0d
 			shape: "hexagon"
 			subtitle: "Craft a Stonecutter"
 			description: [
@@ -858,8 +853,8 @@
 		}
 		{
 			title: "Back in a sec!"
-			x: 1.5d
-			y: -3.0d
+			x: 7.5d
+			y: -14.5d
 			shape: "hexagon"
 			subtitle: "Build a Furnace Minecart"
 			description: [
@@ -898,8 +893,8 @@
 		}
 		{
 			title: "WOMEN FEAR ME"
-			x: -5.0d
-			y: -2.5d
+			x: 1.5d
+			y: -10.0d
 			subtitle: "Craft a Fishing Rod"
 			description: [
 				"Fishing can be used to acquire live fish, junk, and treasure. Fishing rods can also be used to \"yank\" mobs at a 5x durability cost."
@@ -942,8 +937,8 @@
 		{
 			title: "Terracotta Builder's Pack"
 			icon: "minecraft:orange_terracotta"
-			x: 7.5d
-			y: -2.5d
+			x: 7.0d
+			y: -8.5d
 			shape: "gear"
 			subtitle: "Glazed Foresight"
 			description: [
@@ -1000,8 +995,8 @@
 		}
 		{
 			title: "Treasure Fisher"
-			x: -4.0d
-			y: -2.5d
+			x: 0.0d
+			y: -10.0d
 			shape: "hexagon"
 			subtitle: "Fish up a Nautilus Shell"
 			description: [
@@ -1043,7 +1038,7 @@
 		{
 			title: "Friend of the Mer"
 			x: -2.0d
-			y: -2.5d
+			y: -10.0d
 			shape: "hexagon"
 			subtitle: "Find a Heart of the Sea"
 			description: [
@@ -1076,8 +1071,8 @@
 		}
 		{
 			title: "Atlantis"
-			x: -3.0d
-			y: -1.5d
+			x: -1.0d
+			y: -9.0d
 			shape: "hexagon"
 			subtitle: "Craft a Conduit"
 			description: [
@@ -1124,8 +1119,8 @@
 		}
 		{
 			title: "Aye 'yam amphibious [Transport] "
-			x: -13.5d
-			y: -5.0d
+			x: -5.5d
+			y: -11.5d
 			shape: "rsquare"
 			subtitle: "Craft a Boat"
 			description: [
@@ -1149,8 +1144,8 @@
 		}
 		{
 			title: "Hyperspeed Lane"
-			x: -16.5d
-			y: -6.0d
+			x: -7.5d
+			y: -12.5d
 			subtitle: "Acquire 1 Blue Ice"
 			description: [
 				"Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."
@@ -1174,8 +1169,8 @@
 		}
 		{
 			title: "Invention of Rail"
-			x: -15.5d
-			y: -6.5d
+			x: -6.5d
+			y: -13.0d
 			shape: "hexagon"
 			subtitle: "Gather some Rail materials"
 			description: [
@@ -1250,8 +1245,8 @@
 					Potion: "minecraft:water"
 				}
 			}
-			x: -14.5d
-			y: -3.0d
+			x: -5.5d
+			y: -13.0d
 			subtitle: "Gather Bubble Elevator materials"
 			description: [
 				"Magma Blocks and Soul Sand under water creates \"Bubble Columns\" in either direction, which both provide air and pull/push the mobs and the player down/up in the water"
@@ -1299,8 +1294,8 @@
 		{
 			title: "Keep an eye on gravity"
 			icon: "minecraft:slime_block"
-			x: -14.5d
-			y: -7.0d
+			x: -5.5d
+			y: -10.0d
 			subtitle: "Make slime Bounce-Elevator materials"
 			description: [
 				"Try placing a slime block above a sticky piston, and turning it on with a button while standing on the slime block!"
@@ -1346,8 +1341,8 @@
 		}
 		{
 			title: "Olympic Highway"
-			x: -17.5d
-			y: -5.0d
+			x: -8.5d
+			y: -11.5d
 			subtitle: "Gather Soulspeed Highway materials"
 			description: [
 				"Soul sand slows the player down, soul soil does not. With soul speed, the player is no longer slowed down, and sped up on both."
@@ -1390,16 +1385,14 @@
 		}
 		{
 			title: "Yeehaw"
-			x: -15.5d
-			y: -3.5d
+			x: -6.5d
+			y: -10.0d
 			shape: "hexagon"
 			subtitle: "Saddle and ride a Horse"
 			description: [
-				"Horses are some of the simplest forms of improved transport. Simply saddle one and be on your way."
+				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then, open the horses inventory (sneak+rightclick) to saddle it."
 				""
-				"You can check a horse's stats by holding ALT. Breeding horses together requires Golden Carrots or Golden Apples, and the horse produced will be close to the average of its parents."
-				""
-				"Horses can also equip armor to improve their surviveability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them. I'll look into pet-preserving mods in future."
+				"Horses can also equip armor to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
 				""
 				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them. Sneak-right-click to remove the saddle afterwards."
 			]
@@ -1409,9 +1402,10 @@
 			tasks: [{
 				id: "61C1C9ADFC09F727"
 				type: "stat"
+				title: "Travel 50 Blocks by Horse"
 				icon: "minecraft:saddle"
 				stat: "minecraft:horse_one_cm"
-				value: 10000
+				value: 5000
 			}]
 			rewards: [
 				{
@@ -1445,8 +1439,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -16.5d
-			y: -4.0d
+			x: -7.5d
+			y: -10.5d
 			subtitle: "Swim 300 Blocks"
 			description: ["By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."]
 			dependencies: ["423E897DEB76653D"]
@@ -1511,14 +1505,16 @@
 		{
 			title: "Variety Fair"
 			icon: "minecraft:composter"
-			x: -6.5d
-			y: -7.0d
+			x: 2.5d
+			y: -13.0d
 			shape: "hexagon"
 			subtitle: "Learn to farm many things"
 			description: [
 				"Many of minecrafts resources are *renewable* - and \"farms\" can be set up to gather them - assuming the player might benefit from a large amount."
 				""
 				"This is often relevant to building materials, fuels, food, and so on. Some of this less-critical farming is covered here."
+				""
+				"Don't just gather the quest materials - Make the farms! They can make your base look very cool!"
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -1532,8 +1528,8 @@
 		{
 			title: "Forestry"
 			icon: "minecraft:oak_sapling"
-			x: -7.0d
-			y: -2.0d
+			x: 2.5d
+			y: -10.0d
 			subtitle: "Become a Tree Farmer"
 			description: [
 				"Tree farming allows you to get large amounts of wood."
@@ -1598,41 +1594,61 @@
 		}
 		{
 			title: "Vine Farming"
-			x: -6.0d
-			y: -10.0d
+			icon: "minecraft:vine"
+			x: 3.0d
+			y: -16.5d
 			subtitle: "Farm 32 Vines"
 			description: ["Vines can be farmed on the side of most blocks, and harvested using shears."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "4E2B415A2E99BCF6"
-			tasks: [{
-				id: "11D4F63B25BA830B"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:vine"
-				count: 32L
-			}]
+			tasks: [
+				{
+					id: "11D4F63B25BA830B"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:vine"
+					count: 32L
+				}
+				{
+					id: "3CFC2F1F445CC8ED"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Amethyst Farming"
-			x: -8.0d
-			y: -8.0d
+			icon: "minecraft:amethyst_shard"
+			x: 1.0d
+			y: -14.5d
 			subtitle: "Farm 32 Amethyst"
 			description: ["Amethyst can only be farmed at the source - a geode underground. Keep a note, and feel free to renovate!"]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "0FC2E6F08F772324"
-			tasks: [{
-				id: "1AE1B289AED19E40"
-				type: "item"
-				item: "minecraft:amethyst_shard"
-				count: 32L
-			}]
+			tasks: [
+				{
+					id: "1AE1B289AED19E40"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:amethyst_shard"
+					count: 32L
+				}
+				{
+					id: "149D5F5038C2BC78"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Cobblestone Farming"
-			x: -5.0d
-			y: -8.0d
+			icon: "minecraft:cobblestone"
+			x: 4.0d
+			y: -14.5d
 			subtitle: "Gather Generator materials"
 			description: ["Cobblestone can be freely farmed when flowing water meets flowing lava."]
 			dependencies: ["6B1E74EF171BFD5E"]
@@ -1651,44 +1667,71 @@
 					disable_toast: true
 					item: "minecraft:lava_bucket"
 				}
+				{
+					id: "75F8F5572007CD42"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
 			]
 		}
 		{
 			title: "Kelp Farming"
-			x: -7.0d
-			y: -10.0d
+			icon: "minecraft:kelp"
+			x: 2.0d
+			y: -16.5d
 			subtitle: "Farm 16 Dried Kelp Blocks"
 			description: ["Kelp can be easily farmed by placing lots of it in a flat area deep underwater. This is a good source of Dried Kelp Blocks - the strongest renewable fuel by stack."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "6E20F24C33A627DC"
-			tasks: [{
-				id: "3E01636D14923C60"
-				type: "item"
-				item: "minecraft:dried_kelp_block"
-				count: 16L
-			}]
+			tasks: [
+				{
+					id: "3E01636D14923C60"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dried_kelp_block"
+					count: 16L
+				}
+				{
+					id: "4F708FA2E530244F"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Ice Farming"
-			x: -5.0d
-			y: -9.0d
+			icon: "minecraft:packed_ice"
+			x: 4.0d
+			y: -15.5d
 			subtitle: "Farm 64 Ice"
 			description: ["Ice can be farmed by creating a diagonal line of water source blocks covered with slabs, then enclosing the full square. Ice will form everywhere but the covered line, and can be farmed using silk touch."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "1254376D14A00E56"
-			tasks: [{
-				id: "031A173AC6CC6D04"
-				type: "item"
-				item: "minecraft:ice"
-				count: 64L
-			}]
+			tasks: [
+				{
+					id: "031A173AC6CC6D04"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:ice"
+					count: 64L
+				}
+				{
+					id: "111FFC65D5FB6D46"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Cocoa Farming"
-			x: -8.0d
-			y: -9.0d
+			icon: "minecraft:cocoa_beans"
+			x: 1.0d
+			y: -15.5d
 			subtitle: "Farm 32 Cocoa Beans"
 			description: [
 				"Cocoa beans can be grown on the side of any jungle log - Not just trees."
@@ -1698,18 +1741,27 @@
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "5BF7F408031029E9"
-			tasks: [{
-				id: "1BB6AE5F94644FA4"
-				type: "item"
-				item: "minecraft:cocoa_beans"
-				count: 32L
-			}]
+			tasks: [
+				{
+					id: "1BB6AE5F94644FA4"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cocoa_beans"
+					count: 32L
+				}
+				{
+					id: "159E7DDB22E9FCD3"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Bases Loaded"
 			icon: "minecraft:pumpkin"
-			x: -9.0d
-			y: -2.5d
+			x: 1.0d
+			y: -13.0d
 			shape: "hexagon"
 			subtitle: "Farm all the \"Basic\" plants"
 			description: [
@@ -1852,8 +1904,8 @@
 		}
 		{
 			title: "Farmer"
-			x: -8.0d
-			y: -2.5d
+			x: 1.0d
+			y: -11.5d
 			subtitle: "Farm some Wheat"
 			description: [
 				"Wheat is the easiest crop to acquire - Just break some tall grass and get hoeing."
@@ -1881,10 +1933,10 @@
 		{
 			title: "Gaia"
 			icon: "minecraft:fern"
-			x: -6.5d
-			y: -13.0d
+			x: 2.5d
+			y: -18.5d
 			shape: "pentagon"
-			subtitle: "Farm Everything"
+			subtitle: "Keep the world renewed"
 			hide_dependency_lines: true
 			dependencies: [
 				"0FC2E6F08F772324"
@@ -1896,6 +1948,7 @@
 				"531358BD1C258F99"
 				"1254376D14A00E56"
 				"74001D2726E7133D"
+				"2D74603197C7629C"
 			]
 			hide: true
 			id: "1587D6896E210D6D"
@@ -1904,16 +1957,72 @@
 				type: "checkmark"
 				title: "Chill with a nature diety [Click]"
 			}]
-			rewards: [{
-				id: "1BBA268D72446F79"
-				type: "xp_levels"
-				xp_levels: 60
-			}]
+			rewards: [
+				{
+					id: "1BBA268D72446F79"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					id: "4BBCD767172D1A8B"
+					type: "item"
+					item: {
+						id: "minecraft:black_banner"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Gaia\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "ss"
+										Color: 12
+									}
+									{
+										Pattern: "hh"
+										Color: 15
+									}
+									{
+										Pattern: "tts"
+										Color: 13
+									}
+									{
+										Pattern: "bts"
+										Color: 15
+									}
+									{
+										Pattern: "flo"
+										Color: 13
+									}
+									{
+										Pattern: "mr"
+										Color: 12
+									}
+									{
+										Pattern: "mc"
+										Color: 5
+									}
+									{
+										Pattern: "mc"
+										Color: 13
+									}
+									{
+										Pattern: "sku"
+										Color: 12
+									}
+								]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Mushroom Farming"
-			x: -8.0d
-			y: -10.5d
+			icon: "minecraft:red_mushroom_block"
+			x: 1.0d
+			y: -17.0d
 			subtitle: "Farm 32+32 Mushrooms"
 			description: [
 				"Mushrooms can be bonemeal'd into \"Giant Mushrooms\", which yield 0-2 mushrooms per block."
@@ -1937,42 +2046,68 @@
 					item: "minecraft:red_mushroom"
 					count: 32L
 				}
+				{
+					id: "0E59CCC197C8B272"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
 			]
 		}
 		{
 			title: "Nether Wart Farming"
-			x: -6.5d
-			y: -11.0d
+			icon: "minecraft:nether_wart"
+			x: 2.5d
+			y: -17.5d
 			subtitle: "Farm 64 Nether Wart"
 			description: ["Nether wart can be grown on soul sand, in any dimension. It doesn't require light to grow."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			id: "54AA1BD5E8241369"
-			tasks: [{
-				id: "03646A14192AD73C"
-				type: "item"
-				item: "minecraft:nether_wart"
-				count: 64L
-			}]
+			tasks: [
+				{
+					id: "03646A14192AD73C"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:nether_wart"
+					count: 64L
+				}
+				{
+					id: "4E96545334B04D98"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Sweet Berry Farming"
-			x: -5.0d
-			y: -10.5d
+			icon: "minecraft:sweet_berries"
+			x: 4.0d
+			y: -17.0d
 			subtitle: "Farm 64 Sweet Berries"
 			description: ["Just throw a bunch on the ground, honestly. There's not much to it. Maybe put them in rows? I'm not a cop."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			id: "531358BD1C258F99"
-			tasks: [{
-				id: "07C376A60F9F3148"
-				type: "item"
-				item: "minecraft:sweet_berries"
-				count: 64L
-			}]
+			tasks: [
+				{
+					id: "07C376A60F9F3148"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sweet_berries"
+					count: 64L
+				}
+				{
+					id: "7EE4AC839C4D72B3"
+					type: "checkmark"
+					title: "Farmed! [Click]"
+					disable_toast: true
+				}
+			]
 		}
 		{
 			title: "Hello highlow!"
 			x: -3.0d
-			y: -6.0d
+			y: -12.5d
 			subtitle: "Make some Ladders"
 			description: ["Multi-floor bases are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
 			dependencies: ["20E2938DD7365207"]
@@ -1994,7 +2129,7 @@
 		{
 			title: "Speak Friend"
 			x: -1.0d
-			y: -6.0d
+			y: -12.5d
 			subtitle: "Make a Door"
 			description: [
 				"Doors are used to block access to inner rooms to mobs, and to decorate."
@@ -2045,8 +2180,8 @@
 		{
 			title: "Conductor"
 			icon: "minecraft:chest_minecart"
-			x: -17.0d
-			y: -7.5d
+			x: -7.0d
+			y: -14.0d
 			shape: "hexagon"
 			subtitle: "Travel far by rail"
 			description: ["Lots of designs for train stations made with fancy track patterns and redstone are available in videos online!"]
@@ -2056,7 +2191,7 @@
 			tasks: [{
 				id: "6E143ADB9519AE94"
 				type: "stat"
-				title: "Travel 1000 Blocks by Minecart"
+				title: "Travel 1,000 Blocks by Minecart"
 				icon: "minecraft:minecart"
 				stat: "minecraft:minecart_one_cm"
 				value: 1000000
@@ -2086,6 +2221,124 @@
 					item: "minecraft:chest_minecart"
 				}
 			]
+		}
+		{
+			title: "Hermes"
+			icon: {
+				id: "minecraft:netherite_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.0d
+			y: -11.5d
+			shape: "pentagon"
+			subtitle: "Embrace the fastest travel"
+			hide_dependency_lines: true
+			dependencies: [
+				"039E822D32DC0A9B"
+				"56E8B3168203AA6F"
+				"56FFE5307AA82DCD"
+				"51AC2E4D1053FC19"
+				"471B71E3199030AC"
+				"4E780825E91BA9CA"
+				"3D5694CCE8F191BC"
+			]
+			hide: true
+			id: "3347D4D672927CA6"
+			tasks: [{
+				id: "7D62C1C889EBCCF0"
+				type: "checkmark"
+				title: "Mercury"
+			}]
+			rewards: [{
+				id: "11148912213C7C5F"
+				type: "item"
+				item: {
+					id: "minecraft:white_banner"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Hermes\"}"
+						}
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Pattern: "ts"
+									Color: 6
+								}
+								{
+									Pattern: "tt"
+									Color: 3
+								}
+								{
+									Pattern: "cr"
+									Color: 0
+								}
+								{
+									Pattern: "ms"
+									Color: 15
+								}
+								{
+									Pattern: "bt"
+									Color: 0
+								}
+								{
+									Pattern: "cbo"
+									Color: 3
+								}
+								{
+									Pattern: "bts"
+									Color: 0
+								}
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Vesta"
+			icon: "minecraft:campfire"
+			x: -2.0d
+			y: -15.0d
+			shape: "pentagon"
+			subtitle: "Settle hearth in three realms"
+			hide_dependency_lines: true
+			dependencies: [
+				"20E2938DD7365207"
+				"0953453F97BA921D"
+				"392E005585B652A4"
+			]
+			hide: true
+			id: "64CD806DB1FFD979"
+			tasks: [{
+				id: "04B0358DDE85654B"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Thorough"
+			icon: "minecraft:diamond_horse_armor"
+			x: -7.0d
+			y: -9.0d
+			shape: "hexagon"
+			subtitle: "Travel far by Horse"
+			description: ["You can check a horse's stats by holding ALT. Breeding horses together requires Golden Carrots or Golden Apples, and the horse produced will be close to the average of its parents."]
+			dependencies: ["7AA799B6789ABD71"]
+			hide: true
+			id: "3D5694CCE8F191BC"
+			tasks: [{
+				id: "7051C5FC93FAC3C0"
+				type: "stat"
+				title: "Travel 5,000 Blocks by Horse"
+				icon: "minecraft:saddle"
+				stat: "minecraft:horse_one_cm"
+				value: 500000
+			}]
 		}
 	]
 }

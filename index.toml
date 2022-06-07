@@ -62,7 +62,7 @@ hash = "79c83d06f72513b48b047b8c131aee06c857a5a3d816d5f66dd688f2ecb03258"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "dc09a32a066d30a17150ead2e3f172747060d2e8041d9d0cf5d779230b50c9ae"
+hash = "f4786d19223e350ef58058eee7dc77eb38b1a81be6afdcc36020d09b11ffca65"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -70,19 +70,19 @@ hash = "e20d97fc648630d3be3e728fbf72a354e0b781aeca6e096c5599e300b9959d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "054270ed5ba966dd0a0a53855497f9d8a83694a13a3059c6a1b8f3fc1f85dba5"
+hash = "5c9cdc40ca36e96214f9edffb2883e5a08d73a010c4d51599548f8d6b206c2bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "1199523d23ce3017d91fb59d40596ca242336c2af323edf7ccb4b40495dfb8cf"
+hash = "77e1aca7d627bf414288c6843aeee1b5d65b7f30839687ef8f13163f3a2b9a91"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "e4c9dff19e0df0bbbc6236ad96ab2e02f5914f8ca14885393cfd59b7ec3b8146"
+hash = "e5b1d0b43882470855cdc874eb70e68b507e2272d19ec8e6c5eff8b538b638ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "685dd94219a09b23c2aecca1d6a2b10cdcec1723692b67e208881f4d3d8bde16"
+hash = "1a1f622c9a91887f1bad64f9ecc5e70f4a7dd4704dd31e571f3502f981f2a251"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -705,7 +705,7 @@ metafile = true
 
 [[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
-hash = "10c699c77defe5cfd20628da8ca27bd395a8c8baef4b1552f3b5ac7f79866536"
+hash = "89fab271e3f924890f8e9b61fc426a1b2ed93e84c54a36d5d6d68bb0e9739a7e"
 metafile = true
 
 [[files]]
@@ -730,7 +730,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "cbc3d6649757c3751ac73aed8df427b3ebc5685a808935b0e631d213bf6a760b"
+hash = "7586317e8f493545d692287fb8b5e8a6027772b529d6e2d9ba97c7c09c64b26f"
 metafile = true
 
 [[files]]
@@ -755,7 +755,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "4255b46421380a2701c5ac60d231f5b49ce154115433787ef970b3cf7b121d94"
+hash = "257dd4c9f3b5df42a1f5b4e6ed98488cbed7acbfe7a98cb66cdd6e9c0f80eb96"
 metafile = true
 
 [[files]]
@@ -877,12 +877,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.pw.toml"
-hash = "1754cb3e21a8732d329328a3ccc65e25977eb40e1d4f9ba4f3e57cb60bfd423a"
+hash = "fb4243c78a8bac1273c3dda72dd7b71dbde8d7a1e1b9e6457103962da68216d9"
 metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "d29f3453270997e009cf7dc946594053b717c2eb6981d7a2515ab287751564d7"
+hash = "65ccae834ef9b5d1fbe1b3b3424eea8507ab2ca542a66f5ad8c7d0de73862a3f"
 metafile = true
 
 [[files]]
@@ -1119,6 +1119,11 @@ metafile = true
 [[files]]
 file = "shaderpacks/skylex.pw.toml"
 hash = "9d1468d817fd5bb17fa2ff13eaad64bba6591b89593074b91789180276159cca"
+metafile = true
+
+[[files]]
+file = "shaderpacks/super-duper-vanilla.pw.toml"
+hash = "e78a89eb50a7c84f5d88144d01a4a4dea7fc3836d95b5c6cd8b49c8adf8794f5"
 metafile = true
 
 [[files]]

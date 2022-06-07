@@ -553,18 +553,25 @@
 			hide: true
 			id: "6CDF6FE603499CB1"
 			tasks: [{
-				id: "2A9ADEEF5B006F41"
+				id: "6554F5E5D6221299"
 				type: "advancement"
-				title: "Escape the Central End"
-				icon: "minecraft:end_crystal"
-				advancement: "minecraft:end/enter_end_gateway"
+				title: "Free the End"
+				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "009CC64E5C033956"
-				type: "item"
-				item: "minecraft:diamond_block"
-			}]
+			rewards: [
+				{
+					id: "009CC64E5C033956"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "654294115A9F72FC"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Shell City"

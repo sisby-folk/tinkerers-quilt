@@ -17,7 +17,7 @@
 		{
 			title: "Longshot"
 			x: -1.5d
-			y: -2.0d
+			y: -4.0d
 			subtitle: "Acquire a Bow"
 			description: [
 				"Arrows can be made by scavenging from skeletons, or crafting."
@@ -26,6 +26,8 @@
 				""
 				"Special effect arrows can be created through Brewing."
 			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
 			id: "0F4FAE3B1041001F"
 			tasks: [{
 				id: "314AE6BD6989969B"
@@ -52,8 +54,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -3.5d
+			y: -4.0d
 			subtitle: "Acquire a Crossbow"
 			description: [
 				"Crossbows can be crafted, or dropped from pillagers."
@@ -64,6 +66,8 @@
 				""
 				"They can also fire firework rockets, dealing explosive damage."
 			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
 			id: "6F32C33B97BE205B"
 			tasks: [{
 				id: "145253845DFC11C4"
@@ -86,7 +90,7 @@
 		{
 			title: "Others-Offence"
 			x: -1.5d
-			y: -3.5d
+			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Acquire Melee Weapons"
 			description: [
@@ -138,7 +142,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -2.0d
 			subtitle: "Craft a Shield"
 			description: [
@@ -146,6 +150,8 @@
 				""
 				"Shields can be equipped with banners and renamed. They can be enchanted with books, and in this pack, they can also be enchanted at a table."
 			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
 			id: "42A9FC81752B5A9F"
 			tasks: [{
 				id: "7A3DABD5009149C4"
@@ -212,7 +218,7 @@
 		}
 		{
 			title: "What is it, Boy."
-			x: 0.0d
+			x: 0.5d
 			y: -2.0d
 			subtitle: "Acquire a Trident"
 			description: [
@@ -220,6 +226,8 @@
 				""
 				"In this pack, tridents can be enchanted to deal more damage."
 			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
 			id: "2F6EDECBF7606385"
 			tasks: [{
 				id: "423493D133AB8111"
@@ -249,11 +257,701 @@
 		}
 		{
 			title: "Well-Dressed"
-			x: 3.0d
-			y: -2.0d
+			icon: {
+				id: "minecraft:leather_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Acquire armor for every slot"
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
 			id: "6F439133A6E64D41"
+		}
+		{
+			icon: "minecraft:zombie_head"
+			x: -0.5d
+			y: -5.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "21738CE4F9A8D8ED"
+			tasks: [{
+				id: "68CCD723DFFF39DD"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 50L
+			}]
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			x: -0.5d
+			y: -8.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "3CF0AC2D4BCAC32A"
+			tasks: [{
+				id: "6FFE533C983C9A1D"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 20L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "2BA288C7EE0930DB"
+			tasks: [{
+				id: "36FE4BD5E967A888"
+				type: "kill"
+				icon: "minecraft:creeper_head"
+				entity: "minecraft:creeper"
+				value: 15L
+			}]
+		}
+		{
+			icon: "minecraft:prismarine_bricks"
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "694FD9F0D62B459F"
+			tasks: [{
+				id: "779F514660FF7C50"
+				type: "kill"
+				entity: "minecraft:guardian"
+				value: 4L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			dependencies: ["4FE0BE6BF0009C4E"]
+			id: "30ED364C540672C8"
+			tasks: [{
+				id: "47F16DEAF8370460"
+				type: "kill"
+				icon: "minecraft:dark_prismarine"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "4FC61BF1949C8BE9"
+			tasks: [{
+				id: "3FC5F826E273A912"
+				type: "kill"
+				icon: "minecraft:infested_mossy_stone_bricks"
+				entity: "minecraft:silverfish"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			subtitle: "Defeat a Raid"
+			description: ["This covers goals for Pillagers, Vindicators, Evokers, Witches, and Ravagers."]
+			dependencies: ["4FE0BE6BF0009C4E"]
+			id: "2D49941B8AEF7256"
+			tasks: [{
+				id: "11414E2921EACBED"
+				type: "advancement"
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "35AED8D09C7CF638"
+			tasks: [{
+				id: "30B010BB2CE92D56"
+				type: "kill"
+				icon: "minecraft:ghast_tear"
+				entity: "minecraft:ghast"
+				value: 3L
+			}]
+		}
+		{
+			icon: "minecraft:magma_cream"
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "52AC9ECD81435809"
+			tasks: [{
+				id: "162DEDE2FB3C1168"
+				type: "kill"
+				entity: "minecraft:magma_cube"
+				value: 15L
+			}]
+		}
+		{
+			title: "Undertaker"
+			disable_toast: true
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Kill the Wither"
+			dependencies: ["4FE0BE6BF0009C4E"]
+			id: "5CA39231B56AE5CB"
+			tasks: [{
+				id: "42F460492A4ACDC4"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			title: "Cool Skyrim Reference"
+			disable_toast: true
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Kill the Ender Dragon"
+			dependencies: ["4FE0BE6BF0009C4E"]
+			id: "3BBB8E131ECD4FF5"
+			tasks: [{
+				id: "5ECADB3B034C0997"
+				type: "advancement"
+				title: "Free the End"
+				disable_toast: true
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "349E511AA603A620"
+			tasks: [{
+				id: "4D3BB7698E3126D7"
+				type: "kill"
+				icon: "minecraft:blaze_powder"
+				entity: "minecraft:blaze"
+				value: 15L
+			}]
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "26CD2014C0B206D0"
+			tasks: [{
+				id: "3FB71FB6BCA65B96"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 6L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "6102768050D4F3E5"
+			tasks: [{
+				id: "1704E69B9488B589"
+				type: "kill"
+				icon: "minecraft:porkchop"
+				entity: "minecraft:hoglin"
+				value: 4L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "0CB054935E7926CC"
+			tasks: [{
+				id: "4155F613D82EA5E1"
+				type: "kill"
+				icon: {
+					id: "minecraft:golden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:piglin_brute"
+				value: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "023DDA57ED1603C5"
+			tasks: [{
+				id: "3DFB272AB2779EA5"
+				type: "kill"
+				icon: "minecraft:ender_pearl"
+				entity: "minecraft:enderman"
+				value: 20L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "68C1E9C446D8A069"
+			tasks: [{
+				id: "1D2880C0A22B3902"
+				type: "kill"
+				icon: "minecraft:shulker_shell"
+				entity: "minecraft:shulker"
+				value: 5L
+			}]
+		}
+		{
+			icon: "minecraft:string"
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "7BA5B355C7DFF7E3"
+			tasks: [{
+				id: "577F61C1ABAF56B6"
+				type: "kill"
+				icon: "minecraft:spider_eye"
+				entity: "minecraft:spider"
+				value: 30L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "5E4CDD8923AF498D"
+			tasks: [{
+				id: "25CF745E88778E86"
+				type: "kill"
+				icon: "minecraft:cobweb"
+				entity: "minecraft:cave_spider"
+				value: 5L
+			}]
+		}
+		{
+			icon: "minecraft:prismarine_crystals"
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["1950317947BD61B0"]
+			hide: true
+			id: "20147B09F8E40DE9"
+			tasks: [{
+				id: "21B77836A71A4F74"
+				type: "kill"
+				entity: "minecraft:drowned"
+				value: 15L
+			}]
+		}
+		{
+			title: "Resourceful"
+			icon: "minecraft:tnt_minecart"
+			x: 0.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Obtain \"Alternative\" Weapons"
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
+			id: "42E807C7DFC19EBF"
+			tasks: [
+				{
+					id: "698C96F9F8532BF5"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+				{
+					id: "0B308E00A63F1A60"
+					type: "item"
+					item: "minecraft:sand"
+				}
+				{
+					id: "67927DDA0877F9B6"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "642AFD7D3451BDFC"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "33E4D34D0FFC0564"
+					type: "item"
+					item: "minecraft:tnt"
+				}
+				{
+					id: "2977D90E490BA696"
+					type: "item"
+					title: "Bed"
+					icon: "minecraft:red_bed"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+				{
+					id: "021CBA58542E43A1"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0559D4D432FEBA3D"
+					type: "item"
+					item: "minecraft:cobweb"
+				}
+			]
+		}
+		{
+			title: "Athena"
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.5d
+			y: 2.0d
+			shape: "pentagon"
+			subtitle: "face danger head-on"
+			hide_dependency_lines: true
+			dependencies: [
+				"2D49941B8AEF7256"
+				"5CA39231B56AE5CB"
+				"3BBB8E131ECD4FF5"
+				"30ED364C540672C8"
+			]
+			id: "0B9F6A70B4F88B94"
+			tasks: [{
+				id: "037FE2D130DBAAB7"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Gladiator"
+			icon: {
+				id: "minecraft:red_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "flo"
+								Color: 4
+							}
+							{
+								Pattern: "tt"
+								Color: 14
+							}
+							{
+								Pattern: "mc"
+								Color: 14
+							}
+							{
+								Pattern: "cbo"
+								Color: 14
+							}
+						]
+					}
+				}
+			}
+			x: 0.5d
+			y: -4.0d
+			subtitle: "take on the realms' monsters"
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
+			id: "1950317947BD61B0"
+			tasks: [{
+				id: "53A796604A3A0CDA"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+			rewards: [{
+				id: "64DBD5ABDBCF2CE0"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						BlockEntityTag: {
+							Base: 14
+							Patterns: [
+								{
+									Pattern: "flo"
+									Color: 4
+								}
+								{
+									Pattern: "tt"
+									Color: 14
+								}
+								{
+									Pattern: "mc"
+									Color: 14
+								}
+								{
+									Pattern: "cbo"
+									Color: 14
+								}
+							]
+						}
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Gladiator Shield\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "The Hero"
+			icon: {
+				id: "minecraft:blue_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "flo"
+								Color: 14
+							}
+							{
+								Pattern: "hh"
+								Color: 11
+							}
+							{
+								Pattern: "tt"
+								Color: 4
+							}
+							{
+								Pattern: "ts"
+								Color: 11
+							}
+							{
+								Pattern: "cbo"
+								Color: 8
+							}
+						]
+					}
+				}
+			}
+			x: -3.5d
+			y: 0.0d
+			subtitle: "take on the realms' challenges"
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
+			id: "4FE0BE6BF0009C4E"
+			tasks: [{
+				id: "562B62E5B498DC8C"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+			rewards: [{
+				id: "3A673F89C721DF64"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						BlockEntityTag: {
+							Base: 11
+							Patterns: [
+								{
+									Pattern: "flo"
+									Color: 14
+								}
+								{
+									Pattern: "hh"
+									Color: 11
+								}
+								{
+									Pattern: "tt"
+									Color: 4
+								}
+								{
+									Pattern: "ts"
+									Color: 11
+								}
+								{
+									Pattern: "cbo"
+									Color: 8
+								}
+							]
+						}
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Shield of the Hero\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Zagreus"
+			icon: "minecraft:red_nether_bricks"
+			x: 4.5d
+			y: -8.5d
+			shape: "pentagon"
+			subtitle: "Send monsters back to Hell"
+			hide_dependency_lines: true
+			dependencies: [
+				"7BA5B355C7DFF7E3"
+				"2BA288C7EE0930DB"
+				"3CF0AC2D4BCAC32A"
+				"21738CE4F9A8D8ED"
+				"694FD9F0D62B459F"
+				"4FC61BF1949C8BE9"
+				"5E4CDD8923AF498D"
+				"20147B09F8E40DE9"
+				"35AED8D09C7CF638"
+				"52AC9ECD81435809"
+				"349E511AA603A620"
+				"26CD2014C0B206D0"
+				"6102768050D4F3E5"
+				"0CB054935E7926CC"
+				"023DDA57ED1603C5"
+				"68C1E9C446D8A069"
+			]
+			id: "416A7E1DCFFE12F4"
+			tasks: [{
+				id: "4FC35A920EB9938B"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+			rewards: [
+				{
+					id: "16C9B3A5E3C35A66"
+					type: "item"
+					item: {
+						id: "minecraft:red_banner"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Zagreus\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "mr"
+										Color: 15
+									}
+									{
+										Pattern: "ss"
+										Color: 15
+									}
+									{
+										Pattern: "cre"
+										Color: 15
+									}
+									{
+										Pattern: "bo"
+										Color: 15
+									}
+									{
+										Pattern: "tt"
+										Color: 15
+									}
+									{
+										Pattern: "bts"
+										Color: 1
+									}
+									{
+										Pattern: "sku"
+										Color: 0
+									}
+									{
+										Pattern: "sku"
+										Color: 15
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "7583A8810BB00121"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							BlockEntityTag: {
+								Base: 15
+								Patterns: [
+									{
+										Pattern: "mc"
+										Color: 4
+									}
+									{
+										Pattern: "flo"
+										Color: 14
+									}
+									{
+										Pattern: "tts"
+										Color: 1
+									}
+									{
+										Pattern: "bts"
+										Color: 1
+									}
+									{
+										Pattern: "cbo"
+										Color: 15
+									}
+									{
+										Pattern: "sku"
+										Color: 15
+									}
+									{
+										Pattern: "bo"
+										Color: 14
+									}
+									{
+										Pattern: "bo"
+										Color: 15
+									}
+								]
+							}
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Shield of Chaos\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }
