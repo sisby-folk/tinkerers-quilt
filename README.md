@@ -1,12 +1,65 @@
-# Tinkerer's Quilt
+# Intro
 
-*for 1.18.2*
+------
 
-Some information and install instructions can be found [Here](https://gist.github.com/sisby-folk/af78214db3631ccbf68c61da94d44505)
+<img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/55819817/172377429-370926d7-2bb9-487b-9971-e63021e5a264.png">
 
-## Mods
+**Tinkerer's Quilt** is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.     
+It runs on minecraft version 1.18.2 and the **Quilt** mod loader
 
-Mods, Repacked mods, resource packs, shader packs, and data packs.
+
+The design of the pack is focused around **three pillars**:
+
+------
+
+**Vanilla Compatibility**
+ - **No new items, no new blocks, and no changes to worldgen.** Bring in old saves and possibly even keep Tinkerer's Quilt saves for vanilla use! (no guarantees)
+
+**Usability, Accessbility, Discoverability**
+  - More of the game accessible to more players in more pleasant ways.
+    - **QoL changes** to reduce minor annoyances, **balance changes** to avoid pain points and flatten power creep through buffs, and **minor mechanic changes** to bring more depth and draw to easily-ignored systems.
+      - Changes to avoid in-game pain points for certain players - Including changes for playing with "Vegetarianism" (no harming passive mobs), and buffs and improvements to pets and mounts.
+    - **In-game sources of direction and information**, with quests covering both vanilla progression and features, along with what's changed in the pack. And of course, the legendary in-game crafting wiki itself - REI.
+
+      - Provide returning players information on new features and content the game has included since they might last have played.
+  
+      - Provide shortcuts to players to help them progress and to get into "Special Interest" systems they might otherwise avoid, and reward them for investing their time into each.
+
+**Individual Expression**
+ - Easily swappable character appearances that go further in-depth than the vanilla game - all explained in the quest book. Show your colours with **nonhuman skin features, varied heights, and new flavours of gameplay**.
+
+   - Designed with systems in mind, reworking where possible to make these "expressives" swappable on the fly.
+
+The name is based around the creators, not the content - sorry!
+
+---
+
+# Installation
+
+ - Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (most windows users will want `Windows-x64-JRE-17-.msi`)
+
+   - `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17` works too!
+
+ - Download [Tinkerer's Quilt.zip](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%201.18.2.zip)
+
+ - Drag and drop onto an open PolyMC window!
+
+---
+
+# Performance Impact
+Negative (thanks jellysquid et al)
+
+Render Distance: 12 Chunks. 
+3500U + Vega 8. 
+Sprinting, forcing new chunks to load. 
+Vanilla (Left) - Tinkerer's Quilt (Right)
+
+<img width="500" height="288" src="https://user-images.githubusercontent.com/55819817/172338808-062954c2-6e43-4b30-bd35-572167840c72.png"><img width="500" height="288" src="https://user-images.githubusercontent.com/55819817/172338559-39ae33ee-49bd-4cf1-806a-1b7358e16733.png">
+
+---
+
+# Modlist
+
 
 ```
 AdvancementInfo
@@ -148,7 +201,7 @@ Vanilla Tweaks
 Tinkerer's Edits for Minecraft ""vegetarianism"" (homebrew)
 ```
 
-## Credits 
+# Credits 
 ```
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
