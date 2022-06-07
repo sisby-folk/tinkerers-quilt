@@ -1,5 +1,3 @@
-# Intro
-
 ------
 
 <img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/55819817/172377429-370926d7-2bb9-487b-9971-e63021e5a264.png">
