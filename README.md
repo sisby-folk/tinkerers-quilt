@@ -4,8 +4,11 @@
 
 Some information and install instructions can be found [Here](https://gist.github.com/sisby-folk/af78214db3631ccbf68c61da94d44505)
 
-## Mods and Data/Resource/Shader Packs
+## Mods
 
+Mods, Repacked mods, resource packs, shader packs, and data packs.
+
+```
 AdvancementInfo
 Ambient Environment
 Animatica
@@ -142,10 +145,12 @@ Vanilla Tweaks
 (Origins) Lepus
 (Origins) OriginsPlus
 (Origins) Tinkerer's Statures (homebrew)
-
+Tinkerer's Edits for Minecraft ""vegetarianism"" (homebrew)
+```
 
 ## Credits 
-
+```
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
 OriginsPlus and Lepus: Dan's Other Clone https://www.youtube.com/c/DansOtherClone
+```
