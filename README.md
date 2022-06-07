@@ -54,7 +54,7 @@ Render Distance: 12 Chunks.
 Sprinting, forcing new chunks to load. 
 Vanilla (Left) - Tinkerer's Quilt (Right)
 
-<img width="350" height="288" src="https://user-images.githubusercontent.com/55819817/172338808-062954c2-6e43-4b30-bd35-572167840c72.png"><img width="350" height="288" src="https://user-images.githubusercontent.com/55819817/172338559-39ae33ee-49bd-4cf1-806a-1b7358e16733.png">
+<img width="380" height="288" src="https://user-images.githubusercontent.com/55819817/172338808-062954c2-6e43-4b30-bd35-572167840c72.png"><img width="380" height="288" src="https://user-images.githubusercontent.com/55819817/172338559-39ae33ee-49bd-4cf1-806a-1b7358e16733.png">
 
 ---
 
