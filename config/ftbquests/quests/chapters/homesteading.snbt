@@ -2340,5 +2340,81 @@
 				value: 500000
 			}]
 		}
+		{
+			title: "Accursed Machines"
+			icon: "minecraft:hopper_minecart"
+			x: 9.0d
+			y: -11.5d
+			shape: "hexagon"
+			subtitle: "Begin exploring machines"
+			dependencies: ["55783EE248BAC550"]
+			hide: true
+			id: "322528062359C5A9"
+			tasks: [
+				{
+					id: "29647F01B4D197F7"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "3233395A5229D046"
+					type: "item"
+					item: "minecraft:redstone_torch"
+				}
+				{
+					id: "69664F854B5F66A8"
+					type: "checkmark"
+					title: "Explore Machinery [Click]"
+				}
+			]
+			rewards: [
+				{
+					id: "11EFEA1BBF663BD3"
+					type: "item"
+					item: "minecraft:lever"
+					count: 16
+				}
+				{
+					id: "7C52ADA172848D4B"
+					type: "item"
+					item: "minecraft:stone_button"
+					count: 16
+				}
+				{
+					id: "65546E15954AA223"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64
+				}
+				{
+					id: "40927F3439AA3A91"
+					type: "item"
+					item: "minecraft:repeater"
+					count: 16
+				}
+				{
+					id: "563FE56FAC59E08D"
+					type: "item"
+					item: "minecraft:comparator"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Dispensary"
+			x: 10.5d
+			y: -11.5d
+			subtitle: "Craft a Dispenser"
+			description: [
+				"Dispensers are the lifeblood of doing things with redstone, and this is doubly true in this pack."
+				""
+			]
+			id: "52E05DC7ED68C824"
+			tasks: [{
+				id: "1F606E3FDB50CED9"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+		}
 	]
 }

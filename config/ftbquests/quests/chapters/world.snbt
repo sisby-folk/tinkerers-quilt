@@ -602,6 +602,7 @@
 			y: -7.0d
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
+			hide: true
 			id: "61E3A3B353DCD588"
 			tasks: [{
 				id: "63DE6483F0A04B81"
@@ -657,6 +658,17 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			id: "3D08C518610A72F1"
+			tasks: [{
+				id: "47AE4D2F39DC80E2"
+				type: "biome"
+				icon: "minecraft:bamboo"
+				biome: "minecraft:bamboo_jungle"
 			}]
 		}
 	]
