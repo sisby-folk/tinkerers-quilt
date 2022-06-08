@@ -32,6 +32,7 @@
 			tasks: [{
 				id: "314AE6BD6989969B"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:bow"
 					Count: 1b
@@ -79,7 +80,7 @@
 				""
 				"They can be enchanted to pierce through enemies, shoot multiple arrows, and more."
 				""
-				"They can also fire firework rockets, dealing explosive damage."
+				"They can also fire firework rockets made with firework stars. Each firework star added (up to 7) increases damage. Careful!"
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -87,6 +88,7 @@
 			tasks: [{
 				id: "145253845DFC11C4"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:crossbow"
 					Count: 1b
@@ -97,12 +99,6 @@
 			}]
 			rewards: [
 				{
-					id: "715E3056DA36D20F"
-					type: "item"
-					item: "minecraft:firework_rocket"
-					count: 16
-				}
-				{
 					id: "15AEF76194DAE572"
 					type: "item"
 					item: {
@@ -112,6 +108,50 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "5970722A25047306"
+					type: "item"
+					item: {
+						id: "minecraft:firework_rocket"
+						Count: 1b
+						tag: {
+							Fireworks: {
+								Flight: 1b
+								Explosions: [
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+									{
+										Type: 1b
+										Colors: [I;15790320]
+									}
+								]
+							}
+						}
+					}
+					count: 16
 				}
 			]
 		}
@@ -189,6 +229,7 @@
 			tasks: [{
 				id: "7A3DABD5009149C4"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:shield"
 					Count: 1b
@@ -275,6 +316,7 @@
 			tasks: [{
 				id: "423493D133AB8111"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:trident"
 					Count: 1b
@@ -322,7 +364,7 @@
 				""
 				"All armor is enchantable. Golden armor is the easiest to enchant, but has a low durability."
 				""
-				"All armor can be enchanted with one of the four \"Protections\". *Protection* reduces all damage by 4% per level - Other protections (projectile, blast, fire) reduce damage by 8% per level. Thorns can also be added, dealing damage to attackers on direct attacks."
+				"All armor can be enchanted with a maximum of one of the four \"Protections\". *Protection* reduces all damage by 4% per level - Other protections (projectile, blast, fire) reduce damage by 8% per level. Thorns can also be added, dealing damage to attackers on direct attacks."
 				""
 				"Helmets can also be enchanted with Respiration, which increases water breath time, and Aqua Affinity, which improves underwater mining."
 				""
@@ -336,6 +378,7 @@
 					id: "72AE8CA31BEC3944"
 					type: "item"
 					title: "Any Boots"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -348,6 +391,7 @@
 					id: "4DC5C93AD5B25BBB"
 					type: "item"
 					title: "Any Leggings"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -360,6 +404,7 @@
 					id: "3F128FDAF39A72A0"
 					type: "item"
 					title: "Any Chestplate"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -372,6 +417,7 @@
 					id: "5497F18CED1A1CD1"
 					type: "item"
 					title: "Any Helmet"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -929,6 +975,7 @@
 			y: 2.0d
 			shape: "pentagon"
 			subtitle: "face danger head-on"
+			description: ["*Stay safe*"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2D49941B8AEF7256"
@@ -943,6 +990,80 @@
 				type: "checkmark"
 				title: "Meet shoulder-to-shoulder [Click]"
 			}]
+			rewards: [
+				{
+					id: "008F068D27D3148E"
+					type: "item"
+					item: {
+						id: "minecraft:light_blue_banner"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Athena\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "dls"
+										Color: 0
+									}
+									{
+										Pattern: "gra"
+										Color: 11
+									}
+									{
+										Pattern: "gra"
+										Color: 0
+									}
+									{
+										Pattern: "gra"
+										Color: 11
+									}
+									{
+										Pattern: "tts"
+										Color: 4
+									}
+									{
+										Pattern: "bo"
+										Color: 4
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "21309049BC4259E0"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Enchantments: [
+								{
+									id: "minecraft:fire_protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:blast_protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 4s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Divine Dashplate\", \"color\":\"yellow\"}"
+								Lore: ["{\"text\":\"Gift of Athena\"}"]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Path of the Gladiator"
@@ -1147,6 +1268,7 @@
 			y: -8.5d
 			shape: "pentagon"
 			subtitle: "Send monsters back to Hell"
+			description: ["*Invest in these, they'll return the favour.*"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7BA5B355C7DFF7E3"
@@ -1177,6 +1299,7 @@
 					id: "6EE4EB7F7556CC79"
 					type: "item"
 					title: "The Fee [Click]"
+					disable_toast: true
 					item: "minecraft:emerald_block"
 					count: 2L
 					consume_items: true
@@ -1241,6 +1364,10 @@
 						Count: 1b
 						tag: {
 							RepairCost: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 2s
+							}]
 							BlockEntityTag: {
 								Base: 15
 								Patterns: [
@@ -1305,7 +1432,7 @@
 							Damage: 0
 							display: {
 								Name: "{\"text\":\"Exagryph\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"Adamant Rail\"}"]
+								Lore: ["{\"text\":\"The Adamant Rail\"}"]
 							}
 						}
 					}
@@ -1331,8 +1458,99 @@
 							Damage: 0
 							display: {
 								Name: "{\"text\":\"Coronacht\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"Heart-Seeking Bow\"}"]
+								Lore: ["{\"text\":\"The Heart-Seeking Bow\"}"]
 							}
+						}
+					}
+				}
+				{
+					id: "1D4362E8C41C383F"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Enchantments: [{
+								id: "minecraft:riptide"
+								lvl: 5s
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Varatha\", \"color\":\"gold\"}"
+								Lore: [
+									"{\"text\":\"The Eternal Spear\"}"
+									"{\"text\":\"  Aspect of Achilles\"}"
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "165D9A617B8BA360"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [{
+								id: "minecraft:sweeping"
+								lvl: 30s
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Stygius\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Blade of the Underworld\"}"]
+							}
+						}
+					}
+				}
+				{
+					id: "05F828B8616A9507"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 4s
+							}]
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
+							Damage: 0
+							AttributeModifiers: [
+								{
+									Amount: 20
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										1651970931
+										-1508882340
+										-1475386211
+										-1849167428
+									]
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+								}
+								{
+									Amount: 2
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										262443461
+										-2043656626
+										-1590731523
+										48632754
+									]
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+								}
+							]
 						}
 					}
 				}
@@ -1363,6 +1581,7 @@
 			tasks: [{
 				id: "6E56DAE917B8B5AD"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:lingering_potion"
 					Count: 1b
