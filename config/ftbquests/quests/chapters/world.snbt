@@ -1,9 +1,9 @@
 {
 	id: "21C1A3CB857EC4AE"
-	group: "76943CFECD75C4AD"
-	order_index: 0
+	group: "6B747C3DB5A16A71"
+	order_index: 2
 	filename: "world"
-	title: "World"
+	title: "Exploration"
 	icon: "minecraft:globe_banner_pattern"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -56,8 +56,8 @@
 		}
 		{
 			title: "Snorkel not included"
-			x: 2.0d
-			y: 0.5d
+			x: -17.0d
+			y: -2.5d
 			subtitle: "Find an Ocean Monument"
 			description: [
 				"1.8 added Ocean Monuments - underground fortresses with niche loot but interesting architecture."
@@ -86,8 +86,8 @@
 		}
 		{
 			title: "Farm Favourites!"
-			x: -1.5d
-			y: 2.0d
+			x: -8.0d
+			y: 1.5d
 			subtitle: "Collect a Honeycomb using Shears"
 			description: [
 				"Minecraft 1.15 added Bees! allowing you to add them to your farms as pollinators and collect their honey."
@@ -119,8 +119,8 @@
 		}
 		{
 			title: "TRUCK PARTS!!!"
-			x: -0.5d
-			y: -1.5d
+			x: -4.0d
+			y: -2.5d
 			subtitle: "Find an Abandoned Mineshaft"
 			description: [
 				"Abandoned mineshafts are a good way to find your way between caves and collect loot (especially minecarts and rails!)"
@@ -162,8 +162,8 @@
 		}
 		{
 			title: "Prettier than the average cave"
-			x: -1.5d
-			y: -3.0d
+			x: -15.5d
+			y: -0.5d
 			subtitle: "Find a Lush Cave"
 			description: ["Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."]
 			id: "0305A29ECBFA79FA"
@@ -190,8 +190,8 @@
 		}
 		{
 			title: "Underwater Fighting Team!"
-			x: -1.5d
-			y: -4.5d
+			x: -15.5d
+			y: 1.5d
 			subtitle: "Bucket an Axolotl"
 			dependencies: ["0305A29ECBFA79FA"]
 			hide: true
@@ -237,8 +237,8 @@
 		}
 		{
 			title: "A Proper Story"
-			x: -2.5d
-			y: -1.5d
+			x: -5.5d
+			y: -2.5d
 			subtitle: "Find a Bastion Remnant"
 			description: [
 				"These ruins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
@@ -255,8 +255,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -5.5d
+			y: -4.0d
 			shape: "hexagon"
 			subtitle: "Find a Lodestone"
 			description: ["Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."]
@@ -317,8 +317,8 @@
 		}
 		{
 			title: "Hey, Little Blue!"
-			x: 0.0d
-			y: 0.5d
+			x: -14.0d
+			y: 3.5d
 			subtitle: "Find a Turtle"
 			description: [
 				"Turtles can be found roaming on beaches. And can be bred using Seagrass"
@@ -344,7 +344,7 @@
 		}
 		{
 			title: "Cowabunga!"
-			x: 1.5d
+			x: -14.0d
 			y: 1.5d
 			shape: "hexagon"
 			subtitle: "Craft a Turtle Shell"
@@ -528,9 +528,10 @@
 		}
 		{
 			title: "Not for the faint of heart"
-			x: -3.0d
-			y: 0.5d
+			x: -6.5d
+			y: -2.5d
 			subtitle: "Find a Mansion"
+			dependencies: ["1EA97FD583A20884"]
 			id: "7CEE48A412C94320"
 			tasks: [{
 				id: "613A669B401CB42E"
@@ -540,8 +541,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
+			x: -6.5d
+			y: -4.0d
 			dependencies: ["7CEE48A412C94320"]
 			hide: true
 			id: "3C5FCE8C61F8A84B"
@@ -553,8 +554,8 @@
 		}
 		{
 			title: "Come on, P!"
-			x: -5.0d
-			y: -0.5d
+			x: -9.5d
+			y: 1.5d
 			subtitle: "Acquire an Amethyst Shard"
 			description: ["Amethyst grows in large geodes underground, and can be used to make Tinted Glass for your builds."]
 			id: "2393A9D50B18EEAE"
@@ -572,8 +573,8 @@
 		}
 		{
 			title: "Catch"
-			x: 2.0d
-			y: -0.5d
+			x: -11.0d
+			y: 1.5d
 			subtitle: "Dig up a Snowball"
 			description: [
 				"Snowballs can be thrown to knock mobs around slightly"
@@ -598,7 +599,7 @@
 		{
 			title: "Mercury"
 			icon: "minecraft:spyglass"
-			x: -1.5d
+			x: -11.5d
 			y: -7.0d
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
@@ -607,7 +608,7 @@
 			tasks: [{
 				id: "63DE6483F0A04B81"
 				type: "checkmark"
-				title: "Click Here!"
+				title: "Observatory high tea [Click]"
 			}]
 			rewards: [{
 				id: "259FC60D45DEDA9F"
@@ -661,14 +662,140 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.5d
+			x: -17.0d
+			y: -0.5d
 			id: "3D08C518610A72F1"
 			tasks: [{
 				id: "47AE4D2F39DC80E2"
 				type: "biome"
 				icon: "minecraft:bamboo"
 				biome: "minecraft:bamboo_jungle"
+			}]
+		}
+		{
+			icon: "minecraft:spruce_stairs"
+			x: -8.0d
+			y: -2.5d
+			id: "30EEC5B4C5178E93"
+			tasks: [{
+				id: "19B47DDA285B5750"
+				type: "structure"
+				structure: "minecraft:pillager_outpost"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			id: "7FC50C764AF1D65A"
+			tasks: [{
+				id: "27B5E2FB0A7F43F8"
+				type: "structure"
+				icon: "minecraft:dark_oak_boat"
+				structure: "minecraft:shipwreck"
+			}]
+		}
+		{
+			icon: "minecraft:chiseled_sandstone"
+			x: -11.0d
+			y: -2.5d
+			id: "5CF8EB5303569739"
+			tasks: [{
+				id: "09796221B64CFFF4"
+				type: "structure"
+				structure: "minecraft:desert_pyramid"
+			}]
+		}
+		{
+			icon: "minecraft:mossy_stone_bricks"
+			x: -14.0d
+			y: -2.5d
+			dependencies: ["4B74AEAA4D30B428"]
+			id: "5F4CDC9DB19F6B49"
+			tasks: [{
+				id: "734C2555CE2C2618"
+				type: "structure"
+				structure: "minecraft:jungle_pyramid"
+			}]
+		}
+		{
+			icon: "minecraft:prismarine_wall"
+			x: -15.5d
+			y: -2.5d
+			id: "6FB48CC24D3230F5"
+			tasks: [{
+				id: "5D59AF700C3FD338"
+				type: "structure"
+				structure: "minecraft:ocean_ruin_cold"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			id: "0EFAB7B8A93FB8BB"
+			tasks: [{
+				id: "3619EC0F75E5445E"
+				type: "biome"
+				icon: "minecraft:mycelium"
+				biome: "minecraft:mushroom_fields"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			dependencies: ["10CFFE20ABD36803"]
+			id: "1932327D56163D18"
+			tasks: [{
+				id: "50E52E8C54CF6323"
+				type: "biome"
+				icon: "minecraft:dripstone_block"
+				biome: "minecraft:dripstone_caves"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.5d
+			id: "10CFFE20ABD36803"
+			tasks: [{
+				id: "2D7A058F67957E97"
+				type: "observation"
+				title: "Find Deepslate"
+				icon: "minecraft:deepslate"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:deepslate"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			id: "0C42AC52CDDEF4BB"
+			tasks: [{
+				id: "6547EBF566C0E5D9"
+				type: "biome"
+				icon: "minecraft:lily_pad"
+				biome: "minecraft:swamp"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			id: "1EA97FD583A20884"
+			tasks: [{
+				id: "464044A582E87B61"
+				type: "biome"
+				icon: "minecraft:dark_oak_sapling"
+				biome: "minecraft:dark_oak_forest"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -0.5d
+			id: "4B74AEAA4D30B428"
+			tasks: [{
+				id: "6529785FCB4BFBCA"
+				type: "biome"
+				icon: "minecraft:jungle_sapling"
+				biome: "minecraft:jungle"
 			}]
 		}
 	]

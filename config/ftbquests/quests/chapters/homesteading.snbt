@@ -1,7 +1,7 @@
 {
 	id: "746E19B508D7413D"
-	group: "614D55B25CC6BACC"
-	order_index: 1
+	group: "6B747C3DB5A16A71"
+	order_index: 0
 	filename: "homesteading"
 	title: "Homesteading"
 	icon: "minecraft:jungle_planks"
@@ -305,9 +305,16 @@
 			hide: true
 			id: "1FFD2B27BC87EADB"
 			tasks: [{
-				id: "4DDBDC4E84C56443"
+				id: "6BBB2677D85E0344"
 				type: "item"
-				item: "minecraft:oak_fence_gate"
+				title: "Any #tinkerer:fence_gates"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tinkerer:fence_gates"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -335,7 +342,7 @@
 				""
 				"They're also slightly bouncy!"
 				""
-				"You can sneak-click on interactables to place things on top of them."
+				"You can sneak-click on interactables to place things on top of them. Try making a bedside table!"
 			]
 			id: "20E2938DD7365207"
 			tasks: [{
@@ -1127,6 +1134,8 @@
 				"Boats allow you to move long distances over water without a hunger cost."
 				""
 				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
+				""
+				"Filling a glass bottle while underwater will replenish 1 bubble."
 			]
 			id: "423E897DEB76653D"
 			tasks: [{
@@ -1414,12 +1423,6 @@
 					item: "minecraft:leather_horse_armor"
 				}
 				{
-					id: "1A2C8CF7874030CE"
-					type: "item"
-					item: "minecraft:golden_carrot"
-					count: 10
-				}
-				{
 					id: "681402F43E21EDA4"
 					type: "item"
 					item: {
@@ -1441,7 +1444,7 @@
 			}
 			x: -7.5d
 			y: -10.5d
-			subtitle: "Swim 300 Blocks"
+			subtitle: "Swim 500 Blocks"
 			description: ["By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1455,7 +1458,7 @@
 					tag: { }
 				}
 				stat: "minecraft:swim_one_cm"
-				value: 30000
+				value: 50000
 			}]
 			rewards: [
 				{
@@ -1522,7 +1525,7 @@
 			tasks: [{
 				id: "586A744062E94A9A"
 				type: "checkmark"
-				title: "Follow the path of the Farmer"
+				title: "Follow the path of the Farmer [Click]"
 			}]
 		}
 		{
@@ -1955,68 +1958,61 @@
 			tasks: [{
 				id: "39DC4F3432624CFD"
 				type: "checkmark"
-				title: "Chill with a nature diety [Click]"
+				title: "Chill out over tea [Click]"
 			}]
-			rewards: [
-				{
-					id: "1BBA268D72446F79"
-					type: "xp_levels"
-					xp_levels: 60
-				}
-				{
-					id: "4BBCD767172D1A8B"
-					type: "item"
-					item: {
-						id: "minecraft:black_banner"
-						Count: 1b
-						tag: {
-							display: {
-								Name: "{\"text\":\"Gaia\"}"
-							}
-							BlockEntityTag: {
-								Patterns: [
-									{
-										Pattern: "ss"
-										Color: 12
-									}
-									{
-										Pattern: "hh"
-										Color: 15
-									}
-									{
-										Pattern: "tts"
-										Color: 13
-									}
-									{
-										Pattern: "bts"
-										Color: 15
-									}
-									{
-										Pattern: "flo"
-										Color: 13
-									}
-									{
-										Pattern: "mr"
-										Color: 12
-									}
-									{
-										Pattern: "mc"
-										Color: 5
-									}
-									{
-										Pattern: "mc"
-										Color: 13
-									}
-									{
-										Pattern: "sku"
-										Color: 12
-									}
-								]
-							}
+			rewards: [{
+				id: "4BBCD767172D1A8B"
+				type: "item"
+				item: {
+					id: "minecraft:black_banner"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Gaia\"}"
+						}
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Pattern: "ss"
+									Color: 12
+								}
+								{
+									Pattern: "hh"
+									Color: 15
+								}
+								{
+									Pattern: "tts"
+									Color: 13
+								}
+								{
+									Pattern: "bts"
+									Color: 15
+								}
+								{
+									Pattern: "flo"
+									Color: 13
+								}
+								{
+									Pattern: "mr"
+									Color: 12
+								}
+								{
+									Pattern: "mc"
+									Color: 5
+								}
+								{
+									Pattern: "mc"
+									Color: 13
+								}
+								{
+									Pattern: "sku"
+									Color: 12
+								}
+							]
 						}
 					}
 				}
-			]
+			}]
 		}
 		{
 			title: "Mushroom Farming"
@@ -2250,7 +2246,7 @@
 			tasks: [{
 				id: "7D62C1C889EBCCF0"
 				type: "checkmark"
-				title: "Mercury"
+				title: "Tag along [Click]"
 			}]
 			rewards: [{
 				id: "11148912213C7C5F"
@@ -2317,7 +2313,7 @@
 			tasks: [{
 				id: "04B0358DDE85654B"
 				type: "checkmark"
-				title: "Click Here!"
+				title: "Rest by the fire [Click]"
 			}]
 		}
 		{
@@ -2338,6 +2334,12 @@
 				icon: "minecraft:saddle"
 				stat: "minecraft:horse_one_cm"
 				value: 500000
+			}]
+			rewards: [{
+				id: "0DEF357A8093D66F"
+				type: "item"
+				item: "minecraft:golden_carrot"
+				count: 10
 			}]
 		}
 		{

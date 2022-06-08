@@ -1,7 +1,7 @@
 {
 	id: "18300B5482AC0CC0"
-	group: "614D55B25CC6BACC"
-	order_index: 2
+	group: "6B747C3DB5A16A71"
+	order_index: 1
 	filename: "combat"
 	title: "Self-Defense"
 	icon: {
@@ -16,15 +16,15 @@
 	quests: [
 		{
 			title: "Longshot"
-			x: -1.5d
+			x: -3.5d
 			y: -4.0d
 			subtitle: "Acquire a Bow"
 			description: [
 				"Arrows can be made by scavenging from skeletons, or crafting."
 				""
-				"Bows can be enchanted."
+				"Bows can be enchanted to increase damage, knockback, light enemies on fire, and even shoot infinite arrows."
 				""
-				"Special effect arrows can be created through Brewing."
+				"Arrows of harming deal less damage to undead mobs, but more damage to others. Arrows of healing deal more damage to undead mobs, but less to others."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -40,27 +40,42 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "563CD36069D1D81A"
-				type: "item"
-				item: {
-					id: "minecraft:tipped_arrow"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_harming"
+			rewards: [
+				{
+					id: "563CD36069D1D81A"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
 					}
+					count: 16
 				}
-				count: 32
-			}]
+				{
+					id: "5D87F90592336743"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					count: 16
+				}
+			]
 		}
 		{
-			x: -3.5d
+			title: "Very enthusiastic walks"
+			x: -1.5d
 			y: -4.0d
 			subtitle: "Acquire a Crossbow"
 			description: [
 				"Crossbows can be crafted, or dropped from pillagers."
 				""
-				"Unlike bows, they're individually loaded and fired, allowing for many to be loaded at once."
+				"Unlike bows, they're individually loaded and fired, allowing for many to be loaded at once - say, a whole toolbar full."
 				""
 				"They can be enchanted to pierce through enemies, shoot multiple arrows, and more."
 				""
@@ -80,15 +95,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "715E3056DA36D20F"
-				type: "item"
-				item: "minecraft:firework_rocket"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "715E3056DA36D20F"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 16
+				}
+				{
+					id: "15AEF76194DAE572"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
-			title: "Others-Offence"
+			title: "Direct Approach"
 			x: -1.5d
 			y: -2.0d
 			shape: "rsquare"
@@ -142,6 +170,7 @@
 			}]
 		}
 		{
+			title: "AC +2"
 			x: -3.5d
 			y: -2.0d
 			subtitle: "Craft a Shield"
@@ -149,6 +178,10 @@
 				"Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks."
 				""
 				"Shields can be equipped with banners and renamed. They can be enchanted with books, and in this pack, they can also be enchanted at a table."
+				""
+				"Along with shields - bows, crossbows, snowballs, ender pearls, tridents, fishing rods, flint and steel, food, and potions and milk - can all be utilized in the off-hand for combat."
+				""
+				"While a shield may appear to be the most defensive off-hand option, sometimes a stack of good food can be moreso."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -214,6 +247,12 @@
 						}
 					}
 				}
+				{
+					id: "602BE26182C32F8A"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 10
+				}
 			]
 		}
 		{
@@ -222,9 +261,13 @@
 			y: -2.0d
 			subtitle: "Acquire a Trident"
 			description: [
-				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins."
+				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins. In this pack, they can also be crafted using prismarine shards, which drop from guardians in ocean monuments."
 				""
 				"In this pack, tridents can be enchanted to deal more damage."
+				""
+				"Tridents need to be picked up after throwing, unless they're enchanted with Loyalty or Riptide. "
+				""
+				"Loyalty causes the trident to return after being thrown. Riptide turns the trident throw into a lunging melee attack."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -241,22 +284,24 @@
 				}
 			}]
 			rewards: [{
-				id: "7DEC4FBAE4CF706D"
-				type: "item"
-				item: {
+				id: "51CC401C11221252"
+				type: "choice"
+				title: "Loyalty or Riptide"
+				icon: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							id: "minecraft:riptide"
-							lvl: 3s
+							id: "minecraft:loyalty"
+							lvl: 1s
 						}]
 					}
 				}
+				table_id: 5337977195198082252L
 			}]
 		}
 		{
-			title: "Well-Dressed"
+			title: "No Service"
 			icon: {
 				id: "minecraft:leather_chestplate"
 				Count: 1b
@@ -268,41 +313,141 @@
 			y: 0.0d
 			shape: "hexagon"
 			subtitle: "Acquire armor for every slot"
+			description: [
+				"Armor provides Defense, which incrementally reduces the damage taken from attacks."
+				""
+				"Diamond and Netherite armor provide Toughness, which reduces the damage of high-damage attacks even more."
+				""
+				"Netherite also provides knockback resistance, up to 40% with a full set."
+				""
+				"All armor is enchantable. Golden armor is the easiest to enchant, but has a low durability."
+				""
+				"All armor can be enchanted with one of the four \"Protections\". *Protection* reduces all damage by 4% per level - Other protections (projectile, blast, fire) reduce damage by 8% per level. Thorns can also be added, dealing damage to attackers on direct attacks."
+				""
+				"Helmets can also be enchanted with Respiration, which increases water breath time, and Aqua Affinity, which improves underwater mining."
+				""
+				"Boots can also be enchanted with Feather Falling, which reduces fall damage (up to V in this pack, which negates it)."
+			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "6F439133A6E64D41"
+			tasks: [
+				{
+					id: "72AE8CA31BEC3944"
+					type: "item"
+					title: "Any Boots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tinkerer:boots"
+						}
+					}
+				}
+				{
+					id: "4DC5C93AD5B25BBB"
+					type: "item"
+					title: "Any Leggings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tinkerer:leggings"
+						}
+					}
+				}
+				{
+					id: "3F128FDAF39A72A0"
+					type: "item"
+					title: "Any Chestplate"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tinkerer:chestplates"
+						}
+					}
+				}
+				{
+					id: "5497F18CED1A1CD1"
+					type: "item"
+					title: "Any Helmet"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tinkerer:helmets"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "66EA84057C1C7C46"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:thorns"
+							lvl: 2s
+						}]
+					}
+				}
+			}]
 		}
 		{
+			title: "Working Dead"
 			icon: "minecraft:zombie_head"
 			x: -0.5d
 			y: -5.0d
+			subtitle: "Kill 50 Zombies"
+			description: [
+				"Spawning in droves at night and in caves. Zombies' slow melee amble can be outmaneuvered and outplayed in many ways."
+				""
+				"Try \"pillaring\" by jumping and placing two blocks beneath you. This allows you to easily kill any zombies as long as no skeletons are nearby."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "21738CE4F9A8D8ED"
 			tasks: [{
 				id: "68CCD723DFFF39DD"
 				type: "kill"
+				icon: "minecraft:zombie_head"
+				disable_toast: true
 				entity: "minecraft:zombie"
 				value: 50L
 			}]
 		}
 		{
+			title: "Underground Corruption"
 			icon: "minecraft:skeleton_skull"
 			x: -0.5d
 			y: -8.0d
+			subtitle: "Kill 20 Skeletons"
+			description: [
+				"Skeletons are difficult when unarmored and unshielded, especially in tight spaces where you can't sprint around them."
+				""
+				"Solving any of these problems should give you an easier time. They also drop the arrows they fire for you to pick up."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "3CF0AC2D4BCAC32A"
 			tasks: [{
 				id: "6FFE533C983C9A1D"
 				type: "kill"
+				icon: "minecraft:skeleton_skull"
+				disable_toast: true
 				entity: "minecraft:skeleton"
 				value: 20L
 			}]
 		}
 		{
+			title: "Aw man"
 			x: -0.5d
 			y: -6.0d
+			subtitle: "Kill 15 Creepers"
+			description: ["Creeper explosions don't destroy blocks in this pack, but they still pack a punch! They're easiest taken out from a distance, or using singular sprint-jumping strikes. Knockback-enchanted weapons are effective too."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "2BA288C7EE0930DB"
@@ -310,40 +455,80 @@
 				id: "36FE4BD5E967A888"
 				type: "kill"
 				icon: "minecraft:creeper_head"
+				disable_toast: true
 				entity: "minecraft:creeper"
 				value: 15L
 			}]
+			rewards: [{
+				id: "79AD730DF7ED49A0"
+				type: "item"
+				item: "minecraft:music_disc_cat"
+			}]
 		}
 		{
+			title: "Hostile Architecture"
 			icon: "minecraft:prismarine_bricks"
 			x: 1.0d
 			y: -7.0d
+			subtitle: "Kill 4 Guardians"
+			description: [
+				"Guardians can be found surrounding ocean monuments."
+				""
+				"Guardians fire charge-up lasers at the player, which can't be blocked or dodged. Rushing a guardian or attacking from very long range are the only options."
+				""
+				"When a guardian's spikes are extended, it deals damage when hit."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "694FD9F0D62B459F"
 			tasks: [{
 				id: "779F514660FF7C50"
 				type: "kill"
+				icon: "minecraft:prismarine_bricks"
+				disable_toast: true
 				entity: "minecraft:guardian"
 				value: 4L
 			}]
 		}
 		{
+			title: "Into the Deep"
 			x: -5.5d
 			y: 1.0d
+			subtitle: "Vanquish Three Elder Guardians"
+			description: [
+				"Three Elder Guardians live at the heart of Ocean Monuments - Giant underwater temples that restrict your mining ability."
+				""
+				"They fire slow-firing lasers at the player and allied axolotls, and have 40 hearts of health."
+				""
+				"Dodging isn't possible, and the guardian shouldn't be hit while it's spikes are extended."
+			]
 			dependencies: ["4FE0BE6BF0009C4E"]
+			hide: true
 			id: "30ED364C540672C8"
 			tasks: [{
 				id: "47F16DEAF8370460"
 				type: "kill"
 				icon: "minecraft:dark_prismarine"
+				disable_toast: true
 				entity: "minecraft:elder_guardian"
-				value: 1L
+				value: 3L
+			}]
+			rewards: [{
+				id: "01D56A801BFE61E5"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
 			}]
 		}
 		{
+			title: "Plague ?/10"
 			x: 1.0d
 			y: -8.0d
+			subtitle: "Kill a Silverfish"
+			description: [
+				"Silverfish rarely inhabit stone underground, but are guaranteed to be found in the portal room in a Stronghold."
+				""
+				"If a silverfish is hit but not killed, it calls nearby silverfish to its aid."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "4FC61BF1949C8BE9"
@@ -351,27 +536,51 @@
 				id: "3FC5F826E273A912"
 				type: "kill"
 				icon: "minecraft:infested_mossy_stone_bricks"
+				disable_toast: true
 				entity: "minecraft:silverfish"
 				value: 1L
 			}]
 		}
 		{
+			title: "Onslaught"
 			x: -4.5d
 			y: 1.5d
 			subtitle: "Defeat a Raid"
-			description: ["This covers goals for Pillagers, Vindicators, Evokers, Witches, and Ravagers."]
+			description: [
+				"After defeating a banner-wielding pillager, which can be found at outposts or hunting the player - they are afflicted with \"Bad Omen\" until they drink milk. If they enter a village, this will trigger a raid."
+				""
+				"Face several waves of Pillagers, Vindicators, Evokers, Witches, and Ravagers - all while trying to protect the villagers."
+			]
 			dependencies: ["4FE0BE6BF0009C4E"]
+			hide: true
 			id: "2D49941B8AEF7256"
 			tasks: [{
 				id: "11414E2921EACBED"
 				type: "advancement"
+				disable_toast: true
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "2ACF516C6FDB4853"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 2
+				}
+				{
+					id: "45B29FBEBA30C087"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+			]
 		}
 		{
+			title: "Sometimes she's a skhost"
 			x: 2.5d
 			y: -7.5d
+			subtitle: "Kill 3 Ghasts"
+			description: ["Ghasts spawn occasionally flying around the nether. They can be hard to kill, but are most reliably killed with a bow or by reflecting their shots with a sword."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "35AED8D09C7CF638"
@@ -379,20 +588,26 @@
 				id: "30B010BB2CE92D56"
 				type: "kill"
 				icon: "minecraft:ghast_tear"
+				disable_toast: true
 				entity: "minecraft:ghast"
 				value: 3L
 			}]
 		}
 		{
+			title: "All 120 Vertices"
 			icon: "minecraft:magma_cream"
 			x: 2.5d
 			y: -5.5d
+			subtitle: "Kill 15 Magma Cubes"
+			description: ["Magma cubes spawn plentifully in the nether, and split into smaller versions when killed."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "52AC9ECD81435809"
 			tasks: [{
 				id: "162DEDE2FB3C1168"
 				type: "kill"
+				icon: "minecraft:magma_cream"
+				disable_toast: true
 				entity: "minecraft:magma_cube"
 				value: 15L
 			}]
@@ -403,7 +618,9 @@
 			x: -3.5d
 			y: 1.5d
 			subtitle: "Kill the Wither"
+			description: ["See \"The Basics\""]
 			dependencies: ["4FE0BE6BF0009C4E"]
+			hide: true
 			id: "5CA39231B56AE5CB"
 			tasks: [{
 				id: "42F460492A4ACDC4"
@@ -418,7 +635,9 @@
 			x: -6.0d
 			y: 0.0d
 			subtitle: "Kill the Ender Dragon"
+			description: ["See \"The Basics\""]
 			dependencies: ["4FE0BE6BF0009C4E"]
+			hide: true
 			id: "3BBB8E131ECD4FF5"
 			tasks: [{
 				id: "5ECADB3B034C0997"
@@ -430,8 +649,15 @@
 			}]
 		}
 		{
+			title: "405 too few i guess"
 			x: 3.5d
 			y: -7.5d
+			subtitle: "Kill 15 Blazes"
+			description: [
+				"Blazes spawn in packs in nether fortresses, or from spawners also found there."
+				""
+				"They fire their fire shots in small groups, before needing to recharge."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "349E511AA603A620"
@@ -439,27 +665,44 @@
 				id: "4D3BB7698E3126D7"
 				type: "kill"
 				icon: "minecraft:blaze_powder"
+				disable_toast: true
 				entity: "minecraft:blaze"
 				value: 15L
 			}]
 		}
 		{
+			title: "Come Hither"
 			icon: "minecraft:wither_skeleton_skull"
 			x: 2.5d
 			y: -6.5d
+			subtitle: "Kill 6 Wither Skeletons"
+			description: [
+				"Wither skeletons spawn plentifully in nether fortresses, and apply the 'Wither' effect on hit."
+				""
+				"This effect is similar to poison, but can kill the player."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "26CD2014C0B206D0"
 			tasks: [{
 				id: "3FB71FB6BCA65B96"
 				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				disable_toast: true
 				entity: "minecraft:wither_skeleton"
 				value: 6L
 			}]
 		}
 		{
+			title: "And he worked on dark crystal so he knows what he's talking about."
 			x: 3.5d
 			y: -5.5d
+			subtitle: "Kill 4 Hoglins"
+			description: [
+				"Hoglins spawn in crimson forests in the nether, and are hostile."
+				""
+				"They also drop leather."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "6102768050D4F3E5"
@@ -467,13 +710,17 @@
 				id: "1704E69B9488B589"
 				type: "kill"
 				icon: "minecraft:porkchop"
+				disable_toast: true
 				entity: "minecraft:hoglin"
 				value: 4L
 			}]
 		}
 		{
+			title: "Et tu"
 			x: 3.5d
 			y: -6.5d
+			subtitle: "Kill 5 Piglin Brutes"
+			description: ["Piglin brutes spawn in bastion remnants, and have high speed and high damage."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "0CB054935E7926CC"
@@ -487,13 +734,23 @@
 						Damage: 0
 					}
 				}
+				disable_toast: true
 				entity: "minecraft:piglin_brute"
 				value: 5L
 			}]
 		}
 		{
+			title: "Longer Boy"
 			x: 2.0d
 			y: -4.0d
+			subtitle: "Kill 20 Endermen"
+			description: [
+				"Endermen are most easily fought in numbers in the end, and in the desert at night, where the flat light ground makes them very visible."
+				""
+				"Wearing a Carved Pumpkin in your helmet slot prevents enderman from angering on sight. "
+				""
+				"Enderman can't be hit by ranged attacks, and teleport behind you when hit."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "023DDA57ED1603C5"
@@ -501,13 +758,23 @@
 				id: "3DFB272AB2779EA5"
 				type: "kill"
 				icon: "minecraft:ender_pearl"
+				disable_toast: true
 				entity: "minecraft:enderman"
 				value: 20L
 			}]
 		}
 		{
+			title: "You LOSE. Good DAY sir."
 			x: 3.0d
 			y: -4.0d
+			subtitle: "Kill 5 Shulkers"
+			description: [
+				"Shulkers shoot homing bolts that cause levitation on hit, risking high fall damage. "
+				""
+				"The projectiles can be destroyed by hitting them, and enderpearls can be used to negate fall damage."
+				""
+				"Shulkers can \"close\", reducing damage they take."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "68C1E9C446D8A069"
@@ -515,28 +782,44 @@
 				id: "1D2880C0A22B3902"
 				type: "kill"
 				icon: "minecraft:shulker_shell"
+				disable_toast: true
 				entity: "minecraft:shulker"
 				value: 5L
 			}]
 		}
 		{
+			title: "Eye of the Spider"
 			icon: "minecraft:string"
 			x: -0.5d
 			y: -7.0d
+			subtitle: "Kill 30 Spiders"
+			description: [
+				"Spiders can climb walls - but in this pack, they can't climb Glazed Terracotta, and they can't climb when they're wet. "
+				""
+				"Water and splash water bottles can wet spiders this way."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "7BA5B355C7DFF7E3"
 			tasks: [{
 				id: "577F61C1ABAF56B6"
 				type: "kill"
-				icon: "minecraft:spider_eye"
+				icon: "minecraft:string"
+				disable_toast: true
 				entity: "minecraft:spider"
 				value: 30L
 			}]
 		}
 		{
+			title: "Kuzco's Poison"
 			x: 1.0d
 			y: -5.0d
+			subtitle: "Kill 5 Cave Spider"
+			description: [
+				"Cave spiders are spawned from cave spider spawners in abandoned mineshafts, easily found by looking for cobweb-infested areas."
+				""
+				"In normal and above, they inflict posion."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "5E4CDD8923AF498D"
@@ -544,90 +827,94 @@
 				id: "25CF745E88778E86"
 				type: "kill"
 				icon: "minecraft:cobweb"
+				disable_toast: true
 				entity: "minecraft:cave_spider"
 				value: 5L
 			}]
 		}
 		{
+			title: "[Scooby Doo Chase Theme]"
 			icon: "minecraft:prismarine_crystals"
 			x: 1.0d
 			y: -6.0d
+			subtitle: "Kill 15 Drowned"
+			description: [
+				"Drowned spawn underwater, especially in rivers. Zombies that die from drowning also transform into drowned, but don't have a chance of carrying loot. Many drowned spawn around underwater ruins."
+				""
+				"Bows are ineffective underwater, but melee and tridents work fine."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "20147B09F8E40DE9"
 			tasks: [{
 				id: "21B77836A71A4F74"
 				type: "kill"
+				icon: "minecraft:prismarine_crystals"
+				disable_toast: true
 				entity: "minecraft:drowned"
 				value: 15L
 			}]
 		}
 		{
 			title: "Resourceful"
-			icon: "minecraft:tnt_minecart"
+			icon: {
+				id: "minecraft:flint_and_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Obtain \"Alternative\" Weapons"
+			subtitle: "Pursue \"Alternative\" Weapons"
+			description: [
+				"While not designed as weapons, many items can be used offensively and defensively against hostile mobs."
+				""
+				"Quick use of a flint and steel is a classic example, with burning damage being able to lower the health of approaching packs of mobs while you retreat."
+			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "42E807C7DFC19EBF"
-			tasks: [
-				{
-					id: "698C96F9F8532BF5"
-					type: "item"
-					item: "minecraft:cactus"
+			tasks: [{
+				id: "021CBA58542E43A1"
+				type: "item"
+				title: "Consume 1 Flint and Steel [Click] "
+				disable_toast: true
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					id: "0B308E00A63F1A60"
-					type: "item"
-					item: "minecraft:sand"
-				}
-				{
-					id: "67927DDA0877F9B6"
-					type: "item"
-					item: "minecraft:lava_bucket"
-				}
-				{
-					id: "642AFD7D3451BDFC"
-					type: "item"
-					item: "minecraft:water_bucket"
-				}
-				{
-					id: "33E4D34D0FFC0564"
-					type: "item"
-					item: "minecraft:tnt"
-				}
-				{
-					id: "2977D90E490BA696"
-					type: "item"
-					title: "Bed"
-					icon: "minecraft:red_bed"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:beds"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A0B4BFA09FCF31E"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Firestarter\"}"
 						}
 					}
 				}
-				{
-					id: "021CBA58542E43A1"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0559D4D432FEBA3D"
-					type: "item"
-					item: "minecraft:cobweb"
-				}
-			]
+			}]
 		}
 		{
 			title: "Athena"
@@ -649,15 +936,16 @@
 				"3BBB8E131ECD4FF5"
 				"30ED364C540672C8"
 			]
+			hide: true
 			id: "0B9F6A70B4F88B94"
 			tasks: [{
 				id: "037FE2D130DBAAB7"
 				type: "checkmark"
-				title: "Click Here!"
+				title: "Meet shoulder-to-shoulder [Click]"
 			}]
 		}
 		{
-			title: "Gladiator"
+			title: "Path of the Gladiator"
 			icon: {
 				id: "minecraft:red_banner"
 				Count: 1b
@@ -686,54 +974,72 @@
 			}
 			x: 0.5d
 			y: -4.0d
+			shape: "hexagon"
 			subtitle: "take on the realms' monsters"
+			description: ["The game contains all manner of hostile monsters. To excel in combat is to have faced them all."]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "1950317947BD61B0"
 			tasks: [{
 				id: "53A796604A3A0CDA"
 				type: "checkmark"
-				title: "Click Here!"
+				title: "Follow the path of the Gladiator [Click]"
 			}]
-			rewards: [{
-				id: "64DBD5ABDBCF2CE0"
-				type: "item"
-				item: {
-					id: "minecraft:shield"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						BlockEntityTag: {
-							Base: 14
-							Patterns: [
-								{
-									Pattern: "flo"
-									Color: 4
-								}
-								{
-									Pattern: "tt"
-									Color: 14
-								}
-								{
-									Pattern: "mc"
-									Color: 14
-								}
-								{
-									Pattern: "cbo"
-									Color: 14
-								}
-							]
-						}
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Gladiator Shield\"}"
+			rewards: [
+				{
+					id: "64DBD5ABDBCF2CE0"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							BlockEntityTag: {
+								Base: 14
+								Patterns: [
+									{
+										Pattern: "flo"
+										Color: 4
+									}
+									{
+										Pattern: "tt"
+										Color: 14
+									}
+									{
+										Pattern: "mc"
+										Color: 14
+									}
+									{
+										Pattern: "cbo"
+										Color: 14
+									}
+								]
+							}
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Gladiator Shield\"}"
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "052C621B419B34F9"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 2s
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
-			title: "The Hero"
+			title: "Path of the Hero"
 			icon: {
 				id: "minecraft:blue_banner"
 				Count: 1b
@@ -766,55 +1072,73 @@
 			}
 			x: -3.5d
 			y: 0.0d
+			shape: "hexagon"
 			subtitle: "take on the realms' challenges"
+			description: ["The game contains many emergent combat challenges - True adventure is to have faced the grandest of them all."]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "4FE0BE6BF0009C4E"
 			tasks: [{
 				id: "562B62E5B498DC8C"
 				type: "checkmark"
-				title: "Click Here!"
+				title: "Follow the path of the Hero [Click]"
 			}]
-			rewards: [{
-				id: "3A673F89C721DF64"
-				type: "item"
-				item: {
-					id: "minecraft:shield"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						BlockEntityTag: {
-							Base: 11
-							Patterns: [
-								{
-									Pattern: "flo"
-									Color: 14
-								}
-								{
-									Pattern: "hh"
-									Color: 11
-								}
-								{
-									Pattern: "tt"
-									Color: 4
-								}
-								{
-									Pattern: "ts"
-									Color: 11
-								}
-								{
-									Pattern: "cbo"
-									Color: 8
-								}
-							]
-						}
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Shield of the Hero\"}"
+			rewards: [
+				{
+					id: "3A673F89C721DF64"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							BlockEntityTag: {
+								Base: 11
+								Patterns: [
+									{
+										Pattern: "flo"
+										Color: 14
+									}
+									{
+										Pattern: "hh"
+										Color: 11
+									}
+									{
+										Pattern: "tt"
+										Color: 4
+									}
+									{
+										Pattern: "ts"
+										Color: 11
+									}
+									{
+										Pattern: "cbo"
+										Color: 8
+									}
+								]
+							}
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Shield of the Hero\"}"
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "67F09C40592B44D1"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Zagreus"
@@ -843,11 +1167,21 @@
 				"68C1E9C446D8A069"
 			]
 			id: "416A7E1DCFFE12F4"
-			tasks: [{
-				id: "4FC35A920EB9938B"
-				type: "checkmark"
-				title: "Click Here!"
-			}]
+			tasks: [
+				{
+					id: "4FC35A920EB9938B"
+					type: "checkmark"
+					title: "Drinks on the Styx [Click]"
+				}
+				{
+					id: "6EE4EB7F7556CC79"
+					type: "item"
+					title: "The Fee [Click]"
+					item: "minecraft:emerald_block"
+					count: 2L
+					consume_items: true
+				}
+			]
 			rewards: [
 				{
 					id: "16C9B3A5E3C35A66"
@@ -946,10 +1280,349 @@
 							}
 							Damage: 0
 							display: {
-								Name: "{\"text\":\"Shield of Chaos\"}"
+								Name: "{\"text\":\"Aegis\", \"color\":\"gold\"}"
+								Lore: [
+									"{\"text\":\"Shield of Chaos\"}"
+									"{\"text\":\"Unbreakable\"}"
+								]
+							}
+							unbreakable: 1
+						}
+					}
+				}
+				{
+					id: "4D16F81AB9FE5B5F"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [{
+								id: "minecraft:quick_charge"
+								lvl: 5s
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Exagryph\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"Adamant Rail\"}"]
 							}
 						}
 					}
+				}
+				{
+					id: "2DD2CBCE8531DF64"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Enchantments: [
+								{
+									id: "minecraft:infinity"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Coronacht\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"Heart-Seeking Bow\"}"]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Rogue"
+			icon: {
+				id: "minecraft:tipped_arrow"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+			x: -3.5d
+			y: -5.5d
+			shape: "hexagon"
+			subtitle: "Craft a Lingering Potion"
+			description: [
+				"Dragon's Breath can be gathered by right-clicking the harmful dragon breath particles left by ender dragon fireballs with a glass bottle."
+				""
+				"This can then be used to create lingering potions, for tipping arrows with various effects."
+				""
+				"If the bow is held in the offhand, you can fill your toolbar with arrow types - holding one in the main hand will fire it specifically."
+			]
+			dependencies: ["0F4FAE3B1041001F"]
+			id: "710860ECFC84C122"
+			tasks: [{
+				id: "6E56DAE917B8B5AD"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:awkward"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4BBD5D56918482B0"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "33508FE688FE6CFE"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "35A2A1542BB7C29B"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "361DC853B9E05076"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					count: 6
+				}
+				{
+					id: "34DF6C60CBABBFA0"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Lemaign"
+			icon: "minecraft:stone_bricks"
+			x: 0.5d
+			y: 1.5d
+			subtitle: "Acquire defensive materials"
+			description: [
+				"Cactus can be used to create traps and harmful walls, as well as placed down quickly in deserts to damage incoming mobs. This is great combined with magma blocks, which deal constant damage when walked on."
+				""
+				"Flowing water can be used to slow oncoming enemies, along with cobwebs, and soul sand. All can be used in defensive walls and traps. Water can be deployed at your feet in panic scenarios to stall crowds."
+				""
+				"Netherrack can be used to create permanent fire walls and traps. These synergize well with cactus traps - which don't destroy items in this pack."
+				""
+				"Powder snow can kill most mobs (except skeletons), and deals massive damage to magma cubes and blazes. It can be obtained while exploring using a bucket, or by leaving a cauldron out in the snow."
+			]
+			dependencies: ["42E807C7DFC19EBF"]
+			hide: true
+			id: "745E392CA5AEA00D"
+			tasks: [
+				{
+					id: "24CF62AE30B967D5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cactus"
+				}
+				{
+					id: "0902CDEF8811150A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "31FD7D7BBBB9AD94"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "3F83573828660A8E"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:netherrack"
+				}
+			]
+			rewards: [
+				{
+					id: "6D77A075734742C2"
+					type: "item"
+					item: "minecraft:powder_snow_bucket"
+				}
+				{
+					id: "4DB2617B6D2A84B7"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 32
+				}
+				{
+					id: "1C926FFA7B57952C"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 64
+				}
+				{
+					id: "36ACCCEC6766FA37"
+					type: "item"
+					item: "minecraft:cobweb"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Olak"
+			icon: "minecraft:tnt"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Acquire risky materials"
+			description: [
+				"Lava can decimate crowds of mobs, at the cost of their drops (and some danger). Flint and steel can be used as a less dangerous, slower alternative."
+				""
+				"TNT and Beds (in other dimensions) can be used as explosive weaponry, dealing massive damage at risk of damaging you and the terrain. End crystals can be placed on obsidian for the same purpose, though they're far more expensive."
+				""
+				"Detrimental splash potions can be used to affect crowds of enemies with harmful status effects. Just remember - healing damages undead, and harming heals!"
+				""
+				"If used from extremely high in the air, hooking a mob with a Fishing Rod can cause them to take fatal fall damage. Elytra and Riptide tridents (along with flying origins) can achieve this."
+			]
+			dependencies: ["42E807C7DFC19EBF"]
+			hide: true
+			id: "5CE64305EE23917A"
+			tasks: [
+				{
+					id: "45B5320B6047A2A3"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "5183D9A746C01BA5"
+					type: "item"
+					title: "Any #minecraft:beds"
+					icon: "minecraft:red_bed"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+				{
+					id: "4D378B775FD99873"
+					type: "item"
+					title: "Splash Potion: Poison II"
+					disable_toast: true
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+				}
+				{
+					id: "6529E7DCE66DE510"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "404C593B0C3F2638"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0E7DF24905B9DBAA"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "703514C5A7050A38"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					count: 3
+				}
+				{
+					id: "190317846E468685"
+					type: "item"
+					item: "minecraft:tnt"
+					count: 4
+				}
+				{
+					id: "460FDDDDF317DC48"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 3
+				}
+				{
+					id: "1C81447FC4D47B20"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 3
 				}
 			]
 		}

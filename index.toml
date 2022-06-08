@@ -58,11 +58,11 @@ hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "79c83d06f72513b48b047b8c131aee06c857a5a3d816d5f66dd688f2ecb03258"
+hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "f4786d19223e350ef58058eee7dc77eb38b1a81be6afdcc36020d09b11ffca65"
+hash = "68d406f6b309d5eb9c7e91630a37042f805e4c3ab695d908541c8512b3438826"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -70,19 +70,19 @@ hash = "e20d97fc648630d3be3e728fbf72a354e0b781aeca6e096c5599e300b9959d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "dc977611c60d7dbfa21d0401e22aed54bccb9e82b8a52c6d8e1703f444e7228e"
+hash = "b24ccf61d4de972b3114eb0337781e19ac2a192ea45f7b575739203a69fa8720"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "77e1aca7d627bf414288c6843aeee1b5d65b7f30839687ef8f13163f3a2b9a91"
+hash = "a36b314a1960143bf477e17f0172cd0d56df71bf98f8c1f556b60da17ed25235"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "e5b1d0b43882470855cdc874eb70e68b507e2272d19ec8e6c5eff8b538b638ea"
+hash = "9c6ee2a78b507eca2769e422cfa9471e3b1b9f647f97ca8128827d0c162621e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "c8316f7d7371980e81dd53abffaf3689ce7a8070afb1c4aab01b3a8a1cc0a607"
+hash = "9ebc688113821fa7e8f42869fb117a921b9dae5a874ee3af212dd357e89cc9ae"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -91,6 +91,10 @@ hash = "be4933ebb232c5606a57ebd814de7acb07752cc52d7624d9053bfe332568a6e5"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
 hash = "27c0b67841f23e281c1117b5d7e1fd3064f76e5cb595f289793574f15204f2c2"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
+hash = "b400495d827f7e688a0bae2c9546139be7ee1bfad4cf2652bce1722f8c82e51b"
 
 [[files]]
 file = "config/idwtialsimmoedm.json"

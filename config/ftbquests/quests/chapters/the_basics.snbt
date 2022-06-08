@@ -440,7 +440,7 @@
 			y: 3.5d
 			subtitle: "Find ancient debris."
 			description: [
-				"Ancient debris is a rare material found in small quantities by stripmining in the upper nether."
+				"Ancient debris is a rare material found in black-bricked bastion remnants, and in small quantities by riskily stripmining below the lava sea of the nether. Try y=9."
 				""
 				"It can be used to make the best gear!"
 			]
@@ -876,7 +876,6 @@
 				"Your defense is shown on a meter above your health."
 				""
 				"Further armor can be crafted from better materials."
-				""
 			]
 			dependencies: ["41C9341CA261E52B"]
 			hide: true
