@@ -36,13 +36,15 @@ The name is based around the creators, not the content - sorry!
 
  - Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (most windows users will want `Windows-x64-JRE-17-.msi`)
 
-   - `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17` works too!
+   - `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17` works too.
+   - [MultiMC](https://multimc.org/) is also supported (over polyMC) on its _development_ branch. Swap to this in `settings-> launcher` and restart.
 
  - Download [Tinkerer's Quilt.zip](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%201.18.2.zip)
 
- - Drag and drop onto an open PolyMC window!
+ - Drag and drop onto an open PolyMC/MultiMC window!
 
 ---
+
 
 # Performance Impact
 Negative (thanks jellysquid et al)
