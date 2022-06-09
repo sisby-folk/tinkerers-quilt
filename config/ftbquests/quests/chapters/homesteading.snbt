@@ -1960,59 +1960,85 @@
 				type: "checkmark"
 				title: "Chill out over tea [Click]"
 			}]
-			rewards: [{
-				id: "4BBCD767172D1A8B"
-				type: "item"
-				item: {
-					id: "minecraft:black_banner"
-					Count: 1b
-					tag: {
-						display: {
-							Name: "{\"text\":\"Gaia\"}"
-						}
-						BlockEntityTag: {
-							Patterns: [
-								{
-									Pattern: "ss"
-									Color: 12
-								}
-								{
-									Pattern: "hh"
-									Color: 15
-								}
-								{
-									Pattern: "tts"
-									Color: 13
-								}
-								{
-									Pattern: "bts"
-									Color: 15
-								}
-								{
-									Pattern: "flo"
-									Color: 13
-								}
-								{
-									Pattern: "mr"
-									Color: 12
-								}
-								{
-									Pattern: "mc"
-									Color: 5
-								}
-								{
-									Pattern: "mc"
-									Color: 13
-								}
-								{
-									Pattern: "sku"
-									Color: 12
-								}
-							]
+			rewards: [
+				{
+					id: "4BBCD767172D1A8B"
+					type: "item"
+					item: {
+						id: "minecraft:black_banner"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Gaia\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "ss"
+										Color: 12
+									}
+									{
+										Pattern: "hh"
+										Color: 15
+									}
+									{
+										Pattern: "tts"
+										Color: 13
+									}
+									{
+										Pattern: "bts"
+										Color: 15
+									}
+									{
+										Pattern: "flo"
+										Color: 13
+									}
+									{
+										Pattern: "mr"
+										Color: 12
+									}
+									{
+										Pattern: "mc"
+										Color: 5
+									}
+									{
+										Pattern: "mc"
+										Color: 13
+									}
+									{
+										Pattern: "sku"
+										Color: 12
+									}
+								]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "30817A1DB77C9DFD"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_hoe"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Earth Tiller\", \"color\":\"dark_green\"}"
+								Lore: [
+									"{\"text\":\"Gift of Gaia\"}"
+									"{\"text\":\"Unbreakable\"}"
+								]
+							}
+							unbreakable: 1
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Mushroom Farming"
@@ -2248,52 +2274,113 @@
 				type: "checkmark"
 				title: "Tag along [Click]"
 			}]
-			rewards: [{
-				id: "11148912213C7C5F"
-				type: "item"
-				item: {
-					id: "minecraft:white_banner"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Hermes\"}"
+			rewards: [
+				{
+					id: "11148912213C7C5F"
+					type: "item"
+					item: {
+						id: "minecraft:white_banner"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Hermes\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "ts"
+										Color: 6
+									}
+									{
+										Pattern: "tt"
+										Color: 3
+									}
+									{
+										Pattern: "cr"
+										Color: 0
+									}
+									{
+										Pattern: "ms"
+										Color: 15
+									}
+									{
+										Pattern: "bt"
+										Color: 0
+									}
+									{
+										Pattern: "cbo"
+										Color: 3
+									}
+									{
+										Pattern: "bts"
+										Color: 0
+									}
+								]
+							}
 						}
-						BlockEntityTag: {
-							Patterns: [
+					}
+				}
+				{
+					id: "6D70B93E29F89580"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							Enchantments: [
 								{
-									Pattern: "ts"
-									Color: 6
+									id: "minecraft:feather_falling"
+									lvl: 5s
 								}
 								{
-									Pattern: "tt"
-									Color: 3
+									id: "minecraft:soul_speed"
+									lvl: 3s
 								}
 								{
-									Pattern: "cr"
-									Color: 0
+									id: "minecraft:depth_strider"
+									lvl: 3s
 								}
 								{
-									Pattern: "ms"
-									Color: 15
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Messenger Treads\", \"color\":\"dark_aqua\"}"
+								Lore: ["{\"text\":\"Gift of Hermes\"}"]
+							}
+						}
+					}
+				}
+				{
+					id: "42C0FC5578746887"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_horse_armor"
+						Count: 1b
+						tag: {
+							RepairCost: 3
+							display: {
+								Name: "{\"text\":\"Pegasus Barding\", \"color\":\"dark_aqua\"}"
+								Lore: ["{\"text\":\"Gift of Hermes\"}"]
+							}
+							Enchantments: [
+								{
+									id: "minecraft:feather_falling"
+									lvl: 5s
 								}
 								{
-									Pattern: "bt"
-									Color: 0
-								}
-								{
-									Pattern: "cbo"
-									Color: 3
-								}
-								{
-									Pattern: "bts"
-									Color: 0
+									id: "minecraft:depth_strider"
+									lvl: 3s
 								}
 							]
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			title: "Vesta"
@@ -2411,11 +2498,27 @@
 				"Dispensers are the lifeblood of doing things with redstone, and this is doubly true in this pack."
 				""
 			]
+			dependencies: ["322528062359C5A9"]
 			id: "52E05DC7ED68C824"
 			tasks: [{
 				id: "1F606E3FDB50CED9"
 				type: "item"
 				item: "minecraft:dispenser"
+			}]
+		}
+		{
+			title: "Hephaestus"
+			icon: "minecraft:redstone_torch"
+			x: 12.0d
+			y: -11.5d
+			shape: "pentagon"
+			subtitle: "Forge great machines"
+			dependencies: ["52E05DC7ED68C824"]
+			hide: true
+			id: "0E3858BCFECB6862"
+			tasks: [{
+				id: "302560D83DAB309F"
+				type: "custom"
 			}]
 		}
 	]

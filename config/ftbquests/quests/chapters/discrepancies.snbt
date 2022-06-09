@@ -98,13 +98,17 @@
 			}]
 		}
 		{
-			title: "LambDyamicLights"
+			title: "LambDyamicLights / True Darkness"
 			icon: "minecraft:light"
 			x: -1.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "Caving Helper"
-			description: ["When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"]
+			subtitle: "Caving Helper / Atmospherics"
+			description: [
+				"When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"
+				""
+				"Without shaders enabled, caves and dark nights will appear darker, especially during new moons. This can be disabled under ALT+M -> \"True Darkness\""
+			]
 			id: "1B0FB35AB16E8938"
 			tasks: [{
 				id: "0AFF1FBFCDDC8F2A"
@@ -126,7 +130,7 @@
 				""
 				"Arrows can be obtained from skeletons, including by farming fired arrows."
 				""
-				"Slimeballs, while not gathered from a passive mod, can be crafted using honey, wheat, and vines - see REI."
+				"Slimeballs, while not gathered from a passive mob, can be crafted using honey, wheat, and vines - see REI."
 				""
 				"Potions of water-breathing can be brewed using the water from a bucket of pufferfish - it will not be consumed."
 				""
@@ -135,6 +139,29 @@
 			id: "4310FEC9EFD18272"
 			tasks: [{
 				id: "1582556E28469EC6"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Pets and Pettable"
+			icon: "minecraft:copper_block"
+			x: -0.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Animal :)"
+			description: [
+				"In this pack, pets can't be directly harmed by the player. Additionally, they leave behind a small note when they die."
+				""
+				"By using this note on a copper block, the pet will be revived in a flash."
+				""
+				"Animals can be pet using middle click by default. This may slightly heal some pets."
+				""
+				"Horses also have some improvements, and more things can be done while riding them."
+			]
+			id: "0F3322EEACEA1A00"
+			tasks: [{
+				id: "0C472AF65F781826"
 				type: "checkmark"
 				title: "Click Here!"
 			}]

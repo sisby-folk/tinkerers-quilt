@@ -1002,7 +1002,7 @@
 			description: [
 				"Shulker boxes are portable chests, that allow you to hold many stacks of items in your inventory, accessible by placing them down."
 				""
-				"Pouches are an unobtainable item that allows any 64 of miscellaneous items to be stored, which can help when your inventory has lots of little things (mob drops, blocks, etc)"
+				"Pouches are a craftable item that allows any 64 of miscellaneous items to be stored, which can help when your inventory has lots of little things (mob drops, blocks, etc)"
 			]
 			dependencies: ["4631772288F2177D"]
 			hide: true
@@ -1024,6 +1024,7 @@
 				id: "65FE86129245CA99"
 				type: "item"
 				item: "minecraft:bundle"
+				count: 3
 			}]
 		}
 		{

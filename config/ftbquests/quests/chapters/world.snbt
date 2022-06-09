@@ -599,10 +599,44 @@
 		{
 			title: "Mercury"
 			icon: "minecraft:spyglass"
-			x: -11.5d
-			y: -7.0d
+			x: -8.5d
+			y: -7.5d
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
+			hide_dependency_lines: true
+			dependencies: [
+				"51415C8C88AA350B"
+				"5DC1E9DC98895E6F"
+				"05737FE8552841E9"
+				"55DDA9D21E24AF10"
+				"0305A29ECBFA79FA"
+				"3602D52A78391BFA"
+				"08398FBBB792C742"
+				"449397788969C004"
+				"0B63891D4F70167D"
+				"687ED1196101F48D"
+				"56295946AF0DD074"
+				"3F3A1267F224AD07"
+				"65DADF56E2AB01DF"
+				"2591980163249EF1"
+				"01646EC056D18511"
+				"7CEE48A412C94320"
+				"3C5FCE8C61F8A84B"
+				"2393A9D50B18EEAE"
+				"28AFD314DDDE3FC4"
+				"3D08C518610A72F1"
+				"30EEC5B4C5178E93"
+				"7FC50C764AF1D65A"
+				"5CF8EB5303569739"
+				"5F4CDC9DB19F6B49"
+				"6FB48CC24D3230F5"
+				"0EFAB7B8A93FB8BB"
+				"1932327D56163D18"
+				"10CFFE20ABD36803"
+				"0C42AC52CDDEF4BB"
+				"1EA97FD583A20884"
+				"4B74AEAA4D30B428"
+			]
 			hide: true
 			id: "61E3A3B353DCD588"
 			tasks: [{
@@ -610,56 +644,108 @@
 				type: "checkmark"
 				title: "Observatory high tea [Click]"
 			}]
-			rewards: [{
-				id: "259FC60D45DEDA9F"
-				type: "item"
-				item: {
-					id: "minecraft:purple_banner"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Mercury\"}"
-						}
-						BlockEntityTag: {
-							Patterns: [
-								{
-									Pattern: "hhb"
-									Color: 10
-								}
-								{
-									Pattern: "hh"
-									Color: 10
-								}
-								{
-									Pattern: "rud"
-									Color: 10
-								}
-								{
-									Pattern: "tt"
-									Color: 0
-								}
-								{
-									Pattern: "ld"
-									Color: 10
-								}
-								{
-									Pattern: "gru"
-									Color: 1
-								}
-								{
-									Pattern: "bts"
-									Color: 5
-								}
-								{
-									Pattern: "bts"
-									Color: 12
-								}
-							]
+			rewards: [
+				{
+					id: "259FC60D45DEDA9F"
+					type: "item"
+					item: {
+						id: "minecraft:purple_banner"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Mercury\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "hhb"
+										Color: 10
+									}
+									{
+										Pattern: "hh"
+										Color: 10
+									}
+									{
+										Pattern: "rud"
+										Color: 10
+									}
+									{
+										Pattern: "tt"
+										Color: 0
+									}
+									{
+										Pattern: "ld"
+										Color: 10
+									}
+									{
+										Pattern: "gru"
+										Color: 1
+									}
+									{
+										Pattern: "bts"
+										Color: 5
+									}
+									{
+										Pattern: "bts"
+										Color: 12
+									}
+								]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "10D6B7356A2AD29B"
+					type: "item"
+					item: {
+						id: "minecraft:turtle_helmet"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							Enchantments: [
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:respiration"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Explorer's Helmet\", \"color\":\"dark_purple\"}"
+								Lore: ["{\"text\":\"Gift of Mercury\"}"]
+							}
+						}
+					}
+				}
+				{
+					id: "341077155DB36A6C"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "41FB1A8C265AF4A6"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 164
+				}
+				{
+					id: "6B636F0156DC4B1D"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
 		}
 		{
 			x: -17.0d
