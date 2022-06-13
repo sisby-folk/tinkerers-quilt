@@ -17,7 +17,7 @@ The design of the pack is focused around **three pillars**:
   - More of the game accessible to more players in more pleasant ways.
     - **QoL changes** to reduce minor annoyances, **balance changes** to avoid pain points and flatten power creep through buffs, and **minor mechanic changes** to bring more depth and draw to easily-ignored systems.
       - Changes to avoid in-game pain points for certain players - Including changes for playing with "Vegetarianism" (no harming passive mobs), and buffs and improvements to pets and mounts.
-    - **In-game sources of direction and information**, with quests covering both vanilla progression and features, along with what's changed in the pack. And of course, the legendary in-game crafting wiki itself - REI.
+    - **In-game sources of direction and information**, with quests covering both vanilla progression and features, along with what's changed in the pack. And of course, the latest and greatest incarnation of the in-game crafting and acquisition wiki - EMI by Emi.
 
       - Provide returning players information on new features and content the game has included since they might last have played.
   
@@ -89,6 +89,7 @@ Dynamic View[Fabric]
 Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
 Enhanced Block Entities
 Effective 💦
+EMI
 Enhanced Attack Indicator
 EntityCulling
 Extended Clouds
@@ -147,8 +148,6 @@ Reese's Sodium Options
 Reroll
 Rhino
 Right-Click-Harvest
-Roughly Enough Items Fabric/Forge (REI)
-Roughly Enough Resources
 Smooth Boot (Fabric)
 Snow! Real Magic! ⛄ (Fabric)
 Sodium Extra
@@ -200,6 +199,12 @@ Vanilla Tweaks
 (Origins) Tinkerer's Statures (homebrew)
 Tinkerer's Edits for Minecraft ""vegetarianism"" (homebrew)
 ```
+
+# Special Thanks
+
+Emi ([EMI](https://modrinth.com/mod/emi))     
+Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears)) 
+
 
 # Credits 
 ```
