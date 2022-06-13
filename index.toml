@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bea"
-hash = "4057291d88ce1761d03cd9293d2ceede12a98bb1b2ee9243307facf154276f4f"
-
-[[files]]
-file = "clawby"
-hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
-
-[[files]]
 file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
@@ -411,10 +403,6 @@ file = "credits.txt"
 hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
 
 [[files]]
-file = "hornby"
-hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
 
@@ -465,10 +453,6 @@ hash = "198f04de97dc9628160fa6f816314b1503023124506b8b3390bf50cdf015fcd7"
 [[files]]
 file = "kubejs/startup_scripts/script.js"
 hash = "fbe2f595a1348b04aa3e3500c9356523e6c3c343ea0642abe26f8998d797def3"
-
-[[files]]
-file = "meru"
-hash = "01283e3b008982f1b4506a36ee8d606b92313cadafc1316f78222cd94fc8ed7b"
 
 [[files]]
 file = "mods/advancementinfo.pw.toml"
@@ -1007,10 +991,6 @@ hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
 metafile = true
 
 [[files]]
-file = "mollymauk"
-hash = "6e79012dfa673fcfef91018336fd159b6dab4bed87e5fd0b1a28906dabd199da"
-
-[[files]]
 file = "removed.txt"
 hash = "58e973b2db753512dc4d17ed8f68a8b960ce9880ffa84605111b8f2d010a5dec"
 
@@ -1118,5 +1098,25 @@ hash = "e78a89eb50a7c84f5d88144d01a4a4dea7fc3836d95b5c6cd8b49c8adf8794f5"
 metafile = true
 
 [[files]]
-file = "tinkby"
+file = "skins/bea"
+hash = "4057291d88ce1761d03cd9293d2ceede12a98bb1b2ee9243307facf154276f4f"
+
+[[files]]
+file = "skins/clawby"
+hash = "b53486c9b079170be939c205a3a35ce8918c4cf5a33a4b6e503707d524359f61"
+
+[[files]]
+file = "skins/hornby"
+hash = "7f8df061e1db0d92fb75823ba125e5f91ac4cad8a05f327e3525c1e14cf6ce7d"
+
+[[files]]
+file = "skins/meru"
+hash = "c695b54dd2875a15e9e035bc5ce3eddd13d86f4ee068d4b807e4b64b4e9723b1"
+
+[[files]]
+file = "skins/mollymauk"
+hash = "6e79012dfa673fcfef91018336fd159b6dab4bed87e5fd0b1a28906dabd199da"
+
+[[files]]
+file = "skins/tinkby"
 hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
