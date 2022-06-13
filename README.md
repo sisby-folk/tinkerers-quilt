@@ -200,6 +200,12 @@ Vanilla Tweaks
 Tinkerer's Edits for Minecraft ""vegetarianism"" (homebrew)
 ```
 
+# Special Thanks
+
+Emi ([EMI](https://modrinth.com/mod/emi))     
+Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears)) 
+
+
 # Credits 
 ```
 Credits:
