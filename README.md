@@ -39,7 +39,7 @@ The name is based around the creators, not the content - sorry!
    - `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17` works too.
    - [MultiMC](https://multimc.org/) is also supported (over polyMC) on its _development_ branch. Swap to this in `settings-> launcher` and restart.
 
- - Download [Tinkerer's Quilt.zip](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%201.18.2.zip)
+ - Download [Tinkerer's Quilt.zip](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%20Quilt%201.18.2.zip)
 
  - Drag and drop onto an open PolyMC/MultiMC window!
 
