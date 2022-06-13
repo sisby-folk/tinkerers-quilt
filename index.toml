@@ -62,7 +62,7 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "39ec63f4dbf7674dd1af1925dbab27a2513fb2c86c1af0cacb522fcdc21641b2"
+hash = "023486a346b45ba7ed0ebdad5be478dd4b86a7f3795b0427ff527496754f486f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -70,7 +70,7 @@ hash = "1978ba4d8f366b3e245131f26e166a2c401887238fb8538314d59b02538081b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "9fea06b29b2bf3ebb1c73e1d19accdd4b2311883f824f8cbab082aeb04276c3f"
+hash = "6eaa5a27d1a63e8a5a1fa1962946805e71301aea436e9859d45061c4166d500e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -78,11 +78,11 @@ hash = "285ed82261aedbeb06599ca8f97b52232e81805bbe87dcfb2d96df40116f3b58"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "9c6ee2a78b507eca2769e422cfa9471e3b1b9f647f97ca8128827d0c162621e6"
+hash = "9a35588ce27e053c14efd3fd2b63d9b8357adf8749a41c3f46c509c10ce05ef7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "dc1beba61beb78e397217f8d495a5f1220969fda2038eef8f6074bc62b73077b"
+hash = "65407344b7ceaeb703a78de3a05d66ac191f2becb69edeb3cb1b8fbb4da0aedf"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -270,7 +270,7 @@ hash = "a4995d58a04487079d810deedf8c5baae713dc915b9eaf302558293b7d450bd6"
 
 [[files]]
 file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/oversize3.json"
-hash = "698241faea28780b203333b89e4d0fd0d912b8ee4fb8b91e23bc5b2dd8a0492e"
+hash = "6cca36d78b0a276741f2545319b3aa07c34c6d7cb1d18f6fb2ecdcb375293813"
 
 [[files]]
 file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/semishort.json"
@@ -379,10 +379,6 @@ file = "config/yosbr/config/presencefootsteps/userconfig.json"
 hash = "4ad2bc274fc46da9c2dd48083e6cb25206a4fea13a11112e94671af80647e87c"
 
 [[files]]
-file = "config/yosbr/config/roughlyenoughitems/config.json5"
-hash = "d15bc389d16f98e01eaa222956cfa7278229b8cb7ebcdde8ec3af3399c34a85f"
-
-[[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
 hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
 
@@ -475,10 +471,6 @@ file = "meru"
 hash = "01283e3b008982f1b4506a36ee8d606b92313cadafc1316f78222cd94fc8ed7b"
 
 [[files]]
-file = "mods/Wildfire Female Gender Mod-2.9.jar"
-hash = "f371b800ef67a2cb06c1f0b7a28361b8fa34620c405c5ca5bb7224c3c870d125"
-
-[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "03cbe0e1d8149d327463ed4119dea934fdc479b33740da7a3d704ec4673a1a06"
 metafile = true
@@ -500,7 +492,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "1ec5c09edc8d27af569ef4e087f1e74cf175e43de0172316a1fffd28290d1bd9"
+hash = "62023af97326e7f5973d9704af59a498118c07227fcc1ab607da007e62b90e88"
 metafile = true
 
 [[files]]
@@ -520,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/blanket.pw.toml"
-hash = "11c0c6c0d68da8c5e66efab619ac6f6cd982c906d51ffb16d67b347ebb1d8ae6"
+hash = "cf911b7d498a55f42eca886b6fd62176e2b07001ae0f3100ae443111a5c966d3"
 metafile = true
 
 [[files]]
@@ -540,17 +532,17 @@ metafile = true
 
 [[files]]
 file = "mods/charmonium.pw.toml"
-hash = "dd23be152231ea564a0f24e9af907cc516182c24cbc62885b303a23229031efe"
+hash = "76d8b6d0c6f04312cc1174778722bf6b7017ae683bc1f7df44d5b92b20882f46"
 metafile = true
 
 [[files]]
 file = "mods/cit-resewn.pw.toml"
-hash = "514fca35d56842bf057e04b93848ef977156678bfc8949dfa2cdb2cdc04a7a0e"
+hash = "e306361a119aa0b97d0b9966dfb750ff09d377281607e8e8a2b194ecbf78293b"
 metafile = true
 
 [[files]]
 file = "mods/cleancut.pw.toml"
-hash = "0b4442cfc298e15261c9dfd17baab7e869c5201fc61ca81d739e1cf9ce9052a6"
+hash = "12485f0ca3d0e35804c01af3e2d034c253d7762943f1e8e889b66f745b52c76b"
 metafile = true
 
 [[files]]
@@ -570,7 +562,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "642eedf14c0875215d1d15a39ecab4b1bfcec093e43626cb002f2c890f78c520"
+hash = "5ff4e61ba19baca3337f1ff6aa31a6d906d8c30efe8af15dce3f44beb8297d5f"
 metafile = true
 
 [[files]]
@@ -614,6 +606,11 @@ hash = "b4ad5be545658ef1264aaef1b1e4376a2c8425d36d95f537395fbb4788dd33a7"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "8e7390a1bceeb155c5e389f2c47e2ec4b3d82b2eb865f17550e9ab425e7bc669"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-attack-indicator.pw.toml"
 hash = "0ad7e183c4b803999a0f45b67a63c32e6638a3f1b33e8a659ad0ca08651caecd"
 metafile = true
@@ -630,7 +627,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-origins.pw.toml"
-hash = "a02a4050d398d977f8f4fa9ed400e8b5f3013e969f29b195c20f0ceae8670ef2"
+hash = "23f3624b07b9ddd076b59cb4353843164e16b8936b84f6f49a14eab1e010d85d"
 metafile = true
 
 [[files]]
@@ -674,12 +671,12 @@ metafile = true
 
 [[files]]
 file = "mods/forgetmechunk.pw.toml"
-hash = "bd8c6d669b805accb1d4936edaf9b4890492dacdaca20dfebaacbeeca93d0f8d"
+hash = "f5fe536e5ed5c4f67a8ecf1d98591e0913b87bcbfe6b08d9ea1adce732359204"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "c45625f3335196b60ed0159425645a7d439095bbd0fb21f10db01dca591948e3"
+hash = "1ccfd677a7cb6b2f5ab58f7b4b631f3c4974bf597111d3a8700036a811518b4c"
 metafile = true
 
 [[files]]
@@ -759,7 +756,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "257dd4c9f3b5df42a1f5b4e6ed98488cbed7acbfe7a98cb66cdd6e9c0f80eb96"
+hash = "dba5e86c1ae28cb8a7677097cd555e8b1f1dddef1061d52b59cfbfaa11d10607"
 metafile = true
 
 [[files]]
@@ -792,7 +789,7 @@ hash = "ca0587b2c2b82595cd13de2c4cda44226939c78da57c3676cb72cca391237b3e"
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "6462203758e90567e4c28139886c94e3a6103ec9cbde0f6049d5eb788e6eae46"
+hash = "3457ed6246b871992e2bbdcd2daeef9457933d562e5e9a86e9e22257fe990391"
 metafile = true
 
 [[files]]
@@ -876,7 +873,7 @@ metafile = true
 
 [[files]]
 file = "mods/projectsavethepets.pw.toml"
-hash = "070b99c11a57885dd39c1064c1ea4a1d7654ee47c2f6b304d1d506f562033cc5"
+hash = "541f03a749999cbc895628c37ade90bc81df44162c40b8f0afea84ae8741553f"
 metafile = true
 
 [[files]]
@@ -886,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "65ccae834ef9b5d1fbe1b3b3424eea8507ab2ca542a66f5ad8c7d0de73862a3f"
+hash = "75ecdb1302b2600ef780b430f71322c5332a015ea27e35689b330729df9fa71f"
 metafile = true
 
 [[files]]
@@ -901,7 +898,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "4985f89d51a99f7e49ba2f317f3254b1470e78d3e0f37781751160160c3acb72"
+hash = "d714f6e72ebc849970b4c28384ed68f95624f497ea39d18b92e3e79251cbf659"
 metafile = true
 
 [[files]]
@@ -917,16 +914,6 @@ metafile = true
 [[files]]
 file = "mods/right-click-harvest.pw.toml"
 hash = "994f07f6d9d37e93a5187ddc65efe9a4eb09326a0d650bca16bad289dac449c3"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items.pw.toml"
-hash = "ceb2e3aef3707deb09ecacee8af38fe2b45b4f33af91f06384144d81c343cfdf"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-resources.pw.toml"
-hash = "eb6150a90b50591452feb9fd110e369f4d2eca3f10e1f3f2c0f262703a575899"
 metafile = true
 
 [[files]]
@@ -946,7 +933,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "8a2f7bd4e0b892213e121ace77cbe399351a8c9d1ce12a8dc13973d9ec7a50dc"
+hash = "dd3572a0414b6d647f18d4571a8007f0f93ebd7092d08aefa194861878a42c6f"
 metafile = true
 
 [[files]]
@@ -1053,7 +1040,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/jicklus.pw.toml"
-hash = "ac107b274b350d21faa5b12837797860c0b5468c1258cf9248326da732d84455"
+hash = "a4392a10c07b614b4a10134203815f09da5fd97d283312f51a6648de34c8cabd"
 metafile = true
 
 [[files]]

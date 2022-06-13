@@ -2435,25 +2435,20 @@
 			x: 9.0d
 			y: -11.5d
 			shape: "hexagon"
-			subtitle: "Begin exploring machines"
+			subtitle: "Begin exploring machanisms"
 			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "322528062359C5A9"
 			tasks: [
 				{
-					id: "29647F01B4D197F7"
-					type: "item"
-					item: "minecraft:hopper"
-				}
-				{
-					id: "3233395A5229D046"
-					type: "item"
-					item: "minecraft:redstone_torch"
-				}
-				{
 					id: "69664F854B5F66A8"
 					type: "checkmark"
 					title: "Explore Machinery [Click]"
+				}
+				{
+					id: "3A309E57BCB63BF2"
+					type: "item"
+					item: "minecraft:redstone"
 				}
 			]
 			rewards: [
@@ -2492,7 +2487,7 @@
 		{
 			title: "Dispensary"
 			x: 10.5d
-			y: -11.5d
+			y: -11.0d
 			subtitle: "Craft a Dispenser"
 			description: [
 				"Dispensers are the lifeblood of doing things with redstone, and this is doubly true in this pack."
@@ -2509,16 +2504,81 @@
 		{
 			title: "Hephaestus"
 			icon: "minecraft:redstone_torch"
-			x: 12.0d
+			x: 14.5d
 			y: -11.5d
 			shape: "pentagon"
 			subtitle: "Forge great machines"
+			hide_dependency_lines: true
 			dependencies: ["52E05DC7ED68C824"]
 			hide: true
 			id: "0E3858BCFECB6862"
 			tasks: [{
 				id: "302560D83DAB309F"
 				type: "custom"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -13.0d
+			dependencies: ["322528062359C5A9"]
+			id: "7164FFFB3AFAFEF3"
+			tasks: [{
+				id: "2903CAD5158DD4B5"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -10.0d
+			dependencies: ["322528062359C5A9"]
+			id: "2AEFE77787E113A3"
+			tasks: [{
+				id: "6EC03EDC49210750"
+				type: "item"
+				item: "minecraft:daylight_detector"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -12.0d
+			dependencies: ["322528062359C5A9"]
+			id: "03CF663BF52022CB"
+			tasks: [
+				{
+					id: "0E86C86F5AFC7C93"
+					type: "item"
+					item: "minecraft:dropper"
+				}
+				{
+					id: "715EE15E49DFCE6B"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "27E001848EC56EDA"
+					type: "item"
+					title: "Wooden Pressure Plate"
+					icon: "minecraft:oak_pressure_plate"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wooden_pressure_plates"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -10.0d
+			dependencies: ["322528062359C5A9"]
+			id: "29358767A696B164"
+			tasks: [{
+				id: "154B36532DA2223D"
+				type: "item"
+				item: "minecraft:piston"
 			}]
 		}
 	]

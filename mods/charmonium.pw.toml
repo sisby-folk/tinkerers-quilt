@@ -1,18 +1,18 @@
 name = "Charmonium"
-filename = "charmonium-fabric-1.18-4.0.0.jar"
+filename = "charmonium-fabric-1.18.2-4.1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/bpii4Xsa/versions/4.0.0/charmonium-fabric-1.18-4.0.0.jar"
+url = "https://cdn.modrinth.com/data/bpii4Xsa/versions/4.1.0+1.18.2/charmonium-fabric-1.18.2-4.1.0.jar"
 hash-format = "sha1"
-hash = "6f4105f8e2191a1125ae25958228cbf0930508c0"
+hash = "4b8568ff73b81e4c9c3b23653e2339c86c38e7be"
+mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "bpii4Xsa"
-version = "eGTFdJii"
+version = "rzkLIRCX"
 
 [option]
 optional = false
-default = false
 description = "Adds ambient sound and additional music. Configurable"

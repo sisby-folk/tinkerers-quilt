@@ -1,14 +1,14 @@
 name = "Project: Save the Pets!"
-filename = "projectsavethepets-3.0.1+2022.f0aaabc24a.fabric.jar"
+filename = "projectsavethepets-3.0.5-old.1.18+2022.a69712eeaf.fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/VJ6H5k8J/versions/3.0.1+2022.f0aaabc24a.fabric/projectsavethepets-3.0.1%2B2022.f0aaabc24a.fabric.jar"
+url = "https://cdn.modrinth.com/data/VJ6H5k8J/versions/3.0.5-old.1.18+2022.a69712eeaf.fabric/projectsavethepets-3.0.5-old.1.18%2B2022.a69712eeaf.fabric.jar"
 hash-format = "sha1"
-hash = "c555c8725719fbb6fd57b5198dff5d4be03179fe"
+hash = "67f4572e9cc5416def0cd04aa8580ef55a4e49d6"
 mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "VJ6H5k8J"
-version = "PyeVyxTP"
+version = "sWM3kUdO"

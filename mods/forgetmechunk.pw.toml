@@ -1,14 +1,14 @@
 name = "ForgetMeChunk"
-filename = "forgetmechunk-1.18.X-1.0.3.jar"
+filename = "forgetmechunk-1.0.4-1.18.X-1.19.X.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/vRXn3MrA/versions/1.0.3/forgetmechunk-1.18.X-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/vRXn3MrA/versions/1.0.4/forgetmechunk-1.0.4-1.18.X-1.19.X.jar"
 hash-format = "sha1"
-hash = "0cc5ebb9748e58aadc1770bac292f5f263e8eb9d"
+hash = "ed03ad25fb8cbfae4637edd5a4dd6386d9a6231e"
 mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "vRXn3MrA"
-version = "fn2xy367"
+version = "yX5SANL7"

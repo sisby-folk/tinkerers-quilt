@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Shivery!"
-			x: 0.0d
-			y: -0.5d
+			x: -8.0d
+			y: -8.5d
 			subtitle: "Visit a Snow Village"
 			description: [
 				"Illagers are a hostile faction of villagers, which hunt in small packs and gather at outposts."
@@ -56,7 +56,7 @@
 		}
 		{
 			title: "Snorkel not included"
-			x: -17.0d
+			x: -14.0d
 			y: -2.5d
 			subtitle: "Find an Ocean Monument"
 			description: [
@@ -64,6 +64,7 @@
 				""
 				"They're guarded by - get this - guardians. Who prevent you from mining through the structure and can shoot short range bolts."
 			]
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "5DC1E9DC98895E6F"
 			tasks: [{
 				id: "5568AF3262E9717C"
@@ -86,9 +87,9 @@
 		}
 		{
 			title: "Farm Favourites!"
-			x: -8.0d
-			y: 1.5d
-			subtitle: "Collect a Honeycomb using Shears"
+			x: -9.5d
+			y: 5.0d
+			subtitle: "Find a Bee Nest"
 			description: [
 				"Minecraft 1.15 added Bees! allowing you to add them to your farms as pollinators and collect their honey."
 				""
@@ -98,16 +99,20 @@
 			]
 			id: "05737FE8552841E9"
 			tasks: [{
-				id: "206AB5A0D6189812"
-				type: "item"
-				item: "minecraft:honeycomb"
+				id: "1FF73E768B241641"
+				type: "observation"
+				title: "Find a Bee Nest"
+				icon: "minecraft:bee_nest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:bee_nest"
 			}]
 			rewards: [
 				{
 					id: "510A8473FAD36C9F"
 					type: "item"
 					item: "minecraft:moss_carpet"
-					count: 10
+					count: 3
 				}
 				{
 					id: "7EA2277E0F687304"
@@ -115,11 +120,33 @@
 					item: "minecraft:campfire"
 					count: 3
 				}
+				{
+					id: "31CBD024A14767EF"
+					type: "item"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04820B107B3798DA"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "TRUCK PARTS!!!"
-			x: -4.0d
+			x: -5.0d
 			y: -2.5d
 			subtitle: "Find an Abandoned Mineshaft"
 			description: [
@@ -127,6 +154,7 @@
 				""
 				"Minecarts in this modpack have some improvements - check out the travel section of Homesteading for more!"
 			]
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "55DDA9D21E24AF10"
 			tasks: [{
 				id: "4C668EE4C88BCB5B"
@@ -161,11 +189,12 @@
 			]
 		}
 		{
-			title: "Prettier than the average cave"
+			title: "Where's my Ivy Whip"
 			x: -15.5d
 			y: -0.5d
 			subtitle: "Find a Lush Cave"
 			description: ["Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."]
+			dependencies: ["789344ADD80A6FFA"]
 			id: "0305A29ECBFA79FA"
 			tasks: [{
 				id: "0FB37F4ABF69F503"
@@ -190,8 +219,8 @@
 		}
 		{
 			title: "Underwater Fighting Team!"
-			x: -15.5d
-			y: 1.5d
+			x: -17.0d
+			y: -1.5d
 			subtitle: "Bucket an Axolotl"
 			dependencies: ["0305A29ECBFA79FA"]
 			hide: true
@@ -237,26 +266,28 @@
 		}
 		{
 			title: "A Proper Story"
-			x: -5.5d
+			x: -6.5d
 			y: -2.5d
 			subtitle: "Find a Bastion Remnant"
 			description: [
 				"These ruins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
 				""
-				""
-				"And immense amounts of gold."
+				"And immense amounts of gold, iron, and loot."
 			]
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "08398FBBB792C742"
 			tasks: [{
 				id: "49C795AA701ECB2D"
 				type: "structure"
+				title: "Find a Bastion Remnant"
 				icon: "minecraft:polished_blackstone_bricks"
 				structure: "minecraft:bastion_remnant"
 			}]
 		}
 		{
-			x: -5.5d
-			y: -4.0d
+			title: "Country Roads"
+			x: -6.5d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "Find a Lodestone"
 			description: ["Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."]
@@ -276,8 +307,8 @@
 		}
 		{
 			title: "Send Stones"
-			x: -3.0d
-			y: -0.5d
+			x: -11.0d
+			y: -8.5d
 			subtitle: "Visit a Desert Village"
 			description: [
 				"Villagers are often attacked by zombies, who can Zombify them on harder difficulties. Zombified villagers can also spawn naturally."
@@ -317,8 +348,8 @@
 		}
 		{
 			title: "Hey, Little Blue!"
-			x: -14.0d
-			y: 3.5d
+			x: -8.5d
+			y: 6.0d
 			subtitle: "Find a Turtle"
 			description: [
 				"Turtles can be found roaming on beaches. And can be bred using Seagrass"
@@ -344,8 +375,8 @@
 		}
 		{
 			title: "Cowabunga!"
-			x: -14.0d
-			y: 1.5d
+			x: -8.5d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Craft a Turtle Shell"
 			description: [
@@ -398,8 +429,8 @@
 		}
 		{
 			title: "Plain and Simple"
-			x: -1.5d
-			y: -2.0d
+			x: -9.5d
+			y: -9.5d
 			subtitle: "Visit a Plains Village"
 			description: [
 				"Villages are full of Villagers! Who can be traded with using emeralds."
@@ -423,8 +454,8 @@
 		}
 		{
 			title: "High in the mountains"
-			x: -0.5d
-			y: 1.5d
+			x: -8.5d
+			y: -6.5d
 			subtitle: "Visit a Taiga Village"
 			description: [
 				"Villagers repopulate naturally by farming, but an appropriate amount of homes need to be present in the village."
@@ -448,8 +479,8 @@
 		}
 		{
 			title: "Madagascar 2"
-			x: -2.5d
-			y: 1.5d
+			x: -10.5d
+			y: -6.5d
 			subtitle: "Visit a Savannah Village"
 			description: [
 				"Every employed villager has a Job Site block. They can visit this block up to twice a day to restock their trades if one runs out."
@@ -475,8 +506,8 @@
 		{
 			title: "Well-Travelled"
 			icon: "minecraft:filled_map"
-			x: -1.5d
-			y: 0.0d
+			x: -9.5d
+			y: -8.0d
 			shape: "pentagon"
 			subtitle: "Visit every type of village"
 			description: [
@@ -527,22 +558,28 @@
 			]
 		}
 		{
-			title: "Not for the faint of heart"
-			x: -6.5d
+			title: "Miserable pile of secrets"
+			x: -3.5d
 			y: -2.5d
 			subtitle: "Find a Mansion"
-			dependencies: ["1EA97FD583A20884"]
+			dependencies: [
+				"1EA97FD583A20884"
+				"47ED4204DD0D65C4"
+			]
 			id: "7CEE48A412C94320"
 			tasks: [{
 				id: "613A669B401CB42E"
 				type: "structure"
+				title: "Find a Mansion"
 				icon: "minecraft:dark_oak_stairs"
 				structure: "minecraft:mansion"
 			}]
 		}
 		{
-			x: -6.5d
-			y: -4.0d
+			title: "Dio's Best Friend"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Acquire a Totem of Undying"
 			dependencies: ["7CEE48A412C94320"]
 			hide: true
 			id: "3C5FCE8C61F8A84B"
@@ -555,14 +592,22 @@
 		{
 			title: "Come on, P!"
 			x: -9.5d
-			y: 1.5d
-			subtitle: "Acquire an Amethyst Shard"
-			description: ["Amethyst grows in large geodes underground, and can be used to make Tinted Glass for your builds."]
+			y: 6.0d
+			subtitle: "Find a Geode"
+			description: [
+				"Amethyst grows in large geodes underground, and can be used to make Tinted Glass for your builds."
+				""
+				"The outside of the geode is lined with Basalt and Calcite in most directions - spotting this could be a hint."
+			]
 			id: "2393A9D50B18EEAE"
 			tasks: [{
-				id: "7E71029550FB363D"
-				type: "item"
-				item: "minecraft:amethyst_shard"
+				id: "3A8EA4DA6B1CD11A"
+				type: "observation"
+				title: "Observe an Amethyst Block"
+				icon: "minecraft:amethyst_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:amethyst_block"
 			}]
 			rewards: [{
 				id: "299F60FA5F55900C"
@@ -573,8 +618,8 @@
 		}
 		{
 			title: "Catch"
-			x: -11.0d
-			y: 1.5d
+			x: -9.5d
+			y: 4.0d
 			subtitle: "Dig up a Snowball"
 			description: [
 				"Snowballs can be thrown to knock mobs around slightly"
@@ -599,8 +644,8 @@
 		{
 			title: "Mercury"
 			icon: "minecraft:spyglass"
-			x: -8.5d
-			y: -7.5d
+			x: -9.5d
+			y: -1.5d
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
 			hide_dependency_lines: true
@@ -636,6 +681,11 @@
 				"0C42AC52CDDEF4BB"
 				"1EA97FD583A20884"
 				"4B74AEAA4D30B428"
+				"789344ADD80A6FFA"
+				"47ED4204DD0D65C4"
+				"522B247B10CCF04E"
+				"19FF00BA5161FE04"
+				"75D48083C53616FF"
 			]
 			hide: true
 			id: "61E3A3B353DCD588"
@@ -748,86 +798,132 @@
 			]
 		}
 		{
-			x: -17.0d
+			title: "Coconut Gun"
+			x: -9.5d
 			y: -0.5d
+			subtitle: "Find a Bamboo Jungle"
+			dependencies: ["789344ADD80A6FFA"]
 			id: "3D08C518610A72F1"
 			tasks: [{
 				id: "47AE4D2F39DC80E2"
 				type: "biome"
+				title: "Find a Bamboo Jungle"
 				icon: "minecraft:bamboo"
 				biome: "minecraft:bamboo_jungle"
 			}]
 		}
 		{
+			title: "Wrong Neighbourhood"
 			icon: "minecraft:spruce_stairs"
 			x: -8.0d
 			y: -2.5d
+			subtitle: "Find an Outpost"
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "30EEC5B4C5178E93"
 			tasks: [{
 				id: "19B47DDA285B5750"
 				type: "structure"
+				title: "Find a Pillager Outpost"
+				icon: "minecraft:spruce_stairs"
 				structure: "minecraft:pillager_outpost"
 			}]
 		}
 		{
+			title: "Chipwrecked"
 			x: -9.5d
 			y: -2.5d
+			subtitle: "Find a Shipwreck"
+			description: ["Beached shipwrecks also exist, which are found in the sand."]
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "7FC50C764AF1D65A"
 			tasks: [{
 				id: "27B5E2FB0A7F43F8"
 				type: "structure"
+				title: "Find a Shipwreck"
 				icon: "minecraft:dark_oak_boat"
 				structure: "minecraft:shipwreck"
 			}]
 		}
 		{
+			title: "Hur-Ra!"
 			icon: "minecraft:chiseled_sandstone"
 			x: -11.0d
 			y: -2.5d
+			subtitle: "Find a Desert Temple"
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "5CF8EB5303569739"
 			tasks: [{
 				id: "09796221B64CFFF4"
 				type: "structure"
+				title: "Find a Desert Temple"
+				icon: "minecraft:chiseled_sandstone"
 				structure: "minecraft:desert_pyramid"
 			}]
 		}
 		{
-			icon: "minecraft:mossy_stone_bricks"
-			x: -14.0d
+			title: "Come and have a go"
+			icon: "minecraft:mossy_cobblestone"
+			x: -12.5d
 			y: -2.5d
-			dependencies: ["4B74AEAA4D30B428"]
+			subtitle: "Find a Jungle Temple"
+			dependencies: [
+				"4B74AEAA4D30B428"
+				"47ED4204DD0D65C4"
+			]
 			id: "5F4CDC9DB19F6B49"
 			tasks: [{
 				id: "734C2555CE2C2618"
 				type: "structure"
+				title: "Find a Jungle Temple"
+				icon: "minecraft:mossy_cobblestone"
 				structure: "minecraft:jungle_pyramid"
 			}]
 		}
 		{
-			icon: "minecraft:prismarine_wall"
+			title: "Sleeping with the Fishes"
+			icon: "minecraft:mossy_stone_bricks"
 			x: -15.5d
 			y: -2.5d
+			subtitle: "Find both Ocean Ruins"
+			dependencies: ["47ED4204DD0D65C4"]
 			id: "6FB48CC24D3230F5"
-			tasks: [{
-				id: "5D59AF700C3FD338"
-				type: "structure"
-				structure: "minecraft:ocean_ruin_cold"
-			}]
+			tasks: [
+				{
+					id: "5D59AF700C3FD338"
+					type: "structure"
+					title: "Find Cold Ocean Ruins"
+					icon: "minecraft:mossy_stone_bricks"
+					structure: "minecraft:ocean_ruin_warm"
+				}
+				{
+					id: "4FFD0CD12DA32571"
+					type: "structure"
+					title: "Find Warm Ocean Ruins"
+					icon: "minecraft:cut_sandstone"
+					structure: "minecraft:ocean_ruin_warm"
+				}
+			]
 		}
 		{
-			x: -9.5d
+			title: "Fungal Wastes"
+			x: -11.0d
 			y: -0.5d
+			subtitle: "Find a Mushroom Island"
+			dependencies: ["789344ADD80A6FFA"]
 			id: "0EFAB7B8A93FB8BB"
 			tasks: [{
 				id: "3619EC0F75E5445E"
 				type: "biome"
+				title: "Find a Mushroom Fields"
 				icon: "minecraft:mycelium"
 				biome: "minecraft:mushroom_fields"
 			}]
 		}
 		{
-			x: -12.5d
-			y: -0.5d
+			title: "Minecraft Drip"
+			x: -10.5d
+			y: 4.0d
+			subtitle: "Find a Dripstone Cave"
 			dependencies: ["10CFFE20ABD36803"]
 			id: "1932327D56163D18"
 			tasks: [{
@@ -838,8 +934,10 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 1.5d
+			title: "Sleeping in the cold below"
+			x: -10.5d
+			y: 6.0d
+			subtitle: "Find Deepslate"
 			id: "10CFFE20ABD36803"
 			tasks: [{
 				id: "2D7A058F67957E97"
@@ -852,36 +950,127 @@
 			}]
 		}
 		{
+			title: "Wisdom of Huu"
 			x: -8.0d
 			y: -0.5d
+			subtitle: "Find a Swamp"
+			dependencies: ["789344ADD80A6FFA"]
 			id: "0C42AC52CDDEF4BB"
 			tasks: [{
 				id: "6547EBF566C0E5D9"
 				type: "biome"
+				title: "Find a Swamp"
 				icon: "minecraft:lily_pad"
 				biome: "minecraft:swamp"
 			}]
 		}
 		{
-			x: -6.5d
+			title: "Vampire Haven"
+			x: -3.5d
 			y: -0.5d
+			subtitle: "Find a Dark Oak Forest"
+			dependencies: ["789344ADD80A6FFA"]
 			id: "1EA97FD583A20884"
 			tasks: [{
 				id: "464044A582E87B61"
 				type: "biome"
+				title: "Find a Dark Oak Forest"
 				icon: "minecraft:dark_oak_sapling"
 				biome: "minecraft:dark_oak_forest"
 			}]
 		}
 		{
-			x: -14.0d
+			title: "Not Funny, Didn't Laugh"
+			x: -12.5d
 			y: -0.5d
+			subtitle: "Find a Jungle"
+			dependencies: ["789344ADD80A6FFA"]
 			id: "4B74AEAA4D30B428"
 			tasks: [{
 				id: "6529785FCB4BFBCA"
 				type: "biome"
+				title: "Find a Jungle"
 				icon: "minecraft:jungle_sapling"
 				biome: "minecraft:jungle"
+			}]
+		}
+		{
+			title: "Explorer"
+			x: -9.5d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Craft a Compass"
+			id: "789344ADD80A6FFA"
+			tasks: [{
+				id: "1086C9E63E6BD412"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			title: "Cartographer"
+			x: -9.5d
+			y: -5.0d
+			shape: "rsquare"
+			subtitle: "Acquire a Map"
+			id: "47ED4204DD0D65C4"
+			tasks: [{
+				id: "39091CC991B66ABD"
+				type: "item"
+				item: "minecraft:map"
+			}]
+		}
+		{
+			title: "Red Vs Blue"
+			icon: "minecraft:warped_nylium"
+			x: -6.5d
+			y: -0.5d
+			subtitle: "Find both Nether Forests"
+			dependencies: ["789344ADD80A6FFA"]
+			id: "522B247B10CCF04E"
+			tasks: [
+				{
+					id: "235FD333274DE457"
+					type: "biome"
+					title: "Find a Warped Forest"
+					icon: "minecraft:warped_nylium"
+					biome: "minecraft:warped_forest"
+				}
+				{
+					id: "2180A88C978A8C70"
+					type: "biome"
+					title: "Find a Crimson Forest"
+					icon: "minecraft:crimson_nylium"
+					biome: "minecraft:crimson_forest"
+				}
+			]
+		}
+		{
+			title: "Throat of the World"
+			x: -14.0d
+			y: -0.5d
+			subtitle: "Find Frozen Peaks"
+			dependencies: ["789344ADD80A6FFA"]
+			id: "19FF00BA5161FE04"
+			tasks: [{
+				id: "68CBD82A4FF87F3F"
+				type: "biome"
+				title: "Reach some Frozen Peaks"
+				icon: "minecraft:packed_ice"
+				biome: "minecraft:frozen_peaks"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["789344ADD80A6FFA"]
+			id: "75D48083C53616FF"
+			tasks: [{
+				id: "6A706B67651B7F1D"
+				type: "biome"
+				title: "Find a Badlands"
+				icon: "minecraft:orange_terracotta"
+				biome: "minecraft:badlands"
 			}]
 		}
 	]

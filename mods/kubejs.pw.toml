@@ -1,14 +1,14 @@
 name = "KubeJS"
-filename = "kubejs-fabric-1802.5.4-build.480.jar"
+filename = "kubejs-fabric-1802.5.4-build.492.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/umyGl7zF/versions/1802.5.4-build.480+fabric/kubejs-fabric-1802.5.4-build.480.jar"
+url = "https://cdn.modrinth.com/data/umyGl7zF/versions/1802.5.4-build.492+fabric/kubejs-fabric-1802.5.4-build.492.jar"
 hash-format = "sha1"
-hash = "8f5854a6428fee8de46b459e0c1c1a21d8904bb0"
+hash = "147c0415f7efeba43c3771ab4039873939d869e2"
 mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "umyGl7zF"
-version = "LNkX71jp"
+version = "cHTfp1UP"

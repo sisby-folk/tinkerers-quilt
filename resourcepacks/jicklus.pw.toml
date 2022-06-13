@@ -1,13 +1,13 @@
 name = "Jicklus"
-filename = "Jicklus 1.18.2.zip"
+filename = "Jicklus 1.19.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "eaeeaff2afd06772b074bc9e7f37606564f2c565"
+hash = "59930626c746c8e9651acfdf350b54c60e8b0625"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3808390
+file-id = 3821067
 project-id = 333412
