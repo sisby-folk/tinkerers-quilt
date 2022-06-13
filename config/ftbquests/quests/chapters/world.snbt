@@ -24,6 +24,9 @@
 				""
 				"During a Raid, villagers will hide, often by ringing the town bell. This can be done manually by the player at any time."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09874FF0F69D98F0"]
+			hide: true
 			id: "51415C8C88AA350B"
 			tasks: [{
 				id: "0E98F0430979C3AB"
@@ -65,6 +68,7 @@
 				"They're guarded by - get this - guardians. Who prevent you from mining through the structure and can shoot short range bolts."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "5DC1E9DC98895E6F"
 			tasks: [{
 				id: "5568AF3262E9717C"
@@ -97,6 +101,7 @@
 				""
 				"Carpet can be placed over campfires to prevent them from damaging mobs."
 			]
+			hide: true
 			id: "05737FE8552841E9"
 			tasks: [{
 				id: "1FF73E768B241641"
@@ -153,8 +158,10 @@
 				"Abandoned mineshafts are a good way to find your way between caves and collect loot (especially minecarts and rails!)"
 				""
 				"Minecarts in this modpack have some improvements - check out the travel section of Homesteading for more!"
+				""
 			]
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "55DDA9D21E24AF10"
 			tasks: [{
 				id: "4C668EE4C88BCB5B"
@@ -193,27 +200,32 @@
 			x: -15.5d
 			y: -0.5d
 			subtitle: "Find a Lush Cave"
-			description: ["Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."]
+			description: [
+				"Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."
+				""
+				"Lush caves contain axolotls, moss, azelea blocks, and glow berries."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "0305A29ECBFA79FA"
 			tasks: [{
 				id: "0FB37F4ABF69F503"
 				type: "biome"
 				title: "Find a Lush Cave"
 				icon: "minecraft:moss_block"
+				disable_toast: true
 				biome: "minecraft:lush_caves"
 			}]
 			rewards: [
 				{
-					id: "7C42CA8EE45CCBEB"
-					type: "item"
-					item: "minecraft:glow_berries"
-					count: 16
-				}
-				{
 					id: "42C6047CBB7C0A61"
 					type: "item"
 					item: "minecraft:bucket"
+				}
+				{
+					id: "47E2F798DB2525BA"
+					type: "xp"
+					xp: 50
 				}
 			]
 		}
@@ -275,6 +287,7 @@
 				"And immense amounts of gold, iron, and loot."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "08398FBBB792C742"
 			tasks: [{
 				id: "49C795AA701ECB2D"
@@ -317,6 +330,9 @@
 				""
 				"Villagers saved from zombification are grateful, and will offer discounted prices."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09874FF0F69D98F0"]
+			hide: true
 			id: "0B63891D4F70167D"
 			tasks: [{
 				id: "18D4E5CF52B9AE80"
@@ -356,6 +372,7 @@
 				""
 				"Raising a turtle will grant you a Scute."
 			]
+			hide: true
 			id: "687ED1196101F48D"
 			tasks: [{
 				id: "2D8CC208859BC15D"
@@ -437,6 +454,9 @@
 				""
 				"Villagers can \"Level Up\" their profession if you trade with them, unlocking new tradeable items."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09874FF0F69D98F0"]
+			hide: true
 			id: "3F3A1267F224AD07"
 			tasks: [{
 				id: "34CCB8903E66DB2B"
@@ -462,6 +482,9 @@
 				""
 				"If a villager has 3 bread, or 12 carrots, potatoes, or betroots in their inventory, they can breed - but also give more XP on trading!"
 			]
+			hide_dependency_lines: true
+			dependencies: ["09874FF0F69D98F0"]
+			hide: true
 			id: "65DADF56E2AB01DF"
 			tasks: [{
 				id: "0996CC3858DEAB84"
@@ -489,6 +512,9 @@
 				""
 				"This can help with finding villagers with rare trades - such as Enchanted books of Mending from librarians."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09874FF0F69D98F0"]
+			hide: true
 			id: "2591980163249EF1"
 			tasks: [{
 				id: "3A1BD6DEB90F7E2D"
@@ -566,6 +592,7 @@
 				"1EA97FD583A20884"
 				"47ED4204DD0D65C4"
 			]
+			hide: true
 			id: "7CEE48A412C94320"
 			tasks: [{
 				id: "613A669B401CB42E"
@@ -599,6 +626,7 @@
 				""
 				"The outside of the geode is lined with Basalt and Calcite in most directions - spotting this could be a hint."
 			]
+			hide: true
 			id: "2393A9D50B18EEAE"
 			tasks: [{
 				id: "3A8EA4DA6B1CD11A"
@@ -628,6 +656,7 @@
 				""
 				"Snow golems defend from hostile mobs using snowballs."
 			]
+			hide: true
 			id: "28AFD314DDDE3FC4"
 			tasks: [{
 				id: "587F9715AC419CAB"
@@ -802,14 +831,30 @@
 			x: -9.5d
 			y: -0.5d
 			subtitle: "Find a Bamboo Jungle"
+			description: [
+				"Bamboo jungles contain bamboo and pandas."
+				""
+				"Bamboo can be used to make sticks and scaffolding. Scaffolding is a special type of block for explorers and builders that can be broken instantly"
+				""
+				"If the bottom block of a scaffolding tower is broken, the whole thing will break. Additionally, it can only be built up to 6 blocks away from the base laterally."
+				""
+				"Pandas are animals that can spawn with many personality types, which show on their face. They also have very complex breeding conditions."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "3D08C518610A72F1"
 			tasks: [{
 				id: "47AE4D2F39DC80E2"
 				type: "biome"
 				title: "Find a Bamboo Jungle"
 				icon: "minecraft:bamboo"
+				disable_toast: true
 				biome: "minecraft:bamboo_jungle"
+			}]
+			rewards: [{
+				id: "48566F7A2C868EE0"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -819,6 +864,7 @@
 			y: -2.5d
 			subtitle: "Find an Outpost"
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "30EEC5B4C5178E93"
 			tasks: [{
 				id: "19B47DDA285B5750"
@@ -835,6 +881,7 @@
 			subtitle: "Find a Shipwreck"
 			description: ["Beached shipwrecks also exist, which are found in the sand."]
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "7FC50C764AF1D65A"
 			tasks: [{
 				id: "27B5E2FB0A7F43F8"
@@ -851,6 +898,7 @@
 			y: -2.5d
 			subtitle: "Find a Desert Temple"
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "5CF8EB5303569739"
 			tasks: [{
 				id: "09796221B64CFFF4"
@@ -870,6 +918,7 @@
 				"4B74AEAA4D30B428"
 				"47ED4204DD0D65C4"
 			]
+			hide: true
 			id: "5F4CDC9DB19F6B49"
 			tasks: [{
 				id: "734C2555CE2C2618"
@@ -886,6 +935,7 @@
 			y: -2.5d
 			subtitle: "Find both Ocean Ruins"
 			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
 			id: "6FB48CC24D3230F5"
 			tasks: [
 				{
@@ -909,15 +959,44 @@
 			x: -11.0d
 			y: -0.5d
 			subtitle: "Find a Mushroom Island"
+			description: [
+				"Giant Mushrooms and Mooshrooms are found on mushroom islands."
+				""
+				"Giant mushrooms are a great source of brown and red mushrooms, and the ground they grow on here can hold mushrooms regardless of light level - but needs to be collected using silk touch."
+				""
+				"Mooshrooms are a special variant of a cow that can be milked using buckets for milk, or using bowls for infinite mushroom stew."
+				""
+				"If a mooshroom is struck by lightning, it turns into a brown mooshroom. These mooshrooms can produce suspicious stew if fed the appropriate flower first."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "0EFAB7B8A93FB8BB"
 			tasks: [{
 				id: "3619EC0F75E5445E"
 				type: "biome"
 				title: "Find a Mushroom Fields"
 				icon: "minecraft:mycelium"
+				disable_toast: true
 				biome: "minecraft:mushroom_fields"
 			}]
+			rewards: [
+				{
+					id: "4ABAEFED9CFFDCDD"
+					type: "item"
+					item: "minecraft:bowl"
+					count: 16
+				}
+				{
+					id: "4646433CE89F2129"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "38435BB389EA5DFE"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+			]
 		}
 		{
 			title: "Minecraft Drip"
@@ -925,6 +1004,7 @@
 			y: 4.0d
 			subtitle: "Find a Dripstone Cave"
 			dependencies: ["10CFFE20ABD36803"]
+			hide: true
 			id: "1932327D56163D18"
 			tasks: [{
 				id: "50E52E8C54CF6323"
@@ -938,6 +1018,7 @@
 			x: -10.5d
 			y: 6.0d
 			subtitle: "Find Deepslate"
+			hide: true
 			id: "10CFFE20ABD36803"
 			tasks: [{
 				id: "2D7A058F67957E97"
@@ -954,29 +1035,55 @@
 			x: -8.0d
 			y: -0.5d
 			subtitle: "Find a Swamp"
+			description: [
+				"Swamps are home to large areas of water and Lilypads."
+				""
+				"Lilypads can be used to make decorative water bridges, with a similar thickness to a carpet."
+				""
+				"Slimes also spawn here, relying on the moon to be visible."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "0C42AC52CDDEF4BB"
 			tasks: [{
 				id: "6547EBF566C0E5D9"
 				type: "biome"
 				title: "Find a Swamp"
 				icon: "minecraft:lily_pad"
+				disable_toast: true
 				biome: "minecraft:swamp"
+			}]
+			rewards: [{
+				id: "0D44674F73BC9845"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
 			title: "Vampire Haven"
 			x: -3.5d
 			y: -0.5d
-			subtitle: "Find a Dark Oak Forest"
+			subtitle: "Find a Dark Forest"
+			description: [
+				"Dark forests are home to Dark Oaks, large trees with dark wood and wide leaf canopies, offering much shade."
+				""
+				"This can protect sunlight-sensitive creatures, including allowing some mobs to survive and even spawn during daytime."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "1EA97FD583A20884"
 			tasks: [{
 				id: "464044A582E87B61"
 				type: "biome"
-				title: "Find a Dark Oak Forest"
+				title: "Find a Dark Forest"
 				icon: "minecraft:dark_oak_sapling"
-				biome: "minecraft:dark_oak_forest"
+				disable_toast: true
+				biome: "minecraft:dark_forest"
+			}]
+			rewards: [{
+				id: "7994DB3C25E2858B"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -984,14 +1091,32 @@
 			x: -12.5d
 			y: -0.5d
 			subtitle: "Find a Jungle"
+			description: [
+				"Jungles are home to large jungle trees, which give immense amounts of logs."
+				""
+				"They're also home to vines, which can be gathered using shears as another kind of ladder, or used to make slimeballs."
+				""
+				"Cocoa beans can be found growing on jungle wood, which can be used to make cookies."
+				""
+				"Parrots can be found in the jungle, and tamed using seeds of any kind. When tamed, a parrot will perch on the players shoulder when walked into. The parrot will occasionally mimick the sound of (usually, nearby) mobs."
+				""
+				"Ocelots also spawn in the jungle, but unlike cats cannot be fully tamed. They will trust the player if approached very slowly while holding raw fish, then being fed."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "4B74AEAA4D30B428"
 			tasks: [{
 				id: "6529785FCB4BFBCA"
 				type: "biome"
 				title: "Find a Jungle"
 				icon: "minecraft:jungle_sapling"
+				disable_toast: true
 				biome: "minecraft:jungle"
+			}]
+			rewards: [{
+				id: "711E73395CE09CA1"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -999,23 +1124,54 @@
 			x: -9.5d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "Craft a Compass"
+			subtitle: "Walk 500 Blocks"
+			description: ["Compasses point back to the world's spawn. This can help you find your way."]
+			hide: true
 			id: "789344ADD80A6FFA"
 			tasks: [{
-				id: "1086C9E63E6BD412"
+				id: "6B61580BF4D462A5"
+				type: "stat"
+				title: "Sprint 500 Blocks"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				disable_toast: true
+				stat: "minecraft:sprint_one_cm"
+				value: 50000
+			}]
+			rewards: [{
+				id: "184E8B07DD980340"
 				type: "item"
 				item: "minecraft:compass"
 			}]
 		}
 		{
-			title: "Cartographer"
+			title: "Places Less Travelled"
 			x: -9.5d
 			y: -5.0d
 			shape: "rsquare"
-			subtitle: "Acquire a Map"
+			subtitle: "Jump 75 Times"
+			description: [
+				"Maps can be used to chart a certain spot. They'll also show your direction relative to the map if you're outside it."
+				""
+				"This can be used to map your base and help you find your way back."
+			]
 			id: "47ED4204DD0D65C4"
 			tasks: [{
-				id: "39091CC991B66ABD"
+				id: "318791BA274D0278"
+				type: "stat"
+				title: "Jump 75 Times"
+				icon: "minecraft:ladder"
+				disable_toast: true
+				stat: "minecraft:jump"
+				value: 75
+			}]
+			rewards: [{
+				id: "3AF235A4BA889D50"
 				type: "item"
 				item: "minecraft:map"
 			}]
@@ -1026,7 +1182,19 @@
 			x: -6.5d
 			y: -0.5d
 			subtitle: "Find both Nether Forests"
+			description: [
+				"Nether forests are home to interesting resources, including two types of wood, and two types of mushrooms."
+				""
+				"Warped forests are safe havens perfect for building your base - no hostile mobs will spawn here, besides occasionally endermen."
+				""
+				"Crimson forests are home to piglins and uniquely, hostile hoglins."
+				""
+				"Both kinds of nether \"wood\" are non-flammable, including their planks and decorative variants."
+				""
+				"The mushrooms here can be used to make mushroom stew - and renewed by using bonemeal on the ground in these biomes - The only good vegetarian source of food in the nether!"
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "522B247B10CCF04E"
 			tasks: [
 				{
@@ -1034,6 +1202,7 @@
 					type: "biome"
 					title: "Find a Warped Forest"
 					icon: "minecraft:warped_nylium"
+					disable_toast: true
 					biome: "minecraft:warped_forest"
 				}
 				{
@@ -1041,36 +1210,110 @@
 					type: "biome"
 					title: "Find a Crimson Forest"
 					icon: "minecraft:crimson_nylium"
+					disable_toast: true
 					biome: "minecraft:crimson_forest"
 				}
 			]
+			rewards: [{
+				id: "1A886DF1D1C3675E"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Throat of the World"
 			x: -14.0d
 			y: -0.5d
 			subtitle: "Find Frozen Peaks"
+			description: [
+				"Mountain peaks are a great source of packed ice (which can be crafted into blue ice)"
+				""
+				"It's also where Goats spawn! Goats are similar to cows, but are neutral mobs and can jump high and ram blocks."
+				""
+				"Slow falling potions can be used to make safe large descents!"
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "19FF00BA5161FE04"
 			tasks: [{
 				id: "68CBD82A4FF87F3F"
 				type: "biome"
 				title: "Reach some Frozen Peaks"
 				icon: "minecraft:packed_ice"
+				disable_toast: true
 				biome: "minecraft:frozen_peaks"
 			}]
+			rewards: [
+				{
+					id: "0866DC750474E58E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+				{
+					id: "6BED877089ECDC53"
+					type: "xp"
+					xp: 50
+				}
+			]
 		}
 		{
+			title: "Plenty big for both of us"
 			x: -5.0d
 			y: -0.5d
+			subtitle: "Find a Badlands"
+			description: [
+				"Badlands are full of teracotta, which is useful for building."
+				""
+				"Additionally, badlands spawn mineshafts very high up, and are rich with gold ore."
+			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "75D48083C53616FF"
 			tasks: [{
 				id: "6A706B67651B7F1D"
 				type: "biome"
 				title: "Find a Badlands"
 				icon: "minecraft:orange_terracotta"
+				disable_toast: true
 				biome: "minecraft:badlands"
+			}]
+			rewards: [{
+				id: "778D3D7F93D43770"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "No, not \"Traitor\", I said-"
+			x: -9.5d
+			y: -11.0d
+			shape: "rsquare"
+			subtitle: "Talk to a Villager"
+			description: [
+				"Villages are easy bases, places to gather, and worthwhile points on your map."
+				""
+				"Explore different types of villages, and learn more about villagers in these quests."
+			]
+			hide: true
+			id: "09874FF0F69D98F0"
+			tasks: [{
+				id: "7B58577F38ADC6E2"
+				type: "stat"
+				title: "Talk to a Villager"
+				icon: "minecraft:emerald"
+				stat: "minecraft:talked_to_villager"
+				value: 1
+			}]
+			rewards: [{
+				id: "309D1305F6D6CB17"
+				type: "item"
+				item: "minecraft:emerald"
 			}]
 		}
 	]
