@@ -793,6 +793,17 @@
 			y: -1.5d
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
+			description: [
+				"Beacons can be made of any mix of ore blocks. In this pack, this includes clean and lightly exposed copper. If you keep any copper on the outermost layer of a beacon, it stays easy to clean."
+				""
+				"Beacons with stained glass above change their beam colour."
+				""
+				"A 6-beacon pyramid can be made with an 11x10 base, and 3x2 beacons at the top."
+				""
+				"With these materials, the whole 11x10 base must be copper, then, build a 6x7 gold pyramid on top of the centre, then set all of the outer edges in copper, and top the 6 gold blocks with beacons."
+				""
+				"It has a radius of 50 blocks in each direction. Have fun making a 100x100 circular base!"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"0305A29ECBFA79FA"
@@ -911,20 +922,46 @@
 					}
 				}
 				{
-					id: "341077155DB36A6C"
-					type: "item"
-					item: "minecraft:beacon"
-				}
-				{
 					id: "41FB1A8C265AF4A6"
 					type: "item"
 					item: "minecraft:gold_block"
-					count: 164
+					count: 68
 				}
 				{
-					id: "6B636F0156DC4B1D"
+					id: "35EF258CE7DA207D"
+					type: "item"
+					item: "minecraft:copper_block"
+					count: 176
+				}
+				{
+					id: "78BEDB58DB379044"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 6
+				}
+				{
+					id: "69C9A06A42299AEF"
 					type: "item"
 					item: "minecraft:emerald"
+					count: 6
+				}
+				{
+					id: "7DD08B86F7FF6997"
+					type: "item"
+					item: "minecraft:pink_stained_glass"
+					count: 2
+				}
+				{
+					id: "35FDF1F93AFA33C3"
+					type: "item"
+					item: "minecraft:white_stained_glass"
+					count: 2
+				}
+				{
+					id: "4AF0E01CB24EB481"
+					type: "item"
+					item: "minecraft:light_blue_stained_glass"
+					count: 2
 				}
 			]
 		}
@@ -1452,11 +1489,18 @@
 					biome: "minecraft:crimson_forest"
 				}
 			]
-			rewards: [{
-				id: "1A886DF1D1C3675E"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "1A886DF1D1C3675E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1007B8702881D9D9"
+					type: "item"
+					item: "minecraft:music_disc_pigstep"
+				}
+			]
 		}
 		{
 			title: "Throat of the World"

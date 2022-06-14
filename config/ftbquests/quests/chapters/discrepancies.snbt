@@ -138,7 +138,9 @@
 				""
 				"Potions of water-breathing can be brewed using the water from a bucket of pufferfish - it will not be consumed."
 				""
-				"Potions of leaping can be brewed using a slimeball."
+				"Potions of leaping can be brewed using a slimeball. And potions of slow-falling can be brewed from feathers sheared from chickens (for doInsomnia false)"
+				""
+				"Book and Quill can be crafted using black dye, and Glow Ink Sac can be crafted by feeding a bucketed axolotl a Glow Berry."
 			]
 			id: "4310FEC9EFD18272"
 			tasks: [{

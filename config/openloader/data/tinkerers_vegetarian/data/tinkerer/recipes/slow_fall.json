@@ -1,0 +1,12 @@
+{
+    "type": "nbtcrafting:brewing",
+    "base": {
+        "potion": "minecraft:awkward"
+    },
+    "ingredient": {
+        "item": "minecraft:feather"
+    },
+    "result": {
+        "potion": "minecraft:slow_falling"
+    }
+}

@@ -54,27 +54,27 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "b6205372321d3cf8bc8062e214961a6f068c02d0cb1f9c1d11a1f6e0efa6de97"
+hash = "910d77398ad4b1963ddb4aa6b3257374c7d1789982ba7b0db47841fa917bc113"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "065f8dde59a26990e6c956ec0814f01012c4462a37a4cf55fe0cd723a2c74e6a"
+hash = "fd3682cfbe38da730eb05eae203a0a98c9df2b02c3a9066114c922ecf09a053c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "cde570688f33fe781f4dc4ede619e585e11e9ef98a8ea222486d76605c997bae"
+hash = "bd3e168baf715cbff5ff884a9c0fc2413f90a72f0cbef27fce449a4a030335a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "e6d30c181af6e0273c5af787f29361212c31a89160d79f3933dca923dc06c5ea"
+hash = "6b4cd0702f0bf479cf77b5e8eef95801e83894505477767c9a0ec4f0623bb02a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "5258e1fc5ef375d8becc27b1b6ece27ba46306d5cf3ba4a867f2a5c5ac49281d"
+hash = "09fa42f5e4f63404a713669c952fea1bb0b057e3c659b8241a06be2123560c7f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "823711947f30ff4a96be85c98f295f2b9914e9149125db32a5788eaa4591e19d"
+hash = "ada9b9b411fa1b3eec5c4cd6c0d4694c54d40f3aa26de7af40e893ff41c75cde"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -167,6 +167,14 @@ hash = "085899a59c3255e296cd0a7bb071010f6f1ed3b863de98362145fea0c805e1b2"
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/pack.mcmeta"
 hash = "acc77ba0c1b99842eedcecc9c6205e776ec444395060f779f7d9e39f5bc22d6a"
+
+[[files]]
+file = "config/openloader/data/tinkerers_copper_beacons/data/minecraft/tags/blocks/beacon_base_blocks.json"
+hash = "0598b61263c42e7cc1349ca3fe59666e25a95d3557de1569914b46ad7961b741"
+
+[[files]]
+file = "config/openloader/data/tinkerers_copper_beacons/pack.mcmeta"
+hash = "151c72f24ee91388a9623f130c17e0e2ee145ad4f10752ab43b6fcba3c84c303"
 
 [[files]]
 file = "config/openloader/data/tinkerers_statures/data/origins/origin_layers/stature.json"
@@ -293,8 +301,64 @@ file = "config/openloader/data/tinkerers_statures/pack.mcmeta"
 hash = "91d0272a8f73222367d360ec46873c4087f5f5cd29ee3c87f9232bffbbf175f8"
 
 [[files]]
+file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/boots.json"
+hash = "0b11aeecc520cf00c3f03ff1de284020616a522ee1d9a94221d6524a98629e96"
+
+[[files]]
+file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/chestplates.json"
+hash = "4d1a35c14f22888e5654cf457d6e7266c69027851dac7faef871be46f694322b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/fence_gates.json"
+hash = "f4c9b0981db93428dc77afab3d682a5bfabc9a92e79993bf29c19ad84cef34f5"
+
+[[files]]
+file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/helmets.json"
+hash = "bbc3c703cb9df1c1998780840cbaa48aaedfef07cb59d9c1cf8f3c8b4b301dbb"
+
+[[files]]
+file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/leggings.json"
+hash = "06c289441493a0ca494052ba61ca7bd443cd8917351c8c708a9ecb1695ef21c3"
+
+[[files]]
+file = "config/openloader/data/tinkerers_tags/pack.mcmeta"
+hash = "f0f8ad4d1e7fae0a6a8a265ab947cc41d34688289a704453cd72f69f3a8ec1b2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/book_quill.json"
+hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/glow_sac.json"
+hash = "a582ca8085bbf1000dac20a2b647b96e8e1b94c2005fd0df117c3f7b9b46423f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/jump_boost.json"
+hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/slime_ball.json"
+hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/slow_fall.json"
+hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/water_breathing.json"
+hash = "7d47d56eb3f4adbdd6940e0595e2ef51d841aabd21b6e85f5e537cfad07c13ea"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
+hash = "794a4556abaa6a9e8781aa681457ecb8bd3ba78ec72e2718a96fe646ebaf431f"
+
+[[files]]
 file = "config/openloader/resources/VanillaTweaks_r239108.zip"
 hash = "4f6f464112a38507b152258aa064d451323f2acf7411cbee36f5bd70a69c74f6"
+
+[[files]]
+file = "config/openloader/resources/tinkerers_assets/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
+hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 
 [[files]]
 file = "config/openloader/resources/varied-connected-bookshelves.pw.toml"
@@ -401,78 +465,6 @@ hash = "e7f22364fd560ebdc20c53e3806dc6b1f06e64a46bc5969d18475f671aa13c19"
 [[files]]
 file = "credits.txt"
 hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
-
-[[files]]
-file = "kubejs/README.txt"
-hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/gui/conduit_quest_diagram.png"
-hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/netherite_nugget.png"
-hash = "2a4deccccec37b88d6dead046dc6eb04ae1e5f458aa33642636d6646efc8bcba"
-
-[[files]]
-file = "kubejs/client_scripts/script.js"
-hash = "5e5eaf4c686f44816136f213f87d9efc920b3794f45e5ae58be60f06f1cb0a57"
-
-[[files]]
-file = "kubejs/config/client.properties"
-hash = "0f09533789cd9b2bfff444be8ae7e93f58574727db67a1479a436322c8bff0dc"
-
-[[files]]
-file = "kubejs/config/common.properties"
-hash = "fbb3a377eaec1fefeec94ad798535de7774ad6964b83c27de1a40a789e6f6c1b"
-
-[[files]]
-file = "kubejs/data/crafting/recipes/jump_boost.json"
-hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
-
-[[files]]
-file = "kubejs/data/crafting/recipes/slime_ball.json"
-hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
-
-[[files]]
-file = "kubejs/data/crafting/recipes/water_breathing.json"
-hash = "7d47d56eb3f4adbdd6940e0595e2ef51d841aabd21b6e85f5e537cfad07c13ea"
-
-[[files]]
-file = "kubejs/data/tinkerer/tags/items/boots.json"
-hash = "0b11aeecc520cf00c3f03ff1de284020616a522ee1d9a94221d6524a98629e96"
-
-[[files]]
-file = "kubejs/data/tinkerer/tags/items/chestplates.json"
-hash = "4d1a35c14f22888e5654cf457d6e7266c69027851dac7faef871be46f694322b"
-
-[[files]]
-file = "kubejs/data/tinkerer/tags/items/fence_gates.json"
-hash = "f4c9b0981db93428dc77afab3d682a5bfabc9a92e79993bf29c19ad84cef34f5"
-
-[[files]]
-file = "kubejs/data/tinkerer/tags/items/helmets.json"
-hash = "bbc3c703cb9df1c1998780840cbaa48aaedfef07cb59d9c1cf8f3c8b4b301dbb"
-
-[[files]]
-file = "kubejs/data/tinkerer/tags/items/leggings.json"
-hash = "06c289441493a0ca494052ba61ca7bd443cd8917351c8c708a9ecb1695ef21c3"
-
-[[files]]
-file = "kubejs/server_scripts/script.js"
-hash = "198f04de97dc9628160fa6f816314b1503023124506b8b3390bf50cdf015fcd7"
-
-[[files]]
-file = "kubejs/startup_scripts/script.js"
-hash = "fbe2f595a1348b04aa3e3500c9356523e6c3c343ea0642abe26f8998d797def3"
 
 [[files]]
 file = "mods/advancementinfo.pw.toml"

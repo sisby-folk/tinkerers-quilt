@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "Sheetmetal"
-			x: 7.5d
+			x: 7.0d
 			y: -13.0d
 			subtitle: "Craft a Blast Furnace"
 			description: [
@@ -49,8 +49,8 @@
 		}
 		{
 			title: "Roasty"
-			x: 7.5d
-			y: -11.5d
+			x: 8.5d
+			y: -10.5d
 			subtitle: "Craft a Smoker"
 			description: [
 				"A Smoker is a special furnace that cooks food at twice the speed."
@@ -88,7 +88,7 @@
 		{
 			title: "Mason's Supplies"
 			icon: "minecraft:light_gray_shulker_box"
-			x: 8.0d
+			x: 7.5d
 			y: -8.5d
 			shape: "gear"
 			subtitle: "All Stonecut-able blocks"
@@ -483,6 +483,8 @@
 				"Carpets can be placed above campfires to keep them safe."
 				""
 				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By placing your farm between a bee's hive and its flowers, you will improve its growth."
+				""
+				"Alongside candles, honeycomb can also be used to \"wax\" copper blocks, preventing them from aging. In this pack, this can prevent copper beacons from becoming invalid."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -514,8 +516,8 @@
 		}
 		{
 			title: "Represent"
-			x: 8.5d
-			y: -10.5d
+			x: 9.0d
+			y: -9.5d
 			subtitle: "Craft a Loom"
 			description: [
 				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps (simply right click a hanging banner with a map)"
@@ -601,8 +603,8 @@
 		}
 		{
 			title: "Explorer"
-			x: 8.5d
-			y: -12.5d
+			x: 9.0d
+			y: -13.5d
 			subtitle: "Craft a Cartography Table"
 			description: [
 				"Cartography tables allow you to duplicate the contents of maps, including their zoom level. They also allow cheaper \"zooming out\" of maps with paper."
@@ -651,7 +653,7 @@
 			description: [
 				"A *Respawn Anchor* Allows you to create a proper home in the nether. By placing it and charging it with glowstone blocks, you'll respawn there."
 				""
-				"Monsters spawn at any light level in the nether but never on half slabs, even in the overworld. This is essential for making a nether base."
+				"Monsters spawn at any light level in the nether but never on half slabs. This is essential for making a nether base. Warped forests also prevent most mobs from spawning, and soul fire causes piglins to flee."
 				""
 				"Respawn anchors can also be charged using a dispenser."
 				""
@@ -812,7 +814,7 @@
 		}
 		{
 			title: "Architect"
-			x: 7.5d
+			x: 7.0d
 			y: -10.0d
 			shape: "hexagon"
 			subtitle: "Craft a Stonecutter"
@@ -862,7 +864,7 @@
 		}
 		{
 			title: "Back in a sec!"
-			x: 7.5d
+			x: 7.0d
 			y: -14.5d
 			shape: "hexagon"
 			subtitle: "Build a Furnace Minecart"
@@ -873,7 +875,7 @@
 				""
 				"When you walk far enough away from your base, your farm, and any machines (redstone, furnaces, etc) will halt."
 				""
-				"A Chunk Loader prevents this from happening in a 16x16 area (A chunk!) - You can press F3+B at any time to view chunks in the world."
+				"A Chunk Loader prevents this from happening in a 16x16 area (A chunk!) - You can press F3+G at any time to view chunks in the world."
 				""
 				"Furnace minecarts will only load the chunk they are in, and will keep them loaded for as long as it has fuel. At maximum this means you can fill a furnace minecart with a lava bucket and it will keep the area loaded and running for 17 minutes."
 			]
@@ -946,7 +948,7 @@
 		{
 			title: "Terracotta Builder's Pack"
 			icon: "minecraft:orange_terracotta"
-			x: 7.0d
+			x: 6.5d
 			y: -8.5d
 			shape: "gear"
 			subtitle: "Glazed Foresight"
@@ -1237,11 +1239,6 @@
 					item: "minecraft:minecart"
 				}
 				{
-					id: "6D24221752287D3D"
-					type: "item"
-					item: "minecraft:minecart"
-				}
-				{
 					id: "723355EEC64996EC"
 					type: "item"
 					item: "minecraft:detector_rail"
@@ -1252,6 +1249,11 @@
 					type: "item"
 					item: "minecraft:rail"
 					count: 64
+				}
+				{
+					id: "07C3FFE36ED0CBEB"
+					type: "item"
+					item: "minecraft:furnace_minecart"
 				}
 			]
 		}
@@ -1411,7 +1413,7 @@
 			description: [
 				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then, open the horses inventory (sneak+rightclick) to saddle it."
 				""
-				"Horses can also equip armor to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
+				"Horses can also equip armor (including dyed leather armor!) to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
 				""
 				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them. Sneak-right-click to remove the saddle afterwards."
 			]
@@ -2216,7 +2218,13 @@
 			y: -14.0d
 			shape: "hexagon"
 			subtitle: "Travel far by rail"
-			description: ["Lots of designs for train stations made with fancy track patterns and redstone are available in videos online!"]
+			description: [
+				"Rail can be expanded into full train and automated transit and freight systems."
+				""
+				"When powered, rails at T intersections will swap which directions they go, allowing riders to change direction using buttons and levers."
+				""
+				"When powered, activator rails will cause players to dismount minecarts that pass over them."
+			]
 			dependencies: ["0EF299A1A5009971"]
 			hide: true
 			id: "471B71E3199030AC"
@@ -2233,7 +2241,7 @@
 					id: "6602F9A433E4F2E5"
 					type: "item"
 					item: "minecraft:rail"
-					count: 1024
+					count: 512
 				}
 				{
 					id: "4479B131B6E6A2A6"
@@ -2251,6 +2259,12 @@
 					id: "1240BB05CA2384CF"
 					type: "item"
 					item: "minecraft:chest_minecart"
+				}
+				{
+					id: "242ADA11C1EF7893"
+					type: "item"
+					item: "minecraft:activator_rail"
+					count: 8
 				}
 			]
 		}
@@ -2442,10 +2456,19 @@
 		{
 			title: "Accursed Machines"
 			icon: "minecraft:hopper_minecart"
-			x: 9.0d
+			x: 10.0d
 			y: -11.5d
 			shape: "hexagon"
-			subtitle: "Begin exploring machanisms"
+			subtitle: "Begin exploring mechanisms"
+			description: [
+				"Redstone and related components can be broken down into three broad categories."
+				""
+				"There are \"input\" or \"power\" components, which provide initial redstone power."
+				""
+				"There are \"transmission\" components, which move and transform these signals."
+				""
+				"And finally there are \"mechanism\" components. These perform the actual function desired."
+			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "322528062359C5A9"
@@ -2453,7 +2476,7 @@
 				{
 					id: "69664F854B5F66A8"
 					type: "checkmark"
-					title: "Explore Machinery [Click]"
+					title: "Explore Mechanisms [Click]"
 				}
 				{
 					id: "3A309E57BCB63BF2"
@@ -2463,126 +2486,381 @@
 			]
 			rewards: [
 				{
-					id: "11EFEA1BBF663BD3"
-					type: "item"
-					item: "minecraft:lever"
-					count: 16
-				}
-				{
-					id: "7C52ADA172848D4B"
-					type: "item"
-					item: "minecraft:stone_button"
-					count: 16
-				}
-				{
 					id: "65546E15954AA223"
 					type: "item"
 					item: "minecraft:redstone"
 					count: 64
 				}
 				{
-					id: "40927F3439AA3A91"
+					id: "41573153DA4B06B1"
 					type: "item"
-					item: "minecraft:repeater"
-					count: 16
+					item: "minecraft:stick"
+					count: 64
 				}
 				{
-					id: "563FE56FAC59E08D"
+					id: "5FB600BFF6987B3E"
 					type: "item"
-					item: "minecraft:comparator"
-					count: 8
+					item: "minecraft:stone"
+					count: 64
+				}
+				{
+					id: "195837F96D182834"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 16
 				}
 			]
 		}
 		{
-			title: "Dispensary"
-			x: 10.5d
-			y: -11.0d
+			title: "Advanced Mechanism Component"
+			x: 13.0d
+			y: -12.0d
+			shape: "hexagon"
 			subtitle: "Craft a Dispenser"
 			description: [
-				"Dispensers are the lifeblood of doing things with redstone, and this is doubly true in this pack."
+				"Dispensers, when powered, can perform a variety of actions depending on the item in their first non-empty slot. More functions are available in this pack."
 				""
+				"Dispensers can fire arrows of all kinds, snowballs, fireworks, fire charges, eggs, splash and lingering potions, and (straight down) TNT."
+				""
+				"They can utilize buckets, including picking up liquids with an empty bucket, and placing liquids, powder snow, or fish using a filled bucket."
+				""
+				"They can place boats and minecarts of all kinds, as well as equip players with armor, saddleable mobs with saddles, horses with horse armor, and place carved pumpkins onto golems."
+				""
+				"They can shear beehives and sheep with shears, or bottle their honey with a bottle, and use bonemeal on crops."
+				""
+				"In this pack, dispensers:"
+				" - Place Blocks (Block)"
+				" - Rotate Blocks (Cactus)"
+				" - Carve pumpkins (Shears)"
+				" - Feed animals (wheat/etc)"
+				" - Milk animals (Bucket, Bowl)"
+				" - Pot plants (plant)"
+				" - Use a jukebox (disc)"
+				" - Till soil (hoe)"
+				" - Strip logs/copper (axe)"
+				" - Fill/empty cauldrons (bucket)"
+				""
+				"Finally, dispensers with sticks can toggle things. This includes buttons, redstone ore, noteblocks, comparators, repeaters, and so on."
+				""
+				"The dispenser is very powerful! give it a try ^^"
 			]
-			dependencies: ["322528062359C5A9"]
+			dependencies: ["29358767A696B164"]
 			id: "52E05DC7ED68C824"
 			tasks: [{
 				id: "1F606E3FDB50CED9"
 				type: "item"
 				item: "minecraft:dispenser"
 			}]
-		}
-		{
-			title: "Hephaestus"
-			icon: "minecraft:redstone_torch"
-			x: 14.5d
-			y: -11.5d
-			shape: "pentagon"
-			subtitle: "Forge great machines"
-			hide_dependency_lines: true
-			dependencies: ["52E05DC7ED68C824"]
-			hide: true
-			id: "0E3858BCFECB6862"
-			tasks: [{
-				id: "302560D83DAB309F"
-				type: "custom"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -13.0d
-			dependencies: ["322528062359C5A9"]
-			id: "7164FFFB3AFAFEF3"
-			tasks: [{
-				id: "2903CAD5158DD4B5"
-				type: "item"
-				item: "minecraft:comparator"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -10.0d
-			dependencies: ["322528062359C5A9"]
-			id: "2AEFE77787E113A3"
-			tasks: [{
-				id: "6EC03EDC49210750"
-				type: "item"
-				item: "minecraft:daylight_detector"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -12.0d
-			dependencies: ["322528062359C5A9"]
-			id: "03CF663BF52022CB"
-			tasks: [
+			rewards: [
 				{
-					id: "0E86C86F5AFC7C93"
+					id: "759706E6D69FE6F8"
 					type: "item"
-					item: "minecraft:dropper"
+					item: "minecraft:bucket"
 				}
 				{
-					id: "715EE15E49DFCE6B"
+					id: "65C59DBDB23F27FA"
 					type: "item"
-					item: "minecraft:hopper"
+					item: "minecraft:cactus"
 				}
 				{
-					id: "27E001848EC56EDA"
+					id: "0616041E8113D26A"
 					type: "item"
-					title: "Wooden Pressure Plate"
-					icon: "minecraft:oak_pressure_plate"
 					item: {
-						id: "itemfilters:tag"
+						id: "minecraft:shears"
 						Count: 1b
 						tag: {
-							value: "minecraft:wooden_pressure_plates"
+							Damage: 0
 						}
 					}
 				}
 			]
 		}
 		{
+			title: "Hephaestus"
+			icon: "minecraft:redstone_torch"
+			x: 15.0d
+			y: -11.5d
+			shape: "pentagon"
+			subtitle: "Forge great machines"
+			description: ["Skulk Sensors are an unobtainable (1.19) item that senses vibrations from a distance, and provide a redstone signal."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1E92A6BE31198EF3"
+				"03CF663BF52022CB"
+				"52E05DC7ED68C824"
+				"7164FFFB3AFAFEF3"
+			]
+			hide: true
+			id: "0E3858BCFECB6862"
+			tasks: [{
+				id: "302560D83DAB309F"
+				type: "custom"
+			}]
+			rewards: [
+				{
+					id: "03A9AC11B72065CF"
+					type: "item"
+					item: {
+						id: "minecraft:black_banner"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Haphaestus\"}"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "cre"
+										Color: 8
+									}
+									{
+										Pattern: "hhb"
+										Color: 15
+									}
+									{
+										Pattern: "mc"
+										Color: 7
+									}
+									{
+										Pattern: "bt"
+										Color: 15
+									}
+									{
+										Pattern: "sc"
+										Color: 12
+									}
+									{
+										Pattern: "ms"
+										Color: 8
+									}
+									{
+										Pattern: "bo"
+										Color: 15
+									}
+									{
+										Pattern: "ts"
+										Color: 15
+									}
+									{
+										Pattern: "tts"
+										Color: 14
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "05CA8ACF859674AA"
+					type: "item"
+					item: "minecraft:sculk_sensor"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Automated Input"
+			x: 13.0d
+			y: -13.0d
+			subtitle: "Craft a Comparator"
+			description: [
+				"Along with manual inputs, certain things can be observed to make mechanisms activate automatically."
+				""
+				"The daylight detector is powered during the daytime, and slowly transitions during sunrise and sunset. Right clicking a daylight detector inverts this, and it will be powered at night instead."
+				""
+				"The Observer emits a small pulse whenever the block it's facing changes."
+				""
+				"This includes breaking and placing, opening barrels and shulker boxes, lighting of redstone ore, crop age changes, rotating an item frame, doors opening, and much more."
+				""
+				"The comparator detects changes in fewer blocks, but outputs a signal strength that gives specific info about the block."
+				""
+				"This includes fullness of containers (15 power for full, 0 for empty), fullness of beehives (0-5), fullness of cauldrons (0-3), Item frame rotation (1-8), and Respawn Anchor charge (0-15)"
+			]
+			dependencies: ["2AEFE77787E113A3"]
+			id: "7164FFFB3AFAFEF3"
+			tasks: [{
+				id: "2903CAD5158DD4B5"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+			rewards: [
+				{
+					id: "11E3CEE7928D92AF"
+					type: "item"
+					item: "minecraft:daylight_detector"
+				}
+				{
+					id: "383B477AF836D509"
+					type: "item"
+					item: "minecraft:observer"
+				}
+			]
+		}
+		{
+			title: "Manual Input"
+			icon: "minecraft:lever"
 			x: 11.5d
-			y: -10.0d
+			y: -13.0d
+			subtitle: "Craft a Lever and Wooden Button"
+			description: [
+				"Levers provides constant power when switched into the \"on\" state, which is more visible in this pack."
+				""
+				"Buttons can be right clicked to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
+				""
+				"Trapped Chests power the block below them when opened by a player."
+				""
+				"Stone and Wooden pressure plates are powered while a mob is on top of them. Wooden pressure plates are also tripped by items, arrows, and fishing hooks."
+				""
+				"String can be layed between two tripwire hooks, powering them when its stepped on."
+				""
+				"Detector rails power the block below them while a minecart is on them."
+				""
+				"Targets produce power when hit with projectiles, with strength increasing the more accurate the hit was."
+			]
+			dependencies: ["322528062359C5A9"]
+			id: "2AEFE77787E113A3"
+			tasks: [
+				{
+					id: "76637FF72914A8AC"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "1B71413D5F033450"
+					type: "item"
+					title: "Wooden Button"
+					icon: "minecraft:oak_button"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wooden_buttons"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "799E92562970349D"
+					type: "item"
+					item: "minecraft:trapped_chest"
+				}
+				{
+					id: "5F46D7694818EEDE"
+					type: "item"
+					item: "minecraft:stone_pressure_plate"
+				}
+				{
+					id: "16C0BA5D22A97495"
+					type: "item"
+					item: "minecraft:tripwire_hook"
+					count: 2
+				}
+				{
+					id: "0DF51250777A540A"
+					type: "item"
+					item: "minecraft:string"
+					count: 5
+				}
+				{
+					id: "409DEDCC45FC7BAB"
+					type: "item"
+					item: "minecraft:detector_rail"
+				}
+				{
+					id: "46FE721445D7E685"
+					type: "item"
+					item: "minecraft:target"
+				}
+			]
+		}
+		{
+			title: "Item Transport"
+			x: 13.0d
+			y: -11.0d
+			subtitle: "Craft a Dropper"
+			description: [
+				"Droppers will drop the first item in their inventory when powered, which can be used to transport items long vertical distances (including up using bubble elevators), or onto \"slides\" made of flowing water and ice."
+				""
+				"Hoppers can be used to pick up dropped items, transfer items very short distances, and can \"merge\" the outputs of several inventories into one. Hoppers can be locked using redstone signal, preventing pushing and pulling of items."
+				""
+				"Hopper minecarts can be used to pull from inventories above them, pick up dropped items, and \"distribute\" items over several inventories below them. This can be used to feed arrays of furnaces/dispensers etc. They can be \"locked\" using activator rails, and \"unlocked\" using unpowered activator rails."
+				""
+				"Minecarts with chests can transport items long lateral distances in set batches, if a complex enough rail system is present. Hoppers below minecart chests will withdraw items."
+				""
+				"Pressure plates activated with items come in 3 different weight classes. Wooden pressure plates fully activate with one item, and weighted pressure plates slowly power every 1 or 10 items respectively."
+			]
+			dependencies: ["29358767A696B164"]
+			id: "03CF663BF52022CB"
+			tasks: [{
+				id: "0E86C86F5AFC7C93"
+				type: "item"
+				item: "minecraft:dropper"
+			}]
+			rewards: [
+				{
+					id: "5FEE53083C3BBAEB"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 4
+				}
+				{
+					id: "3456A37AA9D4BE15"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "25710D638E2567CB"
+					type: "item"
+					item: "minecraft:oak_pressure_plate"
+				}
+				{
+					id: "3C28472C5739BB6C"
+					type: "item"
+					item: "minecraft:packed_ice"
+					count: 16
+				}
+				{
+					id: "5538C906B7205D16"
+					type: "item"
+					item: "minecraft:hopper_minecart"
+				}
+				{
+					id: "2D3B61F4AE131C37"
+					type: "item"
+					item: "minecraft:chest_minecart"
+				}
+				{
+					id: "45A90E315C63278F"
+					type: "item"
+					item: "minecraft:light_weighted_pressure_plate"
+				}
+				{
+					id: "165279ED12C374FE"
+					type: "item"
+					item: "minecraft:heavy_weighted_pressure_plate"
+				}
+			]
+		}
+		{
+			title: "Mechanism Components"
+			x: 11.5d
+			y: -11.5d
+			subtitle: "Craft a Piston"
+			description: [
+				"Mechanism components often act very similarly to blocks, and while they can be strongly and weakly powered as normal, they have a third state when adjacent to weakly powered blocks."
+				""
+				"This is called \"activated\" - and in this state, they won't power adjacent blocks or repeaters, but will perform their function."
+				""
+				"When powered, pistons extend, pushing the block in front of them by 1 block. When retracting, Sticky Pistons will also pull the block its attached to."
+				""
+				"Slime blocks and (in this pack) chains can be used to extend the effect of pistons/sticky pistons, by attatching blocks together."
+				""
+				"Doors and trapdoors can also be toggled by redstone. Including iron variants which can only be opened this way."
+				""
+				"Of other note, redstone can also power lamps, useful as indicators, and TNT, which can be used to make explosions, or, in water, cannon-like devices."
+			]
 			dependencies: ["322528062359C5A9"]
 			id: "29358767A696B164"
 			tasks: [{
@@ -2590,6 +2868,164 @@
 				type: "item"
 				item: "minecraft:piston"
 			}]
+			rewards: [
+				{
+					id: "156C9AB09D17BD00"
+					type: "item"
+					item: "minecraft:redstone_lamp"
+				}
+				{
+					id: "14B58E2635453524"
+					type: "item"
+					item: "minecraft:sticky_piston"
+					count: 8
+				}
+				{
+					id: "092F75816E5B1F60"
+					type: "item"
+					item: "minecraft:piston"
+					count: 3
+				}
+				{
+					id: "10FAA401E153B5A8"
+					type: "item"
+					item: "minecraft:iron_trapdoor"
+					count: 6
+				}
+				{
+					id: "2BE6AB4D8AFF5767"
+					type: "item"
+					item: "minecraft:slime_block"
+				}
+			]
+		}
+		{
+			title: "Organization"
+			x: 8.5d
+			y: -12.5d
+			subtitle: "Craft a Sign"
+			description: [
+				"Signs can be used to help label chests, rooms, machines, and more. Different kinds of wood change the background, and the text color can be dyed!"
+				""
+				"Item frames can also be used to help organize - a single item can be placed in them for display."
+			]
+			dependencies: ["55783EE248BAC550"]
+			id: "0342FEBA88E3AF0E"
+			tasks: [{
+				id: "7F0EA1048654217D"
+				type: "item"
+				title: "Craft a Sign"
+				icon: "minecraft:oak_sign"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:signs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00EBA8DA6E3F263C"
+				type: "item"
+				item: "minecraft:item_frame"
+				count: 8
+			}]
+		}
+		{
+			title: "Transmission"
+			icon: "minecraft:redstone"
+			x: 11.5d
+			y: -10.0d
+			subtitle: "Craft a Repeater"
+			description: [
+				"Redstone dust can have 15 different levels of power, which decrease as you move each block away from the power source."
+				""
+				"Opaque blocks (most blocks) can be \"strongly powered\" or \"weakly powered\"."
+				""
+				"Strongly powered blocks will provide full power to adjacent redstone dust. Both kinds of power will power adjacent repeaters, comparators, and mechanism components."
+				""
+				"A Repeater only works in one direction, and can be used to extend a redstone signal beyond 15 blocks, at the cost of 1 redstone tick delay (0.1 seconds). This delay can be extended to up to 4 using right-click."
+				""
+				"Redstone dust can travel directly upwards in a 2x1 area using top-facing slabs to form \"stairs\". The signal cannot travel down these slabs."
+				""
+				"Lamps can help to \"debug\" redstone, by more visibly showing what is powered and not."
+			]
+			dependencies: ["322528062359C5A9"]
+			id: "657AC96A28C41511"
+			tasks: [{
+				id: "35834B56641501E3"
+				type: "item"
+				item: "minecraft:repeater"
+			}]
+			rewards: [
+				{
+					id: "2D44ADA60A0C073A"
+					type: "item"
+					item: "minecraft:smooth_stone_slab"
+					count: 64
+				}
+				{
+					id: "1A767C788B6AE3AD"
+					type: "item"
+					item: "minecraft:redstone_lamp"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Logic"
+			icon: "minecraft:repeater"
+			x: 13.0d
+			y: -10.0d
+			shape: "hexagon"
+			subtitle: "Craft a Torch and Comparator"
+			description: [
+				"Redstone signals can be \"inverted\" using redstone torches. By powering the block a redstone torch is attached to, the torch will turn off, and unpowering it will allow it to turn back on."
+				""
+				"As part of a tranmission line, more complex circuits than inversion and extension can be created."
+				""
+				"Repeaters can be \"locked\" by strongly powering them from the side, and Comparators can \"compare\" and \"subtract\" signals, depending on configuration."
+				""
+				"These techniques alongside redstone torches, opaque blocks, clever spacing, and sometimes even pistons and redstone blocks, can be used to combine and manipulate input signals to produce a desired output."
+				""
+				"One example would be requiring two signals to be powered to turn on an output."
+				""
+				"These are \"logic gates\", and schematics to make them can be found online, if you need one."
+			]
+			dependencies: ["657AC96A28C41511"]
+			id: "1E92A6BE31198EF3"
+			tasks: [
+				{
+					id: "542BBAFBD01800E0"
+					type: "item"
+					item: "minecraft:redstone_torch"
+				}
+				{
+					id: "2AEADB626546F10B"
+					type: "item"
+					item: "minecraft:comparator"
+				}
+			]
+			rewards: [
+				{
+					id: "4A83DE2B32FDFFBE"
+					type: "item"
+					item: "minecraft:piston"
+					count: 16
+				}
+				{
+					id: "177EC598C2DE7388"
+					type: "item"
+					item: "minecraft:slime_block"
+					count: 8
+				}
+				{
+					id: "2E86378A10DF29F5"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 8
+				}
+			]
 		}
 	]
 }

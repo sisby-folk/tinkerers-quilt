@@ -25,6 +25,8 @@
 				"Bows can be enchanted to increase damage, knockback, light enemies on fire, and even shoot infinite arrows."
 				""
 				"Arrows of harming deal less damage to undead mobs, but more damage to others. Arrows of healing deal more damage to undead mobs, but less to others."
+				""
+				"Bows have reduced (though better than vanilla) effectiveness underwater. Try a trident!"
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -304,7 +306,7 @@
 			description: [
 				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins. In this pack, they can also be crafted using prismarine shards, which drop from guardians in ocean monuments."
 				""
-				"In this pack, tridents can be enchanted to deal more damage."
+				"In this pack, tridents can be enchanted to deal more damage when thrown."
 				""
 				"Tridents need to be picked up after throwing, unless they're enchanted with Loyalty or Riptide. "
 				""
@@ -1526,10 +1528,15 @@
 								id: "minecraft:knockback"
 								lvl: 4s
 							}]
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
+							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										1651970931
@@ -1538,11 +1545,11 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Slot: "mainhand"
+									Name: "generic.attack_speed"
 								}
 								{
 									Amount: 2
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										262443461
@@ -1551,14 +1558,9 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Slot: "mainhand"
+									Name: "generic.attack_damage"
 								}
 							]
-							Damage: 0
-							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
-							}
 						}
 					}
 				}
