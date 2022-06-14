@@ -2477,10 +2477,12 @@
 					id: "69664F854B5F66A8"
 					type: "checkmark"
 					title: "Explore Mechanisms [Click]"
+					disable_toast: true
 				}
 				{
 					id: "3A309E57BCB63BF2"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:redstone"
 				}
 			]
@@ -2545,10 +2547,12 @@
 				"The dispenser is very powerful! give it a try ^^"
 			]
 			dependencies: ["29358767A696B164"]
+			hide: true
 			id: "52E05DC7ED68C824"
 			tasks: [{
 				id: "1F606E3FDB50CED9"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:dispenser"
 			}]
 			rewards: [
@@ -2577,7 +2581,7 @@
 		}
 		{
 			title: "Hephaestus"
-			icon: "minecraft:redstone_torch"
+			icon: "minecraft:redstone_block"
 			x: 15.0d
 			y: -11.5d
 			shape: "pentagon"
@@ -2593,8 +2597,9 @@
 			hide: true
 			id: "0E3858BCFECB6862"
 			tasks: [{
-				id: "302560D83DAB309F"
-				type: "custom"
+				id: "2739CE44EC749396"
+				type: "checkmark"
+				title: "Forge-heated spa day [Click]"
 			}]
 			rewards: [
 				{
@@ -2657,6 +2662,42 @@
 					item: "minecraft:sculk_sensor"
 					count: 16
 				}
+				{
+					id: "0B58257D7FB203A7"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 64
+				}
+				{
+					id: "7F031284957C81EE"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 64
+				}
+				{
+					id: "2ECE07CDA1C0B837"
+					type: "item"
+					item: "minecraft:stone"
+					count: 256
+				}
+				{
+					id: "5292D4AF7705340C"
+					type: "item"
+					item: "minecraft:chest"
+					count: 64
+				}
+				{
+					id: "1C13B73B235357E9"
+					type: "item"
+					item: "minecraft:slime_block"
+					count: 16
+				}
+				{
+					id: "2C27467EDAE5BE86"
+					type: "item"
+					item: "minecraft:piston"
+					count: 32
+				}
 			]
 		}
 		{
@@ -2678,10 +2719,12 @@
 				"This includes fullness of containers (15 power for full, 0 for empty), fullness of beehives (0-5), fullness of cauldrons (0-3), Item frame rotation (1-8), and Respawn Anchor charge (0-15)"
 			]
 			dependencies: ["2AEFE77787E113A3"]
+			hide: true
 			id: "7164FFFB3AFAFEF3"
 			tasks: [{
 				id: "2903CAD5158DD4B5"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:comparator"
 			}]
 			rewards: [
@@ -2719,11 +2762,13 @@
 				"Targets produce power when hit with projectiles, with strength increasing the more accurate the hit was."
 			]
 			dependencies: ["322528062359C5A9"]
+			hide: true
 			id: "2AEFE77787E113A3"
 			tasks: [
 				{
 					id: "76637FF72914A8AC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:lever"
 				}
 				{
@@ -2731,6 +2776,7 @@
 					type: "item"
 					title: "Wooden Button"
 					icon: "minecraft:oak_button"
+					disable_toast: true
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -2792,10 +2838,12 @@
 				"Pressure plates activated with items come in 3 different weight classes. Wooden pressure plates fully activate with one item, and weighted pressure plates slowly power every 1 or 10 items respectively."
 			]
 			dependencies: ["29358767A696B164"]
+			hide: true
 			id: "03CF663BF52022CB"
 			tasks: [{
 				id: "0E86C86F5AFC7C93"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:dropper"
 			}]
 			rewards: [
@@ -2862,10 +2910,12 @@
 				"Of other note, redstone can also power lamps, useful as indicators, and TNT, which can be used to make explosions, or, in water, cannon-like devices."
 			]
 			dependencies: ["322528062359C5A9"]
+			hide: true
 			id: "29358767A696B164"
 			tasks: [{
 				id: "154B36532DA2223D"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:piston"
 			}]
 			rewards: [
@@ -2951,10 +3001,12 @@
 				"Lamps can help to \"debug\" redstone, by more visibly showing what is powered and not."
 			]
 			dependencies: ["322528062359C5A9"]
+			hide: true
 			id: "657AC96A28C41511"
 			tasks: [{
 				id: "35834B56641501E3"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:repeater"
 			}]
 			rewards: [
@@ -2993,16 +3045,19 @@
 				"These are \"logic gates\", and schematics to make them can be found online, if you need one."
 			]
 			dependencies: ["657AC96A28C41511"]
+			hide: true
 			id: "1E92A6BE31198EF3"
 			tasks: [
 				{
 					id: "542BBAFBD01800E0"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:redstone_torch"
 				}
 				{
 					id: "2AEADB626546F10B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:comparator"
 				}
 			]

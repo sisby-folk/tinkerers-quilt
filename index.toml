@@ -54,15 +54,15 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "910d77398ad4b1963ddb4aa6b3257374c7d1789982ba7b0db47841fa917bc113"
+hash = "e8a3415960d7d80ec16b8fd16b68a37a36973ba4c5998b740e7e259f2774a09f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "fd3682cfbe38da730eb05eae203a0a98c9df2b02c3a9066114c922ecf09a053c"
+hash = "6272752b39ed8e0bf76809fc3ae4601a5f36c77d361ae016faf375600c20895a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "bd3e168baf715cbff5ff884a9c0fc2413f90a72f0cbef27fce449a4a030335a0"
+hash = "47942a64a460ae3ac68015afbb3a702d8e85314dcfb805e3492d523497d3ebbc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -70,11 +70,11 @@ hash = "6b4cd0702f0bf479cf77b5e8eef95801e83894505477767c9a0ec4f0623bb02a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "09fa42f5e4f63404a713669c952fea1bb0b057e3c659b8241a06be2123560c7f"
+hash = "5258e1fc5ef375d8becc27b1b6ece27ba46306d5cf3ba4a867f2a5c5ac49281d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "ada9b9b411fa1b3eec5c4cd6c0d4694c54d40f3aa26de7af40e893ff41c75cde"
+hash = "29cfe8206a0dd4101ea5d38bf30ba59b6cd046ddc1d375a0c751a319b3278a9f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -330,7 +330,7 @@ hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/glow_sac.json"
-hash = "a582ca8085bbf1000dac20a2b647b96e8e1b94c2005fd0df117c3f7b9b46423f"
+hash = "4d24fc94706c050d8d0bd175987e47e0a0125087816324209d06ab77105436df"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/jump_boost.json"
@@ -346,7 +346,7 @@ hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/water_breathing.json"
-hash = "7d47d56eb3f4adbdd6940e0595e2ef51d841aabd21b6e85f5e537cfad07c13ea"
+hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
@@ -498,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm-fabric.pw.toml"
-hash = "f16e09ced52586796952de5d6bf341b4ae079c1bed915612fb82c297bb0cb9e3"
+hash = "85d6e453a9bb4076a0baad9a9d91797b1359b762a61a00c73bbf8ee2b8f14808"
 metafile = true
 
 [[files]]
@@ -732,7 +732,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-filters.pw.toml"
-hash = "1152180ed579fd5cd5c2006022fa6038ee27d0a49f12575d05484b379c3ef9f0"
+hash = "03161c14f2097af7463fd654c3f2e2eb99c901d86b01b010e1dd173fb9a69662"
 metafile = true
 
 [[files]]
@@ -748,11 +748,6 @@ metafile = true
 [[files]]
 file = "mods/krypton.pw.toml"
 hash = "d609573e65a0c0417060648951d396133b295f172fa8f21ce6566d66d27e8320"
-metafile = true
-
-[[files]]
-file = "mods/kubejs.pw.toml"
-hash = "dba5e86c1ae28cb8a7677097cd555e8b1f1dddef1061d52b59cfbfaa11d10607"
 metafile = true
 
 [[files]]
@@ -859,7 +854,7 @@ metafile = true
 
 [[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
-hash = "9c6d3e47db115de2d035eae294065033b9b5ae72b5809727e22b327976a02eda"
+hash = "10e7c99e4d59191219e0e07f55bcdf2ac4a08f15cd3cf7a9f64ecf6041b674b2"
 metafile = true
 
 [[files]]
@@ -994,7 +989,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "0f51270c426ece64c5436d39cf1a17fba5a58de32e4de175929acdd21edc7bc6"
+hash = "eaf64f4275905db396aec17b59ac7c2ade54b046821d8134fe7a89983fbe2107"
 metafile = true
 
 [[files]]

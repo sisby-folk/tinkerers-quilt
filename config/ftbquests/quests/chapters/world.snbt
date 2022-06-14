@@ -33,6 +33,7 @@
 				type: "structure"
 				title: "Visit a Snow Village"
 				icon: "minecraft:blue_ice"
+				disable_toast: true
 				structure: "minecraft:village_snowy"
 			}]
 			rewards: [
@@ -77,6 +78,7 @@
 				type: "structure"
 				title: "Find an Ocean Monument"
 				icon: "minecraft:prismarine_bricks"
+				disable_toast: true
 				structure: "minecraft:monument"
 			}]
 			rewards: [
@@ -132,6 +134,7 @@
 				type: "observation"
 				title: "Find a Bee Nest"
 				icon: "minecraft:bee_nest"
+				disable_toast: true
 				timer: 0L
 				observe_type: 0
 				to_observe: "minecraft:bee_nest"
@@ -193,6 +196,7 @@
 				type: "structure"
 				title: "Find an Abandoned Mineshaft"
 				icon: "minecraft:rail"
+				disable_toast: true
 				structure: "minecraft:mineshaft"
 			}]
 			rewards: [
@@ -283,6 +287,7 @@
 			tasks: [{
 				id: "372E5994E7E2ABAB"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:axolotl_bucket"
 					Count: 1b
@@ -339,6 +344,7 @@
 				type: "structure"
 				title: "Find a Bastion Remnant"
 				icon: "minecraft:polished_blackstone_bricks"
+				disable_toast: true
 				structure: "minecraft:bastion_remnant"
 			}]
 			rewards: [
@@ -401,6 +407,7 @@
 				type: "structure"
 				title: "Visit a Desert Village"
 				icon: "minecraft:sandstone"
+				disable_toast: true
 				structure: "minecraft:village_desert"
 			}]
 			rewards: [
@@ -432,7 +439,7 @@
 			description: [
 				"Turtles can be found roaming on beaches. And can be bred using Seagrass"
 				""
-				"Raising a turtle will grant you a Scute."
+				"Turtles breed yielding eggs, which must be protected until they hatch. Raising a turtle will grant you a Scute."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -442,6 +449,7 @@
 				type: "observation"
 				title: "Find a Turtle"
 				icon: "minecraft:scute"
+				disable_toast: true
 				timer: 0L
 				observe_type: 5
 				to_observe: "minecraft:turtle"
@@ -474,6 +482,7 @@
 			tasks: [{
 				id: "4332DE476304087F"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "minecraft:turtle_helmet"
 					Count: 1b
@@ -529,6 +538,7 @@
 				type: "structure"
 				title: "Enter a Plains Village"
 				icon: "minecraft:oak_planks"
+				disable_toast: true
 				structure: "minecraft:village_plains"
 			}]
 			rewards: [{
@@ -557,6 +567,7 @@
 				type: "structure"
 				title: "Visit a Taiga Village"
 				icon: "minecraft:spruce_planks"
+				disable_toast: true
 				structure: "minecraft:village_taiga"
 			}]
 			rewards: [{
@@ -587,6 +598,7 @@
 				type: "structure"
 				title: "Enter a Savanna Village"
 				icon: "minecraft:acacia_log"
+				disable_toast: true
 				structure: "minecraft:village_savanna"
 			}]
 			rewards: [{
@@ -674,6 +686,7 @@
 				type: "structure"
 				title: "Find a Mansion"
 				icon: "minecraft:dark_oak_stairs"
+				disable_toast: true
 				structure: "minecraft:mansion"
 			}]
 			rewards: [{
@@ -704,6 +717,7 @@
 			tasks: [{
 				id: "7E973FBCC832794D"
 				type: "item"
+				disable_toast: true
 				item: "minecraft:totem_of_undying"
 			}]
 			rewards: [{
@@ -730,6 +744,7 @@
 				type: "observation"
 				title: "Observe an Amethyst Block"
 				icon: "minecraft:amethyst_block"
+				disable_toast: true
 				timer: 0L
 				observe_type: 0
 				to_observe: "minecraft:amethyst_block"
@@ -768,6 +783,7 @@
 				type: "observation"
 				title: "Find Snow"
 				icon: "minecraft:snow"
+				disable_toast: true
 				timer: 0L
 				observe_type: 0
 				to_observe: "minecraft:snow"
@@ -1015,6 +1031,7 @@
 				type: "structure"
 				title: "Find a Pillager Outpost"
 				icon: "minecraft:spruce_stairs"
+				disable_toast: true
 				structure: "minecraft:pillager_outpost"
 			}]
 			rewards: [{
@@ -1047,6 +1064,7 @@
 				type: "structure"
 				title: "Find a Shipwreck"
 				icon: "minecraft:dark_oak_boat"
+				disable_toast: true
 				structure: "minecraft:shipwreck"
 			}]
 			rewards: [
@@ -1091,6 +1109,7 @@
 				type: "structure"
 				title: "Find a Desert Temple"
 				icon: "minecraft:chiseled_sandstone"
+				disable_toast: true
 				structure: "minecraft:desert_pyramid"
 			}]
 			rewards: [{
@@ -1125,6 +1144,7 @@
 				type: "structure"
 				title: "Find a Jungle Temple"
 				icon: "minecraft:mossy_cobblestone"
+				disable_toast: true
 				structure: "minecraft:jungle_pyramid"
 			}]
 			rewards: [
@@ -1257,6 +1277,7 @@
 				type: "biome"
 				title: "Find a Dripstone Cave"
 				icon: "minecraft:dripstone_block"
+				disable_toast: true
 				biome: "minecraft:dripstone_caves"
 			}]
 			rewards: [
@@ -1295,6 +1316,7 @@
 				type: "observation"
 				title: "Find Deepslate"
 				icon: "minecraft:deepslate"
+				disable_toast: true
 				timer: 0L
 				observe_type: 0
 				to_observe: "minecraft:deepslate"
@@ -1589,6 +1611,7 @@
 				type: "stat"
 				title: "Talk to a Villager"
 				icon: "minecraft:emerald"
+				disable_toast: true
 				stat: "minecraft:talked_to_villager"
 				value: 1
 			}]
