@@ -493,7 +493,15 @@
 			x: -0.5d
 			y: -6.0d
 			subtitle: "Kill 15 Creepers"
-			description: ["Creeper explosions don't destroy blocks in this pack, but they still pack a punch! They're easiest taken out from a distance, or using singular sprint-jumping strikes. Knockback-enchanted weapons are effective too."]
+			description: [
+				"Creeper explosions don't destroy blocks in this pack, but they still pack a punch! They're easiest taken out from a distance, or using singular sprint-jumping strikes. Knockback-enchanted weapons are effective too."
+				""
+				"Creepers are the best source of gunpowder, which is invaluable for TNT and Fireworks."
+				""
+				"You can make an area spawn only creepers by creating a 2x2 tunnel and lining the roof with trapdoors. Creepers are slightly shorter than most mobs, so they'll fit."
+				""
+				"Larger spaces can be made, but carpets need to be placed every 3 blocks in a grid to prevent spiders from spawning."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "2BA288C7EE0930DB"

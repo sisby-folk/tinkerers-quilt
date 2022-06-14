@@ -54,19 +54,19 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "39ec63f4dbf7674dd1af1925dbab27a2513fb2c86c1af0cacb522fcdc21641b2"
+hash = "b6205372321d3cf8bc8062e214961a6f068c02d0cb1f9c1d11a1f6e0efa6de97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "1978ba4d8f366b3e245131f26e166a2c401887238fb8538314d59b02538081b7"
+hash = "065f8dde59a26990e6c956ec0814f01012c4462a37a4cf55fe0cd723a2c74e6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "6eaa5a27d1a63e8a5a1fa1962946805e71301aea436e9859d45061c4166d500e"
+hash = "cde570688f33fe781f4dc4ede619e585e11e9ef98a8ea222486d76605c997bae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "2b70483ba14b48bcc6bc696cfff3d167c0475c20144da14bd6d19c7a50f65918"
+hash = "e6d30c181af6e0273c5af787f29361212c31a89160d79f3933dca923dc06c5ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
@@ -74,7 +74,7 @@ hash = "5258e1fc5ef375d8becc27b1b6ece27ba46306d5cf3ba4a867f2a5c5ac49281d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "82df2d95efd6695d2cc241abdfcbf6532b2abc338d406a92e6aa311e72fe92dc"
+hash = "823711947f30ff4a96be85c98f295f2b9914e9149125db32a5788eaa4591e19d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -445,6 +445,26 @@ hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
 [[files]]
 file = "kubejs/data/crafting/recipes/water_breathing.json"
 hash = "7d47d56eb3f4adbdd6940e0595e2ef51d841aabd21b6e85f5e537cfad07c13ea"
+
+[[files]]
+file = "kubejs/data/tinkerer/tags/items/boots.json"
+hash = "0b11aeecc520cf00c3f03ff1de284020616a522ee1d9a94221d6524a98629e96"
+
+[[files]]
+file = "kubejs/data/tinkerer/tags/items/chestplates.json"
+hash = "4d1a35c14f22888e5654cf457d6e7266c69027851dac7faef871be46f694322b"
+
+[[files]]
+file = "kubejs/data/tinkerer/tags/items/fence_gates.json"
+hash = "f4c9b0981db93428dc77afab3d682a5bfabc9a92e79993bf29c19ad84cef34f5"
+
+[[files]]
+file = "kubejs/data/tinkerer/tags/items/helmets.json"
+hash = "bbc3c703cb9df1c1998780840cbaa48aaedfef07cb59d9c1cf8f3c8b4b301dbb"
+
+[[files]]
+file = "kubejs/data/tinkerer/tags/items/leggings.json"
+hash = "06c289441493a0ca494052ba61ca7bd443cd8917351c8c708a9ecb1695ef21c3"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
@@ -987,7 +1007,7 @@ metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
-hash = "25ba1f543d497256054d05bbbab6e0c4f5aa9796cd53191d4b381297fd98c81d"
+hash = "f7b06cb8ec7928fff97239728f125646d9100499fc99281a1fd73486e5fa1841"
 metafile = true
 
 [[files]]

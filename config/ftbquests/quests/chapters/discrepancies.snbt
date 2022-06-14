@@ -9,13 +9,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Inventory Tabs"
+			title: "Inventory Tabs / Wheelie Sorting"
 			icon: "minecraft:paper"
 			x: -0.5d
 			y: -0.5d
 			shape: "square"
 			subtitle: "Flip, flip, flip!"
-			description: ["Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the TAB key."]
+			description: [
+				"Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the TAB key."
+				""
+				"Additionally, middle clicking in any inventory will quickly sort it."
+			]
 			id: "303012ABADCBFBCB"
 			tasks: [{
 				id: "3473A781A4FCF39E"

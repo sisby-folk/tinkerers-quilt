@@ -388,6 +388,8 @@
 				"This can be used to lead them into your base, or a seperated room, pen, or field."
 				""
 				"Animals can be fed their favourite foods to encourage them to breed. Allowing you to expand your farm population."
+				""
+				"More wild animals can be ranched, including turtles and goats. These can be found in the \"Exploration\" tab."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -1086,6 +1088,12 @@
 				"A *Conduit* allows you to make advanced multi-species underwater bases."
 				""
 				"To activate them, they need to be placed in a 3x3x3 cube of water, that is surrounded by 5x5 squares of prismarine aligned with it in 1-3 axes (each increasing the range)."
+				""
+				"{image:kubejs:textures/gui/conduit_quest_diagram.png width:691 height:320 align:1 fit:true}"
+				""
+				"They also work to provide air-breathing to water-breathing origins!"
+				""
+				"To acquire more prismarine shards, you'll need to find and battle ocean monuments."
 			]
 			dependencies: [
 				"4FA802A874FC1A24"
@@ -1160,6 +1168,8 @@
 				"Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."
 				""
 				"Try Ice Farming! There's a tutorial in the *Variety Fair* section of the farming quest tree."
+				""
+				"If ice farming is too slow, try going out to iceberg biomes and frozen peaks biomes, which have packed and blue ice."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
