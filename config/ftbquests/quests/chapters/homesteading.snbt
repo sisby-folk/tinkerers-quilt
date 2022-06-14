@@ -1091,11 +1091,10 @@
 				""
 				"To activate them, they need to be placed in a 3x3x3 cube of water, that is surrounded by 5x5 squares of prismarine aligned with it in 1-3 axes (each increasing the range)."
 				""
-				"{image:kubejs:textures/gui/conduit_quest_diagram.png width:691 height:320 align:1 fit:true}"
-				""
 				"They also work to provide air-breathing to water-breathing origins!"
 				""
 				"To acquire more prismarine shards, you'll need to find and battle ocean monuments."
+				""
 			]
 			dependencies: [
 				"4FA802A874FC1A24"
@@ -2704,6 +2703,7 @@
 			title: "Automated Input"
 			x: 13.0d
 			y: -13.0d
+			shape: "hexagon"
 			subtitle: "Craft a Comparator"
 			description: [
 				"Along with manual inputs, certain things can be observed to make mechanisms activate automatically."
@@ -2825,6 +2825,7 @@
 			title: "Item Transport"
 			x: 13.0d
 			y: -11.0d
+			shape: "hexagon"
 			subtitle: "Craft a Dropper"
 			description: [
 				"Droppers will drop the first item in their inventory when powered, which can be used to transport items long vertical distances (including up using bubble elevators), or onto \"slides\" made of flowing water and ice."
@@ -2960,12 +2961,14 @@
 				"Item frames can also be used to help organize - a single item can be placed in them for display."
 			]
 			dependencies: ["55783EE248BAC550"]
+			hide: true
 			id: "0342FEBA88E3AF0E"
 			tasks: [{
 				id: "7F0EA1048654217D"
 				type: "item"
 				title: "Craft a Sign"
 				icon: "minecraft:oak_sign"
+				disable_toast: true
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

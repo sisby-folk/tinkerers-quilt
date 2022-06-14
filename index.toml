@@ -54,7 +54,7 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "e8a3415960d7d80ec16b8fd16b68a37a36973ba4c5998b740e7e259f2774a09f"
+hash = "910d77398ad4b1963ddb4aa6b3257374c7d1789982ba7b0db47841fa917bc113"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -62,7 +62,7 @@ hash = "6272752b39ed8e0bf76809fc3ae4601a5f36c77d361ae016faf375600c20895a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "47942a64a460ae3ac68015afbb3a702d8e85314dcfb805e3492d523497d3ebbc"
+hash = "5057d8defdcd93a8d1e10c1a979915715a44c76f3ec39503187d941af75aeb5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -70,7 +70,7 @@ hash = "6b4cd0702f0bf479cf77b5e8eef95801e83894505477767c9a0ec4f0623bb02a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "5258e1fc5ef375d8becc27b1b6ece27ba46306d5cf3ba4a867f2a5c5ac49281d"
+hash = "09fa42f5e4f63404a713669c952fea1bb0b057e3c659b8241a06be2123560c7f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -359,6 +359,10 @@ hash = "4f6f464112a38507b152258aa064d451323f2acf7411cbee36f5bd70a69c74f6"
 [[files]]
 file = "config/openloader/resources/tinkerers_assets/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
 hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
+
+[[files]]
+file = "config/openloader/resources/tinkerers_assets/pack.mcmeta"
+hash = "087622bfdc793ea891db4f6076e28aa34312b975452a964e603a48116a924636"
 
 [[files]]
 file = "config/openloader/resources/varied-connected-bookshelves.pw.toml"
