@@ -465,6 +465,10 @@ file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_net
 hash = "2137b82dcc35745f351c9485ba6bac9b950a6fa42fdc3a2ed04df6ec4f451078"
 
 [[files]]
+file = "config/openloader/data/tinkerers_repair/pack.mcmeta"
+hash = "6f5512fffebdd4c30d0157c498282abab5aa34488cac82669490d1604a28dee2"
+
+[[files]]
 file = "config/openloader/data/tinkerers_statures/data/origins/origin_layers/stature.json"
 hash = "d0bdb48730c8905a71cb3a9f4f97618dd8ddd6dd02d58ed275824b7421065a04"
 
