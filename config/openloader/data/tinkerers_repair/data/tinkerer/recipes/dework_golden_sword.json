@@ -1,0 +1,16 @@
+{
+    "base": {
+        "item": "minecraft:golden_sword"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "data": {
+            "$": "base",
+            "RepairCost": "$(base.RepairCost + 1)/2"
+        },
+        "item": "minecraft:golden_sword"
+    },
+    "type": "nbtcrafting:smithing"
+}

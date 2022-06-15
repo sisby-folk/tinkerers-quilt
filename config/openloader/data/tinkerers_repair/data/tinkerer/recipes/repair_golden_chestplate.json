@@ -1,0 +1,16 @@
+{
+    "base": {
+        "item": "minecraft:golden_chestplate"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "base",
+            "Damage": "$base.Damage - 28"
+        },
+        "item": "minecraft:golden_chestplate"
+    },
+    "type": "nbtcrafting:smithing"
+}

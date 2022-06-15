@@ -1,0 +1,16 @@
+{
+    "base": {
+        "item": "minecraft:golden_leggings"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "base",
+            "Damage": "$base.Damage - 27"
+        },
+        "item": "minecraft:golden_leggings"
+    },
+    "type": "nbtcrafting:smithing"
+}

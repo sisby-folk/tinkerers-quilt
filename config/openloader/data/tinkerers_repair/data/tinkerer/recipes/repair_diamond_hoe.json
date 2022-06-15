@@ -1,0 +1,16 @@
+{
+    "base": {
+        "item": "minecraft:diamond_hoe"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "base",
+            "Damage": "$base.Damage - 391"
+        },
+        "item": "minecraft:diamond_hoe"
+    },
+    "type": "nbtcrafting:smithing"
+}

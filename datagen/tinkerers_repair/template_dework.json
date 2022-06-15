@@ -1,0 +1,16 @@
+{
+    "type": "nbtcrafting:smithing",
+    "base": {
+        "item": "{{ item }}"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "item": "{{ item }}",
+		"data": {
+			"$": "base",
+			"RepairCost": "$(base.RepairCost + 1)/2"
+		}
+    }
+}

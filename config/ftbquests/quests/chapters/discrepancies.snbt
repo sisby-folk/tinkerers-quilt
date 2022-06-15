@@ -121,12 +121,12 @@
 			}]
 		}
 		{
-			title: "Leaf Mode"
+			title: "Tinkerer's Vegetarian"
 			icon: "minecraft:kelp"
-			x: -0.5d
+			x: -1.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "[not a real mod]"
+			subtitle: "Leaf Mode"
 			description: [
 				"This pack has fairly good support for a \"vegetarian\" playthrough - one that avoids killing passive mobs. This makes the game slightly more challenging. Some origins require this for food."
 				""
@@ -161,15 +161,34 @@
 				""
 				"By using this note on a copper block, the pet will be revived in a flash."
 				""
+				"Copper blocks can also be used to make beacons in this pack, unless they've aged to 'weathered' or 'oxidized'. Using honeycomb on copper prevents this, adding more uses to bees."
+				""
 				"Animals can be pet using middle click by default. This may slightly heal some pets."
 				""
 				"Horses also have some improvements, and more things can be done while riding them."
-				""
-				"Bees have additional use in this pack. Notably, copper can be used to make beacons, as long as it is not \"weathered\". using honeycomb on copper prevents aging in this way."
 			]
 			id: "0F3322EEACEA1A00"
 			tasks: [{
 				id: "0C472AF65F781826"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Tinkerer's Smithing"
+			icon: "minecraft:smithing_table"
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Sentimental Equipment"
+			description: [
+				"In this pack, repairing enchanted gear using ingots and diamonds costs no xp and doesn't stack up, as long as you use a smithing table."
+				""
+				"The \"Prior Work\" repair cost on enchanted equipment can also be reversed (one stage at a time) using netherite scrap, also at a smithing table."
+			]
+			id: "00BF3119EB22417C"
+			tasks: [{
+				id: "47D97349DBC5E67F"
 				type: "checkmark"
 				title: "Click Here!"
 			}]

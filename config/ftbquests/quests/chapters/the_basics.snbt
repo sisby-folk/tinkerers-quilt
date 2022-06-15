@@ -444,8 +444,7 @@
 			description: [
 				"Ancient debris is a rare material found in black-bricked bastion remnants, and in small quantities by riskily stripmining below the lava sea of the nether. Try y=9."
 				""
-				"It can be used to make the best gear!"
-				""
+				"It can be used to make the best gear, and is also used to help improving maintaining enchanted tools in this pack."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
@@ -903,13 +902,15 @@
 			shape: "hexagon"
 			subtitle: "Craft an Anvil and a Grindstone"
 			description: [
-				"Anvils allow enchanted tools of the same type to be crafted together, combining their enchantments at the cost of increasing the cost of further crafts."
+				"Enchanted equipment can be combined at an anvil, costing increasing XP each time. This includes equipment of the same type, or applying enchanted books to equipment."
 				""
-				"Anvils can also be used to apply enchanted books to items, even enchanted ones."
+				"In this pack, repairing enchanted gear using ingots and diamonds costs no xp and doesn't stack up, as long as you use the smithing table."
 				""
-				"Grindstones allow you to unenchant an item, refunding some XP and allowing the item to be Re-Enchanted."
+				"The mounting XP cost on equipment can also be reversed on the smithing table using netherite scrap."
 				""
 				"Some enchantments, like Silk Touch and Fortune, are incompatible, and can't be applied on the same item."
+				""
+				"Grindstones allow you to unenchant an item, refunding some XP and allowing the item to be Re-Enchanted."
 			]
 			dependencies: ["594D5FA160E7C304"]
 			hide: true
@@ -968,6 +969,11 @@
 							}]
 						}
 					}
+				}
+				{
+					id: "1BA22CBA701440EA"
+					type: "item"
+					item: "minecraft:smithing_table"
 				}
 			]
 		}

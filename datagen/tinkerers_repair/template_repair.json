@@ -1,0 +1,16 @@
+{
+    "type": "nbtcrafting:smithing",
+    "base": {
+        "item": "{{ item }}"
+    },
+    "ingredient": {
+        "item": "{{ repair_item }}"
+    },
+    "result": {
+        "item": "{{ item }}",
+		"data": {
+			"$": "base",
+			"Damage": "{{ damage }}"
+		}
+    }
+}

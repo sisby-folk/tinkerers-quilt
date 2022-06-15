@@ -1,0 +1,16 @@
+{
+    "base": {
+        "item": "minecraft:iron_boots"
+    },
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "base",
+            "Damage": "$base.Damage - 49"
+        },
+        "item": "minecraft:iron_boots"
+    },
+    "type": "nbtcrafting:smithing"
+}

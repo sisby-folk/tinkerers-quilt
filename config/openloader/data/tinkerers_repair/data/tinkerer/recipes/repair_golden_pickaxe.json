@@ -1,0 +1,16 @@
+{
+    "base": {
+        "item": "minecraft:golden_pickaxe"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "base",
+            "Damage": "$base.Damage - 8"
+        },
+        "item": "minecraft:golden_pickaxe"
+    },
+    "type": "nbtcrafting:smithing"
+}

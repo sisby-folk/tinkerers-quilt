@@ -2118,7 +2118,11 @@
 			x: 4.0d
 			y: -17.0d
 			subtitle: "Farm 64 Sweet Berries"
-			description: ["Just throw a bunch on the ground, honestly. There's not much to it. Maybe put them in rows? I'm not a cop."]
+			description: [
+				"Just throw a bunch on the ground, honestly. There's not much to it. Maybe put them in rows? I'm not a cop."
+				""
+				"Foxes like sweet berries, and prefer holding them to any other item. If a fox is holding an item you want, tempt it with a sweet berry!"
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			id: "531358BD1C258F99"
 			tasks: [
