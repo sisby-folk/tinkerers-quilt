@@ -896,8 +896,9 @@ hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
-file = "mods/drogtor.toml"
+file = "mods/drogtor.pw.toml"
 hash = "dbe8d071f21199e6deeb7d48046d519df513aecaa1ffa5205372fe6ef8d97bea"
+metafile = true
 
 [[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
@@ -1178,6 +1179,11 @@ metafile = true
 [[files]]
 file = "mods/pettable.pw.toml"
 hash = "21fa7484096522ee95c09131ea8dc3246e1001253d483784844832bee6dd9b07"
+metafile = true
+
+[[files]]
+file = "mods/player-pronouns.pw.toml"
+hash = "42ea9585c88e85ad038e34715deba57550c8db70e14884a61b0c058d594734c2"
 metafile = true
 
 [[files]]
