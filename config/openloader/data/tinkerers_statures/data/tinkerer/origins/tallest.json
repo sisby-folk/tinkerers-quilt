@@ -1,10 +1,10 @@
 {
-	"powers": [
-		"tinkerer:tallest"		
-	],
-	"icon": "minecraft:mushroom_stew",
-	"order": 0,
-	"impact": 0,
-	"name": "Tallest",
-	"description": "'Watch your head.'\nMinor gameplay impact."
+    "description": "'Watch your head.'\nMinor gameplay impact.",
+    "icon": "minecraft:mushroom_stew",
+    "impact": 0,
+    "name": "Tallest",
+    "order": 0,
+    "powers": [
+        "tinkerer:tallest"
+    ]
 }

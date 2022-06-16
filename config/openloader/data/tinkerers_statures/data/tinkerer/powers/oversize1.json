@@ -1,6 +1,26 @@
 {
-	"type": "extraorigins:modify_size",
-	"scale": 1.62,
-	"name": "Oversize",
-	"description": "You are oversized (162%)!\nHeight: 3 Blocks\nSneak Height: 2.5 Blocks\nWidth: 1 Block Exactly"
+    "description": "You're oversized (162%)!\nHeight: 3 Blocks\nSneak Height: 2.5 Blocks\nWidth: 1 Block Exactly",
+    "entity_action_chosen": {
+        "actions": [
+            {
+                "command": "scale set pehkui:height 1.62 @s",
+                "type": "origins:execute_command"
+            },
+            {
+                "command": "scale set pehkui:height 1.62 @s",
+                "type": "origins:execute_command"
+            },
+            {
+                "command": "scale persist set true @s",
+                "type": "origins:execute_command"
+            }
+        ],
+        "type": "origins:and"
+    },
+    "entity_action_lost": {
+        "command": "scale reset @s",
+        "type": "origins:execute_command"
+    },
+    "name": "Oversize",
+    "type": "origins:action_on_callback"
 }

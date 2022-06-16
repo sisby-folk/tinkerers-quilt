@@ -1,6 +1,26 @@
 {
-	"type": "extraorigins:modify_size",
-	"scale": 0.85,
-	"name": "Semi-Short",
-	"description": "You're quite short (85%)!\nHeight: 1.6 Blocks\nSneak Height: 1.3 Blocks"
+    "description": "You're quite short (85%)!\nHeight: 1.6 Blocks\nSneak Height: 1.3 Blocks\nWidth: 0.5 Blocks",
+    "entity_action_chosen": {
+        "actions": [
+            {
+                "command": "scale set pehkui:height 0.85 @s",
+                "type": "origins:execute_command"
+            },
+            {
+                "command": "scale set pehkui:height 0.85 @s",
+                "type": "origins:execute_command"
+            },
+            {
+                "command": "scale persist set true @s",
+                "type": "origins:execute_command"
+            }
+        ],
+        "type": "origins:and"
+    },
+    "entity_action_lost": {
+        "command": "scale reset @s",
+        "type": "origins:execute_command"
+    },
+    "name": "Semi-Short",
+    "type": "origins:action_on_callback"
 }

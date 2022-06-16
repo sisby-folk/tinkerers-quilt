@@ -1,10 +1,10 @@
 {
-	"powers": [
-		"tinkerer:impish"		
-	],
-	"icon": "minecraft:water_bucket",
-	"order": 0,
-	"impact": 0,
-	"name": "Impish",
-	"description": "1.5x Short\nMinor gameplay impact."
+    "description": "1.5x Short\nMinor gameplay impact.",
+    "icon": "minecraft:water_bucket",
+    "impact": 0,
+    "name": "Impish",
+    "order": 0,
+    "powers": [
+        "tinkerer:impish"
+    ]
 }

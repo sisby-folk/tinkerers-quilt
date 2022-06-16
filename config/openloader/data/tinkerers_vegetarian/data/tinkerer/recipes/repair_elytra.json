@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:elytra"
+        },
+        {
+            "item": "minecraft:leather"
+        }
+    ],
+    "result": {
+        "item": "minecraft:elytra",
+		"data": {
+			"$": "i0",
+			"Damage": "$i0.Damage - 108"
+		},
+		"count": 1
+    }
+}

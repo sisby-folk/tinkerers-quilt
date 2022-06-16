@@ -1,10 +1,10 @@
 {
-	"powers": [
-		"tinkerer:semishort"
-	],
-	"icon": "minecraft:splash_potion",
-	"order": 0,
-	"impact": 0,
-	"name": "Semi-Short",
-	"description": "3/4 Short"
+    "description": "3/4 Short",
+    "icon": "minecraft:splash_potion",
+    "impact": 0,
+    "name": "Semi-Short",
+    "order": 0,
+    "powers": [
+        "tinkerer:semishort"
+    ]
 }

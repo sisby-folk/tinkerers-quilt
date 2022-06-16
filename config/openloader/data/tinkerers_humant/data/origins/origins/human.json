@@ -1,0 +1,13 @@
+{
+	"name": "Stranger",
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:glass"
+    },
+	"description": "The standard minecraft experience.\n\n§oLet's not quarrel with who or what you are - It's time to get started.§r",
+    "order": 1,
+    "impact": 0,
+    "loading_priority": 100,
+    "unchoosable": false
+}

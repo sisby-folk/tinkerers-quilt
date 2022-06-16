@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"{{ power }}"
+	],
+	"icon": "{{ Icon }}",
+	"order": 0,
+	"impact": 0,
+	"name": "{{ Name }}",
+	"description": "{{ Description }}"
+}

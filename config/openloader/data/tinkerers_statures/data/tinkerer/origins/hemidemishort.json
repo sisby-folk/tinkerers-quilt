@@ -1,10 +1,10 @@
 {
-	"powers": [
-		"tinkerer:hemidemishort"		
-	],
-	"icon": "minecraft:potion",
-	"order": 0,
-	"impact": 0,
-	"name": "Hemi-Demi-Short",
-	"description": "1/4 Short"
+    "description": "1/4 Short",
+    "icon": "minecraft:potion",
+    "impact": 0,
+    "name": "HemiDemi-Short",
+    "order": 0,
+    "powers": [
+        "tinkerer:hemidemishort"
+    ]
 }

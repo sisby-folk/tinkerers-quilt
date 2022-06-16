@@ -1,10 +1,10 @@
 {
-	"powers": [
-		"tinkerer:tall"		
-	],
-	"icon": "minecraft:bread",
-	"order": 0,
-	"impact": 0,
-	"name": "Taller",
-	"description": "'How's the weather down *there*?'\nMinor gameplay impact."
+    "description": "'How's the weather down *there*?'\nMinor gameplay impact.",
+    "icon": "minecraft:bread",
+    "impact": 0,
+    "name": "Taller",
+    "order": 0,
+    "powers": [
+        "tinkerer:taller"
+    ]
 }

@@ -1,0 +1,13 @@
+{
+	"name": "Unspecialized",
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:stone"
+    },
+	"description": "No specific advantages.\n\n§oJack of all trades, master of none.§r",
+    "order": 0,
+    "impact": 0,
+    "loading_priority": 100,
+    "unchoosable": false
+}
