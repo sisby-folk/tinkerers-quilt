@@ -1,0 +1,8 @@
+name = "Drogtor"
+filename = "Drogtor-Fabric-1.17-1.1.2.jar"
+side = "server"
+
+[download]
+url = "https://github.com/unascribed/Drogtor/releases/download/v1.1.2/Drogtor-Fabric-1.17-1.1.2.jar"
+hash-format = "sha1"
+hash = "ff1fe45b8a0e006effa7af9e85018aac4e721968"

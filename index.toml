@@ -896,6 +896,10 @@ hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
+file = "mods/drogtor.toml"
+hash = "dbe8d071f21199e6deeb7d48046d519df513aecaa1ffa5205372fe6ef8d97bea"
+
+[[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
 hash = "c158b1949068207598f5ce696da793f3f6499042ac332a36a9c7ffef12a7e4ad"
 metafile = true
