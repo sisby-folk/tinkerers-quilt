@@ -43,7 +43,7 @@ The name is based around the creators, not the content - sorry!
 
  - Drag and drop onto an open PolyMC/MultiMC window!
 
-(Server download [here](https://github.com/sisby-folk/mc-packs/blob/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip)
+(Server download [here](https://github.com/sisby-folk/mc-packs/blob/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip))
 
 ---
 
