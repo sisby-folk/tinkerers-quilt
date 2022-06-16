@@ -1,6 +1,6 @@
 name = "CleanCut"
 filename = "cleancut-1.18.2-5.0-fabric.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
