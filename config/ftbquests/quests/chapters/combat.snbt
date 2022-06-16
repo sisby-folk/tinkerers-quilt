@@ -166,7 +166,7 @@
 			description: [
 				"Melee weapons all have an \"attack speed\", which is shown by the cooldown timer near the crosshair."
 				""
-				"Swords are the oldest weapon in the game, and can perform a *sweeping attack* when used off cooldown, damaging enemies in a small area."
+				"Swords are the oldest weapon in the game, and can perform a §osweeping attack§r when used off cooldown, damaging enemies in a small area."
 				""
 				"Axes have been more recently adapted as a weapon, and focus on slower use, higher single target damage. They're harder to enchant due to also taking harvesting enchantments."
 			]
@@ -358,19 +358,19 @@
 			shape: "hexagon"
 			subtitle: "Acquire armor for every slot"
 			description: [
-				"Armor provides Defense, which incrementally reduces the damage taken from attacks."
+				"Armor provides §oDefense§r, which incrementally reduces the damage taken from attacks."
 				""
-				"Diamond and Netherite armor provide Toughness, which reduces the damage of high-damage attacks even more."
+				"Diamond and Netherite armor provide §oToughness§r, which reduces the damage of high-damage attacks even more."
 				""
-				"Netherite also provides knockback resistance, up to 40% with a full set."
+				"Netherite also provides §oKnockback Resistance§r, up to 40% with a full set."
 				""
 				"All armor is enchantable. Golden armor is the easiest to enchant, but has a low durability."
 				""
-				"All armor can be enchanted with a maximum of one of the four \"Protections\". *Protection* reduces all damage by 4% per level - Other protections (projectile, blast, fire) reduce damage by 8% per level. Thorns can also be added, dealing damage to attackers on direct attacks."
+				"All armor can be enchanted with at most one of the four \"Protections\". §oProtection§r reduces all damage by 4% per level - Others (projectile, blast, and fire) reduce damage by 8% per level. §oThorns§r can also be added, dealing damage to attackers on direct attacks."
 				""
-				"Helmets can also be enchanted with Respiration, which increases water breath time, and Aqua Affinity, which improves underwater mining."
+				"Helmets can also be enchanted with §oRespiration§r, which increases water breath time, and §oAqua Affinity§r, which improves underwater mining."
 				""
-				"Boots can also be enchanted with Feather Falling, which reduces fall damage (up to V in this pack, which negates it)."
+				"Boots can also be enchanted with §oFeather Falling§r, which reduces fall damage (up to V in this pack, which negates it)."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -453,7 +453,7 @@
 			description: [
 				"Spawning in droves at night and in caves. Zombies' slow melee amble can be outmaneuvered and outplayed in many ways."
 				""
-				"Try \"pillaring\" by jumping and placing two blocks beneath you. This allows you to easily kill any zombies as long as no skeletons are nearby."
+				"Try §oPillaring§r by jumping and placing two blocks beneath you. This allows you to easily kill any zombies as long as no skeletons are nearby."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -552,7 +552,7 @@
 			y: 1.0d
 			subtitle: "Vanquish Three Elder Guardians"
 			description: [
-				"Three Elder Guardians live at the heart of Ocean Monuments - Giant underwater temples that restrict your mining ability."
+				"Three §oElder Guardians§r live at the heart of §oOcean Monuments§r - Giant underwater temples that restrict your mining ability."
 				""
 				"They fire slow-firing lasers at the player and allied axolotls, and have 40 hearts of health."
 				""
@@ -803,7 +803,7 @@
 			description: [
 				"Endermen are most easily fought in numbers in the end, and in the desert at night, where the flat light ground makes them very visible."
 				""
-				"Wearing a Carved Pumpkin in your helmet slot prevents enderman from angering on sight. "
+				"Wearing a Carved Pumpkin in your helmet slot prevents Endermen from angering on sight. "
 				""
 				"Enderman can't be hit by ranged attacks, and teleport behind you when hit."
 			]
@@ -827,7 +827,7 @@
 			description: [
 				"Shulkers shoot homing bolts that cause levitation on hit, risking high fall damage. "
 				""
-				"The projectiles can be destroyed by hitting them, and enderpearls can be used to negate fall damage."
+				"The projectiles can be destroyed by hitting them, and Ender Pearls can be used to negate fall damage."
 				""
 				"Shulkers can \"close\", reducing damage they take."
 			]
@@ -874,7 +874,7 @@
 			description: [
 				"Cave spiders are spawned from cave spider spawners in abandoned mineshafts, easily found by looking for cobweb-infested areas."
 				""
-				"In normal and above, they inflict posion."
+				"In normal and above, they inflict poison."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -985,7 +985,7 @@
 			y: 2.0d
 			shape: "pentagon"
 			subtitle: "face danger head-on"
-			description: ["*Stay safe*"]
+			description: ["§oStay safe§r"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2D49941B8AEF7256"
@@ -1278,7 +1278,7 @@
 			y: -8.5d
 			shape: "pentagon"
 			subtitle: "Send monsters back to Hell"
-			description: ["*Invest in these, they'll return the favour.*"]
+			description: ["§oInvest in these, they'll return the favour.§r"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7BA5B355C7DFF7E3"
@@ -1528,10 +1528,15 @@
 								id: "minecraft:knockback"
 								lvl: 4s
 							}]
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
+							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										1651970931
@@ -1540,11 +1545,11 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Slot: "mainhand"
+									Name: "generic.attack_speed"
 								}
 								{
 									Amount: 2
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										262443461
@@ -1553,14 +1558,9 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Slot: "mainhand"
+									Name: "generic.attack_damage"
 								}
 							]
-							Damage: 0
-							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
-							}
 						}
 					}
 				}

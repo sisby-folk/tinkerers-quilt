@@ -16,9 +16,9 @@
 			shape: "square"
 			subtitle: "Flip, flip, flip!"
 			description: [
-				"Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the TAB key."
+				"Inventory Tabs shows nearby inventories as clickable ui elements, quick-swappable with the §nTAB§r key."
 				""
-				"Additionally, middle clicking in any inventory will quickly sort it."
+				"Additionally, in any inventory, pressing §nMiddle Click§r will sort all items."
 			]
 			id: "303012ABADCBFBCB"
 			tasks: [{
@@ -35,9 +35,9 @@
 			shape: "square"
 			subtitle: "Green mode."
 			description: [
-				"Lambdaurora's Better Grass changes grass sides for 1 and 2-block drops."
+				"LambdAurora's Lambda Better Grass changes grass sides for 1 and 2-block drops."
 				""
-				"Freely configure this from the Mod Settings menu."
+				"Freely configure under §nALT+M§r -> LambdaBetterGrass."
 			]
 			id: "72631298179FD53C"
 			tasks: [{
@@ -69,7 +69,7 @@
 			shape: "square"
 			subtitle: "This is the greatest bridge building of all time."
 			description: [
-				"Midnight Controls provides \"reacharound block placement\" - which allows you to place floating ground in front of you."
+				"Midnight Controls provides \"reach-around block placement\" - which allows you to place floating ground in front of you."
 				""
 				"It also allows you to place blocks under the block you're standing on by sneaking over the edge."
 			]
@@ -88,11 +88,49 @@
 			shape: "square"
 			subtitle: "... You were probably looking for this one."
 			description: [
-				"Fabrication is a large compilation of minor changes and tweaks (way too many to list here!)"
+				"Fabrication is a large compilation of fixes and tweaks. Here's what's enabled:"
 				""
-				"In this pack, it buffs furnace minecarts, makes item pickup automatic (like terraria), and makes tridents a viable weapon again, and wayyy too much more."
+				"- Items go directly into inventory"
+				"- Cactus doesn't delete items"
+				"- Falling into void deals 6 hearts and teleports you back to safe ground."
+				"- Sneak+Use to unsaddle pigs/striders"
 				""
-				"Of useful note - Cactus doesn't do damage with the right armor nor deletes items, berry bushes don't do damage at all, saddles can be removed from animals with shift+right-click, nether stripmining is viable, feather falling V exists, obsidian takes less time to break, creepers and ghasts can't break blocks, and you can farm arrows shot by skeletons."
+				"- §o*italics*§r*, §l**bold**§r, ~~§mstrike§r~~"
+				"- Re-adds legacy command syntax"
+				""
+				"- Campfires need lighting"
+				"- Filling bottles restores 1 air bubble"
+				"- Obsidian breaks faster"
+				""
+				"- Minecarts are silent"
+				"- Furnace carts faster, efficient when boosted, pushable, load chunks"
+				"- Directional power/detector rail with Magenta Terracotta"
+				"- Comparators work on Powered Rails"
+				""
+				"- Cactus doesn't hurt with armor"
+				"- Bushes don't hurt"
+				""
+				"- Clicking furnace output gives any XP"
+				"- Bonemealable Moss"
+				"- Harder to trample farms"
+				""
+				"- Villagers follow emerald blocks"
+				"- Scavengeable skeleton arrows"
+				"- Endermen don't grief"
+				"- Creepers don't grief"
+				"- Spiders can't climb glazed / when wet"
+				"- Easier dragon eggs"
+				""
+				"- Maps show their Number"
+				"- Tool letters for important enchants"
+				""
+				"- Infinity doesn't need arrows"
+				"- Impaling works on any wet mob"
+				"- Power and Sharpness for tridents"
+				"- Feather Falling V (damage to boots)"
+				"- No soul speed boot damage"
+				"- Infinity on crossbows"
+				"- Buff underwater arrows slightly"
 			]
 			id: "1474F51D2832FCD5"
 			tasks: [{
@@ -102,7 +140,7 @@
 			}]
 		}
 		{
-			title: "LambDyamicLights / True Darkness"
+			title: "LambDynamicLights / True Darkness"
 			icon: "minecraft:light"
 			x: -1.0d
 			y: 1.0d
@@ -111,7 +149,7 @@
 			description: [
 				"When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"
 				""
-				"Without shaders enabled, caves and dark nights will appear darker, especially during new moons. This can be disabled under ALT+M -> \"True Darkness\""
+				"Without shaders enabled, caves and dark nights will appear darker, especially during new moons. This can be disabled under §nALT+M§r -> \"True Darkness\""
 			]
 			id: "1B0FB35AB16E8938"
 			tasks: [{
@@ -134,13 +172,13 @@
 				""
 				"Arrows can be obtained from skeletons, including by farming fired arrows."
 				""
-				"Slimeballs, while not gathered from a passive mob, can be crafted using honey, wheat, and vines - see REI."
+				"Slimeballs, while not gathered from a passive mob, can be crafted using honey, wheat, and vines - search EMI!"
 				""
 				"Potions of water-breathing can be brewed using the water from a bucket of pufferfish - it will not be consumed."
 				""
 				"Potions of leaping can be brewed using a slimeball. And potions of slow-falling can be brewed from feathers sheared from chickens (for doInsomnia false)"
 				""
-				"Book and Quill can be crafted using black dye, and Glow Ink Sac can be crafted by feeding a bucketed axolotl a Glow Berry."
+				"Book and Quills can be crafted using black dye, and Glow Ink Sacs can be crafted by feeding a bucketed axolotl a Glow Berry."
 			]
 			id: "4310FEC9EFD18272"
 			tasks: [{
@@ -163,7 +201,7 @@
 				""
 				"Copper blocks can also be used to make beacons in this pack, unless they've aged to 'weathered' or 'oxidized'. Using honeycomb on copper prevents this, adding more uses to bees."
 				""
-				"Animals can be pet using middle click by default. This may slightly heal some pets."
+				"Animals can be pet using §nMiddle Click§r by default. This may slightly heal some pets."
 				""
 				"Horses also have some improvements, and more things can be done while riding them."
 			]
@@ -189,6 +227,37 @@
 			id: "00BF3119EB22417C"
 			tasks: [{
 				id: "47D97349DBC5E67F"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Carpet"
+			icon: "minecraft:cyan_carpet"
+			x: -0.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "... Or this one"
+			description: [
+				"Carpet is a large compilation of fixes and tweaks. Here's what's enabled:"
+				""
+				"- Bonemeal grows sugarcane, cactus, lilypads"
+				"- Blaze powder grows nether wart"
+				"- Chains link blocks when pushed"
+				"- Chickens can be sheared for 0.5hp"
+				"- Clerics farm nether wart"
+				"- Dispensers do more things (See Homesteading->Mechanisms->Advanced)"
+				"- Re-enables double piston extenders"
+				"- Non-positional, faster Redstone Dust "
+				"- Nether portals are less slow"
+				"- Renewable: Nether basalt generators with soul sand below generate blackstone instead"
+				"- Renewable: Coral grows from bonemealing coral plants"
+				"- Renewable: Deepslate generates from water and lava below y=0"
+				"- Guardians turn into elder guardians when struck by lightning"
+			]
+			id: "4B6469B9B16AB59D"
+			tasks: [{
+				id: "4374ACECFD3F9AFE"
 				type: "checkmark"
 				title: "Click Here!"
 			}]

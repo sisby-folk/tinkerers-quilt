@@ -16,11 +16,11 @@
 			description: [
 				"Illagers are a hostile faction of villagers, which hunt in small packs and gather at outposts."
 				""
-				"If you defeat a banner-flying illager, they'll inflict you with a \"bad omen\" causing a raid to occur when you next enter a village (unless you drink a milk bucket)."
+				"If you defeat a banner-flying illager, they'll inflict you with §oBad Omen§r causing a raid to occur when you next enter a village (unless you drink a milk bucket)."
 				""
-				"Defeating the many waves of pillagers, witches, evokers, ravagers, and vindicators, provides the player with the \"Hero of the Village\" buff - providing discounts with all villagers for 40 minutes."
+				"Defeating the many waves of pillagers, witches, evokers, ravagers, and vindicators, provides the player with the §oHero of the Village§r buff - providing discounts with all villagers for 40 minutes."
 				""
-				"Raids are a good way to farm Totem of the Undying, which allows you to cheat death when in the inventory, by killing Evokers."
+				"Raids are a good way to farm §oTotem of Undying§r, which allows you to cheat death when in the inventory, by killing Evokers."
 				""
 				"During a Raid, villagers will hide, often by ringing the town bell. This can be done manually by the player at any time."
 			]
@@ -64,7 +64,7 @@
 			y: -2.5d
 			subtitle: "Find an Ocean Monument"
 			description: [
-				"1.8 added Ocean Monuments - underground fortresses with niche loot but interesting architecture. They can be found using Ocean Explorer Maps sold by cartographers."
+				"1.8 added §oOcean Monuments§r - underground fortresses with niche loot but interesting architecture. They can be found using §oOcean Explorer Maps§r sold by cartographers."
 				""
 				"They're guarded by - get this - guardians. Who prevent you from mining through the structure and can shoot short range bolts."
 				""
@@ -237,7 +237,7 @@
 			description: [
 				"Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."
 				""
-				"Lush caves contain axolotls, moss, azelea blocks, and glow berries."
+				"Lush caves contain axolotls, moss, azalea blocks, and glow berries."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -470,9 +470,9 @@
 			shape: "hexagon"
 			subtitle: "Craft a Turtle Shell"
 			description: [
-				"Turtle shells provide additional time underwater, similar to the Respiration enchantment. "
+				"Turtle shells provide additional time underwater, similar to the §oRespiration§r enchantment. "
 				""
-				"They can also be brewed into Potions of the Turtle Master."
+				"They can also be brewed into three §oPotion of the Turtle Master§r."
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -529,7 +529,7 @@
 			description: [
 				"Villages are full of Villagers! Who can be traded with using emeralds."
 				""
-				"Villagers can \"Level Up\" their profession if you trade with them, unlocking new tradeable items."
+				"Villagers can \"Level Up\" their profession if you trade with them, unlocking new tradable items."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -558,7 +558,7 @@
 			description: [
 				"Villagers repopulate naturally by farming, but an appropriate amount of homes need to be present in the village."
 				""
-				"If a villager has 3 bread, or 12 carrots, potatoes, or betroots in their inventory, they can breed - but also give more XP on trading!"
+				"If a villager has 3 bread, or 12 carrots, potatoes, or beetroots in their inventory, they can breed - but also give more XP on trading!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -585,7 +585,7 @@
 			y: -7.0d
 			subtitle: "Visit a Savannah Village"
 			description: [
-				"Every employed villager has a Job Site block. They can visit this block up to twice a day to restock their trades if one runs out."
+				"Every employed villager has a §oJob Site§r block. They can visit this block up to twice a day to restock their trades if one runs out."
 				""
 				"If a villager hasn't been traded with before, their profession can be changed by breaking this block, and enticing them to a new one."
 				""
@@ -617,7 +617,7 @@
 			shape: "pentagon"
 			subtitle: "Visit every type of village"
 			description: [
-				"Villages are often protected by Iron Golems, which can be spawned by making a 4-block T of iron and topping it with a carved pumpkin."
+				"Villages are often protected by §oIron Golems§r, which can be spawned by making a 4-block T of iron and topping it with a carved pumpkin."
 				""
 				"These can be invaluable for your base or during tough fights."
 			]
@@ -734,7 +734,7 @@
 			y: 4.5d
 			subtitle: "Find a Geode"
 			description: [
-				"Amethyst grows in large geodes underground, and can be used to make Tinted Glass for your builds."
+				"Amethyst grows in large geodes underground, and can be used to make §oTinted Glass§r for your builds."
 				""
 				"The outside of the geode is lined with Basalt and Calcite in most directions - spotting this could be a hint."
 			]
@@ -773,7 +773,7 @@
 			description: [
 				"Snowballs can dug up with shovels and thrown to knock mobs around slightly"
 				""
-				"If two snow blocks are stacked on top of eachother, and topped with a carved pumpkin, it creates a *snow golem*."
+				"If two snow blocks are stacked on top of eachother, and topped with a carved pumpkin, it creates a §osnow golem§r."
 				""
 				"Snow golems defend from hostile mobs using snowballs."
 			]
@@ -1021,9 +1021,9 @@
 			y: -2.5d
 			subtitle: "Find an Outpost"
 			description: [
-				"Outposts are structures defended and inhabited by many hostile Pillagers, including an Outpost Captain, who gives the player the Bad Omen debuff (see: \"Shivery\" from village quests)"
+				"§oOutposts§r are structures defended and inhabited by many hostile Pillagers, including an §oOutpost Captain§r, who gives the player the §oBad Omen§r debuff (see: \"Shivery\" from village quests)"
 				""
-				"Outposts are a great source of Bad omen, and crossbows - and a fun challenge. Bring a shield!"
+				"Outposts are a great source of Bad Omen, crossbows, and a fun challenge. Bring a shield!"
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -1335,9 +1335,9 @@
 			y: -0.5d
 			subtitle: "Find a Swamp"
 			description: [
-				"Swamps are home to large areas of water and Lilypads."
+				"Swamps are home to large areas of water and §oLily Pads§r."
 				""
-				"Lilypads can be used to make decorative water bridges, with a similar thickness to a carpet."
+				"Lily Pads can be used to make decorative water bridges, with a similar thickness to a carpet."
 				""
 				"Slimes also spawn here, relying on the moon to be visible."
 			]
@@ -1484,7 +1484,7 @@
 			description: [
 				"Nether forests are home to interesting resources, including two types of wood, and two types of mushrooms."
 				""
-				"Warped forests are safe havens perfect for building your base - no hostile mobs will spawn here, besides occasionally endermen."
+				"Warped forests are safe havens perfect for building your base - no hostile mobs will spawn here, besides occasionally Endermen."
 				""
 				"Crimson forests are home to piglins and uniquely, hostile hoglins."
 				""
@@ -1574,7 +1574,7 @@
 			y: -0.5d
 			subtitle: "Find a Badlands"
 			description: [
-				"Badlands are full of teracotta, which is useful for building."
+				"Badlands are full of terracotta, which is useful for building."
 				""
 				"Additionally, badlands spawn mineshafts very high up, and are rich with gold ore."
 			]

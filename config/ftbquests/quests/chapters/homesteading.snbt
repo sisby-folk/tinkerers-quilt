@@ -299,7 +299,7 @@
 				""
 				"Fences and walls are an essential part of keeping hostile mobs from wandering into your base!"
 				""
-				"Carpet can also be used to create a \"jumpable\" area of fence, by placing it on top of a fence post."
+				"Carpet can also be used to create a traversable area of fence, by placing it on top of a fence post."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -342,7 +342,7 @@
 				""
 				"They're also slightly bouncy!"
 				""
-				"You can sneak-click on interactables to place things on top of them. Try making a bedside table!"
+				"You can §nSneak-Use§r interactables to place things on top of them. Try making a bedside table!"
 			]
 			id: "20E2938DD7365207"
 			tasks: [{
@@ -385,7 +385,7 @@
 			description: [
 				"Cows and Sheep can be lead around by holding Wheat either hand. Many mobs can be lead this way, including chickens being led by seeds."
 				""
-				"This can be used to lead them into your base, or a seperated room, pen, or field."
+				"This can be used to lead them into your base, or a separated room, pen, or field."
 				""
 				"Animals can be fed their favourite foods to encourage them to breed. Allowing you to expand your farm population."
 				""
@@ -645,13 +645,13 @@
 			]
 		}
 		{
-			title: "Stay Fiesty, Hellspawn"
+			title: "Stay Feisty, Hellspawn"
 			x: -2.0d
 			y: -13.5d
 			shape: "hexagon"
 			subtitle: "Craft a Respawn Anchor"
 			description: [
-				"A *Respawn Anchor* Allows you to create a proper home in the nether. By placing it and charging it with glowstone blocks, you'll respawn there."
+				"A §oRespawn Anchor§r Allows you to create a proper home in the nether. By placing it and charging it with glowstone blocks, you'll respawn there."
 				""
 				"Monsters spawn at any light level in the nether but never on half slabs. This is essential for making a nether base. Warped forests also prevent most mobs from spawning, and soul fire causes piglins to flee."
 				""
@@ -871,11 +871,11 @@
 			description: [
 				"Furnace minecarts are used to travel long distances by pushing minecart trains."
 				""
-				"However, in this pack they also have a special use - Chunk Loading."
+				"However, in this pack they also have a special use - §oChunk Loading§r."
 				""
 				"When you walk far enough away from your base, your farm, and any machines (redstone, furnaces, etc) will halt."
 				""
-				"A Chunk Loader prevents this from happening in a 16x16 area (A chunk!) - You can press F3+G at any time to view chunks in the world."
+				"A Chunk Loader prevents this from happening in a 16x16 area (A chunk!) - You can press §nF3+G§r at any time to view chunks in the world."
 				""
 				"Furnace minecarts will only load the chunk they are in, and will keep them loaded for as long as it has fuel. At maximum this means you can fill a furnace minecart with a lava bucket and it will keep the area loaded and running for 17 minutes."
 			]
@@ -1013,7 +1013,7 @@
 			description: [
 				"Nautilus shells can be fished at a 1% chance, up to 2% with Luck of the Sea III."
 				""
-				"Nautilus shells are the basis of creating a *Conduit* - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
+				"Nautilus shells are the basis of creating a §oConduit§r - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
 			]
 			dependencies: ["2DF95382AC7B7AD4"]
 			hide: true
@@ -1055,7 +1055,7 @@
 			description: [
 				"A \"Heart of the Sea\" can be found as buried treasure underwater and under beaches. To find buried treasure, one can follow maps sold by some cartographers, or feed raw fish to a dolphin."
 				""
-				"the Heart of the Sea is the basis of creating a *Conduit* - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
+				"the Heart of the Sea is the basis of creating a §oConduit§r - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -1087,7 +1087,7 @@
 			shape: "hexagon"
 			subtitle: "Craft a Conduit"
 			description: [
-				"A *Conduit* allows you to make advanced multi-species underwater bases."
+				"A §oConduit§r allows you to make advanced multi-species underwater bases."
 				""
 				"To activate them, they need to be placed in a 3x3x3 cube of water, that is surrounded by 5x5 squares of prismarine aligned with it in 1-3 axes (each increasing the range)."
 				""
@@ -1168,7 +1168,7 @@
 			description: [
 				"Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."
 				""
-				"Try Ice Farming! There's a tutorial in the *Variety Fair* section of the farming quest tree."
+				"Try Ice Farming! There's a tutorial in the §oVariety Fair§r section of the farming quest tree."
 				""
 				"If ice farming is too slow, try going out to iceberg biomes and frozen peaks biomes, which have packed and blue ice."
 			]
@@ -1367,7 +1367,7 @@
 			description: [
 				"Soul sand slows the player down, soul soil does not. With soul speed, the player is no longer slowed down, and sped up on both."
 				""
-				"The enchantment can only be acquired by trading with piglins. But that's a little hardbasket for a cool highway, innit?"
+				"The enchantment can only be acquired by trading with piglins. But that's a little hard-basket for a cool highway, innit?"
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1410,7 +1410,7 @@
 			shape: "hexagon"
 			subtitle: "Saddle and ride a Horse"
 			description: [
-				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then, open the horses inventory (sneak+rightclick) to saddle it."
+				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then, open the horses inventory (§nSneak-Use§r) to saddle it."
 				""
 				"Horses can also equip armor (including dyed leather armor!) to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
 				""
@@ -1524,7 +1524,7 @@
 			shape: "hexagon"
 			subtitle: "Learn to farm many things"
 			description: [
-				"Many of minecrafts resources are *renewable* - and \"farms\" can be set up to gather them - assuming the player might benefit from a large amount."
+				"Many of minecraft's resources are §orenewable§r - and \"farms\" can be set up to gather them - assuming the player might benefit from a large amount."
 				""
 				"This is often relevant to building materials, fuels, food, and so on. Some of this less-critical farming is covered here."
 				""
@@ -1787,7 +1787,7 @@
 				""
 				"Farms continue growing overnight if they have light. "
 				""
-				"Try building a \"scarecrow\" using Haybale (HB), Spruce Fence (SF), Jack'o'Lantern (JO), and Birch Slab (BS) like below."
+				"Try building a \"scarecrow\" using Hay Bale (HB), Spruce Fence (SF), Jack'o'Lantern (JO), and Birch Slab (BS) like below."
 				""
 				"|     | BS  |     |"
 				"|     | JO  |     |"
@@ -2060,7 +2060,7 @@
 			description: [
 				"Mushrooms can be bonemeal'd into \"Giant Mushrooms\", which yield 0-2 mushrooms per block."
 				""
-				"This takes quite a bit of bonemeal, so consider alternate methods of acquisition, such as ribcages in the nether, or compost farms."
+				"This takes quite a bit of bonemeal, so consider alternate methods of acquisition, such as fossils in the nether, or compost farms."
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			id: "68BCEE273A77F4DA"
@@ -2529,7 +2529,7 @@
 				""
 				"They can utilize buckets, including picking up liquids with an empty bucket, and placing liquids, powder snow, or fish using a filled bucket."
 				""
-				"They can place boats and minecarts of all kinds, as well as equip players with armor, saddleable mobs with saddles, horses with horse armor, and place carved pumpkins onto golems."
+				"They can place boats and minecarts of all kinds, as well as equip players with armor, saddle-able mobs with saddles, horses with horse armor, and place carved pumpkins onto golems."
 				""
 				"They can shear beehives and sheep with shears, or bottle their honey with a bottle, and use bonemeal on crops."
 				""
@@ -2545,7 +2545,7 @@
 				" - Strip logs/copper (axe)"
 				" - Fill/empty cauldrons (bucket)"
 				""
-				"Finally, dispensers with sticks can toggle things. This includes buttons, redstone ore, noteblocks, comparators, repeaters, and so on."
+				"Finally, dispensers with sticks can toggle things. This includes buttons, redstone ore, note blocks, comparators, repeaters, and so on."
 				""
 				"The dispenser is very powerful! give it a try ^^"
 			]
@@ -2759,7 +2759,7 @@
 				""
 				"Stone and Wooden pressure plates are powered while a mob is on top of them. Wooden pressure plates are also tripped by items, arrows, and fishing hooks."
 				""
-				"String can be layed between two tripwire hooks, powering them when its stepped on."
+				"String can be laid between two tripwire hooks, powering them when its stepped on."
 				""
 				"Detector rails power the block below them while a minecart is on them."
 				""
@@ -2908,7 +2908,7 @@
 				""
 				"When powered, pistons extend, pushing the block in front of them by 1 block. When retracting, Sticky Pistons will also pull the block its attached to."
 				""
-				"Slime blocks and (in this pack) chains can be used to extend the effect of pistons/sticky pistons, by attatching blocks together."
+				"Slime blocks and (in this pack) chains can be used to extend the effect of pistons/sticky pistons, by attaching blocks together."
 				""
 				"Doors and trapdoors can also be toggled by redstone. Including iron variants which can only be opened this way."
 				""
@@ -3041,7 +3041,7 @@
 			description: [
 				"Redstone signals can be \"inverted\" using redstone torches. By powering the block a redstone torch is attached to, the torch will turn off, and unpowering it will allow it to turn back on."
 				""
-				"As part of a tranmission line, more complex circuits than inversion and extension can be created."
+				"As part of a transmission line, more complex circuits than inversion and extension can be created."
 				""
 				"Repeaters can be \"locked\" by strongly powering them from the side, and Comparators can \"compare\" and \"subtract\" signals, depending on configuration."
 				""
