@@ -45,8 +45,74 @@ The name is based around the creators, not the content - sorry!
 
 ---
 
+# Pack Features
 
-# Performance Impact
+## Questing System
+***"It's like FTB Academy for Vanilla!"*** - Us, just now
+
+### The Basics
+Tinkerer's Quilt comes packed with a quest system that helps guide old and new players through the core progression of minecraft.
+<img width="425" height="260" src="https://user-images.githubusercontent.com/55819817/174097642-a5949541-b8e6-419b-bbfe-b3e4ecf90be8.png"><img width="325" height="260" src="https://user-images.githubusercontent.com/55819817/174098114-c5630f29-efaa-4473-9eb4-e53c4325f002.png">
+
+The quests are designed to help get unfamiliar players on track, keep goals visible, and provide tactile engagement with the information provided.
+
+### Godseeking
+Looking to stray from the "adventure"? - we've got you covered!   
+The quest system also includes quest trees that explore the various interests of the game.     
+Do you want to...
+ - ⚔️ Know every weapon and kill every enemy? 
+ - 🏠 Make bases in many environments? 
+ - 🌾 farm anything and everything, including crops? 
+ - 🗺️ Explore the world and what's found there? 
+ - 🛠️ Craft the best gear in your own workshop? 
+ - 🛣️ Build transit infrastructure and achieve ludicrous speed? 
+ - ⚙️ Make terrifyingly complex machines and mechanisms? 
+
+It's all there to pursue! Learn things even we didn't about before making this pack!     
+Chase these interests to their full extent and you may just be noticed by the patrons of the pack's world...     
+And be awarded with proof of your accomplishments! [ and unobtainable items ;) ]
+
+Acquire power unheard of in vanilla! Get this banner in particular!   
+<img width="100" height="200" src="https://user-images.githubusercontent.com/55819817/174106133-c4250e0d-6c95-403d-a72d-8914826febd1.png">
+
+
+Don't get cocky though, some of those quests are absolutely devilish!     
+![image](https://user-images.githubusercontent.com/55819817/174103070-8567ceac-f9b1-4624-8ae3-543187227804.png)
+
+### Information
+Critical information about the pack itself, right at your fingertips in the *Introduction* tab!     
+<img width="380" height="400" src="https://user-images.githubusercontent.com/55819817/174103926-52a741ac-6d36-44e4-8153-be5fb7aff6c1.png"><img width="380" height="400" src="https://user-images.githubusercontent.com/55819817/174105386-7985c35c-fc25-4d8b-bb5a-724d55a7ebf7.png">     
+Can't remember what's from the pack and from vanilla? the *Discrepancies* tab has you!
+
+
+## Player Customization
+
+Get customized down to the letter! We've got
+ - Improved nonhuman skins with _Ears_ - add tails, horns, ears, claws, wings and more to your skin!
+ - Swap skins on the fly with Fabric Tailor, and information on how to do so!
+ - Mix up your playstyle (and acquire free species) with _Origins_ and _Origins: Classes_ - along with base origin rebalances by _OriginsPlus_!
+ - Make adjustments to player height with our very own _Origins: Statures!_
+ - Swap origins on the fly with- ...Actually there's no fancy mod here, just a box stuffed with Origin-altering Orbs. Switch responsibly!
+ - Playing multiplayer? No problem! swap your nickname any time with _Drogtor_ and swap your pronouns with _Player Pronouns!_
+    - Oh, and they'll show on your in-game nameplate too, thanks _Fabrication_!
+
+## QOL Improvements and Minor Additions
+
+Too many to list! But they're all documented in game and in EMI, speaking of which - 
+
+ - EMI! An advanced recipe book where you can search for any item in the game!    
+![image](https://user-images.githubusercontent.com/55819817/174112200-1cafe8ea-6fe3-48d6-b404-4baaff117840.png)
+ - Craft swiftly using what you have, learn about items you're unfamiliar with, and more!
+ - Not sure what you're looking at? that's okay! Hold a key and you'll find out _What The Hell Is That?_
+![image](https://user-images.githubusercontent.com/55819817/174112665-b8b534e2-5b8d-450e-91dd-260869086719.png)
+ - Take _Notes_! write anything down you need! and copy the coordinates at your feet with ease.
+
+And for our homebrew additions:
+ - Obtain Leather, Water Breathing / Jump Boost Potions, Slime Balls, Glow Ink Sac, and Book and Quill - Without harming passive (or cute slimy) mobs!
+ - Make Beacon pyramids out of Copper! just make sure you don't let it weather too much!
+ - Repair enchanted tools without an XP cost, and reverse the work cost of anvil use using netherite scraps! - mending is an option, not a necessity!
+
+## Performance Impact
 Negative (thanks jellysquid et al)
 
 Render Distance: 12 Chunks. 
@@ -62,6 +128,7 @@ Vanilla (Left) - Tinkerer's Quilt (Right)
 
 
 ```
+Mods:
 AdvancementInfo
 Ambient Environment
 Animatica
@@ -83,6 +150,7 @@ Colormatic
 Continuity
 Couplings
 Cull Less Leaves
+Drogtor
 Dyeable Fishing Lines
 Dynamic FPS
 Dynamic View[Fabric]
@@ -118,7 +186,6 @@ Item Filters
 Item Model Fix (Fabric)
 Kiwi 🥝 (Fabric)
 Krypton
-KubeJS
 LambdaBetterGrass
 LazyDFU
 Leaves Us In Peace
@@ -137,6 +204,7 @@ Origins: Classes
 Origins
 Pehkui
 Pettable
+Player Pronouns
 Portable Crafting Standalone
 Presence Footsteps
 Project: Save the Pets!
@@ -148,6 +216,7 @@ Reese's Sodium Options
 Reroll
 Rhino
 Right-Click-Harvest
+Simple Fog Control
 Smooth Boot (Fabric)
 Snow! Real Magic! ⛄ (Fabric)
 Sodium Extra
@@ -158,6 +227,7 @@ Tax Free Levels
 TieFix
 Loading Screen Tips
 ToolTipFix
+Totem Anywhere Standalone
 True Darkness
 Universal Graves
 VehicleFix
@@ -165,14 +235,38 @@ Visuality
 WTHIT Plugins
 WTHIT
 Your Options Shall Be Respected (YOSBR)
+Bare Bones
+BlockPixel
+Excalibur
+F8thful
+Jicklus
+Punchy 8x8 Pack
+Quadral pack
+(8x8) Smoube | 85% finished
+Splotch
+Teyemas 1.18.x  Java & Bedrock (Snapshots) (Some modded support!)
+Woodpecker 1.18
+Builders QOL Shaders
+Complementary Shaders
+Lux Shaders
+Prismarine Shaders
+RedHat Shaders
+Sildurs Enhanced Default Shaders
+SkyLEX Shaders
+Super Duper Vanilla Shaders
 
+Jar mods:
 Fabrication 1.18.2-2.3.1-exp3
 LambDynamicLights 2.1.1limitless1.18
 Realistic Fishing (1.18.2)
 NoFade (1.18.2)
 
+Resource Packs: 
 xali's Enchanted Books
 varied connected bookshelves
+Vanilla Tweaks
+
+Resource Optionals:
 Bare Bones
 BlockPixel
 Excalibur
@@ -185,6 +279,7 @@ Splotch
 Teyemas 1.18.x  Java & Bedrock (Snapshots) (Some modded support!)
 Woodpecker 1.18
 
+Shader Packs:
 Builders QOL Shaders
 Complementary Shaders
 Lux Shaders
@@ -193,18 +288,25 @@ RedHat Shaders
 Sildurs Enhanced Default Shaders
 SkyLEX Shaders
 
+Data Packs:
 Vanilla Tweaks
 (Origins) Lepus
 (Origins) OriginsPlus
-(Origins) Tinkerer's Statures (homebrew)
-Tinkerer's Edits for Minecraft ""vegetarianism"" (homebrew)
+
+Homebrew Data Packs:
+(Origins) Tinkerer's Statures
+(Origins) Tinkerer's Cleanup
+(Origins) Tinkerer's Human't
+Tinkerer's Vegetarian
+Tinkerer's Copper Beacons
+Tinkerer's Repair
 ```
 
 # Special Thanks
 
 Emi ([EMI](https://modrinth.com/mod/emi))     
 Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears)) 
-
+QuiltComm and Unascribed's Guild Discords
 
 # Credits 
 ```
