@@ -1,6 +1,6 @@
 name = "Drogtor"
 filename = "Drogtor-Fabric-1.17-1.1.2.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://github.com/unascribed/Drogtor/releases/download/v1.1.2/Drogtor-Fabric-1.17-1.1.2.jar"

@@ -1,6 +1,6 @@
 name = "BlockPixel"
 filename = "BlockPixel_JavaEdition_1.19.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

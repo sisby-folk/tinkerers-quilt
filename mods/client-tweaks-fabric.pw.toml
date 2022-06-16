@@ -1,6 +1,6 @@
 name = "Client Tweaks (Fabric Edition)"
 filename = "clienttweaks-fabric-1.18.1-7.1.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3666/466/clienttweaks-fabric-1.18.1-7.1.0.jar"

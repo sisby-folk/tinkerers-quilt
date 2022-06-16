@@ -1,0 +1,12 @@
+{
+	"name": "Merchant",
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "order": 0,
+    "impact": 0,
+    "loading_priority": 100,
+    "unchoosable": true
+}

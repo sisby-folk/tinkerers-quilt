@@ -1,6 +1,6 @@
 name = "Notes Fabric"
 filename = "notes-1.18-1.0.10.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://edge.forgecdn.net/files/3602/385/notes-1.18-1.0.10.jar"

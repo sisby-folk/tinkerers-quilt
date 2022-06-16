@@ -137,6 +137,10 @@ file = "config/openloader/data/anti ghast grief v1.1.2.zip"
 hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
 
 [[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
+hash = "335307908374d1eb32fc3c863b921ebc577340a4cd4d638e944c83fabdb87ac3"
+
+[[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/nitwit.json"
 hash = "693c0c625dcb32ed01ee1d85e4cfaa6eb62a8811863231913adeacc10817c946"
 
@@ -832,7 +836,7 @@ metafile = true
 
 [[files]]
 file = "mods/blanket.pw.toml"
-hash = "b13f1f8dc14a322099f119d811c8366612d576ea94dcd3a32443d7c955f64aa0"
+hash = "504c2f4160b7e9dfc4c3b97bfac4d2d091f2cf406a4c0d505f0159a93020b60d"
 metafile = true
 
 [[files]]
@@ -867,7 +871,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-tweaks-fabric.pw.toml"
-hash = "7cb6f326559c37de479704a5de7b26966ba1ce2477a158f77373c9e83f135447"
+hash = "e2f2c0c296d9c38721b080303b40bf2866395871c1d643abdcca8a7905351b8c"
 metafile = true
 
 [[files]]
@@ -897,7 +901,7 @@ metafile = true
 
 [[files]]
 file = "mods/drogtor.pw.toml"
-hash = "dbe8d071f21199e6deeb7d48046d519df513aecaa1ffa5205372fe6ef8d97bea"
+hash = "fad6f28559d65c45e6b594a18902dff0a3b27de7bf2cfe0fe52e809c1409563d"
 metafile = true
 
 [[files]]
@@ -927,7 +931,7 @@ metafile = true
 
 [[files]]
 file = "mods/effective.pw.toml"
-hash = "b4ad5be545658ef1264aaef1b1e4376a2c8425d36d95f537395fbb4788dd33a7"
+hash = "5538ff8bdeefc841eb435b29920db57b882e9e0960811ad666fa0070d6314451"
 metafile = true
 
 [[files]]
@@ -976,12 +980,12 @@ metafile = true
 
 [[files]]
 file = "mods/farsight-fabric.pw.toml"
-hash = "41233eadb61c59cd9fb298f21709c79f45c78dc3e03b08c40d0c094c86a821d5"
+hash = "2a7ee2fc40368d86e59563d23228118d8a3004f97ffc0c081062e77f41a6f532"
 metafile = true
 
 [[files]]
 file = "mods/fastopenlinksandfolders.pw.toml"
-hash = "8a2498e02882121efeac1e1836e93ecaa06370828117295a589163de4008c46f"
+hash = "a06f7b752a79921fedd37af55571c5a2eabd66c9543617e953bd2f73c6987bcc"
 metafile = true
 
 [[files]]
@@ -1036,7 +1040,7 @@ metafile = true
 
 [[files]]
 file = "mods/illuminations.pw.toml"
-hash = "56e7d48ea1939c0030abb2b78b2dc2d36a73e0437eb8efca19030f932a6a816b"
+hash = "51b2cf9c384702759063d17292aee63d1894a40c51ea613d00b6d2b34fe5a905"
 metafile = true
 
 [[files]]
@@ -1051,7 +1055,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tabs-updated.pw.toml"
-hash = "4d28ba3017aa1dedfbbaa5b6596a1d9caaad49123283bc3b9201e68428ffb0e4"
+hash = "b1ed06eb435831b2bd6595a54dd4983e08fc22acc5d7d805a770e8ab6bc63d31"
 metafile = true
 
 [[files]]
@@ -1066,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-model-fix.pw.toml"
-hash = "9ab8949bcb4280b1a4b97d40ded17b4786a6c4db1271c121a7fc52ea6f838e0e"
+hash = "8af62e554f83e2bb79f0bd5ef01a5c01d65e983c84885a45d947a41867583f15"
 metafile = true
 
 [[files]]
@@ -1148,7 +1152,7 @@ metafile = true
 
 [[files]]
 file = "mods/notes-fabric.pw.toml"
-hash = "23da50b9d19bb340c58ede1007d7d885127add854e6d13312c5d43887fd38104"
+hash = "542beef9fcb9aa14d26168040a98f83c0724db5f1dd3b3c74bbda72dc90a5f12"
 metafile = true
 
 [[files]]
@@ -1183,7 +1187,7 @@ metafile = true
 
 [[files]]
 file = "mods/player-pronouns.pw.toml"
-hash = "42ea9585c88e85ad038e34715deba57550c8db70e14884a61b0c058d594734c2"
+hash = "011d1d3c2620dddd3f7c253f7d0993a92e7977777b0517092254fd886bd5a267"
 metafile = true
 
 [[files]]
@@ -1229,11 +1233,6 @@ metafile = true
 [[files]]
 file = "mods/reroll.pw.toml"
 hash = "dc8ef389dc9b6a1ee2b6f88e8855d2b7de753375aab7f4c87ba0be49f5074035"
-metafile = true
-
-[[files]]
-file = "mods/rhino.pw.toml"
-hash = "cfd4496517e58bb2406164c9b598879d7f835484564109bf14352f618f891b43"
 metafile = true
 
 [[files]]
@@ -1293,7 +1292,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
-hash = "69214e78788c8db0b1b2e9fa48deff5fdb090dd590ced6898ac5b4286aa370b2"
+hash = "521243f1869918c709d94db11f69e3b1268a652bac8af0973dec7ee1b4583170"
 metafile = true
 
 [[files]]
@@ -1355,7 +1354,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/blockpixel.pw.toml"
-hash = "455d28af374378b5444b8ca33e33911cf45861d9e7b17afa383f8050cd55f3fe"
+hash = "f5109b970d5dbd5fa792e416a58cfb8f424c24f7c40f90b1e5c8af41270c104d"
 metafile = true
 
 [[files]]

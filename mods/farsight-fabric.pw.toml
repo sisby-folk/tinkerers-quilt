@@ -1,6 +1,6 @@
 name = "Farsight [Fabric]"
 filename = "farsight.fabric-1.18-1.9.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
