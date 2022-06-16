@@ -305,7 +305,7 @@ Tinkerer's Repair
 # Special Thanks
 
 Emi ([EMI](https://modrinth.com/mod/emi))     
-Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears)) 
+Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears))     
 QuiltComm and Unascribed's Guild Discords
 
 # Credits 
