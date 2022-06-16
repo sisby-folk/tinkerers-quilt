@@ -88,7 +88,7 @@ with open("./template_" + "origin" + ".json", "r") as origin_template_file:
                                                 "\nSneak Height: " + str(origin_dict["power"]["desc-sneak-height"]) + (" Block" if origin_dict["power"]["desc-sneak-height"] == 1 else " Blocks") +\
                                                 "\nWidth: " + str(origin_dict["power"]["desc-width"]) + (" Block Exactly" if origin_dict["power"]["desc-width"] == 1 else " Blocks")
             current_power_file["entity_action_chosen"]["actions"][0]["command"] = str(current_power_file["entity_action_chosen"]["actions"][0]["command"]).replace("{{ scale_height }}", str(origin_dict["power"]["scale-height"]))
-            current_power_file["entity_action_chosen"]["actions"][1]["command"] = str(current_power_file["entity_action_chosen"]["actions"][0]["command"]).replace("{{ scale_width }}", str(origin_dict["power"]["scale-width"]))
+            current_power_file["entity_action_chosen"]["actions"][1]["command"] = str(current_power_file["entity_action_chosen"]["actions"][1]["command"]).replace("{{ scale_width }}", str(origin_dict["power"]["scale-width"]))
 
             with open("./origins/" + origin_dict["origin"]["codename"] + ".json", "w") as out_file:
                 json.dump(current_origin_file, out_file, indent=4, sort_keys=True)
