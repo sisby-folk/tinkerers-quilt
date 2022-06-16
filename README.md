@@ -51,7 +51,7 @@ The name is based around the creators, not the content - sorry!
 ***"It's like FTB Academy for Vanilla!"*** - Us, just now
 
 ### The Basics
-Tinkerer's Quilt comes packed with a quest system that helps guide old and new players through the core progression of minecraft.
+Tinkerer's Quilt comes packed with a quest system that helps guide old and new players through the core progression of minecraft.      
 <img width="425" height="260" src="https://user-images.githubusercontent.com/55819817/174097642-a5949541-b8e6-419b-bbfe-b3e4ecf90be8.png"><img width="325" height="260" src="https://user-images.githubusercontent.com/55819817/174098114-c5630f29-efaa-4473-9eb4-e53c4325f002.png">
 
 The quests are designed to help get unfamiliar players on track, keep goals visible, and provide tactile engagement with the information provided.
