@@ -985,7 +985,7 @@
 			y: 2.0d
 			shape: "pentagon"
 			subtitle: "face danger head-on"
-			description: ["§oStay safe, The plates are fragile than you might think§r"]
+			description: ["§oStay safe, The plates are more fragile than you might think§r"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2D49941B8AEF7256"
