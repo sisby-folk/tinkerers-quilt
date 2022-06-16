@@ -912,7 +912,7 @@
 						id: "minecraft:turtle_helmet"
 						Count: 1b
 						tag: {
-							RepairCost: 15
+							RepairCost: 31
 							Enchantments: [
 								{
 									id: "minecraft:aqua_affinity"

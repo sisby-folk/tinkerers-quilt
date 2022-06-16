@@ -985,7 +985,7 @@
 			y: 2.0d
 			shape: "pentagon"
 			subtitle: "face danger head-on"
-			description: ["§oStay safe§r"]
+			description: ["§oStay safe, The plates are fragile than you might think§r"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2D49941B8AEF7256"
@@ -1008,7 +1008,7 @@
 						id: "minecraft:light_blue_banner"
 						Count: 1b
 						tag: {
-							RepairCost: 0
+							RepairCost: 31
 							display: {
 								Name: "{\"text\":\"Athena\"}"
 							}
@@ -1050,7 +1050,7 @@
 						id: "minecraft:golden_chestplate"
 						Count: 1b
 						tag: {
-							RepairCost: 1
+							RepairCost: 31
 							Enchantments: [
 								{
 									id: "minecraft:fire_protection"
@@ -1063,6 +1063,14 @@
 								{
 									id: "minecraft:projectile_protection"
 									lvl: 4s
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 10s
 								}
 							]
 							Damage: 0
@@ -1373,7 +1381,7 @@
 						id: "minecraft:shield"
 						Count: 1b
 						tag: {
-							RepairCost: 0
+							RepairCost: 31
 							Enchantments: [{
 								id: "minecraft:knockback"
 								lvl: 2s
@@ -1434,7 +1442,7 @@
 						id: "minecraft:crossbow"
 						Count: 1b
 						tag: {
-							RepairCost: 0
+							RepairCost: 15
 							Enchantments: [{
 								id: "minecraft:quick_charge"
 								lvl: 5s
@@ -1454,7 +1462,7 @@
 						id: "minecraft:bow"
 						Count: 1b
 						tag: {
-							RepairCost: 1
+							RepairCost: 31
 							Enchantments: [
 								{
 									id: "minecraft:infinity"
@@ -1480,7 +1488,7 @@
 						id: "minecraft:trident"
 						Count: 1b
 						tag: {
-							RepairCost: 1
+							RepairCost: 15
 							Enchantments: [{
 								id: "minecraft:riptide"
 								lvl: 5s
@@ -1503,7 +1511,7 @@
 						id: "minecraft:netherite_sword"
 						Count: 1b
 						tag: {
-							RepairCost: 0
+							RepairCost: 15
 							Enchantments: [{
 								id: "minecraft:sweeping"
 								lvl: 30s
@@ -1523,11 +1531,17 @@
 						id: "minecraft:iron_sword"
 						Count: 1b
 						tag: {
-							RepairCost: 0
-							Enchantments: [{
-								id: "minecraft:knockback"
-								lvl: 4s
-							}]
+							RepairCost: 31
+							Enchantments: [
+                                {
+                                    id: "minecraft:knockback"
+                                    lvl: 4s
+                                }
+                                {
+                                    id: "minecraft:unbreaking"
+                                    lvl: 3s
+                                }
+							]
 							display: {
 								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
 								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]

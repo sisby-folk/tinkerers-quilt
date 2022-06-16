@@ -1094,7 +1094,6 @@
 				"They also work to provide air-breathing to water-breathing origins!"
 				""
 				"To acquire more prismarine shards, you'll need to find and battle ocean monuments."
-				""
 			]
 			dependencies: [
 				"4FA802A874FC1A24"
@@ -1721,7 +1720,11 @@
 			x: 4.0d
 			y: -15.5d
 			subtitle: "Farm 64 Ice"
-			description: ["Ice can be farmed by creating a diagonal line of water source blocks covered with slabs, then enclosing the full square. Ice will form everywhere but the covered line, and can be farmed using silk touch."]
+			description: [
+			    "Ice can be farmed by creating a diagonal line of water source blocks covered with slabs, then enclosing the full square."
+			    ""
+			    "Ice will form everywhere but the covered line, and can be collected using a silk touch pickaxe."
+            ]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "1254376D14A00E56"
@@ -2032,7 +2035,7 @@
 						id: "minecraft:netherite_hoe"
 						Count: 1b
 						tag: {
-							RepairCost: 1
+							RepairCost: 31
 							Enchantments: [{
 								id: "minecraft:fortune"
 								lvl: 3s
@@ -2355,7 +2358,7 @@
 						id: "minecraft:diamond_boots"
 						Count: 1b
 						tag: {
-							RepairCost: 15
+							RepairCost: 31
 							Enchantments: [
 								{
 									id: "minecraft:feather_falling"
@@ -2389,7 +2392,7 @@
 						id: "minecraft:diamond_horse_armor"
 						Count: 1b
 						tag: {
-							RepairCost: 3
+							RepairCost: 31
 							display: {
 								Name: "{\"text\":\"Pegasus Barding\", \"color\":\"dark_aqua\"}"
 								Lore: ["{\"text\":\"Gift of Hermes\"}"]
