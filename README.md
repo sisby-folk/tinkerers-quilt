@@ -45,7 +45,7 @@ The name is based around the creators, not the content - sorry!
  - Drag and drop onto an open PolyMC/MultiMC window!
 
 
-**Hosting your own server** ([Download](https://github.com/sisby-folk/mc-packs/blob/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip)):
+**Hosting your own server** ([Download](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip)):
  - Run Quilt Installer and select `1.18.2` and the latest non-beta loader version. Then click "install"
  - Run Update.Bat to install the modpack, then Start.Bat to run the server       
 [they're both just `java` - feel free to send me `.sh` equivalents]
