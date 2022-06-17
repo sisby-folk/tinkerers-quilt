@@ -34,6 +34,7 @@ The name is based around the creators, not the content - sorry!
 
 # Installation
 
+**Players**
  - Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (most windows users will want `Windows-x64-JRE-17-.msi`)
 
    - `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17` works too.
@@ -43,7 +44,11 @@ The name is based around the creators, not the content - sorry!
 
  - Drag and drop onto an open PolyMC/MultiMC window!
 
-(Server download [here](https://github.com/sisby-folk/mc-packs/blob/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip))
+
+**Hosting your own server** ([Download](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip)):
+ - Run Quilt Installer and select `1.18.2` and the latest non-beta loader version. Then click "install"
+ - Run Update.Bat to install the modpack, then Start.Bat to run the server       
+[they're both just `java` - feel free to send me `.sh` equivalents]
 
 ---
 
@@ -123,6 +128,19 @@ Sprinting, forcing new chunks to load.
 Vanilla (Left) - Tinkerer's Quilt (Right)
 
 <img width="400" height="288" src="https://user-images.githubusercontent.com/55819817/172338808-062954c2-6e43-4b30-bd35-572167840c72.png"><img width="400" height="288" src="https://user-images.githubusercontent.com/55819817/172338559-39ae33ee-49bd-4cf1-806a-1b7358e16733.png">
+
+---
+
+# Known Issues
+
+ - [Crawling is bugged](https://github.com/unascribed/Fabrication/issues/347) (waiting on 3.0)
+ - [Front block placement blocks dissapper](https://github.com/TeamMidnightDust/MidnightControls/issues/35)
+ - [Smithing/Vegetarian recipes aren't in EMI](https://github.com/emilyploszaj/emi/issues/14) (additional feature)
+ - [Petting mobs stopped working randomly](https://github.com/Ellivers/Pettable/issues/4)
+ - EMI has [no column limit](https://github.com/emilyploszaj/emi/issues/9) and [conflicts with shaders](https://github.com/emilyploszaj/emi/issues/4) (Fixed locally, waiting for release)
+ - [What even is repair cost?](https://github.com/Queerbric/Inspecio/issues/81) (additional feature)
+ - [New plants say 'harvestable' when they're not](https://gitlab.com/ENDERZOMBI102/wthit-plugins/-/issues/5)
+
 
 ---
 
@@ -307,8 +325,9 @@ Tinkerer's Repair
 # Special Thanks
 
 Emi ([EMI](https://modrinth.com/mod/emi))     
-Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears))     
-QuiltComm and Unascribed's Guild Discords
+Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor the Nickinator](https://github.com/unascribed/Drogtor/))     
+QuiltComm and Unascribed's Guild Discords      
+Beta-testing Queer Pluralfolk
 
 # Credits 
 ```
