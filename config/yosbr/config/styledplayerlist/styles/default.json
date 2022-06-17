@@ -1,0 +1,20 @@
+{
+  "id": "default",
+  "name": "Default",
+  "header": [
+    "",
+    "<gradient:#4adeff:#3d8eff><bold> Players </bold></gradient>",
+    "",
+    "<color:#555555><strikethrough>        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>        </strikethrough></color>",
+    ""
+  ],
+  "footer": [
+    "",
+    "<color:#555555><strikethrough>                          </strikethrough></color>",
+    "",
+    "<gray>TPS: %server:tps_colored% <dark_gray>|</dark_gray> <gray>Ping: <color:#ffba26>%player:ping%</color>",
+    ""
+  ],
+  "hidden": false,
+  "permission": ""
+}

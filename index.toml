@@ -771,6 +771,18 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
 
 [[files]]
+file = "config/yosbr/config/styled-chat.json"
+hash = "d95975900e0f160078b3bac00740000a43af0d76abdb8c7f53bc4154d17a4cf5"
+
+[[files]]
+file = "config/yosbr/config/styledplayerlist/config.json"
+hash = "1293555dfac9aa2ed0fb8491a6fd008be3a2d0aeb6f2d3b4fdb32331d09f4501"
+
+[[files]]
+file = "config/yosbr/config/styledplayerlist/styles/default.json"
+hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
+
+[[files]]
 file = "config/yosbr/config/waila/blacklist.json"
 hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
@@ -1273,6 +1285,16 @@ metafile = true
 [[files]]
 file = "mods/statuseffecttimer.pw.toml"
 hash = "3610cc0efd4c0bfa58b962452b7ee2c735f3c9a86c66b175a5c186258aaeecc7"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.pw.toml"
+hash = "248a870f42a898efe9c659735f555e803c9c8e1cebd00cb420ae51d9a07adeb3"
+metafile = true
+
+[[files]]
+file = "mods/styledplayerlist.pw.toml"
+hash = "eb45dfb9e6cbfa02639fc89237853d1b3c57a7ee8e4af22aac6fddb5f8560f3d"
 metafile = true
 
 [[files]]
