@@ -245,6 +245,8 @@ Sodium Extra
 Sodium
 Starlight (Fabric)
 Status Effect Timer
+Styled Chat
+Styled Player List
 Tax Free Levels
 TieFix
 Loading Screen Tips
@@ -257,25 +259,6 @@ Visuality
 WTHIT Plugins
 WTHIT
 Your Options Shall Be Respected (YOSBR)
-Bare Bones
-BlockPixel
-Excalibur
-F8thful
-Jicklus
-Punchy 8x8 Pack
-Quadral pack
-(8x8) Smoube | 85% finished
-Splotch
-Teyemas 1.18.x  Java & Bedrock (Snapshots) (Some modded support!)
-Woodpecker 1.18
-Builders QOL Shaders
-Complementary Shaders
-Lux Shaders
-Prismarine Shaders
-RedHat Shaders
-Sildurs Enhanced Default Shaders
-SkyLEX Shaders
-Super Duper Vanilla Shaders
 
 Jar mods:
 Fabrication 1.18.2-2.3.1-exp3
@@ -288,7 +271,7 @@ xali's Enchanted Books
 varied connected bookshelves
 Vanilla Tweaks
 
-Resource Optionals:
+Resource Pack Optionals:
 Bare Bones
 BlockPixel
 Excalibur
@@ -301,7 +284,7 @@ Splotch
 Teyemas 1.18.x  Java & Bedrock (Snapshots) (Some modded support!)
 Woodpecker 1.18
 
-Shader Packs:
+Shader Pack Optionals:
 Builders QOL Shaders
 Complementary Shaders
 Lux Shaders
