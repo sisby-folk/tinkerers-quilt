@@ -131,6 +131,19 @@ Vanilla (Left) - Tinkerer's Quilt (Right)
 
 ---
 
+# Known Issues
+
+ - [Crawling is bugged](https://github.com/unascribed/Fabrication/issues/347) (waiting on 3.0)
+ - [Front block placement blocks dissapper](https://github.com/TeamMidnightDust/MidnightControls/issues/35)
+ - [Smithing/Vegetarian recipes aren't in EMI](https://github.com/emilyploszaj/emi/issues/14) (additional feature)
+ - [Petting mobs stopped working randomly](https://github.com/Ellivers/Pettable/issues/4)
+ - EMI has [no column limit](https://github.com/emilyploszaj/emi/issues/9) and [conflicts with shaders](https://github.com/emilyploszaj/emi/issues/4) (Fixed locally, waiting for release)
+ - [What even is repair cost?](https://github.com/Queerbric/Inspecio/issues/81) (additional feature)
+ - [New plants say 'harvestable' when they're not](https://gitlab.com/ENDERZOMBI102/wthit-plugins/-/issues/5)
+
+
+---
+
 # Modlist
 
 
@@ -312,8 +325,9 @@ Tinkerer's Repair
 # Special Thanks
 
 Emi ([EMI](https://modrinth.com/mod/emi))     
-Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears))     
-QuiltComm and Unascribed's Guild Discords
+Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor the Nickinator](https://github.com/unascribed/Drogtor/))     
+QuiltComm and Unascribed's Guild Discords      
+Beta-testing Queer Pluralfolk
 
 # Credits 
 ```
