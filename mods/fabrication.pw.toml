@@ -1,0 +1,13 @@
+name = "Fabrication"
+filename = "fabrication-3.0-pre4+1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb0402cb22498c2329aa9cf4f735179603130518"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3835517
+project-id = 414445

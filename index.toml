@@ -972,6 +972,11 @@ file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
 hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
 
 [[files]]
+file = "mods/fabrication.pw.toml"
+hash = "e54a7558b0b42f42ef4134bf4e75cee19bf67feb33784930abb20943e78c9b8b"
+metafile = true
+
+[[files]]
 file = "mods/fabricshieldlib.pw.toml"
 hash = "3fa20c7a4f4b3ed95d5959a2864a8a2b269e26cb33884c1acc297d72acbc2fca"
 metafile = true
