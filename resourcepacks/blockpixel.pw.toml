@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3804324
 project-id = 305952
+
+[option]
+optional = true
+default = false
+description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/blockpixel"

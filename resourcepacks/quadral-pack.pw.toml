@@ -11,3 +11,8 @@ hash = "7f95e5ba9dba0bba17f3d8a5347e02fe597f3a21"
 [update.curseforge]
 file-id = 3735933
 project-id = 280861
+
+[option]
+optional = true
+default = false
+description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/quadral-pack"

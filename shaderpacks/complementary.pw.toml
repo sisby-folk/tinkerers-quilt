@@ -11,3 +11,8 @@ hash = "00e28c19ac1ee7ac886d9930d4a73e674e564d82"
 [update.curseforge]
 file-id = 3685089
 project-id = 385587
+
+[option]
+optional = true
+default = true
+description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/complementary-shaders"

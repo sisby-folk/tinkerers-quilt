@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3821067
 project-id = 333412
+
+[option]
+optional = true
+default = false
+description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/jicklus"

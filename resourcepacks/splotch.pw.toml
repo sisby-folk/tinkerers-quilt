@@ -11,3 +11,8 @@ hash = "31eb9887ed706700f75d4de44f18b9f871cc1b5e"
 [update.curseforge]
 file-id = 3586088
 project-id = 233371
+
+[option]
+optional = true
+default = false
+description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/splotch"

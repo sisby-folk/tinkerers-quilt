@@ -11,3 +11,9 @@ hash = "a5c762195b3f7db0311c1eceeb6fdb54397d2ffd"
 [update.curseforge]
 file-id = 3736265
 project-id = 449652
+
+[option]
+optional = true
+default = true
+description = "An Iris-Compatible Shader Pack! Found Here: https://www.curseforge.com/minecraft/customization/redhat-shader-v1-chocapic13-edit"
+

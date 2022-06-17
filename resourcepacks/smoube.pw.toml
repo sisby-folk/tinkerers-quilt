@@ -11,3 +11,8 @@ hash = "7d49aca5ce00a6d7973d041b02304ca2f91f0146"
 [update.curseforge]
 file-id = 3561394
 project-id = 551139
+
+[option]
+optional = true
+default = false
+description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/smoube"

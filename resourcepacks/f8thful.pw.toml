@@ -11,3 +11,8 @@ hash = "dd097334583354cb12c1d2a35f6ee0eacb8ae38b"
 [update.curseforge]
 file-id = 3568015
 project-id = 364688
+
+[option]
+optional = true
+default = false
+description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/f8thful/"

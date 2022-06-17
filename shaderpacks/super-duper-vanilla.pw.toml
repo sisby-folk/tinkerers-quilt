@@ -6,3 +6,8 @@ side = "client"
 url = "https://edge.forgecdn.net/files/3817/141/SuperDuperVanilla.zip"
 hash-format = "sha1"
 hash = "56027da3e50cf406c01d147d3af7a622e1b6f5b8"
+
+[option]
+optional = true
+default = true
+description = "An Iris-Compatible Shader Pack! Found Here: https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders"

@@ -11,3 +11,8 @@ hash = "99811d021c50f4e3c33653bea40c3774db2ede91"
 [update.curseforge]
 file-id = 3467807
 project-id = 523593
+
+[option]
+optional = true
+default = false
+description = "An Iris-Incompatible Shader Pack! Maybe it'll work some day. Found Here: https://www.curseforge.com/minecraft/customization/skylex-shaders-v1-0/"
