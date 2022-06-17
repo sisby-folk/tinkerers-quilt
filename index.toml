@@ -42,7 +42,11 @@ hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "de47ea4c3e5b0164940775768ac68356ec2ad0be05633de5af30c8819f0d81c8"
+hash = "a18ef2d35d9ae47b38496f9936c0fe3fdb4a24f71f886b53e7c0c85f233bf02b"
+
+[[files]]
+file = "config/fabrication/yeet_recipes.ini"
+hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
 file = "config/forcecloseloadingscreen.json"
@@ -58,7 +62,7 @@ hash = "8c53c9147fd4d118e7bac48b05af2703e21bff05cf2ced36a0c785c15e922ed5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "834e17dde887efc6d21cc59078de58578a66ab21d141271a680325ee69d896c4"
+hash = "2cf685cb910ec6ae98acff3bdea0b5110b82ad8183b549c2986f0b62a7da8684"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
@@ -966,10 +970,6 @@ metafile = true
 file = "mods/extra-origins.pw.toml"
 hash = "23f3624b07b9ddd076b59cb4353843164e16b8936b84f6f49a14eab1e010d85d"
 metafile = true
-
-[[files]]
-file = "mods/fabrication-1.18.2-2.3.1-exp3.jar"
-hash = "280ffae3ada4bb009d272a29d338191762aa405b116a45113007d23a60d26d0f"
 
 [[files]]
 file = "mods/fabrication.pw.toml"
