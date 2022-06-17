@@ -137,7 +137,6 @@ Vanilla (Left) - Tinkerer's Quilt (Right)
 
 # Known Issues
 
- - [Crawling is bugged](https://github.com/unascribed/Fabrication/issues/347) (waiting on 3.0)
  - [Front block placement blocks dissapper](https://github.com/TeamMidnightDust/MidnightControls/issues/35)
  - [Smithing/Vegetarian recipes aren't in EMI](https://github.com/emilyploszaj/emi/issues/14) (additional feature)
  - [Petting mobs stopped working randomly](https://github.com/Ellivers/Pettable/issues/4)
