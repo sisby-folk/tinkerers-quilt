@@ -311,7 +311,7 @@ Tinkerer's Repair
 
 Emi ([EMI](https://modrinth.com/mod/emi))     
 Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor the Nickinator](https://github.com/unascribed/Drogtor/))     
-QuiltComm and Unascribed's Guild Discords      
+QuiltComm and unascribed's Guild Discords      
 Beta-testing Queer Pluralfolk
 
 # Credits 
