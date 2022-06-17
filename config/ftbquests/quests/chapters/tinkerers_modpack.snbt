@@ -1910,17 +1910,17 @@
 			description: [
 				"The quest screen has a pinnable left pane - hover over the left side of the screen to see it."
 				""
-				"§l§nInformation§o: Modpack Information. §oIntroduction§r covers the main features, while §oDiscrepancies§r covers slight differences."
+				"§l§nInformation§r: Modpack Information. §oIntroduction§r covers the main features, while §oDiscrepancies§r covers slight differences."
 				""
-				"§l§nThe Basics§o: Gearing up to play, Nether progression, and End progression."
+				"§l§nThe Basics§r: Gearing up to play, Nether progression, and End progression."
 				""
-				"§l§nGodseeking§o: Dive further into the game's mechanics, and be rewarded by their patrons."
+				"§l§nGodseeking§r: Dive further into the game's mechanics, and be rewarded by their patrons."
 				""
-				"§lHomesteading§o: Building Bases, Workshops and Mechanisms, Farming, and Modes of Transport."
+				"§lHomesteading§r: Building Bases, Workshops and Mechanisms, Farming, and Modes of Transport."
 				""
-				"§lSelf-Defense§o: All aspects of combat, down to the most niche."
+				"§lSelf-Defense§r: All aspects of combat, down to the most niche."
 				""
-				"§lExploration§o: Places to go, Things to see, Villagers to meet."
+				"§lExploration§r: Places to go, Things to see, Villagers to meet."
 			]
 			dependencies: ["71F61BF18E54FCCE"]
 			hide: true
