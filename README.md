@@ -94,11 +94,13 @@ Can't remember what's from the pack and from vanilla? the *Discrepancies* tab ha
 
 ## Player Customization
 
-Get customized down to the letter! We've got
+Get customized down to the letter! We've got:      
  - Improved nonhuman skins with _Ears_ - add tails, horns, ears, claws, wings and more to your skin!
  - Swap skins on the fly with Fabric Tailor, and information on how to do so!
  - Mix up your playstyle (and acquire free species) with _Origins_ and _Origins: Classes_ - along with base origin rebalances by _OriginsPlus_!
- - Make adjustments to player height with our very own _Origins: Statures!_
+ - Make adjustments to player height with our very own _Origins: Statures!_      
+  <img width="760" height="262" src="https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png">     
+  
  - Swap origins on the fly with- ...Actually there's no fancy mod here, just a box stuffed with Origin-altering Orbs. Switch responsibly!
  - Playing multiplayer? No problem! swap your nickname any time with _Drogtor_ and swap your pronouns with _Player Pronouns!_
     - Oh, and they'll show on your in-game nameplate too, thanks _Fabrication_!
