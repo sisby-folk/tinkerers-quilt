@@ -1455,7 +1455,11 @@
 			x: -7.5d
 			y: -10.5d
 			subtitle: "Swim 500 Blocks"
-			description: ["By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."]
+			description: [
+			    "By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."
+			    ""
+			    "Name tags in this pack are craftable, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
+			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "56E8B3168203AA6F"
