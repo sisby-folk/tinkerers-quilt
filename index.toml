@@ -141,6 +141,62 @@ file = "config/openloader/data/anti ghast grief v1.1.2.zip"
 hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
 
 [[files]]
+file = "config/openloader/data/chesslord_vampire/data/origins/origin_layers/origin.json"
+hash = "1c53ac71e0c2af6bcbd6883336802ed40e872b93ca7dc1efc9ba5a319165349e"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/origins/vampire.json"
+hash = "905c4b0932f1893f2749de0297a85a7893a47d8b74a8cd58b19677353f4f56b6"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/bloodbar.json"
+hash = "7a946da5af54e71a5226d925b29cfc5f1999d3ed057dd2dbaa0356bf8af8cff7"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/boost.json"
+hash = "c79f6dd62e18bdbf17c38e3907b5da252624f280ae037261d002b03455bfa15c"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/description.json"
+hash = "154434b87d78116179610a6130f89509dfed464db613cc0f5b236c6ed9aa3952"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/falldmg.json"
+hash = "ef8e4b7ef7c2bdca76d466ee0f46f7a8d39a9de0cfa7da329444615c9c59ff43"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/stake.json"
+hash = "ed3e59ad32941c7070472612e2e213a3a9cf360b0c046e22dc778fa7f2546692"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/strong.json"
+hash = "8067c53a0122fffaf4f7a699f5c6ca2272bdc0a1195a0c6051a34fe4959e4c29"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/powers/sunburn.json"
+hash = "fa11610ee1dfc1819a0ec10be7cd842ed0a498013dec2146c6bb4962ba3645ad"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/tags/entity_types/highblood.json"
+hash = "1dcd8961cd51ce8264867228a4c1c9eab6728564c8665c1b40792c7a3e1ee9d6"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/tags/entity_types/lowblood.json"
+hash = "7ec7cdca589fb8dbbf8d3ab17eb0d3643b11643314b60a6a473088a0bd721b10"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/tags/entity_types/mediumblood.json"
+hash = "bd08afbc795df8584877602811be88510f34127847e3e4dad21e35b5dff9d68a"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/data/vampier/tags/items/wooden.json"
+hash = "64a9a68e4054e3fee6c35656a2d96a87b464814f5dcd6aac8b9178536b307981"
+
+[[files]]
+file = "config/openloader/data/chesslord_vampire/pack.mcmeta"
+hash = "1ab20c92ef3a468e46a2b41ed6ff10771f6900f781104d1a19132ce35d8a763d"
+
+[[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
 hash = "335307908374d1eb32fc3c863b921ebc577340a4cd4d638e944c83fabdb87ac3"
 

@@ -1,0 +1,881 @@
+{
+	"name": "Sinking Teeth",
+	"description": "When hungry, feeding [Sneak+Use] leaves you vulnerable, but will sate you.\nTargets with more blood require a larger apetite.\nYou cannot feed when weak.",
+	"type": "origins:multiple",
+	"resource": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 140,
+		"start_value": 140,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+			"bar_index": 5,
+			"condition": {
+				"type": "origins:or",
+				"inverted": true,
+				"conditions": [{
+						"type": "origins:gamemode",
+						"gamemode": "creative"
+					},
+					{
+						"type": "origins:gamemode",
+						"gamemode": "spectator"
+					}
+				]
+			}
+		}
+	},
+
+	"no_healing": {
+		"type": "origins:disable_regen"
+	},
+	"heal_from_resource_night": {
+		"type": "origins:action_over_time",
+		"interval": 30,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:heal",
+					"amount": 1
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_resource",
+					"change": -2
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:relative_health",
+					"comparison": "<",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:exposed_to_sun",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"heal_from_resource_day": {
+		"type": "origins:action_over_time",
+		"interval": 30,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:heal",
+					"amount": 1
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_resource",
+					"change": -4
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:relative_health",
+					"comparison": "<",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:exposed_to_sun",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"disable_hunger_loss": {
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:feed",
+			"food": 20,
+			"saturation": 20
+		}
+	},
+	"sprinting_lower_resource_night": {
+		"type": "origins:action_over_time",
+		"interval": 140,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_resource",
+			"change": -1
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": ">",
+					"compare_to": 40
+				},
+				{
+					"type": "origins:or",
+					"inverted": true,
+					"conditions": [{
+							"type": "origins:gamemode",
+							"gamemode": "creative"
+						},
+						{
+							"type": "origins:gamemode",
+							"gamemode": "spectator"
+						}
+					]
+				},
+				{
+					"type": "origins:exposed_to_sun",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"sprinting_lower_resource_day": {
+		"type": "origins:action_over_time",
+		"interval": 140,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_resource",
+			"change": -2
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": ">",
+					"compare_to": 40
+				},
+				{
+					"type": "origins:or",
+					"inverted": true,
+					"conditions": [{
+							"type": "origins:gamemode",
+							"gamemode": "creative"
+						},
+						{
+							"type": "origins:gamemode",
+							"gamemode": "spectator"
+						}
+					]
+				},
+				{
+					"type": "origins:exposed_to_sun",
+					"inverted": false
+				}
+			]
+		}
+	},
+	"no_sprinting": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.023,
+			"name": "No Sprint"
+		},
+		"tick_rate": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "<=",
+					"compare_to": 40
+				},
+				{
+					"type": "origins:or",
+					"inverted": true,
+					"conditions": [{
+							"type": "origins:gamemode",
+							"gamemode": "creative"
+						},
+						{
+							"type": "origins:gamemode",
+							"gamemode": "spectator"
+						}
+					]
+				}
+			]
+		}
+	},
+	"no_eating": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:food"
+		}
+	},
+	"sprint_jump_lower_resource": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:chance",
+			"chance": 0.01,
+			"action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_resource",
+				"change": -1
+			}
+		},
+		"cooldown": 15,
+		"key": {
+			"key": "key.jump"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": ">",
+					"compare_to": 40
+				},
+				{
+					"type": "origins:or",
+					"inverted": true,
+					"conditions": [{
+							"type": "origins:gamemode",
+							"gamemode": "creative"
+						},
+						{
+							"type": "origins:gamemode",
+							"gamemode": "spectator"
+						}
+					]
+				}
+			]
+		}
+	},
+	"damage_when_no_blood_easy": {
+		"type": "origins:damage_over_time",
+		"interval": 20,
+		"damage": 1,
+		"damage_source": {
+			"name": "starve",
+			"bypasses_armor": true,
+			"unblockable": true
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:relative_health",
+					"comparison": ">",
+					"compare_to": 0.5
+				}
+			]
+		}
+	},
+	"damage_when_no_blood_normal": {
+		"type": "origins:damage_over_time",
+		"interval": 20,
+		"damage": 1,
+		"damage_source": {
+			"name": "starve",
+			"bypasses_armor": true,
+			"unblockable": true
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:relative_health",
+					"comparison": ">",
+					"compare_to": 0.05
+				}
+			]
+		}
+	},
+	"damage_when_no_blood_hard": {
+		"type": "origins:damage_over_time",
+		"interval": 20,
+		"damage": 1,
+		"damage_source": {
+			"name": "starve",
+			"bypasses_armor": true,
+			"unblockable": true
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": "==",
+					"compare_to": 3
+				}
+			]
+		}
+	},
+
+
+	"drink_blood_low": {
+		"type": "origins:action_on_entity_use",
+		"bientity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [{
+								"type": "origins:damage",
+								"amount": 1,
+								"source": {
+									"name": "thorns"
+								}
+							},
+							{
+								"type": "origins:apply_effect",
+								"effects": [
+									{
+										"effect": "minecraft:slowness",
+										"duration": 120,
+										"amplifier": 9,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:nausea",
+										"duration": 40,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:weakness",
+										"duration": 120,
+										"amplifier": 9,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:wither",
+										"duration": 80,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:levitation",
+										"duration": 25,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:slow_falling",
+										"duration": 120,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:actor_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 10
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 40,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 10
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 60,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 10
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 80,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 10
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 300,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 5
+								}
+							},
+							{
+								"type": "origins:apply_effect",
+								"effects": [{
+										"effect": "minecraft:blindness",
+										"duration": 80,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:weakness",
+										"duration": 300,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": true
+									},
+									{
+										"effect": "minecraft:regeneration",
+										"duration": 300,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": true
+									}
+								]
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "attribute @s minecraft:generic.knockback_resistance modifier add 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab FeedingResist 1 add",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "attribute @s minecraft:generic.movement_speed modifier add eea2faa6-7147-40ff-9c60-1ea6dd993a08 FeedingSpeed -1 add",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:delay",
+							  "ticks": 80,
+							  "action":
+							  {
+								  "type": "origins:execute_command",
+								  "command": "attribute @s minecraft:generic.knockback_resistance modifier remove 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab",
+								  "permission_level": 4
+							  }
+							},
+							{
+							  "type": "origins:delay",
+							  "ticks": 80,
+							  "action":
+							  {
+								  "type": "origins:execute_command",
+								  "command": "attribute @s minecraft:generic.movement_speed modifier remove eea2faa6-7147-40ff-9c60-1ea6dd993a08",
+								  "permission_level": 4
+							  }
+							}
+						]
+
+					}
+				}
+			]
+		},
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:in_tag",
+				"tag": "vampier:lowblood"
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "<",
+					"compare_to": 121
+				},
+				{
+					"type": "origins:sneaking"
+				},				
+				{
+					"type": "origins:status_effect",
+					"inverted": true,
+					"effect": "minecraft:weakness"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		],
+		"cooldown": 100
+	},
+
+	"drink_blood_high": {
+		"type": "origins:action_on_entity_use",
+		"bientity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [{
+								"type": "origins:damage",
+								"amount": 1,
+								"source": {
+									"name": "thorns"
+								}
+							},
+							{
+								"type": "origins:apply_effect",
+								"effects": [
+									{
+										"effect": "minecraft:slowness",
+										"duration": 120,
+										"amplifier": 10,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:nausea",
+										"duration": 40,
+										"amplifier": 1,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:weakness",
+										"duration": 120,
+										"amplifier": 10,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:wither",
+										"duration": 80,
+										"amplifier": 1,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:levitation",
+										"duration": 25,
+										"amplifier": 1,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:slow_falling",
+										"duration": 120,
+										"amplifier": 1,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:actor_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 20
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 40,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 20
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 60,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 20
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 80,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 20
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 300,
+								"action":
+								{
+									"type": "origins:change_resource",
+									"resource": "*:*_resource",
+									"change": 10
+								}
+							},
+							{
+								"type": "origins:apply_effect",
+								"effects": [{
+										"effect": "minecraft:blindness",
+										"duration": 80,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:weakness",
+										"duration": 300,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": true
+									},
+									{
+										"effect": "minecraft:regeneration",
+										"duration": 300,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": true
+									}
+								]
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "attribute @s minecraft:generic.knockback_resistance modifier add 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab FeedingResist 1 add",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:execute_command",
+							  "command": "attribute @s minecraft:generic.movement_speed modifier add eea2faa6-7147-40ff-9c60-1ea6dd993a08 FeedingSpeed -1 add",
+							  "permission_level": 4
+							},
+							{
+							  "type": "origins:delay",
+							  "ticks": 80,
+							  "action":
+							  {
+								  "type": "origins:execute_command",
+								  "command": "attribute @s minecraft:generic.knockback_resistance modifier remove 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab",
+								  "permission_level": 4
+							  }
+							},
+							{
+							  "type": "origins:delay",
+							  "ticks": 80,
+							  "action":
+							  {
+								  "type": "origins:execute_command",
+								  "command": "attribute @s minecraft:generic.movement_speed modifier remove eea2faa6-7147-40ff-9c60-1ea6dd993a08",
+								  "permission_level": 4
+							  }
+							}
+						]
+
+					}
+				}
+			]
+		},
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:in_tag",
+				"tag": "vampier:highblood"
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "<",
+					"compare_to": 101
+				},
+				{
+					"type": "origins:sneaking"
+				},				
+				{
+					"type": "origins:status_effect",
+					"inverted": true,
+					"effect": "minecraft:weakness"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		],
+		"cooldown": 100
+	},
+
+	"strength": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:strength",
+				"duration": 2,
+				"amplifier": 0,
+				"is_ambient": false,
+				"show_particles": false,
+				"show_icon": false
+			}
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_resource",
+			"comparison": ">=",
+			"compare_to": 120
+		}
+	},
+	"weak_in_sunlight": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:weakness",
+				"duration": 2,
+				"amplifier": 1,
+				"show_particles": false,
+				"show_icon": false,
+				"is_ambient": false
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:exposed_to_sun"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "<=",
+					"compare_to": 100
+				}
+			]
+		}
+	},
+	"burn_in_sunlight": {
+		"type": "origins:burn",
+		"interval": 1,
+		"burn_duration": 2,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:exposed_to_sun"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "*:*_resource",
+					"comparison": "<=",
+					"compare_to": 80
+				}
+			]
+		}
+	}
+}

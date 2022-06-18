@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"vampier:strong",
+                "vampier:boost",
+                "vampier:falldmg",
+                "vampier:bloodbar",
+                "vampier:description",
+                "vampier:sunburn",
+                "vampier:stake"
+	],
+	"icon": {
+        "item": "potion",
+        "tag": "{CustomPotionColor:4522754}"
+    },
+	"order": 1,
+	"impact": 2,
+	"name": "Vampire",
+	"description": "Creatures of the night that hunger only for blood"
+}
