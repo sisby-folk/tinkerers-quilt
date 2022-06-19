@@ -1,0 +1,29 @@
+{
+	"type": "origins:multiple",
+	"ambient": {
+		"type": "origins:action_over_time",
+		"interval": 60,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:nutrients",
+			"change": -1
+		},
+		"condition": {
+			"type": "origins:exposed_to_sun",
+			"inverted": true
+		}
+	},
+	"sprinting": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:nutrients",
+			"change": -1
+		},
+		"condition": {
+			"type": "origins:sprinting"
+		}
+	},
+	"hidden": true
+}

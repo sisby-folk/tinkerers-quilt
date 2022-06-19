@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"tinkerimp:bite_sized",
+		"tinkerimp:nimble",
+		"tinkerimp:small_appetite",
+		"origins:climbing",
+		"tinkerimp:jockey"
+	],
+	"icon": "minecraft:iron_bars",
+	"order": 1,
+	"impact": 2,
+	"name": "Imp",
+	"description": "Short, nimble, and hailing from across the lands."
+}

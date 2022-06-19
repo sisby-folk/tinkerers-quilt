@@ -1,0 +1,10 @@
+{
+	"name": "Snacks",
+	"description": "You hunger far slower than others.",
+	"type": "origins:modify_exhaustion",
+	"modifier": {
+		"name": "Origin modifier",
+		"operation": "multiply_base",
+		"value": -0.5
+	}
+}

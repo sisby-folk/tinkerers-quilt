@@ -1,0 +1,20 @@
+{
+	"loading_priority": 10,
+	"powers": [
+		"tinkerdryad:nutrients",
+		"tinkerdryad:photosynthesis",
+		"tinkerdryad:rain",
+		"tinkerdryad:consumables",
+		"tinkerdryad:green_thumb",
+		"tinkerdryad:no_food",
+		"tinkerdryad:flammable",
+		"tinkerdryad:loss",
+		"tinkerdryad:debuff",
+		"tinkerdryad:no_consume"
+	],
+	"icon": "minecraft:birch_sapling",
+	"order": 1,
+	"impact": 2,
+	"name": "Dryad",
+	"description": "Composed of nature, dryads' plantlike body subsides on sun, water, and nutrients."
+}

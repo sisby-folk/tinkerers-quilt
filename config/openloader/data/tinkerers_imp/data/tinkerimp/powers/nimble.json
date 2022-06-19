@@ -1,0 +1,39 @@
+{
+	"name": "Featherweight",
+	"description": "You take no fall, thorn, and physics damage.\nYou aren't slowed by blocks, and can walk on powder snow.",
+	"type": "origins:multiple",
+	"damage_immunity": {
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:name",
+					"name": "fall"
+				},
+				{
+					"type": "origins:name",
+					"name": "flyIntoWall"
+				},
+				{
+					"type": "origins:name",
+					"name": "cactus"
+				},
+				{
+					"type": "origins:name",
+					"name": "sweetBerryBush"
+				},
+				{
+					"type": "origins:name",
+					"name": "thorns"
+				}
+			]
+		}
+	},
+	"prevent_block_slowness": {
+		"type": "extraorigins:prevent_block_slowness",
+		"inverted": true
+	},
+	"can_walk_on_powder_snow": {
+		"type": "extraorigins:can_walk_on_powder_snow"
+	}
+}

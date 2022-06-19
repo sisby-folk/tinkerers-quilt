@@ -1,0 +1,73 @@
+{
+	"name": "Mischief-Sized",
+	"description": "You're imp-tiny (54%)!\nHeight: 1 Blocks\nSneak Height: 0.7 Blocks\nWidth: 0.4 Blocks",
+	"type": "origins:multiple",
+	
+	"modify_size": {
+		"entity_action_chosen": {
+			"actions": [{
+					"command": "scale set pehkui:height 0.54 @s",
+					"type": "origins:execute_command"
+				},
+				{
+					"command": "scale set pehkui:width 0.66 @s",
+					"type": "origins:execute_command"
+				},
+				{
+					"command": "scale persist set true @s",
+					"type": "origins:execute_command"
+				}
+			],
+			"type": "origins:and"
+		},
+		"entity_action_lost": {
+			"command": "scale reset @s",
+			"type": "origins:execute_command"
+		},
+		"type": "origins:action_on_callback"
+	},
+	
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.max_health",
+				"operation": "addition",
+				"value": -6
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.attack_speed",
+				"operation": "addition",
+				"value": 0.4
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "addition",
+				"value": -0.00
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "addition",
+				"value": -0.15
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:reach",
+				"operation": "addition",
+				"value": -0.5
+			}
+		]
+	},
+	
+	"jump_modifier": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"name": "Origin modifier",
+			"operation": "multiply_total",
+			"value": -0.1
+		}
+	}
+}

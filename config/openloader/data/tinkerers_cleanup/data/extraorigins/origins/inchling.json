@@ -1,0 +1,11 @@
+{
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:anvil"
+    },
+    "order": 1,
+    "impact": 2,
+    "loading_priority": 100,
+    "unchoosable": true
+}

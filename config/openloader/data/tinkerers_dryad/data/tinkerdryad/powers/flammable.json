@@ -1,0 +1,19 @@
+{
+	"name": "Flammable",
+	"decription": "below 4 nutrients, you take double fire damage",
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"modifier": {
+		"name": "Origin modifier",
+		"operation": "multiply_base",
+		"value": 2
+	},
+	"condition": {
+		"type": "origins:resource",
+		"resource": "tinkerdryad:nutrients",
+		"comparison": "<=",
+		"compare_to": 572
+	}
+}

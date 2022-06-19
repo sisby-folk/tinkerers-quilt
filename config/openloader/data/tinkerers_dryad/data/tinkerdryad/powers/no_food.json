@@ -1,0 +1,60 @@
+{
+	"type": "origins:multiple",
+	"hunger": {
+		"type": "origins:effect_immunity",
+		"effect": "minecraft:hunger"
+	},
+	"exhaustion": {
+		"type": "origins:modify_exhaustion",
+		"modifier": {
+			"name": "Floran Modified Stomachless",
+			"operation": "multiply_total",
+			"value": -1
+		}
+	},
+	"regen": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:change_resource",
+				"resource": "*:nutrients",
+				"change": -20
+			},
+			{
+				"type": "origins:heal",
+				"amount": 1
+			}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "*:nutrients",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:relative_health",
+				"comparison": "<",
+				"compare_to": 1.0
+			}
+			]
+		}
+	},
+	"regen_natural": {
+		"type": "origins:disable_regen"
+	},
+	"name": "Stomachless",
+	"description": "You don't need to eat, and slowly regenerate health over time.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Regenerating health consumes Nutrients."
+	}
+	]
+}

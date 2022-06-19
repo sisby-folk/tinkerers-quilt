@@ -1,0 +1,169 @@
+{
+	"type": "origins:active_self",
+	"condition": {
+		"type": "origins:resource",
+		"resource": "*:nutrients",
+		"comparison": "<=",
+		"compare_to": 994
+	},
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 14
+	},
+	"cooldown": 10,
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:honey_bottle"
+					}
+				}
+			},
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:nutrients",
+					"change": 250
+				},
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "mainhand",
+					"action": {
+						"type": "origins:consume"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:glass_bottle"
+						},
+						"preferred_slot": "mainhand"
+					}
+				}
+				]
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:honey_bottle"
+					}
+				}
+			},
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:nutrients",
+					"change": 250
+				},
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "offhand",
+					"action": {
+						"type": "origins:consume"
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+						"type": "origins:give",
+						"stack": {
+							"item": "minecraft:glass_bottle"
+						},
+						"preferred_slot": "offhand"
+					}
+				}
+				]
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:bone_meal"
+					}
+				}
+			},
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:nutrients",
+					"change": 60
+				},
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "mainhand",
+					"action": {
+						"type": "origins:consume"
+					}
+				}
+				]
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:bone_meal"
+					}
+				}
+			},
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:nutrients",
+					"change": 60
+				},
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "offhand",
+					"action": {
+						"type": "origins:consume"
+					}
+				}
+				]
+			}
+		}
+		]
+	},
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"name": "Unorthodox Diet",
+	"description": "You can consume Honey Bottles and Bone Meal in order to quickly gain Nutrients.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/active.png",
+		"text": "Active ability, use with %s while holding Honey Bottles or Bone Meal."
+	}
+	]
+}

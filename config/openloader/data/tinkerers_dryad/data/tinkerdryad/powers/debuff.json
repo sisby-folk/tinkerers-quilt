@@ -1,0 +1,105 @@
+{
+	"type": "origins:multiple",
+	"low_move": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_base",
+			"value": -0.2
+		},
+		"tick_rate": 4,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "*:nutrients",
+				"comparison": "<=",
+				"compare_to": 750
+			},
+			{
+				"type": "origins:resource",
+				"resource": "*:nutrients",
+				"comparison": ">",
+				"compare_to": 600
+			}
+			]
+		}
+	},
+	"mid_move": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_base",
+			"value": -0.45
+		},
+		"tick_rate": 4,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "*:nutrients",
+				"comparison": "<=",
+				"compare_to": 600
+			},
+			{
+				"type": "origins:resource",
+				"resource": "*:nutrients",
+				"comparison": ">",
+				"compare_to": 300
+			}
+			]
+		}
+	},
+	"high_move": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_base",
+			"value": -0.6
+		},
+		"tick_rate": 4,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:nutrients",
+			"comparison": "<=",
+			"compare_to": 300
+		}
+	},
+	"die": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:damage",
+			"amount": 1,
+			"source": {
+				"name": "starve",
+				"bypasses_armor": true,
+				"unblockable": true
+			}
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:nutrients",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"forgive": {
+		"type": "origins:action_on_callback",
+		"entity_action_respawned": {
+			"type": "origins:change_resource",
+			"resource": "*:nutrients",
+			"change": 800,
+			"operation": "set"
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:nutrients",
+			"comparison": "<",
+			"compare_to": 800
+		}
+	},
+	"hidden": true
+}

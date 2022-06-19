@@ -1,0 +1,65 @@
+{
+	"type": "origins:multiple",
+	"charges": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 10,
+		"start_value": 10,
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index": 11
+		}
+	},
+	"recharge": {
+		"type": "origins:action_over_time",
+		"interval": 400,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_charges",
+			"change": 1
+		}
+	},
+	"use": {
+		"type": "origins:action_on_block_use",
+		"block_condition": {
+			"type": "extraorigins:fertilizable"
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		],
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:sneaking"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "*:*_charges",
+				"comparison": ">",
+				"compare_to": 0
+			}
+			]
+		},
+		"block_action": {
+			"type": "origins:bonemeal",
+			"effects": true
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "*:*_charges",
+			"change": -1
+		}
+	},
+	"name": "Green Thumb",
+	"description": "Sneak using a fertilizable block with an empty hand will grow the plant.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Holds 10 uses; gain a use every 20 seconds."
+	}
+	]
+}
