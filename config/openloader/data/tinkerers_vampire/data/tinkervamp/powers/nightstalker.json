@@ -1,0 +1,28 @@
+{
+	"name": "Nightstalker",
+	"description": "You are faster and see better during the night.",
+	"type": "origins:stacking_status_effect",
+	
+	"min_stacks": -1,
+	"max_stacks": 6,
+	"duration_per_stack": 200,
+	"effects": [{
+			"effect": "minecraft:speed",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:night_vision",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"condition": {
+		"type": "origins:daytime",
+		"inverted": true
+	}
+}

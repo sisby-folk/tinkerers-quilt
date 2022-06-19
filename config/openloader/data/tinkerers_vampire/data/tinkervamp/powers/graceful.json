@@ -2,6 +2,7 @@
 	"name": "Graceful",
 	"description": "You take 90% less fall damage.",
 	"type": "origins:modify_damage_taken",
+	
 	"damage_condition": {
 		"type": "origins:name",
 		"name": "fall"

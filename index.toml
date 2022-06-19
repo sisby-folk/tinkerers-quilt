@@ -133,68 +133,12 @@ file = "config/openloader/data/Shulk.zip"
 hash = "b4e14792fd0ca8e36d83122e71fd3d666ec0cca8669ab29fdca6928dbd24cbfd"
 
 [[files]]
-file = "config/openloader/data/VanillaTweaks_c451858.zip"
-hash = "7f01315cf2e2e9d85b6821a46e82d896185da93f7bf14434c53ca01ffd09d43b"
+file = "config/openloader/data/VanillaTweaks_c278482.zip"
+hash = "b1adcace3853862828c37b2deb7e9e9b374042914b48f54a5b58645ac0ad6395"
 
 [[files]]
 file = "config/openloader/data/anti ghast grief v1.1.2.zip"
 hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/origins/origin_layers/origin.json"
-hash = "1c53ac71e0c2af6bcbd6883336802ed40e872b93ca7dc1efc9ba5a319165349e"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/origins/vampire.json"
-hash = "905c4b0932f1893f2749de0297a85a7893a47d8b74a8cd58b19677353f4f56b6"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/bloodbar.json"
-hash = "7a946da5af54e71a5226d925b29cfc5f1999d3ed057dd2dbaa0356bf8af8cff7"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/boost.json"
-hash = "c79f6dd62e18bdbf17c38e3907b5da252624f280ae037261d002b03455bfa15c"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/description.json"
-hash = "154434b87d78116179610a6130f89509dfed464db613cc0f5b236c6ed9aa3952"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/falldmg.json"
-hash = "ef8e4b7ef7c2bdca76d466ee0f46f7a8d39a9de0cfa7da329444615c9c59ff43"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/stake.json"
-hash = "ed3e59ad32941c7070472612e2e213a3a9cf360b0c046e22dc778fa7f2546692"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/strong.json"
-hash = "8067c53a0122fffaf4f7a699f5c6ca2272bdc0a1195a0c6051a34fe4959e4c29"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/powers/sunburn.json"
-hash = "fa11610ee1dfc1819a0ec10be7cd842ed0a498013dec2146c6bb4962ba3645ad"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/tags/entity_types/highblood.json"
-hash = "1dcd8961cd51ce8264867228a4c1c9eab6728564c8665c1b40792c7a3e1ee9d6"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/tags/entity_types/lowblood.json"
-hash = "7ec7cdca589fb8dbbf8d3ab17eb0d3643b11643314b60a6a473088a0bd721b10"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/tags/entity_types/mediumblood.json"
-hash = "bd08afbc795df8584877602811be88510f34127847e3e4dad21e35b5dff9d68a"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/data/vampier/tags/items/wooden.json"
-hash = "64a9a68e4054e3fee6c35656a2d96a87b464814f5dcd6aac8b9178536b307981"
-
-[[files]]
-file = "config/openloader/data/chesslord_vampire/pack.mcmeta"
-hash = "1ab20c92ef3a468e46a2b41ed6ff10771f6900f781104d1a19132ce35d8a763d"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
@@ -699,6 +643,62 @@ hash = "06c289441493a0ca494052ba61ca7bd443cd8917351c8c708a9ecb1695ef21c3"
 [[files]]
 file = "config/openloader/data/tinkerers_tags/pack.mcmeta"
 hash = "f0f8ad4d1e7fae0a6a8a265ab947cc41d34688289a704453cd72f69f3a8ec1b2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/origins/origin_layers/origin.json"
+hash = "5a3a6bc4bad190a9895bc745becab2c327aac8dea5304a03e4cd9d71b461f145"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/origins/vampire.json"
+hash = "59ac3ca625e4616c1f27f00f48d941057782e3e174d6b7593c6a695422c9ce2e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/blood.json"
+hash = "e504c8cddc9cd6c196e215a47c10b0152471bff451d6f54e2e4f29ff04c991d1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/blood_hidden.json"
+hash = "d76f523a23ccb109a54f7a8622caf5e7f98b53dadd361dc0edc613b8c6d4f68c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/feed.json"
+hash = "0972413fb21cb95073ab74a5349bb6e262b81530aca9c7a8b1b63e90cd0f5f37"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/graceful.json"
+hash = "c171d25e1d7747d24a4ad1d7be0f8b63d75d09604733735b171b6dad0751c015"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/hunters.json"
+hash = "399187f93925f1a889bee781400b72865b662088c9eca11f09baca8ce292f160"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/nightstalker.json"
+hash = "708eb372c50a171869e7f0c5ea71bcfa914a6f965dd3f9f5e773b6805000167e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/shine.json"
+hash = "d6a1773938c225b32968622a249ac6acf0163d766c61a7451e0ee88b41ef94a6"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/smoke.json"
+hash = "2cd4b4d9cc77fe0451e34fef31fba4d0fa8ea57aa30c488b4dcc65311d036165"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/entity_types/highblood.json"
+hash = "75bcfb6dbf1730a45ed657b59c3761bb9d3c03487ccbb1d281bf7b37d0c6ad31"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/entity_types/lowblood.json"
+hash = "f90aed88897e99cc64d32e3e7605ba4c9b70549e5bc5a7a942e4ff16df9513c1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/items/wooden.json"
+hash = "64a9a68e4054e3fee6c35656a2d96a87b464814f5dcd6aac8b9178536b307981"
+
+[[files]]
+file = "config/openloader/data/tinkerers_vampire/pack.mcmeta"
+hash = "3036f79112c03c62d97b6962abbb74301abeeafa474657424dfe4df9d066a81a"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/book_quill.json"
