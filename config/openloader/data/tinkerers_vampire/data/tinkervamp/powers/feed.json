@@ -37,6 +37,19 @@
 								}
 							},
 							{
+								"type": "origins:execute_command",
+								"command": "attribute @s minecraft:generic.follow_range modifier add 57682a1f-9dd7-4866-aaff-31620e27d12a Blindness 0 multiply_base",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 120,
+								"action": {
+									"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
+									"type": "origins:execute_command"
+								}
+							},
+							{
 								"type": "origins:apply_effect",
 								"effects": [{
 										"effect": "minecraft:slowness",
@@ -44,14 +57,14 @@
 										"amplifier": 9,
 										"is_ambient": false,
 										"show_particles": true,
-										"show_icon": false
+										"show_icon": true
 									},
 									{
 										"effect": "minecraft:nausea",
 										"duration": 40,
 										"amplifier": 0,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									},
 									{
@@ -60,7 +73,7 @@
 										"amplifier": 9,
 										"is_ambient": false,
 										"show_particles": true,
-										"show_icon": false
+										"show_icon": true
 									},
 									{
 										"effect": "minecraft:wither",
@@ -83,7 +96,7 @@
 										"duration": 120,
 										"amplifier": 0,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									}
 								]
@@ -242,8 +255,17 @@
 		"bientity_condition": {
 			"type": "origins:target_condition",
 			"condition": {
-				"type": "origins:in_tag",
-				"tag": "vampier:lowblood"
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:in_tag",
+						"tag": "tinkervamp:lowblood"
+					},
+					{
+						"type": "origins:status_effect",
+						"inverted": true,
+						"effect": "minecraft:strength"
+					}
+				]
 			}
 		},
 		"condition": {
@@ -261,6 +283,11 @@
 					"type": "origins:status_effect",
 					"inverted": true,
 					"effect": "minecraft:weakness"
+				},
+				{
+					"type": "origins:status_effect",
+					"inverted": true,
+					"effect": "minecraft:blindness"
 				}
 			]
 		},
@@ -285,6 +312,19 @@
 								"amount": 1,
 								"source": {
 									"name": "thorns"
+								}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "attribute @s minecraft:generic.follow_range modifier add 57682a1f-9dd7-4866-aaff-31620e27d12a Blindness 0 multiply_base",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 120,
+								"action": {
+									"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
+									"type": "origins:execute_command"
 								}
 							},
 							{
@@ -493,8 +533,17 @@
 		"bientity_condition": {
 			"type": "origins:target_condition",
 			"condition": {
-				"type": "origins:in_tag",
-				"tag": "vampier:highblood"
+				"type": "origins:and",
+				"conditions": [{
+						"type": "origins:in_tag",
+						"tag": "tinkervamp:highblood"
+					},
+					{
+						"type": "origins:status_effect",
+						"inverted": true,
+						"effect": "minecraft:strength"
+					}
+				]
 			}
 		},
 		"condition": {
@@ -511,12 +560,12 @@
 				{
 					"type": "origins:status_effect",
 					"inverted": true,
-					"effect": "minecraft:strength"
+					"effect": "minecraft:weakness"
 				},
 				{
 					"type": "origins:status_effect",
 					"inverted": true,
-					"effect": "minecraft:weakness"
+					"effect": "minecraft:blindness"
 				}
 			]
 		},

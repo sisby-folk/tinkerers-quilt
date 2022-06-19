@@ -55,7 +55,7 @@
 				{
 					"type": "origins:change_resource",
 					"resource": "tinkervamp:blood_resource",
-					"change": -2
+					"change": -1
 				}
 			]
 		},
@@ -65,43 +65,7 @@
 					"type": "origins:resource",
 					"resource": "tinkervamp:blood_resource",
 					"comparison": ">",
-					"compare_to": 0
-				},
-				{
-					"type": "origins:relative_health",
-					"comparison": "<",
-					"compare_to": 1
-				},
-				{
-					"type": "origins:exposed_to_sun",
-					"inverted": true
-				}
-			]
-		}
-	},
-	"heal_from_resource_day": {
-		"type": "origins:action_over_time",
-		"interval": 30,
-		"entity_action": {
-			"type": "origins:and",
-			"actions": [{
-					"type": "origins:heal",
-					"amount": 1
-				},
-				{
-					"type": "origins:change_resource",
-					"resource": "tinkervamp:blood_resource",
-					"change": -4
-				}
-			]
-		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
-					"comparison": ">",
-					"compare_to": 0
+					"compare_to": 20
 				},
 				{
 					"type": "origins:relative_health",
@@ -246,7 +210,7 @@
 	},
 	"damage_when_no_blood_easy": {
 		"type": "origins:damage_over_time",
-		"interval": 20,
+		"interval": 120,
 		"damage": 1,
 		"damage_source": {
 			"name": "starve",
@@ -277,7 +241,7 @@
 	},
 	"damage_when_no_blood_normal": {
 		"type": "origins:damage_over_time",
-		"interval": 20,
+		"interval": 80,
 		"damage": 1,
 		"damage_source": {
 			"name": "starve",
@@ -308,7 +272,7 @@
 	},
 	"damage_when_no_blood_hard": {
 		"type": "origins:damage_over_time",
-		"interval": 20,
+		"interval": 40,
 		"damage": 1,
 		"damage_source": {
 			"name": "starve",

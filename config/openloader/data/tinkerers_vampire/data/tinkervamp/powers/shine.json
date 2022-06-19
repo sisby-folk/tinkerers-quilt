@@ -1,6 +1,6 @@
 {
 	"name": "Shine Shine",
-	"description": "The sun is your bane. You weaken with below five blood, and burn below four.",
+	"description": "The sun is your bane and you cannot heal under it. You weaken below five blood, and burn below four.",
 	"type": "origins:multiple",
 
 	"weak_in_sunlight": {
@@ -13,7 +13,7 @@
 				"duration": 2,
 				"amplifier": 1,
 				"show_particles": false,
-				"show_icon": false,
+				"show_icon": true,
 				"is_ambient": false
 			}
 		},
@@ -31,10 +31,10 @@
 			]
 		}
 	},
-	"burn_in_sunlight": {
+	"burn_in_sunlight_easy": {
 		"type": "origins:burn",
-		"interval": 1,
-		"burn_duration": 2,
+		"interval": 80,
+		"burn_duration": 1,
 		"condition": {
 			"type": "origins:and",
 			"conditions": [{
@@ -45,6 +45,60 @@
 					"resource": "tinkervamp:blood_resource",
 					"comparison": "<=",
 					"compare_to": 80
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		}
+	},
+	"burn_in_sunlight_normal": {
+		"type": "origins:burn",
+		"interval": 60,
+		"burn_duration": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:exposed_to_sun"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<=",
+					"compare_to": 80
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": "==",
+					"compare_to": 2
+				}
+			]
+		}
+	},
+	"burn_in_sunlight_hard": {
+		"type": "origins:burn",
+		"interval": 30,
+		"burn_duration": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:exposed_to_sun"
+				},
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<=",
+					"compare_to": 80
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": "==",
+					"compare_to": 3
 				}
 			]
 		}
