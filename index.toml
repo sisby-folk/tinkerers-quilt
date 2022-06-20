@@ -758,7 +758,7 @@ hash = "d76f523a23ccb109a54f7a8622caf5e7f98b53dadd361dc0edc613b8c6d4f68c"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/feed.json"
-hash = "4d670f7ecdf34c9630ec2cb31b2720c6bcd463f29693d865b3983a91664623c9"
+hash = "b722ebcfd59505b8ba0738949c8280169dea4aede1e49deb9df550607b82aecf"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/graceful.json"
@@ -786,7 +786,7 @@ hash = "75bcfb6dbf1730a45ed657b59c3761bb9d3c03487ccbb1d281bf7b37d0c6ad31"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/entity_types/lowblood.json"
-hash = "f90aed88897e99cc64d32e3e7605ba4c9b70549e5bc5a7a942e4ff16df9513c1"
+hash = "e5cb57edee5bdfaaad5950cf833b1a13a19d1b631cb73b0a99eb971bf22de669"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/items/wooden.json"
@@ -959,6 +959,10 @@ file = "credits.txt"
 hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
 
 [[files]]
+file = "mods/Blanket+Client+tweaks-1.0.4.jar"
+hash = "f4e8d2ac9ecdfc9ba9f4e8c5aa513ab1b8e5eb442881a7898352d2bd7d317cba"
+
+[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
 metafile = true
@@ -980,7 +984,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "62023af97326e7f5973d9704af59a498118c07227fcc1ab607da007e62b90e88"
+hash = "189940950f601ef3365fe283a96ce2b38f518d3647c425d9573b65f3464880d0"
 metafile = true
 
 [[files]]
@@ -996,11 +1000,6 @@ metafile = true
 [[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "cb31a6021573e5d57ca44d97e64f5e80f91caa7dd8c08c3b5d2afe72e48da306"
-metafile = true
-
-[[files]]
-file = "mods/blanket.pw.toml"
-hash = "504c2f4160b7e9dfc4c3b97bfac4d2d091f2cf406a4c0d505f0159a93020b60d"
 metafile = true
 
 [[files]]
@@ -1090,7 +1089,7 @@ metafile = true
 
 [[files]]
 file = "mods/ebe.pw.toml"
-hash = "50780c17b5bb008c6786a9ab8e4405fba1908a8276a1d7d03dff90f8f7408d78"
+hash = "f77bd3db91c9fc8f54fb546655c7835b01adcacbf455e8de33b276a0a30076f3"
 metafile = true
 
 [[files]]
@@ -1100,7 +1099,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "8e7390a1bceeb155c5e389f2c47e2ec4b3d82b2eb865f17550e9ab425e7bc669"
+hash = "bc859d5d17706a14eff618bae19efe135954a56c5afc963a84a6591ea468cd5e"
 metafile = true
 
 [[files]]
@@ -1210,7 +1209,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "735bb894e8fd0430de8fe331347ff24c5c64643bc65f2c040f7a82fb17e8b826"
+hash = "b8e50e473a9a5f9d41dba92a20e6af19156a23d3f70cc87c4fe164ea83e0e238"
 metafile = true
 
 [[files]]
@@ -1250,7 +1249,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdabettergrass.pw.toml"
-hash = "01f79a7fb966690009a42f285e779bac8f7958df56240494e4d3d7d862332c2d"
+hash = "080d4789738ae0015c0a1fc76ffc3f6487f55dc5877b3de1c3b458b544efe362"
 metafile = true
 
 [[files]]
@@ -1298,7 +1297,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "140c864ed6a6169d00b9f45f3b4269d185d2d98f1e8940b68ad699a0fd12531c"
+hash = "d2a3a00adc376145cdadbc329c843edf002e037f97c8c27638b95162063d64a9"
 metafile = true
 
 [[files]]
@@ -1367,7 +1366,7 @@ metafile = true
 
 [[files]]
 file = "mods/projectsavethepets.pw.toml"
-hash = "541f03a749999cbc895628c37ade90bc81df44162c40b8f0afea84ae8741553f"
+hash = "a4d4f2da42520c48b47c2d0f182a0c8223ebd090bffebb1bb9c4bd08e9318543"
 metafile = true
 
 [[files]]
@@ -1377,7 +1376,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "75ecdb1302b2600ef780b430f71322c5332a015ea27e35689b330729df9fa71f"
+hash = "1c3da43b601fc0142ff6b706d48995846ca71d1d6ebf8cda355e4a124630a4a4"
 metafile = true
 
 [[files]]
@@ -1387,7 +1386,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "03eae1b9ebedcc384d7cbc5bc799484512b7065b782ee8865216f1f778118cef"
+hash = "389f2d01e0f3417395d0ff8c9c7b267c8c0b1f2d67cb583a450a637bec8f3239"
 metafile = true
 
 [[files]]
@@ -1497,12 +1496,12 @@ metafile = true
 
 [[files]]
 file = "mods/wthit-plugins.pw.toml"
-hash = "822a0af12ddd67f9c970f428b04bb564bed6bc902920216388e9e212c95f0285"
+hash = "e07ebac560f60edd40a74d71ca5d04bb251c8fad809819807312328ccd36eecb"
 metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "eaf64f4275905db396aec17b59ac7c2ade54b046821d8134fe7a89983fbe2107"
+hash = "98c8ffafe56c38e04da80c8c061e1f1dfc1212a53f3b0c90d7f6b3381c961e95"
 metafile = true
 
 [[files]]
@@ -1618,7 +1617,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/super-duper-vanilla.pw.toml"
-hash = "ab8d404c825ad466fbd5987f8977722b092b19f064ebeaa2438301995eeec478"
+hash = "a08f53b43d84671dad18b6c107988d96a762e362b8a5b610521bc57a6312e4d8"
 metafile = true
 
 [[files]]

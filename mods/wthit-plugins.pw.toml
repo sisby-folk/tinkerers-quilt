@@ -1,13 +1,13 @@
 name = "WTHIT Plugins"
-filename = "wthit-plugins-1.0.5.jar"
+filename = "wthit-plugins-1.0.6+1.18.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/34431T56/versions/1.0.5/wthit-plugins-1.0.5.jar"
+url = "https://cdn.modrinth.com/data/34431T56/versions/1.0.6+1.18.2/wthit-plugins-1.0.6%2B1.18.2.jar"
 hash-format = "sha1"
-hash = "ef4002ddae812a554ed5ab0b789f5431d2ac31e6"
+hash = "8e00dc59232ff0d8e620ac0209dc5a9459b19366"
 
 [update]
 [update.modrinth]
 mod-id = "34431T56"
-version = "UVZvVwm2"
+version = "vCXTnAs1"

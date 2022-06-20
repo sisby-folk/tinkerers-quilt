@@ -1,7 +1,22 @@
 {
 	"name": "Feed",
-	"description": "Sneak+Use with an empty hand to feed on an enemy.\nThis takes time, but empowers you afterwards.\nTargets with more blood require a larger apetite.\nYou cannot feed while empowered or weakened.",
+	"description": "Feed on an enemy, channeling to replenish blood and empower you afterwards.",
 	"type": "origins:multiple",
+	
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/active.png",
+		"text": "Active ability, Sneak+Use a valid mob with an empty hand."
+	},
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "You may only feed on blooded entities.\nTargets must have valid or forfeit consent.\nHigh-blood: Requires 2 bar appetite, replenishes/empowers more.\n  Includes players and most hostile bipeds.\nLow-blood: Requires 1 bar appetite, replenishes/empowers less.\n  Includes endermen, husks/piglin zombies, and other hostiles."
+	},
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "You cannot feed while weakened or empowered\nStrength blocks feeding."
+	}
+	],
 
 	"reset_size": {
 		"type": "origins:action_on_callback",
