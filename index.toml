@@ -891,6 +891,10 @@ file = "config/yosbr/config/clienttweaks.toml"
 hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
 [[files]]
+file = "config/yosbr/config/emi.css"
+hash = "dbabacba5d2c56cc17a955f69c25a996d1fd6d744f4dbd14218727fe1a6158b6"
+
+[[files]]
 file = "config/yosbr/config/illuminations.properties"
 hash = "66f8b45a4b5b90f0fd6ae4e641a807d2d3bbcd8cfda3441502ddf1a9df3c689f"
 
