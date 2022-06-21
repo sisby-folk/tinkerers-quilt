@@ -34,6 +34,10 @@
 				},
 				{
 					"type": "origins:execute_command",
+					"command": "scale reset pehkui:motion @s"
+				},
+				{
+					"type": "origins:execute_command",
 					"command": "scale delay set pehkui:base 80 @s"
 				}
 			]
