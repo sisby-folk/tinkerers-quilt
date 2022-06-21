@@ -2,37 +2,53 @@
 	"name": "Feed",
 	"description": "Feed on an enemy, channeling to replenish blood and empower you afterwards.",
 	"type": "origins:multiple",
-	
-	"badges": [
-	{
-		"sprite": "origins:textures/gui/badge/active.png",
-		"text": "Active ability, Sneak+Use a valid mob with an empty hand."
-	},
-	{
-		"sprite": "origins:textures/gui/badge/info.png",
-		"text": "You may only feed on blooded entities.\nTargets must have valid or forfeit consent.\nHigh-blood: Requires 2 bar appetite, replenishes/empowers more.\n  Includes players and most hostile bipeds.\nLow-blood: Requires 1 bar appetite, replenishes/empowers less.\n  Includes endermen, husks/piglin zombies, and other hostiles."
-	},
-	{
-		"sprite": "origins:textures/gui/badge/info.png",
-		"text": "You cannot feed while weakened or empowered\nStrength blocks feeding."
-	}
+
+	"badges": [{
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Active ability, Sneak+Use a valid mob with an empty hand."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You may only feed on blooded entities.\nTargets must have valid or forfeit consent.\nHigh-blood: Requires 2 bar appetite, replenishes/empowers more.\n  Includes players and most hostile bipeds.\nLow-blood: Requires 1 bar appetite, replenishes/empowers less.\n  Includes endermen, husks/piglin zombies, and other hostiles."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You cannot feed while weakened or empowered\nStrength blocks feeding."
+		}
 	],
 
 	"reset_size": {
 		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"actions": [{
+				"type": "origins:execute_command",
+				"command": "scale delay set pehkui:base 80 @s"
+			}],
+			"type": "origins:and"
+		},
 		"entity_action_respawned": {
 			"type": "origins:and",
 			"actions": [{
-				"type": "origins:execute_command",
-				"command": "scale reset pehkui:base @s"
-			}]
+					"type": "origins:execute_command",
+					"command": "scale reset pehkui:base @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale delay set pehkui:base 80 @s"
+				}
+			]
 		},
 		"entity_action_lost": {
 			"type": "origins:and",
 			"actions": [{
-				"type": "origins:execute_command",
-				"command": "scale reset pehkui:base @s"
-			}]
+					"type": "origins:execute_command",
+					"command": "scale reset pehkui:base @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale delay set pehkui:base 20 @s"
+				}
+			]
 		}
 	},
 
@@ -145,7 +161,7 @@
 								"permission_level": 4
 							},
 							{
-								"command": "scale set pehkui:base 1.05 @s",
+								"command": "scale set pehkui:base 1.2 @s",
 								"type": "origins:execute_command"
 							},
 							{
@@ -154,15 +170,10 @@
 								"action": {
 									"type": "origins:and",
 									"actions": [{
-											"type": "origins:change_resource",
-											"resource": "tinkervamp:blood_resource",
-											"change": 10
-										},
-										{
-											"command": "scale set pehkui:base 1.1 @s",
-											"type": "origins:execute_command"
-										}
-									]
+										"type": "origins:change_resource",
+										"resource": "tinkervamp:blood_resource",
+										"change": 10
+									}]
 								}
 							},
 							{
@@ -174,10 +185,6 @@
 											"type": "origins:change_resource",
 											"resource": "tinkervamp:blood_resource",
 											"change": 10
-										},
-										{
-											"command": "scale set pehkui:base 1.15 @s",
-											"type": "origins:execute_command"
 										},
 										{
 											"type": "origins:apply_effect",
@@ -208,15 +215,10 @@
 								"action": {
 									"type": "origins:and",
 									"actions": [{
-											"type": "origins:change_resource",
-											"resource": "tinkervamp:blood_resource",
-											"change": 10
-										},
-										{
-											"command": "scale set pehkui:base 1.2 @s",
-											"type": "origins:execute_command"
-										}
-									]
+										"type": "origins:change_resource",
+										"resource": "tinkervamp:blood_resource",
+										"change": 10
+									}]
 								}
 							},
 							{
@@ -423,7 +425,7 @@
 								"permission_level": 4
 							},
 							{
-								"command": "scale set pehkui:base 1.1 @s",
+								"command": "scale set pehkui:base 1.4 @s",
 								"type": "origins:execute_command"
 							},
 							{
@@ -432,15 +434,10 @@
 								"action": {
 									"type": "origins:and",
 									"actions": [{
-											"type": "origins:change_resource",
-											"resource": "tinkervamp:blood_resource",
-											"change": 20
-										},
-										{
-											"command": "scale set pehkui:base 1.2 @s",
-											"type": "origins:execute_command"
-										}
-									]
+										"type": "origins:change_resource",
+										"resource": "tinkervamp:blood_resource",
+										"change": 20
+									}]
 								}
 							},
 							{
@@ -452,10 +449,6 @@
 											"type": "origins:change_resource",
 											"resource": "tinkervamp:blood_resource",
 											"change": 20
-										},
-										{
-											"command": "scale set pehkui:base 1.3 @s",
-											"type": "origins:execute_command"
 										},
 										{
 											"type": "origins:apply_effect",
@@ -486,15 +479,10 @@
 								"action": {
 									"type": "origins:and",
 									"actions": [{
-											"type": "origins:change_resource",
-											"resource": "tinkervamp:blood_resource",
-											"change": 20
-										},
-										{
-											"command": "scale set pehkui:base 1.4 @s",
-											"type": "origins:execute_command"
-										}
-									]
+										"type": "origins:change_resource",
+										"resource": "tinkervamp:blood_resource",
+										"change": 20
+									}]
 								}
 							},
 							{
