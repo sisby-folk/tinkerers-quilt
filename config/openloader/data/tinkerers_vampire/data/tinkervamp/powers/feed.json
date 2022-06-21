@@ -157,8 +157,7 @@
 							},
 							{
 								"type": "origins:execute_command",
-								"command": "scale set pehkui:motion 0 @s",
-								"permission_level": 4
+								"command": "scale set pehkui:motion 0.01 @s"
 							},
 							{
 								"command": "scale set pehkui:base 1.2 @s",
@@ -233,8 +232,7 @@
 										},
 										{
 											"type": "origins:execute_command",
-											"command": "scale reset pehkui:motion @s",
-											"permission_level": 4
+											"command": "scale reset pehkui:motion @s"
 										},
 										{
 											"type": "origins:execute_command",
@@ -421,8 +419,7 @@
 							},
 							{
 								"type": "origins:execute_command",
-								"command": "scale set pehkui:motion 0 @s",
-								"permission_level": 4
+								"command": "scale set pehkui:motion 0.01 @s"
 							},
 							{
 								"command": "scale set pehkui:base 1.4 @s",
@@ -497,8 +494,7 @@
 										},
 										{
 											"type": "origins:execute_command",
-											"command": "scale reset pehkui:motion @s",
-											"permission_level": 4
+											"command": "scale reset pehkui:motion @s"
 										},
 										{
 											"type": "origins:execute_command",
