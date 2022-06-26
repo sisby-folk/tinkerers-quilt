@@ -758,7 +758,7 @@ hash = "d76f523a23ccb109a54f7a8622caf5e7f98b53dadd361dc0edc613b8c6d4f68c"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/feed.json"
-hash = "6ba6970aba5a13da3478b087882a3eae6f2080d7d7913ceb1ecbcb9987f3ee8f"
+hash = "6accf8b712abf68e567f37b1d274809691b7ee6b96bab274539c0039fab1a639"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/graceful.json"
@@ -978,7 +978,7 @@ metafile = true
 
 [[files]]
 file = "mods/animatica.pw.toml"
-hash = "4d0ec016f84e052cb473acfc0d350559c842c086f8f3f68f73f79a355c7640de"
+hash = "0e0112e01df097b7f015ac0ad6a98e173c8e98a27719237ef21be06f8ad09fad"
 metafile = true
 
 [[files]]
@@ -988,7 +988,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "189940950f601ef3365fe283a96ce2b38f518d3647c425d9573b65f3464880d0"
+hash = "9ab81bd4f0c97596e3b9f5270d226f8fb41c91fd30b5637905b81e7dcb29c4d8"
 metafile = true
 
 [[files]]
@@ -1128,7 +1128,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "e54a7558b0b42f42ef4134bf4e75cee19bf67feb33784930abb20943e78c9b8b"
+hash = "2c2f4b2febd702944f9252a954ae2fc1613ac93fd5ebc8ae4a3fd303b5e48114"
 metafile = true
 
 [[files]]
@@ -1223,7 +1223,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tabs-updated.pw.toml"
-hash = "b1ed06eb435831b2bd6595a54dd4983e08fc22acc5d7d805a770e8ab6bc63d31"
+hash = "0b926c16a3d1ef56265d8845874f77e2458c0e19f6f552e170e240735570028e"
 metafile = true
 
 [[files]]
@@ -1290,9 +1290,8 @@ hash = "b99ac27df2f720034b01acc2ea7637b5f020be861a5ac691135fdbd815eb3882"
 metafile = true
 
 [[files]]
-file = "mods/midnightcontrols.pw.toml"
-hash = "0776d19b5abdc929782a21b22b75befb2b6a1a5d87204c85a7d6755d63ce4830"
-metafile = true
+file = "mods/midnightcontrols-1.0.0+1.18-front.jar"
+hash = "b2e943a38962cdf6fff386e68fe1857a5348d17bbfa6c62311526a6f7fe02426"
 
 [[files]]
 file = "mods/mod-settings.pw.toml"
@@ -1301,7 +1300,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "d2a3a00adc376145cdadbc329c843edf002e037f97c8c27638b95162063d64a9"
+hash = "7b698467c51828a5eb22da876bfdae2d9d1981ed2618555875632166fc0e1310"
 metafile = true
 
 [[files]]

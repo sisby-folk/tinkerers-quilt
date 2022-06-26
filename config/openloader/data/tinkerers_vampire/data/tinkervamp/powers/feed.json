@@ -29,18 +29,9 @@
 		"entity_action_respawned": {
 			"type": "origins:and",
 			"actions": [{
-					"type": "origins:execute_command",
-					"command": "scale reset pehkui:base @s"
-				},
-				{
-					"type": "origins:execute_command",
-					"command": "scale reset pehkui:motion @s"
-				},
-				{
-					"type": "origins:execute_command",
-					"command": "scale delay set pehkui:base 80 @s"
-				}
-			]
+				"type": "origins:execute_command",
+				"command": "scale delay set pehkui:base 80 @s"
+			}]
 		},
 		"entity_action_lost": {
 			"type": "origins:and",
@@ -80,21 +71,29 @@
 								"type": "origins:delay",
 								"ticks": 120,
 								"action": {
-									"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
-									"type": "origins:execute_command"
+									"type": "origins:and",
+									"actions": [{
+											"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
+											"type": "origins:execute_command"
+										},
+										{
+											"type": "origins:execute_command",
+											"command": "scale reset pehkui:motion @s"
+										}
+									]
 								}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale persist set pehkui:motion false @s"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale set pehkui:motion 0.01 @s"
 							},
 							{
 								"type": "origins:apply_effect",
 								"effects": [{
-										"effect": "minecraft:slowness",
-										"duration": 120,
-										"amplifier": 9,
-										"is_ambient": false,
-										"show_particles": true,
-										"show_icon": true
-									},
-									{
 										"effect": "minecraft:nausea",
 										"duration": 40,
 										"amplifier": 0,
@@ -123,7 +122,7 @@
 										"duration": 25,
 										"amplifier": 0,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									},
 									{
@@ -158,6 +157,14 @@
 								"type": "origins:execute_command",
 								"command": "attribute @s minecraft:generic.knockback_resistance modifier add 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab FeedingResist 1 add",
 								"permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale persist set pehkui:motion false @s"
+							},
+							{
+								"command": "scale persist set pehkui:base false @s",
+								"type": "origins:execute_command"
 							},
 							{
 								"type": "origins:execute_command",
@@ -342,26 +349,34 @@
 								"type": "origins:delay",
 								"ticks": 120,
 								"action": {
-									"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
-									"type": "origins:execute_command"
+									"type": "origins:and",
+									"actions": [{
+											"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
+											"type": "origins:execute_command"
+										},
+										{
+											"type": "origins:execute_command",
+											"command": "scale reset pehkui:motion @s"
+										}
+									]
 								}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale persist set pehkui:motion false @s"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale set pehkui:motion 0.01 @s"
 							},
 							{
 								"type": "origins:apply_effect",
 								"effects": [{
-										"effect": "minecraft:slowness",
-										"duration": 120,
-										"amplifier": 10,
-										"is_ambient": false,
-										"show_particles": true,
-										"show_icon": false
-									},
-									{
 										"effect": "minecraft:nausea",
 										"duration": 40,
 										"amplifier": 1,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									},
 									{
@@ -369,15 +384,15 @@
 										"duration": 120,
 										"amplifier": 10,
 										"is_ambient": false,
-										"show_particles": true,
-										"show_icon": false
+										"show_particles": false,
+										"show_icon": true
 									},
 									{
 										"effect": "minecraft:wither",
 										"duration": 80,
 										"amplifier": 1,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									},
 									{
@@ -385,7 +400,7 @@
 										"duration": 25,
 										"amplifier": 1,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									},
 									{
@@ -393,7 +408,7 @@
 										"duration": 120,
 										"amplifier": 1,
 										"is_ambient": false,
-										"show_particles": true,
+										"show_particles": false,
 										"show_icon": false
 									}
 								]
@@ -420,6 +435,14 @@
 								"type": "origins:execute_command",
 								"command": "attribute @s minecraft:generic.knockback_resistance modifier add 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab FeedingResist 1 add",
 								"permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale persist set pehkui:motion false @s"
+							},
+							{
+								"command": "scale persist set pehkui:base false @s",
+								"type": "origins:execute_command"
 							},
 							{
 								"type": "origins:execute_command",
