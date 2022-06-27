@@ -1645,11 +1645,6 @@ hash = "8a58353fdf45c07c28684996a8a462487493a1804cc841dc9aaf901412e32212"
 metafile = true
 
 [[files]]
-file = "shaderpacks/projectluma.pw.toml"
-hash = "234a1e13640f05d41ea1b13b985ed877a35db2d38654b6a9e42eb6dbd504cf0b"
-metafile = true
-
-[[files]]
 file = "shaderpacks/redhat.pw.toml"
 hash = "adba88d49991421e5cf9e6392214a25ee34ddb01c5420cdf3bc8db1d7c9972d3"
 metafile = true
