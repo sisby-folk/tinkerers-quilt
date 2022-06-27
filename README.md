@@ -52,6 +52,12 @@ The name is based around the creators, not the content - sorry!
  - Run Update.Bat to install the modpack, then Start.Bat to run the server       
 [they're both just `java` - feel free to send me `.sh` equivalents]
 
+**Extra Shaders**     
+Along with those included in the packwiz version, tinkerer's quilt also includes "I hate blurring, AA, and lens effects!" configurations for:
+
+ - [SEUS Renewed](https://www.sonicether.com/seus/#downloads)
+ - [Triltons V8](https://johanfossum.wixsite.com/trilitons-shaders)
+
 ---
 
 # Pack Features
