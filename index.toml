@@ -959,6 +959,46 @@ file = "config/yosbr/options.txt"
 hash = "e7f22364fd560ebdc20c53e3806dc6b1f06e64a46bc5969d18475f671aa13c19"
 
 [[files]]
+file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
+hash = "15b7e91d31db25b7fd63ac0c64dc518510e89f3fe94d63c4caec782ac4148db2"
+
+[[files]]
+file = "config/yosbr/shaderpacks/ComplementaryShaders_v4.4.zip.txt"
+hash = "1f51ae0e43ec29c2fac9e8dfe7b5713e7496730aad13d94b41df4503230e3919"
+
+[[files]]
+file = "config/yosbr/shaderpacks/Prismarine V4.1a.zip.txt"
+hash = "a2dfa210364c571eb11902c78003331c58f5d4a38b0495a210a90f31903c967a"
+
+[[files]]
+file = "config/yosbr/shaderpacks/RedHat_v34.0.zip.txt"
+hash = "50d3954391e66640c6a5dcd5eddd48bc4bfa5c25704eab8d164a66015e9700dc"
+
+[[files]]
+file = "config/yosbr/shaderpacks/SEUS-Renewed-v1.0.1.zip.txt"
+hash = "1cf7c12b7728b4925c33d36bce4ab6d2177dd0235b004e9f74b081db5337d298"
+
+[[files]]
+file = "config/yosbr/shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip.txt"
+hash = "c1dd42911b75655dad0a2d7775ee77984a7e048713fffee8ccba902e7294aa62"
+
+[[files]]
+file = "config/yosbr/shaderpacks/Sora_Shaders_1.142.zip.txt"
+hash = "cf92f4f81e0b7407836e723540653b4d6c73addde97b6e7cc651fefedb8854e3"
+
+[[files]]
+file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
+hash = "082829dcd697d1cd1dca77561d395554da43c5dd23abeab25052b212878ad434"
+
+[[files]]
+file = "config/yosbr/shaderpacks/Triltons Shaders v8.zip.txt"
+hash = "54f0f263b9c947d42f0f0c7dd030bb4b2ddc189d6d65a4900e35710847380606"
+
+[[files]]
+file = "config/yosbr/shaderpacks/projectLUMA+-+v1.32.zip.txt"
+hash = "3d1ce5a7a66eac177f7c120f78afc2c54ed6b68d95d4c8f6d78bd770d955ac3a"
+
+[[files]]
 file = "credits.txt"
 hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
 
@@ -1580,8 +1620,9 @@ hash = "fd42ccb660fb5d93169de70f642f0e607b2d615119ee26b22510e4ba147b0bcc"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "82c989f2a4f9217d701ec317e892da711fc133e7c45db761c7f266991604f1e2"
+file = "shaderpacks/bsl.pw.toml"
+hash = "e3bf34d16442e76f4c32c20b0150411c0612eb68fc9e83d5696f85002ffa6477"
+metafile = true
 
 [[files]]
 file = "shaderpacks/builders-qol.pw.toml"
@@ -1604,6 +1645,11 @@ hash = "8a58353fdf45c07c28684996a8a462487493a1804cc841dc9aaf901412e32212"
 metafile = true
 
 [[files]]
+file = "shaderpacks/projectluma.pw.toml"
+hash = "234a1e13640f05d41ea1b13b985ed877a35db2d38654b6a9e42eb6dbd504cf0b"
+metafile = true
+
+[[files]]
 file = "shaderpacks/redhat.pw.toml"
 hash = "adba88d49991421e5cf9e6392214a25ee34ddb01c5420cdf3bc8db1d7c9972d3"
 metafile = true
@@ -1616,6 +1662,11 @@ metafile = true
 [[files]]
 file = "shaderpacks/skylex.pw.toml"
 hash = "9237e728a15f79c009b67bbff751f1a5ed54c146bc5f466e22971bd47cfb9671"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sora.pw.toml"
+hash = "d3f538ac9c1990c3071082249ead22553d479d23ec7b156ff8ca381ab57a03f3"
 metafile = true
 
 [[files]]

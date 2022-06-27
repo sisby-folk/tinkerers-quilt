@@ -1,0 +1,18 @@
+name = "ProjectLuma Shaders"
+filename = "projectLUMA+-+v1.32.zip"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/2842/623/projectLUMA+-+v1.32.zip"
+hash-format = "sha1"
+hash = "9e319adf96598e6082ffb9bbe751c9e303c22a5e"
+
+[update]
+[update.curseforge]
+file-id = 2842623
+project-id = 354686
+
+[option]
+optional = true
+default = true
+description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/projectluma"

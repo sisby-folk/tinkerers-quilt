@@ -1,0 +1,18 @@
+name = "BSL Shaders"
+filename = "BSL_v8.1.02.2.zip"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3752/138/BSL_v8.1.02.2.zip"
+hash-format = "sha1"
+hash = "676d60165dbc42c313cbab397159e1bb250b3b23"
+
+[update]
+[update.curseforge]
+file-id = 3752138
+project-id = 322506
+
+[option]
+optional = true
+default = true
+description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/bsl-shaders"

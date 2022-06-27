@@ -1,0 +1,18 @@
+name = "Sora Shaders"
+filename = "Sora_Shaders_1.142.zip"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/3665/604/Sora_Shaders_1.142.zip"
+hash-format = "sha1"
+hash = "01180627586e5720f667c8600be9efb67230b29b"
+
+[update]
+[update.curseforge]
+file-id = 3665604
+project-id = 390475
+
+[option]
+optional = true
+default = true
+description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/sora-shaders"
