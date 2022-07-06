@@ -1,13 +1,13 @@
 name = "Inventory Tabs (updated)"
-filename = "inventorytabs-0.6.1-1.18.x.jar"
-side = "client"
+filename = "inventorytabs-0.7.0-1.18.x.jar"
+side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/F1AqcMCK/versions/inventorytabs-0.7.0-1.18.x/inventorytabs-0.7.0-1.18.x.jar"
 hash-format = "sha1"
-hash = "b8b4eb46873f01447c0c9c5650fc0270ac880521"
-mode = "metadata:curseforge"
+hash = "4de4bd770aff546108c79363763f0d65def6cf64"
 
 [update]
-[update.curseforge]
-file-id = 3849620
-project-id = 585506
+[update.modrinth]
+mod-id = "F1AqcMCK"
+version = "xtde3qBu"

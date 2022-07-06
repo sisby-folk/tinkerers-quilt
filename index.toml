@@ -1028,7 +1028,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "9ab81bd4f0c97596e3b9f5270d226f8fb41c91fd30b5637905b81e7dcb29c4d8"
+hash = "2fdcd8eb8a2e5ae247fad3b5a44d4a3cdf9228e999ecfd5949648d5d1554f345"
 metafile = true
 
 [[files]]
@@ -1044,6 +1044,11 @@ metafile = true
 [[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "cb31a6021573e5d57ca44d97e64f5e80f91caa7dd8c08c3b5d2afe72e48da306"
+metafile = true
+
+[[files]]
+file = "mods/cardinalboats.pw.toml"
+hash = "18a22e96f065baf3c165a2bf750c12517f30d772ff5e7e42338d1ccbf99ce306"
 metafile = true
 
 [[files]]
@@ -1068,7 +1073,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.pw.toml"
-hash = "e306361a119aa0b97d0b9966dfb750ff09d377281607e8e8a2b194ecbf78293b"
+hash = "8a3b58552083779e461ff3ac406f81bb1b7057974f161cba2a090a5b2f73a205"
 metafile = true
 
 [[files]]
@@ -1228,7 +1233,7 @@ metafile = true
 
 [[files]]
 file = "mods/grounded-origins.pw.toml"
-hash = "2f5c49a0939582c50e54cee0d401dfb819e386a7e8fc118489be90b415243349"
+hash = "05c435b4d4aaed7cb04c456564361d44beed262ba8bfb7ea56cfdb7b637a211d"
 metafile = true
 
 [[files]]
@@ -1263,7 +1268,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tabs-updated.pw.toml"
-hash = "788369c6d8b4d95883610dc1f646cb03c1d0c6b65f54950e0890c3057369d919"
+hash = "b38982e3fde89860ed70ca4bfa33045f55301b93d16c3cd2f95b186d3ffa32c2"
 metafile = true
 
 [[files]]
@@ -1278,7 +1283,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-model-fix.pw.toml"
-hash = "8af62e554f83e2bb79f0bd5ef01a5c01d65e983c84885a45d947a41867583f15"
+hash = "56e3f31a4b60597aba78b84fd66a39d13280d3a125f6a9bf7dc65ed0f9af009c"
 metafile = true
 
 [[files]]
@@ -1353,6 +1358,11 @@ file = "mods/nofade-1.18-2.0.1.jar"
 hash = "cb6345b67f2f14708f0476d6797267466862d1a0e5b1a5dd530f43c0d45951ca"
 
 [[files]]
+file = "mods/norecipebook-fabric.pw.toml"
+hash = "d311731f3bdaa3be7652355d22e9b61934e70764dbe73194075badcaf727e921"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "0fe0d6fbfb0055d698f2d4418e49be65492176601b0066d8bcd1b61f7d231e8f"
 metafile = true
@@ -1404,7 +1414,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "a33ba9d0301377138b4f838468a14a6ef89ba92bf85c588b15a9ff04d81cbb67"
+hash = "3536ef11faf8108f2f925487b793a7f19fee9c67b270594e0f63f44f9d0c26ff"
 metafile = true
 
 [[files]]
@@ -1443,8 +1453,8 @@ hash = "dc8ef389dc9b6a1ee2b6f88e8855d2b7de753375aab7f4c87ba0be49f5074035"
 metafile = true
 
 [[files]]
-file = "mods/right-click-harvest.pw.toml"
-hash = "994f07f6d9d37e93a5187ddc65efe9a4eb09326a0d650bca16bad289dac449c3"
+file = "mods/rightclickharvest.pw.toml"
+hash = "1a44092a2a331f6928860db72aa31314b775e0bc11115facc0504004f7b6d286"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
-name = "Item Model Fix (Fabric)"
+name = "Item Model Fix"
 filename = "item-model-fix-1.0.3+1.18.jar"
 side = "client"
 
 [download]
-url = "https://edge.forgecdn.net/files/3573/935/item-model-fix-1.0.3+1.18.jar"
+url = "https://cdn.modrinth.com/data/B3HO5V57/versions/1.0.3+1.18/item-model-fix-1.0.3%2B1.18.jar"
 hash-format = "sha1"
 hash = "2aa679f2dc887e2ce45d55fffe67af36250b4841"
 
 [update]
-[update.curseforge]
-file-id = 3573935
-project-id = 399798
+[update.modrinth]
+mod-id = "B3HO5V57"
+version = "2wahupe6"

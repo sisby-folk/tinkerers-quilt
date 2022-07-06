@@ -1,0 +1,13 @@
+name = "Cardinal Ice Boats"
+filename = "cardinalboats-1.18.2-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1m9s2ZhL/versions/1.0.1-1.18.2/cardinalboats-1.18.2-1.0.1.jar"
+hash-format = "sha1"
+hash = "04381a62eef489df12a91e495285cd32758fe5c8"
+
+[update]
+[update.modrinth]
+mod-id = "1m9s2ZhL"
+version = "E7R5qySP"
