@@ -1,6 +1,6 @@
 ------
 
-<img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/55819817/172377429-370926d7-2bb9-487b-9971-e63021e5a264.png">
+<img style="float:right" width="100" height="100" src="https://user-images.githubusercontent.com/55819817/172377429-370926d7-2bb9-487b-9971-e63021e5a264.png" alt="Tinkerer's quilt logo. Kobold surrounded by quilt patches.">
 
 **Tinkerer's Quilt** is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.     
 It runs on minecraft version 1.18.2 and the **Quilt** mod loader
@@ -13,7 +13,7 @@ The design of the pack is focused around **three pillars**:
 **Vanilla Compatibility**
  - **No new items, no new blocks, and no changes to worldgen.** Bring in old saves and possibly even keep Tinkerer's Quilt saves for vanilla use! (no guarantees)
 
-**Usability, Accessbility, Discoverability**
+**Usability, Accessibility, Discoverability**
   - More of the game accessible to more players in more pleasant ways.
     - **QoL changes** to reduce minor annoyances, **balance changes** to avoid pain points and flatten power creep through buffs, and **minor mechanic changes** to bring more depth and draw to easily-ignored systems.
       - Changes to avoid in-game pain points for certain players - Including changes for playing with "Vegetarianism" (no harming passive mobs), and buffs and improvements to pets and mounts.
