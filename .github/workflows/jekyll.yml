@@ -6,6 +6,7 @@ on:
       - main
       - website
       - quilt_1.18.2
+      - quilt_1.18.2_plus
       - quilt_1.18.2_modded
       - fabric_1.17.1
       - fabric_1.16.5
@@ -30,6 +31,18 @@ jobs:
           clean: false
       - name: import quilt_1.18.2 - clean
         run: rm -rf cdn/quilt_1.18.2/.git
+        
+      
+      # quilt_1.18.2_plus
+      - name: import quilt_1.18.2_plus
+        uses: actions/checkout@v2
+        with:
+          ref: quilt_1.18.2_plus
+          path: cdn/quilt_1.18.2_plus
+          clean: false
+      - name: import quilt_1.18.2_plus - clean
+        run: rm -rf cdn/quilt_1.18.2_plus/.git
+        
       
       # quilt_1.18.2_modded
       - name: import quilt_1.18.2_modded
@@ -38,7 +51,7 @@ jobs:
           ref: quilt_1.18.2_modded
           path: cdn/quilt_1.18.2_modded
           clean: false
-      - name: import quilt_1.18.2 - clean
+      - name: import quilt_1.18.2_modded - clean
         run: rm -rf cdn/quilt_1.18.2_modded/.git
         
       # fabric_1.17.1
