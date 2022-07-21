@@ -133,6 +133,10 @@ file = "config/openloader/data/Shulk.zip"
 hash = "b4e14792fd0ca8e36d83122e71fd3d666ec0cca8669ab29fdca6928dbd24cbfd"
 
 [[files]]
+file = "config/openloader/data/Towers_Of_The_Wild_Reworked_v3.0.0_Fabric_Waystones.zip"
+hash = "11308ea756b33a4b3d23e4c71e81ccb47d55a207f3212f2b6e732980e64cf425"
+
+[[files]]
 file = "config/openloader/data/VanillaTweaks_c278482.zip"
 hash = "b1adcace3853862828c37b2deb7e9e9b374042914b48f54a5b58645ac0ad6395"
 
@@ -834,11 +838,6 @@ file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
 hash = "794a4556abaa6a9e8781aa681457ecb8bd3ba78ec72e2718a96fe646ebaf431f"
 
 [[files]]
-file = "config/openloader/data/towers-of-the-wild-reworked-datapack.pw.toml"
-hash = "1ee702515186f76fdf182a075c5a62894277ceb92e3caa0cb7c426e6d680cf36"
-metafile = true
-
-[[files]]
 file = "config/openloader/resources/VanillaTweaks_r239108.zip"
 hash = "4f6f464112a38507b152258aa064d451323f2acf7411cbee36f5bd70a69c74f6"
 
@@ -1197,9 +1196,8 @@ hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
-file = "mods/extra-origins.pw.toml"
-hash = "01b72ce96ae056d7c026dfbc954f2f2e1fb8de33f0af75da5aa5b4c1583c669c"
-metafile = true
+file = "mods/extraorigins-1.18-11.jar"
+hash = "7decb4fb6d89f3c1ad23e61bec070645513e4a710393d8723766b2cc485eef12"
 
 [[files]]
 file = "mods/fabric-seasons.pw.toml"
