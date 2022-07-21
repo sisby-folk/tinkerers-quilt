@@ -1,0 +1,13 @@
+name = "Rusted Iron"
+filename = "rusted-iron-FABRIC-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uX98RrWy/versions/fabric-1.18.2-2.0.3/rusted-iron-FABRIC-2.0.3.jar"
+hash-format = "sha1"
+hash = "c37070585ed293d83a5264448322778f9a21d1ea"
+
+[update]
+[update.modrinth]
+mod-id = "uX98RrWy"
+version = "Gvf0hfQm"

@@ -1,0 +1,13 @@
+name = "YUNG's Better Witch Huts (Fabric)"
+filename = "YungsBetterWitchHuts-1.18.2-Fabric-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c28d9c81a22cfbd09f46342ad3a846dadf5278d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3855150
+project-id = 631403

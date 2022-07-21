@@ -1,0 +1,13 @@
+name = "YUNG's Better Desert Temples (Fabric)"
+filename = "YungsBetterDesertTemples-1.18.2-Fabric-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b37400796432af4cda5f748bbe2f62c0714476dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3860912
+project-id = 631020

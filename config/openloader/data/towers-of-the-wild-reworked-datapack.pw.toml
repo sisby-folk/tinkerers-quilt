@@ -1,0 +1,13 @@
+name = "Towers of the Wild: Reworked (Datapack)"
+filename = "Towers_Of_The_Wild_Reworked_v3.0.0_Fabric_Waystones.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9800a595d5c1b3fc100a1a6a318a067c1910b144"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3736816
+project-id = 606254
