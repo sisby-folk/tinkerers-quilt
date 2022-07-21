@@ -1136,6 +1136,11 @@ hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
+file = "mods/dawn.pw.toml"
+hash = "b60fc5c154d6ca0e07406638d53bfbaa751e3ef517ff553fcec8543847844728"
+metafile = true
+
+[[files]]
 file = "mods/drogtor.pw.toml"
 hash = "fad6f28559d65c45e6b594a18902dff0a3b27de7bf2cfe0fe52e809c1409563d"
 metafile = true
