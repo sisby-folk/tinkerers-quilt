@@ -32,7 +32,7 @@ The name is based around the creators, not the content - sorry!
 
 ---
 
-The **plus** and **modded** variants of this pack deviate from the first design point.
+The **plus** and **modded** variants of this pack deviate from vanilla-compatibility.
  - **Plus** offers a similar experience to the base pack, while including mods that still fit the pack design while adding items - such as **Waystones** for a full waypoint teleportation system.
  - **Modded** is similar to plus but includes my personal favourite major techlike mods - **Botania** and **Create**.
 
