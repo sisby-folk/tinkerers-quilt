@@ -1,13 +1,13 @@
 name = "Nbt Crafting (Fabric)"
-filename = "nbtcrafting-2.1.3+mc1.18.2.jar"
+filename = "nbtcrafting-2.1.4-beta.3+mc1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c3d9a880bfeaa33275b79465a52f247530bc6b65"
+hash = "72a80ad17f528dad1a7f49554f4bd54b34838b27"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3707208
+file-id = 3887452
 project-id = 314633

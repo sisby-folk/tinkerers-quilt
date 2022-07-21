@@ -4,15 +4,14 @@ side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "59930626c746c8e9651acfdf350b54c60e8b0625"
+hash = "3164dd67fb53e9b9b151b6040198f129d1934e63"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3821067
+file-id = 3866979
 project-id = 333412
 
 [option]
 optional = true
-default = false
 description = "A Vanilla Texture Pack! Found Here: https://www.curseforge.com/minecraft/texture-packs/jicklus"

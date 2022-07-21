@@ -32,6 +32,14 @@ The name is based around the creators, not the content - sorry!
 
 ---
 
+The **plus** and **modded** variants of this pack deviate from the first design point.
+ - **Plus** offers a similar experience to the base pack, while including mods that still fit the pack design while adding items - such as **Waystones** for a full waypoint teleportation system.
+ - **Modded** is similar to plus but includes my personal favourite major techlike mods - **Botania** and **Create**.
+
+These changes can "overload" the pack in some ways. If you experience this, you might want to try choosing the default origins to simplify things.
+
+---
+
 # Installation
 
 **Players**

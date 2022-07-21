@@ -1,13 +1,13 @@
 name = "Fabrication"
-filename = "fabrication-3.0-pre5+1.18.jar"
+filename = "fabrication-3.0-pre6+1.18.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/B3Eg0WhA/versions/3.0-pre6+1.18.2/fabrication-3.0-pre6%2B1.18.jar"
 hash-format = "sha1"
-hash = "923ba70196cc6c55f085bdcd5a94b440cb6f7269"
-mode = "metadata:curseforge"
+hash = "1249c90ca44af9a2ab347d2e0a282067efa83458"
 
 [update]
-[update.curseforge]
-file-id = 3843369
-project-id = 414445
+[update.modrinth]
+mod-id = "B3Eg0WhA"
+version = "IoFfd9oO"
