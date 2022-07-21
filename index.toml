@@ -141,6 +141,11 @@ file = "config/openloader/data/anti ghast grief v1.1.2.zip"
 hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
 
 [[files]]
+file = "config/openloader/data/nullscapes.pw.toml"
+hash = "9b44db177e9c1f9329792c4da4b5613f66889adc52ea384c81c47fb0f4b24b90"
+metafile = true
+
+[[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/extraorigins/origins/floran.json"
 hash = "2d28426fbf8efd18e9d490db362203fc12c82e865153df23cb271d75c5fd6b44"
 
@@ -827,6 +832,11 @@ hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
 hash = "794a4556abaa6a9e8781aa681457ecb8bd3ba78ec72e2718a96fe646ebaf431f"
+
+[[files]]
+file = "config/openloader/data/towers-of-the-wild-reworked-datapack.pw.toml"
+hash = "1ee702515186f76fdf182a075c5a62894277ceb92e3caa0cb7c426e6d680cf36"
+metafile = true
 
 [[files]]
 file = "config/openloader/resources/VanillaTweaks_r239108.zip"
@@ -1673,61 +1683,6 @@ hash = "9b3f189a889a95ad441d79e7e415134960e4b6db8a87fd2de75e8dd70b92b9b6"
 [[files]]
 file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
-
-[[files]]
-file = "resourcepacks/bare-bones-texture-pack.pw.toml"
-hash = "02cc8b22d9d5e67a4b45c6f592df189efc968fe6bf9c082740ff1ed5bcd20378"
-metafile = true
-
-[[files]]
-file = "resourcepacks/blockpixel.pw.toml"
-hash = "f0f97e81493a8bd90cf546bd55c4dbc75bab15ec995aec8f4c7abec4a7282b15"
-metafile = true
-
-[[files]]
-file = "resourcepacks/excalibur.pw.toml"
-hash = "3090c3aa336d540e77e3530333c9c91c983ef4c6560ca001e26fd1a9476e33a7"
-metafile = true
-
-[[files]]
-file = "resourcepacks/f8thful.pw.toml"
-hash = "2cb76f4e0d49871bafa082ab7730e4ea0ea034d50ceaa73f2236c15fc10c5a50"
-metafile = true
-
-[[files]]
-file = "resourcepacks/jicklus.pw.toml"
-hash = "b84479eedd6c6550b8c62ccba2e3c8c545e12fb7a169e1b18685325c255877b9"
-metafile = true
-
-[[files]]
-file = "resourcepacks/punchy-8x8.pw.toml"
-hash = "98f9623928b96f3a5a15fa75902e35cafc07ac09b1995e953227b264aea8028b"
-metafile = true
-
-[[files]]
-file = "resourcepacks/quadral-pack.pw.toml"
-hash = "85eac65f9e0c9de4c1d68659c348207ac47d8c40419e436cf5af445e2d854263"
-metafile = true
-
-[[files]]
-file = "resourcepacks/smoube.pw.toml"
-hash = "3a21f0f48a3fe481f0f1013b1b4b17e87bd92a75a158819617cc01ffdbc8c634"
-metafile = true
-
-[[files]]
-file = "resourcepacks/splotch.pw.toml"
-hash = "7d16e66f8430a7a5be6149034bc1da1a7cb5ce4530d0337e0fc26c3879217de3"
-metafile = true
-
-[[files]]
-file = "resourcepacks/teyemas-1-18-x-java-bedrock-snapshots-some-modded.pw.toml"
-hash = "a50782658490509fb8bb755b38ed26c359dcc0451479e1958f54485039ff7ea7"
-metafile = true
-
-[[files]]
-file = "resourcepacks/towers-of-the-wild-reworked-datapack.pw.toml"
-hash = "1ee702515186f76fdf182a075c5a62894277ceb92e3caa0cb7c426e6d680cf36"
-metafile = true
 
 [[files]]
 file = "resourcepacks/woodpecker.pw.toml"
