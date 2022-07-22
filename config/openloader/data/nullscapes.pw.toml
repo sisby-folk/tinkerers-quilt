@@ -1,8 +1,8 @@
-name = "Nullscapes 1.19"
-filename = "nullscape-v1-2a.zip"
+name = "Nullscapes 1.18.2"
+filename = "Nullscape_1.18.2.zip"
 side = "both"
 
 [download]
-url = "https://static.planetminecraft.com/files/resource_media/datapack/nullscape-v1-2a.zip"
+url = "https://github.com/Stardust-Labs-MC/downloads-library/blob/main/Nullscape/Nullscape_1.18.2.zip"
 hash-format = "sha1"
-hash = "728ca0cae8da780f3eb6d40f0c97a73707457dce"
+hash = "c43c2e7fcdc212fff039d35cefc1aacfa01d6771"
