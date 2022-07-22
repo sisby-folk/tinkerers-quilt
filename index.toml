@@ -1046,6 +1046,10 @@ hash = "2fdcd8eb8a2e5ae247fad3b5a44d4a3cdf9228e999ecfd5949648d5d1554f345"
 metafile = true
 
 [[files]]
+file = "mods/aurorasdecorations-1.0.0+1.18.jar"
+hash = "f19485e693a3584d7b80fd8aa977e2dc9490761bfde55c82c6211d1b24c407cd"
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "d8fe226cd050b8c94fcb98819b2646a74863ad8d52fc22db37c29fe66e53996d"
 metafile = true
@@ -1063,6 +1067,11 @@ metafile = true
 [[files]]
 file = "mods/bits-and-chisels.pw.toml"
 hash = "1dea45a775887e68b1cafb587498dfa5514b3ea8d17ea58783920397f89ff7d7"
+metafile = true
+
+[[files]]
+file = "mods/campanion.pw.toml"
+hash = "8d3de765ffa83b0499e328dbd1827e35c2a9f88c11cdc09ba1f4efe7d68f531f"
 metafile = true
 
 [[files]]
@@ -1118,6 +1127,11 @@ metafile = true
 [[files]]
 file = "mods/colormatic.pw.toml"
 hash = "0b9c8fa1e2dfa64f787a0562200f54bb5afc401196dac20a9886c0f92f575b5d"
+metafile = true
+
+[[files]]
+file = "mods/consistencyplus.pw.toml"
+hash = "9f6e91210d4f90007541000ff482119f9b228d318e0d2eb0234cfcb38b53a81f"
 metafile = true
 
 [[files]]
@@ -1230,6 +1244,11 @@ hash = "a2f5ac9241681699e8bcd7da4c90e9899686290f883a63c56f7009f18f731e7e"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "496f2bbca3c4ceb20c9f9d780038ba6babd966eb7c056a7a2a212db413b6035b"
+metafile = true
+
+[[files]]
 file = "mods/farsight-fabric.pw.toml"
 hash = "2a7ee2fc40368d86e59563d23228118d8a3004f97ffc0c081062e77f41a6f532"
 metafile = true
@@ -1335,6 +1354,11 @@ hash = "4aaca2ff5a41c228fab619d11241204df5d5eb73e32a9fc7a26d4b98f34e7a5b"
 metafile = true
 
 [[files]]
+file = "mods/kiln.pw.toml"
+hash = "2bd4443325ef2df10ef19de54454c29e15176a875ec361220762ba3bdbc81112"
+metafile = true
+
+[[files]]
 file = "mods/kiwi-fabric.pw.toml"
 hash = "fbb9662ed3d8d0c111fa742f1a63876846d3d70aadc44460ad982d27072025d9"
 metafile = true
@@ -1380,6 +1404,11 @@ metafile = true
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
 hash = "3457ed6246b871992e2bbdcd2daeef9457933d562e5e9a86e9e22257fe990391"
+metafile = true
+
+[[files]]
+file = "mods/mealapi.pw.toml"
+hash = "e647a60b9fde4189fee9c7de55af223de32df83f20818491e94180086d1969b8"
 metafile = true
 
 [[files]]
@@ -1451,6 +1480,11 @@ hash = "f8cf32a9a4872c9c66312237e1d12bd6dd427ebce1686cd2c499991a86f0ad7e"
 metafile = true
 
 [[files]]
+file = "mods/overweight-farming.pw.toml"
+hash = "f92579278a2a0e0263f385ca624b2fe2c29830abafe7809549ba49b95300615d"
+metafile = true
+
+[[files]]
 file = "mods/pehkui.pw.toml"
 hash = "4ace069e9be0d26966a236d4935edd5832d2a52e2268a43b63eb7843130b384f"
 metafile = true
@@ -1463,6 +1497,11 @@ metafile = true
 [[files]]
 file = "mods/player-pronouns.pw.toml"
 hash = "011d1d3c2620dddd3f7c253f7d0993a92e7977777b0517092254fd886bd5a267"
+metafile = true
+
+[[files]]
+file = "mods/polaroidcamera.pw.toml"
+hash = "94ddc7c677a9e69c7bc5fbdaf94b670486301bf8c0c1e38976fdc4a5b0e12abe"
 metafile = true
 
 [[files]]
@@ -1521,6 +1560,11 @@ hash = "40b4810b562c20a94c3ab171c17b02cb2b548d1f5b1e437a82d630611e7d47d1"
 metafile = true
 
 [[files]]
+file = "mods/sandwichable.pw.toml"
+hash = "da403a55fd88f2d2aeacec6de320b7c8fb5010a7de8b831414fb4933681c9f44"
+metafile = true
+
+[[files]]
 file = "mods/simplefog.pw.toml"
 hash = "afbd71d5fb7c1c001608a25a9c6b3b540713fd662524db7c43222ff6f50658c0"
 metafile = true
@@ -1571,6 +1615,11 @@ hash = "d6f0667f2bbfb1036d3586ad2431c440b85bb267c4f7ad60985842b940e023a2"
 metafile = true
 
 [[files]]
+file = "mods/this-rocks.pw.toml"
+hash = "ba4c85d3c6da8cd0ea27bae046c59a39009b1c703af0a9ace73cf9a4164b2dfe"
+metafile = true
+
+[[files]]
 file = "mods/tiefix.pw.toml"
 hash = "82be603fd1c5c6b19b82a11d1bb8a227b02224f5abe71830d156512f442b4897"
 metafile = true
@@ -1601,18 +1650,8 @@ hash = "fc08346de3d1f134796e6b8a88470cfca55f610445e210e0fced2fd2caaff378"
 metafile = true
 
 [[files]]
-file = "mods/universal-graves.pw.toml"
-hash = "7a1300eb98aef97135125d2b608136f2f5b1f2c3cd33377417c069c95135e403"
-metafile = true
-
-[[files]]
 file = "mods/universal_ores.pw.toml"
 hash = "2964bd3411bc041dcb20fabc1a33938b5dd8a698402e20407c876986d2481247"
-metafile = true
-
-[[files]]
-file = "mods/valleycraft.pw.toml"
-hash = "7597564bb01ea1049f2bd6b4e4b02a902dd322b559e315d80dcbb995a505ae3b"
 metafile = true
 
 [[files]]
@@ -1633,6 +1672,11 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "98c8ffafe56c38e04da80c8c061e1f1dfc1212a53f3b0c90d7f6b3381c961e95"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "8186a9fe882ce3c15c25892ac97cdad7db31db9da1d7836846a9a01c12759892"
 metafile = true
 
 [[files]]

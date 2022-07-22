@@ -1,0 +1,13 @@
+name = "Polaroid Camera "
+filename = "polaroidcamera-1.2.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9dPDuh0K/versions/v1.2.9/polaroidcamera-1.2.9.jar"
+hash-format = "sha1"
+hash = "cc201b75aa0d600da689126f0940d97bd7fe8a05"
+
+[update]
+[update.modrinth]
+mod-id = "9dPDuh0K"
+version = "guRQG5Qh"
