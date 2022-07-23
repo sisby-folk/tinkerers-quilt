@@ -1069,7 +1069,7 @@ hash = "050dc01dff3a02ee088540de17abcee571e4213b738dd19c1d9bcffa7383f098"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "e7f22364fd560ebdc20c53e3806dc6b1f06e64a46bc5969d18475f671aa13c19"
+hash = "b87417ad40278bca1d993abe105bfc74441e30e4557cdedd00dfec178e3dbec7"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
@@ -1490,6 +1490,10 @@ metafile = true
 file = "mods/lambdabettergrass.pw.toml"
 hash = "080d4789738ae0015c0a1fc76ffc3f6487f55dc5877b3de1c3b458b544efe362"
 metafile = true
+
+[[files]]
+file = "mods/lambdamap-1.0.0-alpha.1+1.18.jar"
+hash = "336a833c2ab127911f35610c84f5c18a8c61985a62dad379b71c5c4d9aef3b8d"
 
 [[files]]
 file = "mods/lambdynamiclights-2.1.1limitless1.18.jar"

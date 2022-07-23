@@ -99,7 +99,7 @@ key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.x
-key_key.advancements:key.keyboard.l
+key_key.advancements:key.keyboard.unknown
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
 key_key.hotbar.3:key.keyboard.3
@@ -117,6 +117,8 @@ key_[Fabrication] Crawl:key.keyboard.unknown
 key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown
 key_[Fabrication] Toggle Stance:key.keyboard.z
 key_modsettings.key.open:key.keyboard.m
+key_lambdamap.keybind.hud:key.keyboard.o
+key_lambdamap.keybind.map:key.keyboard.m
 key_key.mousewheelie.open_config_screen:key.keyboard.unknown
 key_key.mousewheelie.sort_inventory:key.mouse.middle
 key_key.mousewheelie.scroll_up:key.amecsapi.mouse.scroll.up
