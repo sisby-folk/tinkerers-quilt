@@ -1,0 +1,13 @@
+name = "Crowmap"
+filename = "crowmap-1.18-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EAe3MQt5/versions/1.0.1.18/crowmap-1.18-1.0.1.jar"
+hash-format = "sha1"
+hash = "d9050bcceb424e318cbc05ae9fb1e2875d254128"
+
+[update]
+[update.modrinth]
+mod-id = "EAe3MQt5"
+version = "AwlepLOA"
