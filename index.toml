@@ -1145,6 +1145,11 @@ hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
 metafile = true
 
 [[files]]
+file = "mods/crowmap.pw.toml"
+hash = "357ce8cb9700bdd12ff041b8a60bababae98462934e33bb6e5cde1317e05aa2d"
+metafile = true
+
+[[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
