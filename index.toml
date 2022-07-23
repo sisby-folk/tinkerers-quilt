@@ -134,23 +134,27 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "8c53c9147fd4d118e7bac48b05af2703e21bff05cf2ced36a0c785c15e922ed5"
+hash = "f97513553803a5da35c4f989fa03baa6283466d04909f73ea9e5429dd9a6cc19"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
 hash = "17cf873931eee1e2bbddfa01f3dc1dfadf58b86d0a4214fe20b160ec69d5b012"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
+hash = "47e4b8b010d7006da2b54ee202b25a932d594c4d473a0370c62d81b0daf1a207"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "e3556fa780b2c8a57d0e510d78c074ab2a820794acc5f2535ef549b3cd41ca70"
+hash = "25e69e9df7a44d4a9e8a8ab84481c790199526b68f7d9fa44da442f926b74912"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "76d3942a7b108d43b91e11b0739923dd6ff87730c993f9f376295109b43fe9a5"
+hash = "f52b2e8f2074c9d1282df473ce35595f2d31bcdf128816d961ff43692e27c796"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "b6e9c6e8f198134e67118031e2fad1d28c71bad64d36e8b0cc4b1a9d53222059"
+hash = "23c1947725172632129cbce074aab77e1376fefe5ae8ef745e19b8689b12600d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"

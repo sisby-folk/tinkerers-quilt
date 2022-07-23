@@ -1,0 +1,445 @@
+{
+	id: "2E960D94AE881E43"
+	group: "735E26125A90EB5D"
+	order_index: 2
+	filename: "discrepancies_plus"
+	title: "Discrepancies Plus"
+	icon: "seasons:season_calendar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mod List"
+			icon: "minecraft:filled_map"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "The Lot"
+			description: [
+				"In EMI, you can start a search with \"@\" in order to show all items in a specific mod"
+				""
+				"Here are all the mods in Plus that have items worth seeing."
+				""
+				" - Bits and Chisels"
+				" - Campanion"
+				" - Chalk"
+				" - Consistency+"
+				" - Earth2Java"
+				" - Fabric Seasons"
+				" - Farmer's Delight"
+				" - [F]Waystones"
+				" - Kiln"
+				" - Lovely Snails"
+				" - Nature's Compass"
+				" - Overweight Farming"
+				" - Polaroid Camera"
+				" - Rusted Iron"
+				" - Sandwichable"
+				" - This Rocks!"
+			]
+			id: "3AC6E926593F76BD"
+			tasks: [{
+				id: "6CF477D2EBC4A6BB"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "World Generation"
+			icon: "minecraft:chiseled_sandstone"
+			x: 0.0d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Pretty!"
+			description: [
+				"Mnor changes have been made to world generation. Including:"
+				""
+				" - YUNG's Better Dungeons"
+				" - YUNG's Better Desert Temples"
+				" - YUNG's Better Strongholds"
+				" - YUNG's Better Mineshafts"
+				" - YUNG's Better Witch Huts"
+				" - YUNG's Extras (desert/swamp ruins)"
+				" - Amplified Nether (it's tall!)"
+				" - Nullscapes End (it's tall!)"
+				""
+				"YUNG's dungeons, temples, and strongholds, are notably more difficult than the single-room dungeons they replace. come prepared or with a plan!"
+				""
+				"Nullscapes end is substantially more difficult to navigate without Elytra, however popped chorus fruit can be used to craft a Grappling Hook (campanion) assisting greatly."
+			]
+			id: "624FB4E296E47C2B"
+			tasks: [{
+				id: "65EC6B02CF6A8979"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "This Rocks!"
+			icon: "rocks:birch_stick"
+			x: 0.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Resource Crumbs"
+			description: [
+				"Small twigs and stones spawn around the world, and can be used as decoration or to gather sticks."
+				""
+				"Shells and starfish can also be found, purely decoratively."
+				""
+				"Finally, geysers and nether geysers can be interacted with, pushing the player."
+			]
+			id: "6501B2EE670C9626"
+			tasks: [{
+				id: "6F8E7E92AAA386BF"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Universal Ores"
+			icon: "universal_ores:granite_emerald_ore"
+			x: -0.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Smooth"
+			description: ["Ores can spawn in patches of other kinds of stone! Like granite, tuff, diorite, etc."]
+			id: "39CC21833A747277"
+			tasks: [{
+				id: "510209F53FAA6B41"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Farmer's Delight"
+			icon: "farmersdelight:wild_onions"
+			x: 0.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "Plant Minimalism"
+			description: [
+				"Farmer's Delight adds just 7 new crops, found growing wild in various climates."
+				""
+				"They can be grown on a farm once collected, and used alongside vanilla ingredients in various added dishes."
+				""
+				"Chief among farmer's delight dishes are those made in the cooking pot. Cooking pots can hold up to 64 bowls of a dish, to be served out at any time - and the pot itself can be picked up."
+			]
+			id: "5B48F97D9D133919"
+			tasks: [{
+				id: "2B989C3C1B2672E0"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Sandwichable"
+			icon: "sandwichable:toasted_bread_slice"
+			x: -0.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "DIY Food Crime"
+			description: [
+				"Sandwichable adds two crops (lettuce and cucumber), along with the ability to slice ingredients, toast sliced bread, pickle cucumbers, and make sandwiches."
+				""
+				"A Sandwich is a food item made of any arbitrary food ingredients on bread."
+				""
+				"They're assembled on a sandwich table, and stacked by placing each ingredient consecutively, then sneak+using the finished product."
+				""
+				"Sandwiches have the ability to overfill your food bar, maxing both hunger and saturation."
+			]
+			id: "5E68EAF31FE79DE1"
+			tasks: [{
+				id: "4F5C7A857BB064AD"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Overweight Farming"
+			icon: "overweight_farming:overweight_carrot_block"
+			x: 0.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Produce Fair"
+			description: [
+				"Crops have a chance to grow into rare full-block versions."
+				""
+				"They can be picked up by hand, and if broken with a hoe, they'll drop many of their base crop."
+				""
+				"Oversized apples will also grow on trees."
+				""
+				"Oversized crops can usually be peeled with an axe before being broken, yielding vegetable peel for compost (or pigs)"
+				""
+				"Oversized potatoes can be baked whole over a campfire."
+			]
+			id: "7E77D5D464D48646"
+			tasks: [{
+				id: "6E584C468E3B5070"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Fabric Seasons"
+			icon: "seasons:season_calendar"
+			x: 0.0d
+			y: 4.0d
+			shape: "square"
+			subtitle: "Brr!"
+			description: [
+				"The game starts in spring, and every 28 in-game days will progress to the next season."
+				""
+				"Seasons affect foliage colour, biome temperature, and crop yields."
+			]
+			id: "74D2C5CCC60309A8"
+			tasks: [{
+				id: "0A18AD7958FE6A9A"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Earth2Java"
+			icon: "earthtojavamobs:rainbow_wool"
+			x: 3.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Mooblooms were ROBBED"
+			description: [
+				"Earth2Java introduces many variants of passive mobs, such as wooly cows, mooblooms, and cluckshrooms."
+				""
+				"Some have unique properties, such as wooly cows being able to be sheared and milked."
+			]
+			id: "19E67B5ED4C2EE96"
+			tasks: [{
+				id: "172BABCF55B3DF88"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Lovely Snails"
+			icon: "minecraft:cyan_carpet"
+			x: 3.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Horses are old news"
+			description: [
+				"Snails spawn in swamps, and can be tamed with mushrooms and lead around with leads."
+				""
+				"They can be kept happy by giving them carpet blankets, feeding them grass and kelp, or splashing some water from a potion on them."
+				""
+				"Happy snails may grow into big snails, which can be saddled and equipped with up to four chests."
+			]
+			id: "356AAFCF844C44E4"
+			tasks: [{
+				id: "1D7F8E1E42A5DFE7"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Consistency+"
+			icon: "consistency_plus:copper_bricks"
+			x: -2.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Bricks 2"
+			description: ["Consistency+ Adds bricks, stairs, slabs, and walls, for all kinds of blocks - providing you with many more building materials in a wide variety of colours."]
+			id: "3F26DC790B56CC57"
+			tasks: [{
+				id: "1C7580030304BDCF"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Aurora's Decorations"
+			icon: "aurorasdeco:lavender"
+			x: -2.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Pretty ^^"
+			description: [
+				"Aurora's decorations adds azelea and jacaranda wood, a sawmill for wooden decoratives, and a few key helpful decorations, such as new colours of light, and shelves."
+				""
+				"It also adds various boards, which can be drawn on with dye to show any design you like."
+			]
+			id: "4D9E037F5CA2E2D1"
+			tasks: [{
+				id: "5FF89E5F68D88F7E"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Bits and Chisels"
+			icon: {
+				id: "bitsandchisels:iron_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Custom decorations"
+			description: ["Bits and chisels allows you to chisel away at any block, building your own decorations like tables using custom materials for every 1x1 cube in a 16x16 block."]
+			id: "66422653D4473572"
+			tasks: [{
+				id: "07706EADCE35858A"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Chalk"
+			icon: {
+				id: "chalk:chalk"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Caving Helper"
+			description: ["Calcite can be made into chalk, which can mark the surface of any block with an arrow or cross, depending on where it's clicked."]
+			id: "0AD85E63BAC294C1"
+			tasks: [{
+				id: "4697D470FCDD5598"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Kiln"
+			icon: "kiln:kiln"
+			x: -3.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Gap-Filling"
+			description: ["Kiln adds a kiln! which smelts various rocks faster - most things that can't be processed in a smoker or blast furnace"]
+			id: "3F65860EE674D635"
+			tasks: [{
+				id: "2B6E9132447BF25A"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Nature's Compass"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Lost, Friend?"
+			description: ["A nature's compass can help you find any biome - perfect if you've struggled to get exclusive resources."]
+			id: "0057E45D43C95E5F"
+			tasks: [{
+				id: "21B3CA505B2CE0E1"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Polaroid Camera"
+			icon: "polaroidcamera:camera"
+			x: -3.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Cool Compilation"
+			description: [
+				"Polaroid cameras allow you to take images, by entering adjustment mode by pressing use, then clicking C to capture an image on to the first empty map in your inventory."
+				""
+				"They're saved onto maps, and can be displayed in item frames."
+			]
+			id: "70C5F2E8C76E11AE"
+			tasks: [{
+				id: "56DB6AEAD5C8035B"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Waystones"
+			icon: "waystones:waystone"
+			x: 3.5d
+			y: 5.5d
+			shape: "square"
+			subtitle: "Fwaystones"
+			description: ["Waystones allow you to teleport between them once they're discovered, costing only small amounts of Experience each trip."]
+			id: "33B5D74A4D8357C1"
+			tasks: [{
+				id: "5044F23BDA260CFA"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Campanion"
+			icon: "minecraft:campfire"
+			x: -3.0d
+			y: 5.5d
+			shape: "square"
+			subtitle: "CAMPFIRESONG Song"
+			description: [
+				"Campanion includes many little outdoorsy utilities, such as rope, rope bridges, tents, backpacks, and a grappling hook!"
+				""
+				"They're best explored through EMI!"
+			]
+			id: "23133FFA1A94BD02"
+			tasks: [{
+				id: "69ECE61456CA17B3"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Rusted Iron"
+			icon: "rustediron:weathered_cut_iron_block"
+			x: -4.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Wear and Tear"
+			description: [
+				"Rusted iron allows iron to weather like copper, for more statues!"
+				""
+				"Just look after your beacons!"
+			]
+			id: "2EE3C9E27139794B"
+			tasks: [{
+				id: "1746DB3708030CF8"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "LambdaMap"
+			icon: "minecraft:compass"
+			x: 0.0d
+			y: 6.0d
+			shape: "square"
+			subtitle: "And Traveller's Titles!"
+			description: [
+				"This pack has a minimap reminiscent of the maps of the base game, called LambdaMap"
+				""
+				"It can be unfolded using M, and supports placing custom map markers anywhere."
+				""
+				"This pack also contains Traveller's Titles by YUNG - meaning new biomes will appear on the top of your screen as you explore (but not too much!)"
+			]
+			id: "7649B4EF84862BDC"
+			tasks: [{
+				id: "64F6085F8747D66E"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+	]
+}
