@@ -1,0 +1,21 @@
+[betterDungeons.general]
+enableHeads = true
+removeVanillaDungeons = true
+enableNetherBlocks = true
+[betterDungeons.spiderDungeon]
+spiderDungeonStartMinY = 9998
+spiderDungeonStartMaxY = 9999
+[betterDungeons.skeletonDungeon]
+skeletonDungeonStartMinY = -50
+skeletonDungeonStartMaxY = -30
+[betterDungeons.zombieDungeon]
+zombieDungeonStartMinY = 50
+zombieDungeonStartMaxY = 51
+zombieDungeonMaxSurfaceStaircaseLength = 20
+[betterDungeons.smallDungeon]
+smallDungeonMinY = -50
+smallDungeonMaxY = 50
+bannerMaxCount = 2
+chestMinCount = 1
+chestMaxCount = 2
+enableOreProps = true

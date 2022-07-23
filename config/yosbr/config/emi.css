@@ -34,7 +34,7 @@
 	/**
 	 * Whether to add mod name to item tooltips
 	 */
-	append-item-mod-id: true;
+	append-item-mod-id: false;
 
 	/**
 	 * Whether an empty search should display
@@ -47,14 +47,14 @@
 	 * on the favorites sidebar.
 	 * A value of zero will disable it.
 	 */
-	max-favorite-columns: 8;
+	max-favorite-columns: 12;
 
 	/**
 	 * The amount of columns to display
 	 * on the index sidebar.
 	 * A value of zero will disable it.
 	 */
-	max-index-columns: 8;
+	max-index-columns: 12;
 
 	/**
 	 * The amount of vertical margin to
@@ -71,7 +71,7 @@
 	/**
 	 * The unit to display fluids as.
 	 */
-	fluid-unit: liters;
+	fluid-unit: millibuckets;
 
 	/**
 	 * Display cost per batch when hovering

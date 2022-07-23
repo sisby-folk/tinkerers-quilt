@@ -1,0 +1,34 @@
+[desertDecorations]
+additionalBiomeWhitelist = "[]"
+biomeBlacklist = "[]"
+
+[desertDecorations.wells]
+smallNormalWellSpawnRate = 9999999
+mediumNormalWellSpawnRate = 9999999
+largeNormalWellSpawnRate = 9999999
+smallWishingWellSpawnRate = 9999999
+mediumWishingWellSpawnRate = 9999999
+largeWishingWellSpawnRate = 9999999
+smallDryWellSpawnRate = 9999999
+mediumDryWellSpawnRate = 9999999
+largeDryWellSpawnRate = 9999999
+
+[desertDecorations.obelisks]
+normalObeliskSpawnRate = 700
+creeperObeliskSpawnRate = 700
+ruinedObeliskSpawnRate = 700
+blackstoneObeliskSpawnRate = 3000
+
+[desertDecorations.misc]
+smallRuinsSpawnRate = 1000
+giantTorchSpawnRate = 700
+chillzoneSpawnRate = 9999999
+[swampStructures]
+additionalBiomeWhitelist = "[]"
+biomeBlacklist = "[]"
+pillarSpawnRate = 900
+ogreSpawnRate = 9999999
+cubbySpawnRate = 9999999
+archSpawnRate = 2000
+doubleArchSpawnRate = 3000
+churchSpawnRate = 4000

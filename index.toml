@@ -9,12 +9,84 @@ file = "config/WildfireGender/09391869-132f-4fc2-9c92-e58af55cbabb.json"
 hash = "0136cf965d6336ded22c5210458d3bde076a22919526673b11adf6c394551fd3"
 
 [[files]]
+file = "config/YungsExtras/README.txt"
+hash = "930ad054548d66deee0836d5160cc3ee14e16150aa83efc7a046d54c9a32af16"
+
+[[files]]
+file = "config/YungsExtras/fabric-1_18/README.txt"
+hash = "d9fd8d2fa8dca42d4ffc3573159e3d0fa2618ceb6474d38831a55786c43e1c5d"
+
+[[files]]
+file = "config/YungsExtras/fabric-1_18/wishing_wells.json"
+hash = "7873ba7c1614546859aea24d5821961356531326e28127783665e569f91fffcf"
+
+[[files]]
 file = "config/advancementinfo.json5"
 hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 
 [[files]]
 file = "config/appleskin.json5"
 hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
+
+[[files]]
+file = "config/betterdeserttemples-fabric-1_18.toml"
+hash = "45f83f57d7e0f2e14a1d0b2e78295a600c2ecd66557796167e8ef0bda33d21d7"
+
+[[files]]
+file = "config/betterdeserttemples/README.txt"
+hash = "3646bc39be8c42a1432506e77721f3b963d33948d4bbd4cd5a10703834979116"
+
+[[files]]
+file = "config/betterdeserttemples/fabric-1_18_2/README.txt"
+hash = "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
+
+[[files]]
+file = "config/betterdeserttemples/fabric-1_18_2/armorstands.json"
+hash = "52e183a00c10da61d569f3d05832ddcbf4647d0905593830b789b5dbbf6ba1bc"
+
+[[files]]
+file = "config/betterdeserttemples/fabric-1_18_2/itemframes.json"
+hash = "f5a68cc3744b35247de433d88396bc2003f5158999ab240efab070715785789e"
+
+[[files]]
+file = "config/betterdungeons-fabric-1_18.toml"
+hash = "21acf30f2d9f7e0e29a3ef203092ab2a1b793986959a2b838947af0d2efa0387"
+
+[[files]]
+file = "config/bettermineshafts-fabric-1_18.toml"
+hash = "eb6519429d6c3b884b735474f1857a0ec2f42e2a4a2bd4cb0de55ebc8498b8a6"
+
+[[files]]
+file = "config/betterstrongholds-fabric-1_18.toml"
+hash = "877273977d223c9396e2f15727a27e906118025228c572f82cf4d96fdf71ecb1"
+
+[[files]]
+file = "config/betterstrongholds/README.txt"
+hash = "70aadca974d0adfe90f98930e23c15076b3d2e625c88e8c2aa6721d91a8c035f"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_18_2/README.txt"
+hash = "c857bda54ab01ca5db21cfe085dc75dcbb13d26054463cf301c74023783612fc"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_18_2/armorstands.json"
+hash = "f74812605f57553b98c0077d0ad67ec850443d9ea75c5813415b5c524195df13"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_18_2/itemframes.json"
+hash = "57bad9aa843d6941c76fdc0e2794defddc10e9b7d881ede65955bfd216caddcf"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_18_2/ores.json"
+hash = "b40f4c0f48b6b4d7455a876933b5a4b3db2433855328e628f043cb9e1b311df7"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_18_2/rareblocks.json"
+hash = "eee83286c8d9a76bcbabf0447331f929689b8a22b7c72aaa46096a8b4c5135cb"
+
+[[files]]
+file = "config/betterwitchhuts-fabric-1_18.toml"
+hash = "063ce4f60934ab166dade45375ef5518df74be2c6c1e1f1a52ec181013803197"
 
 [[files]]
 file = "config/blanket_client-fixes.json"
@@ -39,6 +111,10 @@ hash = "2e668d54f365736fbd4c97b1f42535ce889587d18b3caa48830219f25f48d124"
 [[files]]
 file = "config/darkness.properties"
 hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
+
+[[files]]
+file = "config/earthtojavamobs.json"
+hash = "f87f19b4739353c2e7e076eb7e08a73367da28e5abf4b926388afba67ab3a51c"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -99,6 +175,10 @@ hash = "8b683921d981cf2e815ce726b04f5b9bfeb6d0551440bf39318754bf0a99c86d"
 [[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
+
+[[files]]
+file = "config/naturescompass.json"
+hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
 [[files]]
 file = "config/openloader/data/Arachnid.zip"
@@ -860,6 +940,10 @@ hash = "788399c22d34dc1ebe707977f6b14ef2d78b1f6d5afbc093b6b135fd26291a0e"
 metafile = true
 
 [[files]]
+file = "config/overweight_farming.json"
+hash = "6d8a080e48fcc2c68a0abb91d94f2dca7693ac67815dcd67335d7262bebb1852"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -876,8 +960,20 @@ file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
 
 [[files]]
+file = "config/rocks.json"
+hash = "494142de1c7ae469480dd968e13ae2d040a87d9b397ca195415df5ba54385a26"
+
+[[files]]
+file = "config/sandwichable.json"
+hash = "74ab14ff3d048b02e0b40bda6f7e6f7e8808a86312748fec548a06e92ce474ea"
+
+[[files]]
+file = "config/seasons.json"
+hash = "0c8757883ef09e99cd43302e4eb5e246db1bfd4b73e5ef418110a7ce6b227b8e"
+
+[[files]]
 file = "config/sidebar_buttons.json"
-hash = "bd06f02dd732a2b24c13b7b98a89ef873568f44fbcff1ca608f3fa9f70b05104"
+hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
 file = "config/simplefog.json"
@@ -888,8 +984,16 @@ file = "config/tiefix.json"
 hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
 
 [[files]]
-file = "config/universal-graves.json"
-hash = "98aa54aa781ba624315696108e1e4b7842eba3c67ed680e23cd7d8627f004e0b"
+file = "config/travelerstitles-fabric-1_18.toml"
+hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
+
+[[files]]
+file = "config/waystones/config.json"
+hash = "187b0b44d524a3d2ea0a33a4d660608e2d5a2a74d90be85584071b78de922378"
+
+[[files]]
+file = "config/yigd.toml"
+hash = "81d268b23430777f579a4cbfee07ed6326e3a507c87686b2d47b4563025e0457"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -901,7 +1005,7 @@ hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
 [[files]]
 file = "config/yosbr/config/emi.css"
-hash = "dbabacba5d2c56cc17a955f69c25a996d1fd6d744f4dbd14218727fe1a6158b6"
+hash = "90821cde2b1ce37528a65ed0f068ca68196134d7153c395d38602855be4aa56d"
 
 [[files]]
 file = "config/yosbr/config/illuminations.properties"
@@ -957,7 +1061,7 @@ hash = "a6aa56d476321af40170060736245ac49f2c0f3d1d3b24edfede0cbcf1dba9da"
 
 [[files]]
 file = "config/yosbr/config/waila/waila_plugins.json"
-hash = "a5c790cce27b07ff7d73b4f0eac1386e3d28dcc9a051eaac1845a00bac950eba"
+hash = "702adcaf85df633ac93d7b63e1795b303600ff2f91954b86be9dd1cb4fe0bc64"
 
 [[files]]
 file = "config/yosbr/options.amecsapi.txt"
@@ -1006,6 +1110,10 @@ hash = "54f0f263b9c947d42f0f0c7dd030bb4b2ddc189d6d65a4900e35710847380606"
 [[files]]
 file = "config/yosbr/shaderpacks/projectLUMA+-+v1.32.zip.txt"
 hash = "3d1ce5a7a66eac177f7c120f78afc2c54ed6b68d95d4c8f6d78bd770d955ac3a"
+
+[[files]]
+file = "config/yungsextras-fabric-1_18.toml"
+hash = "7e282abf1b75f373189f582d371ab94bcb8a218ff94ce124a548517f630c25f1"
 
 [[files]]
 file = "credits.txt"
@@ -1062,6 +1170,11 @@ metafile = true
 [[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "cb31a6021573e5d57ca44d97e64f5e80f91caa7dd8c08c3b5d2afe72e48da306"
+metafile = true
+
+[[files]]
+file = "mods/better-end-sky.pw.toml"
+hash = "78ae8a2a5b3fe7b8d998b75ad514dec22e80b7a98a08e6cef4c135d8391d5d0c"
 metafile = true
 
 [[files]]
