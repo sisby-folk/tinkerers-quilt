@@ -1107,6 +1107,11 @@ hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
 metafile = true
 
 [[files]]
+file = "mods/crowmap.pw.toml"
+hash = "357ce8cb9700bdd12ff041b8a60bababae98462934e33bb6e5cde1317e05aa2d"
+metafile = true
+
+[[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
@@ -1538,11 +1543,6 @@ hash = "fc08346de3d1f134796e6b8a88470cfca55f610445e210e0fced2fd2caaff378"
 metafile = true
 
 [[files]]
-file = "mods/universal-graves.pw.toml"
-hash = "7a1300eb98aef97135125d2b608136f2f5b1f2c3cd33377417c069c95135e403"
-metafile = true
-
-[[files]]
 file = "mods/vehiclefix.pw.toml"
 hash = "44a9a2d3e95649b67f37548a674776df177b002d8b9b0cb8bb8af72657df9f45"
 metafile = true
@@ -1560,6 +1560,11 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "98c8ffafe56c38e04da80c8c061e1f1dfc1212a53f3b0c90d7f6b3381c961e95"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "8186a9fe882ce3c15c25892ac97cdad7db31db9da1d7836846a9a01c12759892"
 metafile = true
 
 [[files]]
