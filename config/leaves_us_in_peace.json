@@ -1,0 +1,14 @@
+{
+  "matchLeavesTypes": true,
+  "unknownLeavesOnlyMatchSelf": true,
+  "matchLogsToLeaves": false,
+  "ignorePersistentLeaves": true,
+  "accelerateLeavesDecay": true,
+  "decayDelay": {
+    "minimum": 10,
+    "maximum": 60
+  },
+  "updateDiagonalLeaves": true,
+  "doDecayingLeavesEffects": false,
+  "fetchTranslationUpdates": true
+}
