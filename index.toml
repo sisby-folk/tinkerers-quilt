@@ -114,7 +114,7 @@ hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
 
 [[files]]
 file = "config/earthtojavamobs.json"
-hash = "f87f19b4739353c2e7e076eb7e08a73367da28e5abf4b926388afba67ab3a51c"
+hash = "80cedf725c6457d1d942518fa618bfca71a071da988fd87d14c381426a6723c2"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -1153,6 +1153,11 @@ hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
 metafile = true
 
 [[files]]
+file = "mods/arch-ex.pw.toml"
+hash = "e44d0ff0c823e9df28cebce2562ea9086677357531c79ec47dd804699a42569f"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "49a22647b2ec0cf9c7ededb6d4a4655f064a6d1ebbadaff3bf544e201bbea5a1"
 metafile = true
@@ -1318,7 +1323,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "bc859d5d17706a14eff618bae19efe135954a56c5afc963a84a6591ea468cd5e"
+hash = "bcb598daeb906e6f8106215b61d3eea49039299900bae5f6dd6a493417acb5ea"
 metafile = true
 
 [[files]]
@@ -1381,6 +1386,11 @@ hash = "a06f7b752a79921fedd37af55571c5a2eabd66c9543617e953bd2f73c6987bcc"
 metafile = true
 
 [[files]]
+file = "mods/feature-nbt-deadlock-be-gone.pw.toml"
+hash = "b1dd26068945a52c7989b2515cac0b51a14d25fedbf5c858e4c4d689fc38b2e5"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
@@ -1418,6 +1428,11 @@ metafile = true
 [[files]]
 file = "mods/grounded-origins.pw.toml"
 hash = "05c435b4d4aaed7cb04c456564361d44beed262ba8bfb7ea56cfdb7b637a211d"
+metafile = true
+
+[[files]]
+file = "mods/half-doors.pw.toml"
+hash = "933bae280bc8e1d572b3052f7912aa50929bc7e30be6a774bee0aba678babdc3"
 metafile = true
 
 [[files]]
@@ -1646,6 +1661,11 @@ hash = "1a17e4c274d22190b03e0c4f7e442304b9390de11fe7fea93739e70de4cb498a"
 metafile = true
 
 [[files]]
+file = "mods/promenade.pw.toml"
+hash = "90c566f04f86546c14ac20a35e45c593a623b862d26e70ad64f3568b3029acb1"
+metafile = true
+
+[[files]]
 file = "mods/puzzle.pw.toml"
 hash = "761170eaeece33f423619aefe9de989bac69c68deb29f7df8653eecabcb303e2"
 metafile = true
@@ -1668,6 +1688,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "b17d25b273caec976c340d196d09482b908d8ae43e389132c787714100ea8186"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "08b91d64595d30ae8d99da996701f53c029a53333fec70d5dbba0cd8b31dcd31"
 metafile = true
 
 [[files]]
@@ -1741,6 +1766,11 @@ hash = "d6f0667f2bbfb1036d3586ad2431c440b85bb267c4f7ad60985842b940e023a2"
 metafile = true
 
 [[files]]
+file = "mods/terrablender-fabric.pw.toml"
+hash = "f4e0c267402d79fa23c2c439c5776396855f6e5cf4911b38ec664dfcc7caaabb"
+metafile = true
+
+[[files]]
 file = "mods/this-rocks.pw.toml"
 hash = "ba4c85d3c6da8cd0ea27bae046c59a39009b1c703af0a9ace73cf9a4164b2dfe"
 metafile = true
@@ -1768,6 +1798,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles-fabric.pw.toml"
 hash = "06e67496f26ce72320a5ed6ee106171cfe28ad0674b89499307d5cef6d6ac199"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "49f5590e6160266691eaca6948b33a3a2763e590ed4bcf90189f13650066c84e"
 metafile = true
 
 [[files]]

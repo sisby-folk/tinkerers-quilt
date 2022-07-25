@@ -1,0 +1,13 @@
+name = "Feature NBT Deadlock Be Gone"
+filename = "feature_nbt_deadlock_be_gone_quilt-2.0.0+1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HMNV4z01/versions/2.0.0+1.18.2_quilt/feature_nbt_deadlock_be_gone_quilt-2.0.0%2B1.18.2.jar"
+hash-format = "sha1"
+hash = "1f7cf2b9c11f918f6faa097742dda982cb882a1d"
+
+[update]
+[update.modrinth]
+mod-id = "HMNV4z01"
+version = "sPKan8lZ"
