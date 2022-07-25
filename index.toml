@@ -1220,6 +1220,11 @@ hash = "1dea45a775887e68b1cafb587498dfa5514b3ea8d17ea58783920397f89ff7d7"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+hash = "c2dc3701c79aad2fa278359d47c32d4e4a10c349b0fc06e8b7400dec9b48700c"
+metafile = true
+
+[[files]]
 file = "mods/campanion.pw.toml"
 hash = "8d3de765ffa83b0499e328dbd1827e35c2a9f88c11cdc09ba1f4efe7d68f531f"
 metafile = true
@@ -1292,6 +1297,11 @@ metafile = true
 [[files]]
 file = "mods/couplings.pw.toml"
 hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
+metafile = true
+
+[[files]]
+file = "mods/createplus.pw.toml"
+hash = "84a26eada70c919e518bdc9f51f1df2b5283d98b6b1acd1d0ae33f162b5e26df"
 metafile = true
 
 [[files]]
