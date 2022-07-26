@@ -1165,6 +1165,11 @@ hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
 metafile = true
 
 [[files]]
+file = "mods/advancements-debug.pw.toml"
+hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "61036200545f313d79671bcff059eb6e2d18b3d446761ce93c68a8bb894d4d63"
 metafile = true
@@ -1284,9 +1289,8 @@ hash = "4ed6f98bd55bde1e076f864ba2b3918710ef2ee664ca332fd538c6ca27f280a0"
 metafile = true
 
 [[files]]
-file = "mods/colormatic.pw.toml"
-hash = "0b9c8fa1e2dfa64f787a0562200f54bb5afc401196dac20a9886c0f92f575b5d"
-metafile = true
+file = "mods/colormatic-3.1.2-snapshot+mc.1.18.2.jar"
+hash = "49e7f9f4d6dda5a4fe5d25e73bbcc6eb7943e7f4a9444348943f6f96626f3677"
 
 [[files]]
 file = "mods/consistencyplus.pw.toml"
@@ -1301,6 +1305,11 @@ metafile = true
 [[files]]
 file = "mods/couplings.pw.toml"
 hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
+metafile = true
+
+[[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "f59359dcae8d9da125653d9127157a53ee780cff1580d9dcddfff8b9f0a167a9"
 metafile = true
 
 [[files]]
@@ -1665,6 +1674,11 @@ metafile = true
 [[files]]
 file = "mods/overweight-farming.pw.toml"
 hash = "f92579278a2a0e0263f385ca624b2fe2c29830abafe7809549ba49b95300615d"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "efc2a5c84648fe9d84aaaae5ecdd352f3fff2a81857e53806f6a67d6e67dd845"
 metafile = true
 
 [[files]]
