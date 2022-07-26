@@ -1517,11 +1517,6 @@ hash = "0e89684da352997f2663602d571b67bcc840576f5c13fc32cafeb92054370325"
 metafile = true
 
 [[files]]
-file = "mods/inventory-tabs-updated.pw.toml"
-hash = "4260894fd18d9e593e8364a0ac3aab1ac7ba6b654010a928f05f12f1e1a83006"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "7586317e8f493545d692287fb8b5e8a6027772b529d6e2d9ba97c7c09c64b26f"
 metafile = true
