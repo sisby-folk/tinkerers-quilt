@@ -1,9 +1,9 @@
-# Tinkerer's Minecraft Modpacks
+# Sisby Folk Minecraft Modpacks
 
 using [PackWiz](https://github.com/comp500/packwiz)
 
-### Stable Packs
+### Quilt 1.18.2
 
-[Tinkerer's Quilt (1.18.2)](https://gist.github.com/sisby-folk/af78214db3631ccbf68c61da94d44505)
-
-[Tinkerer's Modded Quilt (1.18.2)](#) (TBA)
+ - [Tinkerer's Quilt](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2) - Vanilla-Compatible
+ - [Tinkerer's Quilt+](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2_plus) - Some new blocks and items
+ - [Tinkerer's Quilt++ / Modded](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2_modded) - Including major mods Create, Botania, and TCon3
