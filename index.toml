@@ -1186,9 +1186,8 @@ hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
-file = "mods/extra-origins.pw.toml"
-hash = "01b72ce96ae056d7c026dfbc954f2f2e1fb8de33f0af75da5aa5b4c1583c669c"
-metafile = true
+file = "mods/extraorigins-1.18-12.jar"
+hash = "1cbab1c32b96a8aabae5582b70d3fed4a2fb87c8675022443fd28ed9d7ccb237"
 
 [[files]]
 file = "mods/fabrication.pw.toml"
