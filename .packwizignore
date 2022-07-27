@@ -8,6 +8,7 @@ _layouts
 _layouts/
 _layouts/**
 README.md
+LICENSE
 _config.yml
 .github
 .github/
@@ -15,3 +16,6 @@ _config.yml
 .idea
 .idea/
 .idea/**
+datagen
+datagen/
+datagen/**
