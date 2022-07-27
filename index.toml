@@ -1186,8 +1186,8 @@ hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
-file = "mods/extraorigins-1.18-12.jar"
-hash = "1cbab1c32b96a8aabae5582b70d3fed4a2fb87c8675022443fd28ed9d7ccb237"
+file = "mods/extraorigins-1.18-11.jar"
+hash = "7decb4fb6d89f3c1ad23e61bec070645513e4a710393d8723766b2cc485eef12"
 
 [[files]]
 file = "mods/fabrication.pw.toml"
@@ -1290,9 +1290,8 @@ hash = "0e89684da352997f2663602d571b67bcc840576f5c13fc32cafeb92054370325"
 metafile = true
 
 [[files]]
-file = "mods/inventory-tabs-updated.pw.toml"
-hash = "4260894fd18d9e593e8364a0ac3aab1ac7ba6b654010a928f05f12f1e1a83006"
-metafile = true
+file = "mods/inventorytabs-0.6.1-1.18.x.jar"
+hash = "406542e43850ba66567e540372af1438eeefc53dd69d3321fedb17b41785ed04"
 
 [[files]]
 file = "mods/iris.pw.toml"
