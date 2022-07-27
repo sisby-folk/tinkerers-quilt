@@ -48,14 +48,14 @@ These changes can "overload" the pack in some ways. If you experience this, you 
    - `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17` works too.
    - [MultiMC](https://multimc.org/) is also supported (over polyMC) on its _development_ branch. Swap to this in `settings-> launcher` and restart.
 
- - Download [Tinkerer's Quilt.zip](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%20Quilt%201.18.2.zip)
+ - Download [Tinkerer's Quilt.zip](https://sisby-folk.github.io/mc-packs/Installs/Tinkerer's%20Quilt%201.18.2.zip) - (Unfinished versions of [Plus](https://sisby-folk.github.io/mc-packs/Installs/Tinkerer's%20Quilt%20Plus%201.18.2.zip) and [Modded](https://sisby-folk.github.io/mc-packs/Installs/Tinkerer's%20Modded%201.18.2.zip) are also available)
 
  - Drag and drop onto an open PolyMC/MultiMC window!
 
  - When prompted to select optional mods, press "OK" if you're unsure - A recommended set is already set by default.
 
 
-**Hosting your own server** ([Download](https://github.com/sisby-folk/mc-packs/raw/website/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip)):
+**Hosting your own server** ([Download](https://sisby-folk.github.io/mc-packs/Installs/Tinkerer's%20Quilt%201.18.2%20Server.zip)):
  - Run Quilt Installer and select `1.18.2` and the latest non-beta loader version. Then click "install"
  - Run Update.Bat to install the modpack, then Start.Bat to run the server       
 [they're both just `java` - feel free to send me `.sh` equivalents]
