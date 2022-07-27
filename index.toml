@@ -225,10 +225,6 @@ file = "config/openloader/data/VanillaTweaks_c278482.zip"
 hash = "b1adcace3853862828c37b2deb7e9e9b374042914b48f54a5b58645ac0ad6395"
 
 [[files]]
-file = "config/openloader/data/anti ghast grief v1.1.2.zip"
-hash = "50ea876d08f4f01f9a59eeed55f3e11a6d30863ab226172b359b9a44f914effe"
-
-[[files]]
 file = "config/openloader/data/nullscapes.pw.toml"
 hash = "58e4c1427c42bb202bef6b8bf69f9546687c5a02be31ee31a645541338fabacd"
 metafile = true
@@ -926,6 +922,11 @@ file = "config/openloader/resources/VanillaTweaks_r239108.zip"
 hash = "4f6f464112a38507b152258aa064d451323f2acf7411cbee36f5bd70a69c74f6"
 
 [[files]]
+file = "config/openloader/resources/colored-axolotls.pw.toml"
+hash = "54f0328a05640f33fb87ce45b2bdd7a90c20128a50e9f620506fb3374b1e8aaf"
+metafile = true
+
+[[files]]
 file = "config/openloader/resources/tinkerers_assets/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
 hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 
@@ -1287,7 +1288,7 @@ metafile = true
 
 [[files]]
 file = "mods/couplings.pw.toml"
-hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
+hash = "600d5aaeaa304466907ecf988a37f27e9348ad84c12a7c8d389fdbad46c934de"
 metafile = true
 
 [[files]]
@@ -1425,6 +1426,10 @@ hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
 
 [[files]]
+file = "mods/fogbox-1.2.0.jar"
+hash = "7f32d68a08dd8687b17bbf82b8972fc9fb1dea16317b2a2f1042224b9f412165"
+
+[[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
 hash = "41bc0a9806bc79afa3dfc650fe251b85711a166b059c5a1273634afd0b5a792a"
 metafile = true
@@ -1495,9 +1500,8 @@ hash = "0e89684da352997f2663602d571b67bcc840576f5c13fc32cafeb92054370325"
 metafile = true
 
 [[files]]
-file = "mods/inventory-tabs-updated.pw.toml"
-hash = "4260894fd18d9e593e8364a0ac3aab1ac7ba6b654010a928f05f12f1e1a83006"
-metafile = true
+file = "mods/inventorytabs-0.6.1-1.18.x.jar"
+hash = "406542e43850ba66567e540372af1438eeefc53dd69d3321fedb17b41785ed04"
 
 [[files]]
 file = "mods/iris.pw.toml"
@@ -1585,10 +1589,6 @@ metafile = true
 file = "mods/memoryleakfix.pw.toml"
 hash = "c245e4e6896f1702f29aaf0bfef3cbce1d82b4f0fb8d44a526690f4d965f75e0"
 metafile = true
-
-[[files]]
-file = "mods/midnightcontrols-1.0.0+1.18-front.jar"
-hash = "b2e943a38962cdf6fff386e68fe1857a5348d17bbfa6c62311526a6f7fe02426"
 
 [[files]]
 file = "mods/mod-settings.pw.toml"
@@ -1712,6 +1712,11 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "389f2d01e0f3417395d0ff8c9c7b267c8c0b1f2d67cb583a450a637bec8f3239"
+metafile = true
+
+[[files]]
+file = "mods/reacharound.pw.toml"
+hash = "0f61b4e5e1b424ac93bfbd0ef12f4535553f33e1e4c9d6ab5f0cbf6c4066abdc"
 metafile = true
 
 [[files]]
@@ -1908,10 +1913,6 @@ metafile = true
 file = "mods/yungs-extras-fabric.pw.toml"
 hash = "43def9ff7e9948695c694d2395f21254fa857d50a4f8bd6f8c40ebd96655769e"
 metafile = true
-
-[[files]]
-file = "removed.txt"
-hash = "6540aaf597f50063c2efa3dc15d17c669e9c70d3edbe628c0cb63f3cc3065b67"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_BlockVariation.zip"

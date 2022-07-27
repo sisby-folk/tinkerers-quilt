@@ -9,7 +9,6 @@
     "result": {
         "item": "{{ item }}",
 		"data": {
-			"$": "base",
 			"Damage": "{{ damage }}"
 		}
     }
