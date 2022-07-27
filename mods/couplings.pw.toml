@@ -3,11 +3,11 @@ filename = "Couplings-1.8.1+1.18.2.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/80ulerjA/versions/1.8.1+1.18.2/Couplings-1.8.1%2B1.18.2.jar"
 hash-format = "sha1"
 hash = "c7d13c7308c8b6f3dcf8f38048bff45ca0f70b1f"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 3816074
-project-id = 311120
+[update.modrinth]
+mod-id = "80ulerjA"
+version = "zKjA428p"

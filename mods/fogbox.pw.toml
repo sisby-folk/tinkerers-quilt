@@ -1,0 +1,13 @@
+name = "Fogbox"
+filename = "fogbox-1.0.1-hotfix.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/R8Cm5Uo7/versions/1.0.1/fogbox-1.0.1-hotfix.jar"
+hash-format = "sha1"
+hash = "6cdac51f68ba31ba636bc72fd0a11a30d9fcfcaf"
+
+[update]
+[update.modrinth]
+mod-id = "R8Cm5Uo7"
+version = "FwROe3qF"

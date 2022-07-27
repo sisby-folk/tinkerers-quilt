@@ -1112,7 +1112,7 @@ metafile = true
 
 [[files]]
 file = "mods/couplings.pw.toml"
-hash = "f11a3f0c5dd3c319162b5c42fabd24d0bbb7bcbe383dc5c77d361c7b64488acf"
+hash = "600d5aaeaa304466907ecf988a37f27e9348ad84c12a7c8d389fdbad46c934de"
 metafile = true
 
 [[files]]
@@ -1223,6 +1223,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
+metafile = true
+
+[[files]]
+file = "mods/fogbox.pw.toml"
+hash = "b36ceb45617de8a82ecbe5cde67469276a96da47353d8e0daa0331ef4f22fd32"
 metafile = true
 
 [[files]]
@@ -1359,10 +1364,6 @@ hash = "c245e4e6896f1702f29aaf0bfef3cbce1d82b4f0fb8d44a526690f4d965f75e0"
 metafile = true
 
 [[files]]
-file = "mods/midnightcontrols-1.0.0+1.18-front.jar"
-hash = "b2e943a38962cdf6fff386e68fe1857a5348d17bbfa6c62311526a6f7fe02426"
-
-[[files]]
 file = "mods/mod-settings.pw.toml"
 hash = "f494cb48d6e1d8d5c3460a8f689d2b05b2a0a5cebe70a3f70a305ef620e4b860"
 metafile = true
@@ -1464,6 +1465,11 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "389f2d01e0f3417395d0ff8c9c7b267c8c0b1f2d67cb583a450a637bec8f3239"
+metafile = true
+
+[[files]]
+file = "mods/reacharound.pw.toml"
+hash = "0f61b4e5e1b424ac93bfbd0ef12f4535553f33e1e4c9d6ab5f0cbf6c4066abdc"
 metafile = true
 
 [[files]]
