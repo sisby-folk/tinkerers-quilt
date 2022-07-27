@@ -829,6 +829,11 @@ file = "config/openloader/resources/VanillaTweaks_r239108.zip"
 hash = "4f6f464112a38507b152258aa064d451323f2acf7411cbee36f5bd70a69c74f6"
 
 [[files]]
+file = "config/openloader/resources/colored-axolotls.pw.toml"
+hash = "54f0328a05640f33fb87ce45b2bdd7a90c20128a50e9f620506fb3374b1e8aaf"
+metafile = true
+
+[[files]]
 file = "config/openloader/resources/tinkerers_assets/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
 hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 
