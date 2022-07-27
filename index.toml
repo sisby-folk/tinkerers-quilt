@@ -851,6 +851,10 @@ hash = "788399c22d34dc1ebe707977f6b14ef2d78b1f6d5afbc093b6b135fd26291a0e"
 metafile = true
 
 [[files]]
+file = "config/ordinarytweaks.json"
+hash = "0feb758db9f5b8709fa1b8ff3fd3703eec41690e20120c5a5ccbe2efc1918360"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -868,7 +872,7 @@ hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "bd06f02dd732a2b24c13b7b98a89ef873568f44fbcff1ca608f3fa9f70b05104"
+hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
 file = "config/simplefog.json"
@@ -881,6 +885,10 @@ hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
 [[files]]
 file = "config/universal-graves.json"
 hash = "98aa54aa781ba624315696108e1e4b7842eba3c67ed680e23cd7d8627f004e0b"
+
+[[files]]
+file = "config/yigd.toml"
+hash = "81d268b23430777f579a4cbfee07ed6326e3a507c87686b2d47b4563025e0457"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -1028,7 +1036,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "2fdcd8eb8a2e5ae247fad3b5a44d4a3cdf9228e999ecfd5949648d5d1554f345"
+hash = "49a22647b2ec0cf9c7ededb6d4a4655f064a6d1ebbadaff3bf544e201bbea5a1"
 metafile = true
 
 [[files]]
@@ -1058,7 +1066,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-fixes.pw.toml"
-hash = "fafb8b44d3f00f2d63dba642ae46704d21ccfceb4ae510b320fc76e031e10669"
+hash = "cf227e9c4cb9c4387c5ce04c2ff4e8d1e65eb99a0187380de516a3ef537aff0c"
 metafile = true
 
 [[files]]
@@ -1153,7 +1161,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "bc859d5d17706a14eff618bae19efe135954a56c5afc963a84a6591ea468cd5e"
+hash = "bcb598daeb906e6f8106215b61d3eea49039299900bae5f6dd6a493417acb5ea"
 metafile = true
 
 [[files]]
@@ -1178,7 +1186,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "cc506e39fadcc56f7e120fd2f47a9d9cb963b9255c39c35b812ef789f976e463"
+hash = "7d1a8e5b95156a5975e419d0e32aca399ff2fec9cdcc0929dd166c0d75fdba85"
 metafile = true
 
 [[files]]
@@ -1273,12 +1281,12 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tabs-updated.pw.toml"
-hash = "cd467738240f2c4153f461604406ff4d18adbc4ad38add3ce8aedd3d5f5f0339"
+hash = "4260894fd18d9e593e8364a0ac3aab1ac7ba6b654010a928f05f12f1e1a83006"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "7586317e8f493545d692287fb8b5e8a6027772b529d6e2d9ba97c7c09c64b26f"
+hash = "2d3c10d8c134ca9e5a24b0aff53bdf17e8702b8b8b5b997a0b8a542e0361587d"
 metafile = true
 
 [[files]]
@@ -1360,7 +1368,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.pw.toml"
-hash = "641ed9e6ef81f5878cee92d0fd317b5568439a0e5da09556d59ab683650b8788"
+hash = "8e3c9583a7832a832687f8bc2da6bea1d2996fb81b7ef73e459c0a392e532147"
 metafile = true
 
 [[files]]
@@ -1454,7 +1462,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "d714f6e72ebc849970b4c28384ed68f95624f497ea39d18b92e3e79251cbf659"
+hash = "b17d25b273caec976c340d196d09482b908d8ae43e389132c787714100ea8186"
 metafile = true
 
 [[files]]
@@ -1464,7 +1472,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "1a44092a2a331f6928860db72aa31314b775e0bc11115facc0504004f7b6d286"
+hash = "805fb56db8899254b5cae6a993e28a3b137842ccffbe1ce42b9ed979f19a153b"
 metafile = true
 
 [[files]]
@@ -1484,13 +1492,17 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "dd3572a0414b6d647f18d4571a8007f0f93ebd7092d08aefa194861878a42c6f"
+hash = "f234a8e383d2145966b28900ca77012c1fe916e4c599c65a7f0f68acd4efbca1"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0c83c344046d0b96fd7dcd9e5c98c44caa3d307126d502f202dba50855304fb9"
 metafile = true
+
+[[files]]
+file = "mods/some-ordinary-tweaks-1.1.0.jar"
+hash = "72c343c3781cf89bcdde6a34b9569ab12af2d6d9b64f3ac37877e06250569a48"
 
 [[files]]
 file = "mods/starlight.pw.toml"
