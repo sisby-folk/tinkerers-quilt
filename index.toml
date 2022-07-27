@@ -1586,10 +1586,6 @@ hash = "f7b06cb8ec7928fff97239728f125646d9100499fc99281a1fd73486e5fa1841"
 metafile = true
 
 [[files]]
-file = "removed.txt"
-hash = "6540aaf597f50063c2efa3dc15d17c669e9c70d3edbe628c0cb63f3cc3065b67"
-
-[[files]]
 file = "resourcepacks/VanillaTweaks_BlockVariation.zip"
 hash = "9b3f189a889a95ad441d79e7e415134960e4b6db8a87fd2de75e8dd70b92b9b6"
 
