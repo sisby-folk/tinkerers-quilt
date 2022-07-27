@@ -1120,6 +1120,11 @@ hash = "357ce8cb9700bdd12ff041b8a60bababae98462934e33bb6e5cde1317e05aa2d"
 metafile = true
 
 [[files]]
+file = "mods/crunchy-crunchy-advancements.pw.toml"
+hash = "125baa67293bf61c85f8b9c6336ab687123055945e60d6203b956c68295c15a9"
+metafile = true
+
+[[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
