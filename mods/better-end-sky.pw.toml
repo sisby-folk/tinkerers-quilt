@@ -1,0 +1,13 @@
+name = "Better End Sky"
+filename = "better-end-sky-0.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SgJ1iW80/versions/0.0.1/better-end-sky-0.0.1.jar"
+hash-format = "sha1"
+hash = "753d6675e1cab047b823557da53f3a1336d07e43"
+
+[update]
+[update.modrinth]
+mod-id = "SgJ1iW80"
+version = "kQHj7yT2"

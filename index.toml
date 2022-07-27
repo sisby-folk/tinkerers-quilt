@@ -1056,6 +1056,11 @@ hash = "cb31a6021573e5d57ca44d97e64f5e80f91caa7dd8c08c3b5d2afe72e48da306"
 metafile = true
 
 [[files]]
+file = "mods/better-end-sky.pw.toml"
+hash = "78ae8a2a5b3fe7b8d998b75ad514dec22e80b7a98a08e6cef4c135d8391d5d0c"
+metafile = true
+
+[[files]]
 file = "mods/cardinalboats.pw.toml"
 hash = "18a22e96f065baf3c165a2bf750c12517f30d772ff5e7e42338d1ccbf99ce306"
 metafile = true
