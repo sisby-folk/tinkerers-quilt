@@ -944,10 +944,6 @@ hash = "788399c22d34dc1ebe707977f6b14ef2d78b1f6d5afbc093b6b135fd26291a0e"
 metafile = true
 
 [[files]]
-file = "config/ordinarytweaks.json"
-hash = "0feb758db9f5b8709fa1b8ff3fd3703eec41690e20120c5a5ccbe2efc1918360"
-
-[[files]]
 file = "config/overweight_farming.json"
 hash = "6d8a080e48fcc2c68a0abb91d94f2dca7693ac67815dcd67335d7262bebb1852"
 
@@ -1795,10 +1791,6 @@ metafile = true
 file = "mods/sodium.pw.toml"
 hash = "0c83c344046d0b96fd7dcd9e5c98c44caa3d307126d502f202dba50855304fb9"
 metafile = true
-
-[[files]]
-file = "mods/some-ordinary-tweaks-1.1.0.jar"
-hash = "72c343c3781cf89bcdde6a34b9569ab12af2d6d9b64f3ac37877e06250569a48"
 
 [[files]]
 file = "mods/starlight.pw.toml"
