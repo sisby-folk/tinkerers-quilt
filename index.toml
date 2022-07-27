@@ -1225,9 +1225,8 @@ hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
 
 [[files]]
-file = "mods/fogbox.pw.toml"
-hash = "b36ceb45617de8a82ecbe5cde67469276a96da47353d8e0daa0331ef4f22fd32"
-metafile = true
+file = "mods/fogbox-1.2.0.jar"
+hash = "7f32d68a08dd8687b17bbf82b8972fc9fb1dea16317b2a2f1042224b9f412165"
 
 [[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
