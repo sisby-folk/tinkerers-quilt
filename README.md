@@ -82,7 +82,7 @@ Do you want to...
  - 🛣️ Build transit infrastructure and achieve ludicrous speed? 
  - ⚙️ Make terrifyingly complex machines and mechanisms? 
 
-It's all there! Including things even we didn't about before making this pack!     
+It's all there! Including things even we didn't know about before making this pack!     
 These quests can help players discover these parts of the game, and have rewards to provide helpful shortcuts.     
 Complete all quests of a special interest to complete its **Patron Quest** for very special rewards and incredible banners.        
 But beware - some quests are very difficult!     
