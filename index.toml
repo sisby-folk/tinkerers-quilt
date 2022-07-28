@@ -1515,10 +1515,6 @@ hash = "0c83c344046d0b96fd7dcd9e5c98c44caa3d307126d502f202dba50855304fb9"
 metafile = true
 
 [[files]]
-file = "mods/some-ordinary-tweaks-1.1.0.jar"
-hash = "72c343c3781cf89bcdde6a34b9569ab12af2d6d9b64f3ac37877e06250569a48"
-
-[[files]]
 file = "mods/starlight.pw.toml"
 hash = "ab37bb833d205f015f036157645e05a61c837b7e1f9e0132bfa8a6b14c8064a6"
 metafile = true
