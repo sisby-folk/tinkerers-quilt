@@ -1045,14 +1045,6 @@ file = "config/yosbr/config/iris.properties"
 hash = "2ca45b5d72c1660be8e627f4536377b2af58454c391f66d3416ffd18c094fd14"
 
 [[files]]
-file = "config/yosbr/config/midnightcontrols.json"
-hash = "73b6c889f2ea2e0ea2448830944874a1ca0be0c857dc5416845acc9b5969c7e8"
-
-[[files]]
-file = "config/yosbr/config/midnightlib.json"
-hash = "2e3350eba8775df655664378743a5b7897135cd146207dd5bc0782efea89a611"
-
-[[files]]
 file = "config/yosbr/config/presencefootsteps/updater.json"
 hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
@@ -1951,58 +1943,28 @@ file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
-file = "resourcepacks/woodpecker.pw.toml"
-hash = "fd42ccb660fb5d93169de70f642f0e607b2d615119ee26b22510e4ba147b0bcc"
-metafile = true
-
-[[files]]
 file = "shaderpacks/bsl.pw.toml"
-hash = "e3bf34d16442e76f4c32c20b0150411c0612eb68fc9e83d5696f85002ffa6477"
-metafile = true
-
-[[files]]
-file = "shaderpacks/builders-qol.pw.toml"
-hash = "a8354f4ccc9593c193161d5fcf711d4e0e24dcb5efb25b537ce4a5f6c8faca20"
+hash = "2189b7957d3cf6b205c53698dfd2863330cb84aa9d6843ad1873efd5f222ffca"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary.pw.toml"
-hash = "ce078670fd249237d0f69263b4e38c65a5680ac9dedbb662c8d1bf12ff7f592a"
-metafile = true
-
-[[files]]
-file = "shaderpacks/lux.pw.toml"
-hash = "0f12b99b75a39bdda35a6fedb18797be0c601a7dede9a547fa23dae4361773f1"
+hash = "d7a0e03e1de1aed3b19425f5e381fb0f387b580ac0c829e04100d30c2d7cf46c"
 metafile = true
 
 [[files]]
 file = "shaderpacks/prismarine.pw.toml"
-hash = "8a58353fdf45c07c28684996a8a462487493a1804cc841dc9aaf901412e32212"
-metafile = true
-
-[[files]]
-file = "shaderpacks/redhat.pw.toml"
-hash = "adba88d49991421e5cf9e6392214a25ee34ddb01c5420cdf3bc8db1d7c9972d3"
+hash = "a05909e755395eb7da4566e735752efe415b3f6d386b70b0fc3256a7d3dc0b25"
 metafile = true
 
 [[files]]
 file = "shaderpacks/sildurs-enhanced-default.pw.toml"
-hash = "d697c3d7c6566871d2f96b3df76b930e32f8e35aa04d8e0cb35ff25910e62575"
-metafile = true
-
-[[files]]
-file = "shaderpacks/skylex.pw.toml"
-hash = "9237e728a15f79c009b67bbff751f1a5ed54c146bc5f466e22971bd47cfb9671"
-metafile = true
-
-[[files]]
-file = "shaderpacks/sora.pw.toml"
-hash = "d3f538ac9c1990c3071082249ead22553d479d23ec7b156ff8ca381ab57a03f3"
+hash = "4e2f9f15ae648f4040381b9ead970d6ff978bd01f7ffae20fb1bcb6c101c3fff"
 metafile = true
 
 [[files]]
 file = "shaderpacks/super-duper-vanilla.pw.toml"
-hash = "a08f53b43d84671dad18b6c107988d96a762e362b8a5b610521bc57a6312e4d8"
+hash = "f7950a9c3f2e9076c3c5c19512167db76b00befc4a9715f4f1d7aee1f9c93a75"
 metafile = true
 
 [[files]]

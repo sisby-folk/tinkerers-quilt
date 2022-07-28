@@ -13,6 +13,6 @@ file-id = 3817141
 project-id = 534748
 
 [option]
-optional = true
+optional = false
 default = true
 description = "An Iris-Compatible Shader Pack! Found Here: https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders"
