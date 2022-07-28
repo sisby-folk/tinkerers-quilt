@@ -137,7 +137,7 @@ Letting players express themselves with player customisation, builds, and even t
     
  - [Ears](https://ears.unascribed.com/) - Improved skins with support for tails, horns, ears, claws, wings and more species/gender things!
  - [Fabric Tailor](https://modrinth.com/mod/fabrictailor) - Swap your skin in-game. Perfect for plural systems.
- - [Origins](https://modrinth.com/mod/origins) - Choose a player _Origin_, granting abilities, limitations, and possibly species euphoria (we don't know you)
+ - [Origins](https://modrinth.com/mod/origins) - Choose a player _Origin_, granting abilities, limitations, and maybe species euphoria (we don't know you)
    - Uses our own curated set of custom and vanilla origins, with a separate selector for player height ("Stature")     
 
      <img width="700" height="262" src="https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png">
@@ -145,7 +145,7 @@ Letting players express themselves with player customisation, builds, and even t
  - [Drogtor](https://github.com/unascribed/Drogtor) - Change your player name at any time with a command!
  - [Player Pronouns](https://modrinth.com/mod/player-pronouns) - Set your pronouns in multiplayer and have them appear in chat.
  - [Fabrication](https://modrinth.com/mod/fabrication) - A huge tweak mod. Includes allowing players to hide armor to show their skin with a command.
- - [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) - Footstep audio redone - allows swapping between bi/quadupedal, with winged options.
+ - [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) - Footstep audio redone - allows swapping between bi/quadrupedal, with winged options.
 
 
  - [Carpet](https://github.com/gnembon/fabric-carpet) - A collection of tweaks. Here - it includes more dispenser functionality, for mechanics!
