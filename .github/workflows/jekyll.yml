@@ -3,12 +3,11 @@ name: GH Pages CI
 on:
   push:
     branches:
-      - main
       - website
       - quilt_1.18.2
       - quilt_1.18.2_plus
       - quilt_1.18.2_modded
-      - fabric_1.17.1
+      - forge_1.16.5
       - fabric_1.16.5
 
 jobs:
@@ -16,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # main
+      # website
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
@@ -31,7 +30,6 @@ jobs:
           clean: false
       - name: import quilt_1.18.2 - clean
         run: rm -rf cdn/quilt_1.18.2/.git
-        
       
       # quilt_1.18.2_plus
       - name: import quilt_1.18.2_plus
@@ -42,7 +40,6 @@ jobs:
           clean: false
       - name: import quilt_1.18.2_plus - clean
         run: rm -rf cdn/quilt_1.18.2_plus/.git
-        
       
       # quilt_1.18.2_modded
       - name: import quilt_1.18.2_modded
@@ -53,27 +50,7 @@ jobs:
           clean: false
       - name: import quilt_1.18.2_modded - clean
         run: rm -rf cdn/quilt_1.18.2_modded/.git
-        
-      # fabric_1.17.1
-      - name: import fabric_1.17.1
-        uses: actions/checkout@v2
-        with:
-          ref: fabric_1.17.1
-          path: cdn/fabric_1.17.1
-          clean: false
-      - name: import fabric_1.17.1 - clean
-        run: rm -rf cdn/fabric_1.17.1/.git
-        
-      # fabric_1.16.5
-      - name: import fabric_1.16.5
-        uses: actions/checkout@v2
-        with:
-          ref: fabric_1.16.5
-          path: cdn/fabric_1.16.5
-          clean: false
-      - name: import fabric_1.16.5 - clean
-        run: rm -rf cdn/fabric_1.16.5/.git
-        
+
       # forge_1.16.5
       - name: import forge_1.16.5
         uses: actions/checkout@v2
@@ -83,7 +60,17 @@ jobs:
           clean: false
       - name: import forge_1.16.5 - clean
         run: rm -rf cdn/forge_1.16.5/.git
-      
+
+      # fabric_1.16.5
+      - name: import fabric_1.16.5
+        uses: actions/checkout@v2
+        with:
+          ref: fabric_1.16.5
+          path: cdn/fabric_1.16.5
+          clean: false
+      - name: import fabric_1.16.5 - clean
+        run: rm -rf cdn/fabric_1.16.5/.git
+
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
