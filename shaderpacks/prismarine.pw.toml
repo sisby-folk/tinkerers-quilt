@@ -13,7 +13,7 @@ file-id = 3633885
 project-id = 478295
 
 [option]
-optional = true
+optional = false
 default = true
 description = "An Iris-Compatible Shader Pack! Found Here: https://www.curseforge.com/minecraft/customization/prismarine-shader"
 
