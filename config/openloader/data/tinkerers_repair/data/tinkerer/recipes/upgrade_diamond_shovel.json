@@ -3,13 +3,13 @@
         "item": "minecraft:iron_shovel"
     },
     "ingredient": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:diamond"
     },
     "result": {
         "data": {
-            "Damage": "$base.Damage - 62"
+            "Damage": "0"
         },
-        "item": "minecraft:iron_shovel"
+        "item": "minecraft:diamond_shovel"
     },
     "type": "nbtcrafting:smithing"
 }

@@ -1,13 +1,13 @@
 {
     "base": {
-        "item": "minecraft:netherite_hoe"
+        "item": "minecraft:golden_hoe"
     },
     "ingredient": {
         "item": "minecraft:netherite_ingot"
     },
     "result": {
         "data": {
-            "Damage": "$base.Damage - 507"
+            "Damage": "507"
         },
         "item": "minecraft:netherite_hoe"
     },

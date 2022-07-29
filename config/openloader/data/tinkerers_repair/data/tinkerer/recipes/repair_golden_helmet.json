@@ -7,7 +7,7 @@
     },
     "result": {
         "data": {
-            "Damage": "$base.Damage - 20"
+            "Damage": "$base.Damage - 19"
         },
         "item": "minecraft:golden_helmet"
     },

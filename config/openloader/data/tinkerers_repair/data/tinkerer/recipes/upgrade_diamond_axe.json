@@ -3,13 +3,13 @@
         "item": "minecraft:iron_axe"
     },
     "ingredient": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:diamond"
     },
     "result": {
         "data": {
-            "Damage": "$base.Damage - 62"
+            "Damage": "780"
         },
-        "item": "minecraft:iron_axe"
+        "item": "minecraft:diamond_axe"
     },
     "type": "nbtcrafting:smithing"
 }

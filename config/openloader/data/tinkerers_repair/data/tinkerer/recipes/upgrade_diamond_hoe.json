@@ -1,15 +1,15 @@
 {
     "base": {
-        "item": "minecraft:diamond_boots"
+        "item": "minecraft:iron_hoe"
     },
     "ingredient": {
         "item": "minecraft:diamond"
     },
     "result": {
         "data": {
-            "Damage": "$base.Damage - 107"
+            "Damage": "390"
         },
-        "item": "minecraft:diamond_boots"
+        "item": "minecraft:diamond_hoe"
     },
     "type": "nbtcrafting:smithing"
 }
