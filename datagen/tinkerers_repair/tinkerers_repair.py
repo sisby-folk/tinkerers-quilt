@@ -43,14 +43,14 @@ for template_name in ["dework", "repair", "upgrade"]:
                         current_dict["ingredient"]["item"] = "minecraft:netherite_scrap"
                         current_dict["result"]["item"] = "minecraft:" + current_tier[0] + "_" + current_type
                         current_dict["result"]["data"]["RepairCost"] = "$((base.RepairCost + 1)/2)-1"
-                        del current_dict["result"]["data"]["Damage"]
+                        current_dict["result"]["data"]["Damage"] = "$base.Damage"
                     case "repair":
                         durability = current_tier[1] if type_idx > 3 else armor_durability[tier_idx][type_idx]
                         current_dict["base"]["item"] = "minecraft:" + current_tier[0] + "_" + current_type
                         current_dict["ingredient"]["item"] = "minecraft:" + repair[tier_idx]
                         current_dict["result"]["item"] = "minecraft:" + current_tier[0] + "_" + current_type
                         current_dict["result"]["data"]["Damage"] = "$base.Damage - " + str(math.floor(durability / 4.0))
-                        del current_dict["result"]["data"]["RepairCost"]
+                        current_dict["result"]["data"]["RepairCost"] = "$base.RepairCost"
                     case "upgrade":
                         if current_tier == tiers[0] or type_idx <= 3:  # No iron or armor
                             continue
@@ -58,7 +58,7 @@ for template_name in ["dework", "repair", "upgrade"]:
                         current_dict["ingredient"]["item"] = "minecraft:" + repair[tier_idx]
                         current_dict["result"]["item"] = "minecraft:" + current_tier[0] + "_" + current_type
                         current_dict["result"]["data"]["Damage"] = str(math.floor(current_tier[1] * ((type_costs[type_idx] - 1) / 4.0)))
-                        del current_dict["result"]["data"]["RepairCost"]
+                        current_dict["result"]["data"]["RepairCost"] = "$base.RepairCost"
                 with open(dir_recipes + template_name + "_" + current_tier[0] + "_" + current_type + ".json",
                           "w") as out_file:
                     json.dump(current_dict, out_file, indent=4, sort_keys=True)
