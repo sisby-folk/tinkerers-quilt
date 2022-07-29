@@ -175,7 +175,6 @@ Letting players express themselves with player customisation, builds, and even t
 
  - [Smithing/Vegetarian recipes aren't in EMI](https://github.com/Siphalor/nbt-crafting/issues/114)
  - [Petting mobs stops working randomly](https://github.com/Ellivers/Pettable/issues/4)
- - [Feature Request: Show repair cost](https://github.com/Queerbric/Inspecio/issues/81)
  - [Glow lichen says "Harvestable"](https://gitlab.com/ENDERZOMBI102/wthit-plugins/-/issues/5)
  - [Fogbox doesn't box fog](https://github.com/LudoCrypt/Fogbox/issues/6)
  - [EMI can't be accessed from quests](https://github.com/FTBTeam/FTB-Mods-Issues/issues/312)
