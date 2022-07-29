@@ -1273,9 +1273,8 @@ hash = "b8e50e473a9a5f9d41dba92a20e6af19156a23d3f70cc87c4fe164ea83e0e238"
 metafile = true
 
 [[files]]
-file = "mods/inspecio.pw.toml"
-hash = "0e89684da352997f2663602d571b67bcc840576f5c13fc32cafeb92054370325"
-metafile = true
+file = "mods/inspecio-1.4.1+1.18.jar"
+hash = "4ed163078af49bdc43cbf0dec463ec7d0aadc4da3bad98df16c7dfec1c5f39d5"
 
 [[files]]
 file = "mods/inventorytabs-0.6.1-1.18.x.jar"
