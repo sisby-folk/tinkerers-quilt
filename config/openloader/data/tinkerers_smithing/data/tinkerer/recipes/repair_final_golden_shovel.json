@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$..7"
+            }
+        },
+        "item": "minecraft:golden_shovel"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:golden_shovel"
+    },
+    "type": "nbtcrafting:smithing"
+}

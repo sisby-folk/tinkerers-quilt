@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$..62"
+            }
+        },
+        "item": "minecraft:iron_pickaxe"
+    },
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:iron_pickaxe"
+    },
+    "type": "nbtcrafting:smithing"
+}

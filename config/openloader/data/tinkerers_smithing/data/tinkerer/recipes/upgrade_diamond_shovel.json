@@ -1,0 +1,19 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:iron_shovel"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:diamond_shovel"
+    },
+    "type": "nbtcrafting:smithing"
+}

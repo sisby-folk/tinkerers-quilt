@@ -293,355 +293,643 @@ file = "config/openloader/data/tinkerers_imp/pack.mcmeta"
 hash = "721a8fca900ba1d2dbaedb6b23771eb4e089ad820be029c3401b925457f611cf"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_axe.json"
-hash = "9c21c8273311900daafdd15bf3cbcacf6a06519380b54801eaf303fc63ef29ab"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_axe.json"
+hash = "1385e5d046ff62ff8e00d5a994004513e4c307399a21c176dcda9ff3065c07f6"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_boots.json"
-hash = "74c1c4dd32ddee04fec9f707bdafdf01c5dd42dd0fe6210eee4742347f7babc2"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_boots.json"
+hash = "d32a7ba70639e876a4cf0a0c455c9a4d4ee04324bc2d04508c6f2f119c7b2dad"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_chestplate.json"
-hash = "f011b0bbb48ce8b4deb7192f8a657fb61218a23e3c0f7752b63b49b5f5153bb8"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_chestplate.json"
+hash = "cfe5b203934125ea1bcb87b9d7ea88e92c1198a2afb5919df90ce4cf2ba7fbff"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_helmet.json"
-hash = "23f7075ba81a83316b178aa84f28ed7b733878a3eb997c4654d715c48ff3a596"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_helmet.json"
+hash = "85db31aa8dceedc090f993329a6ca0139a6e6c6ac834e56506a55e45d8c42085"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_hoe.json"
-hash = "6f30a839759a8e4fba640a3db142958ece6a24231653516256119dd2cfbd2c14"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_hoe.json"
+hash = "617c8563c992330bdac8d257ec7dc2caa624b09ae6c5f89db6d14494aa81076d"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_leggings.json"
-hash = "e70e70ceab195d2f4685140946e63efc7c658f7ab279e8eea68268b3447c3aff"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_leggings.json"
+hash = "00cc3348e4277d98182d03c8bb52fc8c09bcb4fa62deed3b7b92ecc502d025f7"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_pickaxe.json"
-hash = "5df15a10b065fbee66155a33c0a90133ed5f696e971d683496aa8fe500ca23b5"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_pickaxe.json"
+hash = "1fcb2b37d3ee920f90b3cdcd06b4abb7e27437fb2c30f4c737c03a0cccbb721c"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_shovel.json"
-hash = "cfb43486c7e60ff15238ab004f8c9a3a95c931c9a9276ad6ecf75ae48b52fe20"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_shovel.json"
+hash = "1dcfd4affe9c5f040c45f70f9375e805adad31cd6c1b5da7443367741f37b60d"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_diamond_sword.json"
-hash = "105deaa3e7dccc8df2d81c12db649c91b2f3f577f330f443b70be0f437598239"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_diamond_sword.json"
+hash = "5b9ff40c11665918c6e68665ea5bc08b1b7ec19d13562b539a42a84436124f7f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_axe.json"
-hash = "9a4ba319aec49fca31b5a1716f4d3cfee22b89fc13ea1ecc39005b1ec90bd43a"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_axe.json"
+hash = "dd04e0fe6a30606847ca7063b16e8f3cf22351841424072ac27e36224634f37e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_boots.json"
-hash = "b216eb55f0ca397840943f3652c94180dcaccf54a2ea6bae5c4e99421a350dc2"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_boots.json"
+hash = "1b12673cd9afc9a506ab1d31a396e438c5280d26539264efa30d9e3eca5fb562"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_chestplate.json"
-hash = "857c6da89dd3b5d106f55785675b34203bdb9a5965eb9498280d9e3bdcc512f8"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_chestplate.json"
+hash = "d9db5119027a88eb37a58436cad08e0691ae93b25d602eea20a81ede95d9bf2e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_helmet.json"
-hash = "36464bf7f05503b838579b6fb1e91e9735089fbb25007771e3594de1aea6acf7"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_helmet.json"
+hash = "2ffa33049ac9909ca1eeefd73f8e8b7598a8a06465843452a5ec01a330f5ddb2"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_hoe.json"
-hash = "ce7e031c6a1e21b01ba447847ef80386a0710bf6e9d07411b7647e2889585449"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_hoe.json"
+hash = "2d6130df38d1bd22afa8f86d47c99ea3d1a7be611011941239152113ac9c29e8"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_leggings.json"
-hash = "0a862e8616b414eb1ccad9099b96de2ca80adfb533ae03b365bcca4a68dd11f9"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_leggings.json"
+hash = "b1fcb39db4c59746797e909653979e70ba890d08d9fb58cd44fc8f612f1da96d"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_pickaxe.json"
-hash = "333a46ea40740bff96f36e74f2ef99e313011c36155069c49bfa78b5008bf06e"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_pickaxe.json"
+hash = "1ebec4474f674457d6fa2a8eb19a117a9656ce37b0b8b7e7a43abe761f0875ba"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_shovel.json"
-hash = "624f51feb8da86e04bd22fe4ce9711d238c15775e2cf9fd5bf921314135c5b5c"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_shovel.json"
+hash = "891c94ad239097d71d08cfc0df830101f4d2ac0173ace1f1dff03a6c8bf3c8e6"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_golden_sword.json"
-hash = "05e18eab0983f5c0c5c57c521407637eb14c51be1d9c76a32146f44aed2e2964"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_diamond_sword.json"
+hash = "19de6c1a24af91f3111dc3bd84497fdd51afbf005f79a95f9f9be2a8c2f50df5"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_axe.json"
-hash = "4d3a2c1f27f6b79fdc6760dae15d7ab3e66117a7851131b1dca67d662b6fc0a1"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_axe.json"
+hash = "c8ccec330370bc6b1ea3da19870d65872b25813c8f473ca1e7b7b1c468c04e97"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_boots.json"
-hash = "ccbc7f19391bd14088c6a6575ca96243a5c9c95e5468f58e3304b76f5f70569c"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_boots.json"
+hash = "2025a2a89e4b96067572aca5a45d237b0e7f743a436546269f98f34d8dfd938f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_chestplate.json"
-hash = "396f01615930304fb8ffd6eda02e9f049686020c2e5e23edab59cc6383ad59bb"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_chestplate.json"
+hash = "740383144279df4ef28fc3e23e763314aed9e29edf6cf963b8d14ae85cbebbbc"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_helmet.json"
-hash = "ecb5577e59772295dea1a8fcf952c5540743a3acefbae27a4ee55942fc93a2dd"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_helmet.json"
+hash = "3aafae3397533a4197d35970fedc3ea3750080fd8f5618c24739065a950f0de0"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_hoe.json"
-hash = "1998710af6a2c676fceed6782a1d4f718a1c4f853f57a212c6f7ebba95521529"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_hoe.json"
+hash = "a62af40b6eb5c8a38cfb0dc2e15bb7cd464678a27fa6fc3a50aabad08e8846c0"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_leggings.json"
-hash = "e666919d5b0da93c572ae86a40b0c8a9c856371d642be0df802bfcf49d6ceb15"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_leggings.json"
+hash = "41159ccd686f1a27dc3ab7191bd89f922bcc83f93a00eb557a49d488c869ea29"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_pickaxe.json"
-hash = "b90c7f0035cc44a2f652f8600ad4bd0f6e4d385c18ee40bed4f7d401da62d214"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_pickaxe.json"
+hash = "b74bab637179cc1ae92932baca8af5b36e169cabcf51607f043ec7cf3a28ad06"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_shovel.json"
-hash = "81b169f6d75f7d5f392a469520cf334ad583836bee1749be8bab6d1056bb4e28"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_shovel.json"
+hash = "8bcfb9f2ed6ec13bc8a0285541b945bd0994fbd31980fbd417320253e67b080f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_iron_sword.json"
-hash = "c89531c40a957d30180cdd873d3788912f044776930157d2bc7fdb16384756df"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_golden_sword.json"
+hash = "ee0fa363f50652c0b78ce1c55f2eee4a8a0421866f87672691325e80839b92d8"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_axe.json"
-hash = "1411a7f9df038c4d78f8b1f580748689e8475933044b33c16a7304a02423035b"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_axe.json"
+hash = "bc017ff5ca75cfe05288b413a7e19ddf89db9f0b225ab629cb47d1d7aca54096"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_boots.json"
-hash = "4b9559189cd7630bf9f1a18eaf346d12ab7bea4a399bf3fdda1a82d5d8fccc8a"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_boots.json"
+hash = "fd67725f445d576b28060a7e06bbcaebbfc1db45a5dc7376fb62b52f1c6f8c58"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_chestplate.json"
-hash = "ad01e3e0a33e6f86d7920b570953dc8119aa678774910021124f06327998d8b1"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_chestplate.json"
+hash = "91cda0926ea55819fbde31471bb46bf36e755374d66054b927ec751a5e35f6e0"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_helmet.json"
-hash = "eaa8d192051028eb81468b3acc48b91780bbc2a97b7cc8e1ae32aa6004fa3700"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_helmet.json"
+hash = "18a88a87a481cea6d207bf204e742bb12ac796939fc55769ad142faecbc9ee6c"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_hoe.json"
-hash = "ffb5c7abff2a8878af6124eaf4fd29d596df324a6b19179a5d10a25d91cc3c88"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_hoe.json"
+hash = "2ffeaf62c04973a815624a018be5173270616ad83edc45855ac583ab4e901702"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_leggings.json"
-hash = "61e80cd0332a586658d42e5136e99f1244b67b536745925f367ff5ecea2a74cf"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_leggings.json"
+hash = "1a53b73419631de72036bcad4a12418a7645f54589c6a3ad0bc2b06b2a6b3011"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_pickaxe.json"
-hash = "3ab7432698ad04bf85b38dc788fae014e6055431b2fd65048745d565b543c1b9"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_pickaxe.json"
+hash = "1c17b4f5f0e2f4946ebb9789b7d1bcc52624a75114bbf37022da83c2dd11607a"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_shovel.json"
-hash = "d3a7c8b04829a5d329b17f1e6c0f2effdcf0149c00378d2ef865f1d5b1ed2c24"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_shovel.json"
+hash = "8583e08f1abf44ffa6bba390d8afacb283750b2baeb6aaafc1ed286e682c9e6b"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/dework_netherite_sword.json"
-hash = "808785ef7fd2c16bb2bda35031dd8458ed44c8a3163884dca85b1d9f82dccda2"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_iron_sword.json"
+hash = "1618114f35e99f4df9f58a6d826ccd1f0657f2e50d4ee0506465378c3c5ede61"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_axe.json"
-hash = "fbf7b0da478e91f255b1dbd664bb864394bec60945a22d8cc975e21acd5d8ef4"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_axe.json"
+hash = "c7dbea5e764f40c1b15858d4237a99d330231de7b7677029851ad7c01fc14289"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_boots.json"
-hash = "b149e12293eb3210a7c7765666c870b53b9d3ac9ba96cb94141fb53f6fa395db"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_boots.json"
+hash = "e767bb8ee74b2f473c098cc768e811d285e9a35c306b96cb2fc7725bfcc9f4dc"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_chestplate.json"
-hash = "af3e41d651f4bd3bb917aaf151d3f8ce82cfc49e6aeb7b05d52f9e3cb1a81ab8"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_chestplate.json"
+hash = "1955ad095c7a9534dc68d3c9b17e747ef4c08f81817534ae8f2fba774eb708b8"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_helmet.json"
-hash = "37ea6af1366f72b43c6da7403b2c9e2f4508dfbd134a5828b108f93fd1ae678d"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_helmet.json"
+hash = "6955fe7d1e35dded9aaa23419685d08881d2edacd0272a6fc8e15a006df10f0b"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_hoe.json"
-hash = "d774a80b4df0744ac1ce771233ccb61bfac4d85a36d72c82b1107b3f3cc05878"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_hoe.json"
+hash = "1bd6d19888a31cd15b27881fc6abefa1cd11fa46b498b430fcec5aaad09b0947"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_leggings.json"
-hash = "d855926efc6eb5af09beef3a19f8aea56c75b00fd262be29e419686054fded18"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_leggings.json"
+hash = "a2dea54acb83b0c03bfa6430e00d524afb236aa686a2803cea763789c0b7a025"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_pickaxe.json"
-hash = "c8a906d10b8881d554f5f00e8c4e5d218c4b9d1367b69d530630507e600a1db0"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_pickaxe.json"
+hash = "30afff59e4d4f4499abe2128532b2c464ffb5bc08e1d1f6244f00f7e0a1c0588"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_shovel.json"
-hash = "1f143db8143316723ec58381657d345e3bd297111f41f28d188e13abd81a4831"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_shovel.json"
+hash = "cb9822104c989380981fbb0b63485e02b229f2f3221c144057ae7b4b21b57a78"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_diamond_sword.json"
-hash = "a7dc6461845daec30a92632bda220c30a8e281c352512c7a2c593eabfc5d5b85"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_final_netherite_sword.json"
+hash = "8d5dc77e8bbf2027701ff16f6077df7f03d1c1201c4faba6524a11b01e64821a"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_axe.json"
-hash = "c27176c3e666456634608b41c265e1983468edcf74dc8c5d24269fcf698b3a14"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_axe.json"
+hash = "b944ee29a25c784ca5f35459fd4b0e6a5797048aa6f41a80ad130f4c9fe4a426"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_boots.json"
-hash = "6943287b13850d27150836f1af5e42021526a3d14ef526e4e992615669084507"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_boots.json"
+hash = "74773fd799eed87b7eca775c60462eb93524d2c5b1be69b6efb1063de2082687"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_chestplate.json"
-hash = "ebb65d482f76ee05cb675b3e0fd18a4bc44d2bb67fe0ef1e21cdab759a5e6158"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_chestplate.json"
+hash = "ef6f4b99e8533bb2e625eb208de3ec8f5f4b5a7031989ee89b2d73be3b55155f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_helmet.json"
-hash = "df2731f76dc09f373e75b43f0082dc27263d7f4150ebac0c5ffad755a5b61012"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_helmet.json"
+hash = "cdf257e6e2968405c9349a5f5ad44deaff3c4f3ee99eb60b04a7ce8458b2e19a"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_hoe.json"
-hash = "f6c9fcfce849e07b7af5c150a61de46dc7f0fba7853343305f83638d79142ed2"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_hoe.json"
+hash = "3653ed810b0afda9fb62c5dff509d83ac7d440bde92ed4e63eae7ae95d9cb8f7"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_leggings.json"
-hash = "6b181a84c4d50bbe5248adcf643a80178f601e78d6c9e81a9d1f885c39decd53"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_leggings.json"
+hash = "fad1334a6c59b0d7f199f43acb0afcf4b815fff57006767e8f4900781a149134"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_pickaxe.json"
-hash = "1cfd9c0255b32eaa37c82318903fc5d5f6504fb95d43dd74c4d506bb31fea811"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_pickaxe.json"
+hash = "786c71bd6aa6adf8680178dc42d9b95db058d29933fa8a286e975ed99b322a52"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_shovel.json"
-hash = "1d2cfe809f9db7154ef39dc35b00926f9b13213654aafbe86a736031ffb49c15"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_shovel.json"
+hash = "872baadaa4f6a4ac0015ccdebd5542192f5a94130675b70b52ea6c4eeecf28d7"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_golden_sword.json"
-hash = "76c18b403b74d670f6cd93e95491697fdda4cfba7cc9138e13c8709357a97da7"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_golden_sword.json"
+hash = "bb55cd72475a28ce33badb1798466fc6bee8023e78c26fe079cd13bc264afeb9"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_axe.json"
-hash = "36602d01b51b28fe103b9ffc56eed865fbc7ff47cc300a814f7078eaf51a6dd1"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_axe.json"
+hash = "90d56e3aa5491c8d9719c92a59dd8feae0aa3ada1d4a250c59d58012ee2a7e40"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_boots.json"
-hash = "2d37ad511872bdda0f690f35d185bbb9f541f8a82678b4c6827179be6440fa13"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_boots.json"
+hash = "9ed1a33c876985a729fbf6f86f04a9a580f098680d9eed63e5c12877c36b7ce9"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_chestplate.json"
-hash = "8f5759508178446c91b4e0fcd37258b413655867cb935ceef43d0f73209c8ddd"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_chestplate.json"
+hash = "6391105460b886aca89bc080ad5300c00410efdad7c52308d6e24bfdbe6dd4c1"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_helmet.json"
-hash = "9a4d9b97411d9babc521ba57afc783f7e7633c18759d626dc519ef22acf45a84"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_helmet.json"
+hash = "1d95a8d98895735d62a3e9229cd518af2bd5a7affc1b71bff231dadfb375949b"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_hoe.json"
-hash = "4b0d9ce3b0aa5ff982ce6fc13c688b4b8d0d0574744a3735da5b151c81fe80fd"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_hoe.json"
+hash = "1449b2220b31fa452bc781e0a2a2b6f5dde8dcc13b9121abb804bf4c6953249e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_leggings.json"
-hash = "533f972ba0a101efae7903f1e8b427d124240b69e31bbf4b94a892f6f2fac6d1"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_leggings.json"
+hash = "4acad500335648146d9d13e846e7ddc2bac4f5313d7a58755358b11d8003b59f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_pickaxe.json"
-hash = "ee0db8bac27d6a1bf3ba1436f921008143efaa23f882facddf6ed89804cc707d"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_pickaxe.json"
+hash = "1253669fdf444ad7ed9fb21eca62c0f7e583df628ed9c68816de6fc98249d358"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_shovel.json"
-hash = "f67ae370410c5d20f9ce0c486848bc8145a26ced6114143174cc9ebc215fdcb8"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_shovel.json"
+hash = "fceba99e1610c64a2d37bc7408ba198d9fc05f4e520cfb6948e39c5d0feb0b1e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_iron_sword.json"
-hash = "60ed07ecfc1664d16556b6f4cbdbe8ad636c312ae8582b89bfe86f65238aac87"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_iron_sword.json"
+hash = "5b852ad812e40ed1f5b6249d9be5d3b25d357172308d7778151e109de885e7ea"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_axe.json"
-hash = "51efbeb81b6ac9520c5d8443961d06b8ad9f54486c19127c010ca78dec5720c4"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_axe.json"
+hash = "81aa1970a4d42e6cb2224e87974e76fa7632f86e565f0f21e2a86c4f5225dd7f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_boots.json"
-hash = "b8158c6ae75766b6dc9d3a9719f80e42b6219d9781d4b1e0f9cb472a0f5f7e97"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_boots.json"
+hash = "1670763de20de1d093d9c7e72b7c8fced8055884dd7643f8bcd5796bdf55ca7e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_chestplate.json"
-hash = "56da3a151df517d0fab95a7b6fc94d14951e3d93795610a5e9f49acf862e4af7"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_chestplate.json"
+hash = "5e415a218f9917422a42d74e0b9ddfe15848b1612228d9371732e7c9e86e91fa"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_helmet.json"
-hash = "993a0dec716c10ef4b431fd4bf3dacb05d70b82ef2594712dcbe26887dbf6c7a"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_helmet.json"
+hash = "cf4799bfa62c74d2ea03887207b5f2f9fcc82377642b6baf9f509bae7b9db05f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_hoe.json"
-hash = "f8c9664a5c74d3f6b5511ab79be6be266b98ea3ba8d5445d01c9d97203348aae"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_hoe.json"
+hash = "d05a2a99606b4813d333af70693f489b3a80a5bd231e7cb1937c7c30c64e02ca"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_leggings.json"
-hash = "01a5b16f76f141d73a6d962941598abb97f8d733d47df061cd0a84064c6f280f"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_leggings.json"
+hash = "46a5c5d193e0f53a7929e3c6c6b1b3482a94da8b0d497156e26b25797dd83a90"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_pickaxe.json"
-hash = "74bc65fe5531f976d6083328c03670f3bf3047d9e58e551dc1d10b7e19d0fd79"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_pickaxe.json"
+hash = "65d8661a3e14901de656a0280a9900234b25ce340a2c21a878ccc021e04e17b1"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_shovel.json"
-hash = "ec22cf113b0e02c5a55b8111f34a3d6f5b6ec565eaa9d7f81c739dd3cac2f1cd"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_shovel.json"
+hash = "15b761659c5c0fa65d8953bc1e4963298b82ff4a64098d1f2e7a6b12030feaa9"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/repair_netherite_sword.json"
-hash = "70337f4edd685543e8a294ff96de7fbf6df2cf6cbbb3f13d08e2dfe9b1eccd0a"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/dework_netherite_sword.json"
+hash = "d248c5ca33b0b055737d3e4821afb9232a1c360dfc6e5861ea6553c0d77ec965"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_diamond_axe.json"
-hash = "eb686bd546a436a80ee479a078a89463f13dc7220fc344ffe0d06909722539e4"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_axe.json"
+hash = "6724a66e1960acd2d14ae67690e6e65069303f732401fc6d97ae70d811bf1e24"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_diamond_hoe.json"
-hash = "0cab7e2e24669f5d21ca5418739183bd7531d76a1fadefedd8d9f85fac636b86"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_boots.json"
+hash = "feac1c28cd544c3bfd1af13289be9e9ffef52ee16407f5c6f022e8a31f937840"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_diamond_pickaxe.json"
-hash = "0bb7942a18ff9441839a15146309d09e942dc57ba570969df76c273d1f0ef2e4"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_chestplate.json"
+hash = "61ca0f91658ec6fb8d2082d79a9bc70d39daceeaee426bf5a640f32123bdee27"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_diamond_shovel.json"
-hash = "4ea79db6c395492a2d6edf3468841fa289b1a5dace2615c6eb43e4de7d91b6e5"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_helmet.json"
+hash = "92a47594baeb6813250070e4ef4e91722ba2b5d87e4f7ccfb68f787613d50745"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_diamond_sword.json"
-hash = "6c4ce0cb23a662871fc8bcad7b7e8b1e8ab4d3d4e1f90a379cab774e1145c068"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_hoe.json"
+hash = "fa8318eea8a3293519860c22521037cc6c7ebda8ffd31a56d42118d29866daf7"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_golden_axe.json"
-hash = "e84f9159f9a11bbea523b2f970ffa42c4867e3e62f6e89dffeb0396934599f1c"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_leggings.json"
+hash = "6cc9228f8d97837c324b6ed4c60d090d2fa4a13d4a1e665a69f953ed13c2d0f6"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_golden_hoe.json"
-hash = "172dd9b17fdab16b803e78099df39f77cae88a4b6106e569fe3d82e3ddeec278"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_pickaxe.json"
+hash = "f88bbdb3b0c85a77a76663c153b7ff15fa06d970de617c69202647985f187d5c"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_golden_pickaxe.json"
-hash = "cb61a593d9684c87b75b403862d7da940f546c5880d4b070c80f6c7ce0ba4c46"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_shovel.json"
+hash = "88fa0cedb5610fad9394c8ff779bdd5ee0095b327e7f21274e4e06385e5d3630"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_golden_shovel.json"
-hash = "80837b7b8a15ebd6e2dac4ff22a6c32d78d74a851351eaf7e0bf0996d92f0194"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_diamond_sword.json"
+hash = "cece3e61d7d01a93728a1edbe0ba871a91d66234f509989ba91ceb3dcdae144a"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_golden_sword.json"
-hash = "09687c2a38c0d6bc145cef1bcf516d48899a96703b5f81810e50bd37ee49dcc1"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_axe.json"
+hash = "8304c1356336cf2dcba725b03d2e04bf01753b39e938235e6da89359a9729382"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_netherite_axe.json"
-hash = "13844dead2ee5368d86bc0b78c3571a5b9bb07f3c5679b97ee16b4a14bfafc8d"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_boots.json"
+hash = "5def7f09f4be9a822a954f477ef5b03fe4eb45995f88b4f8a3bc8f2ca230644e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_netherite_hoe.json"
-hash = "bf4dadda2ef0666d998ffef0b2ed5888782d16290c6d6647d7d6a05d4f8bbc64"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_chestplate.json"
+hash = "b77a2fc1113bdf9127c5b55b4d4a79e8d02551858df28612392e7e7976c4a5e9"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_netherite_pickaxe.json"
-hash = "3ff82af10331bbd18f79366a5ac68a2e5de7a64171fd0b4cd7dab1c6187d577c"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_helmet.json"
+hash = "5d2eb469b418dca77e32cc2810cd768e0847e75e609c6ff8ea9defc95f46a699"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_netherite_shovel.json"
-hash = "33b7eb57d52f71e80638b604421dd7b31030fee16e2fa274228435aa252245dd"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_hoe.json"
+hash = "05f6c4fab947d14857434bd7c7d398ec77b088bf1288c32c12dd1a26970ce29d"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/data/tinkerer/recipes/upgrade_netherite_sword.json"
-hash = "af4111b7eb76bd855055ad2da3db7dfc136ee887a36586edb5d9a5bb17b925fc"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_leggings.json"
+hash = "f603bcd694af59947665356bac05d0d3922aa229285e8c87d2c22d1dc32d9dc5"
 
 [[files]]
-file = "config/openloader/data/tinkerers_repair/pack.mcmeta"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_pickaxe.json"
+hash = "014084e8dc63e51af8eb4b85bf60f81b016921bb4632aae9943d464f30815659"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_shovel.json"
+hash = "e266b8285db6b1d6314ae74a67e383bdfaa03cd78023575ad604354c969e0cc3"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_diamond_sword.json"
+hash = "f690e3020263d523090d513e5d27a8470c202294fd8423dd4e820eb85c96adf2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_axe.json"
+hash = "6603a59264560a76b9e5d269ecba21261f3e1941627008bd53ebd58c954529be"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_boots.json"
+hash = "4e1717967cd089a8f2d3797805819342ddef9054523da39ef41643e2b1b6ae71"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_chestplate.json"
+hash = "bf6112560928ca024fc38689a46edd471b7b90cf1e364ab8b6f838b78b6fd618"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_helmet.json"
+hash = "9d7e1d5aa01bafd4171681f461780b082ea101d877b661f5d1cdc7e78529eccf"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_hoe.json"
+hash = "033a92b84365b2f254af135107d062107ee59469431f11604a634ff1836d9d37"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_leggings.json"
+hash = "bca7f9cf0ac16f5f2b68452b0c2b9434546b66b05314171a979c4e4e24ac041b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_pickaxe.json"
+hash = "ad8cdb56ff6cadddc82793996c5ffcccb56949830af1fff182bca387d9c314c7"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_shovel.json"
+hash = "2ad3a1d75bd758775aaaf9c77f17bdb6c79ddee27b3914aafe90005d540fcf78"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_golden_sword.json"
+hash = "bba2c828c3f45b84c0953b422cc335655e8c164ad1fef5ec08729dbdff490737"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_axe.json"
+hash = "50917f1d89e02fc25034055694c55db508fce63b15e26cada78178acfcb2efab"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_boots.json"
+hash = "158feaf3f8c1f8988d05a54fdb34ce4dcc9fd6842f06ce3de062a38547abef5b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_chestplate.json"
+hash = "f54600f7438ee245877c32044bde1d9aacf0723685975b73a300febb337f1f88"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_helmet.json"
+hash = "0dfde670f88cd71c8cf6090dbaeb24ae9d8af730001c708f0085bd068dd90ccc"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_hoe.json"
+hash = "2515e1818d42e89bcc032af161d7f1b9af771c124953ce60a53223d972815606"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_leggings.json"
+hash = "027151ff2b0d526751e348545b85e7c5636f595254254f44a6398a3b499fad9d"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_pickaxe.json"
+hash = "bf0d4535379681180e72ca9dde1a63c979c5640b7fe168281e40735db0c066e8"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_shovel.json"
+hash = "19db91ba2f896494194782f7b6cce839826085ded906d78e705e2337ed937950"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_iron_sword.json"
+hash = "f9587cc25c379ebdcda460edf9f5378d0d5ff9bd73e48e94860c9a7324dc59f9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_axe.json"
+hash = "48e7b3106f7ff7937845cd5e107737de97f04ca93ea6c651e2ffa43e08de87aa"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_boots.json"
+hash = "0baef3a6ed1cc5bfda8d507ae720826d63e92c0b0ed9dbdb7b91a2b2f81e621a"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_chestplate.json"
+hash = "ffb4bc177dec435d95eeff1b101a3cf38e20161cd0aad25467618b197509125f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_helmet.json"
+hash = "4cfeb09d9f382afdfec685fd1cce4b5e832e24bce51be2e69ec8de27f7304246"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_hoe.json"
+hash = "cbb82ff5b27b73a6d96c19543351f520f2b037356be0417af4d047324e54f95f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_leggings.json"
+hash = "9be49d722f06b33ddfa24187a0245aedfd0aba79a70616434a02f4953b383170"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_pickaxe.json"
+hash = "a0caccbe7f4255a119dc7265eb352d7ae192be4710210553e2db7a83c69aaff2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_shovel.json"
+hash = "cd2938200969ad24a4040c16fbe1de6819b4b723793f7d3d8f0ab4e45cd75c88"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_final_netherite_sword.json"
+hash = "fd6e51f5b66857308f0a18f81ccbe2afcdfb3b30a867b29b38c82570d41cb418"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_axe.json"
+hash = "e0cfbfbb4570e8d2ae20d3a635430281101877e1c0b58753efe93e8ca4e22600"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_boots.json"
+hash = "4d2b08e087dd64e49ea6c99c75df89dc455ddd15fe27f6dcc3454c70b0868f27"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_chestplate.json"
+hash = "a59f9363ff10f33f9be29e9386cdd4d6c6788aa1cd705a5140e9e6bf12ddae47"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_helmet.json"
+hash = "d948452136f3bf69011542275ea7ee7dd1e7ef93491ae3d214de6970bebe6a55"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_hoe.json"
+hash = "81bf61aad3b2a2f4551d736576435260428c1f3ed78d89e17827aa5316e215e6"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_leggings.json"
+hash = "6ac0e22d9c6633f3a7092caf6144b9d63570ce761d424b82560324654444a04b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_pickaxe.json"
+hash = "3543656028795075b3656735bf5e34a43721031b230ef9c43543f852e69087b1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_shovel.json"
+hash = "68020552170ced517bf6b2f5d63ea67041aa842a696c9b232474ff107c0455d7"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_golden_sword.json"
+hash = "6d132fb0e71730702169b71a7b95332cdb5d708233e76b1943f9a9ceea6488db"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_axe.json"
+hash = "398ce6d8aedd7e0559705dd3889ab1b3443bc80a1d046a2b39eb150906eae111"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_boots.json"
+hash = "f395794fde5f5e464179251896bbe72fbb1022a5df7d9b28c053ab1e9940d738"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_chestplate.json"
+hash = "8a5bc1cb91b1fbc0c42b41cab5cab1897cf5582aad77aa4863df1cc75843980c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_helmet.json"
+hash = "dc0673c6df9827f948f9641d3551bb7a0fa90ed59af85db599ac8679620a4ffd"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_hoe.json"
+hash = "3f4ed1c64a05f379c0d3a5554ce13745911efb371773d082364e97efe3a51339"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_leggings.json"
+hash = "9359bfa5495dcf952757be2194c3bfb6e1a64126141fe38899c2e792d9f8970f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_pickaxe.json"
+hash = "4c394ef8dd53bcc8b4676f4258214b138c97e0a415ee7aa695396e05bc733863"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_shovel.json"
+hash = "c8e97782dcb90c4de7d1ff47a5ba70a56740fb1fef9bdd0cb51a99ac0a73fbd1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_iron_sword.json"
+hash = "636224144f6e5f073d403c5f6936a6e78cd42deeccf84a1ea011df980c40e3a2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_axe.json"
+hash = "d95cc08f2b7b7e08fa0fb394312708d9c6b81e0338f73337d71e0335cf377c1c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_boots.json"
+hash = "9f0e83eedd093b09adee2d38b49b5148a8f8f1d495d9d7b9e1a45f80b4181eac"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_chestplate.json"
+hash = "e9dbe88373166e5895208f94a7780c181d92567f7688fbd50c4b58d61750fc54"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_helmet.json"
+hash = "08a44bca11c61f851cecd6531504a70cabe29c89ab03df192e95897a6be96375"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_hoe.json"
+hash = "651aeb12a5b14e3f3f6d321b8fbbc86280b30b01dc507a75e28621d6ed83e8b8"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_leggings.json"
+hash = "1ff55300a61df6d1fb278ed8ed097dbd335eebc5295beb8cae23c09131f32487"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_pickaxe.json"
+hash = "4407165e6c7f2bf5d5067a53a2ab32c2fa471318ffe79255695ca3fbf2571859"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_shovel.json"
+hash = "18ccf31d7139882f8585b688b8ccbd5f42ad0f6419534ce514959a22284695c5"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/repair_netherite_sword.json"
+hash = "14e5ec80c84faf40385dc3b8bd6daa52d06099e35b47ac61922c8ea263571e11"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_diamond_axe.json"
+hash = "7b4847eebec62301f8dba9631741b6d2e6cecd2130e3e8382cd4d2933a2af361"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_diamond_hoe.json"
+hash = "b178c51b2d2e7060d9695ea1ef26f92b3a907650b0fb2001d814e795ec52e827"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_diamond_pickaxe.json"
+hash = "ec2d8933b7d6e9609ac7aa7576d100b9b71ca6c3f82d23ca887f1c6a72eb28ff"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_diamond_shovel.json"
+hash = "6501034214578cce6386e1bb6167f34432bfd40afd40c67aab4b3e4f827b01b8"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_diamond_sword.json"
+hash = "5aaeed0f8e84bd5462c30b9a5c34566e5b7bd02923f920cac726ec70b8a6e345"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_golden_axe.json"
+hash = "a91c573e923043dccdf1a14c274eecb4345cef0cbaa0caa1c0462697f18f453a"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_golden_hoe.json"
+hash = "6f1fab6777c21ae751e2dea37afffa0f6161c23bd9c4362e23267aa2f988ad48"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_golden_pickaxe.json"
+hash = "ebe6407ff8c71529d3db6f5a9019dad0ebe66853a2018c5640e802df38e06ad9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_golden_shovel.json"
+hash = "3820b90e2caaef5997476c73b3a7724da34042ec95a58a4bc37c55c89fd201b1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_golden_sword.json"
+hash = "a55cc594fd22d41f564435f4960b973ba809e1140455c1e1612048f89352dd94"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_axe.json"
+hash = "c3f853d8e68cb8236bedc731f837fa391feef372bf7e3073c88eafc8b1d90ec0"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_hoe.json"
+hash = "3b4b1ec731a37fe9ede4db8e4687882e60760f2101c7238a43015ae39c9ce7cf"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_pickaxe.json"
+hash = "18d0c0d7161cae4e7de548346ab19e0d5c61b0eb8dce1af139f8220696e54993"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_shovel.json"
+hash = "90e761aca31e973b24a8c0870959534fd6411fd9f71b9c2369b18fe464026b54"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_sword.json"
+hash = "49543943d53baee6f2c2842be2a50c3a9b3670047d029cd63de1d19b33e0ecfc"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/pack.mcmeta"
 hash = "6f5512fffebdd4c30d0157c498282abab5aa34488cac82669490d1604a28dee2"
 
 [[files]]
