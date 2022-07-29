@@ -12,7 +12,7 @@ All packs run on Minecraft 1.18.2 and the **Quilt** mod loader
 ---
 
 The three editions are as follows
-- **Tinkerer's Quilt ("Base")** is the heart of all this. It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
+- [Released] **Tinkerer's Quilt ("Base")** is the heart of all this. It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
   - Designed to **teach you vanilla** through **fully in-game** quests and item info - you'll never need to open the wiki.
   - Built with a curated set of Quality of Life (QoL) improvements to ease the pains of vanilla.
   - **Easier than vanilla** with expressive origins, simplified enchanting/repair, and helpful quest rewards.
@@ -21,12 +21,12 @@ The three editions are as follows
 **Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
 The rest of this document focuses on Base, so here's a quick breakdown:
 
-- **Plus** is a Vanilla+ extension of base, including all of its quests.
+- [WIP] **Plus** is a Vanilla+ extension of base, including all of its quests.
   - Plus adds mods that expand on the **Godseeking** fields from base:
     - **Homesteading** - More farming/ranching, _way_ more cooking, more building blocks, and more decorations.
     - **Exploration** - More traversal options, new nether/end, new biomes, new structures, and a seasonal world.
     - **Combat** - Spears, chef's knives, and... compact mechanically propelled halfdoors? Plus new dungeons.
-- **Modded** a simple extension of plus, adding personal favourite major mods
+- [WIP] **Modded** a simple extension of plus, adding personal favourite major mods
   - Each mod is larger, with a complex progression equivalent to Base's **The Basics** tree, and then some.
   - **Botania** - Collect mana, power magic flowers, and study the elves in this beautifully simple magi-tech mod.
   - **Create** - Build steampunk masses of driveshafts, pistons, and conveyors in this larger-than-life old-tech mod.
