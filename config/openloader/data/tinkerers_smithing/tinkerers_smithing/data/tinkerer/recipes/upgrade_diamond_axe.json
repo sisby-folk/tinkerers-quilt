@@ -1,0 +1,19 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:iron_axe"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$780"
+        },
+        "item": "minecraft:diamond_axe"
+    },
+    "type": "nbtcrafting:smithing"
+}

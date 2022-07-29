@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "RepairCost": 1
+            }
+        },
+        "item": "minecraft:golden_leggings"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "RepairCost": "$0"
+        },
+        "item": "minecraft:golden_leggings"
+    },
+    "type": "nbtcrafting:smithing"
+}

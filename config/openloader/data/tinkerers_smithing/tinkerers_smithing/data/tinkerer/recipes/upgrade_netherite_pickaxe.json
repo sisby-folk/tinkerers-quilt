@@ -1,0 +1,19 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$1015"
+        },
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "type": "nbtcrafting:smithing"
+}

@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$42.."
+                "Damage": "$57.."
             }
         },
         "item": "minecraft:iron_helmet"
@@ -13,7 +13,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$base.Damage - 42"
+            "Damage": "$base.Damage - 57"
         },
         "item": "minecraft:iron_helmet"
     },

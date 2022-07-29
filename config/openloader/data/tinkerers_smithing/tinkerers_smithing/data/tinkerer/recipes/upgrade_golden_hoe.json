@@ -1,0 +1,19 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:iron_hoe"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$8"
+        },
+        "item": "minecraft:golden_hoe"
+    },
+    "type": "nbtcrafting:smithing"
+}

@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$508.."
+            }
+        },
+        "item": "minecraft:netherite_shovel"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$base.Damage - 508"
+        },
+        "item": "minecraft:netherite_shovel"
+    },
+    "type": "nbtcrafting:smithing"
+}

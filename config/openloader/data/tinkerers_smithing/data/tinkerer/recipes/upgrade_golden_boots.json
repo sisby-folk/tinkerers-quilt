@@ -1,0 +1,19 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_boots"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$24"
+        },
+        "item": "minecraft:golden_boots"
+    },
+    "type": "nbtcrafting:smithing"
+}

@@ -1,0 +1,24 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:stone_hoe"
+        },
+        {
+            "tag": "minecraft:stone_tool_materials"
+        },
+        {
+            "tag": "minecraft:stone_tool_materials"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$i0.Damage"
+        },
+        "item": "minecraft:stone_hoe"
+    },
+    "type": "crafting_shapeless"
+}

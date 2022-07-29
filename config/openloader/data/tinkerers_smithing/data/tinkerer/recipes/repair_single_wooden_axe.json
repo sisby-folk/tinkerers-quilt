@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {
+                    "Damage": "$15.."
+                }
+            },
+            "item": "minecraft:wooden_axe"
+        },
+        {
+            "tag": "minecraft:planks"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$base.Damage - 15"
+        },
+        "item": "minecraft:wooden_axe"
+    },
+    "type": "crafting_shapeless"
+}

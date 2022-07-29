@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$..90"
+            }
+        },
+        "item": "minecraft:diamond_chestplate"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$0"
+        },
+        "item": "minecraft:diamond_chestplate"
+    },
+    "type": "nbtcrafting:smithing"
+}

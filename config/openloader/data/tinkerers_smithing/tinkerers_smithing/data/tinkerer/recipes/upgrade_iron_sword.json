@@ -1,0 +1,24 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:stone_sword"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$i0.Damage"
+        },
+        "item": "minecraft:iron_sword"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

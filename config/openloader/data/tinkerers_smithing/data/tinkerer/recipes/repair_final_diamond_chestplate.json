@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$..131"
+                "Damage": "$..90"
             }
         },
         "item": "minecraft:diamond_chestplate"

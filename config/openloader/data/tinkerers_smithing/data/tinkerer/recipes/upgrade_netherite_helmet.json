@@ -1,0 +1,19 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_helmet"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$2031"
+        },
+        "item": "minecraft:netherite_helmet"
+    },
+    "type": "nbtcrafting:smithing"
+}

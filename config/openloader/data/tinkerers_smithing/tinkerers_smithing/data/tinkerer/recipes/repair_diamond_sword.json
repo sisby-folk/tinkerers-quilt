@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$391.."
+            }
+        },
+        "item": "minecraft:diamond_sword"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$base.Damage - 391"
+        },
+        "item": "minecraft:diamond_sword"
+    },
+    "type": "nbtcrafting:smithing"
+}

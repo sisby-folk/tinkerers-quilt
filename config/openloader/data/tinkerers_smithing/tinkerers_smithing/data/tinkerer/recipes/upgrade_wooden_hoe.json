@@ -1,0 +1,24 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:iron_hoe"
+        },
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "tag": "minecraft:planks"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$i0.Damage"
+        },
+        "item": "minecraft:wooden_hoe"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

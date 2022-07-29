@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$27.."
+                "Damage": "$28.."
             }
         },
         "item": "minecraft:golden_leggings"
@@ -13,7 +13,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$base.Damage - 27"
+            "Damage": "$base.Damage - 28"
         },
         "item": "minecraft:golden_leggings"
     },

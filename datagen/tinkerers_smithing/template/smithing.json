@@ -4,8 +4,6 @@
     "item": "{{ base_item }}",
     "data": {
       "require": {
-        "Damage": "{{ base_require_damage }}",
-        "RepairCost": "{{ base_require_repaircost }}"
       }
     }
   },
@@ -15,9 +13,7 @@
   "result": {
     "item": "{{ result_item }}",
     "data": {
-      "$": "$base",
-      "Damage": "{{ result_damage }}",
-      "RepairCost": "{{ result_repaircost }}"
+      "$": "$i0"
     }
   }
 }
