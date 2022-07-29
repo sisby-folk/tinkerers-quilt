@@ -7,7 +7,6 @@
     },
     "result": {
         "data": {
-            "$": "base",
             "Damage": "$base.Damage - 391"
         },
         "item": "minecraft:diamond_sword"

@@ -7,7 +7,6 @@
     },
     "result": {
         "data": {
-            "$": "base",
             "Damage": "$base.Damage - 23"
         },
         "item": "minecraft:golden_boots"

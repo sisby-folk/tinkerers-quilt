@@ -9,7 +9,7 @@
     "result": {
         "item": "{{ item }}",
 		"data": {
-			"RepairCost": "$(base.RepairCost + 1)/2"
+			"RepairCost": "$((base.RepairCost + 1)/2)-1"
 		}
     }
 }

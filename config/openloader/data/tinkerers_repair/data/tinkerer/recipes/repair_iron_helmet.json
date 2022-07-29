@@ -7,7 +7,6 @@
     },
     "result": {
         "data": {
-            "$": "base",
             "Damage": "$base.Damage - 42"
         },
         "item": "minecraft:iron_helmet"
