@@ -12,7 +12,7 @@
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "RepairCost": "$((base.RepairCost + 1)/2)-1"
         },
         "item": "minecraft:diamond_helmet"

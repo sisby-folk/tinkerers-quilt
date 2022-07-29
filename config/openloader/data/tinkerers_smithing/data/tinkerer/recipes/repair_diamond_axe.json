@@ -12,7 +12,7 @@
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$base.Damage - 391"
         },
         "item": "minecraft:diamond_axe"

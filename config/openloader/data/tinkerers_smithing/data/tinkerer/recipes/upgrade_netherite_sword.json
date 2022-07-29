@@ -3,14 +3,14 @@
         "data": {
             "require": {}
         },
-        "item": "minecraft:golden_sword"
+        "item": "minecraft:diamond_sword"
     },
     "ingredient": {
         "item": "minecraft:netherite_ingot"
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$507"
         },
         "item": "minecraft:netherite_sword"

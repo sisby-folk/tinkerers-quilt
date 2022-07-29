@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$66.."
+                    "Damage": "$88.."
                 }
             },
             "item": "minecraft:stone_pickaxe"
@@ -18,9 +18,9 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$base.Damage - 66"
+            "Damage": "$i0.Damage - 88"
         },
         "item": "minecraft:stone_pickaxe"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }

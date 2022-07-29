@@ -3,14 +3,14 @@
         "data": {
             "require": {}
         },
-        "item": "minecraft:golden_shovel"
+        "item": "minecraft:iron_shovel"
     },
     "ingredient": {
         "item": "minecraft:gold_ingot"
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$0"
         },
         "item": "minecraft:golden_shovel"

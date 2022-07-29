@@ -3,14 +3,14 @@
         "data": {
             "require": {}
         },
-        "item": "minecraft:golden_axe"
+        "item": "minecraft:diamond_axe"
     },
     "ingredient": {
         "item": "minecraft:netherite_ingot"
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$1015"
         },
         "item": "minecraft:netherite_axe"

@@ -3,14 +3,14 @@
         "data": {
             "require": {}
         },
-        "item": "minecraft:golden_hoe"
+        "item": "minecraft:diamond_hoe"
     },
     "ingredient": {
         "item": "minecraft:netherite_ingot"
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$507"
         },
         "item": "minecraft:netherite_hoe"

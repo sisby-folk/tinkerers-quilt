@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$..44"
+                    "Damage": "$..58"
                 }
             },
             "item": "minecraft:wooden_pickaxe"
@@ -25,5 +25,5 @@
         },
         "item": "minecraft:wooden_pickaxe"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }

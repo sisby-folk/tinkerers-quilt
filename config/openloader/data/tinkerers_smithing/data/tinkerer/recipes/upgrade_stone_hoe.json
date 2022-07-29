@@ -4,7 +4,7 @@
             "data": {
                 "require": {}
             },
-            "item": "minecraft:stone_hoe"
+            "item": "minecraft:wooden_hoe"
         },
         {
             "tag": "minecraft:stone_tool_materials"
@@ -20,5 +20,5 @@
         },
         "item": "minecraft:stone_hoe"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }

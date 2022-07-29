@@ -12,7 +12,7 @@
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$base.Damage - 8"
         },
         "item": "minecraft:golden_shovel"

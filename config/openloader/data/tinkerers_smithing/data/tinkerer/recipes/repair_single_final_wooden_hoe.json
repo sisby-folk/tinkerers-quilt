@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$..14"
+                    "Damage": "$..29"
                 }
             },
             "item": "minecraft:wooden_hoe"
@@ -19,5 +19,5 @@
         },
         "item": "minecraft:wooden_hoe"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }

@@ -4,7 +4,7 @@
             "data": {
                 "require": {}
             },
-            "item": "minecraft:stone_axe"
+            "item": "minecraft:wooden_axe"
         },
         {
             "tag": "minecraft:stone_tool_materials"
@@ -23,5 +23,5 @@
         },
         "item": "minecraft:stone_axe"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }

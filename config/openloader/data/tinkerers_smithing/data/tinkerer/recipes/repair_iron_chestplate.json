@@ -12,7 +12,7 @@
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$base.Damage - 42"
         },
         "item": "minecraft:iron_chestplate"

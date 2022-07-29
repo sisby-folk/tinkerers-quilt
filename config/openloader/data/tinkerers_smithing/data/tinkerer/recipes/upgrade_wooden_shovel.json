@@ -4,7 +4,7 @@
             "data": {
                 "require": {}
             },
-            "item": "minecraft:stone_shovel"
+            "item": "minecraft:iron_shovel"
         },
         {
             "tag": "minecraft:planks"
@@ -17,5 +17,5 @@
         },
         "item": "minecraft:wooden_shovel"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }

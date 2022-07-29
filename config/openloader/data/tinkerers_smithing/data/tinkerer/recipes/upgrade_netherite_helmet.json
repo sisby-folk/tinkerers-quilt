@@ -3,14 +3,14 @@
         "data": {
             "require": {}
         },
-        "item": "minecraft:golden_helmet"
+        "item": "minecraft:diamond_helmet"
     },
     "ingredient": {
         "item": "minecraft:netherite_ingot"
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$2031"
         },
         "item": "minecraft:netherite_helmet"

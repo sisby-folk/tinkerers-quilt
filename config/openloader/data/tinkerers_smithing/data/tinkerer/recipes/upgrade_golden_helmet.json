@@ -3,14 +3,14 @@
         "data": {
             "require": {}
         },
-        "item": "minecraft:golden_helmet"
+        "item": "minecraft:iron_helmet"
     },
     "ingredient": {
         "item": "minecraft:gold_ingot"
     },
     "result": {
         "data": {
-            "$": "$base",
+            "$": "$i0",
             "Damage": "$32"
         },
         "item": "minecraft:golden_helmet"

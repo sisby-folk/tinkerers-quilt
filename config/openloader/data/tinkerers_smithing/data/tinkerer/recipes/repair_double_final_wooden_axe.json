@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$..29"
+                    "Damage": "$..39"
                 }
             },
             "item": "minecraft:wooden_axe"
@@ -22,5 +22,5 @@
         },
         "item": "minecraft:wooden_axe"
     },
-    "type": "crafting_shapeless"
+    "type": "minecraft:crafting_shapeless"
 }
