@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "{{ ingredients_0_item }}",
+      "data": {
+        "require": {
+        }
+      }
+    }
+  ],
+  "result": {
+    "item": "{{ result_item }}",
+    "data": {
+      "$": "$base",
+      "Damage": "{{ result_damage }}"
+    }
+  }
+}

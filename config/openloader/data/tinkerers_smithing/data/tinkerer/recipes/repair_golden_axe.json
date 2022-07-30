@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$8.."
+            }
+        },
+        "item": "minecraft:golden_axe"
+    },
+    "ingredient": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$base.Damage - 8"
+        },
+        "item": "minecraft:golden_axe"
+    },
+    "type": "nbtcrafting:smithing"
+}

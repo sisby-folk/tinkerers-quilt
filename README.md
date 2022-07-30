@@ -12,7 +12,7 @@ All packs run on Minecraft 1.18.2 and the **Quilt** mod loader
 ---
 
 The three editions are as follows
-- **Tinkerer's Quilt ("Base")** is the heart of all this. It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
+- [Released] **Tinkerer's Quilt ("Base")** is the heart of all this. It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
   - Designed to **teach you vanilla** through **fully in-game** quests and item info - you'll never need to open the wiki.
   - Built with a curated set of Quality of Life (QoL) improvements to ease the pains of vanilla.
   - **Easier than vanilla** with expressive origins, simplified enchanting/repair, and helpful quest rewards.
@@ -21,12 +21,12 @@ The three editions are as follows
 **Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
 The rest of this document focuses on Base, so here's a quick breakdown:
 
-- **Plus** is a Vanilla+ extension of base, including all of its quests.
+- [WIP] **Plus** is a Vanilla+ extension of base, including all of its quests.
   - Plus adds mods that expand on the **Godseeking** fields from base:
     - **Homesteading** - More farming/ranching, _way_ more cooking, more building blocks, and more decorations.
     - **Exploration** - More traversal options, new nether/end, new biomes, new structures, and a seasonal world.
     - **Combat** - Spears, chef's knives, and... compact mechanically propelled halfdoors? Plus new dungeons.
-- **Modded** a simple extension of plus, adding personal favourite major mods
+- [WIP] **Modded** a simple extension of plus, adding personal favourite major mods
   - Each mod is larger, with a complex progression equivalent to Base's **The Basics** tree, and then some.
   - **Botania** - Collect mana, power magic flowers, and study the elves in this beautifully simple magi-tech mod.
   - **Create** - Build steampunk masses of driveshafts, pistons, and conveyors in this larger-than-life old-tech mod.
@@ -105,9 +105,11 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
    - [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) - Hides and removes advancements - quests and [EMI](https://modrinth.com/mod/emi) covers all you need.
  - Six data packs: (use [this](https://download-directory.github.io) for downloads)
    - [Tinkerer's Statures](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_statures) (Origins) - allows choosing player height on spawn.
-   - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) - "Vegetarian" (no killing passive mobs) recipes for potions, leather, books, and more.
-   - [Tinkerer's Repair](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_repair) - Repair at a smithing table with no XP cost, and revert prior work using netherite scrap.
+   - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
+   - [Tinkerer's Smithing](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_smithing) (NBT) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.
      - Flattens mending power creep, encouraging players to keep "Sentimental" tools as much as they like.
+     - Tool material upgrades cost the exact same as a fresh tool - but keep the enchantments.
+     - Quicker tools with less waste - upgrade wood to stone to iron from the 2x2 crafting grid.
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
    - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins/+classes descriptions.
    - Tinkerer's [Vampire](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vampire)/[Imp](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_imp)/[Dryad](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_dryad) (Origins) - Mods of others' origins. Some small, some not - more planned.
@@ -175,7 +177,6 @@ Letting players express themselves with player customisation, builds, and even t
 
  - [Smithing/Vegetarian recipes aren't in EMI](https://github.com/Siphalor/nbt-crafting/issues/114)
  - [Petting mobs stops working randomly](https://github.com/Ellivers/Pettable/issues/4)
- - [Feature Request: Show repair cost](https://github.com/Queerbric/Inspecio/issues/81)
  - [Glow lichen says "Harvestable"](https://gitlab.com/ENDERZOMBI102/wthit-plugins/-/issues/5)
  - [Fogbox doesn't box fog](https://github.com/LudoCrypt/Fogbox/issues/6)
  - [EMI can't be accessed from quests](https://github.com/FTBTeam/FTB-Mods-Issues/issues/312)
