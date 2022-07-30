@@ -2296,11 +2296,6 @@ hash = "b17d25b273caec976c340d196d09482b908d8ae43e389132c787714100ea8186"
 metafile = true
 
 [[files]]
-file = "mods/repurposed-structures-fabric.pw.toml"
-hash = "08b91d64595d30ae8d99da996701f53c029a53333fec70d5dbba0cd8b31dcd31"
-metafile = true
-
-[[files]]
 file = "mods/reroll.pw.toml"
 hash = "dc8ef389dc9b6a1ee2b6f88e8855d2b7de753375aab7f4c87ba0be49f5074035"
 metafile = true
