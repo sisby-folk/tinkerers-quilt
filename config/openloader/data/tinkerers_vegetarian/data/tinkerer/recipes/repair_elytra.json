@@ -12,7 +12,7 @@
         "item": "minecraft:elytra",
 		"data": {
 			"$": "i0",
-			"Damage": "$i0.Damage - 108"
+			"smithing": "$i0.Damage - 108"
 		},
 		"count": 1
     }

@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$..62"
+            }
+        },
+        "item": "minecraft:iron_shovel"
+    },
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$0"
+        },
+        "item": "minecraft:iron_shovel"
+    },
+    "type": "nbtcrafting:smithing"
+}

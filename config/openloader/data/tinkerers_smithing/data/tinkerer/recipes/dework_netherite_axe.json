@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "RepairCost": "$2.."
+            }
+        },
+        "item": "minecraft:netherite_axe"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "data": {
+            "$": "$i0",
+            "RepairCost": "$((base.RepairCost + 1)/2)-1"
+        },
+        "item": "minecraft:netherite_axe"
+    },
+    "type": "nbtcrafting:smithing"
+}
