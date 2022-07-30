@@ -4,13 +4,16 @@
             "data": {
                 "require": {}
             },
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:wooden_axe"
         },
         {
-            "tag": "minecraft:planks"
+            "item": "minecraft:gold_ingot"
         },
         {
-            "tag": "minecraft:planks"
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
         }
     ],
     "result": {
@@ -18,7 +21,7 @@
             "$": "$base",
             "Damage": "$i0.Damage"
         },
-        "item": "minecraft:wooden_sword"
+        "item": "minecraft:gold_axe"
     },
     "type": "minecraft:crafting_shapeless"
 }

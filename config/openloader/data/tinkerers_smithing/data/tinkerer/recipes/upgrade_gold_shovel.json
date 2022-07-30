@@ -4,10 +4,10 @@
             "data": {
                 "require": {}
             },
-            "item": "minecraft:iron_shovel"
+            "item": "minecraft:wooden_shovel"
         },
         {
-            "tag": "minecraft:planks"
+            "item": "minecraft:gold_ingot"
         }
     ],
     "result": {
@@ -15,7 +15,7 @@
             "$": "$base",
             "Damage": "$i0.Damage"
         },
-        "item": "minecraft:wooden_shovel"
+        "item": "minecraft:gold_shovel"
     },
     "type": "minecraft:crafting_shapeless"
 }

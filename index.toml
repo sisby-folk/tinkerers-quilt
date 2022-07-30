@@ -1073,6 +1073,26 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_
 hash = "bb9b26b34d496c9133f33327ac54e2affc4de5fbaccfeb494dd1436b0f7d0bda"
 
 [[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_gold_axe.json"
+hash = "609552fa6af5f6fcdd1370f40cd064331faa827c3de392ebc3c4b4b60d4c333c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_gold_hoe.json"
+hash = "d27e8e478b52a4316a873c0711f9b7ad2bf9abcc42036465245494f992cc859b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_gold_pickaxe.json"
+hash = "ed12600139c85c623684712dffc2080a280f48c3b77d17396f41489b9e3096d5"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_gold_shovel.json"
+hash = "39efdf82c3b0a3c2be915e628a615186687eeeed036ef09249b27840a4813483"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_gold_sword.json"
+hash = "c1be88d125fbd557db6e75c45d8df682f17f199722c37545c0ab4ab2bd131b88"
+
+[[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_golden_axe.json"
 hash = "e3574067543fa90c1469eccfe6e43879e874c4e9847e2c8f4319c9af1ee8d7a6"
 
@@ -1121,34 +1141,6 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_
 hash = "9de90dd174d218340f4718406af858dc0333c9dc3ddd9a2e35fb00d11be913fc"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_axe.json"
-hash = "574b5b46e5593b20cceeb958f63ee28d8091130675df97d7e7d07a46d5d56527"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_boots.json"
-hash = "b87c0e5ce8be48d71eb6462bd1d0551bd95b3195a331a53b5e1d5405e2a56400"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_helmet.json"
-hash = "c8717d4a8bda591b5d0c493dad62c41c3b058618bbb90097737e0c2364a09f5b"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_hoe.json"
-hash = "7c8b75875ec7da762e525dc19febc1fb2a3271fbc62ef4f6df8af39e36681840"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_pickaxe.json"
-hash = "6d41fefd878f6d3d10d99c7c7dcc776e50074b40618d4bb2122cb56d6c47eed9"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_shovel.json"
-hash = "401296d61c4588d7beea521a6d7cae23374264920d26e9009f964b3f0fe48f73"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_netherite_sword.json"
-hash = "085f6d7044915770c97ae09bdf3381ef5de3afaff1e4a72738b20e47e7e4cee4"
-
-[[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_stone_axe.json"
 hash = "9c7c5bb39a5da218539e20713208b878cc4740f08159978540c9a4fb7be04413"
 
@@ -1169,28 +1161,8 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_
 hash = "88898d74b67c57cc25d7db885ed9c2096b580f2201d44823b07e8ff49d4fd44f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_wooden_axe.json"
-hash = "86cf481ef7b75493b5eea4942683b72576f5443803d28a22612359749df51ce6"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_wooden_hoe.json"
-hash = "3954b37513bd2b1f4175ccad627e2665704d90add61ca33c4f8595297f54d293"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_wooden_pickaxe.json"
-hash = "d1818937c057a7f7df6f354dd71c1832e07b71d19766b6076779d4df08f40fe7"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_wooden_shovel.json"
-hash = "2741bbe6a86dee0a4b8130e5a49c52ca84649134784a050169441706394ca360"
-
-[[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/upgrade_wooden_sword.json"
-hash = "b774099ff1c553675fd8f0d2f7690df51501db6cacbc7f244c7af2bff67eb308"
-
-[[files]]
 file = "config/openloader/data/tinkerers_smithing/pack.mcmeta"
-hash = "0add77fe0d946b7a1221658b418462090b74eac4187d247f920e8b4d93db3ef6"
+hash = "6f5512fffebdd4c30d0157c498282abab5aa34488cac82669490d1604a28dee2"
 
 [[files]]
 file = "config/openloader/data/tinkerers_statures/data/origins/origin_layers/stature.json"
@@ -1837,7 +1809,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "1ccfd677a7cb6b2f5ab58f7b4b631f3c4974bf597111d3a8700036a811518b4c"
+hash = "65efafb323233165e3c6f5d7bb080724adfcf3dde3403e6406330b8e0e42f6a8"
 metafile = true
 
 [[files]]
