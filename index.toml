@@ -1729,6 +1729,10 @@ file = "mods/TConstruct-1.18.2-3.5.1.DEV.04887b6.jar"
 hash = "1f2b5c4e04b2104c8b9775e27ae7e6475653ebc6408a552f69951ed7c9b664db"
 
 [[files]]
+file = "mods/TConstruct-1.18.2-3.5.1.DEV.3d9894a.jar"
+hash = "d25aae63f83643cf110549da1695354462fe0bb19b439509ec747dd162b34048"
+
+[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
 metafile = true
@@ -1765,12 +1769,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "49a22647b2ec0cf9c7ededb6d4a4655f064a6d1ebbadaff3bf544e201bbea5a1"
+hash = "37c11528bcdb10c771c37d7e129a7841a8f0ebc08f91d04231914fec8a729fbd"
 metafile = true
 
 [[files]]
 file = "mods/aurorasdecorations-1.0.0+1.18.jar"
-hash = "f19485e693a3584d7b80fd8aa977e2dc9490761bfde55c82c6211d1b24c407cd"
+hash = "0b55269f6c94895c9cd251f1aa50768c608ec1d98bf7f61958a53d53c4bfa17c"
 
 [[files]]
 file = "mods/badpackets.pw.toml"
@@ -1948,7 +1952,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "bcb598daeb906e6f8106215b61d3eea49039299900bae5f6dd6a493417acb5ea"
+hash = "c42804839e21a98fb17d659778c8a1fbc5b3e05c164493c01153c0f696a9c25c"
 metafile = true
 
 [[files]]
@@ -2036,7 +2040,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "65efafb323233165e3c6f5d7bb080724adfcf3dde3403e6406330b8e0e42f6a8"
+hash = "ff48e48e828ba58db59ade1d3b05ab01373e528bba4ca74417566c9f6ed208a9"
 metafile = true
 
 [[files]]
@@ -2086,7 +2090,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "b8e50e473a9a5f9d41dba92a20e6af19156a23d3f70cc87c4fe164ea83e0e238"
+hash = "f5751b1f49dfd5d0a78a4573b334651748e02e65dfe093774ab0d0c0886d950c"
 metafile = true
 
 [[files]]
@@ -2181,7 +2185,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "c245e4e6896f1702f29aaf0bfef3cbce1d82b4f0fb8d44a526690f4d965f75e0"
+hash = "f61810be98ef52436d3355ecfa4354bc47d142cbe9468fbd14415e5bc6d66125"
 metafile = true
 
 [[files]]
@@ -2295,7 +2299,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.pw.toml"
-hash = "761170eaeece33f423619aefe9de989bac69c68deb29f7df8653eecabcb303e2"
+hash = "1a831cbe617a09d168824fdc5e4492e18f051f74689b8dbd6be4d91edbcbd896"
 metafile = true
 
 [[files]]
