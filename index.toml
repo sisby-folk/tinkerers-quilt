@@ -1725,10 +1725,6 @@ file = "mods/Blanket+Client+tweaks-1.0.4.jar"
 hash = "f4e8d2ac9ecdfc9ba9f4e8c5aa513ab1b8e5eb442881a7898352d2bd7d317cba"
 
 [[files]]
-file = "mods/TConstruct-1.18.2-3.5.1.DEV.04887b6.jar"
-hash = "1f2b5c4e04b2104c8b9775e27ae7e6475653ebc6408a552f69951ed7c9b664db"
-
-[[files]]
 file = "mods/TConstruct-1.18.2-3.5.1.DEV.3d9894a.jar"
 hash = "d25aae63f83643cf110549da1695354462fe0bb19b439509ec747dd162b34048"
 
@@ -1882,7 +1878,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "f59359dcae8d9da125653d9127157a53ee780cff1580d9dcddfff8b9f0a167a9"
+hash = "d506aff4966cf0049497f348aecb880cd3dbade497746c84a91f6b3b133c47ae"
 metafile = true
 
 [[files]]
