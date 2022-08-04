@@ -1,0 +1,13 @@
+name = "Aileron"
+filename = "aileron-1.18.2-quilt-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b8kG1VGq/versions/1.0.0-1.18.2-quilt/aileron-1.18.2-quilt-1.0.0.jar"
+hash-format = "sha1"
+hash = "a2929a39543cc90807057b18f8eb9bcca69d6037"
+
+[update]
+[update.modrinth]
+mod-id = "b8kG1VGq"
+version = "32YsZCiG"
