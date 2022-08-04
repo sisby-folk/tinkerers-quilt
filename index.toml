@@ -1685,6 +1685,11 @@ hash = "600d5aaeaa304466907ecf988a37f27e9348ad84c12a7c8d389fdbad46c934de"
 metafile = true
 
 [[files]]
+file = "mods/coyote-time.pw.toml"
+hash = "8f78b048d5efc3f130f26580941a8f0df00ef47090bf59be4fcf3afbcab54ecb"
+metafile = true
+
+[[files]]
 file = "mods/crowmap.pw.toml"
 hash = "357ce8cb9700bdd12ff041b8a60bababae98462934e33bb6e5cde1317e05aa2d"
 metafile = true
