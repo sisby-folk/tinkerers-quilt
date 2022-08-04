@@ -1,0 +1,13 @@
+name = "Coyote Time"
+filename = "coyote_time-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LzG2UcEx/versions/1.0.0/coyote_time-1.0.0.jar"
+hash-format = "sha1"
+hash = "2d3cb27e86acc78a08ecc0a6f5bcbd45df9f0354"
+
+[update]
+[update.modrinth]
+mod-id = "LzG2UcEx"
+version = "5HVk2w9I"
