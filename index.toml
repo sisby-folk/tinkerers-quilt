@@ -2132,6 +2132,11 @@ hash = "4aaca2ff5a41c228fab619d11241204df5d5eb73e32a9fc7a26d4b98f34e7a5b"
 metafile = true
 
 [[files]]
+file = "mods/keep-my-hand.pw.toml"
+hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
+metafile = true
+
+[[files]]
 file = "mods/kiln.pw.toml"
 hash = "2bd4443325ef2df10ef19de54454c29e15176a875ec361220762ba3bdbc81112"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Keep My Hand"
+filename = "keep-my-hand-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zGLTvidX/versions/1.0/keep-my-hand-1.0.0.jar"
+hash-format = "sha1"
+hash = "76c28fac24845c9ebdf73aa514ab445556620785"
+
+[update]
+[update.modrinth]
+mod-id = "zGLTvidX"
+version = "LpGJitVD"
