@@ -1580,10 +1580,6 @@ file = "mods/Blanket+Client+tweaks-1.0.4.jar"
 hash = "f4e8d2ac9ecdfc9ba9f4e8c5aa513ab1b8e5eb442881a7898352d2bd7d317cba"
 
 [[files]]
-file = "mods/TConstruct-1.18.2-3.5.1.DEV.3d9894a.jar"
-hash = "d25aae63f83643cf110549da1695354462fe0bb19b439509ec747dd162b34048"
-
-[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
 metafile = true
@@ -1935,6 +1931,11 @@ metafile = true
 [[files]]
 file = "mods/mod-settings.pw.toml"
 hash = "f494cb48d6e1d8d5c3460a8f689d2b05b2a0a5cebe70a3f70a305ef620e4b860"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "b99c1cae57386de36e5a6dc1d247057d0d5c0e9c5a5563b67d078ea7975919a9"
 metafile = true
 
 [[files]]
