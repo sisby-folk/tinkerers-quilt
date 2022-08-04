@@ -1886,6 +1886,11 @@ hash = "4aaca2ff5a41c228fab619d11241204df5d5eb73e32a9fc7a26d4b98f34e7a5b"
 metafile = true
 
 [[files]]
+file = "mods/keep-my-hand.pw.toml"
+hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
+metafile = true
+
+[[files]]
 file = "mods/kiwi-fabric.pw.toml"
 hash = "fbb9662ed3d8d0c111fa742f1a63876846d3d70aadc44460ad982d27072025d9"
 metafile = true
