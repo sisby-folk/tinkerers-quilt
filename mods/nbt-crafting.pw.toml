@@ -1,13 +1,13 @@
-name = "Nbt Crafting (Fabric)"
+name = "Nbt Crafting"
 filename = "nbtcrafting-2.1.4+mc1.18.2.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/18ztUZP5/versions/2.1.4+mc1.18.2/nbtcrafting-2.1.4%2Bmc1.18.2.jar"
 hash-format = "sha1"
 hash = "b1379d118dd3c78d5e601073b5b47e6014b35e61"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 3895027
-project-id = 314633
+[update.modrinth]
+mod-id = "18ztUZP5"
+version = "RtADf9rN"

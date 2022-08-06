@@ -1576,10 +1576,6 @@ file = "credits.txt"
 hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
 
 [[files]]
-file = "mods/Blanket+Client+tweaks-1.0.4.jar"
-hash = "f4e8d2ac9ecdfc9ba9f4e8c5aa513ab1b8e5eb442881a7898352d2bd7d317cba"
-
-[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
 metafile = true
@@ -1627,6 +1623,11 @@ metafile = true
 [[files]]
 file = "mods/better-end-sky.pw.toml"
 hash = "78ae8a2a5b3fe7b8d998b75ad514dec22e80b7a98a08e6cef4c135d8391d5d0c"
+metafile = true
+
+[[files]]
+file = "mods/blanket.pw.toml"
+hash = "5f7b944c90cea1b0f25e93fa0d492607850fe5a23d4502204c0893f7a5094291"
 metafile = true
 
 [[files]]
@@ -1794,7 +1795,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastopenlinksandfolders.pw.toml"
-hash = "a06f7b752a79921fedd37af55571c5a2eabd66c9543617e953bd2f73c6987bcc"
+hash = "ff54403726ef6349d2b0d9fc9588e5923aff79c0756820f3d4aa2c4c9dd8e2d8"
 metafile = true
 
 [[files]]
@@ -1959,7 +1960,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.pw.toml"
-hash = "8e3c9583a7832a832687f8bc2da6bea1d2996fb81b7ef73e459c0a392e532147"
+hash = "98addedf78b5b06d435d45ce9eafdb4cd322fd917886b6d909736826695d349b"
 metafile = true
 
 [[files]]
@@ -2133,7 +2134,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
-hash = "521243f1869918c709d94db11f69e3b1268a652bac8af0973dec7ee1b4583170"
+hash = "3fdc9a7558c912db84c2b62845896e74a1633450a0d2a0721bce6a382b842213"
 metafile = true
 
 [[files]]
