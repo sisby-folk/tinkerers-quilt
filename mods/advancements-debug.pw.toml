@@ -1,0 +1,13 @@
+name = "Advancements Debug"
+filename = "advdebug-2.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rxMTwxyO/versions/2.3.0/advdebug-2.3.0.jar"
+hash-format = "sha1"
+hash = "1b66e20a98bd26d8fd2f21c63d666795d9d9a60d"
+
+[update]
+[update.modrinth]
+mod-id = "rxMTwxyO"
+version = "oTJoSDPx"

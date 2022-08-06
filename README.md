@@ -189,44 +189,59 @@ Letting players express themselves with player customisation, builds, and even t
 ```
 Mods:
     AdvancementInfo
+    Advancements Debug
+    [Plus] Aileron
     Ambient Environment
+    [Plus] Amplified Nether
     Animatica
     AppleSkin
+    [Plus] Architecture Extensions
     Architectury API
     bad packets
     Balm (Fabric Edition)
     Better Biome Blend
     Better End Sky
+    [Plus] Bits And Chisels
+    [Modded] Botania
+    [Plus] Campanion
     Cardinal Ice Boats
     Carpet Extra
     Carpet-Fixes
     Carpet
+    [Plus] Chalk (Fabric)
     Charmonium
     CIT Resewn
     CleanCut
     Client Tweaks (Fabric Edition)
     Cloth Config API
-    Colormatic
+    Consistency+
     Continuity
     Couplings
+    Coyote Time
+    [Modded] Create Fabric
+    [Modded] CreatePlus
     Crowmap
     Crunchy Crunchy Advancements
     Cull Less Leaves
+    [Plus] Dawn API
     Drogtor
     Dyeable Fishing Lines
     Dynamic FPS
     Dynamic View[Fabric]
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
+    [Plus] Earth2Java
     Enhanced Block Entities
     Effective 💦
     EMI
     Enhanced Attack Indicator
     EntityCulling
     Extended Clouds
+    [Plus] Fabric Seasons
     Fabrication
     Fabric Shield Lib
     Fabric Tailor
     Falling Leaves
+    [Plus] Farmer's Delight [Fabric]
     Farsight [Fabric]
     FastOpenLinksAndFolders
     FerriteCore
@@ -235,27 +250,34 @@ Mods:
     FTB Library (Fabric)
     FTB Quests (Fabric)
     FTB Teams (Fabric)
+    [Plus] Fabric Waystones
     Grounded Origins
+    [Plus] Halfdoors
     Horse Buff
     Hwyla Addon Horse Info
     Idwtialsimmoedm
     Illuminations 🔥
     Indium
-    Inspecio
     Iris Shaders
     Item Filters
     Item Model Fix
     JamLib
+    Keep My Hand
+    [Plus] Kiln
     Kiwi 🥝 (Fabric)
     Krypton
     LambdaBetterGrass
     LazyDFU
     Leaves Us In Peace
     Lithium
+    [Plus] Lovely Snails
     LAN World Plug-n-Play (mcwifipnp)
+    [Plus] Meal API
     Memory Leak Fix
     Mod Settings for Fabric
+    More Culling
     Mouse Wheelie
+    [Plus] Nature's Compass
     Nbt Crafting (Fabric)
     NoRecipeBook (Fabric)
     Not Enough Animations
@@ -264,12 +286,16 @@ Mods:
     Open Loader
     Origins: Classes
     Origins
+    [Plus] Overweight Farming
+    [Modded] Patchouli
     Pehkui
     Pettable
     Player Pronouns
+    [Plus] Polaroid Camera
     Portable Crafting Standalone
     Presence Footsteps
     Project: Save the Pets!
+    [Plus] Promenade
     Puzzle
     Quilt Standard Libraries
     Quilt Loading Screen
@@ -278,6 +304,8 @@ Mods:
     Reese's Sodium Options
     Reroll
     RightClickHarvest
+    [Plus] Rusted Iron
+    [Plus] Sandwichable
     Simple Fog Control
     Smooth Boot (Fabric)
     Snow! Real Magic! ⛄ (Fabric)
@@ -288,32 +316,50 @@ Mods:
     Styled Chat
     Styled Player List
     Tax Free Levels
+    [Plus] TerraBlender (Fabric)
+    [Plus] This Rocks!
     TieFix
     Loading Screen Tips
     ToolTipFix
     Totem Anywhere Standalone
+    [Plus] Traveler's Titles (Fabric)
+    [Plus] Trinkets
     True Darkness
+    [Plus] Universal Ores
     VehicleFix
     Visuality
     WTHIT Plugins
     WTHIT
     You're in Grave Danger
     Your Options Shall Be Respected (YOSBR)
+    [Plus] YUNG's API (Fabric)
+    [Plus] YUNG's Better Desert Temples (Fabric)
+    [Plus] YUNG's Better Dungeons (Fabric)
+    [Plus] YUNG's Better Mineshafts (Fabric)
+    [Plus] YUNG's Better Strongholds (Fabric)
+    [Plus] YUNG's Better Witch Huts (Fabric)
+    [Plus] YUNG's Extras (Fabric)
 
 Jar mods:
+    [Plus] Antique Atlas 6.2.0 1.18.2 (Unreleased)
+    [Plus] Auroras Decorations 1.0.0 1.18 (Unreleased)
     Blanket Client tweaks 1.0.4
+    colormatic 3.1.2-snapshot 1.18.2.jar (Create Compat)
     extraorigins 1.18-11 (temp due to quilt compat, license issues)
     fogbox 1.2.0
+    inspecio 1.4.2 (Show repair cost)
     inventorytabs 0.6.1-1.18.x
     LambDynamicLights 2.1.1limitless1.18
-    Realistic Fishing (1.18.2)
     NoFade (1.18.2)
+    Realistic Fishing (1.18.2)
+    [Modded] Tinker's Construct 1.18.2 3.5.1 DEV.3d91fea0f (Unreleased)
 
 Resource Packs: 
     Colored Axolotl Buckets With Babies
     Varied Connected Bookshelves
     xali's Enchanted Books
     Vanilla Tweaks
+    [Plus] Nullscapes 1.18.2
 
 Shader Packs Available:
     BSL Shaders
@@ -331,9 +377,10 @@ Homebrew Data Packs:
     (Origins) Tinkerer's Statures
     (Origins) Tinkerer's Cleanup
     (Origins) Tinkerer's Human't
+    (Origins) Vampire (ChessLord), Dryad (LuaDotExe), Imp (ExtaOrigins)
     Tinkerer's Vegetarian
     Tinkerer's Copper Beacons
-    Tinkerer's Smithing/Repair
+    Tinkerer's Smithing
 ```
 
 # Special Thanks

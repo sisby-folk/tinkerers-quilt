@@ -1730,6 +1730,11 @@ hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
 metafile = true
 
 [[files]]
+file = "mods/advancements-debug.pw.toml"
+hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
+metafile = true
+
+[[files]]
 file = "mods/aileron.pw.toml"
 hash = "b10832eb6a578873b5485812bf74a93b0e0b3535bb735b639403dd6366d82148"
 metafile = true
@@ -1853,9 +1858,8 @@ hash = "4ed6f98bd55bde1e076f864ba2b3918710ef2ee664ca332fd538c6ca27f280a0"
 metafile = true
 
 [[files]]
-file = "mods/colormatic.pw.toml"
-hash = "0b9c8fa1e2dfa64f787a0562200f54bb5afc401196dac20a9886c0f92f575b5d"
-metafile = true
+file = "mods/colormatic-3.1.2-snapshot+mc.1.18.2.jar"
+hash = "49e7f9f4d6dda5a4fe5d25e73bbcc6eb7943e7f4a9444348943f6f96626f3677"
 
 [[files]]
 file = "mods/consistencyplus.pw.toml"
