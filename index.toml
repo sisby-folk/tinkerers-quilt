@@ -1760,7 +1760,7 @@ metafile = true
 
 [[files]]
 file = "mods/antiqueatlas-6.2.0-fabric-mc1.18.2.jar"
-hash = "d40394ec44e654cddc4d8f40f2afc333d74213cdc57624b60d141143ffa2e35b"
+hash = "1943c460e7180369002c2816f85605e13387a6388f21849a434d361a7ccb4e76"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
@@ -2022,11 +2022,6 @@ metafile = true
 [[files]]
 file = "mods/fastopenlinksandfolders.pw.toml"
 hash = "a06f7b752a79921fedd37af55571c5a2eabd66c9543617e953bd2f73c6987bcc"
-metafile = true
-
-[[files]]
-file = "mods/feature-nbt-deadlock-be-gone.pw.toml"
-hash = "b1dd26068945a52c7989b2515cac0b51a14d25fedbf5c858e4c4d689fc38b2e5"
 metafile = true
 
 [[files]]
