@@ -1,13 +1,13 @@
 name = "Crunchy Crunchy Advancements"
-filename = "crunchy_crunchy_advancements-1.2.0+1.18.2.jar"
+filename = "crunchy_crunchy_advancements-1.3.0+1.18.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4lO2KZlF/versions/1.2.0+1.18.2/crunchy_crunchy_advancements-1.2.0%2B1.18.2.jar"
+url = "https://cdn.modrinth.com/data/4lO2KZlF/versions/1.3.0+1.18.2/crunchy_crunchy_advancements-1.3.0%2B1.18.2.jar"
 hash-format = "sha1"
-hash = "1e6490ed1c6a1be368a5d4bd0d361260d7bc1d73"
+hash = "b0563b5215823ce5434565b635d6dbda257c0f6f"
 
 [update]
 [update.modrinth]
 mod-id = "4lO2KZlF"
-version = "IO7jyRHY"
+version = "zMNi9YZm"

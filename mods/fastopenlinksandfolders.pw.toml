@@ -3,11 +3,11 @@ filename = "fastopenlinksandfolders-1.1.1.jar"
 side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/d51fN9ny/versions/1.1.1/fastopenlinksandfolders-1.1.1.jar"
 hash-format = "sha1"
 hash = "c24a170d663445455e3d8851c2dd5134499f336c"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 3806979
-project-id = 513840
+[update.modrinth]
+mod-id = "d51fN9ny"
+version = "DxXiUerV"
