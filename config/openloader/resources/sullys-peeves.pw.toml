@@ -1,0 +1,13 @@
+name = "Sully's Peeves"
+filename = "Sullys_Peeves.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "34b7be3351db785cd69dec818d08c35a2ea5a318"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3923263
+project-id = 492485
