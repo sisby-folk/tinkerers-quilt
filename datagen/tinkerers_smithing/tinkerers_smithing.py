@@ -52,7 +52,7 @@ for type_idx, current_type in enumerate(types):
                 durability = tool_durability[tier_idx] if type_idx > 3 else armor_durability[tier_idx][type_idx]
                 durability_restored = math.ceil(durability / 4.0)
                 current_dict['base']['item'] = 'minecraft:' + current_tier + '_' + current_type
-                current_dict['base']['data']['require']["Damage"] = '$..' + str(durability_restored - 1) if final else '$' + str(durability_restored) + '..'
+                current_dict['base']['data']['require']["Damage"] = '$1..' + str(durability_restored - 1) if final else '$' + str(durability_restored) + '..'
                 current_dict['ingredient']['item'] = 'minecraft:' + repair[tier_idx]
                 current_dict['result']['data']['Damage'] = "$0" if final else '$base.Damage - ' + str(durability_restored)
 
@@ -101,7 +101,7 @@ with open('./template/shapeless.json', 'r') as template_file:
                         current_dict['ingredients'] += [{repair_type[tier_idx]: 'minecraft:' + repair[tier_idx]}]
 
                     durability_restored = math.ceil((durability * amount) / float(type_costs[type_idx]))
-                    current_dict['ingredients'][0]['data']['require']["Damage"] = '$..' + str(durability_restored - 1) if final else '$' + str(durability_restored) + '..'
+                    current_dict['ingredients'][0]['data']['require']["Damage"] = '$1..' + str(durability_restored - 1) if final else '$' + str(durability_restored) + '..'
                     current_dict['result']['data']['Damage'] = "$0" if final else '$i0.Damage - ' + str(durability_restored)
 
                 if recipe_type.startswith('upgrade'):
