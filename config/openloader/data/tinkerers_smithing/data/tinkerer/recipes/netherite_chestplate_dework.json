@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "RepairCost": "$2.."
+            }
+        },
+        "item": "minecraft:netherite_chestplate"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "RepairCost": "$((base.RepairCost + 1)/2)-1"
+        },
+        "item": "minecraft:netherite_chestplate"
+    },
+    "type": "nbtcrafting:smithing"
+}

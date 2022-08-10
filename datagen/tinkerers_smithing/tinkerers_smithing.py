@@ -63,7 +63,7 @@ for type_idx, current_type in enumerate(types):
                 current_dict['ingredient']['item'] = 'minecraft:' + repair[tier_idx]
                 current_dict['result']['data']['Damage'] = "$" + str(math.floor(tool_durability[tier_idx] * ((type_costs[type_idx] - 1) / 4.0)))
 
-            with open(dir_recipes + recipe_type + '_' + current_tier + '_' + current_type + '.json', 'w') as out_file:
+            with open(dir_recipes + current_tier + '_' + current_type + '_' + recipe_type + '.json', 'w') as out_file:
                 json.dump(current_dict, out_file, indent=4, sort_keys=True)
 
 
@@ -114,5 +114,5 @@ with open('./template/shapeless.json', 'r') as template_file:
 
                     current_dict['result']['data']['Damage'] = "$i0.Damage"
 
-                with open(dir_recipes + recipe_type + '_' + current_tier + '_' + current_type + '.json', 'w') as out_file:
+                with open(dir_recipes + current_tier + '_' + current_type + '_' + recipe_type + '.json', 'w') as out_file:
                     json.dump(current_dict, out_file, indent=4, sort_keys=True)

@@ -13,7 +13,7 @@
   "result": {
     "item": "{{ result_item }}",
     "data": {
-      "$": "$i0"
+      "$": "$base"
     }
   }
 }

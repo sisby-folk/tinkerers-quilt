@@ -12,8 +12,7 @@
   "result": {
     "item": "{{ result_item }}",
     "data": {
-      "$": "$base",
-      "Damage": "{{ result_damage }}"
+      "$": "$i0"
     }
   }
 }

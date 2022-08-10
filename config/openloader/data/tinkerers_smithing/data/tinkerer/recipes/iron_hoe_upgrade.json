@@ -1,0 +1,24 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:stone_hoe"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$i0.Damage"
+        },
+        "item": "minecraft:iron_hoe"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

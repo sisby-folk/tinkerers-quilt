@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {
+                    "Damage": "$..65"
+                }
+            },
+            "item": "minecraft:stone_sword"
+        },
+        {
+            "tag": "minecraft:stone_tool_materials"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$0"
+        },
+        "item": "minecraft:stone_sword"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "RepairCost": 1
+            }
+        },
+        "item": "minecraft:diamond_chestplate"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "RepairCost": "$0"
+        },
+        "item": "minecraft:diamond_chestplate"
+    },
+    "type": "nbtcrafting:smithing"
+}
