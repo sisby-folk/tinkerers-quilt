@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$1..390"
+            }
+        },
+        "item": "minecraft:diamond_hoe"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:diamond_hoe"
+    },
+    "type": "nbtcrafting:smithing"
+}

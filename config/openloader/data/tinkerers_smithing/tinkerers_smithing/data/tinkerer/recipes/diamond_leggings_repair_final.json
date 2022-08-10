@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$1..131"
+            }
+        },
+        "item": "minecraft:diamond_leggings"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:diamond_leggings"
+    },
+    "type": "nbtcrafting:smithing"
+}

@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$1..62"
+            }
+        },
+        "item": "minecraft:iron_sword"
+    },
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:iron_sword"
+    },
+    "type": "nbtcrafting:smithing"
+}

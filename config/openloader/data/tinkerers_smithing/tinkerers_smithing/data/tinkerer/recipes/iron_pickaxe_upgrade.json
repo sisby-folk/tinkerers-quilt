@@ -1,0 +1,27 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:stone_pickaxe"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$i0.Damage"
+        },
+        "item": "minecraft:iron_pickaxe"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$1..123"
+            }
+        },
+        "item": "minecraft:diamond_helmet"
+    },
+    "ingredient": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:diamond_helmet"
+    },
+    "type": "nbtcrafting:smithing"
+}

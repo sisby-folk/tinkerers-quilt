@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$1..147"
+            }
+        },
+        "item": "minecraft:netherite_leggings"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:netherite_leggings"
+    },
+    "type": "nbtcrafting:smithing"
+}

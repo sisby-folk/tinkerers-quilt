@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "data": {
+                "require": {
+                    "Damage": "$1..58"
+                }
+            },
+            "item": "minecraft:wooden_sword"
+        },
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "tag": "minecraft:planks"
+        }
+    ],
+    "result": {
+        "data": {
+            "$": "$i0",
+            "Damage": "$0"
+        },
+        "item": "minecraft:wooden_sword"
+    },
+    "type": "minecraft:crafting_shapeless"
+}

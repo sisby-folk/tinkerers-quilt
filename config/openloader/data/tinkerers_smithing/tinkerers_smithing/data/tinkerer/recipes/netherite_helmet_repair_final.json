@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$1..138"
+            }
+        },
+        "item": "minecraft:netherite_helmet"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:netherite_helmet"
+    },
+    "type": "nbtcrafting:smithing"
+}

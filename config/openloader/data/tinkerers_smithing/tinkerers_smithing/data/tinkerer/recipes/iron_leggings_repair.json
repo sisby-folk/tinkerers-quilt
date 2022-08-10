@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$60.."
+            }
+        },
+        "item": "minecraft:iron_leggings"
+    },
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$base.Damage - 60"
+        },
+        "item": "minecraft:iron_leggings"
+    },
+    "type": "nbtcrafting:smithing"
+}
