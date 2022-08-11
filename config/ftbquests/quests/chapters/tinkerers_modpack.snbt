@@ -53,15 +53,6 @@
 					item: "minecraft:bread"
 					count: 10
 				}
-				{
-					id: "08A857F254EB7395"
-					type: "command"
-					title: "Thanks for downloading!"
-					icon: "minecraft:spore_blossom"
-					auto: "no_toast"
-					command: "/recipe give @p *"
-					player_command: false
-				}
 			]
 		}
 		{
