@@ -21,10 +21,10 @@ assert_not_dir(dir_pack)
 shutil.copytree('override', dir_pack)
 assert_dir(dir_recipes)
 
-armor_durability = [[165, 240, 225, 195],  # Iron
-                    [77, 112, 105, 91],  # Golden
-                    [363, 528, 495, 429],  # Diamond
-                    [407, 592, 555, 481]]  # Netherite
+armor_durability = [[240, 225, 165, 195],  # Iron
+                    [112, 105, 77, 91],  # Golden
+                    [528, 495, 363, 429],  # Diamond
+                    [592, 555, 407, 481]]  # Netherite
 tool_durability = [250, 32, 1561, 2031]
 tiers = ['iron', 'golden', 'diamond', 'netherite']
 repair = ['iron_ingot', 'gold_ingot', 'diamond', 'netherite_ingot']
@@ -63,11 +63,12 @@ for type_idx, current_type in enumerate(types):
                 current_dict['ingredient']['item'] = 'minecraft:' + ('netherite_shovel' if current_tier == 'netherite' else repair[tier_idx])
                 if current_tier == 'netherite':
                     current_dict['base']['data']['require']["Damage"] = '$0'
-                current_dict['result']['data']['Damage'] = "$" + str(math.floor(tool_durability[tier_idx] * ((type_costs[type_idx] - 1) / 4.0)))
+
+                durability = tool_durability[tier_idx] if type_idx > 3 else armor_durability[tier_idx][type_idx]
+                current_dict['result']['data']['Damage'] = "$" + str(math.floor(durability * ((type_costs[type_idx] - 1) / 4.0)))
 
             with open(dir_recipes + current_tier + '_' + current_type + '_' + recipe_type + '.json', 'w') as out_file:
                 json.dump(current_dict, out_file, indent=4, sort_keys=True)
-
 
 tool_durability = [59, 131, 250]
 tiers = ['wooden', 'stone', 'golden', 'iron']

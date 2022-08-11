@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$148.."
+                "Damage": "$139.."
             }
         },
         "item": "minecraft:netherite_leggings"
@@ -13,7 +13,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$base.Damage - 148"
+            "Damage": "$base.Damage - 139"
         },
         "item": "minecraft:netherite_leggings"
     },
