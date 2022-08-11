@@ -2836,9 +2836,8 @@ hash = "c00114ebbbdf5b001d7a81f9508a6c6675fab5e7cff89de3cc7d763e7ab33427"
 metafile = true
 
 [[files]]
-file = "mods/nbt-crafting.pw.toml"
-hash = "98addedf78b5b06d435d45ce9eafdb4cd322fd917886b6d909736826695d349b"
-metafile = true
+file = "mods/nbtcrafting-2.1.4+mc1.18.2.jar"
+hash = "7a68df8dfa1e10e87e99c3a965135155ca76d65cafc1bbd972cfb00c64a76df8"
 
 [[files]]
 file = "mods/nofade-1.18-2.0.1.jar"
