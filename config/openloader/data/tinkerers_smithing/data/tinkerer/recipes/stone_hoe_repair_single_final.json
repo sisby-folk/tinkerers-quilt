@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$..65"
+                    "Damage": "$1..65"
                 }
             },
             "item": "minecraft:stone_hoe"

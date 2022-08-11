@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$..62"
+                "Damage": "$1..62"
             }
         },
         "item": "minecraft:iron_axe"

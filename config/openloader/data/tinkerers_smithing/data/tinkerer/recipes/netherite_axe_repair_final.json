@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$..507"
+                "Damage": "$1..507"
             }
         },
         "item": "minecraft:netherite_axe"

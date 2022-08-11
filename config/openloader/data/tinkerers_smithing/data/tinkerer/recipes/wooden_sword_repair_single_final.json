@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$..29"
+                    "Damage": "$1..29"
                 }
             },
             "item": "minecraft:wooden_sword"

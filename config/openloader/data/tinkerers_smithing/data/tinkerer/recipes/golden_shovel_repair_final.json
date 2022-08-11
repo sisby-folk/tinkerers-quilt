@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$..7"
+                "Damage": "$1..7"
             }
         },
         "item": "minecraft:golden_shovel"

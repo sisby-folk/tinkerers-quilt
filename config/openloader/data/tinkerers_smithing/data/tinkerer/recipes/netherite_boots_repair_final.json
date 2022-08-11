@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$..120"
+                "Damage": "$1..120"
             }
         },
         "item": "minecraft:netherite_boots"

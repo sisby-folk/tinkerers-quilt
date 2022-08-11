@@ -2,7 +2,7 @@
     "base": {
         "data": {
             "require": {
-                "Damage": "$..390"
+                "Damage": "$1..390"
             }
         },
         "item": "minecraft:diamond_pickaxe"

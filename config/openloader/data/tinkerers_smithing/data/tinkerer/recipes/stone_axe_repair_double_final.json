@@ -3,7 +3,7 @@
         {
             "data": {
                 "require": {
-                    "Damage": "$..87"
+                    "Damage": "$1..87"
                 }
             },
             "item": "minecraft:stone_axe"
