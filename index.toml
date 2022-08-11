@@ -2474,12 +2474,12 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
+hash = "80e7c9fd868c28612d6e9945044e274399579ab0007285f2ec50caf006c771f3"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "a762150026feade1cec5a38ea7d929dabae573921c6d5ae6a63bcecacdefe251"
+hash = "44bbbe3639cc7bc86f4013ba987ada87758cd1d88d21563c9beac3ce4ed4972d"
 metafile = true
 
 [[files]]
@@ -2558,7 +2558,7 @@ hash = "49e7f9f4d6dda5a4fe5d25e73bbcc6eb7943e7f4a9444348943f6f96626f3677"
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "5ff4e61ba19baca3337f1ff6aa31a6d906d8c30efe8af15dce3f44beb8297d5f"
+hash = "b508bb6b509b96b2e297e94ca2ce365623730b938f32c74d49c574a7ef1ecb24"
 metafile = true
 
 [[files]]
@@ -2647,7 +2647,7 @@ hash = "7decb4fb6d89f3c1ad23e61bec070645513e4a710393d8723766b2cc485eef12"
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "7d1a8e5b95156a5975e419d0e32aca399ff2fec9cdcc0929dd166c0d75fdba85"
+hash = "b59da0d083f427546ed4e573ba677f774d0738b393d34487dc53dcc561d88fd7"
 metafile = true
 
 [[files]]
@@ -2744,8 +2744,8 @@ file = "mods/inspecio-1.4.2+1.18.jar"
 hash = "f2a0cd9800bb9b9fb2c8a71006c2c153b66a97520d02b9e031d549bf94527d9b"
 
 [[files]]
-file = "mods/inventorytabs-0.6.1-1.18.x.jar"
-hash = "406542e43850ba66567e540372af1438eeefc53dd69d3321fedb17b41785ed04"
+file = "mods/inventorytabs-0.9.0-beta-1.18.x.jar"
+hash = "e31941ec9b076a19d2218981835d637516360396bb694268c4cc4f992c079d53"
 
 [[files]]
 file = "mods/iris.pw.toml"
@@ -2931,7 +2931,7 @@ metafile = true
 
 [[files]]
 file = "mods/reacharound.pw.toml"
-hash = "0f61b4e5e1b424ac93bfbd0ef12f4535553f33e1e4c9d6ab5f0cbf6c4066abdc"
+hash = "6875e0a4bb69183f97d99b9518f640f8984806a1bfb97f3685b2f0d7c4e3c8f8"
 metafile = true
 
 [[files]]
@@ -3046,7 +3046,7 @@ metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "8186a9fe882ce3c15c25892ac97cdad7db31db9da1d7836846a9a01c12759892"
+hash = "634a2aa1d860cea4d19639bc80730625d3e063db2543b495ac33c60d7447c36b"
 metafile = true
 
 [[files]]
