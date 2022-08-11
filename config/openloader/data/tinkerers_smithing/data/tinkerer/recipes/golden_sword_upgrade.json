@@ -1,19 +1,24 @@
 {
-    "base": {
-        "data": {
-            "require": {}
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:wooden_sword"
         },
-        "item": "minecraft:iron_sword"
-    },
-    "ingredient": {
-        "item": "minecraft:gold_ingot"
-    },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
     "result": {
         "data": {
-            "$": "$base",
-            "Damage": "$8"
+            "$": "$i0",
+            "Damage": "$i0.Damage"
         },
         "item": "minecraft:golden_sword"
     },
-    "type": "nbtcrafting:smithing"
+    "type": "minecraft:crafting_shapeless"
 }

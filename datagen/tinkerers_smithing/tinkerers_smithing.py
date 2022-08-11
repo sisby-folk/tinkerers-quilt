@@ -57,10 +57,10 @@ for type_idx, current_type in enumerate(types):
                 current_dict['result']['data']['Damage'] = "$0" if final else '$base.Damage - ' + str(durability_restored)
 
             if recipe_type.startswith('upgrade'):
-                if current_tier in ['iron', 'gold'] or type_costs[type_idx] > 5:
+                if current_tier in ['iron', 'golden'] or type_costs[type_idx] > 5:
                     continue
                 current_dict['base']['item'] = 'minecraft:' + tiers[tier_idx - 2] + '_' + current_type
-                current_dict['ingredient']['item'] = 'minecraft:' + 'netherite_shovel' if current_tier == 'netherite' else repair[tier_idx]
+                current_dict['ingredient']['item'] = 'minecraft:' + ('netherite_shovel' if current_tier == 'netherite' else repair[tier_idx])
                 if current_tier == 'netherite':
                     current_dict['base']['data']['require']["Damage"] = '$0'
                 current_dict['result']['data']['Damage'] = "$" + str(math.floor(tool_durability[tier_idx] * ((type_costs[type_idx] - 1) / 4.0)))
@@ -70,7 +70,7 @@ for type_idx, current_type in enumerate(types):
 
 
 tool_durability = [59, 131, 250]
-tiers = ['wooden', 'stone', 'gold', 'iron']
+tiers = ['wooden', 'stone', 'golden', 'iron']
 repair = ['planks', 'stone_tool_materials', 'gold_ingot', 'iron_ingot']
 repair_type = ['tag', 'tag', 'item', 'item']
 
@@ -87,7 +87,7 @@ with open('./template/shapeless.json', 'r') as template_file:
                 current_dict['result']['item'] = 'minecraft:' + current_tier + '_' + current_type
 
                 if recipe_type.startswith('repair'):
-                    if current_tier in ['iron', 'gold']:
+                    if current_tier in ['iron', 'golden']:
                         continue
 
                     final = recipe_type.endswith('_final')
@@ -110,7 +110,7 @@ with open('./template/shapeless.json', 'r') as template_file:
                 if recipe_type.startswith('upgrade'):
                     if current_tier in ['wooden']:
                         continue
-                    current_dict['ingredients'][0]['item'] = 'minecraft:' + tiers[tier_idx - (2 if current_tier in ['iron', 'gold'] else 1)] + '_' + current_type
+                    current_dict['ingredients'][0]['item'] = 'minecraft:' + tiers[tier_idx - (2 if current_tier in ['iron', 'golden'] else 1)] + '_' + current_type
                     amount = type_costs[type_idx]
                     for _ in range(amount):
                         current_dict['ingredients'] += [{repair_type[tier_idx]: 'minecraft:' + repair[tier_idx]}]

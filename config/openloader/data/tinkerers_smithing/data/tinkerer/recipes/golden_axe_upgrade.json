@@ -1,19 +1,27 @@
 {
-    "base": {
-        "data": {
-            "require": {}
+    "ingredients": [
+        {
+            "data": {
+                "require": {}
+            },
+            "item": "minecraft:wooden_axe"
         },
-        "item": "minecraft:iron_axe"
-    },
-    "ingredient": {
-        "item": "minecraft:gold_ingot"
-    },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
     "result": {
         "data": {
-            "$": "$base",
-            "Damage": "$16"
+            "$": "$i0",
+            "Damage": "$i0.Damage"
         },
         "item": "minecraft:golden_axe"
     },
-    "type": "nbtcrafting:smithing"
+    "type": "minecraft:crafting_shapeless"
 }

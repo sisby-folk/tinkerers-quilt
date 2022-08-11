@@ -1,0 +1,21 @@
+{
+    "base": {
+        "data": {
+            "require": {
+                "Damage": "$0"
+            }
+        },
+        "item": "minecraft:golden_boots"
+    },
+    "ingredient": {
+        "item": "minecraft:netherite_shovel"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$1523"
+        },
+        "item": "minecraft:netherite_boots"
+    },
+    "type": "nbtcrafting:smithing"
+}
