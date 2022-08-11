@@ -57,10 +57,12 @@ for type_idx, current_type in enumerate(types):
                 current_dict['result']['data']['Damage'] = "$0" if final else '$base.Damage - ' + str(durability_restored)
 
             if recipe_type.startswith('upgrade'):
-                if current_tier in ['iron', 'netherite', 'gold'] or type_costs[type_idx] > 5:
+                if current_tier in ['iron', 'gold'] or type_costs[type_idx] > 5:
                     continue
-                current_dict['base']['item'] = 'minecraft:' + tiers[tier_idx - (2 if current_tier == 'diamond' else 1)] + '_' + current_type
-                current_dict['ingredient']['item'] = 'minecraft:' + repair[tier_idx]
+                current_dict['base']['item'] = 'minecraft:' + tiers[tier_idx - 2] + '_' + current_type
+                current_dict['ingredient']['item'] = 'minecraft:' + 'netherite_shovel' if current_tier == 'netherite' else repair[tier_idx]
+                if current_tier == 'netherite':
+                    current_dict['base']['data']['require']["Damage"] = '$0'
                 current_dict['result']['data']['Damage'] = "$" + str(math.floor(tool_durability[tier_idx] * ((type_costs[type_idx] - 1) / 4.0)))
 
             with open(dir_recipes + current_tier + '_' + current_type + '_' + recipe_type + '.json', 'w') as out_file:
@@ -101,7 +103,8 @@ with open('./template/shapeless.json', 'r') as template_file:
                         current_dict['ingredients'] += [{repair_type[tier_idx]: 'minecraft:' + repair[tier_idx]}]
 
                     durability_restored = math.ceil((durability * amount) / float(type_costs[type_idx]))
-                    current_dict['ingredients'][0]['data']['require']["Damage"] = '$1..' + str(durability_restored - 1) if final else '$' + str(durability_restored) + '..'
+                    prev_durability_restored = math.ceil((durability * (amount - 1)) / float(type_costs[type_idx]))
+                    current_dict['ingredients'][0]['data']['require']["Damage"] = '$' + str(max(prev_durability_restored, 1)) + '..' + str(durability_restored - 1) if final else '$' + str(durability_restored) + '..'
                     current_dict['result']['data']['Damage'] = "$0" if final else '$i0.Damage - ' + str(durability_restored)
 
                 if recipe_type.startswith('upgrade'):
