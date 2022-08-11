@@ -1581,11 +1581,6 @@ file = "credits.txt"
 hash = "4e765d4c3866e18c90b51485fda4f0bd07f4f22e14d599d75b880d347a7c865f"
 
 [[files]]
-file = "mods/advancementinfo.pw.toml"
-hash = "9f22e2a556a371eb5acf2f7b1e63870f7008fa6c18ed1e4d5b3236ee66828317"
-metafile = true
-
-[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
