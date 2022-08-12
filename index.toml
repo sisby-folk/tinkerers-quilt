@@ -809,8 +809,64 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "898d840d6da9a089dcec7bc593dd56c94d83600b7e72b4990fe28ce212e56570"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade.json"
-hash = "2361828c4fc30d90fdf7def3e337102c62707b082535df1c9278e485870e7b39"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_axe.json"
+hash = "9f0c438eefebf71b2fdef28062c7ea795198f83ab1aa5a4574161bc4976bbc1f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_axe_final.json"
+hash = "adc57ac768243366f7a041b384494429bc19db2a0726dc50fdfe3a5961bf8fde"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_boots.json"
+hash = "51a4991c14699ad1a63bebac55fb1b6ad763191c034ea9e233960819982def81"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_boots_final.json"
+hash = "95ceb7545bed5ec2e91aa2e29d5f7a172e8609dcfd825f93b2932cd4f4a83bc8"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_chestplate.json"
+hash = "deea43b117d16a765378affc71d824fdb802bbb696719dd1265bc4d972485f3e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_chestplate_final.json"
+hash = "2d2f86061408b395ffceb6d62ab4012fd731ef6131732286feaafef03bef93e1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_helmet.json"
+hash = "ef67ae07f21e3ea67befadda1bcbb818aeded049e4c36a00a6e00e9d86f49f89"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_helmet_final.json"
+hash = "9d64828830548dd24198f237c118749ff1ab462347a5ded5e8025dc22bcb9e45"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_hoe.json"
+hash = "e10efd385c10478c571f9861af5a4c64fdcc44737e60650349f20cfa2fcb2268"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_leggings.json"
+hash = "e3d61520c6e30c9c8961ad7ef59fe977a6b9c54d18b93721578f41c41a5c7977"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_leggings_final.json"
+hash = "724372b78392c485aefec84eddf5647f4e81e83856efec032301ecad27cb9871"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_pickaxe.json"
+hash = "210aa576ae842f74492d9cd40502d56bc159e9430989ddecee4940cc6df2d59f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_pickaxe_final.json"
+hash = "868e4b7272c4c9500fde4d51e1c3b3f3be0fc099c1518349ee0eb9474de3983a"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_shovel.json"
+hash = "d746337b9d2860b0d4484b019be2591a3896accca6d9b0afff845131451096f2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_axe_upgrade_sacrifice_sword.json"
+hash = "418b306d0a8139e1756c29b575b1681a1357ce63c186d07faee80336743c5c3a"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_dework.json"
@@ -829,8 +885,56 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "39cbc11b64bf7eaf0500ad3b4637bf2fc03086a34fd41a67af742faae381b75e"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade.json"
-hash = "bebe641a1b8c5f7d77d9da26b984a4be0783f6e16f66b14e9db3411651d1cb99"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_axe.json"
+hash = "aa5cf99a366a74fac0d69313d91f68bcf56708498e6ee46fdca138431db31693"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_boots.json"
+hash = "a0df7a37068c392838f2b60674147b06b2aa027736d729dbe6dca24f21fb3501"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_boots_final.json"
+hash = "0151f66272e203854f67eb6f0437e07e8e37b38e1073104031abe5456218ec73"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_chestplate.json"
+hash = "7f7d1b6da51abdd68eb476e576a6613478a012072123f64e8035ed6c3c6533f9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_chestplate_final.json"
+hash = "229bf9e0cd035f83e1c4fde9287b1fa40d73043d4e2a8c3a7d9918cb8e6bbbc3"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_helmet.json"
+hash = "29f402d7b1e7eabc9455d626ac3db6e515a17d70d37d4f568fd2133fedc88b4e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_helmet_final.json"
+hash = "2198a0b33f5325fbf919dcb35a7afcc320fa765e3f0f7a0fbfaeb2281d800d33"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_hoe.json"
+hash = "3ed45658a238b59c938cda9f7e0b297101422f6800f00f03638bcbecdd4f3e8b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_leggings.json"
+hash = "106b34d98cce2758e62d71fccae912ee8c317af036e080936d45816cb8c2542f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_leggings_final.json"
+hash = "3232218122f041fda76133570447763887dc6edb51eb9e3de32910ec20ad5613"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_pickaxe.json"
+hash = "46466ea5460f00bd08f5e1292b3ea1dd2d5174744bac0ded9daa4b7a548a75d5"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_shovel.json"
+hash = "4fa175c00a226501109fab7cd6e3d825b6087ca369db38c4decca9282cd19d7f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_boots_upgrade_sacrifice_sword.json"
+hash = "d0d408218e4d3646ec26954e16dd199fe1e9431ca0e28ddf799fc8abff8ea370"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_dework.json"
@@ -849,6 +953,46 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "944fd9160a2aaf42f2263d1d7c067d21803af32cc004a8e290cf30b740ad3ed5"
 
 [[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_axe.json"
+hash = "9d93e11cc6411dda0bd93adbda10c6ef2e09a9d9257f45a3f871e474e6e98210"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_boots.json"
+hash = "c9fca1432e6928c85760d989b0eb4c7705de0e0932ce4edeb4efd54a0b223a7f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_chestplate.json"
+hash = "5e077bf9710d39e827911c3fe9bfdc5b0e1f2032b2fcb723096ec8ceff1ce20d"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_chestplate_final.json"
+hash = "b99fdca6cc61602a8387a08c18d030284a856669eda7c4b7d433a2db1ea55f69"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_helmet.json"
+hash = "5cdf277e49727a3f83fbe3eae8582f59b10cbf2391d6c3ca43c3d338491c7a3e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_hoe.json"
+hash = "7763745ff29d59a5a98f55298abb9ebe18245411aa07b5a685189d891437da73"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_leggings.json"
+hash = "190a75a797213cd9d8ee2d95f569546dfdac3c0b31b4f975e0d891bcb70e0a94"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_pickaxe.json"
+hash = "bc12886208a351887ed3eb7bf9d3ee997059fdce77de1eef6d563d82f62c76fd"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_shovel.json"
+hash = "87a8cf8a3432dfe5d5be39f9a7ad841bbe9d3c5117b47e515d9233181a032fe3"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_chestplate_upgrade_sacrifice_sword.json"
+hash = "4b420a3a145f76ff8434a52a3b2c98ad43f026ba51a3e0d96872fec93a8ae755"
+
+[[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_dework.json"
 hash = "cf4799bfa62c74d2ea03887207b5f2f9fcc82377642b6baf9f509bae7b9db05f"
 
@@ -865,8 +1009,52 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "3fa0b3db00e20ad67b9f60a6679e9623172e109152d55eec55bdd3fff3eaee94"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade.json"
-hash = "f9b009f5f4967c69c356ba0f3f77c7c50fd2087ae09f300023ecb0f8fbdfa472"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_axe.json"
+hash = "ab69ce166a0c563f6fd4bab6d9b7e028558684f41cdcf89780ad639322069b87"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_boots.json"
+hash = "939f0292e9e1d3ac71d896fb521b24c002dc676fc4e92d10cfc1740548794184"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_chestplate.json"
+hash = "1422a9024b303a1c72eb5f0c2f4a2f125a38908e97e8319bc0a9a54e720d328b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_chestplate_final.json"
+hash = "194263fcd4b6dacee98e95f844549be5fe2c2f8a6b940c068e3799b5241d5009"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_helmet.json"
+hash = "a426cadd40c18d9392bb25c061c602c668bc3a713ac2db8c2240cf4a77672977"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_helmet_final.json"
+hash = "599bebdf9997cf67e43b295bc472a9ab3dac901d53ab782cf25a67aa7190cd01"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_hoe.json"
+hash = "974811f17421be1449e6d92c23e79964a14cf53995d9cafbf1532b1c807afc91"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_leggings.json"
+hash = "dfb81923714e6390b497c8c553cb876e55365e548ef9c82dbfa455419f034b15"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_leggings_final.json"
+hash = "d3dfe24b83068f460ca6cd79519bb75c2811e420e58bca261c17b7e7062557cb"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_pickaxe.json"
+hash = "1757e0f37645f974c2b35d8a66d4c2982969b9613e324946468cab1716125336"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_shovel.json"
+hash = "50637b7437d2e02530caec23f9c04b7ec35fc8b058b6856fba46f629cc7bd564"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_helmet_upgrade_sacrifice_sword.json"
+hash = "5b28b4e1fce24453f8f343fa0e1a07491e9da1a0d38d286fdb4b7b3accc9cf44"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_dework.json"
@@ -885,8 +1073,72 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "3de6ffae4f45f0148882c4a79345e034f67cce0b0550e5888cc3c6fb72546059"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade.json"
-hash = "4a6b4648606bb2e1e7c7ddfe80242c02ea28225b3902488766f14e9ee0eed432"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_axe.json"
+hash = "aeddb25e123fa140d418c92b5fd45cb28b0af8e7bcbdd23be46facc6b15d48ba"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_axe_final.json"
+hash = "17d24694ef5bbeb3a93759bf32a0f751e79a154112c5d5335d01bc3b22df09f6"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_boots.json"
+hash = "a7270a11ab1f6db8ec539b491b4cd827a0bae52e827fd09b9659eea44640c267"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_boots_final.json"
+hash = "b90ea357759e3b70fe53f566ed18ea530e9587109b3d6c23fe566d77847ce8cb"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_chestplate.json"
+hash = "461f304764e59a6ab5a64b48f6ade7a059e77bd1bf70e42af0bd9bdf6fdeea93"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_chestplate_final.json"
+hash = "7f8b9be78a607326c868ba6daf41365f17231ad495cc456451617a9320731b06"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_helmet.json"
+hash = "387a9cff6b1a81cf0ac29e28da7fecb03670989bb208897481667e9936b86d6a"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_helmet_final.json"
+hash = "fb6a09cb820897dcccbeed04ee6e1862635fac236139e7158191a4326d98e813"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_hoe.json"
+hash = "c6063c0c4dcfcbbda182ea3d238552072a1de32b3a0ce48d60c4932da3dd11a1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_hoe_final.json"
+hash = "abf6a6ae4123ac7406103aa806a7847aa7b8d36494ecfc5033c85fe2992f2829"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_leggings.json"
+hash = "155fde4dea844262bde8abe4e55719b595d23797e41f8af99e2ccf2dec4e764c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_leggings_final.json"
+hash = "a681244a46117d1394dffeb0ad7a099cac6c231b90675a2015d658fd59c2ba3b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_pickaxe.json"
+hash = "0e21e22b43d52dd48c408c414239353f3fd3f32e2a4b39d3df07fecc34d27af6"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_pickaxe_final.json"
+hash = "36071229c59a0a811f0ab314954afedfba618a2efa5b6e43327a0da0b99572ec"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_shovel.json"
+hash = "00a6915e6973c683dc7545d5a6d23955a4c4f8de2afb8826fcfb5cbea76c7cd4"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_sword.json"
+hash = "76b6a99115aecdaef744fc8cef8421b2ee607dde2f856d49ea359e1fa667e621"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_hoe_upgrade_sacrifice_sword_final.json"
+hash = "e2234de6f4308a2b95ad18fcf8a4cba8dc21a183bcaac6d3b56bcf182b15360f"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_dework.json"
@@ -905,6 +1157,50 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "562ab961e15f7c7027b3ba69cdcc764f619041b4f8640e5fd53b1098253a6cb2"
 
 [[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_axe.json"
+hash = "40557b3d67e2cc5203f825f0fff371f0b8eade98dec47214ba824f28201c261d"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_boots.json"
+hash = "b41b4323cd11e68205f735b83a93e129a9724f87a2235bc9a64e5301803bbfdc"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_chestplate.json"
+hash = "03ef5f43573880402c4a34917d7e7d75f855b9e17f7175c6d2063dea987f81c9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_chestplate_final.json"
+hash = "6636feaff076700d31ae50d14029309976bb9cbe2e806ef5581420f515670d38"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_helmet.json"
+hash = "0eeac3057ea459d67411280ac318449f78eec4cdb88ab3f44f686c9c67ddc478"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_hoe.json"
+hash = "28930b22ba8010789d1ac2c7aa917a167cd89229e08ddb9736f93abe2ec699cc"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_leggings.json"
+hash = "0cd1bea5426fe9d30b2331f1b32d01b6a07535a5a0170aadafdb3ddb2e339c53"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_leggings_final.json"
+hash = "41e5ce352cd1bd0224ce9656a72d1d63e68e44809601e2a46e5b7dcfb36b2f5c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_pickaxe.json"
+hash = "0f6ce46e757c672641cbb3c5ac9b9cf7453cf12bdba9349d42edb08083be2fd2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_shovel.json"
+hash = "85261e8ff160f7b3a2bad3ea568855c4d9b29aea6e7becb951fee467c23d62cb"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_leggings_upgrade_sacrifice_sword.json"
+hash = "f5760cbf177332f644fd25eda778b6131df442daf90f6ec5b2fac4a3637af622"
+
+[[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_dework.json"
 hash = "65d8661a3e14901de656a0280a9900234b25ce340a2c21a878ccc021e04e17b1"
 
@@ -921,8 +1217,64 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "a21f592d0b1b57c2fb02b3aefcc1c8ec0e70279580dea6a0c0a2296612c0867c"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade.json"
-hash = "88e86183fc844526608ef655fb99c728e6e5d6dd896acae5ba3256d09311c84e"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_axe.json"
+hash = "51ec057ea747841c07aa42eb159d90871219fd0154742a812f3b3705a49bbcfa"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_axe_final.json"
+hash = "1934128506993a4f1334d20f698ee714cecf5c7f07709100655042ad7f30c4fc"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_boots.json"
+hash = "3267f9e7ed78fb4eeb1d4d6e2471858335a3e9879e05b2bc676fd06a80d8f96d"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_boots_final.json"
+hash = "6a54e69dd84cc2b10f5472baab15934009c42c5b031168d0c4a920857e44686b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_chestplate.json"
+hash = "966c1f7bb6e5224813e5451b44c6875fd826564b93dbb20cc3cfd2d780f887fb"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_chestplate_final.json"
+hash = "733b402ea1ee5b215dd1b83457b0ae2ef92f74bca7af84d4119769a6e3c79672"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_helmet.json"
+hash = "782421043686a297a025890352a15f0eca42d6ff9c78fea7ef5454b82d704f04"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_helmet_final.json"
+hash = "724660018c9cf5ad98a6b2604f79a9c0d549d1cc4c1ad04547fb1b0a54ca8de5"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_hoe.json"
+hash = "a9792364870f57a5b7bb598190c2e8535e3ba7fc57f9dddefb23f37f0fbd2629"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_leggings.json"
+hash = "44336503a5296c9de4660400c6a8aa3f45f0ab9db9667641a2b553b8730a81b9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_leggings_final.json"
+hash = "614ad02df25a91740a40ee96301fb8e39226f1e66049726329f116744d19850e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_pickaxe.json"
+hash = "b1a4ada4ab4486bbfce95e5a0a550262be542a6a616fab17484ab4db95126d8d"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_pickaxe_final.json"
+hash = "7072c467f158d3b77215ea2cb03b6f54da06e220b8b5d448cfbd38500fc0197f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_shovel.json"
+hash = "6d24ac23070941d01a7f45359a6a51639f76f93455037903bf22fc0760794483"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_pickaxe_upgrade_sacrifice_sword.json"
+hash = "a1636676604382dae75ef36b37d600964e44c0067f25cc3afbd4cefb9539a966"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_dework.json"
@@ -941,8 +1293,76 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "bffce2e7597db8fea0ebb72601c942dce263fb42cd8885047ca8c03aa4ee9e94"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade.json"
-hash = "477aa95ee344ed1cad0bb7fc4991890c6fe1e9d01493d4a4ad14292c96cb25bf"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_axe.json"
+hash = "5b4fce938d86b338d5a1b3b6b4bdd7d5faa52b4d3ca8211d4820914788a257ad"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_axe_final.json"
+hash = "164b4b8255227ee536c347422928b8d4bd813033e861983006332f0ce65d3e48"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_boots.json"
+hash = "45695b8f0df1b6d30857e13797299e7f17368dfb2223e6a5d8f1e5342b5d9179"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_boots_final.json"
+hash = "9b352f16587772903cfcd26ed0bcc3b3cc82597a7fcae793a027ef452b38c7f9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_chestplate.json"
+hash = "d00d9b64e1192da518f209f9727d0e9f31e78e3e65d62443d125ee33febdaf31"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_chestplate_final.json"
+hash = "fda7c28d666aaf4e25b98d92ab940d7a8f4026ea0449f90a05c73ff4c30ea4d9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_helmet.json"
+hash = "be079e214451c7adf204e049147cbdd3b4c99b13d801b0a12e4741aece5189e7"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_helmet_final.json"
+hash = "0c327ebec3880b0cefac71808cb50c79ba48a9d1fdfe4798bb9124f5a0175de5"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_hoe.json"
+hash = "9e40f258c99b5ec69a34f51e3c80d14b0be65ae0b0b7a201eaad712b36e321b2"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_hoe_final.json"
+hash = "35eac56db4326b994a18e58604095e8ce76d9a076f84181f81cf0f73d1b22318"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_leggings.json"
+hash = "31629b40650b8213443f7f264ff9303e27c5bcfb12ee94a56f334eded34f7f65"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_leggings_final.json"
+hash = "c41e9ba12366d2e223561c2e3929b855d990469afb98690225618e84ac1ec2db"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_pickaxe.json"
+hash = "2f26c2db91cbb03270835852acec69f705b85a7ba61a1231be918fc87109d497"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_pickaxe_final.json"
+hash = "a74cedabdc195bfac5fe24aa6cf195921c58b419fbbd118608356386154d3723"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_shovel.json"
+hash = "c98eb2177e659270db76cb201d13339fd1014d4c0f629495c62c4a8224449766"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_shovel_final.json"
+hash = "7ac64f4f42d80c6efee345629df31d9e079a15c792095870003f458c2cfe16ab"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_sword.json"
+hash = "3f6d5463f3c1948801a5ec536e827c4901167a6b8796f1cef598def9f2adabc0"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_shovel_upgrade_sacrifice_sword_final.json"
+hash = "ca9d8fca3745e7d39723096dfb7cf76a77869f4254a9389c1cf4939406261e5c"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_dework.json"
@@ -961,8 +1381,72 @@ file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherit
 hash = "49c1746d63026f20a7eaf162eda22c8d2d9f2dcc6b50dd975294f25e4c86d7b6"
 
 [[files]]
-file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade.json"
-hash = "f5575c8fb40623406d3b28bb9ee4212e2a305245f8a7dfb22684527376311968"
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_axe.json"
+hash = "4b1c20c8bd06b1155407824d03a76824fb53695dc3bec616491c7cf2f0601395"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_axe_final.json"
+hash = "d6dd83149133901f28f3fbef8a380721c034a8b9567c45a4dff0c06b1f2d5fd3"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_boots.json"
+hash = "957279d782ffdab885e6fe8b3b59697672d2572992e706497cbdbbc701339b6b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_boots_final.json"
+hash = "aba0083cb88e2700506d3ae97115000626074244812b637ba7c24cf082841611"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_chestplate.json"
+hash = "16a6f994627e90afa732f8327ed1fdad9ae86dc2c5ead9a4ba30a441c175663b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_chestplate_final.json"
+hash = "f48a23cd5498e291565fa25d2f8c7bef6a6fd37040761202fa95a216b02c697e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_helmet.json"
+hash = "6ef71fd33cb37ac15925833293460e2eaf7757b71e4bc3cbc6e8b834c580df96"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_helmet_final.json"
+hash = "04476040ffb7edf775e058e5cdc080243fe1067151a6160d8461707e4b4fb5f3"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_hoe.json"
+hash = "2b85b85f87f0d5675080e4e30f1c302581d107779030dc22a48bcda9828b2c5e"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_hoe_final.json"
+hash = "2a844c76050f0afc847a2d4f3ea4efcb646a0bb72c7f6a88df4bf8d80e57fadf"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_leggings.json"
+hash = "1d1f63ef4133b8d18f6371339ca9cacda1670112581cd34143986a3b8c0e6d68"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_leggings_final.json"
+hash = "562484a9b12fbc9ed9978e5e091227bebbd4f22094c7e3767649ee67b0e98b0f"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_pickaxe.json"
+hash = "fec678bb00f30bd8f15e589283ae93407d31f9bfc32be2622c41d35fc82226f1"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_pickaxe_final.json"
+hash = "0323d25fcd331fcf1f00c4b5a2bb6e9622b64e51025d56931ab603feb9f536bd"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_shovel.json"
+hash = "c36cf562c78afceecaec797ab5064cc84d0394baa7e1587d8aa1a9bf59b0d671"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_sword.json"
+hash = "d5fdeeed7da9fbe284cad56803d9ff64e59fe2b93d220a6f0218e22619bf61b4"
+
+[[files]]
+file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/netherite_sword_upgrade_sacrifice_sword_final.json"
+hash = "40fa6d6ee64ca9dce4dcc9a248e7fd3be6f6aa0713eb3499c0d3493d5b88fbae"
 
 [[files]]
 file = "config/openloader/data/tinkerers_smithing/data/tinkerer/recipes/stone_axe_repair_double.json"

@@ -1,0 +1,24 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_pickaxe"
+    },
+    "ingredient": {
+        "data": {
+            "require": {
+                "Damage": "$..370"
+            }
+        },
+        "item": "minecraft:netherite_chestplate"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "type": "nbtcrafting:smithing"
+}

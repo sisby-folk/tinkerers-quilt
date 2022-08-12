@@ -1,0 +1,24 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_axe"
+    },
+    "ingredient": {
+        "data": {
+            "require": {
+                "Damage": "$..0"
+            }
+        },
+        "item": "minecraft:netherite_shovel"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$(2031-((2031-ingredient.Damage)*2031/6093))#i"
+        },
+        "item": "minecraft:netherite_axe"
+    },
+    "type": "nbtcrafting:smithing"
+}

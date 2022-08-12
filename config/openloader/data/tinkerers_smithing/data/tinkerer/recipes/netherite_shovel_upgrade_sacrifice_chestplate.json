@@ -1,19 +1,22 @@
 {
     "base": {
         "data": {
-            "require": {
-                "Damage": "$0"
-            }
+            "require": {}
         },
         "item": "minecraft:golden_shovel"
     },
     "ingredient": {
-        "item": "minecraft:netherite_shovel"
+        "data": {
+            "require": {
+                "Damage": "$519.."
+            }
+        },
+        "item": "minecraft:netherite_chestplate"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$0"
+            "Damage": "$(2031-((592-ingredient.Damage)*16248/592))#i"
         },
         "item": "minecraft:netherite_shovel"
     },

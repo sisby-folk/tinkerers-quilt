@@ -1,0 +1,24 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_hoe"
+    },
+    "ingredient": {
+        "data": {
+            "require": {
+                "Damage": "$1.."
+            }
+        },
+        "item": "minecraft:netherite_hoe"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$(2031-((2031-ingredient.Damage)*4062/4062))#i"
+        },
+        "item": "minecraft:netherite_hoe"
+    },
+    "type": "nbtcrafting:smithing"
+}

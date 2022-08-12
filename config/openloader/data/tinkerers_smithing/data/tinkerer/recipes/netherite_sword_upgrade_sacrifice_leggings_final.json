@@ -1,0 +1,24 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_sword"
+    },
+    "ingredient": {
+        "data": {
+            "require": {
+                "Damage": "$..396"
+            }
+        },
+        "item": "minecraft:netherite_leggings"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$0"
+        },
+        "item": "minecraft:netherite_sword"
+    },
+    "type": "nbtcrafting:smithing"
+}

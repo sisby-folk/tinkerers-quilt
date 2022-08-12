@@ -1,0 +1,24 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_shovel"
+    },
+    "ingredient": {
+        "data": {
+            "require": {
+                "Damage": "$326.."
+            }
+        },
+        "item": "minecraft:netherite_helmet"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$(2031-((407-ingredient.Damage)*10155/407))#i"
+        },
+        "item": "minecraft:netherite_shovel"
+    },
+    "type": "nbtcrafting:smithing"
+}

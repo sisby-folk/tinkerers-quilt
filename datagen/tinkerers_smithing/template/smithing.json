@@ -8,7 +8,11 @@
     }
   },
   "ingredient": {
-    "item": "{{ ingredient_item }}"
+    "item": "{{ ingredient_item }}",
+    "data": {
+      "require": {
+      }
+    }
   },
   "result": {
     "item": "{{ result_item }}",

@@ -1,0 +1,24 @@
+{
+    "base": {
+        "data": {
+            "require": {}
+        },
+        "item": "minecraft:golden_boots"
+    },
+    "ingredient": {
+        "data": {
+            "require": {
+                "Damage": "$238.."
+            }
+        },
+        "item": "minecraft:netherite_leggings"
+    },
+    "result": {
+        "data": {
+            "$": "$base",
+            "Damage": "$(481-((555-ingredient.Damage)*3367/2220))#i"
+        },
+        "item": "minecraft:netherite_boots"
+    },
+    "type": "nbtcrafting:smithing"
+}

@@ -1,19 +1,22 @@
 {
     "base": {
         "data": {
-            "require": {
-                "Damage": "$0"
-            }
+            "require": {}
         },
         "item": "minecraft:golden_helmet"
     },
     "ingredient": {
-        "item": "minecraft:netherite_shovel"
+        "data": {
+            "require": {
+                "Damage": "$223.."
+            }
+        },
+        "item": "minecraft:netherite_chestplate"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$407"
+            "Damage": "$(407-((592-ingredient.Damage)*3256/2960))#i"
         },
         "item": "minecraft:netherite_helmet"
     },

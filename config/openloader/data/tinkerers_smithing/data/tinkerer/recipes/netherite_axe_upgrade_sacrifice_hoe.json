@@ -1,19 +1,22 @@
 {
     "base": {
         "data": {
-            "require": {
-                "Damage": "$0"
-            }
+            "require": {}
         },
         "item": "minecraft:golden_axe"
     },
     "ingredient": {
-        "item": "minecraft:netherite_shovel"
+        "data": {
+            "require": {
+                "Damage": "$..0"
+            }
+        },
+        "item": "minecraft:netherite_hoe"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$1015"
+            "Damage": "$(2031-((2031-ingredient.Damage)*4062/6093))#i"
         },
         "item": "minecraft:netherite_axe"
     },
