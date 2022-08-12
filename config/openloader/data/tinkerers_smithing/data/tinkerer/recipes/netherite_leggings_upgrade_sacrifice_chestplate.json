@@ -16,7 +16,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(555-((592-ingredient.Damage)*4440/4144))#i"
+            "Damage": "$(555-((592-ingredient.Damage)*4440.0/4144))#i"
         },
         "item": "minecraft:netherite_leggings"
     },

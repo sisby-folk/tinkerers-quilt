@@ -7,16 +7,14 @@
     },
     "ingredient": {
         "data": {
-            "require": {
-                "Damage": "$..0"
-            }
+            "require": {}
         },
         "item": "minecraft:netherite_boots"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(555-((481-ingredient.Damage)*2220/3367))#i"
+            "Damage": "$(555-((481-ingredient.Damage)*2220.0/3367))#i"
         },
         "item": "minecraft:netherite_leggings"
     },

@@ -7,16 +7,14 @@
     },
     "ingredient": {
         "data": {
-            "require": {
-                "Damage": "$..0"
-            }
+            "require": {}
         },
         "item": "minecraft:netherite_helmet"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(592-((407-ingredient.Damage)*2960/3256))#i"
+            "Damage": "$(592-((407-ingredient.Damage)*2960.0/3256))#i"
         },
         "item": "minecraft:netherite_chestplate"
     },

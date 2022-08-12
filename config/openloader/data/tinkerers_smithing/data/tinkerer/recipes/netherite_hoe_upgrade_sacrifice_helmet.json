@@ -16,7 +16,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(2031-((407-ingredient.Damage)*10155/814))#i"
+            "Damage": "$(2031-((407-ingredient.Damage)*10155.0/814))#i"
         },
         "item": "minecraft:netherite_hoe"
     },

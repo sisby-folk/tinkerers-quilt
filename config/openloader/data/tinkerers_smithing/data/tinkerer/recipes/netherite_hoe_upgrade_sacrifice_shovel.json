@@ -7,16 +7,14 @@
     },
     "ingredient": {
         "data": {
-            "require": {
-                "Damage": "$..0"
-            }
+            "require": {}
         },
         "item": "minecraft:netherite_shovel"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(2031-((2031-ingredient.Damage)*2031/4062))#i"
+            "Damage": "$(2031-((2031-ingredient.Damage)*2031.0/4062))#i"
         },
         "item": "minecraft:netherite_hoe"
     },

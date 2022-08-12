@@ -144,8 +144,8 @@ def main():
 
                 if gear_tier == 'netherite':
                     for sacrifice_type in ['chestplate', 'leggings', 'helmet', 'boots', 'pickaxe', 'sword', 'shovel', 'axe', 'hoe']:
-                        # for sacrifice_type in ['shovel']:
                         current_dict['ingredient']['item'] = get_repair_ingredient(gear_tier, sacrifice_type)
+                        current_dict['ingredient']['data']['require'].pop('Damage', None)
 
                         sacrifice_durability = get_durability(gear_tier, sacrifice_type)
                         sacrifice_units = get_unit_cost(sacrifice_type)
@@ -153,17 +153,11 @@ def main():
                         result_durability = get_durability(gear_tier, gear_type)
                         result_units = get_unit_cost(gear_type)
 
-                        # Oof ouch linearisation
+                        # Damage Calculation
                         # current_sacrifice_durability = sacrifice_durability - sacrifice_current_damage
                         # restored_units = current_sacrifice_durability / sacrifice_durability * sacrifice_units
                         # restored_durability = restored_units * result_durability / result_units
                         # result_damage = result_durability - restored_durability
-                        # result_damage = result_durability - (((sacrifice_durability - sacrifice_current_damage) / sacrifice_durability * sacrifice_units) * result_durability / result_units)
-                        # mult = (sacrifice_units / result_units) * (result_durability / sacrifice_durability)
-                        # result_damage = result_durability - current_sacrifice_durability * mult
-                        # result_damage = result_durability - (sacrifice_durability - sacrifice_current_damage) * mult
-                        # const = result_durability - sacrifice_durability * mult
-                        # result_damage = sacrifice_current_damage * mult + const
 
                         # Piecewise Function
                         # result_damage = result_durability - ((sacrifice_durability - sacrifice_current_damage) * (sacrifice_units * result_durability) / (sacrifice_durability * result_units))
@@ -171,16 +165,16 @@ def main():
                         # x > maxX - maxY * (de)/(bc)
                         # else 0
 
-                        # non-final
                         final_point = sacrifice_durability - result_durability * (sacrifice_durability * result_units) / (sacrifice_units * result_durability)
+                        # non-final
+                        current_dict['result']['data']['Damage'] = '$(' + str(result_durability) + '-((' + str(sacrifice_durability) + '-ingredient.Damage)*' + '{:.1f}'.format(sacrifice_units * result_durability) + '/' + str(sacrifice_durability * result_units) + '))#i'
                         if final_point >= 0:
                             current_dict['ingredient']['data']['require']["Damage"] = '$' + str(zealous_ceil(final_point)) + '..'
-                        # current_dict['result']['data']['Damage'] = '$ingredient.Damage*' + str(mult) + ('+' if const >= 0 else '') + str(const)
-                        current_dict['result']['data']['Damage'] = '$(' + str(result_durability) + '-((' + str(sacrifice_durability) + '-ingredient.Damage)*' + str(sacrifice_units * result_durability) + '/' + str(sacrifice_durability * result_units) + '))#i'
                         write_recipe(dir_recipes, current_dict, gear_tier, gear_type, 'upgrade_sacrifice_' + sacrifice_type)
                         # final
                         if final_point >= 0:
-                            current_dict['ingredient']['data']['require']["Damage"] = '$..' + str(math.floor(final_point))
+                            if final_point < sacrifice_durability:
+                                current_dict['ingredient']['data']['require']["Damage"] = '$..' + str(math.floor(final_point))
                             current_dict['result']['data']['Damage'] = '$0'
                             write_recipe(dir_recipes, current_dict, gear_tier, gear_type, 'upgrade_sacrifice_' + sacrifice_type + '_final')
 

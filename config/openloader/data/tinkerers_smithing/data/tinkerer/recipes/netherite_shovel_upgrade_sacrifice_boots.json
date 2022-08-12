@@ -16,7 +16,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(2031-((481-ingredient.Damage)*8124/481))#i"
+            "Damage": "$(2031-((481-ingredient.Damage)*8124.0/481))#i"
         },
         "item": "minecraft:netherite_shovel"
     },

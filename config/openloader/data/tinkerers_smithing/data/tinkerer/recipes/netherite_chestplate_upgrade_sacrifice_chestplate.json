@@ -16,7 +16,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(592-((592-ingredient.Damage)*4736/4736))#i"
+            "Damage": "$(592-((592-ingredient.Damage)*4736.0/4736))#i"
         },
         "item": "minecraft:netherite_chestplate"
     },

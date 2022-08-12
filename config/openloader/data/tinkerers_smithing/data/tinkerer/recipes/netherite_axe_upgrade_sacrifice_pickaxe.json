@@ -16,7 +16,7 @@
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(2031-((2031-ingredient.Damage)*6093/6093))#i"
+            "Damage": "$(2031-((2031-ingredient.Damage)*6093.0/6093))#i"
         },
         "item": "minecraft:netherite_axe"
     },

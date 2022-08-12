@@ -7,16 +7,14 @@
     },
     "ingredient": {
         "data": {
-            "require": {
-                "Damage": "$..0"
-            }
+            "require": {}
         },
         "item": "minecraft:netherite_axe"
     },
     "result": {
         "data": {
             "$": "$base",
-            "Damage": "$(592-((2031-ingredient.Damage)*1776/16248))#i"
+            "Damage": "$(592-((2031-ingredient.Damage)*1776.0/16248))#i"
         },
         "item": "minecraft:netherite_chestplate"
     },
