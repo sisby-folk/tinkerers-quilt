@@ -8,6 +8,9 @@
         "item": "minecraft:iron_hoe"
     },
     "ingredient": {
+        "data": {
+            "require": {}
+        },
         "item": "minecraft:iron_ingot"
     },
     "result": {

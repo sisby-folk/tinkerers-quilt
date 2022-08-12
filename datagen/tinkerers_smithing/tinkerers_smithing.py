@@ -108,7 +108,6 @@ def main():
 
             # dework
             current_dict = deepcopy(template)
-            del current_dict['ingredient']['data']
             current_dict['result']['item'] = 'minecraft:' + gear_tier + '_' + gear_type
             current_dict['base']['item'] = 'minecraft:' + gear_tier + '_' + gear_type
             current_dict['ingredient']['item'] = 'minecraft:netherite_scrap'
@@ -123,7 +122,6 @@ def main():
 
             # repair
             current_dict = deepcopy(template)
-            del current_dict['ingredient']['data']
             current_dict['result']['item'] = 'minecraft:' + gear_tier + '_' + gear_type
             durability = get_durability(gear_tier, gear_type)
             durability_restored = math.ceil(durability / 4.0)
@@ -187,7 +185,6 @@ def main():
                             write_recipe(dir_recipes, current_dict, gear_tier, gear_type, 'upgrade_sacrifice_' + sacrifice_type + '_final')
 
                 elif get_unit_cost(gear_type) <= 5:
-                    del current_dict['ingredient']['data']
                     current_dict['ingredient']['item'] = get_repair_ingredient(gear_tier)
                     current_dict['result']['data']['Damage'] = "$" + str(math.floor(get_durability(gear_tier, gear_type) * ((get_unit_cost(gear_type) - 1) / 4.0)))
                     write_recipe(dir_recipes, current_dict, gear_tier, gear_type, 'upgrade')

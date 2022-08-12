@@ -8,6 +8,9 @@
         "item": "minecraft:iron_leggings"
     },
     "ingredient": {
+        "data": {
+            "require": {}
+        },
         "item": "minecraft:iron_ingot"
     },
     "result": {

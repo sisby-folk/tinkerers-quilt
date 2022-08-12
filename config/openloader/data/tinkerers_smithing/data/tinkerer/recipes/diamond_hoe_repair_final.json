@@ -8,6 +8,9 @@
         "item": "minecraft:diamond_hoe"
     },
     "ingredient": {
+        "data": {
+            "require": {}
+        },
         "item": "minecraft:diamond"
     },
     "result": {

@@ -8,6 +8,9 @@
         "item": "minecraft:iron_chestplate"
     },
     "ingredient": {
+        "data": {
+            "require": {}
+        },
         "item": "minecraft:iron_ingot"
     },
     "result": {

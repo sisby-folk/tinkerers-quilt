@@ -8,6 +8,9 @@
         "item": "minecraft:netherite_boots"
     },
     "ingredient": {
+        "data": {
+            "require": {}
+        },
         "item": "minecraft:netherite_ingot"
     },
     "result": {

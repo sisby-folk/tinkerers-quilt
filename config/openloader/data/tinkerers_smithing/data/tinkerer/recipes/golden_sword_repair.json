@@ -8,6 +8,9 @@
         "item": "minecraft:golden_sword"
     },
     "ingredient": {
+        "data": {
+            "require": {}
+        },
         "item": "minecraft:gold_ingot"
     },
     "result": {
