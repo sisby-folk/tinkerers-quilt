@@ -141,6 +141,7 @@ def main():
             if get_upgrade_item(gear_tier, gear_type) is not None:
                 current_dict['base']['item'] = get_upgrade_item(gear_tier, gear_type)
                 current_dict['result']['item'] = 'minecraft:' + gear_tier + '_' + gear_type
+                current_dict['base']['data']['deny'] = {'Upgradeable': 0}
 
                 if gear_tier == 'netherite':
                     for sacrifice_type in ['chestplate', 'leggings', 'helmet', 'boots', 'pickaxe', 'sword', 'shovel', 'axe', 'hoe']:

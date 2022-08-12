@@ -1,6 +1,9 @@
 {
     "base": {
         "data": {
+            "deny": {
+                "Upgradeable": 0
+            },
             "require": {}
         },
         "item": "minecraft:golden_helmet"
