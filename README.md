@@ -359,6 +359,7 @@ Resource Packs:
     Colored Axolotl Buckets With Babies
     Varied Connected Bookshelves
     xali's Enchanted Books
+    Sully's Peeves
     Vanilla Tweaks
     [Plus] Nullscapes 1.18.2
 
@@ -383,10 +384,21 @@ Homebrew Data Packs:
     Tinkerer's Copper Beacons
 ```
 
+### Modrinth Version
+
+Users of the modrinth version will need to download and add (in order of importance):
+- [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric)
+  - [FTB Teams](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric)
+  - [FTB Library](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric)
+- [Vehiclefix](https://www.curseforge.com/minecraft/mc-mods/vehiclefix/)
+- [Extra Origins](https://www.curseforge.com/minecraft/mc-mods/extra-origins)
+- [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
+
 # Special Thanks
 
-Emi ([EMI](https://modrinth.com/mod/emi))     
-Una ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor the Nickinator](https://github.com/unascribed/Drogtor/))     
+[Emi](https://github.com/emilyploszaj) ([EMI](https://modrinth.com/mod/emi))     
+[Una](https://github.com/unascribed) ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor the Nickinator](https://github.com/unascribed/Drogtor/))    
+[Andrew6rant](https://github.com/Andrew6rant) ([Inventory Tabs](https://modrinth.com/mod/inventory-tabs-updated))      
 QuiltComm and unascribed's Guild Discords      
 Beta-testing Queer Pluralfolk       
 [Bleu](https://twitter.com/bleudrawsthings) (for drawing the Kapesi headshot used in the icon)
