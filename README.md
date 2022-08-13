@@ -5,56 +5,19 @@
 <img float="right" style="float:right" width="100" height="100" src="https://user-images.githubusercontent.com/55819817/172377429-370926d7-2bb9-487b-9971-e63021e5a264.png" alt="Tinkerer's quilt logo. Kobold surrounded by quilt patches.">
 
 **Tinkerer's Quilt**  (TQuilt) is a set of minecraft modpacks by Kapesi, Clawby, Herrah and Le'mer.     
-Their design is centered on three pillars: **Vanilla Compatibility**, **Accessibility/UX**, and **Expression**
+Their design is centered on three pillars: **Vanilla Gameplay**, **Accessibility/UX**, and **Expression**
 
-All packs run on Minecraft 1.18.2 and the **Quilt** mod loader
+All packs run on Minecraft 1.18.2 and the **Quilt** mod loader. Check the [Install Instructions](#installation)
 
 ---
 
-The three editions are as follows
-- [Released] **Tinkerer's Quilt ("Base")** is the heart of all this. It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
+
+The **Base Edition** is what this page is all about -  It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
   - Designed to **teach you vanilla** through **fully in-game** quests and item info - you'll never need to open the wiki.
   - Built with a curated set of Quality of Life (QoL) improvements to ease the pains of vanilla.
   - **Easier than vanilla** with expressive origins, simplified enchanting/repair, and helpful quest rewards.
 
-**Base** is designed to allow more experienced players to add extra mods.     
-**Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
-The rest of this document focuses on Base, so here's a quick breakdown:
-
-- [WIP] **Plus** is a Vanilla+ extension of base, including all of its quests.
-  - Plus adds mods that expand on the **Godseeking** fields from base:
-    - **Homesteading** - More farming/ranching, _way_ more cooking, more building blocks, and more decorations.
-    - **Exploration** - More traversal options, new nether/end, new biomes, new structures, and a seasonal world.
-    - **Combat** - Spears, chef's knives, and... compact mechanically propelled halfdoors? Plus new dungeons.
-- [WIP] **Modded** a simple extension of plus, adding personal favourite major mods
-  - Each mod is larger, with a complex progression equivalent to Base's **The Basics** tree, and then some.
-  - **Botania** - Collect mana, power magic flowers, and study the elves in this beautifully simple magi-tech mod.
-  - **Create** - Build steampunk masses of driveshafts, pistons, and conveyors in this larger-than-life old-tech mod.
-  - **Tinker's Construct** - Though unstable on Quilt, TCon3 is our favourite tool/weapon system rework - ever.
-
----
-
-# Installation
-
-**Players**
- - Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
-
-   - Alternatively, run `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
-   - [MultiMC](https://multimc.org/) is also supported on its _development_ branch. Swap to this in `settings-> launcher` and restart.
-
- - Download your preferred [Tinkerer's Quilt Version](https://sisby-folk.github.io/mc-packs/).
-
- - Drag and drop onto an open PolyMC/MultiMC window, press OK, and double click it to play!
-
-   - When prompted for optional mods, press OK to continue, or customise to your liking first.
- 
-   - The pack will auto-update on every launch. To disable this, turn off **custom commands** in Edit Instance -> Settings.
-
-
-**Server Hosts**:
- - Download a [TQuilt Server Version](https://sisby-folk.github.io/mc-packs/)
- - Run Quilt Installer and select `1.18.2` and the latest non-beta loader version. Then click "install"
- - Run `Update.bat` to install the pack, then `Start.bat` to run the server
+[[Unreleased] other editions...](#other-editions)
 
 ---
 
@@ -63,16 +26,16 @@ The rest of this document focuses on Base, so here's a quick breakdown:
 ## Questing System
 ***"It's like FTB Academy for Vanilla!"*** - Us, just now
 
-TQuilt's quests help guide old and new players through the core progression of minecraft, and explore all the way out the far reaches of what it has to offer.
+TQuilt's quests guide new and returning players through the core progression of minecraft, and explore its main gameplay opportunities.
 
 ### The Basics
       
 <img width="425" height="260" src="https://user-images.githubusercontent.com/55819817/174097642-a5949541-b8e6-419b-bbfe-b3e4ecf90be8.png"><img width="325" height="260" src="https://user-images.githubusercontent.com/55819817/174098114-c5630f29-efaa-4473-9eb4-e53c4325f002.png">
 
-Core game progression - get unfamiliar players on track, keep goals visible, and engage directly through tasks and rewards.
+*The Basics* Covers game progression - it helps to get unfamiliar players on track while keeping goals visible and tasks tangible.
 
 ### Godseeking
-Explore all parts of the game and many special interests - categorised by **Homesteading**, **Self-Defense**, and **Exploration**.   
+Explore all the main mechanics and content of the game - categorised by **Homesteading**, **Self-Defense**, and **Exploration**.   
 Do you want to...
  - ⚔️ Know every weapon and kill every enemy? 
  - 🏠 Make bases in many environments? 
@@ -82,17 +45,19 @@ Do you want to...
  - 🛣️ Build transit infrastructure and achieve ludicrous speed? 
  - ⚙️ Make terrifyingly complex machines and mechanisms? 
 
-It's all there! Including things even we didn't know about before making this pack!     
+*Godseeking* will guide you through it like a hand-holding in-game wiki. How many quests are there? uhhh
+
+
+
+Some. [They reveal as you play to mitigate players getting overwhelmed]
+
 These quests can help players discover these parts of the game, and have rewards to provide helpful shortcuts.     
-Complete all quests of a special interest to complete its **Patron Quest** for very special rewards and incredible banners.        
-But beware - some quests are very difficult!     
-<img width="100" height="200" src="https://user-images.githubusercontent.com/55819817/174106133-c4250e0d-6c95-403d-a72d-8914826febd1.png">
-![image](https://user-images.githubusercontent.com/55819817/174103070-8567ceac-f9b1-4624-8ae3-543187227804.png)
+Complete all quests of a special interest to complete its **Patron Quest** for very special rewards and bragging banners.
 
 ### Information
  
 <img width="380" height="400" src="https://user-images.githubusercontent.com/55819817/174103926-52a741ac-6d36-44e4-8153-be5fb7aff6c1.png"><img width="380" height="400" src="https://user-images.githubusercontent.com/55819817/174105386-7985c35c-fc25-4d8b-bb5a-724d55a7ebf7.png">     
-Quests are also home to information about the pack itself, as a helpful reference guide.   
+Quests are also home to information about the pack itself, as a helpful reference guide - no need to read this page!   
 **Introduction** quests cover's the pack's main features, while **Discrepancies** quests helps players know what isn't vanilla.
 
 ## Homebrew Changes
@@ -107,8 +72,9 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
      - Flattens mending power creep, encouraging players to keep "Sentimental" tools as much as they like.
      - Tool material upgrades cost the exact same as a fresh tool - but keep the enchantments.
      - Quicker tools with less waste - upgrade wood to stone to iron from the 2x2 crafting grid.
-  - Six data packs: (use [this](https://download-directory.github.io) for downloads)
+ - Five data packs: (use [this](https://download-directory.github.io) for downloads)
    - [Tinkerer's Statures](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_statures) (Origins) - allows choosing player height on spawn.
+     <img width="700" height="262" src="https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png">
    - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
    - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins/+classes descriptions.
@@ -140,9 +106,6 @@ Letting players express themselves with player customisation, builds, and even t
  - [Ears](https://ears.unascribed.com/) - Improved skins with support for tails, horns, ears, claws, wings and more species/gender things!
  - [Fabric Tailor](https://modrinth.com/mod/fabrictailor) - Swap your skin in-game. Perfect for plural systems.
  - [Origins](https://modrinth.com/mod/origins) - Choose a player _Origin_, granting abilities, limitations, and maybe species euphoria (we don't know you)
-   - Uses our own curated set of custom and vanilla origins, with a separate selector for player height ("Stature")     
-
-     <img width="700" height="262" src="https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png">
 
  - [Drogtor](https://github.com/unascribed/Drogtor) - Change your player name at any time with a command!
  - [Player Pronouns](https://modrinth.com/mod/player-pronouns) - Set your pronouns in multiplayer and have them appear in chat.
@@ -173,9 +136,42 @@ Letting players express themselves with player customisation, builds, and even t
 
 ---
 
+# Installation
+
+### **Players**
+- Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
+
+    - Alternatively, run `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
+    - [MultiMC](https://multimc.org/) is also supported on its _development_ branch. Swap to this in `settings-> launcher` and restart.
+
+- Download [Tinkerer's Quilt](https://sisby-folk.github.io/mc-packs/).
+
+- Drag and drop onto an open PolyMC/MultiMC window, press OK, and double click it to play!
+
+    - When prompted for optional mods, press OK to continue, or customise to your liking first.
+
+    - The pack will auto-update on every launch. To disable this, turn off **custom commands** in Edit Instance -> Settings.
+
+### **Server Hosts**
+- Download a [TQuilt Server Version](https://sisby-folk.github.io/mc-packs/)
+- Run Quilt Installer and select `1.18.2` and the latest non-beta loader version. Then click "install"
+- Run `Update.bat` to install the pack, then `Start.bat` to run the server
+
+### Modrinth Version
+
+Users of the modrinth version can follow modrinth instructions, but will need to download and add (in order of importance):
+- [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric)
+    - [FTB Teams](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric)
+    - [FTB Library](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric)
+- [Vehiclefix](https://www.curseforge.com/minecraft/mc-mods/vehiclefix/)
+- [Extra Origins](https://www.curseforge.com/minecraft/mc-mods/extra-origins)
+- [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
+
+---
+
 # Known Issues
 
- - [Smithing/Vegetarian recipes aren't in EMI](https://github.com/Siphalor/nbt-crafting/issues/114)
+ - [NBT Recipes (Smithing, Brewing) aren't in EMI](https://github.com/Siphalor/nbt-crafting/issues/114)
  - [Petting mobs stops working randomly](https://github.com/Ellivers/Pettable/issues/4)
  - [Glow lichen says "Harvestable"](https://gitlab.com/ENDERZOMBI102/wthit-plugins/-/issues/5)
  - [Fogbox doesn't box fog](https://github.com/LudoCrypt/Fogbox/issues/6)
@@ -384,15 +380,25 @@ Homebrew Data Packs:
     Tinkerer's Copper Beacons
 ```
 
-### Modrinth Version
+# Other Editions
 
-Users of the modrinth version will need to download and add (in order of importance):
-- [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric)
-  - [FTB Teams](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric)
-  - [FTB Library](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric)
-- [Vehiclefix](https://www.curseforge.com/minecraft/mc-mods/vehiclefix/)
-- [Extra Origins](https://www.curseforge.com/minecraft/mc-mods/extra-origins)
-- [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
+We're working on some companion editions to release... eventually. Currently hosted builds are for testers.
+
+**Base** is designed to allow more experienced players to add extra mods.     
+**Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
+The rest of this document focuses on Base, so here's a quick breakdown:
+
+- [WIP] **Plus** is a Vanilla+ extension of base, including all of its quests.
+    - Plus adds mods that expand on the **Godseeking** fields from base:
+        - **Homesteading** - More farming/ranching, _way_ more cooking, more building blocks, and more decorations.
+        - **Exploration** - More traversal options, new nether/end, new biomes, new structures, and a seasonal world.
+        - **Combat** - Spears, chef's knives, and... compact mechanically propelled halfdoors? Plus new dungeons.
+- [WIP] **Modded** a simple extension of plus, adding personal favourite major mods
+    - Each mod is larger, with a complex progression equivalent to Base's **The Basics** tree, and then some.
+    - **Botania** - Collect mana, power magic flowers, and study the elves in this beautifully simple magi-tech mod.
+    - **Create** - Build steampunk masses of driveshafts, pistons, and conveyors in this larger-than-life old-tech mod.
+    - **Tinker's Construct** - Though unstable on Quilt, TCon3 is our favourite tool/weapon system rework - ever.
+
 
 # Special Thanks
 

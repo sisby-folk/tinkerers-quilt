@@ -808,8 +808,9 @@ file = "mods/colormatic-3.1.2-snapshot+mc.1.18.2.jar"
 hash = "49e7f9f4d6dda5a4fe5d25e73bbcc6eb7943e7f4a9444348943f6f96626f3677"
 
 [[files]]
-file = "mods/continuity-2.0.0+1.18.2.jar"
-hash = "caeb382e2fdbfb408ca9f6e24c22e864908294daab2ea76612895e79cca7432d"
+file = "mods/continuity.pw.toml"
+hash = "b508bb6b509b96b2e297e94ca2ce365623730b938f32c74d49c574a7ef1ecb24"
+metafile = true
 
 [[files]]
 file = "mods/couplings.pw.toml"
@@ -892,8 +893,9 @@ hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
-file = "mods/extraorigins-1.18-11.jar"
-hash = "7decb4fb6d89f3c1ad23e61bec070645513e4a710393d8723766b2cc485eef12"
+file = "mods/extra-origins.pw.toml"
+hash = "f21a2091e05a860abf1436effd976cfe281b907523d01cef9868f7b728302b6e"
+metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
