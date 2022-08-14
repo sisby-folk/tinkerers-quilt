@@ -47,7 +47,7 @@ Do you want to...
 
 *Godseeking* will guide you through it like a hand-holding in-game wiki. How many quests are there? uhhh
 
-
+[Image go here]
 
 Some. [They reveal as you play to mitigate players getting overwhelmed]
 
@@ -68,28 +68,39 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
    - [Portable Crafting Standalone](https://modrinth.com/mod/portable-crafting-standalone) - Press V or click a tab to use the crafting table in your inventory. 
    - [Totem Anywhere Standalone](https://modrinth.com/mod/totem-anywhere-standalone) - Totem of undying convenience - uses totems from inventory.  
    - [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) - Hides and removes advancements - quests and [EMI](https://modrinth.com/mod/emi) covers all you need.
-   - [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.
+   - [Tinkerer's Statures](https://modrinth.com/mod/tinkerers-statures) - Allows choosing player height on spawn.
+ 
+![screenshot](https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png)
+
+- - [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.
      - Flattens mending power creep, encouraging players to keep "Sentimental" tools as much as they like.
      - Tool material upgrades cost the exact same as a fresh tool - but keep the enchantments.
      - Quicker tools with less waste - upgrade wood to stone to iron from the 2x2 crafting grid.
- - Five data packs: (use [this](https://download-directory.github.io) for downloads)
-   - [Tinkerer's Statures](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_statures) (Origins) - allows choosing player height on spawn.
-     <img width="700" height="262" src="https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png">
+
+[Image go here]
+
+ - Four data packs: (use [this](https://download-directory.github.io) for downloads)
    - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
    - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins/+classes descriptions.
    - Tinkerer's [Vampire](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vampire)/[Imp](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_imp)/[Dryad](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_dryad) (Origins) - Mods of others' origins. Some small, some not - more planned.
+ - Five Pull Requests! (does that count?)
+   - [Fixing NBTCrafting](https://github.com/Siphalor/nbt-crafting/pull/115) for Smithing
+   - [Preserving Cursor Stack](https://github.com/Andrew6rant/InventoryTabs/pull/47) for Inventory Tabs
+   - [Adding Tab Compatibility](https://github.com/Alpha-s-Stuff/TinkersConstruct/pull/8) to TCon3 for Modded
+   - [Enabling RepairCost](https://github.com/Queerbric/Inspecio/pull/94) in inspecio without debug tooltips enabled for smithing.
+   - [Minorly updating Antique Atlas](https://github.com/AntiqueAtlasTeam/AntiqueAtlas/pull/432) for Plus
  - Mod Configuration:
    - 194 Quests over 6 categories in Base (FTB Quests)
      - Just as many flavour text subtitles - queer humour, observations, and a weird mix of references.
      - An unholy amount of quest descriptions - how to achieve the task, what the required items do, etc.
      - Meticulously symmetrical and categorized quest positioning. No really. Hours and hours of it.
-   - An uncomfortable amount of configuring mods avoid functionality overlap with other mods. Full days of it.
-   - Thinking too hard about choosing keybinds that are easy to remember (We wish modifier keys were vanilla). 
- - Actually, a lot of just _thinking_. An intense amount. Mod suitability, configs, overlaps, bugs - we're _tired_.
+   - Days and days of tracking and removing mod feature-overlap. Also sorting out good keybindings, apparently.
+ - Honestly a lot of hyper-meticulous design nonsense - Mod suitability, playtesting, feature overlap, quest flow...
    - This is still an endorsement, we swear.
-   - There was a lot of notepad documents and messy organisation systems to get this done. We wrote a whole skyrim-style "modding guide" in early 2021 for what would eventually become this pack. Terrifying stuff.
-   - Also reporting a lot of bugs and incompatibilities to mod developers. And quilt developers.
+   - There was a lot of notepad documents and messy organisation systems to get this done. 
+   - This project started in january 2021 as a skyrim-style "modding guide" for fabric. Not joking.
+ - Also reporting a lot of bugs and incompatibilities to mod developers. And quilt developers.
      - That's an endorsement too.
      - Thanks everyone.
 
@@ -130,9 +141,9 @@ Letting players express themselves with player customisation, builds, and even t
 
 ## Visuals
 
- - [Sodium](https://modrinth.com/mod/sodium) - Present day holy grail of performance mods.
+ - [Sodium](https://modrinth.com/mod/sodium) - Present-day holy grail of performance mods.
  - [Iris](https://modrinth.com/mod/iris) - Optifine-compatible shaders. We recommend [Complementary](https://www.curseforge.com/minecraft/customization/complementary-shaders) or [Super Duper Vanilla](https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders/files/).
- - Many more! Feel free to check the modlist.
+ - Many more! Check out the modlist.
 
 ---
 
