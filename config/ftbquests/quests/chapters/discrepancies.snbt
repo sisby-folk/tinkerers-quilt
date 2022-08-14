@@ -271,5 +271,26 @@
 				title: "Click Here!"
 			}]
 		}
+		{
+			title: "You're in Grave Danger"
+			icon: "yigd:grave"
+			x: -0.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Well, actually, less danger entirely"
+			description: [
+				"YIGD changes the death system to have players create graves on death."
+				""
+				"The graves don't de-spawn, and items can be retrieved by right-clicking."
+				""
+				"When you die, you'll be given the coordinates of the grave, and a temporary compass that points to it."
+			]
+			id: "73455AC743DE39C5"
+			tasks: [{
+				id: "58F86BCAF25D5DF9"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
 	]
 }
