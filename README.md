@@ -2,20 +2,19 @@
 
 ------
 
-<img float="right" style="float:right" width="100" height="100" src="https://user-images.githubusercontent.com/55819817/172377429-370926d7-2bb9-487b-9971-e63021e5a264.png" alt="Tinkerer's quilt logo. Kobold surrounded by quilt patches.">
+<p align="center"><img alt="Tinkerer's Quilt banner" src="" /></p>
 
-**Tinkerer's Quilt**  (TQuilt) is a set of minecraft modpacks by Kapesi, Clawby, Herrah and Le'mer.     
-Their design is centered on three pillars: **Vanilla Gameplay**, **Accessibility/UX**, and **Expression**
-
-All packs run on Minecraft 1.18.2 and the **Quilt** mod loader. Check the [Install Instructions](#installation)
+<p align="center"><span style="font-weight:bold">Tinkerer's Quilt</span> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
+It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player Expression.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <a href="#installation">Install Instructions</a></p>
 
 ---
 
 
-The **Base Edition** is what this page is all about -  It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
-  - Designed to **teach you vanilla** through **fully in-game** quests and item info - you'll never need to open the wiki.
+The **Base Edition** is what this pack is all about -  It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
+  - Designed to **guide you through vanilla** with in-game quests and information - you'll never need to open the wiki.
   - Built with a curated set of Quality of Life (QoL) improvements to ease the pains of vanilla.
-  - **Easier than vanilla** with expressive origins, simplified enchanting/repair, and helpful quest rewards.
+  - **Easier than vanilla** with simplified gear crafting, reduced death penalty, and helpful quest rewards.
+  - Invites player expression with better skins, Origins, and more ways to build. 
 
 [[Unreleased] other editions...](#other-editions)
 
