@@ -1,4 +1,8 @@
 {
+  "horseinfo": {
+    "enabled": true,
+    "ignore_mount": false
+  },
   "waila": {
     "show_blocks": true,
     "show_fluids": false,
@@ -18,6 +22,9 @@
     "pet.owner": true,
     "furnace_contents": true,
     "jukebox.record": true,
+    "breaking_progress.enabled": true,
+    "breaking_progress.color": -1426063361,
+    "breaking_progress.bottom_only": false,
     "spawner_type": true,
     "crop_progress": true,
     "redstone.lever": true,
@@ -33,13 +40,13 @@
     "pet.hide_unknown_owner": false
   },
   "wthit-plugins": {
-    "break_progress": true,
+    "break_progress": false,
     "breeding_cooldown": true,
     "growing_cooldown": true,
     "breeding_item": true,
     "armor_stats": true,
     "author": true,
     "harvestability": true,
-    "hardness": true
+    "hardness": false
   }
 }

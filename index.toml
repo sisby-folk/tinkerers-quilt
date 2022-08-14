@@ -33,6 +33,10 @@ file = "config/colormatic.properties"
 hash = "2e668d54f365736fbd4c97b1f42535ce889587d18b3caa48830219f25f48d124"
 
 [[files]]
+file = "config/crunchy-crunchy-advancements.css"
+hash = "ace05c3d53384e9ff6eaa66396a105952c5e11893aa8bb566e04822e90bcb3ad"
+
+[[files]]
 file = "config/darkness.properties"
 hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
 
@@ -130,7 +134,7 @@ hash = "b4e14792fd0ca8e36d83122e71fd3d666ec0cca8669ab29fdca6928dbd24cbfd"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c278482.zip"
-hash = "b1adcace3853862828c37b2deb7e9e9b374042914b48f54a5b58645ac0ad6395"
+hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/extraorigins/origins/floran.json"
@@ -437,10 +441,6 @@ hash = "5cb15fcefffc94e700dd5d776400b37fb3296ede3d2e546d17a7f85b35964ce7"
 metafile = true
 
 [[files]]
-file = "config/ordinarytweaks.json"
-hash = "0feb758db9f5b8709fa1b8ff3fd3703eec41690e20120c5a5ccbe2efc1918360"
-
-[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -470,7 +470,7 @@ hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
 
 [[files]]
 file = "config/yigd.toml"
-hash = "81d268b23430777f579a4cbfee07ed6326e3a507c87686b2d47b4563025e0457"
+hash = "0a56ec859d343f2a61bba93673be4c2650b15b436fcfd5e4f4e7ec29847770cd"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -482,7 +482,7 @@ hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
 [[files]]
 file = "config/yosbr/config/emi.css"
-hash = "dbabacba5d2c56cc17a955f69c25a996d1fd6d744f4dbd14218727fe1a6158b6"
+hash = "e58783ad63aa886196e8c5f8954a76686fe14320a138f7dcdd48775cdf41fafb"
 
 [[files]]
 file = "config/yosbr/config/illuminations.properties"
@@ -530,7 +530,7 @@ hash = "a6aa56d476321af40170060736245ac49f2c0f3d1d3b24edfede0cbcf1dba9da"
 
 [[files]]
 file = "config/yosbr/config/waila/waila_plugins.json"
-hash = "a5c790cce27b07ff7d73b4f0eac1386e3d28dcc9a051eaac1845a00bac950eba"
+hash = "56f5a6c7a8b0cd7c7bb169c59835ff755bd492c39d9a8f40b8a5ca0a0c78413f"
 
 [[files]]
 file = "config/yosbr/options.amecsapi.txt"
@@ -538,7 +538,7 @@ hash = "050dc01dff3a02ee088540de17abcee571e4213b738dd19c1d9bcffa7383f098"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "e7f22364fd560ebdc20c53e3806dc6b1f06e64a46bc5969d18475f671aa13c19"
+hash = "6532ff59b9800cbc011bbaf462d51c0fd4cc5e7a9b93e66aad70dd91c550bf02"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
