@@ -293,130 +293,6 @@ file = "config/openloader/data/tinkerers_imp/pack.mcmeta"
 hash = "721a8fca900ba1d2dbaedb6b23771eb4e089ad820be029c3401b925457f611cf"
 
 [[files]]
-file = "config/openloader/data/tinkerers_statures/data/origins/origin_layers/stature.json"
-hash = "d0bdb48730c8905a71cb3a9f4f97618dd8ddd6dd02d58ed275824b7421065a04"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/demishort.json"
-hash = "cb16cf27d76f82fab4eb1664e42bd689e97ecd5097a45dcc11d76c09bc6beddd"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/demitall.json"
-hash = "c9db12fc9750328f5e732defbc2c71f2712c9a26f572416619487c4500346cf2"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/hemidemishort.json"
-hash = "21150e5937f7b99d396f5ce089322a9573a7f9152ea5e2cd941cb7c006d5a4c7"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/impish.json"
-hash = "0704a8d9fbbfcb09c681ddf382f230548deef9d5fabaed41e4970d1c839525bb"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/orcish.json"
-hash = "541cec983e5762b14864cd930665a2da51ea2ff7d22fbb2c91cf1e5e755db985"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/oversize1.json"
-hash = "78598f05cd83245a3bfbb86a7438f594f6c7187070cd095aea88d4c04fb1daf5"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/oversize2.json"
-hash = "2a48c59af5ed41c45c7d3115d090f600d2fe1f48b8f003890ec7c6d1f5c0c362"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/oversize3.json"
-hash = "d33dc88790fc3d1a9eff4057c9263807f28129b0955a96a44ea025592d4b0491"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/semishort.json"
-hash = "648e17aabcd2f28b47f00818d208cd29da11788db383b0db01cf6d8ec262c9e5"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/short.json"
-hash = "f649bbd29623d333edbac1fdad8d619c3f5c4e272522ad757d0dcc0d0294460a"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/sized.json"
-hash = "ef75b2b761991799ff01621893e14f73b2698104afcc6a275cb9219af827fc4d"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/tall.json"
-hash = "524fbcbe53463167ce3b044e45fddf1836992dce37bf83f03a3ef41cc4830a7d"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/taller.json"
-hash = "7b8e1dca2e527aa42dae73a9a7df8c84e182a732009cae6a5d626c6f77d41267"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/tallest.json"
-hash = "7c19531ecaa30fbb66e73bc49e926e029c2548d9346d8bd8b9b165f2d8de78a8"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/origins/unaffected.json"
-hash = "a23812798df0ad28146a53cc3f66a5e7412458c05a24cdb88350100af8b7e073"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/demishort.json"
-hash = "f55bc6d3ddc3f45d8e3c695e57e9d9cd7c9eea3a8be32307f005e0919eabc67f"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/demitall.json"
-hash = "e8c2a6c235e9e0326b335dbcf90b56e8c4ed8832db98fcafd466b7b6316c6024"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/hemidemishort.json"
-hash = "e7ac12165f84f41d1fde94564334853807e120d99d69fdb1e488ac6fb244857b"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/impish.json"
-hash = "90a0b99685983cfa72df8a32713a64fda3fe7a880753e7038fde27b2dcb386b1"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/orcish.json"
-hash = "aa77f7e67fe772ba51a89aba9cb923cc9f16777886ffde4a3d18b03b0d8e95cc"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/oversize1.json"
-hash = "bbe054faf26b42fc38f4f4e6326e409caed9e0254bd72b591731e6b7f9da4cca"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/oversize2.json"
-hash = "5d2c1d38723b1a3f9910d2525776a59d5b59c2153d5ea50af9d00aa82b5284a3"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/oversize3.json"
-hash = "cb8ffeb4cd516a6344963227c15c62edfb60ebea1d4861bbdcbd5032ebe42285"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/semishort.json"
-hash = "bbc520235d3a957edb6485f814ca7b81d4b7cc20228857293d9c8ad07792603a"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/short.json"
-hash = "8869d809c0d1c4e0506f1fef9677093fa25361f5bb6bd57b432edde158d41a09"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/sized.json"
-hash = "8f200103579e2a048bc1cfadcfed1c40787d220b71739005bfc851e64ec920c0"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/tall.json"
-hash = "c8017b13276968d160750fc043b05eae20e6e34cbe35aa840f73ecc43e1318ea"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/taller.json"
-hash = "d44dabbc84fe2578980fb02688bce00c47645e230042f5f6f228a5d16161e946"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/data/tinkerer/powers/tallest.json"
-hash = "728a5fba4abafe9e32c4da88be63d335175e9839463f40338cff813ad8d0aca3"
-
-[[files]]
-file = "config/openloader/data/tinkerers_statures/pack.mcmeta"
-hash = "33a4397c2a50317a1e9cb5ce6bda3edc363577efe267d934b569e7942de98237"
-
-[[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/boots.json"
 hash = "0b11aeecc520cf00c3f03ff1de284020616a522ee1d9a94221d6524a98629e96"
 
@@ -1258,6 +1134,11 @@ metafile = true
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
 hash = "85daead173737a371d0773aae4a9a936ee84341eda3376ebbed7ebf650781f20"
+metafile = true
+
+[[files]]
+file = "mods/tinkerers-statures.pw.toml"
+hash = "555341d21ac36b4bab7f34753d59e177897509111ffb6d1a84f4cafc0e05b5f8"
 metafile = true
 
 [[files]]
