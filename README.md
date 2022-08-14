@@ -1,13 +1,10 @@
-# Tinkerer's Quilt
-
-------
-
-<p align="center"><img alt="Tinkerer's Quilt banner" src="" /></p>
+<p align="center"><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/184521317-a97aa68b-91c7-4c71-86f9-6d1e5d833f83.png" /></p>
 
 <p align="center"><span style="font-weight:bold">Tinkerer's Quilt</span> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
 It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player Expression.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <a href="#installation">Install Instructions</a></p>
 
 ---
+
 
 
 The **Base Edition** is what this pack is all about -  It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
@@ -46,7 +43,7 @@ Do you want to...
 
 *Godseeking* will guide you through it like a hand-holding in-game wiki. How many quests are there? uhhh
 
-[Image go here]
+![godseeking](https://user-images.githubusercontent.com/55819817/184521370-e99c164c-7289-4634-8a5d-16e3b63da9ba.png)
 
 Some. [They reveal as you play to mitigate players getting overwhelmed]
 
@@ -76,7 +73,7 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
      - Tool material upgrades cost the exact same as a fresh tool - but keep the enchantments.
      - Quicker tools with less waste - upgrade wood to stone to iron from the 2x2 crafting grid.
 
-[Image go here]
+![tinkerers-smithing-banner](https://user-images.githubusercontent.com/55819817/184521392-5f0ddbd5-e9f5-4c7a-8262-ecb265e2e6cd.png)
 
  - Four data packs: (use [this](https://download-directory.github.io) for downloads)
    - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
