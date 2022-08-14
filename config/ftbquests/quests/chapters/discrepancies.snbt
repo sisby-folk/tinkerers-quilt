@@ -62,14 +62,14 @@
 			}]
 		}
 		{
-			title: "Midnight Controls"
+			title: "Reacharound"
 			icon: "minecraft:scaffolding"
 			x: -1.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "This is the greatest bridge building of all time."
 			description: [
-				"Midnight Controls provides \"reach-around block placement\" - which allows you to place floating ground in front of you."
+				"Reacharound provides \"reach-around block placement\" - which allows you to place floating ground in front of you."
 				""
 				"It also allows you to place blocks under the block you're standing on by sneaking over the edge."
 			]
