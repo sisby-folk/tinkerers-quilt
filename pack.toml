@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ba8289244ed04473aa19708b9a952cf3d65614eda0d74c1295a25fcadf8a2587"
+hash = "3ef832742ce69611a172a0d10b590d0b46643b4220809f5a78696b3f2d19f0b0"
 
 [versions]
 minecraft = "1.18.2"
