@@ -292,5 +292,28 @@
 				title: "Click Here!"
 			}]
 		}
+		{
+			title: "Apathy"
+			icon: "minecraft:structure_void"
+			x: -0.5d
+			y: -4.5d
+			shape: "square"
+			subtitle: "True peaceful"
+			description: [
+				"When the difficulty is set to Easy, Apathy makes mobs neutral."
+				""
+				"This means all mobs, regardless of type, will only attack you if you attack them first."
+				""
+				"This includes the Ender Dragon, and mobs that guard structures (Mansions, Outposts, Monuments, Bastions, etc)"
+				""
+				"Additionally (thanks to Peaceful Surface), mobs will avoid spawning in moonlight."
+			]
+			id: "7DCD80F80208292A"
+			tasks: [{
+				id: "13A47D4ACD23046E"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
 	]
 }
