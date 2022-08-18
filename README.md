@@ -75,6 +75,10 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
 
 ![tinkerers-smithing-banner](https://user-images.githubusercontent.com/55819817/184521392-5f0ddbd5-e9f5-4c7a-8262-ecb265e2e6cd.png)
 
+- - [Switchy](https://modrinth.com/mod/switchy) - Change your origin, skin, and more between presets with a single command.
+
+![switchy banner](https://user-images.githubusercontent.com/55819817/185277937-60b55666-07b9-46d3-881b-0f45ea39fb73.png)
+
  - Four data packs: (use [this](https://download-directory.github.io) for downloads)
    - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
@@ -134,6 +138,7 @@ Letting players express themselves with player customisation, builds, and even t
  - [Horse Buff](https://modrinth.com/mod/horsebuff) - Improves and protects horses, making them easier to take out on adventures.
  - [Fabrication](https://modrinth.com/mod/fabrication) - A multitude of minor improvements, such as automatic block pickup and crawling.
  - [You're In Grave Danger](https://modrinth.com/mod/yigd) - Leaves a grave on death with your items and XP that won't de-spawn.
+ - [Apathy](https://modrinth.com/mod/apathy) - Mobs are neutral on easy difficulty, and will only attack you if provoked.
 
 ## Visuals
 
