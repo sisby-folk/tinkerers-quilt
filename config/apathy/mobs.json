@@ -3,7 +3,8 @@
     {
       "predicate": {
         "difficulties": [
-          "hard"
+          "hard",
+          "normal"
         ],
         "type": "apathy:difficulty_is"
       },
