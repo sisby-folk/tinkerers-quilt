@@ -9,6 +9,22 @@ file = "config/advancementinfo.json5"
 hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 
 [[files]]
+file = "config/apathy/boss.cfg"
+hash = "d667da0eea512367959c71ce936a7d584ae4aefa7d23d31b653a8f0f7121a826"
+
+[[files]]
+file = "config/apathy/general.cfg"
+hash = "bd0037ba81bc347a244b8495ea7114940fad7cf20b6b3718295cda69658c83a0"
+
+[[files]]
+file = "config/apathy/mobs.cfg"
+hash = "5335cb756a1237db8c68fae82111ce7b20fdb839f984326f0e4ba8d3ea1791a2"
+
+[[files]]
+file = "config/apathy/mobs.json"
+hash = "3578f134a7a47bb6a36f989201a562cd61ca44b4a0fbbe109b5d8f08f29c2b2f"
+
+[[files]]
 file = "config/appleskin.json5"
 hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
 
@@ -585,6 +601,10 @@ file = "credits.txt"
 hash = "51b4237ee2ad1d2ad050d2a6aafa4a2b93ad56a1c73d6cacc953ca87af2932e3"
 
 [[files]]
+file = "mods/Calio-1.18.2-1.6.0.jar"
+hash = "8a2dbe7417e280523f25d5bda08d0ca3d155014f8df50baa23adda876e6b170b"
+
+[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
@@ -597,6 +617,11 @@ metafile = true
 [[files]]
 file = "mods/animatica.pw.toml"
 hash = "0e0112e01df097b7f015ac0ad6a98e173c8e98a27719237ef21be06f8ad09fad"
+metafile = true
+
+[[files]]
+file = "mods/apathy.pw.toml"
+hash = "c80f8c635e02d5593664ce086037e93bcfb7ae01a846bfec8e1319e8499bcbd2"
 metafile = true
 
 [[files]]
@@ -714,9 +739,8 @@ hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
-file = "mods/drogtor.pw.toml"
-hash = "fad6f28559d65c45e6b594a18902dff0a3b27de7bf2cfe0fe52e809c1409563d"
-metafile = true
+file = "mods/drogtor-1.1.3+1.17.jar"
+hash = "9d4908a13797dab86f567598b16223562f8a9831c3545ecfd5f3024b68ac5708"
 
 [[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
@@ -785,7 +809,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrictailor.pw.toml"
-hash = "e24fd484e773212e89e60375273902a100c4134f1d15eeb61a99e4364af2e39d"
+hash = "3096becb04f8337d91bb7a0332025b8c50427823ab6e667309350e0d8735781c"
 metafile = true
 
 [[files]]
@@ -1017,9 +1041,8 @@ hash = "21fa7484096522ee95c09131ea8dc3246e1001253d483784844832bee6dd9b07"
 metafile = true
 
 [[files]]
-file = "mods/player-pronouns.pw.toml"
-hash = "011d1d3c2620dddd3f7c253f7d0993a92e7977777b0517092254fd886bd5a267"
-metafile = true
+file = "mods/player-pronouns-1.4.0+1.18.jar"
+hash = "67a15ff4f32fe19ea9f9ee7066ec6a4f4663694af8c7a97ebb514e1d2fc9d8d5"
 
 [[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
@@ -1122,6 +1145,11 @@ hash = "eb45dfb9e6cbfa02639fc89237853d1b3c57a7ee8e4af22aac6fddb5f8560f3d"
 metafile = true
 
 [[files]]
+file = "mods/switchy.pw.toml"
+hash = "5d1bc18fb2f673c6e8585c6c4c37c5be31804d76466d1d38687dffc9694bdd16"
+metafile = true
+
+[[files]]
 file = "mods/tax-free-levels.pw.toml"
 hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
 metafile = true
@@ -1138,7 +1166,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-statures.pw.toml"
-hash = "555341d21ac36b4bab7f34753d59e177897509111ffb6d1a84f4cafc0e05b5f8"
+hash = "cd09188b0513997033f6a1031a89e1144536c9924a7ab12618ec184750390f84"
 metafile = true
 
 [[files]]
@@ -1178,7 +1206,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "98c8ffafe56c38e04da80c8c061e1f1dfc1212a53f3b0c90d7f6b3381c961e95"
+hash = "8a3b712f870b36fb07b311d5a2edc8059a7843ebfee3b5d4a436d014d48e37ea"
 metafile = true
 
 [[files]]
