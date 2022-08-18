@@ -60,7 +60,7 @@ Quests are also home to information about the pack itself, as a helpful referenc
 
 Yeah yeah, we get it - packs that just throw mods together are no fun. Here's what we pulled together besides our curation skills:
 
- - Four mods: 
+ - Six mods: 
    - [Portable Crafting Standalone](https://modrinth.com/mod/portable-crafting-standalone) - Press V or click a tab to use the crafting table in your inventory. 
    - [Totem Anywhere Standalone](https://modrinth.com/mod/totem-anywhere-standalone) - Totem of undying convenience - uses totems from inventory.  
    - [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) - Hides and removes advancements - quests and [EMI](https://modrinth.com/mod/emi) covers all you need.
