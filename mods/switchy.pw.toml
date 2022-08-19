@@ -1,0 +1,13 @@
+name = "Switchy"
+filename = "switchy-1.0.1+1.18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ss0QuCRx/versions/4Bh5RrnX/switchy-1.0.1%2B1.18.jar"
+hash-format = "sha1"
+hash = "a870960659d058355d06495e78d43d3f18a2193e"
+
+[update]
+[update.modrinth]
+mod-id = "ss0QuCRx"
+version = "4Bh5RrnX"

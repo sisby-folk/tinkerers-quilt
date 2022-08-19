@@ -15,9 +15,9 @@
 #ui {
 	/**
 	 * Whether to move status effects to the
-	 * left of the screen.
+	 * top of the screen.
 	 */
-	move-effects: true;
+	move-effects: false;
 
 	/**
 	 * Whether to have the search bar in the
@@ -240,6 +240,11 @@
 	 * if they have a recipe default.
 	 */
 	highlight-defaulted: false;
+
+	/**
+	 * Whether to display exclusion areas
+	 */
+	highlight-exclusion-areas: false;
 }
 
 #persistent {

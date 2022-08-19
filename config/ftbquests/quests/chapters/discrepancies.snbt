@@ -62,14 +62,14 @@
 			}]
 		}
 		{
-			title: "Midnight Controls"
+			title: "Reacharound"
 			icon: "minecraft:scaffolding"
 			x: -1.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "This is the greatest bridge building of all time."
 			description: [
-				"Midnight Controls provides \"reach-around block placement\" - which allows you to place floating ground in front of you."
+				"Reacharound provides \"reach-around block placement\" - which allows you to place floating ground in front of you."
 				""
 				"It also allows you to place blocks under the block you're standing on by sneaking over the edge."
 			]
@@ -230,6 +230,8 @@
 				"In this pack, repairing enchanted gear using ingots and diamonds costs no xp and doesn't stack up, as long as you use a smithing table."
 				""
 				"The \"Prior Work\" repair cost on enchanted equipment can also be reversed (one stage at a time) using netherite scrap, also at a smithing table."
+				""
+				"Further, you can upgrade basic tool tiers in the crafting table (See EMI for recipes). The smithing table can be used to upgrade iron gear to diamond, and gold to netherite (you'll need to sacrifice a piece of netherite gear)"
 			]
 			id: "00BF3119EB22417C"
 			tasks: [{
@@ -265,6 +267,50 @@
 			id: "4B6469B9B16AB59D"
 			tasks: [{
 				id: "4374ACECFD3F9AFE"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "You're in Grave Danger"
+			icon: "yigd:grave"
+			x: -0.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Well, actually, less danger entirely"
+			description: [
+				"YIGD changes the death system to have players create graves on death."
+				""
+				"The graves don't de-spawn, and items can be retrieved by right-clicking."
+				""
+				"When you die, you'll be given the coordinates of the grave, and a temporary compass that points to it."
+			]
+			id: "73455AC743DE39C5"
+			tasks: [{
+				id: "58F86BCAF25D5DF9"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
+		}
+		{
+			title: "Apathy"
+			icon: "minecraft:structure_void"
+			x: -0.5d
+			y: -4.5d
+			shape: "square"
+			subtitle: "True peaceful"
+			description: [
+				"When the difficulty is set to Easy, Apathy makes mobs neutral."
+				""
+				"This means all mobs, regardless of type, will only attack you if you attack them first."
+				""
+				"This includes the Ender Dragon, and mobs that guard structures (Mansions, Outposts, Monuments, Bastions, etc)"
+				""
+				"Additionally (thanks to Peaceful Surface), mobs will avoid spawning in moonlight."
+			]
+			id: "7DCD80F80208292A"
+			tasks: [{
+				id: "13A47D4ACD23046E"
 				type: "checkmark"
 				title: "Click Here!"
 			}]

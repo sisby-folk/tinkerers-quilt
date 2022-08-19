@@ -53,15 +53,6 @@
 					item: "minecraft:bread"
 					count: 10
 				}
-				{
-					id: "08A857F254EB7395"
-					type: "command"
-					title: "Thanks for downloading!"
-					icon: "minecraft:spore_blossom"
-					auto: "no_toast"
-					command: "/recipe give @p *"
-					player_command: false
-				}
 			]
 		}
 		{
@@ -94,7 +85,7 @@
 			x: 2.0d
 			y: 0.5d
 			shape: "octagon"
-			subtitle: "funky plural modpack :)"
+			subtitle: "gender"
 			description: ["You can use /showarmor and /hidearmor to disable armor showing over your skin."]
 			dependencies: ["15402DCFAC7CC56A"]
 			hide: true
@@ -205,14 +196,20 @@
 			}]
 		}
 		{
-			title: "Illuminations"
-			icon: "minecraft:lantern"
+			title: "Switchy"
+			icon: "minecraft:lever"
 			disable_toast: true
 			x: 2.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "Get a pride heart pet!"
-			description: ["Illuminations comes with some free pride effects, unlockable if you create an account at https://illuminations.uuid.gg"]
+			subtitle: "funky plural modpack :)"
+			description: [
+				"Switchy allows you to save player customisation to presets, and swap them freely!"
+				""
+				"Make a new preset with §l/switchy new§r, then set up your skin, origin, and (in multiplayer) nickname, pronouns, color, and bio."
+				""
+				"When you're done, just §l/switchy new§r another preset and customize again! afterwards, you can use §l/switch§r to quickly change between them."
+			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "1C5E62A1B4B818B6"
@@ -1943,7 +1940,9 @@
 			description: [
 				"Considering this is a plural modpack, here's a shulker box stuffed full of \"Orb of Origin\" - which allows you to change your origin."
 				""
-				"Try not to abuse the free switches for a gameplay advantage! This was the best solution I could come up with without making a whole-ass pluralkit integration mod"
+				"Try not to abuse the free switches for a gameplay advantage! This was the best solution we could come up with without making a whole-ass plural integration mod"
+				""
+				"[Update: we made a whole-ass plural integration mod. Using switchy, you should only need these origin orbs to set up each preset!]"
 			]
 			dependencies: ["1FE5F243E8C8329E"]
 			optional: true
