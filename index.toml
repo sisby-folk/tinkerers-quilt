@@ -1041,8 +1041,8 @@ hash = "21fa7484096522ee95c09131ea8dc3246e1001253d483784844832bee6dd9b07"
 metafile = true
 
 [[files]]
-file = "mods/player-pronouns-1.4.0+1.18.jar"
-hash = "67a15ff4f32fe19ea9f9ee7066ec6a4f4663694af8c7a97ebb514e1d2fc9d8d5"
+file = "mods/player-pronouns-1.6.0+1.18.jar"
+hash = "fa015b872d25fc7ee428368bd8e69b8b309737a5e1eb8af58bbc18df6073f8f6"
 
 [[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
@@ -1116,7 +1116,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "609dbedf8ebc0d63fab0ba5122c4f8425a4c39e3caf899c87c8de4cfe2fa06e0"
+hash = "52ba338bab4dd378d56e0188ef9b66d7626b62b40ab2d324c224e99d15a7324a"
 metafile = true
 
 [[files]]
@@ -1145,8 +1145,13 @@ hash = "eb45dfb9e6cbfa02639fc89237853d1b3c57a7ee8e4af22aac6fddb5f8560f3d"
 metafile = true
 
 [[files]]
+file = "mods/switchy-inventories.pw.toml"
+hash = "4b409375a4b3cad5a326d6dc9fe74157304faa2908de0a26917579833bfd580b"
+metafile = true
+
+[[files]]
 file = "mods/switchy.pw.toml"
-hash = "5d1bc18fb2f673c6e8585c6c4c37c5be31804d76466d1d38687dffc9694bdd16"
+hash = "de39ac194ca4f8d4998c2bb41803c5e3f713ca57f5c7a57c452c388d8101f312"
 metafile = true
 
 [[files]]
@@ -1206,7 +1211,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "53243cbeaae36323ab71e95fcb274a685d14c50a4a71ded314851d8d3e7dcbf3"
+hash = "a84403217b54256c441bbf1a5f1ccbb1deca9fe1c5eae8009492952910f37423"
 metafile = true
 
 [[files]]
