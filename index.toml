@@ -1135,11 +1135,6 @@ hash = "3610cc0efd4c0bfa58b962452b7ee2c735f3c9a86c66b175a5c186258aaeecc7"
 metafile = true
 
 [[files]]
-file = "mods/styled-chat.pw.toml"
-hash = "248a870f42a898efe9c659735f555e803c9c8e1cebd00cb420ae51d9a07adeb3"
-metafile = true
-
-[[files]]
 file = "mods/styledplayerlist.pw.toml"
 hash = "eb45dfb9e6cbfa02639fc89237853d1b3c57a7ee8e4af22aac6fddb5f8560f3d"
 metafile = true
