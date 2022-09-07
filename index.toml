@@ -601,6 +601,10 @@ file = "credits.txt"
 hash = "51b4237ee2ad1d2ad050d2a6aafa4a2b93ad56a1c73d6cacc953ca87af2932e3"
 
 [[files]]
+file = "enable_hooks.sh"
+hash = "9e5bea64c2ee7ec80b3f3f2f514dc36f5f0e27297415a19bd8a0759405730daf"
+
+[[files]]
 file = "mods/Calio-1.18.2-1.6.0.jar"
 hash = "8a2dbe7417e280523f25d5bda08d0ca3d155014f8df50baa23adda876e6b170b"
 
@@ -701,7 +705,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "4ed6f98bd55bde1e076f864ba2b3918710ef2ee664ca332fd538c6ca27f280a0"
+hash = "77bd9b9ae2bf78481ba939cc78e5e4c0d9528516aa791305eecb39eb56e13125"
 metafile = true
 
 [[files]]
@@ -1211,7 +1215,7 @@ metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "634a2aa1d860cea4d19639bc80730625d3e063db2543b495ac33c60d7447c36b"
+hash = "c2c34dacb9172bbdd85bcf31c2031d11cf1dd3528de4c7a5805389d315c52150"
 metafile = true
 
 [[files]]
