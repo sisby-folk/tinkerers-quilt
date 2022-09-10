@@ -1,10 +1,9 @@
 {
-    "name": "Merling+",
+    "name": "Merling",
     "description": "While these waterborne creatures are powerful in the ocean, they struggle to breathe on the land without help.",
     "powers": [
         "origins:water_breathing",
         "origins:swim_speed",
-        "merplus:water_damage",
         "merplus:wet_eyes",
         "origins:like_water",
         "merplus:under",

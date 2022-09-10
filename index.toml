@@ -238,7 +238,7 @@ hash = "fd25e949a70c656b63c2b050bf1be8032df642a4a277a40db0ac7abb71f3155b"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/origins/merplus.json"
-hash = "3f78e7a8f14fef02c3601ecfe43311f1d6fc9aca3514caa30b1dc9c76d6baec7"
+hash = "405f833de88e9b8bafdc6e36f1264d33e8745f21e9db2325feb6717306663c52"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/air_from_potions.json"
@@ -247,10 +247,6 @@ hash = "da6d1061e319153667704f3a6d02d7db2a7fa19b6bb6dc9fe73e5737c5e1945a"
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/under.json"
 hash = "fbec5d30273ba5dc4cd684cd6e8f13c300de22052656b1b9fa0e63894f95cfcc"
-
-[[files]]
-file = "config/openloader/data/Merling/data/merplus/powers/water_damage.json"
-hash = "8a908e1ac61198f4fef5edfb97e2884840766c9b90970a356a9e10648c559d37"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/wet_eyes.json"
