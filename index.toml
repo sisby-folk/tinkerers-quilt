@@ -437,6 +437,38 @@ file = "config/openloader/data/Shulk/pack.mcmeta"
 hash = "806b07813584de92566eba1853fc82af9b0023ca80bce13a7140458ca293db36"
 
 [[files]]
+file = "config/openloader/data/Vampire/data/origins/origin_layers/origin.json"
+hash = "2ede4644812321ce2419b6952fa23ab8bb3baef37b3cb0759874b8a11321079c"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/origins/vampire.json"
+hash = "94220c724d242ac4fc80844bd75e3dbe10019bffa5a4d2efc2b96ed3ea7d9253"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood.json"
+hash = "6bb22e5f893cacea7078ce9a2cb104e04e631962c6f3dc97b2096208c43a4aac"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood_hidden.json"
+hash = "9e408409d94f4842d45bacd00174bcb6ddd34d2241d7118153637ffbc357a5aa"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/powers/feed.json"
+hash = "8637c0ffc5932df859fda2955261758094c1992787979e1fcb9f9e8a56aea9bf"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/powers/nightstalker.json"
+hash = "76cb716b298a0eb62a00184291cdf8895edf247b16945f54e0d1c1caff450bf5"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/tags/entity_types/blooded.json"
+hash = "1f2312cb518f2eac03281bab01ca58dde5abff9275fa356333b8fcb3d20f375a"
+
+[[files]]
+file = "config/openloader/data/Vampire/pack.mcmeta"
+hash = "a62d63add8fb3d397d313ad166af4fb7993613642c52963bc899349271d8738b"
+
+[[files]]
 file = "config/openloader/data/VanillaTweaks_c278482.zip"
 hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
 
@@ -523,62 +555,6 @@ hash = "06c289441493a0ca494052ba61ca7bd443cd8917351c8c708a9ecb1695ef21c3"
 [[files]]
 file = "config/openloader/data/tinkerers_tags/pack.mcmeta"
 hash = "f0f8ad4d1e7fae0a6a8a265ab947cc41d34688289a704453cd72f69f3a8ec1b2"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/origins/origin_layers/origin.json"
-hash = "5a3a6bc4bad190a9895bc745becab2c327aac8dea5304a03e4cd9d71b461f145"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/origins/vampire.json"
-hash = "59ac3ca625e4616c1f27f00f48d941057782e3e174d6b7593c6a695422c9ce2e"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/blood.json"
-hash = "13481bd9e346c2dd81b32b1aaa00bea7812c5dccef3c34d02f6ae59df205a2a1"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/blood_hidden.json"
-hash = "d76f523a23ccb109a54f7a8622caf5e7f98b53dadd361dc0edc613b8c6d4f68c"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/feed.json"
-hash = "6accf8b712abf68e567f37b1d274809691b7ee6b96bab274539c0039fab1a639"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/graceful.json"
-hash = "c171d25e1d7747d24a4ad1d7be0f8b63d75d09604733735b171b6dad0751c015"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/hunters.json"
-hash = "cb7087a2f47675cf89d4138b193cc5aebb341b59e7280602eb053378b50323bd"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/nightstalker.json"
-hash = "708eb372c50a171869e7f0c5ea71bcfa914a6f965dd3f9f5e773b6805000167e"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/shine.json"
-hash = "1caaad8e422a6f71b8aa4a25df3ae4fd9f97a9f82dfdd91ed78d1c80368d37fc"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/powers/smoke.json"
-hash = "2cd4b4d9cc77fe0451e34fef31fba4d0fa8ea57aa30c488b4dcc65311d036165"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/entity_types/highblood.json"
-hash = "75bcfb6dbf1730a45ed657b59c3761bb9d3c03487ccbb1d281bf7b37d0c6ad31"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/entity_types/lowblood.json"
-hash = "e5cb57edee5bdfaaad5950cf833b1a13a19d1b631cb73b0a99eb971bf22de669"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/data/tinkervamp/tags/items/wooden.json"
-hash = "64a9a68e4054e3fee6c35656a2d96a87b464814f5dcd6aac8b9178536b307981"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vampire/pack.mcmeta"
-hash = "864c8b46a55d708ac59fe4a4252748c283a3740c9f874052498ae2a4e8e73b7d"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/book_quill.json"

@@ -1,8 +1,13 @@
 {
 	"name": "Set in Red",
-	"description": "Blood is your food, you need it to sprint and heal, and will starve without it.",
+	"description": "Blood level replaces hunger. You only heal in shade.",
 	"type": "origins:multiple",
-	
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You can't starve, but when starving you'll burn in sunlight"
+		}
+	],
 	"resource": {
 		"type": "origins:resource",
 		"min": 0,
@@ -15,7 +20,8 @@
 			"condition": {
 				"type": "origins:or",
 				"inverted": true,
-				"conditions": [{
+				"conditions": [
+					{
 						"type": "origins:gamemode",
 						"gamemode": "creative"
 					},
@@ -27,28 +33,44 @@
 			}
 		}
 	},
-
-	"on_spawn": {
+	"fill_on_spawn": {
 		"type": "origins:action_on_callback",
 		"entity_action_respawned": {
 			"type": "origins:and",
-			"actions": [{
-				"type": "origins:change_resource",
-				"resource": "tinkervamp:blood_resource",
-				"change": 140
-			}]
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "tinkervamp:blood_resource",
+					"change": 140
+				}
+			]
 		}
 	},
-
+	"disable_hunger_loss": {
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:feed",
+			"food": 20,
+			"saturation": 20
+		}
+	},
+	"no_eating": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:food"
+		}
+	},
 	"no_healing": {
 		"type": "origins:disable_regen"
 	},
-	"heal_from_resource_night": {
+	"heal_from_blood_shade": {
 		"type": "origins:action_over_time",
 		"interval": 30,
 		"entity_action": {
 			"type": "origins:and",
-			"actions": [{
+			"actions": [
+				{
 					"type": "origins:heal",
 					"amount": 1
 				},
@@ -61,7 +83,8 @@
 		},
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
+			"conditions": [
+				{
 					"type": "origins:resource",
 					"resource": "tinkervamp:blood_resource",
 					"comparison": ">",
@@ -79,15 +102,6 @@
 			]
 		}
 	},
-	"disable_hunger_loss": {
-		"type": "origins:action_over_time",
-		"interval": 5,
-		"entity_action": {
-			"type": "origins:feed",
-			"food": 20,
-			"saturation": 20
-		}
-	},
 	"sprinting_lower_resource_night": {
 		"type": "origins:action_over_time",
 		"interval": 140,
@@ -98,7 +112,8 @@
 		},
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
+			"conditions": [
+				{
 					"type": "origins:sprinting"
 				},
 				{
@@ -110,7 +125,8 @@
 				{
 					"type": "origins:or",
 					"inverted": true,
-					"conditions": [{
+					"conditions": [
+						{
 							"type": "origins:gamemode",
 							"gamemode": "creative"
 						},
@@ -137,7 +153,8 @@
 		},
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
+			"conditions": [
+				{
 					"type": "origins:sprinting"
 				},
 				{
@@ -149,7 +166,8 @@
 				{
 					"type": "origins:or",
 					"inverted": true,
-					"conditions": [{
+					"conditions": [
+						{
 							"type": "origins:gamemode",
 							"gamemode": "creative"
 						},
@@ -177,7 +195,8 @@
 		"tick_rate": 1,
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
+			"conditions": [
+				{
 					"type": "origins:sprinting"
 				},
 				{
@@ -189,7 +208,8 @@
 				{
 					"type": "origins:or",
 					"inverted": true,
-					"conditions": [{
+					"conditions": [
+						{
 							"type": "origins:gamemode",
 							"gamemode": "creative"
 						},
@@ -202,96 +222,21 @@
 			]
 		}
 	},
-	"no_eating": {
-		"type": "origins:prevent_item_use",
-		"item_condition": {
-			"type": "origins:food"
-		}
-	},
-	"damage_when_no_blood_easy": {
-		"type": "origins:damage_over_time",
-		"interval": 120,
-		"damage": 1,
-		"damage_source": {
-			"name": "starve",
-			"bypasses_armor": true,
-			"unblockable": true
-		},
+	"burn_in_sun_starving": {
+		"type": "origins:burn",
+		"interval": 30,
+		"burn_duration": 1,
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
+			"conditions": [
+				{
+					"type": "origins:exposed_to_sun"
+				},
+				{
 					"type": "origins:resource",
 					"resource": "tinkervamp:blood_resource",
-					"comparison": "==",
+					"comparison": "<=",
 					"compare_to": 0
-				},
-				{
-					"type": "origins:command",
-					"command": "difficulty",
-					"comparison": "==",
-					"compare_to": 1
-				},
-				{
-					"type": "origins:relative_health",
-					"comparison": ">",
-					"compare_to": 0.5
-				}
-			]
-		}
-	},
-	"damage_when_no_blood_normal": {
-		"type": "origins:damage_over_time",
-		"interval": 80,
-		"damage": 1,
-		"damage_source": {
-			"name": "starve",
-			"bypasses_armor": true,
-			"unblockable": true
-		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
-					"comparison": "==",
-					"compare_to": 0
-				},
-				{
-					"type": "origins:command",
-					"command": "difficulty",
-					"comparison": "==",
-					"compare_to": 2
-				},
-				{
-					"type": "origins:relative_health",
-					"comparison": ">",
-					"compare_to": 0.05
-				}
-			]
-		}
-	},
-	"damage_when_no_blood_hard": {
-		"type": "origins:damage_over_time",
-		"interval": 40,
-		"damage": 1,
-		"damage_source": {
-			"name": "starve",
-			"bypasses_armor": true,
-			"unblockable": true
-		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
-					"comparison": "==",
-					"compare_to": 0
-				},
-				{
-					"type": "origins:command",
-					"command": "difficulty",
-					"comparison": "==",
-					"compare_to": 3
 				}
 			]
 		}

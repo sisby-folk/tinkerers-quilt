@@ -1,0 +1,360 @@
+{
+	"name": "Feed",
+	"description": "Feed on an enemy, channeling and replenishing blood.",
+	"type": "origins:multiple",
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Active ability, Sneak+Use a valid target with an empty hand."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "Works on players and blooded monsters."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You can't feed on the same target repeatedly."
+		}
+	],
+	"reset_size": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale delay set pehkui:base 80 @s"
+				}
+			],
+			"type": "origins:and"
+		},
+		"entity_action_respawned": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale delay set pehkui:base 80 @s"
+				}
+			]
+		},
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "scale reset pehkui:base @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale delay set pehkui:base 20 @s"
+				}
+			]
+		}
+	},
+	"drink_blood_low": {
+		"type": "origins:action_on_entity_use",
+		"bientity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:damage",
+								"amount": 1,
+								"source": {
+									"name": "thorns"
+								}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "attribute @s minecraft:generic.follow_range modifier add 57682a1f-9dd7-4866-aaff-31620e27d12a Blindness 0 multiply_base",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 120,
+								"action": {
+									"type": "origins:and",
+									"actions": [
+										{
+											"command": "attribute @s minecraft:generic.follow_range modifier remove 57682a1f-9dd7-4866-aaff-31620e27d12a",
+											"type": "origins:execute_command"
+										},
+										{
+											"type": "origins:execute_command",
+											"command": "scale reset pehkui:motion @s"
+										}
+									]
+								}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale persist set pehkui:motion false @s"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale set pehkui:motion 0.01 @s"
+							},
+							{
+								"type": "origins:apply_effect",
+								"effects": [
+									{
+										"effect": "minecraft:nausea",
+										"duration": 40,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:weakness",
+										"duration": 120,
+										"amplifier": 9,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": true
+									},
+									{
+										"effect": "minecraft:weakness",
+										"duration": 1200,
+										"amplifier": 0,
+										"is_ambient": true,
+										"show_particles": false,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:strength",
+										"duration": 1200,
+										"amplifier": 0,
+										"is_ambient": true,
+										"show_particles": false,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:wither",
+										"duration": 80,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": true,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:levitation",
+										"duration": 25,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": false
+									},
+									{
+										"effect": "minecraft:slow_falling",
+										"duration": 120,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": false
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"type": "origins:actor_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:apply_effect",
+								"effects": [
+									{
+										"effect": "minecraft:blindness",
+										"duration": 80,
+										"amplifier": 0,
+										"is_ambient": false,
+										"show_particles": false,
+										"show_icon": false
+									}
+								]
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "attribute @s minecraft:generic.knockback_resistance modifier add 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab FeedingResist 1 add",
+								"permission_level": 4
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale persist set pehkui:motion false @s"
+							},
+							{
+								"command": "scale persist set pehkui:base false @s",
+								"type": "origins:execute_command"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "scale set pehkui:motion 0.01 @s"
+							},
+							{
+								"command": "scale set pehkui:base 1.2 @s",
+								"type": "origins:execute_command"
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 20,
+								"action": {
+									"type": "origins:and",
+									"actions": [
+										{
+											"type": "origins:change_resource",
+											"resource": "tinkervamp:blood_resource",
+											"change": 10
+										}
+									]
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 40,
+								"action": {
+									"type": "origins:and",
+									"actions": [
+										{
+											"type": "origins:change_resource",
+											"resource": "tinkervamp:blood_resource",
+											"change": 10
+										},
+										{
+											"type": "origins:apply_effect",
+											"effects": [
+												{
+													"effect": "minecraft:regeneration",
+													"duration": 300,
+													"amplifier": 0,
+													"is_ambient": false,
+													"show_particles": true,
+													"show_icon": true
+												},
+												{
+													"effect": "minecraft:strength",
+													"duration": 300,
+													"amplifier": 0,
+													"is_ambient": false,
+													"show_particles": true,
+													"show_icon": true
+												}
+											]
+										}
+									]
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 60,
+								"action": {
+									"type": "origins:and",
+									"actions": [
+										{
+											"type": "origins:change_resource",
+											"resource": "tinkervamp:blood_resource",
+											"change": 10
+										}
+									]
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 80,
+								"action": {
+									"type": "origins:and",
+									"actions": [
+										{
+											"type": "origins:change_resource",
+											"resource": "tinkervamp:blood_resource",
+											"change": 10
+										},
+										{
+											"type": "origins:execute_command",
+											"command": "scale reset pehkui:motion @s"
+										},
+										{
+											"type": "origins:execute_command",
+											"command": "attribute @s minecraft:generic.knockback_resistance modifier remove 80ed8fa1-d8c8-4fe4-a4df-ce124f4d8dab",
+											"permission_level": 4
+										}
+									]
+								}
+							},
+							{
+								"type": "origins:delay",
+								"ticks": 300,
+								"action": {
+									"type": "origins:and",
+									"actions": [
+										{
+											"type": "origins:change_resource",
+											"resource": "tinkervamp:blood_resource",
+											"change": 10
+										},
+										{
+											"command": "scale reset pehkui:base @s",
+											"type": "origins:execute_command"
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:in_tag",
+						"tag": "tinkervamp:blooded"
+					},
+					{
+						"type": "origins:status_effect",
+						"inverted": true,
+						"effect": "minecraft:strength"
+					}
+				]
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<",
+					"compare_to": 121
+				},
+				{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:status_effect",
+					"inverted": true,
+					"effect": "minecraft:weakness"
+				},
+				{
+					"type": "origins:status_effect",
+					"inverted": true,
+					"effect": "minecraft:blindness"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		]
+	}
+}

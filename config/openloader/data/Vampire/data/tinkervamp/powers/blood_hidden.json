@@ -1,7 +1,6 @@
 {
 	"hidden": true,
 	"type": "origins:active_self",
-	
 	"entity_action": {
 		"type": "origins:chance",
 		"chance": 0.01,
@@ -17,7 +16,8 @@
 	},
 	"condition": {
 		"type": "origins:and",
-		"conditions": [{
+		"conditions": [
+			{
 				"type": "origins:sprinting"
 			},
 			{
@@ -29,7 +29,8 @@
 			{
 				"type": "origins:or",
 				"inverted": true,
-				"conditions": [{
+				"conditions": [
+					{
 						"type": "origins:gamemode",
 						"gamemode": "creative"
 					},
