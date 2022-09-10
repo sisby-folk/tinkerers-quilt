@@ -758,8 +758,8 @@ file = "mods/Calio-1.18.2-1.6.0.jar"
 hash = "8a2dbe7417e280523f25d5bda08d0ca3d155014f8df50baa23adda876e6b170b"
 
 [[files]]
-file = "mods/TConstruct-1.18.2-3.5.1.DEV.3d91fea0f.jar"
-hash = "55fa0696166c91536655e1bf80b7fcc772ab434d4ff894664095cc7fd926db84"
+file = "mods/Hephaestus-1.18.2-3.5.2.DEV.9bda43129.jar"
+hash = "8a663686ac97126bd697397d4095d7a315ae99ed53dcda19d6924b5f9fab98e0"
 
 [[files]]
 file = "mods/accurate-maps.pw.toml"
@@ -851,7 +851,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "c2dc3701c79aad2fa278359d47c32d4e4a10c349b0fc06e8b7400dec9b48700c"
+hash = "37a75aa36e869ed6aeac736e5718e2e43c3381f16707ac1fdaab8a2b7c3da9c8"
 metafile = true
 
 [[files]]
@@ -935,7 +935,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "d506aff4966cf0049497f348aecb880cd3dbade497746c84a91f6b3b133c47ae"
+hash = "3d01384f400c6e27910f7a84f4c9d151798db7fe04c60082ace7942ee6e0c8db"
 metafile = true
 
 [[files]]
