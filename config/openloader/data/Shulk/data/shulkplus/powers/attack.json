@@ -1,18 +1,18 @@
 {
-    "name": "Hard-Hitter",
-    "description": "Your attack power is stronger, but your attack speed is slower.",
-    "type": "origins:attribute",
-    "modifiers": [
-        {
-            "attribute": "minecraft:generic.attack_damage",
-            "operation": "multiply_base",
-            "value": 0.334
-        },
-        {
-            "attribute": "minecraft:generic.attack_speed",
-            "operation": "multiply_total",
-            "value": -0.25
-        }
-    ],
-    "update_health": false
+	"name": "Weighted Swing",
+	"description": "Hit harder. Hit slower.",
+	"type": "origins:attribute",
+	"modifiers": [
+		{
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "multiply_base",
+			"value": 0.334
+		},
+		{
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "multiply_total",
+			"value": -0.25
+		}
+	],
+	"update_health": false
 }
