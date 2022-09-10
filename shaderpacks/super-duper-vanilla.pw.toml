@@ -3,13 +3,13 @@ filename = "SuperDuperVanilla.zip"
 side = "client"
 
 [download]
-url = "https://edge.forgecdn.net/files/3817/141/SuperDuperVanilla.zip"
+url = "https://edge.forgecdn.net/files/3865/984/SuperDuperVanilla.zip"
 hash-format = "sha1"
-hash = "56027da3e50cf406c01d147d3af7a622e1b6f5b8"
+hash = "414c72a8d3cfbba0d1ec06b104f175163710cc78"
 
 [update]
 [update.curseforge]
-file-id = 3817141
+file-id = 3865984
 project-id = 534748
 
 [option]

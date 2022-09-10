@@ -1,15 +1,15 @@
 name = "Prismarine Shaders"
-filename = "Prismarine V4.1a.zip"
+filename = "Prismarine+V4.2a.zip"
 side = "client"
 
 [download]
-url = "https://edge.forgecdn.net/files/3633/885/Prismarine V4.1a.zip"
+url = "https://edge.forgecdn.net/files/3786/80/Prismarine+V4.2a.zip"
 hash-format = "sha1"
-hash = "94ceee47d30aab1ed2dc436c4f17fa59d599851f"
+hash = "a4baf386249b4d316fece052ad4f5758037a2810"
 
 [update]
 [update.curseforge]
-file-id = 3633885
+file-id = 3786080
 project-id = 478295
 
 [option]
