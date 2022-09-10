@@ -153,28 +153,8 @@ file = "config/openloader/data/VanillaTweaks_c278482.zip"
 hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
 
 [[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/extraorigins/origins/floran.json"
-hash = "2d28426fbf8efd18e9d490db362203fc12c82e865153df23cb271d75c5fd6b44"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/extraorigins/origins/inchling.json"
-hash = "258f39b5decabedac97fdda8778f20294fcaaf790272c85a84c0dcf3f000b90c"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/extraorigins/origins/piglin.json"
-hash = "2d28426fbf8efd18e9d490db362203fc12c82e865153df23cb271d75c5fd6b44"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/extraorigins/origins/truffle.json"
-hash = "1837c0cbe21fd410bb7d8ae91763f1130d86e07e5f056fc00588b7cc2fafae6a"
-
-[[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
 hash = "335307908374d1eb32fc3c863b921ebc577340a4cd4d638e944c83fabdb87ac3"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/nitwit.json"
-hash = "693c0c625dcb32ed01ee1d85e4cfaa6eb62a8811863231913adeacc10817c946"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/arachnid.json"
@@ -221,58 +201,6 @@ file = "config/openloader/data/tinkerers_copper_beacons/pack.mcmeta"
 hash = "151c72f24ee91388a9623f130c17e0e2ee145ad4f10752ab43b6fcba3c84c303"
 
 [[files]]
-file = "config/openloader/data/tinkerers_dryad/data/origins/origin_layers/origin.json"
-hash = "1142f61edb5411c21b0f6c6d64356d84284b611f8f061c16bfff3f4d64e62635"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/origins/dryad.json"
-hash = "e424b8c314405364f8bcf1cf84be8f7dfe350d27c583cf3448950502fe1219f2"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/consumables.json"
-hash = "84ebb76779046717f0b01e7371ddbc052172b477d28bf1d6e2541e31662518ef"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/debuff.json"
-hash = "3f260228fc284deeef4f658b2e0eef4f892ff2b637ec3d1945558035dbd27bb5"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/flammable.json"
-hash = "f059bec1fee23da70376aa77cb66e47c1ed795486d8c2321fe4da399ff508bfb"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/green_thumb.json"
-hash = "d82fd200a7523332e9260150efa984206542707ba255162118c89df92726c292"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/loss.json"
-hash = "4e41ceac3a84969d5461bfd6eb00865bda38d2ace439c4de7463d68dcdcd3ac4"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/no_consume.json"
-hash = "54a36d51a9d76f53cd7c9b0e17868e8ba1c148e92ae09b5f3fe84e97d14b1d65"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/no_food.json"
-hash = "50ba76980a56875b8ad5b788bdf17d24d60d800515875a6057b98ce96d61c739"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/nutrients.json"
-hash = "80237a228b306767935e6dc556ee79bca334edd054b4f38317e1f80d4cf37d38"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/photosynthesis.json"
-hash = "f079b25caace0cb26344b9480fed37d195325bc586848f76f04441edccd3e6c7"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/data/tinkerdryad/powers/rain.json"
-hash = "9a16d3c4e54526058fa2baa6c3c0e97a3870810a227562d6326ece235d4ff7b0"
-
-[[files]]
-file = "config/openloader/data/tinkerers_dryad/pack.mcmeta"
-hash = "8a40457322f04ef2fe2752e24a05f8f4ea11413dc50a24a2db19c86999d6bb56"
-
-[[files]]
 file = "config/openloader/data/tinkerers_humant/data/origins-classes/origins/nitwit.json"
 hash = "693c0c625dcb32ed01ee1d85e4cfaa6eb62a8811863231913adeacc10817c946"
 
@@ -283,34 +211,6 @@ hash = "2d34ee98f99d65fc273ce4dd171d708ef9fe897ab88b8261f8f2077bc7d541c0"
 [[files]]
 file = "config/openloader/data/tinkerers_humant/pack.mcmeta"
 hash = "4aae4321241af8cdc307d14bc4d718a0f6543223c3f9bd9c20858d3447c4b622"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/data/origins/origin_layers/origin.json"
-hash = "462e158edd4d702ecf8a0f53f7b914ca6013b93a8affdd72be60482a2865b91e"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/data/tinkerimp/origins/imp.json"
-hash = "3790dd0dc68efe66e248399aa0fd2cd4b6c25cea74c2cacd56cc974ab1d4599f"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/data/tinkerimp/powers/bite_sized.json"
-hash = "03dc9a3e856d6fafe605d24eee257f6f941e656a41debe55bdc471158678e491"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/data/tinkerimp/powers/jockey.json"
-hash = "e848e6e425145de0ed10b2e4bde295404f2e3da91badc701d63f3cd62f9a045f"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/data/tinkerimp/powers/nimble.json"
-hash = "0404dac0e61abcd1c35631a655ca55eb1d5cbc348214dc6ab48cc69bcd41d8cb"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/data/tinkerimp/powers/small_appetite.json"
-hash = "4b0c1cc3a3d9f8ee6589b2cbd38891ebefd7fc091f3b09ecebab1cee3fbabede"
-
-[[files]]
-file = "config/openloader/data/tinkerers_imp/pack.mcmeta"
-hash = "721a8fca900ba1d2dbaedb6b23771eb4e089ad820be029c3401b925457f611cf"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/boots.json"
@@ -390,7 +290,7 @@ hash = "64a9a68e4054e3fee6c35656a2d96a87b464814f5dcd6aac8b9178536b307981"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vampire/pack.mcmeta"
-hash = "3036f79112c03c62d97b6962abbb74301abeeafa474657424dfe4df9d066a81a"
+hash = "864c8b46a55d708ac59fe4a4252748c283a3740c9f874052498ae2a4e8e73b7d"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/book_quill.json"
@@ -802,11 +702,6 @@ hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
 
 [[files]]
-file = "mods/extra-origins.pw.toml"
-hash = "f21a2091e05a860abf1436effd976cfe281b907523d01cef9868f7b728302b6e"
-metafile = true
-
-[[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "76f23e3c7d290c587085b22f59e06160a38593d73859cbb4a4738d1fa2fade4d"
 metafile = true
@@ -1031,11 +926,6 @@ metafile = true
 [[files]]
 file = "mods/open-loader.pw.toml"
 hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
-metafile = true
-
-[[files]]
-file = "mods/origins-classes.pw.toml"
-hash = "e86696acaa29f3e9732505a051010a98dd247ded2d669349a754602e72962916"
 metafile = true
 
 [[files]]
