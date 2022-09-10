@@ -1,6 +1,6 @@
 {
     "name": "Flap",
-    "description": "A small flap of your wings gives you a weak double-jump in the air.",
+    "description": "You can flap in the air to gain a little height",
     "condition": {
         "type": "origins:and",
         "conditions": [

@@ -1,6 +1,6 @@
 {
-    "name": "Featherweight+",
-    "description": "Holding jump allows you to float downwards, and crouching before landing will negate all fall damage.",
+    "name": "Featherweight",
+    "description": "Holding jump allows you to float downwards, and crouching will negate fall damage.",
     "hidden": false,
     "loading_priority": 1,
     "type": "origins:multiple",

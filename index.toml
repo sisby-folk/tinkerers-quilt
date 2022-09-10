@@ -170,31 +170,15 @@ hash = "e44c9a474c4fa62fb0992a8322b2543b51163f693cb2469d374d21cac31a8068"
 
 [[files]]
 file = "config/openloader/data/Avian/data/avianplus/origins/avianplus.json"
-hash = "c8a8abd82d3abfc252f422d50a5c48c9798edb3a112e3b19f658e0320697bd0f"
+hash = "11d9c86dd1ee3e622db7d702e80788cb65b17b9a9b20046867421f01fb043e2d"
 
 [[files]]
 file = "config/openloader/data/Avian/data/avianplus/powers/active_slow_fall.json"
-hash = "13625f187b4effdb793369209a67b233764c7ac019ee7ae3e642b5b5b4373a66"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/down.json"
-hash = "1dad624c7604d06ecb4bd75402ffb13b4a6c24669fa8b98d54c0631e840c53f0"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/fastweak.json"
-hash = "5f93735e8854e89c235fc0888f59495c7b2e8f486c06a57eda0aa00094c10a90"
+hash = "cfd13aed4023083d78443dd70eaade6b4d8efcb54eae088ce8e4e7b80f12d10d"
 
 [[files]]
 file = "config/openloader/data/Avian/data/avianplus/powers/flap.json"
-hash = "b6b5fcfcb6df3b45d0bd9f97727763b80e1d6acd615c0d5bdb1e43d07dfeba3a"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/fresh_air.json"
-hash = "75c0e94a6f43689d8beb661d01ab09a757a261c41c4f317786e9e43dc60736b8"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/seeds.json"
-hash = "f8fb0473ebb6fd8c496026a5f57c6f828d9949ebd67cf5b17b10f89600b4bc92"
+hash = "0a65b1f4b953d9d9da61810c79c43049a8014a49425ce210bdf10414edddbf44"
 
 [[files]]
 file = "config/openloader/data/Avian/data/origins/origin_layers/origin.json"
