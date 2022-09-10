@@ -1,0 +1,18 @@
+name = "Complementary Reimagined Shaders"
+filename = "ComplementaryReimagined_r1.2.2.zip"
+side = "client"
+
+[download]
+url = "https://mediafiles.forgecdn.net/files/3928/682/ComplementaryReimagined_r1.2.2.zip"
+hash-format = "sha1"
+hash = "c3421eda95f7fd3cf8567832de82e1442a3c8b68"
+
+[update]
+[update.curseforge]
+file-id = 3928682
+project-id = 627557
+
+[option]
+optional = false
+default = true
+description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/complementary-reimagined"

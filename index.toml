@@ -461,6 +461,10 @@ file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
 hash = "15b7e91d31db25b7fd63ac0c64dc518510e89f3fe94d63c4caec782ac4148db2"
 
 [[files]]
+file = "config/yosbr/shaderpacks/ComplementaryReimagined_r1.2.2.zip.txt"
+hash = "0ae51c36c9fa928b01d2f4f4a4cffb305313d3cdbfedd97b3e930c5f4885fa80"
+
+[[files]]
 file = "config/yosbr/shaderpacks/ComplementaryShaders_v4.4.zip.txt"
 hash = "1f51ae0e43ec29c2fac9e8dfe7b5713e7496730aad13d94b41df4503230e3919"
 
@@ -469,32 +473,12 @@ file = "config/yosbr/shaderpacks/Prismarine V4.1a.zip.txt"
 hash = "a2dfa210364c571eb11902c78003331c58f5d4a38b0495a210a90f31903c967a"
 
 [[files]]
-file = "config/yosbr/shaderpacks/RedHat_v34.0.zip.txt"
-hash = "50d3954391e66640c6a5dcd5eddd48bc4bfa5c25704eab8d164a66015e9700dc"
-
-[[files]]
-file = "config/yosbr/shaderpacks/SEUS-Renewed-v1.0.1.zip.txt"
-hash = "1cf7c12b7728b4925c33d36bce4ab6d2177dd0235b004e9f74b081db5337d298"
-
-[[files]]
 file = "config/yosbr/shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip.txt"
 hash = "c1dd42911b75655dad0a2d7775ee77984a7e048713fffee8ccba902e7294aa62"
 
 [[files]]
-file = "config/yosbr/shaderpacks/Sora_Shaders_1.142.zip.txt"
-hash = "cf92f4f81e0b7407836e723540653b4d6c73addde97b6e7cc651fefedb8854e3"
-
-[[files]]
 file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
 hash = "082829dcd697d1cd1dca77561d395554da43c5dd23abeab25052b212878ad434"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Triltons Shaders v8.zip.txt"
-hash = "54f0f263b9c947d42f0f0c7dd030bb4b2ddc189d6d65a4900e35710847380606"
-
-[[files]]
-file = "config/yosbr/shaderpacks/projectLUMA+-+v1.32.zip.txt"
-hash = "3d1ce5a7a66eac177f7c120f78afc2c54ed6b68d95d4c8f6d78bd770d955ac3a"
 
 [[files]]
 file = "credits.txt"
@@ -1123,16 +1107,17 @@ hash = "f7b06cb8ec7928fff97239728f125646d9100499fc99281a1fd73486e5fa1841"
 metafile = true
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_BlockVariation.zip"
-hash = "9b3f189a889a95ad441d79e7e415134960e4b6db8a87fd2de75e8dd70b92b9b6"
-
-[[files]]
 file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
 file = "shaderpacks/bsl.pw.toml"
 hash = "6dd46982da232ed5a2c8ed6378a1a6618b5de1a04cffa86c46e75f8be9f99220"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "f306317fe981ba4c124d67b63c51645f4e0bf6eb384973683d2ac08d6467a51e"
 metafile = true
 
 [[files]]
