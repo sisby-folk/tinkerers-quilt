@@ -1,6 +1,6 @@
 {
 	"name": "Sturdy Shell",
-	"description": "Crouching to brace, slowing down but resisting hits.\n A bit exhausting.",
+	"description": "Sneak to brace, slowing down but resisting hits.\nA bit exhausting.",
 	"type": "origins:multiple",
 	"slowed": {
 		"name": "crouch walk = slow",
