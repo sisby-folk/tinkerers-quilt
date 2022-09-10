@@ -1,0 +1,25 @@
+{
+    "name": "Clammy",
+    "description": "Because of your misshapen hands, you can't use shields, and projectile weapons are much less effective.",
+    "type": "origins:multiple",
+    "noshield": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:shield"
+            }
+        }
+    },
+    "lessproj": {
+        "name": "projectile halved",
+        "type": "origins:modify_damage_dealt",
+        "damage_condition": {
+            "type": "origins:projectile"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": -0.5
+        }
+    }
+}

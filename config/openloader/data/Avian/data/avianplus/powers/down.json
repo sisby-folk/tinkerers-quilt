@@ -1,0 +1,36 @@
+{
+    "name": "Wet Feathers",
+    "description": "Your feathers get matted together after being in water/rain, limiting your movement speed until you dry out.",
+    "hidden": false,
+    "loading_priority": 2,
+    "condition": {
+        "inverted": false,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "inverted": false,
+                "type": "origins:in_rain"
+            },
+            {
+                "inverted": false,
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">=",
+                "compare_to": 0.01
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 15,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 20,
+        "amplifier": 0,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

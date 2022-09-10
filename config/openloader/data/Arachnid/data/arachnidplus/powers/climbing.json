@@ -1,0 +1,31 @@
+{
+    "name": "Climbing+",
+    "description": "Freely climb down walls without taking any fall damage, but you can only climb up them if crouching. Break speed is unaffected while climbing.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:block_collision",
+                        "offset_x": 0.01,
+                        "offset_y": 0,
+                        "offset_z": 0.01
+                    },
+                    {
+                        "type": "origins:block_collision",
+                        "offset_x": -0.01,
+                        "offset_y": 0,
+                        "offset_z": -0.01
+                    }
+                ]
+            }
+        ]
+    },
+    "type": "origins:climbing",
+    "allow_holding": true
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Bloodthirsty",
+    "description": "Eating raw meat temporarily gives you two extra hearts, at the cost of some corruption.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:porkchop"
+            },
+            {
+                "item": "minecraft:cod"
+            },
+            {
+                "item": "minecraft:salmon"
+            },
+            {
+                "item": "minecraft:rabbit"
+            },
+            {
+                "item": "minecraft:beef"
+            },
+            {
+                "item": "minecraft:chicken"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:mutton"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            }
+        ]
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:absorption",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.phantom.bite",
+                "volume": 1,
+                "pitch": 1
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "pplus:pbar",
+                "change": 80,
+                "operation": "add"
+            }
+        ]
+    },
+    "always_edible": true
+}

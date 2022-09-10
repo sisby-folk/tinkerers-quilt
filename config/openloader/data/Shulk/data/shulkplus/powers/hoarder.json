@@ -1,0 +1,22 @@
+{
+    "name": "Hoarder+",
+    "description": "Open up extra inventory space by pressing your Primary key. These items are not kept after death, but rather the first five items in your hotbar will instead.",
+    "type": "origins:multiple",
+    "hotbar": {
+        "type": "origins:keep_inventory",
+        "slots": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "extraspace": {
+        "name": "inventory",
+        "type": "origins:inventory",
+        "title": "Extra Inventory",
+        "drop_on_death": true,
+        "key": "primary"
+    }
+}

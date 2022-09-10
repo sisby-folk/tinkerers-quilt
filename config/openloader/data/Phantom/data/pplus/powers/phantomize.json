@@ -1,0 +1,8 @@
+{
+    "name": "Phasing",
+    "description": "Turn translucent and phase through natural blocks, but at the cost of some hunger.",
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "primary",
+    "retain_state": false
+}

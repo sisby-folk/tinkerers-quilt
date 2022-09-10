@@ -1,0 +1,21 @@
+{
+    "name": "lava fall",
+    "description": "no fall damage landing in lava (may glitch out).",
+    "hidden": true,
+    "loading_priority": 0,
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:lava",
+        "comparison": ">=",
+        "compare_to": 0.00001
+    },
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -1
+    }
+}

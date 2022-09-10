@@ -1,0 +1,20 @@
+{
+    "name": "Merling+",
+    "description": "While these waterborne creatures are powerful in the ocean, they struggle to breathe on the land without help.",
+    "powers": [
+        "origins:water_breathing",
+        "origins:swim_speed",
+        "merplus:water_damage",
+        "merplus:wet_eyes",
+        "origins:like_water",
+        "merplus:under",
+        "origins:conduit_power_on_land",
+        "origins:aquatic",
+        "merplus:air_from_potions",
+        "origins:aqua_affinity"
+    ],
+    "icon": {
+        "item": "minecraft:cod"
+    },
+    "impact": 3
+}

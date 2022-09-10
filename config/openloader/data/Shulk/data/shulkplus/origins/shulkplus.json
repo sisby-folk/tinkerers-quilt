@@ -1,0 +1,17 @@
+{
+    "name": "Shulk+",
+    "description": "Utilizing their shell in both combat and storage, Shulks tend to be much more weighty than other origins.",
+    "powers": [
+        "shulkplus:turtle",
+        "shulkplus:unwieldy",
+        "shulkplus:attack",
+        "shulkplus:hoarder",
+        "origins:strong_arms",
+        "origins:strong_arms_break_speed"
+    ],
+    "icon": {
+        "item": "minecraft:shulker_shell"
+    },
+    "order": 4,
+    "impact": 1
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Feline+",
+    "description": "These milkaholic creatures always land safely on their feet, and scare away creepers with their cat-like appearance.",
+    "powers": [
+        "felineplus:weak_armsplus",
+        "felineplus:milk",
+        "felineplus:jump",
+        "origins:fall_immunity",
+        "origins:velvet_paws",
+        "felineplus:nocturnal",
+        "origins:scare_creepers",
+        "origins:nine_lives"
+    ],
+    "icon": {
+        "item": "minecraft:milk_bucket"
+    },
+    "unchoosable": false,
+    "order": 0,
+    "impact": 2
+}

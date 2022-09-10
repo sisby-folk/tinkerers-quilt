@@ -1,0 +1,22 @@
+{
+    "name": "Avian+",
+    "description": "Evolved from flightless birds, this race holds a strict advantage in their speed. Not only in their movement, but in their attacks and block breaking as well.",
+    "powers": [
+        "avianplus:flap",
+        "avianplus:active_slow_fall",
+        "origins:like_air",
+        "avianplus:down",
+        "origins:vegetarian",
+        "avianplus:fresh_air",
+        "origins:tailwind",
+        "avianplus:fastweak",
+        "avianplus:seeds",
+        "origins:lay_eggs"
+    ],
+    "icon": {
+        "item": "minecraft:feather"
+    },
+    "unchoosable": false,
+    "order": 0,
+    "impact": 1
+}

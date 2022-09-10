@@ -1,0 +1,15 @@
+{
+    "name": "Hydrodynamic",
+    "description": "Deal double damage while swimming.",
+    "condition": {
+        "type": "origins:swimming"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_total",
+        "value": 1
+    },
+    "tick_rate": 1,
+    "update_health": false
+}

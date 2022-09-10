@@ -1,0 +1,23 @@
+{
+    "name": "Milk-Lover",
+    "description": "Drinking milk gives you Resistance for 60 seconds.",
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 600,
+            "amplifier": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "item_condition": {
+        "inverted": false,
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:milk_bucket"
+        }
+    }
+}

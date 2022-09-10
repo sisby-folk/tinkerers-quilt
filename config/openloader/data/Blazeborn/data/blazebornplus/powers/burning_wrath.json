@@ -1,0 +1,31 @@
+{
+    "name": "Burning Wrath+",
+    "description": "When on fire, channels the flames into your next attack, dealing more damage.",
+    "loading_priority": 1,
+    "condition": {
+        "type": "origins:on_fire"
+    },
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "player"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    },
+    "self_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:extinguish"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.blaze.hurt",
+                "volume": 0.5,
+                "pitch": 1.3
+            }
+        ]
+    }
+}

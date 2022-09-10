@@ -1,0 +1,28 @@
+{
+    "name": "Photoallergic",
+    "description": "Being phantomized has you burn under sunlight",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:power_active",
+                "power": "pplus:phantomize"
+            }
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 1
+    },
+    "rising_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.phantom.hurt",
+        "volume": 1,
+        "pitch": 0.7
+    }
+}

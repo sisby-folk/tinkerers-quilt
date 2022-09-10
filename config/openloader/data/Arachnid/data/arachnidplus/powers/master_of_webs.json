@@ -1,0 +1,72 @@
+{
+    "name": "Master of Webs+",
+    "description": "You can sense all non-arthropods in nearby cobwebs, attack through them unless sneaking, and can climb webs without needing to sneak.\nCraft cobwebs using 5 string!",
+    "type": "origins:multiple",
+    "punch_through": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:sneaking"
+        },
+        "type": "origins:prevent_block_selection",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:cobwebs"
+        }
+    },
+    "sense": {
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block_anywhere",
+                    "block_condition": {
+                        "type": "origins:in_tag",
+                        "tag": "origins:cobwebs"
+                    },
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:entity_group",
+                    "group": "arthropod"
+                }
+            ]
+        },
+        "use_teams": true
+    },
+    "cobweb_climber": {
+        "hidden": true,
+        "condition": {
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:in_tag",
+                "tag": "origins:cobwebs"
+            }
+        },
+        "type": "origins:climbing",
+        "allow_holding": true
+    },
+    "webcraft": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "webcraft",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "S S",
+                " S ",
+                "S S"
+            ],
+            "key": {
+                "S": {
+                    "item": "minecraft:string"
+                }
+            },
+            "result": {
+                "item": "minecraft:cobweb",
+                "count": 5
+            }
+        }
+    }
+}

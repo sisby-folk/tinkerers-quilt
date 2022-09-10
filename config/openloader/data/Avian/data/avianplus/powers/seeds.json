@@ -1,0 +1,67 @@
+{
+    "name": "Frugivore",
+    "description": "You can eat seeds, though they aren't too filling.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food_level",
+                "comparison": "<=",
+                "compare_to": 19
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": [
+                        {
+                            "item": "minecraft:wheat_seeds"
+                        },
+                        {
+                            "item": "minecraft:melon_seeds"
+                        },
+                        {
+                            "item": "minecraft:pumpkin_seeds"
+                        },
+                        {
+                            "item": "minecraft:beetroot_seeds"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:feed",
+                "food": 1,
+                "saturation": 0.4
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.player.burp",
+                "volume": 1,
+                "pitch": 1
+            }
+        ]
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use"
+    }
+}

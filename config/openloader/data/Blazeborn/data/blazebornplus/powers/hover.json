@@ -1,0 +1,61 @@
+{
+    "name": "Hover",
+    "description": "Holding jump allows you to float.",
+    "loading_priority": 0,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:lava",
+                "comparison": ">=",
+                "compare_to": 0.01
+            },
+            {
+                "inverted": true,
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">=",
+                "compare_to": 0.01
+            },
+            {
+                "type": "origins:resource",
+                "resource": "blazebornplus:hoverbar",
+                "comparison": ">",
+                "compare_to": 1
+            },
+            {
+                "inverted": true,
+                "type": "origins:riding_root"
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:levitation",
+                    "duration": 2,
+                    "amplifier": 1,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "blazebornplus:hoverbar",
+                "change": -1,
+                "operation": "add"
+            }
+        ]
+    },
+    "cooldown": 1,
+    "key": {
+        "key": "key.jump",
+        "continuous": true
+    }
+}

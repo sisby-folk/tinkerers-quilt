@@ -1,0 +1,34 @@
+{
+    "name": "Absorbing Skin",
+    "description": "Due to it's mystical properties, standing on Crying Obsidian fills your air meter.",
+    "condition": {
+        "type": "origins:on_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:crying_obsidian"
+        }
+    },
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:gain_air",
+                "value": 35
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": "minecraft:falling_obsidian_tear",
+                "count": 8,
+                "speed": -1
+            }
+        ]
+    },
+    "rising_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.conduit.attack.target",
+        "volume": 1,
+        "pitch": 0.7
+    }
+}
