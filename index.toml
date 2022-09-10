@@ -321,6 +321,22 @@ file = "config/openloader/data/VanillaTweaks_c278482.zip"
 hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
 
 [[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/beach_crab.json"
+hash = "3aa385b291abba236cf73e73817943aa535e71fdccdedf23bc7a7641f3a8560b"
+
+[[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/deer.json"
+hash = "c21dc631f1421bb9aa8587588308263d417278eb6ac6e782c4f5b4073b6202b6"
+
+[[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/moth.json"
+hash = "a22a756806693d7b1daa7a14e647a927ddb81b21bce17320b225fe747cac940c"
+
+[[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/penguin.json"
+hash = "f8897e8cb418696bf7379cf8b3c513c5e6282ae89b8fa3cf8b449e16c1b1d3fe"
+
+[[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
 hash = "335307908374d1eb32fc3c863b921ebc577340a4cd4d638e944c83fabdb87ac3"
 
@@ -335,6 +351,10 @@ hash = "da0ddbb8c8ce915aac1d98aa77ceeb16c09b05e1427c7467306c5789986a2486"
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/blazeborn.json"
 hash = "0537759f32ad79a8c89c9c217aa5eef797f08ec01c92d9b67be44b48f66a3a71"
+
+[[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/elytrian.json"
+hash = "38ddfafa318c3b4e2caa5ee3d733d0cc8c96282c620b9b3e2becafb791c003f1"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/feline.json"
