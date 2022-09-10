@@ -82,8 +82,8 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
  - Four data packs: (use [this](https://download-directory.github.io) for downloads)
    - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
-   - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins/+classes descriptions.
-   - Tinkerer's [Vampire](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vampire)/[Imp](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_imp)/[Dryad](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_dryad) (Origins) - Mods of others' origins. Some small, some not - more planned.
+   - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins descriptions.
+   - Tinkerer's [Vampire](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vampire) - a vanilla origins blood-hunger vampire.
  - Five Pull Requests! (does that count?)
    - [Fixing NBTCrafting](https://github.com/Siphalor/nbt-crafting/pull/115) for Smithing
    - [Preserving Cursor Stack](https://github.com/Andrew6rant/InventoryTabs/pull/47) for Inventory Tabs
@@ -176,7 +176,6 @@ Users of the modrinth version can follow modrinth instructions, but will need to
     - [FTB Teams](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric)
     - [FTB Library](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric)
 - [Vehiclefix](https://www.curseforge.com/minecraft/mc-mods/vehiclefix/)
-- [Extra Origins](https://www.curseforge.com/minecraft/mc-mods/extra-origins)
 - [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric)
 
 ---
@@ -246,7 +245,6 @@ Mods:
     Enhanced Attack Indicator
     EntityCulling
     Extended Clouds
-    Extra Origins
     [Plus] Fabric Seasons
     Fabrication
     Fabric Language Kotlin
@@ -298,7 +296,6 @@ Mods:
     Notes Fabric
     Ok Zoomer
     Open Loader
-    Origins: Classes
     Origins
     [Plus] Overweight Farming
     [Modded] Patchouli
