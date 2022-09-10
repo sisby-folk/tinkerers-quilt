@@ -1,52 +1,52 @@
 {
-    "name": "Featherweight",
-    "description": "Holding jump allows you to float downwards, and crouching will negate fall damage.",
-    "hidden": false,
-    "loading_priority": 1,
-    "type": "origins:multiple",
-    "jeump": {
-        "name": "jump slowfall",
-        "hidden": true,
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:slow_falling",
-                "duration": 2,
-                "amplifier": 0,
-                "is_ambient": false,
-                "show_particles": false,
-                "show_icon": false
-            }
-        },
-        "cooldown": 1,
-        "hud_render": {
-            "should_render": false,
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 0
-        },
-        "key": {
-            "key": "key.jump",
-            "continuous": true
-        }
-    },
-    "sneak": {
-        "name": "sneakfall",
-        "description": "no fall damage when sneaking",
-        "hidden": true,
-        "condition": {
-            "inverted": false,
-            "type": "origins:sneaking"
-        },
-        "type": "origins:modify_damage_taken",
-        "damage_condition": {
-            "inverted": false,
-            "type": "origins:name",
-            "name": "fall"
-        },
-        "modifier": {
-            "operation": "multiply_total",
-            "value": -1
-        }
-    }
+	"name": "Featherweight",
+	"description": "Holding jump allows you to float downwards, and crouching will negate fall damage.",
+	"hidden": false,
+	"loading_priority": 1,
+	"type": "origins:multiple",
+	"jeump": {
+		"name": "jump slowfall",
+		"hidden": true,
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:slow_falling",
+				"duration": 2,
+				"amplifier": 0,
+				"is_ambient": false,
+				"show_particles": false,
+				"show_icon": false
+			}
+		},
+		"cooldown": 1,
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/resource_bar.png",
+			"bar_index": 0
+		},
+		"key": {
+			"key": "key.jump",
+			"continuous": true
+		}
+	},
+	"sneak": {
+		"name": "sneakfall",
+		"description": "no fall damage when sneaking",
+		"hidden": true,
+		"condition": {
+			"inverted": false,
+			"type": "origins:sneaking"
+		},
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"inverted": false,
+			"type": "origins:name",
+			"name": "fall"
+		},
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -1
+		}
+	}
 }
