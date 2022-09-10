@@ -1,25 +1,25 @@
 {
-    "name": "wallfall",
-    "description": "slowly descend if against wall.",
-    "hidden": true,
-    "condition": {
-        "type": "origins:or",
-        "conditions": [
-            {
-                "type": "origins:block_collision",
-                "offset_x": 0.01,
-                "offset_y": 0,
-                "offset_z": 0.01
-            },
-            {
-                "type": "origins:block_collision",
-                "offset_x": -0.01,
-                "offset_y": 0,
-                "offset_z": -0.01
-            }
-        ]
-    },
-    "type": "origins:modify_falling",
-    "velocity": 0.01,
-    "take_fall_damage": false
+	"name": "wallfall",
+	"description": "slowly descend if against wall.",
+	"hidden": true,
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:block_collision",
+				"offset_x": 0.01,
+				"offset_y": 0,
+				"offset_z": 0.01
+			},
+			{
+				"type": "origins:block_collision",
+				"offset_x": -0.01,
+				"offset_y": 0,
+				"offset_z": -0.01
+			}
+		]
+	},
+	"type": "origins:modify_falling",
+	"velocity": 0.01,
+	"take_fall_damage": false
 }

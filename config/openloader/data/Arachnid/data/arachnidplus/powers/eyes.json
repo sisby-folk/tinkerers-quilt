@@ -1,6 +1,6 @@
 {
-    "name": "Glowing Eyes",
-    "description": "You can see very well in the dark.",
-    "type": "origins:night_vision",
-    "strength": 0.15
+	"name": "Cave Dweller",
+	"description": "You can't suffocate, and see well in the dark.",
+	"type": "origins:night_vision",
+	"strength": 0.15
 }

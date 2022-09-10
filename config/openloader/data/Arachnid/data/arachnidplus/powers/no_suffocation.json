@@ -1,13 +1,14 @@
 {
-    "name": "Narrow Lungs",
-    "description": "You take no wall suffocation damage.",
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "inWall"
-    },
-    "modifier": {
-        "operation": "multiply_total",
-        "value": -1
-    }
+	"name": "Narrow Lungs",
+	"description": "You take no wall suffocation damage.",
+	"hidden": true,
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "inWall"
+	},
+	"modifier": {
+		"operation": "multiply_total",
+		"value": -1
+	}
 }
