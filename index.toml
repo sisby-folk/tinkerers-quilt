@@ -914,9 +914,8 @@ hash = "7bc62af50be24f86bf8923bfa40797f58b9c2d2f4550dfa102cdc0952e160e2b"
 metafile = true
 
 [[files]]
-file = "mods/item-filters.pw.toml"
-hash = "18e744fe60ee0536c210e8048c02b6cdca3ae0be3ecac64e1eb5af6598bfdfc7"
-metafile = true
+file = "mods/item-filters-fabric-1802.2.7-build.33.jar"
+hash = "083f3d25a0489268eb360f9950a16f5636862a28e4f58ebfebcad651e5143456"
 
 [[files]]
 file = "mods/item-model-fix.pw.toml"
