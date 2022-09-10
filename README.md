@@ -196,12 +196,14 @@ Users of the modrinth version can follow modrinth instructions, but will need to
 
 ```
 Mods:
+    Accurate Maps
     AdvancementInfo
     Advancements Debug
     [Plus] Aileron
     Ambient Environment
     [Plus] Amplified Nether
     Animatica
+    Apathy
     AppleSkin
     [Plus] Architecture Extensions
     Architectury API
@@ -244,8 +246,10 @@ Mods:
     Enhanced Attack Indicator
     EntityCulling
     Extended Clouds
+    Extra Origins
     [Plus] Fabric Seasons
     Fabrication
+    Fabric Language Kotlin
     Fabric Shield Lib
     Fabric Tailor
     Falling Leaves
@@ -261,6 +265,7 @@ Mods:
     [Plus] Fabric Waystones
     Grounded Origins
     [Plus] Halfdoors
+    [Modded] Hephaestus
     Horse Buff
     Hwyla Addon Horse Info
     Idwtialsimmoedm
@@ -322,8 +327,9 @@ Mods:
     Sodium
     Starlight (Fabric)
     Status Effect Timer
-    Styled Chat
     Styled Player List
+    Switchy
+    Switchy Inventories
     Tax Free Levels
     [Plus] TerraBlender (Fabric)
     [Plus] This Rocks!
@@ -354,14 +360,12 @@ Jar mods:
     [Plus] Auroras Decorations 1.0.0 1.18 (Unreleased)
     Blanket Client tweaks 1.0.4
     colormatic 3.1.2-snapshot 1.18.2.jar (Create Compat)
-    extraorigins 1.18-11 (temp due to quilt compat, license issues)
     fogbox 1.2.0
     inspecio 1.4.2 (Show repair cost)
-    inventorytabs 0.6.1-1.18.x
+    inventorytabs 0.9.0-1.18.x
     LambDynamicLights 2.1.1limitless1.18
     NoFade (1.18.2)
     Realistic Fishing (1.18.2)
-    [Modded] Tinker's Construct 1.18.2 3.5.1 DEV.3d91fea0f (Unreleased)
 
 Resource Packs: 
     Colored Axolotl Buckets With Babies
@@ -387,7 +391,6 @@ Homebrew Data Packs:
     (Origins) Tinkerer's Statures
     (Origins) Tinkerer's Cleanup
     (Origins) Tinkerer's Human't
-    (Origins) Vampire (ChessLord), Dryad (LuaDotExe), Imp (ExtaOrigins)
     Tinkerer's Vegetarian
     Tinkerer's Copper Beacons
 ```
