@@ -609,6 +609,11 @@ file = "mods/Calio-1.18.2-1.6.0.jar"
 hash = "8a2dbe7417e280523f25d5bda08d0ca3d155014f8df50baa23adda876e6b170b"
 
 [[files]]
+file = "mods/accurate-maps.pw.toml"
+hash = "1d900800632d7e26308593bfd80a66b0f9ac32e0caf7caa6f6d0ef780947fb10"
+metafile = true
+
+[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
