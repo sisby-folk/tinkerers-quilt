@@ -1,8 +1,8 @@
 {
-    "origins": [
-        "lepus:lepus"
-    ],
-    "enabled": true,
-    "replace": false,
-    "allow_random": true
+	"origins": [
+		"lepus:lepus"
+	],
+	"enabled": true,
+	"replace": false,
+	"allow_random": true
 }
