@@ -83,7 +83,7 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
    - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
    - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins descriptions.
-   - Tinkerer's [Vampire](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vampire) - a vanilla origins blood-hunger vampire.
+   - [WIP] Fresh and reworked Origins following TQuilt's design - Prioritizing simplicity over balance.
  - Five Pull Requests! (does that count?)
    - [Fixing NBTCrafting](https://github.com/Siphalor/nbt-crafting/pull/115) for Smithing
    - [Preserving Cursor Stack](https://github.com/Andrew6rant/InventoryTabs/pull/47) for Inventory Tabs
