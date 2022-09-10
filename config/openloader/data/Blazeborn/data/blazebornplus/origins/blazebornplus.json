@@ -1,25 +1,15 @@
 {
-    "name": "Blazeborn+",
-    "description": "Late Descendants of the Blaze, the Blazeborn are naturally immune to the perils of the nether.",
-    "powers": [
-        "origins:nether_spawn",
-        "blazebornplus:fire",
-        "origins:fire_immunity",
-        "blazebornplus:burning_wrath",
-        "blazebornplus:hover",
-        "origins:hotblooded",
-        "origins:water_vulnerability",
-        "origins:flame_particles",
-        "origins:damage_from_snowballs",
-        "origins:damage_from_potions",
-        "blazebornplus:hoverbar",
-        "blazebornplus:hoverregain",
-        "blazebornplus:lavafall",
-        "blazebornplus:slowfall"
-    ],
-    "icon": {
-        "item": "minecraft:blaze_powder"
-    },
-    "order": 1,
-    "impact": 3
+	"name": "Hellspawn",
+	"description": "Hailing from the throes of the nether, these demons can take the heat.",
+	"powers": [
+		"origins:fire_immunity",
+		"origins:flame_particles",
+		"origins:damage_from_snowballs",
+		"blazebornplus:lavafall"
+	],
+	"icon": {
+		"item": "minecraft:blaze_powder"
+	},
+	"order": 1,
+	"impact": 3
 }
