@@ -1,24 +1,24 @@
 {
-    "name": "Strong Ankles+",
-    "description": "Your walking jump height is two blocks high, but is normal when sneaking or sprinting.",
-    "hidden": false,
-    "condition": {
-        "inverted": false,
-        "type": "origins:and",
-        "conditions": [
-            {
-                "inverted": true,
-                "type": "origins:sprinting"
-            },
-            {
-                "inverted": true,
-                "type": "origins:sneaking"
-            }
-        ]
-    },
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "multiply_base",
-        "value": 0.4
-    }
+	"name": "Spry",
+	"description": "You jump higher unless sprinting or sneaking.",
+	"hidden": false,
+	"condition": {
+		"inverted": false,
+		"type": "origins:and",
+		"conditions": [
+			{
+				"inverted": true,
+				"type": "origins:sprinting"
+			},
+			{
+				"inverted": true,
+				"type": "origins:sneaking"
+			}
+		]
+	},
+	"type": "origins:modify_jump",
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 0.4
+	}
 }
