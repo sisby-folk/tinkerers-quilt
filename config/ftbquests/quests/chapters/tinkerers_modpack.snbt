@@ -143,7 +143,11 @@
 			y: 1.0d
 			shape: "square"
 			subtitle: "Custom Nonhuman Skins!"
-			description: ["Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press §nALT+M§r and click \"Ears\" to learn more."]
+			description: [
+			    "Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press §nALT+M§r and click \"Ears\" to learn more."
+			    ""
+			    "In the Ears Skin Manipulator (§nALT+M§r->Ears), there's an option to enable a chest bump on your skin if you open the console (§nF12§r) and enter \"xyzzy\""
+			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "750E0AD647A0E1B9"
@@ -178,21 +182,21 @@
 			}]
 		}
 		{
-			title: "Ears Easter Eggs"
-			icon: "minecraft:chest"
+			title: "Illuminations Pride"
+			icon: "minecraft:soul_lantern"
 			disable_toast: true
 			x: 1.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "Thanks Una :)"
-			description: ["In the Ears Skin Manipulator (§nALT+M§r->Ears), there's an option to enable a chest bump on your skin if you open the console (§nF12§r) and enter \"xyzzy\""]
+			subtitle: "Bling"
+			description: ["You can set up an Illuminations pride heart accessory at §lilluminations.uuid.gg§r"]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "2EC9784A91A2F9CC"
 			tasks: [{
 				id: "1696B8578E406417"
 				type: "checkmark"
-				title: "Wildfire's Chest Mod"
+				title: "Click Here!"
 			}]
 		}
 		{

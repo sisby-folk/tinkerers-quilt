@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+
+. git-sh-setup
+echo "Refreshing Packwiz Index"
+packwiz refresh
+git add index.toml
+git add pack.toml

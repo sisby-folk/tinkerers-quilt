@@ -1,15 +1,15 @@
 name = "BSL Shaders"
-filename = "BSL_v8.1.02.2.zip"
+filename = "BSL_v8.1.03.zip"
 side = "client"
 
 [download]
-url = "https://edge.forgecdn.net/files/3752/138/BSL_v8.1.02.2.zip"
+url = "https://mediafiles.forgecdn.net/files/3868/240/BSL_v8.1.03.zip"
 hash-format = "sha1"
-hash = "676d60165dbc42c313cbab397159e1bb250b3b23"
+hash = "700065336f6936f65bf288de6d5dee08abd803d0"
 
 [update]
 [update.curseforge]
-file-id = 3752138
+file-id = 3868240
 project-id = 322506
 
 [option]
