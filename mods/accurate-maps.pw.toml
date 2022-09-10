@@ -1,0 +1,13 @@
+name = "Accurate Maps"
+filename = "accurate-maps-1.0-BETA+1.18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cXMrEM6i/versions/IyFSDlHO/accurate-maps-1.0-BETA%2B1.18.jar"
+hash-format = "sha1"
+hash = "7c99b6551bd87c59e781a9adf23d68c8964d6687"
+
+[update]
+[update.modrinth]
+mod-id = "cXMrEM6i"
+version = "IyFSDlHO"

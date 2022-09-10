@@ -1,0 +1,59 @@
+/* Configuration for Crunchy Crunchy Advancements. Uses QDCSS */
+
+#general {
+    /*
+     * If set to "on", the server will not send chat messages about advancements, ignoring the relevant gameRule
+     */
+    prevent-advancement-broadcasts: on;
+}
+
+#data {
+    /*
+     * If set to "off", all advancements will load normally from data packs
+     * If set to "blacklist", advancements that are congruent with the filters below will not be loaded
+     * If set to "whitelist", only advancements that are congruent with the filters below will be loaded
+     */
+    filter-method: blacklist;
+
+    /*
+     * A namespace to be filtered in string form, e.g. 'minecraft' or 'antique_atlas'
+     * `unset` for none. Multiple can be specified by duplicating this line and setting it to another value
+     */
+    filter-namespace: unset;
+
+    /*
+     * A path to be filtered in string form, e.g. 'minecraft:recipes/' or 'tconstruct:foundry/'
+     * `unset` for none. Multiple can be specified by duplicating this line and setting it to another value
+     */
+    filter-path: unset;
+
+    /*
+     * If set to "on", a special method will be used to filter recipe advancements
+     */
+    filter-recipes: on;
+}
+
+#client {
+    /*
+     * If set to "on", will remove the advancements button from the pause menu, extending the statistics button
+     * to fill the gap
+     */
+    remove-advancements-button: on;
+
+    /*
+     * If set to "on", will disable the advancements keybinding and remove it from the controls screen.
+     * Doesn't currently do anything as it depends on an unreleased QSL feature
+     */
+    remove-advancements-keybinding: on;
+
+    /*
+     * If set to "on", advancement toasts will not appear when an advancement is completed
+     */
+    remove-advancement-toasts: on;
+
+    /*
+     * If set to "on", recipe toasts will not appear when you unlock a recipe
+     */
+    remove-recipe-toasts: on;
+}
+

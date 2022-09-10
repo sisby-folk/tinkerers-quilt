@@ -40,13 +40,13 @@
     "pet.hide_unknown_owner": false
   },
   "wthit-plugins": {
-    "break_progress": true,
+    "break_progress": false,
     "breeding_cooldown": true,
     "growing_cooldown": true,
     "breeding_item": true,
     "armor_stats": true,
     "author": true,
     "harvestability": true,
-    "hardness": true
+    "hardness": false
   }
 }
