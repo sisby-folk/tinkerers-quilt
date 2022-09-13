@@ -34,11 +34,11 @@ hash = "d10ce3f6169d35d2b7e09cefc5e6c2c77cc897690f11aac9fae62f1f3e1d637e"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
-hash = "498eddb1de1695ab78c300f326ace36f0c7d55022bfa678ad0d6acadfd8d3909"
+hash = "c9e98304c2b3026abfd1c676148f3f22bc9edc97bad15f9e2f60d3da4c9e4d5d"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
-hash = "82884090575fc69daaf50c7b0ad81aacceae12c4eb1570c29856c988740b1950"
+hash = "3c3b583b27ef05d293ef92eef91f90fa51ad80d0d7cff163882538bcd4969ba8"
 
 [[files]]
 file = "config/citresewn.json"
@@ -46,19 +46,19 @@ hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
 
 [[files]]
 file = "config/colormatic.properties"
-hash = "2e668d54f365736fbd4c97b1f42535ce889587d18b3caa48830219f25f48d124"
+hash = "4fcc090a9488eee469956b8f70fead42eb60b513a7ee3de696887dcda051dd35"
 
 [[files]]
 file = "config/crunchy-crunchy-advancements.css"
-hash = "ace05c3d53384e9ff6eaa66396a105952c5e11893aa8bb566e04822e90bcb3ad"
+hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
 file = "config/darkness.properties"
-hash = "d8c50dff2fff8773f2211bbac3f15e1a86feb6f9d666eb75944d50b8d00eb4b4"
+hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "7b9bc828e1370846c585349b50d3f445ab672a1bae581a09e89fa092feffccea"
+hash = "ce06b62dc2b5a6f153754e5bef3b969ba6c86b5e4f276371039954b507bc867d"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
@@ -70,43 +70,43 @@ hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
+hash = "afd3d5c1ec31a473d07192e3dcc58298faabad8c096f7f4606a8c4eb66320e6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "8c53c9147fd4d118e7bac48b05af2703e21bff05cf2ced36a0c785c15e922ed5"
+hash = "b14dbd73ca2940774834dd439a5209df1099b06a1d7b79cdeda0b5a169677b98"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "fc9762fd3698794466f198f757d4ca79fdbf81e83a06d1e6966325b41410c4bc"
+hash = "c859d0bdd9753b9529d688129e1a3a5fdab6ac57403783f5a81893870eb1c07d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "e3556fa780b2c8a57d0e510d78c074ab2a820794acc5f2535ef549b3cd41ca70"
+hash = "a43076a57dd386386c21a44b3b0b51addf4e308a08ec52478271472151301830"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "76d3942a7b108d43b91e11b0739923dd6ff87730c993f9f376295109b43fe9a5"
+hash = "2bad8519aef12022147fd372c2ad27aaf79ebaea9abc921b598c04c66962c9cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "ef155bf1c32ac5cb9ddfe2293fd2b6f8430a2ba221b131b7a12f20bfb8f22f70"
+hash = "caf252a9c233b828ea5aa2503530ce1c17e51921d39bd883b0e6754fe6bb096a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "64cafd3b2ec48555796367f293fb09cf2bb4c622d8422d308bc350e07ea40306"
+hash = "4d1fc14dfe8f82cff16c7a19d5a9fe87aaffa09abc7ab58035ae48e6935072b3"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "be4933ebb232c5606a57ebd814de7acb07752cc52d7624d9053bfe332568a6e5"
+hash = "82ecc9c0ab707fa7ac5ada7eb061b4cc05d8dec8b9b05ad63360cd2339beba38"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "27c0b67841f23e281c1117b5d7e1fd3064f76e5cb595f289793574f15204f2c2"
+hash = "dfc42c433650511535a398c4cf88e05ac0ff076fedf6bf5d750c65ae30e8134f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
-hash = "b400495d827f7e688a0bae2c9546139be7ee1bfad4cf2652bce1722f8c82e51b"
+hash = "f9e5ce06df27d2e460bec59f0d06ea3c846fe3ecc1ddf9aacc23e2b0aec83ae8"
 
 [[files]]
 file = "config/idwtialsimmoedm.json"
@@ -210,7 +210,7 @@ hash = "efb3a74e305dd05bbf29d42f29c66865562a4158594bc1b2cd7aeb150a028a1f"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/origins/lepus.json"
-hash = "ba3e1f6353a2d07c75f0c1c471c25b6e74537ff964b429269b4202a4bcd19bd2"
+hash = "f9c4e0fba860efac96a839967fd1a94da8007ff960426a2be99d0e05f0c4dd79"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/powers/energetic.json"
@@ -286,35 +286,35 @@ hash = "d813ae41710fe261db6bd278d6eaa33e5f0255fe64727aaff3a8811599010d86"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/origins/origin_layers/origin.json"
-hash = "2ede4644812321ce2419b6952fa23ab8bb3baef37b3cb0759874b8a11321079c"
+hash = "f51db67fe689135ac6f6feed2f4880597738992f7a479e4b89811281e52c5422"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/origins/vampire.json"
-hash = "94220c724d242ac4fc80844bd75e3dbe10019bffa5a4d2efc2b96ed3ea7d9253"
+hash = "6875da1b5830c4bdb4a63c988717d2cfe3826578ba106ee77544b30e376b07d0"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood.json"
-hash = "6bb22e5f893cacea7078ce9a2cb104e04e631962c6f3dc97b2096208c43a4aac"
+hash = "0202367643bf5cbcda78cca03ca14260e0302927638ed8a182b69adacc1dbe8d"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood_hidden.json"
-hash = "9e408409d94f4842d45bacd00174bcb6ddd34d2241d7118153637ffbc357a5aa"
+hash = "37b620f47ba13ae3b73f93d31819acd44e6527ec7c99adba22cc7354dbba7ebf"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/feed.json"
-hash = "8637c0ffc5932df859fda2955261758094c1992787979e1fcb9f9e8a56aea9bf"
+hash = "6ef8b78dbb1ce4c1a364b8c3e5d0fc5ebe649a05f25f4fd2dce04acbce0a0a79"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/nightstalker.json"
-hash = "76cb716b298a0eb62a00184291cdf8895edf247b16945f54e0d1c1caff450bf5"
+hash = "9c29b31c7505bfea3f5e8965501361cc97729bef809d211cb70272363775d62c"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/tags/entity_types/blooded.json"
-hash = "1f2312cb518f2eac03281bab01ca58dde5abff9275fa356333b8fcb3d20f375a"
+hash = "29dc0eb8af88ef7e83022518cd8a15a4bbf201459baa8b50407dd07186ec61cc"
 
 [[files]]
 file = "config/openloader/data/Vampire/pack.mcmeta"
-hash = "a62d63add8fb3d397d313ad166af4fb7993613642c52963bc899349271d8738b"
+hash = "dde7eec4f33452ebb9af89054fcc6b23f477b2e8cda7b9ad2e034ff9348b0f0b"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c278482.zip"
@@ -338,91 +338,91 @@ hash = "f8897e8cb418696bf7379cf8b3c513c5e6282ae89b8fa3cf8b449e16c1b1d3fe"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
-hash = "335307908374d1eb32fc3c863b921ebc577340a4cd4d638e944c83fabdb87ac3"
+hash = "3460c3d944536e933514ce0f9d7e4cd42e06852b11a8cf080271017a2fe9f429"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/arachnid.json"
-hash = "22db69ab850ed67c5d7e6620405eb19c16cced8375eee81d15181ab6f6aa4d46"
+hash = "c3a15855fda5d60f45d4ff418f845abf59da98f0878ee3850cc62a188e59992e"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/avian.json"
-hash = "da0ddbb8c8ce915aac1d98aa77ceeb16c09b05e1427c7467306c5789986a2486"
+hash = "2de97c46e13188de122e31c7d9312978157ff197e86cc1c01a4e003de53e61c5"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/blazeborn.json"
-hash = "0537759f32ad79a8c89c9c217aa5eef797f08ec01c92d9b67be44b48f66a3a71"
+hash = "ba80d1986cd0e2e9acd72ee60aef1418420427f678b38a16c3ebb4558156469d"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/elytrian.json"
-hash = "38ddfafa318c3b4e2caa5ee3d733d0cc8c96282c620b9b3e2becafb791c003f1"
+hash = "cf534215a71602ed6cab95561996361da374fd0d1f33c9341841f746eb987e63"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/feline.json"
-hash = "da376e4aa1e752f964050d4e1ba60fdd9412f6dae0b78006107b238a56f90d42"
+hash = "1af9ac094a08b6778fbc6c8709a75c98e2230969ad1aca6eb37da76334238693"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/human.json"
-hash = "2d34ee98f99d65fc273ce4dd171d708ef9fe897ab88b8261f8f2077bc7d541c0"
+hash = "fbc63bbc5fae0e49470733fa4f401c7a8f41a268fd0fe0c82e0ee785ef7d87cb"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/merling.json"
-hash = "7cda75489d568e308bafeb30d02ef28d3bca6cbc32c2b0970766699cb8a0ad51"
+hash = "7c6db857ac8119aa75031157399294255f2ad286bf8858a88887d6b59811b77b"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/phantom.json"
-hash = "0d8d0a8730fc1a2b531fcb00b46f328e23db2f82d4725a90365541338476dc90"
+hash = "7fa8200279cdc5054a2a18077aa4744c1d4661175c03b42138eaf941f7d81e6e"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/shulk.json"
-hash = "085899a59c3255e296cd0a7bb071010f6f1ed3b863de98362145fea0c805e1b2"
+hash = "8013c1ab8cd88a6eb73cb3d29a3a5c9a39249db499f5afda4207751e319d727c"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/pack.mcmeta"
-hash = "64765e564cd9216124cb3b0e73a7427af9fe28476606d72d0e954ff5133199ec"
+hash = "3cb6b44f523225fbaac1aae7168638589a639abd8fe9e24b6e0246bc861974ef"
 
 [[files]]
 file = "config/openloader/data/tinkerers_copper_beacons/data/minecraft/tags/blocks/beacon_base_blocks.json"
-hash = "0598b61263c42e7cc1349ca3fe59666e25a95d3557de1569914b46ad7961b741"
+hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 
 [[files]]
 file = "config/openloader/data/tinkerers_copper_beacons/pack.mcmeta"
-hash = "151c72f24ee91388a9623f130c17e0e2ee145ad4f10752ab43b6fcba3c84c303"
+hash = "ff0530c293bf12aaa6b17feea7bd2d68eaa2fd2e39e4dbeeefa11d450e320555"
 
 [[files]]
 file = "config/openloader/data/tinkerers_humant/data/origins-classes/origins/nitwit.json"
-hash = "693c0c625dcb32ed01ee1d85e4cfaa6eb62a8811863231913adeacc10817c946"
+hash = "f1c67d31f407319b8ad98254c6739c77f0a7d6a0625669642532b9667421030a"
 
 [[files]]
 file = "config/openloader/data/tinkerers_humant/data/origins/origins/human.json"
-hash = "2d34ee98f99d65fc273ce4dd171d708ef9fe897ab88b8261f8f2077bc7d541c0"
+hash = "fbc63bbc5fae0e49470733fa4f401c7a8f41a268fd0fe0c82e0ee785ef7d87cb"
 
 [[files]]
 file = "config/openloader/data/tinkerers_humant/pack.mcmeta"
-hash = "4aae4321241af8cdc307d14bc4d718a0f6543223c3f9bd9c20858d3447c4b622"
+hash = "a44d923d7be30713ef0fdedb5a2460a0eec2461aeeed787529e435da8fc04927"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/boots.json"
-hash = "0b11aeecc520cf00c3f03ff1de284020616a522ee1d9a94221d6524a98629e96"
+hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/chestplates.json"
-hash = "4d1a35c14f22888e5654cf457d6e7266c69027851dac7faef871be46f694322b"
+hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/fence_gates.json"
-hash = "f4c9b0981db93428dc77afab3d682a5bfabc9a92e79993bf29c19ad84cef34f5"
+hash = "85822c016f30658fb2ce252c5deca168e7cbefa650eb2f229be8970875d4c8da"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/helmets.json"
-hash = "bbc3c703cb9df1c1998780840cbaa48aaedfef07cb59d9c1cf8f3c8b4b301dbb"
+hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/leggings.json"
-hash = "06c289441493a0ca494052ba61ca7bd443cd8917351c8c708a9ecb1695ef21c3"
+hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/pack.mcmeta"
-hash = "f0f8ad4d1e7fae0a6a8a265ab947cc41d34688289a704453cd72f69f3a8ec1b2"
+hash = "22fd46cce0b76f6923bd7ddced22c9c66372bd91d501a7de219374c241b74fc4"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/book_quill.json"
@@ -454,7 +454,7 @@ hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
-hash = "794a4556abaa6a9e8781aa681457ecb8bd3ba78ec72e2718a96fe646ebaf431f"
+hash = "0df24fa90df0ffc45f684d3e7945ef567c6e9be8530ca06e1f95812f811c9227"
 
 [[files]]
 file = "config/openloader/resources/VanillaTweaks_r458705.zip"
@@ -476,7 +476,7 @@ hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 
 [[files]]
 file = "config/openloader/resources/tinkerers_assets/pack.mcmeta"
-hash = "087622bfdc793ea891db4f6076e28aa34312b975452a964e603a48116a924636"
+hash = "1de8c3085744206eeb32eaefbaa8bba31a0c5330ae981de1999e275a25a301b0"
 
 [[files]]
 file = "config/openloader/resources/varied-connected-bookshelves.pw.toml"
@@ -522,7 +522,7 @@ hash = "0a56ec859d343f2a61bba93673be4c2650b15b436fcfd5e4f4e7ec29847770cd"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
-hash = "de7057d00f1ebfe02a01b299778660eb23c13564f7796df828b8c0d437b25d1c"
+hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
 [[files]]
 file = "config/yosbr/config/clienttweaks.toml"
@@ -534,11 +534,11 @@ hash = "e58783ad63aa886196e8c5f8954a76686fe14320a138f7dcdd48775cdf41fafb"
 
 [[files]]
 file = "config/yosbr/config/illuminations.properties"
-hash = "66f8b45a4b5b90f0fd6ae4e641a807d2d3bbcd8cfda3441502ddf1a9df3c689f"
+hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
 
 [[files]]
 file = "config/yosbr/config/iris.properties"
-hash = "2ca45b5d72c1660be8e627f4536377b2af58454c391f66d3416ffd18c094fd14"
+hash = "61514292ac798cad25ebc619d45f3af686b2b91774f3b81c10548d5c2145d2d9"
 
 [[files]]
 file = "config/yosbr/config/presencefootsteps/updater.json"
@@ -582,39 +582,39 @@ hash = "56f5a6c7a8b0cd7c7bb169c59835ff755bd492c39d9a8f40b8a5ca0a0c78413f"
 
 [[files]]
 file = "config/yosbr/options.amecsapi.txt"
-hash = "050dc01dff3a02ee088540de17abcee571e4213b738dd19c1d9bcffa7383f098"
+hash = "857c03c3f2e9a2202aaf170d45c5cea9d6db5a4994e1db084bac008356b332a9"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "6532ff59b9800cbc011bbaf462d51c0fd4cc5e7a9b93e66aad70dd91c550bf02"
+hash = "a1043d6238f455125250a8284d808a274995410f7216b2dc4c3fdc0040f04726"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
-hash = "15b7e91d31db25b7fd63ac0c64dc518510e89f3fe94d63c4caec782ac4148db2"
+hash = "92f7a737346e05856588bb2788c4cf1e08c149aed3fe0efe4f1e0c80aed009a4"
 
 [[files]]
 file = "config/yosbr/shaderpacks/ComplementaryReimagined_r1.2.2.zip.txt"
-hash = "0ae51c36c9fa928b01d2f4f4a4cffb305313d3cdbfedd97b3e930c5f4885fa80"
+hash = "16ff6881fe17da0af04bcc512a5258ab27bafc9f8a0e6889c70c8161c1ad900b"
 
 [[files]]
 file = "config/yosbr/shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "1f51ae0e43ec29c2fac9e8dfe7b5713e7496730aad13d94b41df4503230e3919"
+hash = "965e252dc01cdaa608c831013274b6493a98fd710ebbc3233b4184cee3c21d2a"
 
 [[files]]
 file = "config/yosbr/shaderpacks/Prismarine V4.1a.zip.txt"
-hash = "a2dfa210364c571eb11902c78003331c58f5d4a38b0495a210a90f31903c967a"
+hash = "b07a4e99f3571dc6c0a3118ba304db4b30e168551b54efb12cb672b26f4d1662"
 
 [[files]]
 file = "config/yosbr/shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip.txt"
-hash = "c1dd42911b75655dad0a2d7775ee77984a7e048713fffee8ccba902e7294aa62"
+hash = "76d2fbc4e14be83aac3e9d9b807eb971724877d1f004d333eff2944aa7700ad0"
 
 [[files]]
 file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
-hash = "082829dcd697d1cd1dca77561d395554da43c5dd23abeab25052b212878ad434"
+hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
 
 [[files]]
 file = "credits.txt"
-hash = "51b4237ee2ad1d2ad050d2a6aafa4a2b93ad56a1c73d6cacc953ca87af2932e3"
+hash = "fc1b5f1165ec9c762cd3fc9d6766453e74f8736de9bfc0676aa9e6fb6d126c4c"
 
 [[files]]
 file = "enable_hooks.sh"
