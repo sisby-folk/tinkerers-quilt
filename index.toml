@@ -804,11 +804,6 @@ hash = "0e0112e01df097b7f015ac0ad6a98e173c8e98a27719237ef21be06f8ad09fad"
 metafile = true
 
 [[files]]
-file = "mods/antique-atlas.pw.toml"
-hash = "b0c6026424b30885cd98062e4d98fc2ea07ad919aa0d6dbae442158eef80693c"
-metafile = true
-
-[[files]]
 file = "mods/apathy.pw.toml"
 hash = "c80f8c635e02d5593664ce086037e93bcfb7ae01a846bfec8e1319e8499bcbd2"
 metafile = true
