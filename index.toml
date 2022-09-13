@@ -150,7 +150,7 @@ hash = "afd3d5c1ec31a473d07192e3dcc58298faabad8c096f7f4606a8c4eb66320e6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "f97513553803a5da35c4f989fa03baa6283466d04909f73ea9e5429dd9a6cc19"
+hash = "ffe3f6a7fa076378103696b9606c49fd661dfa35207888d6994e3738d860bc34"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -158,15 +158,15 @@ hash = "c859d0bdd9753b9529d688129e1a3a5fdab6ac57403783f5a81893870eb1c07d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
-hash = "47e4b8b010d7006da2b54ee202b25a932d594c4d473a0370c62d81b0daf1a207"
+hash = "4ad23cdfe31bd76d5af7e06c25d51399af0e6ac681c81c1f1be079128e70ec92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "25e69e9df7a44d4a9e8a8ab84481c790199526b68f7d9fa44da442f926b74912"
+hash = "b6acb05c7a96a097739d26feb6a790d3e95139ff93e7489fe84e518faf01d939"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "f52b2e8f2074c9d1282df473ce35595f2d31bcdf128816d961ff43692e27c796"
+hash = "f980f34066b338650d984d4e196ddf4d1bff5c3e343754cd53b78fbd1171c352"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
@@ -623,7 +623,7 @@ hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
 
 [[files]]
 file = "config/repurposed_structures-fabric/biome_dimension_allow_disallow_configs.json5"
-hash = "8f290e024abdf87af2a3d4c7396aecabcddeb4141b8965fbac5993f7e425695a"
+hash = "fd1e7f23962ca9416417a608732832ed9fe0df303cb5ecf21efd8494eece46a8"
 
 [[files]]
 file = "config/repurposed_structures-fabric/general_configs.json5"
@@ -639,7 +639,7 @@ hash = "74ab14ff3d048b02e0b40bda6f7e6f7e8808a86312748fec548a06e92ce474ea"
 
 [[files]]
 file = "config/seasons.json"
-hash = "0c8757883ef09e99cd43302e4eb5e246db1bfd4b73e5ef418110a7ce6b227b8e"
+hash = "6b0b18e0903fd32b094ce485ea6eef6c61f4de1d42d362bc6d7a144e52eb2d43"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -731,7 +731,7 @@ hash = "857c03c3f2e9a2202aaf170d45c5cea9d6db5a4994e1db084bac008356b332a9"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "b87417ad40278bca1d993abe105bfc74441e30e4557cdedd00dfec178e3dbec7"
+hash = "6b8faa0260526ef4b34c97aa0ffdb131b00c785c62e5e9803c343e68d2a19bcb"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
@@ -807,10 +807,6 @@ metafile = true
 file = "mods/antique-atlas.pw.toml"
 hash = "b0c6026424b30885cd98062e4d98fc2ea07ad919aa0d6dbae442158eef80693c"
 metafile = true
-
-[[files]]
-file = "mods/antiqueatlas-6.2.0-fabric-mc1.18.2.jar"
-hash = "c7292cd66aa8e958c675ebb13235abc53fd5a137809221bc2c3d5d6b5640af45"
 
 [[files]]
 file = "mods/apathy.pw.toml"
