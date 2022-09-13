@@ -1,0 +1,15 @@
+{
+	"name": "Avian",
+	"description": "Flapping and gliding, Avians cut through the air with ease.",
+	"powers": [
+		"avianplus:flap",
+		"avianplus:active_slow_fall",
+		"origins:like_air"
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"unchoosable": false,
+	"order": 0,
+	"impact": 1
+}

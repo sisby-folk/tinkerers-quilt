@@ -1,0 +1,15 @@
+{
+	"name": "Vampire",
+	"description": "Creatures of the night that hunger only for blood",
+	"powers": [
+		"tinkervamp:blood",
+		"tinkervamp:feed",
+		"tinkervamp:nightstalker"
+	],
+	"icon": {
+		"item": "potion",
+		"tag": "{CustomPotionColor:4522754}"
+	},
+	"order": 1,
+	"impact": 2
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Catfolk",
+	"description": "These agile creatures always land on their feet. Their fur and eyes scares creepers away.",
+	"powers": [
+		"felineplus:jump",
+		"origins:fall_immunity",
+		"origins:velvet_paws",
+		"felineplus:nocturnal",
+		"origins:scare_creepers"
+	],
+	"icon": {
+		"item": "minecraft:milk_bucket"
+	},
+	"unchoosable": false,
+	"order": 0,
+	"impact": 1
+}
