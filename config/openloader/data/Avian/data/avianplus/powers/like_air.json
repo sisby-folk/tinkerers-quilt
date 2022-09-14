@@ -1,0 +1,7 @@
+{
+	"type": "origins:attribute_modify_transfer",
+	"hidden": true,
+	"class": "modify_air_speed",
+	"attribute": "minecraft:generic.movement_speed",
+	"multiplier": 1
+}

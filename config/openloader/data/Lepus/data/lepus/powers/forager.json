@@ -1,6 +1,6 @@
 {
 	"name": "Forager",
-	"description": "Forage in tall grass using a hoe.\nYou move faster when you're sated.",
+	"description": "Forage grass with a hoe.\nMove faster when sated.",
 	"loading_priority": 1,
 	"condition": {
 		"type": "origins:equipped_item",

@@ -1,6 +1,6 @@
 {
-	"name": "Spry",
-	"description": "You jump higher unless sprinting or sneaking.",
+	"name": "Grace",
+	"description": "You jump higher unless sprinting or sneaking.\nYou take no fall damage.",
 	"hidden": false,
 	"condition": {
 		"inverted": false,

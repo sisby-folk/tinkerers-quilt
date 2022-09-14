@@ -1,11 +1,11 @@
 {
 	"name": "Set in Red",
-	"description": "Blood level replaces hunger. You only heal in shade.",
+	"description": "Blood level replaces hunger.\nYou only heal in shade.",
 	"type": "origins:multiple",
 	"badges": [
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
-			"text": "You can't starve, but when starving you'll burn in sunlight"
+			"text": "Starving deals no damage, but starving vampires burn in sunlight."
 		}
 	],
 	"resource": {

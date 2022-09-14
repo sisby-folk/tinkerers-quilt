@@ -118,7 +118,7 @@ hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
 file = "config/openloader/data/Arachnid/data/arachnidplus/origins/arachnidplus.json"
-hash = "29a3b483d2a283f6f57c04efdf0281b290931be2db34c6209f2dedffdb850368"
+hash = "211317e541d8730191f67ad67a09cbf7c2552a427154f5318549b43f97a2d886"
 
 [[files]]
 file = "config/openloader/data/Arachnid/data/arachnidplus/powers/break_speed.json"
@@ -126,7 +126,7 @@ hash = "cd23ca322d488b0437851f6016d1aa1dc2f4d0dd387c04db486da445f21a1342"
 
 [[files]]
 file = "config/openloader/data/Arachnid/data/arachnidplus/powers/climbing.json"
-hash = "66a5c704b403d23dcd4bed649619f0211293cb259f4888037edbb531947ce9c8"
+hash = "fb38673dc65c5623ff1b3959ea8cd4c4e4ce6aafe4ec5ddad673065b377b795d"
 
 [[files]]
 file = "config/openloader/data/Arachnid/data/arachnidplus/powers/eyes.json"
@@ -134,7 +134,7 @@ hash = "29b6e6667451489bd097b211a6188bf9041de20963dfc0856c0717c3540bf113"
 
 [[files]]
 file = "config/openloader/data/Arachnid/data/arachnidplus/powers/master_of_webs.json"
-hash = "eb25bf0562bb46609a7f2b39754698df368a9b851cc9d96e45d3e23e2a9d788b"
+hash = "7638c539fd2cea9b252f6dec0f809c06216df0b30ba637e8cb22cd27be1a3121"
 
 [[files]]
 file = "config/openloader/data/Arachnid/data/arachnidplus/powers/no_suffocation.json"
@@ -154,15 +154,19 @@ hash = "0cd4c5f84c4e141c48af64044b010c61e3734dc40ed9333401644664ef5ff520"
 
 [[files]]
 file = "config/openloader/data/Avian/data/avianplus/origins/avianplus.json"
-hash = "191d1505519f2debdceef0828d0945c0b04afe5efe67d24410841d91e9d21d78"
+hash = "129c47dbb9df4d10152e07ef389da97ba54a5d26afae53584b141058f591cb39"
 
 [[files]]
 file = "config/openloader/data/Avian/data/avianplus/powers/active_slow_fall.json"
-hash = "a0fe9015f7bb3e4aac2dddfbe3dec2d57202df8903949bf1eb6c55d963a2ac98"
+hash = "753b4c2a8ace12f45d4be644579c024ab7ee5d8bcc15d9f4fea2c3846776ce96"
 
 [[files]]
 file = "config/openloader/data/Avian/data/avianplus/powers/flap.json"
-hash = "2f1d44a5a359b1a65d8c8100f299ab8d7d0d63f87b0284017c6d7e137fa8ce22"
+hash = "93f8c4255d0066d75121990c57db583c12810fbc8fdb09615000e257d9adfaa3"
+
+[[files]]
+file = "config/openloader/data/Avian/data/avianplus/powers/like_air.json"
+hash = "80855042e009bf8c9f17f224ee1c04a2d1135e10563b0d756c5b8f2ce8867796"
 
 [[files]]
 file = "config/openloader/data/Avian/data/origins/origin_layers/origin.json"
@@ -190,15 +194,23 @@ hash = "df78d2e1a26e511a48bc4a3d67f4790b041d34aa3be2780aea716062472a880d"
 
 [[files]]
 file = "config/openloader/data/Feline/data/felineplus/origins/felineplus.json"
-hash = "ab89b093ada62973abe72d2c712d270df1a69dfd5386385edd804657b751ab9d"
+hash = "4797949b32e01d6e183c3d2d6c36ddbc8702a487ae9181bc4cb1dd5d56edd285"
+
+[[files]]
+file = "config/openloader/data/Feline/data/felineplus/powers/fall_immunity.json"
+hash = "ff71d3ce1365b204d68d9b8174ed355c55dc298d2ace966a49d0633499f07c1c"
 
 [[files]]
 file = "config/openloader/data/Feline/data/felineplus/powers/jump.json"
-hash = "6152837a52ccb5ca30624076cb5dbdffe1b679677010939cf2a5ec29e74fd1b6"
+hash = "67d9744fecfdca94fd57aa383ffda692bb5aa98947790b6a7ef564be1724e499"
 
 [[files]]
 file = "config/openloader/data/Feline/data/felineplus/powers/nocturnal.json"
-hash = "f2949330b68ab8fb3e074dbac231455bdc578992b57b62f393e050d7c21bf915"
+hash = "a1f516737dcd68ee4b1ac5b6b1bbc09a7e476dc412dfa1e276abbc33b481c029"
+
+[[files]]
+file = "config/openloader/data/Feline/data/felineplus/powers/scare_creepers.json"
+hash = "1be22ee67b82d5b1c9eca10431133d2ba416ee4d22d8e91857371fb5f8204b90"
 
 [[files]]
 file = "config/openloader/data/Feline/data/origins/origin_layers/origin.json"
@@ -210,19 +222,23 @@ hash = "efb3a74e305dd05bbf29d42f29c66865562a4158594bc1b2cd7aeb150a028a1f"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/origins/lepus.json"
-hash = "f9c4e0fba860efac96a839967fd1a94da8007ff960426a2be99d0e05f0c4dd79"
+hash = "7d7ba468ef5c7f127a13a3d1675d1ff7a96bcbc0a5d5f8440ce7c4c4c9174510"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/powers/energetic.json"
 hash = "cea4aefd9a6a8c40ab3219d06bf7c9db596e92aeffc5f9be210386ef934ce151"
 
 [[files]]
+file = "config/openloader/data/Lepus/data/lepus/powers/fall_immunity.json"
+hash = "ff71d3ce1365b204d68d9b8174ed355c55dc298d2ace966a49d0633499f07c1c"
+
+[[files]]
 file = "config/openloader/data/Lepus/data/lepus/powers/forager.json"
-hash = "4cb8d64131f569c6d027ccc0e659e3037d9be5701a4f2ccdedb7fec024a7e01f"
+hash = "e844a8cca7cecd3602a5bb0cd382e27f8be98ca641f7c03dd1c7621f8c0bdccd"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/powers/leap.json"
-hash = "5939dab07e8448fadac44e50a6c9dae4d7f9520216c22869fc5030196579d4d4"
+hash = "be375d8eaf66823b94a0a5cda10d8e645bf9e3ecd070bc74b4db93c53cbf5b7d"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/minecraft/tags/blocks/grass_types.json"
@@ -266,11 +282,11 @@ hash = "a9b4078517c4f8ca2815dae714c557120073aecc2f47af3064c8292da231bc31"
 
 [[files]]
 file = "config/openloader/data/Shulk/data/shulkplus/origins/shulkplus.json"
-hash = "cb6000cf2e88a5518c353e404bb263cda737478b8e06648903f28f6f3fb31ad2"
+hash = "e0775c00ea380101a5f90b645b6f34552687393860f78c48bb93a54b29e2af71"
 
 [[files]]
 file = "config/openloader/data/Shulk/data/shulkplus/powers/attack.json"
-hash = "38720b31a8a695409b7ca0d640308f7c411c654f542934b6fd80ac24a7492a6d"
+hash = "2f3b481574933ad6921db293af1dbad94c86959d3c84629ff06df7f7ff1e3d6c"
 
 [[files]]
 file = "config/openloader/data/Shulk/data/shulkplus/powers/hoarder.json"
@@ -278,7 +294,7 @@ hash = "51d1bb7d6357edf975c4492b87c0409dcaafd464ecf2dc26224b83adcf264ed8"
 
 [[files]]
 file = "config/openloader/data/Shulk/data/shulkplus/powers/turtle.json"
-hash = "b366449b7f8b24fecce2666f4a9ed2be6041810dccf5bda7eaa83082a0846eae"
+hash = "4396af5ac53408cbdff12e30dc3a43f44da3c9fa125385d4ae3af78e1135fec0"
 
 [[files]]
 file = "config/openloader/data/Shulk/pack.mcmeta"
@@ -290,11 +306,11 @@ hash = "f51db67fe689135ac6f6feed2f4880597738992f7a479e4b89811281e52c5422"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/origins/vampire.json"
-hash = "6875da1b5830c4bdb4a63c988717d2cfe3826578ba106ee77544b30e376b07d0"
+hash = "10dfa3ce7f341d3b3031f213402a1308d9a86b2c4a682b6f879b9223a94cc64b"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood.json"
-hash = "0202367643bf5cbcda78cca03ca14260e0302927638ed8a182b69adacc1dbe8d"
+hash = "3defed6d40fdac118343d256d63ce1660ec0d561854b4bb55e52dd94cb0ad1a4"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood_hidden.json"
@@ -302,7 +318,7 @@ hash = "37b620f47ba13ae3b73f93d31819acd44e6527ec7c99adba22cc7354dbba7ebf"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/feed.json"
-hash = "6ef8b78dbb1ce4c1a364b8c3e5d0fc5ebe649a05f25f4fd2dce04acbce0a0a79"
+hash = "5bbeb68742d72168cb44097b2d827ea110b120a077e7a4629fa4c220e604ae05"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/nightstalker.json"
