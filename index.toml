@@ -310,7 +310,7 @@ hash = "10dfa3ce7f341d3b3031f213402a1308d9a86b2c4a682b6f879b9223a94cc64b"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood.json"
-hash = "3defed6d40fdac118343d256d63ce1660ec0d561854b4bb55e52dd94cb0ad1a4"
+hash = "6a9a6b67f2189d3a4fb85f420fce9348692cff234bf9ce8ec4f2fcc8a6353c62"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood_hidden.json"
@@ -318,15 +318,23 @@ hash = "37b620f47ba13ae3b73f93d31819acd44e6527ec7c99adba22cc7354dbba7ebf"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/feed.json"
-hash = "5bbeb68742d72168cb44097b2d827ea110b120a077e7a4629fa4c220e604ae05"
+hash = "db54808e43324fa231985899d9291d336949ddaaa7237ac4c77c60d34c02e052"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/nightstalker.json"
 hash = "9c29b31c7505bfea3f5e8965501361cc97729bef809d211cb70272363775d62c"
 
 [[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/tags/blocks/red.json"
+hash = "aec1938f493f4ef9b997798494b4ce9b3a1576b2a268126d3b62688b2776bf64"
+
+[[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/tags/entity_types/blooded.json"
 hash = "29dc0eb8af88ef7e83022518cd8a15a4bbf201459baa8b50407dd07186ec61cc"
+
+[[files]]
+file = "config/openloader/data/Vampire/data/tinkervamp/tags/items/red.json"
+hash = "aec1938f493f4ef9b997798494b4ce9b3a1576b2a268126d3b62688b2776bf64"
 
 [[files]]
 file = "config/openloader/data/Vampire/pack.mcmeta"

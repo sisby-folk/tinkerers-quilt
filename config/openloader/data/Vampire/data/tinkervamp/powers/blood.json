@@ -6,6 +6,10 @@
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
 			"text": "Starving deals no damage, but starving vampires burn in sunlight."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You can eat food for fun, despite never being hungry."
 		}
 	],
 	"resource": {
@@ -55,12 +59,6 @@
 			"saturation": 20
 		}
 	},
-	"no_eating": {
-		"type": "origins:prevent_item_use",
-		"item_condition": {
-			"type": "origins:food"
-		}
-	},
 	"no_healing": {
 		"type": "origins:disable_regen"
 	},
@@ -102,7 +100,7 @@
 			]
 		}
 	},
-	"sprinting_lower_resource_night": {
+	"sprinting_lower_resource": {
 		"type": "origins:action_over_time",
 		"interval": 140,
 		"entity_action": {
@@ -135,70 +133,15 @@
 							"gamemode": "spectator"
 						}
 					]
-				},
-				{
-					"type": "origins:exposed_to_sun",
-					"inverted": true
-				}
-			]
-		}
-	},
-	"sprinting_lower_resource_day": {
-		"type": "origins:action_over_time",
-		"interval": 140,
-		"entity_action": {
-			"type": "origins:change_resource",
-			"resource": "tinkervamp:blood_resource",
-			"change": -2
-		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
-				{
-					"type": "origins:sprinting"
-				},
-				{
-					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
-					"comparison": ">",
-					"compare_to": 40
-				},
-				{
-					"type": "origins:or",
-					"inverted": true,
-					"conditions": [
-						{
-							"type": "origins:gamemode",
-							"gamemode": "creative"
-						},
-						{
-							"type": "origins:gamemode",
-							"gamemode": "spectator"
-						}
-					]
-				},
-				{
-					"type": "origins:exposed_to_sun",
-					"inverted": false
 				}
 			]
 		}
 	},
 	"no_sprinting": {
-		"type": "origins:conditioned_attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.movement_speed",
-			"operation": "addition",
-			"value": -0.023,
-			"name": "No Sprint"
-		},
-		"tick_rate": 1,
+		"type": "origins:prevent_sprinting",
 		"condition": {
 			"type": "origins:and",
 			"conditions": [
-				{
-					"type": "origins:sprinting"
-				},
 				{
 					"type": "origins:resource",
 					"resource": "tinkervamp:blood_resource",
@@ -224,7 +167,7 @@
 	},
 	"burn_in_sun_starving": {
 		"type": "origins:burn",
-		"interval": 30,
+		"interval": 60,
 		"burn_duration": 1,
 		"condition": {
 			"type": "origins:and",
@@ -236,6 +179,17 @@
 					"type": "origins:resource",
 					"resource": "tinkervamp:blood_resource",
 					"comparison": "<=",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:health",
+					"comparison": ">",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:command",
+					"command": "difficulty",
+					"comparison": ">",
 					"compare_to": 0
 				}
 			]
