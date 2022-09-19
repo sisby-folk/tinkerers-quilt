@@ -1,6 +1,12 @@
 {
 	"name": "Weaver's Webs",
-	"description": "You can sense mobs in webs, and can craft them, attack through them, and climb them.",
+	"description": "You sense mobs in webs, and navigate them with ease.",
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You can craft webs with an X of string"
+		}
+	],
 	"type": "origins:multiple",
 	"punch_through": {
 		"condition": {

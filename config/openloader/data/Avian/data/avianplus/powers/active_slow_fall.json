@@ -1,6 +1,6 @@
 {
 	"name": "Featherweight",
-	"description": "Holding jump allows you to float downwards, and crouching will negate fall damage.",
+	"description": "Hold to slow descent, sneak to land safely.\nReduced air drag.",
 	"hidden": false,
 	"loading_priority": 1,
 	"type": "origins:multiple",

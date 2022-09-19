@@ -1,6 +1,6 @@
 {
 	"name": "Feed",
-	"description": "Feed on an enemy, channeling and replenishing blood.",
+	"description": "Feed on a target to replenish blood.",
 	"type": "origins:multiple",
 	"badges": [
 		{
@@ -9,7 +9,7 @@
 		},
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
-			"text": "Works on players and blooded monsters."
+			"text": "Works on players, blooded monsters, and partially on red blocks."
 		},
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
@@ -50,7 +50,7 @@
 			]
 		}
 	},
-	"drink_blood_low": {
+	"drink_blood": {
 		"type": "origins:action_on_entity_use",
 		"bientity_action": {
 			"type": "origins:and",
@@ -347,6 +347,195 @@
 					"type": "origins:status_effect",
 					"inverted": true,
 					"effect": "minecraft:blindness"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		]
+	},
+	"drink_red_wool": {
+		"type": "origins:action_on_block_use",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:blindness",
+							"duration": 30,
+							"amplifier": 0,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "tinkervamp:blood_resource",
+					"change": 5
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:change_resource",
+						"resource": "tinkervamp:blood_resource",
+						"change": 5
+					}
+				}
+			]
+		},
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:red_wool"
+		},
+		"block_action": {
+			"type": "origins:set_block",
+			"block": "minecraft:white_wool"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<",
+					"compare_to": 41
+				},
+				{
+					"type": "origins:sneaking"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		]
+	},
+	"drink_red_terracotta": {
+		"type": "origins:action_on_block_use",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:blindness",
+							"duration": 30,
+							"amplifier": 0,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "tinkervamp:blood_resource",
+					"change": 5
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:change_resource",
+						"resource": "tinkervamp:blood_resource",
+						"change": 5
+					}
+				}
+			]
+		},
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:red_terracotta"
+		},
+		"block_action": {
+			"type": "origins:set_block",
+			"block": "minecraft:terracotta"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<",
+					"compare_to": 41
+				},
+				{
+					"type": "origins:sneaking"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		]
+	},
+	"drink_red_bed": {
+		"type": "origins:action_on_block_use",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:blindness",
+							"duration": 30,
+							"amplifier": 0,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "tinkervamp:blood_resource",
+					"change": 5
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:change_resource",
+						"resource": "tinkervamp:blood_resource",
+						"change": 5
+					}
+				}
+			]
+		},
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:red_bed"
+		},
+		"block_action": {
+			"type": "origins:set_block",
+			"block": "minecraft:white_bed"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<",
+					"compare_to": 41
+				},
+				{
+					"type": "origins:sneaking"
 				}
 			]
 		},

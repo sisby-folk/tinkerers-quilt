@@ -1,6 +1,6 @@
 {
 	"name": "Flap",
-	"description": "You can flap in the air to gain a little height",
+	"description": "Gain height while airborne",
 	"condition": {
 		"type": "origins:and",
 		"conditions": [
