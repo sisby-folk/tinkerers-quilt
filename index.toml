@@ -828,6 +828,10 @@ hash = "0e0112e01df097b7f015ac0ad6a98e173c8e98a27719237ef21be06f8ad09fad"
 metafile = true
 
 [[files]]
+file = "mods/antiqueatlas-7.0.3-fabric-mc1.18.2.jar"
+hash = "c2092a861181aae0a65ca8aba554467e3bd14d91ecd1c35b80bb3422130eb11d"
+
+[[files]]
 file = "mods/apathy.pw.toml"
 hash = "730d7703efbace080b1a70bc298f6d43ea074ba6c2222cce988bcb1356243602"
 metafile = true
