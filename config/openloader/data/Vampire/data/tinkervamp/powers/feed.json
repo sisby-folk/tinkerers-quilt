@@ -9,7 +9,7 @@
 		},
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
-			"text": "Works on players, blooded monsters, and partially on red objects."
+			"text": "Works on players, blooded monsters, and partially on red blocks."
 		},
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
@@ -357,7 +357,7 @@
 			"main_hand"
 		]
 	},
-	"drink_red": {
+	"drink_red_wool": {
 		"type": "origins:action_on_block_use",
 		"entity_action": {
 			"type": "origins:and",
@@ -420,7 +420,7 @@
 			"main_hand"
 		]
 	},
-	"drink_red_item": {
+	"drink_red_terracotta": {
 		"type": "origins:action_on_block_use",
 		"entity_action": {
 			"type": "origins:and",
@@ -445,7 +445,7 @@
 				},
 				{
 					"type": "origins:delay",
-					"ticks": 10,
+					"ticks": 20,
 					"action": {
 						"type": "origins:change_resource",
 						"resource": "tinkervamp:blood_resource",
@@ -453,6 +453,14 @@
 					}
 				}
 			]
+		},
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:red_terracotta"
+		},
+		"block_action": {
+			"type": "origins:set_block",
+			"block": "minecraft:terracotta"
 		},
 		"condition": {
 			"type": "origins:and",
@@ -469,19 +477,73 @@
 			]
 		},
 		"item_condition": {
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:red_wool"
-			}
+			"type": "origins:empty"
 		},
-		"result_stack": {
-			"item": "minecraft:white_wool",
-			"amount": 1
+		"hands": [
+			"main_hand"
+		]
+	},
+	"drink_red_bed": {
+		"type": "origins:action_on_block_use",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:apply_effect",
+					"effects": [
+						{
+							"effect": "minecraft:blindness",
+							"duration": 30,
+							"amplifier": 0,
+							"is_ambient": false,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "tinkervamp:blood_resource",
+					"change": 5
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:change_resource",
+						"resource": "tinkervamp:blood_resource",
+						"change": 5
+					}
+				}
+			]
 		},
-		"held_item_action": {
-			"type": "origins:consume",
-			"amount": 1
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:red_bed"
 		},
-		"action_result": "fail"
+		"block_action": {
+			"type": "origins:set_block",
+			"block": "minecraft:white_bed"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "tinkervamp:blood_resource",
+					"comparison": "<",
+					"compare_to": 41
+				},
+				{
+					"type": "origins:sneaking"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		]
 	}
 }
