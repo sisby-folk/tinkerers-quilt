@@ -2,6 +2,7 @@
 	"name": "Weighted Swing",
 	"description": "Hit harder. Hit slower.",
 	"type": "origins:attribute",
+	"hidden": true,
 	"modifiers": [
 		{
 			"attribute": "minecraft:generic.attack_damage",

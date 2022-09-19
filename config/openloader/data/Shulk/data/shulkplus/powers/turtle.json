@@ -1,6 +1,16 @@
 {
-	"name": "Sturdy Shell",
-	"description": "Sneak to brace, slowing down but resisting hits.\nA bit exhausting.",
+	"name": "Unflinching",
+	"description": "Brace, slowing down and resisting damage.",
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Active ability, Sneak to use."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "Resisting damage incurs exhaustion, costing hunger."
+		}
+	],
 	"type": "origins:multiple",
 	"slowed": {
 		"name": "crouch walk = slow",

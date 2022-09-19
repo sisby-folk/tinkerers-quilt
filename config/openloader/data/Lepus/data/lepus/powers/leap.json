@@ -1,6 +1,6 @@
 {
 	"name": "Leap",
-	"description": "A hefty leap that launches you up and forward.",
+	"description": "Launch into the air.",
 	"loading_priority": 2,
 	"condition": {
 		"type": "origins:and",
