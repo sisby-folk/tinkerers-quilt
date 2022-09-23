@@ -193,8 +193,36 @@ file = "config/openloader/data/Blazeborn/pack.mcmeta"
 hash = "df78d2e1a26e511a48bc4a3d67f4790b041d34aa3be2780aea716062472a880d"
 
 [[files]]
+file = "config/openloader/data/Dryad/data/origins/origin_layers/origin.json"
+hash = "6da7ad2f521ed6dc89a1ec34e883d187c28dffbd179b4e074abc005c9c4c4b8f"
+
+[[files]]
+file = "config/openloader/data/Dryad/data/tinker_dryad/origins/dryad.json"
+hash = "eb36a914fe7d59182ac11dbe41bfc7daf7a5f1419db9967055137aaa67eb0fdc"
+
+[[files]]
+file = "config/openloader/data/Dryad/data/tinker_dryad/powers/photosynthesis.json"
+hash = "31fd05c753c5301de9a8847da93a3e5e03c17f9ef7401dcf5c01344b2d5810ac"
+
+[[files]]
+file = "config/openloader/data/Dryad/data/tinker_dryad/powers/photosynthesis_hidden.json"
+hash = "5d32c99fe66189c9896cc77aa8ace86dd4ddb23f59b9d9909599ba28327a83d0"
+
+[[files]]
+file = "config/openloader/data/Dryad/data/tinker_dryad/powers/root.json"
+hash = "4bfe80f35d2dab24e1143e1a1084ffd1ee340ab74758ae1e54d20ccf371b70ca"
+
+[[files]]
+file = "config/openloader/data/Dryad/data/tinker_dryad/tags/items/nutritious.json"
+hash = "fbfa34ede7662a8fe5803e2ef797e8ca201dabd99a40a0c9be19dd8c563390e6"
+
+[[files]]
+file = "config/openloader/data/Dryad/pack.mcmeta"
+hash = "e2383f6fd956e8b3412025e0e71d357b2fabb5fbc0bd668e7292d114c758c60b"
+
+[[files]]
 file = "config/openloader/data/Feline/data/felineplus/origins/felineplus.json"
-hash = "4797949b32e01d6e183c3d2d6c36ddbc8702a487ae9181bc4cb1dd5d56edd285"
+hash = "6f61a197735a7debb9752a202e39907cfaee69ced89a9abbc89b99f13887534e"
 
 [[files]]
 file = "config/openloader/data/Feline/data/felineplus/powers/fall_immunity.json"
@@ -209,12 +237,12 @@ file = "config/openloader/data/Feline/data/felineplus/powers/nocturnal.json"
 hash = "a1f516737dcd68ee4b1ac5b6b1bbc09a7e476dc412dfa1e276abbc33b481c029"
 
 [[files]]
-file = "config/openloader/data/Feline/data/felineplus/powers/scare_creepers.json"
-hash = "1be22ee67b82d5b1c9eca10431133d2ba416ee4d22d8e91857371fb5f8204b90"
-
-[[files]]
 file = "config/openloader/data/Feline/data/origins/origin_layers/origin.json"
 hash = "2155ec4e342a00200e4bc4ba2cdc203364908795afa3ab8083f8cce1821971e8"
+
+[[files]]
+file = "config/openloader/data/Feline/data/origins/powers/scare_creepers.json"
+hash = "71a12ea6bbecb769e924bb186c3c7cd35776686630d5588579b678311b07218d"
 
 [[files]]
 file = "config/openloader/data/Feline/pack.mcmeta"
@@ -222,7 +250,7 @@ hash = "efb3a74e305dd05bbf29d42f29c66865562a4158594bc1b2cd7aeb150a028a1f"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/origins/lepus.json"
-hash = "7d7ba468ef5c7f127a13a3d1675d1ff7a96bcbc0a5d5f8440ce7c4c4c9174510"
+hash = "d77a4d6bb363c33ebb7cb31cd4be676dabd4fca31bdbed1f3b2c115b8f170245"
 
 [[files]]
 file = "config/openloader/data/Lepus/data/lepus/powers/energetic.json"
@@ -254,23 +282,39 @@ hash = "fd25e949a70c656b63c2b050bf1be8032df642a4a277a40db0ac7abb71f3155b"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/origins/merplus.json"
-hash = "405f833de88e9b8bafdc6e36f1264d33e8745f21e9db2325feb6717306663c52"
+hash = "2b0aa834e783a59ea3fd28b4bad7b7e8268306cf72829fe3fbd9c86f2821056e"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/air_from_potions.json"
 hash = "da6d1061e319153667704f3a6d02d7db2a7fa19b6bb6dc9fe73e5737c5e1945a"
 
 [[files]]
+file = "config/openloader/data/Merling/data/merplus/powers/aqua_affinity.json"
+hash = "86ebab3e68ce1f5fd711994e2b2f33e4fcc624b338840cc7884004ed7db455ae"
+
+[[files]]
+file = "config/openloader/data/Merling/data/merplus/powers/swim_speed.json"
+hash = "78dc193c752a9a00d1f8d340c2a60cba98d2d8db91ac5941e54aa643833af75c"
+
+[[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/under.json"
-hash = "fbec5d30273ba5dc4cd684cd6e8f13c300de22052656b1b9fa0e63894f95cfcc"
+hash = "9d560e9c5d2c03dfdb520e5225f6af482f9112595167c5c864f2bb0239dec669"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/wet_eyes.json"
-hash = "6acbd485226e97a74cb78337d398195a96b8349b59bd5bb5bc41cf908efe229c"
+hash = "db9879f32c25e1728ab6b5ae0cf72580bb3241b84f0c5621a2ecd17be980a473"
 
 [[files]]
 file = "config/openloader/data/Merling/data/origins/origin_layers/origin.json"
 hash = "53bb56189d7ad300181b7f9c1a23bcf99ab5de3a22c892913504350df36dcfad"
+
+[[files]]
+file = "config/openloader/data/Merling/data/origins/powers/like_water.json"
+hash = "3a46ae2c8984a10877633e079bbbf88bd582cb06475d9cd064c96bcd121771a4"
+
+[[files]]
+file = "config/openloader/data/Merling/data/origins/powers/water_breathing.json"
+hash = "54c49b9742138c3cb9c0cd7098bceddaef68524acafa7148c6ff29b4c157c274"
 
 [[files]]
 file = "config/openloader/data/Merling/pack.mcmeta"
@@ -306,11 +350,11 @@ hash = "f51db67fe689135ac6f6feed2f4880597738992f7a479e4b89811281e52c5422"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/origins/vampire.json"
-hash = "10dfa3ce7f341d3b3031f213402a1308d9a86b2c4a682b6f879b9223a94cc64b"
+hash = "71e107568f31567e0c7d05ed747dc16b4d05672df85c38190702da4698f0347e"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood.json"
-hash = "6a9a6b67f2189d3a4fb85f420fce9348692cff234bf9ce8ec4f2fcc8a6353c62"
+hash = "809c7b69babcc297af86fe543084e448c926d29fbd6418dbacc3511f5acef17c"
 
 [[files]]
 file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood_hidden.json"
@@ -390,7 +434,7 @@ hash = "fbc63bbc5fae0e49470733fa4f401c7a8f41a268fd0fe0c82e0ee785ef7d87cb"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/merling.json"
-hash = "7c6db857ac8119aa75031157399294255f2ad286bf8858a88887d6b59811b77b"
+hash = "7d2cd73c2359e62577748c67497abaa6d16bc9410c9672a3ed0559e2209ceeff"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/phantom.json"

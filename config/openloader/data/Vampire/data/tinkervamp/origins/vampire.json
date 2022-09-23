@@ -3,6 +3,7 @@
 	"description": "Creatures of night that hunger only for blood",
 	"powers": [
 		"tinkervamp:blood",
+		"tinkervamp:blood_hidden",
 		"tinkervamp:feed",
 		"tinkervamp:nightstalker"
 	],

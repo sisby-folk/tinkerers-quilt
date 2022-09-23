@@ -1,0 +1,46 @@
+{
+	"name": "Take Root",
+	"description": "Will a sapling to grow.",
+	"type": "origins:multiple",
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/active.png",
+			"text": "Active ability. Activate with Sneak+Use"
+		}
+	],
+	"grow_sapling": {
+		"type": "origins:action_on_block_use",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "tinker_dryad:photosynthesis_resource",
+			"change": -1
+		},
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "minecraft:saplings"
+		},
+		"block_action": {
+			"type": "origins:bonemeal"
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:sneaking"
+				}
+			]
+		},
+		"item_condition": {
+			"type": "origins:empty"
+		},
+		"hands": [
+			"main_hand"
+		]
+	}
+}

@@ -1,6 +1,12 @@
 {
-    "name": "Absorbing Skin",
-    "description": "Due to it's mystical properties, standing on Crying Obsidian fills your air meter.",
+    "name": "Setting Sail, Coming Home",
+    "description": "Conduits and water bottles refill breath.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Crying obsidian also refills breath when stood on."
+        }
+    ],
     "condition": {
         "type": "origins:on_block",
         "block_condition": {

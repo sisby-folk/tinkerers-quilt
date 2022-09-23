@@ -1,15 +1,11 @@
 {
-	"name": "Set in Red",
-	"description": "Blood level replaces hunger.\nYou only heal in shade.",
+	"name": "Lucky Old Sun",
+	"description": "Nutrient level replaces hunger.\nRefills in sunlight.",
 	"type": "origins:multiple",
 	"badges": [
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
-			"text": "Starving deals no damage, but starving vampires burn in sunlight."
-		},
-		{
-			"sprite": "origins:textures/gui/badge/info.png",
-			"text": "You can eat food for fun, despite never being hungry."
+			"text": "You can still eat any food. However,\nonly apples and honey give nutrients."
 		}
 	],
 	"resource": {
@@ -19,8 +15,8 @@
 		"start_value": 140,
 		"hud_render": {
 			"should_render": true,
-			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-			"bar_index": 5,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index": 24,
 			"condition": {
 				"type": "origins:or",
 				"inverted": true,
@@ -44,7 +40,7 @@
 			"actions": [
 				{
 					"type": "origins:change_resource",
-					"resource": "tinkervamp:blood_resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
 					"change": 140
 				}
 			]
@@ -74,7 +70,7 @@
 	"no_healing": {
 		"type": "origins:disable_regen"
 	},
-	"heal_from_blood_shade": {
+	"heal_from_resource": {
 		"type": "origins:action_over_time",
 		"interval": 30,
 		"entity_action": {
@@ -86,7 +82,7 @@
 				},
 				{
 					"type": "origins:change_resource",
-					"resource": "tinkervamp:blood_resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
 					"change": -1
 				}
 			]
@@ -96,7 +92,7 @@
 			"conditions": [
 				{
 					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
 					"comparison": ">",
 					"compare_to": 20
 				},
@@ -104,10 +100,6 @@
 					"type": "origins:relative_health",
 					"comparison": "<",
 					"compare_to": 1
-				},
-				{
-					"type": "origins:exposed_to_sun",
-					"inverted": true
 				}
 			]
 		}
@@ -117,7 +109,7 @@
 		"interval": 140,
 		"entity_action": {
 			"type": "origins:change_resource",
-			"resource": "tinkervamp:blood_resource",
+			"resource": "tinker_dryad:photosynthesis_resource",
 			"change": -1
 		},
 		"condition": {
@@ -128,7 +120,7 @@
 				},
 				{
 					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
 					"comparison": ">",
 					"compare_to": 40
 				},
@@ -156,7 +148,7 @@
 			"conditions": [
 				{
 					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
 					"comparison": "<=",
 					"compare_to": 40
 				},
@@ -178,18 +170,16 @@
 		}
 	},
 	"starve": {
-		"type": "origins:burn",
+		"type": "origins:damage_over_time",
 		"interval": 80,
-		"burn_duration": 20,
+		"onset_delay": 160,
+		"damage": 1,
 		"condition": {
 			"type": "origins:and",
 			"conditions": [
 				{
-					"type": "origins:exposed_to_sun"
-				},
-				{
 					"type": "origins:resource",
-					"resource": "tinkervamp:blood_resource",
+					"resource": "tinker_dryad:photosynthesis_resource",
 					"comparison": "<=",
 					"compare_to": 0
 				},
@@ -213,7 +203,7 @@
 								{
 									"type": "origins:health",
 									"comparison": ">",
-									"compare_to": 2
+									"compare_to": 1
 								},
 								{
 									"type": "origins:command",
@@ -242,6 +232,32 @@
 					]
 				}
 			]
+		}
+	},
+	"photosynthesise": {
+		"type": "origins:action_over_time",
+		"interval": 30,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "tinker_dryad:photosynthesis_resource",
+			"change": 1
+		},
+		"condition": {
+			"type": "origins:exposed_to_sun"
+		}
+	},
+	"eat_nitrogen": {
+		"type": "origins:action_on_item_use",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "tinker_dryad:photosynthesis_resource",
+			"change": 40
+		},
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "tinker_dryad:nutritious"
+			}
 		}
 	}
 }
