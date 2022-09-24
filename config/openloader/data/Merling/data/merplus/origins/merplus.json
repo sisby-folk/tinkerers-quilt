@@ -1,19 +1,17 @@
 {
     "name": "Mer",
-    "description": "Swift water creatures unsuited to land.",
+    "description": "Swift water creatures who call the depths home.",
     "powers": [
-        "origins:water_breathing",
+        "merplus:water_breathing",
         "merplus:swim_speed",
         "merplus:wet_eyes",
         "origins:like_water",
-        "merplus:under",
         "origins:conduit_power_on_land",
         "origins:aquatic",
-        "merplus:air_from_potions",
         "merplus:aqua_affinity"
     ],
     "icon": {
         "item": "minecraft:tropical_fish"
     },
-    "impact": 3
+    "impact": 1
 }

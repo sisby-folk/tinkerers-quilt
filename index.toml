@@ -221,6 +221,30 @@ file = "config/openloader/data/Dryad/pack.mcmeta"
 hash = "e2383f6fd956e8b3412025e0e71d357b2fabb5fbc0bd668e7292d114c758c60b"
 
 [[files]]
+file = "config/openloader/data/Enderian/data/enderminus/origins/enderminus.json"
+hash = "7862ff2600a36a02327735f5b5218437c57a23388f804d085c9855d4b1327ad8"
+
+[[files]]
+file = "config/openloader/data/Enderian/data/enderminus/powers/blink.json"
+hash = "f496ad82d5ea4ea9377974815a04474fde42406d3c7932c52d837875c7a6f240"
+
+[[files]]
+file = "config/openloader/data/Enderian/data/enderminus/powers/reach.json"
+hash = "6e999b7a13adbec720face57ab0c2d6b04296f20085b56d1809137603ca9372e"
+
+[[files]]
+file = "config/openloader/data/Enderian/data/origins/origin_layers/origin.json"
+hash = "35f74a66734f6fe3dc6ed33d867b69b626a94db31e7a7e8ccc061f55a5939068"
+
+[[files]]
+file = "config/openloader/data/Enderian/data/origins/powers/like_water.json"
+hash = "3a46ae2c8984a10877633e079bbbf88bd582cb06475d9cd064c96bcd121771a4"
+
+[[files]]
+file = "config/openloader/data/Enderian/pack.mcmeta"
+hash = "f6499d583a966a4bdf64872b1940e034da18c140ba3cfe96a63dcf31926e7640"
+
+[[files]]
 file = "config/openloader/data/Feline/data/felineplus/origins/felineplus.json"
 hash = "6f61a197735a7debb9752a202e39907cfaee69ced89a9abbc89b99f13887534e"
 
@@ -282,11 +306,7 @@ hash = "fd25e949a70c656b63c2b050bf1be8032df642a4a277a40db0ac7abb71f3155b"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/origins/merplus.json"
-hash = "2b0aa834e783a59ea3fd28b4bad7b7e8268306cf72829fe3fbd9c86f2821056e"
-
-[[files]]
-file = "config/openloader/data/Merling/data/merplus/powers/air_from_potions.json"
-hash = "da6d1061e319153667704f3a6d02d7db2a7fa19b6bb6dc9fe73e5737c5e1945a"
+hash = "723e667bedefa7408d9159ffc2198ebbfc64a69cc16001b17c3070efbd0239c0"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/aqua_affinity.json"
@@ -297,8 +317,8 @@ file = "config/openloader/data/Merling/data/merplus/powers/swim_speed.json"
 hash = "78dc193c752a9a00d1f8d340c2a60cba98d2d8db91ac5941e54aa643833af75c"
 
 [[files]]
-file = "config/openloader/data/Merling/data/merplus/powers/under.json"
-hash = "9d560e9c5d2c03dfdb520e5225f6af482f9112595167c5c864f2bb0239dec669"
+file = "config/openloader/data/Merling/data/merplus/powers/water_breathing.json"
+hash = "e3665cd5c8864e720cdcff62c0c78de781ce5f53ce0539c99361f8afb8a5fddb"
 
 [[files]]
 file = "config/openloader/data/Merling/data/merplus/powers/wet_eyes.json"
@@ -313,12 +333,8 @@ file = "config/openloader/data/Merling/data/origins/powers/like_water.json"
 hash = "3a46ae2c8984a10877633e079bbbf88bd582cb06475d9cd064c96bcd121771a4"
 
 [[files]]
-file = "config/openloader/data/Merling/data/origins/powers/water_breathing.json"
-hash = "54c49b9742138c3cb9c0cd7098bceddaef68524acafa7148c6ff29b4c157c274"
-
-[[files]]
 file = "config/openloader/data/Merling/pack.mcmeta"
-hash = "46ead8d2474c26afa40e549ce686100608b58aac640ce540c1989745e25f6b7b"
+hash = "32db4bc542e3413d50c2296aa3e7d1bc3316cd3cf5597701d6af8d9d63bc179b"
 
 [[files]]
 file = "config/openloader/data/Shulk/data/origins/origin_layers/origin.json"
@@ -390,59 +406,55 @@ hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/beach_crab.json"
-hash = "3aa385b291abba236cf73e73817943aa535e71fdccdedf23bc7a7641f3a8560b"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/deer.json"
-hash = "c21dc631f1421bb9aa8587588308263d417278eb6ac6e782c4f5b4073b6202b6"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/moth.json"
-hash = "a22a756806693d7b1daa7a14e647a927ddb81b21bce17320b225fe747cac940c"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/penguin.json"
-hash = "f8897e8cb418696bf7379cf8b3c513c5e6282ae89b8fa3cf8b449e16c1b1d3fe"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
-hash = "3460c3d944536e933514ce0f9d7e4cd42e06852b11a8cf080271017a2fe9f429"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/arachnid.json"
-hash = "c3a15855fda5d60f45d4ff418f845abf59da98f0878ee3850cc62a188e59992e"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/avian.json"
-hash = "2de97c46e13188de122e31c7d9312978157ff197e86cc1c01a4e003de53e61c5"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/blazeborn.json"
-hash = "ba80d1986cd0e2e9acd72ee60aef1418420427f678b38a16c3ebb4558156469d"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/elytrian.json"
-hash = "cf534215a71602ed6cab95561996361da374fd0d1f33c9341841f746eb987e63"
+hash = "e256f23c1526c1ac8253e954b8407bfa2620e632ca5d72a4872986b2625ddde9"
+
+[[files]]
+file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/enderian.json"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/feline.json"
-hash = "1af9ac094a08b6778fbc6c8709a75c98e2230969ad1aca6eb37da76334238693"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/human.json"
-hash = "fbc63bbc5fae0e49470733fa4f401c7a8f41a268fd0fe0c82e0ee785ef7d87cb"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/merling.json"
-hash = "7d2cd73c2359e62577748c67497abaa6d16bc9410c9672a3ed0559e2209ceeff"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/phantom.json"
-hash = "7fa8200279cdc5054a2a18077aa4744c1d4661175c03b42138eaf941f7d81e6e"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/shulk.json"
-hash = "8013c1ab8cd88a6eb73cb3d29a3a5c9a39249db499f5afda4207751e319d727c"
+hash = "1b668899c0e77a8e3e6cd3aba806e3eda0af27add1d30791e6c2eed82ce5a759"
 
 [[files]]
 file = "config/openloader/data/tinkerers_cleanup/pack.mcmeta"
@@ -532,6 +544,18 @@ hash = "1b1f2e7a153a4e4d17f00474cf5e3eefb25ff2e19caaad61b2ca8f8ec8badf83"
 file = "config/openloader/resources/colored-axolotls.pw.toml"
 hash = "54f0328a05640f33fb87ce45b2bdd7a90c20128a50e9f620506fb3374b1e8aaf"
 metafile = true
+
+[[files]]
+file = "config/openloader/resources/origins_minus/assets/origins_minus/textures/gui/origins_status_mer.png"
+hash = "ff02fc2d572ccdd30b8b619af8990055840a543b6d7de2d6cd6d358dca936349"
+
+[[files]]
+file = "config/openloader/resources/origins_minus/assets/origins_minus/textures/gui/origins_status_vampire.png"
+hash = "e7455990f31d27b951b5bb820dd2378f32b2e2855bed05ce10dd2307de21697a"
+
+[[files]]
+file = "config/openloader/resources/origins_minus/pack.mcmeta"
+hash = "a90f1ed3100bff6193f871f2b982f2534d068b01e11ed532c3a535de98db4a10"
 
 [[files]]
 file = "config/openloader/resources/sullys-peeves.pw.toml"

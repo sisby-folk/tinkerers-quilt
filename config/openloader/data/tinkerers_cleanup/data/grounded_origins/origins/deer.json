@@ -1,16 +1,4 @@
 {
-    "powers": [
-        "origins:vegetarian",
-        "grounded_origins:deer/forest_native",
-        "grounded_origins:deer/berry_good",
-        "grounded_origins:deer/oh_deer",
-        "grounded_origins:deer/lightweight",
-        "grounded_origins:deer/springed_step",
-        "grounded_origins:deer/hooved_grace"
-    ],
-    "icon": "grounded_origins:deer_icon",
-    "order": 3,
-    "impact": 1,
     "loading_priority": 100,
     "unchoosable": true
 }

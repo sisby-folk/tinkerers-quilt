@@ -1,18 +1,4 @@
 {
-    "powers": [
-        "grounded_origins:penguin/happy_feet",
-        "grounded_origins:penguin/cold_embrace",
-        "grounded_origins:penguin/belly_sledding",
-        "origins:fragile",
-        "grounded_origins:penguin/fuzzy_fur",
-        "grounded_origins:penguin/aquatic_diet",
-        "grounded_origins:penguin/webbed_feet",
-        "grounded_origins:penguin/aquatic_lunge",
-        "grounded_origins:penguin/fish_hunter"
-    ],
-    "icon": "grounded_origins:penguin_icon",
-    "order": 3,
-    "impact": 2,
     "loading_priority": 100,
     "unchoosable": true
 }
