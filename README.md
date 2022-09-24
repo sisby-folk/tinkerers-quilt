@@ -1,7 +1,7 @@
 <p align="center"><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/184521317-a97aa68b-91c7-4c71-86f9-6d1e5d833f83.png" /></p>
 
 <p align="center"><span style="font-weight:bold">Tinkerer's Quilt</span> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
-It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player Expression.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <a href="./#Installation">Install Instructions</a></p>
+It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player Expression.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <a href="#installation">Install Instructions</a></p>
 
 ---
 
