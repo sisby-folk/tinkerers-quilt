@@ -1,7 +1,7 @@
 <p align="center"><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/184521317-a97aa68b-91c7-4c71-86f9-6d1e5d833f83.png" /></p>
 
 <p align="center"><span style="font-weight:bold">Tinkerer's Quilt</span> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
-It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player Expression.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <a href="#installation">Install Instructions</a></p>
+It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player Expression.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <a href="./#Installation">Install Instructions</a></p>
 
 ---
 
@@ -67,6 +67,10 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
    - [Tinkerer's Statures](https://modrinth.com/mod/tinkerers-statures) - Allows choosing player height on spawn.
  
 ![screenshot](https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png)
+
+   - [Origins Minus](https://modrinth.com/mod/origins-minus) - A full set of origins optimised for simplicity, not balance.
+ 
+![screenshot](https://user-images.githubusercontent.com/55819817/192087501-c157859b-1307-4de4-a88d-f2c61391edf9.png)
 
 - - [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.
      - Flattens mending power creep, encouraging players to keep "Sentimental" tools as much as they like.
