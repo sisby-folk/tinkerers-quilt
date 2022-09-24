@@ -785,13 +785,13 @@ hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
 metafile = true
 
 [[files]]
+file = "mods/origins-minus-1.0.1.jar"
+hash = "bb580390de06cc9a4f7a9244a7acda103f54d1edd5eefe9e5cc9f7d65e76d14f"
+
+[[files]]
 file = "mods/origins.pw.toml"
 hash = "f8cf32a9a4872c9c66312237e1d12bd6dd427ebce1686cd2c499991a86f0ad7e"
 metafile = true
-
-[[files]]
-file = "mods/origins_minus-1.0.0.jar"
-hash = "f806cea8720ea91385221e3a3bc866e570b559835a6b857a6d584fa7b90bca27"
 
 [[files]]
 file = "mods/pehkui.pw.toml"
