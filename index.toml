@@ -627,11 +627,6 @@ hash = "984ac3dbc96c72e9416170949ca1a141e26218917ccbfd6655117d61ca23f408"
 metafile = true
 
 [[files]]
-file = "mods/grounded-origins.pw.toml"
-hash = "05c435b4d4aaed7cb04c456564361d44beed262ba8bfb7ea56cfdb7b637a211d"
-metafile = true
-
-[[files]]
 file = "mods/horsebuff.pw.toml"
 hash = "8e64e605cb87282d854c4cbc974ff166f3bcd4f989c6eaa511cfa3a82f49d4fc"
 metafile = true
@@ -785,8 +780,9 @@ hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
 metafile = true
 
 [[files]]
-file = "mods/origins-minus-1.0.1.jar"
-hash = "bb580390de06cc9a4f7a9244a7acda103f54d1edd5eefe9e5cc9f7d65e76d14f"
+file = "mods/origins-minus.pw.toml"
+hash = "e363df3152d7fbf35ec5299b41b920848aa1bf2673da201426bcd9e21f75fe50"
+metafile = true
 
 [[files]]
 file = "mods/origins.pw.toml"
