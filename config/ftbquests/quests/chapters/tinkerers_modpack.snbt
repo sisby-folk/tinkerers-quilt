@@ -415,11 +415,11 @@
 			shape: "square"
 			subtitle: "It's free species :)"
 			description: [
-				"Origins provides a system for gaining various attributes, advantages, and disadvantages based on an \"Origin\""
+				"Origins provides a system for gaining various attributes, advantages, and disadvantages based on an §oOrigin§r"
 				""
-				"In this pack, you're also able to choose a \"Class\", which provides you a minor buff. And a \"Stature\" which changes your character's size."
+				"This pack uses custom, simpler origins. You can also choose a §oStature§r, affecting your character's size."
 				""
-				"Some origins have active abilities, which are mostly bound to §nG§r and §nH§r - see your origin using §nALT+O§r at any time to check."
+				"Some origins have active abilities, bound to §nG§r and §nH§r - press §nALT+O§r any time to review your origin."
 			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
@@ -1942,11 +1942,9 @@
 			shape: "gear"
 			subtitle: "bc y'know euphoria or whatever"
 			description: [
-				"Considering this is a plural modpack, here's a shulker box stuffed full of \"Orb of Origin\" - which allows you to change your origin."
+				"§oSwitchy§r still requires a way to change origins for each new profile, so here's a shulker box full of §oOrb of Origin§r - which does just that."
 				""
-				"Try not to abuse the free switches for a gameplay advantage! This was the best solution we could come up with without making a whole-ass plural integration mod"
-				""
-				"[Update: we made a whole-ass plural integration mod. Using switchy, you should only need these origin orbs to set up each preset!]"
+				"Utilize these with §oSwitchy§r to have one origin per profile"
 			]
 			dependencies: ["1FE5F243E8C8329E"]
 			optional: true
