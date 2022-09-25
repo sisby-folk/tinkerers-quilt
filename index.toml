@@ -1127,9 +1127,8 @@ hash = "6875e0a4bb69183f97d99b9518f640f8984806a1bfb97f3685b2f0d7c4e3c8f8"
 metafile = true
 
 [[files]]
-file = "mods/reeses-sodium-options.pw.toml"
-hash = "2ece972fd1306a38ca278d9da23656c73bc103df57709a4bdac0a0271a646f34"
-metafile = true
+file = "mods/reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar"
+hash = "af1a118da5174d67d8cac685d31087569cd09aa6e9f6496367857aabc2835343"
 
 [[files]]
 file = "mods/reroll.pw.toml"
