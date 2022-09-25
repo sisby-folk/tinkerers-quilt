@@ -170,7 +170,7 @@ hash = "f980f34066b338650d984d4e196ddf4d1bff5c3e343754cd53b78fbd1171c352"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "caf252a9c233b828ea5aa2503530ce1c17e51921d39bd883b0e6754fe6bb096a"
+hash = "41894f5cc4df8cbb6f9d53d3e8ee0709e3b33ab9b6bf4c306340d391de31a912"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -205,232 +205,8 @@ file = "config/naturescompass.json"
 hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
 [[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/origins/arachnidplus.json"
-hash = "211317e541d8730191f67ad67a09cbf7c2552a427154f5318549b43f97a2d886"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/powers/break_speed.json"
-hash = "cd23ca322d488b0437851f6016d1aa1dc2f4d0dd387c04db486da445f21a1342"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/powers/climbing.json"
-hash = "fb38673dc65c5623ff1b3959ea8cd4c4e4ce6aafe4ec5ddad673065b377b795d"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/powers/eyes.json"
-hash = "29b6e6667451489bd097b211a6188bf9041de20963dfc0856c0717c3540bf113"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/powers/master_of_webs.json"
-hash = "7638c539fd2cea9b252f6dec0f809c06216df0b30ba637e8cb22cd27be1a3121"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/powers/no_suffocation.json"
-hash = "6f3b3a8dedb05684c5860035496e44bb3b9e9ab3539aeca6d912225a748034e5"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/arachnidplus/powers/pfall.json"
-hash = "e2fe9b0b0ddc3f6bc1cb551ba62b957a0e5c84cd913d21702540c87a6e9565bf"
-
-[[files]]
-file = "config/openloader/data/Arachnid/data/origins/origin_layers/origin.json"
-hash = "b7839acef8b5735d44c5b5f1dda0b0216fee281135fea6472d92b9494667d1a8"
-
-[[files]]
-file = "config/openloader/data/Arachnid/pack.mcmeta"
-hash = "0cd4c5f84c4e141c48af64044b010c61e3734dc40ed9333401644664ef5ff520"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/origins/avianplus.json"
-hash = "129c47dbb9df4d10152e07ef389da97ba54a5d26afae53584b141058f591cb39"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/active_slow_fall.json"
-hash = "753b4c2a8ace12f45d4be644579c024ab7ee5d8bcc15d9f4fea2c3846776ce96"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/flap.json"
-hash = "93f8c4255d0066d75121990c57db583c12810fbc8fdb09615000e257d9adfaa3"
-
-[[files]]
-file = "config/openloader/data/Avian/data/avianplus/powers/like_air.json"
-hash = "80855042e009bf8c9f17f224ee1c04a2d1135e10563b0d756c5b8f2ce8867796"
-
-[[files]]
-file = "config/openloader/data/Avian/data/origins/origin_layers/origin.json"
-hash = "2168d12c075f31275e96a9e435b0075f6774526dbf48bc93dc0e8326911086bc"
-
-[[files]]
-file = "config/openloader/data/Avian/pack.mcmeta"
-hash = "053097a0431c8b72b58637ff1cf00b61c5b0742e34b85a6b2aaebb5ad8234fae"
-
-[[files]]
-file = "config/openloader/data/Blazeborn/data/blazebornplus/origins/blazebornplus.json"
-hash = "ba578b1eadf852d27f2b47da2548ad5ed1ec7611436538c62c0f8376ecc0e66f"
-
-[[files]]
-file = "config/openloader/data/Blazeborn/data/blazebornplus/powers/lavafall.json"
-hash = "c832577f543f54ffa934acbac5dad6a645febe61895f4ed2c900b3a8e4c9a6c8"
-
-[[files]]
-file = "config/openloader/data/Blazeborn/data/origins/origin_layers/origin.json"
-hash = "5f79d4f4a8954c3546b27321d327721e67b627162301aa4a2d54b6d2fd402d7d"
-
-[[files]]
-file = "config/openloader/data/Blazeborn/pack.mcmeta"
-hash = "df78d2e1a26e511a48bc4a3d67f4790b041d34aa3be2780aea716062472a880d"
-
-[[files]]
-file = "config/openloader/data/Feline/data/felineplus/origins/felineplus.json"
-hash = "4797949b32e01d6e183c3d2d6c36ddbc8702a487ae9181bc4cb1dd5d56edd285"
-
-[[files]]
-file = "config/openloader/data/Feline/data/felineplus/powers/fall_immunity.json"
-hash = "ff71d3ce1365b204d68d9b8174ed355c55dc298d2ace966a49d0633499f07c1c"
-
-[[files]]
-file = "config/openloader/data/Feline/data/felineplus/powers/jump.json"
-hash = "67d9744fecfdca94fd57aa383ffda692bb5aa98947790b6a7ef564be1724e499"
-
-[[files]]
-file = "config/openloader/data/Feline/data/felineplus/powers/nocturnal.json"
-hash = "a1f516737dcd68ee4b1ac5b6b1bbc09a7e476dc412dfa1e276abbc33b481c029"
-
-[[files]]
-file = "config/openloader/data/Feline/data/felineplus/powers/scare_creepers.json"
-hash = "1be22ee67b82d5b1c9eca10431133d2ba416ee4d22d8e91857371fb5f8204b90"
-
-[[files]]
-file = "config/openloader/data/Feline/data/origins/origin_layers/origin.json"
-hash = "2155ec4e342a00200e4bc4ba2cdc203364908795afa3ab8083f8cce1821971e8"
-
-[[files]]
-file = "config/openloader/data/Feline/pack.mcmeta"
-hash = "efb3a74e305dd05bbf29d42f29c66865562a4158594bc1b2cd7aeb150a028a1f"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/lepus/origins/lepus.json"
-hash = "7d7ba468ef5c7f127a13a3d1675d1ff7a96bcbc0a5d5f8440ce7c4c4c9174510"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/lepus/powers/energetic.json"
-hash = "cea4aefd9a6a8c40ab3219d06bf7c9db596e92aeffc5f9be210386ef934ce151"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/lepus/powers/fall_immunity.json"
-hash = "ff71d3ce1365b204d68d9b8174ed355c55dc298d2ace966a49d0633499f07c1c"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/lepus/powers/forager.json"
-hash = "e844a8cca7cecd3602a5bb0cd382e27f8be98ca641f7c03dd1c7621f8c0bdccd"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/lepus/powers/leap.json"
-hash = "be375d8eaf66823b94a0a5cda10d8e645bf9e3ecd070bc74b4db93c53cbf5b7d"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/minecraft/tags/blocks/grass_types.json"
-hash = "ed4ecaa7da6c5c3bd6db684eea7dad6095c019415c8598c8b22891aee372e223"
-
-[[files]]
-file = "config/openloader/data/Lepus/data/origins/origin_layers/origin.json"
-hash = "919a6a3976b136fd65bacf2b3ae26134e809e1a9eef21ea34228bdcb866a9afe"
-
-[[files]]
-file = "config/openloader/data/Lepus/pack.mcmeta"
-hash = "fd25e949a70c656b63c2b050bf1be8032df642a4a277a40db0ac7abb71f3155b"
-
-[[files]]
-file = "config/openloader/data/Merling/data/merplus/origins/merplus.json"
-hash = "405f833de88e9b8bafdc6e36f1264d33e8745f21e9db2325feb6717306663c52"
-
-[[files]]
-file = "config/openloader/data/Merling/data/merplus/powers/air_from_potions.json"
-hash = "da6d1061e319153667704f3a6d02d7db2a7fa19b6bb6dc9fe73e5737c5e1945a"
-
-[[files]]
-file = "config/openloader/data/Merling/data/merplus/powers/under.json"
-hash = "fbec5d30273ba5dc4cd684cd6e8f13c300de22052656b1b9fa0e63894f95cfcc"
-
-[[files]]
-file = "config/openloader/data/Merling/data/merplus/powers/wet_eyes.json"
-hash = "6acbd485226e97a74cb78337d398195a96b8349b59bd5bb5bc41cf908efe229c"
-
-[[files]]
-file = "config/openloader/data/Merling/data/origins/origin_layers/origin.json"
-hash = "53bb56189d7ad300181b7f9c1a23bcf99ab5de3a22c892913504350df36dcfad"
-
-[[files]]
-file = "config/openloader/data/Merling/pack.mcmeta"
-hash = "46ead8d2474c26afa40e549ce686100608b58aac640ce540c1989745e25f6b7b"
-
-[[files]]
-file = "config/openloader/data/Shulk/data/origins/origin_layers/origin.json"
-hash = "a9b4078517c4f8ca2815dae714c557120073aecc2f47af3064c8292da231bc31"
-
-[[files]]
-file = "config/openloader/data/Shulk/data/shulkplus/origins/shulkplus.json"
-hash = "e0775c00ea380101a5f90b645b6f34552687393860f78c48bb93a54b29e2af71"
-
-[[files]]
-file = "config/openloader/data/Shulk/data/shulkplus/powers/attack.json"
-hash = "2f3b481574933ad6921db293af1dbad94c86959d3c84629ff06df7f7ff1e3d6c"
-
-[[files]]
-file = "config/openloader/data/Shulk/data/shulkplus/powers/hoarder.json"
-hash = "51d1bb7d6357edf975c4492b87c0409dcaafd464ecf2dc26224b83adcf264ed8"
-
-[[files]]
-file = "config/openloader/data/Shulk/data/shulkplus/powers/turtle.json"
-hash = "4396af5ac53408cbdff12e30dc3a43f44da3c9fa125385d4ae3af78e1135fec0"
-
-[[files]]
-file = "config/openloader/data/Shulk/pack.mcmeta"
-hash = "d813ae41710fe261db6bd278d6eaa33e5f0255fe64727aaff3a8811599010d86"
-
-[[files]]
 file = "config/openloader/data/Towers_Of_The_Wild_Reworked_v3.0.0_Fabric_Waystones.zip"
 hash = "11308ea756b33a4b3d23e4c71e81ccb47d55a207f3212f2b6e732980e64cf425"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/origins/origin_layers/origin.json"
-hash = "f51db67fe689135ac6f6feed2f4880597738992f7a479e4b89811281e52c5422"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/origins/vampire.json"
-hash = "10dfa3ce7f341d3b3031f213402a1308d9a86b2c4a682b6f879b9223a94cc64b"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood.json"
-hash = "6a9a6b67f2189d3a4fb85f420fce9348692cff234bf9ce8ec4f2fcc8a6353c62"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/powers/blood_hidden.json"
-hash = "37b620f47ba13ae3b73f93d31819acd44e6527ec7c99adba22cc7354dbba7ebf"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/powers/feed.json"
-hash = "1fefa914e202f706e605cb4b3a58552f37064e7c487a5d78c0d15713919869cb"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/powers/nightstalker.json"
-hash = "9c29b31c7505bfea3f5e8965501361cc97729bef809d211cb70272363775d62c"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/tags/blocks/red.json"
-hash = "aec1938f493f4ef9b997798494b4ce9b3a1576b2a268126d3b62688b2776bf64"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/tags/entity_types/blooded.json"
-hash = "29dc0eb8af88ef7e83022518cd8a15a4bbf201459baa8b50407dd07186ec61cc"
-
-[[files]]
-file = "config/openloader/data/Vampire/data/tinkervamp/tags/items/red.json"
-hash = "aec1938f493f4ef9b997798494b4ce9b3a1576b2a268126d3b62688b2776bf64"
-
-[[files]]
-file = "config/openloader/data/Vampire/pack.mcmeta"
-hash = "dde7eec4f33452ebb9af89054fcc6b23f477b2e8cda7b9ad2e034ff9348b0f0b"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c278482.zip"
@@ -438,68 +214,8 @@ hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
 
 [[files]]
 file = "config/openloader/data/nullscapes.pw.toml"
-hash = "58e4c1427c42bb202bef6b8bf69f9546687c5a02be31ee31a645541338fabacd"
+hash = "3743650eb11d2766addae0490182e71a83871454713bb46b69c44e994e3b6a27"
 metafile = true
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/beach_crab.json"
-hash = "3aa385b291abba236cf73e73817943aa535e71fdccdedf23bc7a7641f3a8560b"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/deer.json"
-hash = "c21dc631f1421bb9aa8587588308263d417278eb6ac6e782c4f5b4073b6202b6"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/moth.json"
-hash = "a22a756806693d7b1daa7a14e647a927ddb81b21bce17320b225fe747cac940c"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/grounded_origins/origins/penguin.json"
-hash = "f8897e8cb418696bf7379cf8b3c513c5e6282ae89b8fa3cf8b449e16c1b1d3fe"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins-classes/origins/merchant.json"
-hash = "3460c3d944536e933514ce0f9d7e4cd42e06852b11a8cf080271017a2fe9f429"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/arachnid.json"
-hash = "c3a15855fda5d60f45d4ff418f845abf59da98f0878ee3850cc62a188e59992e"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/avian.json"
-hash = "2de97c46e13188de122e31c7d9312978157ff197e86cc1c01a4e003de53e61c5"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/blazeborn.json"
-hash = "ba80d1986cd0e2e9acd72ee60aef1418420427f678b38a16c3ebb4558156469d"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/elytrian.json"
-hash = "cf534215a71602ed6cab95561996361da374fd0d1f33c9341841f746eb987e63"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/feline.json"
-hash = "1af9ac094a08b6778fbc6c8709a75c98e2230969ad1aca6eb37da76334238693"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/human.json"
-hash = "fbc63bbc5fae0e49470733fa4f401c7a8f41a268fd0fe0c82e0ee785ef7d87cb"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/merling.json"
-hash = "7c6db857ac8119aa75031157399294255f2ad286bf8858a88887d6b59811b77b"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/phantom.json"
-hash = "7fa8200279cdc5054a2a18077aa4744c1d4661175c03b42138eaf941f7d81e6e"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/data/origins/origins/shulk.json"
-hash = "8013c1ab8cd88a6eb73cb3d29a3a5c9a39249db499f5afda4207751e319d727c"
-
-[[files]]
-file = "config/openloader/data/tinkerers_cleanup/pack.mcmeta"
-hash = "3cb6b44f523225fbaac1aae7168638589a639abd8fe9e24b6e0246bc861974ef"
 
 [[files]]
 file = "config/openloader/data/tinkerers_copper_beacons/data/minecraft/tags/blocks/beacon_base_blocks.json"
@@ -508,18 +224,6 @@ hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 [[files]]
 file = "config/openloader/data/tinkerers_copper_beacons/pack.mcmeta"
 hash = "ff0530c293bf12aaa6b17feea7bd2d68eaa2fd2e39e4dbeeefa11d450e320555"
-
-[[files]]
-file = "config/openloader/data/tinkerers_humant/data/origins-classes/origins/nitwit.json"
-hash = "f1c67d31f407319b8ad98254c6739c77f0a7d6a0625669642532b9667421030a"
-
-[[files]]
-file = "config/openloader/data/tinkerers_humant/data/origins/origins/human.json"
-hash = "fbc63bbc5fae0e49470733fa4f401c7a8f41a268fd0fe0c82e0ee785ef7d87cb"
-
-[[files]]
-file = "config/openloader/data/tinkerers_humant/pack.mcmeta"
-hash = "a44d923d7be30713ef0fdedb5a2460a0eec2461aeeed787529e435da8fc04927"
 
 [[files]]
 file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/boots.json"
@@ -585,6 +289,18 @@ hash = "1b1f2e7a153a4e4d17f00474cf5e3eefb25ff2e19caaad61b2ca8f8ec8badf83"
 file = "config/openloader/resources/colored-axolotls.pw.toml"
 hash = "54f0328a05640f33fb87ce45b2bdd7a90c20128a50e9f620506fb3374b1e8aaf"
 metafile = true
+
+[[files]]
+file = "config/openloader/resources/origins_minus/assets/origins_minus/textures/gui/origins_status_mer.png"
+hash = "ff02fc2d572ccdd30b8b619af8990055840a543b6d7de2d6cd6d358dca936349"
+
+[[files]]
+file = "config/openloader/resources/origins_minus/assets/origins_minus/textures/gui/origins_status_vampire.png"
+hash = "e7455990f31d27b951b5bb820dd2378f32b2e2855bed05ce10dd2307de21697a"
+
+[[files]]
+file = "config/openloader/resources/origins_minus/pack.mcmeta"
+hash = "a90f1ed3100bff6193f871f2b982f2534d068b01e11ed532c3a535de98db4a10"
 
 [[files]]
 file = "config/openloader/resources/sullys-peeves.pw.toml"
@@ -1143,11 +859,6 @@ hash = "1c664e463bb0e1c63285620539622a2253cdcb35d1042514add8ce040c6c3cd2"
 metafile = true
 
 [[files]]
-file = "mods/grounded-origins.pw.toml"
-hash = "05c435b4d4aaed7cb04c456564361d44beed262ba8bfb7ea56cfdb7b637a211d"
-metafile = true
-
-[[files]]
 file = "mods/half-doors.pw.toml"
 hash = "933bae280bc8e1d572b3052f7912aa50929bc7e30be6a774bee0aba678babdc3"
 metafile = true
@@ -1298,8 +1009,9 @@ hash = "030b818f7aa75596fe5c0a04b15c66dc0531c79aee5820a30379cc5af77ee46d"
 metafile = true
 
 [[files]]
-file = "mods/nbtcrafting-2.1.4+mc1.18.2.jar"
-hash = "7a68df8dfa1e10e87e99c3a965135155ca76d65cafc1bbd972cfb00c64a76df8"
+file = "mods/nbt-crafting.pw.toml"
+hash = "591854c0b2ab9068250032024f7af458deedab0d3b1305ed2fb9ce893ff337c3"
+metafile = true
 
 [[files]]
 file = "mods/nofade-1.18-2.0.1.jar"
@@ -1328,6 +1040,11 @@ metafile = true
 [[files]]
 file = "mods/open-loader.pw.toml"
 hash = "23e8f5ab53b5b4af9187aa72f2f9f3070f160ad7aa7e08944d8df34ba6a575ba"
+metafile = true
+
+[[files]]
+file = "mods/origins-minus.pw.toml"
+hash = "e363df3152d7fbf35ec5299b41b920848aa1bf2673da201426bcd9e21f75fe50"
 metafile = true
 
 [[files]]
