@@ -88,22 +88,19 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
    - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
    - [Tinkerer's Human't](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_humant) (Origins) - Removes mention of "human" and "nitwit" from origins descriptions.
    - [WIP] Fresh and reworked Origins following TQuilt's design - Prioritizing simplicity over balance.
- - Five Pull Requests! (does that count?)
-   - [Fixing NBTCrafting](https://github.com/Siphalor/nbt-crafting/pull/115) for Smithing
-   - [Preserving Cursor Stack](https://github.com/Andrew6rant/InventoryTabs/pull/47) for Inventory Tabs
-   - [Adding Tab Compatibility](https://github.com/Alpha-s-Stuff/TinkersConstruct/pull/8) to TCon3 for Modded
-   - [Enabling RepairCost](https://github.com/Queerbric/Inspecio/pull/94) in inspecio without debug tooltips enabled for smithing.
-   - [Minorly updating Antique Atlas](https://github.com/AntiqueAtlasTeam/AntiqueAtlas/pull/432) for Plus
  - Mod Configuration:
    - 194 Quests over 6 categories in Base (FTB Quests)
      - Just as many flavour text subtitles - queer humour, observations, and a weird mix of references.
      - An unholy amount of quest descriptions - how to achieve the task, what the required items do, etc.
-     - Meticulously symmetrical and categorized quest positioning. No really. Hours and hours of it.
-   - Days and days of tracking and removing mod feature-overlap. Also sorting out good keybindings, apparently.
- - Honestly a lot of hyper-meticulous design nonsense - Mod suitability, playtesting, feature overlap, quest flow...
+     - Meticulously symmetrical and categorized quest positioning. No really. Hours of it.
+   - Tracking and removing mod feature-overlap. Also sorting out memorable keybindings, apparently.
+ - Hyper-meticulous design nonsense - Mod suitability, playtesting, feature overlap, quest flow...
    - This is still an endorsement, we swear.
    - There was a lot of notepad documents and messy organisation systems to get this done. 
    - This project started in january 2021 as a skyrim-style "modding guide" for fabric. Not joking.
+- Pull Requests to other mods! (does that count?)
+    - [Preserve Cursor Stack](https://github.com/Andrew6rant/InventoryTabs/pull/47) in Inventory Tabs
+    - [Show RepairCost](https://github.com/Queerbric/Inspecio/pull/94) in Inspecio without F3+H for smithing.
  - Also reporting a lot of bugs and incompatibilities to mod developers. And quilt developers.
      - That's an endorsement too.
      - Thanks everyone.
@@ -119,11 +116,11 @@ Shoutouts are well-deserved here, so we're dropping links for all these major fe
 Letting players express themselves with player customisation, builds, and even things like farming, cooking, and brewing, is a core tenet of the pack.
     
  - [Ears](https://ears.unascribed.com/) - Improved skins with support for tails, horns, ears, claws, wings and more species/gender things!
- - [Fabric Tailor](https://modrinth.com/mod/fabrictailor) - Swap your skin in-game. Perfect for plural systems.
- - [Origins](https://modrinth.com/mod/origins) - Choose a player _Origin_, granting abilities, limitations, and maybe species euphoria (we don't know you)
+ - [Fabric Tailor](https://modrinth.com/mod/fabrictailor) - Swap your skin in-game. Great for plural systems.
+ - [Origins](https://modrinth.com/mod/origins) - Choose a player _Origin_, granting abilities, limitations, and maybe some euphoria (we don't know you)
 
  - [Drogtor](https://github.com/unascribed/Drogtor) - Change your player name at any time with a command!
- - [Player Pronouns](https://modrinth.com/mod/player-pronouns) - Set your pronouns in multiplayer and have them appear in chat.
+ - [Player Pronouns](https://modrinth.com/mod/player-pronouns) - Set your pronouns in multiplayer to show in the player list.
  - [Fabrication](https://modrinth.com/mod/fabrication) - A huge tweak mod. Includes allowing players to hide armor to show their skin with a command.
  - [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) - Footstep audio redone - allows swapping between bi/quadrupedal, with winged options.
 
@@ -265,7 +262,6 @@ Mods:
     FTB Quests (Fabric)
     FTB Teams (Fabric)
     [Plus] Fabric Waystones
-    Grounded Origins
     [Plus] Halfdoors
     [Modded] Hephaestus
     Horse Buff
@@ -301,6 +297,7 @@ Mods:
     Ok Zoomer
     Open Loader
     Origins
+    Origins Minus
     [Plus] Overweight Farming
     [Modded] Patchouli
     Pehkui
@@ -336,6 +333,7 @@ Mods:
     [Plus] This Rocks!
     TieFix
     Tinkerer's Smithing
+    Tinkerer's Statures
     ToolTipFix
     Totem Anywhere Standalone
     [Plus] Traveler's Titles (Fabric)
@@ -357,7 +355,7 @@ Mods:
     [Plus] YUNG's Extras (Fabric)
 
 Jar mods:
-    [Plus] Antique Atlas 6.2.0 1.18.2 (Unreleased)
+    [Plus] Antique Atlas
     [Plus] Auroras Decorations 1.0.0 1.18 (Unreleased)
     Blanket Client tweaks 1.0.4
     colormatic 3.1.2-snapshot 1.18.2.jar (Create Compat)
@@ -374,24 +372,20 @@ Resource Packs:
     xali's Enchanted Books
     Sully's Peeves
     Vanilla Tweaks
-    [Plus] Nullscapes 1.18.2
 
-Shader Packs Available:
+Shader Packs Recommended:
     BSL Shaders
     Complementary Shaders
+    Complementary Reimagined Shaders
     Prismarine Shaders
     Sildurs Enhanced Default Shaders
     Super Duper Vanilla Shaders
 
 Data Packs:
     Vanilla Tweaks
-    (Origins) Lepus
-    (Origins) OriginsPlus
+    [Plus] Nullscapes 1.1.1
 
 Homebrew Data Packs:
-    (Origins) Tinkerer's Statures
-    (Origins) Tinkerer's Cleanup
-    (Origins) Tinkerer's Human't
     Tinkerer's Vegetarian
     Tinkerer's Copper Beacons
 ```
@@ -404,16 +398,16 @@ We're working on some companion editions to release... eventually. Currently hos
 **Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
 The rest of this document focuses on Base, so here's a quick breakdown:
 
-- [WIP] **Plus** is a Vanilla+ extension of base, including all of its quests.
+- [WIP] **Plus** is a Vanilla+ extension of base.
     - Plus adds mods that expand on the **Godseeking** fields from base:
         - **Homesteading** - More farming/ranching, _way_ more cooking, more building blocks, and more decorations.
         - **Exploration** - More traversal options, new nether/end, new biomes, new structures, and a seasonal world.
         - **Combat** - Spears, chef's knives, and... compact mechanically propelled halfdoors? Plus new dungeons.
-- [WIP] **Modded** a simple extension of plus, adding personal favourite major mods
+- [WIP] **Modded** an extension of plus, adding personal favourite large mods
     - Each mod is larger, with a complex progression equivalent to Base's **The Basics** tree, and then some.
     - **Botania** - Collect mana, power magic flowers, and study the elves in this beautifully simple magi-tech mod.
     - **Create** - Build steampunk masses of driveshafts, pistons, and conveyors in this larger-than-life old-tech mod.
-    - **Tinker's Construct** - Though unstable on Quilt, TCon3 is our favourite tool/weapon system rework - ever.
+    - **Hephaestus** - Tinker's Construct 3 is our favourite tool/weapon rework - ever.
 
 
 # Special Thanks
