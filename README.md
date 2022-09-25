@@ -7,8 +7,8 @@ It focuses on Vanilla Gameplay, Accessibility, Discoverability, QoL, and Player 
 
 
 
-The **Base Edition** is what this pack is all about -  It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
-  - Designed to **guide you through vanilla** with in-game quests and information - you'll never need to open the wiki.
+Here's what this pack is all about -  It's **Vanilla-World-Compatible**, with **no new items, blocks, or worldgen**. 
+  - Designed to **guide you through vanilla** with in-game quests and info - you'll never need to open the wiki.
   - Built with a curated set of Quality of Life (QoL) improvements to ease the pains of vanilla.
   - **Easier than vanilla** with simplified gear crafting, reduced death penalty, and helpful quest rewards.
   - Invites player expression with better skins, Origins, and more ways to build. 
@@ -22,16 +22,16 @@ The **Base Edition** is what this pack is all about -  It's **Vanilla-World-Comp
 ## Questing System
 ***"It's like FTB Academy for Vanilla!"*** - Us, just now
 
-TQuilt's quests guide new and returning players through the core progression of minecraft, and explore its main gameplay opportunities.
+TQuilt's quests guide players through the core progression of minecraft, and explore its main gameplay opportunities.
 
 ### The Basics
       
 <img width="425" height="260" src="https://user-images.githubusercontent.com/55819817/174097642-a5949541-b8e6-419b-bbfe-b3e4ecf90be8.png"><img width="325" height="260" src="https://user-images.githubusercontent.com/55819817/174098114-c5630f29-efaa-4473-9eb4-e53c4325f002.png">
 
-*The Basics* Covers game progression - it helps to get unfamiliar players on track while keeping goals visible and tasks tangible.
+*The Basics* covers core game progression - Simple quests with clear instructions, all the way to Beacons and Elytra.
 
 ### Godseeking
-Explore all the main mechanics and content of the game - categorised by **Homesteading**, **Self-Defense**, and **Exploration**.   
+Explore the main mechanics and content of Vanilla, categorised by **Homesteading**, **Self-Defense**, and **Exploration**.   
 Do you want to...
  - ⚔️ Know every weapon and kill every enemy? 
  - 🏠 Make bases in many environments? 
@@ -48,7 +48,7 @@ Do you want to...
 Some. [They reveal as you play to mitigate players getting overwhelmed]
 
 These quests can help players discover these parts of the game, and have rewards to provide helpful shortcuts.     
-Complete all quests of a special interest to complete its **Patron Quest** for very special rewards and bragging banners.
+Complete all quests of a special interest to complete its **Patron Quest** for normally unobtainable rewards!
 
 ### Information
  
@@ -58,7 +58,7 @@ Quests are also home to information about the pack itself, as a helpful referenc
 
 ## Homebrew Changes
 
-Yeah yeah, we get it - packs that just throw mods together are no fun. Here's what we pulled together besides our curation skills:
+We get it - packs that just throw mods together are no fun. Here's what we pulled together besides curation:
 
  - Six mods: 
    - [Portable Crafting Standalone](https://modrinth.com/mod/portable-crafting-standalone) - Press V or click a tab to use the crafting table in your inventory. 
@@ -94,20 +94,21 @@ Yeah yeah, we get it - packs that just throw mods together are no fun. Here's wh
      - An unholy amount of quest descriptions - how to achieve the task, what the required items do, etc.
      - Meticulously symmetrical and categorized quest positioning. No really. Hours of it.
    - Tracking and removing mod feature-overlap. Also sorting out memorable keybindings, apparently.
- - Hyper-meticulous design nonsense - Mod suitability, playtesting, feature overlap, quest flow...
-   - This is still an endorsement, we swear.
+ - Hyper-meticulous design nonsense - Curation (yes), playtesting, feature overlap, quest flow...
+   - This is still an endorsement, promise.
    - There was a lot of notepad documents and messy organisation systems to get this done. 
    - This project started in january 2021 as a skyrim-style "modding guide" for fabric. Not joking.
-- Pull Requests to other mods! (does that count?)
+- Pull Requests to other mods!
     - [Preserve Cursor Stack](https://github.com/Andrew6rant/InventoryTabs/pull/47) in Inventory Tabs
     - [Show RepairCost](https://github.com/Queerbric/Inspecio/pull/94) in Inspecio without F3+H for smithing.
- - Also reporting a lot of bugs and incompatibilities to mod developers. And quilt developers.
+ - Reporting a tonne of bugs and incompatibilities to mod developers. And quilt developers.
      - That's an endorsement too.
      - Thanks everyone.
 
 ## Features from Mods
 
 All present minecraft modding is built on a decade of work from other people (and non-people, we don't discriminate).   
+
 The rest of the cool stuff is just us bringing together the work of great modders in the community.    
 Shoutouts are well-deserved here, so we're dropping links for all these major features. 
 
