@@ -789,7 +789,7 @@
 				icon: "minecraft:snow"
 				disable_toast: true
 				timer: 0L
-				observe_type: 0
+				observe_type: 1
 				to_observe: "minecraft:snow"
 			}]
 			rewards: [
