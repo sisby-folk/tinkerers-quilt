@@ -174,7 +174,7 @@ hash = "41894f5cc4df8cbb6f9d53d3e8ee0709e3b33ab9b6bf4c306340d391de31a912"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "4d1fc14dfe8f82cff16c7a19d5a9fe87aaffa09abc7ab58035ae48e6935072b3"
+hash = "1ae794e86d458f94bf6943dd62babe3cc5f2d78ac18faeaab74aa3e1e72eee4f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -662,8 +662,9 @@ hash = "77bd9b9ae2bf78481ba939cc78e5e4c0d9528516aa791305eecb39eb56e13125"
 metafile = true
 
 [[files]]
-file = "mods/colormatic-3.1.2-snapshot+mc.1.18.2.jar"
-hash = "49e7f9f4d6dda5a4fe5d25e73bbcc6eb7943e7f4a9444348943f6f96626f3677"
+file = "mods/colormatic.pw.toml"
+hash = "e1ae0274ae51f9ac63e47a7009ba183fa395e01a2b45be12cc9d53803bc20858"
+metafile = true
 
 [[files]]
 file = "mods/consistencyplus.pw.toml"
@@ -716,8 +717,9 @@ hash = "b60fc5c154d6ca0e07406638d53bfbaa751e3ef517ff553fcec8543847844728"
 metafile = true
 
 [[files]]
-file = "mods/drogtor-1.1.3+1.17.jar"
-hash = "9d4908a13797dab86f567598b16223562f8a9831c3545ecfd5f3024b68ac5708"
+file = "mods/drogtor.pw.toml"
+hash = "d83acdf32bcae0c2751709ffaff41a07a7590ce52b3a2dcace95d9b159862e0c"
+metafile = true
 
 [[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
@@ -776,7 +778,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "76f23e3c7d290c587085b22f59e06160a38593d73859cbb4a4738d1fa2fade4d"
+hash = "dfebd8072576c75a939f56cab83cabdf3c5828da7cdb814e97c272e6c0b8d006"
 metafile = true
 
 [[files]]
@@ -786,7 +788,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "35207effcb54da6a8f1f97f2dd54379200dea01e13b918534e1bbf4ec82a413c"
+hash = "189fa134102bc5197bd7859d05aa78f617b2ccfffdfd4454059358fa99f2b40a"
 metafile = true
 
 [[files]]
@@ -1103,12 +1105,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.pw.toml"
-hash = "1a831cbe617a09d168824fdc5e4492e18f051f74689b8dbd6be4d91edbcbd896"
+hash = "54db897cb696867285ee42422e4e57ee9e30382541c5e7c85bdaa3324aae63fe"
 metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "5577aa7a3013eacc62eeb9dd400a69467d92aaf37de1f17236fe4f1cb2b3503c"
+hash = "9eb9e6c57bf715f5f334d81f36594dd46ca232e5be889830c89b47927cadd821"
 metafile = true
 
 [[files]]
@@ -1162,12 +1164,12 @@ metafile = true
 
 [[files]]
 file = "mods/snow-real-magic-fabric.pw.toml"
-hash = "d326b1ab345670b70d0d2bbc739b0b04689b978715f7aa1b082c45a5fde362e2"
+hash = "ce0eee71913184a50eff526b3842083f34464e3ba87cd75b4c21c0212ade4e23"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "2ad443646863100af0f66138402e8cbfdf78ea565956d95d8e3e2b32c264d8a6"
+hash = "39269eb45ca79786c4eac3ede212feb85ccd90fe3e25ca0e4ab7e9fc1270d96e"
 metafile = true
 
 [[files]]
