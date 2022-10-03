@@ -94,7 +94,7 @@ hash = "41894f5cc4df8cbb6f9d53d3e8ee0709e3b33ab9b6bf4c306340d391de31a912"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "4d1fc14dfe8f82cff16c7a19d5a9fe87aaffa09abc7ab58035ae48e6935072b3"
+hash = "1ae794e86d458f94bf6943dd62babe3cc5f2d78ac18faeaab74aa3e1e72eee4f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -505,8 +505,9 @@ hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
 metafile = true
 
 [[files]]
-file = "mods/drogtor-1.1.3+1.17.jar"
-hash = "9d4908a13797dab86f567598b16223562f8a9831c3545ecfd5f3024b68ac5708"
+file = "mods/drogtor.pw.toml"
+hash = "d83acdf32bcae0c2751709ffaff41a07a7590ce52b3a2dcace95d9b159862e0c"
+metafile = true
 
 [[files]]
 file = "mods/dyeable-fishing-lines.pw.toml"
