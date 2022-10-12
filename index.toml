@@ -253,6 +253,10 @@ file = "config/simplefog.json"
 hash = "f57fad623a4d05f111b923cf126984f15830f8dc24b10d048002b079d47e9257"
 
 [[files]]
+file = "config/sodium-extra.properties"
+hash = "127d38ab59a40c452cede9172595fe26934bd50920a5ce65e1b076bf5c1addfc"
+
+[[files]]
 file = "config/tiefix.json"
 hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
 
@@ -401,8 +405,8 @@ hash = "c59209e703e553f58306aa1a66dc30a58476f89ad2d40da540508dc72fe0311f"
 metafile = true
 
 [[files]]
-file = "mods/balm-fabric.pw.toml"
-hash = "b807b54b5ddf544e895877d4c40e6f9a23536279f6ac8133f90098f28733d429"
+file = "mods/balm.pw.toml"
+hash = "7c5c3e69f7d2abcde972efc46603be697818d834f28e94bbdb4fd5ee565c1c9a"
 metafile = true
 
 [[files]]
@@ -531,9 +535,8 @@ hash = "1358a0c7c2e0ca4efd804a38194d5bdd28f5f61869d5ba080df3ce50300c1f45"
 metafile = true
 
 [[files]]
-file = "mods/effective.pw.toml"
-hash = "501b17955243c6aa841e6954e1df3fb9043fd15a9e372dc3dfe0a22bf618d7e0"
-metafile = true
+file = "mods/effective-1.3.jar"
+hash = "d7a16b7b8c6292a99f059702ab80b618820440fa8655fca7c716f0220fe0b672"
 
 [[files]]
 file = "mods/emi.pw.toml"
@@ -561,13 +564,13 @@ hash = "dfebd8072576c75a939f56cab83cabdf3c5828da7cdb814e97c272e6c0b8d006"
 metafile = true
 
 [[files]]
-file = "mods/fabrication.pw.toml"
-hash = "ca17f5fc809572c48c3bca332da2dbb8c95554f7c762b827750f91c1807f321b"
+file = "mods/fabric-shield-lib.pw.toml"
+hash = "4dbd9bd24eda306ff57e3077716296e86324ca78bab948e36bbe972f0edc2833"
 metafile = true
 
 [[files]]
-file = "mods/fabricshieldlib.pw.toml"
-hash = "3fa20c7a4f4b3ed95d5959a2864a8a2b269e26cb33884c1acc297d72acbc2fca"
+file = "mods/fabrication.pw.toml"
+hash = "ca17f5fc809572c48c3bca332da2dbb8c95554f7c762b827750f91c1807f321b"
 metafile = true
 
 [[files]]
@@ -626,7 +629,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
-hash = "984ac3dbc96c72e9416170949ca1a141e26218917ccbfd6655117d61ca23f408"
+hash = "eed9328ade636e3c2f3c434568462d499753fe67adfde2ea27dc2706d8d3110f"
 metafile = true
 
 [[files]]
@@ -645,9 +648,8 @@ hash = "d3e7034da8c54620cca3c3e5a8fd446651024429f6aa1a1949ddd57218a1a71e"
 metafile = true
 
 [[files]]
-file = "mods/illuminations.pw.toml"
-hash = "c335c6f3f1a9660eba053a1b2066d1d42e96cbb5aa7f82916b08a6ddeaa42816"
-metafile = true
+file = "mods/illuminations-1.10.8.jar"
+hash = "2c25dc32b10e335016b91bd3a6d67195cb79c561857316a44d51fe631998d230"
 
 [[files]]
 file = "mods/indium.pw.toml"
@@ -734,8 +736,8 @@ hash = "4716789e4a806c1cabcef27e67150215edb4c3d737e9a87d90f2f615d6c196cd"
 metafile = true
 
 [[files]]
-file = "mods/mod-settings.pw.toml"
-hash = "dfbb5c4e79233b13f95f0c23a7de435c915053e9fd637fd9d5e7c2abf2f6670c"
+file = "mods/modmenu.pw.toml"
+hash = "24b56cdea0d96fc1b03b8cb6e6bb4b600c6fe730f7cd86e84004d100779ad5a1"
 metafile = true
 
 [[files]]
@@ -750,7 +752,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.pw.toml"
-hash = "595a54e070492982b80153ddee402dc02000be6efa79e250e1b64e296e43e764"
+hash = "b7186cd7f2b8a8226a9dd9b674ddeb1ebad458ec1025096f9fc9045e27a99c74"
 metafile = true
 
 [[files]]
@@ -766,11 +768,6 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "a067a3a38a6df8bf4440edc13ad29e22adf31041858c4fc4aee991c0f0e87263"
-metafile = true
-
-[[files]]
-file = "mods/notes-fabric.pw.toml"
-hash = "542beef9fcb9aa14d26168040a98f83c0724db5f1dd3b3c74bbda72dc90a5f12"
 metafile = true
 
 [[files]]
@@ -869,11 +866,6 @@ hash = "eb68f07474889d53f9b81902ad7aca2979604aa6d5102327574b687b1e1c1424"
 metafile = true
 
 [[files]]
-file = "mods/snow-real-magic-fabric.pw.toml"
-hash = "ce0eee71913184a50eff526b3842083f34464e3ba87cd75b4c21c0212ade4e23"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "99c83e926faf4565a4a75f8666a9c68721c3effdeece027509e23c5d50395321"
 metafile = true
@@ -966,6 +958,11 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "6affae9c080ef11b6ca83d4a689c55cff8a65eca3403119e330e3a88801482c4"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "f1b822298ccbb96ab43b054811b802080c3160db2168e7c795370779e8bc1b93"
 metafile = true
 
 [[files]]
