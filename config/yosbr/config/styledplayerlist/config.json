@@ -7,7 +7,7 @@
   "unknownStyleMessage": "<red>This style doesn't exist!</red>",
   "permissionMessage": "<red>You don't have required permissions!</red>",
   "changePlayerName": true,
-  "playerNameFormat": "%player:displayname% (%playerpronouns:pronouns%)",
+  "playerNameFormat": "%player:displayname%",
   "updatePlayerNameEveryChatMessage": true,
   "playerNameUpdateRate": -1,
   "permissionNameFormat": []

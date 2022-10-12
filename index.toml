@@ -297,12 +297,8 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
 
 [[files]]
-file = "config/yosbr/config/styled-chat.json"
-hash = "d95975900e0f160078b3bac00740000a43af0d76abdb8c7f53bc4154d17a4cf5"
-
-[[files]]
 file = "config/yosbr/config/styledplayerlist/config.json"
-hash = "1293555dfac9aa2ed0fb8491a6fd008be3a2d0aeb6f2d3b4fdb32331d09f4501"
+hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
 
 [[files]]
 file = "config/yosbr/config/styledplayerlist/styles/default.json"
@@ -361,8 +357,8 @@ file = "enable_hooks.sh"
 hash = "9e5bea64c2ee7ec80b3f3f2f514dc36f5f0e27297415a19bd8a0759405730daf"
 
 [[files]]
-file = "mods/Calio-1.18.2-1.6.0.jar"
-hash = "8a2dbe7417e280523f25d5bda08d0ca3d155014f8df50baa23adda876e6b170b"
+file = "mods/Calio-1.19-1.7.0.jar"
+hash = "e96df49e4069216c4d0c87fdb92799b95f5b8c30019cd4228324c5554ecdbe98"
 
 [[files]]
 file = "mods/accurate-maps.pw.toml"
@@ -600,8 +596,13 @@ hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
 
 [[files]]
-file = "mods/fogbox-1.2.0.jar"
-hash = "7f32d68a08dd8687b17bbf82b8972fc9fb1dea16317b2a2f1042224b9f412165"
+file = "mods/fishing-1.2.0.jar"
+hash = "e20e2b355af8ca30e8f0711ff55b256f11ecbaeac9519af591def1b050562cef"
+
+[[files]]
+file = "mods/fogbox.pw.toml"
+hash = "ab5a5f4a9374e5c3f73ce503d003ee86a762f2f9a216fc73a6d1757fa1438ce7"
+metafile = true
 
 [[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
@@ -654,12 +655,13 @@ hash = "f5751b1f49dfd5d0a78a4573b334651748e02e65dfe093774ab0d0c0886d950c"
 metafile = true
 
 [[files]]
-file = "mods/inspecio-1.4.2+1.18.jar"
-hash = "f2a0cd9800bb9b9fb2c8a71006c2c153b66a97520d02b9e031d549bf94527d9b"
+file = "mods/inspecio.pw.toml"
+hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
+metafile = true
 
 [[files]]
-file = "mods/inventorytabs-0.9.0-beta-1.18.x.jar"
-hash = "f4a814e03bb05f0be9f23a73799a09cfdbcfb06d6e60e67e1f1bb877c2e10425"
+file = "mods/inventorytabs-0.9.0-beta-1.19.x.jar"
+hash = "7bb8ebb225fb9d0012b742ec0aeabb80f4119aa72486e0b93d2309e6a291bedf"
 
 [[files]]
 file = "mods/iris.pw.toml"
@@ -667,8 +669,9 @@ hash = "689beb7c10f85f12f08d2b5198e02c8ef72bf3a5372e390d76c7412cbc807296"
 metafile = true
 
 [[files]]
-file = "mods/item-filters-fabric-1802.2.7-build.33.jar"
-hash = "083f3d25a0489268eb360f9950a16f5636862a28e4f58ebfebcad651e5143456"
+file = "mods/item-filters.pw.toml"
+hash = "2bc87e356a2eaeb894e60c52c19d2fb3e5142a522089fc60749f5aa34638390c"
+metafile = true
 
 [[files]]
 file = "mods/item-model-fix.pw.toml"
@@ -701,8 +704,9 @@ hash = "080d4789738ae0015c0a1fc76ffc3f6487f55dc5877b3de1c3b458b544efe362"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights-2.1.1limitless1.18.jar"
-hash = "80abe987afe04ca124ce85861d03e7d3dc2c875d71c59cba2b78c0866cba3cb3"
+file = "mods/lambdynamiclights.pw.toml"
+hash = "575bdefe476d24d7d50f7ac66bd80bf8c770d108bf4683a2e7d772c3dabb4fb1"
+metafile = true
 
 [[files]]
 file = "mods/lazydfu.pw.toml"
@@ -718,10 +722,6 @@ metafile = true
 file = "mods/lithium.pw.toml"
 hash = "83541b1d3e1e936638a6938eb505bf0f508c13aed7f8416af8d064ffc7cda4dc"
 metafile = true
-
-[[files]]
-file = "mods/live-fishing-1.1.1.jar"
-hash = "ca0587b2c2b82595cd13de2c4cda44226939c78da57c3676cb72cca391237b3e"
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
@@ -754,8 +754,9 @@ hash = "059f72fe71d9ea3b46ef4f4526e84677d8a49c814d5e03ae5ae07c3897d0ac97"
 metafile = true
 
 [[files]]
-file = "mods/nofade-1.18-2.0.1.jar"
-hash = "cb6345b67f2f14708f0476d6797267466862d1a0e5b1a5dd530f43c0d45951ca"
+file = "mods/no-fade.pw.toml"
+hash = "c91a0e5e41ca1131346bec3429a5b54dd46ca826a228620b52333de9184a864a"
+metafile = true
 
 [[files]]
 file = "mods/norecipebook-fabric.pw.toml"
@@ -803,10 +804,6 @@ hash = "21fa7484096522ee95c09131ea8dc3246e1001253d483784844832bee6dd9b07"
 metafile = true
 
 [[files]]
-file = "mods/player-pronouns-1.6.0+1.18.jar"
-hash = "fa015b872d25fc7ee428368bd8e69b8b309737a5e1eb8af58bbc18df6073f8f6"
-
-[[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
 hash = "b67fea5ed6dca8de6f51b69d6d991173e6b0bb393f248ac53c7c05b3f219236b"
 metafile = true
@@ -847,8 +844,9 @@ hash = "6875e0a4bb69183f97d99b9518f640f8984806a1bfb97f3685b2f0d7c4e3c8f8"
 metafile = true
 
 [[files]]
-file = "mods/reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar"
-hash = "af1a118da5174d67d8cac685d31087569cd09aa6e9f6496367857aabc2835343"
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "1c6d01b013b9e8c6dd921046adc7c7768814c17a0fde45cbe695c8e2de40f8be"
+metafile = true
 
 [[files]]
 file = "mods/reroll.pw.toml"
