@@ -1,13 +1,13 @@
 name = "Illuminations 🔥"
-filename = "illuminations-1.10.4.jar"
+filename = "illuminations-1.10.8.jar"
 side = "client"
 
 [download]
-url = "https://edge.forgecdn.net/files/3791/214/illuminations-1.10.4.jar"
 hash-format = "sha1"
-hash = "076c8fb7929dad53b5c1a727ec34a80d980c6d1f"
+hash = "649b2d5735590d32bbac68166f2a87bec7342c59"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3791214
+file-id = 3846131
 project-id = 292908

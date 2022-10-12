@@ -3,11 +3,11 @@ filename = "drogtor-1.1.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/yepDrPAy/versions/RsmTl49V/drogtor-1.1.3.jar"
+url = "https://cdn.modrinth.com/data/yepDrPAy/versions/1.1.3%2B1.19/drogtor-1.1.3.jar"
 hash-format = "sha1"
-hash = "400b2d1f2362d3ff233683eacc8227e69ab17485"
+hash = "498aa746366befa056abe43860af0cfd78c6ea54"
 
 [update]
 [update.modrinth]
 mod-id = "yepDrPAy"
-version = "RsmTl49V"
+version = "VqASPoLT"
