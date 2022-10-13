@@ -1,13 +1,13 @@
 name = "Fabric Tailor"
-filename = "fabrictailor-1.9.0+1.18.2.jar"
+filename = "fabrictailor-2.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/g8w1NapE/versions/1.9.0+1.18.2/fabrictailor-1.9.0%2B1.18.2.jar"
+url = "https://cdn.modrinth.com/data/g8w1NapE/versions/vosWnCNv/fabrictailor-2.0.1.jar"
 hash-format = "sha1"
-hash = "161256f45043cfd8e5a488d3e882e9651caea304"
+hash = "9a8b5e66e7b5178278ec8866a55189013e34b4f6"
 
 [update]
 [update.modrinth]
 mod-id = "g8w1NapE"
-version = "kXTFGNDn"
+version = "vosWnCNv"

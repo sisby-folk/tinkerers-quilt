@@ -1,13 +1,13 @@
 name = "Farsight [Fabric]"
-filename = "farsight.fabric-1.18-1.9.jar"
+filename = "farsight-fabric-1.19-2.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c67b60eeef67c9acd69da7ac49e87cf324c4802c"
+hash = "115f5b8f43f1848cd94c7afde38bcd93a7cbdb9c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3778514
+file-id = 4017181
 project-id = 579192

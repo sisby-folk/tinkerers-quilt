@@ -1,13 +1,13 @@
 name = "Reacharound"
-filename = "reacharound+1.18-1.1.0.jar"
+filename = "reacharound+1.19-1.1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/r3VgI4QN/versions/1.1.0/reacharound%2B1.18-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/r3VgI4QN/versions/1.1.0%2B1.19/reacharound%2B1.19-1.1.0.jar"
 hash-format = "sha1"
-hash = "66b06336ec6aaa3f7649d5d4ef36647d8ac542c8"
+hash = "bd2b22f37799f2f5555de18e2c4c1ea6cc417d01"
 
 [update]
 [update.modrinth]
 mod-id = "r3VgI4QN"
-version = "E5rcVIcp"
+version = "CGv8fJaH"
