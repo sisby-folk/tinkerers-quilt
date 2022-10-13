@@ -1141,9 +1141,11 @@
 			description: [
 				"Boats allow you to move long distances over water without a hunger cost."
 				""
+				"Chests can also be added to boats to transport extra items."
+				""
 				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
 				""
-				"Filling a glass bottle while underwater will replenish 1 bubble."
+				"In this pack, filling a glass bottle while underwater will replenish 1 bubble."
 			]
 			id: "423E897DEB76653D"
 			tasks: [{
@@ -1456,9 +1458,9 @@
 			y: -10.5d
 			subtitle: "Swim 500 Blocks"
 			description: [
-			    "By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."
-			    ""
-			    "Name tags in this pack are craftable, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
+				"By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."
+				""
+				"Name tags in this pack are craftable, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1725,10 +1727,10 @@
 			y: -15.5d
 			subtitle: "Farm 64 Ice"
 			description: [
-			    "Ice can be farmed by creating a diagonal line of water source blocks covered with slabs, then enclosing the full square."
-			    ""
-			    "Ice will form everywhere but the covered line, and can be collected using a silk touch pickaxe."
-            ]
+				"Ice can be farmed by creating a diagonal line of water source blocks covered with slabs, then enclosing the full square."
+				""
+				"Ice will form everywhere but the covered line, and can be collected using a silk touch pickaxe."
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "1254376D14A00E56"
@@ -2848,6 +2850,8 @@
 				"Minecarts with chests can transport items long lateral distances in set batches, if a complex enough rail system is present. Hoppers below minecart chests will withdraw items."
 				""
 				"Pressure plates activated with items come in 3 different weight classes. Wooden pressure plates fully activate with one item, and weighted pressure plates slowly power every 1 or 10 items respectively."
+				""
+				"Allays (As explored in the exploration section) can also be bound to a note block. After it hears one, it will deposit its items there for the next 30 seconds."
 			]
 			dependencies: ["29358767A696B164"]
 			hide: true
@@ -2900,6 +2904,11 @@
 					id: "165279ED12C374FE"
 					type: "item"
 					item: "minecraft:heavy_weighted_pressure_plate"
+				}
+				{
+					id: "4481C1EB27086278"
+					type: "item"
+					item: "minecraft:note_block"
 				}
 			]
 		}

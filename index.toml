@@ -10,7 +10,7 @@ hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 
 [[files]]
 file = "config/apathy/boss.cfg"
-hash = "d667da0eea512367959c71ce936a7d584ae4aefa7d23d31b653a8f0f7121a826"
+hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
 
 [[files]]
 file = "config/apathy/general.cfg"
@@ -31,6 +31,10 @@ hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
 [[files]]
 file = "config/blanket_client-fixes.json"
 hash = "d10ce3f6169d35d2b7e09cefc5e6c2c77cc897690f11aac9fae62f1f3e1d637e"
+
+[[files]]
+file = "config/boring_default_game_rules/config.json"
+hash = "d470b8c9c401dfd6edb8c849c849200409cdafd0262b9aa3f86a58e894517ea4"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
@@ -74,7 +78,7 @@ hash = "afd3d5c1ec31a473d07192e3dcc58298faabad8c096f7f4606a8c4eb66320e6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "b14dbd73ca2940774834dd439a5209df1099b06a1d7b79cdeda0b5a169677b98"
+hash = "ffe3f6a7fa076378103696b9606c49fd661dfa35207888d6994e3738d860bc34"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -82,19 +86,19 @@ hash = "c859d0bdd9753b9529d688129e1a3a5fdab6ac57403783f5a81893870eb1c07d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "a43076a57dd386386c21a44b3b0b51addf4e308a08ec52478271472151301830"
+hash = "2853671d5b6a2dec38b3cdfba59f43d415adae5dee49b65c400b88dd1acba48e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "2bad8519aef12022147fd372c2ad27aaf79ebaea9abc921b598c04c66962c9cc"
+hash = "c5a02ffb3aa862fa8658d95502638fb9deed93acfd9bdb56caa11b09becf1585"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "41894f5cc4df8cbb6f9d53d3e8ee0709e3b33ab9b6bf4c306340d391de31a912"
+hash = "9846c59005e9540d53d2a6ecdaafae8b75fd2982832fbdfb2982a89e3d753ade"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "1ae794e86d458f94bf6943dd62babe3cc5f2d78ac18faeaab74aa3e1e72eee4f"
+hash = "ee66c8230a67ab0e7d5b7ba2d7281dc1258bfb7988286ea04ad414af7d91d189"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -117,8 +121,8 @@ file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
-file = "config/openloader/data/VanillaTweaks_c278482.zip"
-hash = "78b44b7661f2077b748e186cbe10800b897e7e203d1e180b3002f645f722014f"
+file = "config/openloader/data/VanillaTweaks_c667075.zip"
+hash = "c94d4d8f1f79fc0e498f7f58c886690bdc936d6fc950512edbc973610dddd166"
 
 [[files]]
 file = "config/openloader/data/tinkerers_copper_beacons/data/minecraft/tags/blocks/beacon_base_blocks.json"
@@ -185,8 +189,8 @@ file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
 hash = "0df24fa90df0ffc45f684d3e7945ef567c6e9be8530ca06e1f95812f811c9227"
 
 [[files]]
-file = "config/openloader/resources/VanillaTweaks_r458705.zip"
-hash = "1b1f2e7a153a4e4d17f00474cf5e3eefb25ff2e19caaad61b2ca8f8ec8badf83"
+file = "config/openloader/resources/VanillaTweaks_r324798.zip"
+hash = "1ad05a906caa427b3620b1d901af527eaa4eec9a8b5404faa28f0034009cfba8"
 
 [[files]]
 file = "config/openloader/resources/colored-axolotls.pw.toml"
@@ -422,6 +426,11 @@ metafile = true
 [[files]]
 file = "mods/blanket.pw.toml"
 hash = "b0f1f64f998f86fec1bbaf06eb39c08ea3c712b590170d3277e899a74f045c2f"
+metafile = true
+
+[[files]]
+file = "mods/boring-default-game-rules.pw.toml"
+hash = "ed2ff9d5b1fe04e1a599b825809b5ab2d729441650b3847222a342c3763a51cb"
 metafile = true
 
 [[files]]

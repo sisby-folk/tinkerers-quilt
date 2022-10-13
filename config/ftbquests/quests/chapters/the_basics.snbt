@@ -294,6 +294,7 @@
 			tasks: [{
 				id: "546CEA05C1DFDE9B"
 				type: "structure"
+				title: "Find a Stronghhold"
 				icon: "minecraft:mossy_stone_bricks"
 				structure: "minecraft:stronghold"
 			}]
@@ -647,6 +648,8 @@
 				"It's summoned using a T of soul sand, with 3 heads in a row above it."
 				""
 				"You'll probably need to make more of these potions."
+				""
+				"(On Easy, the wither fight is skipped entirely)"
 			]
 			dependencies: ["4048B08BA7BA39BE"]
 			hide: true
@@ -838,9 +841,7 @@
 			y: -2.5d
 			shape: "diamond"
 			subtitle: "Kill 10 Blazes"
-			description: [
-				"Blazes spawn from spawners around Nether Fortresses, in the nether."
-			]
+			description: ["Blazes spawn from spawners around Nether Fortresses, in the nether."]
 			optional: true
 			id: "6C5A4279D8850C52"
 			tasks: [{

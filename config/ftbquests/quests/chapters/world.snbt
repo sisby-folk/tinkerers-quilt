@@ -11,7 +11,7 @@
 		{
 			title: "Shivery!"
 			x: -8.0d
-			y: -9.0d
+			y: -9.5d
 			subtitle: "Visit a Snow Village"
 			description: [
 				"Illagers are a hostile faction of villagers, which hunt in small packs and gather at outposts."
@@ -391,7 +391,7 @@
 		{
 			title: "Send Stones"
 			x: -11.0d
-			y: -9.0d
+			y: -9.5d
 			subtitle: "Visit a Desert Village"
 			description: [
 				"Villagers are often attacked by zombies, who can Zombify them on harder difficulties. Zombified villagers can also spawn naturally."
@@ -524,7 +524,7 @@
 		{
 			title: "Plain and Simple"
 			x: -9.5d
-			y: -10.0d
+			y: -10.5d
 			subtitle: "Visit a Plains Village"
 			description: [
 				"Villages are full of Villagers! Who can be traded with using emeralds."
@@ -555,7 +555,7 @@
 		{
 			title: "High in the mountains"
 			x: -8.5d
-			y: -7.0d
+			y: -7.5d
 			subtitle: "Visit a Taiga Village"
 			description: [
 				"Villagers repopulate naturally by farming, but an appropriate amount of homes need to be present in the village."
@@ -584,7 +584,7 @@
 		{
 			title: "Madagascar 2"
 			x: -10.5d
-			y: -7.0d
+			y: -7.5d
 			subtitle: "Visit a Savannah Village"
 			description: [
 				"Every employed villager has a §oJob Site§r block. They can visit this block up to twice a day to restock their trades if one runs out."
@@ -615,7 +615,7 @@
 			title: "Well-Travelled"
 			icon: "minecraft:filled_map"
 			x: -9.5d
-			y: -8.5d
+			y: -9.0d
 			shape: "pentagon"
 			subtitle: "Visit every type of village"
 			description: [
@@ -848,6 +848,9 @@
 				"2393A9D50B18EEAE"
 				"28AFD314DDDE3FC4"
 				"01646EC056D18511"
+				"02D9B5C70D9D6007"
+				"50C5FC2ED5BF1A83"
+				"3E19CC5752F07CF9"
 			]
 			hide: true
 			id: "61E3A3B353DCD588"
@@ -987,7 +990,7 @@
 		}
 		{
 			title: "Coconut Gun"
-			x: -9.5d
+			x: -11.0d
 			y: -0.5d
 			subtitle: "Find a Bamboo Jungle"
 			description: [
@@ -1026,6 +1029,9 @@
 				"§oOutposts§r are structures defended and inhabited by many hostile Pillagers, including an §oOutpost Captain§r, who gives the player the §oBad Omen§r debuff (see: \"Shivery\" from village quests)"
 				""
 				"Outposts are a great source of Bad Omen, crossbows, and a fun challenge. Bring a shield!"
+				""
+				"Goat horns can also be found here."
+				""
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -1221,7 +1227,7 @@
 		}
 		{
 			title: "Fungal Wastes"
-			x: -11.0d
+			x: -8.0d
 			y: -0.5d
 			subtitle: "Find a Mushroom Island"
 			description: [
@@ -1333,7 +1339,7 @@
 		}
 		{
 			title: "Wisdom of Huu"
-			x: -8.0d
+			x: -10.0d
 			y: -0.5d
 			subtitle: "Find a Swamp"
 			description: [
@@ -1342,6 +1348,8 @@
 				"Lily Pads can be used to make decorative water bridges, with a similar thickness to a carpet."
 				""
 				"Slimes also spawn here, relying on the moon to be visible."
+				""
+				"Frogs that spawn here can swallow small magma cubes to produce Ochre froglights."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1354,11 +1362,19 @@
 				disable_toast: true
 				biome: "minecraft:swamp"
 			}]
-			rewards: [{
-				id: "0D44674F73BC9845"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "0D44674F73BC9845"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2ABF649EA43F4E91"
+					type: "item"
+					item: "minecraft:ochre_froglight"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Vampire Haven"
@@ -1539,6 +1555,8 @@
 				"It's also where Goats spawn! Goats are similar to cows, but are neutral mobs and can jump high and ram blocks."
 				""
 				"Slow falling potions can be used to make safe large descents!"
+				""
+				"When a goat rams a hard block, it can drop a horn, which can be played as an instrument."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1600,7 +1618,7 @@
 		{
 			title: "No, not \"Traitor\", I said-"
 			x: -9.5d
-			y: -11.5d
+			y: -12.0d
 			shape: "rsquare"
 			subtitle: "Talk to a Villager"
 			description: [
@@ -1623,6 +1641,166 @@
 				id: "309D1305F6D6CB17"
 				type: "item"
 				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Forgotten Depths"
+			x: -9.5d
+			y: 5.0d
+			subtitle: "Find an Ancient City"
+			description: [
+				"Ancient cities are full of hostile vibration-sensing organisms, and rare loot."
+				""
+				"Sculk sensors are able to detect vibrations, including the noise of (non-sneak) walking and interacting with blocks and items."
+				""
+				"These in turn can trigger sculk shriekers, which spawn near-unkillable wardens that have no vision, and blind players with their shriek."
+				""
+				"In this pack, wardens do not spawn by default, but this can be changed using the doWardenSpawning gamerule."
+				""
+				"On easy, wardens won't target the player, nor apply the darkness effect."
+				""
+				"Snowballs can be used to throw wardens off, by casting them into the distance."
+			]
+			dependencies: ["10CFFE20ABD36803"]
+			hide: true
+			id: "562E842E71B5725B"
+			tasks: [{
+				id: "1A15F24B8D29BF11"
+				type: "structure"
+				title: "Find an Ancient City"
+				icon: "minecraft:reinforced_deepslate"
+				disable_toast: true
+				structure: "minecraft:ancient_city"
+			}]
+			rewards: [
+				{
+					id: "58CDEF403BDAA4A6"
+					type: "item"
+					item: "minecraft:snowball"
+					count: 64
+				}
+				{
+					id: "662D33A4041DE8F2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:swift_sneak"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tidal Countermeasures"
+			x: -9.0d
+			y: -0.5d
+			subtitle: "Find a Mangrove Swamp"
+			description: [
+				"Mangrove Swamps are full of mud, warm frogs, water, and mangrove trees."
+				""
+				"Mud can be made into mud bricks by adding wheat and firing it."
+				""
+				"Mangrove wood is a deep red and can be used for crafting and decoration."
+				""
+				"Frogs that spawn here can swallow small magma cubes to produce Pearlescent Froglights."
+				""
+				"By bringing frogs into a snowy or frozen biome and breeding them with slimeballs, you can obtain cold frogs and Verdant froglights."
+			]
+			dependencies: ["789344ADD80A6FFA"]
+			id: "50C5FC2ED5BF1A83"
+			tasks: [{
+				id: "6D55CC4FAB9EC65D"
+				type: "biome"
+				icon: "minecraft:muddy_mangrove_roots"
+				disable_toast: true
+				biome: "minecraft:mangrove_swamp"
+			}]
+			rewards: [
+				{
+					id: "6416BB0F28D5AD5F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "428972B9E7817BEE"
+					type: "item"
+					item: "minecraft:pearlescent_froglight"
+					count: 8
+				}
+				{
+					id: "6BBA0D026A6A5055"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "What You Came For"
+			x: -9.5d
+			y: 6.5d
+			subtitle: "Acquire a Sculk Catalyst"
+			description: [
+				"Sculk catalysts allow sculk and sculk sensors to be renewed."
+				""
+				"Killing mobs near a sculk catalyst will transform surface blocks into sculk, and sculk into sculk sensors."
+				""
+				"Rarely, a skulk shrieker will spawn instead - these shriekers do not summon the warden or blind the player."
+			]
+			dependencies: ["562E842E71B5725B"]
+			id: "02D9B5C70D9D6007"
+			tasks: [{
+				id: "52CEA86A3AC221DF"
+				type: "item"
+				item: "minecraft:sculk_catalyst"
+			}]
+			rewards: [{
+				id: "6226F2DFFF989177"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:swift_sneak"
+							lvl: 2s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Fairy Prisoner"
+			x: -8.0d
+			y: -1.5d
+			subtitle: "Find an Allay"
+			description: [
+				"Allays can spawn in the prisons of mansions and outposts. "
+				""
+				"If given an item to hold, allays will follow the player, and collect dropped similar items from the ground and bring them to the player."
+				""
+				"If given an amethyst shard, an allay will become two allays."
+			]
+			dependencies: ["30EEC5B4C5178E93"]
+			id: "3E19CC5752F07CF9"
+			tasks: [{
+				id: "7EA19D8707F9C4EC"
+				type: "observation"
+				title: "Find an Allay"
+				icon: "minecraft:iron_bars"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:allay"
+			}]
+			rewards: [{
+				id: "12F3D951A36D61B1"
+				type: "item"
+				item: "minecraft:amethyst_shard"
 			}]
 		}
 	]
