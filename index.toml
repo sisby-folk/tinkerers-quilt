@@ -58,7 +58,7 @@ hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "ce06b62dc2b5a6f153754e5bef3b969ba6c86b5e4f276371039954b507bc867d"
+hash = "9cc015d7989c9d56b917aa20a80b35b885c2e2bee90743d0a67571c23f7027d3"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
@@ -436,7 +436,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-fixes.pw.toml"
-hash = "33f1adefd1785ac793c4e49f63c21aa5d4dc7457ca930676f9082b8c29aaf770"
+hash = "25eb272f5f04290914e0b4c7370cf0ee059ee11888c43b8fd2805aaafecfa39c"
 metafile = true
 
 [[files]]
@@ -496,7 +496,7 @@ metafile = true
 
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
-hash = "0355314f018f22647d064193322b542347958eb95e8aabe9302c9520e0ac2ce7"
+hash = "9974d9608f42b266c35a658f1ff1899f254a02d13def06c1ff9a6c2cf7a924a2"
 metafile = true
 
 [[files]]
@@ -533,10 +533,6 @@ metafile = true
 file = "mods/ebe.pw.toml"
 hash = "1358a0c7c2e0ca4efd804a38194d5bdd28f5f61869d5ba080df3ce50300c1f45"
 metafile = true
-
-[[files]]
-file = "mods/effective-1.3.jar"
-hash = "d7a16b7b8c6292a99f059702ab80b618820440fa8655fca7c716f0220fe0b672"
 
 [[files]]
 file = "mods/emi.pw.toml"
@@ -722,7 +718,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "7cc268ba8c316a732881e631e00db7cf8db0891f24155475db0a4e88840cdfe8"
+hash = "e65f669f804c27cdcd14d511b39caa2aefd24f9da23781214c6ab60ff10f604e"
 metafile = true
 
 [[files]]
