@@ -1754,6 +1754,7 @@
 				"Rarely, a skulk shrieker will spawn instead - these shriekers do not summon the warden or blind the player."
 			]
 			dependencies: ["562E842E71B5725B"]
+			hide: true
 			id: "02D9B5C70D9D6007"
 			tasks: [{
 				id: "52CEA86A3AC221DF"
@@ -1788,6 +1789,7 @@
 				"If given an amethyst shard, an allay will become two allays."
 			]
 			dependencies: ["30EEC5B4C5178E93"]
+			hide: true
 			id: "3E19CC5752F07CF9"
 			tasks: [{
 				id: "7EA19D8707F9C4EC"
