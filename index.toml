@@ -529,7 +529,7 @@ metafile = true
 
 [[files]]
 file = "mods/aileron.pw.toml"
-hash = "b10832eb6a578873b5485812bf74a93b0e0b3535bb735b639403dd6366d82148"
+hash = "6beca67b09effde6cb786550855e03f84aa16c89282a44251df922648d5f3620"
 metafile = true
 
 [[files]]
@@ -539,17 +539,13 @@ metafile = true
 
 [[files]]
 file = "mods/amplified-nether.pw.toml"
-hash = "a99688ffd36348fb95efe3340366dffdc63a62c83cc5eab46a815072553564f3"
+hash = "2e8a4921803a54bb9161d1120a5563efa746d3b11b180ff4a6a92e88837c574c"
 metafile = true
 
 [[files]]
 file = "mods/animatica.pw.toml"
 hash = "b494eb2872c5eb3c498e147be24a62e2c62485e375b9b99c15ae0faf8f9dd2ca"
 metafile = true
-
-[[files]]
-file = "mods/antiqueatlas-7.0.3-fabric-mc1.18.2.jar"
-hash = "c2092a861181aae0a65ca8aba554467e3bd14d91ecd1c35b80bb3422130eb11d"
 
 [[files]]
 file = "mods/apathy.pw.toml"
@@ -563,7 +559,7 @@ metafile = true
 
 [[files]]
 file = "mods/arch-ex.pw.toml"
-hash = "e44d0ff0c823e9df28cebce2562ea9086677357531c79ec47dd804699a42569f"
+hash = "f0e9dfb7405e8c7667a670f398a644ec17ac044dd5404ebe9cbf5aa5bfb907c4"
 metafile = true
 
 [[files]]
@@ -572,8 +568,9 @@ hash = "bc08ed290f7c076e8297b38f80af9694aa5972318ef29a99693a3e297b76f386"
 metafile = true
 
 [[files]]
-file = "mods/aurorasdecorations-1.0.0+1.18.jar"
-hash = "aebd6b22bfc34af7eabb2f5f0a3211451ef1c3e07d383571c544570386704477"
+file = "mods/aurorasdecorations.pw.toml"
+hash = "d6f8442e2e2884e4b4ae258109b351459e1aae45757537f7c3ef87bf804c954e"
+metafile = true
 
 [[files]]
 file = "mods/badpackets.pw.toml"
@@ -597,7 +594,7 @@ metafile = true
 
 [[files]]
 file = "mods/bits-and-chisels.pw.toml"
-hash = "1dea45a775887e68b1cafb587498dfa5514b3ea8d17ea58783920397f89ff7d7"
+hash = "e7d7b42cc3b56d79d18599f936742b711f849b372ca4b6106a5d00d624573d59"
 metafile = true
 
 [[files]]
@@ -637,7 +634,7 @@ metafile = true
 
 [[files]]
 file = "mods/chalk.pw.toml"
-hash = "9d964354c8312bf29747e4ad32fb3967f868b8ada1de92ed6b25742eb87ea3e8"
+hash = "776d8d4d93ed3052d46f77857707a09dfd77196b2e55de23455e2e4c81e36af9"
 metafile = true
 
 [[files]]
@@ -672,7 +669,7 @@ metafile = true
 
 [[files]]
 file = "mods/consistencyplus.pw.toml"
-hash = "cd9ea7fbf95e516cf697bec8537cd21b2e5f3cfda94c665ac17941279e903563"
+hash = "0a82c23063612bf1baf43934323d8fca8dd23ddc2dc0a3db968f72d14b99e887"
 metafile = true
 
 [[files]]
@@ -707,7 +704,7 @@ metafile = true
 
 [[files]]
 file = "mods/dawn.pw.toml"
-hash = "b60fc5c154d6ca0e07406638d53bfbaa751e3ef517ff553fcec8543847844728"
+hash = "4a13d096e82525f8cd4eb0e8c14f43929d11d7d8b54d7d34a981f7ac29614699"
 metafile = true
 
 [[files]]
@@ -737,7 +734,7 @@ metafile = true
 
 [[files]]
 file = "mods/earth2java.pw.toml"
-hash = "82e315b100b9ce182fc67e7b0a2bdde3f6807efbf5b33e4970f2c6abc3bbcf61"
+hash = "7b08bf0757ccb5b0dcbb20a37c8bd16d6a5f4a8f87b5615da901e28e779d421d"
 metafile = true
 
 [[files]]
@@ -772,7 +769,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-seasons.pw.toml"
-hash = "33f3369dd4d55040c994446eb5090532bfed2a4861bab50de193befd5430ce9e"
+hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
 metafile = true
 
 [[files]]
@@ -797,7 +794,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "6a4cff36e9fd0cf82d0e703ad2289315fcfaa0cc59cd667b8821d4b3ff9d276d"
+hash = "578ff9c4a911659805cc838b936a2cba1a14bb54ff911a7771a112544599988c"
 metafile = true
 
 [[files]]
@@ -851,12 +848,12 @@ metafile = true
 
 [[files]]
 file = "mods/fwaystones.pw.toml"
-hash = "1c664e463bb0e1c63285620539622a2253cdcb35d1042514add8ce040c6c3cd2"
+hash = "01229cc90ed07c223690033b98bd1cd3d04929c8e059a194cc50ebca8c3ca3f4"
 metafile = true
 
 [[files]]
 file = "mods/half-doors.pw.toml"
-hash = "933bae280bc8e1d572b3052f7912aa50929bc7e30be6a774bee0aba678babdc3"
+hash = "fd34910c7292b2b48bb57c2b348c968cf5ea58f7c19683bf662ef801d167e233"
 metafile = true
 
 [[files]]
@@ -959,7 +956,7 @@ metafile = true
 
 [[files]]
 file = "mods/lovely_snails.pw.toml"
-hash = "cea7e57f790cde53db4a76005bca2079df37fcb43df16961fbc6b2e116100b9c"
+hash = "afdc2fafab3adf523bd090b86a2216828e1d0171b69d8bd835ec050fd9853ce4"
 metafile = true
 
 [[files]]
@@ -969,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/mealapi.pw.toml"
-hash = "e647a60b9fde4189fee9c7de55af223de32df83f20818491e94180086d1969b8"
+hash = "52e30de45d677c864cca9b37357b7b9d16d73947d21f8ecba2df705f820fdb99"
 metafile = true
 
 [[files]]
@@ -994,12 +991,12 @@ metafile = true
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
-hash = "030b818f7aa75596fe5c0a04b15c66dc0531c79aee5820a30379cc5af77ee46d"
+hash = "525ad62238789b624a578c329bf6f8e04160055b107527b3f75471c41dd164a9"
 metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.pw.toml"
-hash = "b7186cd7f2b8a8226a9dd9b674ddeb1ebad458ec1025096f9fc9045e27a99c74"
+hash = "595a54e070492982b80153ddee402dc02000be6efa79e250e1b64e296e43e764"
 metafile = true
 
 [[files]]
@@ -1054,7 +1051,7 @@ metafile = true
 
 [[files]]
 file = "mods/polaroidcamera.pw.toml"
-hash = "94ddc7c677a9e69c7bc5fbdaf94b670486301bf8c0c1e38976fdc4a5b0e12abe"
+hash = "2a9d260548a28020b41f792f3417942a5262c716d4773bd8b12c3499c728a2a9"
 metafile = true
 
 [[files]]
@@ -1074,7 +1071,7 @@ metafile = true
 
 [[files]]
 file = "mods/promenade.pw.toml"
-hash = "90c566f04f86546c14ac20a35e45c593a623b862d26e70ad64f3568b3029acb1"
+hash = "347ccf45370cce05e8341ae2c2ef987ad2af7b2763335943b1788fac6599fca8"
 metafile = true
 
 [[files]]
@@ -1119,12 +1116,12 @@ metafile = true
 
 [[files]]
 file = "mods/rusted-iron.pw.toml"
-hash = "40b4810b562c20a94c3ab171c17b02cb2b548d1f5b1e437a82d630611e7d47d1"
+hash = "479fbab5be512e0ec20b40a82b56564c76d270c1f84e04b34baf0a5ee4181c6d"
 metafile = true
 
 [[files]]
 file = "mods/sandwichable.pw.toml"
-hash = "da403a55fd88f2d2aeacec6de320b7c8fb5010a7de8b831414fb4933681c9f44"
+hash = "c14b24e13f6b88296b50a8e67ab249b7e89c826339859ac403363b0644e8bb70"
 metafile = true
 
 [[files]]
@@ -1179,12 +1176,12 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender-fabric.pw.toml"
-hash = "32a91a3014d6ebbd94bfd3b72f2381f0ee079a8e83b0f7d4e66e1a955e32c528"
+hash = "8f4f5c380887799f3510707af953467cac53a6c18ee45e30782c3306cc64f4b5"
 metafile = true
 
 [[files]]
 file = "mods/this-rocks.pw.toml"
-hash = "ba4c85d3c6da8cd0ea27bae046c59a39009b1c703af0a9ace73cf9a4164b2dfe"
+hash = "5c15843fb95af5c160b29de253eaaf8b1c3cd91b77a7218d4f0c7b5993e3a833"
 metafile = true
 
 [[files]]
@@ -1224,7 +1221,7 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
-hash = "49f5590e6160266691eaca6948b33a3a2763e590ed4bcf90189f13650066c84e"
+hash = "842711b0a1baa2fc6bd2ef6c1953c735f68e73c6b7a13dee723851feb183349c"
 metafile = true
 
 [[files]]
@@ -1234,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal_ores.pw.toml"
-hash = "7707e35d0bf49e11a3a4cf3a3039bf33c1a839178b9bd50f1366fff07726ef15"
+hash = "377f9bb0ff4133e639b9017434cb8ad9bd0af6c9eef4366de04764ab755dc688"
 metafile = true
 
 [[files]]
