@@ -155,31 +155,6 @@
 			}]
 		}
 		{
-			title: "Overweight Farming"
-			icon: "overweight_farming:overweight_carrot_block"
-			x: 0.5d
-			y: 3.0d
-			shape: "square"
-			subtitle: "Produce Fair"
-			description: [
-				"Crops have a chance to grow into rare full-block versions."
-				""
-				"They can be picked up by hand, and if broken with a hoe, they'll drop many of their base crop."
-				""
-				"Oversized apples will also grow on trees."
-				""
-				"Oversized crops can usually be peeled with an axe before being broken, yielding vegetable peel for compost (or pigs)"
-				""
-				"Oversized potatoes can be baked whole over a campfire."
-			]
-			id: "7E77D5D464D48646"
-			tasks: [{
-				id: "6E584C468E3B5070"
-				type: "checkmark"
-				title: "Click Here!"
-			}]
-		}
-		{
 			title: "Fabric Seasons"
 			icon: "seasons:season_calendar"
 			x: 0.0d
@@ -310,21 +285,6 @@
 			id: "0AD85E63BAC294C1"
 			tasks: [{
 				id: "4697D470FCDD5598"
-				type: "checkmark"
-				title: "Click Here!"
-			}]
-		}
-		{
-			title: "Kiln"
-			icon: "kiln:kiln"
-			x: -3.0d
-			y: 3.0d
-			shape: "square"
-			subtitle: "Gap-Filling"
-			description: ["Kiln adds a kiln! which smelts various rocks faster - most things that can't be processed in a smoker or blast furnace"]
-			id: "3F65860EE674D635"
-			tasks: [{
-				id: "2B6E9132447BF25A"
 				type: "checkmark"
 				title: "Click Here!"
 			}]
