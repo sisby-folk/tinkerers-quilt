@@ -1712,6 +1712,7 @@
 				"By bringing frogs into a snowy or frozen biome and breeding them with slimeballs, you can obtain cold frogs and Verdant froglights."
 			]
 			dependencies: ["789344ADD80A6FFA"]
+			hide: true
 			id: "50C5FC2ED5BF1A83"
 			tasks: [{
 				id: "6D55CC4FAB9EC65D"
