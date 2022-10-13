@@ -1,13 +1,13 @@
 name = "Colormatic"
-filename = "colormatic-3.1.2-pre.fix+mc.1.18.2.jar"
+filename = "colormatic-3.1.2+mc.1.19.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/V4IQxkZC/versions/xI7F43eN/colormatic-3.1.2-pre.fix%2Bmc.1.18.2.jar"
+url = "https://cdn.modrinth.com/data/V4IQxkZC/versions/3.1.2/colormatic-3.1.2%2Bmc.1.19.jar"
 hash-format = "sha1"
-hash = "84fe9aea2b9451123fffbb74813c9f507513b3bc"
+hash = "7524e70ccf9968d14aadbeca03cd0ec226c04054"
 
 [update]
 [update.modrinth]
 mod-id = "V4IQxkZC"
-version = "xI7F43eN"
+version = "IcIVUUIc"

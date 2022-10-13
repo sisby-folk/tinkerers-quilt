@@ -1,17 +1,16 @@
 name = "Charmonium"
-filename = "charmonium-fabric-1.18.2-4.1.0.jar"
+filename = "charmonium-fabric-1.19.2-4.2.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/bpii4Xsa/versions/4.1.0+1.18.2/charmonium-fabric-1.18.2-4.1.0.jar"
+url = "https://cdn.modrinth.com/data/bpii4Xsa/versions/qgncfSZo/charmonium-fabric-1.19.2-4.2.1.jar"
 hash-format = "sha1"
-hash = "4b8568ff73b81e4c9c3b23653e2339c86c38e7be"
-mode = ""
+hash = "ee55ee2303178233c065a374a4a9ca8108798b81"
 
 [update]
 [update.modrinth]
 mod-id = "bpii4Xsa"
-version = "rzkLIRCX"
+version = "qgncfSZo"
 
 [option]
 optional = false

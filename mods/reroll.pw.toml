@@ -1,13 +1,13 @@
 name = "Reroll"
-filename = "reroll-1.5.0-1.18.2.jar"
+filename = "reroll-1.6.0-1.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "42454245dcd2c50b8b228d28ac66f75e98d04aeb"
+hash = "16937dbe995fffa9bbcf4dd4f2cbd5fe836a6847"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3807736
+file-id = 3932226
 project-id = 401753
