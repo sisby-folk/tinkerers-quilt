@@ -2382,6 +2382,10 @@
 									id: "minecraft:unbreaking"
 									lvl: 3s
 								}
+								{
+									id: "minecraft:swift_sneak"
+									lvl: 4s
+								}
 							]
 							Damage: 0
 							display: {
