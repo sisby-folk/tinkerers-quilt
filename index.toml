@@ -209,8 +209,8 @@ file = "config/naturescompass.json"
 hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
 [[files]]
-file = "config/openloader/data/Towers_Of_The_Wild_Reworked_v3.0.0_Fabric_Waystones.zip"
-hash = "11308ea756b33a4b3d23e4c71e81ccb47d55a207f3212f2b6e732980e64cf425"
+file = "config/openloader/data/Towers_Of_The_Wild_Reworked_v4.0.2_Fabric_Waystones.zip"
+hash = "ea056a272ca794ba9cdb86fa3a6dad302b2e2d6cd8dcaeb0324590b2e4753e18"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c667075.zip"
@@ -1102,11 +1102,6 @@ metafile = true
 [[files]]
 file = "mods/rusted-iron.pw.toml"
 hash = "479fbab5be512e0ec20b40a82b56564c76d270c1f84e04b34baf0a5ee4181c6d"
-metafile = true
-
-[[files]]
-file = "mods/sandwichable.pw.toml"
-hash = "c14b24e13f6b88296b50a8e67ab249b7e89c826339859ac403363b0644e8bb70"
 metafile = true
 
 [[files]]
