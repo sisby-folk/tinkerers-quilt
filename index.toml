@@ -608,11 +608,6 @@ hash = "ed2ff9d5b1fe04e1a599b825809b5ab2d729441650b3847222a342c3763a51cb"
 metafile = true
 
 [[files]]
-file = "mods/campanion.pw.toml"
-hash = "8d3de765ffa83b0499e328dbd1827e35c2a9f88c11cdc09ba1f4efe7d68f531f"
-metafile = true
-
-[[files]]
 file = "mods/cardinalboats.pw.toml"
 hash = "8542b06b8be9d23a827f66caeb0adb8c33c8ad964491696ec3d9981fd75c0fe2"
 metafile = true
@@ -764,7 +759,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "dfebd8072576c75a939f56cab83cabdf3c5828da7cdb814e97c272e6c0b8d006"
+hash = "6058946b7fb51a487cfdf61cba87562eda75ee38ebb16ae336c26fb24dd17c26"
 metafile = true
 
 [[files]]
@@ -868,7 +863,7 @@ metafile = true
 
 [[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
-hash = "d3e7034da8c54620cca3c3e5a8fd446651024429f6aa1a1949ddd57218a1a71e"
+hash = "f27076de103e5d4a88179c6ff8e88b7e16c6eea6995cf0e616f36635ea71028b"
 metafile = true
 
 [[files]]
@@ -1030,6 +1025,11 @@ hash = "553207c460a750a9b7777eec24b54cfb748c964064714b7b0ed1691953c01b49"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "507bc64b94ff03432f5e061318fe9d6765d6fd66b3075e91d209e023f08f60f7"
+metafile = true
+
+[[files]]
 file = "mods/pehkui.pw.toml"
 hash = "4c51026ac95600af08a5b1f1d2a380609d0e74f374ce38cfd30e9dbead294838"
 metafile = true
@@ -1060,18 +1060,13 @@ hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
 metafile = true
 
 [[files]]
-file = "mods/promenade.pw.toml"
-hash = "347ccf45370cce05e8341ae2c2ef987ad2af7b2763335943b1788fac6599fca8"
-metafile = true
-
-[[files]]
 file = "mods/puzzle.pw.toml"
 hash = "48aefe7fedf925380793a244646e6449cf3f5aebeeb651b09ab86d6638e8b0c1"
 metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "444b971fddab0efe0951c74ca8b57e2702243cf6b7b444ad44ee658701be999e"
+hash = "94efc39999a8d747a24d70d2e9e49d5c0d2bec1200b8ec96f3cff56ff34316fc"
 metafile = true
 
 [[files]]
@@ -1165,11 +1160,6 @@ hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
 metafile = true
 
 [[files]]
-file = "mods/terrablender-fabric.pw.toml"
-hash = "8f4f5c380887799f3510707af953467cac53a6c18ee45e30782c3306cc64f4b5"
-metafile = true
-
-[[files]]
 file = "mods/this-rocks.pw.toml"
 hash = "5c15843fb95af5c160b29de253eaaf8b1c3cd91b77a7218d4f0c7b5993e3a833"
 metafile = true
@@ -1206,7 +1196,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-titles-fabric.pw.toml"
-hash = "06e67496f26ce72320a5ed6ee106171cfe28ad0674b89499307d5cef6d6ac199"
+hash = "8e5d229fa73a79da639899056083d07aa6eb573d09894311a48d3d3f3b859370"
 metafile = true
 
 [[files]]
@@ -1241,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "6affae9c080ef11b6ca83d4a689c55cff8a65eca3403119e330e3a88801482c4"
+hash = "b0edd73a7a58bd592f67d61083db20ea896dbbdd79c1c410efe0c692b3bcfc08"
 metafile = true
 
 [[files]]
@@ -1261,37 +1251,37 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api-fabric.pw.toml"
-hash = "b5e74fec582f1dc10fda86a3c41c00821f15471285c2570c7c9ace3316a438be"
+hash = "6b51db1998ea70fabe6bf59c18a563dcf9d8b8423c98bfdbc02136ff510c892c"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-desert-temples-fabric.pw.toml"
-hash = "25e787d94b83fcb4bfb327c61f731b15ae85fdb56339467c63c48bc8db0a524e"
+hash = "1469f6544880a7c8962d4e277f3c00f54ec08a3bdb20ddeb9e11a8a36d839021"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-dungeons-fabric.pw.toml"
-hash = "155eda7a63a53cce08924e9f9c64aa505b5d7a848f1a592e7ec061154012115d"
+hash = "6b98f78113cddfd12400b0e981de0a3c427ca9db42a11d6d438ed728133a790c"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-mineshafts-fabric.pw.toml"
-hash = "7eb509430f5866b8ebfef43e21cd4b9a73cf6056d18b0cf2cb4ae3cb884dfe06"
+hash = "17d172d8eba1234a2eeb7569b080ff17424f2aeee6b2949f9498230f1c71bca9"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-strongholds-fabric.pw.toml"
-hash = "ddb9cf5438bf572b458b64eafcddfb42fb9f719b8cb4bf07412d8da73eb72ce6"
+hash = "f226c76915922eff0167fac761a4961576cb4ea0159871c4796813c93511073a"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-witch-huts-fabric.pw.toml"
-hash = "8bcd6a559fe83e7639a8d0b716043be1dad66f3bdc7994602c94fb840c304b31"
+hash = "e217989faf390b38782c83f9ef1002a95a69c37754d975833b69fcc843b7eeef"
 metafile = true
 
 [[files]]
 file = "mods/yungs-extras-fabric.pw.toml"
-hash = "43def9ff7e9948695c694d2395f21254fa857d50a4f8bd6f8c40ebd96655769e"
+hash = "b2b5c11320601e1bccb196404515ad8f6b35ccb6db508db785806d483b71085b"
 metafile = true
 
 [[files]]
