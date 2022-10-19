@@ -450,7 +450,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "4a7dc34ea75dda18719bdcee7fdb23a48c53142b57df960ffffbca652fc6b95a"
+hash = "3d89448c7689702ee772d9d1a5119dc7f47facdf8adf0d780804fda257d6671a"
 metafile = true
 
 [[files]]
@@ -529,11 +529,6 @@ hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-view-fabric.pw.toml"
-hash = "22f1f415957d7a8da76dffe5c785d182cb4b2d4daf41c8a51b989fc056d50cbe"
-metafile = true
-
-[[files]]
 file = "mods/ears.pw.toml"
 hash = "bd52ab27068961afc53efd50c527302775b87fb176d10779e0d6a0428dcc51e4"
 metafile = true
@@ -565,7 +560,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "dfebd8072576c75a939f56cab83cabdf3c5828da7cdb814e97c272e6c0b8d006"
+hash = "6058946b7fb51a487cfdf61cba87562eda75ee38ebb16ae336c26fb24dd17c26"
 metafile = true
 
 [[files]]
@@ -586,11 +581,6 @@ metafile = true
 [[files]]
 file = "mods/fallingleaves.pw.toml"
 hash = "f0a1c212e68166b823a68080b32fd27d772fe87d533409fc0feb35a5c4c2093e"
-metafile = true
-
-[[files]]
-file = "mods/farsight-fabric.pw.toml"
-hash = "a3e6e3ca4bc77e667197c856c5f4c9d739bf6a54a0fd6001061543c3898fbf02"
 metafile = true
 
 [[files]]
@@ -649,7 +639,7 @@ metafile = true
 
 [[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
-hash = "d3e7034da8c54620cca3c3e5a8fd446651024429f6aa1a1949ddd57218a1a71e"
+hash = "f27076de103e5d4a88179c6ff8e88b7e16c6eea6995cf0e616f36635ea71028b"
 metafile = true
 
 [[files]]
@@ -827,7 +817,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "444b971fddab0efe0951c74ca8b57e2702243cf6b7b444ad44ee658701be999e"
+hash = "94efc39999a8d747a24d70d2e9e49d5c0d2bec1200b8ec96f3cff56ff34316fc"
 metafile = true
 
 [[files]]
@@ -962,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "6affae9c080ef11b6ca83d4a689c55cff8a65eca3403119e330e3a88801482c4"
+hash = "b0edd73a7a58bd592f67d61083db20ea896dbbdd79c1c410efe0c692b3bcfc08"
 metafile = true
 
 [[files]]
