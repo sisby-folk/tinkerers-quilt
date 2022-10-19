@@ -688,7 +688,7 @@ metafile = true
 
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
-hash = "0355314f018f22647d064193322b542347958eb95e8aabe9302c9520e0ac2ce7"
+hash = "548abab7fb21936da1465acdcb2b33e0ad6816c42ab695d9b0fa25d5d08b16fe"
 metafile = true
 
 [[files]]
@@ -714,11 +714,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "895af62871364c14a635aa674074ab0e5dc88fa41eb6a60bdab075feb106a6fe"
-metafile = true
-
-[[files]]
-file = "mods/dynamic-view-fabric.pw.toml"
-hash = "685850cd7d55ca8ff8feb375342adef44e35f2fdff84a6b54f976cfb374bf8ef"
 metafile = true
 
 [[files]]
@@ -763,7 +758,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "dfebd8072576c75a939f56cab83cabdf3c5828da7cdb814e97c272e6c0b8d006"
+hash = "6058946b7fb51a487cfdf61cba87562eda75ee38ebb16ae336c26fb24dd17c26"
 metafile = true
 
 [[files]]
@@ -794,11 +789,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "6a4cff36e9fd0cf82d0e703ad2289315fcfaa0cc59cd667b8821d4b3ff9d276d"
-metafile = true
-
-[[files]]
-file = "mods/farsight-fabric.pw.toml"
-hash = "2a7ee2fc40368d86e59563d23228118d8a3004f97ffc0c081062e77f41a6f532"
 metafile = true
 
 [[files]]
@@ -1174,7 +1164,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "f35f762f88a44437562ed489e2e7fbed72c2e8f833a4e38da927074e205b2156"
+hash = "d836cda33e7339335e220a8e23d1e21cd58a4d535292669c76bda608e2b54c50"
 metafile = true
 
 [[files]]
