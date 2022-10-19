@@ -178,7 +178,7 @@ hash = "9846c59005e9540d53d2a6ecdaafae8b75fd2982832fbdfb2982a89e3d753ade"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "c6a97393650ff94f1118aa32a4c7bb79496e755031267edc9fcc4be7952601da"
+hash = "e0585076b0bb1fec0184a1d08a4cd876859a3261a48a6d7e6567e2af9ed3825a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -624,7 +624,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "4a7dc34ea75dda18719bdcee7fdb23a48c53142b57df960ffffbca652fc6b95a"
+hash = "3d89448c7689702ee772d9d1a5119dc7f47facdf8adf0d780804fda257d6671a"
 metafile = true
 
 [[files]]
@@ -718,11 +718,6 @@ hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-view-fabric.pw.toml"
-hash = "22f1f415957d7a8da76dffe5c785d182cb4b2d4daf41c8a51b989fc056d50cbe"
-metafile = true
-
-[[files]]
 file = "mods/ears.pw.toml"
 hash = "bd52ab27068961afc53efd50c527302775b87fb176d10779e0d6a0428dcc51e4"
 metafile = true
@@ -790,11 +785,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "578ff9c4a911659805cc838b936a2cba1a14bb54ff911a7771a112544599988c"
-metafile = true
-
-[[files]]
-file = "mods/farsight-fabric.pw.toml"
-hash = "a3e6e3ca4bc77e667197c856c5f4c9d739bf6a54a0fd6001061543c3898fbf02"
 metafile = true
 
 [[files]]
