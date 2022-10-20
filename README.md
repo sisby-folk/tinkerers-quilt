@@ -153,14 +153,14 @@ Letting players express themselves with player customisation, builds, and even t
 # Installation
 
 ### **Players**
-- Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
+- Install [Prism Launcher](https://prismlauncher.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
 
-    - Alternatively, run `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
-    - [MultiMC](https://multimc.org/) is also supported on its _development_ branch. Swap to this in `settings-> launcher` and restart.
+    - Alternatively, run `winget install "Prism Launcher"` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
+    - [MultiMC](https://multimc.org/) is also supported.
 
 - Download [Tinkerer's Quilt](https://sisby-folk.github.io/mc-packs/).
 
-- Drag and drop onto an open PolyMC/MultiMC window, press OK, and double click it to play!
+- Drag and drop onto an open Prism/MultiMC window, press OK, and double click it to play!
 
     - When prompted for optional mods, press OK to continue, or customise to your liking first.
 
@@ -395,9 +395,8 @@ Homebrew Data Packs:
 
 We're working on some companion editions to release... eventually. Currently hosted builds are for testers.
 
-**Base** is designed to allow more experienced players to add extra mods.     
-**Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
-The rest of this document focuses on Base, so here's a quick breakdown:
+The base version is designed to allow more experienced players to add extra mods.            
+**Plus** and **Modded** is simply us doing exactly that - to our own tastes!
 
 - [WIP] **Plus** is a Vanilla+ extension of base.
     - Plus adds mods that expand on the **Godseeking** fields from base:
