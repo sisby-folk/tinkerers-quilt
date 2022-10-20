@@ -545,11 +545,6 @@ hash = "0ad7e183c4b803999a0f45b67a63c32e6638a3f1b33e8a659ad0ca08651caecd"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "1e3d4b62d2b1224356261ca5f9aece724ed2cc6c8f31c77d64867e6bc173ee9d"
-metafile = true
-
-[[files]]
 file = "mods/extended-clouds.pw.toml"
 hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
 metafile = true
