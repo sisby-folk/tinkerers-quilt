@@ -153,14 +153,14 @@ Letting players express themselves with player customisation, builds, and even t
 # Installation
 
 ### **Players**
-- Install [PolyMC](https://polymc.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
+- Install [Prism Launcher](https://prismlauncher.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
 
-    - Alternatively, run `winget install polymc` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
-    - [MultiMC](https://multimc.org/) is also supported on its _development_ branch. Swap to this in `settings-> launcher` and restart.
+    - Alternatively, run `winget install "Prism Launcher"` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
+    - [MultiMC](https://multimc.org/) is also supported.
 
 - Download [Tinkerer's Quilt](https://sisby-folk.github.io/mc-packs/).
 
-- Drag and drop onto an open PolyMC/MultiMC window, press OK, and double click it to play!
+- Drag and drop onto an open Prism/MultiMC window, press OK, and double click it to play!
 
     - When prompted for optional mods, press OK to continue, or customise to your liking first.
 
