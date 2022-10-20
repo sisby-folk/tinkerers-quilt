@@ -999,6 +999,11 @@ hash = "a067a3a38a6df8bf4440edc13ad29e22adf31041858c4fc4aee991c0f0e87263"
 metafile = true
 
 [[files]]
+file = "mods/noteable.pw.toml"
+hash = "592c55c0d9da9b41f5cf192acec42d5935d6ca79c5a961a038ad8ebafc24a0c8"
+metafile = true
+
+[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
 metafile = true
