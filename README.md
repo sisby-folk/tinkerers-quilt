@@ -395,9 +395,8 @@ Homebrew Data Packs:
 
 We're working on some companion editions to release... eventually. Currently hosted builds are for testers.
 
-**Base** is designed to allow more experienced players to add extra mods.     
-**Plus** and **Modded** is simply us doing exactly that - to our own tastes!    
-The rest of this document focuses on Base, so here's a quick breakdown:
+The base version is designed to allow more experienced players to add extra mods.            
+**Plus** and **Modded** is simply us doing exactly that - to our own tastes!
 
 - [WIP] **Plus** is a Vanilla+ extension of base.
     - Plus adds mods that expand on the **Godseeking** fields from base:
