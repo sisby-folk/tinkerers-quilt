@@ -265,6 +265,10 @@ file = "config/yigd.toml"
 hash = "0a56ec859d343f2a61bba93673be4c2650b15b436fcfd5e4f4e7ec29847770cd"
 
 [[files]]
+file = "config/yosbr/DistantHorizons.toml"
+hash = "30a3a0014b186c2837804b19d738b89d2cc7d79667985e4d4be78d47b56ca724"
+
+[[files]]
 file = "config/yosbr/config/charmonium.toml"
 hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
@@ -506,6 +510,11 @@ metafile = true
 [[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "c1995ba4987f9040e3e05d1e2e923d689851d58a5d6f8861d244d25a962555b1"
 metafile = true
 
 [[files]]
@@ -873,6 +882,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0c83c344046d0b96fd7dcd9e5c98c44caa3d307126d502f202dba50855304fb9"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "b55d9d1ea5b5cadde5973123c0c644065f905afff5ea8d3d24c6d6564a7470cd"
 metafile = true
 
 [[files]]
