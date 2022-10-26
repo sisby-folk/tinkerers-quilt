@@ -11,3 +11,8 @@ hash = "d75794cebcc526029a061db66cc9ba4a325f72ef"
 [update.modrinth]
 mod-id = "SRvY3a39"
 version = "jsIOD5F0"
+
+[option]
+optional = true
+default = false
+description = "Procluded By: Distant Horizons. Extends cloud distance."

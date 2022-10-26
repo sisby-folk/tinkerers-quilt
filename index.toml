@@ -707,6 +707,11 @@ hash = "4a13d096e82525f8cd4eb0e8c14f43929d11d7d8b54d7d34a981f7ac29614699"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "2530db648817eaf503002f7843f34d88bd697c0bbd031366c3a5c647f73d68b9"
+metafile = true
+
+[[files]]
 file = "mods/drogtor.pw.toml"
 hash = "6aac65adbbc8fba3a165b7207758ce133ff294dc1a0c111b66d22ca3362c310c"
 metafile = true
@@ -753,7 +758,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-clouds.pw.toml"
-hash = "fd1a17c3c9bc86f02d79c9e45299e53b5354cf523f160f874f8c78c4d129e91b"
+hash = "5210d39385a71241c916c40df969d3adb2ac03b76c5575a4d58e41f89f3dba45"
 metafile = true
 
 [[files]]
@@ -1105,7 +1110,7 @@ metafile = true
 
 [[files]]
 file = "mods/simplefog.pw.toml"
-hash = "0ea95321406c3c53fefcc28eb4a7a0beb8cd70323669d2855aaa749a85d547f7"
+hash = "a30f559b6cf2f684f872d59513e678b547d0c98c56cc887b3c90da0fd2c045c4"
 metafile = true
 
 [[files]]
@@ -1121,6 +1126,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "bd6e0c6fed890533739f8aada0d6ea3baba414001d829e6776bbad536f63a04d"
 metafile = true
 
 [[files]]
@@ -1205,7 +1215,7 @@ metafile = true
 
 [[files]]
 file = "mods/true-darkness.pw.toml"
-hash = "582abf1ab542167a5f9fd4eb3165867452e931833ca358c06a37d44a8b26cdfc"
+hash = "058c6e952192ae949e17268a5668bd4eea0a3f094792f04edc20f03c60a1c6cb"
 metafile = true
 
 [[files]]
