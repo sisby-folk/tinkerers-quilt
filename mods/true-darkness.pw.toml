@@ -11,3 +11,8 @@ hash = "356d9aee6da885f79537ac86c2c5ca8fe4ff1938"
 [update.modrinth]
 mod-id = "Ja7zPEaN"
 version = "zjSKuhJ9"
+
+[option]
+optional = true
+default = false
+description = "Procluded By: Distant Horizons. Darkens the world."
