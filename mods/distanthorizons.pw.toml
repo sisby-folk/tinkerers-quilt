@@ -15,4 +15,4 @@ version = "8ctYpkCM"
 [option]
 optional = true
 default = true
-description = "A Level-of-Detail mod that dramatically increases view distance. Disable if you have issues."
+description = "A Level-of-Detail mod that dramatically increases view distance when shaders are disabled. Procludes other mods, disable if you have issues."
