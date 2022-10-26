@@ -1,0 +1,18 @@
+name = "Distant Horizons"
+filename = "DistantHorizons-1.6.5a-1.18.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uCdwusMi/versions/1.6.5a-1.18.2/DistantHorizons-1.6.5a-1.18.2.jar"
+hash-format = "sha1"
+hash = "f83771589e1e7696c93c43dd7b94bc054672a4da"
+
+[update]
+[update.modrinth]
+mod-id = "uCdwusMi"
+version = "8ctYpkCM"
+
+[option]
+optional = true
+default = true
+description = "A Level-of-Detail mod that dramatically increases view distance when shaders are disabled. Procludes other mods, disable if you have issues."

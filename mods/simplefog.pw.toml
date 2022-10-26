@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "Glp1bwYc"
 version = "ctBqF2kF"
+
+[option]
+optional = true
+default = false
+description = "Procluded By: Distant Horizons. Tweaks fog fade."

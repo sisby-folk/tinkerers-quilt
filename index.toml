@@ -410,6 +410,10 @@ file = "config/yigd.toml"
 hash = "0a56ec859d343f2a61bba93673be4c2650b15b436fcfd5e4f4e7ec29847770cd"
 
 [[files]]
+file = "config/yosbr/DistantHorizons.toml"
+hash = "30a3a0014b186c2837804b19d738b89d2cc7d79667985e4d4be78d47b56ca724"
+
+[[files]]
 file = "config/yosbr/config/charmonium.toml"
 hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
@@ -721,6 +725,11 @@ hash = "b60fc5c154d6ca0e07406638d53bfbaa751e3ef517ff553fcec8543847844728"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "6372dd7039add5f7b1c625ebf091d4aed555e22e80405489e100fadd2f4beb90"
+metafile = true
+
+[[files]]
 file = "mods/drogtor.pw.toml"
 hash = "d83acdf32bcae0c2751709ffaff41a07a7590ce52b3a2dcace95d9b159862e0c"
 metafile = true
@@ -772,7 +781,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-clouds.pw.toml"
-hash = "dd0905b3ca5fcffc9680217cb390ab187ef28eae006bee49d6ceafcfcf8f0db8"
+hash = "13352203a84a14c5dd8c7c8e1074e57500c7b0f8fc535ad04c141c2f09c166e0"
 metafile = true
 
 [[files]]
@@ -1144,7 +1153,7 @@ metafile = true
 
 [[files]]
 file = "mods/simplefog.pw.toml"
-hash = "afbd71d5fb7c1c001608a25a9c6b3b540713fd662524db7c43222ff6f50658c0"
+hash = "200104eddad2079cbe208d9e2efa42206278c2aa65469e25614a7d14bb26e3d8"
 metafile = true
 
 [[files]]
@@ -1165,6 +1174,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0c83c344046d0b96fd7dcd9e5c98c44caa3d307126d502f202dba50855304fb9"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "b55d9d1ea5b5cadde5973123c0c644065f905afff5ea8d3d24c6d6564a7470cd"
 metafile = true
 
 [[files]]
@@ -1254,7 +1268,7 @@ metafile = true
 
 [[files]]
 file = "mods/true-darkness.pw.toml"
-hash = "fc08346de3d1f134796e6b8a88470cfca55f610445e210e0fced2fd2caaff378"
+hash = "a625f5e28c0cb54a82984581969dc306e29e2f0055e485525e1f964226ea44ca"
 metafile = true
 
 [[files]]
