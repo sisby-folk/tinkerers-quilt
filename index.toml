@@ -197,8 +197,8 @@ file = "config/openloader/resources/VanillaTweaks_r324798.zip"
 hash = "1ad05a906caa427b3620b1d901af527eaa4eec9a8b5404faa28f0034009cfba8"
 
 [[files]]
-file = "config/openloader/resources/colored-axolotls.pw.toml"
-hash = "54f0328a05640f33fb87ce45b2bdd7a90c20128a50e9f620506fb3374b1e8aaf"
+file = "config/openloader/resources/axolotl-bucket-variants.pw.toml"
+hash = "354d92fe85bb206d48798ca66d6c02b669da3ad898edb8b5c5ee507b787ae48a"
 metafile = true
 
 [[files]]
@@ -897,6 +897,11 @@ metafile = true
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
 hash = "53bfdf1e3c3dd91d5bc972f2d2f3972c032b7461e4ae7699fbc2e5e6c3ac74b6"
+metafile = true
+
+[[files]]
+file = "mods/switchy-teleport.pw.toml"
+hash = "d85a7f5b754609ca50253ba2a1c54a766999c966d8b17fe90d1be2fd0bd3d251"
 metafile = true
 
 [[files]]
