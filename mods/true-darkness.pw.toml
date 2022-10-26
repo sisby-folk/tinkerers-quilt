@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "Ja7zPEaN"
 version = "Kf8pZbaq"
+
+[option]
+optional = true
+default = false
+description = "Procluded By: Distant Horizons. Darkens the world."
