@@ -1,13 +1,13 @@
 name = "Nbt Crafting"
-filename = "nbtcrafting-2.2.1+mc1.19.jar"
+filename = "nbtcrafting-2.2.2+mc1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/18ztUZP5/versions/AxncJfeX/nbtcrafting-2.2.1%2Bmc1.19.jar"
+url = "https://cdn.modrinth.com/data/18ztUZP5/versions/KFq5URA7/nbtcrafting-2.2.2%2Bmc1.19.jar"
 hash-format = "sha1"
-hash = "5479cb0f657bd1df4b41e4a4a2c7620c58d47b9e"
+hash = "9b09b654377d6605e6c620507a21a04aef46f1db"
 
 [update]
 [update.modrinth]
 mod-id = "18ztUZP5"
-version = "AxncJfeX"
+version = "KFq5URA7"
