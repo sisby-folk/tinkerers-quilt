@@ -290,8 +290,8 @@ file = "config/openloader/resources/VanillaTweaks_r458705.zip"
 hash = "1b1f2e7a153a4e4d17f00474cf5e3eefb25ff2e19caaad61b2ca8f8ec8badf83"
 
 [[files]]
-file = "config/openloader/resources/colored-axolotls.pw.toml"
-hash = "54f0328a05640f33fb87ce45b2bdd7a90c20128a50e9f620506fb3374b1e8aaf"
+file = "config/openloader/resources/axolotl-bucket-variants.pw.toml"
+hash = "354d92fe85bb206d48798ca66d6c02b669da3ad898edb8b5c5ee507b787ae48a"
 metafile = true
 
 [[files]]
@@ -308,7 +308,7 @@ hash = "a90f1ed3100bff6193f871f2b982f2534d068b01e11ed532c3a535de98db4a10"
 
 [[files]]
 file = "config/openloader/resources/sullys-peeves.pw.toml"
-hash = "89380cc7890f27b4da0485a417ca58874e390678a3b4f65d40e615fd8ff99394"
+hash = "c188ff1bbe47c9f1cca92294f8b41768061767d5b0b8a6303d0803a52fcd5bce"
 metafile = true
 
 [[files]]
@@ -568,7 +568,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "a010c1bde6ac0dba1ece21416d99525b0cd20ed23625cea5d04a734b024e200e"
+hash = "ccf1f3f81ce91c460704f8371e1a737343701eb5bd64d1937b18e26d5816b522"
 metafile = true
 
 [[files]]
@@ -772,7 +772,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "189fa134102bc5197bd7859d05aa78f617b2ccfffdfd4454059358fa99f2b40a"
+hash = "2a67d3c5e84eadc5904d75e6cec252b17d3cc58542bd1459cdae16db49aff3e4"
 metafile = true
 
 [[files]]
@@ -982,7 +982,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.pw.toml"
-hash = "059f72fe71d9ea3b46ef4f4526e84677d8a49c814d5e03ae5ae07c3897d0ac97"
+hash = "4460cef03194fb16d547090265fd0c75bdfed6ca80b9379921a984554eefb035"
 metafile = true
 
 [[files]]
@@ -1075,7 +1075,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "9eb9e6c57bf715f5f334d81f36594dd46ca232e5be889830c89b47927cadd821"
+hash = "28e5e8c3abc66a0d7497a392ae8d5adee2aac37139993ec355b49d1ff9f2006c"
 metafile = true
 
 [[files]]
@@ -1085,7 +1085,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "389f2d01e0f3417395d0ff8c9c7b267c8c0b1f2d67cb583a450a637bec8f3239"
+hash = "f0aecc782bd16cc5790f3f94112b3d08f8d6c44c82cbd815233df2a25d947106"
 metafile = true
 
 [[files]]
@@ -1104,7 +1104,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "9a63d62fbc2310528a2b770e9cab13830a819e2c88b5b51479c717a47f3ebf9a"
+hash = "51644ce8976f4bf4d0ed1c2b791466500aed4b174619ed78c394fe57ba4b8b75"
 metafile = true
 
 [[files]]
@@ -1163,6 +1163,11 @@ hash = "fe89f6bf7cc807cdfcee3aee51f4ad3511fd297ed63fc8583a204baa35a2e800"
 metafile = true
 
 [[files]]
+file = "mods/switchy-teleport.pw.toml"
+hash = "d85a7f5b754609ca50253ba2a1c54a766999c966d8b17fe90d1be2fd0bd3d251"
+metafile = true
+
+[[files]]
 file = "mods/switchy.pw.toml"
 hash = "d836cda33e7339335e220a8e23d1e21cd58a4d535292669c76bda608e2b54c50"
 metafile = true
@@ -1189,7 +1194,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "85daead173737a371d0773aae4a9a936ee84341eda3376ebbed7ebf650781f20"
+hash = "2b7a8332313fbb1c10fb01e9832c91f22d19e935d8050b373645d8408d9192a4"
 metafile = true
 
 [[files]]
@@ -1249,7 +1254,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "d51ce9092dd3eea3016cf6ebad6624cb3a6fb7a13b22571abd9f702da53d6cdd"
+hash = "c78ed024370e83d09df73b5eb722612a3f48d65005f47539fb383b9186a5532f"
 metafile = true
 
 [[files]]
