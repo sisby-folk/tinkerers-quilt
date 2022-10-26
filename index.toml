@@ -475,11 +475,11 @@ hash = "c5a1865fc07e60f0717a656548859478825ed38453934f13b4388c58fb9f2e19"
 
 [[files]]
 file = "config/yosbr/options.amecsapi.txt"
-hash = "857c03c3f2e9a2202aaf170d45c5cea9d6db5a4994e1db084bac008356b332a9"
+hash = "5754b54563386498776bf7484d9d8367926cae8951c539ccee4661feef25f1f5"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "6b8faa0260526ef4b34c97aa0ffdb131b00c785c62e5e9803c343e68d2a19bcb"
+hash = "ae69ee8cfb29ee4841eb59ccb5b20ccd5f232e37b4bc771005f85e5ae77ca3c4"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
@@ -990,8 +990,8 @@ hash = "f61810be98ef52436d3355ecfa4354bc47d142cbe9468fbd14415e5bc6d66125"
 metafile = true
 
 [[files]]
-file = "mods/mod-settings.pw.toml"
-hash = "f494cb48d6e1d8d5c3460a8f689d2b05b2a0a5cebe70a3f70a305ef620e4b860"
+file = "mods/modmenu.pw.toml"
+hash = "37b69a71c010cb7e4d10a84a7c0e44373566ddb19aaaf4428ff2bb9ade0692e1"
 metafile = true
 
 [[files]]
