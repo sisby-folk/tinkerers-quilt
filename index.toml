@@ -369,10 +369,6 @@ file = "enable_hooks.sh"
 hash = "9e5bea64c2ee7ec80b3f3f2f514dc36f5f0e27297415a19bd8a0759405730daf"
 
 [[files]]
-file = "mods/Calio-1.19-1.7.0.jar"
-hash = "e96df49e4069216c4d0c87fdb92799b95f5b8c30019cd4228324c5554ecdbe98"
-
-[[files]]
 file = "mods/accurate-maps.pw.toml"
 hash = "3ea92e4f977b25ffad6ffb8336ddeaabf38a6f72243aebc1b7b621da8fac7263"
 metafile = true
