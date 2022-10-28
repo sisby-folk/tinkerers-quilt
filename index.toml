@@ -57,6 +57,10 @@ file = "config/crunchy-crunchy-advancements.css"
 hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
+file = "config/custom-fog.json"
+hash = "8c75960caec8a4caed84b98cdcf089c020e48235c1b881ace537972b53db19ee"
+
+[[files]]
 file = "config/darkness.properties"
 hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
 
@@ -306,7 +310,7 @@ hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
-hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
+hash = "c75afc8309026837f49ca4b87a3bb68edf23774c8cfdbc1678c09fda06753be1"
 
 [[files]]
 file = "config/yosbr/config/styledplayerlist/config.json"
@@ -511,6 +515,11 @@ metafile = true
 [[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "c06e098c6d6eda6da4492e4a8dff1796e6081bbd30f487ffb89e1ed3c485e805"
+metafile = true
+
+[[files]]
+file = "mods/custom-fog.pw.toml"
+hash = "bfe39900ccd781b71054508ca6258909d5e788c4ad92d4b33d60aae4cb4d81fa"
 metafile = true
 
 [[files]]
@@ -858,11 +867,6 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "e14bf084e535dad715e03ef3a062c15c3b5480f44ae6e6bd9590a14d78cfe8c3"
-metafile = true
-
-[[files]]
-file = "mods/simplefog.pw.toml"
-hash = "a30f559b6cf2f684f872d59513e678b547d0c98c56cc887b3c90da0fd2c045c4"
 metafile = true
 
 [[files]]
