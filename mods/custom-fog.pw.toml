@@ -1,0 +1,18 @@
+name = "Custom Fog"
+filename = "custom-fog-2.2.0-1.18.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2JyZgJxC/versions/2.2.0/custom-fog-2.2.0-1.18.2.jar"
+hash-format = "sha1"
+hash = "0334afbfc40a11fdace2477551bd100b254ee3ec"
+
+[update]
+[update.modrinth]
+mod-id = "2JyZgJxC"
+version = "9gOCo4HV"
+
+[option]
+optional = true
+default = false
+description = "Procluded By: Distant Horizons. Improves fog effect. Change to Linear for vanilla-like."

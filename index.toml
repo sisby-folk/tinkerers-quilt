@@ -125,6 +125,10 @@ file = "config/crunchy-crunchy-advancements.css"
 hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
+file = "config/custom-fog.json"
+hash = "758ed7fc31036c7930033d85aae6e1b2f6c0564db59be4f013bab1ee817bffd5"
+
+[[files]]
 file = "config/darkness.properties"
 hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
 
@@ -166,15 +170,15 @@ hash = "4ad23cdfe31bd76d5af7e06c25d51399af0e6ac681c81c1f1be079128e70ec92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "b6acb05c7a96a097739d26feb6a790d3e95139ff93e7489fe84e518faf01d939"
+hash = "dc4474092fcd82919df3df548c79bdbca01e5a8cc42e731f88f47ee0bdc1010f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "f980f34066b338650d984d4e196ddf4d1bff5c3e343754cd53b78fbd1171c352"
+hash = "e775fba72a9c24288ba0869cc7c5fd956add26bd2472a447fba7b07c586a3e6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "41894f5cc4df8cbb6f9d53d3e8ee0709e3b33ab9b6bf4c306340d391de31a912"
+hash = "5006fc3a8026656ff44d8f25c053b28d92bb44ab9671544232bb334e17594301"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -447,7 +451,7 @@ hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
-hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
+hash = "c75afc8309026837f49ca4b87a3bb68edf23774c8cfdbc1678c09fda06753be1"
 
 [[files]]
 file = "config/yosbr/config/styled-chat.json"
@@ -717,6 +721,11 @@ metafile = true
 [[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "cd41e5b7c8618ab49ce53eb61df2877be283b16eebf92b11f1b110bcd8494a02"
+metafile = true
+
+[[files]]
+file = "mods/custom-fog.pw.toml"
+hash = "e5adaaa5d16bd87487fca25b63c093977378408059e8b15ffab940ae478305ea"
 metafile = true
 
 [[files]]
@@ -1045,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "e363df3152d7fbf35ec5299b41b920848aa1bf2673da201426bcd9e21f75fe50"
+hash = "1c7b38e01cab4654b28cb11a03877833b0ceac99c8803ae436bcd4045e6bdffc"
 metafile = true
 
 [[files]]
@@ -1065,7 +1074,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "4c51026ac95600af08a5b1f1d2a380609d0e74f374ce38cfd30e9dbead294838"
+hash = "527279ca4b9a30e756139465d01009482bafc3e2992c96947118a56e0bce293f"
 metafile = true
 
 [[files]]
@@ -1084,7 +1093,7 @@ metafile = true
 
 [[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
-hash = "ce026823113c36f38be8759cb0ee191285c862f8354cb04ff62faddc41a84ea1"
+hash = "5464945d2bd773599acf986e6ebacd950e50b38a1b656b557aeef4ce2b90e838"
 metafile = true
 
 [[files]]
@@ -1152,11 +1161,6 @@ hash = "da403a55fd88f2d2aeacec6de320b7c8fb5010a7de8b831414fb4933681c9f44"
 metafile = true
 
 [[files]]
-file = "mods/simplefog.pw.toml"
-hash = "200104eddad2079cbe208d9e2efa42206278c2aa65469e25614a7d14bb26e3d8"
-metafile = true
-
-[[files]]
 file = "mods/smooth-boot.pw.toml"
 hash = "0bb8efa177ff2c5b54bb0bcbadf5e5fd2ae57c0cb71e533e7d8b896f12d9af4b"
 metafile = true
@@ -1208,7 +1212,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "d836cda33e7339335e220a8e23d1e21cd58a4d535292669c76bda608e2b54c50"
+hash = "0b8613e0d7e3667b311c4da34bc36c9d004e8fa82ec809d7b8f06a3af6096b75"
 metafile = true
 
 [[files]]
