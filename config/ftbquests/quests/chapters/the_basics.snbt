@@ -634,7 +634,7 @@
 				id: "4C6D37B53B9A2DF5"
 				type: "item"
 				item: "minecraft:firework_rocket"
-				count: 16
+				count: 32
 			}]
 		}
 		{
@@ -1009,9 +1009,9 @@
 			y: 4.0d
 			subtitle: "Craft a Shulker Box"
 			description: [
-				"Shulker boxes are portable chests, that allow you to hold many stacks of items in your inventory, accessible by placing them down."
+				"Shulker Boxes are portable chests, that allow you to hold many stacks of items in your inventory, accessible by placing them down."
 				""
-				"Pouches are a craftable item that allows any 64 of miscellaneous items to be stored, which can help when your inventory has lots of little things (mob drops, blocks, etc)"
+				"Bundles fit in Shulker Boxes, which fit in Ender Chests, allowing for extensive personal storage."
 			]
 			dependencies: ["4631772288F2177D"]
 			hide: true
@@ -1030,10 +1030,36 @@
 				}
 			}]
 			rewards: [{
-				id: "65FE86129245CA99"
+				id: "136655B16D9C5F53"
 				type: "item"
-				item: "minecraft:bundle"
-				count: 3
+				item: {
+					id: "minecraft:bundle"
+					Count: 1b
+					tag: {
+						Items: [
+							{
+								id: "minecraft:ender_chest"
+								Count: 4b
+							}
+							{
+								id: "minecraft:enchanted_golden_apple"
+								Count: 2b
+							}
+							{
+								id: "minecraft:golden_apple"
+								Count: 16b
+							}
+							{
+								id: "minecraft:golden_carrot"
+								Count: 34b
+							}
+							{
+								id: "minecraft:ancient_debris"
+								Count: 8b
+							}
+						]
+					}
+				}
 			}]
 		}
 		{
@@ -1060,6 +1086,8 @@
 				"Hoes break hay bales, leaves, moss, and some fungal nether blocks fastest."
 				""
 				"Finally, pickaxes break the most blocks fastest, including most \"hard\" blocks, and blocks and furniture made of stones and metals."
+				""
+				"Bundles can be right clicked in the inventory to store and retrieve up to 64 of many types of items, which helps store small stacks."
 			]
 			dependencies: ["41C9341CA261E52B"]
 			hide: true
@@ -1119,15 +1147,10 @@
 				}
 			]
 			rewards: [{
-				id: "6DA77FB8D920A81B"
+				id: "65FE86129245CA99"
 				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_swiftness"
-					}
-				}
+				item: "minecraft:bundle"
+				count: 2
 			}]
 		}
 	]

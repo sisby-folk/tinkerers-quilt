@@ -2072,6 +2072,7 @@
 				"This takes quite a bit of bonemeal, so consider alternate methods of acquisition, such as fossils in the nether, or compost farms."
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
+			hide: true
 			id: "68BCEE273A77F4DA"
 			tasks: [
 				{
@@ -2104,6 +2105,7 @@
 			subtitle: "Farm 64 Nether Wart"
 			description: ["Nether wart can be grown on soul sand, in any dimension. It doesn't require light to grow."]
 			dependencies: ["6B1E74EF171BFD5E"]
+			hide: true
 			id: "54AA1BD5E8241369"
 			tasks: [
 				{
@@ -2133,6 +2135,7 @@
 				"Foxes like sweet berries, and prefer holding them to any other item. If a fox is holding an item you want, tempt it with a sweet berry!"
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
+			hide: true
 			id: "531358BD1C258F99"
 			tasks: [
 				{
