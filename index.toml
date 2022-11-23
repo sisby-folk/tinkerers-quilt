@@ -57,10 +57,6 @@ file = "config/crunchy-crunchy-advancements.css"
 hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
-file = "config/darkness.properties"
-hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
-
-[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -258,11 +254,7 @@ hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
 file = "config/simplefog.json"
-hash = "f57fad623a4d05f111b923cf126984f15830f8dc24b10d048002b079d47e9257"
-
-[[files]]
-file = "config/sodium-extra.properties"
-hash = "127d38ab59a40c452cede9172595fe26934bd50920a5ce65e1b076bf5c1addfc"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
 file = "config/tiefix.json"
@@ -556,11 +548,6 @@ metafile = true
 [[files]]
 file = "mods/exordium.pw.toml"
 hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
-metafile = true
-
-[[files]]
-file = "mods/extended-clouds.pw.toml"
-hash = "82ea905008844dfe1810583580f1137e105d86acbdf7fab4c1543f913e12b6bc"
 metafile = true
 
 [[files]]
@@ -948,11 +935,6 @@ metafile = true
 [[files]]
 file = "mods/totem-anywhere-standalone.pw.toml"
 hash = "6d2af0a35b3d458fdf4c6cee3974e828973138c81ee3af3ed8d0d70958b91cfe"
-metafile = true
-
-[[files]]
-file = "mods/true-darkness.pw.toml"
-hash = "311c994d8606d77adf5227e10710680800ead4bea90c77fafc500ec4ea7c3292"
 metafile = true
 
 [[files]]
