@@ -129,10 +129,6 @@ file = "config/crunchy-crunchy-advancements.css"
 hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
-file = "config/darkness.properties"
-hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
-
-[[files]]
 file = "config/earthtojavamobs.json"
 hash = "80cedf725c6457d1d942518fa618bfca71a071da988fd87d14c381426a6723c2"
 
@@ -395,11 +391,7 @@ hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
 file = "config/simplefog.json"
-hash = "f57fad623a4d05f111b923cf126984f15830f8dc24b10d048002b079d47e9257"
-
-[[files]]
-file = "config/sodium-extra.properties"
-hash = "127d38ab59a40c452cede9172595fe26934bd50920a5ce65e1b076bf5c1addfc"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
 file = "config/tiefix.json"
@@ -708,11 +700,6 @@ hash = "f6ead41099f94e739f40e2871ffb1b3a039ee4d3c1a96280fbf20780a4fd76cc"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "2530db648817eaf503002f7843f34d88bd697c0bbd031366c3a5c647f73d68b9"
-metafile = true
-
-[[files]]
 file = "mods/drogtor.pw.toml"
 hash = "6aac65adbbc8fba3a165b7207758ce133ff294dc1a0c111b66d22ca3362c310c"
 metafile = true
@@ -755,11 +742,6 @@ metafile = true
 [[files]]
 file = "mods/exordium.pw.toml"
 hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
-metafile = true
-
-[[files]]
-file = "mods/extended-clouds.pw.toml"
-hash = "5210d39385a71241c916c40df969d3adb2ac03b76c5575a4d58e41f89f3dba45"
 metafile = true
 
 [[files]]
@@ -1111,7 +1093,7 @@ metafile = true
 
 [[files]]
 file = "mods/simplefog.pw.toml"
-hash = "a30f559b6cf2f684f872d59513e678b547d0c98c56cc887b3c90da0fd2c045c4"
+hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
 metafile = true
 
 [[files]]
@@ -1161,7 +1143,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "f7956a5291dde66560c401ff4417c254d6c8f0f318d1df502cf23e34f9664894"
+hash = "893007edf11e810d2c7140ce0060db51c8e9242fdf877c13d12fcca78f62c85d"
 metafile = true
 
 [[files]]
@@ -1212,11 +1194,6 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "b3acdba79cfef7e53cfd4df8dd6e7cbbe4eeae75972bf65fa2a6aaef034f4b8e"
-metafile = true
-
-[[files]]
-file = "mods/true-darkness.pw.toml"
-hash = "058c6e952192ae949e17268a5668bd4eea0a3f094792f04edc20f03c60a1c6cb"
 metafile = true
 
 [[files]]
