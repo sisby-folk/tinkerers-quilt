@@ -1,13 +1,13 @@
 name = "Noteable"
-filename = "Noteable-1.19.2-1.1.0.jar"
+filename = "Noteable-1.19.2-1.2.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/8CZovXCd/versions/7ahrcRDU/Noteable-1.19.2-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/8CZovXCd/versions/WlcSnWX8/Noteable-1.19.2-1.2.1.jar"
 hash-format = "sha1"
-hash = "83a0d85a9030cea22e393b96a22ae9773e0d87f1"
+hash = "9ec0ff8ca323fbd57743539f2f011d1468fa6b6f"
 
 [update]
 [update.modrinth]
 mod-id = "8CZovXCd"
-version = "7ahrcRDU"
+version = "WlcSnWX8"
