@@ -514,6 +514,11 @@ hash = "c06e098c6d6eda6da4492e4a8dff1796e6081bbd30f487ffb89e1ed3c485e805"
 metafile = true
 
 [[files]]
+file = "mods/deftulib.pw.toml"
+hash = "f6ead41099f94e739f40e2871ffb1b3a039ee4d3c1a96280fbf20780a4fd76cc"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "2530db648817eaf503002f7843f34d88bd697c0bbd031366c3a5c647f73d68b9"
 metafile = true
