@@ -13,6 +13,6 @@ mod-id = "Ja7zPEaN"
 version = "zjSKuhJ9"
 
 [option]
-optional = true
+optional = false
 default = false
 description = "Procluded By: Distant Horizons. Darkens the world."

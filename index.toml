@@ -519,11 +519,6 @@ hash = "f6ead41099f94e739f40e2871ffb1b3a039ee4d3c1a96280fbf20780a4fd76cc"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "2530db648817eaf503002f7843f34d88bd697c0bbd031366c3a5c647f73d68b9"
-metafile = true
-
-[[files]]
 file = "mods/drogtor.pw.toml"
 hash = "6aac65adbbc8fba3a165b7207758ce133ff294dc1a0c111b66d22ca3362c310c"
 metafile = true
@@ -565,7 +560,7 @@ metafile = true
 
 [[files]]
 file = "mods/extended-clouds.pw.toml"
-hash = "5210d39385a71241c916c40df969d3adb2ac03b76c5575a4d58e41f89f3dba45"
+hash = "82ea905008844dfe1810583580f1137e105d86acbdf7fab4c1543f913e12b6bc"
 metafile = true
 
 [[files]]
@@ -867,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/simplefog.pw.toml"
-hash = "a30f559b6cf2f684f872d59513e678b547d0c98c56cc887b3c90da0fd2c045c4"
+hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
 metafile = true
 
 [[files]]
@@ -957,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/true-darkness.pw.toml"
-hash = "058c6e952192ae949e17268a5668bd4eea0a3f094792f04edc20f03c60a1c6cb"
+hash = "311c994d8606d77adf5227e10710680800ead4bea90c77fafc500ec4ea7c3292"
 metafile = true
 
 [[files]]
