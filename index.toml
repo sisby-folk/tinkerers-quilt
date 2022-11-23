@@ -221,11 +221,6 @@ file = "config/openloader/data/VanillaTweaks_c667075.zip"
 hash = "c94d4d8f1f79fc0e498f7f58c886690bdc936d6fc950512edbc973610dddd166"
 
 [[files]]
-file = "config/openloader/data/nullscape.pw.toml"
-hash = "b9939c7096b4fff3248e01c1a3c2e80eb7986480ea9cbdb6f8ed756a4518bca9"
-metafile = true
-
-[[files]]
 file = "config/openloader/data/tinkerers_copper_beacons/data/minecraft/tags/blocks/beacon_base_blocks.json"
 hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 
@@ -539,7 +534,7 @@ metafile = true
 
 [[files]]
 file = "mods/amplified-nether.pw.toml"
-hash = "2e8a4921803a54bb9161d1120a5563efa746d3b11b180ff4a6a92e88837c574c"
+hash = "3cce9bc7a299070cffd83336372c0747c70ddbf19d0baf203347ef1ad35828e2"
 metafile = true
 
 [[files]]
@@ -1002,6 +997,11 @@ metafile = true
 [[files]]
 file = "mods/noteable.pw.toml"
 hash = "e9dd8d4a98f27347ee5dfc83a3383cc03dab50926cba478e372efc6da20f17c6"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "87b3d9de4a5076c4d67a529661753ba22556bde7751187778425121d97c7d5b4"
 metafile = true
 
 [[files]]
