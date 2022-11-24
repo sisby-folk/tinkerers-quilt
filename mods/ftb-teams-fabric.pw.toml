@@ -1,13 +1,13 @@
 name = "FTB Teams (Fabric)"
-filename = "ftb-teams-fabric-1802.2.6-build.69.jar"
+filename = "ftb-teams-fabric-1802.2.7-build.71.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8e355529fa38a51a6421419bfce6b1d9118f4be4"
+hash = "24a60a023cb438576c233e224ebc2aac0f2ab048"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3990418
+file-id = 4061656
 project-id = 438497

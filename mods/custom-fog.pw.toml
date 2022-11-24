@@ -13,6 +13,6 @@ mod-id = "2JyZgJxC"
 version = "9gOCo4HV"
 
 [option]
-optional = true
+optional = false
 default = false
 description = "Procluded By: Distant Horizons. Improves fog effect. Change to Linear for vanilla-like."
