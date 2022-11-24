@@ -14,6 +14,6 @@ mod-id = "SRvY3a39"
 version = "NjK6mewM"
 
 [option]
-optional = true
+optional = false
 default = false
 description = "Procluded By: Distant Horizons. Extends cloud distance."
