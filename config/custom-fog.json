@@ -3,7 +3,7 @@
     "enabled": true,
     "type": "LINEAR",
     "linearFogStartMult": 0.6,
-    "linearFogEndMult": 1.2,
+    "linearFogEndMult": 1.1,
     "expFogMult": 0.35,
     "exp2FogMult": 0.31,
     "cylinderFog": false

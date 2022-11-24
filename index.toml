@@ -54,7 +54,7 @@ hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
 file = "config/custom-fog.json"
-hash = "85eaf0d375d88ac08cb5fcc27ebbc1ec40d3537cded1e659d6a0a2d214e8b3ac"
+hash = "b491cffccc8093e9a2513bbf17fa591ca20715ed82d0d13ed75227587fa31b3e"
 
 [[files]]
 file = "config/darkness.properties"
@@ -259,6 +259,10 @@ hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 [[files]]
 file = "config/simplefog.json"
 hash = "f57fad623a4d05f111b923cf126984f15830f8dc24b10d048002b079d47e9257"
+
+[[files]]
+file = "config/sodium-extra.properties"
+hash = "cfb9731bff4269925823a39a9e63bc6fefb6a2fa1e12ca2c094115a405ba3ce1"
 
 [[files]]
 file = "config/tiefix.json"
