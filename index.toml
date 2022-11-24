@@ -954,11 +954,6 @@ hash = "6d2af0a35b3d458fdf4c6cee3974e828973138c81ee3af3ed8d0d70958b91cfe"
 metafile = true
 
 [[files]]
-file = "mods/true-darkness.pw.toml"
-hash = "2b8f76fd8782c14df1589df7253315ea57dd1991862e1a943f0789b56d52f87a"
-metafile = true
-
-[[files]]
 file = "mods/vehiclefix.pw.toml"
 hash = "44a9a2d3e95649b67f37548a674776df177b002d8b9b0cb8bb8af72657df9f45"
 metafile = true
