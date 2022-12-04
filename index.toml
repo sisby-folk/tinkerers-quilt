@@ -286,6 +286,10 @@ file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
 hash = "0df24fa90df0ffc45f684d3e7945ef567c6e9be8530ca06e1f95812f811c9227"
 
 [[files]]
+file = "config/openloader/data/yung_tweaks/data/betterdungeons/tags/worldgen/biome/has_structure/spider_dungeon.json"
+hash = "d75e571bccf1360f82b438ec48b27e46f15f419a04c27443c9b3a8f90c9d8e4b"
+
+[[files]]
 file = "config/openloader/resources/VanillaTweaks_r324798.zip"
 hash = "1ad05a906caa427b3620b1d901af527eaa4eec9a8b5404faa28f0034009cfba8"
 
@@ -1187,8 +1191,8 @@ hash = "6d2af0a35b3d458fdf4c6cee3974e828973138c81ee3af3ed8d0d70958b91cfe"
 metafile = true
 
 [[files]]
-file = "mods/travelers-titles-fabric.pw.toml"
-hash = "8e5d229fa73a79da639899056083d07aa6eb573d09894311a48d3d3f3b859370"
+file = "mods/travelers-titles.pw.toml"
+hash = "c71af8cb740fbf42b489ab24ee01ea0d09c3329cb9a62108b2b9dd85e721b3c8"
 metafile = true
 
 [[files]]
@@ -1237,38 +1241,43 @@ hash = "f7b06cb8ec7928fff97239728f125646d9100499fc99281a1fd73486e5fa1841"
 metafile = true
 
 [[files]]
-file = "mods/yungs-api-fabric.pw.toml"
-hash = "cd37432982096708513ea99f46734d3407f26e1b69df399722de5fd4e089e10a"
+file = "mods/yungs-api.pw.toml"
+hash = "d6126b71de887bf0b23a4a064b5f9ebb2f4848533f3b098703c3917ba63e5c69"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-desert-temples-fabric.pw.toml"
-hash = "1469f6544880a7c8962d4e277f3c00f54ec08a3bdb20ddeb9e11a8a36d839021"
+file = "mods/yungs-better-desert-temples.pw.toml"
+hash = "8323d5b77249afed08a178a9a8002ef7a09850e3e3c9dfb942cae17403748565"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-dungeons-fabric.pw.toml"
-hash = "6b98f78113cddfd12400b0e981de0a3c427ca9db42a11d6d438ed728133a790c"
+file = "mods/yungs-better-dungeons.pw.toml"
+hash = "50c2ce35a2678f4666e700b43da4c48d2a47fbd04ac35cc735ca20a846686aed"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-mineshafts-fabric.pw.toml"
-hash = "17d172d8eba1234a2eeb7569b080ff17424f2aeee6b2949f9498230f1c71bca9"
+file = "mods/yungs-better-mineshafts.pw.toml"
+hash = "db24b9f5262599c4a358be6e80e78a9fc0e4ad46b4dd00435aca9f76a60d7ca0"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-strongholds-fabric.pw.toml"
-hash = "f226c76915922eff0167fac761a4961576cb4ea0159871c4796813c93511073a"
+file = "mods/yungs-better-ocean-monuments.pw.toml"
+hash = "b097a8278c0395cca7aa1cbe8dc446973478d1b7729e30e836962a55275ef7b0"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-witch-huts-fabric.pw.toml"
-hash = "e217989faf390b38782c83f9ef1002a95a69c37754d975833b69fcc843b7eeef"
+file = "mods/yungs-better-strongholds.pw.toml"
+hash = "455bd61468b04ec66000901d5c112a97dabd3343f9e6d96ad3c148726e7c5bf8"
 metafile = true
 
 [[files]]
-file = "mods/yungs-extras-fabric.pw.toml"
-hash = "b2b5c11320601e1bccb196404515ad8f6b35ccb6db508db785806d483b71085b"
+file = "mods/yungs-better-witch-huts.pw.toml"
+hash = "14d7190f311125e364f288daabdcb92737164a26c9198a4e8901c718776f6fdd"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras.pw.toml"
+hash = "4b502ea7f185b192b42c890e30b181246b341b1fcf4bd626b68c07de3cb46b19"
 metafile = true
 
 [[files]]
