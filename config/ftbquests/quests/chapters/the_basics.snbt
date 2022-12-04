@@ -154,12 +154,6 @@
 						}
 					}
 				}
-				{
-					id: "199A7EFCF67844D1"
-					type: "item"
-					item: "minecraft:obsidian"
-					count: 4
-				}
 			]
 		}
 		{
@@ -226,12 +220,6 @@
 							Potion: "minecraft:fire_resistance"
 						}
 					}
-				}
-				{
-					id: "40209F96620AEE8B"
-					type: "item"
-					item: "minecraft:obsidian"
-					count: 3
 				}
 				{
 					id: "1128AD997889DE7F"
@@ -765,12 +753,6 @@
 					type: "item"
 					item: "minecraft:phantom_membrane"
 					count: 6
-				}
-				{
-					id: "5E5EA9E72502F1BF"
-					type: "item"
-					item: "minecraft:obsidian"
-					count: 3
 				}
 			]
 		}
