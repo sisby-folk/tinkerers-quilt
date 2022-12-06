@@ -1,0 +1,13 @@
+name = "Window Title Changer"
+filename = "fabric-title-changer-1.0.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/M9i6zRjB/versions/1.0.7/fabric-title-changer-1.0.7.jar"
+hash-format = "sha1"
+hash = "6f5a43d2eb44c913721ae918223fb144c81ed59d"
+
+[update]
+[update.modrinth]
+mod-id = "M9i6zRjB"
+version = "uUysV3S3"

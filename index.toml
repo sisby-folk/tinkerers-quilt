@@ -61,6 +61,10 @@ file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
 [[files]]
+file = "config/fabric-title-changer/settings.json"
+hash = "1eea62b9d0e8da3045012ea783859b955d879b844bf11b50c76db2c8fddddba6"
+
+[[files]]
 file = "config/fabrication/features.ini"
 hash = "9cc015d7989c9d56b917aa20a80b35b885c2e2bee90743d0a67571c23f7027d3"
 
@@ -119,6 +123,10 @@ hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 [[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "b2fd15e31fe92408a307249dbadc5ccbdd959bc66b395c71389d69cb0586be5f"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c667075.zip"
@@ -566,6 +574,11 @@ hash = "9cee346032a1d171f6490510901482c35dc96530d36c3f8d84fda4f4b35060e2"
 metafile = true
 
 [[files]]
+file = "mods/fabric-title-changer.pw.toml"
+hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
+metafile = true
+
+[[files]]
 file = "mods/fabrication.pw.toml"
 hash = "5e3a8799670a86eea5a107066ac0247923cfa79266c3bf36a018d53f8d063799"
 metafile = true
@@ -715,6 +728,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "d2a65b42dcefbda9ac5c170ff5bf59b4a56ba192993a13d0b0da9b1f0678b4b3"
+metafile = true
+
+[[files]]
+file = "mods/main-menu-credits.pw.toml"
+hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
 metafile = true
 
 [[files]]
