@@ -1,0 +1,13 @@
+name = "YUNG's Better Dungeons"
+filename = "YungsBetterDungeons-1.19.2-Fabric-3.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/o1C1Dkj5/versions/XOk0yK9M/YungsBetterDungeons-1.19.2-Fabric-3.2.1.jar"
+hash-format = "sha1"
+hash = "09ac081d1c002a984ecebf2d05bbfad741aa57e5"
+
+[update]
+[update.modrinth]
+mod-id = "o1C1Dkj5"
+version = "XOk0yK9M"
