@@ -170,7 +170,7 @@ hash = "151127f382768b6a9274a919016e4cd3639d9fda9035a5fa3822b8858d37e6fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "e775fba72a9c24288ba0869cc7c5fd956add26bd2472a447fba7b07c586a3e6f"
+hash = "f80d805d640325dbc02ef961b0b1d39f7bf7d52f16fb061729c1436b887b89e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
@@ -634,6 +634,11 @@ hash = "93d73b7d173197c7a9ab09f69bcb509c3c1f29cf3a552119f086b3f164a4d323"
 metafile = true
 
 [[files]]
+file = "mods/chunks-fade-in.pw.toml"
+hash = "4129cc0514191c735b08f882e802fbc7ef9d071abbb2e6fc547dec6176f14cbd"
+metafile = true
+
+[[files]]
 file = "mods/cit-resewn.pw.toml"
 hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
 metafile = true
@@ -735,7 +740,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "2ea6f38df595c78289617f94a13fc533fdacadf3cb7e7580d60a32529aaa1a44"
+hash = "f8a11078f1d7f960612efacc95c1ddc2c8f29b8ade91fa248917659d4a767537"
 metafile = true
 
 [[files]]
@@ -750,7 +755,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
+hash = "3cb8e30672e6f29d7a0ee663f4239cb7374eb8ab44c82d1fc9382b56a8dc7b58"
 metafile = true
 
 [[files]]
@@ -760,7 +765,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-shield-lib.pw.toml"
-hash = "4dbd9bd24eda306ff57e3077716296e86324ca78bab948e36bbe972f0edc2833"
+hash = "9cee346032a1d171f6490510901482c35dc96530d36c3f8d84fda4f4b35060e2"
 metafile = true
 
 [[files]]
@@ -790,7 +795,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "1d87f8c04eeed21a9544cfad7f64afee6de58b5249a70b0367ba8522273a4816"
+hash = "98da553a1ba2d41bfce3585198641c2d927c702d5403ebec82402ae51ddf707f"
 metafile = true
 
 [[files]]
@@ -809,7 +814,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "38741b8c0631b7ded2b7e4f730daa555542e796e35e10ec2df862fa07ed6525a"
+hash = "bf8fcf3f23ace699ad33c08bdc0f6da9c017f535990373aebf0a832c67199793"
 metafile = true
 
 [[files]]
@@ -819,7 +824,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
-hash = "eed9328ade636e3c2f3c434568462d499753fe67adfde2ea27dc2706d8d3110f"
+hash = "20436e490b6c30fafb48aba51810e7e27f3f301055b99785a404b22d776a9a2f"
 metafile = true
 
 [[files]]
@@ -853,7 +858,7 @@ hash = "2c25dc32b10e335016b91bd3a6d67195cb79c561857316a44d51fe631998d230"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "c288cf990690ddd6d3aa44373c7d7293a84cadd0c3249204df22a1b257e417e3"
+hash = "9fe61a63d246792443a5152a6670c6af6b91b28abcebce658120eba14a58578a"
 metafile = true
 
 [[files]]
@@ -872,7 +877,7 @@ hash = "7bb8ebb225fb9d0012b742ec0aeabb80f4119aa72486e0b93d2309e6a291bedf"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "0bb13d0459be9af19faf40ea8e83b8bf29922b378dcbe9e430fc7de11d98dac3"
+hash = "b27773505b8fcfb4dd88dbc5b3cea9c5dfb3d9fac0cb4d91f4b8ccbde7a275ad"
 metafile = true
 
 [[files]]
@@ -922,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-us-in-peace.pw.toml"
-hash = "fec1221e797b3ed8390543fbde976327cdf5cdc3ace62e58e1ef49f76d8133f5"
+hash = "1f1435768beb36acf48e3a0f385a4423f2ee3d43ef42d7de138bd3a39b2559a2"
 metafile = true
 
 [[files]]
@@ -937,7 +942,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "88afc3a2cd4d92cf2728fac3f0fdf29c811d4c3f2dfebdbd98f98c3915be6857"
+hash = "c8d39d45ed24d213249b5bfaf694936d5992b0ed1c0e39fcfd052289d0005302"
 metafile = true
 
 [[files]]
@@ -1057,7 +1062,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "12a3f4b568ab8638fd3d9cebd644f5effdcf9038b6e9926c344bb6596d52cbb0"
+hash = "e300e48ef7486757617e1878379d2733333b63234a6d9e411f0fea6c69d1797f"
 metafile = true
 
 [[files]]
@@ -1077,7 +1082,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "1c6d01b013b9e8c6dd921046adc7c7768814c17a0fde45cbe695c8e2de40f8be"
+hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
 metafile = true
 
 [[files]]
@@ -1107,7 +1112,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "fbc7cf43256806a71a7ea1ee1c05bccfd94be736c5def2c2a5ed1908753e501f"
+hash = "09a2246cb32a1b13e94e264d53429e8fdf5bc1d6444bc4112f9f28b971f9dc54"
 metafile = true
 
 [[files]]
@@ -1147,7 +1152,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "893007edf11e810d2c7140ce0060db51c8e9242fdf877c13d12fcca78f62c85d"
+hash = "9bb3bd78f9c00fdcd025e1e627253ad40dc915fee005b01bc99a567092f982d0"
 metafile = true
 
 [[files]]
@@ -1232,7 +1237,7 @@ metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "fdfab1aaaad776629ecb52c48ee0c933772b8fd89140ce09c81c30b44ce5e9d0"
+hash = "dcfc9996df859731e571721ffef8006ade14f3c2a2f26c716beca15575eb3ce6"
 metafile = true
 
 [[files]]
@@ -1286,7 +1291,7 @@ hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
 file = "shaderpacks/bsl.pw.toml"
-hash = "6dd46982da232ed5a2c8ed6378a1a6618b5de1a04cffa86c46e75f8be9f99220"
+hash = "29c8a46693f9f9b3dca9c1ad4471e08528d4721106f97e1dcf0a93d1c8245b0f"
 metafile = true
 
 [[files]]
