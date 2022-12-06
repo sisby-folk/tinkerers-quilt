@@ -141,6 +141,10 @@ file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
 [[files]]
+file = "config/fabric-title-changer/settings.json"
+hash = "ae59d3150300934f0e13bbb65787c3b0e2a5d8cd00bbb7d43a8949befd443e1c"
+
+[[files]]
 file = "config/fabrication/features.ini"
 hash = "ce06b62dc2b5a6f153754e5bef3b969ba6c86b5e4f276371039954b507bc867d"
 
@@ -174,7 +178,7 @@ hash = "dc4474092fcd82919df3df548c79bdbca01e5a8cc42e731f88f47ee0bdc1010f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "e775fba72a9c24288ba0869cc7c5fd956add26bd2472a447fba7b07c586a3e6f"
+hash = "f80d805d640325dbc02ef961b0b1d39f7bf7d52f16fb061729c1436b887b89e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
@@ -203,6 +207,10 @@ hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 [[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "4e163f80182ac0580e9f92eb8dc10ed6ed3c307cbedffdeb40b074e7dbcaa756"
 
 [[files]]
 file = "config/leaves_us_in_peace.json"
@@ -288,6 +296,10 @@ hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 [[files]]
 file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
 hash = "0df24fa90df0ffc45f684d3e7945ef567c6e9be8530ca06e1f95812f811c9227"
+
+[[files]]
+file = "config/openloader/data/yung_tweaks/data/betterdungeons/tags/worldgen/biome/has_structure/spider_dungeon.json"
+hash = "d75e571bccf1360f82b438ec48b27e46f15f419a04c27443c9b3a8f90c9d8e4b"
 
 [[files]]
 file = "config/openloader/resources/VanillaTweaks_r458705.zip"
@@ -794,12 +806,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
+hash = "3cb8e30672e6f29d7a0ee663f4239cb7374eb8ab44c82d1fc9382b56a8dc7b58"
 metafile = true
 
 [[files]]
 file = "mods/fabric-seasons.pw.toml"
 hash = "33f3369dd4d55040c994446eb5090532bfed2a4861bab50de193befd5430ce9e"
+metafile = true
+
+[[files]]
+file = "mods/fabric-title-changer.pw.toml"
+hash = "2f271494d3392d40e1d53aaede3578a683bbca3f9c0ef0f723315cb2bb4cdc1f"
 metafile = true
 
 [[files]]
@@ -912,7 +929,7 @@ hash = "f4a814e03bb05f0be9f23a73799a09cfdbcfb06d6e60e67e1f1bb877c2e10425"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "7d7ba7e53ccc1a6e5162fcc9842d8c92e412f27c01930baa7235f9e728ac51a9"
+hash = "9262ab42db74495bf72e4d1bfc983dfeb45f321e244ed5321d0fcb1f89136953"
 metafile = true
 
 [[files]]
@@ -983,8 +1000,13 @@ hash = "cea7e57f790cde53db4a76005bca2079df37fcb43df16961fbc6b2e116100b9c"
 metafile = true
 
 [[files]]
+file = "mods/main-menu-credits.pw.toml"
+hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
+metafile = true
+
+[[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "3457ed6246b871992e2bbdcd2daeef9457933d562e5e9a86e9e22257fe990391"
+hash = "7c99673ed5abf9628a6180c00d65b40649b0a788c83614d58640109aaf00ceb2"
 metafile = true
 
 [[files]]
@@ -1171,7 +1193,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "fde84c84d9a6d54bbc93d41853aca541ceb8805b288f25428ab61d5d31936f75"
+hash = "cb6971789015a99f42466ba514753d33eb887c602864b614936fc6d39e0e25be"
 metafile = true
 
 [[files]]
@@ -1211,7 +1233,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "0b8613e0d7e3667b311c4da34bc36c9d004e8fa82ec809d7b8f06a3af6096b75"
+hash = "eb8a45a601c3be4444d9ae9a0bb571d1869ae66609ccd96fe0a10139cdc6e74e"
 metafile = true
 
 [[files]]
@@ -1296,7 +1318,7 @@ metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "3f081aa79d1afb0b290c3324be4410212845e497d0bdc5c788471c447a2cdc80"
+hash = "c02ad3d92e4f90c34905250f7c629e961ab8ec00161343a684dba6d2f396bdd2"
 metafile = true
 
 [[files]]
@@ -1345,7 +1367,7 @@ hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
 file = "shaderpacks/bsl.pw.toml"
-hash = "6dd46982da232ed5a2c8ed6378a1a6618b5de1a04cffa86c46e75f8be9f99220"
+hash = "29c8a46693f9f9b3dca9c1ad4471e08528d4721106f97e1dcf0a93d1c8245b0f"
 metafile = true
 
 [[files]]
