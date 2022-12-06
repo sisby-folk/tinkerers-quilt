@@ -689,11 +689,6 @@ hash = "19783c9eb3f9c3a9522f47f11fa9b87dd62b64a42e52cadbdf9ce9d5c8d73d46"
 metafile = true
 
 [[files]]
-file = "mods/createplus.pw.toml"
-hash = "84a26eada70c919e518bdc9f51f1df2b5283d98b6b1acd1d0ae33f162b5e26df"
-metafile = true
-
-[[files]]
 file = "mods/crowmap.pw.toml"
 hash = "30f1ee40932a5918f97f85ac3c9bd48f2545e3baf0f40fde6a631606aae59b52"
 metafile = true
