@@ -604,11 +604,6 @@ hash = "ed2ff9d5b1fe04e1a599b825809b5ab2d729441650b3847222a342c3763a51cb"
 metafile = true
 
 [[files]]
-file = "mods/botania.pw.toml"
-hash = "37a75aa36e869ed6aeac736e5718e2e43c3381f16707ac1fdaab8a2b7c3da9c8"
-metafile = true
-
-[[files]]
 file = "mods/cardinalboats.pw.toml"
 hash = "8542b06b8be9d23a827f66caeb0adb8c33c8ad964491696ec3d9981fd75c0fe2"
 metafile = true
@@ -850,11 +845,6 @@ metafile = true
 [[files]]
 file = "mods/half-doors.pw.toml"
 hash = "fd34910c7292b2b48bb57c2b348c968cf5ea58f7c19683bf662ef801d167e233"
-metafile = true
-
-[[files]]
-file = "mods/hephaestus.pw.toml"
-hash = "7cbd5497749ea5d4afb2bc747841ca858a81acd36ab2bfec84acd33826dd1cda"
 metafile = true
 
 [[files]]
