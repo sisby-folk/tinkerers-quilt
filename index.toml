@@ -65,6 +65,10 @@ file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
 [[files]]
+file = "config/fabric-title-changer/settings.json"
+hash = "1eea62b9d0e8da3045012ea783859b955d879b844bf11b50c76db2c8fddddba6"
+
+[[files]]
 file = "config/fabrication/features.ini"
 hash = "ce06b62dc2b5a6f153754e5bef3b969ba6c86b5e4f276371039954b507bc867d"
 
@@ -123,6 +127,10 @@ hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 [[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "b2fd15e31fe92408a307249dbadc5ccbdd959bc66b395c71389d69cb0586be5f"
 
 [[files]]
 file = "config/openloader/data/VanillaTweaks_c278482.zip"
@@ -581,6 +589,11 @@ hash = "3cb8e30672e6f29d7a0ee663f4239cb7374eb8ab44c82d1fc9382b56a8dc7b58"
 metafile = true
 
 [[files]]
+file = "mods/fabric-title-changer.pw.toml"
+hash = "2f271494d3392d40e1d53aaede3578a683bbca3f9c0ef0f723315cb2bb4cdc1f"
+metafile = true
+
+[[files]]
 file = "mods/fabrication.pw.toml"
 hash = "83392a27e6b60efe1db754b31b4b4434b6e39b06d10cb49dd5d15a0f1f52af9a"
 metafile = true
@@ -729,6 +742,11 @@ metafile = true
 [[files]]
 file = "mods/live-fishing-1.1.1.jar"
 hash = "ca0587b2c2b82595cd13de2c4cda44226939c78da57c3676cb72cca391237b3e"
+
+[[files]]
+file = "mods/main-menu-credits.pw.toml"
+hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
+metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
