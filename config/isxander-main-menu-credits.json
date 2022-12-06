@@ -1,13 +1,12 @@
 {
 	"main_menu": {
 		"top_left": [
-			{"text":"Tinkerer's Quilt Modded"}
 		],
 		"top_right": [
 
 		],
 		"bottom_left": [
-
+			{"text":"Tinkerer's Quilt Modded"}
 		],
 		"bottom_right": [
 
@@ -24,7 +23,7 @@
 
 		],
 		"bottom_left": [
-			{"text":"Tinkerer's Quilt Modded","bold":true,"color":"dark_gray"}
+			{"text":"Tinkerer's Quilt Modded","color":"gray"}
 		],
 		"bottom_right": [
 
