@@ -1271,6 +1271,11 @@ hash = "f7b06cb8ec7928fff97239728f125646d9100499fc99281a1fd73486e5fa1841"
 metafile = true
 
 [[files]]
+file = "mods/yttr.pw.toml"
+hash = "fec71ed4313cefb7a6052b48866b9de1cd563c4916639fb141bcc1ca4749490e"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "d6126b71de887bf0b23a4a064b5f9ebb2f4848533f3b098703c3917ba63e5c69"
 metafile = true
