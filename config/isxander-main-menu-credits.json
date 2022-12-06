@@ -1,0 +1,36 @@
+{
+	"main_menu": {
+		"top_left": [
+			{"text":"Tinkerer's Quilt"}
+		],
+		"top_right": [
+
+		],
+		"bottom_left": [
+
+		],
+		"bottom_right": [
+
+		],
+		"mod_blacklist": [
+
+		]
+	},
+	"pause_menu": {
+		"top_left": [
+
+		],
+		"top_right": [
+
+		],
+		"bottom_left": [
+			{"text":"Tinkerer's Quilt","bold":true,"color":"dark_gray"}
+		],
+		"bottom_right": [
+
+		],
+		"mod_blacklist": [
+
+		]
+	}
+}
