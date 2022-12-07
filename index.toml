@@ -460,7 +460,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunks-fade-in.pw.toml"
-hash = "4129cc0514191c735b08f882e802fbc7ef9d071abbb2e6fc547dec6176f14cbd"
+hash = "333bed434bc158e2f26274fd49c6f60a028ff8478098c2bd76f1be40127195fe"
 metafile = true
 
 [[files]]
@@ -728,6 +728,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "d2a65b42dcefbda9ac5c170ff5bf59b4a56ba192993a13d0b0da9b1f0678b4b3"
+metafile = true
+
+[[files]]
+file = "mods/lucium.pw.toml"
+hash = "ed916a6117f0780ca4da66be778205a731e80a913e3e5f1cceafd3ae57785c19"
 metafile = true
 
 [[files]]
