@@ -890,6 +890,11 @@ hash = "eb68f07474889d53f9b81902ad7aca2979604aa6d5102327574b687b1e1c1424"
 metafile = true
 
 [[files]]
+file = "mods/snow-real-magic-fabric.pw.toml"
+hash = "723467d64631cfd60322071a8a59830255424e7498c583ac5331b238699918c6"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "09a2246cb32a1b13e94e264d53429e8fdf5bc1d6444bc4112f9f28b971f9dc54"
 metafile = true
