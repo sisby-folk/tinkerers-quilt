@@ -155,12 +155,14 @@ Letting players express themselves with player customisation, builds, and even f
 
 </details>
 
-# Installation
+# More Info
+
+## Installation
 
 <details>
 <summary>Click to Expand</summary>
 
-## **Packwiz**
+### **Packwiz**
 
 - Install [Prism Launcher](https://prismlauncher.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
 
@@ -180,7 +182,7 @@ Letting players express themselves with player customisation, builds, and even f
 - Run the included Quilt Installer, selecting your minecraft version and the latest non-beta loader version.
 - Run the `Update` script to install the pack, then the `Start` script to run the server
 
-## Modrinth
+### Modrinth
 
 Follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then manually download the mods listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
 
