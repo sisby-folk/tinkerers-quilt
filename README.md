@@ -224,15 +224,17 @@ Mods:
     AppleSkin
     Architectury API
     bad packets
-    Balm (Fabric Edition)
+    Balm
     Better Biome Blend
     Better End Sky
     Blanket
+    Boring Default Game Rules
     Cardinal Ice Boats
     Carpet Extra
     Carpet-Fixes
     Carpet
     Charmonium
+    Chunks fade in
     CIT Resewn
     CleanCut
     Client Tweaks (Fabric Edition)
@@ -244,21 +246,19 @@ Mods:
     Crowmap
     Crunchy Crunchy Advancements
     Cull Less Leaves
-    Custom Fog
+    DeftuLib
     Drogtor the Nickinator
     Dyeable Fishing Lines
     Dynamic FPS
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
     Enhanced Block Entities
-    Effective 💦
     EMI
     Enhanced Attack Indicator
     Exordium
-    Extended Clouds
     Fabric Language Kotlin
+    Fabric Shield Lib
     Window Title Changer
     Fabrication
-    Fabric Shield Lib
     Fabric Tailor
     Falling Leaves
     FastOpenLinksAndFolders
@@ -271,8 +271,9 @@ Mods:
     Horse Buff
     Hwyla Addon Horse Info
     Idwtialsimmoedm
-    Illuminations 🔥
+    ImmediatelyFast
     Indium
+    Inspecio
     Iris Shaders
     Item Filters
     Item Model Fix
@@ -281,9 +282,11 @@ Mods:
     Kiwi 🥝 (Fabric)
     Krypton
     LambdaBetterGrass
+    LambDynamicLights
     LazyDFU
     Leaves Us In Peace
     Lithium
+    Lucium
     Main Menu Credits
     LAN World Plug-n-Play (mcwifipnp)
     Memory Leak Fix
@@ -291,9 +294,10 @@ Mods:
     More Culling
     Mouse Wheelie
     Nbt Crafting
+    No Fade
     NoRecipeBook (Fabric)
     Not Enough Animations
-    Notes Fabric
+    Noteable
     Ok Zoomer
     Open Loader
     Origins Minus
@@ -308,10 +312,11 @@ Mods:
     Quilt Loading Screen
     Raised
     Reacharound
+    Reese's Sodium Options
     Reroll
     RightClickHarvest
+    Simple Fog Control
     Smooth Boot (Fabric)
-    Snow! Real Magic! ⛄ (Fabric)
     Sodium Extra
     Sodium
     spark
@@ -332,6 +337,7 @@ Mods:
     Visuality
     WTHIT Plugins
     WTHIT
+    YetAnotherConfigLib
     You're in Grave Danger
     Your Options Shall Be Respected (YOSBR)
    
@@ -343,15 +349,12 @@ Recommended Shader Packs:
     Sildurs Enhanced Default Shaders
     Super Duper Vanilla Shaders
 
-
 Override mods:
-    inspecio-1.4.2+1.18.jar
-    inventorytabs-0.9.0-beta-1.18.x.jar
-    lambdynamiclights-2.1.1limitless1.18.jar
-    nofade-1.18-2.0.1.jar
-    live-fishing-1.1.1.jar
-    VanillaTweaks_c278482.zip
-    VanillaTweaks_r458705.zip
+    fishing-1.2.0.jar
+    illuminations-1.10.8.jar
+    inventorytabs-0.9.0-beta-1.19.x.jar
+    VanillaTweaks_c667075.zip
+    VanillaTweaks_r324798.zip
 
 Data Packs:
     Tinkerer's Vegetarian
