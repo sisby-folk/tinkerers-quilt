@@ -321,12 +321,8 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "c75afc8309026837f49ca4b87a3bb68edf23774c8cfdbc1678c09fda06753be1"
 
 [[files]]
-file = "config/yosbr/config/styled-chat.json"
-hash = "d95975900e0f160078b3bac00740000a43af0d76abdb8c7f53bc4154d17a4cf5"
-
-[[files]]
 file = "config/yosbr/config/styledplayerlist/config.json"
-hash = "1293555dfac9aa2ed0fb8491a6fd008be3a2d0aeb6f2d3b4fdb32331d09f4501"
+hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
 
 [[files]]
 file = "config/yosbr/config/styledplayerlist/styles/default.json"
@@ -687,8 +683,9 @@ hash = "9262ab42db74495bf72e4d1bfc983dfeb45f321e244ed5321d0fcb1f89136953"
 metafile = true
 
 [[files]]
-file = "mods/item-filters-fabric-1802.2.7-build.33.jar"
-hash = "083f3d25a0489268eb360f9950a16f5636862a28e4f58ebfebcad651e5143456"
+file = "mods/item-filters.pw.toml"
+hash = "5446a135421d4f9cc9c1f43fa7fdad58bd0eed4c2291a6f51eb03f1ec8fdc6bd"
+metafile = true
 
 [[files]]
 file = "mods/item-model-fix.pw.toml"
@@ -826,10 +823,6 @@ metafile = true
 file = "mods/pettable.pw.toml"
 hash = "21fa7484096522ee95c09131ea8dc3246e1001253d483784844832bee6dd9b07"
 metafile = true
-
-[[files]]
-file = "mods/player-pronouns-1.6.0+1.18.jar"
-hash = "fa015b872d25fc7ee428368bd8e69b8b309737a5e1eb8af58bbc18df6073f8f6"
 
 [[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
