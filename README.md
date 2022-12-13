@@ -98,8 +98,8 @@ We made **six mods**:
 
 **Two data packs**:
 
-[Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.<br/>
-[Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for copper and wax.<br/>
+[Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.19.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.<br/>
+[Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.19.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for copper and wax.<br/>
 
 **194 quests**:<br/>
 
