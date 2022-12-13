@@ -74,28 +74,24 @@ We made six mods:
 - [Portable Crafting Standalone](https://modrinth.com/mod/portable-crafting-standalone) - Press V or click a tab to use the crafting table in your inventory. 
 - [Totem Anywhere Standalone](https://modrinth.com/mod/totem-anywhere-standalone) - Totem of undying convenience - uses totems from inventory.  
 - [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) - Hides and removes advancements - quests and [EMI](https://modrinth.com/mod/emi) covers all you need.
-- [Tinkerer's Statures](https://modrinth.com/mod/tinkerers-statures) - Allows choosing player height on spawn.
- 
-![screenshot](https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png)
+- [Tinkerer's Statures](https://modrinth.com/mod/tinkerers-statures) - Allows choosing player height on spawn.<br/>     
+ ![screenshot](https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png)
 
-- [Origins Minus](https://modrinth.com/mod/origins-minus) - A full set of origins optimised for simplicity, not balance.
- 
-![screenshot](https://user-images.githubusercontent.com/55819817/192087501-c157859b-1307-4de4-a88d-f2c61391edf9.png)
+- [Origins Minus](https://modrinth.com/mod/origins-minus) - A full set of origins optimised for simplicity, not balance.<br/>     
+![originsminus_transparent](https://user-images.githubusercontent.com/55819817/207250617-c4d83703-817c-47b7-8ddf-d2e915807df4.png)
 
-- [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.
+- [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.<br/>     
+![tinkerers-smithing-banner](https://user-images.githubusercontent.com/55819817/184521392-5f0ddbd5-e9f5-4c7a-8262-ecb265e2e6cd.png)
   - Flattens mending power creep, encouraging players to keep "Sentimental" tools as much as they like.
   - Tool material upgrades cost the exact same as a fresh tool - but keep the enchantments.
   - Quicker tools with less waste - upgrade wood to stone to iron from the 2x2 crafting grid.
 
-![tinkerers-smithing-banner](https://user-images.githubusercontent.com/55819817/184521392-5f0ddbd5-e9f5-4c7a-8262-ecb265e2e6cd.png)
-
-- [Switchy](https://modrinth.com/mod/switchy) - Change your origin, skin, and more between presets with a single command.
-
+- [Switchy](https://modrinth.com/mod/switchy) - Change your origin, skin, and more between presets with a single command.<br/>     
 ![switchy banner](https://user-images.githubusercontent.com/55819817/198210616-eb37be12-cd96-40c8-a941-68a96b2aadfc.png)
 
 Two data packs: (use [this](https://download-directory.github.io) for downloads)
 - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
-- [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for Copper and Wax!
+- [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for copper and wax.
 
 Mod Configuration
    - 194 Quests with just as much flavour text - queer humour, observations, and a weird mix of references.
