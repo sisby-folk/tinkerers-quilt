@@ -162,13 +162,14 @@ Letting players express themselves with player customisation, builds, and even f
 <details>
 <summary>Click to Expand</summary>
 
-### **Players**
+## **Packwiz**
+
 - Install [Prism Launcher](https://prismlauncher.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
 
     - Alternatively, run `winget install "Prism Launcher"` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
     - [MultiMC](https://multimc.org/) is also supported.
 
-- Download [Tinkerer's Quilt](https://sisby-folk.github.io/mc-packs/).
+- Download Tinkerer's Quilt from the [packwiz downloads page](https://sisby-folk.github.io/mc-packs/).
 
 - Drag and drop onto an open Prism/MultiMC window, press OK, and double click it to play!
 
@@ -176,20 +177,18 @@ Letting players express themselves with player customisation, builds, and even f
 
     - The pack will auto-update on every launch. To disable this, turn off **custom commands** in Edit Instance -> Settings.
 
-### **Server Hosts**
-- Download a [TQuilt Server Version](https://sisby-folk.github.io/mc-packs/)
-- Run Quilt Installer and select `1.18.2` and the latest non-beta loader version. Then click "install"
-- Run `Update.bat` to install the pack, then `Start.bat` to run the server
+#### **Packwiz Server**
+- Download the server from the [packwiz downloads page](https://sisby-folk.github.io/mc-packs/).
+- Run the included Quilt Installer, selecting your minecraft version and the latest non-beta loader version.
+- Run the `Update` script to install the pack, then the `Start` script to run the server
 
-### Modrinth Version
+## Modrinth
 
 Follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then manually download the mods listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
 
 </details>
 
 ---
-
-# Extra Info
 
 ## Full Modlist
 
