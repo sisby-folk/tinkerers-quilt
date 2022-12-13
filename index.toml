@@ -57,10 +57,6 @@ file = "config/custom-fog.json"
 hash = "b491cffccc8093e9a2513bbf17fa591ca20715ed82d0d13ed75227587fa31b3e"
 
 [[files]]
-file = "config/darkness.properties"
-hash = "5e9b4fe66da066725b6713e2d6706931b90b4f8db6eba389827d03c506278701"
-
-[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -90,7 +86,7 @@ hash = "b14dbd73ca2940774834dd439a5209df1099b06a1d7b79cdeda0b5a169677b98"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "c859d0bdd9753b9529d688129e1a3a5fdab6ac57403783f5a81893870eb1c07d"
+hash = "62b1727590e4088253fec749adb5e1ad04fc9b5ce3402aa8267873d89657fbc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
@@ -425,8 +421,8 @@ hash = "c3d163564b8c89694cdcc76060ccd67ea9178a08e18e5d57243a704809f4defc"
 metafile = true
 
 [[files]]
-file = "mods/balm-fabric.pw.toml"
-hash = "3f57dfd24e15076ae0fba5cfb57c67f61e3c2a6e0b701a5c74736f26be704863"
+file = "mods/balm.pw.toml"
+hash = "918e0574c67e9dd023a7757060ba398c806adb9e271e715e7ee7fd6416c4b83e"
 metafile = true
 
 [[files]]
@@ -747,7 +743,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "a6a0da39797d8e08b18858cfb31144eef6d00c9588206b765d8d8f3b5523fabd"
+hash = "7c99673ed5abf9628a6180c00d65b40649b0a788c83614d58640109aaf00ceb2"
 metafile = true
 
 [[files]]
