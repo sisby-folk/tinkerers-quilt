@@ -132,7 +132,7 @@ Letting players express themselves with player customisation, builds, and even f
 - [EMI](https://modrinth.com/mod/emi) - An advanced recipe book that lets players find information on any item, and help craft it.
 - [What The Hell Is That?](https://modrinth.com/mod/wthit) - Hold alt to see information on the block or mob you're looking at.     
   ![image](https://user-images.githubusercontent.com/55819817/174112665-b8b534e2-5b8d-450e-91dd-260869086719.png)
-- [Notes](https://www.curseforge.com/minecraft/mc-mods/notes-fabric) - Allows players to take in-game notes about their plans, locations to revisit, etc.
+- [Noteable](https://modrinth.com/mod/noteable) - Allows players to take in-game notes about their plans, locations to revisit, etc.
 - [Reacharound](https://modrinth.com/mod/reacharound) - Build midair bridges without sneaking, and even downwards stairs.
 - [Project: Save The Pets!](https://modrinth.com/mod/projectsavethepets) - Prevents pet harm and adds a pet revival system.
 - [Horse Buff](https://modrinth.com/mod/horsebuff) - Improves and protects horses, making them easier to take out on adventures.
@@ -202,15 +202,17 @@ Mods:
     AppleSkin
     Architectury API
     bad packets
-    Balm (Fabric Edition)
+    Balm
     Better Biome Blend
     Better End Sky
     Blanket
+    Boring Default Game Rules
     Cardinal Ice Boats
     Carpet Extra
     Carpet-Fixes
     Carpet
     Charmonium
+    Chunks fade in
     CIT Resewn
     CleanCut
     Client Tweaks (Fabric Edition)
@@ -222,21 +224,19 @@ Mods:
     Crowmap
     Crunchy Crunchy Advancements
     Cull Less Leaves
-    Custom Fog
+    DeftuLib
     Drogtor the Nickinator
     Dyeable Fishing Lines
     Dynamic FPS
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
     Enhanced Block Entities
-    Effective 💦
     EMI
     Enhanced Attack Indicator
     Exordium
-    Extended Clouds
     Fabric Language Kotlin
+    Fabric Shield Lib
     Window Title Changer
     Fabrication
-    Fabric Shield Lib
     Fabric Tailor
     Falling Leaves
     FastOpenLinksAndFolders
@@ -249,8 +249,9 @@ Mods:
     Horse Buff
     Hwyla Addon Horse Info
     Idwtialsimmoedm
-    Illuminations 🔥
+    ImmediatelyFast
     Indium
+    Inspecio
     Iris Shaders
     Item Filters
     Item Model Fix
@@ -259,9 +260,11 @@ Mods:
     Kiwi 🥝 (Fabric)
     Krypton
     LambdaBetterGrass
+    LambDynamicLights
     LazyDFU
     Leaves Us In Peace
     Lithium
+    Lucium
     Main Menu Credits
     LAN World Plug-n-Play (mcwifipnp)
     Memory Leak Fix
@@ -269,9 +272,10 @@ Mods:
     More Culling
     Mouse Wheelie
     Nbt Crafting
+    No Fade
     NoRecipeBook (Fabric)
     Not Enough Animations
-    Notes Fabric
+    Noteable
     Ok Zoomer
     Open Loader
     Origins Minus
@@ -286,10 +290,11 @@ Mods:
     Quilt Loading Screen
     Raised
     Reacharound
+    Reese's Sodium Options
     Reroll
     RightClickHarvest
+    Simple Fog Control
     Smooth Boot (Fabric)
-    Snow! Real Magic! ⛄ (Fabric)
     Sodium Extra
     Sodium
     spark
@@ -310,6 +315,7 @@ Mods:
     Visuality
     WTHIT Plugins
     WTHIT
+    YetAnotherConfigLib
     You're in Grave Danger
     Your Options Shall Be Respected (YOSBR)
    
@@ -321,31 +327,14 @@ Recommended Shader Packs:
     Sildurs Enhanced Default Shaders
     Super Duper Vanilla Shaders
 
-
 Override mods:
-    inspecio-1.4.2+1.18.jar
-    inventorytabs-0.9.0-beta-1.18.x.jar
-    lambdynamiclights-2.1.1limitless1.18.jar
-    nofade-1.18-2.0.1.jar
-    live-fishing-1.1.1.jar
-
-Resource Packs: 
-    Colored Axolotl Buckets With Babies
-    Varied Connected Bookshelves
-    xali's Enchanted Books
-    Sully's Peeves
-    Vanilla Tweaks
-
-Shader Packs Recommended:
-    BSL Shaders
-    Complementary Shaders
-    Complementary Reimagined Shaders
-    Prismarine Shaders
-    Sildurs Enhanced Default Shaders
-    Super Duper Vanilla Shaders
+    fishing-1.2.0.jar
+    illuminations-1.10.8.jar
+    inventorytabs-0.9.0-beta-1.19.x.jar
+    VanillaTweaks_c667075.zip
+    VanillaTweaks_r324798.zip
 
 Data Packs:
-    Vanilla Tweaks
     Tinkerer's Vegetarian
     Tinkerer's Copper Beacons
 ```
