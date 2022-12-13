@@ -328,24 +328,10 @@ Override mods:
     lambdynamiclights-2.1.1limitless1.18.jar
     nofade-1.18-2.0.1.jar
     live-fishing-1.1.1.jar
-
-Resource Packs: 
-    Colored Axolotl Buckets With Babies
-    Varied Connected Bookshelves
-    xali's Enchanted Books
-    Sully's Peeves
-    Vanilla Tweaks
-
-Shader Packs Recommended:
-    BSL Shaders
-    Complementary Shaders
-    Complementary Reimagined Shaders
-    Prismarine Shaders
-    Sildurs Enhanced Default Shaders
-    Super Duper Vanilla Shaders
+    VanillaTweaks_c278482.zip
+    VanillaTweaks_r458705.zip
 
 Data Packs:
-    Vanilla Tweaks
     Tinkerer's Vegetarian
     Tinkerer's Copper Beacons
 ```
