@@ -73,7 +73,7 @@ Turns out if you want your modpack to feel cohesive, good to play, and match a v
 We made six mods:
 - [Portable Crafting Standalone](https://modrinth.com/mod/portable-crafting-standalone) - Press V or click a tab to use the crafting table in your inventory. 
 - [Totem Anywhere Standalone](https://modrinth.com/mod/totem-anywhere-standalone) - Totem of undying convenience - uses totems from inventory.  
-- [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) - Hides and removes advancements - quests and [EMI](https://modrinth.com/mod/emi) covers all you need.
+- [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) - Hides and removes advancements - quests and [EMI](https://modrinth.com/mod/emi) cover all you need.
 - [Tinkerer's Statures](https://modrinth.com/mod/tinkerers-statures) - Allows choosing player height on spawn.<br/>     
  ![screenshot](https://user-images.githubusercontent.com/55819817/174215100-2b630688-8ef5-4429-b82e-9516c132915a.png)
 
@@ -93,19 +93,16 @@ Two data packs: (use [this](https://download-directory.github.io) for downloads)
 - [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.
 - [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.18.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for copper and wax.
 
-Mod Configuration
-   - 194 Quests with just as much flavour text - queer humour, observations, and a weird mix of references.
-     - 1074 lines of quest descriptions - tutorials, explanations, and so on.
-     - Meticulously symmetrical and grouped quest positioning. No, really.
-   - Removing feature overlap
-   - Rebalancing mods
-   - Rebalancing vanilla via tweak mods (Shoutouts to Fabrication and Apathy)
-   - Ruining everyone's life by shipping a default `options.txt` file (sorry)
-
-And of course, playtesting
- - Resolving feature overlap
- - Finding gaps in the gameplay flow
- - Reporting bugs and incompatibilities to other mod devs.
+And of course, mod configuration: 
+- 194 Quests with just as much flavour text - queer humour, observations, and a weird mix of references.
+  - 1074 lines of quest descriptions - tutorials, explanations, and so on.
+  - Meticulously symmetrical and grouped quest positioning. No, really.
+- Removing feature overlap
+- Rebalancing mods
+- Rebalancing vanilla via tweak mods (Shoutouts to Fabrication and Apathy)
+- Ruining everyone's life by shipping a default `options.txt` file
+- PR'ing improvements to mods (does it count as configuration if you apply it directly to the source code?)
+- Reporting bugs to devs (does it count as configuration if you "configure" the mod to work better by asking nicely?)
 
 </details>
 
