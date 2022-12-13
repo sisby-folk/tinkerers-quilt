@@ -742,9 +742,8 @@ hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
 metafile = true
 
 [[files]]
-file = "mods/mcwifipnp.pw.toml"
-hash = "7c99673ed5abf9628a6180c00d65b40649b0a788c83614d58640109aaf00ceb2"
-metafile = true
+file = "mods/mcwifipnp-1.5.6-1.18.2-fabric.jar"
+hash = "bb362e0824e0ab7292534dd9087c4f598180f8171201b4c602e443dee5fb8dec"
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"

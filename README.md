@@ -285,7 +285,6 @@ Mods:
     Leaves Us In Peace
     Lithium
     Main Menu Credits
-    LAN World Plug-n-Play (mcwifipnp)
     Memory Leak Fix
     Mod Menu
     More Culling
@@ -350,6 +349,7 @@ Override mods:
     lambdynamiclights-2.1.1limitless1.18.jar
     nofade-1.18-2.0.1.jar
     live-fishing-1.1.1.jar
+    mcwifipnp-1.5.6-1.18.2-fabric.jar
     VanillaTweaks_c278482.zip
     VanillaTweaks_r458705.zip
 
