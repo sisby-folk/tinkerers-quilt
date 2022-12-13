@@ -155,8 +155,6 @@ Letting players express themselves with player customisation, builds, and even f
 
 </details>
 
----
-
 # Installation
 
 <details>
@@ -187,8 +185,6 @@ Letting players express themselves with player customisation, builds, and even f
 Follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then manually download the mods listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
 
 </details>
-
----
 
 ## Full Modlist
 
