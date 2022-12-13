@@ -1,10 +1,8 @@
-<center><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/184521317-a97aa68b-91c7-4c71-86f9-6d1e5d833f83.png" />
+<center><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/207276659-81f83f87-8752-4171-bf21-bba922d3a9f0.png" />
 <b>Tinkerer's Quilt</b> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
 It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <b>Installation</b> section below.</center>
 
 ---
-
-
 
 Tinkerer's Quilt is *vanilla world compatible*, with **no new items, blocks, or worldgen**.
 
@@ -90,13 +88,12 @@ We made **six mods**:
 [Origins Minus](https://modrinth.com/mod/origins-minus) - A full set of origins optimised for simplicity, not balance.<br/>
 ![originsminus_transparent](https://user-images.githubusercontent.com/55819817/207250617-c4d83703-817c-47b7-8ddf-d2e915807df4.png)<br/><br/>
 [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing) - Repair for no XP cost, lower repair cost with scrap, and upgrade tool materials.<br/>
-![tinkerers-smithing-banner](https://user-images.githubusercontent.com/55819817/184521392-5f0ddbd5-e9f5-4c7a-8262-ecb265e2e6cd.png)<br/>
+![tinkerers-smithing-banner](https://user-images.githubusercontent.com/55819817/207277119-c8b933ce-1055-4a48-95b6-ad7d83e09b8a.png)<br/>
 *Flattens mending power creep, encouraging players to keep "Sentimental" tools as much as they like.*<br/>
 *Tool material upgrades cost the exact same as a fresh tool - but keep the enchantments.*<br/>
-*Quicker tools with less junk - upgrade wood to stone to iron from the 2x2 crafting grid.*
-
+*Quicker tools with less junk - upgrade wood to stone to iron from the 2x2 crafting grid.*<br/><br/>
 [Switchy](https://modrinth.com/mod/switchy) - Change your origin, skin, and more between presets with a single command.
-![switchy banner](https://user-images.githubusercontent.com/55819817/198210616-eb37be12-cd96-40c8-a941-68a96b2aadfc.png)<br/><br/>
+![switchy banner](https://user-images.githubusercontent.com/55819817/207276993-bd723741-8f33-485f-8495-2961007b7e89.png)<br/><br/>
 
 **Two data packs**:
 
