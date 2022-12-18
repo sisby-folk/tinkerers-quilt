@@ -1,0 +1,13 @@
+name = "Lucium"
+filename = "lucium-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AP4MNKKf/versions/1.1/lucium-1.1.jar"
+hash-format = "sha1"
+hash = "6280aabc1a9b57fba4392bfbea697b53fad299dd"
+
+[update]
+[update.modrinth]
+mod-id = "AP4MNKKf"
+version = "RioeRfdG"

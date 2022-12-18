@@ -147,16 +147,14 @@
 			}]
 		}
 		{
-			title: "LambDynamicLights / True Darkness"
+			title: "LambDynamicLights"
 			icon: "minecraft:light"
 			x: -1.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "Caving Helper / Atmospherics"
+			subtitle: "Caving Helper"
 			description: [
 				"When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"
-				""
-				"Without shaders enabled, caves and dark nights will appear darker, especially during new moons. This can be disabled under §nALT+M§r -> \"True Darkness\""
 			]
 			id: "1B0FB35AB16E8938"
 			tasks: [{
