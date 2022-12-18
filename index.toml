@@ -616,6 +616,11 @@ hash = "ed2ff9d5b1fe04e1a599b825809b5ab2d729441650b3847222a342c3763a51cb"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+hash = "6e2a7ae250c6997f6d6d23a772a267107a3d7fbd7137d13c62e7121ec06e3519"
+metafile = true
+
+[[files]]
 file = "mods/campanion.pw.toml"
 hash = "e351f40305f1377a4023c09e774d040e601d513bd37e307955b2f68e986a612c"
 metafile = true
