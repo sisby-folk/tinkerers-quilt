@@ -5,18 +5,6 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
-file = "config/YungsExtras/README.txt"
-hash = "930ad054548d66deee0836d5160cc3ee14e16150aa83efc7a046d54c9a32af16"
-
-[[files]]
-file = "config/YungsExtras/fabric-1_18/README.txt"
-hash = "d9fd8d2fa8dca42d4ffc3573159e3d0fa2618ceb6474d38831a55786c43e1c5d"
-
-[[files]]
-file = "config/YungsExtras/fabric-1_18/wishing_wells.json"
-hash = "7873ba7c1614546859aea24d5821961356531326e28127783665e569f91fffcf"
-
-[[files]]
 file = "config/advancementinfo.json5"
 hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
 
@@ -41,63 +29,67 @@ file = "config/appleskin.json5"
 hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
 
 [[files]]
-file = "config/betterdeserttemples-fabric-1_18.toml"
-hash = "45f83f57d7e0f2e14a1d0b2e78295a600c2ecd66557796167e8ef0bda33d21d7"
+file = "config/betterdeserttemples-fabric-1_19.toml"
+hash = "06a1b8b7774df6bef4dc9b82e140a4211d41c93178ee0d9d25105d05a6c20566"
 
 [[files]]
 file = "config/betterdeserttemples/README.txt"
 hash = "3646bc39be8c42a1432506e77721f3b963d33948d4bbd4cd5a10703834979116"
 
 [[files]]
-file = "config/betterdeserttemples/fabric-1_18_2/README.txt"
+file = "config/betterdeserttemples/fabric-1_19/README.txt"
 hash = "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
 
 [[files]]
-file = "config/betterdeserttemples/fabric-1_18_2/armorstands.json"
-hash = "52e183a00c10da61d569f3d05832ddcbf4647d0905593830b789b5dbbf6ba1bc"
+file = "config/betterdeserttemples/fabric-1_19/armorstands.json"
+hash = "8cf83cdf1b1a366b165e28c24a14fb91c242bacd1a8ed61a4d63fd5add4dfe3b"
 
 [[files]]
-file = "config/betterdeserttemples/fabric-1_18_2/itemframes.json"
-hash = "f5a68cc3744b35247de433d88396bc2003f5158999ab240efab070715785789e"
+file = "config/betterdeserttemples/fabric-1_19/itemframes.json"
+hash = "d778bb1d8651518bc1c5ed8f2f812001249420c5d14f2f6876054c9f1e58049b"
 
 [[files]]
-file = "config/betterdungeons-fabric-1_18.toml"
-hash = "21acf30f2d9f7e0e29a3ef203092ab2a1b793986959a2b838947af0d2efa0387"
+file = "config/betterdungeons-fabric-1_19.toml"
+hash = "c0809814af173f138d83495d36aabcccda93ba2f2a49ec5b7e1c87a201efee77"
 
 [[files]]
-file = "config/bettermineshafts-fabric-1_18.toml"
-hash = "eb6519429d6c3b884b735474f1857a0ec2f42e2a4a2bd4cb0de55ebc8498b8a6"
+file = "config/bettermineshafts-fabric-1_19.toml"
+hash = "d486f4672659b59f9a855d9ebce345d8a983c504d24b99613ce280db657c40f5"
 
 [[files]]
-file = "config/betterstrongholds-fabric-1_18.toml"
-hash = "877273977d223c9396e2f15727a27e906118025228c572f82cf4d96fdf71ecb1"
+file = "config/betteroceanmonuments-fabric-1_19.toml"
+hash = "dbba9af53d8bfb9f46cb4c9ab525a72026ad0a13c36e8dd8efe7398a767c3187"
+
+[[files]]
+file = "config/betterstrongholds-fabric-1_19.toml"
+hash = "2dae469f9196a363cb5e9fb614788224a713378f22300a1afd6486f1d43766a2"
 
 [[files]]
 file = "config/betterstrongholds/README.txt"
 hash = "70aadca974d0adfe90f98930e23c15076b3d2e625c88e8c2aa6721d91a8c035f"
 
 [[files]]
-file = "config/betterstrongholds/fabric-1_18_2/README.txt"
+file = "config/betterstrongholds/fabric-1_19/README.txt"
 hash = "c857bda54ab01ca5db21cfe085dc75dcbb13d26054463cf301c74023783612fc"
 
 [[files]]
-file = "config/betterstrongholds/fabric-1_18_2/armorstands.json"
-hash = "f74812605f57553b98c0077d0ad67ec850443d9ea75c5813415b5c524195df13"
+file = "config/betterstrongholds/fabric-1_19/armorstands.json"
+hash = "5b168632d0a27d583a19f376783ced2f32fa7267d0b565000cb4f6aa1c16cb56"
 
 [[files]]
-file = "config/betterstrongholds/fabric-1_18_2/itemframes.json"
-hash = "57bad9aa843d6941c76fdc0e2794defddc10e9b7d881ede65955bfd216caddcf"
+file = "config/betterstrongholds/fabric-1_19/itemframes.json"
+hash = "da33330d27495a0f66f6e0d087a2ff77881cefa7c42cc601af8e39346aa0084d"
 
 [[files]]
-file = "config/betterstrongholds/fabric-1_18_2/ores.json"
-hash = "b40f4c0f48b6b4d7455a876933b5a4b3db2433855328e628f043cb9e1b311df7"
+file = "config/betterstrongholds/fabric-1_19/ores.json"
+hash = "d00578e3e23373447023c679ce58b994bcf51e4b53f6ac8ac83c59d395ff8aee"
 
 [[files]]
-file = "config/betterstrongholds/fabric-1_18_2/rareblocks.json"
-hash = "eee83286c8d9a76bcbabf0447331f929689b8a22b7c72aaa46096a8b4c5135cb"
+file = "config/betterstrongholds/fabric-1_19/rareblocks.json"
+hash = "890eaae9d4766bf7a20a3862d53fa7be60eb690bdfb9bf82d84acd9341505826"
 
 [[files]]
-file = "config/betterwitchhuts-fabric-1_18.toml"
+file = "config/betterwitchhuts-fabric-1_19.toml"
 hash = "063ce4f60934ab166dade45375ef5518df74be2c6c1e1f1a52ec181013803197"
 
 [[files]]
@@ -214,7 +206,7 @@ hash = "c4c42f2426bf3c69ce43ee7f05ee14aa4d006b74654d1982edd5ffdcb4b8298a"
 
 [[files]]
 file = "config/lucium-hidden-debug-entries.txt"
-hash = "bc8876f1afd54ff5f5f862e6ba531f8a80853688fd2e99cdfb1b633f1386dd5f"
+hash = "38fd60a0cd0876676b19eedebb30afe0c39848d1a048b1809946a99cc2ab69a7"
 
 [[files]]
 file = "config/naturescompass.json"
@@ -358,22 +350,6 @@ file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
 
 [[files]]
-file = "config/promenade/animals.json"
-hash = "1743231f8f05ee72d929909858c73577bd342ba5e8c66a28d35b46e2713cec7a"
-
-[[files]]
-file = "config/promenade/biomes.json"
-hash = "47119b479d76e1675e819fdd038b7feaeb92154d674440475aa8fa2daea21dba"
-
-[[files]]
-file = "config/promenade/monsters.json"
-hash = "26ce4ed38072937ecafa1331abc43824d68ee3d9c68443e8b7a012ef05676a82"
-
-[[files]]
-file = "config/promenade/world_features.json"
-hash = "eb60cfddf673c1d03eddd91cdf11ec72e44be0a933238268574db30f30d41cb1"
-
-[[files]]
 file = "config/puzzle.json"
 hash = "4b8f41e58609c3933456ae462fbbe0f9f2c0f37d4a1bfda8c98f85e90c94cd91"
 
@@ -414,7 +390,7 @@ file = "config/tiefix.json"
 hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
 
 [[files]]
-file = "config/travelerstitles-fabric-1_18.toml"
+file = "config/travelerstitles-fabric-1_19.toml"
 hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
 
 [[files]]
@@ -514,7 +490,7 @@ file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
 hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
 
 [[files]]
-file = "config/yungsextras-fabric-1_18.toml"
+file = "config/yungsextras-fabric-1_19.toml"
 hash = "7e282abf1b75f373189f582d371ab94bcb8a218ff94ce124a548517f630c25f1"
 
 [[files]]
