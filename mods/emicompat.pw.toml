@@ -1,0 +1,13 @@
+name = "EMICompat"
+filename = "emicompat-2.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cK0i8gTV/versions/T2RoU5TJ/emicompat-2.0.3.jar"
+hash-format = "sha1"
+hash = "e481ca7d09a76890921e12d53c4558dbb58b77a4"
+
+[update]
+[update.modrinth]
+mod-id = "cK0i8gTV"
+version = "T2RoU5TJ"
