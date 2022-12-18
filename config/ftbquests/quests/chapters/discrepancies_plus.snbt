@@ -28,10 +28,8 @@
 				" - Fabric Seasons"
 				" - Farmer's Delight"
 				" - [F]Waystones"
-				" - Kiln"
 				" - Lovely Snails"
 				" - Nature's Compass"
-				" - Overweight Farming"
 				" - Polaroid Camera"
 				" - Rusted Iron"
 				" - Sandwichable"
@@ -134,7 +132,7 @@
 		{
 			title: "Sandwichable"
 			icon: "sandwichable:toasted_bread_slice"
-			x: -0.5d
+			x: 0.0d
 			y: 3.0d
 			shape: "square"
 			subtitle: "DIY Food Crime"
@@ -236,7 +234,7 @@
 			shape: "square"
 			subtitle: "Pretty ^^"
 			description: [
-				"Aurora's decorations adds azelea and jacaranda wood, a sawmill for wooden decoratives, and a few key helpful decorations, such as new colours of light, and shelves."
+				"Aurora's decorations adds azelea and jacaranda wood, a sawmill for wooden decoratives, and a few key helpful decorations such as new light colours and shelves."
 				""
 				"It also adds various boards, which can be drawn on with dye to show any design you like."
 			]
@@ -329,7 +327,7 @@
 		}
 		{
 			title: "Waystones"
-			icon: "waystones:waystone"
+			icon: "fwaystones:waystone"
 			x: 3.5d
 			y: 5.5d
 			shape: "square"
