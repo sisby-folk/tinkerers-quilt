@@ -1,13 +1,13 @@
 name = "FTB Quests (Fabric)"
-filename = "ftb-quests-fabric-1902.4.3-build.140.jar"
+filename = "ftb-quests-fabric-1902.4.4-build.150.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "679b4885f9ea34cf70f3b7b8a9872488acae95e1"
+hash = "6427539c2633dd6f38f00e74388c83b984e0e59b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4075704
+file-id = 4210887
 project-id = 438496

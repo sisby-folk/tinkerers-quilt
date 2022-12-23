@@ -1,13 +1,13 @@
 name = "Pehkui"
-filename = "Pehkui-3.6.0+1.14.4-1.19.3.jar"
+filename = "Pehkui-3.6.1+1.14.4-1.19.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/t5W7Jfwy/versions/KdbiK6RJ/Pehkui-3.6.0%2B1.14.4-1.19.3.jar"
+url = "https://cdn.modrinth.com/data/t5W7Jfwy/versions/J8DnNDOS/Pehkui-3.6.1%2B1.14.4-1.19.3.jar"
 hash-format = "sha1"
-hash = "a96573f5dff43bde70e0b82561497c19bf2d087c"
+hash = "c5c9f7c2dbed8a757846e433b7302d0b7ea7d4f3"
 
 [update]
 [update.modrinth]
 mod-id = "t5W7Jfwy"
-version = "KdbiK6RJ"
+version = "J8DnNDOS"

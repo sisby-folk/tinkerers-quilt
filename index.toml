@@ -133,118 +133,6 @@ file = "config/lucium-hidden-debug-entries.txt"
 hash = "bc8876f1afd54ff5f5f862e6ba531f8a80853688fd2e99cdfb1b633f1386dd5f"
 
 [[files]]
-file = "config/openloader/data/VanillaTweaks_c667075.zip"
-hash = "c94d4d8f1f79fc0e498f7f58c886690bdc936d6fc950512edbc973610dddd166"
-
-[[files]]
-file = "config/openloader/data/tinkerers_copper_beacons/data/minecraft/tags/blocks/beacon_base_blocks.json"
-hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
-
-[[files]]
-file = "config/openloader/data/tinkerers_copper_beacons/pack.mcmeta"
-hash = "ff0530c293bf12aaa6b17feea7bd2d68eaa2fd2e39e4dbeeefa11d450e320555"
-
-[[files]]
-file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/boots.json"
-hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
-
-[[files]]
-file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/chestplates.json"
-hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
-
-[[files]]
-file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/fence_gates.json"
-hash = "85822c016f30658fb2ce252c5deca168e7cbefa650eb2f229be8970875d4c8da"
-
-[[files]]
-file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/helmets.json"
-hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
-
-[[files]]
-file = "config/openloader/data/tinkerers_tags/data/tinkerer/tags/items/leggings.json"
-hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
-
-[[files]]
-file = "config/openloader/data/tinkerers_tags/pack.mcmeta"
-hash = "22fd46cce0b76f6923bd7ddced22c9c66372bd91d501a7de219374c241b74fc4"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/book_quill.json"
-hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/glow_sac.json"
-hash = "4d24fc94706c050d8d0bd175987e47e0a0125087816324209d06ab77105436df"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/jump_boost.json"
-hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/repair_elytra.json"
-hash = "574b102c55fba6cefe8cbc064ebe75b72ee1777de8382db0952d4b1b34457455"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/slime_ball.json"
-hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/slow_fall.json"
-hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/data/tinkerer/recipes/water_breathing.json"
-hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
-
-[[files]]
-file = "config/openloader/data/tinkerers_vegetarian/pack.mcmeta"
-hash = "0df24fa90df0ffc45f684d3e7945ef567c6e9be8530ca06e1f95812f811c9227"
-
-[[files]]
-file = "config/openloader/resources/VanillaTweaks_r324798.zip"
-hash = "1ad05a906caa427b3620b1d901af527eaa4eec9a8b5404faa28f0034009cfba8"
-
-[[files]]
-file = "config/openloader/resources/axolotl-bucket-variants.pw.toml"
-hash = "354d92fe85bb206d48798ca66d6c02b669da3ad898edb8b5c5ee507b787ae48a"
-metafile = true
-
-[[files]]
-file = "config/openloader/resources/origins_minus/assets/origins_minus/textures/gui/origins_status_mer.png"
-hash = "ff02fc2d572ccdd30b8b619af8990055840a543b6d7de2d6cd6d358dca936349"
-
-[[files]]
-file = "config/openloader/resources/origins_minus/assets/origins_minus/textures/gui/origins_status_vampire.png"
-hash = "e7455990f31d27b951b5bb820dd2378f32b2e2855bed05ce10dd2307de21697a"
-
-[[files]]
-file = "config/openloader/resources/origins_minus/pack.mcmeta"
-hash = "a90f1ed3100bff6193f871f2b982f2534d068b01e11ed532c3a535de98db4a10"
-
-[[files]]
-file = "config/openloader/resources/sullys-peeves.pw.toml"
-hash = "89380cc7890f27b4da0485a417ca58874e390678a3b4f65d40e615fd8ff99394"
-metafile = true
-
-[[files]]
-file = "config/openloader/resources/tinkerers_assets/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
-hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
-
-[[files]]
-file = "config/openloader/resources/tinkerers_assets/pack.mcmeta"
-hash = "1de8c3085744206eeb32eaefbaa8bba31a0c5330ae981de1999e275a25a301b0"
-
-[[files]]
-file = "config/openloader/resources/varied-connected-bookshelves.pw.toml"
-hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
-metafile = true
-
-[[files]]
-file = "config/openloader/resources/xalis-enchanted-books.pw.toml"
-hash = "5cb15fcefffc94e700dd5d776400b37fb3296ede3d2e546d17a7f85b35964ce7"
-metafile = true
-
-[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -559,7 +447,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "f8a11078f1d7f960612efacc95c1ddc2c8f29b8ade91fa248917659d4a767537"
+hash = "5b2566cd4cdfb5b47c31246af31ee4e27ec8ace3b248a00823adec7efd8f8fed"
 metafile = true
 
 [[files]]
@@ -584,7 +472,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-shield-lib.pw.toml"
-hash = "9cee346032a1d171f6490510901482c35dc96530d36c3f8d84fda4f4b35060e2"
+hash = "f3b95a3ed231feb2c00a6c7c61ac4863a62fba7698b1b523943d226b8666a6db"
 metafile = true
 
 [[files]]
@@ -633,17 +521,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "bf8fcf3f23ace699ad33c08bdc0f6da9c017f535990373aebf0a832c67199793"
+hash = "8734e4d8118d6723447c0cf958c906da59caa8899bf06b0efabc9c80c1ff331b"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "09f3792cb990a17d1000802ca7b69fee2249d9f455c08862d0b812a4b1e122da"
+hash = "25e5f545825818654c45e703cd1631248d395acaee3fcf60870fb953087866b7"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
-hash = "20436e490b6c30fafb48aba51810e7e27f3f301055b99785a404b22d776a9a2f"
+hash = "306ee24cdf6a03f0b843aeef13c6eb59a25e09ebe1f0c93b1a95e1df54cd0cff"
 metafile = true
 
 [[files]]
@@ -667,7 +555,7 @@ hash = "2c25dc32b10e335016b91bd3a6d67195cb79c561857316a44d51fe631998d230"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3d3aeba8c78ad473c8064334c2b4d1c52cfc514640b3c03a00b66e0552f21967"
+hash = "a2b3438f74269aefff711834dc43cb7b8e4b28347fd1922a0e27465d231a7995"
 metafile = true
 
 [[files]]
@@ -756,7 +644,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "c8d39d45ed24d213249b5bfaf694936d5992b0ed1c0e39fcfd052289d0005302"
+hash = "1be161c5175de48cc080374582c6af01b02c57e3a7d21617c0ab558b59b6c954"
 metafile = true
 
 [[files]]
@@ -771,17 +659,17 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "db19edc58c7779aba173e9aae60a550f16535f9395046afc870982157aaedb5a"
+hash = "d7b75ebd1b86bc99af1c6e24857f98c697d9efc1998572f4d6a6f8aca679208b"
 metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "e743ba3f78900d92e3df0831d8eb4c51f3e1d151b3f827c510e256b068e4e7d9"
+hash = "509e5fceb5ca7626d953238a57de458e73798464a1bd878df6ca956eedff2781"
 metafile = true
 
 [[files]]
 file = "mods/nbt-crafting.pw.toml"
-hash = "092562cce93b133cdd4f9a0004a104914fd9f639941fb4c2401054fac0124f15"
+hash = "9baab13935a82118fded31de6b3c136fa4f0f6fbe17244cac59ec165d98b25ec"
 metafile = true
 
 [[files]]
@@ -810,11 +698,6 @@ hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
 metafile = true
 
 [[files]]
-file = "mods/open-loader.pw.toml"
-hash = "7e7a9fc6a8457d8b2c1ed8332cec6dadba305a25191a5aa0cb34ddd1623c8f72"
-metafile = true
-
-[[files]]
 file = "mods/origins-minus.pw.toml"
 hash = "1c7b38e01cab4654b28cb11a03877833b0ceac99c8803ae436bcd4045e6bdffc"
 metafile = true
@@ -826,7 +709,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "527279ca4b9a30e756139465d01009482bafc3e2992c96947118a56e0bce293f"
+hash = "5911b5aabe250aaccaa98ff6462faf7acaf1eb01d2828d751f7aaa8c79186a46"
 metafile = true
 
 [[files]]
@@ -841,7 +724,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "137460be130a91349243be497e0e33f61d8631d271a1d420cbb37e4ddfd6ab62"
+hash = "d44a47592608a2ef6eb105eb6a4642839e1a9ea59736b92345c0fa492ddbc47a"
 metafile = true
 
 [[files]]
@@ -852,6 +735,11 @@ metafile = true
 [[files]]
 file = "mods/puzzle.pw.toml"
 hash = "48aefe7fedf925380793a244646e6449cf3f5aebeeb651b09ab86d6638e8b0c1"
+metafile = true
+
+[[files]]
+file = "mods/qdresloader.pw.toml"
+hash = "d4a8b2c6edf5bb4546508c0edb625b7a50795813b6ffc69a34efc93161df645c"
 metafile = true
 
 [[files]]
@@ -911,7 +799,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "09a2246cb32a1b13e94e264d53429e8fdf5bc1d6444bc4112f9f28b971f9dc54"
+hash = "13a974dccf1da0cc52326355ebea5004a6a5d1dd2098d157b418045c04a747c9"
 metafile = true
 
 [[files]]
@@ -1029,13 +917,97 @@ file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
+file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
+hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
+
+[[files]]
+file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/book_quill.json"
+hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/glow_sac.json"
+hash = "4d24fc94706c050d8d0bd175987e47e0a0125087816324209d06ab77105436df"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/jump_boost.json"
+hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/repair_elytra.json"
+hash = "574b102c55fba6cefe8cbc064ebe75b72ee1777de8382db0952d4b1b34457455"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/slime_ball.json"
+hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/slow_fall.json"
+hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
+
+[[files]]
+file = "resources/data/tinkerer/recipes/water_breathing.json"
+hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
+
+[[files]]
+file = "resources/data/tinkerer/tags/items/boots.json"
+hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
+
+[[files]]
+file = "resources/data/tinkerer/tags/items/chestplates.json"
+hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
+
+[[files]]
+file = "resources/data/tinkerer/tags/items/fence_gates.json"
+hash = "85822c016f30658fb2ce252c5deca168e7cbefa650eb2f229be8970875d4c8da"
+
+[[files]]
+file = "resources/data/tinkerer/tags/items/helmets.json"
+hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
+
+[[files]]
+file = "resources/data/tinkerer/tags/items/leggings.json"
+hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
+
+[[files]]
+file = "resources/packs/VanillaTweaks_c667075.zip"
+hash = "c94d4d8f1f79fc0e498f7f58c886690bdc936d6fc950512edbc973610dddd166"
+
+[[files]]
+file = "resources/packs/VanillaTweaks_r324798.zip"
+hash = "1ad05a906caa427b3620b1d901af527eaa4eec9a8b5404faa28f0034009cfba8"
+
+[[files]]
+file = "resources/packs/axolotl-bucket-variants.pw.toml"
+hash = "354d92fe85bb206d48798ca66d6c02b669da3ad898edb8b5c5ee507b787ae48a"
+metafile = true
+
+[[files]]
+file = "resources/packs/sullys-peeves.pw.toml"
+hash = "89380cc7890f27b4da0485a417ca58874e390678a3b4f65d40e615fd8ff99394"
+metafile = true
+
+[[files]]
+file = "resources/packs/varied-connected-bookshelves.pw.toml"
+hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
+metafile = true
+
+[[files]]
+file = "resources/packs/xalis-enchanted-books.pw.toml"
+hash = "5cb15fcefffc94e700dd5d776400b37fb3296ede3d2e546d17a7f85b35964ce7"
+metafile = true
+
+[[files]]
 file = "shaderpacks/bsl.pw.toml"
 hash = "29c8a46693f9f9b3dca9c1ad4471e08528d4721106f97e1dcf0a93d1c8245b0f"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "957b5e4383528c121e20e6d9f11442d709f556d7fcbdf309e8d3cfcebe807c38"
+hash = "57d28814a4bd3e893b2d6792a8f0a748823ab438f862f05788df2896cafde22b"
 metafile = true
 
 [[files]]
