@@ -1,13 +1,13 @@
 name = "Lucium"
-filename = "lucium-1.1.jar"
+filename = "lucium-1.5-pre1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AP4MNKKf/versions/1.1/lucium-1.1.jar"
+url = "https://cdn.modrinth.com/data/AP4MNKKf/versions/vVCqkoCk/lucium-1.5-pre1.jar"
 hash-format = "sha1"
-hash = "6280aabc1a9b57fba4392bfbea697b53fad299dd"
+hash = "0e6ff2b5fe5ebd8a4823a917e4198a23ed23f040"
 
 [update]
 [update.modrinth]
 mod-id = "AP4MNKKf"
-version = "RioeRfdG"
+version = "vVCqkoCk"
