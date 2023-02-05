@@ -3,16 +3,11 @@ filename = "ComplementaryReimagined_r1.4.zip"
 side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/HVnmMxH1/versions/Eur2NpSB/ComplementaryReimagined_r1.4.zip"
 hash-format = "sha1"
 hash = "a85fa028bf09cb0ee4ee51f9d9703522c16e597f"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4249677
-project-id = 627557
-
-[option]
-optional = false
-description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/complementary-reimagined"
-default = true
+[update.modrinth]
+mod-id = "HVnmMxH1"
+version = "Eur2NpSB"

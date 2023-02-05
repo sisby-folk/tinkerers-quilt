@@ -1,0 +1,13 @@
+name = "Realistic Fishing"
+filename = "fishing-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jov013LO/versions/ieBESupL/fishing-1.2.0.jar"
+hash-format = "sha1"
+hash = "50b9c81fc15732d0d9f80af8e4942e8fbc34e9eb"
+
+[update]
+[update.modrinth]
+mod-id = "jov013LO"
+version = "ieBESupL"
