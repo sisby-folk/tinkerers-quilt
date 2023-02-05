@@ -506,9 +506,8 @@ hash = "98da553a1ba2d41bfce3585198641c2d927c702d5403ebec82402ae51ddf707f"
 metafile = true
 
 [[files]]
-file = "mods/fishing.pw.toml"
-hash = "54052544c8affadb2038b38770daa34c6ad2ff131ee77fe26b1c87c45c679fdf"
-metafile = true
+file = "mods/fishing-1.2.0.jar"
+hash = "e20e2b355af8ca30e8f0711ff55b256f11ecbaeac9519af591def1b050562cef"
 
 [[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
