@@ -1,6 +1,6 @@
 name = "Tinkerer's Quilt (1.19)"
 author = "Sisby Folk"
-version = "3.5.0"
+version = "3.5.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -10,7 +10,7 @@ hash = "309bc25e47e9b319ae79ae91d298ccfbb9d1d3a37208093c58952ff621c4d56f"
 
 [versions]
 minecraft = "1.19.2"
-quilt = "0.17.8"
+quilt = "0.17.11"
 
 [options]
 acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
