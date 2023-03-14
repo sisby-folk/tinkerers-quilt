@@ -899,12 +899,12 @@ file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
-file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "62767dd59c651b2140a132c2756643bb3af58c82d720527b34ea2b647a7e41a1"
+file = "resources/assets/loadingscreentips/loading_tips/tips.json"
+hash = "582cc548b749fe9211d35967dae055c58eef9617f620709d0159cce970dc393b"
 
 [[files]]
-file = "resources/assets/tinkerer/loading_tips/tips.json"
-hash = "582cc548b749fe9211d35967dae055c58eef9617f620709d0159cce970dc393b"
+file = "resources/assets/tinkerer/lang/en_us.json"
+hash = "62767dd59c651b2140a132c2756643bb3af58c82d720527b34ea2b647a7e41a1"
 
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
