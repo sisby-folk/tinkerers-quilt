@@ -520,7 +520,7 @@
 			y: -9.5d
 			subtitle: "Craft a Loom"
 			description: [
-				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps (simply right click a hanging banner with a map)"
+				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps (simply right-click a hanging banner with a map)"
 				""
 				"Many designs for pictures, pride flags, and other patterns are available online."
 				""
@@ -611,7 +611,7 @@
 				""
 				"This means you can share large regions of map (e.g. the region around your base) with other players."
 				""
-				"You can also mark points of interest on a map by placing down a banner, and then right clicking it while holding the map."
+				"You can also mark points of interest on a map by placing down a banner, and then right-clicking it while holding the map."
 				""
 				"Maps can be placed into item frames, allowing them to be assembled into much larger physical maps."
 			]
@@ -724,6 +724,8 @@
 				"This pack can be played well without killing passive mobs. Often called a \"Vegetarian\" playthrough."
 				""
 				"Bread, baked potatoes, and (eventually) golden carrots is a good start."
+				""
+				"Hoes in this pack can harvest crops using right-clicking. Better hoes have a larger radius."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [
@@ -2728,7 +2730,7 @@
 			description: [
 				"Along with manual inputs, certain things can be observed to make mechanisms activate automatically."
 				""
-				"The daylight detector is powered during the daytime, and slowly transitions during sunrise and sunset. Right clicking a daylight detector inverts this, and it will be powered at night instead."
+				"The daylight detector is powered during the daytime, and slowly transitions during sunrise and sunset. Right-clicking a daylight detector inverts this, and it will be powered at night instead."
 				""
 				"The Observer emits a small pulse whenever the block it's facing changes."
 				""
@@ -2769,7 +2771,7 @@
 			description: [
 				"Levers provides constant power when switched into the \"on\" state, which is more visible in this pack."
 				""
-				"Buttons can be right clicked to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
+				"Buttons can be right-clicked to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
 				""
 				"Trapped Chests power the block below them when opened by a player."
 				""

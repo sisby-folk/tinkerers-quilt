@@ -3,11 +3,11 @@ filename = "fabric-carpet-1.19.2-1.4.84+v221018.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/TQTTVgYE/versions/SaOHo2Ac/fabric-carpet-1.19.2-1.4.84%2Bv221018.jar"
 hash-format = "sha1"
 hash = "9a88c3a004b15b1f776c988d8eae1cc191b4fbee"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4033215
-project-id = 349239
+[update.modrinth]
+mod-id = "TQTTVgYE"
+version = "SaOHo2Ac"

@@ -1,18 +1,13 @@
-name = "Super Duper Vanilla Shaders"
+name = "Super Duper Vanilla"
 filename = "SuperDuperVanilla.zip"
 side = "client"
 
 [download]
-url = "https://mediafiles.forgecdn.net/files/3865/984/SuperDuperVanilla.zip"
+url = "https://cdn.modrinth.com/data/LMIZZNxZ/versions/C7paxjwt/SuperDuperVanilla.zip"
 hash-format = "sha1"
-hash = "414c72a8d3cfbba0d1ec06b104f175163710cc78"
+hash = "afc1955d2f9bd9f3b58584ca2194963baa7591a0"
 
 [update]
-[update.curseforge]
-file-id = 3865984
-project-id = 534748
-
-[option]
-optional = false
-default = true
-description = "An Iris-Compatible Shader Pack! Found Here: https://www.curseforge.com/minecraft/customization/super-duper-vanilla-shaders"
+[update.modrinth]
+mod-id = "LMIZZNxZ"
+version = "C7paxjwt"
