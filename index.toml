@@ -98,7 +98,7 @@ hash = "f80d805d640325dbc02ef961b0b1d39f7bf7d52f16fb061729c1436b887b89e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "eb35bd3fe6223d5056d3987aa1e38aa7fc33e0d58b31e0ada9cab9c44bccf082"
+hash = "e61d8415c05ce6041a6e505d30ec3f4d1e7eeac2cc3479c23f1ed9a4e3cae52c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -513,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
-hash = "5fbf5aede28e57f2f462d6bffaf12b30d0b1cf5692e7e19d5fddf0fb76d2218a"
+hash = "a1f6e5c7010b82cc022a4ae37290966eff652658a0d0f6598d6519f068b659ae"
 metafile = true
 
 [[files]]
@@ -841,7 +841,7 @@ metafile = true
 
 [[files]]
 file = "mods/tips.pw.toml"
-hash = "ed4f37e1da3fdca4a23f5704f76604929820a2167bb0be6daeb65298afba3cba"
+hash = "47128ec737c02dfac163db723625223a684a1204dc2e20d63f3691d2fa7f38d2"
 metafile = true
 
 [[files]]
@@ -892,6 +892,14 @@ metafile = true
 [[files]]
 file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
+
+[[files]]
+file = "resources/assets/tinkerer/lang/en_us.json"
+hash = "81369b7b5e80b4c4ca30ea95001cbcabc28789f9029c6a219355e01c1bdecf01"
+
+[[files]]
+file = "resources/assets/tinkerer/loading_tips/tips.json"
+hash = "77cd96149e7947a679aca37b7398173784c940cf3bc0e348424d38694bd97908"
 
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
