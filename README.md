@@ -229,6 +229,7 @@ Mods:
     Architectury API
     bad packets
     Balm
+    Bedrock Waters
     Better Biome Blend
     Better End Sky
     Boring Default Game Rules
