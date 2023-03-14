@@ -122,7 +122,7 @@ hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
 file = "config/earthtojavamobs.json"
-hash = "80cedf725c6457d1d942518fa618bfca71a071da988fd87d14c381426a6723c2"
+hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
 [[files]]
 file = "config/exordium.json"
@@ -419,7 +419,7 @@ metafile = true
 
 [[files]]
 file = "mods/aurorasdecorations.pw.toml"
-hash = "10924756a73ac458c4ff94ee4c6e0f0591fb2650e56511d779eb3b280624d871"
+hash = "891174e13d3699d002a267f2a7f232ae7601d667eca1f8646ab4fd5d5aac6d1c"
 metafile = true
 
 [[files]]
@@ -450,6 +450,11 @@ metafile = true
 [[files]]
 file = "mods/boring-default-game-rules.pw.toml"
 hash = "ed2ff9d5b1fe04e1a599b825809b5ab2d729441650b3847222a342c3763a51cb"
+metafile = true
+
+[[files]]
+file = "mods/bovines-and-buttercups.pw.toml"
+hash = "aebf35837d02590ad9c8200f8b6c22436ae8a593ec164245c43297754143aa2a"
 metafile = true
 
 [[files]]
@@ -649,7 +654,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "651fb6f5e608f19f5b03940808dc4715960ade5ed5eaa0f57adc48ca521538d1"
+hash = "b8d91a91ac8820ed7c99c12636c7de0a3e93ef825c1925d4a9287b443cd65f92"
 metafile = true
 
 [[files]]
@@ -694,7 +699,12 @@ metafile = true
 
 [[files]]
 file = "mods/fwaystones.pw.toml"
-hash = "01229cc90ed07c223690033b98bd1cd3d04929c8e059a194cc50ebca8c3ca3f4"
+hash = "5ebaa368b8497942a070b4216a182d6850bbd1e6dd19390c34b47b07b5b0887f"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "15c7e112131d8ea9b726ad3782fec84fa6e5dfa4a80ec0a5001209e44eeea7a5"
 metafile = true
 
 [[files]]
@@ -852,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
-hash = "525ad62238789b624a578c329bf6f8e04160055b107527b3f75471c41dd164a9"
+hash = "1191c0ed4c2be46db9814885dc1beb33d22a2175758ad0af8a5a53afe851d7c6"
 metafile = true
 
 [[files]]
@@ -897,7 +907,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "cf864900e82329abb22fa518ec66b6970c5cdd2765b2631276479a0d11e88258"
+hash = "d6a99e144be13fb3d0865925bf73357a2ff82f4114929cc2f35930eb21f3c7e9"
 metafile = true
 
 [[files]]
@@ -912,7 +922,7 @@ metafile = true
 
 [[files]]
 file = "mods/polaroidcamera.pw.toml"
-hash = "1894ed44b4ce2856c01dccde7cc02948d7dd15ad14d3c4ad939b49a6b8121b74"
+hash = "fa9c87aee7283f245834928b05b69d8269d0b9884ffceddaf743b3fce46b025f"
 metafile = true
 
 [[files]]
@@ -1087,7 +1097,7 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
-hash = "b3acdba79cfef7e53cfd4df8dd6e7cbbe4eeae75972bf65fa2a6aaef034f4b8e"
+hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
 metafile = true
 
 [[files]]
@@ -1132,12 +1142,12 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "d6126b71de887bf0b23a4a064b5f9ebb2f4848533f3b098703c3917ba63e5c69"
+hash = "b9bed718277e195ff3ffbf9e031c02edbc38d36bdef3ed545eb4faf4cc486304"
 metafile = true
 
 [[files]]
 file = "mods/yungs-better-desert-temples.pw.toml"
-hash = "8323d5b77249afed08a178a9a8002ef7a09850e3e3c9dfb942cae17403748565"
+hash = "a0c90cf55ee22034d8c84e8ff9a9170792c37a242aa2ddbd3635c497c0281f76"
 metafile = true
 
 [[files]]

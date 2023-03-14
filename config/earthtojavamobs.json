@@ -251,7 +251,7 @@
     ]
   },
   "moobloom": {
-    "spawn": true,
+    "spawn": false,
     "weight": 8,
     "groupMin": 2,
     "groupMax": 4,
@@ -260,7 +260,7 @@
     ]
   },
   "moolip": {
-    "spawn": true,
+    "spawn": false,
     "weight": 8,
     "groupMin": 2,
     "groupMax": 4,
