@@ -1,18 +1,18 @@
-name = "Complementary Shaders"
-filename = "ComplementaryShaders_v4.6.zip"
+name = "Complementary Shaders v4"
+filename = "ComplementaryShaders_v4.7.1.zip"
 side = "client"
 
 [download]
-url = "https://mediafiles.forgecdn.net/files/3951/170/ComplementaryShaders_v4.6.zip"
 hash-format = "sha1"
-hash = "42274da3fe2cd1847ff14a7699b411172cf3025d"
+hash = "ace224078b04b7eea7541cde4f7630a89b4831cc"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3951170
+file-id = 4367398
 project-id = 385587
 
 [option]
 optional = false
-default = true
 description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://www.curseforge.com/minecraft/customization/complementary-shaders"
+default = true

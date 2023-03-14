@@ -1,13 +1,13 @@
 name = "DeftuLib"
-filename = "DeftuLib-1.19.2-1.2.1.jar"
+filename = "DeftuLib-1.19.2-1.4.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WfhjX9sQ/versions/KEykYKa5/DeftuLib-1.19.2-1.2.1.jar"
+url = "https://cdn.modrinth.com/data/WfhjX9sQ/versions/krI8EqrK/DeftuLib-1.19.2-1.4.1.jar"
 hash-format = "sha1"
-hash = "d4bc2136a3774471641d8845103904fa72fe5e07"
+hash = "9b60776de182382a7541ea377241909bc4d268bf"
 
 [update]
 [update.modrinth]
 mod-id = "WfhjX9sQ"
-version = "KEykYKa5"
+version = "krI8EqrK"

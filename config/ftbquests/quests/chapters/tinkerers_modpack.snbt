@@ -15,20 +15,11 @@
 			shape: "rsquare"
 			subtitle: "Humans are also allowed, but you're on thin ice, buddy!"
 			description: [
-				"This is a Vanilla-Compatible Modpack made by Kapesi, Clawby, Le'mer and Herrah"
+				"This is a vanilla-compatible modpack made by clawby, kapesi, hornby, laughter, herrah, metal, and bea"
 				""
-				"It avoids adding any blocks or items."
-				""
-				"Instead, it focuses on minor Quality of Life (QoL) changes, tweaks, and simple added features."
+				"Instead of adding blocks and items, it focuses on minor tweaks, quality of life changes, and small features."
 				""
 				"To access these quests, use the quest book or press §nJ§r at any time."
-				""
-				"Quests are split into several categories, which are shown on the collapsible left pane."
-				"§l§ePlease move your mouse to the left of the screen and click the pin when you close this quest!!!§r"
-				""
-				"Quests give rewards, and can guide you through the progression of the game and what's out there in the world!"
-				""
-				"Some quests just provide information, and only need their task to be \"Clicked\" to complete them."
 			]
 			id: "15402DCFAC7CC56A"
 			tasks: [{
@@ -64,7 +55,7 @@
 			shape: "octagon"
 			subtitle: "Zoom, Crawl, and More!"
 			description: [
-				"Use §nWASD§r to move, §nSpace§r to jump, §nShift§r to sprint, and §nCtrl§r to sneak!"
+				"Use §nWASD§r to move, §nSpace§r to jump, §nCtrl§r to sprint, and §nShift§r to sneak!"
 				""
 				"You can change these and further binds in the controls menu!"
 			]
@@ -144,7 +135,7 @@
 			shape: "square"
 			subtitle: "Custom Nonhuman Skins!"
 			description: [
-			    "Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press §nALT+M§r and click \"Ears\" to learn more."
+			    "Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online."
 			    ""
 			    "In the Ears Skin Manipulator (§nALT+M§r->Ears), there's an option to enable a chest bump on your skin if you open the console (§nF12§r) and enter \"xyzzy\""
 			]
@@ -182,14 +173,14 @@
 			}]
 		}
 		{
-			title: "Illuminations Pride"
+			title: "Effective Pride"
 			icon: "minecraft:soul_lantern"
 			disable_toast: true
 			x: 1.5d
 			y: 2.0d
 			shape: "square"
 			subtitle: "Bling"
-			description: ["You can set up an Illuminations pride heart accessory at §lilluminations.uuid.gg§r"]
+			description: ["You can set up an Effective pride heart accessory at §lilluminations.uuid.gg§r"]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "2EC9784A91A2F9CC"
@@ -201,7 +192,7 @@
 		}
 		{
 			title: "Switchy"
-			icon: "minecraft:lever"
+			icon: "minecraft:magenta_glazed_terracotta"
 			disable_toast: true
 			x: 2.5d
 			y: 2.0d
@@ -210,9 +201,11 @@
 			description: [
 				"Switchy allows you to save player customisation to presets, and swap them freely!"
 				""
-				"Make a new preset with §l/switchy new§r, then set up your skin, origin, and (in multiplayer) nickname, pronouns, color, and bio."
+				"First, set up your default preset - skin, origin, and (in multiplayer) nickname, color, and bio."
 				""
-				"When you're done, just §l/switchy new§r another preset and customize again! afterwards, you can use §l/switch§r to quickly change between them."
+				"You can then rename your default preset to whatever you like - and make a new one, switch to it - and set it up again!"
+				""
+				"You can press §n;§r to open the Switchy UI, or use commands (try §l/switchy help§r)"
 			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
@@ -388,15 +381,11 @@
 			description: [
 				"EMI provides an in-game wiki for how to find or acquire almost any item in the game."
 				""
-				"In any inventory, you can hover over an item and press §nR§r (recipe) to find out how to make or find it"
+				"You can press §nR§r (recipe) on any item find out how to get it, or §nU§r (usages) to find out how it can be used."
 				""
-				"You can also press §nU§r (usages) to find out what you can craft an item into."
+				"The EMI index (shown right) shows all items. In addition to §nR§r and §nU§r, you can also use the mouse buttons. This can be hidden with §nCTRL+O§r."
 				""
-				"Additionally, EMI provides a searchable pane of every item, shown on the right of the screen. Press §nCTRL+O§r to toggle this at any time."
-				""
-				"§nR§r and §nU§r can be used here, or left and right clicking, respectively."
-				""
-				"By clicking the crafting table icon in the bottom right, EMI will instead show craftable §oRecipes§r - §nClick§r or §nShift+Click§r will then place the recipe into the crafting grid."
+				"By clicking the magnifying glass in the top right, EMI will instead show craftable §oRecipes§r - §nClick§r to place them into the crafting grid - or §nCtrl+Click§r to craft them instantly"
 			]
 			dependencies: ["3370C1D403E805EE"]
 			id: "393F164200CAC675"
@@ -419,7 +408,7 @@
 				""
 				"This pack uses custom, simpler origins. You can also choose a §oStature§r, affecting your character's size."
 				""
-				"Some origins have active abilities, bound to §nG§r and §nH§r - press §nALT+O§r any time to review your origin."
+				"Press §nALT+O§r to select or review your origins and stature."
 			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
@@ -443,7 +432,11 @@
 				""
 				"Quests are similar to achievements in other games, but they have a specific order, as well as providing rewards."
 				""
-				"Here they provide direction - You'll see features of the game you've maybe never delved into, and get information on the fine details of minecraft and this pack."
+				"Quests are split into several categories, which are shown on the collapsible left pane."
+				""
+				"Quests give rewards, and can guide you through the progression of the game and what's out there in the world!"
+				""
+				"Some quests just provide information, and only need their task to be \"Clicked\" to complete them."
 			]
 			dependencies: ["15402DCFAC7CC56A"]
 			hide: true
