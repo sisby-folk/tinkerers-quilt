@@ -137,7 +137,7 @@
 			shape: "square"
 			subtitle: "Custom Nonhuman Skins!"
 			description: [
-			    "Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online - Press §nALT+M§r and click \"Ears\" to learn more."
+			    "Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online."
 			    ""
 			    "In the Ears Skin Manipulator (§nALT+M§r->Ears), there's an option to enable a chest bump on your skin if you open the console (§nF12§r) and enter \"xyzzy\""
 			]
@@ -383,13 +383,9 @@
 			description: [
 				"EMI provides an in-game wiki for how to find or acquire almost any item in the game."
 				""
-				"In any inventory, you can hover over an item and press §nR§r (recipe) to find out how to make or find it"
+				"You can press §nR§r (recipe) on any item find out how to get it, or §nU§r (usages) to find out how it can be used."
 				""
-				"You can also press §nU§r (usages) to find out what you can craft an item into."
-				""
-				"Additionally, EMI provides a searchable pane of every item, shown on the right of the screen. Press §nCTRL+O§r to toggle this at any time."
-				""
-				"§nR§r and §nU§r can be used here, or left and right clicking, respectively."
+				"The EMI index (shown right) shows all items. In addition to §nR§r and §nU§r, you can also use the mouse buttons. This can be hidden with §nCTRL+O§r."
 				""
 				"By clicking the magnifying glass in the top right, EMI will instead show craftable §oRecipes§r - §nClick§r to place them into the crafting grid - or §nCtrl+Click§r to craft them instantly"
 			]
@@ -414,7 +410,7 @@
 				""
 				"This pack uses custom, simpler origins. You can also choose a §oStature§r, affecting your character's size."
 				""
-				"Some origins have active abilities, bound to §nG§r and §nH§r - press §nALT+O§r any time to review your origin."
+				"Press §nALT+O§r to select or review your origins and stature."
 			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
