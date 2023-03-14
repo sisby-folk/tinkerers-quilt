@@ -158,7 +158,7 @@ hash = "62b1727590e4088253fec749adb5e1ad04fc9b5ce3402aa8267873d89657fbc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
-hash = "195b01748b26de7be2631a1e25c550a2ab5982cd973a2d634d194e9095b19b47"
+hash = "60db551a52ea6b02f04ffb6cb635e6b2c26d241e87474ae672021523bb1e604f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
@@ -445,11 +445,6 @@ metafile = true
 [[files]]
 file = "mods/better-end-sky.pw.toml"
 hash = "9db7e0c35795f22069c8e789d5c1276a1b433aa26f287e3e80275b244a11d2ff"
-metafile = true
-
-[[files]]
-file = "mods/bits-and-chisels.pw.toml"
-hash = "e7d7b42cc3b56d79d18599f936742b711f849b372ca4b6106a5d00d624573d59"
 metafile = true
 
 [[files]]
@@ -1063,11 +1058,6 @@ metafile = true
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
 hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
-metafile = true
-
-[[files]]
-file = "mods/this-rocks.pw.toml"
-hash = "5c15843fb95af5c160b29de253eaaf8b1c3cd91b77a7218d4f0c7b5993e3a833"
 metafile = true
 
 [[files]]

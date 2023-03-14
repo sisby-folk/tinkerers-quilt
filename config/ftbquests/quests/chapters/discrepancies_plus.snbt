@@ -73,27 +73,6 @@
 			}]
 		}
 		{
-			title: "This Rocks!"
-			icon: "rocks:birch_stick"
-			x: 0.5d
-			y: -3.0d
-			shape: "square"
-			subtitle: "Resource Crumbs"
-			description: [
-				"Small twigs and stones spawn around the world, and can be used as decoration or to gather sticks."
-				""
-				"Shells and starfish can also be found, purely decoratively."
-				""
-				"Finally, geysers and nether geysers can be interacted with, pushing the player."
-			]
-			id: "6501B2EE670C9626"
-			tasks: [{
-				id: "6F8E7E92AAA386BF"
-				type: "checkmark"
-				title: "Click Here!"
-			}]
-		}
-		{
 			title: "Universal Ores"
 			icon: "universal_ores:granite_emerald_ore"
 			x: -0.5d
@@ -241,27 +220,6 @@
 			id: "4D9E037F5CA2E2D1"
 			tasks: [{
 				id: "5FF89E5F68D88F7E"
-				type: "checkmark"
-				title: "Click Here!"
-			}]
-		}
-		{
-			title: "Bits and Chisels"
-			icon: {
-				id: "bitsandchisels:iron_chisel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -3.5d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Custom decorations"
-			description: ["Bits and chisels allows you to chisel away at any block, building your own decorations like tables using custom materials for every 1x1 cube in a 16x16 block."]
-			id: "66422653D4473572"
-			tasks: [{
-				id: "07706EADCE35858A"
 				type: "checkmark"
 				title: "Click Here!"
 			}]
