@@ -24,4 +24,19 @@
 	 * with shaders or other mods.
 	 */
 	use-batched-renderer: true;
+
+	/**
+	 * Whether to move status effects to the top of the screen.
+	 */
+	move-effects: false;
+
+	/**
+	 * Whether to add mod name to item tooltips, in case another mod provides behavior
+	 */
+	append-item-mod-id: false;
+
+	/**
+	 * Which theme to use for the right sidebar
+	 */
+	right-sidebar-theme: modern;
 }
