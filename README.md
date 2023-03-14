@@ -221,7 +221,6 @@ Resource Packs:
     xali's Enchanted Books
 
 Mods:
-    Accurate Maps
     Advancements Debug
     Ambient Environment
     Animatica
@@ -232,7 +231,6 @@ Mods:
     Balm
     Better Biome Blend
     Better End Sky
-    Blanket
     Boring Default Game Rules
     Cardinal Ice Boats
     Carpet Extra
@@ -258,20 +256,20 @@ Mods:
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
     Enhanced Block Entities
     EMI
-    EMI Loot
     EMI Trades
     Enhanced Attack Indicator
     Exordium
     Fabric Language Kotlin
     Fabric Shield Lib
+    Feed the Bees
+    Fishing Real
     Window Title Changer
     Fabrication
     Fabric Tailor
     Falling Leaves
+    FastLoad
     FastOpenLinksAndFolders
     FerriteCore
-    kennytvs-epic-force-close-loading-screen-mod-for-fabric
-    ForgetMeChunk
     FTB Library (Fabric)
     FTB Quests (Fabric)
     FTB Teams (Fabric)
@@ -294,6 +292,7 @@ Mods:
     Leaves Us In Peace
     Lithium
     Lucium
+    Luna Slimes
     Main Menu Credits
     LAN World Plug-n-Play (mcwifipnp)
     Memory Leak Fix
@@ -306,7 +305,6 @@ Mods:
     Not Enough Animations
     Noteable
     Ok Zoomer
-    Open Loader
     Origins Minus
     Origins
     Pehkui
@@ -314,28 +312,29 @@ Mods:
     Portable Crafting Standalone
     Presence Footsteps
     Project: Save the Pets!
-    Puzzle
+    QDResLoader
+    Quilt Kotlin Libraries
     Quilt Standard Libraries
     Quilt Loading Screen
-    Raised
     Reacharound
     Reese's Sodium Options
     Reroll
     RightClickHarvest
     Simple Fog Control
-    Smooth Boot (Fabric)
     Sodium Extra
     Sodium
-    spark
     Simple Durability Tooltip
     Starlight (Fabric)
     Status Effect Timer
+    Styled Chat
     Styled Player List
     Switchy Inventories
+    Switchy Proxy
+    Switchy Resource Packs
     Switchy Teleport
+    SwitchyKit
     Switchy
     Tax Free Levels
-    TieFix
     Tinkerer's Smithing
     Tinkerer's Statures
     Loading Screen Tips
@@ -350,15 +349,16 @@ Mods:
     Your Options Shall Be Respected (YOSBR)
 
 Recommended Shader Packs:
-    BSL Shaders
-    Complementary Reimagined Shaders
-    Complementary Shaders
-    Prismarine Shaders
-    Sildurs Enhanced Default Shaders
-    Super Duper Vanilla Shaders
+    BSL
+    Builder's QoL
+    Complementary
+    Complementary Reimagined
+    Prismarine
+    Sildurs Enhanced Default
+    Rethiking Voxels
+    Super Duper Vanilla
 
 Override mods:
-    fishing-1.2.0.jar
     illuminations-1.10.8.jar
     inventorytabs-0.9.0-beta-1.19.x.jar
     VanillaTweaks_c667075.zip

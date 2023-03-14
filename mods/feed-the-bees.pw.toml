@@ -1,0 +1,13 @@
+name = "Feed the Bees"
+filename = "feed-the-bees-1.2.2+1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Lifl2UtQ/versions/XWlzH6Ja/feed-the-bees-1.2.2%2B1.19.jar"
+hash-format = "sha1"
+hash = "3f92c3825e150015057bfb38e1ed7047e90b00b5"
+
+[update]
+[update.modrinth]
+mod-id = "Lifl2UtQ"
+version = "XWlzH6Ja"

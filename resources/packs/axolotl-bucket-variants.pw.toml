@@ -1,13 +1,13 @@
 name = "Axolotl Bucket Variants"
-filename = "axolotl_bucket_variants-1.18.zip"
+filename = "axolotl_bucket_variants-1.19.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Kn6gOLwE/versions/m9pmJjPn/axolotl_bucket_variants-1.18.zip"
+url = "https://cdn.modrinth.com/data/Kn6gOLwE/versions/pSeiyBky/axolotl_bucket_variants-1.19.zip"
 hash-format = "sha1"
-hash = "10ae55180c609d313d95a65ecc95bcfa988afa99"
+hash = "bbb6b8889e3259b3629fa20649422e42d983fca3"
 
 [update]
 [update.modrinth]
 mod-id = "Kn6gOLwE"
-version = "m9pmJjPn"
+version = "pSeiyBky"

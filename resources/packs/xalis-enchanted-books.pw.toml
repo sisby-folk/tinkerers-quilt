@@ -1,13 +1,13 @@
 name = "xali's Enchanted Books"
-filename = "xali's Enchanted Books v0.11.zip"
+filename = "xali's Enchanted Books v0.12.0.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "08f2e24fdf532f40fabd0da9a57b6674e0392f3e"
+hash = "bb9ba53a3ece355c7d0e4e41410f0a60f93dd494"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4369154
+file-id = 4400733
 project-id = 478165

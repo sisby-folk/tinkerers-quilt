@@ -182,14 +182,14 @@
 			}]
 		}
 		{
-			title: "Illuminations Pride"
+			title: "Effective Pride"
 			icon: "minecraft:soul_lantern"
 			disable_toast: true
 			x: 1.5d
 			y: 2.0d
 			shape: "square"
 			subtitle: "Bling"
-			description: ["You can set up an Illuminations pride heart accessory at §lilluminations.uuid.gg§r"]
+			description: ["You can set up an Effective pride heart accessory at §lilluminations.uuid.gg§r"]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
 			id: "2EC9784A91A2F9CC"

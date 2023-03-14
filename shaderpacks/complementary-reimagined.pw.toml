@@ -1,13 +1,13 @@
 name = "Complementary Reimagined"
-filename = "ComplementaryReimagined_r1.4.zip"
+filename = "ComplementaryReimagined_r2.0.3.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/HVnmMxH1/versions/Eur2NpSB/ComplementaryReimagined_r1.4.zip"
+url = "https://cdn.modrinth.com/data/HVnmMxH1/versions/jCIQGZp3/ComplementaryReimagined_r2.0.3.zip"
 hash-format = "sha1"
-hash = "a85fa028bf09cb0ee4ee51f9d9703522c16e597f"
+hash = "d210a1336e98d07018381521c6c849e7bba42837"
 
 [update]
 [update.modrinth]
 mod-id = "HVnmMxH1"
-version = "Eur2NpSB"
+version = "jCIQGZp3"
