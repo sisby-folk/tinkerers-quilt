@@ -182,7 +182,7 @@ hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
-hash = "ab5b00f6ff25dc4fddef10e5efa7b23f040c7d439d5b6e194f35569d2657cbd1"
+hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
 
 [[files]]
 file = "config/yosbr/config/presencefootsteps/updater.json"
@@ -226,7 +226,7 @@ hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "55fc05cb70bf7146b6d41f6e2c29624a4256d72c3ed6f6f8e83c3b1c69d33013"
+hash = "cda07525e46bf35e38fc658e763c987b4b69376c0955ca14830f05fb454a31e3"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
@@ -389,11 +389,6 @@ metafile = true
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
 hash = "9974d9608f42b266c35a658f1ff1899f254a02d13def06c1ff9a6c2cf7a924a2"
-metafile = true
-
-[[files]]
-file = "mods/cull-less-leaves.pw.toml"
-hash = "c06e098c6d6eda6da4492e4a8dff1796e6081bbd30f487ffb89e1ed3c485e805"
 metafile = true
 
 [[files]]

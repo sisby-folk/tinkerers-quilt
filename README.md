@@ -248,7 +248,6 @@ Mods:
     Coyote Time
     Crowmap
     Crunchy Crunchy Advancements
-    Cull Less Leaves
     DeftuLib
     Drogtor the Nickinator
     Dyeable Fishing Lines
