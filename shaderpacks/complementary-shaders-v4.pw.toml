@@ -11,3 +11,8 @@ hash = "ace224078b04b7eea7541cde4f7630a89b4831cc"
 [update.modrinth]
 mod-id = "R6NEzAwj"
 version = "YWBtNYH3"
+
+[option]
+optional = false
+description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://modrinth.com/shader/complementary-shaders-v4"
+default = true

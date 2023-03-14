@@ -452,11 +452,6 @@ hash = "0fe83c99b29c952f464c7bfba9cc86cc4f834bef7834821433fe23ce3dd230e6"
 metafile = true
 
 [[files]]
-file = "mods/fabric-shield-lib.pw.toml"
-hash = "799a867456f591fc05204c84443293dd974fec2ba3ab5c15f921a024ed7ff68a"
-metafile = true
-
-[[files]]
 file = "mods/fabric-title-changer.pw.toml"
 hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
 metafile = true
@@ -464,6 +459,11 @@ metafile = true
 [[files]]
 file = "mods/fabrication.pw.toml"
 hash = "78b26484c16f4b1d0ace0f6e47937cff8f81307e713aa7e81de5f13063b33890"
+metafile = true
+
+[[files]]
+file = "mods/fabricshieldlib.pw.toml"
+hash = "d441b6d8d55b8f6c0e7f1f6ddb6dc95a83c84f70acd9cc420c9765026d001beb"
 metafile = true
 
 [[files]]
@@ -1007,12 +1007,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "d468216fa4b4917769fae3179b7bb47656f8a65474e87352d5b379783384e0af"
-metafile = true
-
-[[files]]
-file = "shaderpacks/complementary.pw.toml"
-hash = "6c696a110625d85af49aeff4a0836ea49eb90796436a86ac67c8a3347cf03dab"
+hash = "256a6bfe7b1afd19060e42a7ac498c7c39ae598436561335bb029a3f34de3b6d"
 metafile = true
 
 [[files]]
