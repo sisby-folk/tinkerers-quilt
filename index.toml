@@ -638,11 +638,6 @@ hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
 metafile = true
 
 [[files]]
-file = "mods/fabric-shield-lib.pw.toml"
-hash = "799a867456f591fc05204c84443293dd974fec2ba3ab5c15f921a024ed7ff68a"
-metafile = true
-
-[[files]]
 file = "mods/fabric-title-changer.pw.toml"
 hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
 metafile = true
@@ -650,6 +645,11 @@ metafile = true
 [[files]]
 file = "mods/fabrication.pw.toml"
 hash = "78b26484c16f4b1d0ace0f6e47937cff8f81307e713aa7e81de5f13063b33890"
+metafile = true
+
+[[files]]
+file = "mods/fabricshieldlib.pw.toml"
+hash = "d441b6d8d55b8f6c0e7f1f6ddb6dc95a83c84f70acd9cc420c9765026d001beb"
 metafile = true
 
 [[files]]
@@ -1200,12 +1200,12 @@ file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
-file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "62767dd59c651b2140a132c2756643bb3af58c82d720527b34ea2b647a7e41a1"
+file = "resources/assets/loadingscreentips/loading_tips/tips.json"
+hash = "582cc548b749fe9211d35967dae055c58eef9617f620709d0159cce970dc393b"
 
 [[files]]
-file = "resources/assets/tinkerer/loading_tips/tips.json"
-hash = "582cc548b749fe9211d35967dae055c58eef9617f620709d0159cce970dc393b"
+file = "resources/assets/tinkerer/lang/en_us.json"
+hash = "62767dd59c651b2140a132c2756643bb3af58c82d720527b34ea2b647a7e41a1"
 
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
@@ -1282,7 +1282,7 @@ metafile = true
 
 [[files]]
 file = "resources/packs/nullscape.pw.toml"
-hash = "b9939c7096b4fff3248e01c1a3c2e80eb7986480ea9cbdb6f8ed756a4518bca9"
+hash = "8729bca97adfcaf7d9c8063ae8fb4b7bf13a1c1edbdf8d780261077af4789238"
 metafile = true
 
 [[files]]
@@ -1321,12 +1321,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "d468216fa4b4917769fae3179b7bb47656f8a65474e87352d5b379783384e0af"
-metafile = true
-
-[[files]]
-file = "shaderpacks/complementary.pw.toml"
-hash = "6c696a110625d85af49aeff4a0836ea49eb90796436a86ac67c8a3347cf03dab"
+hash = "256a6bfe7b1afd19060e42a7ac498c7c39ae598436561335bb029a3f34de3b6d"
 metafile = true
 
 [[files]]
