@@ -26,7 +26,7 @@ hash = "53d86e143fe62163a169ef8c6f8463cfd1b5970bd8c5248f10933c9af2700a03"
 
 [[files]]
 file = "config/appleskin.json5"
-hash = "cbebc31e9b6e09302aa2f25983ff6ac9e5212899bc77650d475c9a47739df6a5"
+hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
 
 [[files]]
 file = "config/betterdeserttemples-fabric-1_19.toml"
@@ -1177,6 +1177,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
 hash = "db24b9f5262599c4a358be6e80e78a9fc0e4ad46b4dd00435aca9f76a60d7ca0"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses.pw.toml"
+hash = "dc3044cf3ee836be2c3c0e8c6e3c6c5c0fb218cd72f2c41b082cbeb6056cc274"
 metafile = true
 
 [[files]]
