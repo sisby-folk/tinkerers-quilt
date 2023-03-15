@@ -600,9 +600,11 @@
 			description: [
 				"Obtain an Elytra from the item frame at the inner bow of an end ship."
 				""
-				"Press \"Space\" while in the air to deploy, use mouse to control. Firework rockets can be used as boosters while flying."
+				"Press \"Space\" while in the air to deploy, use mouse to control."
 				""
 				"Hitting surfaces at speed deals damage, so turning before impact and pulling up to slow down is advised."
+				""
+				"Campfires can provide lift when close together - and can be used to build \"flyways\" through known routes."
 			]
 			dependencies: ["4631772288F2177D"]
 			hide: true
@@ -619,10 +621,10 @@
 				}
 			}]
 			rewards: [{
-				id: "4C6D37B53B9A2DF5"
+				id: "68A2F39B71B7665C"
 				type: "item"
-				item: "minecraft:firework_rocket"
-				count: 32
+				item: "minecraft:campfire"
+				count: 16
 			}]
 		}
 		{

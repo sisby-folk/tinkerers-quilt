@@ -1869,5 +1869,122 @@
 				}
 			]
 		}
+		{
+			title: "I Wouldn't Trust Me Either"
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Acquire a Door Launcher"
+			description: [
+				"A door launcher is a handheld device to send mechanically propelled halfdoors in the faces of scary monsters."
+				""
+				"It uses halfdoors as ammo, and can be upgraded at a smithing table with special materials."
+			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
+			id: "0ADBA66707A72B35"
+			tasks: [{
+				id: "08EFAF64F2B18B5A"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "halfdoors:door_launcher"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "319651CE5A8731F8"
+				type: "item"
+				item: "halfdoors:oak_halfdoor"
+				count: 16
+			}]
+		}
+		{
+			title: "NGAHHH!!!!!"
+			icon: {
+				id: "campanion:iron_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -3.0d
+			subtitle: "Acquire a Spear"
+			description: [
+				"The Campanion spear is the land-lubbering brother of the Trident - it works as a melee weapon, and can be thrown with use."
+				""
+				"Unlike the trident, it can be enchanted to pierce through enemies."
+			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
+			id: "005AB44C0F20C556"
+			tasks: [{
+				id: "3238C1F9CB32C68D"
+				type: "item"
+				title: "Any Spear"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "campanion:spears"
+					}
+				}
+			}]
+			rewards: [{
+				id: "362C8D7B041BC30A"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:piercing"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Where's my Cloak"
+			icon: {
+				id: "farmersdelight:golden_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -1.0d
+			subtitle: "Acquire a Knife"
+			description: [
+				"Knives are mainly for cutting ingredients - use an ingredient on a cutting board, then use a knife on it!"
+				""
+				"However, they also work as weapons in a pinch. Unfortunately, they can't be enchanted."
+			]
+			dependencies: ["72CC6869A3793E22"]
+			hide: true
+			id: "243427D8CFF65490"
+			tasks: [{
+				id: "2C4F7623C5745F47"
+				type: "item"
+				title: "Any Knife"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:tools/knives"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BCD78B8E6183450"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
 	]
 }

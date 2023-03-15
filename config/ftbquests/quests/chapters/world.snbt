@@ -739,6 +739,8 @@
 				"Amethyst grows in large geodes underground, and can be used to make §oTinted Glass§r for your builds."
 				""
 				"The outside of the geode is lined with Basalt and Calcite in most directions - spotting this could be a hint."
+				""
+				"Amethyst can also be used to make lanterns - which have a larger radius of preventing mob spawns."
 			]
 			dependencies: ["10CFFE20ABD36803"]
 			hide: true
@@ -764,6 +766,12 @@
 					id: "6BFD9A2D48C54DCF"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "34EB2F2F3472080B"
+					type: "item"
+					item: "aurorasdeco:amethyst_lantern"
+					count: 2
 				}
 			]
 		}
@@ -1317,6 +1325,8 @@
 				"Below depth y=0, all stone is replaced with Deepslate, which takes longer to mine."
 				""
 				"Cobbled deepslate can be used in any crafting recipe that cobblestone can, and also serves as a decorative block (including brick and stair variants, etc)"
+				""
+				"Chalk is made of calcite, and can be used to mark directions when caving."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1331,11 +1341,24 @@
 				observe_type: 0
 				to_observe: "minecraft:deepslate"
 			}]
-			rewards: [{
-				id: "24C742924575F435"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "24C742924575F435"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C8686CB4E3D029D"
+					type: "item"
+					item: {
+						id: "chalk:chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Wisdom of Huu"
@@ -1804,6 +1827,173 @@
 				id: "12F3D951A36D61B1"
 				type: "item"
 				item: "minecraft:amethyst_shard"
+			}]
+		}
+		{
+			title: "Picturesque"
+			icon: "polaroidcamera:camera"
+			x: -7.5d
+			y: -5.0d
+			subtitle: "Jump 750 Times"
+			description: [
+				"Polaroid cameras allow you to take images, by entering adjustment mode by pressing use, then clicking C to capture an image on to the first empty map in your inventory."
+				""
+				"Maps can then be displayed using item frames."
+			]
+			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
+			invisible: true
+			id: "565D2EAA71C41B48"
+			tasks: [{
+				id: "2CB771E873BE51DA"
+				type: "stat"
+				title: "Picturesque"
+				icon: "minecraft:feather"
+				disable_toast: true
+				stat: "minecraft:jump"
+				value: 750
+			}]
+			rewards: [
+				{
+					id: "2F806FE4B260F349"
+					type: "item"
+					item: "polaroidcamera:camera"
+				}
+				{
+					id: "3B200B34CEE7E8E4"
+					type: "item"
+					item: "minecraft:map"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Not plain in the Slightest"
+			x: -16.5d
+			y: 0.0d
+			subtitle: "Find Lavender Plains"
+			dependencies: ["789344ADD80A6FFA"]
+			hide: true
+			id: "47DB051494BEDC6C"
+			tasks: [{
+				id: "352685AD6A30B2A2"
+				type: "biome"
+				title: "Not plain in the slightest"
+				icon: "aurorasdeco:lavender"
+				disable_toast: true
+				biome: "aurorasdeco:lavender_plains"
+			}]
+			rewards: [{
+				id: "1E473A04DF60870F"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Bessie"
+			x: -11.5d
+			y: -5.0d
+			subtitle: "Find a Snail"
+			description: [
+				"Snails spawn in swamps, and can be tamed with mushrooms and lead around with leads."
+				""
+				"They can be kept happy by giving them carpet blankets, feeding them grass and kelp, or splashing some water from a potion on them."
+				""
+				"Happy snails may grow into big snails, which can be saddled and equipped with up to four chests."
+			]
+			dependencies: ["47ED4204DD0D65C4"]
+			hide: true
+			id: "363D88902D0237AA"
+			tasks: [{
+				id: "372A7C2E3C9BD2CB"
+				type: "observation"
+				title: "Find a Snail"
+				icon: "minecraft:nautilus_shell"
+				disable_toast: true
+				timer: 0L
+				observe_type: 5
+				to_observe: "lovely_snails:snail"
+			}]
+			rewards: [
+				{
+					id: "63608EBBA0676BBB"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 6
+				}
+				{
+					id: "148369F5E56090D8"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+				{
+					id: "169D0F671162E39B"
+					type: "item"
+					item: "minecraft:kelp"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Unvoted"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Find a Moobloom"
+			description: [
+				"Mooblooms can be found in flower forests. They are a renewable source of unique flowers and nectar."
+				""
+				"Nectar can be collected with bowls, and will freeze a status effect as on or off - depending on the moobloom type."
+				""
+				"Only two moobloom types spawn naturally - you'll need to breed them for more!"
+			]
+			dependencies: ["614E11C34F346AFF"]
+			hide: true
+			id: "38B0E68B1130D006"
+			tasks: [{
+				id: "5D28A3A6CA23D544"
+				type: "observation"
+				title: "Find a Moobloom"
+				icon: "bovinesandbuttercups:buttercup"
+				disable_toast: true
+				timer: 0L
+				observe_type: 5
+				to_observe: "bovinesandbuttercups:moobloom"
+			}]
+			rewards: [
+				{
+					id: "6FA96429D1795E16"
+					type: "item"
+					item: "minecraft:bowl"
+				}
+				{
+					id: "61B7C7B4F3640835"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "A Florist?"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Find a Flower Forest"
+			dependencies: ["789344ADD80A6FFA"]
+			hide: true
+			id: "614E11C34F346AFF"
+			tasks: [{
+				id: "56F57EF954A01CC7"
+				type: "biome"
+				title: "Find a Flower Forest"
+				icon: "minecraft:cornflower"
+				disable_toast: true
+				biome: "minecraft:flower_forest"
 			}]
 		}
 	]
