@@ -56,6 +56,10 @@
 				"A Smoker is a special furnace that cooks food at twice the speed."
 				""
 				"Furnaces of all kinds accept many types of fuel. Smaller fuels are less wasteful when processing smaller numbers of items. Some fuels (e.g. Lava buckets at 100 items) are only efficient for large loads."
+				""
+				"The Farmer's Delight (@farmer) cooking pot can cook many bowls of hearty meals - and can be picked up with them in it!"
+				""
+				"A stove is an indoor variant of a campfire - and can be used for all the same recipes."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -83,6 +87,16 @@
 					type: "item"
 					item: "minecraft:lava_bucket"
 				}
+				{
+					id: "7674903BE2F3C5A2"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "11E4826687E09B60"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
 			]
 		}
 		{
@@ -93,11 +107,9 @@
 			shape: "gear"
 			subtitle: "All Stonecut-able blocks"
 			description: [
-				"Some players enjoy tearing the world half to shreds to collect enough rarer stones to build the prettiest buildings!"
+				"Consistency+ (@consistency) adds bricks, stairs, slabs, and walls, for all kinds of blocks - providing you with many more building materials in a wide variety of colours."
 				""
-				"Some players do not."
-				""
-				"NB: Please don't use the prismarine for conduits or I will be sad"
+				"Feel free to take this free package of blocks for building! Or don't - it's up to you."
 			]
 			dependencies: ["1233042213A9729E"]
 			hide: true
@@ -726,6 +738,8 @@
 				"Bread, baked potatoes, and (eventually) golden carrots is a good start."
 				""
 				"Hoes in this pack can harvest crops using right-clicking. Better hoes have a larger radius."
+				""
+				"Crops are affected by seasons - which change the look of the world. Crops grow slower in winter."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [
@@ -755,12 +769,19 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "046833CC8D4ADAF5"
-				type: "item"
-				item: "minecraft:golden_carrot"
-				count: 10
-			}]
+			rewards: [
+				{
+					id: "046833CC8D4ADAF5"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 10
+				}
+				{
+					id: "2E7933B706CF7E0A"
+					type: "item"
+					item: "seasons:season_calendar"
+				}
+			]
 		}
 		{
 			title: "Here in my Garage [Workshopping]"
@@ -963,19 +984,11 @@
 			hide: true
 			optional: true
 			id: "58CAA3CF4CE89A65"
-			tasks: [
-				{
-					id: "759F54485E9734BA"
-					type: "checkmark"
-					title: "Click Here!"
-				}
-				{
-					id: "273128C5D85D7B63"
-					type: "item"
-					title: "White Glazed Terracotta - Open Quests!"
-					item: "minecraft:white_glazed_terracotta"
-				}
-			]
+			tasks: [{
+				id: "759F54485E9734BA"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
 			rewards: [
 				{
 					id: "7D1A0DD72136D14D"
@@ -992,7 +1005,7 @@
 					title: "Locate the nearest Badlands..."
 					icon: "minecraft:terracotta"
 					auto: "no_toast"
-					command: "/locatebiome minecraft:badlands"
+					command: "/locate biome minecraft:badlands"
 					player_command: true
 				}
 				{
@@ -1938,6 +1951,8 @@
 				"Watered soil grows crops faster, requiring water within 4 blocks in any direction."
 				""
 				"Bonemeal can be used to instantly grow crops using right-click."
+				""
+				"Farmer's Delight adds many new crops - you can use EMI to find out how to use them!"
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -1948,12 +1963,20 @@
 				item: "minecraft:wheat_seeds"
 				count: 32L
 			}]
-			rewards: [{
-				id: "7986FC47C40AABE1"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "7986FC47C40AABE1"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 64
+				}
+				{
+					id: "628DC8AE611466AC"
+					type: "item"
+					item: "farmersdelight:wild_onions"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Gaia"
@@ -2160,7 +2183,11 @@
 			x: -3.0d
 			y: -12.5d
 			subtitle: "Make some Ladders"
-			description: ["Multi-floor bases are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
+			description: [
+				"Multi-floor bases are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"
+				""
+				"Architecture extensions (@arch) adds many small trims and supports for decoration."
+			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "645EFC73CEB1C918"
@@ -2170,12 +2197,20 @@
 				item: "minecraft:ladder"
 				count: 64L
 			}]
-			rewards: [{
-				id: "027CEF93AEA981E4"
-				type: "item"
-				item: "minecraft:oak_stairs"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "027CEF93AEA981E4"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 64
+				}
+				{
+					id: "14FFEF7D9B432B1C"
+					type: "item"
+					item: "architecture_extensions:oak_crown_molding"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Speak Friend"
@@ -2185,7 +2220,7 @@
 			description: [
 				"Doors are used to block access to inner rooms to mobs, and to decorate."
 				""
-				"In this pack, doors often need to be modified to accommodate for taller players. Adding trapdoors or inverted stairs can often accomplish this."
+				"In this pack, doors often need to be modified to accommodate for taller players. Adding trapdoors, halfdoors, or inverted stairs can often accomplish this."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -2225,6 +2260,12 @@
 					id: "1CD14BAA58E27C26"
 					type: "item"
 					item: "minecraft:honey_bottle"
+				}
+				{
+					id: "59369FA9D5F9ACC0"
+					type: "item"
+					item: "halfdoors:oak_halfdoor"
+					count: 2
 				}
 			]
 		}
@@ -3113,6 +3154,129 @@
 					count: 8
 				}
 			]
+		}
+		{
+			title: "Archi2ct"
+			x: 5.5d
+			y: -10.0d
+			subtitle: "Craft a Sawmill"
+			description: [
+				"Aurora's Decorations Sawmill can be used to cheaply craft most wooden decorations in the game."
+				""
+				"This includes shelves, sign posts, benches, slabs, stairs, and more."
+				""
+				"Check out @aurora in EMI to see all decorations!"
+			]
+			dependencies: ["1233042213A9729E"]
+			hide: true
+			id: "457DA5A71495D9D8"
+			tasks: [{
+				id: "662750DA1DDCD8F6"
+				type: "item"
+				disable_toast: true
+				item: "aurorasdeco:sawmill"
+			}]
+			rewards: [
+				{
+					id: "7A762BDE70702D10"
+					type: "item"
+					item: "aurorasdeco:stump/jacaranda"
+					count: 2
+				}
+				{
+					id: "3781BD5770F20F19"
+					type: "item"
+					item: "aurorasdeco:bench/azalea"
+				}
+			]
+		}
+		{
+			title: "But not Too Light"
+			x: -4.5d
+			y: -10.0d
+			subtitle: "Make a Leather Pouch"
+			description: [
+				"Campanion adds many camping tools and ways to haul items."
+				""
+				"This includes rope bridges - which can be made with two aligned posts, strung together using lots of rope (click each post), then adding lots of planks at the post."
+				""
+				"It also includes sleeping bags and tents - made out of wool tarp."
+			]
+			dependencies: ["423E897DEB76653D"]
+			hide: true
+			id: "1F87E7C1F9EC0A8D"
+			tasks: [{
+				id: "50BFA1EEC645C6BB"
+				type: "item"
+				disable_toast: true
+				item: "campanion:leather_pouch"
+			}]
+			rewards: [
+				{
+					id: "364F558A644186DB"
+					type: "item"
+					item: "campanion:rope"
+					count: 10
+				}
+				{
+					id: "7F88051EEA6AF05C"
+					type: "item"
+					item: "campanion:rope_bridge_post"
+					count: 2
+				}
+				{
+					id: "3C8D1EE42C93485B"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 10
+				}
+				{
+					id: "1B8F69BC9BBE1BF5"
+					type: "item"
+					item: "campanion:wool_tarp"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "GRAPPLING HOOK!!!"
+			x: -4.5d
+			y: -13.0d
+			subtitle: "Make the Grappling Hook"
+			description: [
+				"The Grappling Hook is a Campanion branded source of speed and danger that could easily kill you from impact."
+				""
+				"It's great for caves!"
+			]
+			dependencies: ["423E897DEB76653D"]
+			hide: true
+			id: "2FB1C0658F3B91C4"
+			tasks: [{
+				id: "16B7A3AED5563A76"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "campanion:grappling_hook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D741380A7FA05A0"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
 		}
 	]
 }
