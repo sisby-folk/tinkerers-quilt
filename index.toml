@@ -1160,6 +1160,11 @@ hash = "db24b9f5262599c4a358be6e80e78a9fc0e4ad46b4dd00435aca9f76a60d7ca0"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-nether-fortresses.pw.toml"
+hash = "dc3044cf3ee836be2c3c0e8c6e3c6c5c0fb218cd72f2c41b082cbeb6056cc274"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-ocean-monuments.pw.toml"
 hash = "b097a8278c0395cca7aa1cbe8dc446973478d1b7729e30e836962a55275ef7b0"
 metafile = true
