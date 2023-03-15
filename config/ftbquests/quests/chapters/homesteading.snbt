@@ -992,7 +992,7 @@
 					title: "Locate the nearest Badlands..."
 					icon: "minecraft:terracotta"
 					auto: "no_toast"
-					command: "/locatebiome minecraft:badlands"
+					command: "/locate biome minecraft:badlands"
 					player_command: true
 				}
 				{
