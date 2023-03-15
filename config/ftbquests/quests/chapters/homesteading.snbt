@@ -700,11 +700,6 @@
 					type: "item"
 					item: "minecraft:observer"
 				}
-				{
-					id: "3FD207A473E4E169"
-					type: "item"
-					item: "minecraft:white_glazed_terracotta"
-				}
 			]
 		}
 		{
@@ -968,12 +963,6 @@
 					id: "759F54485E9734BA"
 					type: "checkmark"
 					title: "Click Here!"
-				}
-				{
-					id: "273128C5D85D7B63"
-					type: "item"
-					title: "White Glazed Terracotta - Open Quests!"
-					item: "minecraft:white_glazed_terracotta"
 				}
 			]
 			rewards: [
