@@ -158,7 +158,7 @@ hash = "bc2444dee25cdf6804b91c55fd311cbcb03219f8e42dffbe72c57f313a260761"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
-hash = "8217d5b9f04081622f706c0ae7c9b1399639093ee242ca7672d4850bede773b9"
+hash = "b141d73960331dfb41bb20fbc3c0488a75ba59c55a1ac49b8a09b8cb3e4ac42c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
@@ -393,11 +393,6 @@ metafile = true
 [[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "6d064aeec2cc5f9dd4ffca7c81e781418619ef39d71e84596051c45e7e64271a"
-metafile = true
-
-[[files]]
-file = "mods/amplified-nether.pw.toml"
-hash = "3cce9bc7a299070cffd83336372c0747c70ddbf19d0baf203347ef1ad35828e2"
 metafile = true
 
 [[files]]

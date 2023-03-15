@@ -107,26 +107,6 @@
 				disable_toast: true
 			}]
 		}
-		{
-			title: "Amplified Nether"
-			icon: "rustediron:weathered_cut_iron_block"
-			x: -1.0d
-			y: -0.5d
-			shape: "square"
-			subtitle: "Tol"
-			description: [
-				"Amplified Nether makes the nether taller! It has more verticality and vertical-based danger."
-				""
-				"I have nothing else to say about this."
-			]
-			id: "2EE3C9E27139794B"
-			tasks: [{
-				id: "1746DB3708030CF8"
-				type: "checkmark"
-				title: "Click Here!"
-				disable_toast: true
-			}]
-		}
 	]
 	quest_links: [ ]
 }
