@@ -712,11 +712,6 @@
 					type: "item"
 					item: "minecraft:observer"
 				}
-				{
-					id: "3FD207A473E4E169"
-					type: "item"
-					item: "minecraft:white_glazed_terracotta"
-				}
 			]
 		}
 		{
@@ -984,11 +979,13 @@
 			hide: true
 			optional: true
 			id: "58CAA3CF4CE89A65"
-			tasks: [{
-				id: "759F54485E9734BA"
-				type: "checkmark"
-				title: "Click Here!"
-			}]
+			tasks: [
+                {
+                    id: "759F54485E9734BA"
+                    type: "checkmark"
+                    title: "Click Here!"
+                }
+			]
 			rewards: [
 				{
 					id: "7D1A0DD72136D14D"
