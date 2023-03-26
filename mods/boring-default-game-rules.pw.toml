@@ -1,13 +1,13 @@
 name = "Boring Default Game Rules"
-filename = "boring_default_game_rules-1.0.1+1.19.2.jar"
+filename = "boring_default_game_rules-1.0.4+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kHR1aAVN/versions/t11oKsle/boring_default_game_rules-1.0.1%2B1.19.2.jar"
+url = "https://cdn.modrinth.com/data/kHR1aAVN/versions/9umppvAN/boring_default_game_rules-1.0.4%2B1.19.2.jar"
 hash-format = "sha1"
-hash = "80e1268ab2a56809237395c1329145efecb39e00"
+hash = "dc6e3f71697862bd49ffd90a1661cca86213a7b5"
 
 [update]
 [update.modrinth]
 mod-id = "kHR1aAVN"
-version = "t11oKsle"
+version = "9umppvAN"
