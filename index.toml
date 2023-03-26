@@ -302,11 +302,6 @@ hash = "e143f0581d9a5079eef15faa984c73f8b242d7a54c0472b1ed461789eb91241b"
 metafile = true
 
 [[files]]
-file = "mods/better-biome-blend.pw.toml"
-hash = "7358afeeeef0b9b55770f207a3210feafc06f6fa604c2c2627fcbc3123ba3a26"
-metafile = true
-
-[[files]]
 file = "mods/better-end-sky.pw.toml"
 hash = "9db7e0c35795f22069c8e789d5c1276a1b433aa26f287e3e80275b244a11d2ff"
 metafile = true
@@ -636,7 +631,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "c9e32601f4803e08da824b881e06332179d3896e127c7a24384dfd3782b8f292"
+hash = "2f1393d78824d3e665be954e339affed26d8482d227aa3f13d6ca5d577469f8b"
 metafile = true
 
 [[files]]
