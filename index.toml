@@ -650,9 +650,8 @@ hash = "8bad8c9de76befcc2d3335022417b8a89983f2c4ea8dc547911d7104367f626a"
 metafile = true
 
 [[files]]
-file = "mods/nbt-crafting.pw.toml"
-hash = "092562cce93b133cdd4f9a0004a104914fd9f639941fb4c2401054fac0124f15"
-metafile = true
+file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
+hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
 
 [[files]]
 file = "mods/no-fade.pw.toml"
@@ -831,7 +830,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "2b7a8332313fbb1c10fb01e9832c91f22d19e935d8050b373645d8408d9192a4"
+hash = "65961461dbe13b22d3752996e0e95031993769e1460e27711165254da99e3c79"
 metafile = true
 
 [[files]]
