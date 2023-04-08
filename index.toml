@@ -381,6 +381,10 @@ file = "credits.txt"
 hash = "fc1b5f1165ec9c762cd3fc9d6766453e74f8736de9bfc0676aa9e6fb6d126c4c"
 
 [[files]]
+file = "mods/DyeableFishingLines-1.0.1.jar"
+hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
+
+[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
@@ -573,11 +577,6 @@ metafile = true
 [[files]]
 file = "mods/drogtor.pw.toml"
 hash = "6aac65adbbc8fba3a165b7207758ce133ff294dc1a0c111b66d22ca3362c310c"
-metafile = true
-
-[[files]]
-file = "mods/dyeable-fishing-lines.pw.toml"
-hash = "c158b1949068207598f5ce696da793f3f6499042ac332a36a9c7ffef12a7e4ad"
 metafile = true
 
 [[files]]
@@ -904,7 +903,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "1c7b38e01cab4654b28cb11a03877833b0ceac99c8803ae436bcd4045e6bdffc"
+hash = "38cb5b39b0956530b1783cae298454c36d699058e8d0008a6915ee0e0548db35"
 metafile = true
 
 [[files]]
