@@ -134,7 +134,7 @@ hash = "cd281341dcaca9438a70c38c3821f373998cbbd6abf4a5a3225fdf76d39c2f09"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "9cc015d7989c9d56b917aa20a80b35b885c2e2bee90743d0a67571c23f7027d3"
+hash = "b69881dba029f09234ad91b2169ef2534dc3d3576908bcf4e344e0496ef1ddc2"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
@@ -285,6 +285,10 @@ file = "config/yosbr/config/charmonium.toml"
 hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
 [[files]]
+file = "config/yosbr/config/chunksfadein.properties"
+hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
+
+[[files]]
 file = "config/yosbr/config/clienttweaks.toml"
 hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
@@ -342,7 +346,7 @@ hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "cda07525e46bf35e38fc658e763c987b4b69376c0955ca14830f05fb454a31e3"
+hash = "4e790890a603cf81f32c6747f1d2ad73bef85f33cc83a5bb70425b37f12b28a1"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
@@ -422,7 +426,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "a714c0d9b19e623a1ed9e130c446174a7eda24a7146afeb4e2d82498f8c8ea5c"
+hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
 metafile = true
 
 [[files]]
@@ -657,7 +661,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "46a497398e476b0bbac4a1c9816da987be2a9afc2e62011d584963beef0ba45e"
+hash = "cb42423fc581c24ed56adaee739fc5e4b86f76d2bc3c9fc79ca812ee87e65cbd"
 metafile = true
 
 [[files]]
@@ -682,17 +686,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "5fdc6d4ad76d1623062b59809f53dd11d75f8a8277fd3119afc1f6327c36ee4b"
+hash = "fadeaf3af074696c20d84daae96044c22c60b8047fc3971120b0030f580c8993"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "0a957f300aa15b469597d0966e7893e9792821ff4fd6d078e39731042702292a"
+hash = "bca83c69078cf988921a10928fdbceb915090542822bb5c17a021c4b810b52d8"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
-hash = "7b4a6673987fc6becfc09a3e01ccce288113cfaefbbf1ad6f3bfa796c75d501a"
+hash = "1449efe94903466204743ec0f4a7b0f1dba349f4b1e6d66c1e9fd8b69fe021b3"
 metafile = true
 
 [[files]]
@@ -750,7 +754,7 @@ hash = "7bb8ebb225fb9d0012b742ec0aeabb80f4119aa72486e0b93d2309e6a291bedf"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "2355898e55539353e3fe43057c1c2880e02ceb6b64c8f5d1e0bc2a660635c323"
+hash = "1f17cb6a5689d747c85fb83e14ea3e4d88cbbba7d8b67876c35042848200d205"
 metafile = true
 
 [[files]]
@@ -894,7 +898,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "38cb5b39b0956530b1783cae298454c36d699058e8d0008a6915ee0e0548db35"
+hash = "7a8a62a0e7fb2ff209cb8468ca6e6bd2aac3b90474222a459cfd019d998a116c"
 metafile = true
 
 [[files]]
@@ -1014,7 +1018,7 @@ metafile = true
 
 [[files]]
 file = "mods/styled-chat.pw.toml"
-hash = "b54a2d0cdb07a011d353462037ee68dfa2108767be8485c58f65fea4986cb934"
+hash = "70da594f4eadb175c7eedd58ec67caeffb71ac5fc8c503fcddf04e545e78e590"
 metafile = true
 
 [[files]]
@@ -1044,7 +1048,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "f014f2d00a4145ba1665c7410797c13fea39678d14b692d58c092c636c9239e8"
+hash = "57d130660a5355c783d180f69d827e473ab1192ddc0e645b061581d4858a3caa"
 metafile = true
 
 [[files]]
