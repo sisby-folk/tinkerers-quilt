@@ -867,6 +867,11 @@ hash = "8bad8c9de76befcc2d3335022417b8a89983f2c4ea8dc547911d7104367f626a"
 metafile = true
 
 [[files]]
+file = "mods/music-notification.pw.toml"
+hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "1191c0ed4c2be46db9814885dc1beb33d22a2175758ad0af8a5a53afe851d7c6"
 metafile = true
