@@ -961,6 +961,11 @@ hash = "6722d21c6afd03769c9792270061bf7dedb604b94161624403525bae7614df63"
 metafile = true
 
 [[files]]
+file = "mods/qkl.pw.toml"
+hash = "78fe291bc3d50234209d5b80735b469044f4d858dc8d3ba5bc38d1e098cb786f"
+metafile = true
+
+[[files]]
 file = "mods/qsl.pw.toml"
 hash = "4461d2eb73a6b92c34c931460fcc3d5784ebc19e2f4fe03d4330decda28524df"
 metafile = true
