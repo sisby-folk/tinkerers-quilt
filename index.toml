@@ -445,11 +445,6 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
-file = "mods/fabric-language-kotlin.pw.toml"
-hash = "62360beac5e427be02b732421c9e4fe53819bc6f5e2cc821fd6f2d9278c5485b"
-metafile = true
-
-[[files]]
 file = "mods/fabric-title-changer.pw.toml"
 hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
 metafile = true
