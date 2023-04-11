@@ -648,6 +648,11 @@ hash = "8bad8c9de76befcc2d3335022417b8a89983f2c4ea8dc547911d7104367f626a"
 metafile = true
 
 [[files]]
+file = "mods/music-notification.pw.toml"
+hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
+metafile = true
+
+[[files]]
 file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
 hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
 
