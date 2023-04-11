@@ -10,7 +10,7 @@ hash = "aa201854393d862526c89b561a4704f8c9328a3539e11689f0b27f0b9faf6a0d"
 
 [versions]
 minecraft = "1.19.2"
-quilt = "0.18.6"
+quilt = "0.18.9"
 
 [options]
 acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
