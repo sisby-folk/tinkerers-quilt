@@ -835,9 +835,8 @@ hash = "3fd1d73a30fc7902aaa1be988d915ae7a873445d6238f741e3cfef967b66c32e"
 metafile = true
 
 [[files]]
-file = "mods/switchykit.pw.toml"
-hash = "f47343485d96adf8204008a1538621deba49cda0d287d97c0290bc931d2d84c0"
-metafile = true
+file = "mods/switchykit-1.2.0.jar"
+hash = "4668f8a4b4b7b61f37836de2342472f553869d35c0b6364614808c2b120c7195"
 
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
