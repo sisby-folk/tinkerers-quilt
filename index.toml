@@ -321,6 +321,10 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
 
 [[files]]
+file = "config/yosbr/config/styled-nicknames.json"
+hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
+
+[[files]]
 file = "config/yosbr/config/styledplayerlist/config.json"
 hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
 
@@ -501,7 +505,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunks-fade-in.pw.toml"
-hash = "6edc3569e90bfc8d1c14bda5f886325b0bcbe5d786f58e18648b4a8271df31dc"
+hash = "44c83aabe1cb66201f4a2f7e6ccbfea2c226234a4c52103ef8d865526390b736"
 metafile = true
 
 [[files]]
@@ -570,9 +574,8 @@ hash = "48c2dac5aa8efba90c953b52f640ae7d8a5dfe571362b0c917bf7f41752b1f2b"
 metafile = true
 
 [[files]]
-file = "mods/drogtor.pw.toml"
-hash = "6aac65adbbc8fba3a165b7207758ce133ff294dc1a0c111b66d22ca3362c310c"
-metafile = true
+file = "mods/drogstyle-1.0.0+1.19.jar"
+hash = "b26e3485e7c5b1e3a2c1573b70a84957ef14ec37fdfc555a1b66e5de5bdf354d"
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
@@ -656,7 +659,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "5c8052da686be9d2f1fa1af780419cacbf0891dc838f8131028fe512a0738174"
+hash = "43c1e9c4afedd29ee2b0107aefa662b889b99eaba914a43c7244872abfd75c10"
 metafile = true
 
 [[files]]
@@ -749,7 +752,7 @@ hash = "7bb8ebb225fb9d0012b742ec0aeabb80f4119aa72486e0b93d2309e6a291bedf"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "1f17cb6a5689d747c85fb83e14ea3e4d88cbbba7d8b67876c35042848200d205"
+hash = "8a762171b89a5265ad651263b4691a098ce6429edd74b4ddb09c7c33286fcc75"
 metafile = true
 
 [[files]]
@@ -878,7 +881,7 @@ metafile = true
 
 [[files]]
 file = "mods/norecipebook-fabric.pw.toml"
-hash = "3329afb49f3d9c3653fff23844485b752f079e2a6b94906d31b889006a07fbea"
+hash = "afae97e455506516e6d196935777d3cd1b733f8f36505cfc3491c69300cbb511"
 metafile = true
 
 [[files]]
@@ -913,7 +916,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "f20bf84a820c2c157ffe838f6ea821524cfe4eb056664ac250fac5af3fbac68a"
+hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
 metafile = true
 
 [[files]]
@@ -1027,6 +1030,11 @@ hash = "70da594f4eadb175c7eedd58ec67caeffb71ac5fc8c503fcddf04e545e78e590"
 metafile = true
 
 [[files]]
+file = "mods/styled-nicknames.pw.toml"
+hash = "d0cd4b1f936b73cbe367ccc74c325688bb5aa1e87e41f571124a22c3b361c2c1"
+metafile = true
+
+[[files]]
 file = "mods/styledplayerlist.pw.toml"
 hash = "03191d93838921d6267303721f3b769bb338f6baf5089af61f47c8bf09fdd088"
 metafile = true
@@ -1053,7 +1061,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "57d130660a5355c783d180f69d827e473ab1192ddc0e645b061581d4858a3caa"
+hash = "3fd1d73a30fc7902aaa1be988d915ae7a873445d6238f741e3cfef967b66c32e"
 metafile = true
 
 [[files]]
@@ -1123,7 +1131,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "d025cd1dbc6fbbf330fd6c4612c1c3fd9b9405802346ceefd84c62b6582f2aad"
+hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
 metafile = true
 
 [[files]]
@@ -1322,7 +1330,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "034bfbdb275eb4288ad71f88ac05dfcc8f1858b90018d4f69b3351f1535c393c"
+hash = "b7a6c9f0966fb1dacd80893f5041feddfe0206ce952958fc49ea08e7dcc2da69"
 metafile = true
 
 [[files]]
