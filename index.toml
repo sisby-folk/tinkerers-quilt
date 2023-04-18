@@ -583,8 +583,9 @@ hash = "48c2dac5aa8efba90c953b52f640ae7d8a5dfe571362b0c917bf7f41752b1f2b"
 metafile = true
 
 [[files]]
-file = "mods/drogstyle-1.0.0+1.19.jar"
-hash = "b26e3485e7c5b1e3a2c1573b70a84957ef14ec37fdfc555a1b66e5de5bdf354d"
+file = "mods/drogstyle.pw.toml"
+hash = "4dfeb4a7f9ba351ce1cac51a97693b317ce26f0dcf9ba89e9f2ed96cd5472f57"
+metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
@@ -633,7 +634,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-seasons.pw.toml"
-hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
+hash = "9cbc9c0e1012f08349ada76ace1e36db8b9d17f43a6203be4b519a721fe986b9"
 metafile = true
 
 [[files]]
@@ -713,7 +714,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "15c7e112131d8ea9b726ad3782fec84fa6e5dfa4a80ec0a5001209e44eeea7a5"
+hash = "6b5557a3127fff8f71e7d659601d6561cdba2165ce5b14507881acd7cd93a138"
 metafile = true
 
 [[files]]
@@ -1060,7 +1061,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "c2f5c36e0b35f872a9a0232d9b7cd2a0b165d5e081f75a4642acb9512192fda4"
+hash = "2c6c8c3e843a7f1df2f4a1ea4b0ed2f63a623ac6329feba063b112241a4b6c48"
 metafile = true
 
 [[files]]
@@ -1079,9 +1080,8 @@ hash = "3fd1d73a30fc7902aaa1be988d915ae7a873445d6238f741e3cfef967b66c32e"
 metafile = true
 
 [[files]]
-file = "mods/switchykit.pw.toml"
-hash = "f47343485d96adf8204008a1538621deba49cda0d287d97c0290bc931d2d84c0"
-metafile = true
+file = "mods/switchykit-1.2.0.jar"
+hash = "faeb46f383dbc61345b9495da023812b82f0cb9581c44066bc9c7aae7b21443c"
 
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
