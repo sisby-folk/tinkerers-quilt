@@ -409,8 +409,9 @@ hash = "48c2dac5aa8efba90c953b52f640ae7d8a5dfe571362b0c917bf7f41752b1f2b"
 metafile = true
 
 [[files]]
-file = "mods/drogstyle-1.0.0+1.19.jar"
-hash = "b26e3485e7c5b1e3a2c1573b70a84957ef14ec37fdfc555a1b66e5de5bdf354d"
+file = "mods/drogstyle.pw.toml"
+hash = "4dfeb4a7f9ba351ce1cac51a97693b317ce26f0dcf9ba89e9f2ed96cd5472f57"
+metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
@@ -816,7 +817,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "063bb0c0025a94d377241721864529d96ab11c1d3b0550cc9096a6862feea108"
+hash = "2c6c8c3e843a7f1df2f4a1ea4b0ed2f63a623ac6329feba063b112241a4b6c48"
 metafile = true
 
 [[files]]
