@@ -910,6 +910,38 @@ hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
 metafile = true
 
 [[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
+hash = "90a7172e9da876e614eafd9c364f15fc43840102387c0a472f2b3c51e7dc28af"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Bangs.zip"
+hash = "2d2ac70b9b0787628ef77dc5ebaa5b3ef18c34f573fa5a111dac2eb08e8bf3ec"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Elements.zip"
+hash = "c4015c93a1bbcff962ea566a4d88e15d889833701857c5dc9fa1faaaf2d412ef"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Machines.zip"
+hash = "2d72f15c24d3d54d3b4ee4a52377d0a35ba5f6d3e2db84fbd0fc868ecbeb14ba"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Monsters.zip"
+hash = "072d7b62482ff9c0fd205dd0489d18d8746faf8de73aea3aa5c8f0d541e61b4c"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Netherzens.zip"
+hash = "e6e66d539a52d51604c557d06ad0b07aa0c9b25fa8d952789a6cbd6f71dcb3f8"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Spiders.zip"
+hash = "107a08595e6fc6fb3cca7b24f154ee5d8d38aa583ae1665b9bfc4a0dd441f773"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Quiet_Zombies.zip"
+hash = "4aaa3a13e14c3ef25539b08e3318cb458801d35c639c673e0d56f9ece5882a65"
+
+[[files]]
 file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
@@ -982,8 +1014,8 @@ file = "resources/packs/VanillaTweaks_c667075.zip"
 hash = "c94d4d8f1f79fc0e498f7f58c886690bdc936d6fc950512edbc973610dddd166"
 
 [[files]]
-file = "resources/packs/VanillaTweaks_r242318.zip"
-hash = "29fe3535b229cd21e6530fc28cbc0777d1111446ccf3eab14ab3a845eb09edc6"
+file = "resources/packs/VanillaTweaks_r716880.zip"
+hash = "eff4c8543b07a75885064df2f801fbaa15531035233e2caa72fe2d42a62eb313"
 
 [[files]]
 file = "resources/packs/axolotl-bucket-variants.pw.toml"
