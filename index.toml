@@ -5,10 +5,6 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
-file = "config/advancementinfo.json5"
-hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
-
-[[files]]
 file = "config/apathy/boss.cfg"
 hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
 
@@ -23,14 +19,6 @@ hash = "e5d15c76613c71dffed666ee04ad8bf45b5411e28f3ae7222851d5b71a19bef6"
 [[files]]
 file = "config/apathy/mobs.json"
 hash = "53d86e143fe62163a169ef8c6f8463cfd1b5970bd8c5248f10933c9af2700a03"
-
-[[files]]
-file = "config/appleskin.json5"
-hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
-
-[[files]]
-file = "config/blanket_client-fixes.json"
-hash = "d10ce3f6169d35d2b7e09cefc5e6c2c77cc897690f11aac9fae62f1f3e1d637e"
 
 [[files]]
 file = "config/boring_default_game_rules/config.json"
@@ -53,16 +41,8 @@ file = "config/colormatic.properties"
 hash = "4fcc090a9488eee469956b8f70fead42eb60b513a7ee3de696887dcda051dd35"
 
 [[files]]
-file = "config/crunchy-crunchy-advancements.css"
-hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
-
-[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
-
-[[files]]
-file = "config/fabric-title-changer/settings.json"
-hash = "3456c66f286032e5bb18a52132f31cfdf19545cad70570cacc60ad21188a0087"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -77,46 +57,6 @@ file = "config/forcecloseloadingscreen.json"
 hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "afd3d5c1ec31a473d07192e3dcc58298faabad8c096f7f4606a8c4eb66320e6d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "ffe3f6a7fa076378103696b9606c49fd661dfa35207888d6994e3738d860bc34"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "62b1727590e4088253fec749adb5e1ad04fc9b5ce3402aa8267873d89657fbc4"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "76660bc73e8bc2711a806a26c51581948dcfbd467be529d34b36827086c02fc5"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "8180e9ef474af4e90b0fbc830130c4f165c53f9532e26792734d68a08f650897"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "e61d8415c05ce6041a6e505d30ec3f4d1e7eeac2cc3479c23f1ed9a4e3cae52c"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "e0585076b0bb1fec0184a1d08a4cd876859a3261a48a6d7e6567e2af9ed3825a"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "82ecc9c0ab707fa7ac5ada7eb061b4cc05d8dec8b9b05ad63360cd2339beba38"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "dfc42c433650511535a398c4cf88e05ac0ff076fedf6bf5d750c65ae30e8134f"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
-hash = "f9e5ce06df27d2e460bec59f0d06ea3c846fe3ecc1ddf9aacc23e2b0aec83ae8"
-
-[[files]]
 file = "config/idwtialsimmoedm.json"
 hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 
@@ -126,11 +66,11 @@ hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "9ede5f3c262d74cf2ec694d8c228f1fd8f3b363c13ba5695ea7eea2db6b63b0b"
+hash = "99f71394cf8b96e252fa33f74d3c3ac5eefa65e7e5782e74f4677d61f89e5a19"
 
 [[files]]
 file = "config/lucium-hidden-debug-entries.txt"
-hash = "bc8876f1afd54ff5f5f862e6ba531f8a80853688fd2e99cdfb1b633f1386dd5f"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/pettable.json"
@@ -141,28 +81,8 @@ file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
 
 [[files]]
-file = "config/puzzle.json"
-hash = "4b8f41e58609c3933456ae462fbbe0f9f2c0f37d4a1bfda8c98f85e90c94cd91"
-
-[[files]]
-file = "config/quilt-loading-screen.json"
-hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
-
-[[files]]
-file = "config/sidebar_buttons.json"
-hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
-
-[[files]]
 file = "config/simplefog.json"
 hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
-
-[[files]]
-file = "config/tiefix.json"
-hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
-
-[[files]]
-file = "config/yigd.toml"
-hash = "0a56ec859d343f2a61bba93673be4c2650b15b436fcfd5e4f4e7ec29847770cd"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -234,7 +154,7 @@ hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "4e790890a603cf81f32c6747f1d2ad73bef85f33cc83a5bb70425b37f12b28a1"
+hash = "457319353834ecd1bc0b86d3c87f09e5a10e86e98d74d4d8118fc4d7434061be"
 
 [[files]]
 file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
@@ -262,11 +182,7 @@ hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
 
 [[files]]
 file = "credits.txt"
-hash = "fc1b5f1165ec9c762cd3fc9d6766453e74f8736de9bfc0676aa9e6fb6d126c4c"
-
-[[files]]
-file = "mods/DyeableFishingLines-1.0.1.jar"
-hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
+hash = "96ca378f8b99eba7389064ddecca730ced5a6044f8392b09f9865f7839eb7a89"
 
 [[files]]
 file = "mods/advancements-debug.pw.toml"
@@ -286,11 +202,6 @@ metafile = true
 [[files]]
 file = "mods/apathy.pw.toml"
 hash = "adb0c67a7d8ce7994b18192c2270ed3a120acc692201bdab4d5275853d3652ae"
-metafile = true
-
-[[files]]
-file = "mods/appleskin.pw.toml"
-hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
 metafile = true
 
 [[files]]
@@ -389,18 +300,8 @@ hash = "e9959b342401ffdb0ddae4e9fd151b97a9cb94624d4658daafdac0c17d8bc262"
 metafile = true
 
 [[files]]
-file = "mods/coyote-time.pw.toml"
-hash = "8f78b048d5efc3f130f26580941a8f0df00ef47090bf59be4fcf3afbcab54ecb"
-metafile = true
-
-[[files]]
 file = "mods/crowmap.pw.toml"
 hash = "30f1ee40932a5918f97f85ac3c9bd48f2545e3baf0f40fde6a631606aae59b52"
-metafile = true
-
-[[files]]
-file = "mods/crunchy-crunchy-advancements.pw.toml"
-hash = "9974d9608f42b266c35a658f1ff1899f254a02d13def06c1ff9a6c2cf7a924a2"
 metafile = true
 
 [[files]]
@@ -449,23 +350,8 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
-file = "mods/fabric-seasons.pw.toml"
-hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
-metafile = true
-
-[[files]]
-file = "mods/fabric-title-changer.pw.toml"
-hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
-metafile = true
-
-[[files]]
 file = "mods/fabrication.pw.toml"
 hash = "bd3fa8322aa27cbdf332b200ae8cf62ec2c2ab144e04f28e5634ad3f176b5579"
-metafile = true
-
-[[files]]
-file = "mods/fabricshieldlib.pw.toml"
-hash = "d441b6d8d55b8f6c0e7f1f6ddb6dc95a83c84f70acd9cc420c9765026d001beb"
 metafile = true
 
 [[files]]
@@ -501,21 +387,6 @@ metafile = true
 [[files]]
 file = "mods/fishing-real.pw.toml"
 hash = "34d038bd3c2b9bdc1253f92894e30fabc11f824efa08416a153437273e56a38d"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-fabric.pw.toml"
-hash = "fadeaf3af074696c20d84daae96044c22c60b8047fc3971120b0030f580c8993"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-fabric.pw.toml"
-hash = "bca83c69078cf988921a10928fdbceb915090542822bb5c17a021c4b810b52d8"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-fabric.pw.toml"
-hash = "1449efe94903466204743ec0f4a7b0f1dba349f4b1e6d66c1e9fd8b69fe021b3"
 metafile = true
 
 [[files]]
@@ -562,11 +433,6 @@ hash = "8a762171b89a5265ad651263b4691a098ce6429edd74b4ddb09c7c33286fcc75"
 metafile = true
 
 [[files]]
-file = "mods/item-filters.pw.toml"
-hash = "3e1e8c00bc5bc09edd818450dde13da4983702b8c92b8178c9c51fccbd7a633d"
-metafile = true
-
-[[files]]
 file = "mods/item-model-fix.pw.toml"
 hash = "e6895b572857d6381b9c5c8d153eb6606b3cd2755feec53ff3905d025656a124"
 metafile = true
@@ -579,11 +445,6 @@ metafile = true
 [[files]]
 file = "mods/keep-my-hand.pw.toml"
 hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
-metafile = true
-
-[[files]]
-file = "mods/kiwi-fabric.pw.toml"
-hash = "fd4cbd6ee543abcbd027835d9604abf29d183dd99422c40633a521eae61a82b2"
 metafile = true
 
 [[files]]
@@ -619,11 +480,6 @@ metafile = true
 [[files]]
 file = "mods/lucium.pw.toml"
 hash = "1e8141fb6f44da5f922d460a9903d1ac0541356aae0b6d3f68b9e5cf5824b089"
-metafile = true
-
-[[files]]
-file = "mods/luna-slimes.pw.toml"
-hash = "ef266b69d33ac098568eaffae14ede158a79cb0ab92f45510ee3555e2bbe1b97"
 metafile = true
 
 [[files]]
@@ -667,7 +523,7 @@ hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
 
 [[files]]
 file = "mods/no-fade.pw.toml"
-hash = "c91a0e5e41ca1131346bec3429a5b54dd46ca826a228620b52333de9184a864a"
+hash = "a2f3df885984de9d90766c40c5ec4119769c9ffe8291364ff5f5403ba547fb32"
 metafile = true
 
 [[files]]
@@ -691,28 +547,8 @@ hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
 metafile = true
 
 [[files]]
-file = "mods/origins-minus.pw.toml"
-hash = "4786a264f3b95a6bc78633a6318d618b652e108cb9550d3821135fac4c5d6515"
-metafile = true
-
-[[files]]
-file = "mods/origins.pw.toml"
-hash = "862b429a623762ef0469eb2a409b9450a9b70071cf9bffabca654b97f7528424"
-metafile = true
-
-[[files]]
-file = "mods/pehkui.pw.toml"
-hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
-metafile = true
-
-[[files]]
 file = "mods/pettable.pw.toml"
 hash = "43f11eb7babcc05358ac4e1c4148776ee7fe5c224dc6d92ef7045649c799cbb5"
-metafile = true
-
-[[files]]
-file = "mods/portable-crafting-standalone.pw.toml"
-hash = "a56ce3bef27b70930e49cd7f21a2a65cbd73d019cc72b779125504bfc1f21319"
 metafile = true
 
 [[files]]
@@ -741,11 +577,6 @@ hash = "4461d2eb73a6b92c34c931460fcc3d5784ebc19e2f4fe03d4330decda28524df"
 metafile = true
 
 [[files]]
-file = "mods/quilt-loading-screen.pw.toml"
-hash = "77aa1af076bfb1175a407037a2d1db80437bae5193db45a557f5f32b3cc4a67f"
-metafile = true
-
-[[files]]
 file = "mods/reacharound.pw.toml"
 hash = "afedc35545eb5be295caee5e0cac50de9941e4487a1a78d54ead98cc69110843"
 metafile = true
@@ -753,11 +584,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
-metafile = true
-
-[[files]]
-file = "mods/reroll.pw.toml"
-hash = "a18f008c9752934ff5d7095aaef6c4b85627a1ac9a6da87ebbb9403dd4f2d7eb"
 metafile = true
 
 [[files]]
@@ -773,11 +599,6 @@ metafile = true
 [[files]]
 file = "mods/simplefog.pw.toml"
 hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic-fabric.pw.toml"
-hash = "c9385a408a0f98f552474453c30f017aecfc72a371cf9a4cf79ba22c4aff4c6b"
 metafile = true
 
 [[files]]
@@ -855,11 +676,6 @@ hash = "65961461dbe13b22d3752996e0e95031993769e1460e27711165254da99e3c79"
 metafile = true
 
 [[files]]
-file = "mods/tinkerers-statures.pw.toml"
-hash = "cd09188b0513997033f6a1031a89e1144536c9924a7ab12618ec184750390f84"
-metafile = true
-
-[[files]]
 file = "mods/tips.pw.toml"
 hash = "47128ec737c02dfac163db723625223a684a1204dc2e20d63f3691d2fa7f38d2"
 metafile = true
@@ -897,11 +713,6 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "17d831dc9a5939806f745aadeb8a0b11b0f1c7f587043e0d1aa77f40c76f73b9"
-metafile = true
-
-[[files]]
-file = "mods/yigd.pw.toml"
-hash = "d50f1f988b35d7b788d945fece5e8605daac9c9b819a23f2ed3f87e9142f4a24"
 metafile = true
 
 [[files]]
@@ -947,15 +758,11 @@ hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
 file = "resources/assets/loadingscreentips/loading_tips/tips.json"
-hash = "582cc548b749fe9211d35967dae055c58eef9617f620709d0159cce970dc393b"
+hash = "3f4d3e7686455244cc282f2ed3320394c8c9f8c1f6519c7c78c57fac48433717"
 
 [[files]]
 file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "62767dd59c651b2140a132c2756643bb3af58c82d720527b34ea2b647a7e41a1"
-
-[[files]]
-file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
-hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
+hash = "9a09d6ddb2935a337491069a7597491770d812916aac768a37bb474e25002118"
 
 [[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
