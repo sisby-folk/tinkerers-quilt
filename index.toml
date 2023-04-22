@@ -534,9 +534,8 @@ hash = "c49d1423a5f2563335fd5719862a861c8ae2c9cbc46598e767c3e2fe1042ecae"
 metafile = true
 
 [[files]]
-file = "mods/consistencyplus.pw.toml"
-hash = "0a82c23063612bf1baf43934323d8fca8dd23ddc2dc0a3db968f72d14b99e887"
-metafile = true
+file = "mods/consistency_plus-fabric-0.5.2+1.19.2.jar"
+hash = "b45343ef120eae1ad7be38f01836cf03108568832a62b267d1bd8b95e00e11a2"
 
 [[files]]
 file = "mods/continuity.pw.toml"
