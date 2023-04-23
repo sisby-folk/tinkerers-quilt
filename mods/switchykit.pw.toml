@@ -1,0 +1,13 @@
+name = "SwitchyKit"
+filename = "switchykit-1.2.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/qETWTIDe/versions/6fHTilqA/switchykit-1.2.0.jar"
+hash-format = "sha1"
+hash = "5136db2a706c0d0369ba3b69a7abfaa91bc65b6c"
+
+[update]
+[update.modrinth]
+mod-id = "qETWTIDe"
+version = "6fHTilqA"
