@@ -429,8 +429,8 @@ hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
 metafile = true
 
 [[files]]
-file = "mods/inventorytabs-0.9.0-beta-1.19.x.jar"
-hash = "7bb8ebb225fb9d0012b742ec0aeabb80f4119aa72486e0b93d2309e6a291bedf"
+file = "mods/inventorytabs-0.6.2+1.19.x.jar"
+hash = "050e722932e46ed28ef59610ce940d9a691c953092d842279ac3f48cf95b78d3"
 
 [[files]]
 file = "mods/iris.pw.toml"
@@ -667,8 +667,9 @@ hash = "4930ebd12f821d0414f3bdff610b9fa9ce431a17f70dbe30f604e67441bb03e9"
 metafile = true
 
 [[files]]
-file = "mods/switchykit-1.2.0.jar"
-hash = "faeb46f383dbc61345b9495da023812b82f0cb9581c44066bc9c7aae7b21443c"
+file = "mods/switchykit.pw.toml"
+hash = "899a8fd91b062153a42a7a37a86e48bc455c28b926f2a0bef6a5c6b4313091ef"
+metafile = true
 
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
