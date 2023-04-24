@@ -623,6 +623,11 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
+file = "mods/fabric-seasons.pw.toml"
+hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
+metafile = true
+
+[[files]]
 file = "mods/fabric-title-changer.pw.toml"
 hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
 metafile = true
