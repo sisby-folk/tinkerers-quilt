@@ -5,10 +5,6 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
-file = "config/advancementinfo.json5"
-hash = "113f8e67cb3c24d7615b0b1e5e5598e487586fee227bf0bf721102e50671b664"
-
-[[files]]
 file = "config/apathy/boss.cfg"
 hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
 
@@ -91,10 +87,6 @@ hash = "890eaae9d4766bf7a20a3862d53fa7be60eb690bdfb9bf82d84acd9341505826"
 [[files]]
 file = "config/betterwitchhuts-fabric-1_19.toml"
 hash = "063ce4f60934ab166dade45375ef5518df74be2c6c1e1f1a52ec181013803197"
-
-[[files]]
-file = "config/blanket_client-fixes.json"
-hash = "d10ce3f6169d35d2b7e09cefc5e6c2c77cc897690f11aac9fae62f1f3e1d637e"
 
 [[files]]
 file = "config/boring_default_game_rules/config.json"
@@ -229,10 +221,6 @@ file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
 
 [[files]]
-file = "config/puzzle.json"
-hash = "4b8f41e58609c3933456ae462fbbe0f9f2c0f37d4a1bfda8c98f85e90c94cd91"
-
-[[files]]
 file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
 
@@ -265,10 +253,6 @@ file = "config/simplefog.json"
 hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
-file = "config/tiefix.json"
-hash = "25436300c7278b92f8c185dbfe9d03da29b4324302c33bc59d73e3fbe05da773"
-
-[[files]]
 file = "config/travelerstitles-fabric-1_19.toml"
 hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
 
@@ -294,7 +278,7 @@ hash = "ae56a8fcd0e5fd14766191e1b5d2fcb70a7d8cbd254d8615be882c22e27ad94f"
 
 [[files]]
 file = "config/yosbr/config/emi.css"
-hash = "0afff89af96ab1e27a8a1689630c6d8689a05bd0b8757deedc7904bbf6f837a6"
+hash = "1394fac8677e6c05c8d49f64b4a62062731b4406e53df338b9b312065cc2832b"
 
 [[files]]
 file = "config/yosbr/config/illuminations.properties"
@@ -1076,7 +1060,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "a502373604b7cbece4389bed5ac42fea934d70caacb786828d31eeb80d61deb8"
+hash = "c1779bd7c452f8274dda9176cc2368bbde1474467e5f0e5ad590c5baac0ed767"
 metafile = true
 
 [[files]]
@@ -1328,7 +1312,7 @@ metafile = true
 
 [[files]]
 file = "resources/packs/xalis-enchanted-books.pw.toml"
-hash = "538af15bb27057a173200ce1449038711877518c31022cf80f9aa550bcece850"
+hash = "81e456094c4decb60cd5af5e7eaf53d9b3ba775aa05ea319c99d2325e60ca6a0"
 metafile = true
 
 [[files]]
