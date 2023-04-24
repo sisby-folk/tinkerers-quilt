@@ -1,13 +1,13 @@
 name = "BSL Shaders"
-filename = "BSL_v8.2.02.zip"
+filename = "BSL_v8.2.03.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Q1vvjJYV/versions/WTZIsXCy/BSL_v8.2.02.zip"
+url = "https://cdn.modrinth.com/data/Q1vvjJYV/versions/ocbioVUG/BSL_v8.2.03.zip"
 hash-format = "sha1"
-hash = "4463faa8252453635ed6a12f5d09f67819bf1704"
+hash = "2ce64e4d7d5dff1508b243e0579dbfe5f7f25dc4"
 
 [update]
 [update.modrinth]
 mod-id = "Q1vvjJYV"
-version = "WTZIsXCy"
+version = "ocbioVUG"
