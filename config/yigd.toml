@@ -1,6 +1,8 @@
 [graveSettings]
 generateGraves = true
 retrievalType = "ON_USE"
+compactRetrieveItems = true
+retrievalRequireShovel = false
 dropType = "IN_INVENTORY"
 dropPlayerHead = false
 dropGraveBlock = false
@@ -12,14 +14,17 @@ priority = "GRAVE"
 unlockableGraves = true
 deleteEnchantments = ["minecraft:vanishing_curse", "vanishing_curse"]
 soulboundEnchantments = ["yigd:soulbound"]
+loseSoulboundLevelOnDeath = false
 voidSlots = []
 soulboundSlots = []
 applyBindingCurse = true
+useLastGroundPos = true
 trySoft = false
 trySoftApproach = "RADIUS"
 tryStrict = true
 replaceWhenClaimed = true
 persistGraves = false
+onDestroyedDrop = "NONE"
 blacklistDimensions = []
 graveInVoid = true
 ignoreDeathTypes = []
@@ -55,12 +60,18 @@ lossRangeFrom = 0
 lossRangeTo = 5
 percentChanceOfLoss = 100
 
+[graveSettings.randomSpawnSettings]
+percentSpawnChance = 0
+spawnEntity = "minecraft:zombie"
+spawnNbt = "{ArmorItems:[{},{},{},{id:\"minecraft:player_head\",tag:{SkullOwner:{Name:\"${name}\",Id:\"${uuid}\"}},Count:1b}]}"
+
 [graveSettings.blockUnderGrave]
 generateBlockUnder = true
 inOverWorld = "minecraft:cobblestone"
 inNether = "minecraft:soul_soil"
 inTheEnd = "minecraft:end_stone"
 inCustom = "minecraft:dirt"
+generateWhenProtected = false
 
 [graveSettings.graveCompatConfig]
 levelzXpInGraves = true
@@ -80,8 +91,40 @@ adaptRenderer = false
 glowingGrave = true
 glowMinDistance = 0
 glowMaxDistance = 10
+
+[graveSettings.graveRenderSettings.guiTextColors]
+graveSelectGraveLocation = 13369548
+graveSelectItemSize = 204
+graveSelectLevelSize = 2725384
+graveSelectTitle = 5592405
+graveSelectPageView = 30464
+graveSelectShowAvailableCheckbox = 7829367
+graveSelectShowClaimedCheckbox = 7829367
+graveSelectShowDestroyedCheckbox = 7829367
+graveSelectShowStatusCheckbox = 7829367
+graveViewLockGrave = 0
+graveViewUnlockGrave = 0
+graveViewRestoreGrave = 0
+graveViewDeleteGrave = 0
+graveViewRobGrave = 0
+graveViewGiveKey = 0
+graveViewDeathMessage = 11141120
+graveViewDeathDimension = 21956
+graveViewCoordinates = 12255419
+graveViewModItemSize = 5592405
+graveViewLevelSize = 2725384
+claimedBy = 0
+playerSelectPlayerName = 16384
+playerSelectGraveCount = 5592405
+playerSelectTitle = 5592405
+playerSelectPageView = 30464
+playerSelectIncludeAvailableCheckbox = 7829367
+playerSelectIncludeClaimedCheckbox = 7829367
+playerSelectIncludeDestroyedCheckbox = 7829367
+playerSelectShowZeroCheckbox = 7829367
+playerSelectSearchBar = 16777215
 [utilitySettings.soulboundEnchant]
-enabled = true
+enabled = false
 isTreasure = false
 villagerTrade = true
 tableAndLoot = false
@@ -115,6 +158,7 @@ whitelist = true
 whitelistAdd = true
 whitelistRemove = true
 whitelistToggle = true
+coordinateToggle = true
 [debugConfig]
 clearInventoryOnRespawn = false
 createGraveBeforeDeathMessage = false
