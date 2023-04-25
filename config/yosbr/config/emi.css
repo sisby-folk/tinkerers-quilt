@@ -39,4 +39,15 @@
 	 * Which theme to use for the right sidebar
 	 */
 	right-sidebar-theme: modern;
+
+
+	/**
+	 * Which sidebar type to switch to when searching.
+	 */
+	search-sidebar-focus: index;
+
+	/**
+	 * Which sidebar type to focus when the search is empty.
+	 */
+	empty-search-sidebar-focus: craftables;
 }
