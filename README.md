@@ -4,6 +4,11 @@ It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability<
 
 ---
 
+<center><b>Packs:</b> <i>Tinkerer's Quilt</i> (<a href="https://modrinth.com/modpack/tinkerers-silk">Silk</a>) - <a href="https://modrinth.com/modpack/switchy-pack">Switchy Pack</a></center>
+<center><b>Mods:</b> <a href="https://modrinth.com/mod/switchy">Switchy</a> - <a href="https://modrinth.com/mod/origins-minus">Origins Minus</a> (<a href="https://modrinth.com/mod/tinkerers-statures">Statures</a>) - <a href="https://modrinth.com/mod/tinkerers-smithing">Tinkerer's Smithing</a></center>
+
+---
+
 Tinkerer's Quilt is _vanilla world compatible_, with **no new items, blocks, or worldgen**.
 
 Instead, this modpack:
