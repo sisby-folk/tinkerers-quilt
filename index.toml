@@ -145,6 +145,14 @@ file = "config/simplefog.json"
 hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
+file = "config/snowrealmagic-client.toml"
+hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
+
+[[files]]
+file = "config/snowrealmagic-common.toml"
+hash = "e1053b654ace935abe56a9f15c43cabbe59a6f72b1cc66b431507dd2725dce14"
+
+[[files]]
 file = "config/yigd.toml"
 hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
 
