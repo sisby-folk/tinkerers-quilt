@@ -253,6 +253,14 @@ file = "config/simplefog.json"
 hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
+file = "config/snowrealmagic-client.toml"
+hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
+
+[[files]]
+file = "config/snowrealmagic-common.toml"
+hash = "e1053b654ace935abe56a9f15c43cabbe59a6f72b1cc66b431507dd2725dce14"
+
+[[files]]
 file = "config/travelerstitles-fabric-1_19.toml"
 hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
 
@@ -318,7 +326,7 @@ hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
 
 [[files]]
 file = "config/yosbr/config/switchy_resource_packs/config.toml"
-hash = "371401717c7758eca0667446e28426adb9dfd7736caad95ccd5466c384b88940"
+hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
 
 [[files]]
 file = "config/yosbr/config/waila/waila.json"
@@ -507,8 +515,8 @@ hash = "7a09da6066eaaac81061420526f46c3329aa99ff11334fcedf5842f81bdac459"
 metafile = true
 
 [[files]]
-file = "mods/client-tweaks-fabric.pw.toml"
-hash = "231812804e9c88df70727e0869a1a19471670f76793bbafd644de8e7c2ed7f4b"
+file = "mods/client-tweaks.pw.toml"
+hash = "246cd2214d087ee9ad322af509738cf49806030fdea0ce0ed3e3def80c466848"
 metafile = true
 
 [[files]]
@@ -627,7 +635,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "bd3fa8322aa27cbdf332b200ae8cf62ec2c2ab144e04f28e5634ad3f176b5579"
+hash = "eba5b7a6dbc3391a8760a3fc9b8fcfb9c91147c74c10be6635afd22da5d1eb6a"
 metafile = true
 
 [[files]]
@@ -652,7 +660,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "06848036e814be3439e96936bf20dfa3257385f07d9ed6d9b5d2c45855145db9"
+hash = "37e20a3f7e14a6ff8f25c5d578db2ea6564905ce6857d5d16dd48b2f88c8f190"
 metafile = true
 
 [[files]]
@@ -682,7 +690,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "bca83c69078cf988921a10928fdbceb915090542822bb5c17a021c4b810b52d8"
+hash = "594c9590f765ab9b97da09852488095c14ab548b95f6879619e8cc39a3d6ab1d"
 metafile = true
 
 [[files]]
@@ -745,7 +753,7 @@ hash = "050e722932e46ed28ef59610ce940d9a691c953092d842279ac3f48cf95b78d3"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "8a762171b89a5265ad651263b4691a098ce6429edd74b4ddb09c7c33286fcc75"
+hash = "ec644a70524673946d8a987bbc4d3f0968c4885f55541b837ee14a366b218d35"
 metafile = true
 
 [[files]]
@@ -769,8 +777,8 @@ hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
 metafile = true
 
 [[files]]
-file = "mods/kiwi-fabric.pw.toml"
-hash = "fd4cbd6ee543abcbd027835d9604abf29d183dd99422c40633a521eae61a82b2"
+file = "mods/kiwi.pw.toml"
+hash = "2ce31ab44b467a2d2ca1ef630ff879ae33236149ee02abb9a1527638614bd981"
 metafile = true
 
 [[files]]
@@ -998,8 +1006,8 @@ hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
 metafile = true
 
 [[files]]
-file = "mods/snow-real-magic-fabric.pw.toml"
-hash = "c9385a408a0f98f552474453c30f017aecfc72a371cf9a4cf79ba22c4aff4c6b"
+file = "mods/snow-real-magic.pw.toml"
+hash = "45e75b06cdf0b30a62dd2ef95a7476e98d109bec09f8caefa9ea5902cad988a8"
 metafile = true
 
 [[files]]
@@ -1049,12 +1057,12 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-resource-packs.pw.toml"
-hash = "b7de70465bf17244b00d8f278b68856e1f0a4fd2fe8e7d5bc265a32cf58094f9"
+hash = "919b790ffa81f3631169719d9379e03a54113f61ffdc653d9c90649f39c28239"
 metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "05b1526eb62c0ac11a9afce8460bf1d1e69cc83b5a171554585ec2d136f73fd3"
+hash = "1ce4b2e7f30ad09285c31e2f6a867954fa99406a9e8c9b7a3db88e660cf6d4eb"
 metafile = true
 
 [[files]]
@@ -1064,7 +1072,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchykit.pw.toml"
-hash = "899a8fd91b062153a42a7a37a86e48bc455c28b926f2a0bef6a5c6b4313091ef"
+hash = "be6df0675d9aa6ba25b569bd6986a0457ce08631b157e3ca718b2cbf89cd2da2"
 metafile = true
 
 [[files]]
@@ -1094,7 +1102,7 @@ metafile = true
 
 [[files]]
 file = "mods/totem-anywhere-standalone.pw.toml"
-hash = "6d2af0a35b3d458fdf4c6cee3974e828973138c81ee3af3ed8d0d70958b91cfe"
+hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
 metafile = true
 
 [[files]]
@@ -1129,7 +1137,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
+hash = "59d6958578bed8ccf1ef0ea9d51c85dfbc5c56fc596dc214189747c37b88ba17"
 metafile = true
 
 [[files]]
