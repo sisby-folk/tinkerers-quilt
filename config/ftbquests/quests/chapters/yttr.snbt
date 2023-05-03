@@ -1,0 +1,29 @@
+{
+	id: "482C3E0DEE657371"
+	group: "7DB835B4DE75D2B4"
+	order_index: 0
+	filename: "yttr"
+	title: "Yttr"
+	icon: "yttr:logo"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Something's Wrong, I Can Feel It"
+		x: 0.0d
+		y: 0.0d
+		shape: "rsquare"
+		subtitle: "Smelt an yttrium ingot"
+		description: [
+			"Yttr begins with an unsteady hand, a prototype rifle, too much gunpowder, a diamond-tipped spike, and a hole at the bottom of the world."
+			""
+			"It also begins with Yttrium."
+		]
+		id: "63E0B5109F75FE08"
+		tasks: [{
+			id: "02B7231CE9C5F1BA"
+			type: "item"
+			item: "yttr:yttrium_ingot"
+		}]
+	}]
+	quest_links: [ ]
+}

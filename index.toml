@@ -138,11 +138,19 @@ hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
+hash = "409b54d503b3f2f3f5fdcf916f349910dc897d7e39d441291f4fee16889b3e49"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/botania.snbt"
+hash = "0f010bbe3c0a2c926f65e7716948d067fbc304ba74879dc3ab7ed73e11758c67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
 hash = "431ba27ab3fcb4815255e9a4ec60ba8b1be247e57257c052a722b593bfd341cd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "7eef65fcade0a9b617b05a4172e5243eeacd894822b3766fcb6dfff8cc3c399f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
@@ -167,6 +175,10 @@ hash = "419209ebfed1d2a74d0e27364d828abbfab8ea8e9b18537636f07398f0846ca8"
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
 hash = "dea397d5e58f7ec7d1df2cdbf69d2abf99defff2d7c4cc1ac5ddac2ed420518b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/yttr.snbt"
+hash = "fc6654d96ecaa15ae4b4f0a489e85881372e3f3dae46a10de8bd1192035baa89"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"

@@ -1,0 +1,29 @@
+{
+	id: "1F7F2CFE136EFFA0"
+	group: "7DB835B4DE75D2B4"
+	order_index: 2
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:lexicon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Magic-Themed Tech Mod"
+		x: 0.0d
+		y: 0.0d
+		shape: "rsquare"
+		subtitle: "Craft a Lexica Botania"
+		description: [
+			"The Lexica Botania is a guide to everything in Botania. "
+			""
+			"It doesn't indicate a clear order, but serves as a look-up for all functionality."
+		]
+		id: "21FCBC7C1F07A4E0"
+		tasks: [{
+			id: "54C02DCB31F1224E"
+			type: "item"
+			item: "botania:lexicon"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,25 @@
+{
+	id: "2112F0052C26E175"
+	group: "7DB835B4DE75D2B4"
+	order_index: 1
+	filename: "create"
+	title: "Create"
+	icon: "create:goggles"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Machines in Motion"
+		x: 0.0d
+		y: 0.0d
+		shape: "rsquare"
+		subtitle: "Craft some Andestite Alloy"
+		description: ["Create begins with Andestite Alloy, which is used to craft all basic machinery and sources of rotational energy."]
+		id: "6E67A256A8FD3AC3"
+		tasks: [{
+			id: "6C6F991E31AFF000"
+			type: "item"
+			item: "create:andesite_alloy"
+		}]
+	}]
+	quest_links: [ ]
+}
