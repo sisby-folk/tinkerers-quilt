@@ -1542,10 +1542,15 @@
 									lvl: 3s
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
+							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										1651970931
@@ -1554,11 +1559,11 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Slot: "mainhand"
+									Name: "generic.attack_speed"
 								}
 								{
 									Amount: 2
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										262443461
@@ -1567,14 +1572,9 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Slot: "mainhand"
+									Name: "generic.attack_damage"
 								}
 							]
-							Damage: 0
-							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
-							}
 						}
 					}
 				}
@@ -1870,4 +1870,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

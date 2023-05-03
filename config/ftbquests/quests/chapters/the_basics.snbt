@@ -142,19 +142,17 @@
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
-			rewards: [
-				{
-					id: "07F2FBF6621572C3"
-					type: "item"
-					item: {
-						id: "minecraft:golden_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "07F2FBF6621572C3"
+				type: "item"
+				item: {
+					id: "minecraft:golden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 		}
 		{
 			title: "Getaway Voucher"
@@ -1136,4 +1134,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

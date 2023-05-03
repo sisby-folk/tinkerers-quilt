@@ -11,6 +11,7 @@
 		{
 			title: "Inventory Tabs / Wheelie Sorting"
 			icon: "minecraft:paper"
+			disable_toast: true
 			x: -0.5d
 			y: -0.5d
 			shape: "square"
@@ -25,11 +26,13 @@
 				id: "3473A781A4FCF39E"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Lambda Better Grass"
 			icon: "minecraft:grass_block"
+			disable_toast: true
 			x: 0.0d
 			y: 1.0d
 			shape: "square"
@@ -44,11 +47,13 @@
 				id: "4BF46AFAB501CC2E"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Inspecio"
 			icon: "minecraft:glow_item_frame"
+			disable_toast: true
 			x: 0.5d
 			y: 0.0d
 			shape: "square"
@@ -59,11 +64,13 @@
 				id: "5F5BC643C103AB76"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Reacharound"
 			icon: "minecraft:scaffolding"
+			disable_toast: true
 			x: -1.5d
 			y: 0.0d
 			shape: "square"
@@ -78,11 +85,13 @@
 				id: "7C1A33219D47ABAB"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Fabrication"
 			icon: "minecraft:writable_book"
+			disable_toast: true
 			x: -0.5d
 			y: 2.0d
 			shape: "square"
@@ -144,28 +153,30 @@
 				id: "2B6CD287B75CD676"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "LambDynamicLights"
 			icon: "minecraft:light"
+			disable_toast: true
 			x: -1.0d
 			y: 1.0d
 			shape: "square"
 			subtitle: "Caving Helper"
-			description: [
-				"When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"
-			]
+			description: ["When held in the hand or dropped on the ground, light-emitting items like torches still provide their effect. Neat!"]
 			id: "1B0FB35AB16E8938"
 			tasks: [{
 				id: "0AFF1FBFCDDC8F2A"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Tinkerer's Vegetarian"
 			icon: "minecraft:kelp"
+			disable_toast: true
 			x: -1.0d
 			y: -1.5d
 			shape: "square"
@@ -190,11 +201,13 @@
 				id: "1582556E28469EC6"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Pets and Pettable"
 			icon: "minecraft:copper_block"
+			disable_toast: true
 			x: -0.5d
 			y: -2.5d
 			shape: "square"
@@ -215,11 +228,13 @@
 				id: "0C472AF65F781826"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Tinkerer's Smithing"
 			icon: "minecraft:smithing_table"
+			disable_toast: true
 			x: 0.0d
 			y: -1.5d
 			shape: "square"
@@ -236,11 +251,13 @@
 				id: "47D97349DBC5E67F"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Carpet"
 			icon: "minecraft:cyan_carpet"
+			disable_toast: true
 			x: -0.5d
 			y: 3.0d
 			shape: "square"
@@ -267,11 +284,13 @@
 				id: "4374ACECFD3F9AFE"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "You're in Grave Danger"
 			icon: "yigd:grave"
+			disable_toast: true
 			x: -0.5d
 			y: -3.5d
 			shape: "square"
@@ -288,11 +307,13 @@
 				id: "58F86BCAF25D5DF9"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Apathy"
 			icon: "minecraft:structure_void"
+			disable_toast: true
 			x: -0.5d
 			y: -4.5d
 			shape: "square"
@@ -311,7 +332,9 @@
 				id: "13A47D4ACD23046E"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 	]
+	quest_links: [ ]
 }
