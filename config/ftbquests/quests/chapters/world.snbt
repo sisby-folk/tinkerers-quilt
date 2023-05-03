@@ -1872,6 +1872,7 @@
 			x: -16.5d
 			y: 0.0d
 			subtitle: "Find Lavender Plains"
+			description: ["Lavender plains are home to the purple Jacaranda wood, along with many lavender plants and their floating petals."]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
 			id: "47DB051494BEDC6C"
@@ -1984,6 +1985,7 @@
 			x: -2.5d
 			y: 0.0d
 			subtitle: "Find a Flower Forest"
+			description: ["Flower forests are a special biome that contain many flowers, many beehives, and some rarer mobs."]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
 			id: "614E11C34F346AFF"
@@ -1995,6 +1997,12 @@
 				disable_toast: true
 				biome: "minecraft:flower_forest"
 			}]
+			rewards: [{
+				id: "5A68CA4D8AE3247F"
+				type: "xp"
+				xp: 50
+			}]
 		}
 	]
+	quest_links: [ ]
 }

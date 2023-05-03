@@ -979,13 +979,11 @@
 			hide: true
 			optional: true
 			id: "58CAA3CF4CE89A65"
-			tasks: [
-                {
-                    id: "759F54485E9734BA"
-                    type: "checkmark"
-                    title: "Click Here!"
-                }
-			]
+			tasks: [{
+				id: "759F54485E9734BA"
+				type: "checkmark"
+				title: "Click Here!"
+			}]
 			rewards: [
 				{
 					id: "7D1A0DD72136D14D"
@@ -2645,7 +2643,7 @@
 			y: -11.5d
 			shape: "pentagon"
 			subtitle: "Forge great machines"
-			description: ["Skulk Sensors are an unobtainable (1.19) item that senses vibrations from a distance, and provide a redstone signal."]
+			description: ["Skulk Sensors sense vibrations from a distance, and provide a redstone signal."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1E92A6BE31198EF3"
@@ -3276,4 +3274,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
