@@ -67,6 +67,7 @@
 				id: "1458865ACC4EFFB5"
 				type: "checkmark"
 				title: "Click Here"
+				disable_toast: true
 			}]
 		}
 		{
@@ -85,6 +86,7 @@
 				id: "636D01F223970749"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 			rewards: [{
 				id: "5640B17D2DD06407"
@@ -118,6 +120,7 @@
 				id: "22C4AF07A114E0C3"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -135,9 +138,9 @@
 			shape: "square"
 			subtitle: "Custom Nonhuman Skins!"
 			description: [
-			    "Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online."
-			    ""
-			    "In the Ears Skin Manipulator (§nALT+M§r->Ears), there's an option to enable a chest bump on your skin if you open the console (§nF12§r) and enter \"xyzzy\""
+				"Ears allows you to have custom horns, wings, ears, claws, and more! You can create your own ears-compatible skin online."
+				""
+				"In the Ears Skin Manipulator (§nALT+M§r->Ears), there's an option to enable a chest bump on your skin if you open the console (§nF12§r) and enter \"xyzzy\""
 			]
 			dependencies: ["227C88C00E509DAD"]
 			hide: true
@@ -146,6 +149,7 @@
 				id: "1596BC71E3F57772"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -170,6 +174,7 @@
 				id: "67C587D15AB24543"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -188,6 +193,7 @@
 				id: "1696B8578E406417"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -214,6 +220,7 @@
 				id: "26AAEFF5A4721389"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -236,6 +243,7 @@
 				id: "084362F3F8C026F7"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -258,6 +266,7 @@
 				id: "789FA5A1933F692F"
 				type: "checkmark"
 				title: "Click Here"
+				disable_toast: true
 			}]
 		}
 		{
@@ -278,6 +287,7 @@
 				id: "22742977937BA2B1"
 				type: "checkmark"
 				title: "Configuration"
+				disable_toast: true
 			}]
 		}
 		{
@@ -295,6 +305,7 @@
 				id: "6B3CFBCE6D2F59FF"
 				type: "checkmark"
 				title: "Iris Shaders"
+				disable_toast: true
 			}]
 		}
 		{
@@ -316,6 +327,7 @@
 				id: "6FA74E220F002409"
 				type: "checkmark"
 				title: "Charmonium"
+				disable_toast: true
 			}]
 		}
 		{
@@ -337,6 +349,7 @@
 				id: "6EDE69526CCB82A3"
 				type: "checkmark"
 				title: "Presence Footsteps"
+				disable_toast: true
 			}]
 		}
 		{
@@ -359,6 +372,7 @@
 				id: "164B9DCDA58586E1"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -393,6 +407,7 @@
 				id: "29C23CC02A755D6D"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -417,6 +432,7 @@
 				id: "2B53462C6E1880B8"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -445,6 +461,7 @@
 				id: "2D6C6B3CC2F0EBFF"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -477,6 +494,7 @@
 				id: "44259D76A7BD8554"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
@@ -532,6 +550,7 @@
 				id: "70AAE40641A21AE7"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 			rewards: [
 				{
@@ -572,7 +591,9 @@
 				id: "2797C82C4C23C124"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 	]
+	quest_links: [ ]
 }

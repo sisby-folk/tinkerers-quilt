@@ -142,11 +142,11 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "9ef8fbdbfc5d54c2d0d677e3dc77b5c3971a48c2fd9ffc08d19abd7d1433dd14"
+hash = "431ba27ab3fcb4815255e9a4ec60ba8b1be247e57257c052a722b593bfd341cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies.snbt"
-hash = "bc2444dee25cdf6804b91c55fd311cbcb03219f8e42dffbe72c57f313a260761"
+hash = "3fe677bca1a2897e9ef5cbe830e5062deca20e227b42913be607ae216a1b2826"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
@@ -154,23 +154,23 @@ hash = "8217d5b9f04081622f706c0ae7c9b1399639093ee242ca7672d4850bede773b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "9c340b1687e43b6f0b435080242501954acb6977883ccafa33716ae4433789c4"
+hash = "b20d409e8ad0f93c16cfc767b649e8e2cdf5ce83e18c0c864a06cfb0e31b48b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "f2f16050fc28ed233646ebb6e9e72237a3aac6e820212dcac3325776a348820a"
+hash = "58627d7359b0cb8f5806b3675b74ae8773dadaedc489e60f353a139d4f28cc74"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "f6d8afbada79f262d6738f2a3af4fd9c012edc3b041e6ac8c16e834fda082797"
+hash = "419209ebfed1d2a74d0e27364d828abbfab8ea8e9b18537636f07398f0846ca8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "630985b389d4be8070c084aa0edec947d8919de05d779c974e2451d267c923e8"
+hash = "74e1a7df72ae1d530c7f8bc6f78aaebf1791b4b8b7c8f206d65fff713d75c8c5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "be4933ebb232c5606a57ebd814de7acb07752cc52d7624d9053bfe332568a6e5"
+hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
@@ -557,11 +557,6 @@ metafile = true
 [[files]]
 file = "mods/dawn.pw.toml"
 hash = "4a13d096e82525f8cd4eb0e8c14f43929d11d7d8b54d7d34a981f7ac29614699"
-metafile = true
-
-[[files]]
-file = "mods/deftulib.pw.toml"
-hash = "48c2dac5aa8efba90c953b52f640ae7d8a5dfe571362b0c917bf7f41752b1f2b"
 metafile = true
 
 [[files]]
@@ -1119,11 +1114,6 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "59d6958578bed8ccf1ef0ea9d51c85dfbc5c56fc596dc214189747c37b88ba17"
-metafile = true
-
-[[files]]
-file = "mods/yacl.pw.toml"
-hash = "17d831dc9a5939806f745aadeb8a0b11b0f1c7f587043e0d1aa77f40c76f73b9"
 metafile = true
 
 [[files]]
