@@ -11,6 +11,7 @@
 		{
 			title: "Nullscape"
 			icon: "consistency_plus:purple_glowstone"
+			disable_toast: true
 			x: 1.0d
 			y: -0.5d
 			shape: "square"
@@ -27,6 +28,7 @@
 		{
 			title: "YUNGs Structures"
 			icon: "minecraft:chiseled_sandstone"
+			disable_toast: true
 			x: -1.0d
 			y: -2.5d
 			shape: "square"
@@ -47,6 +49,7 @@
 		{
 			title: "World"
 			icon: "universal_ores:granite_emerald_ore"
+			disable_toast: true
 			x: 0.0d
 			y: -1.5d
 			shape: "square"
@@ -69,6 +72,7 @@
 		{
 			title: "Earth 2 Java"
 			icon: "earthtojavamobs:rainbow_wool"
+			disable_toast: true
 			x: 0.0d
 			y: 1.0d
 			shape: "square"
@@ -83,11 +87,13 @@
 				id: "172BABCF55B3DF88"
 				type: "checkmark"
 				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 		{
 			title: "Waystones"
 			icon: "fwaystones:waystone"
+			disable_toast: true
 			x: 1.0d
 			y: -2.5d
 			shape: "square"
@@ -110,6 +116,7 @@
 		{
 			title: "Amplified Nether"
 			icon: "rustediron:weathered_cut_iron_block"
+			disable_toast: true
 			x: -1.0d
 			y: -0.5d
 			shape: "square"

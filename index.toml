@@ -150,7 +150,7 @@ hash = "3fe677bca1a2897e9ef5cbe830e5062deca20e227b42913be607ae216a1b2826"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
-hash = "8217d5b9f04081622f706c0ae7c9b1399639093ee242ca7672d4850bede773b9"
+hash = "ce65519138b4bf211878a4a39f3106ef3e8fb913b46f7e82df2fd48ee7b8ba90"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
@@ -166,7 +166,7 @@ hash = "419209ebfed1d2a74d0e27364d828abbfab8ea8e9b18537636f07398f0846ca8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "74e1a7df72ae1d530c7f8bc6f78aaebf1791b4b8b7c8f206d65fff713d75c8c5"
+hash = "dea397d5e58f7ec7d1df2cdbf69d2abf99defff2d7c4cc1ac5ddac2ed420518b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -815,11 +815,6 @@ metafile = true
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
 hash = "1be161c5175de48cc080374582c6af01b02c57e3a7d21617c0ab558b59b6c954"
-metafile = true
-
-[[files]]
-file = "mods/mealapi.pw.toml"
-hash = "52e30de45d677c864cca9b37357b7b9d16d73947d21f8ecba2df705f820fdb99"
 metafile = true
 
 [[files]]
