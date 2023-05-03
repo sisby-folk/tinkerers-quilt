@@ -396,11 +396,6 @@ hash = "9974d9608f42b266c35a658f1ff1899f254a02d13def06c1ff9a6c2cf7a924a2"
 metafile = true
 
 [[files]]
-file = "mods/deftulib.pw.toml"
-hash = "48c2dac5aa8efba90c953b52f640ae7d8a5dfe571362b0c917bf7f41752b1f2b"
-metafile = true
-
-[[files]]
 file = "mods/drogstyle.pw.toml"
 hash = "4dfeb4a7f9ba351ce1cac51a97693b317ce26f0dcf9ba89e9f2ed96cd5472f57"
 metafile = true
@@ -683,6 +678,11 @@ hash = "862b429a623762ef0469eb2a409b9450a9b70071cf9bffabca654b97f7528424"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "d6a99e144be13fb3d0865925bf73357a2ff82f4114929cc2f35930eb21f3c7e9"
+metafile = true
+
+[[files]]
 file = "mods/pehkui.pw.toml"
 hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
 metafile = true
@@ -875,11 +875,6 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "59d6958578bed8ccf1ef0ea9d51c85dfbc5c56fc596dc214189747c37b88ba17"
-metafile = true
-
-[[files]]
-file = "mods/yacl.pw.toml"
-hash = "17d831dc9a5939806f745aadeb8a0b11b0f1c7f587043e0d1aa77f40c76f73b9"
 metafile = true
 
 [[files]]
