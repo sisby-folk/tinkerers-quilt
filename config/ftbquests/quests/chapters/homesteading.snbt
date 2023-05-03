@@ -2594,7 +2594,7 @@
 			y: -11.5d
 			shape: "pentagon"
 			subtitle: "Forge great machines"
-			description: ["Skulk Sensors are an unobtainable (1.19) item that senses vibrations from a distance, and provide a redstone signal."]
+			description: ["Skulk Sensors sense vibrations from a distance, and provide a redstone signal."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1E92A6BE31198EF3"
