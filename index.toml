@@ -650,11 +650,6 @@ hash = "b8d91a91ac8820ed7c99c12636c7de0a3e93ef825c1925d4a9287b443cd65f92"
 metafile = true
 
 [[files]]
-file = "mods/fastload.pw.toml"
-hash = "37e20a3f7e14a6ff8f25c5d578db2ea6564905ce6857d5d16dd48b2f88c8f190"
-metafile = true
-
-[[files]]
 file = "mods/fastopenlinksandfolders.pw.toml"
 hash = "ff54403726ef6349d2b0d9fc9588e5923aff79c0756820f3d4aa2c4c9dd8e2d8"
 metafile = true
@@ -1043,7 +1038,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-resource-packs.pw.toml"
-hash = "b7de70465bf17244b00d8f278b68856e1f0a4fd2fe8e7d5bc265a32cf58094f9"
+hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
 metafile = true
 
 [[files]]
@@ -1329,7 +1324,7 @@ hash = "d75e571bccf1360f82b438ec48b27e46f15f419a04c27443c9b3a8f90c9d8e4b"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "eb58e87100f2c3119960a4fb3d7c145d0c8f7b9b10e84185b48fdb88fb15d0dc"
+hash = "eb5d07ac1370825eaa1a35eea0b9fa53bf89f7716f7eb62b626effca4f5817b1"
 metafile = true
 
 [[files]]
