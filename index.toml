@@ -153,6 +153,10 @@ file = "config/snowrealmagic-common.toml"
 hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 
 [[files]]
+file = "config/travelerstitles-fabric-1_19.toml"
+hash = "a94dba5511b866abd1ca762fbe63b0eae092ca6c242377d65994da1414eeacd4"
+
+[[files]]
 file = "config/yigd.toml"
 hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
 
@@ -863,6 +867,11 @@ hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
 metafile = true
 
 [[files]]
+file = "mods/travelers-titles.pw.toml"
+hash = "c71af8cb740fbf42b489ab24ee01ea0d09c3329cb9a62108b2b9dd85e721b3c8"
+metafile = true
+
+[[files]]
 file = "mods/vehiclefix.pw.toml"
 hash = "7e50104fe4dcfe7343e09443607050cb930d101dc5a17ce7993272cfd8b3447d"
 metafile = true
@@ -890,6 +899,11 @@ metafile = true
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "e8036308d5fdaf3e155684892dffa19122c31745c40fbe55027a1677179263d7"
 metafile = true
 
 [[files]]
