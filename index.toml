@@ -397,10 +397,6 @@ file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
 
 [[files]]
-file = "mods/SnowRealMagic-1.19.2-fabric-5.1.2.jar"
-hash = "301f32c972a6e4ca8da631201688d95ba13146fe58c3365388ab7b0e4b4a5f96"
-
-[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
@@ -635,8 +631,13 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
+file = "mods/fabric-seasons-extras.pw.toml"
+hash = "0969a591e49ceaefcea66b61127678945afcebad220515063bf7d1d6e499edd3"
+metafile = true
+
+[[files]]
 file = "mods/fabric-seasons.pw.toml"
-hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
+hash = "9cbc9c0e1012f08349ada76ace1e36db8b9d17f43a6203be4b519a721fe986b9"
 metafile = true
 
 [[files]]
@@ -897,6 +898,11 @@ hash = "a7887ecc4d2a5914558dcb5d8e57058cc88e878b1301855591e30b58c8155cf7"
 metafile = true
 
 [[files]]
+file = "mods/nullscape.pw.toml"
+hash = "80e6f15ebc852ba4e4b6d14dbc2a9d2b3514aac104840f5c279bd4cb726977aa"
+metafile = true
+
+[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
 metafile = true
@@ -1004,6 +1010,11 @@ metafile = true
 [[files]]
 file = "mods/simplefog.pw.toml"
 hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "45e75b06cdf0b30a62dd2ef95a7476e98d109bec09f8caefa9ea5902cad988a8"
 metafile = true
 
 [[files]]
@@ -1311,11 +1322,6 @@ hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 [[files]]
 file = "resources/packs/axolotl-bucket-variants.pw.toml"
 hash = "a286466952265156b08bc765b98b77225178fab50ef424608f949c212dcf24e5"
-metafile = true
-
-[[files]]
-file = "resources/packs/nullscape.pw.toml"
-hash = "8729bca97adfcaf7d9c8063ae8fb4b7bf13a1c1edbdf8d780261077af4789238"
 metafile = true
 
 [[files]]
