@@ -610,14 +610,8 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
-file = "mods/fabric-seasons-extras.pw.toml"
-hash = "0969a591e49ceaefcea66b61127678945afcebad220515063bf7d1d6e499edd3"
-metafile = true
-
-[[files]]
-file = "mods/fabric-seasons.pw.toml"
-hash = "9cbc9c0e1012f08349ada76ace1e36db8b9d17f43a6203be4b519a721fe986b9"
-metafile = true
+file = "mods/fabric-seasons-2.0.2+1.19.jar"
+hash = "ea0d536b61682a1c671dd431a46e2dc5adf6f88d4a4828ce94cadda6c45c947b"
 
 [[files]]
 file = "mods/fabric-title-changer.pw.toml"
