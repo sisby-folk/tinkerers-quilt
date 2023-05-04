@@ -381,6 +381,10 @@ file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
 
 [[files]]
+file = "mods/SnowRealMagic-1.19.2-fabric-5.1.2.jar"
+hash = "301f32c972a6e4ca8da631201688d95ba13146fe58c3365388ab7b0e4b4a5f96"
+
+[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
@@ -974,11 +978,6 @@ metafile = true
 [[files]]
 file = "mods/simplefog.pw.toml"
 hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic.pw.toml"
-hash = "45e75b06cdf0b30a62dd2ef95a7476e98d109bec09f8caefa9ea5902cad988a8"
 metafile = true
 
 [[files]]
