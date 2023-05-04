@@ -1,5 +1,5 @@
 placeSnowInBlock = false
-snowGravity = false
+snowGravity = true
 snowAlwaysReplaceable = true
 snowAccumulationDuringSnowstorm = true
 snowAccumulationDuringSnowfall = false
