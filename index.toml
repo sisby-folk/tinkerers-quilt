@@ -393,6 +393,10 @@ file = "credits.txt"
 hash = "fc1b5f1165ec9c762cd3fc9d6766453e74f8736de9bfc0676aa9e6fb6d126c4c"
 
 [[files]]
+file = "data/seasons_compat_warn.nbt"
+hash = "e4acf1365f8aba457ccde7923fd8b75e370e5f41da4673fb9cf9e0acabb442e2"
+
+[[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
 
@@ -632,7 +636,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-seasons-2.0.2+1.19.jar"
-hash = "a993f1cb86c04f90dd0643543c8e24b131bfaea4dc3105344bbb570fb0902293"
+hash = "9d0f8abeb46f5a4a1e98190564493aadaf14fd524d457edc560b896fb3ff9828"
 
 [[files]]
 file = "mods/fabric-title-changer.pw.toml"
