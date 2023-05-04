@@ -610,8 +610,13 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
+file = "mods/fabric-seasons-extras.pw.toml"
+hash = "0969a591e49ceaefcea66b61127678945afcebad220515063bf7d1d6e499edd3"
+metafile = true
+
+[[files]]
 file = "mods/fabric-seasons.pw.toml"
-hash = "fa5844242239c7228674022960e1506d19b062aa056ead17d5d52f1f9d5e6a57"
+hash = "9cbc9c0e1012f08349ada76ace1e36db8b9d17f43a6203be4b519a721fe986b9"
 metafile = true
 
 [[files]]
@@ -869,6 +874,11 @@ metafile = true
 [[files]]
 file = "mods/noteable.pw.toml"
 hash = "a7887ecc4d2a5914558dcb5d8e57058cc88e878b1301855591e30b58c8155cf7"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "80e6f15ebc852ba4e4b6d14dbc2a9d2b3514aac104840f5c279bd4cb726977aa"
 metafile = true
 
 [[files]]
