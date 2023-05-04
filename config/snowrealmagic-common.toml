@@ -1,11 +1,11 @@
 placeSnowInBlock = false
-snowGravity = false
+snowGravity = true
 snowAlwaysReplaceable = true
 snowAccumulationDuringSnowstorm = true
 snowAccumulationDuringSnowfall = false
 snowAccumulationMaxLayers = 8
-thinnerBoundingBox = false
-snowMakingIce = false
+thinnerBoundingBox = true
+snowMakingIce = true
 snowOnIce = false
 snowNeverMelt = false
 snowMeltsInWarmBiomes = false

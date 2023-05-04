@@ -270,7 +270,7 @@ hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
 
 [[files]]
 file = "config/snowrealmagic-common.toml"
-hash = "e1053b654ace935abe56a9f15c43cabbe59a6f72b1cc66b431507dd2725dce14"
+hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 
 [[files]]
 file = "config/travelerstitles-fabric-1_19.toml"
@@ -1015,6 +1015,11 @@ metafile = true
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "45e75b06cdf0b30a62dd2ef95a7476e98d109bec09f8caefa9ea5902cad988a8"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees-remastered.pw.toml"
+hash = "e6b7aed5ae934b4331ff35b6dac657aa5cd4fa0754f4a4d580c05cb74039662f"
 metafile = true
 
 [[files]]
