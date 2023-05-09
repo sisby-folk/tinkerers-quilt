@@ -1078,11 +1078,6 @@ hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
 metafile = true
 
 [[files]]
-file = "mods/travelers-titles.pw.toml"
-hash = "c71af8cb740fbf42b489ab24ee01ea0d09c3329cb9a62108b2b9dd85e721b3c8"
-metafile = true
-
-[[files]]
 file = "mods/trinkets.pw.toml"
 hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
 metafile = true
@@ -1120,11 +1115,6 @@ metafile = true
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
-metafile = true
-
-[[files]]
-file = "mods/yungs-api.pw.toml"
-hash = "e8036308d5fdaf3e155684892dffa19122c31745c40fbe55027a1677179263d7"
 metafile = true
 
 [[files]]
