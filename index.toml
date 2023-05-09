@@ -221,10 +221,6 @@ file = "config/naturescompass.json"
 hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
 [[files]]
-file = "config/overweight_farming.json"
-hash = "6d8a080e48fcc2c68a0abb91d94f2dca7693ac67815dcd67335d7262bebb1852"
-
-[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -243,14 +239,6 @@ hash = "fd1e7f23962ca9416417a608732832ed9fe0df303cb5ecf21efd8494eece46a8"
 [[files]]
 file = "config/repurposed_structures-fabric/general_configs.json5"
 hash = "e7a19a07da87aecbc7ce877884204cd5a53d9d38684ba7053eb8d4a7c6367079"
-
-[[files]]
-file = "config/rocks.json"
-hash = "dc20c06ccabc8689fbbbdb5ca7402f7141626943272ec933c6df352eeb0521f2"
-
-[[files]]
-file = "config/sandwichable.json"
-hash = "74ab14ff3d048b02e0b40bda6f7e6f7e8808a86312748fec548a06e92ce474ea"
 
 [[files]]
 file = "config/seasons.json"
@@ -492,7 +480,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "a084ad59e4b863b03da0406fe85d39441e7e7ba1b1407dab72b240ee8a16d8b6"
+hash = "52482ce55e1507571ecdb829bddd431de9f7739b79c24b9e3ce8a102744dd227"
 metafile = true
 
 [[files]]
@@ -872,8 +860,8 @@ hash = "1191c0ed4c2be46db9814885dc1beb33d22a2175758ad0af8a5a53afe851d7c6"
 metafile = true
 
 [[files]]
-file = "mods/nbtcrafting-2.2.5+mc1.19.jar"
-hash = "63011e1605f1c2be0671f9c158022ca444dfc3d80712c31f1216fe6cf79aefdd"
+file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
+hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
 
 [[files]]
 file = "mods/no-fade.pw.toml"
