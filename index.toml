@@ -464,7 +464,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "a084ad59e4b863b03da0406fe85d39441e7e7ba1b1407dab72b240ee8a16d8b6"
+hash = "52482ce55e1507571ecdb829bddd431de9f7739b79c24b9e3ce8a102744dd227"
 metafile = true
 
 [[files]]
@@ -839,8 +839,8 @@ hash = "1191c0ed4c2be46db9814885dc1beb33d22a2175758ad0af8a5a53afe851d7c6"
 metafile = true
 
 [[files]]
-file = "mods/nbtcrafting-2.2.5+mc1.19.jar"
-hash = "63011e1605f1c2be0671f9c158022ca444dfc3d80712c31f1216fe6cf79aefdd"
+file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
+hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
 
 [[files]]
 file = "mods/no-fade.pw.toml"
