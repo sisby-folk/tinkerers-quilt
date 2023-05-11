@@ -425,7 +425,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
+hash = "fdea52d254e5318fe4884301ca865356ade3f685798548aaa23804b25ff01ca1"
 metafile = true
 
 [[files]]
@@ -633,7 +633,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "eba5b7a6dbc3391a8760a3fc9b8fcfb9c91147c74c10be6635afd22da5d1eb6a"
+hash = "0d393b5839c6a9d809a6735da0c870ef92d702225434826a1ca5427b1142bea0"
 metafile = true
 
 [[files]]
@@ -683,7 +683,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "594c9590f765ab9b97da09852488095c14ab548b95f6879619e8cc39a3d6ab1d"
+hash = "6500e4d72846023569a72fad102d429e3bda2815806b98267f6ab36586c60d29"
 metafile = true
 
 [[files]]
@@ -860,10 +860,6 @@ hash = "1191c0ed4c2be46db9814885dc1beb33d22a2175758ad0af8a5a53afe851d7c6"
 metafile = true
 
 [[files]]
-file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
-hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
-
-[[files]]
 file = "mods/no-fade.pw.toml"
 hash = "c91a0e5e41ca1131346bec3429a5b54dd46ca826a228620b52333de9184a864a"
 metafile = true
@@ -980,7 +976,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "eb7d098a1b5e6e0cfb014073b5b3db6330f88b593ddc81f0d6c320cfa94178b9"
+hash = "44e9de6f61164aea315b8e452bbaa05bb7bec5ff5382e9b44d336591f59b3d2c"
 metafile = true
 
 [[files]]
@@ -1080,7 +1076,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "106dda5d20e8d4908643decc7a4c3429078e91c61a65aefb2decd8ab515ebfe9"
+hash = "a4b873113f4f6a9d4134cee32d506cf19fa75d8fc62a344e9e6d14b590f2a5fb"
 metafile = true
 
 [[files]]
@@ -1135,7 +1131,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "59d6958578bed8ccf1ef0ea9d51c85dfbc5c56fc596dc214189747c37b88ba17"
+hash = "3a6a883432686315f5787ab2b7274a8fdfbefffc7d861f759408309222312be9"
 metafile = true
 
 [[files]]
@@ -1256,27 +1252,11 @@ hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
 
 [[files]]
 file = "resources/data/tinkerer/recipes/glow_sac.json"
-hash = "4d24fc94706c050d8d0bd175987e47e0a0125087816324209d06ab77105436df"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/jump_boost.json"
-hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/repair_elytra.json"
-hash = "574b102c55fba6cefe8cbc064ebe75b72ee1777de8382db0952d4b1b34457455"
+hash = "cbc875e56dc1a9c53680ecf945a51818362296e2ee24278390e6855de524aed2"
 
 [[files]]
 file = "resources/data/tinkerer/recipes/slime_ball.json"
 hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/slow_fall.json"
-hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/water_breathing.json"
-hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 
 [[files]]
 file = "resources/data/tinkerer/tags/items/boots.json"
