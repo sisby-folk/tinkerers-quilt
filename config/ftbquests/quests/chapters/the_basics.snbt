@@ -759,9 +759,9 @@
 			x: 4.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "Brew an Extended Fire Resistance and Slow Fall Potion"
+			subtitle: "Brew an Extended Fire Resistance Potion"
 			description: [
-				"Click for the Recipes! The nether causes most deaths through fall damage or lava damage."
+				"The nether causes most deaths through fall damage or lava damage."
 				""
 				"Striders are found in the Nether's lava seas, and can be saddled and ridden using a Warped Fungus on a Stick. "
 				""
@@ -780,18 +780,6 @@
 						Count: 1b
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-				}
-				{
-					id: "2D377D47EF1F29FC"
-					type: "item"
-					disable_toast: true
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_slow_falling"
 						}
 					}
 				}
