@@ -1,23 +1,18 @@
 {
-	"type": "nbtcrafting:wrapped",
-	"recipe": {
-		"type": "crafting_shapeless",
-		"ingredients": [{
-				"item": "minecraft:axolotl_bucket",
-				"remainder": {
-					"item": "minecraft:axolotl_bucket",
-					"data": {
-						"$": "i0"
-					}
-				}
-			},
-			{
-				"item": "minecraft:glow_berries"
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:axolotl_bucket",
+			"remainder": {
+				"item": "minecraft:axolotl_bucket"
 			}
-		],
-		"result": {
-			"item": "minecraft:glow_ink_sac",
-			"count": 1
+		},
+		{
+			"item": "minecraft:glow_berries"
 		}
+	],
+	"result": {
+		"item": "minecraft:glow_ink_sac",
+		"count": 1
 	}
 }

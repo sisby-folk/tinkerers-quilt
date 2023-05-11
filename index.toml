@@ -639,10 +639,6 @@ hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
 metafile = true
 
 [[files]]
-file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
-hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
-
-[[files]]
 file = "mods/no-fade.pw.toml"
 hash = "c91a0e5e41ca1131346bec3429a5b54dd46ca826a228620b52333de9184a864a"
 metafile = true
@@ -950,27 +946,11 @@ hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
 
 [[files]]
 file = "resources/data/tinkerer/recipes/glow_sac.json"
-hash = "4d24fc94706c050d8d0bd175987e47e0a0125087816324209d06ab77105436df"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/jump_boost.json"
-hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/repair_elytra.json"
-hash = "574b102c55fba6cefe8cbc064ebe75b72ee1777de8382db0952d4b1b34457455"
+hash = "cbc875e56dc1a9c53680ecf945a51818362296e2ee24278390e6855de524aed2"
 
 [[files]]
 file = "resources/data/tinkerer/recipes/slime_ball.json"
 hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/slow_fall.json"
-hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/water_breathing.json"
-hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 
 [[files]]
 file = "resources/data/tinkerer/tags/items/boots.json"
