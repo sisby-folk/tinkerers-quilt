@@ -872,9 +872,9 @@
 			description: [
 				"Enchanted equipment can be combined at an anvil, costing increasing XP each time. This includes equipment of the same type, or applying enchanted books to equipment."
 				""
-				"In this pack, repairing enchanted gear using ingots and diamonds costs no xp and doesn't stack up, §las long as you use the §oSmithing Table§r."
+				"In this pack, repairing enchanted gear using materials costs no xp and doesn't stack up."
 				""
-				"The mounting XP cost on equipment can also be reversed on the Smithing Table using §oNetherite Scrap§r."
+				"The mounting XP cost on equipment can also be reversed using §oNetherite Scrap§r."
 				""
 				"Some enchantments, like §oSilk Touch§r and §oFortune§r, are incompatible, and can't be applied on the same item."
 				""
