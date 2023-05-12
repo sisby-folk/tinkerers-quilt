@@ -1,13 +1,13 @@
 name = "Carpet Extra"
 filename = "carpet-extra-1.19.2-1.4.84.jar"
-side = "both"
+side = "server"
 
 [download]
+url = "https://cdn.modrinth.com/data/VX3TgwQh/versions/VyQpFhmm/carpet-extra-1.19.2-1.4.84.jar"
 hash-format = "sha1"
 hash = "cb1394e4dbc5c55f7c9eb6041188905ed72c7933"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4066596
-project-id = 349240
+[update.modrinth]
+mod-id = "VX3TgwQh"
+version = "VyQpFhmm"

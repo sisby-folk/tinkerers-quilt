@@ -1,16 +1,16 @@
 name = "Tinkerer's Silk"
 author = "Sisby Folk"
-version = "3.6.2"
+version = "3.7.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "6c2ee8281fd608628499c53adeb4da7e71c8f2bee6a6ce0094bd329d48f17de8"
+hash = "7634ed24f8344c820e6a5524e5e62ed250c8350f8a85e93ceec03eb8c69aa3cc"
 
 [versions]
 minecraft = "1.19.2"
-quilt = "0.18.9"
+quilt = "0.18.10"
 
 [options]
 acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]

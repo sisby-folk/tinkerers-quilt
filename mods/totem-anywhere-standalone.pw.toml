@@ -1,13 +1,13 @@
 name = "Totem Anywhere Standalone"
-filename = "totem_anywhere_standalone-1.1.0+1.18.2.jar"
+filename = "totem_anywhere_standalone-1.1.1+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/f4ppGsAE/versions/1.1.0+1.18.2/totem_anywhere_standalone-1.1.0%2B1.18.2.jar"
+url = "https://cdn.modrinth.com/data/f4ppGsAE/versions/63P9MaT0/totem_anywhere_standalone-1.1.1%2B1.19.2.jar"
 hash-format = "sha1"
-hash = "aabc47d341fc0afdb565648a33ebc83dac348de9"
+hash = "aee66cb6c392680fccace4ea4395fab00a2f32ae"
 
 [update]
 [update.modrinth]
 mod-id = "f4ppGsAE"
-version = "Z7bTqnaV"
+version = "63P9MaT0"

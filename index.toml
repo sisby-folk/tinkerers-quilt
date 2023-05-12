@@ -85,6 +85,14 @@ file = "config/simplefog.json"
 hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
+file = "config/snowrealmagic-client.toml"
+hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
+
+[[files]]
+file = "config/snowrealmagic-common.toml"
+hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
+
+[[files]]
 file = "config/yosbr/config/charmonium.toml"
 hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
@@ -138,7 +146,7 @@ hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
 
 [[files]]
 file = "config/yosbr/config/switchy_resource_packs/config.toml"
-hash = "371401717c7758eca0667446e28426adb9dfd7736caad95ccd5466c384b88940"
+hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
 
 [[files]]
 file = "config/yosbr/config/waila/waila.json"
@@ -211,7 +219,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
+hash = "fdea52d254e5318fe4884301ca865356ade3f685798548aaa23804b25ff01ca1"
 metafile = true
 
 [[files]]
@@ -246,7 +254,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "a084ad59e4b863b03da0406fe85d39441e7e7ba1b1407dab72b240ee8a16d8b6"
+hash = "52482ce55e1507571ecdb829bddd431de9f7739b79c24b9e3ce8a102744dd227"
 metafile = true
 
 [[files]]
@@ -280,8 +288,8 @@ hash = "7a09da6066eaaac81061420526f46c3329aa99ff11334fcedf5842f81bdac459"
 metafile = true
 
 [[files]]
-file = "mods/client-tweaks-fabric.pw.toml"
-hash = "231812804e9c88df70727e0869a1a19471670f76793bbafd644de8e7c2ed7f4b"
+file = "mods/client-tweaks.pw.toml"
+hash = "246cd2214d087ee9ad322af509738cf49806030fdea0ce0ed3e3def80c466848"
 metafile = true
 
 [[files]]
@@ -307,11 +315,6 @@ metafile = true
 [[files]]
 file = "mods/crowmap.pw.toml"
 hash = "30f1ee40932a5918f97f85ac3c9bd48f2545e3baf0f40fde6a631606aae59b52"
-metafile = true
-
-[[files]]
-file = "mods/deftulib.pw.toml"
-hash = "48c2dac5aa8efba90c953b52f640ae7d8a5dfe571362b0c917bf7f41752b1f2b"
 metafile = true
 
 [[files]]
@@ -356,7 +359,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "bd3fa8322aa27cbdf332b200ae8cf62ec2c2ab144e04f28e5634ad3f176b5579"
+hash = "0d393b5839c6a9d809a6735da0c870ef92d702225434826a1ca5427b1142bea0"
 metafile = true
 
 [[files]]
@@ -367,11 +370,6 @@ metafile = true
 [[files]]
 file = "mods/fallingleaves.pw.toml"
 hash = "423581d9738b23798456b7ba021698355ef8f03cef93d8c1266102a227d9a200"
-metafile = true
-
-[[files]]
-file = "mods/fastload.pw.toml"
-hash = "06848036e814be3439e96936bf20dfa3257385f07d9ed6d9b5d2c45855145db9"
 metafile = true
 
 [[files]]
@@ -430,11 +428,11 @@ metafile = true
 
 [[files]]
 file = "mods/inventorytabs-0.6.2+1.19.x.jar"
-hash = "050e722932e46ed28ef59610ce940d9a691c953092d842279ac3f48cf95b78d3"
+hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "8a762171b89a5265ad651263b4691a098ce6429edd74b4ddb09c7c33286fcc75"
+hash = "ec644a70524673946d8a987bbc4d3f0968c4885f55541b837ee14a366b218d35"
 metafile = true
 
 [[files]]
@@ -450,6 +448,11 @@ metafile = true
 [[files]]
 file = "mods/keep-my-hand.pw.toml"
 hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "2ce31ab44b467a2d2ca1ef630ff879ae33236149ee02abb9a1527638614bd981"
 metafile = true
 
 [[files]]
@@ -523,10 +526,6 @@ hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
 metafile = true
 
 [[files]]
-file = "mods/nbtcrafting-2.2.4+mc1.19.jar"
-hash = "cbecc67d599d08d1da553ff6ade872d00ed632e332b2a461b3cb17f0a8cf8c0b"
-
-[[files]]
 file = "mods/no-fade.pw.toml"
 hash = "a2f3df885984de9d90766c40c5ec4119769c9ffe8291364ff5f5403ba547fb32"
 metafile = true
@@ -549,6 +548,11 @@ metafile = true
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "d6a99e144be13fb3d0865925bf73357a2ff82f4114929cc2f35930eb21f3c7e9"
 metafile = true
 
 [[files]]
@@ -593,7 +597,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "eb7d098a1b5e6e0cfb014073b5b3db6330f88b593ddc81f0d6c320cfa94178b9"
+hash = "44e9de6f61164aea315b8e452bbaa05bb7bec5ff5382e9b44d336591f59b3d2c"
 metafile = true
 
 [[files]]
@@ -604,6 +608,16 @@ metafile = true
 [[files]]
 file = "mods/simplefog.pw.toml"
 hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "45e75b06cdf0b30a62dd2ef95a7476e98d109bec09f8caefa9ea5902cad988a8"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees-remastered.pw.toml"
+hash = "e6b7aed5ae934b4331ff35b6dac657aa5cd4fa0754f4a4d580c05cb74039662f"
 metafile = true
 
 [[files]]
@@ -653,12 +667,12 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-resource-packs.pw.toml"
-hash = "b7de70465bf17244b00d8f278b68856e1f0a4fd2fe8e7d5bc265a32cf58094f9"
+hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
 metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "05b1526eb62c0ac11a9afce8460bf1d1e69cc83b5a171554585ec2d136f73fd3"
+hash = "1ce4b2e7f30ad09285c31e2f6a867954fa99406a9e8c9b7a3db88e660cf6d4eb"
 metafile = true
 
 [[files]]
@@ -668,7 +682,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchykit.pw.toml"
-hash = "899a8fd91b062153a42a7a37a86e48bc455c28b926f2a0bef6a5c6b4313091ef"
+hash = "be6df0675d9aa6ba25b569bd6986a0457ce08631b157e3ca718b2cbf89cd2da2"
 metafile = true
 
 [[files]]
@@ -678,7 +692,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "106dda5d20e8d4908643decc7a4c3429078e91c61a65aefb2decd8ab515ebfe9"
+hash = "a4b873113f4f6a9d4134cee32d506cf19fa75d8fc62a344e9e6d14b590f2a5fb"
 metafile = true
 
 [[files]]
@@ -693,7 +707,7 @@ metafile = true
 
 [[files]]
 file = "mods/totem-anywhere-standalone.pw.toml"
-hash = "6d2af0a35b3d458fdf4c6cee3974e828973138c81ee3af3ed8d0d70958b91cfe"
+hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
 metafile = true
 
 [[files]]
@@ -708,12 +722,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
-metafile = true
-
-[[files]]
-file = "mods/yacl.pw.toml"
-hash = "17d831dc9a5939806f745aadeb8a0b11b0f1c7f587043e0d1aa77f40c76f73b9"
+hash = "3a6a883432686315f5787ab2b7274a8fdfbefffc7d861f759408309222312be9"
 metafile = true
 
 [[files]]
@@ -775,27 +784,11 @@ hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
 
 [[files]]
 file = "resources/data/tinkerer/recipes/glow_sac.json"
-hash = "4d24fc94706c050d8d0bd175987e47e0a0125087816324209d06ab77105436df"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/jump_boost.json"
-hash = "93ab4bf50f8a71a0d1a8c96fc283bf50f97c407c7e1091f7a55230fe17064c7c"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/repair_elytra.json"
-hash = "574b102c55fba6cefe8cbc064ebe75b72ee1777de8382db0952d4b1b34457455"
+hash = "cbc875e56dc1a9c53680ecf945a51818362296e2ee24278390e6855de524aed2"
 
 [[files]]
 file = "resources/data/tinkerer/recipes/slime_ball.json"
 hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/slow_fall.json"
-hash = "33a0fddaf16777c383a771ebf5b62d2e17b473f6187828c2a8651647b4485153"
-
-[[files]]
-file = "resources/data/tinkerer/recipes/water_breathing.json"
-hash = "7606589401c0e5c71c536f352f9e616d2b22a259cc0de8f516a0089caf76af94"
 
 [[files]]
 file = "resources/data/tinkerer/tags/items/boots.json"
@@ -847,7 +840,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "eb58e87100f2c3119960a4fb3d7c145d0c8f7b9b10e84185b48fdb88fb15d0dc"
+hash = "eb5d07ac1370825eaa1a35eea0b9fa53bf89f7716f7eb62b626effca4f5817b1"
 metafile = true
 
 [[files]]

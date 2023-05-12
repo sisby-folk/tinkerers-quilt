@@ -1,13 +1,13 @@
 name = "Switchy Resource Packs"
-filename = "switchy-resource-packs-1.1.1+1.19.jar"
+filename = "switchy-resource-packs-1.1.3+1.19.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/zcTaXGXM/versions/H7WJKzXB/switchy-resource-packs-1.1.1%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/zcTaXGXM/versions/FE3fy3eP/switchy-resource-packs-1.1.3%2B1.19.jar"
 hash-format = "sha1"
-hash = "b579b6676698af3efec4f4e04a78bf39897ab952"
+hash = "682c54ae948bb73c770a1e2c15b633260bfbddc2"
 
 [update]
 [update.modrinth]
 mod-id = "zcTaXGXM"
-version = "H7WJKzXB"
+version = "FE3fy3eP"
