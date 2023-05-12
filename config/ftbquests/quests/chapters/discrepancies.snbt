@@ -236,11 +236,11 @@
 			shape: "square"
 			subtitle: "Sentimental Equipment"
 			description: [
-				"In this pack, repairing enchanted gear using ingots and diamonds costs no xp and doesn't stack up, as long as you use a smithing table."
+				"In this pack, repairing enchanted gear using ingots and diamonds costs no xp and doesn't stack up work."
 				""
-				"The \"Prior Work\" repair cost on enchanted equipment can also be reversed (one stage at a time) using netherite scrap, also at a smithing table."
+				"The \"Prior Work\" repair cost on enchanted equipment can also be reversed (one stage at a time) using netherite scrap."
 				""
-				"Further, you can upgrade basic tool tiers in the crafting table (See EMI for recipes). The smithing table can be used to upgrade iron gear to diamond, and gold to netherite (you'll need to sacrifice a piece of netherite gear)"
+				"Further, you can upgrade gear in the crafting table, and enchanted gear at the smithing table. See EMI for recipes."
 			]
 			id: "00BF3119EB22417C"
 			tasks: [{
