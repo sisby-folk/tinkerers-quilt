@@ -117,6 +117,10 @@ file = "config/earthtojavamobs.json"
 hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
 [[files]]
+file = "config/easierenchanting.txt"
+hash = "2126ccb0a64fba6d38e659e4a0fa01ba83f25cbb0a9a3b1eed71a72de09f27b3"
+
+[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -291,6 +295,10 @@ hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 [[files]]
 file = "config/yosbr/config/presencefootsteps/userconfig.json"
 hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
+
+[[files]]
+file = "config/yosbr/config/qdaa.ini"
+hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
 
 [[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
@@ -572,6 +580,10 @@ hash = "7b08bf0757ccb5b0dcbb20a37c8bd16d6a5f4a8f87b5615da901e28e779d421d"
 metafile = true
 
 [[files]]
+file = "mods/easierenchanting-1.4.1.jar"
+hash = "b480a1b62e019fa2e0c50d53028e30bc3a27ba80375ba1c5a8160ff13234ad6d"
+
+[[files]]
 file = "mods/ebe.pw.toml"
 hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
 metafile = true
@@ -800,7 +812,7 @@ metafile = true
 
 [[files]]
 file = "mods/luna-slimes.pw.toml"
-hash = "ef266b69d33ac098568eaffae14ede158a79cb0ab92f45510ee3555e2bbe1b97"
+hash = "a469e60b67c502d2ab6945f5c49792e8083ca465c819f1b5c689b438123d7466"
 metafile = true
 
 [[files]]
@@ -919,6 +931,11 @@ hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
 metafile = true
 
 [[files]]
+file = "mods/qdaa.pw.toml"
+hash = "a8227c7f9b8b50a96c962ab246ec87ab9be2f741197d6012bcac9bd4c0188a88"
+metafile = true
+
+[[files]]
 file = "mods/qdresloader.pw.toml"
 hash = "6722d21c6afd03769c9792270061bf7dedb604b94161624403525bae7614df63"
 metafile = true
@@ -946,11 +963,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
-metafile = true
-
-[[files]]
-file = "mods/reroll.pw.toml"
-hash = "a18f008c9752934ff5d7095aaef6c4b85627a1ac9a6da87ebbb9403dd4f2d7eb"
 metafile = true
 
 [[files]]
@@ -1110,7 +1122,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "3a6a883432686315f5787ab2b7274a8fdfbefffc7d861f759408309222312be9"
+hash = "a927ce89ee2beaff7293bced2f8f8dc02c067066370dc744fd758f46c6146362"
 metafile = true
 
 [[files]]
