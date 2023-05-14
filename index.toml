@@ -49,6 +49,10 @@ file = "config/crunchy-crunchy-advancements.css"
 hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
+file = "config/easierenchanting.txt"
+hash = "2126ccb0a64fba6d38e659e4a0fa01ba83f25cbb0a9a3b1eed71a72de09f27b3"
+
+[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -411,6 +415,10 @@ hash = "bd52ab27068961afc53efd50c527302775b87fb176d10779e0d6a0428dcc51e4"
 metafile = true
 
 [[files]]
+file = "mods/easierenchanting-1.4.1.jar"
+hash = "b480a1b62e019fa2e0c50d53028e30bc3a27ba80375ba1c5a8160ff13234ad6d"
+
+[[files]]
 file = "mods/ebe.pw.toml"
 hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
 metafile = true
@@ -731,11 +739,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
-metafile = true
-
-[[files]]
-file = "mods/reroll.pw.toml"
-hash = "a18f008c9752934ff5d7095aaef6c4b85627a1ac9a6da87ebbb9403dd4f2d7eb"
 metafile = true
 
 [[files]]
