@@ -761,6 +761,11 @@ hash = "6cb50f4dcb3f6ba70ecbae01c0691b25fb40610a859aa41bf6ce261ad70429d2"
 metafile = true
 
 [[files]]
+file = "mods/kaffees_dual_ride.pw.toml"
+hash = "395e906a3ea26e62185f6ad673295ac0d2c09055b46d560f5a6cbc9926e635a8"
+metafile = true
+
+[[files]]
 file = "mods/keep-my-hand.pw.toml"
 hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
 metafile = true
@@ -857,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-fade.pw.toml"
-hash = "c91a0e5e41ca1131346bec3429a5b54dd46ca826a228620b52333de9184a864a"
+hash = "3cd3283566a35c631d3266ffc1751a7834ce93198ebc0864e30879b94fbfd890"
 metafile = true
 
 [[files]]
@@ -1032,12 +1037,12 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "35b41ccacb7ec4549053eebf89936d5077cb114de427c8857b9f0d95cfd33559"
+hash = "90146110e019a23019b59782f90a68302a4cc96270761046cee14c8ed6c1173a"
 metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "2c6c8c3e843a7f1df2f4a1ea4b0ed2f63a623ac6329feba063b112241a4b6c48"
+hash = "066d3d8ddd77714bd0fcc306ac76c0f5529092cd78a2ffb73d84eee445510ce0"
 metafile = true
 
 [[files]]
@@ -1046,13 +1051,12 @@ hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
 metafile = true
 
 [[files]]
-file = "mods/switchy-teleport.pw.toml"
-hash = "1ce4b2e7f30ad09285c31e2f6a867954fa99406a9e8c9b7a3db88e660cf6d4eb"
-metafile = true
+file = "mods/switchy-teleport-1.2.1+1.19.2.jar"
+hash = "021e419e2e3986e274d7af785f20638ccbe28a098f1c8a02f8fc23dab859d920"
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "be68c50e2ee5fa4fda774efd5720f5386b4ef8bded4080efa51d9d94a2ae08af"
+hash = "7717773dfdf66a43da414cc59f21d3136136f8ce403cae6a89b15178ffe9b68d"
 metafile = true
 
 [[files]]
