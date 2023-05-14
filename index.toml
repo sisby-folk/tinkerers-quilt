@@ -193,6 +193,10 @@ file = "config/yosbr/config/presencefootsteps/userconfig.json"
 hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
 
 [[files]]
+file = "config/yosbr/config/qdaa.ini"
+hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
+
+[[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
 hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
 
@@ -608,7 +612,7 @@ metafile = true
 
 [[files]]
 file = "mods/luna-slimes.pw.toml"
-hash = "ef266b69d33ac098568eaffae14ede158a79cb0ab92f45510ee3555e2bbe1b97"
+hash = "a469e60b67c502d2ab6945f5c49792e8083ca465c819f1b5c689b438123d7466"
 metafile = true
 
 [[files]]
@@ -709,6 +713,11 @@ metafile = true
 [[files]]
 file = "mods/projectsavethepets.pw.toml"
 hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
+metafile = true
+
+[[files]]
+file = "mods/qdaa.pw.toml"
+hash = "a8227c7f9b8b50a96c962ab246ec87ab9be2f741197d6012bcac9bd4c0188a88"
 metafile = true
 
 [[files]]
@@ -878,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "3a6a883432686315f5787ab2b7274a8fdfbefffc7d861f759408309222312be9"
+hash = "a927ce89ee2beaff7293bced2f8f8dc02c067066370dc744fd758f46c6146362"
 metafile = true
 
 [[files]]

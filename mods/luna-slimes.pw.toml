@@ -1,13 +1,13 @@
 name = "Luna Slimes"
-filename = "lunaslimes-1.5-1.19.2.jar"
+filename = "LunaSlimes-1.6-1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/29SwBNOk/versions/FBe7sGHY/lunaslimes-1.5-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/29SwBNOk/versions/K0foksYu/LunaSlimes-1.6-1.19.2.jar"
 hash-format = "sha1"
-hash = "8125f26563e3b202144bc8c8ea1a6849229eccf2"
+hash = "5b3062302d21fac570d7849264ab99d6f6a90f2c"
 
 [update]
 [update.modrinth]
 mod-id = "29SwBNOk"
-version = "FBe7sGHY"
+version = "K0foksYu"
