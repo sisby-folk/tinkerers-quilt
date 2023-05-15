@@ -1,0 +1,13 @@
+name = "Lib39"
+filename = "lib39-1.5.0-pre3+1.19.2-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BMsWWSPQ/versions/T1vg9BJo/lib39-1.5.0-pre3%2B1.19.2-all.jar"
+hash-format = "sha1"
+hash = "b1f1685514609081c4e78d71632c3dcd58c6a6c5"
+
+[update]
+[update.modrinth]
+mod-id = "BMsWWSPQ"
+version = "T1vg9BJo"
