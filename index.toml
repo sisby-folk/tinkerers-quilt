@@ -733,11 +733,6 @@ hash = "fd34910c7292b2b48bb57c2b348c968cf5ea58f7c19683bf662ef801d167e233"
 metafile = true
 
 [[files]]
-file = "mods/hephaestus.pw.toml"
-hash = "5c2ce8bca0585e6f238a4c626b015818a1572ec5c107c9a8f8dc39860a60be04"
-metafile = true
-
-[[files]]
 file = "mods/horsebuff.pw.toml"
 hash = "a1f6e5c7010b82cc022a4ae37290966eff652658a0d0f6598d6519f068b659ae"
 metafile = true
