@@ -716,11 +716,6 @@ hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
 metafile = true
 
 [[files]]
-file = "mods/qdaa.pw.toml"
-hash = "a8227c7f9b8b50a96c962ab246ec87ab9be2f741197d6012bcac9bd4c0188a88"
-metafile = true
-
-[[files]]
 file = "mods/qdresloader.pw.toml"
 hash = "6722d21c6afd03769c9792270061bf7dedb604b94161624403525bae7614df63"
 metafile = true
