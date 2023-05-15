@@ -117,8 +117,8 @@ file = "config/earthtojavamobs.json"
 hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
 [[files]]
-file = "config/easierenchanting.txt"
-hash = "2126ccb0a64fba6d38e659e4a0fa01ba83f25cbb0a9a3b1eed71a72de09f27b3"
+file = "config/easierenchanting.properties"
+hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 
 [[files]]
 file = "config/exordium.json"
@@ -275,6 +275,10 @@ hash = "187b0b44d524a3d2ea0a33a4d660608e2d5a2a74d90be85584071b78de922378"
 [[files]]
 file = "config/yigd.toml"
 hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
+
+[[files]]
+file = "config/yosbr/config/SkipTransitions.properties"
+hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -601,8 +605,9 @@ hash = "7b08bf0757ccb5b0dcbb20a37c8bd16d6a5f4a8f87b5615da901e28e779d421d"
 metafile = true
 
 [[files]]
-file = "mods/easierenchanting-1.4.1.jar"
-hash = "b480a1b62e019fa2e0c50d53028e30bc3a27ba80375ba1c5a8160ff13234ad6d"
+file = "mods/easierenchanting.pw.toml"
+hash = "40a973c3278a5a666ca0506ffec8f015c6479479868fbf14ffd42da5b401306e"
+metafile = true
 
 [[files]]
 file = "mods/ebe.pw.toml"
@@ -731,11 +736,6 @@ metafile = true
 [[files]]
 file = "mods/horsebuff.pw.toml"
 hash = "a1f6e5c7010b82cc022a4ae37290966eff652658a0d0f6598d6519f068b659ae"
-metafile = true
-
-[[files]]
-file = "mods/hwyla-addon-horse-info.pw.toml"
-hash = "ccafe4c3a0c53e6f936b033ff724e87d266dad9238e1af44aefe8c2355e4c52d"
 metafile = true
 
 [[files]]
@@ -887,11 +887,6 @@ hash = "1191c0ed4c2be46db9814885dc1beb33d22a2175758ad0af8a5a53afe851d7c6"
 metafile = true
 
 [[files]]
-file = "mods/no-fade.pw.toml"
-hash = "3cd3283566a35c631d3266ffc1751a7834ce93198ebc0864e30879b94fbfd890"
-metafile = true
-
-[[files]]
 file = "mods/norecipebook-fabric.pw.toml"
 hash = "afae97e455506516e6d196935777d3cd1b733f8f36505cfc3491c69300cbb511"
 metafile = true
@@ -967,11 +962,6 @@ hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
 metafile = true
 
 [[files]]
-file = "mods/qdaa.pw.toml"
-hash = "a8227c7f9b8b50a96c962ab246ec87ab9be2f741197d6012bcac9bd4c0188a88"
-metafile = true
-
-[[files]]
 file = "mods/qdresloader.pw.toml"
 hash = "6722d21c6afd03769c9792270061bf7dedb604b94161624403525bae7614df63"
 metafile = true
@@ -1019,6 +1009,11 @@ metafile = true
 [[files]]
 file = "mods/simplefog.pw.toml"
 hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
+metafile = true
+
+[[files]]
+file = "mods/skip-transitions.pw.toml"
+hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
 metafile = true
 
 [[files]]
