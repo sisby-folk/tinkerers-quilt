@@ -915,6 +915,11 @@ hash = "43f11eb7babcc05358ac4e1c4148776ee7fe5c224dc6d92ef7045649c799cbb5"
 metafile = true
 
 [[files]]
+file = "mods/picohud.pw.toml"
+hash = "b1c6e1d537ffe68ff34ac5aab42380f0788f6c30282f091c05e0c2c28ac88f3d"
+metafile = true
+
+[[files]]
 file = "mods/polaroidcamera.pw.toml"
 hash = "fa9c87aee7283f245834928b05b69d8269d0b9884ffceddaf743b3fce46b025f"
 metafile = true
