@@ -644,12 +644,13 @@ hash = "ed622deb60304758f1f8ee69e33f057b2d95ab1b65cddc4218978e9255814b77"
 metafile = true
 
 [[files]]
-file = "mods/fabric-seasons-2.0.2+1.19.jar"
-hash = "9d0f8abeb46f5a4a1e98190564493aadaf14fd524d457edc560b896fb3ff9828"
-
-[[files]]
 file = "mods/fabric-seasons-delight-compat.pw.toml"
 hash = "9a787be39525c0ad8bfc755162990e22f802c94acb9cd4f968cb119f43b6d447"
+metafile = true
+
+[[files]]
+file = "mods/fabric-seasons.pw.toml"
+hash = "c7c311ec95580ad84f54a05d20c9a8b9fc78b4183050b170e0a3e8ba70e00308"
 metafile = true
 
 [[files]]
