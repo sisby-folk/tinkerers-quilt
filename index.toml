@@ -94,11 +94,11 @@ hash = "d470b8c9c401dfd6edb8c849c849200409cdafd0262b9aa3f86a58e894517ea4"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
-hash = "a9e2443d6e9401a244b2d03edc63e613d763e133faf4ed4e5afae9c3e915347c"
+hash = "7602e9fbd80f836f02293c3bb3ddd51f1f573695b31ab18f42306c2697e43cf9"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
-hash = "3c3b583b27ef05d293ef92eef91f90fa51ad80d0d7cff163882538bcd4969ba8"
+hash = "8ad979906def7f709baf4f4b6853e7fd4a070ef967f45031fcbcac648dc0f993"
 
 [[files]]
 file = "config/citresewn.json"
@@ -197,6 +197,10 @@ file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
 hash = "b400495d827f7e688a0bae2c9546139be7ee1bfad4cf2652bce1722f8c82e51b"
 
 [[files]]
+file = "config/fwaystones/config.json5"
+hash = "85929b173ddaf44b07c3da0738018887efc4ea9145f086c785af4dc0baee111a"
+
+[[files]]
 file = "config/idwtialsimmoedm.json"
 hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 
@@ -267,10 +271,6 @@ hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 [[files]]
 file = "config/travelerstitles-fabric-1_19.toml"
 hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
-
-[[files]]
-file = "config/waystones/config.json"
-hash = "6ff2fa397df093b1242ef100ac5a787d1d60b99f3b1d331232e6152703d63987"
 
 [[files]]
 file = "config/yigd.toml"
@@ -497,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "52482ce55e1507571ecdb829bddd431de9f7739b79c24b9e3ce8a102744dd227"
+hash = "7c175e2efca8751fde89b7f3edd10860ec0d6e315f20ed9a95151f039dcf8804"
 metafile = true
 
 [[files]]
