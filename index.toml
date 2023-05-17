@@ -1226,6 +1226,30 @@ file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
 
 [[files]]
+file = "resources/assets/aurorasdeco/atlas/texture_sets/lavender_plains.json"
+hash = "bca84ca0e619768d8879c6a190ce02ba03747387262a7087cc0dd95aa060e7e2"
+
+[[files]]
+file = "resources/assets/aurorasdeco/atlas/tiles/lavender_plains.json"
+hash = "4d76e87ef4f9eb8030e3a062a1ddc1bdeb01ce9cdb4a89cb98faefd41dc36858"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass.png"
+hash = "73a3dcd3059462a0ae8d13f9b29028101654b6ba22b36366b66bdacebbb4a54d"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass2.png"
+hash = "adeb97aeaed05a8b416365cf3d91a66ccf0399cc20d8d87ee1543c2e6f2631ae"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass3.png"
+hash = "2356d06fe495073157291d714450b01820711eaf079d86e36320d4b271e2c077"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass4.png"
+hash = "1583e851a19d36755fa3279f4fd33e5d2189dbb7a6d4cd46e29211d94679f334"
+
+[[files]]
 file = "resources/assets/loadingscreentips/loading_tips/tips.json"
 hash = "be34b6bcd8d12a113f1e8cbfb7dd510edb70188a80292177a01e9293c84a29b7"
 
@@ -1248,14 +1272,6 @@ hash = "55f4b3a828f0e7e7b9ff27f718c4d451fcee5c609b0769647dfc8cad7f645467"
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
 hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
-
-[[files]]
-file = "resources/assets/yttr/atlas/tiles/scorched_summit.json"
-hash = "8b4b8bfbc417f9bd496ac6b0529ebc1b6147287301797a126c1d0de3abbe52cb"
-
-[[files]]
-file = "resources/assets/yttr/atlas/tiles/wasteland.json"
-hash = "8fb1c0a7f6f9e4c1303221a744a14af9b5967a7bf54718452ab3d85d9a05c58c"
 
 [[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
