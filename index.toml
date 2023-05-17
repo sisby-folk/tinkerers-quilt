@@ -5,6 +5,10 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
+file = "config/antiqueatlas.json5"
+hash = "fb4706f80eb8372ab2460e2d68d8c040e45aad3a581bd25be0d9010c7468a04d"
+
+[[files]]
 file = "config/apathy/boss.cfg"
 hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
 
@@ -423,6 +427,11 @@ metafile = true
 [[files]]
 file = "mods/antique-atlas.pw.toml"
 hash = "6f34929ba29cdb631f3642ace7f2a9aa5198888a52d3a753a40e90243fd3efd8"
+metafile = true
+
+[[files]]
+file = "mods/antique-fwaystones.pw.toml"
+hash = "ea4e28b5c7dd382cad60b386e89353a28247cfdf3904a79c6d6cfe6982c99058"
 metafile = true
 
 [[files]]
@@ -1260,6 +1269,30 @@ hash = "d5d7090d2ab9d828c55b4f44c8adba3fb89365d191fb12d7da55b3e5bae67144"
 [[files]]
 file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
+
+[[files]]
+file = "resources/assets/aurorasdeco/atlas/texture_sets/lavender_plains.json"
+hash = "bca84ca0e619768d8879c6a190ce02ba03747387262a7087cc0dd95aa060e7e2"
+
+[[files]]
+file = "resources/assets/aurorasdeco/atlas/tiles/lavender_plains.json"
+hash = "4d76e87ef4f9eb8030e3a062a1ddc1bdeb01ce9cdb4a89cb98faefd41dc36858"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass.png"
+hash = "73a3dcd3059462a0ae8d13f9b29028101654b6ba22b36366b66bdacebbb4a54d"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass2.png"
+hash = "adeb97aeaed05a8b416365cf3d91a66ccf0399cc20d8d87ee1543c2e6f2631ae"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass3.png"
+hash = "2356d06fe495073157291d714450b01820711eaf079d86e36320d4b271e2c077"
+
+[[files]]
+file = "resources/assets/aurorasdeco/textures/gui/tiles/lavender_grass4.png"
+hash = "1583e851a19d36755fa3279f4fd33e5d2189dbb7a6d4cd46e29211d94679f334"
 
 [[files]]
 file = "resources/assets/loadingscreentips/loading_tips/tips.json"
