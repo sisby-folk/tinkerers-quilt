@@ -5,6 +5,10 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
+file = "config/antiqueatlas.json5"
+hash = "fb4706f80eb8372ab2460e2d68d8c040e45aad3a581bd25be0d9010c7468a04d"
+
+[[files]]
 file = "config/apathy/boss.cfg"
 hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
 
@@ -412,6 +416,11 @@ metafile = true
 [[files]]
 file = "mods/antique-atlas.pw.toml"
 hash = "6f34929ba29cdb631f3642ace7f2a9aa5198888a52d3a753a40e90243fd3efd8"
+metafile = true
+
+[[files]]
+file = "mods/antique-fwaystones.pw.toml"
+hash = "ea4e28b5c7dd382cad60b386e89353a28247cfdf3904a79c6d6cfe6982c99058"
 metafile = true
 
 [[files]]
