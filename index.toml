@@ -1286,6 +1286,14 @@ file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
 hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
 
 [[files]]
+file = "resources/assets/yttr/atlas/tiles/scorched_summit.json"
+hash = "8b4b8bfbc417f9bd496ac6b0529ebc1b6147287301797a126c1d0de3abbe52cb"
+
+[[files]]
+file = "resources/assets/yttr/atlas/tiles/wasteland.json"
+hash = "8fb1c0a7f6f9e4c1303221a744a14af9b5967a7bf54718452ab3d85d9a05c58c"
+
+[[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
 hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 
