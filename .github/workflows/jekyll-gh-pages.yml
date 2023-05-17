@@ -25,7 +25,12 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    steps:   
+    steps:
+      - name: import website
+        uses: actions/checkout@v2
+        with:
+          ref: website
+
       - name: import quilt_1.19.2
         uses: actions/checkout@v3
         with:
