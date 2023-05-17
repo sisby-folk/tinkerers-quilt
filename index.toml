@@ -1266,6 +1266,18 @@ file = "resources/assets/loadingscreentips/loading_tips/tips.json"
 hash = "be34b6bcd8d12a113f1e8cbfb7dd510edb70188a80292177a01e9293c84a29b7"
 
 [[files]]
+file = "resources/assets/nullscape/atlas/tiles/crystal_peaks.json"
+hash = "327b685607cb04eba468e07907e01a0c9fc4eb5cd8ebd5703c310d6bcf3060aa"
+
+[[files]]
+file = "resources/assets/nullscape/atlas/tiles/shadowlands.json"
+hash = "327b685607cb04eba468e07907e01a0c9fc4eb5cd8ebd5703c310d6bcf3060aa"
+
+[[files]]
+file = "resources/assets/nullscape/atlas/tiles/void_barrens.json"
+hash = "327b685607cb04eba468e07907e01a0c9fc4eb5cd8ebd5703c310d6bcf3060aa"
+
+[[files]]
 file = "resources/assets/tinkerer/lang/en_us.json"
 hash = "55f4b3a828f0e7e7b9ff27f718c4d451fcee5c609b0769647dfc8cad7f645467"
 
