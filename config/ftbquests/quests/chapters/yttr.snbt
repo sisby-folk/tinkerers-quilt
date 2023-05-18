@@ -7,23 +7,248 @@
 	icon: "yttr:logo"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Something's Wrong, I Can Feel It"
-		x: 0.0d
-		y: 0.0d
-		shape: "rsquare"
-		subtitle: "Smelt an yttrium ingot"
-		description: [
-			"Yttr begins with an unsteady hand, a prototype rifle, too much gunpowder, a diamond-tipped spike, and a hole at the bottom of the world."
-			""
-			"It also begins with Yttrium."
-		]
-		id: "63E0B5109F75FE08"
-		tasks: [{
-			id: "02B7231CE9C5F1BA"
-			type: "item"
-			item: "yttr:yttrium_ingot"
-		}]
-	}]
+	quests: [
+		{
+			title: "Something's Wrong, I Can Feel It"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Smelt an Yttrium Ingot"
+			description: [
+				"Yttr begins with an unsteady hand, a prototype rifle, too much gunpowder, a diamond-tipped spike, and a hole at the bottom of the world."
+				""
+				"It also begins with Yttrium."
+			]
+			dependencies: ["2983D49DB7507B63"]
+			id: "63E0B5109F75FE08"
+			tasks: [{
+				id: "02B7231CE9C5F1BA"
+				type: "item"
+				item: "yttr:yttrium_ingot"
+			}]
+		}
+		{
+			title: "The New Strange"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Mine Raw Gadolonite"
+			description: [
+				"&bGadolonite&r is a plentiful source of early &biron ingots&r."
+				""
+				"When smelted in a furnace, it produces &6Big Iron&r, which can be crafted into multiple iron ingots."
+				""
+				"When smelted in a blast furnace, it instead produces &3Yttrium&r"
+			]
+			id: "2983D49DB7507B63"
+			tasks: [{
+				id: "696B1DFF3A9FB16E"
+				type: "item"
+				item: "yttr:raw_gadolinite"
+			}]
+		}
+		{
+			title: "Harder, Better, Not Faster, The Same."
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Mine Brookite"
+			description: [
+				"Brookite is a tool material similar to iron, but more durable."
+				""
+				"It can be &2upgraded&r from iron, and to diamond."
+			]
+			invisible: true
+			id: "341A6F174FB8BF50"
+			tasks: [{
+				id: "3556944E293D3B4D"
+				type: "item"
+				item: "yttr:brookite"
+			}]
+		}
+		{
+			title: "Thunk"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Craft a Centrifuge"
+			description: [
+				"Centrifuges can be used to extract both iron and yttrium from &bRaw Gadolonite&r"
+				""
+				"They can also separate useful materials from flowers, coal, cobblestone, and magma cream."
+			]
+			dependencies: ["63E0B5109F75FE08"]
+			hide: true
+			id: "553B60371B6CB85B"
+			tasks: [{
+				id: "6F6397E048B763DF"
+				type: "item"
+				item: "yttr:centrifuge"
+			}]
+		}
+		{
+			title: "Centripetal-Action"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Craft an Yttric Rifle"
+			description: [
+				"&oA rifle is a precise instrument, one must play in tune, and in time&r"
+				""
+				"An &6Yttric Rifle&r is a charged weapon with many firing modes, each consuming a different type of reagent."
+				""
+				"The rifle timing varies between modes - the safer &4Beam Mode&r, costing only redstone, can be used alongside a &bPower Meter&r to practice timing."
+			]
+			dependencies: ["63E0B5109F75FE08"]
+			hide: true
+			id: "6B602F8EA182727E"
+			tasks: [{
+				id: "2056C534B5DBA442"
+				type: "item"
+				item: "yttr:rifle"
+			}]
+			rewards: [{
+				id: "158B1328DDF07D5E"
+				type: "item"
+				item: "yttr:power_meter"
+			}]
+		}
+		{
+			title: "Smells Bright"
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Collect Glowdamp"
+			description: [
+				"&6Glowdamp&r can be collected in bottles after crushing a &bShroomlight&r between two &3Yttrium Blocks&r using a piston."
+				""
+				"Glowdamp can be thrown, or crafted into more permanent &6lamps&r. It can also be used to pressurize &3rifle ammunition&r."
+			]
+			dependencies: ["63E0B5109F75FE08"]
+			hide: true
+			id: "39BC95EE872FA168"
+			tasks: [{
+				id: "4C7EDA11862EA1AC"
+				type: "item"
+				item: "yttr:glowing_gas"
+			}]
+		}
+		{
+			title: "Safari Zone"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Craft a Snare"
+			description: [
+				"&4Snares&r can be used to temporarily catch mobs, or move around immoveable blocks like &2chests&r and &2signs&r."
+				""
+				"Specific snared mobs can be used to create useful abominations."
+			]
+			dependencies: ["63E0B5109F75FE08"]
+			hide: true
+			id: "3D478C54485BA22C"
+			tasks: [{
+				id: "3EDBB91F77D6FAB8"
+				type: "item"
+				item: "yttr:snare"
+			}]
+		}
+		{
+			title: "Overprepared"
+			x: -1.5d
+			y: 4.5d
+			subtitle: "Craft a Canister Filler"
+			description: [
+				"&4Canisters&r allow you to pack a lot of a single type of ammo into one slot using &6Glowdamp&r."
+				""
+				"They also &9consume less material&r when firing than loose reagents."
+			]
+			dependencies: [
+				"6B602F8EA182727E"
+				"39BC95EE872FA168"
+			]
+			hide: true
+			id: "32F0C0E70F786640"
+			tasks: [{
+				id: "645307A63DB0E6BD"
+				type: "item"
+				item: "yttr:can_filler"
+			}]
+			rewards: [{
+				id: "62CA4B757D1F5218"
+				type: "item"
+				item: "yttr:empty_ammo_can"
+			}]
+		}
+		{
+			title: "Unbreakable"
+			icon: "yttr:bedrock_shard"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Gather a Bedrock Shard"
+			description: [
+				"Breaking bedrock requires a &6high-powered&r, &7explosive&r force be applied to very sturdy &bpoint&r."
+				""
+				"High bedrock can be smashed into shards, allowing reuse of the &3Bedrock Smasher&r"
+				""
+				"Shards can be used to create advanced materials and equipment."
+			]
+			dependencies: ["6B602F8EA182727E"]
+			hide: true
+			id: "27D1C90CDA884287"
+			tasks: [
+				{
+					id: "64B8B38DD6B3AB6E"
+					type: "item"
+					item: "yttr:bedrock_smasher"
+				}
+				{
+					id: "47237DDFAC66F2EC"
+					type: "item"
+					item: "yttr:bedrock_shard"
+				}
+			]
+		}
+		{
+			title: "What Lies Below"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Break Low Bedrock"
+			description: [
+				"Low bedrock can only be broken once. "
+				""
+				"It cannot be unbroken."
+			]
+			dependencies: ["27D1C90CDA884287"]
+			hide: true
+			id: "084D1B2B30F0C658"
+			tasks: [{
+				id: "158A4C0DAD0D950C"
+				type: "advancement"
+				title: "Break Y-64 Bedrock"
+				advancement: "yttr:open_geyser"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Don't Look Down"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "Observe a Root of Continuity"
+			description: [
+				"&oEver wondered what keeps those things up?&r"
+				""
+				"&5Continuity&r can be used to recreate useful artifacts."
+				""
+				"Pick somewhere to land."
+			]
+			hide: true
+			invisible: true
+			id: "2D3FC9CF302BF73B"
+			tasks: [{
+				id: "7B5FD475948DB0F6"
+				type: "observation"
+				title: "Observe a Root of Continuity"
+				icon: "yttr:root_of_continuity"
+				timer: 0L
+				observe_type: 0
+				to_observe: "yttr:root_of_continuity"
+			}]
+		}
+	]
 	quest_links: [ ]
 }
