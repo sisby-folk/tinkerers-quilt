@@ -926,7 +926,7 @@ metafile = true
 
 [[files]]
 file = "mods/picohud.pw.toml"
-hash = "f22725312e2bfccfe42bd248e10998560715a8c6000cbbf49448debe12014033"
+hash = "07e64eab47329f81337ac779705006e9708f0d08d4759c7a63d2bbb392a0f19a"
 metafile = true
 
 [[files]]
@@ -1199,6 +1199,10 @@ hash = "4b502ea7f185b192b42c890e30b181246b341b1fcf4bd626b68c07de3cb46b19"
 metafile = true
 
 [[files]]
+file = "removed.txt"
+hash = "309937ab77e880d9a565c4da9a7804c198b2fc60bcda02b64ed2c8991ee907ec"
+
+[[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
 hash = "523606fa9f099b533c066b3e6c175c50254ae5b7f4b20f91c2c358da71f63186"
 
@@ -1413,14 +1417,6 @@ hash = "3ded982d23c2791e6bf49eb701b6ffb385ead897660300ccdacebe6f9c4c69f1"
 [[files]]
 file = "skins/kapesi"
 hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
-
-[[files]]
-file = "skins/meru"
-hash = "c695b54dd2875a15e9e035bc5ce3eddd13d86f4ee068d4b807e4b64b4e9723b1"
-
-[[files]]
-file = "skins/mollymauk"
-hash = "6e79012dfa673fcfef91018336fd159b6dab4bed87e5fd0b1a28906dabd199da"
 
 [[files]]
 file = "skins/sheetmetal"
