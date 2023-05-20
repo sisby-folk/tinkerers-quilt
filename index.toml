@@ -285,6 +285,10 @@ file = "config/yosbr/config/SkipTransitions.properties"
 hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
 
 [[files]]
+file = "config/yosbr/config/aileron.json"
+hash = "ef5d54ad5552076138b7ecaca713917fdb7069d8d6199d6a9dc5fdfef614c10e"
+
+[[files]]
 file = "config/yosbr/config/charmonium.toml"
 hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
@@ -410,9 +414,8 @@ hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
 
 [[files]]
-file = "mods/aileron.pw.toml"
-hash = "6beca67b09effde6cb786550855e03f84aa16c89282a44251df922648d5f3620"
-metafile = true
+file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
+hash = "ee06a2a0272e7ad6db61690533915f2d9938a068ab1377b2e2b0a9f92cc0c77a"
 
 [[files]]
 file = "mods/ambient-environment.pw.toml"
