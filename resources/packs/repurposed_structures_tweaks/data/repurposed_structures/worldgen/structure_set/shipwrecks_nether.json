@@ -1,0 +1,14 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "type": "repurposed_structures:advanced_random_spread",
+    "salt": 1224747205,
+    "spacing": 21,
+    "separation": 11,
+    "super_exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "#repurposed_structures:nether_shipwreck_avoid"
+    }
+  }
+}

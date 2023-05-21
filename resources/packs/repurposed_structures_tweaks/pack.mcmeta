@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": "Repurposed Structures - Config Datapack 1.19.2 and 1.19.4 v32 (Villages/Outposts Only)",
+    "pack_format": 10
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "repurposed_structures",
+        "path": "advancements/.*"
+      }
+    ]
+  }
+}
