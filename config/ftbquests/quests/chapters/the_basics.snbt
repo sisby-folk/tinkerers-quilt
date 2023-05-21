@@ -171,7 +171,7 @@
 				id: "711B997B0F3BC7B3"
 				type: "structure"
 				icon: "minecraft:crying_obsidian"
-				structure: "minecraft:ruined_portal"
+				structure: "#minecraft:ruined_portal"
 			}]
 			rewards: [
 				{
