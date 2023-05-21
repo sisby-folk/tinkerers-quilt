@@ -79,7 +79,7 @@
 				title: "Find an Ocean Monument"
 				icon: "minecraft:prismarine_bricks"
 				disable_toast: true
-				structure: "minecraft:monument"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
 			}]
 			rewards: [
 				{
@@ -197,7 +197,7 @@
 				title: "Find an Abandoned Mineshaft"
 				icon: "minecraft:rail"
 				disable_toast: true
-				structure: "minecraft:mineshaft"
+				structure: "#minecraft:mineshaft"
 			}]
 			rewards: [
 				{
@@ -1083,7 +1083,7 @@
 				title: "Find a Shipwreck"
 				icon: "minecraft:dark_oak_boat"
 				disable_toast: true
-				structure: "minecraft:shipwreck"
+				structure: "#minecraft:shipwreck"
 			}]
 			rewards: [
 				{
@@ -1128,7 +1128,7 @@
 				title: "Find a Desert Temple"
 				icon: "minecraft:chiseled_sandstone"
 				disable_toast: true
-				structure: "minecraft:desert_pyramid"
+				structure: "#betterdeserttemples:better_desert_temples"
 			}]
 			rewards: [{
 				id: "122D1702C9C1C756"
@@ -1189,7 +1189,7 @@
 			icon: "minecraft:mossy_stone_bricks"
 			x: -15.5d
 			y: -2.5d
-			subtitle: "Find both Ocean Ruins"
+			subtitle: "Find Ocean Ruins"
 			description: [
 				"Cold ocean ruins spawn in most oceans - including oceans, cold oceans, and frozen oceans."
 				""
@@ -1202,16 +1202,9 @@
 				{
 					id: "5D59AF700C3FD338"
 					type: "structure"
-					title: "Find Cold Ocean Ruins"
+					title: "Find Ocean Ruins"
 					icon: "minecraft:mossy_stone_bricks"
-					structure: "minecraft:ocean_ruin_warm"
-				}
-				{
-					id: "4FFD0CD12DA32571"
-					type: "structure"
-					title: "Find Warm Ocean Ruins"
-					icon: "minecraft:cut_sandstone"
-					structure: "minecraft:ocean_ruin_warm"
+					structure: "#minecraft:ocean_ruin"
 				}
 			]
 			rewards: [
