@@ -1049,9 +1049,8 @@ hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
 metafile = true
 
 [[files]]
-file = "mods/slice-and-dice.pw.toml"
-hash = "a0729ad918d2b36e4188bd27cbcf6ea41575ace36e31334e6b196bdad98402af"
-metafile = true
+file = "mods/sliceanddice-fabric-2.1.3-fabric.jar"
+hash = "78acddf7f981af671154ad02ff7718b0e38bdc7baa69593b8f0eaebd13b7f769"
 
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
