@@ -1003,6 +1003,11 @@ hash = "479fbab5be512e0ec20b40a82b56564c76d270c1f84e04b34baf0a5ee4181c6d"
 metafile = true
 
 [[files]]
+file = "mods/sandwichable.pw.toml"
+hash = "9f260dd7650e71c79ac6327c5598c0a41b9dd1dc03241c6df6542ae12ef94148"
+metafile = true
+
+[[files]]
 file = "mods/simple-durability-tooltip.pw.toml"
 hash = "36c5793fe006b94902672303fba4a074c73f5fce4f6704d27e8fcaf2f08171de"
 metafile = true
