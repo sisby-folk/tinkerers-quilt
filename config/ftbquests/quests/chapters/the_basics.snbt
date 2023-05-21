@@ -205,7 +205,7 @@
 				id: "319AF1FD9F7F4A83"
 				type: "structure"
 				icon: "minecraft:nether_brick_stairs"
-				structure: "minecraft:nether_fortress"
+				structure: "#betterfortresses:better_fortresses"
 			}]
 			rewards: [
 				{
@@ -282,7 +282,7 @@
 				type: "structure"
 				title: "Find a Stronghhold"
 				icon: "minecraft:mossy_stone_bricks"
-				structure: "minecraft:stronghold"
+				structure: "#betterstrongholds:better_strongholds"
 			}]
 		}
 		{

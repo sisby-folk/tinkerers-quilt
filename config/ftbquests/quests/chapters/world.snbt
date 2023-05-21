@@ -79,7 +79,7 @@
 				title: "Find an Ocean Monument"
 				icon: "minecraft:prismarine_bricks"
 				disable_toast: true
-				structure: "minecraft:monument"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
 			}]
 			rewards: [
 				{
@@ -1128,7 +1128,7 @@
 				title: "Find a Desert Temple"
 				icon: "minecraft:chiseled_sandstone"
 				disable_toast: true
-				structure: "minecraft:desert_pyramid"
+				structure: "#betterdeserttemples:better_desert_temples"
 			}]
 			rewards: [{
 				id: "122D1702C9C1C756"
