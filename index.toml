@@ -879,6 +879,11 @@ hash = "4ce761e594c255a802bd4b0b4b6312e740130b17d77764c389cef4c8417ae8af"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "9421355a24881292851803d45726a5aebce4c5a5863793d7d373565b4fceb1eb"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "be0fd8b9cd9f8a94428ea8ac5ec84f4f7bab23697236b7a2e54d8537834e0315"
 metafile = true
@@ -1014,6 +1019,11 @@ hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
 metafile = true
 
 [[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "b5bb732948dcabfbb3727d124aa0f2b846bc0b883d98476c96d4badb757a048d"
+metafile = true
+
+[[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "39683680c7eeda074893c9ae8f4692c14f98227f8319c55849f079fd9adcc065"
 metafile = true
@@ -1036,6 +1046,11 @@ metafile = true
 [[files]]
 file = "mods/skip-transitions.pw.toml"
 hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "a0729ad918d2b36e4188bd27cbcf6ea41575ace36e31334e6b196bdad98402af"
 metafile = true
 
 [[files]]
@@ -1385,6 +1400,454 @@ hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 file = "resources/packs/axolotl-bucket-variants.pw.toml"
 hash = "a286466952265156b08bc765b98b77225178fab50ef424608f949c212dcf24e5"
 metafile = true
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_modifiers/import_modded_loot.json"
+hash = "9c1530a571c03ca73156a030f58cc8e95317a9f87b556c8246ea0c5b8dbb40fc"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/lucky_pool.json"
+hash = "f5f7c21616c6988a6362f43e89b783f212acba382da4dd0993448fdd944ecfe8"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/badlands.json"
+hash = "2925ab659793f2552fc6b0637900783db62a932052336c0323a29eb16b7f62fb"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/birch.json"
+hash = "9d3086e846521fa67e3ad112ef7fa7d6607942984d78cda2e7c094da7a02e8e9"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/crimson.json"
+hash = "fedde032b6a9bb7960e47dec10468a7ee540cc124744135b6bd2f0e06ea1cdaa"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/desert.json"
+hash = "abf44d45c1ab970d4b5e189932a2ba095f0f241b99a1bdefefe8ed7d89ac3126"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/giant_tree_taiga.json"
+hash = "62d22824bc71cd306ab1aba68452a1fdf9b36d21374ba7070c159b5142a8f06a"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/icy.json"
+hash = "4ae9d4cddbc9bb71543acb81a1c13e1a1121d19f93479e969bb4d1c1750ad548"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/jungle.json"
+hash = "8dee4b8be9c7a721e2ab1433ae70ddb9f0dad1152de2c24fce2e6ed23f45a062"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/mangrove.json"
+hash = "09ca8aed74954a606c605475674a279de3ccb14a2f29058f6dccc422e76aeba7"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/nether_brick.json"
+hash = "b6b6d7a3afae916c484dd9305d7288493bb39f086107757115defcb280875825"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/oak.json"
+hash = "8b1e7a205eee331ef632ed43aa3162ac3d56beabd669f78a593f4afea9dc028a"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/snowy.json"
+hash = "9b31c296c37b16a87e84fbc36b8923d07f84ad171f48bd3060f1ce9fbabbdcea"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/taiga.json"
+hash = "adcd561174e9e0749270ceb8d1985f77f18304944f4df03dc43e22e7032d2f53"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/outposts/warped.json"
+hash = "8d34e9fe97c4bccb53d29bc16cac29c5d09d4350edb681364ab68d231dcba882"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/badlands_house.json"
+hash = "334f39a29e3ee93c4f78db4970c7371edfae2f2510c53f61dc6be1f49f0ee052"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/birch_house.json"
+hash = "51da25916c5ad0bc37fdd750e2d9092756be952145585af56d88301d5805e95d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/crimson_cartographer.json"
+hash = "f8b5f5289b2daee1edf9e937c23e84e67d69ed1a0c5ce565d1e64e54c07ae664"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/crimson_fisher.json"
+hash = "2cbceecd79bc365c30fb13e4a64e500fbf8ecebdb17ffe80d2d9a370e1fa4750"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/crimson_house.json"
+hash = "511f32d5b95d31f61e9dcf0dd755ad9149c3b7b1c48280b9d9ac032d0bf37ad0"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/crimson_tannery.json"
+hash = "38f3eafd27cd95246f1c279bdca95e181efffc646ea5b491009fa90e728276a1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/crimson_weaponsmith.json"
+hash = "5cd6e36d9a6052331f9df2edc4be4bd8bdbc1a3b1c4af1c8de16887cd458cf69"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/dark_forest_house.json"
+hash = "c7a287ec851b626b50f0dcde203e292ecf6e6a6894affc10051e58252c332a2b"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/giant_taiga_house.json"
+hash = "206528f3a155da23222f17e951f7f7eb9f0122f50defb218d51649782133b6e1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/jungle_house.json"
+hash = "a2b1a6bde0b638cb23d01cfe3ac7284b4b8623c8e570c4aac87c9f9ac487ecaf"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/mountains_house.json"
+hash = "58a99ca7579ff621de9df19360387f93c410621b6ff8a76f3fddc3c65bec4b01"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/mushroom_house.json"
+hash = "699491bcad9d673c42edf40066cf573e6c1655c0e8e4a60dd7868bc8e1962a3c"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/oak_house.json"
+hash = "599156288b3ab363023b997ca01310066e0c907dcbde208e2afaf9947bd68afd"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/ocean_cartographer.json"
+hash = "a9621dfb7552171ecfcb95dd3c1c27db777b3163266e9d630824b1c1fedbb1d9"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/ocean_house.json"
+hash = "6682feaaac5fd3731295ba8be68d2e630122c53f5bf11b820c9e2270a203d469"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/swamp_house.json"
+hash = "a9285a0a12150939a049aacfad4354921e04d096ac466be919d172dfff2e561d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/warped_cartographer.json"
+hash = "f8b5f5289b2daee1edf9e937c23e84e67d69ed1a0c5ce565d1e64e54c07ae664"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/warped_fisher.json"
+hash = "2cbceecd79bc365c30fb13e4a64e500fbf8ecebdb17ffe80d2d9a370e1fa4750"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/warped_house.json"
+hash = "99bd7c2f2314751fa83b7384ecf5e64877ff696eade0aee77a3f210cc45720f5"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/warped_tannery.json"
+hash = "38f3eafd27cd95246f1c279bdca95e181efffc646ea5b491009fa90e728276a1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/chests/villages/warped_weaponsmith.json"
+hash = "b5a4483038b1bfc563a7f6b94da00c66237699b1efee0cba832b781ba48ae2c1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/pyramids/dark_forest.json"
+hash = "4a908271d8f8e4c3492439dfd512462ff413c56e2bb22c7051f3b16f25d4d72b"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/basalt.json"
+hash = "92dbc32f4af22ef4e3ff9002a5f9060ad3aaf1b87236afe2e62faadf331f2be1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/crimson.json"
+hash = "a9f2558592514917bc8e6cbc876cd311397d7a147767af2803ca60eaa67fc5ec"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/soul.json"
+hash = "00edb95a277a685e1f17a1c5b8c43643a9e75701d36849ad3d578998fd24763c"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/taiga.json"
+hash = "483ece8e3ef800e10f3840cad9b920f2e6e8d29abe77b32bbdb508ca1127e06f"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/warped.json"
+hash = "a9f2558592514917bc8e6cbc876cd311397d7a147767af2803ca60eaa67fc5ec"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/wasteland.json"
+hash = "a9f2558592514917bc8e6cbc876cd311397d7a147767af2803ca60eaa67fc5ec"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/dispensers/temples/wasteland_lava.json"
+hash = "f778be8707e8902dd307372a35f62ba5b6a8b010ea36ccf81e857808a895f836"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/shulker_boxes/dungeons/end.json"
+hash = "669e3c17fd4708c77155e25bfd92c8ebabf86518e8c448971c0b849c45a896ca"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/shulker_boxes/outposts/end.json"
+hash = "f7ec5d670c26adaf120870e8e93532ab741fccb9253a3fc7a7633b2a0189a239"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/shulker_boxes/strongholds/end_hallway.json"
+hash = "1161c0ffebb13553b649983ca5ee804c1f634fda484be9993c83d066d1395f4e"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/shulker_boxes/strongholds/end_library.json"
+hash = "4963c3ab2756d4d22bf02790392453ca93e00c6fb280c64d72b2ddc6db3a05d9"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/shulker_boxes/strongholds/end_storage_room.json"
+hash = "ff862d86b1c28893db9e6c2266f3918c02656700504a9b9eb8cc129a35c3983f"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/trapped_chests/pyramids/badlands.json"
+hash = "7d1a29b073c4c35efbf381ef4b98f632f54f9f8bc153183e6700e3a66ec6673e"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/trapped_chests/pyramids/end.json"
+hash = "425218841ec37b975bf04c743f19dadd17076634bf051d387a71f86e053e2ea3"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/trapped_chests/pyramids/nether.json"
+hash = "fb12d094d3a2f8765958cdf53b807d2383b466188645b3fef73d14bb56ba8f4e"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/trapped_chests/pyramids/ocean.json"
+hash = "c45be7cfd292d2954d0bc8409dc2e40fd302db6945758b7c72a150d50783b4b1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_tables/trapped_chests/temples/warped.json"
+hash = "22760abd7c897438f8bb85fbb8e2ddc23c3f7d933f3f3c96f93b87638a312229"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/badlands.json"
+hash = "8adc9faf97db3463ba4db89619d32af98c1f94486093eb36df63c33cabc5560d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/dark_forest.json"
+hash = "acad4fda9b89d08a4f336ca8bc904c7ce32b62d5bd690779ba63943e8a479c11"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/deep.json"
+hash = "69dea60ede54d2023b355530650320fb7e171b3c9251f82c7172c0757ebdf05d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/desert.json"
+hash = "b83ceb25fd8c4982cffafacdd694237cc082c71dfd973a342f70130430600aa7"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/end.json"
+hash = "5d30823a3c2f7dc1f23cde2bddeccf1661c6acae3e5b3b18177765e4d1b77743"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/icy.json"
+hash = "88909aed67386e13c95a712276f907621c92617dbe45679835d7ee6ae660f73f"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/jungle.json"
+hash = "90b1195bf575bcb63b389c9709b6969565407b6cc31a0b5a2c6131be507666f5"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/mushroom.json"
+hash = "2ff82cdc3d89b8361ae2d8944a9a246916b4fe1e68cedbbe49355ff76f14f367"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/nether.json"
+hash = "8209e5d235311984398afde8941dfc075d87611adb07fee408b02879b0089e0b"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/ocean_cold.json"
+hash = "d0179bbd3bf0be674c0f16c75d9430abe71c5997e3fb7037dbb6c76ab48b6e8d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/ocean_frozen.json"
+hash = "9f34cc8de9c60a3daa82d99f322a7543567bb587b1fb7799efd3494cc5e4ad4e"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/ocean_lukewarm.json"
+hash = "4b8efd3dc3ac444e71141ea59c88d686bdd8c89c4f54292ba475b794983026f6"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/ocean_neutral.json"
+hash = "25beb8794080f5fafc5e2870e15e634bc5afd4cd8651cc74f840d27dfb152d3d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/ocean_warm.json"
+hash = "07d064d283a1ff1dd444b8c6a8d6c74ddb355a32a7c69a14b01e67806ece9f47"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/snow.json"
+hash = "c613079537dbfb4d73b0c1e1dbf672a4bc9e30121d14ca49b219e61e8c61135f"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/dungeons/swamp.json"
+hash = "561ad6b8a47f5e0f40656054f8ade673fcb2415ce86a16ae8deb3b4f4a1631a9"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/wells/badlands.json"
+hash = "b0be145504a5e508d623f6c9f2ff5c94130d8b8f9837d251fdcbec87c195bf38"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/wells/forest.json"
+hash = "56ec84606b698a45d4be481cf4026397c58760c214239a2e1d523cf93234b9e2"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/wells/mossy_stone.json"
+hash = "aff416f60399bbbb208635ffd9a4edcb5ea95430125e3aa21ec9284eff7ca9bf"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/wells/mushroom.json"
+hash = "98960d2a97d9608f482e100a0d689baf578228443bbf7d2555c42e93b3c2877b"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/wells/nether.json"
+hash = "d459074d063f104ab6e520f593bcb9c7804eb39b9a333ddaf48f70ee4eec6b11"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/placed_feature/wells/snow.json"
+hash = "9402f4aee704104d9e6108b7023e8194678e2ff5731f83ba44f089677871690e"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/ancient_cities_end.json"
+hash = "33edcc08090239a2b8011fa630b59bd52ea6ca3a5d31f608ce7a85a1f9230da3"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/ancient_cities_nether.json"
+hash = "dc67911d115bdd55d113bb00a8af4f46224c5a85b2b131bf3973c51ec726f7fc"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/ancient_cities_overworld.json"
+hash = "1a9cd77004fae7b7669cbfb2461ff001704401c416df2444be2703ac83ad881d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/bastions_overworld.json"
+hash = "f6e7c484d8af746405e8d4cbb6c54f7c3dcd9fff54263a129106f3f300f3787c"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/cities_nether.json"
+hash = "84d5b81cb10f10c2e8997e0e2e2aab8883ddda94acaa5cda196f6535852590b1"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/cities_overworld.json"
+hash = "815d5f898e5a06649c568ae119f0cf97da7f7c959f076132678829a35c8fad65"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/fortresses_overworld.json"
+hash = "a25b4a5ef8de52fd103c082410bc284c60acf40bd5b3aea3f21ed7c6a5886dcc"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/igloos_overworld.json"
+hash = "eb378cb3e23f7244f52c3538f216f2a07f44c1f6e1a655fcf71cd144be345955"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/mansions_mangrove.json"
+hash = "9edad7bc16d41884516edd99840bc4df474ffc9d276af9026121655b13def216"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/mansions_overworld.json"
+hash = "9cdd8204b841fa7529d0057988bb2c937b2f75c0814c46a8f693bfba30815cd0"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/mineshafts_end.json"
+hash = "3b6571af85cd7f6dac62f44b2bff67e2b978a4948900ba8658c5e9b68e1bdfef"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/mineshafts_nether.json"
+hash = "d90131fe5cdc7d829ae007ca1379c382cf22be9bb032454655c2db4a88f8f256"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/mineshafts_overworld.json"
+hash = "d5c3eebe657ad00eabcace9ec18c3a4027eec8d80a0ad38647296431fa73589b"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/monuments_nether.json"
+hash = "cdc914ad083641c7bfc57e28f07ba67c3b9ce8e117fc78d9bc4910f9645c91af"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/monuments_overworld.json"
+hash = "717bad6a44944851b4921a4eacf2f89bbf85dd530dccf3f044f959b462a68867"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/outposts_end.json"
+hash = "868897d1d18a835e76c02feee03543cbbe3487ff42bda2cfac280a70d24199cd"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/outposts_nether.json"
+hash = "b3ec4a7a8f8f1b070976855c3524b10f55726c5f0d2d6beb1b6a0690da103984"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/outposts_overworld.json"
+hash = "cc447dc32009048f3d852213a319fe54c64e45a820cd9ed9f389eaac3c980ac8"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/pyramids_end.json"
+hash = "128d1d5cb83f8d553464bcc9b80bad1618b43726cbf70600206466f602be3693"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/pyramids_mushroom.json"
+hash = "68a7e1cb608343ec87b333089eeaf5abc000843fe05eaf450705f1077ac1de3f"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/pyramids_nether.json"
+hash = "f2040ad27360fc240479c4e5d369517510d64b4e8eff3e8b9f49ac177e6d0a7e"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/pyramids_overworld.json"
+hash = "a378f95da24913c980eb52c57f48c8561a0f1a0561c5c122efc3141f1c130be6"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/ruined_portals_end.json"
+hash = "64ffbced1678cf67be846305b72dca3b923373f6bc3d0b6fd81533d8a5f7fb52"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/ruins_nether.json"
+hash = "2601735319640d9ff9bac8a44b4522ec74b71d589a5d7e2237574c36616b5f7f"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/ruins_overworld.json"
+hash = "4ea29df61f26683fd7d58f9c3b31ed6c942900629b35a9e649ea94defe2427e2"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/shipwrecks_end.json"
+hash = "fca8931057bbb46b3ed429ac26653313637a70cd9a782a3841f960c04398df00"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/shipwrecks_nether.json"
+hash = "ddb72922c054b820d95edadc55b13b93f19deebef6cd3d0bb265c8d9add39727"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/strongholds_end.json"
+hash = "0dda0b6ac1e627271f9b6162b15861819facfbb391f70b0b52b7bb2a9a7ad513"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/strongholds_nether.json"
+hash = "47af52a54bb1c0b3147b924a36e454eeb9ec79b13a4063d9d94d378295751a19"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/temples_nether.json"
+hash = "1b49bf32307b35d9ffdebea8c13ac7a1d7da1ded6208a3ef0e92f20c6fdd09e5"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/temples_overworld.json"
+hash = "d833195a043f8090782e69144254c996809ecf213a808c657e293cdcc214185d"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/villages_mushroom.json"
+hash = "62ab79cd868ad41717b94b5fea39e5c2432cbb4412aa64dfc2d0abcbce1bcc51"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/villages_nether.json"
+hash = "ec9172e5e745d2b307e3c9cb361f325531f4370cd53841bce4da7db0b6fd333b"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/villages_overworld.json"
+hash = "b56dc7bcc0a7fffa4763b54be0504d075c1c348f8ec961b5773174f95b25e796"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/worldgen/structure_set/witch_huts_overworld.json"
+hash = "a9c8958c4bf427414e9fede596568b6b562ed76a6e1baecb6f7a6a416af0f5ed"
+
+[[files]]
+file = "resources/packs/repurposed_structures_tweaks/pack.mcmeta"
+hash = "9b468e5b4e46cf0ce0a639467f9f8c9fa9e6061f415ec2b48cead876c8637645"
 
 [[files]]
 file = "resources/packs/sullys-peeves.pw.toml"
