@@ -138,7 +138,7 @@ hash = "b69881dba029f09234ad91b2169ef2534dc3d3576908bcf4e344e0496ef1ddc2"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
-hash = "3d0f2a0e965fe090a131fefc78e934c004fe5c91cdb5fa082d5b9f47b2934b0a"
+hash = "e8b4171fb89198014bf2d926a7d179524883deb89fd7f6ec1a9febd7dd6bbf5e"
 
 [[files]]
 file = "config/forcecloseloadingscreen.json"
@@ -1298,6 +1298,58 @@ hash = "55f4b3a828f0e7e7b9ff27f718c4d451fcee5c609b0769647dfc8cad7f645467"
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
 hash = "d36bc3c267ed3c93595278fa0eb3df0fb44caea69d519f3f2666879c965199a9"
+
+[[files]]
+file = "resources/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "0efe9a05108fe600577638b659ad13d06282b6f3cadae6f3922a5521f9e02493"
+
+[[files]]
+file = "resources/data/campanion/advancements/recipes/tools/rope_bridge_post.json"
+hash = "47ed1748f75fc63955fd6544edd2b2cf0ee6210d8f67dd794cab661689f44e31"
+
+[[files]]
+file = "resources/data/campanion/advancements/recipes/tools/tent_bag.json"
+hash = "8b30232dc89a6dff8092abaa187402214543c46b1f97a988f8b51426cd4225de"
+
+[[files]]
+file = "resources/data/campanion/recipes/camping_pack.json"
+hash = "dc055fe32f7d2d5ec015ecdd3c53add4f9b8db450be93cb3512930f35545b9fc"
+
+[[files]]
+file = "resources/data/campanion/recipes/day_pack.json"
+hash = "de2fe1b942b12d92ec4096f152f6479de2e403a709893598a929bc51e7318915"
+
+[[files]]
+file = "resources/data/campanion/recipes/grappling_hook.json"
+hash = "b09c405408a2d9efbbe54d894ae68b1f08ee8b3f69e1ae3747d0d99d2001d9d3"
+
+[[files]]
+file = "resources/data/campanion/recipes/hiking_pack.json"
+hash = "2aea91e95d2b089707bfffa6a4c68e3609448df1d23b6a5e598ebd3b68903a2d"
+
+[[files]]
+file = "resources/data/campanion/recipes/large_unbuilt_tent.json"
+hash = "a23dbe9f50dcf8eaff7f7ec211366d0345e985b4b0bcfa90f9dcc1307ce7f03a"
+
+[[files]]
+file = "resources/data/campanion/recipes/rope.json"
+hash = "43a08b14d777026b4c20ac5d4e3fba3974c062292a1f624074b4714696cfa954"
+
+[[files]]
+file = "resources/data/campanion/recipes/rope_ladder.json"
+hash = "e667b61a387c34f0cd617bd71d7bd60b757096723230c27dcf57bb3bfd2371cb"
+
+[[files]]
+file = "resources/data/campanion/recipes/small_unbuilt_tent.json"
+hash = "d30e35a30e60c55f5a176a0bc0d4e77d47121be12a28a4b67db8c37b5bff6a53"
+
+[[files]]
+file = "resources/data/campanion/recipes/tent_bag.json"
+hash = "d2581b504714a5017c24f59ab00e4a828dbcab68fddd81c23dc500f47bea25e8"
+
+[[files]]
+file = "resources/data/campanion/smithing_unit_costs/grappling_hook.json"
+hash = "ee5f30b92d8c3f8ec9236c49ceef96cdb1e2b1092e0472485befdfeda0de92bf"
 
 [[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
