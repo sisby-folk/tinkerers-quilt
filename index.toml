@@ -898,11 +898,6 @@ hash = "a7887ecc4d2a5914558dcb5d8e57058cc88e878b1301855591e30b58c8155cf7"
 metafile = true
 
 [[files]]
-file = "mods/nullscape.pw.toml"
-hash = "80e6f15ebc852ba4e4b6d14dbc2a9d2b3514aac104840f5c279bd4cb726977aa"
-metafile = true
-
-[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
 metafile = true
