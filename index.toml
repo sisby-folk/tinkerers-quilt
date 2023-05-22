@@ -138,7 +138,7 @@ hash = "b69881dba029f09234ad91b2169ef2534dc3d3576908bcf4e344e0496ef1ddc2"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
-hash = "e8b4171fb89198014bf2d926a7d179524883deb89fd7f6ec1a9febd7dd6bbf5e"
+hash = "0fb20c11771711b52e612fcc753b954fc600c80795fb5bbc584096fd7bbd26a1"
 
 [[files]]
 file = "config/forcecloseloadingscreen.json"
@@ -1407,6 +1407,14 @@ hash = "ee5f30b92d8c3f8ec9236c49ceef96cdb1e2b1092e0472485befdfeda0de92bf"
 [[files]]
 file = "resources/packs/campanion_delight_compat/pack.mcmeta"
 hash = "6f291676d11cae3a8cf38c6283a90a384997aee3f3d0d8b2af9295f19c3040b3"
+
+[[files]]
+file = "resources/packs/deco_consistency_compat/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "3ac37b8be31ca11528210c57f302bef727f693671b07b420af150f7267cce3de"
+
+[[files]]
+file = "resources/packs/deco_consistency_compat/pack.mcmeta"
+hash = "354060901020a9c8a7a06004f2a0927f12cefa438534255e6674fd5e3b325ec5"
 
 [[files]]
 file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_modifiers/import_modded_loot.json"
