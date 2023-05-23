@@ -25,6 +25,7 @@
 				"By adding chests to each of these hoppers, you can set up a furnace to run over very long times."
 			]
 			dependencies: ["55783EE248BAC550"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "796366A8D7D8BBF8"
 			tasks: [{
@@ -716,20 +717,16 @@
 			shape: "rsquare"
 			subtitle: "Acquire basic farming equipment"
 			description: [
-				"This pack can be played well without killing passive mobs. Often called a \"Vegetarian\" playthrough."
+				"By using a hoe on dirt, soil can be tilled for planting seeds."
 				""
-				"Bread, baked potatoes, and (eventually) golden carrots is a good start."
+                "Watered soil grows crops faster, requiring water within 4 blocks in any direction."
 				""
 				"Hoes in this pack can harvest crops using right-clicking. Better hoes have a larger radius."
+				""
+				"Bonemeal can be used to instantly grow crops using right-click."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [
-				{
-					id: "05EEFD50897A505C"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:bone_meal"
-				}
 				{
 					id: "698EC81BE855F4C9"
 					type: "item"
@@ -751,11 +748,12 @@
 				}
 			]
 			rewards: [{
-				id: "046833CC8D4ADAF5"
-				type: "item"
-				item: "minecraft:golden_carrot"
-				count: 10
-			}]
+                id: "05EEFD50897A505C"
+                type: "item"
+                disable_toast: true
+                item: "minecraft:bone_meal"
+                count: 16
+            }]
 		}
 		{
 			title: "Here in my Garage [Workshopping]"
@@ -1195,6 +1193,7 @@
 				"Detector rails can be used to trigger redstone circuits when passed by. Try it out!"
 			]
 			dependencies: ["423E897DEB76653D"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "0EF299A1A5009971"
 			tasks: [{
@@ -1407,6 +1406,7 @@
 				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them. Sneak-right-click to remove the saddle afterwards."
 			]
 			dependencies: ["423E897DEB76653D"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "7AA799B6789ABD71"
 			tasks: [{
@@ -1921,10 +1921,6 @@
 			subtitle: "Farm some Wheat"
 			description: [
 				"Wheat is the easiest crop to acquire - Just break some tall grass and get hoeing."
-				""
-				"Watered soil grows crops faster, requiring water within 4 blocks in any direction."
-				""
-				"Bonemeal can be used to instantly grow crops using right-click."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -1936,11 +1932,11 @@
 				count: 32L
 			}]
 			rewards: [{
-				id: "7986FC47C40AABE1"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 64
-			}]
+                id: "046833CC8D4ADAF5"
+                type: "item"
+                item: "minecraft:golden_carrot"
+                count: 16
+            }]
 		}
 		{
 			title: "Gaia"
