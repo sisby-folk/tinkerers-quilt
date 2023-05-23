@@ -23,6 +23,7 @@
 				"Gold isn't immediately useful for equipment. Its pickaxes can only mine blocks wooden ones can, and all durability is low."
 			]
 			dependencies: ["548555BB1E839006"]
+			dependency_requirement: "one_started"
 			id: "41C9341CA261E52B"
 			tasks: [{
 				id: "1017D28DD8548D65"
@@ -37,7 +38,6 @@
 					}
 				}
 				count: 10L
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -97,6 +97,7 @@
 				""
 				"An enchanted pickaxe with §oFortune§r can yield more diamonds per block later on."
 			]
+			dependency_requirement: "one_started"
 			dependencies: ["41C9341CA261E52B"]
 			id: "28AFD82AD9C0B721"
 			tasks: [{
@@ -241,6 +242,7 @@
 				"2F14C1EBEBA3F558"
 				"6C5A4279D8850C52"
 			]
+			dependency_requirement: "one_started"
 			optional: true
 			id: "55AB6125B20E666B"
 			tasks: [{
@@ -272,9 +274,8 @@
 				"The closest underground strongholds are located between 1280-2820 blocks of world spawn (X=0, Z=0). Forming a thick \"Ring\" of valid locations."
 				""
 				"Throwing an ender eye will point in the direction of the nearest one, at the risk of consuming it."
-				""
-				"Good Luck! And maybe take notes with Notes!"
 			]
+			dependency_requirement: "one_started"
 			dependencies: ["55AB6125B20E666B"]
 			id: "2803B3AF9D4E64A3"
 			tasks: [{
@@ -291,7 +292,7 @@
 			x: 8.5d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Kill 10 Endermen"
+			subtitle: "Kill 5 Endermen"
 			description: [
 				"Endermen are most easily fought in numbers in the desert at night, where the flat light ground makes them very visible."
 				""
@@ -303,7 +304,7 @@
 				id: "16862F568DACE013"
 				type: "kill"
 				entity: "minecraft:enderman"
-				value: 10L
+				value: 5L
 			}]
 			rewards: [
 				{
@@ -493,6 +494,7 @@
 				"Enchantments are random, and the most expensive ones require Level 30, but only cost 3 levels. Achieving this requires the table to be surrounded with 15 bookshelves, with one block space between."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "594D5FA160E7C304"
 			tasks: [{
@@ -850,6 +852,7 @@
 				"Further armor can be crafted from better materials."
 			]
 			dependencies: ["41C9341CA261E52B"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "4FF54D00F9D67A59"
 			tasks: [{
@@ -883,6 +886,7 @@
 				"Grindstones allow you to un-enchant an item, refunding some XP and allowing the item to be Re-Enchanted."
 			]
 			dependencies: ["594D5FA160E7C304"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "324EABD3C7110E53"
 			tasks: [
@@ -1060,6 +1064,7 @@
 				"Bundles can be right-clicked in the inventory to store and retrieve up to 64 of many types of items, which helps store small stacks."
 			]
 			dependencies: ["41C9341CA261E52B"]
+			dependency_requirement: "one_started"
 			hide: true
 			id: "358409FE5C2E19E6"
 			tasks: [
