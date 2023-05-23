@@ -448,9 +448,8 @@ hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
 metafile = true
 
 [[files]]
-file = "mods/arch-ex.pw.toml"
-hash = "f0e9dfb7405e8c7667a670f398a644ec17ac044dd5404ebe9cbf5aa5bfb907c4"
-metafile = true
+file = "mods/architecture_extensions-1.1.3+1.19.jar"
+hash = "2088f7be7ff31fadfcc6f4b3830e59516a878425b91437800c81e77b2c05817d"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
