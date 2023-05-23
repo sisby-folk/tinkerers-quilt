@@ -37,7 +37,6 @@
 					}
 				}
 				count: 10L
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -272,8 +271,6 @@
 				"The closest underground strongholds are located between 1280-2820 blocks of world spawn (X=0, Z=0). Forming a thick \"Ring\" of valid locations."
 				""
 				"Throwing an ender eye will point in the direction of the nearest one, at the risk of consuming it."
-				""
-				"Good Luck! And maybe take notes with Notes!"
 			]
 			dependencies: ["55AB6125B20E666B"]
 			id: "2803B3AF9D4E64A3"
@@ -291,7 +288,7 @@
 			x: 8.5d
 			y: -2.5d
 			shape: "diamond"
-			subtitle: "Kill 10 Endermen"
+			subtitle: "Kill 5 Endermen"
 			description: [
 				"Endermen are most easily fought in numbers in the desert at night, where the flat light ground makes them very visible."
 				""
@@ -303,7 +300,7 @@
 				id: "16862F568DACE013"
 				type: "kill"
 				entity: "minecraft:enderman"
-				value: 10L
+				value: 5L
 			}]
 			rewards: [
 				{
