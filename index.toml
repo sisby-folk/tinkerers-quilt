@@ -86,11 +86,11 @@ hash = "45e0bc887049f7e264f8c093b398a08511cfc61eb2eb21ee89bf37074c70ffbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "eb28a934013ac8f7cc1609fc5ae1517d9378eccd8b3bd3056b4a3b76a0945d22"
+hash = "f083b2ba5b326f0c3e30f714b713105964bed707eb47452c258c03c3cc7a05da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "634f6fd118d40ceabe7a095987bec8960cd4411c91526e87f2d944daf9967991"
+hash = "ee8cee483ee6d2881ee85239d78b77dde0a4fc2b8144baa6b4d3cc2baf774dc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -267,6 +267,10 @@ hash = "fc1b5f1165ec9c762cd3fc9d6766453e74f8736de9bfc0676aa9e6fb6d126c4c"
 [[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
+
+[[files]]
+file = "mods/Origins-1.19.2-1.7.1.jar"
+hash = "5b691abcae94af27295b9afaa1ee78fdda35cdf0355220aee30c0f8ee3e4f9d6"
 
 [[files]]
 file = "mods/advancements-debug.pw.toml"
@@ -673,11 +677,6 @@ metafile = true
 [[files]]
 file = "mods/origins-minus.pw.toml"
 hash = "4786a264f3b95a6bc78633a6318d618b652e108cb9550d3821135fac4c5d6515"
-metafile = true
-
-[[files]]
-file = "mods/origins.pw.toml"
-hash = "862b429a623762ef0469eb2a409b9450a9b70071cf9bffabca654b97f7528424"
 metafile = true
 
 [[files]]

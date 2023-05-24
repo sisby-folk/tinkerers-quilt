@@ -9,18 +9,16 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Getting Started"
+			title: "Going Underground"
 			x: 1.5d
 			y: 0.5d
-			subtitle: "Smelt 10 Iron Ingots"
+			subtitle: "Smelt 6 Iron Ingots"
 			description: [
-				"Stone pickaxes allow you to mine Iron, which can be smelted into Ingots"
+				"A &3Stone Pickaxe&r allows you to mine &dIron&r, which can be smelted at a &3Furnace&r into Ingots"
 				""
-				"Iron pickaxes can be used to mine diamonds."
+				"An &3Iron Pickaxe&r can in turn mine &3Gold&r, which makes poor equipment, and the rarer &3Diamond&r, which makes the best overworld equipment."
 				""
-				"Iron can also be made into tools, weapons, and armor."
-				""
-				"Gold isn't immediately useful for equipment. Its pickaxes can only mine blocks wooden ones can, and all durability is low."
+				"&eBundles&r can help store small varied items, simply &6Right-Click&r while holding a stack over the bundle."
 			]
 			dependencies: ["548555BB1E839006"]
 			dependency_requirement: "one_started"
@@ -37,22 +35,13 @@
 						value: "minecraft:beacon_payment_items"
 					}
 				}
-				count: 10L
+				count: 6L
 			}]
-			rewards: [
-				{
-					id: "711336121988CB06"
-					type: "item"
-					item: "minecraft:charcoal"
-					count: 16
-				}
-				{
-					id: "46199844089D3F1D"
-					type: "item"
-					item: "minecraft:raw_gold"
-					count: 10
-				}
-			]
+			rewards: [{
+				id: "35D4A094E1392970"
+				type: "item"
+				item: "minecraft:bundle"
+			}]
 		}
 		{
 			title: "Back to Basics"
@@ -61,9 +50,9 @@
 			y: -1.0d
 			subtitle: "Obtain 11 Cobblestone"
 			description: [
-				"Wooden pickaxes allow you to obtain cobblestone, which can be used to make (among other things) pickaxes and furnaces."
+				"Holding a &3Pickaxe&r allows you to obtain &3Cobblestone&r, which can be used to make &dtools and furnaces&r."
 				""
-				"By pressing §nF§r while holding an item, you can place it in your \"off hand\" - this can allow you to do things like hold torches while caving."
+				"&7[Tinkerer's Smithing]&r you can upgrade your &3Wooden Pickaxe&r by adding 3 cobblestone in the crafting grid."
 			]
 			dependencies: ["53AFBD6DDF572701"]
 			id: "548555BB1E839006"
@@ -97,8 +86,8 @@
 				""
 				"An enchanted pickaxe with §oFortune§r can yield more diamonds per block later on."
 			]
-			dependency_requirement: "one_started"
 			dependencies: ["41C9341CA261E52B"]
+			dependency_requirement: "one_started"
 			id: "28AFD82AD9C0B721"
 			tasks: [{
 				id: "6F3511A98C05DE7B"
@@ -275,8 +264,8 @@
 				""
 				"Throwing an ender eye will point in the direction of the nearest one, at the risk of consuming it."
 			]
-			dependency_requirement: "one_started"
 			dependencies: ["55AB6125B20E666B"]
+			dependency_requirement: "one_started"
 			id: "2803B3AF9D4E64A3"
 			tasks: [{
 				id: "546CEA05C1DFDE9B"
@@ -326,15 +315,11 @@
 			x: 1.5d
 			y: -2.5d
 			shape: "rsquare"
-			subtitle: "Craft a Wooden Pickaxe*"
+			subtitle: "Craft a Wooden Pickaxe"
 			description: [
-				"When the inventory is open, EMI appears in a pane on the right of the screen."
+				"A &3Wooden Pickaxe&r can be made using material from trees at a &3Crafting Table&r"
 				""
-				"By pressing §nCTRL+F§r or clicking the Search box, you can filter the list of items by name."
-				""
-				"Try searching for \"wooden pickaxe\" and then left clicking on the icon to see its §oRecipe§r"
-				""
-				"The wooden pickaxe is made using a crafting table (shown left of the recipe) which itself can also be left clicked for its own recipe."
+				"&7[EMI]&r You can look up recipes for both any time in the search box!"
 			]
 			id: "53AFBD6DDF572701"
 			tasks: [{
@@ -494,8 +479,8 @@
 				"Enchantments are random, and the most expensive ones require Level 30, but only cost 3 levels. Achieving this requires the table to be surrounded with 15 bookshelves, with one block space between."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "594D5FA160E7C304"
 			tasks: [{
 				id: "28E2B53465A55920"
@@ -772,20 +757,18 @@
 			dependencies: ["274780E9080AF463"]
 			hide: true
 			id: "0C2C9057CE459E63"
-			tasks: [
-				{
-					id: "1BE9417FD5079964"
-					type: "item"
-					disable_toast: true
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
+			tasks: [{
+				id: "1BE9417FD5079964"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "74647DB1EEC564B3"
@@ -843,15 +826,15 @@
 			y: 0.5d
 			subtitle: "Equip a piece of Iron Armor"
 			description: [
-				"Armor increases your defense, which reduces the damage from incoming attacks"
+				"&3Armor&r increases your &3defense&r, which &dreduces damage taken&r."
 				""
-				"Your defense is shown on a meter above your health."
+				"Your &3total defense&r is shown as a meter above your health."
 				""
-				"Further armor can be crafted from better materials."
+				"&eFood and Potions&r can provide beneficial &3status effects&r for dangerous situations."
 			]
 			dependencies: ["41C9341CA261E52B"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "4FF54D00F9D67A59"
 			tasks: [{
 				id: "7F5C1B92A8E5D119"
@@ -884,8 +867,8 @@
 				"Grindstones allow you to un-enchant an item, refunding some XP and allowing the item to be Re-Enchanted."
 			]
 			dependencies: ["594D5FA160E7C304"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "324EABD3C7110E53"
 			tasks: [
 				{
@@ -1047,23 +1030,23 @@
 			y: 0.5d
 			subtitle: "Have one of every tool"
 			description: [
-				"Most blocks have a §oPreferred Tool§r that breaks them the fastest."
+				"Most blocks have a &3Preferred Tool&r that breaks them the fastest."
 				""
-				"Axes break most things made of wood fastest, including logs, planks, and most furniture."
+				"&3Axes&r break wood, including logs, planks, and most furniture."
 				""
-				"Shovels break dirt, sand, clay, snow, and similar soft groundcover fastest."
+				"&3Shovels&r break dirt, sand, clay, snow, and similar groundcover."
 				""
-				"Swords break cobwebs and bamboo fastest, but Shears can the cobwebs themselves - along with most plants."
+				"&3Swords&r break cobwebs and bamboo."
 				""
-				"Hoes break hay bales, leaves, moss, and some fungal nether blocks fastest."
+				"&3Hoes&r break hay bales, leaves, moss, and fungi."
 				""
-				"Finally, pickaxes break the most blocks fastest, including most \"hard\" blocks, and blocks and furniture made of stones and metals."
+				"&3Pickaxes&r break most \"hard\" blocks, including anything stone or metal. When broken with any other tool, many of these are &ddestroyed&r."
 				""
-				"Bundles can be right-clicked in the inventory to store and retrieve up to 64 of many types of items, which helps store small stacks."
+				"&eShears&r can be used to collect fragile blocks like plants and cobwebs."
 			]
 			dependencies: ["41C9341CA261E52B"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "358409FE5C2E19E6"
 			tasks: [
 				{
@@ -1120,10 +1103,15 @@
 				}
 			]
 			rewards: [{
-				id: "65FE86129245CA99"
+				id: "0072CA8B14AD480A"
 				type: "item"
-				item: "minecraft:bundle"
-				count: 2
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
