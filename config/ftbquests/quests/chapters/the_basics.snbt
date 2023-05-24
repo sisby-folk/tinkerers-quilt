@@ -15,7 +15,7 @@
 			y: 0.5d
 			subtitle: "Smelt 6 Iron Ingots"
 			description: [
-				"A &3Stone Pickaxe&r allows you to mine &dIron&r, which can be smelted at a &3Furnace&r into Ingots"
+				"A &3Stone Pickaxe&r allows you to mine &3Iron Ore&r, which can be smelted at a &3Furnace&r into &dIron Ingots&r"
 				""
 				"An &3Iron Pickaxe&r can in turn mine &3Gold&r, which makes poor equipment, and the rarer &3Diamond&r, which makes the best overworld equipment."
 				""
@@ -51,7 +51,7 @@
 			y: -1.0d
 			subtitle: "Mine 11 Cobblestone"
 			description: [
-				"Holding a &3Pickaxe&r allows you to obtain &3Cobblestone&r, which can be used to make &dtools and furnaces&r."
+				"Holding a &3Pickaxe&r allows you to break &3Stone&r, which can then be used to make &dtools and furnaces&r."
 				""
 				"&7[Tinkerer's Smithing]&r you can upgrade your &3Wooden Pickaxe&r by adding 3 cobblestone in the crafting grid."
 			]
