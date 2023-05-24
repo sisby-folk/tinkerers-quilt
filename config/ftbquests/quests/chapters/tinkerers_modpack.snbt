@@ -65,6 +65,8 @@
 				"&7[Noteable]&r Press &7[&r&6N&r&7]&r to open your notes, where you can write things down for this world."
 				""
 				"&7[LambDynamicLights/ClientTweaks]&r Held items like torches will &dlight up their surroundings&r. Press &7[&r&6F&r&7]&r to swap one to your &3off-hand&r, where it can't be placed accidentally."
+				""
+				"&7[Reacharound]&r When a &3visual [- -] indicator&r appears at the crosshair, you can place blocks on &dnormally unreachable sides&r - Useful for building &dbridges, walls, and downward staircases&r."
 			]
 			dependencies: ["15402DCFAC7CC56A"]
 			hide: true
@@ -79,7 +81,7 @@
 			rewards: [{
 				id: "2B52865B1A2AB9EB"
 				type: "item"
-				item: "minecraft:torch"
+				item: "minecraft:lantern"
 			}]
 		}
 		{
@@ -131,6 +133,10 @@
 				"&7[Iris]&r Press &7[&r&6ALT+I&r&7]&r to configure shaders, and &7[&r&6I&r&7]&r to toggle them once configured."
 				""
 				"&7[Presence Footsteps]&r Press &7[&r&6ALT+P&r&7]&r to adjust the volume or gait of your footsteps, including number of legs."
+				""
+				"&7[LambdaBetterGrass]&r You can change whether grass connects vertically from the &3Better Grass&r mod menu."
+				""
+				"&7[Charmonium]&r You can adjust the volume of audio ambience from the &3Charmonium&r mod menu."
 			]
 			dependencies: ["15402DCFAC7CC56A"]
 			id: "337730F25EC36332"
@@ -148,7 +154,7 @@
 			}]
 		}
 		{
-			title: "Crafting Changes"
+			title: "Crafting Controls"
 			icon: "minecraft:crafting_table"
 			disable_toast: true
 			x: 0.0d
@@ -156,7 +162,11 @@
 			shape: "octagon"
 			subtitle: "Mining *and* Crafting"
 			description: [
-				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &bchange workstations&r, or click the visual tabs around the screen. "
+				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &dchange workstations&r, or click the visual tabs around the screen. "
+				""
+				"&7[MouseWheelie]&r &6Middle Click&r in any inventory &dsort items&r."
+				""
+				"&7[Inspecio]&r Tooltips contain &ddetailed item information&r, such as item contents, attributes, and effects."
 				""
 				"&7[Portable Crafting]&r Press &7[&r&6V&r&7]&r to open your crafting table anywhere, if you have one."
 				""
@@ -185,6 +195,153 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Difficulty Changes"
+			icon: "minecraft:structure_void"
+			disable_toast: true
+			x: -1.5d
+			y: -2.0d
+			shape: "octagon"
+			subtitle: "Apathy, Graves, and Pets"
+			description: [
+				"&7[Apathy]&r On &3Easy Difficulty&r, mobs &dwill not attack you&r unless you attack them first - including guard mobs and bosses."
+				""
+				"&7[YIGD]&r On death, a &3Grave&r will be placed that &dcontains your items&r. Simply &6Right-Click&r the grave to restore them. When respawning, you'll receive a &3Compass&r that points to your grave."
+				""
+				"&7[SaveThePets]&r You can't accidentally hit your tamed animals like horses or wolves. On death, tamed animals drop a note that, when used on a &3Copper Block&r, will &drevive&r them."
+				""
+				"&7[HorseBuff/Fabrication]&r Saddled horses &dwill not wander&r from where they're left. &6Sneak+Right-Click&r to unsaddle mobs."
+			]
+			dependencies: ["15402DCFAC7CC56A"]
+			id: "7DCD80F80208292A"
+			tasks: [{
+				id: "13A47D4ACD23046E"
+				type: "checkmark"
+				title: "Click Here!"
+				disable_toast: true
+			}]
+		}
+		{
+			title: "Crafting Rebalance"
+			icon: "minecraft:smithing_table"
+			disable_toast: true
+			x: 1.5d
+			y: -2.0d
+			shape: "octagon"
+			subtitle: "Sentimentality and Vegetarianism"
+			description: [
+				"&7[Tinkerer's Quilt]&r There are alternative recipes for &dLeather, Slimeballs, and Glow Ink Sacs&r that don't require killing their respective mobs. &dArrows&r can also be scavenged from skeletons."
+				""
+				"&7[Fabrication]&r Villagers will &drotate their stock every day&r: You're more likely to see special items, but &dcan't buy them infinitely&r."
+				""
+				"&7[Tinkerer's Smithing]&r There are recipes to &dUpgrade&r equipment to better materials at the &3Smithing Table&r - or the &3Crafting Table&r for &3unenchanted&r gear."
+				""
+				"There are also matching recipes to &dRepair&r equipment at the &3Anvil&r or the &3Crafting Table&r, costing no experience or work."
+				""
+				"Finally, equipment can be &dDe-Worked&r one stage using &3Netherite Scrap&r at an &3Anvil&r, making adding enchantments &dcost less experience&r."
+			]
+			dependencies: ["15402DCFAC7CC56A"]
+			id: "00BF3119EB22417C"
+			tasks: [{
+				id: "47D97349DBC5E67F"
+				type: "checkmark"
+				title: "Click Here!"
+				disable_toast: true
+			}]
+		}
+		{
+			title: "Vanilla Discrepancies"
+			icon: "minecraft:writable_book"
+			disable_toast: true
+			x: 0.0d
+			y: 3.0d
+			shape: "octagon"
+			subtitle: "You don't have to read this."
+			description: [
+				"&2&lWorld Interaction&r"
+				""
+				"&7[Fabrication]&r "
+				"Items go directly into your inventory."
+				"Cactus doesn't delete items."
+				"The void deals damage and recalls you."
+				"Campfires must be lit."
+				"Obsidian breaks faster."
+				"Filling bottles refills air."
+				"Cactus don't hurt with armor."
+				"Bushes don't hurt with armor/sneaking."
+				"Phantoms do not spawn."
+				"Endermen and Creepers don't grief."
+				"Villagers follow emerald blocks."
+				"Spiders can't climb glazed / when wet."
+				""
+				"&7[Carpet]&r"
+				"Nether portals move players faster."
+				""
+				"&2&lInterfaces&r"
+				""
+				"&7[Fabrication]&r  "
+				"Chat §o*italics*§r*, §l**bold**§r, ~~§mstrike§r~~."
+				"Old commands still work."
+				"Maps show their number."
+				"Important enchantments show a letter."
+				""
+				"&2&lFarming&r"
+				""
+				"&7[Fabrication]&r "
+				"Bonemeal can grow moss."
+				"Farms are trample-resistant."
+				"Dragon eggs are breakable."
+				""
+				"&7[Carpet]&r"
+				"Bonemeal grows sugarcane, cactus, lilypads, and coral."
+				"Blaze powder grows nether wart."
+				"Clerics farm nether wart."
+				"Chickens can be sheared for 1hp."
+				"Nether basalt generators with soul sand below generate blackstone instead."
+				"Coral grows from bonemealing coral plants."
+				"Deepslate generates from water and lava below y=0."
+				"Guardians turn into elder guardians when struck by lightning."
+				""
+				"&2&lEquipment&r"
+				""
+				"&7[Fabrication]&r "
+				"Infinity doesn't need arrows."
+				"Impaling works on any wet mob."
+				"Power and Sharpness for tridents."
+				"Feather Falling V (damage to boots)."
+				"No soul speed boot damage."
+				"Infinity on crossbows."
+				"Buff underwater arrows slightly."
+				""
+				"Channeling II works in any Rain."
+				"Terraforming rivers is easier."
+				"Tools fit in bundles."
+				"Creepers can't climb ladders."
+				""
+				"&2&lMachines&r"
+				""
+				"&7[Fabrication]&r "
+				"Minecarts are silent."
+				"Furnace carts are efficient and fast, can be pushed, and load chunks."
+				"Magenta Terracotta can make rails directional."
+				"Directional power/detector rail with Magenta Terracotta."
+				"Comparators work on Powered Rails."
+				"Clicking furnace output gives XP."
+				""
+				"&7[Carpet]&r"
+				"Dispensers do more things (See Homesteading->Mechanisms->Advanced)."
+				"Chains link blocks when pushed."
+				"Re-enables double piston extenders."
+				"Non-positional, faster Redstone Dust."
+			]
+			id: "1474F51D2832FCD5"
+			tasks: [{
+				id: "2B6CD287B75CD676"
+				type: "checkmark"
+				title: "Click Here!"
+				disable_toast: true
 			}]
 		}
 	]
