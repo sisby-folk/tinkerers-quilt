@@ -428,14 +428,13 @@ hash = "b494eb2872c5eb3c498e147be24a62e2c62485e375b9b99c15ae0faf8f9dd2ca"
 metafile = true
 
 [[files]]
-file = "mods/antique-atlas.pw.toml"
-hash = "6f34929ba29cdb631f3642ace7f2a9aa5198888a52d3a753a40e90243fd3efd8"
-metafile = true
-
-[[files]]
 file = "mods/antique-fwaystones.pw.toml"
 hash = "205441161783626b246541209a0476897b0e1071b544e94ad71165c5ee6bfee5"
 metafile = true
+
+[[files]]
+file = "mods/antiqueatlas-8.0.0-fabric-mc1.19.2.jar"
+hash = "fe96f2004d3647d9570bfa46ff06917ff24dcf02a83fcbfeeefcb04e85ea3887"
 
 [[files]]
 file = "mods/apathy.pw.toml"
