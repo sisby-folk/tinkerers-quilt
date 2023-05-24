@@ -10,6 +10,7 @@
 	quests: [
 		{
 			title: "Going Underground"
+			icon: "minecraft:iron_ore"
 			x: 1.5d
 			y: 0.5d
 			subtitle: "Smelt 6 Iron Ingots"
@@ -26,7 +27,7 @@
 			tasks: [{
 				id: "1017D28DD8548D65"
 				type: "item"
-				title: "Iron Ingot"
+				title: "6x Iron Ingot"
 				icon: "minecraft:iron_ingot"
 				item: {
 					id: "itemfilters:tag"
@@ -44,11 +45,11 @@
 			}]
 		}
 		{
-			title: "Back to Basics"
+			title: "Finally Mining"
 			icon: "minecraft:cobblestone"
 			x: 1.5d
 			y: -1.0d
-			subtitle: "Obtain 11 Cobblestone"
+			subtitle: "Mine 11 Cobblestone"
 			description: [
 				"Holding a &3Pickaxe&r allows you to obtain &3Cobblestone&r, which can be used to make &dtools and furnaces&r."
 				""
@@ -59,7 +60,8 @@
 			tasks: [{
 				id: "050711EC7A11A624"
 				type: "item"
-				title: "Collect 11 Cobblestone (Any)"
+				title: "11x Cobblestone"
+				icon: "minecraft:cobblestone"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -78,13 +80,16 @@
 		}
 		{
 			title: "Striking Gold"
+			icon: "minecraft:diamond_ore"
 			x: 1.5d
 			y: 2.0d
-			subtitle: "Obtain 3 Diamonds"
+			subtitle: "Obtain a Diamond"
 			description: [
-				"Diamonds spawn deep underground, increasing in quantity in the lowest deepslate layers. Pickaxes made from them can mine obsidian."
+				"&3Diamond Ore&r spawns far underground, and is most common in deep deepslate."
 				""
-				"An enchanted pickaxe with §oFortune§r can yield more diamonds per block later on."
+				"A &3Diamond Pickaxe&r can mine &3Obsidian&r, used for &denchanting and portals&r."
+				""
+				"&7[Tinkerer's Smithing]&r &eSmithing Tables&r can upgrade equipment using &dless materials&r - producing a partial-durability result."
 			]
 			dependencies: ["41C9341CA261E52B"]
 			dependency_requirement: "one_started"
@@ -92,22 +97,13 @@
 			tasks: [{
 				id: "6F3511A98C05DE7B"
 				type: "item"
+				title: "1x Diamond"
 				item: "minecraft:diamond"
-				count: 3L
 			}]
 			rewards: [{
-				id: "2328FD11217D18D9"
+				id: "6A949AA460E8D229"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:fortune"
-							lvl: 1s
-						}]
-					}
-				}
+				item: "minecraft:smithing_table"
 			}]
 		}
 		{
@@ -125,11 +121,12 @@
 				"5284C4BF9EAC6D9E"
 				"7AF853FC528DE6C6"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
 			id: "3079DAC3AB1B0AD9"
 			tasks: [{
 				id: "3E480E6CE0408D0A"
 				type: "dimension"
+				title: "Enter the Nether"
 				dimension: "minecraft:the_nether"
 			}]
 			rewards: [{
@@ -317,7 +314,7 @@
 			shape: "rsquare"
 			subtitle: "Craft a Wooden Pickaxe"
 			description: [
-				"A &3Wooden Pickaxe&r can be made using material from trees at a &3Crafting Table&r"
+				"A &3Wooden Pickaxe&r can be made using material from trees at a &3Crafting Table&r."
 				""
 				"&7[EMI]&r You can look up recipes for both any time in the search box!"
 			]
@@ -413,11 +410,15 @@
 			title: "It's Just Like Breath of the Wild!"
 			x: 1.5d
 			y: 3.5d
-			subtitle: "Find ancient debris."
+			subtitle: "Mine Ancient Debris"
 			description: [
-				"Ancient debris is a rare material found in black-bricked bastion remnants, and in small quantities by riskily strip-mining below the lava sea of the nether. Try y=9."
+				"&3Ancient Debris&r is a rare &2Nether&r material found in &3Bastion Remnants&r."
 				""
-				"It can be used to make the best gear, and is also used to help improving maintaining enchanted tools in this pack."
+				"With sufficient preperation, it can also be mined for &2under the lava sea&r &7(around y:9)&r, risking lava flows."
+				""
+				"It's used to make &dNetherite Ingots&r, which can upgrade &3Diamond Equipment&r at a &3Smithing Table&r."
+				""
+				"&7[Tinkerer's Smithing]&r &3Netherite Scrap&r can also be applied to equipment at an &3Anvil&r to &dlower its anvil costs&r."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
@@ -425,6 +426,7 @@
 			tasks: [{
 				id: "0F6EBD8A1A1D375E"
 				type: "item"
+				title: "1x Ancient Debris"
 				item: "minecraft:ancient_debris"
 			}]
 			rewards: [
@@ -432,39 +434,15 @@
 					id: "191C95A50E20CDF1"
 					type: "item"
 					item: "minecraft:gold_ingot"
-					count: 16
+					count: 4
 				}
 				{
 					id: "47985ECF276FEE7A"
 					type: "item"
 					item: "minecraft:ancient_debris"
-					count: 3
+					count: 4
 				}
 			]
-		}
-		{
-			title: "Desperate Times"
-			x: 0.0d
-			y: 3.5d
-			subtitle: "Make a Netherite Ingot"
-			description: [
-				"Ancient debris can be combined with gold and heat to make Netherite - a superior material for tools and armor alike."
-				""
-				"Netherite can be added directly to diamond gear using the §oSmithing Table.§r"
-			]
-			dependencies: ["5DA11E4FA4C52495"]
-			hide: true
-			id: "4413A0B2A6BF9695"
-			tasks: [{
-				id: "72FC9B9A148AAA24"
-				type: "item"
-				item: "minecraft:netherite_ingot"
-			}]
-			rewards: [{
-				id: "0B8DBDF8859CC0C8"
-				type: "item"
-				item: "minecraft:smithing_table"
-			}]
 		}
 		{
 			title: "I have over 9 powers"
@@ -472,11 +450,13 @@
 			y: 2.0d
 			subtitle: "Craft an Enchanting Table"
 			description: [
-				"Using an Enchanting Table, you can spend XP and lapis lazuli to apply §oEnchantments§r to tools, weapons, armor, and books."
+				"An &3Enchanting Table&r can &dadd random enchantments&r to an unenchanted piece of equipment or &ebook&r. This costs 1-3 &3experience levels&r and &3Lapis Lazuli&r."
 				""
-				"Enchantments increase the effectiveness of items in various ways. Try searching \"Enchanted\" in EMI to see what enchantments exist."
+				"Higher &3Level Requirements&r improve the odds of better enchantments. Placing &eBookshelves&r spaced one block from the table increases the &3Level Requirement&r, up to 30 with 15 shelves."
 				""
-				"Enchantments are random, and the most expensive ones require Level 30, but only cost 3 levels. Achieving this requires the table to be surrounded with 15 bookshelves, with one block space between."
+				"&7[EasierEnchanting]&r You can &6Click&r the animated book to &dreroll&r guaranteed enchantments for 6 &3Lapis Lazuli&r."
+				""
+				"&7[TaxFreeLevels]&r Enchanting at a specific &3Level Requirement&r costs the same amount of experience every time, regardless of your own level."
 			]
 			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
@@ -492,19 +472,13 @@
 					id: "2E328D292A34A71A"
 					type: "item"
 					item: "minecraft:bookshelf"
-					count: 5
+					count: 3
 				}
 				{
 					id: "225520377FB917DE"
 					type: "item"
 					item: "minecraft:book"
 					count: 3
-				}
-				{
-					id: "349E11C88CDBE958"
-					type: "item"
-					item: "minecraft:experience_bottle"
-					count: 6
 				}
 				{
 					id: "26E9795985070CF2"
@@ -578,7 +552,7 @@
 			}]
 		}
 		{
-			title: "Takeoff"
+			title: "Flight of Icarus"
 			x: 12.0d
 			y: 3.0d
 			subtitle: "Obtain an Elytra"
@@ -821,7 +795,7 @@
 			}]
 		}
 		{
-			title: "Plate Mail"
+			title: "MK-1"
 			x: 0.0d
 			y: 0.5d
 			subtitle: "Equip a piece of Iron Armor"
@@ -839,6 +813,7 @@
 			tasks: [{
 				id: "7F5C1B92A8E5D119"
 				type: "advancement"
+				title: "Equip any Iron Armor"
 				advancement: "minecraft:story/obtain_armor"
 				criterion: ""
 			}]
@@ -849,41 +824,32 @@
 			}]
 		}
 		{
-			title: "Minmaxing"
+			title: "Heavy Metal"
 			icon: "minecraft:anvil"
-			x: -1.5d
+			x: 3.0d
 			y: 2.0d
-			shape: "hexagon"
-			subtitle: "Craft an Anvil and a Grindstone"
+			subtitle: "Craft an Anvil"
 			description: [
-				"Enchanted equipment can be combined at an anvil, costing increasing XP each time. This includes equipment of the same type, or applying enchanted books to equipment."
+				"An &3Anvil&r can be used to &drepair&r equipment with materials, apply &denchantments from books&r, and &dcombine&r equipment of the same type."
 				""
-				"In this pack, repairing enchanted gear using materials costs no xp and doesn't stack up."
+				"Applying enchantments costs &3Experience Levels&r based on their strength, and increases each time the tool is modified. "
 				""
-				"The mounting XP cost on equipment can also be reversed using §oNetherite Scrap§r."
+				"Enchantments like &eSilk Touch and Fortune&r, Bow &3Infinity and Mending&r, Armor &3Protection&r, and Weapon &3Damage&r, are &dincompatible&r with eachother."
 				""
-				"Some enchantments, like §oSilk Touch§r and §oFortune§r, are incompatible, and can't be applied on the same item."
+				"&eGrindstones&r completely un-enchant equipment, &drefunding&r a small amount of experience."
 				""
-				"Grindstones allow you to un-enchant an item, refunding some XP and allowing the item to be Re-Enchanted."
+				"&7[idwtialsimmoedm]&r hold &7[&r&6Shift&r&7]&r on an &eenchanted item&r to see enchantment descriptions."
 			]
-			dependencies: ["594D5FA160E7C304"]
+			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
 			dependency_requirement: "one_started"
 			id: "324EABD3C7110E53"
-			tasks: [
-				{
-					id: "6940D98A01D79913"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:anvil"
-				}
-				{
-					id: "04915670EB15183D"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:grindstone"
-				}
-			]
+			tasks: [{
+				id: "6940D98A01D79913"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:anvil"
+			}]
 			rewards: [
 				{
 					id: "1E8AA706DE3AC6CC"
@@ -900,35 +866,23 @@
 					}
 				}
 				{
-					id: "5A48D6CAB7553D84"
-					type: "item"
-					item: "minecraft:experience_bottle"
-					count: 8
-				}
-				{
-					id: "1226DEE0DE353976"
-					type: "item"
-					item: "minecraft:book"
-					count: 16
-				}
-				{
-					id: "4536BA12AC5AE554"
+					id: "5CB3416D1CA7E6FA"
 					type: "item"
 					item: {
 						id: "minecraft:enchanted_book"
 						Count: 1b
 						tag: {
 							StoredEnchantments: [{
-								id: "minecraft:silk_touch"
+								id: "minecraft:fortune"
 								lvl: 1s
 							}]
 						}
 					}
 				}
 				{
-					id: "1BA22CBA701440EA"
+					id: "2F3F55D656F85A4F"
 					type: "item"
-					item: "minecraft:smithing_table"
+					item: "minecraft:grindstone"
 				}
 			]
 		}
@@ -1028,7 +982,7 @@
 			}
 			x: 3.0d
 			y: 0.5d
-			subtitle: "Have one of every tool"
+			subtitle: "Craft every Tool"
 			description: [
 				"Most blocks have a &3Preferred Tool&r that breaks them the fastest."
 				""
