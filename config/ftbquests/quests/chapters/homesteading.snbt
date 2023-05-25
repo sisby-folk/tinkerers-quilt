@@ -298,7 +298,7 @@
 				""
 				"Carpet can also be used to create a traversable area of fence, by placing it on top of a fence post."
 				""
-				""&7[Couplings]&r Vertically stacked fence gates will open at once."
+				"&7[Couplings]&r Vertically stacked fence gates will open at once."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
