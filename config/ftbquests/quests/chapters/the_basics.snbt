@@ -85,7 +85,7 @@
 			y: 2.0d
 			subtitle: "Obtain a Diamond"
 			description: [
-				"&3Diamond Ore&r spawns far underground, and is most common in deep deepslate."
+				"&3Diamond Ore&r spawns far underground, and is most common in &2deep deepslate&r."
 				""
 				"A &3Diamond Pickaxe&r can mine &3Obsidian&r, used for &denchanting and portals&r."
 				""
@@ -113,14 +113,17 @@
 			shape: "rsquare"
 			subtitle: "Enter the Nether"
 			description: [
-				"A §oNether Portal§r is a 4-wide by 5-high (minimum) cornerless frame of obsidian blocks, set alight on the inside with a flint and steel or fire charge."
+				"The &2Nether&r is a dimension full of lava, dangerous falls, and monsters - it can only be reached via a &3Nether Portal&r."
 				""
-				"Piglins, the villagers of the nether, are hostile to any player not wearing gold armor, and will attack those who mine for gold."
+				"Building a &3Nether Portal&r requires 10 &3Obisidan&r blocks, formed into an upright rectangular frame - 5 blocks high, and 4 blocks wide. The corners can be &3any block&r."
+				""
+				"By using &3Flint and Steel&r on the portal base, the portal will open and can be walked into."
+				""
+				"&3Piglins&r are denizens of the nether that attack players that aren't wearing &egold armor&r. They'll also attack any player that mines &3nether gold ore&r."
+				""
+				"To help find your way back to a portal, you can use an &eempty map&r while standing next to it."
 			]
-			dependencies: [
-				"5284C4BF9EAC6D9E"
-				"7AF853FC528DE6C6"
-			]
+			dependencies: ["7AF853FC528DE6C6"]
 			dependency_requirement: "one_started"
 			id: "3079DAC3AB1B0AD9"
 			tasks: [{
@@ -129,37 +132,59 @@
 				title: "Enter the Nether"
 				dimension: "minecraft:the_nether"
 			}]
-			rewards: [{
-				id: "07F2FBF6621572C3"
-				type: "item"
-				item: {
-					id: "minecraft:golden_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "07F2FBF6621572C3"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "7D86112E85D8D6D7"
+					type: "item"
+					item: "minecraft:map"
+				}
+			]
 		}
 		{
-			title: "Getaway Voucher"
-			x: 6.0d
+			title: "Fiends in High Places"
+			icon: "minecraft:crying_obsidian"
+			x: 5.5d
 			y: -2.5d
 			shape: "diamond"
 			subtitle: "Find a Ruined Portal"
 			description: [
-				"Ruined portals are partially built Nether portals. If repaired and lit, they function as normal."
+				"A &3Ruined Portal&r is a partially built nether portal surrounded by nether blocks."
 				""
-				"Fire charges act as a single-use flint and steel."
+				"They often have &dloot chests&r with materials that can help you &dfix the portal&r."
+				""
+				"A &eFire Charge&r can be used to set fire to a single block."
 			]
 			optional: true
 			id: "7AF853FC528DE6C6"
-			tasks: [{
-				id: "711B997B0F3BC7B3"
-				type: "structure"
-				icon: "minecraft:crying_obsidian"
-				structure: "#minecraft:ruined_portal"
-			}]
+			tasks: [
+                {
+                    id: "394CD32C1D98C5ED"
+                    type: "stat"
+                    title: "Enter The Overworld"
+                    icon: "minecraft:grass_block"
+                    disable_toast: true
+                    stat: "minecraft:play_time"
+                    value: 1
+                }
+				{
+					id: "711B997B0F3BC7B3"
+					type: "structure"
+					title: "Find a Ruined Portal"
+					icon: "minecraft:crying_obsidian"
+					structure: "#minecraft:ruined_portal"
+				}
+			]
 			rewards: [
 				{
 					id: "67191C389147B266"
@@ -180,38 +205,32 @@
 			y: 0.5d
 			subtitle: "Find a Nether Fortress"
 			description: [
-				"Nether fortresses are made up of two main sections. "
+				"A &2Nether Fortress&r can be identified by its large &3Nether Brick&r bridges. "
 				""
-				"There are high bridged walkways occasionally dotted with blaze spawning arenas."
+				"It contains unique enemies like &dblazes and wither skeletons&r, along with inner keeps containing &dchests of loot&r."
 				""
-				"Then there's an \"Inside\" area, which always spawns with a single block lava entrance and a staircase - This area contains chests full of loot!"
+				"&eFire Resistance&r can &dprotect you from all heat damage&r, including from touching lava."
 			]
 			dependencies: ["3079DAC3AB1B0AD9"]
 			id: "4048B08BA7BA39BE"
 			tasks: [{
 				id: "319AF1FD9F7F4A83"
 				type: "structure"
+				title: "Find a Nether Fortress"
 				icon: "minecraft:nether_brick_stairs"
 				structure: "minecraft:nether_fortress"
 			}]
-			rewards: [
-				{
-					id: "6938D31818486AEF"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:fire_resistance"
-						}
+			rewards: [{
+				id: "70202BB1A11D57BC"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
 					}
 				}
-				{
-					id: "1128AD997889DE7F"
-					type: "item"
-					item: "minecraft:raw_gold_block"
-				}
-			]
+			}]
 		}
 		{
 			title: "Finders Keepers"
@@ -590,13 +609,15 @@
 			y: 2.0d
 			subtitle: "Obtain 3 Wither Skeleton Skulls"
 			description: [
-				"The Wither is arguably the hardest boss in the game, and one best fought in a large arena deep underground in the overworld, or close to the roof in the nether."
+				"&cThe Wither&r is a high-tier boss fight best fought in an arena near bedrock in &2The Overworld&r, or near the bedrock roof of &2The Nether&r."
 				""
-				"It's summoned using a T of soul sand, with 3 heads in a row above it."
+				"It's summoned by placing 3 &3Wither Skulls&r on a row of soul sand, with another soul sand below the middle."
 				""
-				"You'll probably need to make more of these potions."
+				"&cThe Wither&r is capable of destroying much of the map (even &3Obsidian&r) with explosions if not well-contained. At half health, arrows &dstop being effective&r."
 				""
-				"(On Easy, the wither fight is skipped entirely)"
+				"&eHealing Potions&r heal players, but hurt undead enemies."
+				""
+				"&7[Apathy]&r On &3Easy Difficulty&r, the summoning ritual itself is sufficient to receive the reward."
 			]
 			dependencies: ["4048B08BA7BA39BE"]
 			hide: true
@@ -608,39 +629,33 @@
 				item: "minecraft:wither_skeleton_skull"
 				count: 3L
 			}]
-			rewards: [
-				{
-					id: "62D79C7D22C67DEC"
-					type: "item"
-					item: "minecraft:soul_sand"
-					count: 4
-				}
-				{
-					id: "58344DE55762F044"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
+			rewards: [{
+				id: "58344DE55762F044"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
 					}
-					count: 8
 				}
-			]
+				count: 8
+			}]
 		}
 		{
 			title: "I am a Comet"
 			x: 6.5d
 			y: 3.5d
 			shape: "pentagon"
-			subtitle: "Defeat the Wither"
+			subtitle: "Receive a Nether Star"
 			description: [
-				"The Nether Star is used to create a \"Beacon\" - a structure made of ore blocks (iron blocks, etc) that provides a permanent positive potion effect in a radius."
+				"A &3Nether Star&r can be obtained by completing the &cWither&r ritual. It's used to create a &3Beacon&r that provides a &dpermanent status effect&r in a radius. "
 				""
-				"to make a beacon, place it atop of a 3x3 flat square of ore blocks"
+				"To function, &3Beacons&r must be placed on top of a 3x3 flat square of &3iron, gold, diamond, emerald, or netherite blocks&r."
 				""
-				"to improve a beacons effect, place more ore blocks below in a pyramid structure. First a 4x4 below the 3x3, and so on."
+				"Further layers can be added below the pyramid to &dimprove the beacon&r - 5x5, then 7x7, etc."
+				""
+				"&7[Tinkerer's Quilt]&r &eCopper Blocks&r can also be used for pyramids, as long as they're &3kept clean&r using an &3Axe&r."
 			]
 			dependencies: ["71B31B0EAE8DCD3D"]
 			hide: true
@@ -656,10 +671,15 @@
 					id: "598DAB4227729FA0"
 					type: "item"
 					item: "minecraft:iron_block"
-					count: 9
 				}
 				{
-					id: "302BD6A4F9A4AEE5"
+					id: "5B4342A1AACA2637"
+					type: "item"
+					item: "minecraft:copper_block"
+					count: 8
+				}
+				{
+					id: "59F754265F0F8A3C"
 					type: "item"
 					item: "minecraft:emerald"
 				}
@@ -667,10 +687,19 @@
 		}
 		{
 			title: "§o*cackles*§r"
+			icon: "minecraft:brewing_stand"
 			x: 4.5d
 			y: 2.0d
 			subtitle: "Acquire Brewing Ingredients"
-			description: ["Blaze rods and Nether wart can both be found in the nether. The latter of which can be farmed on soul sand."]
+			description: [
+				"&2Nether Fortresses&r contain both &3Blazes&r and &3Nether Wart&r, which are required to begin &dBrewing Potions&r."
+				""
+				"&3Nether Wart&r can be regrown by planting it on &3Soul Sand&r in any dimension."
+				""
+				"&3Brewing Stands&r accept blaze powder as fuel, up to three bottles, and a &3brewing ingredient&r. "
+				""
+				"&3Awkward Potions&r are made from water bottles brewed with &3Nether Wart&r, which can in turn be brewed with &evarious ingredients&r to create helpful potions."
+			]
 			dependencies: ["4048B08BA7BA39BE"]
 			hide: true
 			id: "274780E9080AF463"
@@ -717,32 +746,52 @@
 		}
 		{
 			title: "Nether-Proof Soup"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:slow_falling"
+				}
+			}
 			x: 4.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "Brew an Extended Fire Resistance Potion"
+			subtitle: "Brew Fire Res. and Slow Fall. Potions"
 			description: [
-				"The nether causes most deaths through fall damage or lava damage."
+				"Once visited a few times, &2The Nether&r can become safer through the use of &dpotions and safe transport routes&r."
 				""
-				"Striders are found in the Nether's lava seas, and can be saddled and ridden using a Warped Fungus on a Stick. "
+				"Safer transport includes digging tunnels through netherrack, and &eriding&r a &3Strider&r over the lava sea using &eWarped Fungus&r."
 				""
-				"This allows the nether to be crossed fairly safely, in combination with a few staircases."
+				"&eRedstone Dust&r can be brewed into potions to &dextend their duration&r, while &3Glowstone Dust&r can increase some potions' potency."
 			]
 			dependencies: ["274780E9080AF463"]
 			hide: true
 			id: "0C2C9057CE459E63"
-			tasks: [{
-				id: "1BE9417FD5079964"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_fire_resistance"
+			tasks: [
+				{
+					id: "1BE9417FD5079964"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
 					}
 				}
-			}]
+				{
+					id: "123031348D667D6D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "74647DB1EEC564B3"
@@ -759,6 +808,12 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "3BEB49B7D31DCF90"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
 				}
 			]
 		}
@@ -885,32 +940,6 @@
 					item: "minecraft:grindstone"
 				}
 			]
-		}
-		{
-			title: "Fiends on Speed Dial"
-			x: 5.0d
-			y: -2.5d
-			shape: "diamond"
-			subtitle: "Warp into the Nether"
-			description: [
-				"Once you've gone through a nether portal, a map can be used as a rudimentary compass back to it, as it will always show which direction you are from its position."
-				""
-				"Simply right-click the empty map while standing near the portal."
-			]
-			optional: true
-			id: "5284C4BF9EAC6D9E"
-			tasks: [{
-				id: "5852D5C0FDC4FE05"
-				type: "advancement"
-				title: "Reach the Nether via Portal"
-				advancement: "minecraft:story/enter_the_nether"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "0F4E4581A959B80E"
-				type: "item"
-				item: "minecraft:map"
-			}]
 		}
 		{
 			title: "Not a Backpack"
