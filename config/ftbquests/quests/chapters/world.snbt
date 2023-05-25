@@ -785,8 +785,6 @@
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
 			description: [
-				"Beacons can be made of any mix of ore blocks. In this pack, this includes clean and lightly exposed copper. If you keep any copper on the outermost layer of a beacon, it stays easy to clean."
-				""
 				"Beacons with stained glass above change their beam colour."
 				""
 				"A 6-beacon pyramid can be made with an 11x10 base, and 3x2 beacons at the top."
@@ -794,6 +792,8 @@
 				"With these materials, the whole 11x10 base must be copper, then, build a 6x7 gold pyramid on top of the centre, then set all of the outer edges in copper, and top the 6 gold blocks with beacons."
 				""
 				"It has a radius of 50 blocks in each direction. Have fun making a 100x100 circular base!"
+				""
+				"&7[Tinkerer's Quilt]&r By keeping any Copper Blocks on the outermost layer of a beacon, it stays easy to clean."
 			]
 			hide_dependency_lines: true
 			dependencies: [

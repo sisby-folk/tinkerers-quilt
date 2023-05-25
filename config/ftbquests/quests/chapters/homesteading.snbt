@@ -294,11 +294,11 @@
 			description: [
 				"Fence gates allow you to open and close them, while also connecting to fences."
 				""
-				"Fence gates can be stacked vertically, and in this pack will open all at once."
-				""
 				"Fences and walls are an essential part of keeping hostile mobs from wandering into your base!"
 				""
 				"Carpet can also be used to create a traversable area of fence, by placing it on top of a fence post."
+				""
+				""&7[Couplings]&r Vertically stacked fence gates will open at once."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -484,9 +484,11 @@
 				""
 				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By placing your farm between a bee's hive and its flowers, you will improve its growth."
 				""
-				"Alongside candles, honeycomb can also be used to \"wax\" copper blocks, preventing them from aging. In this pack, this can prevent copper beacons from becoming invalid."
+				"Alongside candles, honeycomb can also be used to \"wax\" copper blocks, preventing them from aging."
 				""
 				"&7[FeedTheBees]&r bees will &donly take damage&r to regrow their stinger. They can be fed &3sugar&r to heal them."
+				""
+				"[Tinkerer's Quilt] Waxing copper beacons will prevent them from expiring."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -2501,7 +2503,7 @@
 			shape: "hexagon"
 			subtitle: "Craft a Dispenser"
 			description: [
-				"Dispensers, when powered, can perform a variety of actions depending on the item in their first non-empty slot. More functions are available in this pack."
+				"Dispensers, when powered, can perform a variety of actions depending on the item in their first non-empty slot."
 				""
 				"Dispensers can fire arrows of all kinds, snowballs, fireworks, fire charges, eggs, splash and lingering potions, and (straight down) TNT."
 				""
@@ -2729,7 +2731,7 @@
 			y: -13.0d
 			subtitle: "Craft a Lever and Wooden Button"
 			description: [
-				"Levers provides constant power when switched into the \"on\" state, which is more visible in this pack."
+				"Levers provides constant power when switched into the \"on\" state."
 				""
 				"Buttons can be right-clicked to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
 				""

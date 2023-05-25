@@ -502,7 +502,7 @@
 			y: -6.0d
 			subtitle: "Kill 15 Creepers"
 			description: [
-				"Creeper explosions don't destroy blocks in this pack, but they still pack a punch! They're easiest taken out from a distance, or using singular sprint-jumping strikes. Knockback-enchanted weapons are effective too."
+				"Creeper explosions pack a punch! They're easiest taken out from a distance, or using singular sprint-jumping strikes. Knockback-enchanted weapons are effective too."
 				""
 				"Creepers are the best source of gunpowder, which is invaluable for TNT and Fireworks."
 				""
@@ -856,9 +856,7 @@
 			y: -7.0d
 			subtitle: "Kill 30 Spiders"
 			description: [
-				"Spiders can climb walls - but in this pack, they can't climb Glazed Terracotta, and they can't climb when they're wet. "
-				""
-				"Water and splash water bottles can wet spiders this way."
+				"&7[Fabrication]&r Spiders can't climb Glazed Terracotta, or when they're wet from Water or &dSplash Water Bottles&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -1694,9 +1692,11 @@
 				""
 				"Flowing water can be used to slow oncoming enemies, along with cobwebs, and soul sand. All can be used in defensive walls and traps. Water can be deployed at your feet in panic scenarios to stall crowds."
 				""
-				"Netherrack can be used to create permanent fire walls and traps. These synergize well with cactus traps - which don't destroy items in this pack."
+				"Netherrack can be used to create permanent fire walls and traps. These synergize well with cactus traps."
 				""
 				"Powder snow can kill most mobs (except skeletons), and deals massive damage to magma cubes and blazes. It can be obtained while exploring using a bucket, or by leaving a cauldron out in the snow."
+				""
+				"&7[Fabrication]&r Cactus doesn't destroy items, making it easier to create traps from."
 			]
 			dependencies: ["42E807C7DFC19EBF"]
 			hide: true
