@@ -134,7 +134,7 @@ hash = "5484ec7def3ff2cc43c9094df29dfdfabccc91a8077774f98a0452938e8472cb"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "b69881dba029f09234ad91b2169ef2534dc3d3576908bcf4e344e0496ef1ddc2"
+hash = "62285f44c6c84dadb5ed7e98f92466ba49ef9966e9e8d594e2af5e9fb4290940"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
@@ -154,7 +154,7 @@ hash = "0f010bbe3c0a2c926f65e7716948d067fbc304ba74879dc3ab7ed73e11758c67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "431ba27ab3fcb4815255e9a4ec60ba8b1be247e57257c052a722b593bfd341cd"
+hash = "2587faa5a24fc6642539aaf8ef8a2ae73f28ab73e3fb8592f5873c479729ac51"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -166,7 +166,7 @@ hash = "0db678c4e6bfddc8566a735bc30027dedae70aea4462277eed2682d633e113a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "a1cec3c43a6a8c24c6ced34bdaaf8a6130addc3669c204d213940eb2f0914ec3"
+hash = "2faceace52f422484f2534ab999f1ea210b3aab3bbb7d2b4dc5402bbfb4198e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -174,11 +174,11 @@ hash = "a9d00a0ecdd64003e2d26294081cd8d8486a2f0701c8066c82f501f0bcb478a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "d5a35c4b0d3a722f7f6367a61c3c7fefff993a47a56446a7610fd61eea861f15"
+hash = "e870bddb5466d150dbe684aa8476c60499537db1b5ad982b62414915213bf21e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "33f15298c3c7a18b99bb1cd111b3bd6174fae04b4e00370118ef69b9d2e5aeb7"
+hash = "a6e2b4fe8b87be82508e001ba39137dc3cdd7628913442a5b7f95cbfaceb6dfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yttr.snbt"
@@ -1975,27 +1975,3 @@ metafile = true
 file = "shaderpacks/super-duper-vanilla.pw.toml"
 hash = "a5ed01e32d65dbd67e9573e1575874284a0e3c64aebbbbb872230d8be9fd0e8e"
 metafile = true
-
-[[files]]
-file = "skins/bea"
-hash = "2bf71d25818e14e0059d08b853308e643bcea1edecf9daf1ba39bb4ad58ad2bf"
-
-[[files]]
-file = "skins/clawby"
-hash = "0fb9986482adb341213a0b8586665c343ea287fdf515e8404ae8c7e8967672ba"
-
-[[files]]
-file = "skins/herrah"
-hash = "6fb1cf32fe379547977c03a1e60b489a56eea2cef16442377775d19ed1f7a573"
-
-[[files]]
-file = "skins/hornby"
-hash = "3ded982d23c2791e6bf49eb701b6ffb385ead897660300ccdacebe6f9c4c69f1"
-
-[[files]]
-file = "skins/kapesi"
-hash = "65874364e14474a0d31c34bc1c22d59c256d8dd20d5a5d7c97cb194b994af1b9"
-
-[[files]]
-file = "skins/sheetmetal"
-hash = "b13a146e60fed9a161c63c9d3ee74f2481e373319888d6aa19fa34c35a236da0"
