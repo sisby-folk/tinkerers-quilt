@@ -26,7 +26,7 @@
 				""
 				"Arrows of harming deal less damage to undead mobs, but more damage to others. Arrows of healing deal more damage to undead mobs, but less to others."
 				""
-				"Bows have reduced (though better than vanilla) effectiveness underwater. Try a trident!"
+				"&7[Fabrication]&r Arrows travel less slowly underwater, though &3Tridents&r are still much faster."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -83,6 +83,8 @@
 				"They can be enchanted to pierce through enemies, shoot multiple arrows, and more."
 				""
 				"They can also fire firework rockets made with firework stars. Each firework star added (up to 7) increases damage. Careful!"
+				""
+				"&7[Fabrication]&r Crossbows can also receive &3Infinity&r."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -219,11 +221,11 @@
 			description: [
 				"Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks."
 				""
-				"Shields can be equipped with banners and renamed. They can be enchanted with books, and in this pack, they can also be enchanted at a table."
+				"Shields can be equipped with banners, and enchanted with Unbreaking."
 				""
-				"Along with shields - bows, crossbows, snowballs, ender pearls, tridents, fishing rods, flint and steel, food, and potions and milk - can all be utilized in the off-hand for combat."
+				"Along with shields - bows, crossbows, snowballs, ender pearls, tridents, fishing rods, flint and steel, food, potions, and milk - can all be utilized in the off-hand for combat."
 				""
-				"While a shield may appear to be the most defensive off-hand option, sometimes a stack of good food can be moreso."
+				"&7[ShieldLib]&r Shields can also be enchanted at an &3Enchanting Table&r."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -304,13 +306,15 @@
 			y: -2.0d
 			subtitle: "Acquire a Trident"
 			description: [
-				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins. In this pack, they can also be crafted using prismarine shards, which drop from guardians in ocean monuments."
-				""
-				"In this pack, tridents can be enchanted to deal more damage when thrown."
+				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins. "
 				""
 				"Tridents need to be picked up after throwing, unless they're enchanted with Loyalty or Riptide. "
 				""
 				"Loyalty causes the trident to return after being thrown. Riptide turns the trident throw into a lunging melee attack."
+				""
+				"&7[Tinkerer's Quilt]&r Tridents can be crafted from &3prismarine shards&r, which drop from guardians in &2ocean monuments&r."
+				""
+				"&7[Fabrication]&r Tridents can also be enchanted with &dPower or Sharpness&r."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -370,7 +374,9 @@
 				""
 				"Helmets can also be enchanted with §oRespiration§r, which increases water breath time, and §oAqua Affinity§r, which improves underwater mining."
 				""
-				"Boots can also be enchanted with §oFeather Falling§r, which reduces fall damage (up to V in this pack, which negates it)."
+				"Boots can also be enchanted with §oFeather Falling§r, which reduces fall damage."
+				""
+				"&7[Fabrication]&r &3Feather Falling V&r makes boots take &dall player fall damage&r."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -1318,7 +1324,7 @@
 					type: "item"
 					title: "The Fee [Click]"
 					disable_toast: true
-					item: "minecraft:emerald_block"
+					item: "minecraft:gold_block"
 					count: 2L
 					consume_items: true
 				}
@@ -1542,15 +1548,10 @@
 									lvl: 3s
 								}
 							]
-							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
-							}
-							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Slot: "mainhand"
+									Name: "generic.attack_speed"
 									Operation: 0
 									UUID: [I;
 										1651970931
@@ -1559,11 +1560,11 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 								}
 								{
 									Amount: 2
-									Slot: "mainhand"
+									Name: "generic.attack_damage"
 									Operation: 0
 									UUID: [I;
 										262443461
@@ -1572,9 +1573,14 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 								}
 							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
 						}
 					}
 				}
@@ -1594,7 +1600,7 @@
 			shape: "hexagon"
 			subtitle: "Craft a Lingering Potion"
 			description: [
-				"Dragon's Breath can be gathered by right-clicking the harmful dragon breath particles left by ender dragon fireballs with a glass bottle."
+				"Dragon's Breath can be gathered with bottles while fighting the &4Ender Dragon&r."
 				""
 				"This can then be used to create lingering potions, for tipping arrows with various effects."
 				""
@@ -1868,6 +1874,33 @@
 					count: 3
 				}
 			]
+		}
+		{
+			title: "Dio's Best Friend"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Acquire a Totem of Undying"
+			description: [
+				"Evokers always drop a Totem of Undying on death. "
+				""
+				"The Totem of Undying prevents player death. Instead of dying, the totem is consumed - giving the player a small health boost and protective buffs."
+				""
+				"&7[Totem Anywhere]&r Totems work from any slot of the inventory."
+			]
+			hide: true
+			invisible: true
+			id: "3C5FCE8C61F8A84B"
+			tasks: [{
+				id: "7E973FBCC832794D"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:totem_of_undying"
+			}]
+			rewards: [{
+				id: "3588976E4E0B3FE8"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
 		}
 	]
 	quest_links: [ ]

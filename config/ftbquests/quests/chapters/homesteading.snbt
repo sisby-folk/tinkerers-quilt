@@ -25,8 +25,8 @@
 				"By adding chests to each of these hoppers, you can set up a furnace to run over very long times."
 			]
 			dependencies: ["55783EE248BAC550"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "796366A8D7D8BBF8"
 			tasks: [{
 				id: "58184DF53B179A23"
@@ -87,26 +87,24 @@
 			]
 		}
 		{
-			title: "Mason's Supplies"
+			title: "Mason's Blessing"
 			icon: "minecraft:light_gray_shulker_box"
 			x: 7.5d
 			y: -8.5d
 			shape: "gear"
-			subtitle: "All Stonecut-able blocks"
-			description: [
-				"Some players enjoy tearing the world half to shreds to collect enough rarer stones to build the prettiest buildings!"
-				""
-				"Some players do not."
-				""
-				"NB: Please don't use the prismarine for conduits or I will be sad"
-			]
+			subtitle: "A Sacrifice in Stone"
+			description: ["Many block types can be cut in the stonecutter, producing various patterns and shapes."]
 			dependencies: ["1233042213A9729E"]
 			hide: true
+			optional: true
 			id: "643F41D93DC1FB81"
 			tasks: [{
-				id: "1BEA60CCCFAE7024"
-				type: "checkmark"
-				title: "Click here if you do not."
+				id: "10DE07FBCB9E502D"
+				type: "item"
+				title: "A Sacrifice To the Mason Gods"
+				item: "minecraft:stone"
+				count: 384L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -309,6 +307,7 @@
 				id: "6BBB2677D85E0344"
 				type: "item"
 				title: "Any #tinkerer:fence_gates"
+				icon: "minecraft:oak_fence_gate"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -446,7 +445,7 @@
 			description: [
 				"Honey blocks can be used to augment slime elevators, allowing you to easily stick and arrive at particular floors of a large base."
 				""
-				"Vines are part of this pack's alternate slimeball recipe."
+				"&7[Tinkerer's Quilt]&r &3Honey Bottles&r can be combined with &3wheat&r and &evines&r to create a &3Slime Ball&r."
 			]
 			dependencies: ["5DE40B33B987E149"]
 			hide: true
@@ -486,6 +485,8 @@
 				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By placing your farm between a bee's hive and its flowers, you will improve its growth."
 				""
 				"Alongside candles, honeycomb can also be used to \"wax\" copper blocks, preventing them from aging. In this pack, this can prevent copper beacons from becoming invalid."
+				""
+				"&7[FeedTheBees]&r bees will &donly take damage&r to regrow their stinger. They can be fed &3sugar&r to heal them."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -562,43 +563,43 @@
 					id: "7BB131F81CE0EE05"
 					type: "item"
 					item: "minecraft:white_dye"
-					count: 64
+					count: 16
 				}
 				{
 					id: "240752E0B3758DDD"
 					type: "item"
 					item: "minecraft:blue_dye"
-					count: 64
+					count: 16
 				}
 				{
 					id: "603A66AEFB21253E"
 					type: "item"
 					item: "minecraft:black_dye"
-					count: 64
+					count: 16
 				}
 				{
 					id: "7CD45A7D585FF971"
 					type: "item"
 					item: "minecraft:red_dye"
-					count: 64
+					count: 16
 				}
 				{
 					id: "1AB47C5DBDFE0A43"
 					type: "item"
 					item: "minecraft:green_dye"
-					count: 64
+					count: 16
 				}
 				{
 					id: "6F48D4D4BCE46394"
 					type: "item"
 					item: "minecraft:yellow_dye"
-					count: 64
+					count: 16
 				}
 				{
 					id: "794E4D2D3C56C124"
 					type: "item"
 					item: "minecraft:brown_dye"
-					count: 64
+					count: 16
 				}
 			]
 		}
@@ -615,6 +616,8 @@
 				"You can also mark points of interest on a map by placing down a banner, and then right-clicking it while holding the map."
 				""
 				"Maps can be placed into item frames, allowing them to be assembled into much larger physical maps."
+				""
+				"&7[Crowmap]&r Maps can be filled out from any slot in your inventory."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -719,11 +722,11 @@
 			description: [
 				"By using a hoe on dirt, soil can be tilled for planting seeds."
 				""
-                "Watered soil grows crops faster, requiring water within 4 blocks in any direction."
-				""
-				"Hoes in this pack can harvest crops using right-clicking. Better hoes have a larger radius."
+				"Watered soil grows crops faster, requiring water within 4 blocks in any direction."
 				""
 				"Bonemeal can be used to instantly grow crops using right-click."
+				""
+				"&7[RightClickHarvest]&r &6Right-Clicking&r crops with a &3Hoe&r will harvest them. Better hoes have a &dlarger radius&r."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [
@@ -748,12 +751,11 @@
 				}
 			]
 			rewards: [{
-                id: "05EEFD50897A505C"
-                type: "item"
-                disable_toast: true
-                item: "minecraft:bone_meal"
-                count: 16
-            }]
+				id: "05EEFD50897A505C"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+			}]
 		}
 		{
 			title: "Here in my Garage [Workshopping]"
@@ -819,8 +821,6 @@
 				"By placing a stone or brick block of almost any type, you can transform it into one of its decorative variants."
 				""
 				"This includes stairs, slabs, polished and chiseled variants, and walls."
-				""
-				"Did you know? Shears can be used to collect decorative plants that otherwise drop nothing. They can also be used to collect whole cobwebs, and destroy tripwires without activating them."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -830,32 +830,12 @@
 				type: "item"
 				item: "minecraft:stonecutter"
 			}]
-			rewards: [
-				{
-					id: "6C023B3A87A36F36"
-					type: "item"
-					item: "minecraft:stone"
-					count: 64
-				}
-				{
-					id: "644AE2B6532BE25D"
-					type: "item"
-					item: "minecraft:lily_pad"
-					count: 16
-				}
-				{
-					id: "0FB0D11621F75B0A"
-					type: "item"
-					item: "minecraft:vine"
-					count: 16
-				}
-				{
-					id: "62EEBCECC191CD5F"
-					type: "item"
-					item: "minecraft:grass"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "6C023B3A87A36F36"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64
+			}]
 		}
 		{
 			title: "Back in a sec!"
@@ -864,15 +844,13 @@
 			shape: "hexagon"
 			subtitle: "Build a Furnace Minecart"
 			description: [
-				"Furnace minecarts are used to travel long distances by pushing minecart trains."
+				"&3Furnace Minecarts&r are used to travel long distances by pushing minecart trains."
 				""
-				"However, in this pack they also have a special use - §oChunk Loading§r."
+				"&7[Fabrication]&r Furnace minecarts can &daccept any fuel&r. A running furnace minecart will &dkeep its chunk loaded&r§r, preventing farms and machines from freezing once you're far away."
 				""
-				"When you walk far enough away from your base, your farm, and any machines (redstone, furnaces, etc) will halt."
+				"You can press &7[&r&6F3+G&r&7]&r at any time to view chunks in the world."
 				""
-				"A Chunk Loader prevents this from happening in a 16x16 area (A chunk!) - You can press §nF3+G§r at any time to view chunks in the world."
-				""
-				"Furnace minecarts will only load the chunk they are in, and will keep them loaded for as long as it has fuel. At maximum this means you can fill a furnace minecart with a lava bucket and it will keep the area loaded and running for 17 minutes."
+				"Filling a furnace minecart with a &elava bucket&r will run a chunk for &d17 minutes&r."
 			]
 			dependencies: ["796366A8D7D8BBF8"]
 			hide: true
@@ -905,11 +883,11 @@
 			description: [
 				"Fishing can be used to acquire live fish, junk, and treasure. Fishing rods can also be used to \"yank\" mobs at a 5x durability cost."
 				""
-				"Fishing in this modpack is catch-and-release. Given room, reeled-in fish will simply swim away."
-				""
 				"Fishing for treasure, which requires a 5x5x4 area around the bobber, allows you to fish up enchantments, nautilus shells, saddles, and name tags."
 				""
-				"You can dye your fishing line with any dye in the crafting table. Additionally if you rename your fishing rod to common pride-flag words (e.g. aro, pan, plural) the line will appear in that color."
+				"&7[FishingReal]&r Fishing is &3catch-and-release&r. Given room, reeled-in fish will simply swim away."
+				""
+				"&7[DyableFishingLines]&r You can &ddye your fishing line&r with any &3dye&r in the &3Crafting Grid&r. Rods can also be given special names (e.g. aro, pan, plural) for &dspecial line colours&r."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -947,11 +925,7 @@
 			y: -8.5d
 			shape: "gear"
 			subtitle: "Glazed Foresight"
-			description: [
-				"This has like, a 75% chance of working. Maybe."
-				""
-				"Don't forget to write down the coordinates in your Notes! (N)"
-			]
+			description: ["Derives the co-ordinates of the nearest Badlands biome - once. For gathering &3Terracotta&r."]
 			dependencies: ["1233042213A9729E"]
 			hide: true
 			optional: true
@@ -959,7 +933,7 @@
 			tasks: [{
 				id: "759F54485E9734BA"
 				type: "checkmark"
-				title: "Click Here!"
+				title: "Locate a Badlands Biome [Click]"
 			}]
 			rewards: [
 				{
@@ -1078,8 +1052,6 @@
 				""
 				"To activate them, they need to be placed in a 3x3x3 cube of water, that is surrounded by 5x5 squares of prismarine aligned with it in 1-3 axes (each increasing the range)."
 				""
-				"They also work to provide air-breathing to water-breathing origins!"
-				""
 				"To acquire more prismarine shards, you'll need to find and battle ocean monuments."
 			]
 			dependencies: [
@@ -1131,14 +1103,13 @@
 				"Chests can also be added to boats to transport extra items."
 				""
 				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
-				""
-				"In this pack, filling a glass bottle while underwater will replenish 1 bubble."
 			]
 			id: "423E897DEB76653D"
 			tasks: [{
 				id: "3DA9DDCFB85248ED"
 				type: "item"
 				title: "Wooden Boat"
+				icon: "minecraft:oak_boat"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1188,13 +1159,13 @@
 				""
 				"Minecarts can't go up steep hills without a push. Try using a Powered Rail with a redstone torch, or a furnace minecart with fuel!"
 				""
-				"In this pack, magenta terracotta can be placed under powered rails to force them to operate in one direction - great for loading new carts onto a rail!"
-				""
 				"Detector rails can be used to trigger redstone circuits when passed by. Try it out!"
+				""
+				"&7[Fabrication]&r &eMagenta Glazed Terracotta&r under a &3Powered Rail&r will make it &ddirectional&r - great for loading new carts onto a rail!"
 			]
 			dependencies: ["423E897DEB76653D"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "0EF299A1A5009971"
 			tasks: [{
 				id: "64AA0C69C81F13E5"
@@ -1403,11 +1374,13 @@
 				""
 				"Horses can also equip armor (including dyed leather armor!) to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
 				""
-				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them. Sneak-right-click to remove the saddle afterwards."
+				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them."
+				""
+				"&7[Dual Ride]&r Horses can have both a rider and a passenger."
 			]
 			dependencies: ["423E897DEB76653D"]
-			dependency_requirement: "one_started"
 			hide: true
+			dependency_requirement: "one_started"
 			id: "7AA799B6789ABD71"
 			tasks: [{
 				id: "61C1C9ADFC09F727"
@@ -1449,7 +1422,7 @@
 			description: [
 				"By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."
 				""
-				"Name tags in this pack are craftable, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
+				"&7[Tinkerer's Quilt]&r Name Tags are &3craftable&r, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1919,9 +1892,7 @@
 			x: 1.0d
 			y: -11.5d
 			subtitle: "Farm some Wheat"
-			description: [
-				"Wheat is the easiest crop to acquire - Just break some tall grass and get hoeing."
-			]
+			description: ["Wheat is the easiest crop to acquire - Just break some tall grass and get hoeing."]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
 			id: "192BAFDE101F900B"
@@ -1932,11 +1903,11 @@
 				count: 32L
 			}]
 			rewards: [{
-                id: "046833CC8D4ADAF5"
-                type: "item"
-                item: "minecraft:golden_carrot"
-                count: 16
-            }]
+				id: "046833CC8D4ADAF5"
+				type: "item"
+				item: "minecraft:golden_carrot"
+				count: 16
+			}]
 		}
 		{
 			title: "Gaia"
@@ -2168,7 +2139,7 @@
 			description: [
 				"Doors are used to block access to inner rooms to mobs, and to decorate."
 				""
-				"In this pack, doors often need to be modified to accommodate for taller players. Adding trapdoors or inverted stairs can often accomplish this."
+				"&7[Tinkerer's Statures]&r Doorways may need to accommodate for taller players. &eTrapdoors&r, &3fence gates&r, and inverted &3stairs&r can all assist with this."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -2438,7 +2409,13 @@
 			y: -9.0d
 			shape: "hexagon"
 			subtitle: "Travel far by Horse"
-			description: ["You can check a horse's stats by holding ALT. Breeding horses together requires Golden Carrots or Golden Apples, and the horse produced will be close to the average of its parents."]
+			description: [
+				"Breeding horses together Golden Carrots or Golden Apples."
+				""
+				"&7[WTHIT]&r The &dspeed and jump height&r of a horse can be viewed by holding &7[&r&6ALT&r&7]&r"
+				""
+				"&7[HorseBuff]&r Horses will have stats around the average of their parents."
+			]
 			dependencies: ["7AA799B6789ABD71"]
 			hide: true
 			id: "3D5694CCE8F191BC"
@@ -2534,7 +2511,7 @@
 				""
 				"They can shear beehives and sheep with shears, or bottle their honey with a bottle, and use bonemeal on crops."
 				""
-				"In this pack, dispensers:"
+				"&7[Carpet]&r Dispensers can:"
 				" - Place Blocks (Block)"
 				" - Rotate Blocks (Cactus)"
 				" - Carve pumpkins (Shears)"
@@ -2916,11 +2893,13 @@
 				""
 				"When powered, pistons extend, pushing the block in front of them by 1 block. When retracting, Sticky Pistons will also pull the block its attached to."
 				""
-				"Slime blocks and (in this pack) chains can be used to extend the effect of pistons/sticky pistons, by attaching blocks together."
+				"Slime blocks can be used to extend the effect of pistons/sticky pistons, by attaching blocks together."
 				""
 				"Doors and trapdoors can also be toggled by redstone. Including iron variants which can only be opened this way."
 				""
 				"Of other note, redstone can also power lamps, useful as indicators, and TNT, which can be used to make explosions, or, in water, cannon-like devices."
+				""
+				"&7[Carpet]&r &3Chain&r will also connect pushed blocks along its axis. Two pistons can be powered at the same time to extend twice as far."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -2971,6 +2950,8 @@
 				"Signs can be used to help label chests, rooms, machines, and more. Different kinds of wood change the background, and the text color can be dyed!"
 				""
 				"Item frames can also be used to help organize - a single item can be placed in them for display."
+				""
+				"&7[Inventory Tabs]&r Placing an item frame on a &3Chest&r will &dchange its tab icon&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
