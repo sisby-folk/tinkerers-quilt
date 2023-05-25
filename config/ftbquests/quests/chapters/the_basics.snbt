@@ -168,15 +168,15 @@
 			optional: true
 			id: "7AF853FC528DE6C6"
 			tasks: [
-                {
-                    id: "394CD32C1D98C5ED"
-                    type: "stat"
-                    title: "Enter The Overworld"
-                    icon: "minecraft:grass_block"
-                    disable_toast: true
-                    stat: "minecraft:play_time"
-                    value: 1
-                }
+				{
+					id: "394CD32C1D98C5ED"
+					type: "stat"
+					title: "Enter The Overworld"
+					icon: "minecraft:grass_block"
+					disable_toast: true
+					stat: "minecraft:play_time"
+					value: 1
+				}
 				{
 					id: "711B997B0F3BC7B3"
 					type: "structure"
@@ -207,7 +207,7 @@
 			description: [
 				"A &2Nether Fortress&r can be identified by its large &3Nether Brick&r bridges. "
 				""
-				"It contains unique enemies like &dblazes and wither skeletons&r, along with inner keeps containing &dchests of loot&r."
+				"It contains unique enemies like &cBlazes&r and &cWither Skeletons&r, along with inner keeps containing &dchests of loot&r."
 				""
 				"&eFire Resistance&r can &dprotect you from all heat damage&r, including from touching lava."
 			]
@@ -234,18 +234,20 @@
 		}
 		{
 			title: "Finders Keepers"
-			x: 9.0d
-			y: -0.9999999999999997d
+			x: 8.5d
+			y: -2.5d
 			shape: "diamond"
 			subtitle: "Craft 12 Eyes of Ender"
 			description: [
-				"I hope you've learned how to use EMI by now."
+				"&3Eyes of Ender&r require &3Blaze Powder&r from the &2Nether&r, and &3Ender Pearls&r - obtained by defeating an &cEnderman&r."
 				""
-				"12 Eyes of Ender are used to open the portal to the End."
-			]
-			dependencies: [
-				"2F14C1EBEBA3F558"
-				"6C5A4279D8850C52"
+				"&cEndermen&r hit hard, teleport erratically while attacking, and can &dbecome angered through eye contact&r. They're most easily found in the &2Desert&r at night."
+				""
+				"A &eCarved Pumpkin&r can be worn to prevent eye contact."
+				""
+				"When thrown, an &eEnder Pearl&r will &dteleport the user&r wherever it falls, costing some health."
+				""
+				"&7[VanillaTweaks]&r Wearing a carved pumpkin will not obscure your vision."
 			]
 			dependency_requirement: "one_started"
 			optional: true
@@ -258,27 +260,30 @@
 			}]
 			rewards: [
 				{
-					id: "196A29BC8B02E60E"
+					id: "6AAA5988974BBFC1"
 					type: "item"
-					item: "minecraft:compass"
+					item: "minecraft:carved_pumpkin"
 				}
 				{
-					id: "0EFFA1A6161BA430"
+					id: "0C26DFC36B24FB14"
 					type: "item"
-					item: "minecraft:ender_eye"
-					count: 5
+					item: "minecraft:ender_pearl"
+					count: 16
 				}
 			]
 		}
 		{
 			title: "Geometry Dash"
-			x: 9.0d
-			y: 0.5d
-			subtitle: "Find a Stronghold*"
+			x: 8.5d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Find a Stronghold"
 			description: [
-				"The closest underground strongholds are located between 1280-2820 blocks of world spawn (X=0, Z=0). Forming a thick \"Ring\" of valid locations."
+				"To reach &2The End&r, you first must locate a &2Stronghold&r, an underground fortress made of stone brick."
 				""
-				"Throwing an ender eye will point in the direction of the nearest one, at the risk of consuming it."
+				"A thrown &3Eye of Ender&r will slowly drift towards the nearest &2Stronghold&r, with a chance of being consumed."
+				""
+				"The &2End Portal&r inside is incomplete, and up to 12 &3Eye of Ender&r must be inserted to &dactivate&r it."
 			]
 			dependencies: ["55AB6125B20E666B"]
 			dependency_requirement: "one_started"
@@ -290,38 +295,18 @@
 				icon: "minecraft:mossy_stone_bricks"
 				structure: "#betterstrongholds:better_strongholds"
 			}]
-		}
-		{
-			title: "Long Boy"
-			icon: "minecraft:ender_pearl"
-			x: 8.5d
-			y: -2.5d
-			shape: "diamond"
-			subtitle: "Kill 5 Endermen"
-			description: [
-				"Endermen are most easily fought in numbers in the desert at night, where the flat light ground makes them very visible."
-				""
-				"Wearing a §oCarved Pumpkin§r, made by shearing a pumpkin, in your helmet slot prevents Endermen from angering on sight. This might be useful later!"
-			]
-			optional: true
-			id: "2F14C1EBEBA3F558"
-			tasks: [{
-				id: "16862F568DACE013"
-				type: "kill"
-				entity: "minecraft:enderman"
-				value: 5L
-			}]
 			rewards: [
 				{
-					id: "015B734EADAA2DE3"
+					id: "3D420BECFE373EFA"
 					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 7
+					item: "minecraft:blaze_powder"
+					count: 6
 				}
 				{
-					id: "2D392B77B7974075"
+					id: "5F4C65875DC43F7B"
 					type: "item"
-					item: "minecraft:carved_pumpkin"
+					item: "minecraft:ender_pearl"
+					count: 6
 				}
 			]
 		}
@@ -372,58 +357,49 @@
 		{
 			title: "Where are the Hot Dra-oh"
 			icon: "minecraft:end_portal_frame"
-			x: 9.0d
-			y: 2.1000000000000005d
-			subtitle: "Reach the End"
+			x: 8.5d
+			y: 0.5d
+			subtitle: "Activate an End Portal"
 			description: [
-				"§oThe End§r is a dimension full of void. Falling into the void will teleport you back to your last ground location, dealing true damage."
+				"&2The End&r consists of islands floating in the &3void&r, where falling is very dangerous."
 				""
-				"The End is guarded by the Ender Dragon, who flies around its central Island full of Endermen. Once its entered, the player cannot leave until the dragon is defeated or they die."
+				"You spawn at the &2Central Island&r, where the &4Ender Dragon&r guards the &2Return Portal&r and &2End Gateway&r."
 				""
-				"To defeat it, you must first destroy every §oEnd Crystal§r - pink floating crystals on each giant obsidian obelisk. Some can be destroyed with a well-placed arrow, others need to be scaled somehow to break their cages. Many ender pearls are recommended."
+				"&7[Fabrication]&r Falling into the void instead &dreturns you&r to where you fell, dealing high damage."
 				""
-				"After the last crystal is destroyed, the ender dragon will no longer heal."
-				""
-				"The ender dragon shoots dragon breath, which lingers on the ground as particles, dealing damage. These can also be collected with empty bottles to make §oLingering Potions.§r"
-				""
-				"The ender dragon can also \"fling\" players large distances, often killing them instantly from fall damage."
+				"&7[Apathy]&r The central &2Return Portal&r and &2End Gateway&r are active without defeating the Ender Dragon."
 			]
 			dependencies: ["2803B3AF9D4E64A3"]
 			hide: true
 			id: "345A5D446CD0E0D2"
 			tasks: [{
-				id: "3702B57CC4464B30"
-				type: "dimension"
-				title: "Visit the End"
-				dimension: "minecraft:the_end"
+				id: "45538435550F3E5E"
+				type: "observation"
+				title: "Look into an End Portal"
+				icon: "minecraft:end_portal_frame"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:end_portal"
 			}]
-			rewards: [
-				{
-					id: "3C92DF27111BD7E9"
-					type: "item"
-					item: {
-						id: "minecraft:golden_boots"
-						Count: 1b
-						tag: {
-							RepairCost: 1
-							Enchantments: [{
-								id: "minecraft:feather_falling"
-								lvl: 3s
-							}]
-							Damage: 0
-							display: {
-								Name: "{\"text\":\"Feather Boots\"}"
-							}
+			rewards: [{
+				id: "3C92DF27111BD7E9"
+				type: "item"
+				item: {
+					id: "minecraft:golden_boots"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Enchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 3s
+						}]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Feather Boots\"}"
 						}
 					}
 				}
-				{
-					id: "39069EE157662EA7"
-					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 8
-				}
-			]
+			}]
 		}
 		{
 			title: "It's Just Like Breath of the Wild!"
@@ -509,14 +485,18 @@
 		}
 		{
 			title: "§o*static noises*§r"
-			x: 9.0d
-			y: 3.5d
+			x: 8.5d
+			y: 2.0d
 			shape: "pentagon"
 			subtitle: "Free the End"
 			description: [
-				"Defeating the ender dragon spawns an §oEnd Gateway§r - a very small bedrock pill-shaped structure with a single portal block in the middle."
+				"To attack the &4Ender Dragon&r, first destroy the explosive &3End Crystals&r that heal it, making it &dvulnerable&r to arrows and melee."
 				""
-				"By tossing an Ender Pearl through the portal, you can travel to the outer end."
+				"&3Dragon Breath&r is hazardous but can be &dcollected in bottles for brewing&r."
+				""
+				"The dragon can also &3charge&r at players, flinging them &dhigh enough into the air to kill&r on landing."
+				""
+				"Completing the battle grants &d68 Experience Levels&r and a decorative &3Dragon Egg&r."
 			]
 			dependencies: ["345A5D446CD0E0D2"]
 			hide: true
@@ -528,34 +508,34 @@
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "009CC64E5C033956"
-					type: "item"
-					item: "minecraft:diamond_block"
-				}
-				{
-					id: "654294115A9F72FC"
-					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "009CC64E5C033956"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			title: "Shell City"
-			x: 10.5d
-			y: 3.5d
+			x: 10.0d
+			y: 2.0d
 			subtitle: "Find an End City"
 			description: [
-				"End cities contain endgame loot, such as enchanted tools and armor, ender chests, and shulker shells."
+				"An &2End Gateway&r can be identified by its beam of purple light. Throwing an &3Ender Pearl&r through it transports you to the &2Outer End&r."
 				""
-				"The rarest loot is contained within End Ships - giant end-city-colored boats in the sky, often a part of end cities."
+				"Here, you can find a large ring of islands, broken up by only &3Chorus Plants&r and &2End Cities&r."
 				""
-				"End cities are full of Shulkers, who cause levitation on hit - this can cause massive damage due to falling, but can be negated with ender pearls or chorus fruit."
+				"&eChorus Fruit&r teleports the user randomly, grounding them &dwithout fall damage&r."
+				""
+				"&2End Cities&r contain &cShulkers&r, loot chests, and rarely an &2End Ship&r."
+				""
+				"&cShulkers&r shoot homing bullets that cause dangerous &dlevitation&r on hit, and are &3invulnerable&r while their shells are closed."
 			]
-			dependencies: ["6CDF6FE603499CB1"]
+			dependencies: [
+				"6CDF6FE603499CB1"
+				"345A5D446CD0E0D2"
+			]
 			hide: true
+			dependency_requirement: "one_started"
 			id: "4631772288F2177D"
 			tasks: [{
 				id: "3403F8CB9F8DB4E1"
@@ -572,17 +552,17 @@
 		}
 		{
 			title: "Flight of Icarus"
-			x: 12.0d
-			y: 3.0d
+			x: 8.5d
+			y: 3.5d
 			subtitle: "Obtain an Elytra"
 			description: [
-				"Obtain an Elytra from the item frame at the inner bow of an end ship."
+				"A pair of &3Elytra&r can be found at the bow of every &2End Ship&r."
 				""
-				"Press \"Space\" while in the air to deploy, use mouse to control."
+				"They can be equipped in place of a chestplate, granting the ability to &dglide through the air&r with &7[&r&6Space&r&7]&r."
 				""
-				"Hitting surfaces at speed deals damage, so turning before impact and pulling up to slow down is advised."
+				"Flight direction is controlled by where you &6look&r. Be sure to &dpull up or turn around&r before striking surfaces as fast impacts deal heavy damage."
 				""
-				"Campfires can provide lift when close together - and can be used to build \"flyways\" through known routes."
+				"&eCampfires&r provide lift while &3gliding&r. They can be used to &dbuild flyways through known routes&r."
 			]
 			dependencies: ["4631772288F2177D"]
 			hide: true
@@ -611,11 +591,11 @@
 			y: 2.0d
 			subtitle: "Obtain 3 Wither Skeleton Skulls"
 			description: [
-				"&cThe Wither&r is a high-tier boss fight best fought in an arena near bedrock in &2The Overworld&r, or near the bedrock roof of &2The Nether&r."
+				"&4The Wither&r is a high-tier boss fight best fought in an arena near bedrock in &2The Overworld&r, or near the bedrock roof of &2The Nether&r."
 				""
 				"It's summoned by placing 3 &3Wither Skulls&r on a row of soul sand, with another soul sand below the middle."
 				""
-				"&cThe Wither&r is capable of destroying much of the map (even &3Obsidian&r) with explosions if not well-contained. At half health, arrows &dstop being effective&r."
+				"The Wither is capable of destroying much of the map (even &3Obsidian&r) with explosions if not well-contained. At half health, arrows &dstop being effective&r."
 				""
 				"&eHealing Potions&r heal players, but hurt undead enemies."
 				""
@@ -641,7 +621,7 @@
 						Potion: "minecraft:strong_healing"
 					}
 				}
-				count: 8
+				count: 9
 			}]
 		}
 		{
@@ -651,7 +631,7 @@
 			shape: "pentagon"
 			subtitle: "Receive a Nether Star"
 			description: [
-				"A &3Nether Star&r can be obtained by completing the &cWither&r ritual. It's used to create a &3Beacon&r that provides a &dpermanent status effect&r in a radius. "
+				"A &3Nether Star&r can be obtained by completing the &4Wither&r ritual. It's used to create a &3Beacon&r that provides a &dpermanent status effect&r in a radius. "
 				""
 				"To function, &3Beacons&r must be placed on top of a 3x3 flat square of &3iron, gold, diamond, emerald, or netherite blocks&r."
 				""
@@ -762,7 +742,7 @@
 			description: [
 				"Once visited a few times, &2The Nether&r can become safer through the use of &dpotions and safe transport routes&r."
 				""
-				"Safer transport includes digging tunnels through netherrack, and &eriding&r a &3Strider&r over the lava sea using &eWarped Fungus&r."
+				"Safer transport includes digging tunnels through netherrack, and &eriding&r a &bStrider&r over the lava sea using &eWarped Fungus&r."
 				""
 				"&eRedstone Dust&r can be brewed into potions to &dextend their duration&r, while &3Glowstone Dust&r can increase some potions' potency."
 			]
@@ -818,38 +798,6 @@
 					count: 16
 				}
 			]
-		}
-		{
-			title: "Snuffed"
-			x: 9.5d
-			y: -2.5d
-			shape: "diamond"
-			subtitle: "Kill 10 Blazes"
-			description: ["Blazes spawn from spawners around Nether Fortresses, in the nether."]
-			optional: true
-			id: "6C5A4279D8850C52"
-			tasks: [{
-				id: "0334AFF40C4CFD82"
-				type: "kill"
-				title: "Kill 10 Blazes"
-				icon: "minecraft:blaze_rod"
-				entity: "minecraft:blaze"
-				value: 10L
-			}]
-			rewards: [{
-				id: "362F06019CEC461F"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:fire_protection"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
 		}
 		{
 			title: "MK-1"
@@ -945,13 +893,15 @@
 		}
 		{
 			title: "Not a Backpack"
-			x: 12.0d
-			y: 4.0d
+			x: 10.0d
+			y: 3.5d
 			subtitle: "Craft a Shulker Box"
 			description: [
-				"Shulker Boxes are portable chests, that allow you to hold many stacks of items in your inventory, accessible by placing them down."
+				"&3Shulker Boxes&r are chests that can be broken and picked up with the items still inside."
 				""
-				"Bundles fit in Shulker Boxes, which fit in Ender Chests, allowing for extensive personal storage."
+				"An &eEnder Chest&r provides access to a player-specific inventory that's the &3same from any location&r. This can be used to &dstore valuable items and supplies&r. They cannot be collected with a regular pickaxe."
+				""
+				"&eBundles&r fit in &3Shulker Boxes&r, which fit in &3Ender Chests&r, allowing for &dextensive personal storage&r."
 			]
 			dependencies: ["4631772288F2177D"]
 			hide: true
