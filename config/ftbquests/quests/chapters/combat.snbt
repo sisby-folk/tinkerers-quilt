@@ -384,19 +384,19 @@
 			shape: "hexagon"
 			subtitle: "Acquire armor for every slot"
 			description: [
-				"Armor provides §oDefense§r, which incrementally reduces the damage taken from attacks."
+				"Armor &3Defense&r stacks for each piece worn, reducing damage further."
 				""
-				"Diamond and Netherite armor provide §oToughness§r, which reduces the damage of high-damage attacks even more."
+				"Diamond and Netherite armor provide &3Toughness&r, which &dresists high-damage hits&r."
 				""
-				"Netherite also provides §oKnockback Resistance§r, up to 40% with a full set."
+				"Netherite also provides &3Knockback Resistance&r, &dreducing the force of hits&r."
 				""
-				"All armor is enchantable. Golden armor is the easiest to enchant, but has a low durability."
+				"All armor can be enchanted with &3Protection&r, &dreducing all damage&r slightly. Alternatively, it can be enchanted with &3Projectile, &3Blast, or Fire Protection&r, resisting their respective damage type moreso."
 				""
-				"All armor can be enchanted with at most one of the four \"Protections\". §oProtection§r reduces all damage by 4% per level - Others (projectile, blast, and fire) reduce damage by 8% per level. §oThorns§r can also be added, dealing damage to attackers on direct attacks."
+				"&eThorns&r armor &ddeals damage back to attackers&r."
 				""
-				"Helmets can also be enchanted with §oRespiration§r, which increases water breath time, and §oAqua Affinity§r, which improves underwater mining."
+				"Helmets can receive &3Respiration&r and &3Aqua Affinity&r, increasing breath time and mining speed &2underwater&r."
 				""
-				"Boots can also be enchanted with §oFeather Falling§r, which reduces fall damage."
+				"Boots can receive &3Feather Falling&r, &dreducing fall damage&r."
 				""
 				"&7[Fabrication]&r &3Feather Falling V&r makes boots take &dall player fall damage&r."
 			]
@@ -1558,10 +1558,15 @@
 									lvl: 3s
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
+							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										1651970931
@@ -1570,11 +1575,11 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Slot: "mainhand"
+									Name: "generic.attack_speed"
 								}
 								{
 									Amount: 2
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										262443461
@@ -1583,14 +1588,9 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Slot: "mainhand"
+									Name: "generic.attack_damage"
 								}
 							]
-							Damage: 0
-							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
-							}
 						}
 					}
 				}
@@ -1890,7 +1890,7 @@
 		{
 			title: "Dio's Best Friend"
 			x: -1.5d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "Acquire a Totem of Undying"
 			description: [
 				"Evokers always drop a Totem of Undying on death. "
@@ -1899,8 +1899,8 @@
 				""
 				"&7[Totem Anywhere]&r Totems work from any slot of the inventory."
 			]
+			dependencies: ["479E0E3F26F179CE"]
 			hide: true
-			invisible: true
 			id: "3C5FCE8C61F8A84B"
 			tasks: [{
 				id: "7E973FBCC832794D"
@@ -1912,6 +1912,33 @@
 				id: "3588976E4E0B3FE8"
 				type: "item"
 				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			title: "Straight Illin'"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Kill a Pillager"
+			description: [
+				"Illagers come in many varieties, with basic pillagers wielding crossbows."
+				""
+				"More dangerous variants include Vindicators, fast illagers wielding iron axes."
+				""
+				"The harder, rarer variants are Evokers, who attack using spells that summon jaws from the ground, and summon flying Vex enemies to attack the player."
+				""
+				"Evokers have a cooldown between their spells, which must be utilized to best take them out."
+				""
+				"Finally, Ravagers are large mounted beasts that spawn purely in raids, and deal heavy melee damage with a high range."
+			]
+			hide: true
+			invisible: true
+			id: "479E0E3F26F179CE"
+			tasks: [{
+				id: "2918E017D78CE0A0"
+				type: "kill"
+				icon: "minecraft:dark_oak_door"
+				entity: "minecraft:pillager"
+				value: 1L
 			}]
 		}
 	]
