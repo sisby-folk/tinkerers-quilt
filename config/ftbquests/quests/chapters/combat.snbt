@@ -20,13 +20,17 @@
 			y: -4.0d
 			subtitle: "Acquire a Bow"
 			description: [
-				"Arrows can be made by scavenging from skeletons, or crafting."
+				"&3Bows&r are a charged ranged weapon requiring &3arrows&r."
+				""
+				"Bows deal &d6x damage&r when fully charged, spilling stars, with a &3critical chance&r to deal up to 11x."
 				""
 				"Bows can be enchanted to increase damage, knockback, light enemies on fire, and even shoot infinite arrows."
 				""
 				"Arrows of harming deal less damage to undead mobs, but more damage to others. Arrows of healing deal more damage to undead mobs, but less to others."
 				""
 				"&7[Fabrication]&r Arrows travel less slowly underwater, though &3Tridents&r are still much faster."
+				""
+				"Arrows can also be scavenged from angered skeletons."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -161,16 +165,29 @@
 		}
 		{
 			title: "Direct Approach"
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -1.5d
 			y: -2.0d
 			shape: "rsquare"
 			subtitle: "Acquire Melee Weapons"
 			description: [
-				"Melee weapons all have an \"attack speed\", which is shown by the cooldown timer near the crosshair."
+				"&3Melee Attacks&r have a &3cooldown&r, which causes rapid attacks to deal as little as &done fifth its normal damage&r."
 				""
-				"Swords are the oldest weapon in the game, and can perform a §osweeping attack§r when used off cooldown, damaging enemies in a small area."
+				"The cooldown is indicated by a &3sword indicator&r near the crosshair. When the sword is full, &dattacks deal full damage&r."
 				""
-				"Axes have been more recently adapted as a weapon, and focus on slower use, higher single target damage. They're harder to enchant due to also taking harvesting enchantments."
+				"&3Swords&r can attack very quickly, and when fully charged perform a &3sweep&r that deals damage to &dall enemies in an area&r."
+				""
+				"Other tools have no abilities, but deal more damage than fists. &3Axes&r deal more damage than swords, but have a &dvery long cooldown&r."
+				""
+				"If an attack connects while you're &3falling&r, it becomes a critical hit, dealing &d1.5x damage&r and spilling stars."
+				""
+				"&7[EnhancedAttackIndicator]&r the attack indicator also shows bow charging, food eating, and block breaking progress."
 			]
 			id: "72CC6869A3793E22"
 			tasks: [
@@ -202,13 +219,16 @@
 				}
 			]
 			rewards: [{
-				id: "6093370F7D02C88C"
+				id: "32437F064A5A9BC6"
 				type: "item"
 				item: {
-					id: "minecraft:potion"
+					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
-						Potion: "minecraft:strong_strength"
+						StoredEnchantments: [{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}]
 					}
 				}
 			}]
@@ -219,13 +239,15 @@
 			y: -2.0d
 			subtitle: "Craft a Shield"
 			description: [
-				"Shields can be held in the Off-Hand, and raised by right-clicking. This blocks many attacks."
+				"Shields can be held in the Off-Hand, and raised with &7[&r&6Right-Click&r&7]&r, reducing incoming damage."
 				""
 				"Shields can be equipped with banners, and enchanted with Unbreaking."
 				""
 				"Along with shields - bows, crossbows, snowballs, ender pearls, tridents, fishing rods, flint and steel, food, potions, and milk - can all be utilized in the off-hand for combat."
 				""
 				"&7[ShieldLib]&r Shields can also be enchanted at an &3Enchanting Table&r."
+				""
+				"&7[Tinkerer's Smithing]&r Shields can be quickly repaired with &3planks&r or &3iron ingots&r."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -482,7 +504,7 @@
 			description: [
 				"Skeletons are difficult when unarmored and unshielded, especially in tight spaces where you can't sprint around them."
 				""
-				"Solving any of these problems should give you an easier time. They also drop the arrows they fire for you to pick up."
+				"Solving any of these problems should give you an easier time."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -642,7 +664,7 @@
 			x: 2.5d
 			y: -7.5d
 			subtitle: "Kill 3 Ghasts"
-			description: ["Ghasts spawn occasionally flying around the nether. They can be hard to kill, but are most reliably killed with a bow or by reflecting their shots with a sword."]
+			description: ["Ghasts spawn occasionally flying around the nether. They're most reliably killed with a bow or by reflecting their shots with a sword."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "35AED8D09C7CF638"
@@ -680,7 +702,6 @@
 			x: -3.5d
 			y: 1.5d
 			subtitle: "Kill the Wither"
-			description: ["See \"The Basics\""]
 			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
 			id: "5CA39231B56AE5CB"
@@ -697,7 +718,6 @@
 			x: -6.0d
 			y: 0.0d
 			subtitle: "Kill the Ender Dragon"
-			description: ["See \"The Basics\""]
 			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
 			id: "3BBB8E131ECD4FF5"
@@ -810,8 +830,6 @@
 				"Endermen are most easily fought in numbers in the end, and in the desert at night, where the flat light ground makes them very visible."
 				""
 				"Wearing a Carved Pumpkin in your helmet slot prevents Endermen from angering on sight. "
-				""
-				"Enderman can't be hit by ranged attacks, and teleport behind you when hit."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -833,7 +851,7 @@
 			description: [
 				"Shulkers shoot homing bolts that cause levitation on hit, risking high fall damage. "
 				""
-				"The projectiles can be destroyed by hitting them, and Ender Pearls can be used to negate fall damage."
+				"The projectiles can be destroyed by hitting them, and Ender Pearls or Chorus Fruit can be used to negate fall damage."
 				""
 				"Shulkers can \"close\", reducing damage they take."
 			]
@@ -855,9 +873,7 @@
 			x: -0.5d
 			y: -7.0d
 			subtitle: "Kill 30 Spiders"
-			description: [
-				"&7[Fabrication]&r Spiders can't climb Glazed Terracotta, or when they're wet from Water or &dSplash Water Bottles&r."
-			]
+			description: ["&7[Fabrication]&r Spiders can't climb Glazed Terracotta, or when they're wet from Water or &dSplash Water Bottles&r."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "7BA5B355C7DFF7E3"
@@ -898,11 +914,7 @@
 			x: 1.0d
 			y: -6.0d
 			subtitle: "Kill 15 Drowned"
-			description: [
-				"Drowned spawn underwater, especially in rivers. Zombies that die from drowning also transform into drowned, but don't have a chance of carrying loot. Many drowned spawn around underwater ruins."
-				""
-				"Bows are ineffective underwater, but melee and tridents work fine."
-			]
+			description: ["Drowned spawn underwater, especially in rivers. Zombies that die from drowning also transform into drowned, but don't have a chance of carrying loot. Many drowned spawn around underwater ruins."]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "20147B09F8E40DE9"
@@ -927,7 +939,7 @@
 			x: 0.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Pursue \"Alternative\" Weapons"
+			subtitle: "Pursue Improvised Weaponry"
 			description: [
 				"While not designed as weapons, many items can be used offensively and defensively against hostile mobs."
 				""
@@ -1546,10 +1558,15 @@
 									lvl: 3s
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+							}
+							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										1651970931
@@ -1558,11 +1575,11 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Slot: "mainhand"
+									Name: "generic.attack_speed"
 								}
 								{
 									Amount: 2
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 									Operation: 0
 									UUID: [I;
 										262443461
@@ -1571,14 +1588,9 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Slot: "mainhand"
+									Name: "generic.attack_damage"
 								}
 							]
-							Damage: 0
-							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
-							}
 						}
 					}
 				}
@@ -1766,7 +1778,7 @@
 				""
 				"Detrimental splash potions can be used to affect crowds of enemies with harmful status effects. Just remember - healing damages undead, and harming heals!"
 				""
-				"If used from extremely high in the air, hooking a mob with a Fishing Rod can cause them to take fatal fall damage. Elytra and Riptide tridents (along with flying origins) can achieve this."
+				"If used from extremely high in the air, hooking a mob with a Fishing Rod can cause them to take fatal fall damage. Elytra and Riptide tridents can achieve this."
 			]
 			dependencies: ["42E807C7DFC19EBF"]
 			hide: true
