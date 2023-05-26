@@ -726,9 +726,9 @@
 				""
 				"Watered soil grows crops faster, requiring water within 4 blocks in any direction."
 				""
-				"Bonemeal can be used to instantly grow crops with &7[&r&6Right-Click&r&7]&r."
+				"Bonemeal can be used to instantly grow crops."
 				""
-				"&7[RightClickHarvest]&r &3Hoes&r can harvest crops with &7[&r&6Right-Click&r&7]&r. Better hoes have a &dlarger radius&r."
+				"&7[RightClickHarvest]&r &3Hoes&r can be used to harvest crops in an area. Better hoes have a &dlarger radius&r."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [

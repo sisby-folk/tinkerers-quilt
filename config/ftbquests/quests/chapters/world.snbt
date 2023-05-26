@@ -1414,7 +1414,11 @@
 			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Walk 500 Blocks"
-			description: ["Compasses point back to the world's spawn. This can help you find your way home if one is built nearby."]
+			description: [
+				"&3Compasses&r point towards the &2Overworld Spawn&r &7(X:0 Z:0)&r. "
+				""
+				"This can help you return to a familiar location if you get lost."
+			]
 			hide: true
 			id: "789344ADD80A6FFA"
 			tasks: [{
@@ -1444,7 +1448,7 @@
 			y: -5.0d
 			shape: "rsquare"
 			subtitle: "Jump 75 Times"
-			description: ["&eHay Bales&r can &dbreak high falls&r, or be broken up and made into bread."]
+			description: ["&eHay Bales&r can &dbreak high falls&r, or instead be used for bread."]
 			id: "47ED4204DD0D65C4"
 			tasks: [{
 				id: "318791BA274D0278"
