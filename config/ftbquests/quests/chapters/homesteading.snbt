@@ -342,7 +342,7 @@
 				""
 				"They're also slightly bouncy!"
 				""
-				"You can §nSneak-Use§r interactables to place things on top of them. Try making a bedside table!"
+				"You can sneak and &7[&r&6Right-Click&r&7]&r interactables to place things on top of them. Try making a bedside table!"
 			]
 			id: "20E2938DD7365207"
 			tasks: [{
@@ -488,7 +488,7 @@
 				""
 				"&7[FeedTheBees]&r bees will &donly take damage&r to regrow their stinger. They can be fed &3sugar&r to heal them."
 				""
-				"[Tinkerer's Quilt] Waxing copper beacons will prevent them from expiring."
+				"&7[Tinkerer's Quilt]&r Waxing copper beacons will prevent them from expiring."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -524,13 +524,13 @@
 			y: -9.5d
 			subtitle: "Craft a Loom"
 			description: [
-				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps (simply right-click a hanging banner with a map)"
+				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps."
 				""
 				"Many designs for pictures, pride flags, and other patterns are available online."
 				""
 				"All 16 colors of dye can be made from 7 base colors, by crafting them together."
 				""
-				"Banners and dyed leather armor can be washed clean in a cauldron of water."
+				"Banners and dyed leather armor can be washed clean by throwing them in a cauldron of water."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -615,7 +615,7 @@
 				""
 				"This means you can share large regions of map (e.g. the region around your base) with other players."
 				""
-				"You can also mark points of interest on a map by placing down a banner, and then right-clicking it while holding the map."
+				"You can also add markers to a map, simply &7[&r&6Right-Click&r&7]&r a banner while holding the map."
 				""
 				"Maps can be placed into item frames, allowing them to be assembled into much larger physical maps."
 				""
@@ -726,9 +726,9 @@
 				""
 				"Watered soil grows crops faster, requiring water within 4 blocks in any direction."
 				""
-				"Bonemeal can be used to instantly grow crops using right-click."
+				"Bonemeal can be used to instantly grow crops with &7[&r&6Right-Click&r&7]&r."
 				""
-				"&7[RightClickHarvest]&r &6Right-Clicking&r crops with a &3Hoe&r will harvest them. Better hoes have a &dlarger radius&r."
+				"&7[RightClickHarvest]&r &3Hoes&r can harvest crops with &7[&r&6Right-Click&r&7]&r. Better hoes have a &dlarger radius&r."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [
@@ -769,7 +769,7 @@
 			description: [
 				"The gameplay heart of a base is often a \"workshop\" - any area dedicated to crafting items out of other items."
 				""
-				"Kick it and craft with the jams!"
+				"&eMusic Discs&r can be inserted into &eJukeboxes&r to play songs in an area!"
 			]
 			id: "55783EE248BAC550"
 			tasks: [
@@ -883,9 +883,11 @@
 			y: -10.0d
 			subtitle: "Craft a Fishing Rod"
 			description: [
-				"Fishing can be used to acquire live fish, junk, and treasure. Fishing rods can also be used to \"yank\" mobs at a 5x durability cost."
+				"&3Fishing Rods&r can cast a line into a body of water with &7[&r&6Right-Click&r&7]&r. Eventually, a line of bubbles will appear and the lure will be pulled down - &7[&r&6Right-Click&r&7]&r again to reel the catch in!"
 				""
-				"Fishing for treasure, which requires a 5x5x4 area around the bobber, allows you to fish up enchantments, nautilus shells, saddles, and name tags."
+				"Catches include fish, junk, and, with a large enough pool - &dtreasure&r! including enchantments, nautilus shells, saddles, and name tags.  "
+				""
+				"Fishing rods can also be used to \"yank\" mobs at a 5x durability cost."
 				""
 				"&7[FishingReal]&r Fishing is &3catch-and-release&r. Given room, reeled-in fish will simply swim away."
 				""
@@ -1372,7 +1374,7 @@
 			shape: "hexagon"
 			subtitle: "Saddle and ride a Horse"
 			description: [
-				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then, open the horses inventory (§nSneak-Use§r) to saddle it."
+				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then sneak and &7[&r&6Right-Click&r&7]&r to saddle it."
 				""
 				"Horses can also equip armor (including dyed leather armor!) to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
 				""
@@ -2692,7 +2694,7 @@
 			description: [
 				"Along with manual inputs, certain things can be observed to make mechanisms activate automatically."
 				""
-				"The daylight detector is powered during the daytime, and slowly transitions during sunrise and sunset. Right-clicking a daylight detector inverts this, and it will be powered at night instead."
+				"The daylight detector is powered during the daytime, and slowly transitions during sunrise and sunset. &6Right-Click&r a daylight detector to invert this, and it will be powered at night instead."
 				""
 				"The Observer emits a small pulse whenever the block it's facing changes."
 				""
@@ -2733,7 +2735,7 @@
 			description: [
 				"Levers provides constant power when switched into the \"on\" state."
 				""
-				"Buttons can be right-clicked to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
+				"Buttons can be &6Right-Clicked&r to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
 				""
 				"Trapped Chests power the block below them when opened by a player."
 				""
@@ -2992,7 +2994,7 @@
 				""
 				"Strongly powered blocks will provide full power to adjacent redstone dust. Both kinds of power will power adjacent repeaters, comparators, and mechanism components."
 				""
-				"A Repeater only works in one direction, and can be used to extend a redstone signal beyond 15 blocks, at the cost of 1 redstone tick delay (0.1 seconds). This delay can be extended to up to 4 using right-click."
+				"A Repeater only works in one direction, and can be used to extend a redstone signal beyond 15 blocks, at the cost of 1 redstone tick delay (0.1 seconds). This delay can be adjusted with &7[&r&6Right-Click&r&7]&r."
 				""
 				"Redstone dust can travel directly upwards in a 2x1 area using top-facing slabs to form \"stairs\". The signal cannot travel down these slabs."
 				""
