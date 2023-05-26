@@ -16,13 +16,11 @@
 			description: [
 				"Illagers are a hostile faction of villagers, which hunt in small packs and gather at outposts."
 				""
-				"If you defeat a banner-flying illager, they'll inflict you with §oBad Omen§r causing a raid to occur when you next enter a village (unless you drink a milk bucket)."
+				"Banner-flying villagers inflict the &3Bad Omen&r debuff that, if not cleared, incurs a wave-based battle at the next visited village."
 				""
-				"Defeating the many waves of pillagers, witches, evokers, ravagers, and vindicators, provides the player with the §oHero of the Village§r buff - providing discounts with all villagers for 40 minutes."
+				"Completing it provides the §oHero of the Village§r buff - providing discounts with all villagers for 40 minutes."
 				""
-				"Raids are a good way to farm §oTotem of Undying§r, which allows you to cheat death when in the inventory, by killing Evokers."
-				""
-				"During a Raid, villagers will hide, often by ringing the town bell. This can be done manually by the player at any time."
+				"During a Raid, villagers will hide, often by ringing the town bell. Bells can be &drung manually by the player&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -1005,12 +1003,15 @@
 			y: -2.5d
 			subtitle: "Find an Outpost"
 			description: [
-				"§oOutposts§r are structures defended and inhabited by many hostile Pillagers, including an §oOutpost Captain§r, who gives the player the §oBad Omen§r debuff (see: \"Shivery\" from village quests)"
+				"§oOutposts§r are structures defended and inhabited by many hostile Pillagers."
+				""
+				"This includes an §oOutpost Captain§r, inflicting the Bad Omen debuff that, if not cleared, incurs a wave-based battle at the next visited village."
+				""
+				"&eMilk&r clears all status effects when consumed."
 				""
 				"Outposts are a great source of Bad Omen, crossbows, and a fun challenge. Bring a shield!"
 				""
 				"Goat horns can also be found here."
-				""
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -1023,11 +1024,18 @@
 				disable_toast: true
 				structure: "minecraft:pillager_outpost"
 			}]
-			rewards: [{
-				id: "3167F3EE675CA950"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "3167F3EE675CA950"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "12A3EC5E16591FF4"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+			]
 		}
 		{
 			title: "Chipwrecked"
@@ -1115,6 +1123,8 @@
 			subtitle: "Find a Jungle Temple"
 			description: [
 				"Jungle temples are full of traps, including hard-to-spot tripwires - which can only be safely broken using shears. They're also full of loot, found in chests."
+				""
+				"&eShears&r can be used to disarm tripwire without triggering it."
 				""
 				"Some of this loot is hidden behind a three-lever puzzle. Which can be solved as follows:"
 				""
@@ -1284,9 +1294,9 @@
 			y: 3.5d
 			subtitle: "Find Deepslate"
 			description: [
-				"Below depth y=0, all stone is replaced with Deepslate, which takes longer to mine."
+				"Deep below &7(around y:0)&r, all stone is replaced with Deepslate, which takes longer to mine."
 				""
-				"Cobbled deepslate can be used in any crafting recipe that cobblestone can, and also serves as a decorative block (including brick and stair variants, etc)"
+				"Cobbled deepslate can be used in any crafting recipe that cobblestone can, and also serves as a decorative block and material."
 				""
 				"Chalk is made of calcite, and can be used to mark directions when caving."
 			]
@@ -1427,7 +1437,7 @@
 			y: 2.0d
 			shape: "rsquare"
 			subtitle: "Walk 500 Blocks"
-			description: ["Compasses point back to the world's spawn. This can help you find your way."]
+			description: ["Compasses point back to the world's spawn. This can help you find your way home if one is built nearby."]
 			hide: true
 			id: "789344ADD80A6FFA"
 			tasks: [{
@@ -1457,11 +1467,7 @@
 			y: -5.0d
 			shape: "rsquare"
 			subtitle: "Jump 75 Times"
-			description: [
-				"Maps can be used to chart a certain spot. They'll also show your direction relative to the map if you're outside it."
-				""
-				"This can be used to map your base and help you find your way back."
-			]
+			description: ["&eHay Bales&r can &dbreak high falls&r, or be broken up and made into bread."]
 			id: "47ED4204DD0D65C4"
 			tasks: [{
 				id: "318791BA274D0278"
@@ -1473,9 +1479,9 @@
 				value: 75
 			}]
 			rewards: [{
-				id: "3AF235A4BA889D50"
+				id: "05B359937A79F3EF"
 				type: "item"
-				item: "minecraft:map"
+				item: "minecraft:hay_block"
 			}]
 		}
 		{
@@ -1638,7 +1644,7 @@
 			description: [
 				"Ancient cities are full of hostile vibration-sensing organisms, and rare loot."
 				""
-				"Sculk sensors are able to detect vibrations, including the noise of (non-sneak) walking and interacting with blocks and items."
+				"Sculk sensors are able to detect vibrations, including the noise of walking and interacting with blocks and items."
 				""
 				"These in turn can trigger sculk shriekers, which spawn near-unkillable wardens that have no vision, and blind players with their shriek."
 				""
