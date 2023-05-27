@@ -14,15 +14,15 @@
 			y: -13.0d
 			subtitle: "Craft a Blast Furnace"
 			description: [
-				"A Blast Furnace is a special kind of furnace that smelts ores at double speed."
+				"A &3Blast Furnace&r is a special kind of furnace that &dsmelts ores at double speed&r."
 				""
-				"Hoppers automatically catch and insert items into furnaces, chests, and other blocks with inventories."
+				"&3Hoppers&r automatically &3catch and insert&r items into &3furnaces&r, &3chests&r, and &3other blocks with inventories&r."
 				""
-				"A furnace can have a hopper placed above it, a hopper placed on its side, and a hopper placed below it. "
+				"A &3furnace&r can have a &3hopper&r placed &3above it&r, &3on its side&r, and &3below it&r. "
 				""
-				"These three hoppers will insert items into the smelting slot, insert items into the fuel slot, and extract items from the result slot, respectively."
+				"These three hoppers will &dinsert items&r into the &3smelting slot&r and the &3fuel slot&r, and &dextract items&r from the &3result slot&r, respectively."
 				""
-				"By adding chests to each of these hoppers, you can set up a furnace to run over very long times."
+				"By adding &3chests&r to each of these hoppers, you can &dset up a furnace to run for a long time&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -54,9 +54,9 @@
 			y: -10.5d
 			subtitle: "Craft a Smoker"
 			description: [
-				"A Smoker is a special furnace that cooks food at twice the speed."
+				"A &3Smoker&r is a special furnace that &dcooks food at twice the speed&r."
 				""
-				"Furnaces of all kinds accept many types of fuel. Smaller fuels are less wasteful when processing smaller numbers of items. Some fuels (e.g. Lava buckets at 100 items) are only efficient for large loads."
+				"&3Furnaces of all kinds&r accept many types of fuel. &3Smaller fuels&r are &dless wasteful&r when processing &3smaller numbers of items&r. Some fuels (e.g. &eLava buckets&r at 100 items) are &3only efficient for large loads&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -187,11 +187,11 @@
 			y: -10.5d
 			subtitle: "Craft an Ender Chest"
 			description: [
-				"Ender chests contain the same items, no matter where you open them from."
+				"&3Ender chests&r contain the &dsame items, no matter where you open them from&r."
 				""
-				"These items belong to only one player - every other player has their own inventory. No items are lost on death."
+				"These items belong to &3only one player&r - &3every other player has their own inventory&r. &dNo items are lost on death&r."
 				""
-				"Shulker boxes can be placed into ender chests, greatly expanding their overall capacity and ability to transport items infinite distances."
+				"&3Shulker boxes&r can be &3placed into ender chests&r, &dgreatly expanding their overall capacity&r and ability to transport items infinite distances."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -222,11 +222,11 @@
 			y: -11.5d
 			subtitle: "Craft a Lantern"
 			description: [
-				"Lanterns provide slightly more light than torches, and can be placed on walls or hung from ceilings"
+				"&3Lanterns&r provide slightly &dmore light than torches&r, and can be &3placed on walls&r or &3hung from ceilings&r."
 				""
-				"They also work underwater, including when held in the hand."
+				"They also &dwork underwater&r, including when held in the hand."
 				""
-				"Keeping areas well-lit prevents them from being able to spawn mobs. Torches do this for 14 blocks, while lanterns do this for 15."
+				"Keeping areas well-lit &dprevents them from being able to spawn mobs&r. Torches do this for &314 blocks&r, while lanterns do this for &315&r."
 				""
 				"This is essential for building a safe base area!"
 			]
@@ -259,9 +259,9 @@
 			y: -10.5d
 			subtitle: "Craft some Glass Panes"
 			description: [
-				"Glass panes are an alternative to full glass blocks, both of which allow you to make windows and skylights for buildings."
+				"&3Glass panes&r are an alternative to full glass blocks, both of which &dallow you to make windows and skylights for buildings&r."
 				""
-				"Glass can also be Stained using dye, coloring it. Tinted glass can be created with amethyst, which blocks light."
+				"&3Glass&r can also be &3Stained using dye&r, &dcoloring it&r. &3Tinted glass&r can be created with &3amethyst&r, which &dblocks light&r."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -292,11 +292,11 @@
 			y: -11.5d
 			subtitle: "Make a Fence Gate"
 			description: [
-				"Fence gates allow you to open and close them, while also connecting to fences."
+				"&3Fence gates&r allow you to open and close them, while also connecting to fences."
 				""
-				"Fences and walls are an essential part of keeping hostile mobs from wandering into your base!"
+				"&eFences&r and &3walls&r are an essential part of &dkeeping hostile mobs from wandering into your base&r!"
 				""
-				"Carpet can also be used to create a traversable area of fence, by placing it on top of a fence post."
+				"&eCarpet&r can also be used to &dcreate a traversable area of fence&r, by placing it on top of a fence post."
 				""
 				"&7[Couplings]&r Vertically stacked fence gates will open at once."
 			]
@@ -338,9 +338,9 @@
 			shape: "rsquare"
 			subtitle: "Make a Bed"
 			description: [
-				"Beds allow you to skip the night, and set your spawn point in case you die."
+				"&3Beds&r allow you to &dskip the night&r, and &dset your spawn point&r in case you die."
 				""
-				"They're also slightly bouncy!"
+				"They're also &3slightly bouncy&r!"
 				""
 				"You can sneak and &7[&r&6Right-Click&r&7]&r interactables to place things on top of them. Try making a bedside table!"
 			]
@@ -383,13 +383,13 @@
 			y: -13.0d
 			subtitle: "Do some Ranching"
 			description: [
-				"Cows and Sheep can be lead around by holding Wheat either hand. Many mobs can be lead this way, including chickens being led by seeds."
+				"&3Cows&r and &3Sheep&r can be &3lead&r around by &3holding Wheat in either hand&r. Many mobs can be lead this way, including &3chickens being led by seeds&r."
 				""
-				"This can be used to lead them into your base, or a separated room, pen, or field."
+				"This can be used to &dlead them into your base&r, or a separated room, pen, or field."
 				""
-				"Animals can be fed their favourite foods to encourage them to breed. Allowing you to expand your farm population."
+				"&3Animals&r can be &3fed their favourite foods&r to &dencourage them to breed&r, allowing you to &dexpand your farm population&r."
 				""
-				"More wild animals can be ranched, including turtles and goats. These can be found in the \"Exploration\" tab."
+				"More wild animals can be ranched, including &3turtles&r and &3goats&r. These can be found in the \"Exploration\" tab."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -443,7 +443,7 @@
 			shape: "circle"
 			subtitle: "Craft a Honey Block"
 			description: [
-				"Honey blocks can be used to augment slime elevators, allowing you to easily stick and arrive at particular floors of a large base."
+				"&3Honey blocks&r can be used to &3augment slime elevators&r, allowing you to easily stick and &darrive at particular floors&r of a large base."
 				""
 				"&7[Tinkerer's Quilt]&r &3Honey Bottles&r can be combined with &3wheat&r and &evines&r to create a &3Slime Ball&r."
 			]
@@ -476,19 +476,19 @@
 			y: -11.5d
 			subtitle: "Craft a Beehive"
 			description: [
-				"Bees can be farmed for honeycomb, honey, and also used as pollinators to improve your crop farms."
+				"&3Bees&r can be &3farmed&r for &3honeycomb&r, &3honey&r, and also &3used as pollinators&r to &dimprove your crop farms&r."
 				""
-				"When harvesting honeycomb (with shears) or honey (with a bottle), beehives, like bee nests, need to be \"Smoked\" - with a campfire placed below them."
+				"When &3harvesting&r honeycomb (with shears) or honey (with a bottle), beehives, like bee nests, need to be &3Smoked&r - with a &ecampfire&r &3placed below them&r."
 				""
-				"Carpets can be placed above campfires to keep them safe."
+				"&eCarpets&r can be &3placed above campfires&r to &dkeep them safe&r."
 				""
-				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By placing your farm between a bee's hive and its flowers, you will improve its growth."
+				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By &3placing your farm between a bee's hive and its flowers&r, you will &dimprove its growth&r."
 				""
-				"Alongside candles, honeycomb can also be used to \"wax\" copper blocks, preventing them from aging."
+				"Alongside &3candles&r, honeycomb can also be used to &3wax&r copper blocks, &dpreventing them from aging&r."
 				""
 				"&7[FeedTheBees]&r bees will &donly take damage&r to regrow their stinger. They can be fed &3sugar&r to heal them."
 				""
-				"&7[Tinkerer's Quilt]&r Waxing copper beacons will prevent them from expiring."
+				"&7[Tinkerer's Quilt]&r &3Waxing&r copper beacons will &dprevent them from expiring&r."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -524,13 +524,13 @@
 			y: -9.5d
 			subtitle: "Craft a Loom"
 			description: [
-				"Looms allow you to create custom banner designs, which can be emblazoned on shields or displayed on maps."
+				"&3Looms&r allow you to &dcreate custom banner designs&r, which can be &3emblazoned on shields&r or &3displayed on maps&r."
 				""
-				"Many designs for pictures, pride flags, and other patterns are available online."
+				"&3Many designs&r for pictures, pride flags, and other patterns are &3available online&r."
 				""
 				"All 16 colors of dye can be made from 7 base colors, by crafting them together."
 				""
-				"Banners and dyed leather armor can be washed clean by throwing them in a cauldron of water."
+				"&3Banners&r and &3dyed leather armor&r can be &3washed&r clean by throwing them in a cauldron of water."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -611,15 +611,15 @@
 			y: -13.5d
 			subtitle: "Craft a Cartography Table"
 			description: [
-				"Cartography tables allow you to duplicate the contents of maps, including their zoom level. They also allow cheaper \"zooming out\" of maps with paper."
+				"&3Cartography tables&r allow you to &dduplicate&r the contents of &emaps&r, including their zoom level. They also allow &dcheaper&r &3zooming out&r of maps with &epaper&r."
 				""
-				"This means you can share large regions of map (e.g. the region around your base) with other players."
+				"This means you can &dshare large regions&r of map (e.g. the region around your base) with &3other players&r."
 				""
-				"You can also add markers to a map, simply &7[&r&6Right-Click&r&7]&r a banner while holding the map."
+				"You can also add &3markers&r to a map, simply &7[&r&6Right-Click&r&7]&r a banner &3while holding the map&r."
 				""
-				"Maps can be placed into item frames, allowing them to be assembled into much larger physical maps."
+				"&eMaps&r can be placed into &eitem frames&r, allowing them to be &dassembled into much larger physical maps&r."
 				""
-				"&7[Crowmap]&r Maps can be filled out from any slot in your inventory."
+				"&7[Crowmap]&r &eMaps&r can be filled out from &3any slot in your inventory&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -657,11 +657,11 @@
 			shape: "hexagon"
 			subtitle: "Craft a Respawn Anchor"
 			description: [
-				"A §oRespawn Anchor§r Allows you to create a proper home in the nether. By placing it and charging it with glowstone blocks, you'll respawn there."
+				"A &3Respawn Anchor&r Allows you to create a &dproper home in the nether&r. By placing it and &3charging it with glowstone blocks&r, you'll respawn there."
 				""
-				"Monsters spawn at any light level in the nether but never on half slabs. This is essential for making a nether base. Warped forests also prevent most mobs from spawning, and soul fire causes piglins to flee."
+				"&cMonsters&r spawn at &3any light level in the nether&r but &dnever on half slabs&r. This is essential for making a nether base. &2Warped forests&r also &dprevent most mobs from spawning&r, and soul fire causes piglins to flee."
 				""
-				"Respawn anchors can also be charged using a dispenser."
+				"&3Respawn anchors&r can also be &dcharged using a dispenser&r."
 				""
 				"A small, 3x2 setup can automate the filling of a Respawn Anchor. Including the anchor (RA), an Observer (Ob), a Dispenser with glowstone (D), and two redstone dust (rd). Here it is shown from the side."
 				""
@@ -722,11 +722,11 @@
 			shape: "rsquare"
 			subtitle: "Acquire basic farming equipment"
 			description: [
-				"By using a hoe on dirt, soil can be tilled for planting seeds."
+				"By using a &3hoe&r on dirt, soil &dcan be tilled&r for planting seeds."
 				""
-				"Watered soil grows crops faster, requiring water within 4 blocks in any direction."
+				"&3Watered soil&r &dgrows crops faster&r, requiring water within 4 blocks in any direction."
 				""
-				"Bonemeal can be used to instantly grow crops."
+				"&eBonemeal&r can be used to &dinstantly grow crops&r."
 				""
 				"&7[RightClickHarvest]&r &3Hoes&r can be used to harvest crops in an area. Better hoes have a &dlarger radius&r."
 			]
@@ -767,9 +767,9 @@
 			shape: "rsquare"
 			subtitle: "Have a Chest, Furnace, and Crafting Table"
 			description: [
-				"The gameplay heart of a base is often a \"workshop\" - any area dedicated to crafting items out of other items."
+				"The gameplay heart of a base is often a &3workshop&r - any area dedicated to &3crafting items out of other items&r."
 				""
-				"&eMusic Discs&r can be inserted into &eJukeboxes&r to play songs in an area!"
+				"&eMusic Discs&r can be inserted into &eJukeboxes&r to &dplay songs&r in an area!"
 			]
 			id: "55783EE248BAC550"
 			tasks: [
@@ -818,11 +818,11 @@
 			shape: "hexagon"
 			subtitle: "Craft a Stonecutter"
 			description: [
-				"Stonecutters are used to cheaply craft many decorative blocks in the game."
+				"&3Stonecutters&r are used to &dcheaply craft&r many &3decorative blocks&r in the game."
 				""
-				"By placing a stone or brick block of almost any type, you can transform it into one of its decorative variants."
+				"By &3placing&r a &estone&r or &3brick block&r of almost any type, you can &dtransform it&r into one of its &3decorative variants&r."
 				""
-				"This includes stairs, slabs, polished and chiseled variants, and walls."
+				"This includes &3stairs&r, &3slabs&r, &3polished&r and &3chiseled&r variants, and &3walls&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -929,7 +929,7 @@
 			y: -8.5d
 			shape: "gear"
 			subtitle: "Glazed Foresight"
-			description: ["Derives the co-ordinates of the nearest Badlands biome - once. For gathering &3Terracotta&r."]
+			description: ["Derives the co-ordinates of the nearest &2Badlands biome&r - once. For gathering &3Terracotta&r."]
 			dependencies: ["1233042213A9729E"]
 			hide: true
 			optional: true
@@ -976,9 +976,9 @@
 			shape: "hexagon"
 			subtitle: "Fish up a Nautilus Shell"
 			description: [
-				"Nautilus shells can be fished at a 1% chance, up to 2% with Luck of the Sea III."
+				"&3Nautilus shells&r can be &3fished&r at a 1% chance, up to 2% with &eLuck of the Sea III&r."
 				""
-				"Nautilus shells are the basis of creating a §oConduit§r - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
+				"&3Nautilus shells&r are the basis of creating a &3Conduit&r - a special structure that facilitates the &dcreation of a safe underwater base&r up to 184 blocks wide."
 			]
 			dependencies: ["2DF95382AC7B7AD4"]
 			hide: true
@@ -1018,9 +1018,9 @@
 			shape: "hexagon"
 			subtitle: "Find a Heart of the Sea"
 			description: [
-				"A \"Heart of the Sea\" can be found as buried treasure underwater and under beaches. To find buried treasure, one can follow maps sold by some cartographers, or feed raw fish to a dolphin."
+				"A &3Heart of the Sea&r can be found as &3buried treasure&r underwater and under beaches. To find buried treasure, one can &3follow maps&r sold by some &3cartographers&r, or &3feed raw fish to a dolphin&r."
 				""
-				"the Heart of the Sea is the basis of creating a §oConduit§r - a special structure that facilitates the creation of a safe underwater base up to 184 blocks wide."
+				"the &3Heart of the Sea&r is the basis of creating a &3Conduit&r - a special structure that facilitates the creation of a &dsafe underwater base&r up to 184 blocks wide."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -1102,9 +1102,9 @@
 			shape: "rsquare"
 			subtitle: "Craft a Boat"
 			description: [
-				"Boats allow you to move long distances over water without a hunger cost."
+				"&3Boats&r allow you to move long distances over water &dwithout a hunger cost&r."
 				""
-				"Chests can also be added to boats to transport extra items."
+				"&eChests&r can also be added to boats to &dtransport extra items&r."
 				""
 				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
 			]
@@ -1122,6 +1122,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "206A289D94C23F6C"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			title: "Hyperspeed Lane"
@@ -1129,11 +1134,11 @@
 			y: -12.5d
 			subtitle: "Acquire 1 Blue Ice"
 			description: [
-				"Blue ice allows boats to move at ludicrous speeds on its surface. They can be crafted using 81 ice, or found in the world."
+				"&3Blue ice&r allows boats to &dmove at ludicrous speeds&r on its surface. They can be crafted using 81 ice, or found in the world."
 				""
-				"Try Ice Farming! There's a tutorial in the §oVariety Fair§r section of the farming quest tree."
+				"&3Try Ice Farming!&r There's a tutorial in the §oVariety Fair§r section of the farming quest tree."
 				""
-				"If ice farming is too slow, try going out to iceberg biomes and frozen peaks biomes, which have packed and blue ice."
+				"If ice farming is too slow, try going out to &2iceberg biomes and frozen peaks biomes&r, which have &3packed and blue ice&r."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1157,13 +1162,13 @@
 			shape: "hexagon"
 			subtitle: "Gather some Rail materials"
 			description: [
-				"Minecarts and rails can be used to make easy transit between known locations."
+				"&3Minecarts and rails&r can be used to make &deasy transit&r between known locations."
 				""
 				"Just set the rail down, place down a minecart, and hop in!"
 				""
-				"Minecarts can't go up steep hills without a push. Try using a Powered Rail with a redstone torch, or a furnace minecart with fuel!"
+				"Minecarts &3can't go up steep hills without a push&r. Try using a &ePowered Rail&r with a redstone torch, or a &efurnace minecart&r with fuel!"
 				""
-				"Detector rails can be used to trigger redstone circuits when passed by. Try it out!"
+				"&eDetector rails&r can be used to &dtrigger redstone circuits&r when passed by. Try it out!"
 				""
 				"&7[Fabrication]&r &eMagenta Glazed Terracotta&r under a &3Powered Rail&r will make it &ddirectional&r - great for loading new carts onto a rail!"
 			]
@@ -1233,9 +1238,9 @@
 			y: -13.0d
 			subtitle: "Gather Bubble Elevator materials"
 			description: [
-				"Magma Blocks and Soul Sand under water creates \"Bubble Columns\" in either direction, which both provide air and pull/push the mobs and the player down/up in the water"
+				"&3Magma Blocks&r and &3Soul Sand&r under water create \"Bubble Columns\" in either direction, which both provide air and pull/push the mobs and the player down/up in the water"
 				""
-				"These can be used to make elevators for your home. Fence gates work great as blocks that prevent water flow."
+				"These can be used to &dmake elevators&r for your home. &eFence gates&r work great as blocks that prevent water flow."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1282,11 +1287,11 @@
 			y: -10.0d
 			subtitle: "Make slime Bounce-Elevator materials"
 			description: [
-				"Try placing a slime block above a sticky piston, and turning it on with a button while standing on the slime block!"
+				"Try placing a &eslime block&r above a &3sticky piston&r, and turning it on with a &ebutton&r while standing on the slime block!"
 				""
-				"Should be enough height to reach another floor - try adding a honey block to help catch you at the top!"
+				"Should be &denough height to reach another floor&r - try adding a &ehoney block&r to help &dcatch you at the top&r!"
 				""
-				"Hay Bales reduce fall damage."
+				"&eHay Bales&r &dreduce fall damage&r."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1329,9 +1334,9 @@
 			y: -11.5d
 			subtitle: "Gather Soulspeed Highway materials"
 			description: [
-				"Soul sand slows the player down, soul soil does not. With soul speed, the player is no longer slowed down, and sped up on both."
+				"&3Soul sand&r slows the player down, &3soul soil does not&r. With &3soul speed&r, the player is &dno longer slowed down, but sped up&r on both."
 				""
-				"The enchantment can only be acquired by trading with piglins. But that's a little hard-basket for a cool highway, innit?"
+				"The enchantment can &3only be acquired by trading with piglins&r. But that's a little hard-basket for a cool highway, innit?"
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1374,11 +1379,11 @@
 			shape: "hexagon"
 			subtitle: "Saddle and ride a Horse"
 			description: [
-				"Horses are some of the simplest forms of improved transport. First, break it in by attempting to ride it until it calms. Then sneak and &7[&r&6Right-Click&r&7]&r to saddle it."
+				"&3Horses&r are some of the simplest forms of &dimproved transport&r. First, break it in by &3attempting to ride it until it calms&r. Then sneak and &7[&r&6Right-Click&r&7]&r to saddle it."
 				""
-				"Horses can also equip armor (including dyed leather armor!) to improve their survivability. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
+				"Horses can also &3equip armor&r (including dyed leather armor!) to &dimprove their survivability&r. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
 				""
-				"Pigs can also be ridden using saddles, and a carrot on a stick can lead them."
+				"&3Pigs&r can also be &dridden using saddles&r, and a &3carrot on a stick&r can lead them."
 				""
 				"&7[Dual Ride]&r Horses can have both a rider and a passenger."
 			]
@@ -1424,7 +1429,7 @@
 			y: -10.5d
 			subtitle: "Swim 500 Blocks"
 			description: [
-				"By combining any amount of Depth Strider boots, Soul speed highways, and Dolphins Grace (granted by dolphins) - the player can swim at unfathomable speeds."
+				"By combining any amount of &3Depth Strider&r boots, &3Soul speed&r highways, and &3Dolphins Grace&r (granted by dolphins) - the player can &dswim at unfathomable speeds&r."
 				""
 				"&7[Tinkerer's Quilt]&r Name Tags are &3craftable&r, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
 			]
@@ -1495,9 +1500,9 @@
 			shape: "hexagon"
 			subtitle: "Learn to farm many things"
 			description: [
-				"Many of minecraft's resources are §orenewable§r - and \"farms\" can be set up to gather them - assuming the player might benefit from a large amount."
+				"Many of minecraft's resources are &3renewable&r - and &3farms&r can be set up to gather them - assuming the player might benefit from a large amount."
 				""
-				"This is often relevant to building materials, fuels, food, and so on. Some of this less-critical farming is covered here."
+				"This is often relevant to &3building materials&r, &3fuels&r, &3food&r, and so on. Some of this less-critical farming is covered here."
 				""
 				"Don't just gather the quest materials - Make the farms! They can make your base look very cool!"
 			]
@@ -1609,7 +1614,7 @@
 			x: 1.0d
 			y: -14.5d
 			subtitle: "Farm 32 Amethyst"
-			description: ["Amethyst can only be farmed at the source - a geode underground. Keep a note, and feel free to renovate!"]
+			description: ["&3Amethyst&r can &3only be farmed at the source&r - a &2geode underground&r. Keep a note, and feel free to renovate!"]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "0FC2E6F08F772324"
@@ -1635,7 +1640,7 @@
 			x: 4.0d
 			y: -14.5d
 			subtitle: "Gather Generator materials"
-			description: ["Cobblestone can be freely farmed when flowing water meets flowing lava."]
+			description: ["&3Cobblestone&r can be freely farmed when &3flowing water meets flowing lava&r."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "74001D2726E7133D"
@@ -1666,7 +1671,7 @@
 			x: 2.0d
 			y: -16.5d
 			subtitle: "Farm 16 Dried Kelp Blocks"
-			description: ["Kelp can be easily farmed by placing lots of it in a flat area deep underwater. This is a good source of Dried Kelp Blocks - the strongest renewable fuel by stack."]
+			description: ["&3Kelp&r can be easily farmed by placing &3lots of it in a flat area deep underwater&r. This is a good source of &3Dried Kelp Blocks&r - the &dstrongest renewable fuel by stack&r."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "6E20F24C33A627DC"
@@ -1693,9 +1698,9 @@
 			y: -15.5d
 			subtitle: "Farm 64 Ice"
 			description: [
-				"Ice can be farmed by creating a diagonal line of water source blocks covered with slabs, then enclosing the full square."
+				"&3Ice&r can be farmed by creating a &3diagonal line of water&r source blocks &3covered with slabs&r, then &3enclosing the full square&r."
 				""
-				"Ice will form everywhere but the covered line, and can be collected using a silk touch pickaxe."
+				"&3Ice&r will &dform everywhere but the covered line&r, and can be collected using a &3silk touch pickaxe&r."
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
@@ -1723,7 +1728,7 @@
 			y: -15.5d
 			subtitle: "Farm 32 Cocoa Beans"
 			description: [
-				"Cocoa beans can be grown on the side of any jungle log - Not just trees."
+				"&3Cocoa beans&r can be &3grown&r on the side of &3any jungle log&r - Not just trees."
 				""
 				"Enjoy your cookies!"
 			]
@@ -1754,22 +1759,22 @@
 			shape: "hexagon"
 			subtitle: "Farm all the \"Basic\" plants"
 			description: [
-				"These basic crops are great for making books, food, potions, and emeralds (trading with farmers). "
+				"These &3basic crops&r are great for &dmaking books, food, potions, and emeralds&r (trading with farmers). "
 				""
-				"Watered farms can be made in strips up to 8 blocks wide utilizing water on either side. Slabs can be \"waterlogged\" on the water's top half, making the ground walkable."
+				"&3Watered farms&r can be made in strips up to &38 blocks wide&r utilizing &3water on either side&r. Slabs can be \"waterlogged\" on the water's top half, making the ground walkable."
 				""
-				"Farms grow faster if they're diverse - try planting alternating crop types in rows."
+				"&3Farms&r &dgrow faster if they're diverse&r - try &3planting alternating crop types in rows&r."
 				""
-				"Farms continue growing overnight if they have light. "
+				"Farms continue &dgrowing overnight&r if they have &3light&r. "
 				""
-				"Try building a \"scarecrow\" using Hay Bale (HB), Spruce Fence (SF), Jack'o'Lantern (JO), and Birch Slab (BS) like below."
+				"Try building a \"scarecrow\" using &eHay Bale&r (HB), &eSpruce Fence&r (SF), &eJack'o'Lantern&r (JO), and &eBirch Slab&r (BS) like below."
 				""
 				"|     | BS  |     |"
 				"|     | JO  |     |"
 				"| SF | HB  | SF |"
 				"|     |  SF |     |"
 				""
-				"Feel free to add the banners to decorate. They can also be build 1 higher off of the ground with another spruce fence."
+				"Feel free to add the &ebanners&r to &ddecorate&r. They can also be built 1 higher off of the ground with another spruce fence."
 			]
 			dependencies: ["192BAFDE101F900B"]
 			hide: true
@@ -1896,7 +1901,7 @@
 			x: 1.0d
 			y: -11.5d
 			subtitle: "Farm some Wheat"
-			description: ["Wheat is the easiest crop to acquire - Just break some tall grass and get hoeing."]
+			description: ["&3Wheat&r is the easiest crop to acquire - Just &3break some tall grass&r and get hoeing."]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
 			id: "192BAFDE101F900B"
@@ -2027,9 +2032,9 @@
 			y: -17.0d
 			subtitle: "Farm 32+32 Mushrooms"
 			description: [
-				"Mushrooms can be bonemeal'd into \"Giant Mushrooms\", which yield 0-2 mushrooms per block."
+				"&3Mushrooms&r can be &3bonemeal&r'd into &3Giant Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
-				"This takes quite a bit of bonemeal, so consider alternate methods of acquisition, such as fossils in the nether, or compost farms."
+				"This takes quite a bit of &3bonemeal&r, so &3consider alternate methods&r of acquisition, such as &3fossils&r in the nether, or &3compost farms&r."
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
@@ -2063,7 +2068,7 @@
 			x: 2.5d
 			y: -17.5d
 			subtitle: "Farm 64 Nether Wart"
-			description: ["Nether wart can be grown on soul sand, in any dimension. It doesn't require light to grow."]
+			description: ["&3Nether wart&r can be grown on &3soul sand&r, in &2any dimension&r. It &3doesn't require light to grow&r."]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "54AA1BD5E8241369"
@@ -2090,9 +2095,9 @@
 			y: -17.0d
 			subtitle: "Farm 64 Sweet Berries"
 			description: [
-				"Just throw a bunch on the ground, honestly. There's not much to it. Maybe put them in rows? I'm not a cop."
+				"Just &3throw a bunch on the ground&r, honestly. There's not much to it. Maybe put them in rows? I'm &dnot a cop&r."
 				""
-				"Foxes like sweet berries, and prefer holding them to any other item. If a fox is holding an item you want, tempt it with a sweet berry!"
+				"&3Foxes&r like &3sweet berries&r, and &3prefer holding them to any other item&r. If a &3fox&r is &dholding an item you want&r, &3tempt it with a sweet berry&r!"
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
@@ -2141,7 +2146,7 @@
 			y: -12.5d
 			subtitle: "Make a Door"
 			description: [
-				"Doors are used to block access to inner rooms to mobs, and to decorate."
+				"&3Doors&r are used to &dblock access to inner rooms to mobs&r, and to decorate."
 				""
 				"&7[Tinkerer's Statures]&r Doorways may need to accommodate for taller players. &eTrapdoors&r, &3fence gates&r, and inverted &3stairs&r can all assist with this."
 			]
@@ -2196,9 +2201,9 @@
 			description: [
 				"Rail can be expanded into full train and automated transit and freight systems."
 				""
-				"When powered, rails at T intersections will swap which directions they go, allowing riders to change direction using buttons and levers."
+				"&3When powered&r, rails at &dT intersections will swap which directions they go&r, allowing riders to &dchange direction&r using &3buttons and levers&r."
 				""
-				"When powered, activator rails will cause players to dismount minecarts that pass over them."
+				"When powered, &eactivator rails&r will cause players to &ddismount minecarts&r that pass over them."
 			]
 			dependencies: ["0EF299A1A5009971"]
 			hide: true
@@ -2414,11 +2419,11 @@
 			shape: "hexagon"
 			subtitle: "Travel far by Horse"
 			description: [
-				"Breeding horses together Golden Carrots or Golden Apples."
+				"&3Breeding horses&r together with &eGolden Carrots&r or &3Golden Apples&r."
 				""
 				"&7[WTHIT]&r The &dspeed and jump height&r of a horse can be viewed by holding &7[&r&6ALT&r&7]&r"
 				""
-				"&7[HorseBuff]&r Horses will have stats around the average of their parents."
+				"&7[HorseBuff]&r Horses will have stats around the &3average of their parents&r."
 			]
 			dependencies: ["7AA799B6789ABD71"]
 			hide: true
@@ -2446,13 +2451,13 @@
 			shape: "hexagon"
 			subtitle: "Begin exploring mechanisms"
 			description: [
-				"Redstone and related components can be broken down into three broad categories."
+				"&3Redstone&r and related components can be broken down into &3three broad categories&r."
 				""
-				"There are \"input\" or \"power\" components, which provide initial redstone power."
+				"There are &3input&r or &3power&r components, which &dprovide initial redstone power&r."
 				""
-				"There are \"transmission\" components, which move and transform these signals."
+				"There are &3transmission&r components, which &dmove and transform signals&r."
 				""
-				"And finally there are \"mechanism\" components. These perform the actual function desired."
+				"And finally there are &3mechanism&r components. These &dperform the actual function desired&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -2505,31 +2510,31 @@
 			shape: "hexagon"
 			subtitle: "Craft a Dispenser"
 			description: [
-				"Dispensers, when powered, can perform a variety of actions depending on the item in their first non-empty slot."
+				"&3Dispensers&r, when powered, can &3perform a variety of actions&r depending on the item in their first non-empty slot."
 				""
-				"Dispensers can fire arrows of all kinds, snowballs, fireworks, fire charges, eggs, splash and lingering potions, and (straight down) TNT."
+				"&3Dispensers&r can &dfire&r &3arrows of all kinds&r, &3snowballs&r, &3fireworks&r, &3fire charges&r, &3eggs&r, &3splash and lingering potions&r, and (straight down) &3TNT&r."
 				""
-				"They can utilize buckets, including picking up liquids with an empty bucket, and placing liquids, powder snow, or fish using a filled bucket."
+				"They can &3utilize buckets&r, including &dpicking up liquids&r with an empty &ebucket&r, and &dplacing liquids&r, &3powder snow&r, or &3fish&r using a &3filled bucket&r."
 				""
-				"They can place boats and minecarts of all kinds, as well as equip players with armor, saddle-able mobs with saddles, horses with horse armor, and place carved pumpkins onto golems."
+				"They can &dplace&r &3boats&r and &3minecarts&r of all kinds, as well as &dequip players&r with &3armor&r, &3saddle-able mobs with saddles&r, &3horses&r with &3horse armor&r, and &3place carved pumpkins onto golems&r."
 				""
-				"They can shear beehives and sheep with shears, or bottle their honey with a bottle, and use bonemeal on crops."
+				"They can &dshear&r &3beehives&r and &3sheep&r with &eshears&r, or &dbottle their honey&r with a &3bottle&r, and &duse bonemeal on crops&r."
 				""
 				"&7[Carpet]&r Dispensers can:"
 				" - Place Blocks (Block)"
-				" - Rotate Blocks (Cactus)"
-				" - Carve pumpkins (Shears)"
+				" - Rotate Blocks (&eCactus&r)"
+				" - Carve pumpkins (&eShears&r)"
 				" - Feed animals (wheat/etc)"
-				" - Milk animals (Bucket, Bowl)"
+				" - Milk animals (&eBucket&r, Bowl)"
 				" - Pot plants (plant)"
 				" - Use a jukebox (disc)"
 				" - Till soil (hoe)"
 				" - Strip logs/copper (axe)"
-				" - Fill/empty cauldrons (bucket)"
+				" - Fill/empty cauldrons (&ebucket&r)"
 				""
-				"Finally, dispensers with sticks can toggle things. This includes buttons, redstone ore, note blocks, comparators, repeaters, and so on."
+				"Finally, &3dispensers&r with &3sticks&r can &dtoggle things&r. This includes &3buttons&r, &3redstone ore&r, &3note blocks&r, &3comparators&r, &3repeaters&r, and so on."
 				""
-				"The dispenser is very powerful! give it a try ^^"
+				"The dispenser is very powerful! &dgive it a try ^^&r"
 			]
 			dependencies: ["29358767A696B164"]
 			hide: true
@@ -2571,7 +2576,7 @@
 			y: -11.5d
 			shape: "pentagon"
 			subtitle: "Forge great machines"
-			description: ["Skulk Sensors sense vibrations from a distance, and provide a redstone signal."]
+			description: ["&eSculk Sensors&r &3sense vibrations&r from a distance, and &dprovide a redstone signal&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1E92A6BE31198EF3"
@@ -2692,15 +2697,15 @@
 			shape: "hexagon"
 			subtitle: "Craft a Comparator"
 			description: [
-				"Along with manual inputs, certain things can be observed to make mechanisms activate automatically."
+				"Along with manual inputs, certain things can be observed to &3make mechanisms activate automatically&r."
 				""
-				"The daylight detector is powered during the daytime, and slowly transitions during sunrise and sunset. &6Right-Click&r a daylight detector to invert this, and it will be powered at night instead."
+				"The &edaylight detector&r is &dpowered during the daytime&r, and &3slowly transitions&r during &3sunrise&r and &3sunset&r. &6Right-Click&r a daylight detector to invert this, and it will be &dpowered at night instead&r."
 				""
-				"The Observer emits a small pulse whenever the block it's facing changes."
+				"The &eObserver&r &demits a small pulse&r whenever the &3block it's facing changes&r."
 				""
 				"This includes breaking and placing, opening barrels and shulker boxes, lighting of redstone ore, crop age changes, rotating an item frame, doors opening, and much more."
 				""
-				"The comparator detects changes in fewer blocks, but outputs a signal strength that gives specific info about the block."
+				"The &ecomparator&r &ddetects changes&r in &3fewer blocks&r, but &doutputs a signal strength that gives specific info about the block&r."
 				""
 				"This includes fullness of containers (15 power for full, 0 for empty), fullness of beehives (0-5), fullness of cauldrons (0-3), Item frame rotation (1-8), and Respawn Anchor charge (0-15)"
 			]
@@ -2733,19 +2738,19 @@
 			y: -13.0d
 			subtitle: "Craft a Lever and Wooden Button"
 			description: [
-				"Levers provides constant power when switched into the \"on\" state."
+				"&3Levers&r provide &3constant power&r when switched into the &3on state&r."
 				""
-				"Buttons can be &6Right-Clicked&r to provide a 1 second (stone) or 1.5 second (wooden) pulse. Wooden buttons can also be tripped with arrows and tridents."
+				"&3Buttons&r can be &6Right-Clicked&r to provide a 1 second (stone) or 1.5 second (wooden) pulse. &3Wooden buttons&r can also be &3tripped with arrows and tridents&r."
 				""
-				"Trapped Chests power the block below them when opened by a player."
+				"&eTrapped Chests&r &dpower the block below them&r when &3opened by a player&r."
 				""
-				"Stone and Wooden pressure plates are powered while a mob is on top of them. Wooden pressure plates are also tripped by items, arrows, and fishing hooks."
+				"&eStone and Wooden pressure plates&r are &dpowered&r while a &3mob is on top of them&r. &eWooden pressure plates&r are also &3tripped by items&r, &3arrows&r, and &3fishing hooks&r."
 				""
-				"String can be laid between two tripwire hooks, powering them when its stepped on."
+				"&eString&r can be laid &3between&r two &etripwire hooks&r, &dpowering&r them when &3its stepped on&r."
 				""
-				"Detector rails power the block below them while a minecart is on them."
+				"&eDetector rails&r &dpower the block below them&r while a &3minecart is on them&r."
 				""
-				"Targets produce power when hit with projectiles, with strength increasing the more accurate the hit was."
+				"&eTargets&r &dproduce power&r when &3hit with projectiles&r, with &3strength increasing the more accurate the hit&r was."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -2814,17 +2819,17 @@
 			shape: "hexagon"
 			subtitle: "Craft a Dropper"
 			description: [
-				"Droppers will drop the first item in their inventory when powered, which can be used to transport items long vertical distances (including up using bubble elevators), or onto \"slides\" made of flowing water and ice."
+				"&3Droppers&r will &3drop the first item in their inventory&r when powered, which can be &dused to transport items long vertical distances&r (including up using bubble elevators), or &donto slides&r made of &3flowing water&r and &3ice&r."
 				""
-				"Hoppers can be used to pick up dropped items, transfer items very short distances, and can \"merge\" the outputs of several inventories into one. Hoppers can be locked using redstone signal, preventing pushing and pulling of items."
+				"&eHoppers&r can be used to &dpick up dropped items&r, &dtransfer items very short distances&r, and can &dmerge the outputs of several inventories&r into one. &eHoppers&r can be &3locked using redstone signal&r, &dpreventing pushing and pulling of items&r."
 				""
-				"Hopper minecarts can be used to pull from inventories above them, pick up dropped items, and \"distribute\" items over several inventories below them. This can be used to feed arrays of furnaces/dispensers etc. They can be \"locked\" using activator rails, and \"unlocked\" using unpowered activator rails."
+				"&eHopper minecarts&r can be used to &dpull from inventories above them&r, &dpick up dropped items&r, and &ddistribute items over several inventories below them&r. This can be used to &dfeed arrays of furnaces/dispensers&r etc. They can be &3locked using activator rails&r, and &3unlocked using unpowered activator rails&r."
 				""
-				"Minecarts with chests can transport items long lateral distances in set batches, if a complex enough rail system is present. Hoppers below minecart chests will withdraw items."
+				"&eMinecarts with chests&r can &dtransport items long lateral distances&r in set batches, if a complex enough rail system is present. &eHoppers&r below minecart chests will &dwithdraw items&r."
 				""
-				"Pressure plates activated with items come in 3 different weight classes. Wooden pressure plates fully activate with one item, and weighted pressure plates slowly power every 1 or 10 items respectively."
+				"&ePressure plates&r activated with items come in 3 different weight classes. Wooden pressure plates &3fully activate with one item&r, and &eweighted pressure plates&r &3slowly power every 1 or 10 items respectively&r."
 				""
-				"Allays (As explored in the exploration section) can also be bound to a note block. After it hears one, it will deposit its items there for the next 30 seconds."
+				"&3Allays&r (As explored in the exploration section) can also be &3bound to a note block&r. After it hears one, it will &ddeposit its items there for the next 30 seconds&r."
 			]
 			dependencies: ["29358767A696B164"]
 			hide: true
@@ -2891,19 +2896,19 @@
 			y: -11.5d
 			subtitle: "Craft a Piston"
 			description: [
-				"Mechanism components often act very similarly to blocks, and while they can be strongly and weakly powered as normal, they have a third state when adjacent to weakly powered blocks."
+				"&3Mechanism components&r often act very similarly to blocks, and while they can be strongly and weakly powered as normal, they have a &3third state&r when &3adjacent to weakly powered blocks&r."
 				""
-				"This is called \"activated\" - and in this state, they won't power adjacent blocks or repeaters, but will perform their function."
+				"This is called &3activated&r - and in this state, they &3won't power adjacent blocks&r or &3repeaters&r, but will &dperform their function&r."
 				""
-				"When powered, pistons extend, pushing the block in front of them by 1 block. When retracting, Sticky Pistons will also pull the block its attached to."
+				"When &3powered&r, &epistons&r &3extend&r, &dpushing the block in front of them&r by 1 block. When &3retracting&r, &eSticky Pistons&r will &dalso pull the block its attached to&r."
 				""
-				"Slime blocks can be used to extend the effect of pistons/sticky pistons, by attaching blocks together."
+				"&eSlime blocks&r can be used to &dextend the effect&r of &epistons&r/&esticky pistons&r, by &3attaching blocks together&r."
 				""
-				"Doors and trapdoors can also be toggled by redstone. Including iron variants which can only be opened this way."
+				"&eDoors&r and &etrapdoors&r can &3also be toggled by redstone&r. Including &3iron variants&r which can &3only be opened this way&r."
 				""
-				"Of other note, redstone can also power lamps, useful as indicators, and TNT, which can be used to make explosions, or, in water, cannon-like devices."
+				"Of other note, &3redstone&r can also &dpower&r &elamps&r, useful as indicators, and &3TNT&r, which can be used to &dmake explosions&r, or, in water, &dcannon-like devices&r."
 				""
-				"&7[Carpet]&r &3Chain&r will also connect pushed blocks along its axis. Two pistons can be powered at the same time to extend twice as far."
+				"&7[Carpet]&r &3Chain&r will also connect pushed blocks along its axis. Two pistons can be powered at the same time to &dextend twice as far&r."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -2951,9 +2956,9 @@
 			y: -12.5d
 			subtitle: "Craft a Sign"
 			description: [
-				"Signs can be used to help label chests, rooms, machines, and more. Different kinds of wood change the background, and the text color can be dyed!"
+				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. &3Different kinds of wood change the background&r, and the &3text color can be dyed&r!"
 				""
-				"Item frames can also be used to help organize - a single item can be placed in them for display."
+				"&eItem frames&r can also be used to help &dorganize&r - a &3single item&r can be placed in them for display."
 				""
 				"&7[Inventory Tabs]&r Placing an item frame on a &3Chest&r will &dchange its tab icon&r."
 			]
@@ -2988,17 +2993,17 @@
 			y: -10.0d
 			subtitle: "Craft a Repeater"
 			description: [
-				"Redstone dust can have 15 different levels of power, which decrease as you move each block away from the power source."
+				"&3Redstone dust&r can have &315 different levels of power&r, which &3decrease&r as you move &3each block away from the power source&r."
 				""
-				"Opaque blocks (most blocks) can be \"strongly powered\" or \"weakly powered\"."
+				"&3Opaque blocks&r (most blocks) can be &3strongly powered&r or &3weakly powered&r."
 				""
-				"Strongly powered blocks will provide full power to adjacent redstone dust. Both kinds of power will power adjacent repeaters, comparators, and mechanism components."
+				"&3Strongly powered&r blocks will &dprovide full power to adjacent redstone&r dust. &3Both kinds of power&r will &dpower&r &3adjacent repeaters&r, &3comparators&r, and &3mechanism components&r."
 				""
-				"A Repeater only works in one direction, and can be used to extend a redstone signal beyond 15 blocks, at the cost of 1 redstone tick delay (0.1 seconds). This delay can be adjusted with &7[&r&6Right-Click&r&7]&r."
+				"A &3Repeater&r only &3works in one direction&r, and &dcan be used to extend a redstone signal beyond 15 blocks&r, at the cost of 1 redstone tick delay (0.1 seconds). This delay can be adjusted with &7[&r&6Right-Click&r&7]&r."
 				""
-				"Redstone dust can travel directly upwards in a 2x1 area using top-facing slabs to form \"stairs\". The signal cannot travel down these slabs."
+				"&3Redstone dust&r can &3travel directly upwards&r in a 2x1 area using top-facing &eslabs&r &dto form stairs&r. The signal &3cannot travel down these slabs&r."
 				""
-				"Lamps can help to \"debug\" redstone, by more visibly showing what is powered and not."
+				"&eLamps&r can help to &3debug redstone&r, by more &dvisibly showing what is powered and not&r."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -3032,17 +3037,17 @@
 			shape: "hexagon"
 			subtitle: "Craft a Torch and Comparator"
 			description: [
-				"Redstone signals can be \"inverted\" using redstone torches. By powering the block a redstone torch is attached to, the torch will turn off, and unpowering it will allow it to turn back on."
+				"&3Redstone&r signals can be &3inverted&r using &3redstone torches&r. By &3powering the block a redstone torch is attached to&r, the &dtorch will turn off&r, and &dunpowering it will allow it to turn back on&r."
 				""
-				"As part of a transmission line, more complex circuits than inversion and extension can be created."
+				"As part of a &3transmission line&r, &3more complex circuits&r than inversion and extension can be created."
 				""
-				"Repeaters can be \"locked\" by strongly powering them from the side, and Comparators can \"compare\" and \"subtract\" signals, depending on configuration."
+				"&3Repeaters&r can be &3locked&r by &3strongly powering&r them from the side, and &3Comparators&r can &3compare and subtract signals&r, depending on configuration."
 				""
-				"These techniques alongside redstone torches, opaque blocks, clever spacing, and sometimes even pistons and redstone blocks, can be used to combine and manipulate input signals to produce a desired output."
+				"These techniques alongside &3redstone torches&r, &3opaque blocks&r, clever spacing, and sometimes even &epistons&r and &eredstone blocks&r, can be used to &dcombine and manipulate input signals to produce a desired output&r."
 				""
 				"One example would be requiring two signals to be powered to turn on an output."
 				""
-				"These are \"logic gates\", and schematics to make them can be found online, if you need one."
+				"These are &3logic gates&r, and &3schematics to make them can be found online&r, if you need one."
 			]
 			dependencies: ["657AC96A28C41511"]
 			hide: true
