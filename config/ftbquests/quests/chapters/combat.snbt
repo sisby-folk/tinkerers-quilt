@@ -20,17 +20,17 @@
 			y: -4.0d
 			subtitle: "Acquire a Bow"
 			description: [
-				"&3Bows&r are a charged ranged weapon requiring &3arrows&r."
+				"&3Bows&r are a charged ranged weapon requiring &3arrows&r to fire."
 				""
-				"Bows deal &d6x damage&r when fully charged, spilling stars, with a &3critical chance&r to deal up to 11x."
+				"Bows deal up to &d10x damage when fully charged&r, with fully charged arrows having a &3star trail&r."
 				""
-				"Bows can be enchanted to increase damage, knockback, light enemies on fire, and even shoot infinite arrows."
+				"Bows can be &3enchanted&r to &dincrease damage&r, &dincrease knockback&r, &dignite enemies&r, and &dcost no arrows&r."
 				""
-				"Arrows of harming deal less damage to undead mobs, but more damage to others. Arrows of healing deal more damage to undead mobs, but less to others."
+				"&eArrows of Harming&r deal more damage to &3living mobs&r. &eArrows of Healing&r deal more damage to &3undead mobs&r."
 				""
 				"&7[Fabrication]&r Arrows travel less slowly underwater, though &3Tridents&r are still much faster."
 				""
-				"Arrows can also be scavenged from angered skeletons."
+				"&3Arrows&r can also be &dscavenged from angered skeletons&r."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -80,13 +80,11 @@
 			y: -4.0d
 			subtitle: "Acquire a Crossbow"
 			description: [
-				"Crossbows can be crafted, or dropped from pillagers."
+				"Whether crafted or looted from a &cPillager&r, &3Crossbows&r can fire a bolt &dinstantly once loaded&r - even after sitting in the inventory."
 				""
-				"Unlike bows, they're individually loaded and fired, allowing for many to be loaded at once - say, a whole toolbar full."
+				"You can load a whole toolbar full, or even load &3firework rockets&r - up to 7 &3firework stars&r can be used for &dincreased area damage&r."
 				""
-				"They can be enchanted to pierce through enemies, shoot multiple arrows, and more."
-				""
-				"They can also fire firework rockets made with firework stars. Each firework star added (up to 7) increases damage. Careful!"
+				"Crossbows can be enchanted to &dload faster&r, &dpierce enemies&r, and &dmultiply fired bolts&r."
 				""
 				"&7[Fabrication]&r Crossbows can also receive &3Infinity&r."
 			]
@@ -181,7 +179,7 @@
 				""
 				"The cooldown is indicated by a &3sword indicator&r near the crosshair. When the sword is full, &dattacks deal full damage&r."
 				""
-				"&3Swords&r can attack very quickly, and when fully charged perform a &3sweep&r that deals damage to &dall enemies in an area&r."
+				"&3Swords&r can attack very quickly, and when fully charged perform a &3sweep&r that deals damage to &dall enemies in an area&r. &eSweeping Edge&r increases sweep damage."
 				""
 				"Other tools have no abilities, but deal more damage than fists. &3Axes&r deal more damage than swords, but have a &dvery long cooldown&r."
 				""
@@ -239,11 +237,11 @@
 			y: -2.0d
 			subtitle: "Craft a Shield"
 			description: [
-				"Shields can be held in the Off-Hand, and raised with &7[&r&6Right-Click&r&7]&r, reducing incoming damage."
+				"&3Shields&r can be held in the Off-Hand, and raised with &7[&r&6Right-Click&r&7]&r, &dreducing incoming damage&r."
 				""
-				"Shields can be equipped with banners, and enchanted with Unbreaking."
+				"Shields can be equipped with &3banners&r, and enchanted with &3Unbreaking&r."
 				""
-				"Along with shields - bows, crossbows, snowballs, ender pearls, tridents, fishing rods, flint and steel, food, potions, and milk - can all be utilized in the off-hand for combat."
+				"Along with shields - &3bows, crossbows, snowballs, ender pearls, tridents, fishing rods, flint and steel, food, potions, and milk&r - can all be &dutilized in the off-hand&r for combat."
 				""
 				"&7[ShieldLib]&r Shields can also be enchanted at an &3Enchanting Table&r."
 				""
@@ -328,11 +326,11 @@
 			y: -2.0d
 			subtitle: "Acquire a Trident"
 			description: [
-				"Tridents are dropped by Drowned carrying them, which spawn in numbers in rivers and ocean ruins. "
+				"As the only &dhybrid melee/ranged&r weapon, &3Tridents&r can be &dthrown at speed underwater&r, outmatching &3bows&r."
 				""
-				"Tridents need to be picked up after throwing, unless they're enchanted with Loyalty or Riptide. "
+				"Tridents need to be &dpicked up after throwing&r, unless they're enchanted with &eLoyalty or Riptide&r. "
 				""
-				"Loyalty causes the trident to return after being thrown. Riptide turns the trident throw into a lunging melee attack."
+				"&eLoyalty&r causes the trident to &dreturn&r after being thrown. &eRiptide&r turns the trident throw into a &dlunging melee attack&r."
 				""
 				"&7[Tinkerer's Quilt]&r Tridents can be crafted from &3prismarine shards&r, which drop from guardians in &2ocean monuments&r."
 				""
@@ -381,7 +379,6 @@
 			}
 			x: -1.5d
 			y: 0.0d
-			shape: "hexagon"
 			subtitle: "Acquire armor for every slot"
 			description: [
 				"Armor &3Defense&r stacks for each piece worn, reducing damage further."
@@ -479,9 +476,9 @@
 			y: -5.0d
 			subtitle: "Kill 50 Zombies"
 			description: [
-				"Spawning in droves at night and in caves. Zombies' slow melee amble can be outmaneuvered and outplayed in many ways."
+				"Spawning in droves at night and in caves. The slow amble of a &cZombie&r can be &doutmaneuvered&r in many ways."
 				""
-				"Try §oPillaring§r by jumping and placing two blocks beneath you. This allows you to easily kill any zombies as long as no skeletons are nearby."
+				"Try &3Pillaring&r by jumping and placing two blocks beneath you. This allows you to &deasily kill most melee enemies&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -494,6 +491,11 @@
 				entity: "minecraft:zombie"
 				value: 50L
 			}]
+			rewards: [{
+				id: "40D869E83ACD5092"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Underground Corruption"
@@ -502,9 +504,11 @@
 			y: -8.0d
 			subtitle: "Kill 20 Skeletons"
 			description: [
-				"Skeletons are difficult when unarmored and unshielded, especially in tight spaces where you can't sprint around them."
+				"The &3ranged attack&r from a &cSkeleton&r is dangerous when unarmored, unshielded, and when there's no room to &drun circles&r around them."
 				""
-				"Solving any of these problems should give you an easier time."
+				"Try any of those tactics for an easier fight! "
+				""
+				"When a skeleton kills a &cCreeper&r, it drops a random &emusic disc&r!"
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -517,6 +521,18 @@
 				entity: "minecraft:skeleton"
 				value: 20L
 			}]
+			rewards: [
+				{
+					id: "20B3AEEEA301D14B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "12C8E43B4E793209"
+					type: "item"
+					item: "minecraft:music_disc_cat"
+				}
+			]
 		}
 		{
 			title: "Aw man"
@@ -524,13 +540,13 @@
 			y: -6.0d
 			subtitle: "Kill 15 Creepers"
 			description: [
-				"Creeper explosions pack a punch! They're easiest taken out from a distance, or using singular sprint-jumping strikes. Knockback-enchanted weapons are effective too."
+				"The self-destructing explosions from a &cCreeper&r can pack a punch! "
 				""
-				"Creepers are the best source of gunpowder, which is invaluable for TNT and Fireworks."
+				"Creepers are easiest taken out &dfrom a distance&r, or by &emaking distance&r after each hit."
 				""
-				"You can make an area spawn only creepers by creating a 2x2 tunnel and lining the roof with trapdoors. Creepers are slightly shorter than most mobs, so they'll fit."
+				"Creepers are the best source of &3gunpowder&r, which is invaluable for &dTNT and Fireworks&r."
 				""
-				"Larger spaces can be made, but carpets need to be placed every 3 blocks in a grid to prevent spiders from spawning."
+				"You can make an area &dspawn only creepers&r by creating a &22x2 tunnel&r with a roof lined with &3trapdoors&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -543,11 +559,27 @@
 				entity: "minecraft:creeper"
 				value: 15L
 			}]
-			rewards: [{
-				id: "79AD730DF7ED49A0"
-				type: "item"
-				item: "minecraft:music_disc_cat"
-			}]
+			rewards: [
+				{
+					id: "2FF00C331F6E4A3C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "448CCDD562B9DE27"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:knockback"
+								lvl: 2s
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Hostile Architecture"
@@ -556,11 +588,9 @@
 			y: -7.0d
 			subtitle: "Kill 4 Guardians"
 			description: [
-				"Guardians can be found surrounding ocean monuments."
+				"Surrounding &2ocean monuments&r are &cGuardians&r, which fire &dunblockable, undodgeable lasers&r."
 				""
-				"Guardians fire charge-up lasers at the player, which can't be blocked or dodged. Rushing a guardian or attacking from very long range are the only options."
-				""
-				"When a guardian's spikes are extended, it deals damage when hit."
+				"Guardians must be taken out with a loyal &3Trident&r, or &3rushed&r - but beware! When a guardian's &3spikes&r are extended, damage is &dreflected to attackers&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -573,18 +603,23 @@
 				entity: "minecraft:guardian"
 				value: 4L
 			}]
+			rewards: [{
+				id: "4D4C3E79E74474D0"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Into the Deep"
 			x: -5.5d
 			y: 1.0d
-			subtitle: "Vanquish Three Elder Guardians"
+			subtitle: "Vanquish three Elder Guardians"
 			description: [
-				"Three §oElder Guardians§r live at the heart of §oOcean Monuments§r - Giant underwater temples that restrict your mining ability."
+				"Three &4Elder Guardians&r live at the heart of &2Ocean Monuments&r - &drestricting your mining ability&r."
 				""
-				"They fire slow-firing lasers at the player and allied axolotls, and have 40 hearts of health."
+				"Guardians fire slow-charging lasers at the player and allied axolotls."
 				""
-				"Dodging isn't possible, and the guardian shouldn't be hit while it's spikes are extended."
+				"When their spikes are extended, Guardians &dreflect damage back to the attacker&r."
 			]
 			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
@@ -609,9 +644,9 @@
 			y: -8.0d
 			subtitle: "Kill a Silverfish"
 			description: [
-				"Silverfish rarely inhabit stone underground, but are guaranteed to be found in the portal room in a Stronghold."
+				"Rarely &3Stone&r will contain a &cSilverfish&r with several guaranteed near an &2End Portal&r of a &2Stronghold&r."
 				""
-				"If a silverfish is hit but not killed, it calls nearby silverfish to its aid."
+				"Damaged silverfish will &dcall others to its aid&r, creating swarms."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -624,16 +659,21 @@
 				entity: "minecraft:silverfish"
 				value: 1L
 			}]
+			rewards: [{
+				id: "4554086874FEF98E"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Onslaught"
 			x: -4.5d
 			y: 1.5d
-			subtitle: "Defeat a Raid"
+			subtitle: "Survive a Raid"
 			description: [
-				"After defeating a banner-wielding pillager, which can be found at outposts or hunting the player - they are afflicted with \"Bad Omen\" until they drink milk. If they enter a village, this will trigger a raid."
+				"Triggered by entering a village with &3Bad Omen&r, a &4Raid&r is an onslaught of &cPillagers&r, &cVindicators&r, &cEvokers&r, &cWitches&r, and &cRavagers&r."
 				""
-				"Face several waves of Pillagers, Vindicators, Evokers, Witches, and Ravagers - all while trying to protect the villagers."
+				"The reward is &3Hero Of The Village&r, which grants &ddiscounted trade prices&r for two days."
 			]
 			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
@@ -645,26 +685,23 @@
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "2ACF516C6FDB4853"
-					type: "item"
-					item: "minecraft:emerald_block"
-					count: 2
-				}
-				{
-					id: "45B29FBEBA30C087"
-					type: "item"
-					item: "minecraft:totem_of_undying"
-				}
-			]
+			rewards: [{
+				id: "2ACF516C6FDB4853"
+				type: "item"
+				item: "minecraft:emerald_block"
+				count: 2
+			}]
 		}
 		{
 			title: "Sometimes she's a skhost"
 			x: 2.5d
 			y: -7.5d
 			subtitle: "Kill 3 Ghasts"
-			description: ["Ghasts spawn occasionally flying around the nether. They're most reliably killed with a bow or by reflecting their shots with a sword."]
+			description: [
+				"Above the &2lava seas&r fly &cGhasts&r, making unsettling noises from great distances, and &dspitting explosive fireballs&r at players."
+				""
+				"Ghast fireballs can be &3reflected&r by hitting them for an &dinstant kill&r - or you can pull a trusty &3Bow&r."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "35AED8D09C7CF638"
@@ -676,6 +713,31 @@
 				entity: "minecraft:ghast"
 				value: 3L
 			}]
+			rewards: [
+				{
+					id: "2C75FA96B97A6A45"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "51ADAE6159E0A531"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "[{\"text\":\"The Sandman\",\"italic\":false}]"
+								Lore: ["[{\"text\":\"Batter Up!\",\"italic\":false}]"]
+							}
+							Enchantments: [{
+								id: "knockback"
+								lvl: 5
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "All 120 Vertices"
@@ -683,7 +745,11 @@
 			x: 2.5d
 			y: -5.5d
 			subtitle: "Kill 15 Magma Cubes"
-			description: ["Magma cubes spawn plentifully in the nether, and split into smaller versions when killed."]
+			description: [
+				"Throughout &2The Nether&r, &cMagma Cubes&r have an uncommon chance to spawn. Their &3Magma Cream&r is a valuable resource for &dFire Resistance Potions&r."
+				""
+				"If a small Magma Cube is eaten by a &aFrog&r, it drops a &eFroglight&r."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "52AC9ECD81435809"
@@ -695,13 +761,26 @@
 				entity: "minecraft:magma_cube"
 				value: 15L
 			}]
+			rewards: [
+				{
+					id: "489A2EDD8DB40A65"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "326E62FF89E0A8F4"
+					type: "item"
+					item: "minecraft:ochre_froglight"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Undertaker"
 			disable_toast: true
 			x: -3.5d
 			y: 1.5d
-			subtitle: "Kill the Wither"
+			subtitle: "Overcome the Wither"
 			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
 			id: "5CA39231B56AE5CB"
@@ -717,7 +796,7 @@
 			disable_toast: true
 			x: -6.0d
 			y: 0.0d
-			subtitle: "Kill the Ender Dragon"
+			subtitle: "Defeat the Ender Dragon"
 			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
 			id: "3BBB8E131ECD4FF5"
@@ -735,11 +814,7 @@
 			x: 3.5d
 			y: -7.5d
 			subtitle: "Kill 15 Blazes"
-			description: [
-				"Blazes spawn in packs in nether fortresses, or from spawners also found there."
-				""
-				"They fire their fire shots in small groups, before needing to recharge."
-			]
+			description: ["Floating around &2Nether Fortresses&r, &cBlazes&r come in packs and emerge from spawners - spitting fire in small bursts then &dstopping to recharge&r - that's your chance!"]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "349E511AA603A620"
@@ -751,6 +826,11 @@
 				entity: "minecraft:blaze"
 				value: 15L
 			}]
+			rewards: [{
+				id: "118C5144B9A873E3"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Come Hither"
@@ -759,9 +839,9 @@
 			y: -6.5d
 			subtitle: "Kill 6 Wither Skeletons"
 			description: [
-				"Wither skeletons spawn plentifully in nether fortresses, and apply the 'Wither' effect on hit."
+				"A &2Nether Fortress&r is a death hazard due to &cWither Skeletons&r, sword-wielders that inflict &3Wither&r - which is a bit like &3Poison&r except &dpoison can't kill players&r!"
 				""
-				"This effect is similar to poison, but can kill the player."
+				"Not getting hit requires &dprecise sword timing&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -774,6 +854,11 @@
 				entity: "minecraft:wither_skeleton"
 				value: 6L
 			}]
+			rewards: [{
+				id: "76D951FE99BF0C42"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "And he worked on dark crystal so he knows what he's talking about."
@@ -781,9 +866,11 @@
 			y: -5.5d
 			subtitle: "Kill 4 Hoglins"
 			description: [
-				"Hoglins spawn in crimson forests in the nether, and are hostile."
+				"Keeping the &2Crimson Forest&r dangerous, &cHoglins&r move quickly and have high knockback."
 				""
-				"They also drop leather."
+				"They're too wide to enter a &dthree-block hole&r, but their fast movement can make it hard to dig one once angered."
+				""
+				"Hoglins drop &3Porkchops&r and &3Leather&r - the only hostile mob to do so."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -796,13 +883,26 @@
 				entity: "minecraft:hoglin"
 				value: 4L
 			}]
+			rewards: [{
+				id: "7EE921DD5586F169"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Et tu"
 			x: 3.5d
 			y: -6.5d
 			subtitle: "Kill 5 Piglin Brutes"
-			description: ["Piglin brutes spawn in bastion remnants, and have high speed and high damage."]
+			description: [
+				"Similarly brutal to Vindicators, &cPiglin Brutes&r defend &2Bastions&r and move fast - dealing &dmassive melee damage&r with their &3golden axes&r. "
+				""
+				"It's &deasy to become overrun&r by fast melee enemies. Taking some out &3from a distance&r helps, but they often incidentally &dhide around corners&r for ambushes."
+				""
+				"Like &3Pillaring&r, a more resilient defensive method for dangerous melee enemies is &3ankle biting&r - instead of moving above the danger zone, you move &dbelow it&r."
+				""
+				"First &3pillar three blocks&r, then &3break the bottom two&r blocks, &3dig down two blocks&r below it, and &3replacing one block&r above you. This &dblocks entry&r by tall enemies, and allows you to attract them with a bow, then safely &dattack their legs&r."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "0CB054935E7926CC"
@@ -820,6 +920,11 @@
 				entity: "minecraft:piglin_brute"
 				value: 5L
 			}]
+			rewards: [{
+				id: "2F565D4DB1F1F64F"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Longer Boy"
@@ -827,9 +932,9 @@
 			y: -4.0d
 			subtitle: "Kill 20 Endermen"
 			description: [
-				"Endermen are most easily fought in numbers in the end, and in the desert at night, where the flat light ground makes them very visible."
+				"The large open space of a &2Desert&r makes &cEndermen&r easier to &dspot and fight&r. "
 				""
-				"Wearing a Carved Pumpkin in your helmet slot prevents Endermen from angering on sight. "
+				"While &3arrows&r are ineffective at range, placing a &eWater Bucket&r at your feet protects you from sustained enderman attack."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -842,6 +947,18 @@
 				entity: "minecraft:enderman"
 				value: 20L
 			}]
+			rewards: [
+				{
+					id: "3EA569A7271CDC20"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3B5DB34653CC23ED"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
 		}
 		{
 			title: "You LOSE. Good DAY sir."
@@ -849,11 +966,13 @@
 			y: -4.0d
 			subtitle: "Kill 5 Shulkers"
 			description: [
-				"Shulkers shoot homing bolts that cause levitation on hit, risking high fall damage. "
+				"&2End Cities&r are guarded by &cShulkers&r, which shoot homing bolts that inflict &3levitation&r. "
 				""
-				"The projectiles can be destroyed by hitting them, and Ender Pearls or Chorus Fruit can be used to negate fall damage."
+				"The projectiles can be &3blocked&r or &3attacked&r to &ddispel them&r, and Ender Pearls or Chorus Fruit can be used to &davoid fall damage&r from levitation."
 				""
-				"Shulkers can \"close\", reducing damage they take."
+				"When Shulkers close their shells, they gain high &3defense&r. "
+				""
+				"Shulkers do not respawn naturally, but if &3hit by a a shulker bolt&r, a Shulker might &dmultiply&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -866,6 +985,11 @@
 				entity: "minecraft:shulker"
 				value: 5L
 			}]
+			rewards: [{
+				id: "1466E7DFFE8CE159"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Eye of the Spider"
@@ -873,7 +997,11 @@
 			x: -0.5d
 			y: -7.0d
 			subtitle: "Kill 30 Spiders"
-			description: ["&7[Fabrication]&r Spiders can't climb Glazed Terracotta, or when they're wet from Water or &dSplash Water Bottles&r."]
+			description: [
+				"By climbing, &cSpiders&r can overcome most obstacles and walls. Adding an &3overhang&r to any defensive wall can prevent this."
+				""
+				"&7[Fabrication]&r Spiders can't climb Glazed Terracotta, or when they're wet from Water or &dSplash Water Bottles&r."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "7BA5B355C7DFF7E3"
@@ -885,16 +1013,29 @@
 				entity: "minecraft:spider"
 				value: 30L
 			}]
+			rewards: [
+				{
+					id: "6792DDBF86C7A648"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "547DB984D373B91B"
+					type: "item"
+					item: "minecraft:white_glazed_terracotta"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Kuzco's Poison"
 			x: 1.0d
 			y: -5.0d
-			subtitle: "Kill 5 Cave Spider"
+			subtitle: "Kill 5 Cave Spiders"
 			description: [
-				"Cave spiders are spawned from cave spider spawners in abandoned mineshafts, easily found by looking for cobweb-infested areas."
+				"The poison from a &cCave Spider&r can deal damage very quickly, and make &2abandoned mineshafts&r much more dangerous."
 				""
-				"In normal and above, they inflict poison."
+				"Stay out of &3Cobwebs&r where they can outmaneuver you, and stick to &dhallways where you can't be surrounded&r."
 			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
@@ -907,6 +1048,11 @@
 				entity: "minecraft:cave_spider"
 				value: 5L
 			}]
+			rewards: [{
+				id: "15BE08046D7F49F0"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "[Scooby Doo Chase Theme]"
@@ -914,7 +1060,13 @@
 			x: 1.0d
 			y: -6.0d
 			subtitle: "Kill 15 Drowned"
-			description: ["Drowned spawn underwater, especially in rivers. Zombies that die from drowning also transform into drowned, but don't have a chance of carrying loot. Many drowned spawn around underwater ruins."]
+			description: [
+				"In rivers and oceans, &cDrowned&r pose a small threat unless carrying a &3Trident&r - which deals massive damage."
+				""
+				"Like many enemies, non-ranged Drowned are &dvunlerable from below&r underwater if you can keep a stable distance."
+				""
+				"Drowned have a rare chance to &ddrop a held trident&r on death."
+			]
 			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "20147B09F8E40DE9"
@@ -926,6 +1078,24 @@
 				entity: "minecraft:drowned"
 				value: 15L
 			}]
+			rewards: [
+				{
+					id: "6E82D042CA51889F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DE92F12AB78040B"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Resourceful"
@@ -941,9 +1111,9 @@
 			shape: "hexagon"
 			subtitle: "Pursue Improvised Weaponry"
 			description: [
-				"While not designed as weapons, many items can be used offensively and defensively against hostile mobs."
+				"While not designed as weapons, many items can be &dused offensively and defensively&r in combat."
 				""
-				"Quick use of a flint and steel is a classic example, with burning damage being able to lower the health of approaching packs of mobs while you retreat."
+				"Quick use of &3Flint and Steel&r can burn enemies, damaging even &dlarge packs of mobs&r while you retreat."
 			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
@@ -1001,7 +1171,7 @@
 			y: 2.0d
 			shape: "pentagon"
 			subtitle: "face danger head-on"
-			description: ["§oStay safe, The plates are more fragile than you might think§r"]
+			description: ["&o&dStay safe, These plates are more fragile than you'd think&r&r"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2D49941B8AEF7256"
@@ -1131,7 +1301,11 @@
 			y: -4.0d
 			shape: "hexagon"
 			subtitle: "take on the realms' monsters"
-			description: ["The game contains all manner of hostile monsters. To excel in combat is to have faced them all."]
+			description: [
+				"Hostile &cmonsters&r roam the world, threatening wanderers either out of instinct or ill intent. "
+				""
+				"Prove yourself in combat by showing proficiency defeating each type, and be &dhandsomely rewarded&r."
+			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "1950317947BD61B0"
@@ -1229,7 +1403,11 @@
 			y: 0.0d
 			shape: "hexagon"
 			subtitle: "take on the realms' challenges"
-			description: ["The game contains many emergent combat challenges - True adventure is to have faced the grandest of them all."]
+			description: [
+				"Many &4Great Challenges&r are present in the world, that threaten the &2three dimensions&r."
+				""
+				"Face them all and you shall be &drewarded&r."
+			]
 			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "4FE0BE6BF0009C4E"
@@ -1302,7 +1480,7 @@
 			y: -8.5d
 			shape: "pentagon"
 			subtitle: "Send monsters back to Hell"
-			description: ["§oInvest in these, they'll return the favour.§r"]
+			description: ["&o&dInvest in these, they'll return the favour.&r&r"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7BA5B355C7DFF7E3"
@@ -1544,7 +1722,7 @@
 					id: "05F828B8616A9507"
 					type: "item"
 					item: {
-						id: "minecraft:iron_sword"
+						id: "minecraft:iron_pickaxe"
 						Count: 1b
 						tag: {
 							RepairCost: 31
@@ -1560,14 +1738,14 @@
 							]
 							display: {
 								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
-								Lore: ["{\"text\":\"The Twin Fists [of]\"}"]
+								Lore: ["{\"text\":\"The Twin Ends [of]\"}"]
 							}
 							Damage: 0
 							AttributeModifiers: [
 								{
 									Amount: 20
-									Slot: "mainhand"
 									Operation: 0
+									Name: "generic.attack_speed"
 									UUID: [I;
 										1651970931
 										-1508882340
@@ -1575,12 +1753,12 @@
 										-1849167428
 									]
 									AttributeName: "generic.attack_speed"
-									Name: "generic.attack_speed"
+									Slot: "mainhand"
 								}
 								{
 									Amount: 2
-									Slot: "mainhand"
 									Operation: 0
+									Name: "generic.attack_damage"
 									UUID: [I;
 										262443461
 										-2043656626
@@ -1588,7 +1766,7 @@
 										48632754
 									]
 									AttributeName: "generic.attack_damage"
-									Name: "generic.attack_damage"
+									Slot: "mainhand"
 								}
 							]
 						}
@@ -1607,14 +1785,13 @@
 			}
 			x: -3.5d
 			y: -5.5d
-			shape: "hexagon"
 			subtitle: "Craft a Lingering Potion"
 			description: [
-				"Dragon's Breath can be gathered with bottles while fighting the &4Ender Dragon&r."
+				"&3Dragon's Breath&r can be &dgathered with bottles&r while fighting the &4Ender Dragon&r."
 				""
-				"This can then be used to create lingering potions, for tipping arrows with various effects."
+				"The &3Lingering Potions&r it brews can &dtip arrows&r, inflicting effects on hit."
 				""
-				"If the bow is held in the offhand, you can fill your toolbar with arrow types - holding one in the main hand will fire it specifically."
+				"An &3off-handed&r bow will &dfire the arrow type in the main hand&r."
 			]
 			dependencies: ["0F4FAE3B1041001F"]
 			id: "710860ECFC84C122"
@@ -1700,15 +1877,17 @@
 			y: 1.5d
 			subtitle: "Acquire defensive materials"
 			description: [
-				"Cactus can be used to create traps and harmful walls, as well as placed down quickly in deserts to damage incoming mobs. This is great combined with magma blocks, which deal constant damage when walked on."
+				"Improvised defenses are often devised of &dharmful barriers and traps&r."
 				""
-				"Flowing water can be used to slow oncoming enemies, along with cobwebs, and soul sand. All can be used in defensive walls and traps. Water can be deployed at your feet in panic scenarios to stall crowds."
+				"&dCactus&r can be made into harmful partial walls. &3Magma Blocks&r can be made into damaging floors, and &3Netherrack&r stays on fire forever - the three &dcombined to great effect&r."
 				""
-				"Netherrack can be used to create permanent fire walls and traps. These synergize well with cactus traps."
+				"&3Water Buckets&r, &3Cobwebs&r, and &3Soul Sand&r can all &dslow oncoming enemies&r - combining great with other sources of damage. "
 				""
-				"Powder snow can kill most mobs (except skeletons), and deals massive damage to magma cubes and blazes. It can be obtained while exploring using a bucket, or by leaving a cauldron out in the snow."
+				"Water can also be &3deployed at your feet&r in panic scenarios to &dstall crowds&r."
 				""
-				"&7[Fabrication]&r Cactus doesn't destroy items, making it easier to create traps from."
+				"&3Powder Snow&r can kill non-skeletal mobs and deals &dmassive damage to magma cubes and blazes&r. It can be collected with a bucket, or by leaving a cauldron out in the snow."
+				""
+				"&7[Fabrication]&r Cactus &ddoesn't destroy items&r, making it easier to create traps from."
 			]
 			dependencies: ["42E807C7DFC19EBF"]
 			hide: true
@@ -1772,13 +1951,15 @@
 			y: 0.0d
 			subtitle: "Acquire risky materials"
 			description: [
-				"Lava can decimate crowds of mobs, at the cost of their drops (and some danger). Flint and steel can be used as a less dangerous, slower alternative."
+				"&3Lava Buckets&r are an intense alternative to &3Flint and Steel&r - decimating crowds of unprepared mobs at the cost of their drops."
 				""
-				"TNT and Beds (in other dimensions) can be used as explosive weaponry, dealing massive damage at risk of damaging you and the terrain. End crystals can be placed on obsidian for the same purpose, though they're far more expensive."
+				"&3TNT&r and &3Beds&r (out of &2The Overworld&r) can be used as explosive weaponry. Both deal &dmassive damage&r at risk of damaging &dyou and the terrain&r. "
 				""
-				"Detrimental splash potions can be used to affect crowds of enemies with harmful status effects. Just remember - healing damages undead, and harming heals!"
+				"&3End Crystals&r placed on &3Obsidian&r are an expensive but &deven more effective&r alternative."
 				""
-				"If used from extremely high in the air, hooking a mob with a Fishing Rod can cause them to take fatal fall damage. Elytra and Riptide tridents can achieve this."
+				"&3Splash Potions&r can inflict &3status&r on crowds of enemies at once. Just remember - &dhealing damages undead&r, and harming heals!"
+				""
+				"&3Fall Damage&r can be your friend by hooking a mob on a &3Fishing Rod&r from very high above. Large &3pillars&r or &3Gliding&r can achieve this."
 			]
 			dependencies: ["42E807C7DFC19EBF"]
 			hide: true
@@ -1793,7 +1974,7 @@
 				{
 					id: "5183D9A746C01BA5"
 					type: "item"
-					title: "Any #minecraft:beds"
+					title: "Bed"
 					icon: "minecraft:red_bed"
 					disable_toast: true
 					item: {
@@ -1828,6 +2009,7 @@
 							Damage: 0
 						}
 					}
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -1885,6 +2067,23 @@
 					item: "minecraft:obsidian"
 					count: 3
 				}
+				{
+					id: "7A89AF556DE4C7C8"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							RepairCost: 31
+							Unbreakable: 1
+							Damage: 0
+							display: {
+								Name: "[{\"text\":\"Chain Hook\",\"italic\":false}]"
+								Lore: ["[{\"text\":\"C'mere!\",\"italic\":false}]"]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1893,11 +2092,11 @@
 			y: 3.0d
 			subtitle: "Acquire a Totem of Undying"
 			description: [
-				"Evokers always drop a Totem of Undying on death. "
+				"&cEvokers&r drop a &3Totem of Undying&r on death. "
 				""
-				"The Totem of Undying prevents player death. Instead of dying, the totem is consumed - giving the player a small health boost and protective buffs."
+				"The Totem of Undying &dprevents player death&r. Instead of dying, the totem is consumed - giving the player a &dsmall health boost and protective buffs&r."
 				""
-				"&7[Totem Anywhere]&r Totems work from any slot of the inventory."
+				"&7[Totem Anywhere]&r Totems work from &dany slot of the inventory&r."
 			]
 			dependencies: ["479E0E3F26F179CE"]
 			hide: true
@@ -1920,15 +2119,15 @@
 			y: 1.5d
 			subtitle: "Kill a Pillager"
 			description: [
-				"Illagers come in many varieties, with basic pillagers wielding crossbows."
+				"&cIllagers&r come in many varieties, with basic &cPillagers&r wielding &3crossbows&r."
 				""
-				"More dangerous variants include Vindicators, fast illagers wielding iron axes."
+				"More dangerous variants include &cVindicators&r, fast illagers wielding &3iron axes&r."
 				""
-				"The harder, rarer variants are Evokers, who attack using spells that summon jaws from the ground, and summon flying Vex enemies to attack the player."
+				"The harder, rarer variants are &cEvokers&r, who may summon &3jaws&r from the ground, or summon flying &cVexes&r that attack the player."
 				""
-				"Evokers have a cooldown between their spells, which must be utilized to best take them out."
+				"Evokers have a &dcooldown between their spells&r, which must be utilized to best take them out."
 				""
-				"Finally, Ravagers are large mounted beasts that spawn purely in raids, and deal heavy melee damage with a high range."
+				"Finally, &cRavagers&r are large mounted beasts that spawn purely in &4Raids&r, and are best taken out &dfrom below or while distracted&r."
 			]
 			hide: true
 			invisible: true
