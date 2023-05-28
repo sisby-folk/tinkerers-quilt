@@ -5,6 +5,7 @@
 	filename: "tinkerers_modpack"
 	title: "Introduction"
 	icon: "minecraft:bookshelf"
+	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -107,6 +108,7 @@
 			]
 			dependencies: ["15402DCFAC7CC56A"]
 			hide: true
+			optional: true
 			can_repeat: true
 			id: "227C88C00E509DAD"
 			tasks: [{
