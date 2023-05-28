@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/CardinalBoat.toml"
+hash = "df0c83bcd0c3d6c84558b2fe0533e9857f21ca084ecd4729b44f6c9734cdc20e"
+
+[[files]]
 file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
@@ -82,7 +86,7 @@ hash = "5b12371b1084574466718083663a49e937d7ca42b7f31552868bf1fad9db716c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "4684324d01184fa9463b0e9c3a1d61c5e699749b46dedbe52828014e01b479a6"
+hash = "b58b095b6e64edc809b26edd2822a818ed753a3807dc70f489973a88a09833ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -90,11 +94,11 @@ hash = "c5b770d98af83f14d75df291556d1fc448b820d21d844239d8b75a5d27edee9d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "04f893805f0dd3663f2eb063034ac3011773a19a9c58ae6cdfbd8ce2b8d5db42"
+hash = "4f8f54a6d3a8a8c1cabbbd03390806920d8fc4384de5f1c7375c6b2a978df3e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "4f388891d663b0e748db7590640e01dd0d7aa6115ebaf8120e9d12b9680a53cf"
+hash = "f2b16d55d8a01563e0212d09840ffee69ee07a7ab88afa3339bdf1029d86c1db"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
