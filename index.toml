@@ -427,7 +427,7 @@ hash = "83cdd6d9257985ca4cf844641157b45ce8685538eb9f409e3c079e8490f596bf"
 
 [[files]]
 file = "mods/apathy.pw.toml"
-hash = "82f316481423e91b01518f32c2222edbcb53bae9fc447b8e501f806bfc5a2360"
+hash = "0f7154531872f39e9365d15087908f77227b6b0356068d5e1b98c9f590faddd4"
 metafile = true
 
 [[files]]
@@ -609,8 +609,9 @@ hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
 metafile = true
 
 [[files]]
-file = "mods/emi-1.0.0-SNAPSHOT+1.19.2+fabric.jar"
-hash = "b8b6c9ff52df02cd9db00f7917b1aaf32ae530549f42a4d2909700cfc8d86503"
+file = "mods/emi.pw.toml"
+hash = "1a5bc0f47d0a1dec0c0c68f193470758dc81afd44a40d5805b61869e4fd93ab7"
+metafile = true
 
 [[files]]
 file = "mods/emicompat.pw.toml"
@@ -867,7 +868,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "f1ca8ddc248ddaf1a95cadc741c5f8387397ecfb3c957079add3b2881629de30"
+hash = "7629f7b9bc1b04f215a4bb9e6739ba03995f12efe8a810151a152ab9f1516866"
 metafile = true
 
 [[files]]
@@ -912,7 +913,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
+hash = "779391c2d3a55f6f93b1c04d332856e2033077bb049fc03c1bddc735059eaffa"
 metafile = true
 
 [[files]]
@@ -1076,7 +1077,7 @@ hash = "021e419e2e3986e274d7af785f20638ccbe28a098f1c8a02f8fc23dab859d920"
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "7717773dfdf66a43da414cc59f21d3136136f8ce403cae6a89b15178ffe9b68d"
+hash = "a6d92ff28a7ee9edd51251c7462feaff4301c27c6311a1bd2439bac0fd4b5b6f"
 metafile = true
 
 [[files]]
@@ -1146,7 +1147,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "134b4a9922df7206906a3a149ae86b61e5022a39b564b7993ac66e93a94a9156"
+hash = "cb5b7eb800446c47610ced26441b0a4950dcca6c43bdf1ebe12ad9370cbfb3ba"
 metafile = true
 
 [[files]]

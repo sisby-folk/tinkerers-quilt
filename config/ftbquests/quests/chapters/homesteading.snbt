@@ -57,10 +57,6 @@
 				"A &3Smoker&r is a special furnace that &dcooks food at twice the speed&r."
 				""
 				"&3Furnaces of all kinds&r accept many types of fuel. &3Smaller fuels&r are &dless wasteful&r when processing &3smaller numbers of items&r. Some fuels (e.g. &eLava buckets&r at 100 items) are &3only efficient for large loads&r."
-				""
-				"&7[Farmer's Delight]&r A Cooking Pot can cook many bowls of hearty meals - and can be picked up with them in it!"
-				""
-				"A stove is an indoor variant of a campfire - and can be used for all the same recipes."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -186,39 +182,75 @@
 			]
 		}
 		{
-			title: "Super Position!"
+			title: "Cozy"
 			x: -3.0d
 			y: -10.5d
-			subtitle: "Craft an Ender Chest"
+			subtitle: "Craft a Bookshelf"
 			description: [
-				"&3Ender chests&r contain the &dsame items, no matter where you open them from&r."
+				"Decorative blocks like &3Bookshelves&r can help fill a house's interior, but most indoor furniture &disn't crafted&r."
 				""
-				"These items belong to &3only one player&r - &3every other player has their own inventory&r. &dNo items are lost on death&r."
+				"Instead, facsimiles are created by arranging &eunrelated blocks&r into familiar-looking shapes."
 				""
-				"&3Shulker boxes&r can be &3placed into ender chests&r, &dgreatly expanding their overall capacity&r and ability to transport items infinite distances."
+				"&dClosets, dressers, and cabinets&r can all be created by placing &3Doors&r and &eTrapdoors&r in front of functional blocks like &3Chests&r and &eBarrels&r or decorative blocks like &3Stairs&r and &3Bookshelves&r.&l"
+				""
+				"&eStairs&r with &3Signs&r on either side can serve as &dArmchairs&r, especially when facing &dTables&r made of &3inverted stairs&r, &3floating slabs&r, or &3fences&r with &3pressure plates&r on top."
+				""
+				"&dFireplaces&r can be made of non-flammable blocks with &eNetherrack&r as the flammable base. Fire can spread up to &dtwo blocks away, and four blocks up&r. If space is limited, use &eSoul Soil&r instead for a &dnon-spreading blue flame&r."
+				""
+				"&3Blue Ice&r can serve as water in &dbathtubs and aquariums&r without needing to be enclosed."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "1BCC72C060356F02"
 			tasks: [{
-				id: "38A7D9A1F4B61BE4"
+				id: "4562EEDCA84EE3E3"
 				type: "item"
-				item: "minecraft:ender_chest"
+				item: "minecraft:bookshelf"
 			}]
-			rewards: [{
-				id: "51D88DAC4B7F5615"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
+			rewards: [
+				{
+					id: "2A30AFEC57A4D34F"
+					type: "item"
+					item: "minecraft:barrel"
+					count: 4
 				}
-			}]
+				{
+					id: "789FEED8C9205907"
+					type: "item"
+					item: "minecraft:oak_trapdoor"
+					count: 8
+				}
+				{
+					id: "0E51BAD15DF368DD"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 8
+				}
+				{
+					id: "0A01CD625EAE398C"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 2
+				}
+				{
+					id: "54F3A94B2D57B561"
+					type: "item"
+					item: "minecraft:soul_soil"
+					count: 2
+				}
+				{
+					id: "062F45C29C656DA6"
+					type: "item"
+					item: "minecraft:iron_bars"
+					count: 2
+				}
+				{
+					id: "4D54DDEB3C7D5DCE"
+					type: "item"
+					item: "minecraft:cyan_carpet"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Lit"
@@ -226,13 +258,13 @@
 			y: -11.5d
 			subtitle: "Craft a Lantern"
 			description: [
-				"&3Lanterns&r provide slightly &dmore light than torches&r, and can be &3placed on walls&r or &3hung from ceilings&r."
+				"&3Lanterns&r provide &dmore light than torches&r, and can be &3placed on walls&r or &3hung from ceilings&r."
 				""
-				"They also &dwork underwater&r, including when held in the hand."
+				"They also &dwork underwater&r!"
 				""
-				"Keeping areas well-lit &dprevents them from being able to spawn mobs&r. Torches do this for &314 blocks&r, while lanterns do this for &315&r."
+				"Lights prevents &3mob spawning&r in a radius - essential for &dbuilding a safe base&r!"
 				""
-				"This is essential for building a safe base area!"
+				"&eRedstone Lamps&r can create great streetlights."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -250,9 +282,21 @@
 					count: 8
 				}
 				{
-					id: "6DA66B7DB0E6B2AA"
+					id: "13ACC7277BC1898F"
 					type: "item"
-					item: "minecraft:redstone_block"
+					item: "minecraft:lever"
+					count: 8
+				}
+				{
+					id: "30FE445CAB4EB5B8"
+					type: "item"
+					item: "minecraft:cobblestone_wall"
+					count: 8
+				}
+				{
+					id: "6075422D11F4102E"
+					type: "item"
+					item: "minecraft:oak_fence"
 					count: 8
 				}
 			]
@@ -263,9 +307,9 @@
 			y: -10.5d
 			subtitle: "Craft some Glass Panes"
 			description: [
-				"&3Glass panes&r are an alternative to full glass blocks, both of which &dallow you to make windows and skylights for buildings&r."
+				"&3Glass panes&r are helpful for &ddecorations and windows&r. They're cheaper, but can't be used for skylights. "
 				""
-				"&3Glass&r can also be &3Stained using dye&r, &dcoloring it&r. &3Tinted glass&r can be created with &3amethyst&r, which &dblocks light&r."
+				"&3Glass&r can also be stained using &3Dye&r, &dcoloring it&r. "
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -302,7 +346,7 @@
 				""
 				"&eCarpet&r can also be used to &dcreate a traversable area of fence&r, by placing it on top of a fence post."
 				""
-				"&7[Couplings]&r Vertically stacked fence gates will open at once."
+				"&7[Couplings]&r Vertically stacked fence gates will &dopen at once&r."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -344,9 +388,9 @@
 			description: [
 				"&3Beds&r allow you to &dskip the night&r, and &dset your spawn point&r in case you die."
 				""
-				"They're also &3slightly bouncy&r!"
+				"They're also &dslightly bouncy&r!"
 				""
-				"You can sneak and &7[&r&6Right-Click&r&7]&r interactables to place things on top of them. Try making a bedside table!"
+				"You can &7[&r&6Sneak+Right-Click&r&7]&r interactables to place things on top of them. Try making a &ebedside table&r!"
 			]
 			id: "20E2938DD7365207"
 			tasks: [{
@@ -387,13 +431,13 @@
 			y: -13.0d
 			subtitle: "Do some Ranching"
 			description: [
-				"&3Cows&r and &3Sheep&r can be &3lead&r around by &3holding Wheat in either hand&r. Many mobs can be lead this way, including &3chickens being led by seeds&r."
+				"All animals can be &dlead&r around by holding their &3favourite food&r."
 				""
-				"This can be used to &dlead them into your base&r, or a separated room, pen, or field."
+				"This can help bring them into safe fenced areas."
 				""
-				"&3Animals&r can be &3fed their favourite foods&r to &dencourage them to breed&r, allowing you to &dexpand your farm population&r."
+				"Animals can also be &3fed&r their favourite foods instead, to &dencourage them to breed&r."
 				""
-				"More wild animals can be ranched, including &3turtles&r and &3goats&r. These can be found in the \"Exploration\" tab."
+				"&3Pigs&r like &3vegetables&r, &3Bovids&r like &3Wheat&r, &3Chickens&r like &3Seeds&r, &3Wolves&r like &3Meat&r, &3Cats&r like &3Raw Fish&r, and &3Foxes&r like &3Berries&r."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -447,9 +491,9 @@
 			shape: "circle"
 			subtitle: "Craft a Honey Block"
 			description: [
-				"&3Honey blocks&r can be used to &3augment slime elevators&r, allowing you to easily stick and &darrive at particular floors&r of a large base."
+				"&3Honey Blocks&r are sticky! and can be stuck to as a wall."
 				""
-				"&7[Tinkerer's Quilt]&r &3Honey Bottles&r can be combined with &3wheat&r and &evines&r to create a &3Slime Ball&r."
+				"&7[Tinkerer's Quilt]&r &3Honey Bottles&r can be combined with &3Wheat&r and &eVines&r to create &3Slime Balls&r!"
 			]
 			dependencies: ["5DE40B33B987E149"]
 			hide: true
@@ -480,19 +524,17 @@
 			y: -11.5d
 			subtitle: "Craft a Beehive"
 			description: [
-				"&3Bees&r can be &3farmed&r for &3honeycomb&r, &3honey&r, and also &3used as pollinators&r to &dimprove your crop farms&r."
+				"&3Bees&r provide both &3Honeycomb&r and &3Honey Bottles&r, and also &dimprove crop growth&r."
 				""
-				"When &3harvesting&r honeycomb (with shears) or honey (with a bottle), beehives, like bee nests, need to be &3Smoked&r - with a &ecampfire&r &3placed below them&r."
+				"After crafting a &3Beehive&r using honeycomb from &3Bee Nests&r &7(See Exploration: Naturalist)&r, bees must be lead using &eflowers&r to the new hive, where they can then be bred."
 				""
-				"&eCarpets&r can be &3placed above campfires&r to &dkeep them safe&r."
+				"Bees &dpollinate crops&r below them after visiting a flower. Try building your farm &dbetween hives and flowers&r!"
 				""
-				"Pollination occurs when a bee has collected pollen from a flower and is going back to its hive. By &3placing your farm between a bee's hive and its flowers&r, you will &dimprove its growth&r."
-				""
-				"Alongside &3candles&r, honeycomb can also be used to &3wax&r copper blocks, &dpreventing them from aging&r."
+				"Honeycomb can make &3Candles&r, and also &dprevent copper blocks from aging&r!"
 				""
 				"&7[FeedTheBees]&r bees will &donly take damage&r to regrow their stinger. They can be fed &3sugar&r to heal them."
 				""
-				"&7[Tinkerer's Quilt]&r &3Waxing&r copper beacons will &dprevent them from expiring&r."
+				"&7[Tinkerer's Quilt]&r &3Waxing&r copper beacons will prevent expiry."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -504,21 +546,16 @@
 			}]
 			rewards: [
 				{
-					id: "24F41141FFD014FD"
+					id: "15E683D9BB2C556A"
 					type: "item"
-					item: "minecraft:campfire"
-					count: 2
+					item: "minecraft:sugar"
+					count: 16
 				}
 				{
-					id: "455FF9BBBCFD051D"
+					id: "1F26D521AD2B03C0"
 					type: "item"
-					item: "minecraft:brown_carpet"
-					count: 10
-				}
-				{
-					id: "4228DEEE7AFEBC87"
-					type: "item"
-					item: "minecraft:beehive"
+					item: "minecraft:cornflower"
+					count: 4
 				}
 			]
 		}
@@ -661,17 +698,13 @@
 			shape: "hexagon"
 			subtitle: "Craft a Respawn Anchor"
 			description: [
-				"A &3Respawn Anchor&r Allows you to create a &dproper home in the nether&r. By placing it and &3charging it with glowstone blocks&r, you'll respawn there."
+				"A &3Respawn Anchor&r allows you to create a &dhome in the nether&r. "
 				""
-				"&cMonsters&r spawn at &3any light level in the nether&r but &dnever on half slabs&r. This is essential for making a nether base. &2Warped forests&r also &dprevent most mobs from spawning&r, and soul fire causes piglins to flee."
+				"By placing it and &3charging&r it with &3Glowstone Blocks&r, you'll respawn there."
 				""
-				"&3Respawn anchors&r can also be &dcharged using a dispenser&r."
+				"&2Warped forests&r are &dsafe havens for base building&r - only &cEndermen&r can spawn there."
 				""
-				"A small, 3x2 setup can automate the filling of a Respawn Anchor. Including the anchor (RA), an Observer (Ob), a Dispenser with glowstone (D), and two redstone dust (rd). Here it is shown from the side."
-				""
-				"|  Bl  |  Ob> |  RA  |"
-				""
-				"|  rd  |  rd  | D^  |"
+				"&3Lights&r don't prevent mob spawning in the nether, but &eHalf Slabs&r do - stay safe out there!"
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -686,29 +719,13 @@
 					id: "065134E7CCC364F3"
 					type: "item"
 					item: "minecraft:glowstone"
-					count: 64
-				}
-				{
-					id: "4C3F7EF50CDCE45D"
-					type: "item"
-					item: "minecraft:dispenser"
+					count: 16
 				}
 				{
 					id: "3E2FBE9ED10CF886"
 					type: "item"
 					item: "minecraft:warped_slab"
 					count: 64
-				}
-				{
-					id: "64DF48505B2D5E1E"
-					type: "item"
-					item: "minecraft:redstone"
-					count: 3
-				}
-				{
-					id: "6869C011564C4AAA"
-					type: "item"
-					item: "minecraft:observer"
 				}
 			]
 		}
@@ -730,11 +747,9 @@
 				""
 				"&3Watered soil&r &dgrows crops faster&r, requiring water within 4 blocks in any direction."
 				""
-				"&eBonemeal&r can be used to &dinstantly grow crops&r."
+				"&eBone Meal&r can be used to &dinstantly grow crops&r."
 				""
 				"&7[RightClickHarvest]&r &3Hoes&r can be used to harvest crops in an area. Better hoes have a &dlarger radius&r."
-				""
-				"&7[Seasons]&r The &dSeason&r affects the growth of crops, and the appearance of the world."
 			]
 			id: "5C7110BA96ECA231"
 			tasks: [
@@ -773,7 +788,9 @@
 			shape: "rsquare"
 			subtitle: "Have a Chest, Furnace, and Crafting Table"
 			description: [
-				"The gameplay heart of a base is often a &3workshop&r - any area dedicated to &3crafting items out of other items&r."
+				"The gameplay heart of a base is often a &3workshop&r - any area dedicated to &3storing and crafting items&r."
+				""
+				"&eBarrels&r can be accessed with only one side exposed, great for &dcompact storage&r in space-tight areas."
 				""
 				"&eMusic Discs&r can be inserted into &eJukeboxes&r to &dplay songs&r in an area!"
 			]
@@ -800,12 +817,6 @@
 			]
 			rewards: [
 				{
-					id: "2DEE7C34DB65B443"
-					type: "item"
-					item: "minecraft:oak_log"
-					count: 32
-				}
-				{
 					id: "79D1BF339F7C8089"
 					type: "item"
 					item: "minecraft:music_disc_stal"
@@ -814,6 +825,11 @@
 					id: "33916F3F2601EFC5"
 					type: "item"
 					item: "minecraft:jukebox"
+				}
+				{
+					id: "26879A3EA848C4FE"
+					type: "item"
+					item: "minecraft:barrel"
 				}
 			]
 		}
@@ -893,7 +909,9 @@
 				""
 				"Catches include fish, junk, and, with a large enough pool - &dtreasure&r! including enchantments, nautilus shells, saddles, and name tags.  "
 				""
-				"Fishing rods can also be used to \"yank\" mobs at a 5x durability cost."
+				"Fishing rods can also be used to &d\"yank\" mobs&r at a 5x durability cost."
+				""
+				"Fishing rods can be &3enchanted&r to increase &3durability&r, increase &dcatch speed&r, and &eimprove luck&r."
 				""
 				"&7[FishingReal]&r Fishing is &3catch-and-release&r. Given room, reeled-in fish will simply swim away."
 				""
@@ -922,7 +940,7 @@
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:luck_of_the_sea"
-							lvl: 1s
+							lvl: 2s
 						}]
 					}
 				}
@@ -981,11 +999,7 @@
 			y: -10.0d
 			shape: "hexagon"
 			subtitle: "Fish up a Nautilus Shell"
-			description: [
-				"&3Nautilus shells&r can be &3fished&r at a 1% chance, up to 2% with &eLuck of the Sea III&r."
-				""
-				"&3Nautilus shells&r are the basis of creating a &3Conduit&r - a special structure that facilitates the &dcreation of a safe underwater base&r up to 184 blocks wide."
-			]
+			description: ["&3Nautilus shells&r can be &3fished&r at a 1% chance, or up to 2% with &eLuck of the Sea&r."]
 			dependencies: ["2DF95382AC7B7AD4"]
 			hide: true
 			id: "665ED9CB789FB958"
@@ -996,24 +1010,16 @@
 			}]
 			rewards: [
 				{
-					id: "7218EEC8E37D0D61"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:luck_of_the_sea"
-								lvl: 3s
-							}]
-						}
-					}
-				}
-				{
 					id: "6AF69D0FC37EB581"
 					type: "item"
 					item: "minecraft:prismarine_shard"
 					count: 16
+				}
+				{
+					id: "07421828A6ADE48A"
+					type: "item"
+					item: "minecraft:nautilus_shell"
+					count: 6
 				}
 			]
 		}
@@ -1024,9 +1030,9 @@
 			shape: "hexagon"
 			subtitle: "Find a Heart of the Sea"
 			description: [
-				"A &3Heart of the Sea&r can be found as &3buried treasure&r underwater and under beaches. To find buried treasure, one can &3follow maps&r sold by some &3cartographers&r, or &3feed raw fish to a dolphin&r."
+				"A &3Heart of the Sea&r can be found as buried treasure &2underwater&r and under &2beaches&r. "
 				""
-				"the &3Heart of the Sea&r is the basis of creating a &3Conduit&r - a special structure that facilitates the creation of a &dsafe underwater base&r up to 184 blocks wide."
+				"&3Cartographers&r can sell maps to buried treasure, or you can &3feed raw fish to a dolphin&r and &dfollow it&r."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -1044,10 +1050,18 @@
 					count: 16
 				}
 				{
-					id: "0458D41D54EE0301"
+					id: "3A3C4FDE5BDFF070"
 					type: "item"
-					item: "minecraft:nautilus_shell"
-					count: 3
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 2s
+							}]
+						}
+					}
 				}
 			]
 		}
@@ -1058,11 +1072,13 @@
 			shape: "hexagon"
 			subtitle: "Craft a Conduit"
 			description: [
-				"A §oConduit§r allows you to make advanced multi-species underwater bases."
+				"A &3Conduit&r allows you to create &dsafe underwater bases&r up to &3184 blocks wide&r."
 				""
-				"To activate them, they need to be placed in a 3x3x3 cube of water, that is surrounded by 5x5 squares of prismarine aligned with it in 1-3 axes (each increasing the range)."
+				"They must be placed in a 3x3x3 cube of water with a 5x5 &3prismarine&r square frame around the center."
 				""
-				"To acquire more prismarine shards, you'll need to find and battle ocean monuments."
+				"Frames can be built similarly on other axes, each increasing the range of the &3Conduit Power&r - which provides, &dbreath, night vision, and mining speed&r."
+				""
+				"To acquire more prismarine shards, you'll need to find and battle &2ocean monuments&r."
 			]
 			dependencies: [
 				"4FA802A874FC1A24"
@@ -1140,11 +1156,11 @@
 			y: -12.5d
 			subtitle: "Acquire 1 Blue Ice"
 			description: [
-				"&3Blue ice&r allows boats to &dmove at ludicrous speeds&r on its surface. They can be crafted using 81 ice, or found in the world."
+				"&3Blue Ice&r is an unmeltable variant of ice that allows boats to &dmove at ludicrous speeds&r on its surface. They can be crafted using 81 &3Ice Blocks&r, or found in the world."
 				""
-				"&3Try Ice Farming!&r There's a tutorial in the §oVariety Fair§r section of the farming quest tree."
+				"Ice can be &3farmed&r &7(See Farming: Variety Fair)&r, or you can collect &3packed and blue ice&r from &2Icebergs&r or &2Frozen Peaks&r."
 				""
-				"If ice farming is too slow, try going out to &2iceberg biomes and frozen peaks biomes&r, which have &3packed and blue ice&r."
+				"&7[Cardinal Ice Boats]&r you can use the &7[&r&6Arrow Keys&r&7]&r to make or buffer &d90 degree turns&r on ice lanes."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1168,11 +1184,11 @@
 			shape: "hexagon"
 			subtitle: "Gather some Rail materials"
 			description: [
-				"&3Minecarts and rails&r can be used to make &deasy transit&r between known locations."
+				"&3Minecarts and rails&r can be used to build &deasy transit&r between known locations."
 				""
 				"Just set the rail down, place down a minecart, and hop in!"
 				""
-				"Minecarts &3can't go up steep hills without a push&r. Try using a &ePowered Rail&r with a redstone torch, or a &efurnace minecart&r with fuel!"
+				"Minecarts &3can't go up steep hills without a push&r. Try using a &ePowered Rail&r with a redstone torch, or a &eFurnace Minecart&r with fuel!"
 				""
 				"&eDetector rails&r can be used to &dtrigger redstone circuits&r when passed by. Try it out!"
 				""
@@ -1291,13 +1307,11 @@
 			icon: "minecraft:slime_block"
 			x: -5.5d
 			y: -10.0d
-			subtitle: "Make slime Bounce-Elevator materials"
+			subtitle: "Craft Bounce-Elevator materials"
 			description: [
-				"Try placing a &eslime block&r above a &3sticky piston&r, and turning it on with a &ebutton&r while standing on the slime block!"
+				"Try placing a &3Slime Block&r above a &3Sticky Piston&r, and &epowering&r it while standing on top!"
 				""
-				"Should be &denough height to reach another floor&r - try adding a &ehoney block&r to help &dcatch you at the top&r!"
-				""
-				"&eHay Bales&r &dreduce fall damage&r."
+				"The resulting launch could &dreach another floor&r - try adding a &eHoney Block&r to help &dcatch you at the top&r!"
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1327,11 +1341,6 @@
 					type: "item"
 					item: "minecraft:stone_button"
 				}
-				{
-					id: "1A048A683E8B3CFD"
-					type: "item"
-					item: "minecraft:hay_block"
-				}
 			]
 		}
 		{
@@ -1340,9 +1349,9 @@
 			y: -11.5d
 			subtitle: "Gather Soulspeed Highway materials"
 			description: [
-				"&3Soul sand&r slows the player down, &3soul soil does not&r. With &3soul speed&r, the player is &dno longer slowed down, but sped up&r on both."
+				"&3Soul Sand&r slows the player down, &3Soul Soil&r does not. With &eSoul Speed&r, you &dmove faster on both&r."
 				""
-				"The enchantment can &3only be acquired by trading with piglins&r. But that's a little hard-basket for a cool highway, innit?"
+				"Soul Speed can only be acquired by &3trading gold items to piglins&r. Or uh, completing this quest :)"
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1372,7 +1381,7 @@
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:soul_speed"
-							lvl: 3s
+							lvl: 2s
 						}]
 					}
 				}
@@ -1385,9 +1394,11 @@
 			shape: "hexagon"
 			subtitle: "Saddle and ride a Horse"
 			description: [
-				"&3Horses&r are some of the simplest forms of &dimproved transport&r. First, break it in by &3attempting to ride it until it calms&r. Then sneak and &7[&r&6Right-Click&r&7]&r to saddle it."
+				"&3Horses&r are some of the simplest forms of &dimproved transport&r. "
 				""
-				"Horses can also &3equip armor&r (including dyed leather armor!) to &dimprove their survivability&r. However, horses are in general quite prone to getting stuck in terrain or having other unlucky fates befall them."
+				"A horse must first be broken in by &3trying to ride it until it calms&r. Then saddle it with &7[&r&6Sneak+Right-Click&r&7]&r."
+				""
+				"Horses can also equip &3horse armor&r (including dyed leather armor!) to &dimprove their survivability&r. Just try not to get one stuck in terrain!"
 				""
 				"&3Pigs&r can also be &dridden using saddles&r, and a &3carrot on a stick&r can lead them."
 				""
@@ -1435,9 +1446,9 @@
 			y: -10.5d
 			subtitle: "Swim 500 Blocks"
 			description: [
-				"By combining any amount of &3Depth Strider&r boots, &3Soul speed&r highways, and &3Dolphins Grace&r (granted by dolphins) - the player can &dswim at unfathomable speeds&r."
+				"By combining any amount of &3Depth Strider&r boots, &3Soul speed&r highways, and &3Dolphin's Grace&r (granted by dolphins) - the player can &dswim at unfathomable speeds&r."
 				""
-				"&7[Tinkerer's Quilt]&r Name Tags are &3craftable&r, allowing you to freely tag dolphins like a marine biologist, improving their population in your favourite swimming spots."
+				"&7[Tinkerer's Quilt]&r Name Tags are &3craftable&r, allowing you to freely tag dolphins like a marine biologist, &dpossibly improving their population&r in your favourite swimming spots."
 			]
 			dependencies: ["423E897DEB76653D"]
 			hide: true
@@ -1454,20 +1465,6 @@
 				value: 50000
 			}]
 			rewards: [
-				{
-					id: "4D4D6EDD8F5896F7"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:soul_speed"
-								lvl: 3s
-							}]
-						}
-					}
-				}
 				{
 					id: "42737083D92865C9"
 					type: "item"
@@ -1506,11 +1503,13 @@
 			shape: "hexagon"
 			subtitle: "Learn to farm many things"
 			description: [
-				"Many of minecraft's resources are &3renewable&r - and &3farms&r can be set up to gather them - assuming the player might benefit from a large amount."
+				"Many resources are &3renewable&r, meaning they can be &dacquired endlessly&r without moving around."
 				""
-				"This is often relevant to &3building materials&r, &3fuels&r, &3food&r, and so on. Some of this less-critical farming is covered here."
+				"That means &3farms&r! but not just for crops - for &dbuilding materials, special food, and more&r!"
 				""
-				"Don't just gather the quest materials - Make the farms! They can make your base look very cool!"
+				"Farms that involve &3killing mobs&r are not covered here. Most farms can be &dautomated with machines&r - but this isn't required!"
+				""
+				"Don't just gather the quest materials - &dmake the farms&r! and don't be afraid to make them look cool."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -1528,40 +1527,29 @@
 			y: -10.0d
 			subtitle: "Become a Tree Farmer"
 			description: [
-				"Tree farming allows you to get large amounts of wood."
+				"&3Tree farming&r allows provides sustainable wood, compostable saplings, and apples."
 				""
-				"By using a fortune-enchanted hoe, you can gain many apples from the leaves of oak trees."
-				""
-				"To farm jungle trees effectively, saplings need to be placed in a 2x2 configuration."
+				"A &efortune-enchanted hoe&r can collect many apples from oak tree leaves."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
 			id: "428252F5071CF0D0"
-			tasks: [
-				{
-					id: "4FD33CCBBC3D705A"
-					type: "item"
-					title: "Consume 32 Saplings (Click)"
-					icon: "minecraft:dark_oak_sapling"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:saplings"
-						}
+			tasks: [{
+				id: "4FD33CCBBC3D705A"
+				type: "item"
+				title: "Consume 32 Saplings (Click)"
+				icon: "minecraft:dark_oak_sapling"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
 					}
-					count: 32L
-					consume_items: true
 				}
-				{
-					id: "70AB3162227550AB"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:apple"
-					count: 3L
-				}
-			]
+				count: 32L
+				consume_items: true
+			}]
 			rewards: [{
 				id: "2E45BCED40DE4980"
 				type: "item"
@@ -1594,7 +1582,13 @@
 			x: 3.0d
 			y: -16.5d
 			subtitle: "Farm 32 Vines"
-			description: ["Vines can be farmed on the side of most blocks, and harvested using shears."]
+			description: [
+				"&3Vines&r will &dgrow downwards&r if unobstructed, and harvested using &3Shears&r."
+				""
+				"They're useful for climbing and decoration."
+				""
+				"&7[Tinkerer's Quilt]&r Vines can be crafted into &3Slime Balls&r."
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "4E2B415A2E99BCF6"
@@ -1620,7 +1614,11 @@
 			x: 1.0d
 			y: -14.5d
 			subtitle: "Farm 32 Amethyst"
-			description: ["&3Amethyst&r can &3only be farmed at the source&r - a &2geode underground&r. Keep a note, and feel free to renovate!"]
+			description: [
+				"&3Amethyst&r can only be &dfarmed at the source&r - an &2Underground Geode&r."
+				""
+				"This means the farm comes pre-made - Just mark it on your map!"
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "0FC2E6F08F772324"
@@ -1639,6 +1637,43 @@
 					disable_toast: true
 				}
 			]
+			rewards: [{
+				id: "112A4EFC03516D1B"
+				type: "item"
+				item: {
+					id: "minecraft:white_banner"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Amethyst Geode\"}"
+						}
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Pattern: "mr"
+									Color: 15
+								}
+								{
+									Pattern: "mr"
+									Color: 2
+								}
+								{
+									Pattern: "glb"
+									Color: 10
+								}
+								{
+									Pattern: "bo"
+									Color: 0
+								}
+								{
+									Pattern: "cbo"
+									Color: 15
+								}
+							]
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Cobblestone Farming"
@@ -1646,7 +1681,11 @@
 			x: 4.0d
 			y: -14.5d
 			subtitle: "Gather Generator materials"
-			description: ["&3Cobblestone&r can be freely farmed when &3flowing water meets flowing lava&r."]
+			description: [
+				"&3Cobblestone&r can be generated wherever &3Flowing Water&r meets &3Flowing Lava&r."
+				""
+				"Try creating your own convenient configuration for mining &dlines of cobblestone&r easily!"
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "74001D2726E7133D"
@@ -1677,7 +1716,11 @@
 			x: 2.0d
 			y: -16.5d
 			subtitle: "Farm 16 Dried Kelp Blocks"
-			description: ["&3Kelp&r can be easily farmed by placing &3lots of it in a flat area deep underwater&r. This is a good source of &3Dried Kelp Blocks&r - the &dstrongest renewable fuel by stack&r."]
+			description: [
+				"&3Kelp&r can be planted underwater and grows to a random height up to &315 blocks&r. "
+				""
+				"This is a good source of &3Dried Kelp Blocks&r - the &dstrongest renewable fuel by stack&r."
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "6E20F24C33A627DC"
@@ -1704,9 +1747,9 @@
 			y: -15.5d
 			subtitle: "Farm 64 Ice"
 			description: [
-				"&3Ice&r can be farmed by creating a &3diagonal line of water&r source blocks &3covered with slabs&r, then &3enclosing the full square&r."
+				"&3Ice&r can be farmed with &3Silk Touch&r in &2cold biomes&r in an exposed one-deep square hole of &dany size&r."
 				""
-				"&3Ice&r will &dform everywhere but the covered line&r, and can be collected using a &3silk touch pickaxe&r."
+				"Fill the hole with water, then place &2Slabs&r in a diagonal line to &dprotect the source water&r. Then get breaking!"
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
@@ -1734,7 +1777,7 @@
 			y: -15.5d
 			subtitle: "Farm 32 Cocoa Beans"
 			description: [
-				"&3Cocoa beans&r can be &3grown&r on the side of &3any jungle log&r - Not just trees."
+				"&3Cocoa Beans&r can be grown on the side of any &3Jungle Log&r - including trees."
 				""
 				"Enjoy your cookies!"
 			]
@@ -1763,24 +1806,15 @@
 			x: 1.0d
 			y: -13.0d
 			shape: "hexagon"
-			subtitle: "Farm all the \"Basic\" plants"
+			subtitle: "Farm every basic crop"
 			description: [
-				"These &3basic crops&r are great for &dmaking books, food, potions, and emeralds&r (trading with farmers). "
+				"Farming crops is great for &dmaking books, food, and potions&r. Plus &3emeralds&r when trading with farmers! "
 				""
-				"&3Watered farms&r can be made in strips up to &38 blocks wide&r utilizing &3water on either side&r. Slabs can be \"waterlogged\" on the water's top half, making the ground walkable."
+				"&3Watered farms&r can be made in &dstrips up to 8 blocks wide&r by building channels on either side. "
 				""
-				"&3Farms&r &dgrow faster if they're diverse&r - try &3planting alternating crop types in rows&r."
+				"&3Slabs&r can be placed &3waterlogged&r on the top half of a channel, making it walkable."
 				""
-				"Farms continue &dgrowing overnight&r if they have &3light&r. "
-				""
-				"Try building a \"scarecrow\" using &eHay Bale&r (HB), &eSpruce Fence&r (SF), &eJack'o'Lantern&r (JO), and &eBirch Slab&r (BS) like below."
-				""
-				"|     | BS  |     |"
-				"|     | JO  |     |"
-				"| SF | HB  | SF |"
-				"|     |  SF |     |"
-				""
-				"Feel free to add the &ebanners&r to &ddecorate&r. They can also be built 1 higher off of the ground with another spruce fence."
+				"Farms continue &dgrowing overnight&r if they have &3light&r - try making &3decorative scarecrows&r with a &eHay Bale&r body, &eSpruce Fence&r stand, &eJack'o'Lantern&r head, and &eBirch Slab&r hat!"
 			]
 			dependencies: ["192BAFDE101F900B"]
 			hide: true
@@ -1838,17 +1872,6 @@
 			]
 			rewards: [
 				{
-					id: "5EC82592CAFD57DC"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "3644525BA1DA0B7D"
 					type: "item"
 					item: "minecraft:jack_o_lantern"
@@ -1900,6 +1923,12 @@
 					item: "minecraft:birch_slab"
 					count: 16
 				}
+				{
+					id: "09A893DF3BDFA974"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
 			]
 		}
 		{
@@ -1908,9 +1937,13 @@
 			y: -11.5d
 			subtitle: "Farm some Wheat"
 			description: [
-			    "&3Wheat&r is the easiest crop to acquire - Just &3break some tall grass&r and get hoeing."
+				"&3Wheat&r is the easiest crop to acquire - Just break some &3Tall Grass&r and get hoeing!"
 				""
-				"&7[Farmer's Delight]&r An increased variety of crops can be obtained by finding them in the wild."
+				"Don't just grow wheat forever though - farms &dgrow faster if they're diverse&r, so try planting crops in rows!"
+				""
+				"Farming creates many excess &3seeds&r - a &eComposter&r can turn those into useful &3Bone Meal&r!"
+				""
+                "&7[Farmer's Delight]&r An increased variety of crops can be obtained by finding them in the wild."
 			]
 			dependencies: ["5C7110BA96ECA231"]
 			hide: true
@@ -1922,10 +1955,9 @@
 				count: 32L
 			}]
 			rewards: [{
-				id: "046833CC8D4ADAF5"
+				id: "4CB4E7F6893DB29C"
 				type: "item"
-				item: "minecraft:golden_carrot"
-				count: 16
+				item: "minecraft:composter"
 			}]
 		}
 		{
@@ -2013,7 +2045,7 @@
 					id: "30817A1DB77C9DFD"
 					type: "item"
 					item: {
-						id: "minecraft:netherite_hoe"
+						id: "minecraft:wooden_hoe"
 						Count: 1b
 						tag: {
 							RepairCost: 31
@@ -2042,9 +2074,9 @@
 			y: -17.0d
 			subtitle: "Farm 32+32 Mushrooms"
 			description: [
-				"&3Mushrooms&r can be &3bonemeal&r'd into &3Giant Mushrooms&r, which yield 0-2 mushrooms per block."
+				"&3Mushrooms&r can be &3bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
-				"This takes quite a bit of &3bonemeal&r, so &3consider alternate methods&r of acquisition, such as &3fossils&r in the nether, or &3compost farms&r."
+				"That means this is actually a &3Bone Meal&r compost farm! You can use a &3Hopper&r to &dfill and empty composters&r automatically."
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
@@ -2078,7 +2110,13 @@
 			x: 2.5d
 			y: -17.5d
 			subtitle: "Farm 64 Nether Wart"
-			description: ["&3Nether wart&r can be grown on &3soul sand&r, in &2any dimension&r. It &3doesn't require light to grow&r."]
+			description: [
+				"&3Nether Wart&r can be planted on &3soul sand&r in &2any dimension&r. "
+				""
+				"It &3doesn't even require light to grow&r - simple!"
+				""
+				"&7[Carpet]&r &3Blaze Powder&r can be used to grow nether wart quickly."
+			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
 			id: "54AA1BD5E8241369"
@@ -2105,9 +2143,9 @@
 			y: -17.0d
 			subtitle: "Farm 64 Sweet Berries"
 			description: [
-				"Just &3throw a bunch on the ground&r, honestly. There's not much to it. Maybe put them in rows? I'm &dnot a cop&r."
+				"Just throw a bunch on the ground, honestly. There's not much to it. &dMaybe put them in rows? I'm not a cop&r."
 				""
-				"&3Foxes&r like &3sweet berries&r, and &3prefer holding them to any other item&r. If a &3fox&r is &dholding an item you want&r, &3tempt it with a sweet berry&r!"
+				"&3Foxes&r like sweet berries. If a fox is &dholding an item you want&r, try throwing one!"
 			]
 			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
@@ -2133,7 +2171,7 @@
 			x: -3.0d
 			y: -12.5d
 			subtitle: "Make some Ladders"
-			description: ["Multi-floor bases are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
+			description: ["&dMulti-floor bases&r are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "645EFC73CEB1C918"
@@ -2156,9 +2194,13 @@
 			y: -12.5d
 			subtitle: "Make a Door"
 			description: [
-				"&3Doors&r are used to &dblock access to inner rooms to mobs&r, and to decorate."
+				"&3Doors&r can be opened and closed with &7[&r&6Right-Click&r&7]&r, or by &epowering&r them."
 				""
-				"&7[Tinkerer's Statures]&r Doorways may need to accommodate for taller players. &eTrapdoors&r, &3fence gates&r, and inverted &3stairs&r can all assist with this."
+				"On &3Hard Difficulty&r, &cZombies&r can &dbreak wooden doors&r - Alternative door styles can be used to avoid this."
+				""
+				"&7[Couplings]&r Double doors will &dopen at once&r."
+				""
+				"&7[Tinkerer's Statures]&r Doorways may need to accommodate for taller players. &eTrapdoors&r, &3Fence Gates&r, and inverted &3Stairs&r can be utilized for this."
 			]
 			dependencies: ["20E2938DD7365207"]
 			hide: true
@@ -2184,20 +2226,10 @@
 					count: 6
 				}
 				{
-					id: "7B661683BB1404C8"
+					id: "0EC6F6EF842B4B5F"
 					type: "item"
-					item: "minecraft:cyan_carpet"
-					count: 16
-				}
-				{
-					id: "7F2CB197C05B4AE1"
-					type: "item"
-					item: "minecraft:cake"
-				}
-				{
-					id: "1CD14BAA58E27C26"
-					type: "item"
-					item: "minecraft:honey_bottle"
+					item: "minecraft:stone_pressure_plate"
+					count: 2
 				}
 			]
 		}
@@ -2209,11 +2241,9 @@
 			shape: "hexagon"
 			subtitle: "Travel far by rail"
 			description: [
-				"Rail can be expanded into full train and automated transit and freight systems."
+				"Rail can be expanded into &dfullly automated transit&r and freight systems."
 				""
-				"&3When powered&r, rails at &dT intersections will swap which directions they go&r, allowing riders to &dchange direction&r using &3buttons and levers&r."
-				""
-				"When powered, &eactivator rails&r will cause players to &ddismount minecarts&r that pass over them."
+				"&3When powered&r, rails at &3T intersections&r will &dswap their direction&r, and &eActivator Rails&r will cause players to &ddismount minecarts&r."
 			]
 			dependencies: ["0EF299A1A5009971"]
 			hide: true
@@ -2420,6 +2450,43 @@
 				type: "checkmark"
 				title: "Rest by the fire [Click]"
 			}]
+			rewards: [
+				{
+					id: "79594AF7E372EA9B"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							RepairCost: 31
+							Enchantments: [{
+								id: "swift_sneak"
+								lvl: 5
+							}]
+							Damage: 0
+							display: {
+								color: 15975899
+								Name: "[{\"text\":\"Pyjama Pants\",\"italic\":false}]"
+								Lore: ["[{\"text\":\"Comfy\",\"italic\":false}]"]
+							}
+						}
+					}
+				}
+				{
+					id: "31513DC7CDA6BC87"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Thorough"
@@ -2429,11 +2496,15 @@
 			shape: "hexagon"
 			subtitle: "Travel far by Horse"
 			description: [
-				"&3Breeding horses&r together with &eGolden Carrots&r or &3Golden Apples&r."
+				"Horses have three &3statistics&r - &3Health&r, &3Jump Height&r, and &3Speed&r."
+				""
+				"&3Breeding&r horses can create &dhorses with better stats&r, which requires feeding two horses &eGolden Carrots&r or &3Golden Apples&r."
+				""
+				"&3Donkeys&r are similar to horses but can &dcarry chests&r. While slower then horses, the two can be bred to create an infertile &3Mule&r with improved stats."
 				""
 				"&7[WTHIT]&r The &dspeed and jump height&r of a horse can be viewed by holding &7[&r&6ALT&r&7]&r"
 				""
-				"&7[HorseBuff]&r Horses will have stats around the &3average of their parents&r."
+				"&7[HorseBuff]&r Horses/Mules will have stats around the &3average of their parents&r."
 			]
 			dependencies: ["7AA799B6789ABD71"]
 			hide: true
