@@ -170,7 +170,7 @@ hash = "0db678c4e6bfddc8566a735bc30027dedae70aea4462277eed2682d633e113a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "d0fa701061bfb77a76c293430db5bb3d6bcc44f8db0238df74df2a124eafcf00"
+hash = "5a315bb977151266e0c84a734f186e1f5cd2854f6229f9b96f73d0074fcdab37"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -178,7 +178,7 @@ hash = "a9d00a0ecdd64003e2d26294081cd8d8486a2f0701c8066c82f501f0bcb478a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "25d92a3e0c91976a6fa5504b36afda53e9bfd0b41abfa838d3e71700ca44e656"
+hash = "73743cd3516a3910eabaf713715d4c5d7d0d57d71388d2ede761f3da65aaa4c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -720,12 +720,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "be80427ed2f57d16781d2ce92b140fdb41abe875d9b791922693b012f7108c8d"
+hash = "ef746e7a41f7c0c6db11ccc98fba9d0ee43b3978b181650b2ab1c45a4cdd0eb4"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "6500e4d72846023569a72fad102d429e3bda2815806b98267f6ab36586c60d29"
+hash = "36c6086dd2c9ae6a062d3e221f80d0835d380dcdf1605be5db5e7a15d42d7f9c"
 metafile = true
 
 [[files]]
@@ -788,7 +788,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-filters.pw.toml"
-hash = "3e1e8c00bc5bc09edd818450dde13da4983702b8c92b8178c9c51fccbd7a633d"
+hash = "3c45ef4cf714017201df7154d49dee92b221014b956eb07ba1588d5fb957ae78"
 metafile = true
 
 [[files]]
@@ -1464,6 +1464,22 @@ hash = "3ac37b8be31ca11528210c57f302bef727f693671b07b420af150f7267cce3de"
 [[files]]
 file = "resources/packs/deco_consistency_compat/pack.mcmeta"
 hash = "354060901020a9c8a7a06004f2a0927f12cefa438534255e6674fd5e3b325ec5"
+
+[[files]]
+file = "resources/packs/hide_item_filters/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "038b8d307089ded74c6f77eb1a8c712e5d7daf221b0a4e7b5aa16505e75cc39a"
+
+[[files]]
+file = "resources/packs/hide_item_filters/pack.mcmeta"
+hash = "cc5444187a5dc9be0ff325b63aa0f01447ca6c8a1b3675b3322d30a035c65f71"
+
+[[files]]
+file = "resources/packs/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "bd32eff1567a6ae10d7a06f751b353d5a5188f60c363d431438071f1db653352"
+
+[[files]]
+file = "resources/packs/hide_yigd/pack.mcmeta"
+hash = "c9b84c7d95f0aac4f81b5a7ebaa7d727d8bd1f3d53f67ea5fcee9fed4de90b82"
 
 [[files]]
 file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_modifiers/import_modded_loot.json"

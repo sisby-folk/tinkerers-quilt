@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": "Filters and Hides YIGD items",
+    "pack_format": 10
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "yigd",
+        "path": "recipes/.*"
+      }
+    ]
+  }
+}

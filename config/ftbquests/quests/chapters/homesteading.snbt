@@ -14,15 +14,15 @@
 			y: -13.0d
 			subtitle: "Craft a Blast Furnace"
 			description: [
-				"A &3Blast Furnace&r is a special kind of furnace that &dsmelts ores at double speed&r."
+				"A &3Blast Furnace&r is a specialized furnace variant that &dsmelts ores at double speed&r."
 				""
-				"&3Hoppers&r automatically &3catch and insert&r items into &3furnaces&r, &3chests&r, and &3other blocks with inventories&r."
+				"&3Hoppers&r can automatically &dtake items from&r or &dinsert items into&r into any blocks with an inventory - including &3Furnaces&r and &3Chests&r."
 				""
-				"A &3furnace&r can have a &3hopper&r placed &3above it&r, &3on its side&r, and &3below it&r. "
+				"Any furnace can have a hopper above it, inserting into the &3material slot&r, a hopper beside it, inserting into the &3fuel slot&r, and a hopper below it, extracting from the &3result slot&r."
 				""
-				"These three hoppers will &dinsert items&r into the &3smelting slot&r and the &3fuel slot&r, and &dextract items&r from the &3result slot&r, respectively."
+				"By adding chests to each, this can be used to &dsmelt many stacks of items&r without checking in."
 				""
-				"By adding &3chests&r to each of these hoppers, you can &dset up a furnace to run for a long time&r."
+				"&7[Fabrication]&r &6Clicking&r the &3output slot&r of a furnace set up this way will transfer you any experience generated."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -54,9 +54,13 @@
 			y: -10.5d
 			subtitle: "Craft a Smoker"
 			description: [
-				"A &3Smoker&r is a special furnace that &dcooks food at twice the speed&r."
+				"A &3Smoker&r is a specialized furnace variant that &dcooks food at double speed&r."
 				""
-				"&3Furnaces of all kinds&r accept many types of fuel. &3Smaller fuels&r are &dless wasteful&r when processing &3smaller numbers of items&r. Some fuels (e.g. &eLava buckets&r at 100 items) are &3only efficient for large loads&r."
+				"All furnaces accept many types of fuel. "
+				""
+				"&3Smaller fuels&r are less wasteful when processing smaller numbers of items. "
+				""
+				"&eLarge fuels&r are &3only efficient for large loads&r - with &eLava Buckets&r smelting &d100 items&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -93,7 +97,7 @@
 			y: -8.5d
 			shape: "gear"
 			subtitle: "A Sacrifice in Stone"
-			description: ["Many block types can be cut in the stonecutter, producing various patterns and shapes."]
+			description: ["Many block types can be cut in the &3Stonecutter&r, producing various patterns and shapes."]
 			dependencies: ["1233042213A9729E"]
 			hide: true
 			optional: true
@@ -565,13 +569,13 @@
 			y: -9.5d
 			subtitle: "Craft a Loom"
 			description: [
-				"&3Looms&r allow you to &dcreate custom banner designs&r, which can be &3emblazoned on shields&r or &3displayed on maps&r."
+				"&3Looms&r allow you to create &dcustom banner designs&r, which can be &dhung or emblazoned on shields&r."
 				""
-				"&3Many designs&r for pictures, pride flags, and other patterns are &3available online&r."
+				"&3Special designs&r for pictures, pride flags, and other patterns are &davailable online&r."
 				""
-				"All 16 colors of dye can be made from 7 base colors, by crafting them together."
+				"All &d16 colors of dye&r can be crafted from &e7 base dyes&r."
 				""
-				"&3Banners&r and &3dyed leather armor&r can be &3washed&r clean by throwing them in a cauldron of water."
+				"&3Banners&r and dyed &3Leather Armor&r can be &dwashed clean&r by throwing them in a &3Water Cauldron&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -652,13 +656,13 @@
 			y: -13.5d
 			subtitle: "Craft a Cartography Table"
 			description: [
-				"&3Cartography tables&r allow you to &dduplicate&r the contents of &emaps&r, including their zoom level. They also allow &dcheaper&r &3zooming out&r of maps with &epaper&r."
+				"&3Cartography tables&r allow you to &dduplicate map contents&r, including their zoom level. They also allow &dcheaper zooming out&r of maps with &epaper&r."
 				""
 				"This means you can &dshare large regions&r of map (e.g. the region around your base) with &3other players&r."
 				""
-				"You can also add &3markers&r to a map, simply &7[&r&6Right-Click&r&7]&r a banner &3while holding the map&r."
+				"&3Markers&r will also be copied - to add one to a map, simply &7[&r&6Right-Click&r&7]&r a banner &3while holding the map&r."
 				""
-				"&eMaps&r can be placed into &eitem frames&r, allowing them to be &dassembled into much larger physical maps&r."
+				"&eMaps&r can be placed into &eItem Frames&r, allowing them to be &dassembled into much larger physical maps&r."
 				""
 				"&7[Crowmap]&r &eMaps&r can be filled out from &3any slot in your inventory&r."
 			]
@@ -786,9 +790,9 @@
 			x: 6.0d
 			y: -11.5d
 			shape: "rsquare"
-			subtitle: "Have a Chest, Furnace, and Crafting Table"
+			subtitle: "Make a Crafting Table, Chest, and Furnace"
 			description: [
-				"The gameplay heart of a base is often a &3workshop&r - any area dedicated to &3storing and crafting items&r."
+				"The core of any base is a &2workshop&r - dedicated to &3storing and crafting items&r."
 				""
 				"&eBarrels&r can be accessed with only one side exposed, great for &dcompact storage&r in space-tight areas."
 				""
@@ -840,11 +844,9 @@
 			shape: "hexagon"
 			subtitle: "Craft a Stonecutter"
 			description: [
-				"&3Stonecutters&r are used to &dcheaply craft&r many &3decorative blocks&r in the game."
+				"&3Stonecutters&r are used to &dcheaply craft decorative blocks&r."
 				""
-				"By &3placing&r a &estone&r or &3brick block&r of almost any type, you can &dtransform it&r into one of its &3decorative variants&r."
-				""
-				"This includes &3stairs&r, &3slabs&r, &3polished&r and &3chiseled&r variants, and &3walls&r."
+				"By placing stone-like blocks in the &3input slot&r, you can &dtransform it&r into many decorative and functional variants."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -868,7 +870,7 @@
 			shape: "hexagon"
 			subtitle: "Build a Furnace Minecart"
 			description: [
-				"&3Furnace Minecarts&r are used to travel long distances by pushing minecart trains."
+				"&3Furnace Minecarts&r are used to &dtravel long distances&r by pushing minecart trains. Just add one &3fuel&r and the minecart will &3push until it runs out&r."
 				""
 				"&7[Fabrication]&r Furnace minecarts can &daccept any fuel&r. A running furnace minecart will &dkeep its chunk loaded&r§r, preventing farms and machines from freezing once you're far away."
 				""
@@ -953,7 +955,7 @@
 			y: -8.5d
 			shape: "gear"
 			subtitle: "Glazed Foresight"
-			description: ["Derives the co-ordinates of the nearest &2Badlands biome&r - once. For gathering &3Terracotta&r."]
+			description: ["Derives the co-ordinates of the nearest &2Badlands Biome&r - once. For gathering &3Terracotta&r."]
 			dependencies: ["1233042213A9729E"]
 			hide: true
 			optional: true
@@ -2466,8 +2468,8 @@
 							Damage: 0
 							display: {
 								color: 15975899
-								Name: "[{\"text\":\"Pyjama Pants\",\"italic\":false}]"
 								Lore: ["[{\"text\":\"Comfy\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Pyjama Pants\",\"italic\":false}]"
 							}
 						}
 					}
@@ -2532,13 +2534,13 @@
 			shape: "hexagon"
 			subtitle: "Begin exploring mechanisms"
 			description: [
-				"&3Redstone&r and related components can be broken down into &3three broad categories&r."
+				"&3Mechanisms&r are built by the player and can &dperform complex tasks&r - they have components in three categories."
 				""
-				"There are &3input&r or &3power&r components, which &dprovide initial redstone power&r."
+				"&3Input&r or &3Power&r components provide an &dinitial redstone signal&r (or \"power\")."
 				""
-				"There are &3transmission&r components, which &dmove and transform signals&r."
+				"&3Transmission&r components &dmove and transform signals&r."
 				""
-				"And finally there are &3mechanism&r components. These &dperform the actual function desired&r."
+				"&3Functional&r components &dperform the actual function desired&r."
 			]
 			dependencies: ["55783EE248BAC550"]
 			hide: true
@@ -2585,35 +2587,41 @@
 			]
 		}
 		{
-			title: "Advanced Mechanism Component"
+			title: "Advanced Functional Components"
 			x: 13.0d
 			y: -12.0d
 			shape: "hexagon"
 			subtitle: "Craft a Dispenser"
 			description: [
-				"&3Dispensers&r, when powered, can &3perform a variety of actions&r depending on the item in their first non-empty slot."
+				"When powered, &3Dispensers&r will &dperform a variety of actions&r depending on the item in their first non-empty slot."
 				""
-				"&3Dispensers&r can &dfire&r &3arrows of all kinds&r, &3snowballs&r, &3fireworks&r, &3fire charges&r, &3eggs&r, &3splash and lingering potions&r, and (straight down) &3TNT&r."
+				"Dispensers can:"
+				" - Fire &3Arrows&r/&3Fire Charges&r/&3Fireworks&r"
+				" - Throw all &3throwables&r"
+				" - Ignite and drop &3TNT&r straight down"
+				" - Use &3Flint and Steel&r"
+				" - Use empty and filled &eBuckets&r"
+				" - Place &3Boats&r and &3Minecarts&r"
+				" - Place &3Shulker Boxes&r"
+				" - Equip &3Armor&r or &3Saddles&r"
+				" - Complete &aGolems&r and &cWithers&r"
+				" - &eShear&r &3Beehives&r and &aSheep&r"
+				" - Bottle &3Honey&r and &3Water&r"
+				" - Use &3Bone Meal&r on &3crops&r"
+				" - Charge &3Respawn Anchors&r"
 				""
-				"They can &3utilize buckets&r, including &dpicking up liquids&r with an empty &ebucket&r, and &dplacing liquids&r, &3powder snow&r, or &3fish&r using a &3filled bucket&r."
-				""
-				"They can &dplace&r &3boats&r and &3minecarts&r of all kinds, as well as &dequip players&r with &3armor&r, &3saddle-able mobs with saddles&r, &3horses&r with &3horse armor&r, and &3place carved pumpkins onto golems&r."
-				""
-				"They can &dshear&r &3beehives&r and &3sheep&r with &eshears&r, or &dbottle their honey&r with a &3bottle&r, and &duse bonemeal on crops&r."
-				""
-				"&7[Carpet]&r Dispensers can:"
-				" - Place Blocks (Block)"
-				" - Rotate Blocks (&eCactus&r)"
-				" - Carve pumpkins (&eShears&r)"
-				" - Feed animals (wheat/etc)"
-				" - Milk animals (&eBucket&r, Bowl)"
-				" - Pot plants (plant)"
-				" - Use a jukebox (disc)"
-				" - Till soil (hoe)"
-				" - Strip logs/copper (axe)"
-				" - Fill/empty cauldrons (&ebucket&r)"
-				""
-				"Finally, &3dispensers&r with &3sticks&r can &dtoggle things&r. This includes &3buttons&r, &3redstone ore&r, &3note blocks&r, &3comparators&r, &3repeaters&r, and so on."
+				"&7[Carpet]&r Dispensers can also:"
+				" - Place blocks"
+				" - (&eCactus&r) Rotate blocks "
+				" - Carve &3Pumpkins&r"
+				" - Feed animals"
+				" - Milk animals"
+				" - Pot plants"
+				" - Play a music disc at a &3Jukebox&r"
+				" - Till soil"
+				" - Strip &3Logs&r and &3Copper Blocks&r"
+				" - Fill and empty &3Cauldrons&r"
+				" - (&eStick&r) Toggle things - &3Buttons&r, &3Note Blocks&r, &3Comparators&r, &3Repeaters&r..."
 				""
 				"The dispenser is very powerful! &dgive it a try ^^&r"
 			]
@@ -2648,6 +2656,11 @@
 						}
 					}
 				}
+				{
+					id: "658F62BCBC99A1FA"
+					type: "item"
+					item: "minecraft:stick"
+				}
 			]
 		}
 		{
@@ -2657,7 +2670,6 @@
 			y: -11.5d
 			shape: "pentagon"
 			subtitle: "Forge great machines"
-			description: ["&eSculk Sensors&r &3sense vibrations&r from a distance, and &dprovide a redstone signal&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1E92A6BE31198EF3"
@@ -2778,17 +2790,15 @@
 			shape: "hexagon"
 			subtitle: "Craft a Comparator"
 			description: [
-				"Along with manual inputs, certain things can be observed to &3make mechanisms activate automatically&r."
+				"Along with manual inputs, certain things can be observed to &dmake mechanisms activate automatically&r."
 				""
-				"The &edaylight detector&r is &dpowered during the daytime&r, and &3slowly transitions&r during &3sunrise&r and &3sunset&r. &6Right-Click&r a daylight detector to invert this, and it will be &dpowered at night instead&r."
+				"The &eComparator&r provides power based on &dspecific information about block it's facing&r - like the fullness of &3Containers&r (0-15), &3Beehives&r (0-5), and Cauldrons (0-3), &3Item Frame&r rotation (1-8), and &3Respawn Anchor&r charge (0-15)."
 				""
-				"The &eObserver&r &demits a small pulse&r whenever the &3block it's facing changes&r."
+				"The &eDaylight Detector&r provides &dpower during the daytime&r, slowly transitioning at dusk and dawn. &6Right-Click&r a daylight detector to invert this, &dproviding power at night&r instead."
 				""
-				"This includes breaking and placing, opening barrels and shulker boxes, lighting of redstone ore, crop age changes, rotating an item frame, doors opening, and much more."
+				"The &eObserver&r provides full power &dwhenever the block it's facing changes&r - breaking and placing, &3Piston&r movements, &3Containers&r opening, &3Crops&r growing, &3Doors&r opening, and much more."
 				""
-				"The &ecomparator&r &ddetects changes&r in &3fewer blocks&r, but &doutputs a signal strength that gives specific info about the block&r."
-				""
-				"This includes fullness of containers (15 power for full, 0 for empty), fullness of beehives (0-5), fullness of cauldrons (0-3), Item frame rotation (1-8), and Respawn Anchor charge (0-15)"
+				"The &eSculk Sensor&r provides power when it &3sense vibrations&r in an area - including all kinds of sounds."
 			]
 			dependencies: ["2AEFE77787E113A3"]
 			hide: true
@@ -2810,6 +2820,11 @@
 					type: "item"
 					item: "minecraft:observer"
 				}
+				{
+					id: "6270301AFBA65ECA"
+					type: "item"
+					item: "minecraft:sculk_sensor"
+				}
 			]
 		}
 		{
@@ -2817,21 +2832,21 @@
 			icon: "minecraft:lever"
 			x: 11.5d
 			y: -13.0d
-			subtitle: "Craft a Lever and Wooden Button"
+			subtitle: "Craft a Lever and a Wooden Button"
 			description: [
-				"&3Levers&r provide &3constant power&r when switched into the &3on state&r."
+				"&3Levers&r provide &dconstant power&r when toggled on with &6Right-Clicked&r."
 				""
-				"&3Buttons&r can be &6Right-Clicked&r to provide a 1 second (stone) or 1.5 second (wooden) pulse. &3Wooden buttons&r can also be &3tripped with arrows and tridents&r."
+				"&3Buttons&r can be pressed with &6Right-Click&r to &dprovide a short pulse&r of power. &3Wooden Buttons&r press longer and can be &dpressed by arrows and tridents&r."
 				""
-				"&eTrapped Chests&r &dpower the block below them&r when &3opened by a player&r."
+				"&ePressure Plates&r provide power when &ddepressed by mobs&r. &3Wooden pressure plates&r are also sensitive to &3items&r, &3arrows&r, and &3fishing hooks&r."
 				""
-				"&eStone and Wooden pressure plates&r are &dpowered&r while a &3mob is on top of them&r. &eWooden pressure plates&r are also &3tripped by items&r, &3arrows&r, and &3fishing hooks&r."
+				"&eDetector Rails&r &dpower the block below them&r while a &3minecart is on them&r."
 				""
-				"&eString&r can be laid &3between&r two &etripwire hooks&r, &dpowering&r them when &3its stepped on&r."
+				"&eTargets&r produce power when &dhit with projectiles&r, with &3strength increasing with accuracy&r."
 				""
-				"&eDetector rails&r &dpower the block below them&r while a &3minecart is on them&r."
+				"&eTrapped Chests&r provide &dpower below them when opened&r."
 				""
-				"&eTargets&r &dproduce power&r when &3hit with projectiles&r, with &3strength increasing the more accurate the hit&r was."
+				"&eTripwire Hooks&r with &3String&r laid between will power hooked blocks when the &dstring is depressed&r."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -2876,12 +2891,6 @@
 					count: 2
 				}
 				{
-					id: "0DF51250777A540A"
-					type: "item"
-					item: "minecraft:string"
-					count: 5
-				}
-				{
 					id: "409DEDCC45FC7BAB"
 					type: "item"
 					item: "minecraft:detector_rail"
@@ -2900,17 +2909,17 @@
 			shape: "hexagon"
 			subtitle: "Craft a Dropper"
 			description: [
-				"&3Droppers&r will &3drop the first item in their inventory&r when powered, which can be &dused to transport items long vertical distances&r (including up using bubble elevators), or &donto slides&r made of &3flowing water&r and &3ice&r."
+				"&3Droppers&r will &ddrop&r the first item in their inventory when powered, which can be used to &dtransport items&r by utilizing &3Bubble Columns&r, or &eIce and Water&r slides."
 				""
-				"&eHoppers&r can be used to &dpick up dropped items&r, &dtransfer items very short distances&r, and can &dmerge the outputs of several inventories&r into one. &eHoppers&r can be &3locked using redstone signal&r, &dpreventing pushing and pulling of items&r."
+				"&eHoppers&r &dtransfer items between inventories&r, including of other hoppers. They become &3locked&r when powered, halting flow."
 				""
-				"&eHopper minecarts&r can be used to &dpull from inventories above them&r, &dpick up dropped items&r, and &ddistribute items over several inventories below them&r. This can be used to &dfeed arrays of furnaces/dispensers&r etc. They can be &3locked using activator rails&r, and &3unlocked using unpowered activator rails&r."
+				"&eHopper Minecarts&r work similarly, but can also &dpick up dropped items&r. They can be used to &ddistribute items&r into inventories below a track. They can be &3locked and unlocked&r by powered and unpowered &3Activator Rails&r."
 				""
-				"&eMinecarts with chests&r can &dtransport items long lateral distances&r in set batches, if a complex enough rail system is present. &eHoppers&r below minecart chests will &dwithdraw items&r."
+				"&eMinecarts with Chests&r can &dtransport items long distances&r. They can be filled and emptied by &3Hoppers&r."
 				""
-				"&ePressure plates&r activated with items come in 3 different weight classes. Wooden pressure plates &3fully activate with one item&r, and &eweighted pressure plates&r &3slowly power every 1 or 10 items respectively&r."
+				"&eWooden Pressure Plates&r &dfully activate with one item&r, while &eWeighted Pressure Plates&r &dslowly power every 1 or 10 items respectively&r."
 				""
-				"&3Allays&r (As explored in the exploration section) can also be &3bound to a note block&r. After it hears one, it will &ddeposit its items there for the next 30 seconds&r."
+				"&3Allays&r &7(See Exploration: Sightseer)&r that hear &3Note Blocks&r will &ddeposit their items nearby&r for the next &330 seconds&r."
 			]
 			dependencies: ["29358767A696B164"]
 			hide: true
@@ -2972,24 +2981,22 @@
 			]
 		}
 		{
-			title: "Mechanism Components"
+			title: "Functional Components"
 			x: 11.5d
 			y: -11.5d
 			subtitle: "Craft a Piston"
 			description: [
-				"&3Mechanism components&r often act very similarly to blocks, and while they can be strongly and weakly powered as normal, they have a &3third state&r when &3adjacent to weakly powered blocks&r."
+				"&3Functional Components&r will &3activate&r when weakly or strongly powered, or when &dadjacent to weakly powered blocks&r."
 				""
-				"This is called &3activated&r - and in this state, they &3won't power adjacent blocks&r or &3repeaters&r, but will &dperform their function&r."
+				"When activated, a &ePiston&r &3extends&r, &dpushing up to 16 blocks in front of them&r forward. "
 				""
-				"When &3powered&r, &epistons&r &3extend&r, &dpushing the block in front of them&r by 1 block. When &3retracting&r, &eSticky Pistons&r will &dalso pull the block its attached to&r."
+				"When deactivated, they &3retract&r - A &eSticky Piston&r will &dpull the block in front of it backwards&r."
 				""
-				"&eSlime blocks&r can be used to &dextend the effect&r of &epistons&r/&esticky pistons&r, by &3attaching blocks together&r."
+				"&eSlime Blocks&r will &3attach blocks together&r, causing piston movements to &dmove all at once&r."
 				""
-				"&eDoors&r and &etrapdoors&r can &3also be toggled by redstone&r. Including &3iron variants&r which can &3only be opened this way&r."
+				"&3Doors and Trapdoors&r can &dalso be toggled by redstone&r. &eIron Variants&r of these can only be opened this way."
 				""
-				"Of other note, &3redstone&r can also &dpower&r &elamps&r, useful as indicators, and &3TNT&r, which can be used to &dmake explosions&r, or, in water, &dcannon-like devices&r."
-				""
-				"&7[Carpet]&r &3Chain&r will also connect pushed blocks along its axis. Two pistons can be powered at the same time to &dextend twice as far&r."
+				"&7[Carpet]&r &3Chain&r will also connect pushed blocks along its axis. Two &3Pistons&r can be powered at the same time to &dextend twice as far&r."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -3037,7 +3044,7 @@
 			y: -12.5d
 			subtitle: "Craft a Sign"
 			description: [
-				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. &3Different kinds of wood change the background&r, and the &3text color can be dyed&r!"
+				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. Different kinds of &3wood&r change the background, and the &dtext color can be dyed&r!"
 				""
 				"&eItem frames&r can also be used to help &dorganize&r - a &3single item&r can be placed in them for display."
 				""
@@ -3074,17 +3081,19 @@
 			y: -10.0d
 			subtitle: "Craft a Repeater"
 			description: [
-				"&3Redstone dust&r can have &315 different levels of power&r, which &3decrease&r as you move &3each block away from the power source&r."
+				"&3Redstone Dust&r can have &315 levels of power&r, decreasing each block away from the &3power source&r."
 				""
-				"&3Opaque blocks&r (most blocks) can be &3strongly powered&r or &3weakly powered&r."
+				"&3Opaque blocks&r can be &3strongly&r or &3weakly&r powered."
 				""
-				"&3Strongly powered&r blocks will &dprovide full power to adjacent redstone&r dust. &3Both kinds of power&r will &dpower&r &3adjacent repeaters&r, &3comparators&r, and &3mechanism components&r."
+				"&3Strongly powered&r blocks will &dprovide full power to adjacent Redstone Dust&r. "
 				""
-				"A &3Repeater&r only &3works in one direction&r, and &dcan be used to extend a redstone signal beyond 15 blocks&r, at the cost of 1 redstone tick delay (0.1 seconds). This delay can be adjusted with &7[&r&6Right-Click&r&7]&r."
+				"Both kinds of power will power adjacent &3Repeaters&r, &3Comparators&r, and &3Functional Components&r."
 				""
-				"&3Redstone dust&r can &3travel directly upwards&r in a 2x1 area using top-facing &eslabs&r &dto form stairs&r. The signal &3cannot travel down these slabs&r."
+				"A &3Repeater&r can be used to &dextend a redstone signal&r, delaying it by 0.1 seconds. This delay can be increased with &7[&r&6Right-Click&r&7]&r."
 				""
-				"&eLamps&r can help to &3debug redstone&r, by more &dvisibly showing what is powered and not&r."
+				"&3Redstone Dust&r can &dtransport power upwards&r in a 2x1 area using top-facing &eslabs&r &dto form stairs&r."
+				""
+				"&eLamps&r can help find out &dwhere functional components can receive power&r."
 			]
 			dependencies: ["322528062359C5A9"]
 			hide: true
@@ -3118,17 +3127,17 @@
 			shape: "hexagon"
 			subtitle: "Craft a Torch and Comparator"
 			description: [
-				"&3Redstone&r signals can be &3inverted&r using &3redstone torches&r. By &3powering the block a redstone torch is attached to&r, the &dtorch will turn off&r, and &dunpowering it will allow it to turn back on&r."
+				"Redstone signals can be &dinverted&r using &3Redstone Torches&r. While the block a redstone torch is &3attached to&r is &3powered&r, the &dtorch will turn off&r."
 				""
-				"As part of a &3transmission line&r, &3more complex circuits&r than inversion and extension can be created."
+				"&3Repeaters&r can be &3locked&r by &3strongly powering&r them from the side, &dholding their output state&r."
 				""
-				"&3Repeaters&r can be &3locked&r by &3strongly powering&r them from the side, and &3Comparators&r can &3compare and subtract signals&r, depending on configuration."
+				"With an &3input&r and &3side&r signal, &3Comparators&r will &donly output power&r when the &3input&r has the higher &3power level&r."
 				""
-				"These techniques alongside &3redstone torches&r, &3opaque blocks&r, clever spacing, and sometimes even &epistons&r and &eredstone blocks&r, can be used to &dcombine and manipulate input signals to produce a desired output&r."
+				"When toggled with &6Right-Click&r, a &3Comparator&r will subtract the highest &3side power level&r from the &3input power level&r."
 				""
-				"One example would be requiring two signals to be powered to turn on an output."
+				"&ePistons&r with &eRedstone&r or other blocks can be used and collided to create &dbasic blocking/locking logic&r."
 				""
-				"These are &3logic gates&r, and &3schematics to make them can be found online&r, if you need one."
+				"These elements can be combined to create &dredstone logic&r (e.g. &3AND&r and &3OR&r gates), which can provide &dcomplex control for advanced mechanisms&r."
 			]
 			dependencies: ["657AC96A28C41511"]
 			hide: true
