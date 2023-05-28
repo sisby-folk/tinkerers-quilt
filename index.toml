@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/CardinalBoat.toml"
+hash = "df0c83bcd0c3d6c84558b2fe0533e9857f21ca084ecd4729b44f6c9734cdc20e"
+
+[[files]]
 file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
@@ -158,7 +162,7 @@ hash = "ce65519138b4bf211878a4a39f3106ef3e8fb913b46f7e82df2fd48ee7b8ba90"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "5729d1fa43de70f3d87eeda8db6655712d281997691b87728d4f3e56c02f1f19"
+hash = "d0fa701061bfb77a76c293430db5bb3d6bcc44f8db0238df74df2a124eafcf00"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -166,11 +170,11 @@ hash = "a9d00a0ecdd64003e2d26294081cd8d8486a2f0701c8066c82f501f0bcb478a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "04f893805f0dd3663f2eb063034ac3011773a19a9c58ae6cdfbd8ce2b8d5db42"
+hash = "4f8f54a6d3a8a8c1cabbbd03390806920d8fc4384de5f1c7375c6b2a978df3e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "038f80cfc50f8374a92d390d0a6f7f79a4969977aad15da1183ad995a624427a"
+hash = "5e95e4e84daed25f1ab475b6356d538114c9bd98c4af74924d309f98c5f83bf4"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1204,10 +1208,6 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "4b502ea7f185b192b42c890e30b181246b341b1fcf4bd626b68c07de3cb46b19"
 metafile = true
-
-[[files]]
-file = "removed.txt"
-hash = "309937ab77e880d9a565c4da9a7804c198b2fc60bcda02b64ed2c8991ee907ec"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
