@@ -433,8 +433,9 @@ hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
 metafile = true
 
 [[files]]
-file = "mods/emi-1.0.0-SNAPSHOT+1.19.2+fabric.jar"
-hash = "b8b6c9ff52df02cd9db00f7917b1aaf32ae530549f42a4d2909700cfc8d86503"
+file = "mods/emi.pw.toml"
+hash = "1a5bc0f47d0a1dec0c0c68f193470758dc81afd44a40d5805b61869e4fd93ab7"
+metafile = true
 
 [[files]]
 file = "mods/emitrades.pw.toml"
