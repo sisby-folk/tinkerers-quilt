@@ -14,13 +14,13 @@
 			y: -9.5d
 			subtitle: "Visit a Snow Village"
 			description: [
-				"Illagers are a hostile faction of villagers, which hunt in small packs and gather at outposts."
+				"&cIllagers&r are a hostile faction of &3villagers&r, which hunt in small packs and gather at outposts."
 				""
-				"Banner-flying villagers inflict the &3Bad Omen&r debuff that, if not cleared, incurs a wave-based battle at the next visited village."
+				"&cBanner-flying villagers&r inflict the &3Bad Omen&r debuff that, if not cleared, incurs a wave-based battle at the next visited village."
 				""
-				"Completing it provides the §oHero of the Village§r buff - providing discounts with all villagers for 40 minutes."
+				"Completing it provides the &3Hero of the Village&r buff - providing &ddiscounts with all villagers for 40 minutes&r."
 				""
-				"During a Raid, villagers will hide, often by ringing the town bell. Bells can be &drung manually by the player&r."
+				"During a &cRaid&r, villagers will hide, often by ringing the town bell. Bells can be &drung manually by the player&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -62,11 +62,11 @@
 			y: -2.5d
 			subtitle: "Find an Ocean Monument"
 			description: [
-				"1.8 added §oOcean Monuments§r - underground fortresses with niche loot but interesting architecture. They can be found using §oOcean Explorer Maps§r sold by cartographers."
+				"1.8 added &2Ocean Monuments&r - underground fortresses with &dniche loot&r but interesting architecture. They can be found using &3Ocean Explorer Maps&r sold by &3cartographers&r."
 				""
-				"They're guarded by - get this - guardians. Who prevent you from mining through the structure and can shoot short range bolts."
+				"They're guarded by - get this - &3guardians&r. Who &3prevent you from mining&r through the structure and can &3shoot short range bolts&r."
 				""
-				"These areas often require advanced gear to combat guardians, but are the only source of prismarine shards, required for tridents and conduits."
+				"These areas often require &3advanced gear&r to combat guardians, but are the only source of &3prismarine shards&r, required for &3tridents&r and &3conduits&r."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -118,11 +118,11 @@
 			y: 3.5d
 			subtitle: "Find a Bee Nest"
 			description: [
-				"Minecraft 1.15 added Bees! allowing you to add them to your farms as pollinators and collect their honey."
+				"Minecraft 1.15 added &3Bees&r! allowing you to &dadd them to your farms as pollinators&r and collect their &3honey&r."
 				""
-				"You'll need to \"smoke\" a beehive or nest using a lit campfire in order to safely shear honeycomb from it."
+				"You'll need to &3smoke a beehive&r or nest using a lit &ecampfire&r in order to safely shear &3honeycomb&r from it."
 				""
-				"Carpet can be placed over campfires to prevent them from damaging mobs."
+				"&eCarpet&r can be placed over &ecampfires&r to &dprevent them from damaging mobs&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -180,11 +180,11 @@
 			y: -2.5d
 			subtitle: "Find an Abandoned Mineshaft"
 			description: [
-				"Abandoned mineshafts are a good way to find your way between caves and collect loot (especially minecarts and rails!)"
+				"&2Abandoned mineshafts&r are a good way to &3find your way&r between &2caves&r and &dcollect loot&r (especially &eminecarts&r and &erails&r!)"
 				""
-				"Minecarts in this modpack have some improvements - check out the travel section of Homesteading for more!"
+				"&eMinecarts&r in this modpack have some improvements - check out the &3travel section of Homesteading&r for more!"
 				""
-				"Mineshafts also include cave spiders and cobwebs, and minecart chests containing loot - including name tags, pumpkin and melon seeds, and ore!"
+				"&2Mineshafts&r also include &ccave spiders&r and &3cobwebs&r, and &dminecart chests containing loot&r - including &3name tags&r, &3pumpkin and melon seeds&r, and &3ore&r!"
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -233,9 +233,9 @@
 			y: -0.5d
 			subtitle: "Find a Lush Cave"
 			description: [
-				"Lush caves are indicated by the presence of a flowering Azalea tree on the surface. Below always lays a lush cave."
+				"&2Lush caves&r are indicated by the presence of a flowering &3Azalea tree&r on the surface. Below always lays a &2lush cave&r."
 				""
-				"Lush caves contain axolotls, moss, azalea blocks, and glow berries."
+				"&2Lush caves&r contain &3axolotls&r, &3moss&r, &3azalea blocks&r, and &3glow berries&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -267,17 +267,17 @@
 			y: -1.5d
 			subtitle: "Bucket an Axolotl"
 			description: [
-				"Axolotls won't despawn once they've been bucketed once."
+				"&3Axolotls&r won't &ddespawn once they've been bucketed once&r."
 				""
-				"They'll follow any player holding buckets of tropical fish, and can be bred this way too."
+				"They'll follow any player holding &ebuckets of tropical fish&r, and can be &dbred&r this way too."
 				""
-				"They can be renamed by renaming the bucket using an Anvil."
+				"They can be &drenamed&r by &3renaming the bucket using an Anvil&r."
 				""
-				"They remove mining fatigue, attack underwater enemies, and occasionally provide regeneration when you fight with them. They're especially effective in large groups."
+				"They &dremove mining fatigue&r, &dattack underwater enemies&r, and occasionally &dprovide regeneration&r when you fight with them. They're &3especially effective in large groups&r."
 				""
-				"They're very hardy, and can \"play dead\" to regenerate."
+				"They're very hardy, and can &3play dead to regenerate&r."
 				""
-				"They can also be put on leads, allowing you to stable them underwater instead of bucketing them."
+				"They can also be put on &3leads&r, allowing you to &dstable them underwater&r instead of bucketing them."
 				""
 				"&7[Tinkerer's Quilt]&r Feeding a bucketed axolotl &3glow berries&r will produce a &3glow ink sac&r. \\{Bug: This removes their name!\\}"
 			]
@@ -330,11 +330,11 @@
 			y: -2.5d
 			subtitle: "Find a Bastion Remnant"
 			description: [
-				"These ruins are full of hostile, well-equipped piglin brutes that can kill most players in a few hits."
+				"These ruins are full of hostile, well-equipped &cpiglin brutes&r that can &ckill most players in a few hits&r."
 				""
-				"And immense amounts of gold, iron, and loot."
+				"And &dimmense amounts of gold, iron, and loot&r."
 				""
-				"They also contain regular piglins, which can be traded with. Be wary, as these piglins can become hostile if whipped up into a frenzy by a piglin brute."
+				"They also contain regular &cpiglins&r, which can be &dtraded with&r. Be wary, as these piglins can &3become hostile&r if whipped up into a &3frenzy&r by a &cpiglin brute&r."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -368,9 +368,9 @@
 			shape: "hexagon"
 			subtitle: "Find a Lodestone"
 			description: [
-				"Lodestones can be interacted with using a compass, causing them to point to it at all times, in any dimension."
+				"&3Lodestones&r can be interacted with using a &ecompass&r, causing them to &dpoint to it at all times&r, in any dimension."
 				""
-				"Along with spawning in bastions, they can also be crafted using netherite and carved stone."
+				"Along with &3spawning in bastions&r, they can also be crafted using &3netherite&r and &3carved stone&r."
 			]
 			dependencies: ["08398FBBB792C742"]
 			hide: true
@@ -392,11 +392,11 @@
 			y: -9.5d
 			subtitle: "Visit a Desert Village"
 			description: [
-				"Villagers are often attacked by zombies, who can Zombify them on harder difficulties. Zombified villagers can also spawn naturally."
+				"&3Villagers&r are often attacked by &czombies&r, who can &3Zombify&r them on harder difficulties. &cZombified villagers&r can also spawn naturally."
 				""
-				"If a zombified villager is weakened using a potion, they can be fed a golden apple to cure them of their zombification. This takes quite some time, and they can still burn in daylight while this happens!"
+				"If a zombified villager is &3weakened using a potion&r, they can be fed a &egolden apple&r to cure them of their zombification. This takes quite some time, and they can &3still burn in daylight&r while this happens!"
 				""
-				"Villagers saved from zombification are grateful, and will offer discounted prices."
+				"Villagers saved from zombification are grateful, and will &doffer discounted prices&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -437,9 +437,9 @@
 			y: -6.0d
 			subtitle: "Find a Turtle"
 			description: [
-				"Turtles can be found roaming on beaches. And can be bred using Seagrass"
+				"&3Turtles&r can be found roaming on beaches. And can be &3bred using&r &eSeagrass&r."
 				""
-				"Turtles breed yielding eggs, which must be protected until they hatch. Raising a turtle will grant you a Scute."
+				"Turtles breed yielding &3eggs&r, which must be &3protected until they hatch&r. &dRaising a turtle will grant you a Scute&r."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -468,9 +468,9 @@
 			shape: "hexagon"
 			subtitle: "Craft a Turtle Shell"
 			description: [
-				"Turtle shells provide additional time underwater, similar to the §oRespiration§r enchantment. "
+				"&3Turtle shells&r provide additional &dtime underwater&r, similar to the &3Respiration&r enchantment. "
 				""
-				"They can also be brewed into three §oPotion of the Turtle Master§r."
+				"They can also be brewed into three &ePotion of the Turtle Master&r."
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -525,11 +525,11 @@
 			y: -10.5d
 			subtitle: "Visit a Plains Village"
 			description: [
-				"Villages are full of Villagers! Who can be traded with using emeralds."
+				"&2Villages&r are full of &3Villagers&r! Who can be traded with using &eemeralds&r."
 				""
-				"Villagers can \"Level Up\" their profession if you trade with them, unlocking new tradable items."
+				"Villagers can &3Level Up&r their profession if you &3trade&r with them, &dunlocking new tradable items&r."
 				""
-				"&7[Fabrication]&r Villagers will have &dnew stock every day&r, or when they run out. Check on your favourite villagers to see if they have rare items."
+				"&7[Fabrication]&r Villagers will have &dnew stock every day&r, or when they run out. Check on your favourite villagers to see if they have &drare items&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -556,9 +556,9 @@
 			y: -7.5d
 			subtitle: "Visit a Taiga Village"
 			description: [
-				"Villagers repopulate naturally by farming, but an appropriate amount of homes need to be present in the village."
+				"&3Villagers repopulate naturally&r by farming, but an &3appropriate amount of homes&r need to be present in the village."
 				""
-				"If a villager has 3 bread, or 12 carrots, potatoes, or beetroots in their inventory, they can breed - but also give more XP on trading!"
+				"If a villager has &33 bread&r, or &312 carrots&r, &3potatoes&r, or &3beetroots&r in their inventory, they can not only &dbreed&r - but also &dgive more XP on trading&r!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -585,9 +585,9 @@
 			y: -7.5d
 			subtitle: "Visit a Savannah Village"
 			description: [
-				"Every employed villager has a §oJob Site§r block. They can visit this block up to twice a day to restock their trades if one runs out."
+				"Every &3employed villager&r has a &3Job Site block&r. They can &3visit this block up to twice a day&r to &drestock their trades&r if one runs out."
 				""
-				"If a villager hasn't been traded with before, their profession can be changed by breaking this block, and enticing them to a new one."
+				"If a villager hasn't been traded with before, their &3profession&r can be changed by &3breaking this block&r, and &3enticing them to a new one&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["09874FF0F69D98F0"]
@@ -615,9 +615,9 @@
 			shape: "pentagon"
 			subtitle: "Visit every type of village"
 			description: [
-				"Villages are often protected by §oIron Golems§r, which can be spawned by making a 4-block T of iron and topping it with a carved pumpkin."
+				"&2Villages&r are often protected by &3Iron Golems&r, which can be spawned by making a 4-block T of &eiron blocks&r and topping it with a &ecarved pumpkin&r."
 				""
-				"These can be invaluable for your base or during tough fights."
+				"These can be &dinvaluable for your base&r or &dduring tough fights&r."
 			]
 			dependencies: [
 				"2591980163249EF1"
@@ -667,11 +667,11 @@
 			y: -2.5d
 			subtitle: "Find a Mansion"
 			description: [
-				"Mansions are sprawling fortresses full of many kinds of rooms with special loot, enemies, and hazards."
+				"&2Mansions&r are sprawling fortresses full of &3many kinds of rooms&r with &dspecial loot&r, &cenemies&r, and &chazards&r."
 				""
-				"They can be found using Woodland Explorer Maps sold by cartographers."
+				"They can be found using &3Woodland Explorer Maps&r sold by &3cartographers&r."
 				""
-				"Mansions rooms can contain many useful materials, including an immense number of bookshelves, and chests tucked away in corners. In two special rooms, diamond blocks can be found encased in obsidian and lava respectively."
+				"&2Mansion rooms&r can contain many &duseful materials&r, including an immense number of &3bookshelves&r, and &3chests&r tucked away in corners. In &3two special rooms&r, &ddiamond blocks&r can be found encased in obsidian and lava."
 			]
 			dependencies: [
 				"1EA97FD583A20884"
@@ -699,9 +699,9 @@
 			y: 4.5d
 			subtitle: "Find a Geode"
 			description: [
-				"Amethyst grows in large geodes underground, and can be used to make §oTinted Glass§r for your builds."
+				"&3Amethyst&r grows in &2large geodes&r underground, and can be used to make &eTinted Glass&r for your builds."
 				""
-				"The outside of the geode is lined with Basalt and Calcite in most directions - spotting this could be a hint."
+				"The outside of the geode is lined with &3Basalt&r and &3Calcite&r in most directions - &dspotting this could be a hint&r."
 			]
 			dependencies: ["10CFFE20ABD36803"]
 			hide: true
@@ -736,11 +736,11 @@
 			y: 3.5d
 			subtitle: "Find some snow"
 			description: [
-				"Snowballs can dug up with shovels and thrown to knock mobs around slightly"
+				"Snowballs can dug up with &3shovels&r and thrown to &dknock mobs around slightly&r."
 				""
-				"If two snow blocks are stacked on top of eachother, and topped with a carved pumpkin, it creates a §osnow golem§r."
+				"If two &esnow blocks&r are &3stacked&r on top of eachother, and &3topped&r with a &ecarved pumpkin&r, it creates a &3Snow Golem&r."
 				""
-				"Snow golems defend from hostile mobs using snowballs."
+				"&3Snow golems&r &ddefend from hostile mobs&r using &3snowballs&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -777,13 +777,13 @@
 			shape: "pentagon"
 			subtitle: "Explore the worlds"
 			description: [
-				"Beacons with stained glass above change their beam colour."
+				"&3Beacons&r with &3stained glass&r above &dchange their beam colour&r."
 				""
-				"A 6-beacon pyramid can be made with an 11x10 base, and 3x2 beacons at the top."
+				"A &36-beacon pyramid&r can be made with an &311x10 base&r, and &33x2 beacons at the top&r."
 				""
-				"With these materials, the whole 11x10 base must be copper, then, build a 6x7 gold pyramid on top of the centre, then set all of the outer edges in copper, and top the 6 gold blocks with beacons."
+				"With these materials, the whole &311x10 base&r must be &ecopper&r, then, build a &36x7&r &egold&r pyramid on top of the centre, then &3set all of the outer edges in copper&r, and &3top the 6 gold blocks&r with &3beacons&r."
 				""
-				"It has a radius of 50 blocks in each direction. Have fun making a 100x100 circular base!"
+				"It has a radius of &350 blocks&r in each direction. Have fun making a &d100x100 circular base&r!"
 				""
 				"&7[Tinkerer's Quilt]&r By keeping any Copper Blocks on the outermost layer of a beacon, it stays easy to clean."
 			]
@@ -989,15 +989,15 @@
 			y: -2.5d
 			subtitle: "Find an Outpost"
 			description: [
-				"§oOutposts§r are structures defended and inhabited by many hostile Pillagers."
+				"&2Outposts&r are structures defended and inhabited by many hostile &cPillagers&r."
 				""
-				"This includes an §oOutpost Captain§r, inflicting the Bad Omen debuff that, if not cleared, incurs a wave-based battle at the next visited village."
+				"This includes an &cOutpost Captain&r, inflicting the &3Bad Omen&r debuff that, if not cleared, incurs a &cwave-based battle at the next visited village&r."
 				""
 				"&eMilk&r clears all status effects when consumed."
 				""
-				"Outposts are a great source of Bad Omen, crossbows, and a fun challenge. Bring a shield!"
+				"Outposts are a &dgreat source&r of Bad Omen, crossbows, and a fun challenge. Bring a &3shield&r!"
 				""
-				"Goat horns can also be found here."
+				"&3Goat horns&r can also be found here."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -1029,15 +1029,15 @@
 			y: -2.5d
 			subtitle: "Find a Shipwreck"
 			description: [
-				"Shipwrecks spawn underwater, and require air management to appropriately navigate. Beached shipwrecks also exist, which are found in the sand."
+				"&2Shipwrecks&r spawn underwater, and require &3air management to appropriately navigate&r. &2Beached shipwrecks&r also exist, which are found in the sand."
 				""
-				"They contain up to 3 chests, depending on how much of the ship is intact."
+				"They contain &dup to 3 chests&r, depending on how much of the ship is &3intact&r."
 				""
-				"The bow of the ship is where supplies are stored, including provisions and clothing."
+				"The &3bow of the ship&r is where supplies are stored, including &dprovisions and clothing&r."
 				""
-				"The upper stern is where treasure is kept, including ore and jewels."
+				"The &3upper stern&r is where treasure is kept, including &dore and jewels&r."
 				""
-				"The lower stern is where navigating equipment is kept, including treasure maps and compasses."
+				"The &3lower stern&r is where navigating equipment is kept, including &dtreasure maps and compasses&r."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -1076,11 +1076,11 @@
 			y: -2.5d
 			subtitle: "Find a Desert Temple"
 			description: [
-				"Desert temples contain loot inside a giant TNT-trapped pit."
+				"&2Desert temples&r contain &dloot&r inside a giant &cTNT-trapped pit&r."
 				""
-				"Digging down on the blue terracotta is a trap, and the player should instead dig down directly adjacent to one of the four nearby pillars."
+				"&3Digging&r down on the &cblue terracotta is a trap&r, and the player should instead &3dig down directly adjacent&r to one of the &3four nearby pillars&r."
 				""
-				"When they break into the pit, they should light up the area, and when reaching the bottom, they should break the stone pressure plate that would normally trigger the TNT trap."
+				"When they break into the pit, they should &3light&r up the area, and when reaching the bottom, they should &3break the stone pressure plate&r that would normally trigger the TNT trap."
 				""
 				"Then, the loot, redstone, and TNT, can all be taken."
 			]
@@ -1108,15 +1108,13 @@
 			y: -2.5d
 			subtitle: "Find a Jungle Temple"
 			description: [
-				"Jungle temples are full of traps, including hard-to-spot tripwires - which can only be safely broken using shears. They're also full of loot, found in chests."
+				"&2Jungle temples&r are full of &3traps&r, including hard-to-spot &3tripwires&r - which can only be &3safely broken using&r &eshears&r. They're also &dfull of loot&r, found in chests."
 				""
-				"&eShears&r can be used to disarm tripwire without triggering it."
+				"Some of this &dloot&r is &3hidden behind a three-lever puzzle&r. Which can be solved as follows:"
 				""
-				"Some of this loot is hidden behind a three-lever puzzle. Which can be solved as follows:"
-				""
-				"First, flick the lever furthest away from the staircase."
-				"Next, flick the lever closest to the staircase"
-				"Finally, return both to their original position, starting with the one closest to the staircase."
+				"First, flick the lever &3furthest away from the staircase&r."
+				"Next, flick the lever &3closest to the staircase&r."
+				"Finally, &3return both&r to their &3original position&r, starting with the one &3closest to the staircase&r."
 			]
 			dependencies: [
 				"4B74AEAA4D30B428"
@@ -1158,9 +1156,9 @@
 			y: -2.5d
 			subtitle: "Find Ocean Ruins"
 			description: [
-				"Cold ocean ruins spawn in most oceans - including oceans, cold oceans, and frozen oceans."
+				"&2Cold ocean ruins&r spawn in most &2oceans&r - including oceans, cold oceans, and frozen oceans."
 				""
-				"Warm ocean ruins spawn in lukewarm and warm oceans, characterized by their sandy floors, light blue to aquamarine water, kelp and (in warm oceans) corals."
+				"&2Warm ocean ruins&r spawn in lukewarm and warm oceans, characterized by their sandy floors, light blue to aquamarine water, &3kelp&r and (in warm oceans) &3corals&r."
 			]
 			dependencies: ["47ED4204DD0D65C4"]
 			hide: true
@@ -1197,13 +1195,13 @@
 			y: -0.5d
 			subtitle: "Find a Mushroom Island"
 			description: [
-				"Giant Mushrooms and Mooshrooms are found on mushroom islands."
+				"&3Giant Mushrooms&r and &3Mooshrooms&r are found on &2mushroom islands&r."
 				""
-				"Giant mushrooms are a great source of brown and red mushrooms, and the ground they grow on here can hold mushrooms regardless of light level - but needs to be collected using silk touch."
+				"&3Giant mushrooms&r are a great source of &3brown and red mushrooms&r, and the ground they grow on here can &dhold mushrooms regardless of light level&r - but needs to be &3collected using silk touch&r."
 				""
-				"Mooshrooms are a special variant of a cow that can be milked using buckets for milk, or using bowls for infinite mushroom stew."
+				"&3Mooshrooms&r are a special variant of a &3cow&r that can be &3milked using buckets for milk&r, or using &ebowls&r for &dinfinite mushroom stew&r."
 				""
-				"If a mooshroom is struck by lightning, it turns into a brown mooshroom. These mooshrooms can produce suspicious stew if fed the appropriate flower first."
+				"If a &3mooshroom&r is &3struck by lightning&r, it turns into a &3brown mooshroom&r. These &3mooshrooms&r can produce &3suspicious stew&r if &3fed the appropriate flower&r first."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1241,9 +1239,9 @@
 			y: 4.5d
 			subtitle: "Find a Dripstone Cave"
 			description: [
-				"Dripstone caves are found deep underground and are full of stalactites and stalagmites that grow over time."
+				"&2Dripstone caves&r are found deep underground and are full of &3stalactites&r and &3stalagmites&r that &3grow over time&r."
 				""
-				"If a dripstone block with a stalactite has lava above it, it will slowly drip lava downwards. Catching these drips in a caldron will cause it to slowly fill - allowing you to obtain lava at home."
+				"If a &3dripstone block&r with a stalactite has lava above it, it will &dslowly drip lava downwards&r. Catching these drips in a &ecauldron&r will cause it to &3slowly fill&r - allowing you to &dobtain lava at home&r."
 			]
 			dependencies: ["10CFFE20ABD36803"]
 			hide: true
@@ -1280,9 +1278,9 @@
 			y: 3.5d
 			subtitle: "Find Deepslate"
 			description: [
-				"Deep below &7(around y:0)&r, all stone is replaced with Deepslate, which takes longer to mine."
+				"Deep below &7(around y:0)&r, all stone is replaced with &3Deepslate&r, which takes &3longer to mine&r."
 				""
-				"Cobbled deepslate can be used in any crafting recipe that cobblestone can, and also serves as a decorative block and material."
+				"&3Cobbled deepslate&r can be used in &3any crafting recipe that cobblestone can&r, and also serves as a &ddecorative block and material&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1309,13 +1307,13 @@
 			y: -0.5d
 			subtitle: "Find a Swamp"
 			description: [
-				"Swamps are home to large areas of water and §oLily Pads§r."
+				"&2Swamps&r are home to large areas of water and &3Lily Pads&r."
 				""
-				"Lily Pads can be used to make decorative water bridges, with a similar thickness to a carpet."
+				"&3Lily Pads&r can be used to make &3decorative water bridges&r, with a similar thickness to a &3carpet&r."
 				""
-				"Slimes also spawn here, relying on the moon to be visible."
+				"&3Slimes&r also spawn here, relying on the &3moon to be visible&r."
 				""
-				"Frogs that spawn here can swallow small magma cubes to produce Ochre froglights."
+				"&3Frogs&r that spawn here can &3swallow small magma cubes&r to produce &eOchre froglights&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1348,9 +1346,9 @@
 			y: -0.5d
 			subtitle: "Find a Dark Forest"
 			description: [
-				"Dark forests are home to Dark Oaks, large trees with dark wood and wide leaf canopies, offering much shade."
+				"&2Dark forests&r are home to &3Dark Oaks&r, large trees with dark wood and wide leaf canopies, &doffering much shade&r."
 				""
-				"This can protect sunlight-sensitive creatures, including allowing some mobs to survive and even spawn during daytime."
+				"This can &3protect sunlight-sensitive creatures&r, including allowing some mobs to survive and even spawn during daytime."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1375,15 +1373,15 @@
 			y: -0.5d
 			subtitle: "Find a Jungle"
 			description: [
-				"Jungles are home to large jungle trees, which give immense amounts of logs."
+				"&2Jungles&r are home to large &3jungle trees&r, which give &dimmense amounts&r of &3logs&r."
 				""
-				"They're also home to vines, which can be gathered using shears as another kind of ladder, or used to make slimeballs."
+				"They're also home to &3vines&r, which can be &3gathered using shears&r and used as &3another kind of ladder&r, or used to make &3slimeballs&r."
 				""
-				"Cocoa beans can be found growing on jungle wood, which can be used to make cookies."
+				"&3Cocoa beans&r can be found &3growing on jungle wood&r, which can be used to make &3cookies&r."
 				""
-				"Parrots can be found in the jungle, and tamed using seeds of any kind. When tamed, a parrot will perch on the players shoulder when walked into. The parrot will occasionally mimick the sound of (usually, nearby) mobs."
+				"&3Parrots&r can be found in the &2jungle&r, and &dtamed&r using &3seeds of any kind&r. When &3tamed&r, a &3parrot will perch on the players shoulder&r when walked into. The parrot will occasionally &dmimic the sound of (usually, nearby) mobs&r."
 				""
-				"Ocelots also spawn in the jungle, but unlike cats cannot be fully tamed. They will trust the player if approached very slowly while holding raw fish, then being fed."
+				"&3Ocelots&r also spawn in the &2jungle&r, but unlike cats &3cannot be fully tamed&r. They will &3trust the player if approached very slowly while holding raw fish&r, then &3being fed&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1442,7 +1440,7 @@
 			y: -5.0d
 			shape: "rsquare"
 			subtitle: "Jump 75 Times"
-			description: ["&eHay Bales&r can &dbreak high falls&r, or instead be used for bread."]
+			description: ["&eHay Bales&r can &dbreak high falls&r, or instead be used for &3bread&r."]
 			id: "47ED4204DD0D65C4"
 			tasks: [{
 				id: "318791BA274D0278"
@@ -1466,15 +1464,15 @@
 			y: -0.5d
 			subtitle: "Find both Nether Forests"
 			description: [
-				"Nether forests are home to interesting resources, including two types of wood, and two types of mushrooms."
+				"&2Nether forests&r are home to interesting resources, including &3two types of wood&r, and &3two types of mushrooms&r."
 				""
-				"Warped forests are safe havens perfect for building your base - no hostile mobs will spawn here, besides occasionally Endermen."
+				"&2Warped forests&r are &dsafe havens perfect for building your base&r - &3no hostile mobs will spawn here&r, besides occasionally &cEndermen&r."
 				""
-				"Crimson forests are home to piglins and uniquely, hostile hoglins."
+				"&2Crimson forests&r are home to &cpiglins&r and uniquely, hostile &choglins&r."
 				""
-				"Both kinds of nether \"wood\" are non-flammable, including their planks and decorative variants."
+				"Both kinds of &3nether wood&r are &dnon-flammable&r, including their &3planks&r and &3decorative variants&r."
 				""
-				"The mushrooms here can be used to make mushroom stew - and renewed by using bonemeal on the ground in these biomes - The only good vegetarian source of food in the nether!"
+				"The &3mushrooms&r here can be used to make &3mushroom stew&r - and renewed by using &3bonemeal&r on the ground in these biomes - The only good vegetarian source of food in the nether!"
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1516,13 +1514,13 @@
 			y: -0.5d
 			subtitle: "Find Frozen Peaks"
 			description: [
-				"Mountain peaks are a great source of packed ice (which can be crafted into blue ice)"
+				"&2Mountain peaks&r are a great source of &3packed ice&r (which can be crafted into &3blue ice&r)"
 				""
-				"It's also where Goats spawn! Goats are similar to cows, but are neutral mobs and can jump high and ram blocks."
+				"It's also where &3Goats&r spawn! &3Goats&r are similar to &3cows&r, but are neutral mobs and can &3jump high&r and &3ram blocks&r."
 				""
-				"Slow falling potions can be used to make safe large descents!"
+				"&eSlow falling potions&r can be used to make &dsafe large descents&r!"
 				""
-				"When a goat rams a hard block, it can drop a horn, which can be played as an instrument."
+				"When a &3goat&r rams a hard block, it can drop a &3horn&r, which can be &dplayed as an instrument&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1560,9 +1558,9 @@
 			y: -0.5d
 			subtitle: "Find a Badlands"
 			description: [
-				"Badlands are full of terracotta, which is useful for building."
+				"&2Badlands&r are full of &3terracotta&r, which is &duseful for building&r."
 				""
-				"Additionally, badlands spawn mineshafts very high up, and are rich with gold ore."
+				"Additionally, &2badlands&r spawn &2mineshafts&r very high up, and are &drich with gold ore&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1588,7 +1586,7 @@
 			shape: "rsquare"
 			subtitle: "Talk to a Villager"
 			description: [
-				"Villages are easy bases, places to gather, and worthwhile points on your map."
+				"&2Villages&r are easy bases, places to gather, and worthwhile points on your &3map&r."
 				""
 				"Explore different types of villages, and learn more about villagers in these quests."
 				""
@@ -1617,13 +1615,13 @@
 			y: 5.0d
 			subtitle: "Find an Ancient City"
 			description: [
-				"Ancient cities are full of hostile vibration-sensing organisms, and rare loot."
+				"&2Ancient cities&r are full of &chostile vibration-sensing organisms&r, and &drare loot&r."
 				""
-				"Sculk sensors are able to detect vibrations, including the noise of walking and interacting with blocks and items."
+				"&cSculk sensors&r are able to detect vibrations, including the &3noise of walking&r and &3interacting with blocks and items&r."
 				""
-				"These in turn can trigger sculk shriekers, which spawn near-unkillable wardens that have no vision, and blind players with their shriek."
+				"These in turn can trigger &csculk shriekers&r, which spawn &cnear-unkillable wardens&r that have &3no vision&r, and &3blind players with their shriek&r."
 				""
-				"Snowballs can be used to throw wardens off, by casting them into the distance."
+				"&eSnowballs&r can be used to &dthrow wardens off&r, by casting them into the distance."
 				""
 				"&7[Tinkerer's Quilt]&r &4Wardens&r do not spawn. This can be change via &6/gamerule doWardenSpawning true&r."
 				""
@@ -1669,15 +1667,15 @@
 			y: -0.5d
 			subtitle: "Find a Mangrove Swamp"
 			description: [
-				"Mangrove Swamps are full of mud, warm frogs, water, and mangrove trees."
+				"&2Mangrove Swamps&r are full of &3mud&r, &3warm frogs&r, water, and &3mangrove trees&r."
 				""
-				"Mud can be made into mud bricks by adding wheat and firing it."
+				"Mud can be made into &3mud bricks&r by adding &3wheat&r and &3firing it&r."
 				""
-				"Mangrove wood is a deep red and can be used for crafting and decoration."
+				"&3Mangrove wood&r is a deep red and can be used for &dcrafting and decoration&r."
 				""
-				"Frogs that spawn here can swallow small magma cubes to produce Pearlescent Froglights."
+				"&3Frogs&r that spawn here can &3swallow small magma cubes&r to produce &ePearlescent Froglights&r."
 				""
-				"By bringing frogs into a snowy or frozen biome and breeding them with slimeballs, you can obtain cold frogs and Verdant froglights."
+				"By bringing &3frogs&r into a &2snowy or frozen biome&r and &3breeding&r them with &3slimeballs&r, you can obtain &2cold frogs&r and &3Verdant froglights&r."
 			]
 			dependencies: ["789344ADD80A6FFA"]
 			hide: true
@@ -1715,11 +1713,11 @@
 			y: 6.5d
 			subtitle: "Acquire a Sculk Catalyst"
 			description: [
-				"Sculk catalysts allow sculk and sculk sensors to be renewed."
+				"&3Sculk catalysts&r allow &csculk&r and &csculk sensors&r to &dbe renewed&r."
 				""
-				"Killing mobs near a sculk catalyst will transform surface blocks into sculk, and sculk into sculk sensors."
+				"Killing mobs near a &3sculk catalyst&r will &dtransform surface blocks&r into &3sculk&r, and &3sculk&r into &3sculk sensors&r."
 				""
-				"Rarely, a skulk shrieker will spawn instead - these shriekers do not summon the warden or blind the player."
+				"Rarely, a &csculk shrieker&r will spawn instead - these &dshriekers do not summon the warden&r or &dblind the player&r."
 			]
 			dependencies: ["562E842E71B5725B"]
 			hide: true
@@ -1750,11 +1748,11 @@
 			y: -1.5d
 			subtitle: "Find an Allay"
 			description: [
-				"Allays can spawn in the prisons of mansions and outposts. "
+				"&3Allays&r can spawn in the &2prisons of mansions and outposts&r. "
 				""
-				"If given an item to hold, allays will follow the player, and collect dropped similar items from the ground and bring them to the player."
+				"If given an &3item to hold&r, allays will &dfollow the player&r, and collect &ddropped similar items&r from the ground and bring them to the player."
 				""
-				"If given an amethyst shard, an allay will become two allays."
+				"If given an &eamethyst shard&r, an allay will &dbecome two allays&r."
 			]
 			dependencies: ["30EEC5B4C5178E93"]
 			hide: true
