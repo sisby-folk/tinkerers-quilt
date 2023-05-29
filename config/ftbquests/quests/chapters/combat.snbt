@@ -2174,74 +2174,62 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Halfdoors]&r"
+				""
+				"A &3Door Launcher&r is a handheld device capable of sending &dmechanically propelled halfdoors through scary monsters&r."
+				""
+				"It consumes &eHalfdoors&r on use, which can be picked up if they miss."
+				""
+				"&3Iron Halfdoors&r deal more damage. The Door Launcher can also be &dupgraded&r through smithing for &dvarious improvements&r."
+			]
+			hide: true
+			id: "0ADBA66707A72B35"
+			rewards: [{
+				count: 16
+				id: "319651CE5A8731F8"
+				item: "halfdoors:oak_halfdoor"
+				type: "item"
+			}]
+			subtitle: "Acquire a Door Launcher"
+			tasks: [{
+				disable_toast: true
+				id: "08EFAF64F2B18B5A"
+				item: {
+					Count: 1b
+					id: "halfdoors:door_launcher"
+					tag: { }
+				}
+				type: "item"
+			}]
 			title: "I Wouldn't Trust Me Either"
 			x: -2.5d
 			y: -4.0d
-			subtitle: "Acquire a Door Launcher"
-			description: [
-				"A door launcher is a handheld device to send mechanically propelled halfdoors in the faces of scary monsters."
-				""
-				"It uses halfdoors as ammo, and can be upgraded at a smithing table with special materials."
-			]
-			dependencies: ["72CC6869A3793E22"]
-			hide: true
-			id: "0ADBA66707A72B35"
-			tasks: [{
-				id: "08EFAF64F2B18B5A"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "halfdoors:door_launcher"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "319651CE5A8731F8"
-				type: "item"
-				item: "halfdoors:oak_halfdoor"
-				count: 16
-			}]
 		}
 		{
-			title: "NGAHHH!!!!!"
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Campanion]&r"
+				""
+				"The &3Spear&r is the landlubber of the &3Trident&r - a &3Hybrid Melee-Ranged Weapon&r. "
+				""
+				"It can receive standard &3melee weapon enchanments&r, alongside &ePiercing&r, making its thrown attack &dtravel through enemies&r."
+			]
+			hide: true
 			icon: {
-				id: "campanion:iron_spear"
 				Count: 1b
+				id: "campanion:iron_spear"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: 0.5d
-			y: -3.0d
-			subtitle: "Acquire a Spear"
-			description: [
-				"The Campanion spear is the land-lubbering brother of the Trident - it works as a melee weapon, and can be thrown with use."
-				""
-				"Unlike the trident, it can be enchanted to pierce through enemies."
-			]
-			dependencies: ["72CC6869A3793E22"]
-			hide: true
 			id: "005AB44C0F20C556"
-			tasks: [{
-				id: "3238C1F9CB32C68D"
-				type: "item"
-				title: "Any Spear"
-				disable_toast: true
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "campanion:spears"
-					}
-				}
-			}]
 			rewards: [{
 				id: "362C8D7B041BC30A"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:piercing"
@@ -2249,46 +2237,77 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Acquire a Spear"
+			tasks: [{
+				disable_toast: true
+				id: "3238C1F9CB32C68D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "campanion:spears"
+					}
+				}
+				title: "Any Spear"
+				type: "item"
+			}]
+			title: "NGAHHH!!!!!"
+			x: 0.5d
+			y: -3.0d
 		}
 		{
-			title: "Where's my Cloak"
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Farmer's Delight]&r"
+				""
+				"A &3Knife&r can cut ingredients placed on a &3Cutting Board&r with &7[&r&6Right-Click&r&7]&r"
+				""
+				"They're also viable &dmelee weapons&r with a &dlow attack cooldown&r."
+				""
+				"They can receive &3melee weapon enchantments&r, along with &eBackstabbing&r, which &dincreases damage from behind enemies&r."
+			]
+			hide: true
 			icon: {
-				id: "farmersdelight:golden_knife"
 				Count: 1b
+				id: "farmersdelight:golden_knife"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: -3.5d
-			y: -1.0d
-			subtitle: "Acquire a Knife"
-			description: [
-				"Knives are mainly for cutting ingredients - use an ingredient on a cutting board, then use a knife on it!"
-				""
-				"However, they also work as weapons in a pinch. Unfortunately, they can't be enchanted."
-			]
-			dependencies: ["72CC6869A3793E22"]
-			hide: true
 			id: "243427D8CFF65490"
-			tasks: [{
-				id: "2C4F7623C5745F47"
-				type: "item"
-				title: "Any Knife"
-				disable_toast: true
+			rewards: [{
+				id: "7CF485029A136E35"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire a Knife"
+			tasks: [{
+				disable_toast: true
+				id: "2C4F7623C5745F47"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "c:tools/knives"
 					}
 				}
-			}]
-			rewards: [{
-				id: "3BCD78B8E6183450"
+				title: "Any Knife"
 				type: "item"
-				item: "farmersdelight:cutting_board"
 			}]
+			title: "Where's my Cloak"
+			x: -3.5d
+			y: -1.0d
 		}
 	]
 	title: "Self-Defense"

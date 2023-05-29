@@ -118,7 +118,7 @@
 				""
 				"&3Piglins&r are denizens of the nether that attack players that aren't wearing &egold armor&r. They'll also attack any player that mines &3nether gold ore&r."
 				""
-				"To help find your way back to a portal, you can use an &eempty map&r while standing next to it."
+				"&7[Fwaystones]&r To help find your way back to a portal, you can place a &eWaystone&r next to it."
 			]
 			id: "3079DAC3AB1B0AD9"
 			rewards: [
@@ -134,8 +134,8 @@
 					type: "item"
 				}
 				{
-					id: "7D86112E85D8D6D7"
-					item: "minecraft:map"
+					id: "1A8D72D83E3451B9"
+					item: "fwaystones:nether_brick_waystone"
 					type: "item"
 				}
 			]
@@ -207,6 +207,8 @@
 				"It contains unique enemies like &cBlazes&r and &cWither Skeletons&r, along with inner keeps containing &dchests of loot&r."
 				""
 				"&eFire Resistance&r can &dprotect you from all heat damage&r, including from touching lava."
+				""
+				"&7[YUNG's Better Fortresses]&r Fortresses are more elaborate, and &dcontain better loot&r."
 			]
 			id: "4048B08BA7BA39BE"
 			rewards: [{
@@ -281,6 +283,8 @@
 				"A thrown &3Eye of Ender&r will slowly drift towards the nearest &2Stronghold&r, with a chance of being consumed."
 				""
 				"The &2End Portal&r inside is incomplete, and up to 12 &3Eye of Ender&r must be inserted to &dactivate&r it."
+				""
+				"&7[YUNG's Better Strongholds]&r Strongholds are more elaborate, and &dcontain better loot&r."
 			]
 			id: "2803B3AF9D4E64A3"
 			rewards: [
