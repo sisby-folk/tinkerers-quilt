@@ -1,18 +1,16 @@
 {
-	id: "746E19B508D7413D"
-	group: "6B747C3DB5A16A71"
-	order_index: 0
-	filename: "homesteading"
-	title: "Homesteading"
-	icon: "minecraft:jungle_planks"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homesteading"
+	group: "6B747C3DB5A16A71"
+	icon: "minecraft:jungle_planks"
+	id: "746E19B508D7413D"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Sheetmetal"
-			x: 7.0d
-			y: -13.0d
-			subtitle: "Craft a Blast Furnace"
+			dependencies: ["55783EE248BAC550"]
+			dependency_requirement: "one_started"
 			description: [
 				"A &3Blast Furnace&r is a specialized furnace variant that &dsmelts ores at double speed&r."
 				""
@@ -24,35 +22,34 @@
 				""
 				"&7[Fabrication]&r &6Clicking&r the &3output slot&r of a furnace set up this way will transfer you any experience generated."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
-			dependency_requirement: "one_started"
 			id: "796366A8D7D8BBF8"
-			tasks: [{
-				id: "58184DF53B179A23"
-				type: "item"
-				item: "minecraft:blast_furnace"
-			}]
 			rewards: [
 				{
-					id: "47C766F3D087F2F2"
-					type: "item"
-					item: "minecraft:hopper"
 					count: 3
+					id: "47C766F3D087F2F2"
+					item: "minecraft:hopper"
+					type: "item"
 				}
 				{
-					id: "170B785E7A4604F5"
-					type: "item"
-					item: "minecraft:chest"
 					count: 2
+					id: "170B785E7A4604F5"
+					item: "minecraft:chest"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Blast Furnace"
+			tasks: [{
+				id: "58184DF53B179A23"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Sheetmetal"
+			x: 7.0d
+			y: -13.0d
 		}
 		{
-			title: "Roasty"
-			x: 8.5d
-			y: -10.5d
-			subtitle: "Craft a Smoker"
+			dependencies: ["55783EE248BAC550"]
 			description: [
 				"A &3Smoker&r is a specialized furnace variant that &dcooks food at double speed&r."
 				""
@@ -66,134 +63,134 @@
 				""
 				"A stove is an indoor variant of a campfire - and can be used for all the same recipes."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "0BB19BE0BA8A2037"
-			tasks: [{
-				id: "296F49FBB8B236FA"
-				type: "item"
-				item: "minecraft:smoker"
-			}]
 			rewards: [
 				{
-					id: "0ACB3CC0E9B9D3F7"
-					type: "item"
-					item: "minecraft:coal_block"
 					count: 16
+					id: "0ACB3CC0E9B9D3F7"
+					item: "minecraft:coal_block"
+					type: "item"
 				}
 				{
-					id: "18573A5F8C328475"
-					type: "item"
-					item: "minecraft:dried_kelp_block"
 					count: 16
+					id: "18573A5F8C328475"
+					item: "minecraft:dried_kelp_block"
+					type: "item"
 				}
 				{
 					id: "484F8FCB4B3A66BE"
-					type: "item"
 					item: "minecraft:lava_bucket"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Smoker"
+			tasks: [{
+				id: "296F49FBB8B236FA"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			title: "Roasty"
+			x: 8.5d
+			y: -10.5d
 		}
 		{
-			title: "Mason's Blessing"
-			icon: "minecraft:light_gray_shulker_box"
-			x: 7.5d
-			y: -8.5d
-			shape: "gear"
-			subtitle: "A Sacrifice in Stone"
-			description: ["Many block types can be cut in the &3Stonecutter&r, producing various patterns and shapes."]
 			dependencies: ["1233042213A9729E"]
+			description: ["Many block types can be cut in the &3Stonecutter&r, producing various patterns and shapes."]
 			hide: true
-			optional: true
+			icon: "minecraft:light_gray_shulker_box"
 			id: "643F41D93DC1FB81"
-			tasks: [{
-				id: "10DE07FBCB9E502D"
-				type: "item"
-				title: "A Sacrifice To the Mason Gods"
-				item: "minecraft:stone"
-				count: 384L
-				consume_items: true
-			}]
+			optional: true
 			rewards: [
 				{
+					count: 64
 					id: "6C0A6B21AD7C1390"
-					type: "item"
 					item: "minecraft:stone"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "46138A5E35DE232F"
-					type: "item"
 					item: "minecraft:granite"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "1171EE8F19695858"
-					type: "item"
 					item: "minecraft:diorite"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "2D7E8E30AFF0FE2A"
-					type: "item"
 					item: "minecraft:andesite"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "0DC0EDE3A5174EA9"
-					type: "item"
 					item: "minecraft:sandstone"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "0E870E4C20AF3893"
-					type: "item"
 					item: "minecraft:red_sandstone"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "6DF9DCDBF4600CE8"
-					type: "item"
 					item: "minecraft:prismarine_bricks"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "24C5D61B8F35AFFE"
-					type: "item"
 					item: "minecraft:quartz_block"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "1CD81BFA7D7D8283"
-					type: "item"
 					item: "minecraft:dark_prismarine"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "1B39366065BBCD7D"
-					type: "item"
 					item: "minecraft:purpur_block"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "34F74B99602E7DCD"
-					type: "item"
 					item: "minecraft:blackstone"
-					count: 64
+					type: "item"
 				}
 				{
-					id: "2C5FCC4FD4454AB5"
-					type: "item"
-					item: "minecraft:bricks"
 					count: 64
+					id: "2C5FCC4FD4454AB5"
+					item: "minecraft:bricks"
+					type: "item"
 				}
 			]
+			shape: "gear"
+			subtitle: "A Sacrifice in Stone"
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "10DE07FBCB9E502D"
+				item: "minecraft:stone"
+				title: "A Sacrifice To the Mason Gods"
+				type: "item"
+			}]
+			title: "Mason's Blessing"
+			x: 7.5d
+			y: -8.5d
 		}
 		{
-			title: "Cozy"
-			x: -3.0d
-			y: -10.5d
-			subtitle: "Craft a Bookshelf"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"Decorative blocks like &3Bookshelves&r can help fill a house's interior, but most indoor furniture &disn't crafted&r."
 				""
@@ -207,64 +204,64 @@
 				""
 				"&3Blue Ice&r can serve as water in &dbathtubs and aquariums&r without needing to be enclosed."
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "1BCC72C060356F02"
-			tasks: [{
-				id: "4562EEDCA84EE3E3"
-				type: "item"
-				item: "minecraft:bookshelf"
-			}]
 			rewards: [
 				{
-					id: "2A30AFEC57A4D34F"
-					type: "item"
-					item: "minecraft:barrel"
 					count: 4
+					id: "2A30AFEC57A4D34F"
+					item: "minecraft:barrel"
+					type: "item"
 				}
 				{
+					count: 8
 					id: "789FEED8C9205907"
-					type: "item"
 					item: "minecraft:oak_trapdoor"
-					count: 8
+					type: "item"
 				}
 				{
+					count: 8
 					id: "0E51BAD15DF368DD"
-					type: "item"
 					item: "minecraft:oak_stairs"
-					count: 8
+					type: "item"
 				}
 				{
+					count: 2
 					id: "0A01CD625EAE398C"
-					type: "item"
 					item: "minecraft:netherrack"
-					count: 2
+					type: "item"
 				}
 				{
+					count: 2
 					id: "54F3A94B2D57B561"
-					type: "item"
 					item: "minecraft:soul_soil"
-					count: 2
+					type: "item"
 				}
 				{
+					count: 2
 					id: "062F45C29C656DA6"
-					type: "item"
 					item: "minecraft:iron_bars"
-					count: 2
+					type: "item"
 				}
 				{
-					id: "4D54DDEB3C7D5DCE"
-					type: "item"
-					item: "minecraft:cyan_carpet"
 					count: 16
+					id: "4D54DDEB3C7D5DCE"
+					item: "minecraft:cyan_carpet"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Bookshelf"
+			tasks: [{
+				id: "4562EEDCA84EE3E3"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			title: "Cozy"
+			x: -3.0d
+			y: -10.5d
 		}
 		{
-			title: "Lit"
-			x: -3.5d
-			y: -11.5d
-			subtitle: "Craft a Lantern"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"&3Lanterns&r provide &dmore light than torches&r, and can be &3placed on walls&r or &3hung from ceilings&r."
 				""
@@ -274,79 +271,79 @@
 				""
 				"&eRedstone Lamps&r can create great streetlights."
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "2F461D711895F36B"
-			tasks: [{
-				id: "1B0C87963A2673AE"
-				type: "item"
-				item: "minecraft:lantern"
-			}]
 			rewards: [
 				{
+					count: 8
 					id: "3EBA24A48CFB4618"
-					type: "item"
 					item: "minecraft:redstone_lamp"
-					count: 8
+					type: "item"
 				}
 				{
+					count: 8
 					id: "13ACC7277BC1898F"
-					type: "item"
 					item: "minecraft:lever"
-					count: 8
+					type: "item"
 				}
 				{
+					count: 8
 					id: "30FE445CAB4EB5B8"
-					type: "item"
 					item: "minecraft:cobblestone_wall"
-					count: 8
+					type: "item"
 				}
 				{
-					id: "6075422D11F4102E"
-					type: "item"
-					item: "minecraft:oak_fence"
 					count: 8
+					id: "6075422D11F4102E"
+					item: "minecraft:oak_fence"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Lantern"
+			tasks: [{
+				id: "1B0C87963A2673AE"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			title: "Lit"
+			x: -3.5d
+			y: -11.5d
 		}
 		{
-			title: "Mr. Cellophane"
-			x: -1.0d
-			y: -10.5d
-			subtitle: "Craft some Glass Panes"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"&3Glass panes&r are helpful for &ddecorations and windows&r. They're cheaper, but can't be used for skylights. "
 				""
 				"&3Glass&r can also be stained using &3Dye&r, &dcoloring it&r. "
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "096988E67755A423"
-			tasks: [{
-				id: "12C095116F80A80B"
-				type: "item"
-				item: "minecraft:glass_pane"
-			}]
 			rewards: [
 				{
-					id: "36196BC047ECD6F4"
-					type: "item"
-					item: "minecraft:light_gray_stained_glass_pane"
 					count: 16
+					id: "36196BC047ECD6F4"
+					item: "minecraft:light_gray_stained_glass_pane"
+					type: "item"
 				}
 				{
-					id: "06431CBC247EA616"
-					type: "item"
-					item: "minecraft:black_stained_glass_pane"
 					count: 16
+					id: "06431CBC247EA616"
+					item: "minecraft:black_stained_glass_pane"
+					type: "item"
 				}
 			]
+			subtitle: "Craft some Glass Panes"
+			tasks: [{
+				id: "12C095116F80A80B"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
+			title: "Mr. Cellophane"
+			x: -1.0d
+			y: -10.5d
 		}
 		{
-			title: "Plotting"
-			x: -0.5d
-			y: -11.5d
-			subtitle: "Make a Fence Gate"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"&3Fence gates&r allow you to open and close them, while also connecting to fences."
 				""
@@ -356,43 +353,41 @@
 				""
 				"&7[Couplings]&r Vertically stacked fence gates will &dopen at once&r."
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "1FFD2B27BC87EADB"
+			rewards: [
+				{
+					icon: "minecraft:oak_fence"
+					id: "007B699DEE2A8811"
+					table_id: 3806546340475641058L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "2470161007F8B771"
+					item: "minecraft:brown_carpet"
+					type: "item"
+				}
+			]
+			subtitle: "Make a Fence Gate"
 			tasks: [{
-				id: "6BBB2677D85E0344"
-				type: "item"
-				title: "Any #tinkerer:fence_gates"
 				icon: "minecraft:oak_fence_gate"
+				id: "6BBB2677D85E0344"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "tinkerer:fence_gates"
 					}
 				}
+				title: "Any #tinkerer:fence_gates"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "007B699DEE2A8811"
-					type: "choice"
-					icon: "minecraft:oak_fence"
-					table_id: 3806546340475641058L
-				}
-				{
-					id: "2470161007F8B771"
-					type: "item"
-					item: "minecraft:brown_carpet"
-					count: 8
-				}
-			]
+			title: "Plotting"
+			x: -0.5d
+			y: -11.5d
 		}
 		{
-			title: "Blanky Mode [Housing]"
-			x: -2.0d
-			y: -11.5d
-			shape: "rsquare"
-			subtitle: "Make a Bed"
 			description: [
 				"&3Beds&r allow you to &dskip the night&r, and &dset your spawn point&r in case you die."
 				""
@@ -401,43 +396,44 @@
 				"You can &7[&r&6Sneak+Right-Click&r&7]&r interactables to place things on top of them. Try making a &ebedside table&r!"
 			]
 			id: "20E2938DD7365207"
+			rewards: [
+				{
+					id: "6E55816EB6C398FF"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					id: "3C2A2EEA798536DD"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "4EFC22A08C5CE99E"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Make a Bed"
 			tasks: [{
-				id: "394B1747873BEBD6"
-				type: "item"
-				title: "Make a Bed"
 				icon: "minecraft:red_bed"
+				id: "394B1747873BEBD6"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:beds"
 					}
 				}
+				title: "Make a Bed"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "6E55816EB6C398FF"
-					type: "item"
-					item: "minecraft:candle"
-				}
-				{
-					id: "3C2A2EEA798536DD"
-					type: "item"
-					item: "minecraft:crafting_table"
-				}
-				{
-					id: "4EFC22A08C5CE99E"
-					type: "item"
-					item: "minecraft:fire_charge"
-				}
-			]
+			title: "Blanky Mode [Housing]"
+			x: -2.0d
+			y: -11.5d
 		}
 		{
-			title: "Rancher"
-			icon: "minecraft:spruce_fence"
-			x: 3.5d
-			y: -13.0d
-			subtitle: "Do some Ranching"
+			dependencies: ["5C7110BA96ECA231"]
 			description: [
 				"All animals can be &dlead&r around by holding their &3favourite food&r."
 				""
@@ -447,90 +443,91 @@
 				""
 				"&3Pigs&r like &3vegetables&r, &3Bovids&r like &3Wheat&r, &3Chickens&r like &3Seeds&r, &3Wolves&r like &3Meat&r, &3Cats&r like &3Raw Fish&r, and &3Foxes&r like &3Berries&r."
 			]
-			dependencies: ["5C7110BA96ECA231"]
 			hide: true
+			icon: "minecraft:spruce_fence"
 			id: "63C534CA1FC2DADE"
-			tasks: [
-				{
-					id: "3E3C60D53FD25DBB"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:milk_bucket"
-				}
-				{
-					id: "47609D194C5D4BA2"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:white_wool"
-					count: 10L
-				}
-				{
-					id: "3E9A11449E0BF316"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:egg"
-					count: 4L
-				}
-			]
 			rewards: [
 				{
-					id: "193E7AE725327338"
-					type: "item"
-					item: "minecraft:hay_block"
 					count: 16
+					id: "193E7AE725327338"
+					item: "minecraft:hay_block"
+					type: "item"
 				}
 				{
-					id: "70C312A9A950A397"
-					type: "item"
-					item: "minecraft:lead"
 					count: 4
+					id: "70C312A9A950A397"
+					item: "minecraft:lead"
+					type: "item"
 				}
 				{
 					id: "48DC8A200AD1A06B"
-					type: "item"
 					item: "minecraft:saddle"
+					type: "item"
 				}
 			]
+			subtitle: "Do some Ranching"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3E3C60D53FD25DBB"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 10L
+					disable_toast: true
+					id: "47609D194C5D4BA2"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "3E9A11449E0BF316"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			title: "Rancher"
+			x: 3.5d
+			y: -13.0d
 		}
 		{
-			title: "Unlikely (and sticky) ally"
-			x: 4.0d
-			y: -10.0d
-			shape: "circle"
-			subtitle: "Craft a Honey Block"
+			dependencies: ["5DE40B33B987E149"]
 			description: [
 				"&3Honey Blocks&r are sticky! and can be stuck to as a wall."
 				""
-				"&7[Tinkerer's Quilt]&r &3Honey Bottles&r can be combined with &3Wheat&r and &eVines&r to create &3Slime Balls&r!"
+				"&7[Tinkerer's Quilt]&r &3Honey Bottles&r can be combined with &3Wheat&r and &eVines&r to create &3Slimeballs&r!"
 			]
-			dependencies: ["5DE40B33B987E149"]
 			hide: true
 			id: "3811025165802342"
-			tasks: [{
-				id: "47F35CC118356E8D"
-				type: "item"
-				item: "minecraft:honey_block"
-			}]
 			rewards: [
 				{
-					id: "541513A64B024FDD"
-					type: "item"
-					item: "minecraft:vine"
 					count: 16
+					id: "541513A64B024FDD"
+					item: "minecraft:vine"
+					type: "item"
 				}
 				{
-					id: "21CA961DC7B55768"
-					type: "item"
-					item: "minecraft:honey_block"
 					count: 5
+					id: "21CA961DC7B55768"
+					item: "minecraft:honey_block"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			subtitle: "Craft a Honey Block"
+			tasks: [{
+				id: "47F35CC118356E8D"
+				item: "minecraft:honey_block"
+				type: "item"
+			}]
+			title: "Unlikely (and sticky) ally"
+			x: 4.0d
+			y: -10.0d
 		}
 		{
-			title: "Buzzed"
-			x: 4.0d
-			y: -11.5d
-			subtitle: "Craft a Beehive"
+			dependencies: ["5C7110BA96ECA231"]
 			description: [
 				"&3Bees&r provide both &3Honeycomb&r and &3Honey Bottles&r, and also &dimprove crop growth&r."
 				""
@@ -544,34 +541,34 @@
 				""
 				"&7[Tinkerer's Quilt]&r &3Waxing&r copper beacons will prevent expiry."
 			]
-			dependencies: ["5C7110BA96ECA231"]
 			hide: true
 			id: "5DE40B33B987E149"
-			tasks: [{
-				id: "36831BB40E3FD9DA"
-				type: "item"
-				item: "minecraft:beehive"
-			}]
 			rewards: [
 				{
-					id: "15E683D9BB2C556A"
-					type: "item"
-					item: "minecraft:sugar"
 					count: 16
+					id: "15E683D9BB2C556A"
+					item: "minecraft:sugar"
+					type: "item"
 				}
 				{
-					id: "1F26D521AD2B03C0"
-					type: "item"
-					item: "minecraft:cornflower"
 					count: 4
+					id: "1F26D521AD2B03C0"
+					item: "minecraft:cornflower"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Beehive"
+			tasks: [{
+				id: "36831BB40E3FD9DA"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "Buzzed"
+			x: 4.0d
+			y: -11.5d
 		}
 		{
-			title: "Represent"
-			x: 9.0d
-			y: -9.5d
-			subtitle: "Craft a Loom"
+			dependencies: ["55783EE248BAC550"]
 			description: [
 				"&3Looms&r allow you to create &dcustom banner designs&r, which can be &dhung or emblazoned on shields&r."
 				""
@@ -581,84 +578,84 @@
 				""
 				"&3Banners&r and dyed &3Leather Armor&r can be &dwashed clean&r by throwing them in a &3Water Cauldron&r."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "1FADE18B62E069A1"
-			tasks: [{
-				id: "3A8FF31B49C83CB6"
-				type: "item"
-				item: "minecraft:loom"
-			}]
 			rewards: [
 				{
 					id: "7444D5FD1B81724D"
-					type: "item"
 					item: "minecraft:skull_banner_pattern"
+					type: "item"
 				}
 				{
 					id: "00B4C19857875706"
-					type: "item"
 					item: "minecraft:flower_banner_pattern"
+					type: "item"
 				}
 				{
 					id: "2280ECB485E70195"
-					type: "item"
 					item: "minecraft:piglin_banner_pattern"
+					type: "item"
 				}
 				{
 					id: "60C7D7B8FC33486F"
-					type: "item"
 					item: "minecraft:globe_banner_pattern"
+					type: "item"
 				}
 				{
+					count: 16
 					id: "7BB131F81CE0EE05"
-					type: "item"
 					item: "minecraft:white_dye"
-					count: 16
+					type: "item"
 				}
 				{
+					count: 16
 					id: "240752E0B3758DDD"
-					type: "item"
 					item: "minecraft:blue_dye"
-					count: 16
+					type: "item"
 				}
 				{
+					count: 16
 					id: "603A66AEFB21253E"
-					type: "item"
 					item: "minecraft:black_dye"
-					count: 16
+					type: "item"
 				}
 				{
+					count: 16
 					id: "7CD45A7D585FF971"
-					type: "item"
 					item: "minecraft:red_dye"
-					count: 16
+					type: "item"
 				}
 				{
+					count: 16
 					id: "1AB47C5DBDFE0A43"
-					type: "item"
 					item: "minecraft:green_dye"
-					count: 16
+					type: "item"
 				}
 				{
+					count: 16
 					id: "6F48D4D4BCE46394"
-					type: "item"
 					item: "minecraft:yellow_dye"
-					count: 16
+					type: "item"
 				}
 				{
-					id: "794E4D2D3C56C124"
-					type: "item"
-					item: "minecraft:brown_dye"
 					count: 16
+					id: "794E4D2D3C56C124"
+					item: "minecraft:brown_dye"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Loom"
+			tasks: [{
+				id: "3A8FF31B49C83CB6"
+				item: "minecraft:loom"
+				type: "item"
+			}]
+			title: "Represent"
+			x: 9.0d
+			y: -9.5d
 		}
 		{
-			title: "Explorer"
-			x: 9.0d
-			y: -13.5d
-			subtitle: "Craft a Cartography Table"
+			dependencies: ["55783EE248BAC550"]
 			description: [
 				"&3Cartography tables&r allow you to &dduplicate map contents&r, including their zoom level. They also allow &dcheaper zooming out&r of maps with &epaper&r."
 				""
@@ -670,41 +667,40 @@
 				""
 				"&7[Crowmap]&r &eMaps&r can be filled out from &3any slot in your inventory&r."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "1D22455B9931408B"
-			tasks: [{
-				id: "3075251E9DC7E660"
-				type: "item"
-				item: "minecraft:cartography_table"
-			}]
 			rewards: [
 				{
-					id: "60E3542185DA5F63"
-					type: "item"
-					item: "minecraft:map"
 					count: 9
+					id: "60E3542185DA5F63"
+					item: "minecraft:map"
+					type: "item"
 				}
 				{
-					id: "6D0F8920542CF32D"
-					type: "item"
-					item: "minecraft:paper"
 					count: 64
+					id: "6D0F8920542CF32D"
+					item: "minecraft:paper"
+					type: "item"
 				}
 				{
-					id: "474AF377E296BE69"
-					type: "item"
-					item: "minecraft:item_frame"
 					count: 6
+					id: "474AF377E296BE69"
+					item: "minecraft:item_frame"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Cartography Table"
+			tasks: [{
+				id: "3075251E9DC7E660"
+				item: "minecraft:cartography_table"
+				type: "item"
+			}]
+			title: "Explorer"
+			x: 9.0d
+			y: -13.5d
 		}
 		{
-			title: "Stay Feisty, Hellspawn"
-			x: -2.0d
-			y: -13.5d
-			shape: "hexagon"
-			subtitle: "Craft a Respawn Anchor"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"A &3Respawn Anchor&r allows you to create a &dhome in the nether&r. "
 				""
@@ -714,42 +710,34 @@
 				""
 				"&3Lights&r don't prevent mob spawning in the nether, but &eHalf Slabs&r do - stay safe out there!"
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "392E005585B652A4"
-			tasks: [{
-				id: "7A605FF99394FAAE"
-				type: "item"
-				item: "minecraft:respawn_anchor"
-			}]
 			rewards: [
 				{
-					id: "065134E7CCC364F3"
-					type: "item"
-					item: "minecraft:glowstone"
 					count: 16
+					id: "065134E7CCC364F3"
+					item: "minecraft:glowstone"
+					type: "item"
 				}
 				{
-					id: "3E2FBE9ED10CF886"
-					type: "item"
-					item: "minecraft:warped_slab"
 					count: 64
+					id: "3E2FBE9ED10CF886"
+					item: "minecraft:warped_slab"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Craft a Respawn Anchor"
+			tasks: [{
+				id: "7A605FF99394FAAE"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Stay Feisty, Hellspawn"
+			x: -2.0d
+			y: -13.5d
 		}
 		{
-			title: "Bitch i'm Far-ming [Farming] "
-			icon: {
-				id: "minecraft:stone_hoe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 2.5d
-			y: -11.5d
-			shape: "rsquare"
-			subtitle: "Acquire basic farming equipment"
 			description: [
 				"By using a &3hoe&r on dirt, soil &dcan be tilled&r for planting seeds."
 				""
@@ -761,42 +749,48 @@
 				""
 				"&7[Seasons]&r The &dSeason&r affects the natural growth of crops, and the appearance of the world."
 			]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5C7110BA96ECA231"
+			rewards: [{
+				count: 16
+				id: "05EEFD50897A505C"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Acquire basic farming equipment"
 			tasks: [
 				{
-					id: "698EC81BE855F4C9"
-					type: "item"
 					disable_toast: true
+					id: "698EC81BE855F4C9"
 					item: "minecraft:wheat_seeds"
+					type: "item"
 				}
 				{
-					id: "5F5DBBA6E98FACFA"
-					type: "item"
-					title: "Hoe"
 					disable_toast: true
+					id: "5F5DBBA6E98FACFA"
 					item: {
-						id: "itemfilters:tag"
 						Count: 1b
+						id: "itemfilters:tag"
 						tag: {
 							value: "c:hoes"
 						}
 					}
+					title: "Hoe"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "05EEFD50897A505C"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 16
-			}]
+			title: "Bitch i'm Far-ming [Farming] "
+			x: 2.5d
+			y: -11.5d
 		}
 		{
-			title: "Here in my Garage [Workshopping]"
-			icon: "minecraft:furnace"
-			x: 6.0d
-			y: -11.5d
-			shape: "rsquare"
-			subtitle: "Make a Crafting Table, Chest, and Furnace"
 			description: [
 				"The core of any base is a &2workshop&r - dedicated to &3storing and crafting items&r."
 				""
@@ -804,77 +798,79 @@
 				""
 				"&eMusic Discs&r can be inserted into &eJukeboxes&r to &dplay songs&r in an area!"
 			]
+			icon: "minecraft:furnace"
 			id: "55783EE248BAC550"
-			tasks: [
-				{
-					id: "69DB2CD979E668E6"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:chest"
-				}
-				{
-					id: "24F8238455346F0E"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:furnace"
-				}
-				{
-					id: "769F2FC573E160FD"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:crafting_table"
-				}
-			]
 			rewards: [
 				{
 					id: "79D1BF339F7C8089"
-					type: "item"
 					item: "minecraft:music_disc_stal"
+					type: "item"
 				}
 				{
 					id: "33916F3F2601EFC5"
-					type: "item"
 					item: "minecraft:jukebox"
+					type: "item"
 				}
 				{
 					id: "26879A3EA848C4FE"
-					type: "item"
 					item: "minecraft:barrel"
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			subtitle: "Make a Crafting Table, Chest, and Furnace"
+			tasks: [
+				{
+					disable_toast: true
+					id: "69DB2CD979E668E6"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "24F8238455346F0E"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "769F2FC573E160FD"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Here in my Garage [Workshopping]"
+			x: 6.0d
+			y: -11.5d
 		}
 		{
-			title: "Architect"
-			x: 7.0d
-			y: -10.0d
-			shape: "hexagon"
-			subtitle: "Craft a Stonecutter"
+			dependencies: ["55783EE248BAC550"]
 			description: [
 				"&3Stonecutters&r are used to &dcheaply craft decorative blocks&r."
 				""
 				"By placing stone-like blocks in the &3input slot&r, you can &dtransform it&r into many decorative and functional variants."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "1233042213A9729E"
+			rewards: [{
+				count: 64
+				id: "6C023B3A87A36F36"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Craft a Stonecutter"
 			tasks: [{
 				id: "19EF31E91BB0C484"
-				type: "item"
 				item: "minecraft:stonecutter"
-			}]
-			rewards: [{
-				id: "6C023B3A87A36F36"
 				type: "item"
-				item: "minecraft:stone"
-				count: 64
 			}]
+			title: "Architect"
+			x: 7.0d
+			y: -10.0d
 		}
 		{
-			title: "Back in a sec!"
-			x: 7.0d
-			y: -14.5d
-			shape: "hexagon"
-			subtitle: "Build a Furnace Minecart"
+			dependencies: ["796366A8D7D8BBF8"]
 			description: [
 				"&3Furnace Minecarts&r are used to &dtravel long distances&r by pushing minecart trains. Just add one &3fuel&r and the minecart will &3push until it runs out&r."
 				""
@@ -884,34 +880,35 @@
 				""
 				"Filling a furnace minecart with a &elava bucket&r will run a chunk for &d17 minutes&r."
 			]
-			dependencies: ["796366A8D7D8BBF8"]
 			hide: true
 			id: "54557BCF50D4E3EA"
-			tasks: [{
-				id: "46C8036E99DA86DC"
-				type: "item"
-				item: "minecraft:furnace_minecart"
-			}]
 			rewards: [
 				{
-					id: "6AAB5E2685C1561F"
-					type: "item"
-					item: "minecraft:coal_block"
 					count: 16
+					id: "6AAB5E2685C1561F"
+					item: "minecraft:coal_block"
+					type: "item"
 				}
 				{
-					id: "2718EBD9A068D8C2"
-					type: "item"
-					item: "minecraft:lava_bucket"
 					count: 4
+					id: "2718EBD9A068D8C2"
+					item: "minecraft:lava_bucket"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Build a Furnace Minecart"
+			tasks: [{
+				id: "46C8036E99DA86DC"
+				item: "minecraft:furnace_minecart"
+				type: "item"
+			}]
+			title: "Back in a sec!"
+			x: 7.0d
+			y: -14.5d
 		}
 		{
-			title: "WOMEN FEAR ME"
-			x: 1.5d
-			y: -10.0d
-			subtitle: "Craft a Fishing Rod"
+			dependencies: ["5C7110BA96ECA231"]
 			description: [
 				"&3Fishing Rods&r can cast a line into a body of water with &7[&r&6Right-Click&r&7]&r. Eventually, a line of bubbles will appear and the lure will be pulled down - &7[&r&6Right-Click&r&7]&r again to reel the catch in!"
 				""
@@ -925,26 +922,13 @@
 				""
 				"&7[DyableFishingLines]&r You can &ddye your fishing line&r with any &3dye&r in the &3Crafting Grid&r. Rods can also be given special names (e.g. aro, pan, plural) for &dspecial line colours&r."
 			]
-			dependencies: ["5C7110BA96ECA231"]
 			hide: true
 			id: "2DF95382AC7B7AD4"
-			tasks: [{
-				id: "5A8BF1DC3D8BAEA7"
-				type: "item"
-				item: {
-					id: "minecraft:fishing_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "758977765A6FA05B"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:luck_of_the_sea"
@@ -952,117 +936,122 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Craft a Fishing Rod"
+			tasks: [{
+				id: "5A8BF1DC3D8BAEA7"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "WOMEN FEAR ME"
+			x: 1.5d
+			y: -10.0d
 		}
 		{
-			title: "Terracotta Builder's Pack"
-			icon: "minecraft:orange_terracotta"
-			x: 6.5d
-			y: -8.5d
-			shape: "gear"
-			subtitle: "Glazed Foresight"
-			description: ["Derives the co-ordinates of the nearest &2Badlands Biome&r - once. For gathering &3Terracotta&r."]
 			dependencies: ["1233042213A9729E"]
+			description: ["Derives the co-ordinates of the nearest &2Badlands Biome&r - once. For gathering &3Terracotta&r."]
 			hide: true
-			optional: true
+			icon: "minecraft:orange_terracotta"
 			id: "58CAA3CF4CE89A65"
-			tasks: [{
-				id: "759F54485E9734BA"
-				type: "checkmark"
-				title: "Locate a Badlands Biome [Click]"
-			}]
+			optional: true
 			rewards: [
 				{
-					id: "7D1A0DD72136D14D"
-					type: "command"
-					title: "Prepare Foresight..."
-					icon: "minecraft:red_sand"
 					auto: "no_toast"
 					command: "/op @p"
+					icon: "minecraft:red_sand"
+					id: "7D1A0DD72136D14D"
 					player_command: false
+					title: "Prepare Foresight..."
+					type: "command"
 				}
 				{
-					id: "58BD55E774BC4DD8"
-					type: "command"
-					title: "Locate the nearest Badlands..."
-					icon: "minecraft:terracotta"
 					auto: "no_toast"
 					command: "/locate biome minecraft:badlands"
+					icon: "minecraft:terracotta"
+					id: "58BD55E774BC4DD8"
 					player_command: true
+					title: "Locate the nearest Badlands..."
+					type: "command"
 				}
 				{
-					id: "51D1A2C53843604A"
-					type: "command"
-					title: "Deliver the verdict..."
-					icon: "minecraft:orange_terracotta"
 					auto: "no_toast"
 					command: "/deop @p"
+					icon: "minecraft:orange_terracotta"
+					id: "51D1A2C53843604A"
 					player_command: false
+					title: "Deliver the verdict..."
+					type: "command"
 				}
 			]
+			shape: "gear"
+			subtitle: "Glazed Foresight"
+			tasks: [{
+				id: "759F54485E9734BA"
+				title: "Locate a Badlands Biome [Click]"
+				type: "checkmark"
+			}]
+			title: "Terracotta Builder's Pack"
+			x: 6.5d
+			y: -8.5d
 		}
 		{
+			dependencies: ["2DF95382AC7B7AD4"]
+			description: ["&3Nautilus shells&r can be &3fished&r at a 1% chance, or up to 2% with &eLuck of the Sea&r."]
+			hide: true
+			id: "665ED9CB789FB958"
+			rewards: [
+				{
+					count: 16
+					id: "6AF69D0FC37EB581"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "07421828A6ADE48A"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Fish up a Nautilus Shell"
+			tasks: [{
+				id: "01CB40E24772863D"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
 			title: "Treasure Fisher"
 			x: 0.0d
 			y: -10.0d
-			shape: "hexagon"
-			subtitle: "Fish up a Nautilus Shell"
-			description: ["&3Nautilus shells&r can be &3fished&r at a 1% chance, or up to 2% with &eLuck of the Sea&r."]
-			dependencies: ["2DF95382AC7B7AD4"]
-			hide: true
-			id: "665ED9CB789FB958"
-			tasks: [{
-				id: "01CB40E24772863D"
-				type: "item"
-				item: "minecraft:nautilus_shell"
-			}]
-			rewards: [
-				{
-					id: "6AF69D0FC37EB581"
-					type: "item"
-					item: "minecraft:prismarine_shard"
-					count: 16
-				}
-				{
-					id: "07421828A6ADE48A"
-					type: "item"
-					item: "minecraft:nautilus_shell"
-					count: 6
-				}
-			]
 		}
 		{
-			title: "Friend of the Mer"
-			x: -2.0d
-			y: -10.0d
-			shape: "hexagon"
-			subtitle: "Find a Heart of the Sea"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"A &3Heart of the Sea&r can be found as buried treasure &2underwater&r and under &2beaches&r. "
 				""
 				"&3Cartographers&r can sell maps to buried treasure, or you can &3feed raw fish to a dolphin&r and &dfollow it&r."
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "4FA802A874FC1A24"
-			tasks: [{
-				id: "3185D01BB3B3A323"
-				type: "item"
-				item: "minecraft:heart_of_the_sea"
-			}]
 			rewards: [
 				{
-					id: "7BD813AE660B2A00"
-					type: "item"
-					item: "minecraft:prismarine_shard"
 					count: 16
+					id: "7BD813AE660B2A00"
+					item: "minecraft:prismarine_shard"
+					type: "item"
 				}
 				{
 					id: "3A3C4FDE5BDFF070"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:luck_of_the_sea"
@@ -1070,15 +1059,25 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Find a Heart of the Sea"
+			tasks: [{
+				id: "3185D01BB3B3A323"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Friend of the Mer"
+			x: -2.0d
+			y: -10.0d
 		}
 		{
-			title: "Atlantis"
-			x: -1.0d
-			y: -9.0d
-			shape: "hexagon"
-			subtitle: "Craft a Conduit"
+			dependencies: [
+				"4FA802A874FC1A24"
+				"665ED9CB789FB958"
+			]
 			description: [
 				"A &3Conduit&r allows you to create &dsafe underwater bases&r up to &3184 blocks wide&r."
 				""
@@ -1088,49 +1087,45 @@
 				""
 				"To acquire more prismarine shards, you'll need to find and battle &2ocean monuments&r."
 			]
-			dependencies: [
-				"4FA802A874FC1A24"
-				"665ED9CB789FB958"
-			]
 			hide: true
 			id: "0953453F97BA921D"
-			tasks: [{
-				id: "7CFE7B70313152E9"
-				type: "item"
-				item: "minecraft:conduit"
-			}]
 			rewards: [
 				{
-					id: "71983AC5C74C3139"
-					type: "item"
-					item: "minecraft:prismarine_shard"
 					count: 32
+					id: "71983AC5C74C3139"
+					item: "minecraft:prismarine_shard"
+					type: "item"
 				}
 				{
-					id: "582EDB12860E3AA7"
-					type: "item"
-					item: "minecraft:lantern"
 					count: 32
+					id: "582EDB12860E3AA7"
+					item: "minecraft:lantern"
+					type: "item"
 				}
 				{
 					id: "3092A26061AE76C8"
-					type: "item"
 					item: {
-						id: "minecraft:potion"
 						Count: 1b
+						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_water_breathing"
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Craft a Conduit"
+			tasks: [{
+				id: "7CFE7B70313152E9"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Atlantis"
+			x: -1.0d
+			y: -9.0d
 		}
 		{
-			title: "Aye 'yam amphibious [Transport] "
-			x: -5.5d
-			y: -11.5d
-			shape: "rsquare"
-			subtitle: "Craft a Boat"
 			description: [
 				"&3Boats&r allow you to move long distances over water &dwithout a hunger cost&r."
 				""
@@ -1139,30 +1134,32 @@
 				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
 			]
 			id: "423E897DEB76653D"
-			tasks: [{
-				id: "3DA9DDCFB85248ED"
+			rewards: [{
+				id: "206A289D94C23F6C"
+				item: "minecraft:chest"
 				type: "item"
-				title: "Wooden Boat"
+			}]
+			shape: "rsquare"
+			subtitle: "Craft a Boat"
+			tasks: [{
 				icon: "minecraft:oak_boat"
+				id: "3DA9DDCFB85248ED"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:boats"
 					}
 				}
-			}]
-			rewards: [{
-				id: "206A289D94C23F6C"
+				title: "Wooden Boat"
 				type: "item"
-				item: "minecraft:chest"
 			}]
+			title: "Aye 'yam amphibious [Transport] "
+			x: -5.5d
+			y: -11.5d
 		}
 		{
-			title: "Hyperspeed Lane"
-			x: -7.5d
-			y: -12.5d
-			subtitle: "Acquire 1 Blue Ice"
+			dependencies: ["423E897DEB76653D"]
 			description: [
 				"&3Blue Ice&r is an unmeltable variant of ice that allows boats to &dmove at ludicrous speeds&r on its surface. They can be crafted using 81 &3Ice Blocks&r, or found in the world."
 				""
@@ -1170,27 +1167,27 @@
 				""
 				"&7[Cardinal Ice Boats]&r you can use the &7[&r&6Arrow Keys&r&7]&r to make or buffer &d90 degree turns&r on ice lanes."
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "51AC2E4D1053FC19"
+			rewards: [{
+				count: 64
+				id: "3FFC081E8E887B66"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			subtitle: "Acquire 1 Blue Ice"
 			tasks: [{
 				id: "4EDE04AAE35B8B8E"
-				type: "item"
 				item: "minecraft:blue_ice"
-			}]
-			rewards: [{
-				id: "3FFC081E8E887B66"
 				type: "item"
-				item: "minecraft:blue_ice"
-				count: 64
 			}]
+			title: "Hyperspeed Lane"
+			x: -7.5d
+			y: -12.5d
 		}
 		{
-			title: "Invention of Rail"
-			x: -6.5d
-			y: -13.0d
-			shape: "hexagon"
-			subtitle: "Gather some Rail materials"
+			dependencies: ["423E897DEB76653D"]
+			dependency_requirement: "one_started"
 			description: [
 				"&3Minecarts and rails&r can be used to build &deasy transit&r between known locations."
 				""
@@ -1202,190 +1199,172 @@
 				""
 				"&7[Fabrication]&r &eMagenta Glazed Terracotta&r under a &3Powered Rail&r will make it &ddirectional&r - great for loading new carts onto a rail!"
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
-			dependency_requirement: "one_started"
 			id: "0EF299A1A5009971"
-			tasks: [{
-				id: "64AA0C69C81F13E5"
-				type: "item"
-				item: "minecraft:rail"
-				count: 32L
-			}]
 			rewards: [
 				{
+					count: 8
 					id: "66BC7E72767B1509"
-					type: "item"
 					item: "minecraft:magenta_glazed_terracotta"
-					count: 8
+					type: "item"
 				}
 				{
+					count: 8
 					id: "36F053E83568DB0C"
-					type: "item"
 					item: "minecraft:powered_rail"
-					count: 8
+					type: "item"
 				}
 				{
-					id: "4E9F3C7796CE03C2"
-					type: "item"
-					item: "minecraft:redstone_torch"
 					count: 8
+					id: "4E9F3C7796CE03C2"
+					item: "minecraft:redstone_torch"
+					type: "item"
 				}
 				{
 					id: "4EFAEFD4C85ABCC9"
-					type: "item"
 					item: "minecraft:minecart"
+					type: "item"
 				}
 				{
-					id: "723355EEC64996EC"
-					type: "item"
-					item: "minecraft:detector_rail"
 					count: 2
+					id: "723355EEC64996EC"
+					item: "minecraft:detector_rail"
+					type: "item"
 				}
 				{
-					id: "5B9889C5B7BB26F8"
-					type: "item"
-					item: "minecraft:rail"
 					count: 64
+					id: "5B9889C5B7BB26F8"
+					item: "minecraft:rail"
+					type: "item"
 				}
 				{
 					id: "07C3FFE36ED0CBEB"
-					type: "item"
 					item: "minecraft:furnace_minecart"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Gather some Rail materials"
+			tasks: [{
+				count: 32L
+				id: "64AA0C69C81F13E5"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			title: "Invention of Rail"
+			x: -6.5d
+			y: -13.0d
 		}
 		{
-			title: "Glub Glub"
-			icon: {
-				id: "minecraft:lingering_potion"
-				Count: 1b
-				tag: {
-					Potion: "minecraft:water"
-				}
-			}
-			x: -5.5d
-			y: -13.0d
-			subtitle: "Gather Bubble Elevator materials"
+			dependencies: ["423E897DEB76653D"]
 			description: [
 				"&3Magma Blocks&r and &3Soul Sand&r under water create \"Bubble Columns\" in either direction, which both provide air and pull/push the mobs and the player down/up in the water"
 				""
 				"These can be used to &dmake elevators&r for your home. &eFence gates&r work great as blocks that prevent water flow."
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
 			id: "4E780825E91BA9CA"
-			tasks: [
-				{
-					id: "0343D01EE4CED033"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:magma_block"
-				}
-				{
-					id: "01AB8E607E758E63"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:soul_sand"
-				}
-				{
-					id: "48F6931772905D71"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:water_bucket"
-				}
-			]
 			rewards: [
 				{
-					id: "5DF53F8015B9942B"
-					type: "item"
-					item: "minecraft:spruce_fence_gate"
 					count: 10
+					id: "5DF53F8015B9942B"
+					item: "minecraft:spruce_fence_gate"
+					type: "item"
 				}
 				{
-					id: "062569DA6AD87480"
-					type: "item"
-					item: "minecraft:spruce_trapdoor"
 					count: 10
+					id: "062569DA6AD87480"
+					item: "minecraft:spruce_trapdoor"
+					type: "item"
 				}
 			]
+			subtitle: "Gather Bubble Elevator materials"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0343D01EE4CED033"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "01AB8E607E758E63"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "48F6931772905D71"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Glub Glub"
+			x: -5.5d
+			y: -13.0d
 		}
 		{
-			title: "Keep an eye on gravity"
-			icon: "minecraft:slime_block"
-			x: -5.5d
-			y: -10.0d
-			subtitle: "Craft Bounce-Elevator materials"
+			dependencies: ["423E897DEB76653D"]
 			description: [
 				"Try placing a &3Slime Block&r above a &3Sticky Piston&r, and &epowering&r it while standing on top!"
 				""
 				"The resulting launch could &dreach another floor&r - try adding a &eHoney Block&r to help &dcatch you at the top&r!"
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
+			icon: "minecraft:slime_block"
 			id: "039E822D32DC0A9B"
-			tasks: [
-				{
-					id: "581C4156E009B165"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:slime_block"
-				}
-				{
-					id: "3218F9009FCE1D9F"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:sticky_piston"
-				}
-			]
 			rewards: [
 				{
 					id: "2946ECA038C2E873"
-					type: "item"
 					item: "minecraft:honey_block"
+					type: "item"
 				}
 				{
 					id: "3181FD8D6DCF864A"
-					type: "item"
 					item: "minecraft:stone_button"
+					type: "item"
 				}
 			]
+			subtitle: "Craft Bounce-Elevator materials"
+			tasks: [
+				{
+					disable_toast: true
+					id: "581C4156E009B165"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3218F9009FCE1D9F"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+			]
+			title: "Keep an eye on gravity"
+			x: -5.5d
+			y: -10.0d
 		}
 		{
-			title: "Olympic Highway"
-			x: -8.5d
-			y: -11.5d
-			subtitle: "Gather Soulspeed Highway materials"
+			dependencies: ["423E897DEB76653D"]
 			description: [
 				"&3Soul Sand&r slows the player down, &3Soul Soil&r does not. With &eSoul Speed&r, you &dmove faster on both&r."
 				""
 				"Soul Speed can only be acquired by &3trading gold items to piglins&r. Or uh, completing this quest :)"
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
 			id: "56FFE5307AA82DCD"
-			tasks: [
-				{
-					id: "193B528A78694A90"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:soul_sand"
-					count: 64L
-				}
-				{
-					id: "2071C293A277F0B7"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:soul_soil"
-					count: 64L
-				}
-			]
 			rewards: [{
 				id: "586193A0EA230FBE"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:soul_speed"
@@ -1393,14 +1372,32 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Gather Soulspeed Highway materials"
+			tasks: [
+				{
+					count: 64L
+					disable_toast: true
+					id: "193B528A78694A90"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 64L
+					disable_toast: true
+					id: "2071C293A277F0B7"
+					item: "minecraft:soul_soil"
+					type: "item"
+				}
+			]
+			title: "Olympic Highway"
+			x: -8.5d
+			y: -11.5d
 		}
 		{
-			title: "Yeehaw"
-			x: -6.5d
-			y: -10.0d
-			shape: "hexagon"
-			subtitle: "Saddle and ride a Horse"
+			dependencies: ["423E897DEB76653D"]
+			dependency_requirement: "one_started"
 			description: [
 				"&3Horses&r are some of the simplest forms of &dimproved transport&r. "
 				""
@@ -1412,73 +1409,60 @@
 				""
 				"&7[Dual Ride]&r Horses can have both a rider and a passenger."
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
-			dependency_requirement: "one_started"
 			id: "7AA799B6789ABD71"
-			tasks: [{
-				id: "61C1C9ADFC09F727"
-				type: "stat"
-				title: "Travel 50 Blocks by Horse"
-				icon: "minecraft:saddle"
-				stat: "minecraft:horse_one_cm"
-				value: 5000
-			}]
 			rewards: [
 				{
 					id: "610567D311799E3F"
-					type: "item"
 					item: "minecraft:leather_horse_armor"
+					type: "item"
 				}
 				{
 					id: "681402F43E21EDA4"
-					type: "item"
 					item: {
-						id: "minecraft:carrot_on_a_stick"
 						Count: 1b
+						id: "minecraft:carrot_on_a_stick"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Saddle and ride a Horse"
+			tasks: [{
+				icon: "minecraft:saddle"
+				id: "61C1C9ADFC09F727"
+				stat: "minecraft:horse_one_cm"
+				title: "Travel 50 Blocks by Horse"
+				type: "stat"
+				value: 5000
+			}]
+			title: "Yeehaw"
+			x: -6.5d
+			y: -10.0d
 		}
 		{
-			title: "Olympic Underwater Highway"
-			icon: {
-				id: "minecraft:tropical_fish_bucket"
-				Count: 1b
-				tag: { }
-			}
-			x: -7.5d
-			y: -10.5d
-			subtitle: "Swim 500 Blocks"
+			dependencies: ["423E897DEB76653D"]
 			description: [
 				"By combining any amount of &3Depth Strider&r boots, &3Soul speed&r highways, and &3Dolphin's Grace&r (granted by dolphins) - the player can &dswim at unfathomable speeds&r."
 				""
 				"&7[Tinkerer's Quilt]&r Name Tags are &3craftable&r, allowing you to freely tag dolphins like a marine biologist, &dpossibly improving their population&r in your favourite swimming spots."
 			]
-			dependencies: ["423E897DEB76653D"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:tropical_fish_bucket"
+				tag: { }
+			}
 			id: "56E8B3168203AA6F"
-			tasks: [{
-				id: "1989BBAD04C1D853"
-				type: "stat"
-				icon: {
-					id: "minecraft:tropical_fish_bucket"
-					Count: 1b
-					tag: { }
-				}
-				stat: "minecraft:swim_one_cm"
-				value: 50000
-			}]
 			rewards: [
 				{
 					id: "42737083D92865C9"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:respiration"
@@ -1486,13 +1470,13 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "300CCD3C108FB644"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:depth_strider"
@@ -1500,16 +1484,27 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Swim 500 Blocks"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:tropical_fish_bucket"
+					tag: { }
+				}
+				id: "1989BBAD04C1D853"
+				stat: "minecraft:swim_one_cm"
+				type: "stat"
+				value: 50000
+			}]
+			title: "Olympic Underwater Highway"
+			x: -7.5d
+			y: -10.5d
 		}
 		{
-			title: "Variety Fair"
-			icon: "minecraft:composter"
-			x: 2.5d
-			y: -13.0d
-			shape: "hexagon"
-			subtitle: "Learn to farm many things"
+			dependencies: ["5C7110BA96ECA231"]
 			description: [
 				"Many resources are &3renewable&r, meaning they can be &dacquired endlessly&r without moving around."
 				""
@@ -1519,53 +1514,37 @@
 				""
 				"Don't just gather the quest materials - &dmake the farms&r! and don't be afraid to make them look cool."
 			]
-			dependencies: ["5C7110BA96ECA231"]
 			hide: true
+			icon: "minecraft:composter"
 			id: "6B1E74EF171BFD5E"
+			shape: "hexagon"
+			subtitle: "Learn to farm many things"
 			tasks: [{
 				id: "586A744062E94A9A"
-				type: "checkmark"
 				title: "Follow the path of the Farmer [Click]"
+				type: "checkmark"
 			}]
+			title: "Variety Fair"
+			x: 2.5d
+			y: -13.0d
 		}
 		{
-			title: "Forestry"
-			icon: "minecraft:oak_sapling"
-			x: 2.5d
-			y: -10.0d
-			subtitle: "Become a Tree Farmer"
+			dependencies: ["5C7110BA96ECA231"]
 			description: [
 				"&3Tree farming&r allows provides sustainable wood, compostable saplings, and apples."
 				""
 				"A &efortune-enchanted hoe&r can collect many apples from oak tree leaves."
 			]
-			dependencies: ["5C7110BA96ECA231"]
 			hide: true
+			icon: "minecraft:oak_sapling"
 			id: "428252F5071CF0D0"
-			tasks: [{
-				id: "4FD33CCBBC3D705A"
-				type: "item"
-				title: "Consume 32 Saplings (Click)"
-				icon: "minecraft:dark_oak_sapling"
-				disable_toast: true
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:saplings"
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
 			rewards: [{
 				id: "2E45BCED40DE4980"
-				type: "item"
 				item: {
-					id: "minecraft:iron_hoe"
 					Count: 1b
+					id: "minecraft:iron_hoe"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:fortune"
@@ -1576,245 +1555,261 @@
 								lvl: 3s
 							}
 						]
-						Damage: 0
+						RepairCost: 1
 						display: {
 							Name: "{\"text\":\"Orchard Crook\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Become a Tree Farmer"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				disable_toast: true
+				icon: "minecraft:dark_oak_sapling"
+				id: "4FD33CCBBC3D705A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				title: "Consume 32 Saplings (Click)"
+				type: "item"
+			}]
+			title: "Forestry"
+			x: 2.5d
+			y: -10.0d
 		}
 		{
-			title: "Vine Farming"
-			icon: "minecraft:vine"
-			x: 3.0d
-			y: -16.5d
-			subtitle: "Farm 32 Vines"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Vines&r will &dgrow downwards&r if unobstructed, and harvested using &3Shears&r."
 				""
 				"They're useful for climbing and decoration."
 				""
-				"&7[Tinkerer's Quilt]&r Vines can be crafted into &3Slime Balls&r."
+				"&7[Tinkerer's Quilt]&r Vines can be crafted into &3Slimeballs&r."
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:vine"
 			id: "4E2B415A2E99BCF6"
+			subtitle: "Farm 32 Vines"
 			tasks: [
 				{
-					id: "11D4F63B25BA830B"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:vine"
 					count: 32L
+					disable_toast: true
+					id: "11D4F63B25BA830B"
+					item: "minecraft:vine"
+					type: "item"
 				}
 				{
-					id: "3CFC2F1F445CC8ED"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "3CFC2F1F445CC8ED"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Vine Farming"
+			x: 3.0d
+			y: -16.5d
 		}
 		{
-			title: "Amethyst Farming"
-			icon: "minecraft:amethyst_shard"
-			x: 1.0d
-			y: -14.5d
-			subtitle: "Farm 32 Amethyst"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Amethyst&r can only be &dfarmed at the source&r - an &2Underground Geode&r."
 				""
 				"This means the farm comes pre-made - Just mark it on your map!"
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:amethyst_shard"
 			id: "0FC2E6F08F772324"
-			tasks: [
-				{
-					id: "1AE1B289AED19E40"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:amethyst_shard"
-					count: 32L
-				}
-				{
-					id: "149D5F5038C2BC78"
-					type: "checkmark"
-					title: "Farmed! [Click]"
-					disable_toast: true
-				}
-			]
 			rewards: [{
 				id: "112A4EFC03516D1B"
-				type: "item"
 				item: {
-					id: "minecraft:white_banner"
 					Count: 1b
+					id: "minecraft:white_banner"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Amethyst Geode\"}"
-						}
 						BlockEntityTag: {
 							Patterns: [
 								{
-									Pattern: "mr"
 									Color: 15
+									Pattern: "mr"
 								}
 								{
-									Pattern: "mr"
 									Color: 2
+									Pattern: "mr"
 								}
 								{
-									Pattern: "glb"
 									Color: 10
+									Pattern: "glb"
 								}
 								{
-									Pattern: "bo"
 									Color: 0
+									Pattern: "bo"
 								}
 								{
-									Pattern: "cbo"
 									Color: 15
+									Pattern: "cbo"
 								}
 							]
 						}
+						display: {
+							Name: "{\"text\":\"Amethyst Geode\"}"
+						}
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Farm 32 Amethyst"
+			tasks: [
+				{
+					count: 32L
+					disable_toast: true
+					id: "1AE1B289AED19E40"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "149D5F5038C2BC78"
+					title: "Farmed! [Click]"
+					type: "checkmark"
+				}
+			]
+			title: "Amethyst Farming"
+			x: 1.0d
+			y: -14.5d
 		}
 		{
-			title: "Cobblestone Farming"
-			icon: "minecraft:cobblestone"
-			x: 4.0d
-			y: -14.5d
-			subtitle: "Gather Generator materials"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Cobblestone&r can be generated wherever &3Flowing Water&r meets &3Flowing Lava&r."
 				""
 				"Try creating your own convenient configuration for mining &dlines of cobblestone&r easily!"
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:cobblestone"
 			id: "74001D2726E7133D"
+			subtitle: "Gather Generator materials"
 			tasks: [
 				{
+					disable_toast: true
 					id: "5A02D956E22116A1"
-					type: "item"
-					disable_toast: true
 					item: "minecraft:water_bucket"
-				}
-				{
-					id: "7F11AFC27592F6A8"
 					type: "item"
-					disable_toast: true
-					item: "minecraft:lava_bucket"
 				}
 				{
-					id: "75F8F5572007CD42"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "7F11AFC27592F6A8"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "75F8F5572007CD42"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Cobblestone Farming"
+			x: 4.0d
+			y: -14.5d
 		}
 		{
-			title: "Kelp Farming"
-			icon: "minecraft:kelp"
-			x: 2.0d
-			y: -16.5d
-			subtitle: "Farm 16 Dried Kelp Blocks"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Kelp&r can be planted underwater and grows to a random height up to &315 blocks&r. "
 				""
 				"This is a good source of &3Dried Kelp Blocks&r - the &dstrongest renewable fuel by stack&r."
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:kelp"
 			id: "6E20F24C33A627DC"
+			subtitle: "Farm 16 Dried Kelp Blocks"
 			tasks: [
 				{
-					id: "3E01636D14923C60"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:dried_kelp_block"
 					count: 16L
+					disable_toast: true
+					id: "3E01636D14923C60"
+					item: "minecraft:dried_kelp_block"
+					type: "item"
 				}
 				{
-					id: "4F708FA2E530244F"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "4F708FA2E530244F"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Kelp Farming"
+			x: 2.0d
+			y: -16.5d
 		}
 		{
-			title: "Ice Farming"
-			icon: "minecraft:packed_ice"
-			x: 4.0d
-			y: -15.5d
-			subtitle: "Farm 64 Ice"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Ice&r can be farmed with &3Silk Touch&r in &2cold biomes&r in an exposed one-deep square hole of &dany size&r."
 				""
 				"Fill the hole with water, then place &2Slabs&r in a diagonal line to &dprotect the source water&r. Then get breaking!"
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:packed_ice"
 			id: "1254376D14A00E56"
+			subtitle: "Farm 64 Ice"
 			tasks: [
 				{
-					id: "031A173AC6CC6D04"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:ice"
 					count: 64L
+					disable_toast: true
+					id: "031A173AC6CC6D04"
+					item: "minecraft:ice"
+					type: "item"
 				}
 				{
-					id: "111FFC65D5FB6D46"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "111FFC65D5FB6D46"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Ice Farming"
+			x: 4.0d
+			y: -15.5d
 		}
 		{
-			title: "Cocoa Farming"
-			icon: "minecraft:cocoa_beans"
-			x: 1.0d
-			y: -15.5d
-			subtitle: "Farm 32 Cocoa Beans"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Cocoa Beans&r can be grown on the side of any &3Jungle Log&r - including trees."
 				""
 				"Enjoy your cookies!"
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:cocoa_beans"
 			id: "5BF7F408031029E9"
+			subtitle: "Farm 32 Cocoa Beans"
 			tasks: [
 				{
-					id: "1BB6AE5F94644FA4"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:cocoa_beans"
 					count: 32L
+					disable_toast: true
+					id: "1BB6AE5F94644FA4"
+					item: "minecraft:cocoa_beans"
+					type: "item"
 				}
 				{
-					id: "159E7DDB22E9FCD3"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "159E7DDB22E9FCD3"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Cocoa Farming"
+			x: 1.0d
+			y: -15.5d
 		}
 		{
-			title: "Bases Loaded"
-			icon: "minecraft:pumpkin"
-			x: 1.0d
-			y: -13.0d
-			shape: "hexagon"
-			subtitle: "Farm every basic crop"
+			dependencies: ["192BAFDE101F900B"]
 			description: [
 				"Farming crops is great for &dmaking books, food, and potions&r. Plus &3emeralds&r when trading with farmers! "
 				""
@@ -1824,126 +1819,128 @@
 				""
 				"Farms continue &dgrowing overnight&r if they have &3light&r - try making &3decorative scarecrows&r with a &eHay Bale&r body, &eSpruce Fence&r stand, &eJack'o'Lantern&r head, and &eBirch Slab&r hat!"
 			]
-			dependencies: ["192BAFDE101F900B"]
 			hide: true
+			icon: "minecraft:pumpkin"
 			id: "2D74603197C7629C"
-			tasks: [
-				{
-					id: "77E92354F1DDDFCA"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:sugar_cane"
-					count: 32L
-				}
-				{
-					id: "0E343560095A48E3"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:wheat_seeds"
-					count: 32L
-				}
-				{
-					id: "0BEB433BA59213DA"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:potato"
-					count: 32L
-				}
-				{
-					id: "4A960FBD73A0DCD5"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:carrot"
-					count: 32L
-				}
-				{
-					id: "1943791BC82BE452"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:pumpkin"
-					count: 8L
-				}
-				{
-					id: "6A13495A82B9D2D1"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:melon_slice"
-					count: 64L
-				}
-				{
-					id: "31C19C20A9214A51"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:beetroot"
-					count: 32L
-				}
-			]
 			rewards: [
 				{
+					count: 16
 					id: "3644525BA1DA0B7D"
-					type: "item"
 					item: "minecraft:jack_o_lantern"
-					count: 16
+					type: "item"
 				}
 				{
-					id: "42132307A54F28F3"
-					type: "item"
-					item: "minecraft:spruce_fence"
 					count: 64
+					id: "42132307A54F28F3"
+					item: "minecraft:spruce_fence"
+					type: "item"
 				}
 				{
-					id: "5D20D49CE7EC008D"
-					type: "item"
-					item: "minecraft:hay_block"
 					count: 16
+					id: "5D20D49CE7EC008D"
+					item: "minecraft:hay_block"
+					type: "item"
 				}
 				{
+					count: 32
 					id: "52674EC747CC8B56"
-					type: "item"
 					item: {
-						id: "minecraft:green_banner"
 						Count: 1b
+						id: "minecraft:green_banner"
 						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 15
+										Pattern: "tt"
+									}
+									{
+										Color: 15
+										Pattern: "bts"
+									}
+								]
+								id: "minecraft:banner"
+							}
 							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Scarecrow Poncho\"}"
 							}
-							BlockEntityTag: {
-								id: "minecraft:banner"
-								Patterns: [
-									{
-										Pattern: "tt"
-										Color: 15
-									}
-									{
-										Pattern: "bts"
-										Color: 15
-									}
-								]
-							}
 						}
 					}
-					count: 32
+					type: "item"
 				}
 				{
-					id: "6FB5B7F2B77F76F8"
-					type: "item"
-					item: "minecraft:birch_slab"
 					count: 16
+					id: "6FB5B7F2B77F76F8"
+					item: "minecraft:birch_slab"
+					type: "item"
 				}
 				{
-					id: "09A893DF3BDFA974"
-					type: "item"
-					item: "minecraft:diamond"
 					count: 2
+					id: "09A893DF3BDFA974"
+					item: "minecraft:diamond"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Farm every basic crop"
+			tasks: [
+				{
+					count: 32L
+					disable_toast: true
+					id: "77E92354F1DDDFCA"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 32L
+					disable_toast: true
+					id: "0E343560095A48E3"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 32L
+					disable_toast: true
+					id: "0BEB433BA59213DA"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 32L
+					disable_toast: true
+					id: "4A960FBD73A0DCD5"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 8L
+					disable_toast: true
+					id: "1943791BC82BE452"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					count: 64L
+					disable_toast: true
+					id: "6A13495A82B9D2D1"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					count: 32L
+					disable_toast: true
+					id: "31C19C20A9214A51"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+			]
+			title: "Bases Loaded"
+			x: 1.0d
+			y: -13.0d
 		}
 		{
-			title: "Farmer"
-			x: 1.0d
-			y: -11.5d
-			subtitle: "Farm some Wheat"
+			dependencies: ["5C7110BA96ECA231"]
 			description: [
 				"&3Wheat&r is the easiest crop to acquire - Just break some &3Tall Grass&r and get hoeing!"
 				""
@@ -1953,29 +1950,25 @@
 				""
                 "&7[Farmer's Delight]&r An increased variety of crops can be obtained by finding them in the wild."
 			]
-			dependencies: ["5C7110BA96ECA231"]
 			hide: true
 			id: "192BAFDE101F900B"
-			tasks: [{
-				id: "40348E6A122D7614"
-				type: "item"
-				item: "minecraft:wheat_seeds"
-				count: 32L
-			}]
 			rewards: [{
 				id: "4CB4E7F6893DB29C"
-				type: "item"
 				item: "minecraft:composter"
+				type: "item"
 			}]
+			subtitle: "Farm some Wheat"
+			tasks: [{
+				count: 32L
+				id: "40348E6A122D7614"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Farmer"
+			x: 1.0d
+			y: -11.5d
 		}
 		{
-			title: "Gaia"
-			icon: "minecraft:fern"
-			x: 2.5d
-			y: -18.5d
-			shape: "pentagon"
-			subtitle: "Keep the world renewed"
-			hide_dependency_lines: true
 			dependencies: [
 				"0FC2E6F08F772324"
 				"5BF7F408031029E9"
@@ -1989,135 +1982,138 @@
 				"2D74603197C7629C"
 			]
 			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:fern"
 			id: "1587D6896E210D6D"
-			tasks: [{
-				id: "39DC4F3432624CFD"
-				type: "checkmark"
-				title: "Chill out over tea [Click]"
-			}]
 			rewards: [
 				{
 					id: "4BBCD767172D1A8B"
-					type: "item"
 					item: {
-						id: "minecraft:black_banner"
 						Count: 1b
+						id: "minecraft:black_banner"
 						tag: {
-							display: {
-								Name: "{\"text\":\"Gaia\"}"
-							}
 							BlockEntityTag: {
 								Patterns: [
 									{
+										Color: 12
 										Pattern: "ss"
-										Color: 12
 									}
 									{
+										Color: 15
 										Pattern: "hh"
-										Color: 15
 									}
 									{
+										Color: 13
 										Pattern: "tts"
-										Color: 13
 									}
 									{
-										Pattern: "bts"
 										Color: 15
+										Pattern: "bts"
 									}
 									{
+										Color: 13
 										Pattern: "flo"
-										Color: 13
 									}
 									{
+										Color: 12
 										Pattern: "mr"
-										Color: 12
 									}
 									{
-										Pattern: "mc"
 										Color: 5
-									}
-									{
 										Pattern: "mc"
-										Color: 13
 									}
 									{
-										Pattern: "sku"
+										Color: 13
+										Pattern: "mc"
+									}
+									{
 										Color: 12
+										Pattern: "sku"
 									}
 								]
 							}
+							display: {
+								Name: "{\"text\":\"Gaia\"}"
+							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "30817A1DB77C9DFD"
-					type: "item"
 					item: {
-						id: "minecraft:wooden_hoe"
 						Count: 1b
+						id: "minecraft:wooden_hoe"
 						tag: {
-							RepairCost: 31
+							Damage: 0
 							Enchantments: [{
 								id: "minecraft:fortune"
 								lvl: 3s
 							}]
-							Damage: 0
+							RepairCost: 31
 							display: {
-								Name: "{\"text\":\"Earth Tiller\", \"color\":\"dark_green\"}"
 								Lore: [
 									"{\"text\":\"Gift of Gaia\"}"
 									"{\"text\":\"Unbreakable\"}"
 								]
+								Name: "{\"text\":\"Earth Tiller\", \"color\":\"dark_green\"}"
 							}
 							unbreakable: 1
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "Keep the world renewed"
+			tasks: [{
+				id: "39DC4F3432624CFD"
+				title: "Chill out over tea [Click]"
+				type: "checkmark"
+			}]
+			title: "Gaia"
+			x: 2.5d
+			y: -18.5d
 		}
 		{
-			title: "Mushroom Farming"
-			icon: "minecraft:red_mushroom_block"
-			x: 1.0d
-			y: -17.0d
-			subtitle: "Farm 32+32 Mushrooms"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Mushrooms&r can be &3bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
 				"That means this is actually a &3Bone Meal&r compost farm! You can use a &3Hopper&r to &dfill and empty composters&r automatically."
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:red_mushroom_block"
 			id: "68BCEE273A77F4DA"
+			subtitle: "Farm 32+32 Mushrooms"
 			tasks: [
 				{
+					count: 32L
+					disable_toast: true
 					id: "0ED6664E26DBEDE4"
-					type: "item"
-					disable_toast: true
 					item: "minecraft:brown_mushroom"
-					count: 32L
-				}
-				{
-					id: "07198A4D07D6F53D"
 					type: "item"
-					disable_toast: true
-					item: "minecraft:red_mushroom"
-					count: 32L
 				}
 				{
-					id: "0E59CCC197C8B272"
-					type: "checkmark"
-					title: "Farmed! [Click]"
+					count: 32L
 					disable_toast: true
+					id: "07198A4D07D6F53D"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0E59CCC197C8B272"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Mushroom Farming"
+			x: 1.0d
+			y: -17.0d
 		}
 		{
-			title: "Nether Wart Farming"
-			icon: "minecraft:nether_wart"
-			x: 2.5d
-			y: -17.5d
-			subtitle: "Farm 64 Nether Wart"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"&3Nether Wart&r can be planted on &3soul sand&r in &2any dimension&r. "
 				""
@@ -2125,82 +2121,83 @@
 				""
 				"&7[Carpet]&r &3Blaze Powder&r can be used to grow nether wart quickly."
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:nether_wart"
 			id: "54AA1BD5E8241369"
+			subtitle: "Farm 64 Nether Wart"
 			tasks: [
 				{
-					id: "03646A14192AD73C"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:nether_wart"
 					count: 64L
+					disable_toast: true
+					id: "03646A14192AD73C"
+					item: "minecraft:nether_wart"
+					type: "item"
 				}
 				{
-					id: "4E96545334B04D98"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "4E96545334B04D98"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Nether Wart Farming"
+			x: 2.5d
+			y: -17.5d
 		}
 		{
-			title: "Sweet Berry Farming"
-			icon: "minecraft:sweet_berries"
-			x: 4.0d
-			y: -17.0d
-			subtitle: "Farm 64 Sweet Berries"
+			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
 				"Just throw a bunch on the ground, honestly. There's not much to it. &dMaybe put them in rows? I'm not a cop&r."
 				""
 				"&3Foxes&r like sweet berries. If a fox is &dholding an item you want&r, try throwing one!"
 			]
-			dependencies: ["6B1E74EF171BFD5E"]
 			hide: true
+			icon: "minecraft:sweet_berries"
 			id: "531358BD1C258F99"
+			subtitle: "Farm 64 Sweet Berries"
 			tasks: [
 				{
-					id: "07C376A60F9F3148"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:sweet_berries"
 					count: 64L
+					disable_toast: true
+					id: "07C376A60F9F3148"
+					item: "minecraft:sweet_berries"
+					type: "item"
 				}
 				{
-					id: "7EE4AC839C4D72B3"
-					type: "checkmark"
-					title: "Farmed! [Click]"
 					disable_toast: true
+					id: "7EE4AC839C4D72B3"
+					title: "Farmed! [Click]"
+					type: "checkmark"
 				}
 			]
+			title: "Sweet Berry Farming"
+			x: 4.0d
+			y: -17.0d
 		}
 		{
+			dependencies: ["20E2938DD7365207"]
+			description: ["&dMulti-floor bases&r are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
+			hide: true
+			id: "645EFC73CEB1C918"
+			rewards: [{
+				count: 64
+				id: "027CEF93AEA981E4"
+				item: "minecraft:oak_stairs"
+				type: "item"
+			}]
+			subtitle: "Make some Ladders"
+			tasks: [{
+				count: 64L
+				id: "193C30D87FA711CF"
+				item: "minecraft:ladder"
+				type: "item"
+			}]
 			title: "Hello highlow!"
 			x: -3.0d
 			y: -12.5d
-			subtitle: "Make some Ladders"
-			description: ["&dMulti-floor bases&r are all the rage these days. Going down to your mine or up to your balcony is just in fashion!"]
-			dependencies: ["20E2938DD7365207"]
-			hide: true
-			id: "645EFC73CEB1C918"
-			tasks: [{
-				id: "193C30D87FA711CF"
-				type: "item"
-				item: "minecraft:ladder"
-				count: 64L
-			}]
-			rewards: [{
-				id: "027CEF93AEA981E4"
-				type: "item"
-				item: "minecraft:oak_stairs"
-				count: 64
-			}]
 		}
 		{
-			title: "Speak Friend"
-			x: -1.0d
-			y: -12.5d
-			subtitle: "Make a Door"
+			dependencies: ["20E2938DD7365207"]
 			description: [
 				"&3Doors&r can be opened and closed with &7[&r&6Right-Click&r&7]&r, or by &epowering&r them."
 				""
@@ -2210,106 +2207,96 @@
 				""
 				"&7[Tinkerer's Statures]&r Doorways may need to accommodate for taller players. &eTrapdoors&r, &3Fence Gates&r, and inverted &3Stairs&r can be utilized for this."
 			]
-			dependencies: ["20E2938DD7365207"]
 			hide: true
 			id: "413BD03774B3B9D5"
+			rewards: [
+				{
+					count: 6
+					id: "6E76D2404A19CFFE"
+					item: "minecraft:oak_trapdoor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0EC6F6EF842B4B5F"
+					item: "minecraft:stone_pressure_plate"
+					type: "item"
+				}
+			]
+			subtitle: "Make a Door"
 			tasks: [{
-				id: "215F03C618FC5D76"
-				type: "item"
-				title: "Any Door"
 				icon: "minecraft:oak_door"
+				id: "215F03C618FC5D76"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:doors"
 					}
 				}
+				title: "Any Door"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "6E76D2404A19CFFE"
-					type: "item"
-					item: "minecraft:oak_trapdoor"
-					count: 6
-				}
-				{
-					id: "0EC6F6EF842B4B5F"
-					type: "item"
-					item: "minecraft:stone_pressure_plate"
-					count: 2
-				}
-			]
+			title: "Speak Friend"
+			x: -1.0d
+			y: -12.5d
 		}
 		{
-			title: "Conductor"
-			icon: "minecraft:chest_minecart"
-			x: -7.0d
-			y: -14.0d
-			shape: "hexagon"
-			subtitle: "Travel far by rail"
+			dependencies: ["0EF299A1A5009971"]
 			description: [
 				"Rail can be expanded into &dfullly automated transit&r and freight systems."
 				""
 				"&3When powered&r, rails at &3T intersections&r will &dswap their direction&r, and &eActivator Rails&r will cause players to &ddismount minecarts&r."
 			]
-			dependencies: ["0EF299A1A5009971"]
 			hide: true
+			icon: "minecraft:chest_minecart"
 			id: "471B71E3199030AC"
-			tasks: [{
-				id: "6E143ADB9519AE94"
-				type: "stat"
-				title: "Travel 1,000 Blocks by Minecart"
-				icon: "minecraft:minecart"
-				stat: "minecraft:minecart_one_cm"
-				value: 1000000
-			}]
 			rewards: [
 				{
-					id: "6602F9A433E4F2E5"
-					type: "item"
-					item: "minecraft:rail"
 					count: 512
+					id: "6602F9A433E4F2E5"
+					item: "minecraft:rail"
+					type: "item"
 				}
 				{
+					count: 64
 					id: "4479B131B6E6A2A6"
-					type: "item"
 					item: "minecraft:powered_rail"
-					count: 64
+					type: "item"
 				}
 				{
-					id: "1C20D59F776801F5"
-					type: "item"
-					item: "minecraft:redstone_torch"
 					count: 64
+					id: "1C20D59F776801F5"
+					item: "minecraft:redstone_torch"
+					type: "item"
 				}
 				{
 					id: "1240BB05CA2384CF"
-					type: "item"
 					item: "minecraft:chest_minecart"
+					type: "item"
 				}
 				{
-					id: "242ADA11C1EF7893"
-					type: "item"
-					item: "minecraft:activator_rail"
 					count: 8
+					id: "242ADA11C1EF7893"
+					item: "minecraft:activator_rail"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Travel far by rail"
+			tasks: [{
+				icon: "minecraft:minecart"
+				id: "6E143ADB9519AE94"
+				stat: "minecraft:minecart_one_cm"
+				title: "Travel 1,000 Blocks by Minecart"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "Conductor"
+			x: -7.0d
+			y: -14.0d
 		}
 		{
-			title: "Hermes"
-			icon: {
-				id: "minecraft:netherite_boots"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -10.0d
-			y: -11.5d
-			shape: "pentagon"
-			subtitle: "Embrace the fastest travel"
-			hide_dependency_lines: true
 			dependencies: [
 				"039E822D32DC0A9B"
 				"56E8B3168203AA6F"
@@ -2320,67 +2307,69 @@
 				"3D5694CCE8F191BC"
 			]
 			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_boots"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3347D4D672927CA6"
-			tasks: [{
-				id: "7D62C1C889EBCCF0"
-				type: "checkmark"
-				title: "Tag along [Click]"
-			}]
 			rewards: [
 				{
 					id: "11148912213C7C5F"
-					type: "item"
 					item: {
-						id: "minecraft:white_banner"
 						Count: 1b
+						id: "minecraft:white_banner"
 						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 6
+										Pattern: "ts"
+									}
+									{
+										Color: 3
+										Pattern: "tt"
+									}
+									{
+										Color: 0
+										Pattern: "cr"
+									}
+									{
+										Color: 15
+										Pattern: "ms"
+									}
+									{
+										Color: 0
+										Pattern: "bt"
+									}
+									{
+										Color: 3
+										Pattern: "cbo"
+									}
+									{
+										Color: 0
+										Pattern: "bts"
+									}
+								]
+							}
 							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Hermes\"}"
 							}
-							BlockEntityTag: {
-								Patterns: [
-									{
-										Pattern: "ts"
-										Color: 6
-									}
-									{
-										Pattern: "tt"
-										Color: 3
-									}
-									{
-										Pattern: "cr"
-										Color: 0
-									}
-									{
-										Pattern: "ms"
-										Color: 15
-									}
-									{
-										Pattern: "bt"
-										Color: 0
-									}
-									{
-										Pattern: "cbo"
-										Color: 3
-									}
-									{
-										Pattern: "bts"
-										Color: 0
-									}
-								]
-							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6D70B93E29F89580"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_boots"
 						Count: 1b
+						id: "minecraft:diamond_boots"
 						tag: {
-							RepairCost: 31
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:feather_falling"
@@ -2403,26 +2392,21 @@
 									lvl: 4s
 								}
 							]
-							Damage: 0
+							RepairCost: 31
 							display: {
-								Name: "{\"text\":\"Messenger Treads\", \"color\":\"dark_aqua\"}"
 								Lore: ["{\"text\":\"Gift of Hermes\"}"]
+								Name: "{\"text\":\"Messenger Treads\", \"color\":\"dark_aqua\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "42C0FC5578746887"
-					type: "item"
 					item: {
-						id: "minecraft:diamond_horse_armor"
 						Count: 1b
+						id: "minecraft:diamond_horse_armor"
 						tag: {
-							RepairCost: 31
-							display: {
-								Name: "{\"text\":\"Pegasus Barding\", \"color\":\"dark_aqua\"}"
-								Lore: ["{\"text\":\"Gift of Hermes\"}"]
-							}
 							Enchantments: [
 								{
 									id: "minecraft:feather_falling"
@@ -2433,59 +2417,64 @@
 									lvl: 3s
 								}
 							]
+							RepairCost: 31
+							display: {
+								Lore: ["{\"text\":\"Gift of Hermes\"}"]
+								Name: "{\"text\":\"Pegasus Barding\", \"color\":\"dark_aqua\"}"
+							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "Embrace the fastest travel"
+			tasks: [{
+				id: "7D62C1C889EBCCF0"
+				title: "Tag along [Click]"
+				type: "checkmark"
+			}]
+			title: "Hermes"
+			x: -10.0d
+			y: -11.5d
 		}
 		{
-			title: "Vesta"
-			icon: "minecraft:campfire"
-			x: -2.0d
-			y: -15.0d
-			shape: "pentagon"
-			subtitle: "Settle hearth in three realms"
-			hide_dependency_lines: true
 			dependencies: [
 				"20E2938DD7365207"
 				"0953453F97BA921D"
 				"392E005585B652A4"
 			]
 			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:campfire"
 			id: "64CD806DB1FFD979"
-			tasks: [{
-				id: "04B0358DDE85654B"
-				type: "checkmark"
-				title: "Rest by the fire [Click]"
-			}]
 			rewards: [
 				{
 					id: "79594AF7E372EA9B"
-					type: "item"
 					item: {
-						id: "minecraft:leather_leggings"
 						Count: 1b
+						id: "minecraft:leather_leggings"
 						tag: {
-							RepairCost: 31
+							Damage: 0
 							Enchantments: [{
 								id: "swift_sneak"
 								lvl: 5
 							}]
-							Damage: 0
+							RepairCost: 31
 							display: {
-								color: 15975899
 								Lore: ["[{\"text\":\"Comfy\",\"italic\":false}]"]
 								Name: "[{\"text\":\"Pyjama Pants\",\"italic\":false}]"
+								color: 15975899
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "31513DC7CDA6BC87"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:silk_touch"
@@ -2493,16 +2482,22 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "Settle hearth in three realms"
+			tasks: [{
+				id: "04B0358DDE85654B"
+				title: "Rest by the fire [Click]"
+				type: "checkmark"
+			}]
+			title: "Vesta"
+			x: -2.0d
+			y: -15.0d
 		}
 		{
-			title: "Thorough"
-			icon: "minecraft:diamond_horse_armor"
-			x: -7.0d
-			y: -9.0d
-			shape: "hexagon"
-			subtitle: "Travel far by Horse"
+			dependencies: ["7AA799B6789ABD71"]
 			description: [
 				"Horses have three &3statistics&r - &3Health&r, &3Jump Height&r, and &3Speed&r."
 				""
@@ -2514,31 +2509,31 @@
 				""
 				"&7[HorseBuff]&r Horses/Mules will have stats around the &3average of their parents&r."
 			]
-			dependencies: ["7AA799B6789ABD71"]
 			hide: true
+			icon: "minecraft:diamond_horse_armor"
 			id: "3D5694CCE8F191BC"
+			rewards: [{
+				count: 10
+				id: "0DEF357A8093D66F"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Travel far by Horse"
 			tasks: [{
-				id: "7051C5FC93FAC3C0"
-				type: "stat"
-				title: "Travel 5,000 Blocks by Horse"
 				icon: "minecraft:saddle"
+				id: "7051C5FC93FAC3C0"
 				stat: "minecraft:horse_one_cm"
+				title: "Travel 5,000 Blocks by Horse"
+				type: "stat"
 				value: 500000
 			}]
-			rewards: [{
-				id: "0DEF357A8093D66F"
-				type: "item"
-				item: "minecraft:golden_carrot"
-				count: 10
-			}]
+			title: "Thorough"
+			x: -7.0d
+			y: -9.0d
 		}
 		{
-			title: "Accursed Machines"
-			icon: "minecraft:hopper_minecart"
-			x: 10.0d
-			y: -11.5d
-			shape: "hexagon"
-			subtitle: "Begin exploring mechanisms"
+			dependencies: ["55783EE248BAC550"]
 			description: [
 				"&3Mechanisms&r are built by the player and can &dperform complex tasks&r - they have components in three categories."
 				""
@@ -2548,56 +2543,57 @@
 				""
 				"&3Functional&r components &dperform the actual function desired&r."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
+			icon: "minecraft:hopper_minecart"
 			id: "322528062359C5A9"
-			tasks: [
-				{
-					id: "69664F854B5F66A8"
-					type: "checkmark"
-					title: "Explore Mechanisms [Click]"
-					disable_toast: true
-				}
-				{
-					id: "3A309E57BCB63BF2"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:redstone"
-				}
-			]
 			rewards: [
 				{
+					count: 64
 					id: "65546E15954AA223"
-					type: "item"
 					item: "minecraft:redstone"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "41573153DA4B06B1"
-					type: "item"
 					item: "minecraft:stick"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "5FB600BFF6987B3E"
-					type: "item"
 					item: "minecraft:stone"
-					count: 64
+					type: "item"
 				}
 				{
-					id: "195837F96D182834"
-					type: "item"
-					item: "minecraft:quartz"
 					count: 16
+					id: "195837F96D182834"
+					item: "minecraft:quartz"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Begin exploring mechanisms"
+			tasks: [
+				{
+					disable_toast: true
+					id: "69664F854B5F66A8"
+					title: "Explore Mechanisms [Click]"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "3A309E57BCB63BF2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Accursed Machines"
+			x: 10.0d
+			y: -11.5d
 		}
 		{
-			title: "Advanced Functional Components"
-			x: 13.0d
-			y: -12.0d
-			shape: "hexagon"
-			subtitle: "Craft a Dispenser"
+			dependencies: ["29358767A696B164"]
 			description: [
 				"When powered, &3Dispensers&r will &dperform a variety of actions&r depending on the item in their first non-empty slot."
 				""
@@ -2631,52 +2627,49 @@
 				""
 				"The dispenser is very powerful! &dgive it a try ^^&r"
 			]
-			dependencies: ["29358767A696B164"]
 			hide: true
 			id: "52E05DC7ED68C824"
-			tasks: [{
-				id: "1F606E3FDB50CED9"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:dispenser"
-			}]
 			rewards: [
 				{
 					id: "759706E6D69FE6F8"
-					type: "item"
 					item: "minecraft:bucket"
+					type: "item"
 				}
 				{
 					id: "65C59DBDB23F27FA"
-					type: "item"
 					item: "minecraft:cactus"
+					type: "item"
 				}
 				{
 					id: "0616041E8113D26A"
-					type: "item"
 					item: {
-						id: "minecraft:shears"
 						Count: 1b
+						id: "minecraft:shears"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "658F62BCBC99A1FA"
-					type: "item"
 					item: "minecraft:stick"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Craft a Dispenser"
+			tasks: [{
+				disable_toast: true
+				id: "1F606E3FDB50CED9"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			title: "Advanced Functional Components"
+			x: 13.0d
+			y: -12.0d
 		}
 		{
-			title: "Hephaestus"
-			icon: "minecraft:redstone_block"
-			x: 15.0d
-			y: -11.5d
-			shape: "pentagon"
-			subtitle: "Forge great machines"
-			hide_dependency_lines: true
 			dependencies: [
 				"1E92A6BE31198EF3"
 				"03CF663BF52022CB"
@@ -2684,117 +2677,120 @@
 				"7164FFFB3AFAFEF3"
 			]
 			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:redstone_block"
 			id: "0E3858BCFECB6862"
-			tasks: [{
-				id: "2739CE44EC749396"
-				type: "checkmark"
-				title: "Forge-heated spa day [Click]"
-			}]
 			rewards: [
 				{
 					id: "03A9AC11B72065CF"
-					type: "item"
 					item: {
-						id: "minecraft:black_banner"
 						Count: 1b
+						id: "minecraft:black_banner"
 						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 8
+										Pattern: "cre"
+									}
+									{
+										Color: 15
+										Pattern: "hhb"
+									}
+									{
+										Color: 7
+										Pattern: "mc"
+									}
+									{
+										Color: 15
+										Pattern: "bt"
+									}
+									{
+										Color: 12
+										Pattern: "sc"
+									}
+									{
+										Color: 8
+										Pattern: "ms"
+									}
+									{
+										Color: 15
+										Pattern: "bo"
+									}
+									{
+										Color: 15
+										Pattern: "ts"
+									}
+									{
+										Color: 14
+										Pattern: "tts"
+									}
+								]
+							}
 							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Haphaestus\"}"
 							}
-							BlockEntityTag: {
-								Patterns: [
-									{
-										Pattern: "cre"
-										Color: 8
-									}
-									{
-										Pattern: "hhb"
-										Color: 15
-									}
-									{
-										Pattern: "mc"
-										Color: 7
-									}
-									{
-										Pattern: "bt"
-										Color: 15
-									}
-									{
-										Pattern: "sc"
-										Color: 12
-									}
-									{
-										Pattern: "ms"
-										Color: 8
-									}
-									{
-										Pattern: "bo"
-										Color: 15
-									}
-									{
-										Pattern: "ts"
-										Color: 15
-									}
-									{
-										Pattern: "tts"
-										Color: 14
-									}
-								]
-							}
 						}
 					}
+					type: "item"
 				}
 				{
+					count: 16
 					id: "05CA8ACF859674AA"
-					type: "item"
 					item: "minecraft:sculk_sensor"
-					count: 16
+					type: "item"
 				}
 				{
+					count: 64
 					id: "0B58257D7FB203A7"
-					type: "item"
 					item: "minecraft:hopper"
-					count: 64
+					type: "item"
 				}
 				{
+					count: 64
 					id: "7F031284957C81EE"
-					type: "item"
 					item: "minecraft:redstone_block"
-					count: 64
+					type: "item"
 				}
 				{
-					id: "2ECE07CDA1C0B837"
-					type: "item"
-					item: "minecraft:stone"
 					count: 256
+					id: "2ECE07CDA1C0B837"
+					item: "minecraft:stone"
+					type: "item"
 				}
 				{
-					id: "5292D4AF7705340C"
-					type: "item"
-					item: "minecraft:chest"
 					count: 64
+					id: "5292D4AF7705340C"
+					item: "minecraft:chest"
+					type: "item"
 				}
 				{
-					id: "1C13B73B235357E9"
-					type: "item"
-					item: "minecraft:slime_block"
 					count: 16
+					id: "1C13B73B235357E9"
+					item: "minecraft:slime_block"
+					type: "item"
 				}
 				{
-					id: "2C27467EDAE5BE86"
-					type: "item"
-					item: "minecraft:piston"
 					count: 32
+					id: "2C27467EDAE5BE86"
+					item: "minecraft:piston"
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "Forge great machines"
+			tasks: [{
+				id: "2739CE44EC749396"
+				title: "Forge-heated spa day [Click]"
+				type: "checkmark"
+			}]
+			title: "Hephaestus"
+			x: 15.0d
+			y: -11.5d
 		}
 		{
-			title: "Automated Input"
-			x: 13.0d
-			y: -13.0d
-			shape: "hexagon"
-			subtitle: "Craft a Comparator"
+			dependencies: ["2AEFE77787E113A3"]
 			description: [
 				"Along with manual inputs, certain things can be observed to &dmake mechanisms activate automatically&r."
 				""
@@ -2806,39 +2802,39 @@
 				""
 				"The &eSculk Sensor&r provides power when it &3sense vibrations&r in an area - including all kinds of sounds."
 			]
-			dependencies: ["2AEFE77787E113A3"]
 			hide: true
 			id: "7164FFFB3AFAFEF3"
-			tasks: [{
-				id: "2903CAD5158DD4B5"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:comparator"
-			}]
 			rewards: [
 				{
 					id: "11E3CEE7928D92AF"
-					type: "item"
 					item: "minecraft:daylight_detector"
+					type: "item"
 				}
 				{
 					id: "383B477AF836D509"
-					type: "item"
 					item: "minecraft:observer"
+					type: "item"
 				}
 				{
 					id: "6270301AFBA65ECA"
-					type: "item"
 					item: "minecraft:sculk_sensor"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Craft a Comparator"
+			tasks: [{
+				disable_toast: true
+				id: "2903CAD5158DD4B5"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			title: "Automated Input"
+			x: 13.0d
+			y: -13.0d
 		}
 		{
-			title: "Manual Input"
-			icon: "minecraft:lever"
-			x: 11.5d
-			y: -13.0d
-			subtitle: "Craft a Lever and a Wooden Button"
+			dependencies: ["322528062359C5A9"]
 			description: [
 				"&3Levers&r provide &dconstant power&r when toggled on with &6Right-Clicked&r."
 				""
@@ -2854,66 +2850,66 @@
 				""
 				"&eTripwire Hooks&r with &3String&r laid between will power hooked blocks when the &dstring is depressed&r."
 			]
-			dependencies: ["322528062359C5A9"]
 			hide: true
+			icon: "minecraft:lever"
 			id: "2AEFE77787E113A3"
-			tasks: [
+			rewards: [
 				{
-					id: "76637FF72914A8AC"
+					id: "799E92562970349D"
+					item: "minecraft:trapped_chest"
 					type: "item"
-					disable_toast: true
-					item: "minecraft:lever"
 				}
 				{
-					id: "1B71413D5F033450"
+					id: "5F46D7694818EEDE"
+					item: "minecraft:stone_pressure_plate"
 					type: "item"
-					title: "Wooden Button"
-					icon: "minecraft:oak_button"
+				}
+				{
+					count: 2
+					id: "16C0BA5D22A97495"
+					item: "minecraft:tripwire_hook"
+					type: "item"
+				}
+				{
+					id: "409DEDCC45FC7BAB"
+					item: "minecraft:detector_rail"
+					type: "item"
+				}
+				{
+					id: "46FE721445D7E685"
+					item: "minecraft:target"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Lever and a Wooden Button"
+			tasks: [
+				{
 					disable_toast: true
+					id: "76637FF72914A8AC"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "minecraft:oak_button"
+					id: "1B71413D5F033450"
 					item: {
-						id: "itemfilters:tag"
 						Count: 1b
+						id: "itemfilters:tag"
 						tag: {
 							value: "minecraft:wooden_buttons"
 						}
 					}
+					title: "Wooden Button"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "799E92562970349D"
-					type: "item"
-					item: "minecraft:trapped_chest"
-				}
-				{
-					id: "5F46D7694818EEDE"
-					type: "item"
-					item: "minecraft:stone_pressure_plate"
-				}
-				{
-					id: "16C0BA5D22A97495"
-					type: "item"
-					item: "minecraft:tripwire_hook"
-					count: 2
-				}
-				{
-					id: "409DEDCC45FC7BAB"
-					type: "item"
-					item: "minecraft:detector_rail"
-				}
-				{
-					id: "46FE721445D7E685"
-					type: "item"
-					item: "minecraft:target"
-				}
-			]
+			title: "Manual Input"
+			x: 11.5d
+			y: -13.0d
 		}
 		{
-			title: "Item Transport"
-			x: 13.0d
-			y: -11.0d
-			shape: "hexagon"
-			subtitle: "Craft a Dropper"
+			dependencies: ["29358767A696B164"]
 			description: [
 				"&3Droppers&r will &ddrop&r the first item in their inventory when powered, which can be used to &dtransport items&r by utilizing &3Bubble Columns&r, or &eIce and Water&r slides."
 				""
@@ -2927,70 +2923,71 @@
 				""
 				"&3Allays&r &7(See Exploration: Sightseer)&r that hear &3Note Blocks&r will &ddeposit their items nearby&r for the next &330 seconds&r."
 			]
-			dependencies: ["29358767A696B164"]
 			hide: true
 			id: "03CF663BF52022CB"
-			tasks: [{
-				id: "0E86C86F5AFC7C93"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:dropper"
-			}]
 			rewards: [
 				{
-					id: "5FEE53083C3BBAEB"
-					type: "item"
-					item: "minecraft:hopper"
 					count: 4
+					id: "5FEE53083C3BBAEB"
+					item: "minecraft:hopper"
+					type: "item"
 				}
 				{
 					id: "3456A37AA9D4BE15"
-					type: "item"
 					item: "minecraft:water_bucket"
+					type: "item"
 				}
 				{
 					id: "25710D638E2567CB"
-					type: "item"
 					item: "minecraft:oak_pressure_plate"
+					type: "item"
 				}
 				{
-					id: "3C28472C5739BB6C"
-					type: "item"
-					item: "minecraft:packed_ice"
 					count: 16
+					id: "3C28472C5739BB6C"
+					item: "minecraft:packed_ice"
+					type: "item"
 				}
 				{
 					id: "5538C906B7205D16"
-					type: "item"
 					item: "minecraft:hopper_minecart"
+					type: "item"
 				}
 				{
 					id: "2D3B61F4AE131C37"
-					type: "item"
 					item: "minecraft:chest_minecart"
+					type: "item"
 				}
 				{
 					id: "45A90E315C63278F"
-					type: "item"
 					item: "minecraft:light_weighted_pressure_plate"
+					type: "item"
 				}
 				{
 					id: "165279ED12C374FE"
-					type: "item"
 					item: "minecraft:heavy_weighted_pressure_plate"
+					type: "item"
 				}
 				{
 					id: "4481C1EB27086278"
-					type: "item"
 					item: "minecraft:note_block"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Craft a Dropper"
+			tasks: [{
+				disable_toast: true
+				id: "0E86C86F5AFC7C93"
+				item: "minecraft:dropper"
+				type: "item"
+			}]
+			title: "Item Transport"
+			x: 13.0d
+			y: -11.0d
 		}
 		{
-			title: "Functional Components"
-			x: 11.5d
-			y: -11.5d
-			subtitle: "Craft a Piston"
+			dependencies: ["322528062359C5A9"]
 			description: [
 				"&3Functional Components&r will &3activate&r when weakly or strongly powered, or when &dadjacent to weakly powered blocks&r."
 				""
@@ -3004,51 +3001,51 @@
 				""
 				"&7[Carpet]&r &3Chain&r will also connect pushed blocks along its axis. Two &3Pistons&r can be powered at the same time to &dextend twice as far&r."
 			]
-			dependencies: ["322528062359C5A9"]
 			hide: true
 			id: "29358767A696B164"
-			tasks: [{
-				id: "154B36532DA2223D"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:piston"
-			}]
 			rewards: [
 				{
 					id: "156C9AB09D17BD00"
-					type: "item"
 					item: "minecraft:redstone_lamp"
+					type: "item"
 				}
 				{
-					id: "14B58E2635453524"
-					type: "item"
-					item: "minecraft:sticky_piston"
 					count: 8
+					id: "14B58E2635453524"
+					item: "minecraft:sticky_piston"
+					type: "item"
 				}
 				{
-					id: "092F75816E5B1F60"
-					type: "item"
-					item: "minecraft:piston"
 					count: 3
+					id: "092F75816E5B1F60"
+					item: "minecraft:piston"
+					type: "item"
 				}
 				{
-					id: "10FAA401E153B5A8"
-					type: "item"
-					item: "minecraft:iron_trapdoor"
 					count: 6
+					id: "10FAA401E153B5A8"
+					item: "minecraft:iron_trapdoor"
+					type: "item"
 				}
 				{
 					id: "2BE6AB4D8AFF5767"
-					type: "item"
 					item: "minecraft:slime_block"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Piston"
+			tasks: [{
+				disable_toast: true
+				id: "154B36532DA2223D"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			title: "Functional Components"
+			x: 11.5d
+			y: -11.5d
 		}
 		{
-			title: "Organization"
-			x: 8.5d
-			y: -12.5d
-			subtitle: "Craft a Sign"
+			dependencies: ["55783EE248BAC550"]
 			description: [
 				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. Different kinds of &3wood&r change the background, and the &dtext color can be dyed&r!"
 				""
@@ -3056,36 +3053,35 @@
 				""
 				"&7[Inventory Tabs]&r Placing an item frame on a &3Chest&r will &dchange its tab icon&r."
 			]
-			dependencies: ["55783EE248BAC550"]
 			hide: true
 			id: "0342FEBA88E3AF0E"
-			tasks: [{
-				id: "7F0EA1048654217D"
+			rewards: [{
+				count: 8
+				id: "00EBA8DA6E3F263C"
+				item: "minecraft:item_frame"
 				type: "item"
-				title: "Craft a Sign"
-				icon: "minecraft:oak_sign"
+			}]
+			subtitle: "Craft a Sign"
+			tasks: [{
 				disable_toast: true
+				icon: "minecraft:oak_sign"
+				id: "7F0EA1048654217D"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:signs"
 					}
 				}
-			}]
-			rewards: [{
-				id: "00EBA8DA6E3F263C"
+				title: "Craft a Sign"
 				type: "item"
-				item: "minecraft:item_frame"
-				count: 8
 			}]
+			title: "Organization"
+			x: 8.5d
+			y: -12.5d
 		}
 		{
-			title: "Transmission"
-			icon: "minecraft:redstone"
-			x: 11.5d
-			y: -10.0d
-			subtitle: "Craft a Repeater"
+			dependencies: ["322528062359C5A9"]
 			description: [
 				"&3Redstone Dust&r can have &315 levels of power&r, decreasing each block away from the &3power source&r."
 				""
@@ -3101,37 +3097,36 @@
 				""
 				"&eLamps&r can help find out &dwhere functional components can receive power&r."
 			]
-			dependencies: ["322528062359C5A9"]
 			hide: true
+			icon: "minecraft:redstone"
 			id: "657AC96A28C41511"
-			tasks: [{
-				id: "35834B56641501E3"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:repeater"
-			}]
 			rewards: [
 				{
-					id: "2D44ADA60A0C073A"
-					type: "item"
-					item: "minecraft:smooth_stone_slab"
 					count: 64
+					id: "2D44ADA60A0C073A"
+					item: "minecraft:smooth_stone_slab"
+					type: "item"
 				}
 				{
-					id: "1A767C788B6AE3AD"
-					type: "item"
-					item: "minecraft:redstone_lamp"
 					count: 32
+					id: "1A767C788B6AE3AD"
+					item: "minecraft:redstone_lamp"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Repeater"
+			tasks: [{
+				disable_toast: true
+				id: "35834B56641501E3"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			title: "Transmission"
+			x: 11.5d
+			y: -10.0d
 		}
 		{
-			title: "Logic"
-			icon: "minecraft:repeater"
-			x: 13.0d
-			y: -10.0d
-			shape: "hexagon"
-			subtitle: "Craft a Torch and Comparator"
+			dependencies: ["657AC96A28C41511"]
 			description: [
 				"Redstone signals can be &dinverted&r using &3Redstone Torches&r. While the block a redstone torch is &3attached to&r is &3powered&r, the &dtorch will turn off&r."
 				""
@@ -3145,43 +3140,48 @@
 				""
 				"These elements can be combined to create &dredstone logic&r (e.g. &3AND&r and &3OR&r gates), which can provide &dcomplex control for advanced mechanisms&r."
 			]
-			dependencies: ["657AC96A28C41511"]
 			hide: true
+			icon: "minecraft:repeater"
 			id: "1E92A6BE31198EF3"
-			tasks: [
-				{
-					id: "542BBAFBD01800E0"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:redstone_torch"
-				}
-				{
-					id: "2AEADB626546F10B"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:comparator"
-				}
-			]
 			rewards: [
 				{
-					id: "4A83DE2B32FDFFBE"
-					type: "item"
-					item: "minecraft:piston"
 					count: 16
+					id: "4A83DE2B32FDFFBE"
+					item: "minecraft:piston"
+					type: "item"
 				}
 				{
+					count: 8
 					id: "177EC598C2DE7388"
-					type: "item"
 					item: "minecraft:slime_block"
-					count: 8
+					type: "item"
 				}
 				{
-					id: "2E86378A10DF29F5"
-					type: "item"
-					item: "minecraft:redstone_block"
 					count: 8
+					id: "2E86378A10DF29F5"
+					item: "minecraft:redstone_block"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Craft a Torch and Comparator"
+			tasks: [
+				{
+					disable_toast: true
+					id: "542BBAFBD01800E0"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2AEADB626546F10B"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+			]
+			title: "Logic"
+			x: 13.0d
+			y: -10.0d
 		}
         {
             title: "Archi2ct"
@@ -3305,5 +3305,5 @@
             }]
         }
 	]
-	quest_links: [ ]
+	title: "Homesteading"
 }

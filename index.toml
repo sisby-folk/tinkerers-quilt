@@ -154,7 +154,7 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "6b9ee3d4bbcda4c5ee5ece06214197d87449a9ecf28df37b1a79bcf52e26691d"
+hash = "d0fd7ddae483cfd832bd40f712e6dd48dd5005a1b46d7bb74e47a0f8d05d6a43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/discrepancies_plus.snbt"
@@ -162,19 +162,19 @@ hash = "ce65519138b4bf211878a4a39f3106ef3e8fb913b46f7e82df2fd48ee7b8ba90"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "c43c423c43a461cb252d9821870d53952555ace89d582f3e55c8e3809b6a38d5"
+hash = "cbaf6d03f9be5ccc407e14153e77738931a2a5108f9d368f8eeca43f7a1d5200"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "a9d00a0ecdd64003e2d26294081cd8d8486a2f0701c8066c82f501f0bcb478a8"
+hash = "51f91723cdd5748e35036420b92cb9c45e12570cdc5c7fd828d6b9239be37f69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "afe06c28851031f2f97930a915fc99c8f25332203985e8d56151b48bf4a037c6"
+hash = "f18b974a81f5ffb9371b3ec0b52f44a539edaa2f254e580375de2f058f0c170c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "5e95e4e84daed25f1ab475b6356d538114c9bd98c4af74924d309f98c5f83bf4"
+hash = "4ff6872ad193a2b2ed82ee725b0a939a8e03ae3e0f8a34fc7a06772b75d7334d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1309,6 +1309,10 @@ file = "resources/data/tinkerer/recipes/slime_ball.json"
 hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
 
 [[files]]
+file = "resources/data/tinkerer/recipes/trident.json"
+hash = "57cb519f617da9414ca7edaaf067c06478e426529e6727ecc5f492be90ff8ccb"
+
+[[files]]
 file = "resources/data/tinkerer/tags/items/boots.json"
 hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
 
@@ -1416,6 +1420,14 @@ hash = "038b8d307089ded74c6f77eb1a8c712e5d7daf221b0a4e7b5aa16505e75cc39a"
 [[files]]
 file = "resources/packs/hide_item_filters/pack.mcmeta"
 hash = "cc5444187a5dc9be0ff325b63aa0f01447ca6c8a1b3675b3322d30a035c65f71"
+
+[[files]]
+file = "resources/packs/hide_origin_orb/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "e1ddaad4526210ee59d7c2800b259cd122167c35ca200485a3818abb0a3ad31a"
+
+[[files]]
+file = "resources/packs/hide_origin_orb/pack.mcmeta"
+hash = "0d31c599f159241b5b5e9d1c853a6495bc371115770aa61616872cfaa30bef4d"
 
 [[files]]
 file = "resources/packs/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
