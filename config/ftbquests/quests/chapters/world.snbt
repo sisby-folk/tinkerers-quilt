@@ -11,13 +11,11 @@
 		{
 			dependencies: ["09874FF0F69D98F0"]
 			description: [
-				"&cIllagers&r are a hostile faction of &3villagers&r, which hunt in small packs and gather at outposts."
+				"&cIllagers&r are a hostile faction of &aVillagers&r, which hunt in small packs and gather at &2Outposts&r."
 				""
-				"&cBanner-flying villagers&r inflict the &3Bad Omen&r debuff that, if not cleared, incurs a wave-based battle at the next visited village."
+				"During an &4Illager Raid&r, Villagers will ring the &eTown Bell&r and &dhide&r. &eBells&r can also be rung with &7[&r&6Right-Click&r&7]&r to the same effect."
 				""
-				"Completing it provides the &3Hero of the Village&r buff - providing &ddiscounts with all villagers for 40 minutes&r."
-				""
-				"During a &cRaid&r, villagers will hide, often by ringing the town bell. Bells can be &drung manually by the player&r."
+				"Completing a raid provides the &3Hero of the Village&r buff - providing &ddiscounts with all villagers for 2 days&r."
 			]
 			hide: true
 			id: "51415C8C88AA350B"
@@ -342,11 +340,11 @@
 		{
 			dependencies: ["09874FF0F69D98F0"]
 			description: [
-				"&3Villagers&r are often attacked by &czombies&r, who can &3Zombify&r them on harder difficulties. &cZombified villagers&r can also spawn naturally."
+				"&aVillagers&r are often attacked by &cZombies&r, who can &3Zombify&r them on harder difficulties. &cZombified Villagers&r can also spawn naturally."
 				""
-				"If a zombified villager is &3weakened using a potion&r, they can be fed a &egolden apple&r to cure them of their zombification. This takes quite some time, and they can &3still burn in daylight&r while this happens!"
+				"A &cZombie Villager&r that is &eweakened&r and fed a &eGolden Apple&r will slowly become cured - Careful, they can still &3burn in daylight&r while this happens!"
 				""
-				"Villagers saved from zombification are grateful, and will &doffer discounted prices&r."
+				"Cured villagers offer the player &ddiscounted trade prices&r."
 			]
 			hide: true
 			id: "0B63891D4F70167D"
@@ -486,11 +484,9 @@
 		{
 			dependencies: ["09874FF0F69D98F0"]
 			description: [
-				"&2Villages&r are full of &3Villagers&r! Who can be traded with using &eemeralds&r."
+				"&aVillagers&r can &3level up&r their profession if you &3trade&r with them, &dunlocking better trades&r."
 				""
-				"Villagers can &3Level Up&r their profession if you &3trade&r with them, &dunlocking new tradable items&r."
-				""
-				"&7[Fabrication]&r Villagers will have &dnew stock every day&r, or when they run out. Check on your favourite villagers to see if they have &drare items&r."
+				"&7[Fabrication]&r Villagers will have &dnew trades every day&r, or whenever they restock."
 			]
 			hide: true
 			id: "3F3A1267F224AD07"
@@ -516,9 +512,9 @@
 		{
 			dependencies: ["09874FF0F69D98F0"]
 			description: [
-				"&3Villagers repopulate naturally&r by farming, but an &3appropriate amount of homes&r need to be present in the village."
+				"Villagers &drepopulate naturally&r by farming when an &3enough houses&r with doors and beds are built nearby."
 				""
-				"If a villager has &33 bread&r, or &312 carrots&r, &3potatoes&r, or &3beetroots&r in their inventory, they can not only &dbreed&r - but also &dgive more XP on trading&r!"
+				"When a villager has &33 bread&r, or &312 carrots&r, &3potatoes&r, or &3beetroots&r, they can do this - but also &dgain more XP while trading&r!"
 			]
 			hide: true
 			id: "65DADF56E2AB01DF"
@@ -537,16 +533,32 @@
 				title: "Visit a Taiga Village"
 				type: "structure"
 			}]
-			title: "High in the mountains"
+			title: "Mane Street"
 			x: -8.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["09874FF0F69D98F0"]
 			description: [
-				"Every &3employed villager&r has a &3Job Site block&r. They can &3visit this block up to twice a day&r to &drestock their trades&r if one runs out."
+				"Employed &aVillagers&r restock from a bound &3Job Site&r block up to twice a day. "
 				""
-				"If a villager hasn't been traded with before, their &3profession&r can be changed by &3breaking this block&r, and &3enticing them to a new one&r."
+				"A villager without any &3trade experience&r can &dchange professions&r if their job site block is broken and another one is placed."
+				""
+				"A &dlist of professions&r and their job sites can be found over the page."
+				"{@pagebreak}"
+				"&aArmorer&r - &3Blast Furnace&r "
+				"&aButcher&r - &3Smoker&r"
+				"&aCartographer&r - &3Cartography Table&r"
+				"&aCleric&r - &3Brewing Stand&r"
+				"&aFarmer&r - &3Composter&r"
+				"&aFisherman&r - &3Barrel&r"
+				"&aFletcher&r - &3Fletching Table&r"
+				"&aLeatherworker&r - &3Cauldron&r"
+				"&aLibrarian&r - &3Lectern&r"
+				"&aMason&r - &3Stonecutter&r"
+				"&aSheperd&r - &3Loom&r"
+				"&aToolsmith&r - &3Smithing Table&r"
+				"&aWeaponsmith&r - &3Grindstone&r"
 			]
 			hide: true
 			id: "2591980163249EF1"
@@ -577,9 +589,11 @@
 				"0B63891D4F70167D"
 			]
 			description: [
-				"&2Villages&r are often protected by &3Iron Golems&r, which can be spawned by making a 4-block T of &eiron blocks&r and topping it with a &ecarved pumpkin&r."
+				"Large enough &2Villages&r are protected by &3Iron Golems&r."
 				""
-				"These can be &dinvaluable for your base&r or &dduring tough fights&r."
+				"Iron Golems can also be built with a 4-block T of &eIron Blocks&r topped with a &eCarved Pumpkin&r."
+				""
+				"Iron Golems are &dcombat allies&r and will fight hostile mobs, including &cIllagers&r."
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:filled_map"
@@ -1515,9 +1529,11 @@
 		}
 		{
 			description: [
-				"&2Villages&r are easy bases, places to gather, and worthwhile points on your &3map&r."
+				"&2Villages&r consist of various &2Houses&r connected by &3Paths&r, and are inhabited by &aVillagers&r. "
 				""
-				"Explore different types of villages, and learn more about villagers in these quests."
+				"Villages are useful &dlandmarks and gathering points&r, and convenient locations to build an outpost or base."
+				""
+				"Villagers have various professions and can &dbuy and sell items&r for &eEmeralds&r "
 				""
 				"&7[EMI Trades]&r Villager trades are listed under &3Emerald&r recipes and usages."
 			]
@@ -1539,7 +1555,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "No, not \"Traitor\" it's- [Culturalist]"
+			title: "No, not \"Traitor\" i'm - [Wanderer]"
 			x: -9.5d
 			y: -8.5d
 		}
