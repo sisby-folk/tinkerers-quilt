@@ -1,19 +1,16 @@
 {
-	id: "098C7BEF62946C18"
-	group: "614D55B25CC6BACC"
-	order_index: 0
-	filename: "the_basics"
-	title: "The Basics"
-	icon: "minecraft:grass_block"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basics"
+	group: "614D55B25CC6BACC"
+	icon: "minecraft:grass_block"
+	id: "098C7BEF62946C18"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Going Underground"
-			icon: "minecraft:iron_ore"
-			x: 1.5d
-			y: 0.5d
-			subtitle: "Smelt 6 Iron Ingots"
+			dependencies: ["548555BB1E839006"]
+			dependency_requirement: "one_started"
 			description: [
 				"A &3Stone Pickaxe&r allows you to mine &3Iron Ore&r, which can be smelted at a &3Furnace&r into &dIron Ingots&r"
 				""
@@ -21,69 +18,69 @@
 				""
 				"&eBundles&r can help store small varied items, simply &6Right-Click&r while holding a stack over the bundle."
 			]
-			dependencies: ["548555BB1E839006"]
-			dependency_requirement: "one_started"
+			icon: "minecraft:iron_ore"
 			id: "41C9341CA261E52B"
-			tasks: [{
-				id: "1017D28DD8548D65"
+			rewards: [{
+				id: "35D4A094E1392970"
+				item: "minecraft:bundle"
 				type: "item"
-				title: "6x Iron Ingot"
+			}]
+			subtitle: "Smelt 6 Iron Ingots"
+			tasks: [{
+				count: 6L
 				icon: "minecraft:iron_ingot"
+				id: "1017D28DD8548D65"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:beacon_payment_items"
 					}
 				}
-				count: 6L
-			}]
-			rewards: [{
-				id: "35D4A094E1392970"
+				title: "6x Iron Ingot"
 				type: "item"
-				item: "minecraft:bundle"
 			}]
+			title: "Going Underground"
+			x: 1.5d
+			y: 0.5d
 		}
 		{
-			title: "Finally Mining"
-			icon: "minecraft:cobblestone"
-			x: 1.5d
-			y: -1.0d
-			subtitle: "Mine 11 Cobblestone"
+			dependencies: ["53AFBD6DDF572701"]
 			description: [
 				"Holding a &3Pickaxe&r allows you to break &3Stone&r, which can then be used to make &dtools and furnaces&r."
 				""
 				"&7[Tinkerer's Smithing]&r you can upgrade your &3Wooden Pickaxe&r by adding 3 cobblestone in the crafting grid."
 			]
-			dependencies: ["53AFBD6DDF572701"]
+			icon: "minecraft:cobblestone"
 			id: "548555BB1E839006"
-			tasks: [{
-				id: "050711EC7A11A624"
+			rewards: [{
+				count: 32
+				id: "7FC731B2947608B3"
+				item: "minecraft:torch"
 				type: "item"
-				title: "11x Cobblestone"
+			}]
+			subtitle: "Mine 11 Cobblestone"
+			tasks: [{
+				count: 11L
 				icon: "minecraft:cobblestone"
+				id: "050711EC7A11A624"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:stone_tool_materials"
 					}
 				}
-				count: 11L
-			}]
-			rewards: [{
-				id: "7FC731B2947608B3"
+				title: "11x Cobblestone"
 				type: "item"
-				item: "minecraft:torch"
-				count: 32
 			}]
+			title: "Finally Mining"
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			title: "Striking Gold"
-			icon: "minecraft:diamond_ore"
-			x: 1.5d
-			y: 2.0d
-			subtitle: "Obtain a Diamond"
+			dependencies: ["41C9341CA261E52B"]
+			dependency_requirement: "one_started"
 			description: [
 				"&3Diamond Ore&r spawns far underground, and is most common in &2deep deepslate&r."
 				""
@@ -91,27 +88,27 @@
 				""
 				"&7[Tinkerer's Smithing]&r &eSmithing Tables&r can upgrade equipment using &dless materials&r - producing a partial-durability result."
 			]
-			dependencies: ["41C9341CA261E52B"]
-			dependency_requirement: "one_started"
+			icon: "minecraft:diamond_ore"
 			id: "28AFD82AD9C0B721"
-			tasks: [{
-				id: "6F3511A98C05DE7B"
-				type: "item"
-				title: "1x Diamond"
-				item: "minecraft:diamond"
-			}]
 			rewards: [{
 				id: "6A949AA460E8D229"
-				type: "item"
 				item: "minecraft:smithing_table"
+				type: "item"
 			}]
+			subtitle: "Obtain a Diamond"
+			tasks: [{
+				id: "6F3511A98C05DE7B"
+				item: "minecraft:diamond"
+				title: "1x Diamond"
+				type: "item"
+			}]
+			title: "Striking Gold"
+			x: 1.5d
+			y: 2.0d
 		}
 		{
-			title: "Where are the Hot Demons?"
-			x: 5.5d
-			y: -1.0d
-			shape: "rsquare"
-			subtitle: "Enter the Nether"
+			dependencies: ["7AF853FC528DE6C6"]
+			dependency_requirement: "one_started"
 			description: [
 				"The &2Nether&r is a dimension full of lava, dangerous falls, and monsters - it can only be reached via a &3Nether Portal&r."
 				""
@@ -123,41 +120,38 @@
 				""
 				"To help find your way back to a portal, you can use an &eempty map&r while standing next to it."
 			]
-			dependencies: ["7AF853FC528DE6C6"]
-			dependency_requirement: "one_started"
 			id: "3079DAC3AB1B0AD9"
-			tasks: [{
-				id: "3E480E6CE0408D0A"
-				type: "dimension"
-				title: "Enter the Nether"
-				dimension: "minecraft:the_nether"
-			}]
 			rewards: [
 				{
 					id: "07F2FBF6621572C3"
-					type: "item"
 					item: {
-						id: "minecraft:golden_helmet"
 						Count: 1b
+						id: "minecraft:golden_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7D86112E85D8D6D7"
-					type: "item"
 					item: "minecraft:map"
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			subtitle: "Enter the Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3E480E6CE0408D0A"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Where are the Hot Demons?"
+			x: 5.5d
+			y: -1.0d
 		}
 		{
-			title: "Fiends in High Places"
-			icon: "minecraft:crying_obsidian"
-			x: 5.5d
-			y: -2.5d
-			shape: "diamond"
-			subtitle: "Find a Ruined Portal"
 			description: [
 				"A &3Ruined Portal&r is a partially built nether portal surrounded by nether blocks."
 				""
@@ -165,45 +159,48 @@
 				""
 				"A &eFire Charge&r can be used to set fire to a single block."
 			]
-			optional: true
+			icon: "minecraft:crying_obsidian"
 			id: "7AF853FC528DE6C6"
-			tasks: [
-				{
-					id: "394CD32C1D98C5ED"
-					type: "stat"
-					title: "Enter The Overworld"
-					icon: "minecraft:grass_block"
-					disable_toast: true
-					stat: "minecraft:play_time"
-					value: 1
-				}
-				{
-					id: "711B997B0F3BC7B3"
-					type: "structure"
-					title: "Find a Ruined Portal"
-					icon: "minecraft:crying_obsidian"
-					structure: "#minecraft:ruined_portal"
-				}
-			]
+			optional: true
 			rewards: [
 				{
 					id: "67191C389147B266"
-					type: "item"
 					item: "minecraft:fire_charge"
+					type: "item"
 				}
 				{
-					id: "66D4926373F59523"
-					type: "item"
-					item: "minecraft:obsidian"
 					count: 4
+					id: "66D4926373F59523"
+					item: "minecraft:obsidian"
+					type: "item"
 				}
 			]
+			shape: "diamond"
+			subtitle: "Find a Ruined Portal"
+			tasks: [
+				{
+					disable_toast: true
+					icon: "minecraft:grass_block"
+					id: "394CD32C1D98C5ED"
+					stat: "minecraft:play_time"
+					title: "Enter The Overworld"
+					type: "stat"
+					value: 1
+				}
+				{
+					icon: "minecraft:crying_obsidian"
+					id: "711B997B0F3BC7B3"
+					structure: "#minecraft:ruined_portal"
+					title: "Find a Ruined Portal"
+					type: "structure"
+				}
+			]
+			title: "Fiends in High Places"
+			x: 5.5d
+			y: -2.5d
 		}
 		{
-			title: "Stairway to Hell"
-			x: 5.5d
-			y: 0.5d
-			subtitle: "Find a Nether Fortress"
+			dependencies: ["3079DAC3AB1B0AD9"]
 			description: [
 				"A &2Nether Fortress&r can be identified by its large &3Nether Brick&r bridges. "
 				""
@@ -211,33 +208,32 @@
 				""
 				"&eFire Resistance&r can &dprotect you from all heat damage&r, including from touching lava."
 			]
-			dependencies: ["3079DAC3AB1B0AD9"]
 			id: "4048B08BA7BA39BE"
-			tasks: [{
-				id: "319AF1FD9F7F4A83"
-				type: "structure"
-				title: "Find a Nether Fortress"
-				icon: "minecraft:nether_brick_stairs"
-				structure: "minecraft:nether_fortress"
-			}]
 			rewards: [{
 				id: "70202BB1A11D57BC"
-				type: "item"
 				item: {
-					id: "minecraft:potion"
 					Count: 1b
+					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Find a Nether Fortress"
+			tasks: [{
+				icon: "minecraft:nether_brick_stairs"
+				id: "319AF1FD9F7F4A83"
+				structure: "minecraft:nether_fortress"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			title: "Stairway to Hell"
+			x: 5.5d
+			y: 0.5d
 		}
 		{
-			title: "Finders Keepers"
-			x: 8.5d
-			y: -2.5d
-			shape: "diamond"
-			subtitle: "Craft 12 Eyes of Ender"
+			dependency_requirement: "one_started"
 			description: [
 				"&3Eyes of Ender&r require &3Blaze Powder&r from the &2Nether&r, and &3Ender Pearls&r - obtained by defeating an &cEnderman&r."
 				""
@@ -249,35 +245,36 @@
 				""
 				"&7[VanillaTweaks]&r Wearing a carved pumpkin will not obscure your vision."
 			]
-			dependency_requirement: "one_started"
-			optional: true
 			id: "55AB6125B20E666B"
-			tasks: [{
-				id: "0F468F8A2DD53AD9"
-				type: "item"
-				item: "minecraft:ender_eye"
-				count: 12L
-			}]
+			optional: true
 			rewards: [
 				{
 					id: "6AAA5988974BBFC1"
-					type: "item"
 					item: "minecraft:carved_pumpkin"
+					type: "item"
 				}
 				{
-					id: "0C26DFC36B24FB14"
-					type: "item"
-					item: "minecraft:ender_pearl"
 					count: 16
+					id: "0C26DFC36B24FB14"
+					item: "minecraft:ender_pearl"
+					type: "item"
 				}
 			]
+			shape: "diamond"
+			subtitle: "Craft 12 Eyes of Ender"
+			tasks: [{
+				count: 12L
+				id: "0F468F8A2DD53AD9"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Finders Keepers"
+			x: 8.5d
+			y: -2.5d
 		}
 		{
-			title: "Geometry Dash"
-			x: 8.5d
-			y: -1.0d
-			shape: "rsquare"
-			subtitle: "Find a Stronghold"
+			dependencies: ["55AB6125B20E666B"]
+			dependency_requirement: "one_started"
 			description: [
 				"To reach &2The End&r, you first must locate a &2Stronghold&r, an underground fortress made of stone brick."
 				""
@@ -285,81 +282,80 @@
 				""
 				"The &2End Portal&r inside is incomplete, and up to 12 &3Eye of Ender&r must be inserted to &dactivate&r it."
 			]
-			dependencies: ["55AB6125B20E666B"]
-			dependency_requirement: "one_started"
 			id: "2803B3AF9D4E64A3"
-			tasks: [{
-				id: "546CEA05C1DFDE9B"
-				type: "structure"
-				title: "Find a Stronghhold"
-				icon: "minecraft:mossy_stone_bricks"
-				structure: "minecraft:stronghold"
-			}]
 			rewards: [
 				{
-					id: "3D420BECFE373EFA"
-					type: "item"
-					item: "minecraft:blaze_powder"
 					count: 6
+					id: "3D420BECFE373EFA"
+					item: "minecraft:blaze_powder"
+					type: "item"
 				}
 				{
-					id: "5F4C65875DC43F7B"
-					type: "item"
-					item: "minecraft:ender_pearl"
 					count: 6
+					id: "5F4C65875DC43F7B"
+					item: "minecraft:ender_pearl"
+					type: "item"
 				}
 			]
+			shape: "rsquare"
+			subtitle: "Find a Stronghold"
+			tasks: [{
+				icon: "minecraft:mossy_stone_bricks"
+				id: "546CEA05C1DFDE9B"
+				structure: "minecraft:stronghold"
+				title: "Find a Stronghhold"
+				type: "structure"
+			}]
+			title: "Geometry Dash"
+			x: 8.5d
+			y: -1.0d
 		}
 		{
-			title: "Recipe Chim-Cheri"
-			icon: "minecraft:crafting_table"
-			x: 1.5d
-			y: -2.5d
-			shape: "rsquare"
-			subtitle: "Craft a Wooden Pickaxe"
 			description: [
 				"A &3Wooden Pickaxe&r can be made using material from trees at a &3Crafting Table&r."
 				""
 				"&7[EMI]&r You can look up recipes for both any time in the search box!"
 			]
+			icon: "minecraft:crafting_table"
 			id: "53AFBD6DDF572701"
-			tasks: [{
-				id: "6B547341AB9F3005"
-				type: "item"
-				title: "Wooden Pickaxe"
-				icon: {
-					id: "minecraft:wooden_pickaxe"
+			rewards: [{
+				id: "7DE872D39C3E7272"
+				item: {
 					Count: 1b
+					id: "minecraft:stone_sword"
 					tag: {
 						Damage: 0
 					}
 				}
-				item: {
-					id: "itemfilters:tag"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Craft a Wooden Pickaxe"
+			tasks: [{
+				icon: {
 					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6B547341AB9F3005"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "c:pickaxes"
 					}
 				}
-			}]
-			rewards: [{
-				id: "7DE872D39C3E7272"
+				title: "Wooden Pickaxe"
 				type: "item"
-				item: {
-					id: "minecraft:stone_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
+			title: "Recipe Chim-Cheri"
+			x: 1.5d
+			y: -2.5d
 		}
 		{
-			title: "Where are the Hot Dra-oh"
-			icon: "minecraft:end_portal_frame"
-			x: 8.5d
-			y: 0.5d
-			subtitle: "Activate an End Portal"
+			dependencies: ["2803B3AF9D4E64A3"]
 			description: [
 				"&2The End&r consists of islands floating in the &3void&r, where falling is very dangerous."
 				""
@@ -369,43 +365,44 @@
 				""
 				"&7[Apathy]&r The central &2Return Portal&r and &2End Gateway&r are active without defeating the Ender Dragon."
 			]
-			dependencies: ["2803B3AF9D4E64A3"]
 			hide: true
+			icon: "minecraft:end_portal_frame"
 			id: "345A5D446CD0E0D2"
-			tasks: [{
-				id: "45538435550F3E5E"
-				type: "observation"
-				title: "Look into an End Portal"
-				icon: "minecraft:end_portal_frame"
-				timer: 0L
-				observe_type: 0
-				to_observe: "minecraft:end_portal"
-			}]
 			rewards: [{
 				id: "3C92DF27111BD7E9"
-				type: "item"
 				item: {
-					id: "minecraft:golden_boots"
 					Count: 1b
+					id: "minecraft:golden_boots"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [{
 							id: "minecraft:feather_falling"
 							lvl: 3s
 						}]
-						Damage: 0
+						RepairCost: 1
 						display: {
 							Name: "{\"text\":\"Feather Boots\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Activate an End Portal"
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "45538435550F3E5E"
+				observe_type: 0
+				timer: 0L
+				title: "Look into an End Portal"
+				to_observe: "minecraft:end_portal"
+				type: "observation"
+			}]
+			title: "Where are the Hot Dra-oh"
+			x: 8.5d
+			y: 0.5d
 		}
 		{
-			title: "It's Just Like Breath of the Wild!"
-			x: 1.5d
-			y: 3.5d
-			subtitle: "Mine Ancient Debris"
+			dependencies: ["28AFD82AD9C0B721"]
 			description: [
 				"&3Ancient Debris&r is a rare &2Nether&r material found in &3Bastion Remnants&r."
 				""
@@ -415,35 +412,36 @@
 				""
 				"&7[Tinkerer's Smithing]&r &3Netherite Scrap&r can also be applied to equipment at an &3Anvil&r to &dlower its anvil costs&r."
 			]
-			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
 			id: "5DA11E4FA4C52495"
-			tasks: [{
-				id: "0F6EBD8A1A1D375E"
-				type: "item"
-				title: "1x Ancient Debris"
-				item: "minecraft:ancient_debris"
-			}]
 			rewards: [
 				{
-					id: "191C95A50E20CDF1"
-					type: "item"
-					item: "minecraft:gold_ingot"
 					count: 4
+					id: "191C95A50E20CDF1"
+					item: "minecraft:gold_ingot"
+					type: "item"
 				}
 				{
-					id: "47985ECF276FEE7A"
-					type: "item"
-					item: "minecraft:ancient_debris"
 					count: 4
+					id: "47985ECF276FEE7A"
+					item: "minecraft:ancient_debris"
+					type: "item"
 				}
 			]
+			subtitle: "Mine Ancient Debris"
+			tasks: [{
+				id: "0F6EBD8A1A1D375E"
+				item: "minecraft:ancient_debris"
+				title: "1x Ancient Debris"
+				type: "item"
+			}]
+			title: "It's Just Like Breath of the Wild!"
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			title: "I have over 9 powers"
-			x: 0.0d
-			y: 2.0d
-			subtitle: "Craft an Enchanting Table"
+			dependencies: ["28AFD82AD9C0B721"]
+			dependency_requirement: "one_started"
 			description: [
 				"An &3Enchanting Table&r can &dadd random enchantments&r to an unenchanted piece of equipment or &ebook&r. This costs 1-3 &3experience levels&r and &3Lapis Lazuli&r."
 				""
@@ -453,42 +451,40 @@
 				""
 				"&7[TaxFreeLevels]&r Enchanting at a specific &3Level Requirement&r costs the same amount of experience every time, regardless of your own level."
 			]
-			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
-			dependency_requirement: "one_started"
 			id: "594D5FA160E7C304"
-			tasks: [{
-				id: "28E2B53465A55920"
-				type: "item"
-				item: "minecraft:enchanting_table"
-			}]
 			rewards: [
 				{
+					count: 3
 					id: "2E328D292A34A71A"
-					type: "item"
 					item: "minecraft:bookshelf"
-					count: 3
+					type: "item"
 				}
 				{
+					count: 3
 					id: "225520377FB917DE"
-					type: "item"
 					item: "minecraft:book"
-					count: 3
+					type: "item"
 				}
 				{
-					id: "26E9795985070CF2"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 10
+					id: "26E9795985070CF2"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			subtitle: "Craft an Enchanting Table"
+			tasks: [{
+				id: "28E2B53465A55920"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "I have over 9 powers"
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			title: "§o*static noises*§r"
-			x: 8.5d
-			y: 2.0d
-			shape: "pentagon"
-			subtitle: "Free the End"
+			dependencies: ["345A5D446CD0E0D2"]
 			description: [
 				"To attack the &4Ender Dragon&r, first destroy the explosive &3End Crystals&r that heal it, making it &dvulnerable&r to arrows and melee."
 				""
@@ -498,27 +494,32 @@
 				""
 				"Completing the battle grants &d68 Experience Levels&r and a decorative &3Dragon Egg&r."
 			]
-			dependencies: ["345A5D446CD0E0D2"]
 			hide: true
 			id: "6CDF6FE603499CB1"
-			tasks: [{
-				id: "6554F5E5D6221299"
-				type: "advancement"
-				title: "Free the End"
-				advancement: "minecraft:end/kill_dragon"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "009CC64E5C033956"
-				type: "item"
 				item: "minecraft:diamond_block"
+				type: "item"
 			}]
+			shape: "pentagon"
+			subtitle: "Free the End"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "6554F5E5D6221299"
+				title: "Free the End"
+				type: "advancement"
+			}]
+			title: "§o*static noises*§r"
+			x: 8.5d
+			y: 2.0d
 		}
 		{
-			title: "Shell City"
-			x: 10.0d
-			y: 2.0d
-			subtitle: "Find an End City"
+			dependencies: [
+				"6CDF6FE603499CB1"
+				"345A5D446CD0E0D2"
+			]
+			dependency_requirement: "one_started"
 			description: [
 				"An &2End Gateway&r can be identified by its beam of purple light. Throwing an &3Ender Pearl&r through it transports you to the &2Outer End&r."
 				""
@@ -530,31 +531,27 @@
 				""
 				"&cShulkers&r shoot homing bullets that cause dangerous &dlevitation&r on hit, and are &3invulnerable&r while their shells are closed."
 			]
-			dependencies: [
-				"6CDF6FE603499CB1"
-				"345A5D446CD0E0D2"
-			]
 			hide: true
-			dependency_requirement: "one_started"
 			id: "4631772288F2177D"
-			tasks: [{
-				id: "3403F8CB9F8DB4E1"
-				type: "structure"
-				icon: "minecraft:purpur_block"
-				structure: "minecraft:end_city"
-			}]
 			rewards: [{
-				id: "32566A5555DA9E2B"
-				type: "item"
-				item: "minecraft:chorus_fruit"
 				count: 32
+				id: "32566A5555DA9E2B"
+				item: "minecraft:chorus_fruit"
+				type: "item"
 			}]
+			subtitle: "Find an End City"
+			tasks: [{
+				icon: "minecraft:purpur_block"
+				id: "3403F8CB9F8DB4E1"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "Shell City"
+			x: 10.0d
+			y: 2.0d
 		}
 		{
-			title: "Flight of Icarus"
-			x: 8.5d
-			y: 3.5d
-			subtitle: "Obtain an Elytra"
+			dependencies: ["4631772288F2177D"]
 			description: [
 				"A pair of &3Elytra&r can be found at the bow of every &2End Ship&r."
 				""
@@ -564,32 +561,32 @@
 				""
 				"&eFirework Rockets&r will provide a boost of speed if used while &3gliding&r."
 			]
-			dependencies: ["4631772288F2177D"]
 			hide: true
 			id: "06B5F4D5D8A0D202"
+			rewards: [{
+				count: 32
+				id: "4C6D37B53B9A2DF5"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Obtain an Elytra"
 			tasks: [{
 				id: "6C7823064E1563F1"
-				type: "item"
 				item: {
-					id: "minecraft:elytra"
 					Count: 1b
+					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "4C6D37B53B9A2DF5"
 				type: "item"
-				item: "minecraft:firework_rocket"
-				count: 32
 			}]
+			title: "Flight of Icarus"
+			x: 8.5d
+			y: 3.5d
 		}
 		{
-			title: "Mob Grinder"
-			x: 6.5d
-			y: 2.0d
-			subtitle: "Obtain 3 Wither Skeleton Skulls"
+			dependencies: ["4048B08BA7BA39BE"]
 			description: [
 				"&4The Wither&r is a high-tier boss fight best fought in an arena near bedrock in &2The Overworld&r, or near the bedrock roof of &2The Nether&r."
 				""
@@ -601,35 +598,34 @@
 				""
 				"&7[Apathy]&r On &3Easy Difficulty&r, the summoning ritual itself is sufficient to receive the reward."
 			]
-			dependencies: ["4048B08BA7BA39BE"]
 			hide: true
 			id: "71B31B0EAE8DCD3D"
-			tasks: [{
-				id: "0B1FFAD97E03BE43"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:wither_skeleton_skull"
-				count: 3L
-			}]
 			rewards: [{
+				count: 9
 				id: "58344DE55762F044"
-				type: "item"
 				item: {
-					id: "minecraft:splash_potion"
 					Count: 1b
+					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "minecraft:strong_healing"
 					}
 				}
-				count: 9
+				type: "item"
 			}]
+			subtitle: "Obtain 3 Wither Skeleton Skulls"
+			tasks: [{
+				count: 3L
+				disable_toast: true
+				id: "0B1FFAD97E03BE43"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "Mob Grinder"
+			x: 6.5d
+			y: 2.0d
 		}
 		{
-			title: "I am a Comet"
-			x: 6.5d
-			y: 3.5d
-			shape: "pentagon"
-			subtitle: "Receive a Nether Star"
+			dependencies: ["71B31B0EAE8DCD3D"]
 			description: [
 				"A &3Nether Star&r can be obtained by completing the &4Wither&r ritual. It's used to create a &3Beacon&r that provides a &dpermanent status effect&r in a radius. "
 				""
@@ -639,40 +635,40 @@
 				""
 				"&7[Tinkerer's Quilt]&r &eCopper Blocks&r can also be used for pyramids, as long as they're &3kept clean&r using an &3Axe&r."
 			]
-			dependencies: ["71B31B0EAE8DCD3D"]
 			hide: true
 			id: "7D7CE9AD22CE6A29"
-			tasks: [{
-				id: "1E03C0456495EB2B"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:nether_star"
-			}]
 			rewards: [
 				{
 					id: "598DAB4227729FA0"
-					type: "item"
 					item: "minecraft:iron_block"
+					type: "item"
 				}
 				{
-					id: "5B4342A1AACA2637"
-					type: "item"
-					item: "minecraft:copper_block"
 					count: 8
+					id: "5B4342A1AACA2637"
+					item: "minecraft:copper_block"
+					type: "item"
 				}
 				{
 					id: "59F754265F0F8A3C"
-					type: "item"
 					item: "minecraft:emerald"
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "Receive a Nether Star"
+			tasks: [{
+				disable_toast: true
+				id: "1E03C0456495EB2B"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "I am a Comet"
+			x: 6.5d
+			y: 3.5d
 		}
 		{
-			title: "§o*cackles*§r"
-			icon: "minecraft:brewing_stand"
-			x: 4.5d
-			y: 2.0d
-			subtitle: "Acquire Brewing Ingredients"
+			dependencies: ["4048B08BA7BA39BE"]
 			description: [
 				"&2Nether Fortresses&r contain both &3Blazes&r and &3Nether Wart&r, which are required to begin &dBrewing Potions&r."
 				""
@@ -682,63 +678,56 @@
 				""
 				"&3Awkward Potions&r are made from water bottles brewed with &3Nether Wart&r, which can in turn be brewed with &evarious ingredients&r to create helpful potions."
 			]
-			dependencies: ["4048B08BA7BA39BE"]
 			hide: true
+			icon: "minecraft:brewing_stand"
 			id: "274780E9080AF463"
-			tasks: [
-				{
-					id: "57C85AE7D22E4328"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:brewing_stand"
-				}
-				{
-					id: "702F50852618854C"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:nether_wart"
-				}
-			]
 			rewards: [
 				{
-					id: "46B82B5C477BA0F3"
-					type: "item"
-					item: "minecraft:blaze_powder"
 					count: 10
+					id: "46B82B5C477BA0F3"
+					item: "minecraft:blaze_powder"
+					type: "item"
 				}
 				{
+					count: 6
 					id: "5D033BFC370CD3BF"
-					type: "item"
 					item: "minecraft:magma_cream"
-					count: 6
+					type: "item"
 				}
 				{
+					count: 6
 					id: "1528B67155CB6378"
-					type: "item"
 					item: "minecraft:pufferfish"
-					count: 6
+					type: "item"
 				}
 				{
-					id: "39B9A72FFADE2792"
-					type: "item"
-					item: "minecraft:phantom_membrane"
 					count: 6
+					id: "39B9A72FFADE2792"
+					item: "minecraft:phantom_membrane"
+					type: "item"
 				}
 			]
+			subtitle: "Acquire Brewing Ingredients"
+			tasks: [
+				{
+					disable_toast: true
+					id: "57C85AE7D22E4328"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "702F50852618854C"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			title: "§o*cackles*§r"
+			x: 4.5d
+			y: 2.0d
 		}
 		{
-			title: "Nether-Proof Soup"
-			icon: {
-				id: "minecraft:potion"
-				Count: 1b
-				tag: {
-					Potion: "minecraft:slow_falling"
-				}
-			}
-			x: 4.5d
-			y: 3.5d
-			shape: "hexagon"
-			subtitle: "Brew Fire Res. and Slow Fall. Potions"
+			dependencies: ["274780E9080AF463"]
 			description: [
 				"Once visited a few times, &2The Nether&r can become safer through the use of &dpotions and safe transport routes&r."
 				""
@@ -746,64 +735,73 @@
 				""
 				"&eRedstone Dust&r can be brewed into potions to &dextend their duration&r, while &3Glowstone Dust&r can increase some potions' potency."
 			]
-			dependencies: ["274780E9080AF463"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:slow_falling"
+				}
+			}
 			id: "0C2C9057CE459E63"
-			tasks: [
-				{
-					id: "1BE9417FD5079964"
-					type: "item"
-					disable_toast: true
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:fire_resistance"
-						}
-					}
-				}
-				{
-					id: "123031348D667D6D"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:slow_falling"
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "74647DB1EEC564B3"
-					type: "item"
 					item: "minecraft:saddle"
+					type: "item"
 				}
 				{
 					id: "2CE4CC0075F94E19"
-					type: "item"
 					item: {
-						id: "minecraft:warped_fungus_on_a_stick"
 						Count: 1b
+						id: "minecraft:warped_fungus_on_a_stick"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "3BEB49B7D31DCF90"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 16
+					id: "3BEB49B7D31DCF90"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "Brew Fire Res. and Slow Fall. Potions"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1BE9417FD5079964"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "123031348D667D6D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nether-Proof Soup"
+			x: 4.5d
+			y: 3.5d
 		}
 		{
-			title: "MK-1"
-			x: 0.0d
-			y: 0.5d
-			subtitle: "Equip a piece of Iron Armor"
+			dependencies: ["41C9341CA261E52B"]
+			dependency_requirement: "one_started"
 			description: [
 				"&3Armor&r increases your &3defense&r, which &dreduces damage taken&r."
 				""
@@ -811,29 +809,28 @@
 				""
 				"&eFood and Potions&r can provide beneficial &3status effects&r for dangerous situations."
 			]
-			dependencies: ["41C9341CA261E52B"]
 			hide: true
-			dependency_requirement: "one_started"
 			id: "4FF54D00F9D67A59"
-			tasks: [{
-				id: "7F5C1B92A8E5D119"
-				type: "advancement"
-				title: "Equip any Iron Armor"
-				advancement: "minecraft:story/obtain_armor"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "52E20E5197263BE5"
-				type: "item"
 				item: "minecraft:golden_apple"
+				type: "item"
 			}]
+			subtitle: "Equip a piece of Iron Armor"
+			tasks: [{
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+				id: "7F5C1B92A8E5D119"
+				title: "Equip any Iron Armor"
+				type: "advancement"
+			}]
+			title: "MK-1"
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			title: "Heavy Metal"
-			icon: "minecraft:anvil"
-			x: 3.0d
-			y: 2.0d
-			subtitle: "Craft an Anvil"
+			dependencies: ["28AFD82AD9C0B721"]
+			dependency_requirement: "one_started"
 			description: [
 				"An &3Anvil&r can be used to &drepair&r equipment with materials, apply &denchantments from books&r, and &dcombine&r equipment of the same type."
 				""
@@ -845,23 +842,15 @@
 				""
 				"&7[idwtialsimmoedm]&r hold &7[&r&6Shift&r&7]&r on an &eenchanted item&r to see enchantment descriptions."
 			]
-			dependencies: ["28AFD82AD9C0B721"]
 			hide: true
-			dependency_requirement: "one_started"
+			icon: "minecraft:anvil"
 			id: "324EABD3C7110E53"
-			tasks: [{
-				id: "6940D98A01D79913"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:anvil"
-			}]
 			rewards: [
 				{
 					id: "1E8AA706DE3AC6CC"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:unbreaking"
@@ -869,13 +858,13 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "5CB3416D1CA7E6FA"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:fortune"
@@ -883,19 +872,27 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2F3F55D656F85A4F"
-					type: "item"
 					item: "minecraft:grindstone"
+					type: "item"
 				}
 			]
+			subtitle: "Craft an Anvil"
+			tasks: [{
+				disable_toast: true
+				id: "6940D98A01D79913"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Heavy Metal"
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			title: "Not a Backpack"
-			x: 10.0d
-			y: 3.5d
-			subtitle: "Craft a Shulker Box"
+			dependencies: ["4631772288F2177D"]
 			description: [
 				"&3Shulker Boxes&r are chests that can be broken and picked up with the items still inside."
 				""
@@ -903,67 +900,61 @@
 				""
 				"&eBundles&r fit in &3Shulker Boxes&r, which fit in &3Ender Chests&r, allowing for &dextensive personal storage&r."
 			]
-			dependencies: ["4631772288F2177D"]
 			hide: true
 			id: "58FCE9FA57CB5D39"
-			tasks: [{
-				id: "46644D7C1F998D18"
-				type: "item"
-				title: "Craft a Shulker Box"
-				icon: "minecraft:shulker_box"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "c:shulker_boxes"
-					}
-				}
-			}]
 			rewards: [{
 				id: "136655B16D9C5F53"
-				type: "item"
 				item: {
-					id: "minecraft:bundle"
 					Count: 1b
+					id: "minecraft:bundle"
 					tag: {
 						Items: [
 							{
-								id: "minecraft:ender_chest"
 								Count: 4b
+								id: "minecraft:ender_chest"
 							}
 							{
-								id: "minecraft:enchanted_golden_apple"
 								Count: 2b
+								id: "minecraft:enchanted_golden_apple"
 							}
 							{
-								id: "minecraft:golden_apple"
 								Count: 16b
+								id: "minecraft:golden_apple"
 							}
 							{
-								id: "minecraft:golden_carrot"
 								Count: 34b
+								id: "minecraft:golden_carrot"
 							}
 							{
-								id: "minecraft:ancient_debris"
 								Count: 8b
+								id: "minecraft:ancient_debris"
 							}
 						]
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Craft a Shulker Box"
+			tasks: [{
+				icon: "minecraft:shulker_box"
+				id: "46644D7C1F998D18"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:shulker_boxes"
+					}
+				}
+				title: "Craft a Shulker Box"
+				type: "item"
+			}]
+			title: "Not a Backpack"
+			x: 10.0d
+			y: 3.5d
 		}
 		{
-			title: "Bag of Tricks"
-			icon: {
-				id: "minecraft:iron_shovel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 3.0d
-			y: 0.5d
-			subtitle: "Craft every Tool"
+			dependencies: ["41C9341CA261E52B"]
+			dependency_requirement: "one_started"
 			description: [
 				"Most blocks have a &3Preferred Tool&r that breaks them the fastest."
 				""
@@ -979,76 +970,85 @@
 				""
 				"&eShears&r can be used to collect fragile blocks like plants and cobwebs."
 			]
-			dependencies: ["41C9341CA261E52B"]
 			hide: true
-			dependency_requirement: "one_started"
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "358409FE5C2E19E6"
-			tasks: [
-				{
-					id: "5FC0E582CDFDC762"
-					type: "item"
-					title: "Pickaxe"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:pickaxes"
-						}
-					}
-				}
-				{
-					id: "4D0BFD3A0D9238C9"
-					type: "item"
-					title: "Shovel"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:shovels"
-						}
-					}
-				}
-				{
-					id: "553123730A74F060"
-					type: "item"
-					title: "Axe"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:axes"
-						}
-					}
-				}
-				{
-					id: "3AAD0A84BDDF6E04"
-					type: "item"
-					title: "Hoe"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:hoes"
-						}
-					}
-				}
-			]
 			rewards: [{
 				id: "0072CA8B14AD480A"
-				type: "item"
 				item: {
-					id: "minecraft:shears"
 					Count: 1b
+					id: "minecraft:shears"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Craft every Tool"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5FC0E582CDFDC762"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:pickaxes"
+						}
+					}
+					title: "Pickaxe"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4D0BFD3A0D9238C9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:shovels"
+						}
+					}
+					title: "Shovel"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "553123730A74F060"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:axes"
+						}
+					}
+					title: "Axe"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3AAD0A84BDDF6E04"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:hoes"
+						}
+					}
+					title: "Hoe"
+					type: "item"
+				}
+			]
+			title: "Bag of Tricks"
+			x: 3.0d
+			y: 0.5d
 		}
 	]
-	quest_links: [ ]
+	title: "The Basics"
 }
