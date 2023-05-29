@@ -1,24 +1,21 @@
 {
-	id: "18300B5482AC0CC0"
-	group: "6B747C3DB5A16A71"
-	order_index: 1
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "combat"
-	title: "Self-Defense"
+	group: "6B747C3DB5A16A71"
 	icon: {
-		id: "minecraft:netherite_sword"
 		Count: 1b
+		id: "minecraft:netherite_sword"
 		tag: {
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "18300B5482AC0CC0"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Longshot"
-			x: -3.5d
-			y: -4.0d
-			subtitle: "Acquire a Bow"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"&3Bows&r are a charged ranged weapon requiring &3arrows&r to fire."
 				""
@@ -32,53 +29,53 @@
 				""
 				"&3Arrows&r can also be &dscavenged from angered skeletons&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "0F4FAE3B1041001F"
-			tasks: [{
-				id: "314AE6BD6989969B"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "minecraft:bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
+					count: 16
 					id: "563CD36069D1D81A"
-					type: "item"
 					item: {
-						id: "minecraft:tipped_arrow"
 						Count: 1b
+						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "minecraft:strong_harming"
 						}
 					}
-					count: 16
+					type: "item"
 				}
 				{
+					count: 16
 					id: "5D87F90592336743"
-					type: "item"
 					item: {
-						id: "minecraft:tipped_arrow"
 						Count: 1b
+						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "minecraft:strong_healing"
 						}
 					}
-					count: 16
+					type: "item"
 				}
 			]
+			subtitle: "Acquire a Bow"
+			tasks: [{
+				disable_toast: true
+				id: "314AE6BD6989969B"
+				item: {
+					Count: 1b
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Longshot"
+			x: -3.5d
+			y: -4.0d
 		}
 		{
-			title: "Very enthusiastic walks"
-			x: -1.5d
-			y: -4.0d
-			subtitle: "Acquire a Crossbow"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"Whether crafted or looted from a &cPillager&r, &3Crossbows&r can fire a bolt &dinstantly once loaded&r - even after sitting in the inventory."
 				""
@@ -88,92 +85,83 @@
 				""
 				"&7[Fabrication]&r Crossbows can also receive &3Infinity&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "6F32C33B97BE205B"
-			tasks: [{
-				id: "145253845DFC11C4"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "minecraft:crossbow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "15AEF76194DAE572"
-					type: "item"
 					item: {
-						id: "minecraft:crossbow"
 						Count: 1b
+						id: "minecraft:crossbow"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
+					count: 16
 					id: "5970722A25047306"
-					type: "item"
 					item: {
-						id: "minecraft:firework_rocket"
 						Count: 1b
+						id: "minecraft:firework_rocket"
 						tag: {
 							Fireworks: {
-								Flight: 1b
 								Explosions: [
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 									{
-										Type: 1b
 										Colors: [I;15790320]
+										Type: 1b
 									}
 								]
+								Flight: 1b
 							}
 						}
 					}
-					count: 16
+					type: "item"
 				}
 			]
+			subtitle: "Acquire a Crossbow"
+			tasks: [{
+				disable_toast: true
+				id: "145253845DFC11C4"
+				item: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Very enthusiastic walks"
+			x: -1.5d
+			y: -4.0d
 		}
 		{
-			title: "Direct Approach"
-			icon: {
-				id: "minecraft:iron_axe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -1.5d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "Acquire Melee Weapons"
 			description: [
 				"&3Melee Attacks&r have a &3cooldown&r, which causes rapid attacks to deal as little as &done fifth its normal damage&r."
 				""
@@ -187,41 +175,19 @@
 				""
 				"&7[EnhancedAttackIndicator]&r the attack indicator also shows bow charging, food eating, and block breaking progress."
 			]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "72CC6869A3793E22"
-			tasks: [
-				{
-					id: "2ABA43D1E425E35D"
-					type: "item"
-					title: "Axe"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:axes"
-						}
-					}
-				}
-				{
-					id: "4BFE3469B59F7C8F"
-					type: "item"
-					title: "Sword"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:swords"
-						}
-					}
-				}
-			]
 			rewards: [{
 				id: "32437F064A5A9BC6"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:sweeping"
@@ -229,13 +195,44 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			shape: "rsquare"
+			subtitle: "Acquire Melee Weapons"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2ABA43D1E425E35D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:axes"
+						}
+					}
+					title: "Axe"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4BFE3469B59F7C8F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:swords"
+						}
+					}
+					title: "Sword"
+					type: "item"
+				}
+			]
+			title: "Direct Approach"
+			x: -1.5d
+			y: -2.0d
 		}
 		{
-			title: "AC +2"
-			x: -3.5d
-			y: -2.0d
-			subtitle: "Craft a Shield"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"&3Shields&r can be held in the Off-Hand, and raised with &7[&r&6Right-Click&r&7]&r, &dreducing incoming damage&r."
 				""
@@ -247,63 +244,49 @@
 				""
 				"&7[Tinkerer's Smithing]&r Shields can be quickly repaired with &3planks&r or &3iron ingots&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "42A9FC81752B5A9F"
-			tasks: [{
-				id: "7A3DABD5009149C4"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "minecraft:shield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "0B28372E3FA38A08"
-					type: "item"
 					item: {
-						id: "minecraft:white_banner"
 						Count: 1b
+						id: "minecraft:white_banner"
 						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 3
+										Pattern: "ls"
+									}
+									{
+										Color: 3
+										Pattern: "rs"
+									}
+									{
+										Color: 6
+										Pattern: "bo"
+									}
+									{
+										Color: 7
+										Pattern: "sku"
+									}
+								]
+								id: "minecraft:banner"
+							}
 							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"\\\"Down with Cis\\\" Frigate Crest\"}"
 							}
-							BlockEntityTag: {
-								id: "minecraft:banner"
-								Patterns: [
-									{
-										Pattern: "ls"
-										Color: 3
-									}
-									{
-										Pattern: "rs"
-										Color: 3
-									}
-									{
-										Pattern: "bo"
-										Color: 6
-									}
-									{
-										Pattern: "sku"
-										Color: 7
-									}
-								]
-							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6EAB026D6644F841"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:unbreaking"
@@ -311,20 +294,34 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "602BE26182C32F8A"
-					type: "item"
-					item: "minecraft:golden_carrot"
 					count: 10
+					id: "602BE26182C32F8A"
+					item: "minecraft:golden_carrot"
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Shield"
+			tasks: [{
+				disable_toast: true
+				id: "7A3DABD5009149C4"
+				item: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "AC +2"
+			x: -3.5d
+			y: -2.0d
 		}
 		{
-			title: "What is it, Boy."
-			x: 0.5d
-			y: -2.0d
-			subtitle: "Acquire a Trident"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"As the only &dhybrid melee/ranged&r weapon, &3Tridents&r can be &dthrown at speed underwater&r, outmatching &3bows&r."
 				""
@@ -336,28 +333,12 @@
 				""
 				"&7[Fabrication]&r Tridents can also be enchanted with &dPower or Sharpness&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
 			id: "2F6EDECBF7606385"
-			tasks: [{
-				id: "423493D133AB8111"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "minecraft:trident"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
-				id: "51CC401C11221252"
-				type: "choice"
-				title: "Loyalty or Riptide"
 				icon: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:loyalty"
@@ -365,21 +346,30 @@
 						}]
 					}
 				}
+				id: "51CC401C11221252"
 				table_id: 5337977195198082252L
+				title: "Loyalty or Riptide"
+				type: "choice"
 			}]
+			subtitle: "Acquire a Trident"
+			tasks: [{
+				disable_toast: true
+				id: "423493D133AB8111"
+				item: {
+					Count: 1b
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "What is it, Boy."
+			x: 0.5d
+			y: -2.0d
 		}
 		{
-			title: "No Service"
-			icon: {
-				id: "minecraft:leather_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -1.5d
-			y: 0.0d
-			subtitle: "Acquire armor for every slot"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"Armor &3Defense&r stacks for each piece worn, reducing damage further."
 				""
@@ -397,69 +387,20 @@
 				""
 				"&7[Fabrication]&r &3Feather Falling V&r makes boots take &dall player fall damage&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6F439133A6E64D41"
-			tasks: [
-				{
-					id: "72AE8CA31BEC3944"
-					type: "item"
-					title: "Any Boots"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tinkerer:boots"
-						}
-					}
-				}
-				{
-					id: "4DC5C93AD5B25BBB"
-					type: "item"
-					title: "Any Leggings"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tinkerer:leggings"
-						}
-					}
-				}
-				{
-					id: "3F128FDAF39A72A0"
-					type: "item"
-					title: "Any Chestplate"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tinkerer:chestplates"
-						}
-					}
-				}
-				{
-					id: "5497F18CED1A1CD1"
-					type: "item"
-					title: "Any Helmet"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "tinkerer:helmets"
-						}
-					}
-				}
-			]
 			rewards: [{
 				id: "66EA84057C1C7C46"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:thorns"
@@ -467,42 +408,97 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Acquire armor for every slot"
+			tasks: [
+				{
+					disable_toast: true
+					id: "72AE8CA31BEC3944"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tinkerer:boots"
+						}
+					}
+					title: "Any Boots"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4DC5C93AD5B25BBB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tinkerer:leggings"
+						}
+					}
+					title: "Any Leggings"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F128FDAF39A72A0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tinkerer:chestplates"
+						}
+					}
+					title: "Any Chestplate"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5497F18CED1A1CD1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tinkerer:helmets"
+						}
+					}
+					title: "Any Helmet"
+					type: "item"
+				}
+			]
+			title: "No Service"
+			x: -1.5d
+			y: 0.0d
 		}
 		{
-			title: "Working Dead"
-			icon: "minecraft:zombie_head"
-			x: -0.5d
-			y: -5.0d
-			subtitle: "Kill 50 Zombies"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Spawning in droves at night and in caves. The slow amble of a &cZombie&r can be &doutmaneuvered&r in many ways."
 				""
 				"Try &3Pillaring&r by jumping and placing two blocks beneath you. This allows you to &deasily kill most melee enemies&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:zombie_head"
 			id: "21738CE4F9A8D8ED"
-			tasks: [{
-				id: "68CCD723DFFF39DD"
-				type: "kill"
-				icon: "minecraft:zombie_head"
-				disable_toast: true
-				entity: "minecraft:zombie"
-				value: 50L
-			}]
 			rewards: [{
 				id: "40D869E83ACD5092"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 50 Zombies"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "68CCD723DFFF39DD"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Working Dead"
+			x: -0.5d
+			y: -5.0d
 		}
 		{
-			title: "Underground Corruption"
-			icon: "minecraft:skeleton_skull"
-			x: -0.5d
-			y: -8.0d
-			subtitle: "Kill 20 Skeletons"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"The &3ranged attack&r from a &cSkeleton&r is dangerous when unarmored, unshielded, and when there's no room to &drun circles&r around them."
 				""
@@ -510,17 +506,9 @@
 				""
 				"When a skeleton kills a &cCreeper&r, it drops a random &emusic disc&r!"
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:skeleton_skull"
 			id: "3CF0AC2D4BCAC32A"
-			tasks: [{
-				id: "6FFE533C983C9A1D"
-				type: "kill"
-				icon: "minecraft:skeleton_skull"
-				disable_toast: true
-				entity: "minecraft:skeleton"
-				value: 20L
-			}]
 			rewards: [
 				{
 					id: "20B3AEEEA301D14B"
@@ -529,16 +517,25 @@
 				}
 				{
 					id: "12C8E43B4E793209"
-					type: "item"
 					item: "minecraft:music_disc_cat"
+					type: "item"
 				}
 			]
+			subtitle: "Kill 20 Skeletons"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "6FFE533C983C9A1D"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Underground Corruption"
+			x: -0.5d
+			y: -8.0d
 		}
 		{
-			title: "Aw man"
-			x: -0.5d
-			y: -6.0d
-			subtitle: "Kill 15 Creepers"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"The self-destructing explosions from a &cCreeper&r can pack a punch! "
 				""
@@ -548,17 +545,8 @@
 				""
 				"You can make an area &dspawn only creepers&r by creating a &22x2 tunnel&r with a roof lined with &3trapdoors&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "2BA288C7EE0930DB"
-			tasks: [{
-				id: "36FE4BD5E967A888"
-				type: "kill"
-				icon: "minecraft:creeper_head"
-				disable_toast: true
-				entity: "minecraft:creeper"
-				value: 15L
-			}]
 			rewards: [
 				{
 					id: "2FF00C331F6E4A3C"
@@ -567,10 +555,9 @@
 				}
 				{
 					id: "448CCDD562B9DE27"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:knockback"
@@ -578,42 +565,52 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Kill 15 Creepers"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "36FE4BD5E967A888"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Aw man"
+			x: -0.5d
+			y: -6.0d
 		}
 		{
-			title: "Hostile Architecture"
-			icon: "minecraft:prismarine_bricks"
-			x: 1.0d
-			y: -7.0d
-			subtitle: "Kill 4 Guardians"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Surrounding &2ocean monuments&r are &cGuardians&r, which fire &dunblockable, undodgeable lasers&r."
 				""
 				"Guardians must be taken out with a loyal &3Trident&r, or &3rushed&r - but beware! When a guardian's &3spikes&r are extended, damage is &dreflected to attackers&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:prismarine_bricks"
 			id: "694FD9F0D62B459F"
-			tasks: [{
-				id: "779F514660FF7C50"
-				type: "kill"
-				icon: "minecraft:prismarine_bricks"
-				disable_toast: true
-				entity: "minecraft:guardian"
-				value: 4L
-			}]
 			rewards: [{
 				id: "4D4C3E79E74474D0"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 4 Guardians"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:guardian"
+				icon: "minecraft:prismarine_bricks"
+				id: "779F514660FF7C50"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Hostile Architecture"
+			x: 1.0d
+			y: -7.0d
 		}
 		{
-			title: "Into the Deep"
-			x: -5.5d
-			y: 1.0d
-			subtitle: "Vanquish three Elder Guardians"
+			dependencies: ["4FE0BE6BF0009C4E"]
 			description: [
 				"Three &4Elder Guardians&r live at the heart of &2Ocean Monuments&r - &drestricting your mining ability&r."
 				""
@@ -621,98 +618,89 @@
 				""
 				"When their spikes are extended, Guardians &dreflect damage back to the attacker&r."
 			]
-			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
 			id: "30ED364C540672C8"
-			tasks: [{
-				id: "47F16DEAF8370460"
-				type: "kill"
-				icon: "minecraft:dark_prismarine"
-				disable_toast: true
-				entity: "minecraft:elder_guardian"
-				value: 3L
-			}]
 			rewards: [{
 				id: "01D56A801BFE61E5"
-				type: "item"
 				item: "minecraft:heart_of_the_sea"
+				type: "item"
 			}]
+			subtitle: "Vanquish three Elder Guardians"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:dark_prismarine"
+				id: "47F16DEAF8370460"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Into the Deep"
+			x: -5.5d
+			y: 1.0d
 		}
 		{
-			title: "Plague ?/10"
-			x: 1.0d
-			y: -8.0d
-			subtitle: "Kill a Silverfish"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Rarely &3Stone&r will contain a &cSilverfish&r with several guaranteed near an &2End Portal&r of a &2Stronghold&r."
 				""
 				"Damaged silverfish will &dcall others to its aid&r, creating swarms."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "4FC61BF1949C8BE9"
-			tasks: [{
-				id: "3FC5F826E273A912"
-				type: "kill"
-				icon: "minecraft:infested_mossy_stone_bricks"
-				disable_toast: true
-				entity: "minecraft:silverfish"
-				value: 1L
-			}]
 			rewards: [{
 				id: "4554086874FEF98E"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill a Silverfish"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:silverfish"
+				icon: "minecraft:infested_mossy_stone_bricks"
+				id: "3FC5F826E273A912"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Plague ?/10"
+			x: 1.0d
+			y: -8.0d
 		}
 		{
-			title: "Onslaught"
-			x: -4.5d
-			y: 1.5d
-			subtitle: "Survive a Raid"
+			dependencies: ["4FE0BE6BF0009C4E"]
 			description: [
 				"Triggered by entering a village with &3Bad Omen&r, a &4Raid&r is an onslaught of &cPillagers&r, &cVindicators&r, &cEvokers&r, &cWitches&r, and &cRavagers&r."
 				""
 				"The reward is &3Hero Of The Village&r, which grants &ddiscounted trade prices&r for two days."
 			]
-			dependencies: ["4FE0BE6BF0009C4E"]
 			hide: true
 			id: "2D49941B8AEF7256"
+			rewards: [{
+				count: 2
+				id: "2ACF516C6FDB4853"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "Survive a Raid"
 			tasks: [{
-				id: "11414E2921EACBED"
-				type: "advancement"
-				disable_toast: true
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
+				disable_toast: true
+				id: "11414E2921EACBED"
+				type: "advancement"
 			}]
-			rewards: [{
-				id: "2ACF516C6FDB4853"
-				type: "item"
-				item: "minecraft:emerald_block"
-				count: 2
-			}]
+			title: "Onslaught"
+			x: -4.5d
+			y: 1.5d
 		}
 		{
-			title: "Sometimes she's a skhost"
-			x: 2.5d
-			y: -7.5d
-			subtitle: "Kill 3 Ghasts"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Above the &2lava seas&r fly &cGhasts&r, making unsettling noises from great distances, and &dspitting explosive fireballs&r at players."
 				""
 				"Ghast fireballs can be &3reflected&r by hitting them for an &dinstant kill&r - or you can pull a trusty &3Bow&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "35AED8D09C7CF638"
-			tasks: [{
-				id: "30B010BB2CE92D56"
-				type: "kill"
-				icon: "minecraft:ghast_tear"
-				disable_toast: true
-				entity: "minecraft:ghast"
-				value: 3L
-			}]
 			rewards: [
 				{
 					id: "2C75FA96B97A6A45"
@@ -721,46 +709,46 @@
 				}
 				{
 					id: "51ADAE6159E0A531"
-					type: "item"
 					item: {
-						id: "minecraft:stick"
 						Count: 1b
+						id: "minecraft:stick"
 						tag: {
-							display: {
-								Name: "[{\"text\":\"The Sandman\",\"italic\":false}]"
-								Lore: ["[{\"text\":\"Batter Up!\",\"italic\":false}]"]
-							}
 							Enchantments: [{
 								id: "knockback"
 								lvl: 5
 							}]
+							display: {
+								Lore: ["[{\"text\":\"Batter Up!\",\"italic\":false}]"]
+								Name: "[{\"text\":\"The Sandman\",\"italic\":false}]"
+							}
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Kill 3 Ghasts"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "30B010BB2CE92D56"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Sometimes she's a skhost"
+			x: 2.5d
+			y: -7.5d
 		}
 		{
-			title: "All 120 Vertices"
-			icon: "minecraft:magma_cream"
-			x: 2.5d
-			y: -5.5d
-			subtitle: "Kill 15 Magma Cubes"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Throughout &2The Nether&r, &cMagma Cubes&r have an uncommon chance to spawn. Their &3Magma Cream&r is a valuable resource for &dFire Resistance Potions&r."
 				""
 				"If a small Magma Cube is eaten by a &aFrog&r, it drops a &eFroglight&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:magma_cream"
 			id: "52AC9ECD81435809"
-			tasks: [{
-				id: "162DEDE2FB3C1168"
-				type: "kill"
-				icon: "minecraft:magma_cream"
-				disable_toast: true
-				entity: "minecraft:magma_cube"
-				value: 15L
-			}]
 			rewards: [
 				{
 					id: "489A2EDD8DB40A65"
@@ -768,103 +756,112 @@
 					xp: 50
 				}
 				{
-					id: "326E62FF89E0A8F4"
-					type: "item"
-					item: "minecraft:ochre_froglight"
 					count: 8
+					id: "326E62FF89E0A8F4"
+					item: "minecraft:ochre_froglight"
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Undertaker"
-			disable_toast: true
-			x: -3.5d
-			y: 1.5d
-			subtitle: "Overcome the Wither"
-			dependencies: ["4FE0BE6BF0009C4E"]
-			hide: true
-			id: "5CA39231B56AE5CB"
+			subtitle: "Kill 15 Magma Cubes"
 			tasks: [{
-				id: "42F460492A4ACDC4"
-				type: "item"
 				disable_toast: true
-				item: "minecraft:nether_star"
-			}]
-		}
-		{
-			title: "Cool Skyrim Reference"
-			disable_toast: true
-			x: -6.0d
-			y: 0.0d
-			subtitle: "Defeat the Ender Dragon"
-			dependencies: ["4FE0BE6BF0009C4E"]
-			hide: true
-			id: "3BBB8E131ECD4FF5"
-			tasks: [{
-				id: "5ECADB3B034C0997"
-				type: "advancement"
-				title: "Free the End"
-				disable_toast: true
-				advancement: "minecraft:end/kill_dragon"
-				criterion: ""
-			}]
-		}
-		{
-			title: "405 too few i guess"
-			x: 3.5d
-			y: -7.5d
-			subtitle: "Kill 15 Blazes"
-			description: ["Floating around &2Nether Fortresses&r, &cBlazes&r come in packs and emerge from spawners - spitting fire in small bursts then &dstopping to recharge&r - that's your chance!"]
-			dependencies: ["1950317947BD61B0"]
-			hide: true
-			id: "349E511AA603A620"
-			tasks: [{
-				id: "4D3BB7698E3126D7"
+				entity: "minecraft:magma_cube"
+				icon: "minecraft:magma_cream"
+				id: "162DEDE2FB3C1168"
 				type: "kill"
-				icon: "minecraft:blaze_powder"
-				disable_toast: true
-				entity: "minecraft:blaze"
 				value: 15L
 			}]
+			title: "All 120 Vertices"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4FE0BE6BF0009C4E"]
+			disable_toast: true
+			hide: true
+			id: "5CA39231B56AE5CB"
+			subtitle: "Overcome the Wither"
+			tasks: [{
+				disable_toast: true
+				id: "42F460492A4ACDC4"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Undertaker"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FE0BE6BF0009C4E"]
+			disable_toast: true
+			hide: true
+			id: "3BBB8E131ECD4FF5"
+			subtitle: "Defeat the Ender Dragon"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				disable_toast: true
+				id: "5ECADB3B034C0997"
+				title: "Free the End"
+				type: "advancement"
+			}]
+			title: "Cool Skyrim Reference"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1950317947BD61B0"]
+			description: ["Floating around &2Nether Fortresses&r, &cBlazes&r come in packs and emerge from spawners - spitting fire in small bursts then &dstopping to recharge&r - that's your chance!"]
+			hide: true
+			id: "349E511AA603A620"
 			rewards: [{
 				id: "118C5144B9A873E3"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 15 Blazes"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_powder"
+				id: "4D3BB7698E3126D7"
+				type: "kill"
+				value: 15L
+			}]
+			title: "405 too few i guess"
+			x: 3.5d
+			y: -7.5d
 		}
 		{
-			title: "Come Hither"
-			icon: "minecraft:wither_skeleton_skull"
-			x: 2.5d
-			y: -6.5d
-			subtitle: "Kill 6 Wither Skeletons"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"A &2Nether Fortress&r is a death hazard due to &cWither Skeletons&r, sword-wielders that inflict &3Wither&r - which is a bit like &3Poison&r except &dpoison can't kill players&r!"
 				""
 				"Not getting hit requires &dprecise sword timing&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:wither_skeleton_skull"
 			id: "26CD2014C0B206D0"
-			tasks: [{
-				id: "3FB71FB6BCA65B96"
-				type: "kill"
-				icon: "minecraft:wither_skeleton_skull"
-				disable_toast: true
-				entity: "minecraft:wither_skeleton"
-				value: 6L
-			}]
 			rewards: [{
 				id: "76D951FE99BF0C42"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 6 Wither Skeletons"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "3FB71FB6BCA65B96"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Come Hither"
+			x: 2.5d
+			y: -6.5d
 		}
 		{
-			title: "And he worked on dark crystal so he knows what he's talking about."
-			x: 3.5d
-			y: -5.5d
-			subtitle: "Kill 4 Hoglins"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Keeping the &2Crimson Forest&r dangerous, &cHoglins&r move quickly and have high knockback."
 				""
@@ -872,28 +869,28 @@
 				""
 				"Hoglins drop &3Porkchops&r and &3Leather&r - the only hostile mob to do so."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "6102768050D4F3E5"
-			tasks: [{
-				id: "1704E69B9488B589"
-				type: "kill"
-				icon: "minecraft:porkchop"
-				disable_toast: true
-				entity: "minecraft:hoglin"
-				value: 4L
-			}]
 			rewards: [{
 				id: "7EE921DD5586F169"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 4 Hoglins"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:hoglin"
+				icon: "minecraft:porkchop"
+				id: "1704E69B9488B589"
+				type: "kill"
+				value: 4L
+			}]
+			title: "And he worked on dark crystal so he knows what he's talking about."
+			x: 3.5d
+			y: -5.5d
 		}
 		{
-			title: "Et tu"
-			x: 3.5d
-			y: -6.5d
-			subtitle: "Kill 5 Piglin Brutes"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"Similarly brutal to Vindicators, &cPiglin Brutes&r defend &2Bastions&r and move fast - dealing &dmassive melee damage&r with their &3golden axes&r. "
 				""
@@ -903,50 +900,41 @@
 				""
 				"First &3pillar three blocks&r, then &3break the bottom two&r blocks, &3dig down two blocks&r below it, and &3replacing one block&r above you. This &dblocks entry&r by tall enemies, and allows you to attract them with a bow, then safely &dattack their legs&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "0CB054935E7926CC"
-			tasks: [{
-				id: "4155F613D82EA5E1"
-				type: "kill"
-				icon: {
-					id: "minecraft:golden_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				disable_toast: true
-				entity: "minecraft:piglin_brute"
-				value: 5L
-			}]
 			rewards: [{
 				id: "2F565D4DB1F1F64F"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 5 Piglin Brutes"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1b
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4155F613D82EA5E1"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Et tu"
+			x: 3.5d
+			y: -6.5d
 		}
 		{
-			title: "Longer Boy"
-			x: 2.0d
-			y: -4.0d
-			subtitle: "Kill 20 Endermen"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"The large open space of a &2Desert&r makes &cEndermen&r easier to &dspot and fight&r. "
 				""
 				"While &3arrows&r are ineffective at range, placing a &eWater Bucket&r at your feet protects you from sustained enderman attack."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "023DDA57ED1603C5"
-			tasks: [{
-				id: "3DFB272AB2779EA5"
-				type: "kill"
-				icon: "minecraft:ender_pearl"
-				disable_toast: true
-				entity: "minecraft:enderman"
-				value: 20L
-			}]
 			rewards: [
 				{
 					id: "3EA569A7271CDC20"
@@ -955,16 +943,25 @@
 				}
 				{
 					id: "3B5DB34653CC23ED"
-					type: "item"
 					item: "minecraft:water_bucket"
+					type: "item"
 				}
 			]
+			subtitle: "Kill 20 Endermen"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:enderman"
+				icon: "minecraft:ender_pearl"
+				id: "3DFB272AB2779EA5"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Longer Boy"
+			x: 2.0d
+			y: -4.0d
 		}
 		{
-			title: "You LOSE. Good DAY sir."
-			x: 3.0d
-			y: -4.0d
-			subtitle: "Kill 5 Shulkers"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"&2End Cities&r are guarded by &cShulkers&r, which shoot homing bolts that inflict &3levitation&r. "
 				""
@@ -974,45 +971,36 @@
 				""
 				"Shulkers do not respawn naturally, but if &3hit by a a shulker bolt&r, a Shulker might &dmultiply&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "68C1E9C446D8A069"
-			tasks: [{
-				id: "1D2880C0A22B3902"
-				type: "kill"
-				icon: "minecraft:shulker_shell"
-				disable_toast: true
-				entity: "minecraft:shulker"
-				value: 5L
-			}]
 			rewards: [{
 				id: "1466E7DFFE8CE159"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 5 Shulkers"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:shulker"
+				icon: "minecraft:shulker_shell"
+				id: "1D2880C0A22B3902"
+				type: "kill"
+				value: 5L
+			}]
+			title: "You LOSE. Good DAY sir."
+			x: 3.0d
+			y: -4.0d
 		}
 		{
-			title: "Eye of the Spider"
-			icon: "minecraft:string"
-			x: -0.5d
-			y: -7.0d
-			subtitle: "Kill 30 Spiders"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"By climbing, &cSpiders&r can overcome most obstacles and walls. Adding an &3overhang&r to any defensive wall can prevent this."
 				""
 				"&7[Fabrication]&r Spiders can't climb Glazed Terracotta, or when they're wet from Water or &dSplash Water Bottles&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:string"
 			id: "7BA5B355C7DFF7E3"
-			tasks: [{
-				id: "577F61C1ABAF56B6"
-				type: "kill"
-				icon: "minecraft:string"
-				disable_toast: true
-				entity: "minecraft:spider"
-				value: 30L
-			}]
 			rewards: [
 				{
 					id: "6792DDBF86C7A648"
@@ -1020,46 +1008,54 @@
 					xp: 50
 				}
 				{
-					id: "547DB984D373B91B"
-					type: "item"
-					item: "minecraft:white_glazed_terracotta"
 					count: 16
+					id: "547DB984D373B91B"
+					item: "minecraft:white_glazed_terracotta"
+					type: "item"
 				}
 			]
+			subtitle: "Kill 30 Spiders"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:spider"
+				icon: "minecraft:string"
+				id: "577F61C1ABAF56B6"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Eye of the Spider"
+			x: -0.5d
+			y: -7.0d
 		}
 		{
-			title: "Kuzco's Poison"
-			x: 1.0d
-			y: -5.0d
-			subtitle: "Kill 5 Cave Spiders"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"The poison from a &cCave Spider&r can deal damage very quickly, and make &2abandoned mineshafts&r much more dangerous."
 				""
 				"Stay out of &3Cobwebs&r where they can outmaneuver you, and stick to &dhallways where you can't be surrounded&r."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
 			id: "5E4CDD8923AF498D"
-			tasks: [{
-				id: "25CF745E88778E86"
-				type: "kill"
-				icon: "minecraft:cobweb"
-				disable_toast: true
-				entity: "minecraft:cave_spider"
-				value: 5L
-			}]
 			rewards: [{
 				id: "15BE08046D7F49F0"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Kill 5 Cave Spiders"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:cave_spider"
+				icon: "minecraft:cobweb"
+				id: "25CF745E88778E86"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kuzco's Poison"
+			x: 1.0d
+			y: -5.0d
 		}
 		{
-			title: "[Scooby Doo Chase Theme]"
-			icon: "minecraft:prismarine_crystals"
-			x: 1.0d
-			y: -6.0d
-			subtitle: "Kill 15 Drowned"
+			dependencies: ["1950317947BD61B0"]
 			description: [
 				"In rivers and oceans, &cDrowned&r pose a small threat unless carrying a &3Trident&r - which deals massive damage."
 				""
@@ -1067,17 +1063,9 @@
 				""
 				"Drowned have a rare chance to &ddrop a held trident&r on death."
 			]
-			dependencies: ["1950317947BD61B0"]
 			hide: true
+			icon: "minecraft:prismarine_crystals"
 			id: "20147B09F8E40DE9"
-			tasks: [{
-				id: "21B77836A71A4F74"
-				type: "kill"
-				icon: "minecraft:prismarine_crystals"
-				disable_toast: true
-				entity: "minecraft:drowned"
-				value: 15L
-			}]
 			rewards: [
 				{
 					id: "6E82D042CA51889F"
@@ -1086,60 +1074,52 @@
 				}
 				{
 					id: "3DE92F12AB78040B"
-					type: "item"
 					item: {
-						id: "minecraft:trident"
 						Count: 1b
+						id: "minecraft:trident"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Kill 15 Drowned"
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:drowned"
+				icon: "minecraft:prismarine_crystals"
+				id: "21B77836A71A4F74"
+				type: "kill"
+				value: 15L
+			}]
+			title: "[Scooby Doo Chase Theme]"
+			x: 1.0d
+			y: -6.0d
 		}
 		{
-			title: "Resourceful"
-			icon: {
-				id: "minecraft:flint_and_steel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 0.5d
-			y: 0.0d
-			shape: "hexagon"
-			subtitle: "Pursue Improvised Weaponry"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"While not designed as weapons, many items can be &dused offensively and defensively&r in combat."
 				""
 				"Quick use of &3Flint and Steel&r can burn enemies, damaging even &dlarge packs of mobs&r while you retreat."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
-			id: "42E807C7DFC19EBF"
-			tasks: [{
-				id: "021CBA58542E43A1"
-				type: "item"
-				title: "Consume 1 Flint and Steel [Click] "
-				disable_toast: true
-				item: {
-					id: "minecraft:flint_and_steel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			icon: {
+				Count: 1b
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
 				}
-				consume_items: true
-			}]
+			}
+			id: "42E807C7DFC19EBF"
 			rewards: [{
 				id: "6A0B4BFA09FCF31E"
-				type: "item"
 				item: {
-					id: "minecraft:flint_and_steel"
 					Count: 1b
+					id: "minecraft:flint_and_steel"
 					tag: {
-						RepairCost: 3
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:unbreaking"
@@ -1150,93 +1130,102 @@
 								lvl: 1s
 							}
 						]
-						Damage: 0
+						RepairCost: 3
 						display: {
 							Name: "{\"text\":\"Firestarter\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "Pursue Improvised Weaponry"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "021CBA58542E43A1"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Consume 1 Flint and Steel [Click] "
+				type: "item"
+			}]
+			title: "Resourceful"
+			x: 0.5d
+			y: 0.0d
 		}
 		{
-			title: "Athena"
-			icon: {
-				id: "minecraft:netherite_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -6.5d
-			y: 2.0d
-			shape: "pentagon"
-			subtitle: "face danger head-on"
-			description: ["&o&dStay safe, These plates are more fragile than you'd think&r&r"]
-			hide_dependency_lines: true
 			dependencies: [
 				"2D49941B8AEF7256"
 				"5CA39231B56AE5CB"
 				"3BBB8E131ECD4FF5"
 				"30ED364C540672C8"
 			]
+			description: ["&o&dStay safe, These plates are more fragile than you'd think&r&r"]
 			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0B9F6A70B4F88B94"
-			tasks: [{
-				id: "037FE2D130DBAAB7"
-				type: "checkmark"
-				title: "Meet shoulder-to-shoulder [Click]"
-			}]
 			rewards: [
 				{
 					id: "008F068D27D3148E"
-					type: "item"
 					item: {
-						id: "minecraft:light_blue_banner"
 						Count: 1b
+						id: "minecraft:light_blue_banner"
 						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 0
+										Pattern: "dls"
+									}
+									{
+										Color: 11
+										Pattern: "gra"
+									}
+									{
+										Color: 0
+										Pattern: "gra"
+									}
+									{
+										Color: 11
+										Pattern: "gra"
+									}
+									{
+										Color: 4
+										Pattern: "tts"
+									}
+									{
+										Color: 4
+										Pattern: "bo"
+									}
+								]
+							}
 							RepairCost: 31
 							display: {
 								Name: "{\"text\":\"Athena\"}"
 							}
-							BlockEntityTag: {
-								Patterns: [
-									{
-										Pattern: "dls"
-										Color: 0
-									}
-									{
-										Pattern: "gra"
-										Color: 11
-									}
-									{
-										Pattern: "gra"
-										Color: 0
-									}
-									{
-										Pattern: "gra"
-										Color: 11
-									}
-									{
-										Pattern: "tts"
-										Color: 4
-									}
-									{
-										Pattern: "bo"
-										Color: 4
-									}
-								]
-							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "21309049BC4259E0"
-					type: "item"
 					item: {
-						id: "minecraft:golden_chestplate"
 						Count: 1b
+						id: "minecraft:golden_chestplate"
 						tag: {
-							RepairCost: 31
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:fire_protection"
@@ -1259,104 +1248,104 @@
 									lvl: 10s
 								}
 							]
-							Damage: 0
+							RepairCost: 31
 							display: {
-								Name: "{\"text\":\"Divine Dashplate\", \"color\":\"yellow\"}"
 								Lore: ["{\"text\":\"Gift of Athena\"}"]
+								Name: "{\"text\":\"Divine Dashplate\", \"color\":\"yellow\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "face danger head-on"
+			tasks: [{
+				id: "037FE2D130DBAAB7"
+				title: "Meet shoulder-to-shoulder [Click]"
+				type: "checkmark"
+			}]
+			title: "Athena"
+			x: -6.5d
+			y: 2.0d
 		}
 		{
-			title: "Path of the Gladiator"
-			icon: {
-				id: "minecraft:red_banner"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						Patterns: [
-							{
-								Pattern: "flo"
-								Color: 4
-							}
-							{
-								Pattern: "tt"
-								Color: 14
-							}
-							{
-								Pattern: "mc"
-								Color: 14
-							}
-							{
-								Pattern: "cbo"
-								Color: 14
-							}
-						]
-					}
-				}
-			}
-			x: 0.5d
-			y: -4.0d
-			shape: "hexagon"
-			subtitle: "take on the realms' monsters"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"Hostile &cmonsters&r roam the world, threatening wanderers either out of instinct or ill intent. "
 				""
 				"Prove yourself in combat by showing proficiency defeating each type, and be &dhandsomely rewarded&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:red_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Color: 4
+								Pattern: "flo"
+							}
+							{
+								Color: 14
+								Pattern: "tt"
+							}
+							{
+								Color: 14
+								Pattern: "mc"
+							}
+							{
+								Color: 14
+								Pattern: "cbo"
+							}
+						]
+					}
+				}
+			}
 			id: "1950317947BD61B0"
-			tasks: [{
-				id: "53A796604A3A0CDA"
-				type: "checkmark"
-				title: "Follow the path of the Gladiator [Click]"
-			}]
 			rewards: [
 				{
 					id: "64DBD5ABDBCF2CE0"
-					type: "item"
 					item: {
-						id: "minecraft:shield"
 						Count: 1b
+						id: "minecraft:shield"
 						tag: {
-							RepairCost: 0
 							BlockEntityTag: {
 								Base: 14
 								Patterns: [
 									{
-										Pattern: "flo"
 										Color: 4
+										Pattern: "flo"
 									}
 									{
+										Color: 14
 										Pattern: "tt"
-										Color: 14
 									}
 									{
+										Color: 14
 										Pattern: "mc"
-										Color: 14
 									}
 									{
-										Pattern: "cbo"
 										Color: 14
+										Pattern: "cbo"
 									}
 								]
 							}
 							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Gladiator Shield\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "052C621B419B34F9"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:smite"
@@ -1364,105 +1353,105 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "take on the realms' monsters"
+			tasks: [{
+				id: "53A796604A3A0CDA"
+				title: "Follow the path of the Gladiator [Click]"
+				type: "checkmark"
+			}]
+			title: "Path of the Gladiator"
+			x: 0.5d
+			y: -4.0d
 		}
 		{
-			title: "Path of the Hero"
-			icon: {
-				id: "minecraft:blue_banner"
-				Count: 1b
-				tag: {
-					BlockEntityTag: {
-						Patterns: [
-							{
-								Pattern: "flo"
-								Color: 14
-							}
-							{
-								Pattern: "hh"
-								Color: 11
-							}
-							{
-								Pattern: "tt"
-								Color: 4
-							}
-							{
-								Pattern: "ts"
-								Color: 11
-							}
-							{
-								Pattern: "cbo"
-								Color: 8
-							}
-						]
-					}
-				}
-			}
-			x: -3.5d
-			y: 0.0d
-			shape: "hexagon"
-			subtitle: "take on the realms' challenges"
+			dependencies: ["72CC6869A3793E22"]
 			description: [
 				"Many &4Great Challenges&r are present in the world, that threaten the &2three dimensions&r."
 				""
 				"Face them all and you shall be &drewarded&r."
 			]
-			dependencies: ["72CC6869A3793E22"]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:blue_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Color: 14
+								Pattern: "flo"
+							}
+							{
+								Color: 11
+								Pattern: "hh"
+							}
+							{
+								Color: 4
+								Pattern: "tt"
+							}
+							{
+								Color: 11
+								Pattern: "ts"
+							}
+							{
+								Color: 8
+								Pattern: "cbo"
+							}
+						]
+					}
+				}
+			}
 			id: "4FE0BE6BF0009C4E"
-			tasks: [{
-				id: "562B62E5B498DC8C"
-				type: "checkmark"
-				title: "Follow the path of the Hero [Click]"
-			}]
 			rewards: [
 				{
 					id: "3A673F89C721DF64"
-					type: "item"
 					item: {
-						id: "minecraft:shield"
 						Count: 1b
+						id: "minecraft:shield"
 						tag: {
-							RepairCost: 0
 							BlockEntityTag: {
 								Base: 11
 								Patterns: [
 									{
-										Pattern: "flo"
 										Color: 14
+										Pattern: "flo"
 									}
 									{
+										Color: 11
 										Pattern: "hh"
-										Color: 11
 									}
 									{
-										Pattern: "tt"
 										Color: 4
+										Pattern: "tt"
 									}
 									{
-										Pattern: "ts"
 										Color: 11
+										Pattern: "ts"
 									}
 									{
-										Pattern: "cbo"
 										Color: 8
+										Pattern: "cbo"
 									}
 								]
 							}
 							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Shield of the Hero\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "67F09C40592B44D1"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:protection"
@@ -1470,18 +1459,21 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "take on the realms' challenges"
+			tasks: [{
+				id: "562B62E5B498DC8C"
+				title: "Follow the path of the Hero [Click]"
+				type: "checkmark"
+			}]
+			title: "Path of the Hero"
+			x: -3.5d
+			y: 0.0d
 		}
 		{
-			title: "Zagreus"
-			icon: "minecraft:red_nether_bricks"
-			x: 4.5d
-			y: -8.5d
-			shape: "pentagon"
-			subtitle: "Send monsters back to Hell"
-			description: ["&o&dInvest in these, they'll return the favour.&r&r"]
-			hide_dependency_lines: true
 			dependencies: [
 				"7BA5B355C7DFF7E3"
 				"2BA288C7EE0930DB"
@@ -1500,163 +1492,149 @@
 				"023DDA57ED1603C5"
 				"68C1E9C446D8A069"
 			]
+			description: ["&o&dInvest in these, they'll return the favour.&r&r"]
+			hide_dependency_lines: true
+			icon: "minecraft:red_nether_bricks"
 			id: "416A7E1DCFFE12F4"
-			tasks: [
-				{
-					id: "4FC35A920EB9938B"
-					type: "checkmark"
-					title: "Drinks on the Styx [Click]"
-				}
-				{
-					id: "6EE4EB7F7556CC79"
-					type: "item"
-					title: "The Fee [Click]"
-					disable_toast: true
-					item: "minecraft:gold_block"
-					count: 2L
-					consume_items: true
-				}
-			]
 			rewards: [
 				{
 					id: "16C9B3A5E3C35A66"
-					type: "item"
 					item: {
-						id: "minecraft:red_banner"
 						Count: 1b
+						id: "minecraft:red_banner"
 						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 15
+										Pattern: "mr"
+									}
+									{
+										Color: 15
+										Pattern: "ss"
+									}
+									{
+										Color: 15
+										Pattern: "cre"
+									}
+									{
+										Color: 15
+										Pattern: "bo"
+									}
+									{
+										Color: 15
+										Pattern: "tt"
+									}
+									{
+										Color: 1
+										Pattern: "bts"
+									}
+									{
+										Color: 0
+										Pattern: "sku"
+									}
+									{
+										Color: 15
+										Pattern: "sku"
+									}
+								]
+							}
 							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Zagreus\"}"
 							}
-							BlockEntityTag: {
-								Patterns: [
-									{
-										Pattern: "mr"
-										Color: 15
-									}
-									{
-										Pattern: "ss"
-										Color: 15
-									}
-									{
-										Pattern: "cre"
-										Color: 15
-									}
-									{
-										Pattern: "bo"
-										Color: 15
-									}
-									{
-										Pattern: "tt"
-										Color: 15
-									}
-									{
-										Pattern: "bts"
-										Color: 1
-									}
-									{
-										Pattern: "sku"
-										Color: 0
-									}
-									{
-										Pattern: "sku"
-										Color: 15
-									}
-								]
-							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7583A8810BB00121"
-					type: "item"
 					item: {
-						id: "minecraft:shield"
 						Count: 1b
+						id: "minecraft:shield"
 						tag: {
-							RepairCost: 31
-							Enchantments: [{
-								id: "minecraft:knockback"
-								lvl: 2s
-							}]
 							BlockEntityTag: {
 								Base: 15
 								Patterns: [
 									{
-										Pattern: "mc"
 										Color: 4
+										Pattern: "mc"
 									}
 									{
+										Color: 14
 										Pattern: "flo"
-										Color: 14
 									}
 									{
+										Color: 1
 										Pattern: "tts"
-										Color: 1
 									}
 									{
+										Color: 1
 										Pattern: "bts"
-										Color: 1
 									}
 									{
+										Color: 15
 										Pattern: "cbo"
-										Color: 15
 									}
 									{
+										Color: 15
 										Pattern: "sku"
-										Color: 15
 									}
 									{
-										Pattern: "bo"
 										Color: 14
+										Pattern: "bo"
 									}
 									{
-										Pattern: "bo"
 										Color: 15
+										Pattern: "bo"
 									}
 								]
 							}
 							Damage: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 2s
+							}]
+							RepairCost: 31
 							display: {
-								Name: "{\"text\":\"Aegis\", \"color\":\"gold\"}"
 								Lore: [
 									"{\"text\":\"Shield of Chaos\"}"
 									"{\"text\":\"Unbreakable\"}"
 								]
+								Name: "{\"text\":\"Aegis\", \"color\":\"gold\"}"
 							}
 							unbreakable: 1
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4D16F81AB9FE5B5F"
-					type: "item"
 					item: {
-						id: "minecraft:crossbow"
 						Count: 1b
+						id: "minecraft:crossbow"
 						tag: {
-							RepairCost: 15
+							Damage: 0
 							Enchantments: [{
 								id: "minecraft:quick_charge"
 								lvl: 5s
 							}]
-							Damage: 0
+							RepairCost: 15
 							display: {
-								Name: "{\"text\":\"Exagryph\", \"color\":\"gold\"}"
 								Lore: ["{\"text\":\"The Adamant Rail\"}"]
+								Name: "{\"text\":\"Exagryph\", \"color\":\"gold\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2DD2CBCE8531DF64"
-					type: "item"
 					item: {
-						id: "minecraft:bow"
 						Count: 1b
+						id: "minecraft:bow"
 						tag: {
-							RepairCost: 31
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:infinity"
@@ -1667,65 +1645,93 @@
 									lvl: 1s
 								}
 							]
-							Damage: 0
+							RepairCost: 31
 							display: {
-								Name: "{\"text\":\"Coronacht\", \"color\":\"gold\"}"
 								Lore: ["{\"text\":\"The Heart-Seeking Bow\"}"]
+								Name: "{\"text\":\"Coronacht\", \"color\":\"gold\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1D4362E8C41C383F"
-					type: "item"
 					item: {
-						id: "minecraft:trident"
 						Count: 1b
+						id: "minecraft:trident"
 						tag: {
-							RepairCost: 15
+							Damage: 0
 							Enchantments: [{
 								id: "minecraft:riptide"
 								lvl: 5s
 							}]
-							Damage: 0
+							RepairCost: 15
 							display: {
-								Name: "{\"text\":\"Varatha\", \"color\":\"gold\"}"
 								Lore: [
 									"{\"text\":\"The Eternal Spear\"}"
 									"{\"text\":\"  Aspect of Achilles\"}"
 								]
+								Name: "{\"text\":\"Varatha\", \"color\":\"gold\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "165D9A617B8BA360"
-					type: "item"
 					item: {
-						id: "minecraft:netherite_sword"
 						Count: 1b
+						id: "minecraft:netherite_sword"
 						tag: {
-							RepairCost: 15
+							Damage: 0
 							Enchantments: [{
 								id: "minecraft:sweeping"
 								lvl: 30s
 							}]
-							Damage: 0
+							RepairCost: 15
 							display: {
-								Name: "{\"text\":\"Stygius\", \"color\":\"gold\"}"
 								Lore: ["{\"text\":\"The Blade of the Underworld\"}"]
+								Name: "{\"text\":\"Stygius\", \"color\":\"gold\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "05F828B8616A9507"
-					type: "item"
 					item: {
-						id: "minecraft:iron_pickaxe"
 						Count: 1b
+						id: "minecraft:iron_pickaxe"
 						tag: {
-							RepairCost: 31
+							AttributeModifiers: [
+								{
+									Amount: 20
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										1651970931
+										-1508882340
+										-1475386211
+										-1849167428
+									]
+								}
+								{
+									Amount: 2
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										262443461
+										-2043656626
+										-1590731523
+										48632754
+									]
+								}
+							]
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:knockback"
@@ -1736,56 +1742,40 @@
 									lvl: 3s
 								}
 							]
+							RepairCost: 31
 							display: {
-								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
 								Lore: ["{\"text\":\"The Twin Ends [of]\"}"]
+								Name: "{\"text\":\"Malphon\", \"color\":\"gold\"}"
 							}
-							Damage: 0
-							AttributeModifiers: [
-								{
-									Amount: 20
-									Operation: 0
-									Name: "generic.attack_speed"
-									UUID: [I;
-										1651970931
-										-1508882340
-										-1475386211
-										-1849167428
-									]
-									AttributeName: "generic.attack_speed"
-									Slot: "mainhand"
-								}
-								{
-									Amount: 2
-									Operation: 0
-									Name: "generic.attack_damage"
-									UUID: [I;
-										262443461
-										-2043656626
-										-1590731523
-										48632754
-									]
-									AttributeName: "generic.attack_damage"
-									Slot: "mainhand"
-								}
-							]
 						}
 					}
+					type: "item"
 				}
 			]
+			shape: "pentagon"
+			subtitle: "Send monsters back to Hell"
+			tasks: [
+				{
+					id: "4FC35A920EB9938B"
+					title: "Drinks on the Styx [Click]"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 2L
+					disable_toast: true
+					id: "6EE4EB7F7556CC79"
+					item: "minecraft:gold_block"
+					title: "The Fee [Click]"
+					type: "item"
+				}
+			]
+			title: "Zagreus"
+			x: 4.5d
+			y: -8.5d
 		}
 		{
-			title: "Rogue"
-			icon: {
-				id: "minecraft:tipped_arrow"
-				Count: 1b
-				tag: {
-					Potion: "minecraft:strong_harming"
-				}
-			}
-			x: -3.5d
-			y: -5.5d
-			subtitle: "Craft a Lingering Potion"
+			dependencies: ["0F4FAE3B1041001F"]
 			description: [
 				"&3Dragon's Breath&r can be &dgathered with bottles&r while fighting the &4Ender Dragon&r."
 				""
@@ -1793,89 +1783,95 @@
 				""
 				"An &3off-handed&r bow will &dfire the arrow type in the main hand&r."
 			]
-			dependencies: ["0F4FAE3B1041001F"]
-			id: "710860ECFC84C122"
-			tasks: [{
-				id: "6E56DAE917B8B5AD"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "minecraft:lingering_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:awkward"
-					}
+			icon: {
+				Count: 1b
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:strong_harming"
 				}
-			}]
+			}
+			id: "710860ECFC84C122"
 			rewards: [
 				{
+					count: 3
 					id: "4BBD5D56918482B0"
-					type: "item"
 					item: {
-						id: "minecraft:lingering_potion"
 						Count: 1b
+						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "minecraft:long_poison"
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
+					count: 6
 					id: "33508FE688FE6CFE"
-					type: "item"
 					item: {
-						id: "minecraft:lingering_potion"
 						Count: 1b
+						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "minecraft:strong_healing"
 						}
 					}
-					count: 6
+					type: "item"
 				}
 				{
+					count: 3
 					id: "35A2A1542BB7C29B"
-					type: "item"
 					item: {
-						id: "minecraft:lingering_potion"
 						Count: 1b
+						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "minecraft:strong_slowness"
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
+					count: 6
 					id: "361DC853B9E05076"
-					type: "item"
 					item: {
-						id: "minecraft:lingering_potion"
 						Count: 1b
+						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "minecraft:strong_harming"
 						}
 					}
-					count: 6
+					type: "item"
 				}
 				{
+					count: 3
 					id: "34DF6C60CBABBFA0"
-					type: "item"
 					item: {
-						id: "minecraft:lingering_potion"
 						Count: 1b
+						id: "minecraft:lingering_potion"
 						tag: {
 							Potion: "minecraft:long_weakness"
 						}
 					}
-					count: 3
+					type: "item"
 				}
 			]
+			subtitle: "Craft a Lingering Potion"
+			tasks: [{
+				disable_toast: true
+				id: "6E56DAE917B8B5AD"
+				item: {
+					Count: 1b
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:awkward"
+					}
+				}
+				type: "item"
+			}]
+			title: "Rogue"
+			x: -3.5d
+			y: -5.5d
 		}
 		{
-			title: "Lemaign"
-			icon: "minecraft:stone_bricks"
-			x: 0.5d
-			y: 1.5d
-			subtitle: "Acquire defensive materials"
+			dependencies: ["42E807C7DFC19EBF"]
 			description: [
 				"Improvised defenses are often devised of &dharmful barriers and traps&r."
 				""
@@ -1889,67 +1885,67 @@
 				""
 				"&7[Fabrication]&r Cactus &ddoesn't destroy items&r, making it easier to create traps from."
 			]
-			dependencies: ["42E807C7DFC19EBF"]
 			hide: true
+			icon: "minecraft:stone_bricks"
 			id: "745E392CA5AEA00D"
-			tasks: [
-				{
-					id: "24CF62AE30B967D5"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:cactus"
-				}
-				{
-					id: "0902CDEF8811150A"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:water_bucket"
-				}
-				{
-					id: "31FD7D7BBBB9AD94"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:soul_sand"
-				}
-				{
-					id: "3F83573828660A8E"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:netherrack"
-				}
-			]
 			rewards: [
 				{
 					id: "6D77A075734742C2"
-					type: "item"
 					item: "minecraft:powder_snow_bucket"
+					type: "item"
 				}
 				{
+					count: 32
 					id: "4DB2617B6D2A84B7"
-					type: "item"
 					item: "minecraft:cactus"
-					count: 32
+					type: "item"
 				}
 				{
-					id: "1C926FFA7B57952C"
-					type: "item"
-					item: "minecraft:magma_block"
 					count: 64
+					id: "1C926FFA7B57952C"
+					item: "minecraft:magma_block"
+					type: "item"
 				}
 				{
-					id: "36ACCCEC6766FA37"
-					type: "item"
-					item: "minecraft:cobweb"
 					count: 32
+					id: "36ACCCEC6766FA37"
+					item: "minecraft:cobweb"
+					type: "item"
 				}
 			]
+			subtitle: "Acquire defensive materials"
+			tasks: [
+				{
+					disable_toast: true
+					id: "24CF62AE30B967D5"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0902CDEF8811150A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "31FD7D7BBBB9AD94"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F83573828660A8E"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+			]
+			title: "Lemaign"
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			title: "Olak"
-			icon: "minecraft:tnt"
-			x: 2.0d
-			y: 0.0d
-			subtitle: "Acquire risky materials"
+			dependencies: ["42E807C7DFC19EBF"]
 			description: [
 				"&3Lava Buckets&r are an intense alternative to &3Flint and Steel&r - decimating crowds of unprepared mobs at the cost of their drops."
 				""
@@ -1961,254 +1957,279 @@
 				""
 				"&3Fall Damage&r can be your friend by hooking a mob on a &3Fishing Rod&r from very high above. Large &3pillars&r or &3Gliding&r can achieve this."
 			]
-			dependencies: ["42E807C7DFC19EBF"]
 			hide: true
+			icon: "minecraft:tnt"
 			id: "5CE64305EE23917A"
-			tasks: [
-				{
-					id: "45B5320B6047A2A3"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:lava_bucket"
-				}
-				{
-					id: "5183D9A746C01BA5"
-					type: "item"
-					title: "Bed"
-					icon: "minecraft:red_bed"
-					disable_toast: true
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:beds"
-						}
-					}
-				}
-				{
-					id: "4D378B775FD99873"
-					type: "item"
-					title: "Splash Potion: Poison II"
-					disable_toast: true
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_poison"
-						}
-					}
-				}
-				{
-					id: "6529E7DCE66DE510"
-					type: "item"
-					disable_toast: true
-					item: {
-						id: "minecraft:fishing_rod"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-			]
 			rewards: [
 				{
+					count: 3
 					id: "404C593B0C3F2638"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:strong_slowness"
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
+					count: 3
 					id: "0E7DF24905B9DBAA"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:strong_harming"
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
+					count: 3
 					id: "703514C5A7050A38"
-					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
 						Count: 1b
+						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:strong_healing"
 						}
 					}
-					count: 3
+					type: "item"
 				}
 				{
-					id: "190317846E468685"
-					type: "item"
-					item: "minecraft:tnt"
 					count: 4
+					id: "190317846E468685"
+					item: "minecraft:tnt"
+					type: "item"
 				}
 				{
+					count: 3
 					id: "460FDDDDF317DC48"
-					type: "item"
 					item: "minecraft:end_crystal"
-					count: 3
+					type: "item"
 				}
 				{
-					id: "1C81447FC4D47B20"
-					type: "item"
-					item: "minecraft:obsidian"
 					count: 3
+					id: "1C81447FC4D47B20"
+					item: "minecraft:obsidian"
+					type: "item"
 				}
 				{
 					id: "7A89AF556DE4C7C8"
-					type: "item"
 					item: {
-						id: "minecraft:fishing_rod"
 						Count: 1b
+						id: "minecraft:fishing_rod"
 						tag: {
+							Damage: 0
 							RepairCost: 31
 							Unbreakable: 1
-							Damage: 0
 							display: {
-								Name: "[{\"text\":\"Chain Hook\",\"italic\":false}]"
 								Lore: ["[{\"text\":\"C'mere!\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Chain Hook\",\"italic\":false}]"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Acquire risky materials"
+			tasks: [
+				{
+					disable_toast: true
+					id: "45B5320B6047A2A3"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "minecraft:red_bed"
+					id: "5183D9A746C01BA5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "Bed"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4D378B775FD99873"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+					title: "Splash Potion: Poison II"
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "6529E7DCE66DE510"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Olak"
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			title: "Dio's Best Friend"
-			x: -1.5d
-			y: 3.0d
-			subtitle: "Acquire a Totem of Undying"
+			dependencies: ["479E0E3F26F179CE"]
 			description: [
 				"&cEvokers&r drop a &3Totem of Undying&r on death. "
 				""
 				"The Totem of Undying &dprevents player death&r. Instead of dying, the totem is consumed - giving the player a &dsmall health boost and protective buffs&r."
 				""
-				"&7[Totem Anywhere]&r Totems work from &dany slot of the inventory&r."
+				"&7[Totem Anywhere]&r Totems work from &dany slot of the inventory&r - but not &ebundles&r!"
 			]
-			dependencies: ["479E0E3F26F179CE"]
 			hide: true
 			id: "3C5FCE8C61F8A84B"
-			tasks: [{
-				id: "7E973FBCC832794D"
-				type: "item"
-				disable_toast: true
-				item: "minecraft:totem_of_undying"
-			}]
 			rewards: [{
-				id: "3588976E4E0B3FE8"
+				id: "3AFE2DDB58D42CEB"
+				item: "minecraft:bundle"
 				type: "item"
-				item: "minecraft:enchanted_golden_apple"
 			}]
+			subtitle: "Acquire a Totem of Undying"
+			tasks: [{
+				disable_toast: true
+				id: "7E973FBCC832794D"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Dio's Best Friend"
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			title: "Straight Illin'"
-			x: -1.5d
-			y: 1.5d
-			subtitle: "Kill a Pillager"
 			description: [
 				"&cIllagers&r come in many varieties, with basic &cPillagers&r wielding &3crossbows&r."
 				""
-				"More dangerous variants include &cVindicators&r, fast illagers wielding &3iron axes&r."
+				"Killing a &3Banner&r-bearing &cCaptain Pillager&r inflicts &3Bad Omen&r, initiating a &4Raid&r at the next village visited unless &eCleansed&r."
 				""
-				"The harder, rarer variants are &cEvokers&r, who may summon &3jaws&r from the ground, or summon flying &cVexes&r that attack the player."
+				"In raids and mansions &cVindicators&r appear, moving fast and wielding &3iron axes&r - and &cEvokers&r, dangerous spellcasters."
 				""
-				"Evokers have a &dcooldown between their spells&r, which must be utilized to best take them out."
+				"Evokers have a vulnerable &dcooldown between spells&r, which include summoning &3ground jaws&r, or summoning flying &cVexes&r."
 				""
 				"Finally, &cRavagers&r are large mounted beasts that spawn purely in &4Raids&r, and are best taken out &dfrom below or while distracted&r."
 			]
 			hide: true
-			invisible: true
 			id: "479E0E3F26F179CE"
+			invisible: true
+			rewards: [{
+				id: "3D59A9269D4E8EF7"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			subtitle: "Kill a Pillager"
 			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "minecraft:dark_oak_door"
 				id: "2918E017D78CE0A0"
 				type: "kill"
-				icon: "minecraft:dark_oak_door"
-				entity: "minecraft:pillager"
 				value: 1L
 			}]
+			title: "Straight Illin'"
+			x: -1.5d
+			y: 1.5d
 		}
 		{
+			description: [
+				"&3Monster Spawners&r endlessly spawn the monster shown inside in waves until &3broken&r."
+				""
+				"Mobs still respect &3spawning rules&r for the mob and dimension - so most overworld spawners can be &ddefused&r with &eLights&r to save for later."
+			]
+			hide: true
+			id: "632CF29BB6751771"
+			invisible: true
+			rewards: [{
+				id: "44B50C5F221AE134"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			subtitle: "Find a Monster Spawner"
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "6CF139C6D8BAEB50"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Monster Spawner"
+				to_observe: "minecraft:spawner"
+				type: "observation"
+			}]
+			title: "Argent Tower"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Halfdoors]&r"
+				""
+				"A &3Door Launcher&r is a handheld device capable of sending &dmechanically propelled halfdoors through scary monsters&r."
+				""
+				"It consumes &eHalfdoors&r on use, which can be picked up if they miss."
+				""
+				"&3Iron Halfdoors&r deal more damage. The Door Launcher can also be &dupgraded&r through smithing for &dvarious improvements&r."
+			]
+			hide: true
+			id: "0ADBA66707A72B35"
+			rewards: [{
+				count: 16
+				id: "319651CE5A8731F8"
+				item: "halfdoors:oak_halfdoor"
+				type: "item"
+			}]
+			subtitle: "Acquire a Door Launcher"
+			tasks: [{
+				disable_toast: true
+				id: "08EFAF64F2B18B5A"
+				item: {
+					Count: 1b
+					id: "halfdoors:door_launcher"
+					tag: { }
+				}
+				type: "item"
+			}]
 			title: "I Wouldn't Trust Me Either"
 			x: -2.5d
 			y: -4.0d
-			subtitle: "Acquire a Door Launcher"
-			description: [
-				"A door launcher is a handheld device to send mechanically propelled halfdoors in the faces of scary monsters."
-				""
-				"It uses halfdoors as ammo, and can be upgraded at a smithing table with special materials."
-			]
-			dependencies: ["72CC6869A3793E22"]
-			hide: true
-			id: "0ADBA66707A72B35"
-			tasks: [{
-				id: "08EFAF64F2B18B5A"
-				type: "item"
-				disable_toast: true
-				item: {
-					id: "halfdoors:door_launcher"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "319651CE5A8731F8"
-				type: "item"
-				item: "halfdoors:oak_halfdoor"
-				count: 16
-			}]
 		}
 		{
-			title: "NGAHHH!!!!!"
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Campanion]&r"
+				""
+				"The &3Spear&r is the landlubber of the &3Trident&r - a &3Hybrid Melee-Ranged Weapon&r. "
+				""
+				"It can receive standard &3melee weapon enchanments&r, alongside &ePiercing&r, making its thrown attack &dtravel through enemies&r."
+			]
+			hide: true
 			icon: {
-				id: "campanion:iron_spear"
 				Count: 1b
+				id: "campanion:iron_spear"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: 0.5d
-			y: -3.0d
-			subtitle: "Acquire a Spear"
-			description: [
-				"The Campanion spear is the land-lubbering brother of the Trident - it works as a melee weapon, and can be thrown with use."
-				""
-				"Unlike the trident, it can be enchanted to pierce through enemies."
-			]
-			dependencies: ["72CC6869A3793E22"]
-			hide: true
 			id: "005AB44C0F20C556"
-			tasks: [{
-				id: "3238C1F9CB32C68D"
-				type: "item"
-				title: "Any Spear"
-				disable_toast: true
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "campanion:spears"
-					}
-				}
-			}]
 			rewards: [{
 				id: "362C8D7B041BC30A"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:piercing"
@@ -2216,47 +2237,78 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Acquire a Spear"
+			tasks: [{
+				disable_toast: true
+				id: "3238C1F9CB32C68D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "campanion:spears"
+					}
+				}
+				title: "Any Spear"
+				type: "item"
+			}]
+			title: "NGAHHH!!!!!"
+			x: 0.5d
+			y: -3.0d
 		}
 		{
-			title: "Where's my Cloak"
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Farmer's Delight]&r"
+				""
+				"A &3Knife&r can cut ingredients placed on a &3Cutting Board&r with &7[&r&6Right-Click&r&7]&r"
+				""
+				"They're also viable &dmelee weapons&r with a &dlow attack cooldown&r."
+				""
+				"They can receive &3melee weapon enchantments&r, along with &eBackstabbing&r, which &dincreases damage from behind enemies&r."
+			]
+			hide: true
 			icon: {
-				id: "farmersdelight:golden_knife"
 				Count: 1b
+				id: "farmersdelight:golden_knife"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: -3.5d
-			y: -1.0d
-			subtitle: "Acquire a Knife"
-			description: [
-				"Knives are mainly for cutting ingredients - use an ingredient on a cutting board, then use a knife on it!"
-				""
-				"However, they also work as weapons in a pinch. Unfortunately, they can't be enchanted."
-			]
-			dependencies: ["72CC6869A3793E22"]
-			hide: true
 			id: "243427D8CFF65490"
-			tasks: [{
-				id: "2C4F7623C5745F47"
-				type: "item"
-				title: "Any Knife"
-				disable_toast: true
+			rewards: [{
+				id: "7CF485029A136E35"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire a Knife"
+			tasks: [{
+				disable_toast: true
+				id: "2C4F7623C5745F47"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "c:tools/knives"
 					}
 				}
-			}]
-			rewards: [{
-				id: "3BCD78B8E6183450"
+				title: "Any Knife"
 				type: "item"
-				item: "farmersdelight:cutting_board"
 			}]
+			title: "Where's my Cloak"
+			x: -3.5d
+			y: -1.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Self-Defense"
 }
