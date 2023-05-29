@@ -2093,13 +2093,13 @@
 				""
 				"The Totem of Undying &dprevents player death&r. Instead of dying, the totem is consumed - giving the player a &dsmall health boost and protective buffs&r."
 				""
-				"&7[Totem Anywhere]&r Totems work from &dany slot of the inventory&r."
+				"&7[Totem Anywhere]&r Totems work from &dany slot of the inventory&r - but not &ebundles&r!"
 			]
 			hide: true
 			id: "3C5FCE8C61F8A84B"
 			rewards: [{
-				id: "3588976E4E0B3FE8"
-				item: "minecraft:enchanted_golden_apple"
+				id: "3AFE2DDB58D42CEB"
+				item: "minecraft:bundle"
 				type: "item"
 			}]
 			subtitle: "Acquire a Totem of Undying"
@@ -2117,17 +2117,22 @@
 			description: [
 				"&cIllagers&r come in many varieties, with basic &cPillagers&r wielding &3crossbows&r."
 				""
-				"More dangerous variants include &cVindicators&r, fast illagers wielding &3iron axes&r."
+				"Killing a &3Banner&r-bearing &cCaptain Pillager&r inflicts &3Bad Omen&r, initiating a &4Raid&r at the next village visited unless &eCleansed&r."
 				""
-				"The harder, rarer variants are &cEvokers&r, who may summon &3jaws&r from the ground, or summon flying &cVexes&r that attack the player."
+				"In raids and mansions &cVindicators&r appear, moving fast and wielding &3iron axes&r - and &cEvokers&r, dangerous spellcasters."
 				""
-				"Evokers have a &dcooldown between their spells&r, which must be utilized to best take them out."
+				"Evokers have a vulnerable &dcooldown between spells&r, which include summoning &3ground jaws&r, or summoning flying &cVexes&r."
 				""
 				"Finally, &cRavagers&r are large mounted beasts that spawn purely in &4Raids&r, and are best taken out &dfrom below or while distracted&r."
 			]
 			hide: true
 			id: "479E0E3F26F179CE"
 			invisible: true
+			rewards: [{
+				id: "3D59A9269D4E8EF7"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
 			subtitle: "Kill a Pillager"
 			tasks: [{
 				entity: "minecraft:pillager"
@@ -2139,6 +2144,34 @@
 			title: "Straight Illin'"
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			description: [
+				"&3Monster Spawners&r endlessly spawn the monster shown inside in waves until &3broken&r."
+				""
+				"Mobs still respect &3spawning rules&r for the mob and dimension - so most overworld spawners can be &ddefused&r with &eLights&r to save for later."
+			]
+			hide: true
+			id: "632CF29BB6751771"
+			invisible: true
+			rewards: [{
+				id: "44B50C5F221AE134"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			subtitle: "Find a Monster Spawner"
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "6CF139C6D8BAEB50"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Monster Spawner"
+				to_observe: "minecraft:spawner"
+				type: "observation"
+			}]
+			title: "Argent Tower"
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	title: "Self-Defense"

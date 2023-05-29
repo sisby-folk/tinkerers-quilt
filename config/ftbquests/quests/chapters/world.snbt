@@ -58,17 +58,24 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"1.8 added &2Ocean Monuments&r - underground fortresses with &dniche loot&r but interesting architecture. They can be found using &3Ocean Explorer Maps&r sold by &3cartographers&r."
+				"&2Ocean Monuments&r are underwater fortresses containing &cGuardians&r, &cElder Guardians&r, &3Prismarine Crystals&r and &3Sponges&r."
 				""
-				"They're guarded by - get this - &3guardians&r. Who &3prevent you from mining&r through the structure and can &3shoot short range bolts&r."
+				"They can be found using &3Ocean Explorer Maps&r sold by &aCartographers&r."
 				""
-				"These areas often require &3advanced gear&r to combat guardians, but are the only source of &3prismarine shards&r, required for &3tridents&r and &3conduits&r."
+				"&cGuardians&r are stone-like fish that fire charged &3Lasers&r at the player, and can extend their spikes to &dreflect melee damage&r."
+				""
+				"Each fortress is guarded by three &cElder Guardians&r, a boss-like variant of Guardians that inflict &3Mining Fatigue&r to all visitors."
 			]
 			hide: true
 			id: "5DC1E9DC98895E6F"
 			rewards: [
 				{
-					id: "5CF5264902A13E2F"
+					id: "2EE6D4829F7AD6ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4653B3BA9076A428"
 					item: {
 						Count: 1b
 						id: "minecraft:potion"
@@ -77,25 +84,6 @@
 						}
 					}
 					type: "item"
-				}
-				{
-					id: "47C1ABDEF844189F"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:impaling"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2EE6D4829F7AD6ED"
-					type: "xp"
-					xp: 50
 				}
 			]
 			subtitle: "Find an Ocean Monument"
@@ -176,43 +164,19 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Abandoned mineshafts&r are a good way to &3find your way&r between &2caves&r and &dcollect loot&r (especially &eminecarts&r and &erails&r!)"
+				"&2Abandoned Mineshafts&r often connect caves, and contain &dminecarts, rails, and other loot&r!"
 				""
-				"&eMinecarts&r in this modpack have some improvements - check out the &3travel section of Homesteading&r for more!"
+				"Mineshaft hallways can also contain &cCave Spider&r spawners and &3Cobwebs&r. "
 				""
-				"&2Mineshafts&r also include &ccave spiders&r and &3cobwebs&r, and &dminecart chests containing loot&r - including &3name tags&r, &3pumpkin and melon seeds&r, and &3ore&r!"
+				"&3Chest Minecarts&r contain the most loot - including &dname tags, pumpkin and melon seeds, and ore&r!"
 			]
 			hide: true
 			id: "55DDA9D21E24AF10"
-			rewards: [
-				{
-					count: 12
-					id: "123484FB0AFF0886"
-					item: "minecraft:powered_rail"
-					type: "item"
-				}
-				{
-					count: 40
-					id: "10A6F077FDB7EE3B"
-					item: "minecraft:rail"
-					type: "item"
-				}
-				{
-					id: "67EB60D542878ED0"
-					item: "minecraft:furnace_minecart"
-					type: "item"
-				}
-				{
-					id: "0173CC76F25E5D16"
-					item: "minecraft:minecart"
-					type: "item"
-				}
-				{
-					id: "3C2CDDC1AECDF2CE"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "3C2CDDC1AECDF2CE"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Find an Abandoned Mineshaft"
 			tasks: [{
 				disable_toast: true
@@ -231,7 +195,7 @@
 			description: [
 				"&2Lush Caves&r are indicated by the presence of a flowering &3Azalea Tree&r on the surface above."
 				""
-				"&2Lush caves&r contain &aAxolotls&r, &3Moss&r, &3Azalea Plants&r, and &3Glow Berries&r."
+				"&2Lush Caves&r contain &aAxolotls&r, &3Moss&r, &3Azalea Plants&r, and &3Glow Berries&r."
 				""
 				"&3Glow Berries&r are a food that can be &dgrown underneath blocks&r, and &demit light&r while growing."
 			]
@@ -326,27 +290,17 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"These ruins are full of hostile, well-equipped &cpiglin brutes&r that can &ckill most players in a few hits&r."
+				"A &2Bastion Remnant&r is a high-level fortress full of well-equipped &cPiglin Brutes&r - and a &dlarge variety of loot&r."
 				""
-				"And &dimmense amounts of gold, iron, and loot&r."
-				""
-				"They also contain regular &cpiglins&r, which can be &dtraded with&r. Be wary, as these piglins can &3become hostile&r if whipped up into a &3frenzy&r by a &cpiglin brute&r."
+				"Brutes can also aggravate normally-neutral &aPiglins&r - which can lead to being quickly overrun."
 			]
 			hide: true
 			id: "08398FBBB792C742"
-			rewards: [
-				{
-					count: 16
-					id: "1A2746817A291644"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					id: "5E9BB26ADED7D3B7"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "5E9BB26ADED7D3B7"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Find a Bastion Remnant"
 			tasks: [{
 				disable_toast: true
@@ -363,9 +317,9 @@
 		{
 			dependencies: ["08398FBBB792C742"]
 			description: [
-				"&3Lodestones&r can be interacted with using a &ecompass&r, causing them to &dpoint to it at all times&r, in any dimension."
+				"A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the &dneedle to point towards it&r when in the same dimension."
 				""
-				"Along with &3spawning in bastions&r, they can also be crafted using &3netherite&r and &3carved stone&r."
+				"&3Lodestones&r can be looted from &2Bastions&r, or crafted. "
 			]
 			hide: true
 			id: "449397788969C004"
@@ -432,18 +386,30 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&3Turtles&r can be found roaming on beaches. And can be &3bred using&r &eSeagrass&r."
+				"&3Turtles&r can be found roaming on &2Beaches&r. "
 				""
-				"Turtles breed yielding &3eggs&r, which must be &3protected until they hatch&r. &dRaising a turtle will grant you a Scute&r."
+				"Their favourite food is &eSeagrass&r."
+				""
+				"Bred turtles lay &3Turtle Eggs&r, which hatch after many days if not &3trampled&r by mobs - build a &eFence&r!"
+				""
+				"When it grows into an adult, a &3Baby Turtle&r drops a &dScute&r."
 			]
 			hide: true
 			id: "687ED1196101F48D"
-			rewards: [{
-				count: 10
-				id: "7C89F52AB86043C4"
-				item: "minecraft:seagrass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "7C89F52AB86043C4"
+					item: "minecraft:seagrass"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "57BADD860E69CFA5"
+					item: "minecraft:oak_fence"
+					type: "item"
+				}
+			]
 			subtitle: "Find a Turtle"
 			tasks: [{
 				disable_toast: true
@@ -465,9 +431,9 @@
 				"47ED4204DD0D65C4"
 			]
 			description: [
-				"&3Turtle shells&r provide additional &dtime underwater&r, similar to the &3Respiration&r enchantment. "
+				"&3Turtle Shells&r are helmets that provide additional &dBreath Capacity&r, similar to the &3Respiration&r enchantment. "
 				""
-				"They can also be brewed into three &ePotion of the Turtle Master&r."
+				"They can also be brewed into three &ePotion of the Turtle Master&r - a specialized &3Combat Potion&r that &dslows you&r."
 			]
 			hide: true
 			hide_dependency_lines: false
@@ -663,11 +629,13 @@
 				"47ED4204DD0D65C4"
 			]
 			description: [
-				"&2Mansions&r are sprawling fortresses full of &3many kinds of rooms&r with &dspecial loot&r, &cenemies&r, and &chazards&r."
+				"&2Woodland Mansions&r are dark oak fortresses full of &3many room types&r with &dspecial loot&r, &cIllagers&r, and traps."
 				""
 				"They can be found using &3Woodland Explorer Maps&r sold by &3cartographers&r."
 				""
-				"&2Mansion rooms&r can contain many &duseful materials&r, including an immense number of &3bookshelves&r, and &3chests&r tucked away in corners. In &3two special rooms&r, &ddiamond blocks&r can be found encased in obsidian and lava."
+				"Rooms can contain many useful, including &3Bookshelves&r, &3Crops&r, and &3Loot Chests&r - often &dtucked in corners&r. "
+				""
+				"In rare rooms, &dDiamond Blocks&r can be found encased in &3Obsidian&r or &3Lava&r."
 			]
 			hide: true
 			id: "7CEE48A412C94320"
@@ -676,7 +644,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Find a Mansion"
+			subtitle: "Find a Woodland Mansion"
 			tasks: [{
 				disable_toast: true
 				icon: "minecraft:dark_oak_stairs"
@@ -781,15 +749,13 @@
 				"3E19CC5752F07CF9"
 			]
 			description: [
-				"&3Beacons&r with &3stained glass&r above &dchange their beam colour&r."
+				"&3Beacons&r beams can be coloured with &3Stained Glass&r."
 				""
-				"A &36-beacon pyramid&r can be made with an &311x10 base&r, and &33x2 beacons at the top&r."
+				"Beacons can be placed adjacent to eachother to &duse less pyramid materials&r."
 				""
-				"With these materials, the whole &311x10 base&r must be &ecopper&r, then, build a &36x7&r &egold&r pyramid on top of the centre, then &3set all of the outer edges in copper&r, and &3top the 6 gold blocks&r with &3beacons&r."
+				"As an example, three level 2 beacons can be arranged in a line using only &e46 Pyramid Blocks&r."
 				""
-				"It has a radius of &350 blocks&r in each direction. Have fun making a &d100x100 circular base&r!"
-				""
-				"&7[Tinkerer's Quilt]&r By keeping any Copper Blocks on the outermost layer of a beacon, it stays easy to clean."
+				"&7[Tinkerer's Quilt]&r By keeping any &3Copper Blocks&r on the outermost layer of a &3Beacon&r pyramid, it stays easy to clean. "
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -881,43 +847,40 @@
 					type: "item"
 				}
 				{
-					count: 68
+					count: 14
 					id: "41FB1A8C265AF4A6"
 					item: "minecraft:gold_block"
 					type: "item"
 				}
 				{
-					count: 176
+					count: 32
 					id: "35EF258CE7DA207D"
 					item: "minecraft:copper_block"
 					type: "item"
 				}
 				{
-					count: 6
+					count: 3
 					id: "78BEDB58DB379044"
 					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
-					count: 6
+					count: 3
 					id: "69C9A06A42299AEF"
 					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "7DD08B86F7FF6997"
 					item: "minecraft:pink_stained_glass"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "35FDF1F93AFA33C3"
 					item: "minecraft:white_stained_glass"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "4AF0E01CB24EB481"
 					item: "minecraft:light_blue_stained_glass"
 					type: "item"
@@ -968,31 +931,20 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Outposts&r are structures defended and inhabited by many hostile &cPillagers&r."
+				"&2Outposts&r are structures defended by many &3Crossbow&r-wielding &cPillagers&r."
 				""
-				"This includes an &cOutpost Captain&r, inflicting the &3Bad Omen&r debuff that, if not cleared, incurs a &cwave-based battle at the next visited village&r."
+				"Killing a &3Banner&r-bearing &cCaptain Pillager&r inflicts &3Bad Omen&r, initiating a &4Raid&r at the next village visited unless cleansed."
 				""
-				"&eMilk&r clears all status effects when consumed."
-				""
-				"Outposts are a &dgreat source&r of Bad Omen, crossbows, and a fun challenge. Bring a &3shield&r!"
-				""
-				"&3Goat horns&r can also be found here."
+				"Basic loot and &3Goat Horns&r can be found here."
 			]
 			hide: true
 			icon: "minecraft:spruce_stairs"
 			id: "30EEC5B4C5178E93"
-			rewards: [
-				{
-					id: "3167F3EE675CA950"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "12A3EC5E16591FF4"
-					item: "minecraft:milk_bucket"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3167F3EE675CA950"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Find an Outpost"
 			tasks: [{
 				disable_toast: true
@@ -1009,15 +961,11 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Shipwrecks&r spawn underwater, and require &3air management to appropriately navigate&r. &2Beached shipwrecks&r also exist, which are found in the sand."
+				"&2Shipwrecks&r can be found deep underwater, or &2Beached&r."
 				""
-				"They contain &dup to 3 chests&r, depending on how much of the ship is &3intact&r."
+				"They contain up to &d3 loot chests&r, depending on the wreck's condition."
 				""
-				"The &3bow of the ship&r is where supplies are stored, including &dprovisions and clothing&r."
-				""
-				"The &3upper stern&r is where treasure is kept, including &dore and jewels&r."
-				""
-				"The &3lower stern&r is where navigating equipment is kept, including &dtreasure maps and compasses&r."
+				"The &3Bow&r contains &dSupplies&r, the &3Upper Stern&r contains &dTreasure&r, and the &3Lower Stern&r contains &dNavigation Equipment&r"
 			]
 			hide: true
 			id: "7FC50C764AF1D65A"
@@ -1055,13 +1003,13 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Desert temples&r contain &dloot&r inside a giant &cTNT-trapped pit&r."
+				"&2Desert Temples&r contain a &3TNT&r-&3Pressure Plate&r pit trap with &dloot chests&r inside."
 				""
-				"&3Digging&r down on the &cblue terracotta is a trap&r, and the player should instead &3dig down directly adjacent&r to one of the &3four nearby pillars&r."
+				"A pattern adorns the centre of the centre of the temple, concealing the pit. By &dbreaking the centre blocks without standing on them&r, the pit can be revealed."
 				""
-				"When they break into the pit, they should &3light&r up the area, and when reaching the bottom, they should &3break the stone pressure plate&r that would normally trigger the TNT trap."
+				"The explosive pressure plate is visible in the centre of the pit. After &dmining downwards to reach the bottom&r, the pressure plate can be broken to defuse the trap."
 				""
-				"Then, the loot, redstone, and TNT, can all be taken."
+				"The &3Chests&r and &3TNT&r can then both be taken."
 			]
 			hide: true
 			icon: "minecraft:chiseled_sandstone"
@@ -1090,13 +1038,11 @@
 				"47ED4204DD0D65C4"
 			]
 			description: [
-				"&2Jungle temples&r are full of &3traps&r, including hard-to-spot &3tripwires&r - which can only be &3safely broken using&r &eshears&r. They're also &dfull of loot&r, found in chests."
+				"&2Jungle Temples&r contain &3Tripwire&r-&3Dispenser&r dart traps and &dvaluable loot&r."
 				""
-				"Some of this &dloot&r is &3hidden behind a three-lever puzzle&r. Which can be solved as follows:"
+				"&3Tripwire&r traps can only be safely dismantled using &eShears&r."
 				""
-				"First, flick the lever &3furthest away from the staircase&r."
-				"Next, flick the lever &3closest to the staircase&r."
-				"Finally, &3return both&r to their &3original position&r, starting with the one &3closest to the staircase&r."
+				"Some loot is revealed by a &3Lever&r puzzle, but nothing stops you from &dbreaking in instead&r."
 			]
 			hide: true
 			icon: "minecraft:mossy_cobblestone"
@@ -1135,9 +1081,9 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Cold ocean ruins&r spawn in most &2oceans&r - including oceans, cold oceans, and frozen oceans."
+				"&2Ocean Ruins&r are guarded by &cDrowned&r and contain &dloot chests - including Buried Treasure Maps&r!"
 				""
-				"&2Warm ocean ruins&r spawn in lukewarm and warm oceans, characterized by their sandy floors, light blue to aquamarine water, &3kelp&r and (in warm oceans) &3corals&r."
+				"Ruins are either made of &3Stone Brick&r in the &2Colder Ocean Biomes&r (with deeper blue water), or &3Sandstone Bricks&r in &2Warmer Ocean Biomes&r (like those with &3Coral&r)!"
 			]
 			hide: true
 			icon: "minecraft:mossy_stone_bricks"
@@ -1721,11 +1667,13 @@
 		{
 			dependencies: ["30EEC5B4C5178E93"]
 			description: [
-				"&3Allays&r can spawn in the &2prisons of mansions and outposts&r. "
+				"&3Allays&r can be found imprisoned in some &2Mansions&r and &2Outposts&r. "
 				""
-				"If given an &3item to hold&r, allays will &dfollow the player&r, and collect &ddropped similar items&r from the ground and bring them to the player."
+				"When given any item, Allays follow the player and &dcollect similar dropped items&r, returning them to the player."
 				""
-				"If given an &eamethyst shard&r, an allay will &dbecome two allays&r."
+				"If they hear a &3Note Block&r, they'll return items there for a little while."
+				""
+				"Allays can be duplicated with &eAmethyst Shards&r."
 			]
 			hide: true
 			id: "3E19CC5752F07CF9"
