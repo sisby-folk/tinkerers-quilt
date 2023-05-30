@@ -5,7 +5,7 @@
     "show_entities": true,
     "show_icon": true,
     "icon_position": "MIDDLE",
-    "show_mod_name": false,
+    "show_mod_name": true,
     "show_item_mod_name": false,
     "show_registry": false
   },
