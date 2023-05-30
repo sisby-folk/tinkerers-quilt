@@ -261,6 +261,14 @@ file = "config/travelerstitles-fabric-1_19.toml"
 hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
 
 [[files]]
+file = "config/waila/waila.json"
+hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
+
+[[files]]
+file = "config/waila/waila_plugins.json"
+hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
+
+[[files]]
 file = "config/yigd.toml"
 hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
 
@@ -334,11 +342,11 @@ hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
 
 [[files]]
 file = "config/yosbr/config/waila/waila.json"
-hash = "a6aa56d476321af40170060736245ac49f2c0f3d1d3b24edfede0cbcf1dba9da"
+hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
 
 [[files]]
 file = "config/yosbr/config/waila/waila_plugins.json"
-hash = "c5a1865fc07e60f0717a656548859478825ed38453934f13b4388c58fb9f2e19"
+hash = "29e2704167b1c425c26aa6644c947fee16991a9b1381faf50390dc1089975d66"
 
 [[files]]
 file = "config/yosbr/options.amecsapi.txt"
