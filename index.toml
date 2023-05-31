@@ -21,10 +21,6 @@ file = "config/apathy/mobs.cfg"
 hash = "a73bd0828dee679ecb97cda97fc792337a72a95210fa3559fda4395d6ade3e88"
 
 [[files]]
-file = "config/appleskin.json5"
-hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
-
-[[files]]
 file = "config/boring_default_game_rules/config.json"
 hash = "d470b8c9c401dfd6edb8c849c849200409cdafd0262b9aa3f86a58e894517ea4"
 
@@ -141,10 +137,6 @@ file = "config/sidebar_buttons.json"
 hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
-file = "config/simplefog.json"
-hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
-
-[[files]]
 file = "config/snowrealmagic-client.toml"
 hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
 
@@ -167,6 +159,10 @@ hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
 [[files]]
 file = "config/yosbr/config/SkipTransitions.properties"
 hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
+
+[[files]]
+file = "config/yosbr/config/appleskin.json5"
+hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -205,8 +201,12 @@ file = "config/yosbr/config/qdaa.ini"
 hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
 
 [[files]]
+file = "config/yosbr/config/simplefog.json"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
+
+[[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
-hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
+hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
