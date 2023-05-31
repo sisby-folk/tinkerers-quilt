@@ -222,6 +222,7 @@ Follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_m
 Resource Packs:
     Axolotl Bucket Variants
     Sully's Peeves
+    Vanilla Tweaks
     Varied Connected Bookshelves
     xali's Enchanted Books
 
@@ -234,8 +235,7 @@ Mods:
     Architectury API
     bad packets
     Balm
-    Bedrock Waters
-    Better Biome Blend
+    BedrockWaters
     Better End Sky
     Boring Default Game Rules
     Cardinal Ice Boats
@@ -243,10 +243,11 @@ Mods:
     Carpet-Fixes
     Carpet
     Charmonium
+    ChickensShed
     Chunks fade in
     CIT Resewn
     CleanCut
-    Client Tweaks (Fabric Edition)
+    Client Tweaks
     Cloth Config API
     Colormatic
     Continuity
@@ -254,42 +255,42 @@ Mods:
     Coyote Time
     Crowmap
     Crunchy Crunchy Advancements
-    DeftuLib
-    Drogtor the Nickinator
-    Dyeable Fishing Lines
+    Drogstyle
+    [Jar/Fork] Dyable Fishing Lines
     Dynamic FPS
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
+    EasierEnchanting
     Enhanced Block Entities
     EMI
     EMI Trades
     Enhanced Attack Indicator
     Exordium
-    Fabric Language Kotlin
-    Fabric Shield Lib
-    Feed the Bees
-    Fishing Real
     Window Title Changer
     Fabrication
+    Fabric Shield Lib
     Fabric Tailor
     Falling Leaves
-    FastLoad
     FastOpenLinksAndFolders
+    Feed the Bees
     FerriteCore
+    Fishing Real
     FTB Library (Fabric)
     FTB Quests (Fabric)
     FTB Teams (Fabric)
     Horse Buff
-    Hwyla Addon Horse Info
     Idwtialsimmoedm
+    [Jar/Fork] Illuminations
     ImmediatelyFast
     Indium
+    [Jar/Fork] Inventory Tabs
     Inspecio
     Iris Shaders
     Item Filters
     Item Model Fix
     JamLib
+    Kaffee's Dual Ride
     Keep My Hand
-    Kiwi 🥝 (Fabric)
+    Kiwi 🥝
     Krypton
     LambdaBetterGrass
     LambDynamicLights
@@ -304,41 +305,45 @@ Mods:
     Mod Menu
     More Culling
     Mouse Wheelie
-    Nbt Crafting
-    No Fade
+    Music Notification
     NoRecipeBook (Fabric)
     Not Enough Animations
     Noteable
     Ok Zoomer
+    [Jar/Fork] Origins
     Origins Minus
-    Origins
+    oωo (owo-lib)
     Pehkui
     Pettable
+    PicoHUD
     Portable Crafting Standalone
     Presence Footsteps
     Project: Save the Pets!
     QDResLoader
-    Quilt Kotlin Libraries
+    Quilt Kotlin Libraries (QKL)
     Quilt Standard Libraries
     Quilt Loading Screen
     Reacharound
     Reese's Sodium Options
-    Reroll
     RightClickHarvest
+    Simple Durability Tooltip
     Simple Fog Control
+    Skip Transitions
+    Snow! Real Magic! ⛄
+    Snow Under Trees (Fabric)
     Sodium Extra
     Sodium
-    Simple Durability Tooltip
     Starlight (Fabric)
     Status Effect Timer
     Styled Chat
+    Styled Nicknames
     Styled Player List
     Switchy Inventories
     Switchy Proxy
     Switchy Resource Packs
-    Switchy Teleport
-    SwitchyKit
+    [Jar/Fork] Switchy Teleport
     Switchy
+    SwitchyKit
     Tax Free Levels
     Tinkerer's Smithing
     Tinkerer's Statures
@@ -349,29 +354,18 @@ Mods:
     Visuality
     WTHIT Plugins
     WTHIT
-    YetAnotherConfigLib
     You're in Grave Danger
     Your Options Shall Be Respected (YOSBR)
 
 Recommended Shader Packs:
-    BSL
-    Builder's QoL
-    Complementary
+    BSL Shaders
+    Builder's QOL Shaders
     Complementary Reimagined
-    Prismarine
-    Sildurs Enhanced Default
-    Rethiking Voxels
+    Complementary Shaders v4
+    Prismarine Shaders
+    Rethinking Voxels
+    Sildurs Enhanced Default Shaders
     Super Duper Vanilla
-
-Override mods:
-    illuminations-1.10.8.jar
-    inventorytabs-0.9.0-beta-1.19.x.jar
-    VanillaTweaks_c667075.zip
-    VanillaTweaks_r324798.zip
-
-Data Packs:
-    Tinkerer's Vegetarian
-    Tinkerer's Copper Beacons
 ```
 
 </details>
