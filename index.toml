@@ -30,11 +30,11 @@ hash = "d470b8c9c401dfd6edb8c849c849200409cdafd0262b9aa3f86a58e894517ea4"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
-hash = "af195b8df00c7a02b6fe22dba468155bd4c494c5d1388dafd82471ed641b7c28"
+hash = "967d9a875103f996c235095207d4bde1d3b99cb1f7f6fbe20eb97b9d34902921"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
-hash = "ede576c70bd1370de5bbd9ab1ccb11286c36b6fb0d4c5cdea4fdfefaff6dfbde"
+hash = "95e7132b5912b16694a6d1ec39a1590458025e94dc1497fa87e5e8c17b97bbc8"
 
 [[files]]
 file = "config/citresewn.json"
@@ -358,6 +358,11 @@ metafile = true
 [[files]]
 file = "mods/charmonium.pw.toml"
 hash = "93d73b7d173197c7a9ab09f69bcb509c3c1f29cf3a552119f086b3f164a4d323"
+metafile = true
+
+[[files]]
+file = "mods/chickensshed.pw.toml"
+hash = "8bc786e062df82909ca65960da8c49469a70638587f28edbde548c47b94e1126"
 metafile = true
 
 [[files]]
