@@ -967,11 +967,15 @@
 			description: [
 				"&2End Cities&r are guarded by &cShulkers&r, which shoot homing bolts that inflict &3levitation&r. "
 				""
-				"The projectiles can be &3blocked&r or &3attacked&r to &ddispel them&r, and Ender Pearls or Chorus Fruit can be used to &davoid fall damage&r from levitation."
+				"The projectiles can be &3blocked&r or &3attacked&r to &ddispel them&r."
+				""
+				"If you're hit, careful navigation or throwing Ender Pearls can help &davoid fall damage&r from levitation."
 				""
 				"When Shulkers close their shells, they gain high &3defense&r. "
 				""
 				"Shulkers do not respawn naturally, but if &3hit by a a shulker bolt&r, a Shulker might &dmultiply&r."
+				""
+				"&7[Carpet]&r Chorus Fruit &dcompletely cancels fall damage&r on grounding."
 			]
 			hide: true
 			id: "68C1E9C446D8A069"

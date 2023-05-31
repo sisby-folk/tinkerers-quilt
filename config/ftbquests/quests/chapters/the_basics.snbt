@@ -525,11 +525,13 @@
 				""
 				"Here, you can find a large ring of islands, broken up by only &3Chorus Plants&r and &2End Cities&r."
 				""
-				"&eChorus Fruit&r teleports the user randomly, grounding them &dwithout fall damage&r."
+				"&eChorus Fruit&r randomly &dteleports&r the user, grounding them."
 				""
 				"&2End Cities&r contain &cShulkers&r, loot chests, and rarely an &2End Ship&r."
 				""
 				"&cShulkers&r shoot homing bullets that cause dangerous &dlevitation&r on hit, and are &3invulnerable&r while their shells are closed."
+				""
+				"&7[Carpet]&r Chorus Fruit grounds players &dwithout fall damage&r"
 			]
 			hide: true
 			id: "4631772288F2177D"
