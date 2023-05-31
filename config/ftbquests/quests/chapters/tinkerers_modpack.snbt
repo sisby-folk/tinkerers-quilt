@@ -166,7 +166,7 @@
 			description: [
 				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &dchange workstations&r, or &6Click&r the visual tabs around the screen. "
 				""
-				"&7[MouseWheelie]&r &6Middle Click&r in any inventory to &dsort items&r."
+				"&7[MouseWheelie]&r &6Middle Click&r in any inventory to &dsort items&r. Hold &7[&r&6Space&r&7]&r while clicking an inventory to &drestock from it&r, or while clicking your inventory to &dquick store to it&r."
 				""
 				"&7[Inspecio]&r Tooltips contain &ddetailed item information&r, such as item contents, attributes, and effects."
 				""
@@ -208,7 +208,7 @@
 		{
 			dependencies: ["15402DCFAC7CC56A"]
 			description: [
-				"&7[Apathy]&r On &3easy difficulty&r, mobs &dwill not attack you&r unless you attack them first - including guard mobs and bosses."
+				"&7[Apathy]&r On &3Easy Difficulty&r, mobs &dwill not attack you&r unless you attack them first - including guard mobs and bosses. On Normal and above servers, type &6/apathy set join neutral&r to enable this for just you."
 				""
 				"&7[YIGD]&r On death, a &3Grave&r will be placed that &dcontains your items&r. Simply &6Right-Click&r the grave to restore them. When respawning, you'll receive a &3Compass&r that points to your grave."
 				""
@@ -243,6 +243,8 @@
 				"&7[Tinkerer's Smithing]&r There are recipes to &dupgrade&r equipment to better materials at the &3Smithing Table&r - or the &3Crafting Table&r for &3unenchanted&r gear."
 				""
 				"There are also matching recipes to &drepair&r equipment at the &3Anvil&r or the &3Crafting Table&r, costing no experience or work."
+				""
+				"Additionally, equipment that with an &3enchantment&r or a custom name can be &drepaired after it breaks&r"
 				""
 				"Finally, equipment can be &dde-worked&r one stage using &3Netherite Scrap&r at an &3Anvil&r, making adding enchantments &dcost less experience&r."
 			]
@@ -356,6 +358,7 @@
 				"&7[TaxFreeLevels]&r &3experience&r costs are normalised, including &3renaming&r."
 				"&7[EasierEnchanting]&r &3Enchanting Tables&r can be rerolled for 6 &3Lapis Lazuli&r."
 				"&7[ShieldLib]&r &3Shields&r can be table enchanted."
+				"&7[Tinkerer's Smithing]&r Equipment combine cost is order-agnostic."
 				"{@pagebreak}"
 				"&2&lMachines&r"
 				""

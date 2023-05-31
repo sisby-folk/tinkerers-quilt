@@ -1350,7 +1350,9 @@
 			description: [
 				"&3Soul Sand&r slows the player down, &3Soul Soil&r does not. With &eSoul Speed&r, you &dmove faster on both&r."
 				""
-				"Soul Speed can only be acquired by &3trading gold items to piglins&r. Or uh, completing this quest :)"
+				"&aPiglins&r can be thrown &3Gold Ingots&r to &3Barter&r with them, rarely yielding &dSoul Speed -enchanted Books or Boots&r."
+				""
+				"If a Piglin puts on the boots instead, they can be bartered back for &3Golden Boots&r"
 			]
 			hide: true
 			id: "56FFE5307AA82DCD"
@@ -2070,7 +2072,11 @@
 		{
 			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
-				"&3Mushrooms&r can be &3Bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
+			    "&3Mushrooms&r can only be placed in dark areas, where they very slowly spread - try your local &2caves&r"
+			    ""
+			    "&3Mycelium&r, found on &2Mushroom Islands&r, can grow mushrooms at any light level."
+			    ""
+				"Mushrooms can also be &3Bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
 				"That means this is actually a &3Bone Meal&r compost farm! You can use a &3Hopper&r to &dfill and empty composters&r automatically."
 			]
