@@ -10,19 +10,15 @@ hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
 file = "config/apathy/boss.cfg"
-hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
+hash = "6d01925c16f5913cb67d2d88a27886d56121c83ab08ac1e09d7e5114a85b59f0"
 
 [[files]]
 file = "config/apathy/general.cfg"
-hash = "bd0037ba81bc347a244b8495ea7114940fad7cf20b6b3718295cda69658c83a0"
+hash = "3d4dba742f0bc59c924a8e76bfd5a00cfbb0d6bd19fd2060cef89a43b2c6f5df"
 
 [[files]]
 file = "config/apathy/mobs.cfg"
-hash = "e5d15c76613c71dffed666ee04ad8bf45b5411e28f3ae7222851d5b71a19bef6"
-
-[[files]]
-file = "config/apathy/mobs.json"
-hash = "53d86e143fe62163a169ef8c6f8463cfd1b5970bd8c5248f10933c9af2700a03"
+hash = "a73bd0828dee679ecb97cda97fc792337a72a95210fa3559fda4395d6ade3e88"
 
 [[files]]
 file = "config/appleskin.json5"
