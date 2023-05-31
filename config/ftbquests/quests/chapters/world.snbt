@@ -60,7 +60,7 @@
 				""
 				"They can be found using &3Ocean Explorer Maps&r sold by &aCartographers&r."
 				""
-				"&cGuardians&r are stone-like fish that fire charged &3Lasers&r at the player, and can extend their spikes to &dreflect melee damage&r."
+				"&cGuardians&r are stone-like fish that fire charged &3lasers&r at the player, and can extend their spikes to &dreflect melee damage&r."
 				""
 				"Each fortress is guarded by three &cElder Guardians&r, a boss-like variant of Guardians that inflict &3Mining Fatigue&r to all visitors."
 			]
@@ -100,9 +100,9 @@
 		{
 			dependencies: ["789344ADD80A6FFA"]
 			description: [
-				"&3Bee Nests&r house wild &abees&r! They can't be moved, but produce &3Honeycomb&r that can be used to craft a moveable &3Beehive&r."
+				"&3Bee Nests&r house wild &aBees&r! They can't be moved, but produce &3Honeycomb&r that can be used to craft a moveable &3Beehive&r."
 				""
-				"To &dsafely shear a full hive or nest&r, a &eCampfire&r must be lit underneath. Otherwise, bees will become angered."
+				"To &dsafely shear a full hive or nest&r, a &eCampfire&r must be lit underneath. Otherwise, Bees will become angered."
 				""
 				"&eCarpet&r can be placed over Campfires to &dprevent fire damage&r."
 			]
@@ -162,11 +162,11 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Abandoned Mineshafts&r often connect caves, and contain &dminecarts, rails, and other loot&r!"
+				"&2Abandoned Mineshafts&r often connect caves, and contain &dMinecarts, Rails, and other loot&r!"
 				""
 				"Mineshaft hallways can also contain &cCave Spider&r spawners and &3Cobwebs&r. "
 				""
-				"&3Chest Minecarts&r contain the most loot - including &dname tags, pumpkin and melon seeds, and ore&r!"
+				"&3Chest Minecarts&r contain the most loot - including &dName Tags, Pumpkin and Melon Seeds, and Ore&r!"
 			]
 			hide: true
 			id: "55DDA9D21E24AF10"
@@ -514,7 +514,7 @@
 			description: [
 				"Villagers &drepopulate naturally&r by farming when an &3enough houses&r with doors and beds are built nearby."
 				""
-				"When a villager has &33 bread&r, or &312 carrots&r, &3potatoes&r, or &3beetroots&r, they can do this - but also &dgain more XP while trading&r!"
+				"When a villager has &33 Bread&r, or &312 carrots&r, &3Potatoes&r, or &3Beetroots&r, they can do this - but also &dgain more experience while trading&r!"
 			]
 			hide: true
 			id: "65DADF56E2AB01DF"
@@ -542,9 +542,9 @@
 			description: [
 				"Employed &aVillagers&r restock from a bound &3Job Site&r block up to twice a day. "
 				""
-				"A villager without any &3trade experience&r can &dchange professions&r if their job site block is broken and another one is placed."
+				"A villager without any &3trade experience&r can &dchange professions&r if their Job Site block is broken and another one is placed."
 				""
-				"A &dlist of professions&r and their job sites can be found over the page."
+				"A &dlist of professions&r and their Job Sites can be found over the page."
 				"{@pagebreak}"
 				"&aArmorer&r - &3Blast Furnace&r "
 				"&aButcher&r - &3Smoker&r"
@@ -556,7 +556,7 @@
 				"&aLeatherworker&r - &3Cauldron&r"
 				"&aLibrarian&r - &3Lectern&r"
 				"&aMason&r - &3Stonecutter&r"
-				"&aSheperd&r - &3Loom&r"
+				"&aShepherd&r - &3Loom&r"
 				"&aToolsmith&r - &3Smithing Table&r"
 				"&aWeaponsmith&r - &3Grindstone&r"
 			]
@@ -645,11 +645,11 @@
 			description: [
 				"&2Woodland Mansions&r are dark oak fortresses full of &3many room types&r with &dspecial loot&r, &cIllagers&r, and traps."
 				""
-				"They can be found using &3Woodland Explorer Maps&r sold by &3cartographers&r."
+				"They can be found using &3Woodland Explorer Maps&r sold by &aCartographers&r."
 				""
 				"Rooms can contain many useful, including &3Bookshelves&r, &3Crops&r, and &3Loot Chests&r - often &dtucked in corners&r. "
 				""
-				"In rare rooms, &dDiamond Blocks&r can be found encased in &3Obsidian&r or &3Lava&r."
+				"In rare rooms, &dDiamond Blocks&r can be found encased in &3Obsidian&r or &3lava&r."
 			]
 			hide: true
 			id: "7CEE48A412C94320"
@@ -676,7 +676,7 @@
 			description: [
 				"&3Amethyst&r grows in large &2Geodes&r lined with &3Basalt&r and &3Calcite&r underground."
 				""
-				"Budding amethyst blocks &dcan't be removed&r! Only &3Clusters&r can be renewably broken."
+				"Budding Amethyst Blocks &dcan't be removed&r! Only &3Clusters&r can be renewably broken."
 				""
 				"&3Amethyst Shards&r can be used to make &3Tinted Glass&r which blocks light."
 			]
@@ -1141,7 +1141,7 @@
 				""
 				"&aMooshrooms&r are a bright-red variant of &aCows&r that can fill &dbuckets with milk&r and &dbowls with mushroom stew&r."
 				""
-				"When struck by &3Lightning&r, they become &aBrown Mooshrooms&r, which produce &3suspicious stew&r with hidden effects based on the &eflower&r it's fed."
+				"When struck by &3Lightning&r, they become &aBrown Mooshrooms&r, which produce &3Suspicious Stew&r with hidden effects based on the &eFlower&r it's fed."
 			]
 			hide: true
 			id: "0EFAB7B8A93FB8BB"
@@ -1188,7 +1188,7 @@
 				""
 				"Careful! pointed dripstone &dhurts when landing on it&r!"
 				""
-				"If a &3Dripstone Block&r with a stalactite has &3Lava&r above it, the resulting drips can &drenewably fill cauldrons with lava&r."
+				"If a &3Dripstone Block&r with a stalactite has &3lava&r above it, the resulting drips can &drenewably fill cauldrons with lava&r."
 			]
 			hide: true
 			id: "1932327D56163D18"
@@ -1225,7 +1225,7 @@
 		{
 			dependencies: ["789344ADD80A6FFA"]
 			description: [
-				"Deep &2underground&r &7(around y:0)&r, all stone is replaced with &3Deepslate&r, which is harder to mine."
+				"Deep &2Underground&r &7(around y:0)&r, all stone is replaced with &3Deepslate&r, which is harder to mine."
 				""
 				"&3Cobbled Deepslate&r can be &dused like Cobblestone&r in crafting."
 			]
@@ -1260,7 +1260,7 @@
 				""
 				"&cSlimes&r can spawn in swamps at night when the &dmoon is visible&r - most commonly during a full moon."
 				""
-				"Orange &aTemperate Frogs&r will produce &eOchre froglights&r when swalling small &cMagma Cubes&r."
+				"Orange &aTemperate Frogs&r will produce &eOchre Froglights&r when swalling small &cMagma Cubes&r."
 				""
 				"&7[Carpet]&r Lily Pads are &drenewable&r through using &3Bone Meal&r."
 			]
@@ -1387,7 +1387,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["&eHay Bales&r can &dbreak high falls&r, or instead be used for &3bread&r."]
+			description: ["&eHay Bales&r can &dbreak high falls&r, or instead be used for &3Bread&r."]
 			id: "47ED4204DD0D65C4"
 			rewards: [{
 				id: "05B359937A79F3EF"
@@ -1465,7 +1465,7 @@
 			description: [
 				"&2Mountain Peaks&r are a great source of &3Packed Ice&r, which is &dslippery but doesn't melt&r!"
 				""
-				"Peaks also contain &3Goats&r, neutral animals that can be &dmilked&r, jump high, and &3ram blocks&r - &ddropping a musical horn&r for hard blocks!"
+				"Peaks also contain &aGoats&r, neutral animals that can be &dmilked&r, jump high, and &3ram blocks&r - &ddropping a musical horn&r when hitting hard blocks!"
 			]
 			hide: true
 			id: "19FF00BA5161FE04"
@@ -1529,13 +1529,13 @@
 		}
 		{
 			description: [
-				"&2Villages&r consist of various &2Houses&r connected by &3Paths&r, and are inhabited by &aVillagers&r. "
+				"&2Villages&r consist of various &2Houses&r connected by &3paths&r, and are inhabited by &aVillagers&r. "
 				""
 				"Villages are useful &dlandmarks and gathering points&r, and convenient locations to build an outpost or base."
 				""
 				"Villagers have various professions and can &dbuy and sell items&r for &eEmeralds&r "
 				""
-				"&7[EMI Trades]&r Villager trades are listed under &3Emerald&r recipes and usages."
+				"&7[EMI Trades]&r Villager trades are listed under &eEmerald&r recipes and usages."
 			]
 			hide: true
 			id: "09874FF0F69D98F0"
@@ -1574,7 +1574,7 @@
 				""
 				"&7[Tinkerer's Quilt]&r &cWardens&r do not spawn. This can be changed via &6/gamerule doWardenSpawning true&r."
 				""
-				"&7[Apathy]&r On &3Easy Difficulty&r, &cWardens&r won't target the player, and won't apply blindness when provoked."
+				"&7[Apathy]&r On &3easy difficulty&r, &cWardens&r won't target the player, and won't apply blindness when provoked."
 			]
 			hide: true
 			id: "562E842E71B5725B"
@@ -1607,7 +1607,7 @@
 		{
 			dependencies: ["789344ADD80A6FFA"]
 			description: [
-				"Signified by their unique &3Mangrove&r trees rooted in water, &2Mangrove Swamps&r are are a source of &3Mud&r and &aWarm Frogs&r."
+				"Signified by their unique &3Mangrove Trees&r rooted in water, &2Mangrove Swamps&r are are a source of &3Mud&r and &aWarm Frogs&r."
 				""
 				"&3Mud&r can be made into &3Mud Bricks&r when fired with &3Wheat&r."
 				""
@@ -1615,7 +1615,7 @@
 				""
 				"Grey &aWarm Frogs&r will produce &ePearlescent Froglights&r when swalling small &cMagma Cubes&r."
 				""
-				"Frogs bred with &3Slimeballs&r in a &2cold biome&r will hatch a green &aCold Frog&r, capable of producing &3Verdant Froglights&r."
+				"Frogs bred with &3Slimeballs&r in a &2Cold Biome&r will hatch a green &aCold Frog&r, capable of producing &3Verdant Froglights&r."
 			]
 			hide: true
 			id: "50C5FC2ED5BF1A83"
@@ -1683,7 +1683,7 @@
 		{
 			dependencies: ["30EEC5B4C5178E93"]
 			description: [
-				"&3Allays&r can be found imprisoned in some &2Mansions&r and &2Outposts&r. "
+				"&aAllays&r can be found imprisoned in some &2Mansions&r and &2Outposts&r. "
 				""
 				"When given any item, Allays follow the player and &dcollect similar dropped items&r, returning them to the player."
 				""
