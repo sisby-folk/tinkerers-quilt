@@ -53,7 +53,7 @@
 			description: [
 				"A &3Smoker&r is a specialized furnace variant that &dcooks food at double speed&r."
 				""
-				"All furnaces accept many types of fuel. "
+				"All Furnaces accept many types of fuel. "
 				""
 				"&3Smaller fuels&r are less wasteful when processing smaller numbers of items. "
 				""
@@ -194,7 +194,7 @@
 				""
 				"&dClosets, dressers, and cabinets&r can all be created by placing &3Doors&r and &eTrapdoors&r in front of functional blocks like &3Chests&r and &eBarrels&r or decorative blocks like &3Stairs&r and &3Bookshelves&r.&l"
 				""
-				"&eStairs&r with &3Signs&r on either side can serve as &dArmchairs&r, especially when facing &dTables&r made of &3inverted stairs&r, &3floating slabs&r, or &3fences&r with &3pressure plates&r on top."
+				"&eStairs&r with &3Signs&r on either side can serve as &dArmchairs&r, especially when facing &dTables&r made of &3Inverted Stairs&r, &3Floating Slabs&r, or &3Fences&r with &3Pressure Plates&r on top."
 				""
 				"&dFireplaces&r can be made of non-flammable blocks with &eNetherrack&r as the flammable base. Fire can spread up to &dtwo blocks away, and four blocks up&r. If space is limited, use &eSoul Soil&r instead for a &dnon-spreading blue flame&r."
 				""
@@ -308,7 +308,7 @@
 		{
 			dependencies: ["20E2938DD7365207"]
 			description: [
-				"&3Glass panes&r are helpful for &ddecorations and windows&r. They're cheaper, but can't be used for skylights. "
+				"&3Glass Panes&r are helpful for &ddecorations and windows&r. They're cheaper, but can't be used for skylights. "
 				""
 				"&3Glass&r can also be stained using &3Dye&r, &dcoloring it&r. "
 			]
@@ -341,11 +341,11 @@
 		{
 			dependencies: ["20E2938DD7365207"]
 			description: [
-				"&3Fence gates&r allow you to open and close them, while also connecting to fences."
+				"&3Fence Gates&r can be opened and closed, and connect to fences."
 				""
-				"&eFences&r and &3walls&r are an essential part of &dkeeping hostile mobs from wandering into your base&r!"
+				"&eFences&r and &3Walls&r are an essential part of &dkeeping hostile mobs from wandering into your base&r!"
 				""
-				"&eCarpet&r can also be used to &dcreate a traversable area of fence&r, by placing it on top of a fence post."
+				"&eCarpet&r can be used to create a &dtraversable area of fence&r by placing it on top of a fence post."
 				""
 				"&7[Couplings]&r Vertically stacked fence gates will &dopen at once&r."
 			]
@@ -437,7 +437,7 @@
 				""
 				"Animals can also be &3fed&r their favourite foods instead, to &dencourage them to breed&r."
 				""
-				"&3Pigs&r like &3vegetables&r, &3Bovids&r like &3Wheat&r, &3Chickens&r like &3Seeds&r, &3Wolves&r like &3Meat&r, &3Cats&r like &3Raw Fish&r, and &3Foxes&r like &3Berries&r."
+				"&aPigs&r like &3Vegetables&r, &aBovids&r like &3Wheat&r, &aChickens&r like &3Seeds&r, &aWolves&r like &3Meat&r, &aCats&r like &3Raw Fish&r, and &aFoxes&r like &3Berries&r."
 			]
 			hide: true
 			icon: "minecraft:spruce_fence"
@@ -525,7 +525,7 @@
 		{
 			dependencies: ["5C7110BA96ECA231"]
 			description: [
-				"&3Bees&r provide both &3Honeycomb&r and &3Honey Bottles&r, and also &dimprove crop growth&r."
+				"&2Bees&r provide both &3Honeycomb&r and &3Honey Bottles&r, and also &dimprove crop growth&r."
 				""
 				"After crafting a &3Beehive&r using honeycomb from &3Bee Nests&r &7(See Exploration: Naturalist)&r, bees must be lead using &eflowers&r to the new hive, where they can then be bred."
 				""
@@ -533,7 +533,7 @@
 				""
 				"Honeycomb can make &3Candles&r, and also &dprevent copper blocks from aging&r!"
 				""
-				"&7[FeedTheBees]&r bees will &donly take damage&r to regrow their stinger. They can be fed &3sugar&r to heal them."
+				"&7[FeedTheBees]&r Bees will &donly take damage&r to regrow their stinger. They can be fed &3Sugar&r to heal them."
 				""
 				"&7[Tinkerer's Quilt]&r &3Waxing&r copper beacons will prevent expiry."
 			]
@@ -653,7 +653,7 @@
 		{
 			dependencies: ["55783EE248BAC550"]
 			description: [
-				"&3Cartography tables&r allow you to &dduplicate map contents&r, including their zoom level. They also allow &dcheaper zooming out&r of maps with &epaper&r."
+				"&3Cartography Tables&r allow you to &dduplicate map contents&r, including their zoom level. They also allow &dcheaper zooming out&r of Maps with &ePaper&r."
 				""
 				"This means you can &dshare large regions&r of map (e.g. the region around your base) with &3other players&r."
 				""
@@ -735,7 +735,7 @@
 		}
 		{
 			description: [
-				"By using a &3hoe&r on dirt, soil &dcan be tilled&r for planting seeds."
+				"By using a &3Hoe&r on &3Dirt&r, soil &dcan be tilled&r for planting seeds."
 				""
 				"&3Watered soil&r &dgrows crops faster&r, requiring water within 4 blocks in any direction."
 				""
@@ -842,7 +842,7 @@
 			description: [
 				"&3Stonecutters&r are used to &dcheaply craft decorative blocks&r."
 				""
-				"By placing stone-like blocks in the &3input slot&r, you can &dtransform it&r into many decorative and functional variants."
+				"By placing a stone-like block in the &3input slot&r, you can &dtransform it&r into many decorative and functional variants."
 			]
 			hide: true
 			id: "1233042213A9729E"
@@ -866,13 +866,13 @@
 		{
 			dependencies: ["796366A8D7D8BBF8"]
 			description: [
-				"&3Furnace Minecarts&r are used to &dtravel long distances&r by pushing minecart trains. Just add one &3fuel&r and the minecart will &3push until it runs out&r."
+				"&3Furnace Minecarts&r are used to &dtravel long distances&r by pushing minecart trains. Just add one &3Fuel&r and the minecart will &3push until it runs out&r."
 				""
-				"&7[Fabrication]&r Furnace minecarts can &daccept any fuel&r. A running furnace minecart will &dkeep its chunk loaded&r§r, preventing farms and machines from freezing once you're far away."
+				"&7[Fabrication]&r Furnace minecarts can &daccept any Fuel&r. A running Furnace Minecart will &dkeep its chunk loaded&r§r, preventing farms and machines from freezing once you're far away."
 				""
 				"You can press &7[&r&6F3+G&r&7]&r at any time to view chunks in the world."
 				""
-				"Filling a furnace minecart with a &elava bucket&r will run a chunk for &d17 minutes&r."
+				"Filling a Furnace Minecart with a &eLava Bucket&r will run a chunk for &d17 minutes&r."
 			]
 			hide: true
 			id: "54557BCF50D4E3EA"
@@ -914,7 +914,7 @@
 				""
 				"&7[FishingReal]&r Fishing is &3catch-and-release&r. Given room, reeled-in fish will simply swim away."
 				""
-				"&7[DyableFishingLines]&r You can &ddye your fishing line&r with any &3dye&r in the &3Crafting Grid&r. Rods can also be given special names (e.g. aro, pan, plural) for &dspecial line colours&r."
+				"&7[DyableFishingLines]&r You can &ddye your fishing line&r with any &3dye&r in the &3crafting grid&r. Rods can also be given special names (e.g. aro, pan, plural) for &dspecial line colours&r."
 			]
 			hide: true
 			id: "2DF95382AC7B7AD4"
@@ -997,7 +997,7 @@
 		}
 		{
 			dependencies: ["2DF95382AC7B7AD4"]
-			description: ["&3Nautilus shells&r can be &3fished&r at a 1% chance, or up to 2% with &eLuck of the Sea&r."]
+			description: ["&eNautilus Shells&r can be &3fished&r at a 1% chance, or up to 2% with &eLuck of the Sea&r."]
 			hide: true
 			id: "665ED9CB789FB958"
 			rewards: [
@@ -1030,7 +1030,7 @@
 			description: [
 				"A &3Heart of the Sea&r can be found as buried treasure &2underwater&r and under &2beaches&r. "
 				""
-				"&3Cartographers&r can sell maps to buried treasure, or you can &3feed raw fish to a dolphin&r and &dfollow it&r."
+				"&3Cartographers&r can sell &3Maps&r to buried treasure, or you can &3feed raw fish to a dolphin&r and &dfollow it&r."
 			]
 			hide: true
 			id: "4FA802A874FC1A24"
@@ -1075,11 +1075,11 @@
 			description: [
 				"A &3Conduit&r allows you to create &dsafe underwater bases&r up to &3184 blocks wide&r."
 				""
-				"They must be placed in a 3x3x3 cube of water with a 5x5 &3prismarine&r square frame around the center."
+				"They must be placed in a 3x3x3 cube of water with a 5x5 &3Prismarine&r square frame around the center."
 				""
 				"Frames can be built similarly on other axes, each increasing the range of the &3Conduit Power&r - which provides, &dbreath, night vision, and mining speed&r."
 				""
-				"To acquire more prismarine shards, you'll need to find and battle &2ocean monuments&r."
+				"To acquire more &ePrismarine Shards&r, you'll need to find and battle an &2Ocean Monument&r."
 			]
 			hide: true
 			id: "0953453F97BA921D"
@@ -1155,7 +1155,7 @@
 		{
 			dependencies: ["423E897DEB76653D"]
 			description: [
-				"&3Blue Ice&r is an unmeltable variant of ice that allows boats to &dmove at ludicrous speeds&r on its surface. They can be crafted using 81 &3Ice Blocks&r, or found in the world."
+				"&3Blue Ice&r is an unmeltable variant of &3Ice&r that allows boats to &dmove at ludicrous speeds&r on its surface. They can be crafted using 81 &3Ice Blocks&r, or found in the world."
 				""
 				"Ice can be &3farmed&r &7(See Farming: Variety Fair)&r, or you can collect &3packed and blue ice&r from &2Icebergs&r or &2Frozen Peaks&r."
 				""
@@ -1189,7 +1189,7 @@
 				""
 				"Minecarts &3can't go up steep hills without a push&r. Try using a &ePowered Rail&r with a redstone torch, or a &eFurnace Minecart&r with fuel!"
 				""
-				"&eDetector rails&r can be used to &dtrigger redstone circuits&r when passed by. Try it out!"
+				"&eDetector Rails&r can be used to &dtrigger redstone circuits&r when passed by. Try it out!"
 				""
 				"&7[Fabrication]&r &eMagenta Glazed Terracotta&r under a &3Powered Rail&r will make it &ddirectional&r - great for loading new carts onto a rail!"
 			]
@@ -1393,13 +1393,13 @@
 			dependencies: ["423E897DEB76653D"]
 			dependency_requirement: "one_started"
 			description: [
-				"&3Horses&r are some of the simplest forms of &dimproved transport&r. "
+				"&aHorses&r are some of the simplest forms of &dimproved transport&r. "
 				""
-				"A horse must first be broken in by &3trying to ride it until it calms&r. Then saddle it with &7[&r&6Sneak+Right-Click&r&7]&r."
+				"A &aHorse&r must first be broken in by &3trying to ride it until it calms&r. Then saddle it with &7[&r&6Sneak+Right-Click&r&7]&r."
 				""
-				"Horses can also equip &3horse armor&r (including dyed leather armor!) to &dimprove their survivability&r. Just try not to get one stuck in terrain!"
+				"Horses can also equip &3Horse Armor&r (including dyed leather armor!) to &dimprove their survivability&r. Just try not to get one stuck in terrain!"
 				""
-				"&3Pigs&r can also be &dridden using saddles&r, and a &3carrot on a stick&r can lead them."
+				"&aPigs&r can also be &dridden using saddles&r, and a &3Carrot on a Stick&r can lead them."
 				""
 				"&7[Dual Ride]&r Horses can have both a rider and a passenger."
 			]
@@ -1440,9 +1440,9 @@
 		{
 			dependencies: ["423E897DEB76653D"]
 			description: [
-				"By combining any amount of &3Depth Strider&r boots, &3Soul speed&r highways, and &3Dolphin's Grace&r (granted by dolphins) - the player can &dswim at unfathomable speeds&r."
+				"By combining any amount of &3Depth Strider&r boots, &3Soul Speed&r highways, and &3Dolphin's Grace&r (granted by &aDolphins&r) - the player can &dswim at unfathomable speeds&r."
 				""
-				"&7[Tinkerer's Quilt]&r Name Tags are &3craftable&r, allowing you to freely tag dolphins like a marine biologist, &dpossibly improving their population&r in your favourite swimming spots."
+				"&7[Tinkerer's Quilt]&r &3Name Tags&r are &3craftable&r, allowing you to freely tag &aDolphins&r like a marine biologist, &dpossibly improving their population&r in your favourite swimming spots."
 			]
 			hide: true
 			icon: {
@@ -1525,9 +1525,9 @@
 		{
 			dependencies: ["5C7110BA96ECA231"]
 			description: [
-				"&3Tree farming&r allows provides sustainable wood, compostable saplings, and apples."
+				"&3Tree farming&r provides sustainable wood, compostable saplings, and apples."
 				""
-				"A &efortune-enchanted hoe&r can collect many apples from oak tree leaves."
+				"A &eFortune-enchanted Hoe&r can collect many apples from oak tree leaves."
 			]
 			hide: true
 			icon: "minecraft:oak_sapling"
@@ -1680,9 +1680,9 @@
 		{
 			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
-				"&3Cobblestone&r can be generated wherever &3Flowing Water&r meets &3Flowing Lava&r."
+				"&3Cobblestone&r can be generated wherever flowing water meets flowing lava."
 				""
-				"Try creating your own convenient configuration for mining &dlines of cobblestone&r easily!"
+				"Try creating your own convenient configuration for mining &dlines of Cobblestone&r easily!"
 			]
 			hide: true
 			icon: "minecraft:cobblestone"
@@ -1747,7 +1747,7 @@
 			description: [
 				"&3Ice&r can be farmed with &3Silk Touch&r in &2cold biomes&r in an exposed one-deep square hole of &dany size&r."
 				""
-				"Fill the hole with water, then place &2Slabs&r in a diagonal line to &dprotect the source water&r. Then get breaking!"
+				"Fill the hole with water, then place &3Slabs&r in a diagonal line to &dprotect the source water&r. Then get breaking!"
 			]
 			hide: true
 			icon: "minecraft:packed_ice"
@@ -1805,11 +1805,11 @@
 		{
 			dependencies: ["192BAFDE101F900B"]
 			description: [
-				"Farming crops is great for &dmaking books, food, and potions&r. Plus &3emeralds&r when trading with farmers! "
+				"Farming crops is great for &dmaking Books, Food, and Potions&r. Plus &3Emeralds&r when trading with &aFarmers&r! "
 				""
 				"&3Watered farms&r can be made in &dstrips up to 8 blocks wide&r by building channels on either side. "
 				""
-				"&3Slabs&r can be placed &3waterlogged&r on the top half of a channel, making it walkable."
+				"&3Slabs&r can be placed on the top half of a channel, making it walkable. This is called &3waterlogging&r."
 				""
 				"Farms continue &dgrowing overnight&r if they have &3light&r - try making &3decorative scarecrows&r with a &eHay Bale&r body, &eSpruce Fence&r stand, &eJack'o'Lantern&r head, and &eBirch Slab&r hat!"
 			]
@@ -1940,7 +1940,7 @@
 				""
 				"Don't just grow wheat forever though - farms &dgrow faster if they're diverse&r, so try planting crops in rows!"
 				""
-				"Farming creates many excess &3seeds&r - a &eComposter&r can turn those into useful &3Bone Meal&r!"
+				"Farming creates many excess &3Seeds&r - a &eComposter&r can turn those into useful &3Bone Meal&r!"
 			]
 			hide: true
 			id: "192BAFDE101F900B"
@@ -2070,7 +2070,7 @@
 		{
 			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
-				"&3Mushrooms&r can be &3bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
+				"&3Mushrooms&r can be &3Bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
 				"That means this is actually a &3Bone Meal&r compost farm! You can use a &3Hopper&r to &dfill and empty composters&r automatically."
 			]
@@ -2107,7 +2107,7 @@
 		{
 			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
-				"&3Nether Wart&r can be planted on &3soul sand&r in &2any dimension&r. "
+				"&3Nether Wart&r can be planted on &3Soul Sand&r in &2any dimension&r. "
 				""
 				"It &3doesn't even require light to grow&r - simple!"
 				""
@@ -2141,7 +2141,7 @@
 			description: [
 				"Just throw a bunch on the ground, honestly. There's not much to it. &dMaybe put them in rows? I'm not a cop&r."
 				""
-				"&3Foxes&r like sweet berries. If a fox is &dholding an item you want&r, try throwing one!"
+				"&aFoxes&r like sweet berries. If a fox is &dholding an item you want&r, try throwing one!"
 			]
 			hide: true
 			icon: "minecraft:sweet_berries"
@@ -2193,7 +2193,7 @@
 			description: [
 				"&3Doors&r can be opened and closed with &7[&r&6Right-Click&r&7]&r, or by &epowering&r them."
 				""
-				"On &3Hard Difficulty&r, &cZombies&r can &dbreak wooden doors&r - Alternative door styles can be used to avoid this."
+				"On &3hard difficulty&r, &cZombies&r can &dbreak wooden doors&r - Alternative door styles can be used to avoid this."
 				""
 				"&7[Couplings]&r Double doors will &dopen at once&r."
 				""
@@ -2236,7 +2236,7 @@
 		{
 			dependencies: ["0EF299A1A5009971"]
 			description: [
-				"Rail can be expanded into &dfullly automated transit&r and freight systems."
+				"Rail can be expanded into &dfully automated transit&r and freight systems."
 				""
 				"&3When powered&r, rails at &3T intersections&r will &dswap their direction&r, and &eActivator Rails&r will cause players to &ddismount minecarts&r."
 			]
@@ -2491,11 +2491,11 @@
 		{
 			dependencies: ["7AA799B6789ABD71"]
 			description: [
-				"Horses have three &3statistics&r - &3Health&r, &3Jump Height&r, and &3Speed&r."
+				"&aHorses&r have three &3statistics&r - &3health&r, &3jump height&r, and &3speed&r."
 				""
 				"&3Breeding&r horses can create &dhorses with better stats&r, which requires feeding two horses &eGolden Carrots&r or &3Golden Apples&r."
 				""
-				"&3Donkeys&r are similar to horses but can &dcarry chests&r. While slower then horses, the two can be bred to create an infertile &3Mule&r with improved stats."
+				"&aDonkeys&r are similar to horses but can &dcarry chests&r. While slower then horses, the two can be bred to create an infertile &aMule&r with improved stats."
 				""
 				"&7[WTHIT]&r The &dspeed and jump height&r of a horse can be viewed by holding &7[&r&6ALT&r&7]&r"
 				""
@@ -2786,13 +2786,13 @@
 			description: [
 				"Along with manual inputs, certain things can be observed to &dmake mechanisms activate automatically&r."
 				""
-				"The &eComparator&r provides power based on &dspecific information about block it's facing&r - like the fullness of &3Containers&r (0-15), &3Beehives&r (0-5), and Cauldrons (0-3), &3Item Frame&r rotation (1-8), and &3Respawn Anchor&r charge (0-15)."
+				"The &eComparator&r provides power based on &dspecific information about the block it's facing&r - like the fullness of &3Containers&r (0-15), &3Beehives&r (0-5), and &3Cauldrons&r (0-3), &3Item Frame&r rotation (1-8), and &3Respawn Anchor&r charge (0-15)."
 				""
 				"The &eDaylight Detector&r provides &dpower during the daytime&r, slowly transitioning at dusk and dawn. &6Right-Click&r a daylight detector to invert this, &dproviding power at night&r instead."
 				""
 				"The &eObserver&r provides full power &dwhenever the block it's facing changes&r - breaking and placing, &3Piston&r movements, &3Containers&r opening, &3Crops&r growing, &3Doors&r opening, and much more."
 				""
-				"The &eSculk Sensor&r provides power when it &3sense vibrations&r in an area - including all kinds of sounds."
+				"The &eSculk Sensor&r provides power when it &3senses vibrations&r in an area - including all kinds of sounds."
 			]
 			hide: true
 			id: "7164FFFB3AFAFEF3"
@@ -2832,7 +2832,7 @@
 				""
 				"&3Buttons&r can be pressed with &6Right-Click&r to &dprovide a short pulse&r of power. &3Wooden Buttons&r press longer and can be &dpressed by arrows and tridents&r."
 				""
-				"&ePressure Plates&r provide power when &ddepressed by mobs&r. &3Wooden pressure plates&r are also sensitive to &3items&r, &3arrows&r, and &3fishing hooks&r."
+				"&ePressure Plates&r provide power when &ddepressed by mobs&r. &3Wooden Pressure Plates&r are also sensitive to &3items&r, &3arrows&r, and &3fishing hooks&r."
 				""
 				"&eDetector Rails&r &dpower the block below them&r while a &3minecart is on them&r."
 				""
@@ -3039,7 +3039,7 @@
 		{
 			dependencies: ["55783EE248BAC550"]
 			description: [
-				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. Different kinds of &3wood&r change the background, and the &dtext color can be dyed&r!"
+				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. Different kinds of &3Wood&r change the background, and the &dtext color can be dyed&r!"
 				""
 				"&eItem frames&r can also be used to help &dorganize&r - a &3single item&r can be placed in them for display."
 				""
@@ -3077,7 +3077,7 @@
 			description: [
 				"&3Redstone Dust&r can have &315 levels of power&r, decreasing each block away from the &3power source&r."
 				""
-				"&3Opaque blocks&r can be &3strongly&r or &3weakly&r powered."
+				"&3Opaque Blocks&r can be &3strongly&r or &3weakly&r powered."
 				""
 				"&3Strongly powered&r blocks will &dprovide full power to adjacent Redstone Dust&r. "
 				""
@@ -3085,7 +3085,7 @@
 				""
 				"A &3Repeater&r can be used to &dextend a redstone signal&r, delaying it by 0.1 seconds. This delay can be increased with &7[&r&6Right-Click&r&7]&r."
 				""
-				"&3Redstone Dust&r can &dtransport power upwards&r in a 2x1 area using top-facing &eslabs&r &dto form stairs&r."
+				"&3Redstone Dust&r can &dtransport power upwards&r in a 2x1 area using top-facing &eSlabs&r &dto form stairs&r."
 				""
 				"&eLamps&r can help find out &dwhere functional components can receive power&r."
 			]
