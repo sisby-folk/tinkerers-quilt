@@ -331,7 +331,7 @@
 				""
 				"&7[Tinkerer's Quilt]&r Tridents can be crafted from &3Prismarine Shards&r, which drop from guardians in &2Ocean Monuments&r."
 				""
-				"&7[Fabrication]&r Tridents can also be enchanted with &dPower or Sharpness&r."
+				"&7[Fabrication]&r Tridents can also be enchanted with &dPower or Sharpness&r. &3Impaling&r works on any wet mob. &3Channeling II&r works in rain."
 			]
 			hide: true
 			id: "2F6EDECBF7606385"
@@ -546,6 +546,8 @@
 				"&3TNT&r can be primed with &3Flint and Steel&r or via &3Mechanism&r, causing it to blink before &3exploding&r - breaking blocks in a large area."
 				""
 				"You can make an area &dspawn only Creepers&r by creating a &22x2 tunnel&r with a roof lined with &3Trapdoors&r."
+				""
+				"&7[Fabrication]&r Creeper explosions &dcan't break blocks&r."
 			]
 			hide: true
 			id: "2BA288C7EE0930DB"

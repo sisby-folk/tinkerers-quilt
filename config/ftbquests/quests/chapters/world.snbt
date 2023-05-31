@@ -63,6 +63,8 @@
 				"&cGuardians&r are stone-like fish that fire charged &3lasers&r at the player, and can extend their spikes to &dreflect melee damage&r."
 				""
 				"Each fortress is guarded by three &cElder Guardians&r, a boss-like variant of Guardians that inflict &3Mining Fatigue&r to all visitors."
+				""
+				"&3Sponges&r can be placed to remove water in an area. They must be &3smelted&r before reuse."
 			]
 			hide: true
 			id: "5DC1E9DC98895E6F"
@@ -164,7 +166,7 @@
 			description: [
 				"&2Abandoned Mineshafts&r often connect caves, and contain &dMinecarts, Rails, and other loot&r!"
 				""
-				"Mineshaft hallways can also contain &cCave Spider&r spawners and &3Cobwebs&r. "
+				"Mineshaft hallways can also contain &cCave Spider&r spawners and slowing &3Cobwebs&r. "
 				""
 				"&3Chest Minecarts&r contain the most loot - including &dName Tags, Pumpkin and Melon Seeds, and Ore&r!"
 			]
@@ -1141,7 +1143,7 @@
 				""
 				"&aMooshrooms&r are a bright-red variant of &aCows&r that can fill &dbuckets with milk&r and &dbowls with mushroom stew&r."
 				""
-				"When struck by &3Lightning&r, they become &aBrown Mooshrooms&r, which produce &3Suspicious Stew&r with hidden effects based on the &eFlower&r it's fed."
+				"When struck by &eLightning&r in a &3thunderstorm&r, they become &aBrown Mooshrooms&r, which produce &3Suspicious Stew&r with hidden effects based on the &eFlower&r they're fed."
 			]
 			hide: true
 			id: "0EFAB7B8A93FB8BB"
@@ -1165,6 +1167,11 @@
 				{
 					id: "077A190E67F93F56"
 					item: "minecraft:oxeye_daisy"
+					type: "item"
+				}
+				{
+					id: "66838A1862390F74"
+					item: "minecraft:lightning_rod"
 					type: "item"
 				}
 			]

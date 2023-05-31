@@ -438,6 +438,8 @@
 				"Animals can also be &3fed&r their favourite foods instead, to &dencourage them to breed&r."
 				""
 				"&aPigs&r like &3Vegetables&r, &aBovids&r like &3Wheat&r, &aChickens&r like &3Seeds&r, &aWolves&r like &3Meat&r, &aCats&r like &3Raw Fish&r, and &aFoxes&r like &3Berries&r."
+				""
+				"&7[ChickensShed]&r &aChickens&r will occasionally shed a &3Feather&r."
 			]
 			hide: true
 			icon: "minecraft:spruce_fence"
@@ -742,6 +744,8 @@
 				"&eBone Meal&r can be used to &dinstantly grow crops&r."
 				""
 				"&7[RightClickHarvest]&r &3Hoes&r can be used to harvest crops in an area. Better hoes have a &dlarger radius&r."
+				""
+				"&7[Carpet]&r Bone Meal can also grow &3Sugarcane&r, &3Cactus&r, &3Lilypads&r, and &3Coral&r."
 			]
 			icon: {
 				Count: 1b
@@ -1126,6 +1130,8 @@
 				"&eChests&r can also be added to boats to &dtransport extra items&r."
 				""
 				"By mapping out rivers and creating canals, large stretches can be accessible by boat."
+				""
+				"&7[Fabrication]&r Water sources spread more easily when terraforming."
 			]
 			id: "423E897DEB76653D"
 			rewards: [{
@@ -1403,7 +1409,7 @@
 				""
 				"&aPigs&r can also be &dridden using saddles&r, and a &3Carrot on a Stick&r can lead them."
 				""
-				"&7[Dual Ride]&r Horses can have both a rider and a passenger."
+				"&7[Dual Ride]&r Horses can also seat a &dpassenger&r."
 			]
 			hide: true
 			id: "7AA799B6789ABD71"
@@ -1444,7 +1450,9 @@
 			description: [
 				"By combining any amount of &3Depth Strider&r boots, &3Soul Speed&r highways, and &3Dolphin's Grace&r (granted by &aDolphins&r) - the player can &dswim at unfathomable speeds&r."
 				""
-				"&7[Tinkerer's Quilt]&r &3Name Tags&r are &3craftable&r, allowing you to freely tag &aDolphins&r like a marine biologist, &dpossibly improving their population&r in your favourite swimming spots."
+				"By using a renamed &3Name Tag&r on a mob, it gains that custom name. Named mobs &dcan't despawn&r, which can help with the population of rare mobs like Dolphins - just pretend you're a marine biologist!"
+				""
+				"&7[Tinkerer's Quilt]&r &3Name Tags&r are &dcraftable&r."
 			]
 			hide: true
 			icon: {
@@ -2072,10 +2080,10 @@
 		{
 			dependencies: ["6B1E74EF171BFD5E"]
 			description: [
-			    "&3Mushrooms&r can only be placed in dark areas, where they very slowly spread - try your local &2caves&r"
-			    ""
-			    "&3Mycelium&r, found on &2Mushroom Islands&r, can grow mushrooms at any light level."
-			    ""
+				"&3Mushrooms&r can only be placed in dark areas, where they very slowly spread - try your local &2caves&r"
+				""
+				"&3Mycelium&r, found on &2Mushroom Islands&r, can grow mushrooms at any light level."
+				""
 				"Mushrooms can also be &3Bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
 				"That means this is actually a &3Bone Meal&r compost farm! You can use a &3Hopper&r to &dfill and empty composters&r automatically."
@@ -2148,6 +2156,8 @@
 				"Just throw a bunch on the ground, honestly. There's not much to it. &dMaybe put them in rows? I'm not a cop&r."
 				""
 				"&aFoxes&r like sweet berries. If a fox is &dholding an item you want&r, try throwing one!"
+				""
+				"&7[Fabrication]&r Brushing through brambles &dwon't hurt&r if you're sneaking or wearing both &3Leggings&r and &3Boots&r."
 			]
 			hide: true
 			icon: "minecraft:sweet_berries"
@@ -3049,6 +3059,8 @@
 				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. Different kinds of &3Wood&r change the background, and the &dtext color can be dyed&r!"
 				""
 				"&eItem frames&r can also be used to help &dorganize&r - a &3single item&r can be placed in them for display."
+				""
+				"For longer notes, craft a &3Book and Quill&r to write and store passages. &3Signing&r a book prevents it from being edited further."
 				""
 				"&7[Inventory Tabs]&r Placing an item frame on a &3Chest&r will &dchange its tab icon&r."
 			]

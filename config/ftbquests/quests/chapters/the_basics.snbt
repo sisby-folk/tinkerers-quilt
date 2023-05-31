@@ -17,6 +17,8 @@
 				"An &3Iron Pickaxe&r can in turn mine &3Gold&r, which makes poor equipment, and the rarer &3Diamond&r, which &dmakes the best overworld equipment&r."
 				""
 				"&eBundles&r can &dhelp store small varied items&r, simply &6Right-Click&r while holding a stack over the bundle."
+				""
+				"&7[Fabrication]&r Bundles can hold up to 8 tools."
 			]
 			icon: "minecraft:iron_ore"
 			id: "41C9341CA261E52B"
@@ -843,6 +845,8 @@
 				"&eGrindstones&r completely un-enchant equipment, &drefunding&r a small amount of experience."
 				""
 				"&7[idwtialsimmoedm]&r hold &7[&r&6Shift&r&7]&r on an &eenchanted item&r to see enchantment descriptions."
+				""
+				"&7[Fabrication]&r Tools with &3Fortune&r or &3Silk Touch&r show an initial on their icon."
 			]
 			hide: true
 			icon: "minecraft:anvil"
