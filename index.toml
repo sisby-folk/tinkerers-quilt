@@ -14,23 +14,15 @@ hash = "fb4706f80eb8372ab2460e2d68d8c040e45aad3a581bd25be0d9010c7468a04d"
 
 [[files]]
 file = "config/apathy/boss.cfg"
-hash = "b5c1dff24f22d0b8db642695b70716ec28c28bc6258f32ae3f1077e0bd8d3031"
+hash = "6d01925c16f5913cb67d2d88a27886d56121c83ab08ac1e09d7e5114a85b59f0"
 
 [[files]]
 file = "config/apathy/general.cfg"
-hash = "bd0037ba81bc347a244b8495ea7114940fad7cf20b6b3718295cda69658c83a0"
+hash = "3d4dba742f0bc59c924a8e76bfd5a00cfbb0d6bd19fd2060cef89a43b2c6f5df"
 
 [[files]]
 file = "config/apathy/mobs.cfg"
-hash = "e5d15c76613c71dffed666ee04ad8bf45b5411e28f3ae7222851d5b71a19bef6"
-
-[[files]]
-file = "config/apathy/mobs.json"
-hash = "53d86e143fe62163a169ef8c6f8463cfd1b5970bd8c5248f10933c9af2700a03"
-
-[[files]]
-file = "config/appleskin.json5"
-hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
+hash = "a73bd0828dee679ecb97cda97fc792337a72a95210fa3559fda4395d6ade3e88"
 
 [[files]]
 file = "config/betterdeserttemples-fabric-1_19.toml"
@@ -102,11 +94,11 @@ hash = "d470b8c9c401dfd6edb8c849c849200409cdafd0262b9aa3f86a58e894517ea4"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
-hash = "c6ab5a0a1b4a0aebd4dffd0f5187583d62d34fec0229ccd4f72eef6a6250a0af"
+hash = "34b700a057814e21ca5eb267044d45d8be6a0067856ea8df44d3a3736b943016"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
-hash = "ede576c70bd1370de5bbd9ab1ccb11286c36b6fb0d4c5cdea4fdfefaff6dfbde"
+hash = "971441aaa80e3839edd5fa6006c65a2866638b7117d83e5afdd9e454c36eec8c"
 
 [[files]]
 file = "config/citresewn.json"
@@ -138,7 +130,7 @@ hash = "cd281341dcaca9438a70c38c3821f373998cbbd6abf4a5a3225fdf76d39c2f09"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "62285f44c6c84dadb5ed7e98f92466ba49ef9966e9e8d594e2af5e9fb4290940"
+hash = "f66968b8d1a40cb5b4390f8d61f8c0dd2c814ddd8548020f5af7433b6a76ef4b"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
@@ -154,23 +146,23 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "3eb58004b0b726686c72a6f2b353e5f62e2e4d3de8fc2febcc1acfb0671ac79d"
+hash = "059e972b14af17a2fa5f45869b3d573ce457658af5a6e89c9f037015d83eb8c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "59681163a9492216b7c151e16d9e17c93ab699402b1c9d7c547d35e411c08664"
+hash = "544633d43d0a20f60d5393ef233ef652202be2ca55991ddab28d2dc0884392aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "fa4bef8ad8a9ae2701834e1f587388916ba3757d2d8af1346ebdc01db3e57970"
+hash = "ee3a88078e11a8d1cdda9123e0b646b5c91e4cc00081edd8a89278aacb866287"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "f18b974a81f5ffb9371b3ec0b52f44a539edaa2f254e580375de2f058f0c170c"
+hash = "2a43a842b7a2da7895b078bbbc5384cd1cdbd24d929b20023ead416cafb4417c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "2282591a39de3cc91069b8a20066008a8fb697a0a537f39ac4ef3c581e39d0e2"
+hash = "7d43fc25c8347b34264269632893d0292bc2b782061bea569a65486ba7399aae"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -245,10 +237,6 @@ file = "config/sidebar_buttons.json"
 hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
-file = "config/simplefog.json"
-hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
-
-[[files]]
 file = "config/snowrealmagic-client.toml"
 hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
 
@@ -279,6 +267,10 @@ hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
 [[files]]
 file = "config/yosbr/config/aileron.json"
 hash = "ef5d54ad5552076138b7ecaca713917fdb7069d8d6199d6a9dc5fdfef614c10e"
+
+[[files]]
+file = "config/yosbr/config/appleskin.json5"
+hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
 
 [[files]]
 file = "config/yosbr/config/charmonium.toml"
@@ -317,8 +309,12 @@ file = "config/yosbr/config/qdaa.ini"
 hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
 
 [[files]]
+file = "config/yosbr/config/simplefog.json"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
+
+[[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
-hash = "9eccb4b1628c1fd0bf3b08b0fe1a0671cdd7c4ec9a382884f37490864bc00c82"
+hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
@@ -523,6 +519,11 @@ hash = "93d73b7d173197c7a9ab09f69bcb509c3c1f29cf3a552119f086b3f164a4d323"
 metafile = true
 
 [[files]]
+file = "mods/chickensshed.pw.toml"
+hash = "8bc786e062df82909ca65960da8c49469a70638587f28edbde548c47b94e1126"
+metafile = true
+
+[[files]]
 file = "mods/chunks-fade-in.pw.toml"
 hash = "44c83aabe1cb66201f4a2f7e6ccbfea2c226234a4c52103ef8d865526390b736"
 metafile = true
@@ -618,7 +619,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1a5bc0f47d0a1dec0c0c68f193470758dc81afd44a40d5805b61869e4fd93ab7"
+hash = "f84e1e13825bdc3947128a7d645a8cf90cfa13709d8f25b1e71dc62a0b39bf48"
 metafile = true
 
 [[files]]
@@ -1084,7 +1085,7 @@ hash = "021e419e2e3986e274d7af785f20638ccbe28a098f1c8a02f8fc23dab859d920"
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "a6d92ff28a7ee9edd51251c7462feaff4301c27c6311a1bd2439bac0fd4b5b6f"
+hash = "0fdff1b00a3f61466222cd080b216897764afde26164b174908f9d3aece2ba33"
 metafile = true
 
 [[files]]
@@ -1099,7 +1100,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "832d354844e3bcd22b84c0d639539403f92067032fe0943bedd64c2dd07321c2"
+hash = "611c4f54c465e236ec95d777a80121fb40ac38f01be4156b87e92fd47a62f163"
 metafile = true
 
 [[files]]
@@ -1274,7 +1275,7 @@ hash = "1583e851a19d36755fa3279f4fd33e5d2189dbb7a6d4cd46e29211d94679f334"
 
 [[files]]
 file = "resources/assets/loadingscreentips/loading_tips/tips.json"
-hash = "be34b6bcd8d12a113f1e8cbfb7dd510edb70188a80292177a01e9293c84a29b7"
+hash = "fa689f2d802c3933f47c5562aef25acb3d13974f80040e8246c3cab71bac68a7"
 
 [[files]]
 file = "resources/assets/nullscape/atlas/tiles/crystal_peaks.json"
@@ -1290,7 +1291,7 @@ hash = "327b685607cb04eba468e07907e01a0c9fc4eb5cd8ebd5703c310d6bcf3060aa"
 
 [[files]]
 file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "55f4b3a828f0e7e7b9ff27f718c4d451fcee5c609b0769647dfc8cad7f645467"
+hash = "66f19ff6b2fe5e1b0e244e71bc4942a7957988893801ab214c4c48aba355dcc2"
 
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"

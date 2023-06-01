@@ -14,9 +14,11 @@
 			description: [
 				"A &3Stone Pickaxe&r allows you to mine &3Iron Ore&r, which can be smelted at a &3Furnace&r into &dIron Ingots&r"
 				""
-				"An &3Iron Pickaxe&r can in turn mine &3Gold&r, which makes poor equipment, and the rarer &3Diamond&r, which makes the best overworld equipment."
+				"An &3Iron Pickaxe&r can in turn mine &3Gold&r, which makes poor equipment, and the rarer &3Diamond&r, which &dmakes the best overworld equipment&r."
 				""
-				"&eBundles&r can help store small varied items, simply &6Right-Click&r while holding a stack over the bundle."
+				"&eBundles&r can &dhelp store small varied items&r, simply &6Right-Click&r while holding a stack over the bundle."
+				""
+				"&7[Fabrication]&r Bundles can hold up to 8 tools."
 			]
 			icon: "minecraft:iron_ore"
 			id: "41C9341CA261E52B"
@@ -49,7 +51,7 @@
 			description: [
 				"Holding a &3Pickaxe&r allows you to break &3Stone&r, which can then be used to make &dtools and furnaces&r."
 				""
-				"&7[Tinkerer's Smithing]&r you can upgrade your &3Wooden Pickaxe&r by adding 3 cobblestone in the crafting grid."
+				"&7[Tinkerer's Smithing]&r you can upgrade your &3Wooden Pickaxe&r by adding 3 &3Cobblestone&r in the crafting grid."
 			]
 			icon: "minecraft:cobblestone"
 			id: "548555BB1E839006"
@@ -116,7 +118,7 @@
 				""
 				"By using &3Flint and Steel&r on the portal base, the portal will open and can be walked into."
 				""
-				"&3Piglins&r are denizens of the nether that attack players that aren't wearing &egold armor&r. They'll also attack any player that mines &3nether gold ore&r."
+				"&aPiglins&r are denizens of the nether that attack players that aren't wearing &eGold Armor&r. They'll also attack any player that mines &3Nether Gold Ore&r."
 				""
 				"&7[Fwaystones]&r To help find your way back to a portal, you can place a &eWaystone&r next to it."
 			]
@@ -237,7 +239,7 @@
 		{
 			dependency_requirement: "one_started"
 			description: [
-				"&3Eyes of Ender&r require &3Blaze Powder&r from the &2Nether&r, and &3Ender Pearls&r - obtained by defeating an &cEnderman&r."
+				"&3Eyes of Ender&r require &3Blaze Powder&r from the &2Nether&r, and &eEnder Pearls&r - obtained by defeating an &cEnderman&r."
 				""
 				"&cEndermen&r hit hard, teleport erratically while attacking, and can &dbecome angered through eye contact&r. They're most easily found in the &2Desert&r at night."
 				""
@@ -278,7 +280,7 @@
 			dependencies: ["55AB6125B20E666B"]
 			dependency_requirement: "one_started"
 			description: [
-				"To reach &2The End&r, you first must locate a &2Stronghold&r, an underground fortress made of stone brick."
+				"To reach &2The End&r, you first must locate a &2Stronghold&r, an underground fortress made of &3Stone Brick&r."
 				""
 				"A thrown &3Eye of Ender&r will slowly drift towards the nearest &2Stronghold&r, with a chance of being consumed."
 				""
@@ -316,9 +318,9 @@
 		}
 		{
 			description: [
-				"A &3Wooden Pickaxe&r can be made using material from trees at a &3Crafting Table&r."
+				"A &3Wooden Pickaxe&r can be made using material from &3Trees&r at a &3Crafting Table&r."
 				""
-				"&7[EMI]&r You can look up recipes for both any time in the search box!"
+				"&7[EMI]&r You can &dlook up recipes for both any time&r in the search box!"
 			]
 			icon: "minecraft:crafting_table"
 			id: "53AFBD6DDF572701"
@@ -410,7 +412,7 @@
 			description: [
 				"&3Ancient Debris&r is a rare &2Nether&r material found in &3Bastion Remnants&r."
 				""
-				"With sufficient preperation, it can also be mined for &2under the lava sea&r &7(around y:9)&r, risking lava flows."
+				"With sufficient preparation, it can also be mined &2under the lava sea&r &7(around y:9)&r, risking lava flows."
 				""
 				"It's used to make &dNetherite Ingots&r, which can upgrade &3Diamond Equipment&r at a &3Smithing Table&r."
 				""
@@ -447,13 +449,13 @@
 			dependencies: ["28AFD82AD9C0B721"]
 			dependency_requirement: "one_started"
 			description: [
-				"An &3Enchanting Table&r can &dadd random enchantments&r to an unenchanted piece of equipment or &ebook&r. This costs 1-3 &3experience levels&r and &3Lapis Lazuli&r."
+				"An &3Enchanting Table&r can &dadd random enchantments&r to an unenchanted piece of equipment or &ebook&r. This costs 1-3 &3experience levels&r and &eLapis Lazuli&r."
 				""
-				"Higher &3Level Requirements&r improve the odds of better enchantments. Placing &eBookshelves&r spaced one block from the table increases the &3Level Requirement&r, up to 30 with 15 shelves."
+				"Higher &3level requirements&r improve the odds of better enchantments. Placing &eBookshelves&r spaced one block from the table increases the &3level requirement&r, up to 30 with 15 shelves."
 				""
-				"&7[EasierEnchanting]&r You can &6Click&r the animated book to &dreroll&r guaranteed enchantments for 6 &3Lapis Lazuli&r."
+				"&7[EasierEnchanting]&r You can &6Click&r the animated book to &dreroll&r guaranteed enchantments for 6 &eLapis Lazuli&r."
 				""
-				"&7[TaxFreeLevels]&r Enchanting at a specific &3Level Requirement&r costs the same amount of experience every time, regardless of your own level."
+				"&7[TaxFreeLevels]&r Enchanting at a specific &3level requirement&r costs the &dsame amount of experience every time&r, regardless of your own level."
 			]
 			hide: true
 			id: "594D5FA160E7C304"
@@ -529,11 +531,13 @@
 				""
 				"Here, you can find a large ring of islands, broken up by only &3Chorus Plants&r and &2End Cities&r."
 				""
-				"&eChorus Fruit&r teleports the user randomly, grounding them &dwithout fall damage&r."
+				"&eChorus Fruit&r randomly &dteleports&r the user, grounding them."
 				""
 				"&2End Cities&r contain &cShulkers&r, loot chests, and rarely an &2End Ship&r."
 				""
 				"&cShulkers&r shoot homing bullets that cause dangerous &dlevitation&r on hit, and are &3invulnerable&r while their shells are closed."
+				""
+				"&7[Carpet]&r Chorus Fruit grounds players &dwithout fall damage&r"
 			]
 			hide: true
 			id: "4631772288F2177D"
@@ -594,11 +598,11 @@
 			description: [
 				"&4The Wither&r is a high-tier boss fight best fought in an arena near bedrock in &2The Overworld&r, or near the bedrock roof of &2The Nether&r."
 				""
-				"It's summoned by placing 3 &3Wither Skulls&r on a row of soul sand, with another soul sand below the middle."
+				"It's summoned by placing 3 &3Wither Skulls&r on a row of &3Soul Sand&r, with another &3Soul Sand&r below the middle."
 				""
 				"The Wither is capable of destroying much of the map (even &3Obsidian&r) with explosions if not well-contained. At half health, arrows &dstop being effective&r."
 				""
-				"&eHealing Potions&r heal players, but hurt undead enemies."
+				"&eHealing Potions&r heal players, but hurt &cundead enemies&r."
 				""
 				"&7[Apathy]&r On &3Easy Difficulty&r, the summoning ritual itself is sufficient to receive the reward."
 			]
@@ -633,7 +637,7 @@
 			description: [
 				"A &3Nether Star&r can be obtained by completing the &4Wither&r ritual. It's used to create a &3Beacon&r that provides a &dpermanent status effect&r in a radius. "
 				""
-				"To function, &3Beacons&r must be placed on top of a 3x3 flat square of &3iron, gold, diamond, emerald, or netherite blocks&r."
+				"To function, &3Beacons&r must be placed on top of a 3x3 flat square of &3Iron, Gold, Diamond, Emerald, or Netherite Blocks&r."
 				""
 				"Further layers can be added below the pyramid to &dimprove the beacon&r - 5x5, then 7x7, etc."
 				""
@@ -678,7 +682,7 @@
 				""
 				"&3Nether Wart&r can be regrown by planting it on &3Soul Sand&r in any dimension."
 				""
-				"&3Brewing Stands&r accept blaze powder as fuel, up to three bottles, and a &3brewing ingredient&r. "
+				"&3Brewing Stands&r accept &3Blaze Powder&r as fuel, up to three bottles, and a &3brewing ingredient&r. "
 				""
 				"&3Awkward Potions&r are made from water bottles brewed with &3Nether Wart&r, which can in turn be brewed with &evarious ingredients&r to create helpful potions."
 			]
@@ -735,7 +739,7 @@
 			description: [
 				"Once visited a few times, &2The Nether&r can become safer through the use of &dpotions and safe transport routes&r."
 				""
-				"Safer transport includes digging tunnels through netherrack, and &eriding&r a &bStrider&r over the lava sea using &eWarped Fungus&r."
+				"Safer transport includes digging tunnels through &3Netherrack&r, and &eriding&r a &bStrider&r over the lava sea using &eWarped Fungus&r."
 				""
 				"&eRedstone Dust&r can be brewed into potions to &dextend their duration&r, while &3Glowstone Dust&r can increase some potions' potency."
 			]
@@ -838,13 +842,15 @@
 			description: [
 				"An &3Anvil&r can be used to &drepair&r equipment with materials, apply &denchantments from books&r, and &dcombine&r equipment of the same type."
 				""
-				"Applying enchantments costs &3Experience Levels&r based on their strength, and increases each time the tool is modified. "
+				"Applying enchantments costs &3experience levels&r based on their strength, and increases each time the tool is modified. "
 				""
 				"Enchantments like &eSilk Touch and Fortune&r, Bow &3Infinity and Mending&r, Armor &3Protection&r, and Weapon &3Damage&r, are &dincompatible&r with eachother."
 				""
 				"&eGrindstones&r completely un-enchant equipment, &drefunding&r a small amount of experience."
 				""
 				"&7[idwtialsimmoedm]&r hold &7[&r&6Shift&r&7]&r on an &eenchanted item&r to see enchantment descriptions."
+				""
+				"&7[Fabrication]&r Tools with &3Fortune&r or &3Silk Touch&r show an initial on their icon."
 			]
 			hide: true
 			icon: "minecraft:anvil"
@@ -960,15 +966,15 @@
 			dependencies: ["41C9341CA261E52B"]
 			dependency_requirement: "one_started"
 			description: [
-				"Most blocks have a &3Preferred Tool&r that breaks them the fastest."
+				"Most blocks have a &3preferred tool&r that breaks them the fastest."
 				""
-				"&3Axes&r break wood, including logs, planks, and most furniture."
+				"&3Axes&r break &3Wood&r, including logs, planks, and most furniture."
 				""
-				"&3Shovels&r break dirt, sand, clay, snow, and similar groundcover."
+				"&3Shovels&r break &3Dirt&r, &3Sand&r, &3Clay&r, &3Snow&r, and similar groundcover."
 				""
-				"&3Swords&r break cobwebs and bamboo."
+				"&3Swords&r break &3Cobwebs&r and &3Bamboo&r."
 				""
-				"&3Hoes&r break hay bales, leaves, moss, and fungi."
+				"&3Hoes&r break &3Hay Bales&r, &3Leaves&r, &3Moss&r, and &3Fungi&r."
 				""
 				"&3Pickaxes&r break most \"hard\" blocks, including anything stone or metal. When broken with any other tool, many of these are &ddestroyed&r."
 				""
