@@ -1,4 +1,4 @@
-<center><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/207277584-6cd91492-0fc6-4cae-9155-f278ea6c7847.png" />
+<center><img alt="Tinkerer's Quilt banner" src="https://github.com/sisby-folk/mc-packs/assets/55819817/84a461ab-9ae0-4b9e-b121-c4c3dbdada05.png" />
 <b>Tinkerer's Quilt</b> (TQuilt) is a vanilla-compatible modpack by kapesi, clawby, hornby, laughter, herrah, metal, and bea.<br/>
 It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <b>Installation</b> section below.</center>
 
