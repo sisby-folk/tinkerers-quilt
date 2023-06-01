@@ -1,26 +1,24 @@
-<center><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/207277584-6cd91492-0fc6-4cae-9155-f278ea6c7847.png" />
-<b>Tinkerer's Quilt</b> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
-It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <b>Installation</b> section below.</center>
+<center><img alt="Tinkerer's Quilt banner" src="https://cdn.modrinth.com/data/vrkQdo9Y/images/8088722fdded8e265ca038739b4a5605c6dfb1d4.png" />
+A modpack that adds nothing.<br/>
+Making minecraft smoother, more discoverable, and have the exact same amount of items since 2021.<br/>
+
 
 ---
 
-<center><b>Packs:</b> <i>Tinkerer's Quilt</i> (<a href="https://modrinth.com/modpack/tinkerers-silk">Silk</a>) - <a href="https://modrinth.com/modpack/switchy-pack">Switchy Pack</a></center>
-<center><b>Mods:</b> <a href="https://modrinth.com/mod/switchy">Switchy</a> - <a href="https://modrinth.com/mod/origins-minus">Origins Minus</a> (<a href="https://modrinth.com/mod/tinkerers-statures">Statures</a>) - <a href="https://modrinth.com/mod/tinkerers-smithing">Tinkerer's Smithing</a></center>
+Tinkerer's Quilt is about <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.
 
----
+Tinkerer's Quilt:
 
-Tinkerer's Quilt is _vanilla world compatible_, with **no new items, blocks, or worldgen**.
-
-Instead, this modpack:
-
+- **Is Vanilla-Compatible** - Saves are safe -  there's **no new items, blocks, or worldgen**
 - **Guides players through vanilla** with in-game quests and info - no wiki required.
-- **Enhances game Quality of Life** improvements for accessibility and smoother gameplay.
+- **Enhances game Quality of Life** with improvements for accessibility and smoother gameplay.
 - **Makes the game easier** with simplified gear crafting, reduced death penalty, and helpful quest rewards.
 - **Encourages player expression** with better skins, origins, and more ways to build.
 
 TQuilt is not a client or minimalist pack! It has ~120 mods and should be installed on both sides.
 
 ---
+
 
 # Pack Features
 
@@ -32,7 +30,9 @@ TQuilt is not a client or minimalist pack! It has ~120 mods and should be instal
 <details>
 <summary>Click to Expand</summary><center>
 
-**_"It's like FTB Academy for Vanilla!"_** - Us, just now
+**_"It's like FTB Academy for Vanilla!"_** - Us, a year ago
+
+**_"It's like a playable Minecraft Wiki!"_** - Us, just now
 
 TQuilt's quests guide players through the core progression of minecraft, and explore its main gameplay opportunities.
 
@@ -109,7 +109,7 @@ _Quicker tools with less junk - upgrade wood to stone to iron from the 2x2 craft
 [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.19.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.<br/>
 [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.19.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for copper and wax.<br/>
 
-**194 quests**:<br/>
+**166 quests**:<br/>
 
 just as much flavour text - queer humour, observations, and a weird mix of references.<br/>
 1074 lines of quest descriptions - tutorials, explanations, and so on.<br/>
@@ -187,25 +187,26 @@ Letting players express themselves with player customisation, builds, and even f
 <details>
 <summary>Click to Expand</summary>
 
-### **Packwiz**
+### Stable (Modrinth)
+
+Use your modrinth-supporting launcher of choice (e.g. [Prism](https://prismlauncher.org/)) - follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then manually download the mods listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
+
+### Edge (Packwiz)
+
+This pack version auto-updates every launch. Slightly higher chance of experiencing pack-jank.
 
 - Install [Prism Launcher](https://prismlauncher.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
   - Alternatively, run `winget install "Prism Launcher"` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
-  - [MultiMC](https://multimc.org/) is also supported.
 - Download Tinkerer's Quilt from the [packwiz downloads page](https://sisby-folk.github.io/mc-packs/).
 - Drag and drop onto an open Prism/MultiMC window, press OK, and double click it to play!
   - When prompted for optional mods, press OK to continue, or customise to your liking first.
   - The pack will auto-update on every launch. To disable this, turn off **custom commands** in Edit Instance -> Settings.
 
-#### **Packwiz Server**
+#### Packwiz Server
 
 - Download the server from the [packwiz downloads page](https://sisby-folk.github.io/mc-packs/).
 - Run the included Quilt Installer, selecting your minecraft version and the latest non-beta loader version.
 - Run the `Update` script to install the pack, then the `Start` script to run the server
-
-### Modrinth
-
-Follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then manually download the mods listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
 
 </details>
 
@@ -222,6 +223,7 @@ Follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_m
 Resource Packs:
     Axolotl Bucket Variants
     Sully's Peeves
+    Vanilla Tweaks
     Varied Connected Bookshelves
     xali's Enchanted Books
 
@@ -234,8 +236,7 @@ Mods:
     Architectury API
     bad packets
     Balm
-    Bedrock Waters
-    Better Biome Blend
+    BedrockWaters
     Better End Sky
     Boring Default Game Rules
     Cardinal Ice Boats
@@ -243,10 +244,11 @@ Mods:
     Carpet-Fixes
     Carpet
     Charmonium
+    ChickensShed
     Chunks fade in
     CIT Resewn
     CleanCut
-    Client Tweaks (Fabric Edition)
+    Client Tweaks
     Cloth Config API
     Colormatic
     Continuity
@@ -254,42 +256,42 @@ Mods:
     Coyote Time
     Crowmap
     Crunchy Crunchy Advancements
-    DeftuLib
-    Drogtor the Nickinator
-    Dyeable Fishing Lines
+    Drogstyle
+    [Jar/Fork] Dyable Fishing Lines
     Dynamic FPS
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
+    EasierEnchanting
     Enhanced Block Entities
     EMI
     EMI Trades
     Enhanced Attack Indicator
     Exordium
-    Fabric Language Kotlin
-    Fabric Shield Lib
-    Feed the Bees
-    Fishing Real
     Window Title Changer
     Fabrication
+    Fabric Shield Lib
     Fabric Tailor
     Falling Leaves
-    FastLoad
     FastOpenLinksAndFolders
+    Feed the Bees
     FerriteCore
+    Fishing Real
     FTB Library (Fabric)
     FTB Quests (Fabric)
     FTB Teams (Fabric)
     Horse Buff
-    Hwyla Addon Horse Info
     Idwtialsimmoedm
+    [Jar/Fork] Illuminations
     ImmediatelyFast
     Indium
+    [Jar/Fork] Inventory Tabs
     Inspecio
     Iris Shaders
     Item Filters
     Item Model Fix
     JamLib
+    Kaffee's Dual Ride
     Keep My Hand
-    Kiwi 🥝 (Fabric)
+    Kiwi 🥝
     Krypton
     LambdaBetterGrass
     LambDynamicLights
@@ -304,41 +306,45 @@ Mods:
     Mod Menu
     More Culling
     Mouse Wheelie
-    Nbt Crafting
-    No Fade
+    Music Notification
     NoRecipeBook (Fabric)
     Not Enough Animations
     Noteable
     Ok Zoomer
+    [Jar/Fork] Origins
     Origins Minus
-    Origins
+    oωo (owo-lib)
     Pehkui
     Pettable
+    PicoHUD
     Portable Crafting Standalone
     Presence Footsteps
     Project: Save the Pets!
     QDResLoader
-    Quilt Kotlin Libraries
+    Quilt Kotlin Libraries (QKL)
     Quilt Standard Libraries
     Quilt Loading Screen
     Reacharound
     Reese's Sodium Options
-    Reroll
     RightClickHarvest
+    Simple Durability Tooltip
     Simple Fog Control
+    Skip Transitions
+    Snow! Real Magic! ⛄
+    Snow Under Trees (Fabric)
     Sodium Extra
     Sodium
-    Simple Durability Tooltip
     Starlight (Fabric)
     Status Effect Timer
     Styled Chat
+    Styled Nicknames
     Styled Player List
     Switchy Inventories
     Switchy Proxy
     Switchy Resource Packs
-    Switchy Teleport
-    SwitchyKit
+    [Jar/Fork] Switchy Teleport
     Switchy
+    SwitchyKit
     Tax Free Levels
     Tinkerer's Smithing
     Tinkerer's Statures
@@ -349,29 +355,18 @@ Mods:
     Visuality
     WTHIT Plugins
     WTHIT
-    YetAnotherConfigLib
     You're in Grave Danger
     Your Options Shall Be Respected (YOSBR)
 
 Recommended Shader Packs:
-    BSL
-    Builder's QoL
-    Complementary
+    BSL Shaders
+    Builder's QOL Shaders
     Complementary Reimagined
-    Prismarine
-    Sildurs Enhanced Default
-    Rethiking Voxels
+    Complementary Shaders v4
+    Prismarine Shaders
+    Rethinking Voxels
+    Sildurs Enhanced Default Shaders
     Super Duper Vanilla
-
-Override mods:
-    illuminations-1.10.8.jar
-    inventorytabs-0.9.0-beta-1.19.x.jar
-    VanillaTweaks_c667075.zip
-    VanillaTweaks_r324798.zip
-
-Data Packs:
-    Tinkerer's Vegetarian
-    Tinkerer's Copper Beacons
 ```
 
 </details>
@@ -419,4 +414,10 @@ Effective: https://www.curseforge.com/minecraft/mc-mods/effective
 Illuminations: https://www.curseforge.com/minecraft/mc-mods/illuminations
 ```
 
+---
+
+<center><b>Packs:</b> <i>Tinkerer's Quilt</i> (<a href="https://modrinth.com/modpack/tinkerers-silk">Silk</a>) - <a href="https://modrinth.com/modpack/switchy-pack">Switchy Pack</a></center>
+<center><b>Mods:</b> <a href="https://modrinth.com/mod/switchy">Switchy</a> - <a href="https://modrinth.com/mod/origins-minus">Origins Minus</a> (<a href="https://modrinth.com/mod/tinkerers-statures">Statures</a>) - <a href="https://modrinth.com/mod/tinkerers-smithing">Tinkerer's Smithing</a></center>
+
+---
 </center>
