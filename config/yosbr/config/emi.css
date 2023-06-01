@@ -31,6 +31,11 @@
 	move-effects: false;
 
 	/**
+	 * Whether to add mod name to tooltips
+	 */
+	append-mod-id: false;
+
+	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
 	 */
 	append-item-mod-id: false;
