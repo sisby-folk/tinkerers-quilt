@@ -1,5 +1,5 @@
 <center><img alt="Tinkerer's Quilt banner" src="https://user-images.githubusercontent.com/55819817/207277584-6cd91492-0fc6-4cae-9155-f278ea6c7847.png" />
-<b>Tinkerer's Quilt</b> (TQuilt) is a minecraft modpack by Kapesi, Clawby, Herrah and Le'mer.<br/>
+<b>Tinkerer's Quilt</b> (TQuilt) is a vanilla-compatible modpack by kapesi, clawby, hornby, laughter, herrah, metal, and bea.<br/>
 It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <b>Installation</b> section below.</center>
 
 ---
@@ -9,12 +9,11 @@ It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability<
 
 ---
 
-Tinkerer's Quilt is _vanilla world compatible_, with **no new items, blocks, or worldgen**.
+Tinkerer's Quilt:
 
-Instead, this modpack:
-
+- **Is Vanilla-Compatible** - Saves are safe -  there's **no new items, blocks, or worldgen**
 - **Guides players through vanilla** with in-game quests and info - no wiki required.
-- **Enhances game Quality of Life** improvements for accessibility and smoother gameplay.
+- **Enhances game Quality of Life** with improvements for accessibility and smoother gameplay.
 - **Makes the game easier** with simplified gear crafting, reduced death penalty, and helpful quest rewards.
 - **Encourages player expression** with better skins, origins, and more ways to build.
 
@@ -32,7 +31,9 @@ TQuilt is not a client or minimalist pack! It has ~120 mods and should be instal
 <details>
 <summary>Click to Expand</summary><center>
 
-**_"It's like FTB Academy for Vanilla!"_** - Us, just now
+**_"It's like FTB Academy for Vanilla!"_** - Us, a year ago
+
+**_"It's like a playable Minecraft Wiki!"_** - Us, just now
 
 TQuilt's quests guide players through the core progression of minecraft, and explore its main gameplay opportunities.
 
@@ -109,7 +110,7 @@ _Quicker tools with less junk - upgrade wood to stone to iron from the 2x2 craft
 [Tinkerer's Vegetarian](https://github.com/sisby-folk/mc-packs/tree/quilt_1.19.2/config/openloader/data/tinkerers_vegetarian) (NBT) - recipes for potions, leather, books, and more, without killing passive mobs.<br/>
 [Tinkerer's Copper Beacons](https://github.com/sisby-folk/mc-packs/tree/quilt_1.19.2/config/openloader/data/tinkerers_copper_beacons) - Allows beacons made of unexposed copper blocks. A use for copper and wax.<br/>
 
-**194 quests**:<br/>
+**166 quests**:<br/>
 
 just as much flavour text - queer humour, observations, and a weird mix of references.<br/>
 1074 lines of quest descriptions - tutorials, explanations, and so on.<br/>
