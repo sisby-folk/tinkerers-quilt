@@ -292,6 +292,7 @@ This modpack started in January 2021 as a skyrim-style vanilla+ "modding guide" 
 [Emi](https://github.com/emilyploszaj) ([EMI](https://modrinth.com/mod/emi))<br/>
 [Una](https://github.com/unascribed) ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor](https://github.com/unascribed/Drogtor/), [Yttr](https://modrinth.com/mod/yttr))<br/>
 [Quat](https://github.com/quat1024) ([Apathy](https://modrinth.com/mod/apathy))<br/>
+[Comp500](https://github.com/comp500) ([Packwiz](https://github.com/packwiz/packwiz))<br/>
 [LambdAurora](https://github.com/LambdAurora) ([QSL](https://modrinth.com/mod/qsl), [LambdaBetterGrass](https://modrinth.com/mod/lambdabettergrass), [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights))<br/>
 [Patbox](https://github.com/Patbox) ([Styled Nicknames](https://modrinth.com/mod/styled-nicknames), [Styled Chat](https://modrinth.com/mod/styled-chat))<br/>
 [Vazkii](https://github.com/Vazkii) ([Bliss](https://www.curseforge.com/minecraft/modpacks/bliss))<br/>
