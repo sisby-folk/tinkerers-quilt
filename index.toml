@@ -1405,55 +1405,55 @@ metafile = true
 
 [[files]]
 file = "resources/packs/campanion_delight_compat/data/c/tags/items/hidden_from_recipe_viewers.json"
-hash = "0efe9a05108fe600577638b659ad13d06282b6f3cadae6f3922a5521f9e02493"
+hash = "9bdc6b60c01fbed520e83d33df1569a296c773615c1606355e0344b72bbfbd7a"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/advancements/recipes/tools/rope_bridge_post.json"
-hash = "47ed1748f75fc63955fd6544edd2b2cf0ee6210d8f67dd794cab661689f44e31"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/advancements/recipes/farmersdelight/rope.json"
+hash = "fb002a3a8b1b68b7a9913fcb13f894cd885f9746291a7f62d6f765eb48dc2032"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/advancements/recipes/tools/tent_bag.json"
-hash = "8b30232dc89a6dff8092abaa187402214543c46b1f97a988f8b51426cd4225de"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/advancements/recipes/farmersdelight/rope_from_safety_net.json"
+hash = "ff011faaebabfcb0a3ee3a9d12341985864f0b6bc7ad26a11856e571eb17cbda"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/camping_pack.json"
-hash = "dc055fe32f7d2d5ec015ecdd3c53add4f9b8db450be93cb3512930f35545b9fc"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/advancements/recipes/farmersdelight/safety_net.json"
+hash = "da5d8a7da534127f7ecde6203f5a2bf096ac3226aaf25bc85cda11b252756d61"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/day_pack.json"
-hash = "de2fe1b942b12d92ec4096f152f6479de2e403a709893598a929bc51e7318915"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/advancements/recipes/tools/lead_from_rope.json"
+hash = "7d38f34d917b12c63f6d1d17ac3756aa55f3abf2dd25ab42b0591d6910b61d56"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/grappling_hook.json"
-hash = "b09c405408a2d9efbbe54d894ae68b1f08ee8b3f69e1ae3747d0d99d2001d9d3"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/loot_tables/inject/chests/abandoned_mineshaft.json"
+hash = "155ccd404081686d12b722dada9a6b8f5b3ee279e9382689d46f885b8a4dc946"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/hiking_pack.json"
-hash = "2aea91e95d2b089707bfffa6a4c68e3609448df1d23b6a5e598ebd3b68903a2d"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/loot_tables/inject/chests/shipwreck_supply.json"
+hash = "e13d66e464fbf88e098807214bcaf0414e9712b391daea77762edd7313982351"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/large_unbuilt_tent.json"
-hash = "a23dbe9f50dcf8eaff7f7ec211366d0345e985b4b0bcfa90f9dcc1307ce7f03a"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/loot_tables/inject/chests/simple_dungeon.json"
+hash = "8851adab356d1b58ba37bd4249e96a3de9afb96bd62d0e9d2173ff867aad6ca3"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/rope.json"
-hash = "43a08b14d777026b4c20ac5d4e3fba3974c062292a1f624074b4714696cfa954"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/recipes/lead_from_rope.json"
+hash = "8630f7548f2dc4cf0a8538e3f26e3c6b2b6522b8036740e8399aa4015caf3ffd"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/rope_ladder.json"
-hash = "e667b61a387c34f0cd617bd71d7bd60b757096723230c27dcf57bb3bfd2371cb"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/recipes/rope.json"
+hash = "3e0a190ff26914a4e2c3f75ee6141f59c355429c3b5ea85795f91dd2948054ee"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/small_unbuilt_tent.json"
-hash = "d30e35a30e60c55f5a176a0bc0d4e77d47121be12a28a4b67db8c37b5bff6a53"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/recipes/rope_from_rope.json"
+hash = "93fe6407905647d82da7047f700489d6f47b61956a7c7883a526b733c1a2c778"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/recipes/tent_bag.json"
-hash = "d2581b504714a5017c24f59ab00e4a828dbcab68fddd81c23dc500f47bea25e8"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/recipes/rope_from_safety_net.json"
+hash = "515580b8f1714b7a92bbfc26cfb7dfab89f70cbc2c349f2915e4f889658fbbeb"
 
 [[files]]
-file = "resources/packs/campanion_delight_compat/data/campanion/smithing_unit_costs/grappling_hook.json"
-hash = "ee5f30b92d8c3f8ec9236c49ceef96cdb1e2b1092e0472485befdfeda0de92bf"
+file = "resources/packs/campanion_delight_compat/data/farmersdelight/recipes/safety_net.json"
+hash = "799cf1a3b37868934e4e227d29817cd154f731abd7274597b5148a4c80326f47"
 
 [[files]]
 file = "resources/packs/campanion_delight_compat/pack.mcmeta"
