@@ -1,13 +1,11 @@
-<center><img alt="Tinkerer's Quilt banner" src="https://github.com/sisby-folk/mc-packs/assets/55819817/84a461ab-9ae0-4b9e-b121-c4c3dbdada05.png" />
-<b>Tinkerer's Quilt</b> (TQuilt) is a vanilla-compatible modpack by kapesi, clawby, hornby, laughter, herrah, metal, and bea.<br/>
-It focuses on <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.<br/><br/>It's built on Quilt, and has Modrinth and Packwiz releases. Check out the <b>Installation</b> section below.</center>
+<center><img alt="Tinkerer's Quilt banner" src="https://cdn.modrinth.com/data/vrkQdo9Y/images/8088722fdded8e265ca038739b4a5605c6dfb1d4.png" />
+A modpack that adds nothing.<br/>
+Making minecraft smoother, more discoverable, and have the exact same amount of items since 2021.<br/>
+
 
 ---
 
-<center><b>Packs:</b> <i>Tinkerer's Quilt</i> (<a href="https://modrinth.com/modpack/tinkerers-silk">Silk</a>) - <a href="https://modrinth.com/modpack/switchy-pack">Switchy Pack</a></center>
-<center><b>Mods:</b> <a href="https://modrinth.com/mod/switchy">Switchy</a> - <a href="https://modrinth.com/mod/origins-minus">Origins Minus</a> (<a href="https://modrinth.com/mod/tinkerers-statures">Statures</a>) - <a href="https://modrinth.com/mod/tinkerers-smithing">Tinkerer's Smithing</a></center>
-
----
+Tinkerer's Quilt is about <b>Vanilla Gameplay</b>, <b>Accessibility</b>, <b>Discoverability</b>, <b>QoL</b>, and <b>Player Expression</b>.
 
 Tinkerer's Quilt:
 
@@ -20,6 +18,7 @@ Tinkerer's Quilt:
 TQuilt is not a client or minimalist pack! It has ~120 mods and should be installed on both sides.
 
 ---
+
 
 # Pack Features
 
@@ -415,4 +414,10 @@ Effective: https://www.curseforge.com/minecraft/mc-mods/effective
 Illuminations: https://www.curseforge.com/minecraft/mc-mods/illuminations
 ```
 
+---
+
+<center><b>Packs:</b> <i>Tinkerer's Quilt</i> (<a href="https://modrinth.com/modpack/tinkerers-silk">Silk</a>) - <a href="https://modrinth.com/modpack/switchy-pack">Switchy Pack</a></center>
+<center><b>Mods:</b> <a href="https://modrinth.com/mod/switchy">Switchy</a> - <a href="https://modrinth.com/mod/origins-minus">Origins Minus</a> (<a href="https://modrinth.com/mod/tinkerers-statures">Statures</a>) - <a href="https://modrinth.com/mod/tinkerers-smithing">Tinkerer's Smithing</a></center>
+
+---
 </center>
