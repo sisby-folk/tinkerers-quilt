@@ -46,7 +46,7 @@
 				icon: "minecraft:blue_ice"
 				id: "0E98F0430979C3AB"
 				structure: "minecraft:village_snowy"
-				title: "Visit a Snow Village"
+				title: "Enter a Snow Village"
 				type: "structure"
 			}]
 			title: "Shivery!"
@@ -376,7 +376,7 @@
 				icon: "minecraft:sandstone"
 				id: "18D4E5CF52B9AE80"
 				structure: "minecraft:village_desert"
-				title: "Visit a Desert Village"
+				title: "Enter a Desert Village"
 				type: "structure"
 			}]
 			title: "Send Stones"
@@ -532,7 +532,7 @@
 				icon: "minecraft:spruce_planks"
 				id: "0996CC3858DEAB84"
 				structure: "minecraft:village_taiga"
-				title: "Visit a Taiga Village"
+				title: "Enter a Taiga Village"
 				type: "structure"
 			}]
 			title: "Mane Street"
@@ -696,7 +696,7 @@
 				id: "3A8EA4DA6B1CD11A"
 				observe_type: 0
 				timer: 0L
-				title: "Observe an Amethyst Block"
+				title: "Find an Amethyst Block"
 				to_observe: "minecraft:amethyst_block"
 				type: "observation"
 			}]
@@ -728,7 +728,7 @@
 				id: "042C9CD92C61AC31"
 				observe_type: 1
 				timer: 0L
-				title: "Find Snow"
+				title: "Find some Snow"
 				to_observe: "minecraft:snow"
 				type: "observation"
 			}]
@@ -1127,7 +1127,7 @@
 				icon: "minecraft:mossy_stone_bricks"
 				id: "5D59AF700C3FD338"
 				structure: "#minecraft:ocean_ruin"
-				title: "Find Ocean Ruins"
+				title: "Find some Ocean Ruins"
 				type: "structure"
 			}]
 			title: "Sleeping with the Fishes"
