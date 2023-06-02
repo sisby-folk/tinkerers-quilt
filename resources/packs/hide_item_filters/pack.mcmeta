@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "description": "Filters and Hides Item Filters and FTB quests items",
+    "pack_format": 10
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "itemfilters",
+        "path": "recipes/.*"
+      },
+      {
+        "namespace": "ftbquests",
+        "path": "recipes/.*"
+      }
+    ]
+  }
+}

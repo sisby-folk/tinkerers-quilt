@@ -1,0 +1,13 @@
+name = "PicoHUD"
+filename = "picohud-1.4.0+1.19.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/483PZAuC/versions/B9YtYPyV/picohud-1.4.0%2B1.19.jar"
+hash-format = "sha1"
+hash = "e3bf5864519a055cafbe9d181d51c0d90d2ceb1a"
+
+[update]
+[update.modrinth]
+mod-id = "483PZAuC"
+version = "B9YtYPyV"

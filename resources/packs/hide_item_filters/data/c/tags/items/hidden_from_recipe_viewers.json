@@ -1,0 +1,33 @@
+{
+	"values": [
+		"itemfilters:always_true",
+		"itemfilters:always_false",
+		"itemfilters:or",
+		"itemfilters:and",
+		"itemfilters:not",
+		"itemfilters:xor",
+		"itemfilters:tag",
+		"itemfilters:mod",
+		"itemfilters:item_group",
+		"itemfilters:id_regex",
+		"itemfilters:damage",
+		"itemfilters:block",
+		"itemfilters:max_count",
+		"itemfilters:strong_nbt",
+		"itemfilters:weak_nbt",
+		"itemfilters:custom",
+
+		"ftbquests:book",
+		"ftbquests:missing_item",
+		"ftbquests:custom_icon",
+		"ftbquests:barrier",
+		"ftbquests:stage_barrier",
+		"ftbquests:detector",
+		"ftbquests:lootcrate",
+		"ftbquests:loot_crate_opener",
+		"ftbquests:screen_1",
+		"ftbquests:screen_3",
+		"ftbquests:screen_5",
+		"ftbquests:screen_7"
+	]
+}

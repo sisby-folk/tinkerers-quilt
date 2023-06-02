@@ -1,15 +1,11 @@
 version:3120
 resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix"]
 autoJump:false
-tutorialStep:none
-darkMojangStudiosBackground:true
 key_[Fabrication] Toggle Stance:key.keyboard.z
 key_key.advancements:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.m
 key_key.presencefootsteps.settings:key.keyboard.p
-key_key.ftbquests.quests:key.keyboard.j
 key_key.fabrictailor.toggle_skin_gui:key.keyboard.t
-key_key.origins.view_origin:key.keyboard.o
 key_key.waila.show_overlay:key.keyboard.left.alt
 key_key.wthit-plugins.show_author:key.keyboard.unknown
 key_key.pettable.pet:key.mouse.middle
@@ -17,4 +13,3 @@ key_key.projectsavethepets.allowdamage:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.i
 key_iris.keybind.shaderPackSelection:key.keyboard.i
-key_key.origins.secondary_active:key.keyboard.h
