@@ -1175,7 +1175,7 @@
 				"3BBB8E131ECD4FF5"
 				"30ED364C540672C8"
 			]
-			description: ["&o&dStay safe, These plates are more fragile than you'd think&r&r"]
+			description: ["&o&dStay safe, These plates are fragile&r&r"]
 			hide: true
 			hide_dependency_lines: true
 			icon: {
@@ -1248,14 +1248,6 @@
 								{
 									id: "minecraft:projectile_protection"
 									lvl: 4s
-								}
-								{
-									id: "minecraft:protection"
-									lvl: 4s
-								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 10s
 								}
 							]
 							RepairCost: 31
