@@ -745,7 +745,7 @@
 				""
 				"&7[RightClickHarvest]&r &3Hoes&r can be used to harvest crops in an area. Better hoes have a &dlarger radius&r."
 				""
-				"&7[Carpet]&r Bone Meal can also grow &3Sugarcane&r, &3Cactus&r, &3Lilypads&r, and &3Coral&r."
+				"&7[Carpet]&r Bone Meal can also grow &3Sugarcane&r, &3Cactus&r, &3Lily Pads&r, and &3Coral&r."
 			]
 			icon: {
 				Count: 1b
@@ -1376,7 +1376,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Gather Soulspeed Highway materials"
+			subtitle: "Gather Soul Speed Highway materials"
 			tasks: [
 				{
 					count: 64L
@@ -2084,7 +2084,7 @@
 				""
 				"&3Mycelium&r, found on &2Mushroom Islands&r, can grow mushrooms at any light level."
 				""
-				"Mushrooms can also be &3Bonemeal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
+				"Mushrooms can also be &3Bone Meal&r'd into &3Huge Mushrooms&r, which yield 0-2 mushrooms per block."
 				""
 				"That means this is actually a &3Bone Meal&r compost farm! You can use a &3Hopper&r to &dfill and empty composters&r automatically."
 			]
@@ -2738,7 +2738,7 @@
 							}
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Haphaestus\"}"
+								Name: "{\"text\":\"Hephaestus\"}"
 							}
 						}
 					}
