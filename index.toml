@@ -1347,6 +1347,10 @@ file = "resources/assets/yttr/atlas/tiles/wasteland.json"
 hash = "8fb1c0a7f6f9e4c1303221a744a14af9b5967a7bf54718452ab3d85d9a05c58c"
 
 [[files]]
+file = "resources/data/create/recipes/crafting/curiosities/cake.json"
+hash = "64446f085c617dad7bf3b974bda2f11dfba6343fbe3e63e2ce2df0ea3d19a146"
+
+[[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
 hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 
