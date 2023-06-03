@@ -857,6 +857,11 @@ hash = "1be161c5175de48cc080374582c6af01b02c57e3a7d21617c0ab558b59b6c954"
 metafile = true
 
 [[files]]
+file = "mods/mealapi.pw.toml"
+hash = "52e30de45d677c864cca9b37357b7b9d16d73947d21f8ecba2df705f820fdb99"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "4ce761e594c255a802bd4b0b4b6312e740130b17d77764c389cef4c8417ae8af"
 metafile = true
