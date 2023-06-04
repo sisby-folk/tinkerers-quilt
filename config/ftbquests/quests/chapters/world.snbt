@@ -438,6 +438,8 @@
 				"&3Turtle Shells&r are helmets that provide additional &dBreath Capacity&r, similar to the &3Respiration&r enchantment. "
 				""
 				"They can also be brewed into three &ePotion of the Turtle Master&r - a specialized &3Combat Potion&r that &dslows you&r."
+				""
+				"&7[Consistency+]&r &3Turtle Armor&r can be crafted for all slots, providing a &dspecialized Turtle Master effect&r."
 			]
 			hide: true
 			hide_dependency_lines: false
@@ -1241,7 +1243,9 @@
 				""
 				"&3Cobbled Deepslate&r can be &dused like Cobblestone&r in crafting."
 				""
-				"&7[Chalk]&r &3Chalk&r is made of &3Calcite&r, and can be used to &dmark directions&r when caving."
+				"&7[Chalk]&r &eChalk&r is made of &3Calcite&r, and can be used to &dmark directions&r when caving."
+				""
+				"&7[Campanion]&r &eFlares&r are cheap modifications of torches that can be &dthrown&r - however, they can't be reused."
 			]
 			hide: true
 			id: "10CFFE20ABD36803"
@@ -1260,6 +1264,12 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "786617C6613FDE16"
+					item: "campanion:flare"
 					type: "item"
 				}
 			]
@@ -1386,14 +1396,27 @@
 				"&7[Fwaystones]&r A &3Waystone&r allows for &dfast travel&r, and adds a &dpermanent marker to all atlases&r. "
 				""
 				"This can help you return to a familiar location if you get lost."
+				""
+				"&7[Nature's Compass]&r A &eNature's Compass&r can &dfind any one specific biome&r. Perfect for if you want to settle down in a specific area - or if you've done lots of travelling and just can't find the &dlast few biomes&r!"
 			]
 			hide: true
 			id: "789344ADD80A6FFA"
-			rewards: [{
-				id: "5C2FA5AA4F3A024C"
-				item: "fwaystones:waystone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C2FA5AA4F3A024C"
+					item: "fwaystones:waystone"
+					type: "item"
+				}
+				{
+					id: "55A7116EF55A5CB8"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Walk 500 Blocks"
 			tasks: [{
@@ -1957,6 +1980,211 @@
 			title: "No dragons to speak of"
 			x: -2.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "68BA2ED131675132"
+			rewards: [{
+				count: 8
+				id: "0C1EEA674BC6BE36"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Badlands Village"
+			tasks: [{
+				icon: "minecraft:dead_bush"
+				id: "1C4AC2DCDB69183D"
+				structure: "repurposed_structures:village_badlands"
+				title: "Enter a Badlands Village"
+				type: "structure"
+			}]
+			title: "Agua Fria"
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "03DAA03E966BA7CE"
+			rewards: [{
+				count: 8
+				id: "2D23F55F2509077A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Birch Village"
+			tasks: [{
+				icon: "minecraft:stripped_birch_log"
+				id: "69389899367F5F58"
+				structure: "repurposed_structures:village_birch"
+				title: "Enter a Birch Village"
+				type: "structure"
+			}]
+			title: "Paperbark"
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "4D8AAC1A6AA04D4D"
+			rewards: [{
+				count: 8
+				id: "335EE78502B193FF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Dark Forest Village"
+			tasks: [{
+				icon: "minecraft:dark_oak_log"
+				id: "7EDEF684E103A114"
+				structure: "repurposed_structures:village_dark_forest"
+				title: "Enter a Dark Forest Village"
+				type: "structure"
+			}]
+			title: "Monster Camp"
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "4A8BE14167255678"
+			rewards: [{
+				count: 8
+				id: "05C583F07453EDD2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Giant Taiga Village"
+			tasks: [{
+				icon: "minecraft:spruce_log"
+				id: "455A3B547898046D"
+				structure: "repurposed_structures:village_giant_taiga"
+				title: "Enter a Giant Taiga Village"
+				type: "structure"
+			}]
+			title: "Steam Gardens"
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "7F06B4A5FAAC22EF"
+			rewards: [{
+				count: 8
+				id: "219831036888DE7B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Jungle VIllage"
+			tasks: [{
+				icon: "minecraft:jungle_log"
+				id: "7351993E01D1EAD5"
+				structure: "repurposed_structures:village_jungle"
+				title: "Enter a Jungle Village"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "0100CE18C09040FB"
+			rewards: [{
+				count: 8
+				id: "47F56931F6B33C71"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Mountain Village"
+			tasks: [{
+				icon: "minecraft:stone"
+				id: "3DA00F63C2E8D365"
+				structure: "repurposed_structures:village_mountains"
+				title: "Enter a Mountain Village"
+				type: "structure"
+			}]
+			title: "Per Gynt"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "6ACE663E9095B0DE"
+			rewards: [{
+				count: 8
+				id: "5C77B300A0BF8D97"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Mushroom Village"
+			tasks: [{
+				icon: "minecraft:red_mushroom_block"
+				id: "69FA3844F94B301A"
+				structure: "repurposed_structures:village_mushroom"
+				title: "Enter a Mushroom Village"
+				type: "structure"
+			}]
+			title: "It'sa Me!"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r &2Ocean Villages&r are once-populated &dunderwater villages&r, which could be revitalised with a &eConduit&r - though &aVillagers&r still can't swim!"]
+			id: "11A0AAD39B488E1A"
+			rewards: [
+				{
+					count: 8
+					id: "081B6757DE79DAA9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "632EE43A2B22EECF"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Abandoned Ocean Village"
+			tasks: [{
+				icon: "minecraft:sea_pickle"
+				id: "7D468FAA3C76C7A1"
+				structure: "repurposed_structures:village_ocean"
+				title: "Enter an Abandoned Ocean Village"
+				type: "structure"
+			}]
+			title: "Down where it's Wetter"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "61BBCA6326D797AA"
+			rewards: [{
+				count: 8
+				id: "0A1651B1D023AD11"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Swamp Village"
+			tasks: [{
+				icon: "minecraft:vine"
+				id: "16ECD6B31AD88226"
+				structure: "repurposed_structures:village_swamp"
+				title: "Enter a Swamp Village"
+				type: "structure"
+			}]
+			title: "It has Layers"
+			x: -10.5d
+			y: -7.5d
 		}
 	]
 	title: "Exploration"
