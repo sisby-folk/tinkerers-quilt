@@ -150,7 +150,7 @@ hash = "0f010bbe3c0a2c926f65e7716948d067fbc304ba74879dc3ab7ed73e11758c67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "a925b3a8775756e54f0b8724c09a946cfbc555939d7c3b296e056be7c14fc7fa"
+hash = "ef795bdf4b40be8d391619a4c0999302224c36556dfda0cd27fe47a637e70a0d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -158,19 +158,19 @@ hash = "7eef65fcade0a9b617b05a4172e5243eeacd894822b3766fcb6dfff8cc3c399f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "c83c2130b03d12e95d437941176a1e9638c0e63b3f8f5997aeebc24941bac434"
+hash = "d4913928d267b0b80fceb742419c4c46e5af9879c25387ba9f5fa33009d56c72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "c389d614147b99fe3bf1f2daca1e1f59ba7699ed1f95be7c4b040a0ec99d7c04"
+hash = "177d01fbbc836431286b76c8ebd73ca862d4ce41ff4134e9612b4d0f501b1887"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "502f9a195a5ec2c8c339fbbe3a39220efed8efcaa63bf8db5aaa789444400552"
+hash = "b925f4eb438e839407f19d16397242d7aa86ad2c8334061901084e11268d9c7e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "55cab3b580431dec62149df679d1703636ceb75a713bff2d40ea058972c496e5"
+hash = "567e3e42fce874333f63bd16b829d4e5f968875ec337ba27d7bd63760d28c1ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yttr.snbt"
@@ -190,7 +190,7 @@ hash = "b400495d827f7e688a0bae2c9546139be7ee1bfad4cf2652bce1722f8c82e51b"
 
 [[files]]
 file = "config/fwaystones/config.json5"
-hash = "85929b173ddaf44b07c3da0738018887efc4ea9145f086c785af4dc0baee111a"
+hash = "8072d3930fd557613eaa4baf1e04ebfda9288119ea4f6de80a6b1f7b175e309d"
 
 [[files]]
 file = "config/idwtialsimmoedm.json"
@@ -255,10 +255,6 @@ hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
 [[files]]
 file = "config/snowrealmagic-common.toml"
 hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
-
-[[files]]
-file = "config/travelerstitles-fabric-1_19.toml"
-hash = "ea129de5aa17ab3d48051d1c859a8fb2da5098dae9bd76f7e65b0522bf86bec0"
 
 [[files]]
 file = "config/waila/waila.json"
@@ -391,10 +387,6 @@ hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
 [[files]]
 file = "config/yttr.css"
 hash = "38897eb5ed096916b7f9dfdddffbac3d8e3696c94bf3b6859be9b0bf36169618"
-
-[[files]]
-file = "config/yungsextras-fabric-1_19.toml"
-hash = "7e282abf1b75f373189f582d371ab94bcb8a218ff94ce124a548517f630c25f1"
 
 [[files]]
 file = "credits.txt"
@@ -1030,11 +1022,6 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "39683680c7eeda074893c9ae8f4692c14f98227f8319c55849f079fd9adcc065"
-metafile = true
-
-[[files]]
-file = "mods/rusted-iron.pw.toml"
-hash = "479fbab5be512e0ec20b40a82b56564c76d270c1f84e04b34baf0a5ee4181c6d"
 metafile = true
 
 [[files]]

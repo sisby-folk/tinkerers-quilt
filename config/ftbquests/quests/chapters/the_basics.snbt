@@ -121,6 +121,8 @@
 				"&aPiglins&r are denizens of the nether that attack players that aren't wearing &eGold Armor&r. They'll also attack any player that mines &3Nether Gold Ore&r."
 				""
 				"&7[Fwaystones]&r To help find your way back to a portal, you can place a &eWaystone&r next to it."
+				""
+				"&7[Amplified Nether]&r The Nether is substantially taller and more open."
 			]
 			id: "3079DAC3AB1B0AD9"
 			rewards: [
@@ -552,7 +554,7 @@
 				icon: "minecraft:purpur_block"
 				id: "3403F8CB9F8DB4E1"
 				structure: "minecraft:end_city"
-				"title": "Find an End City"
+				title: "Find an End City"
 				type: "structure"
 			}]
 			title: "Shell City"
@@ -568,16 +570,36 @@
 				""
 				"Flight direction is controlled by where you &6look&r. Be sure to &dpull up or turn around&r before striking surfaces as fast impacts deal heavy damage."
 				""
-				"&eFirework Rockets&r will provide a boost of speed if used while &3gliding&r."
+				"&7[Aileron]&r When placed close together, &eCampfires&r provide a boost of air while &3gliding&r. "
+				""
+				"&eSmokestack&r Elytras can charge boosts at a fire while &6Sneaking&r, consuming them with &7[&r&6Space&r&7]&r in the air."
+				""
+				"&3Firework Rockets&r only leave a &dcosmetic smoke trail&r with Elytra."
 			]
 			hide: true
 			id: "06B5F4D5D8A0D202"
-			rewards: [{
-				count: 16
-				id: "4C6D37B53B9A2DF5"
-				item: "minecraft:campfire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "4C6D37B53B9A2DF5"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "46D6E6364221073C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "aileron:smokestack"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Obtain an Elytra"
 			tasks: [{
 				id: "6C7823064E1563F1"
