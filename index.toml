@@ -154,11 +154,11 @@ hash = "af2001a8069d2ac85ff22204da4f3641cc5180fc73cd23dc17dc05e75729976d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "177d01fbbc836431286b76c8ebd73ca862d4ce41ff4134e9612b4d0f501b1887"
+hash = "8450a8df5f1e1526e6ac5a68a03ba5ec6873c10a81e5e8c9c7770b2b0431637d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "75bfa09e9c972d63def4a2d13df3a362e1c7e94f6f79622cfabb5ebf5ed5037f"
+hash = "74178f8585c5b96bd4c0c57daa72444de79828559497f0eacb98c34907039b66"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -1274,7 +1274,7 @@ hash = "327b685607cb04eba468e07907e01a0c9fc4eb5cd8ebd5703c310d6bcf3060aa"
 
 [[files]]
 file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "66f19ff6b2fe5e1b0e244e71bc4942a7957988893801ab214c4c48aba355dcc2"
+hash = "bbcfccc23712ead940e3a3063987fd85bc6fffad7c8bb9fb9d2af9fbe3603dba"
 
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
@@ -1319,6 +1319,10 @@ hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
 [[files]]
 file = "resources/data/tinkerer/tags/items/leggings.json"
 hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
+
+[[files]]
+file = "resources/data/tinkerers_smithing/tags/items/dework_materials.json"
+hash = "fdf3673385e9cf1f9523b9f00eac21050275901145e36d945ca8246a16be5f88"
 
 [[files]]
 file = "resources/packs/Towers_Of_The_Wild_Reworked_v4.0.2_Fabric_Waystones.zip"
