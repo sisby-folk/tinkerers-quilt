@@ -29,22 +29,6 @@ file = "config/betterdeserttemples-fabric-1_19.toml"
 hash = "06a1b8b7774df6bef4dc9b82e140a4211d41c93178ee0d9d25105d05a6c20566"
 
 [[files]]
-file = "config/betterdeserttemples/README.txt"
-hash = "3646bc39be8c42a1432506e77721f3b963d33948d4bbd4cd5a10703834979116"
-
-[[files]]
-file = "config/betterdeserttemples/fabric-1_19/README.txt"
-hash = "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
-
-[[files]]
-file = "config/betterdeserttemples/fabric-1_19/armorstands.json"
-hash = "8cf83cdf1b1a366b165e28c24a14fb91c242bacd1a8ed61a4d63fd5add4dfe3b"
-
-[[files]]
-file = "config/betterdeserttemples/fabric-1_19/itemframes.json"
-hash = "d778bb1d8651518bc1c5ed8f2f812001249420c5d14f2f6876054c9f1e58049b"
-
-[[files]]
 file = "config/betterdungeons-fabric-1_19.toml"
 hash = "c0809814af173f138d83495d36aabcccda93ba2f2a49ec5b7e1c87a201efee77"
 
@@ -59,30 +43,6 @@ hash = "dbba9af53d8bfb9f46cb4c9ab525a72026ad0a13c36e8dd8efe7398a767c3187"
 [[files]]
 file = "config/betterstrongholds-fabric-1_19.toml"
 hash = "2dae469f9196a363cb5e9fb614788224a713378f22300a1afd6486f1d43766a2"
-
-[[files]]
-file = "config/betterstrongholds/README.txt"
-hash = "70aadca974d0adfe90f98930e23c15076b3d2e625c88e8c2aa6721d91a8c035f"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_19/README.txt"
-hash = "c857bda54ab01ca5db21cfe085dc75dcbb13d26054463cf301c74023783612fc"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_19/armorstands.json"
-hash = "5b168632d0a27d583a19f376783ced2f32fa7267d0b565000cb4f6aa1c16cb56"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_19/itemframes.json"
-hash = "da33330d27495a0f66f6e0d087a2ff77881cefa7c42cc601af8e39346aa0084d"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_19/ores.json"
-hash = "d00578e3e23373447023c679ce58b994bcf51e4b53f6ac8ac83c59d395ff8aee"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_19/rareblocks.json"
-hash = "890eaae9d4766bf7a20a3862d53fa7be60eb690bdfb9bf82d84acd9341505826"
 
 [[files]]
 file = "config/betterwitchhuts-fabric-1_19.toml"
@@ -219,14 +179,6 @@ hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
 [[files]]
 file = "config/quilt-loading-screen.json"
 hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
-
-[[files]]
-file = "config/repurposed_structures-fabric/biome_dimension_allow_disallow_configs.json5"
-hash = "fd1e7f23962ca9416417a608732832ed9fe0df303cb5ecf21efd8494eece46a8"
-
-[[files]]
-file = "config/repurposed_structures-fabric/general_configs.json5"
-hash = "e7a19a07da87aecbc7ce877884204cd5a53d9d38684ba7053eb8d4a7c6367079"
 
 [[files]]
 file = "config/seasons.json"
