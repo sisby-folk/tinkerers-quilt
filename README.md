@@ -8,13 +8,27 @@ Making minecraft smoother, more discoverable, and have the exact same amount of 
 
 # Pack Features
 
-## No Items, No Blocks, All Service [Vanilla-Compaibility]
+## Vanilla Ice [Vanilla+ Content]
 
-Tinkerer's Quilt is **Vanilla Compatible** - It doesn't add any new blocks items, or world features.
+Tinkerer's Quilt Plus is a **Vanilla+ Modpack** - It adds a bit of content to items, blocks, and worlds, but doesn't add any elaborate new systems.
 
-It's still a **mixed-side** modpack - it needs to be **installed on both the client and any servers** you connect to.
+If you're looking for the original vanilla-compatible pack, that's [Tinkerer's Quilt](https://modrinth.com/modpack/tinkerers-quilt).
 
-If you want to play with Tinkerer's Quilt's tweaks on servers with vanilla players, try [Tinkerer's Silk](https://modrinth.com/modpack/tinkerers-silk/gallery).
+
+| Relevant Mod                                                                    | Summary                                                                        |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 🛠️ [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements)                                    | Removes advancements so you can focus on quests.                |
+
+
+<details>
+<summary>Click to show all Plus mods</summary>
+
+```
+Mods:
+
+```
+
+</details>
 
 ## A Playable Minecraft Wiki [Vanilla Quests]
 
