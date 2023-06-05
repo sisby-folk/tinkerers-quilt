@@ -1985,6 +1985,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "68BA2ED131675132"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "0C1EEA674BC6BE36"
@@ -2007,6 +2008,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "03DAA03E966BA7CE"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "2D23F55F2509077A"
@@ -2029,6 +2031,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "4D8AAC1A6AA04D4D"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "335EE78502B193FF"
@@ -2051,6 +2054,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "4A8BE14167255678"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "05C583F07453EDD2"
@@ -2073,6 +2077,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "7F06B4A5FAAC22EF"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "219831036888DE7B"
@@ -2094,6 +2099,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "0100CE18C09040FB"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "47F56931F6B33C71"
@@ -2116,6 +2122,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "6ACE663E9095B0DE"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "5C77B300A0BF8D97"
@@ -2138,6 +2145,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r &2Ocean Villages&r are once-populated &dunderwater villages&r, which could be revitalised with a &eConduit&r - though &aVillagers&r still can't swim!"]
 			id: "11A0AAD39B488E1A"
+			invisible: true
 			rewards: [
 				{
 					count: 8
@@ -2168,6 +2176,7 @@
 			dependencies: ["09874FF0F69D98F0"]
 			description: ["&7[Repurposed Structures]&r"]
 			id: "61BBCA6326D797AA"
+			invisible: true
 			rewards: [{
 				count: 8
 				id: "0A1651B1D023AD11"

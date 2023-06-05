@@ -158,19 +158,19 @@ hash = "7eef65fcade0a9b617b05a4172e5243eeacd894822b3766fcb6dfff8cc3c399f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "d4913928d267b0b80fceb742419c4c46e5af9879c25387ba9f5fa33009d56c72"
+hash = "3ac6e9f8bdb6988d208fa37a77e0b8ca8ca6d3a8cdf689f7588300096bd278a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "177d01fbbc836431286b76c8ebd73ca862d4ce41ff4134e9612b4d0f501b1887"
+hash = "8450a8df5f1e1526e6ac5a68a03ba5ec6873c10a81e5e8c9c7770b2b0431637d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "b925f4eb438e839407f19d16397242d7aa86ad2c8334061901084e11268d9c7e"
+hash = "ae326c30e9913bc75c312ce690aaf7971aff0301fbab785c16ddf45bd75749d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "567e3e42fce874333f63bd16b829d4e5f968875ec337ba27d7bd63760d28c1ac"
+hash = "21f2cb588ae33b4a4cf42908ea52a0ea641319669c1f8795246ae5e616f7e8d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/yttr.snbt"
@@ -1152,11 +1152,6 @@ hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
 metafile = true
 
 [[files]]
-file = "mods/travelers-titles.pw.toml"
-hash = "c71af8cb740fbf42b489ab24ee01ea0d09c3329cb9a62108b2b9dd85e721b3c8"
-metafile = true
-
-[[files]]
 file = "mods/trinkets.pw.toml"
 hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
 metafile = true
@@ -1242,11 +1237,6 @@ hash = "14d7190f311125e364f288daabdcb92737164a26c9198a4e8901c718776f6fdd"
 metafile = true
 
 [[files]]
-file = "mods/yungs-extras.pw.toml"
-hash = "4b502ea7f185b192b42c890e30b181246b341b1fcf4bd626b68c07de3cb46b19"
-metafile = true
-
-[[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
 hash = "523606fa9f099b533c066b3e6c175c50254ae5b7f4b20f91c2c358da71f63186"
 
@@ -1324,7 +1314,7 @@ hash = "327b685607cb04eba468e07907e01a0c9fc4eb5cd8ebd5703c310d6bcf3060aa"
 
 [[files]]
 file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "66f19ff6b2fe5e1b0e244e71bc4942a7957988893801ab214c4c48aba355dcc2"
+hash = "bbcfccc23712ead940e3a3063987fd85bc6fffad7c8bb9fb9d2af9fbe3603dba"
 
 [[files]]
 file = "resources/assets/tinkerer/textures/gui/conduit_quest_diagram.png"
@@ -1381,6 +1371,10 @@ hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
 [[files]]
 file = "resources/data/tinkerer/tags/items/leggings.json"
 hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
+
+[[files]]
+file = "resources/data/tinkerers_smithing/tags/items/dework_materials.json"
+hash = "fdf3673385e9cf1f9523b9f00eac21050275901145e36d945ca8246a16be5f88"
 
 [[files]]
 file = "resources/packs/Towers_Of_The_Wild_Reworked_v4.0.2_Fabric_Waystones.zip"
