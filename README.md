@@ -1,6 +1,6 @@
 <center><img alt="Tinkerer's Quilt banner" src="https://cdn.modrinth.com/data/vrkQdo9Y/images/8088722fdded8e265ca038739b4a5605c6dfb1d4.png" />
-A modpack that adds nothing.<br/>
-Making minecraft smoother, more discoverable, and have the exact same amount of items since 2021.<br/>
+First, add nothing. Then, season to taste.<br/>
+Making minecraft smoother, more discoverable, and have the slightly more items since 2022.<br/>
 </center>
 
 
