@@ -1337,6 +1337,10 @@ file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
 hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 
 [[files]]
+file = "resources/data/rightclickharvest/tags/items/low_tier_hoes.json"
+hash = "8212dc546c4524f5644c1a7f0ee5438b7073aeba445717ab20c895f8173c5b14"
+
+[[files]]
 file = "resources/data/tinkerer/recipes/book_quill.json"
 hash = "08b3c0d3329d0f2bc038a1d68386d5fcb5f5b89aaa4e78420878e34ab84ab330"
 
