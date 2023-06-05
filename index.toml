@@ -385,6 +385,10 @@ file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
 
 [[files]]
+file = "mods/Fishingreal-1.19.2-1.6.jar"
+hash = "09319a9d29191677835fb252f586cb0e920b83c5f5606e33c63efc25eb54d2db"
+
+[[files]]
 file = "mods/Origins-1.19.2-1.7.1.jar"
 hash = "5b691abcae94af27295b9afaa1ee78fdda35cdf0355220aee30c0f8ee3e4f9d6"
 
@@ -688,11 +692,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "98da553a1ba2d41bfce3585198641c2d927c702d5403ebec82402ae51ddf707f"
-metafile = true
-
-[[files]]
-file = "mods/fishing-real.pw.toml"
-hash = "34d038bd3c2b9bdc1253f92894e30fabc11f824efa08416a153437273e56a38d"
 metafile = true
 
 [[files]]

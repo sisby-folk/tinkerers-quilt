@@ -247,7 +247,7 @@ Mods:
     FastOpenLinksAndFolders
     Feed the Bees
     FerriteCore
-    Fishing Real
+    [Fork/Jar] Fishing Real
     FTB Library (Fabric)
     FTB Quests (Fabric)
     FTB Teams (Fabric)
