@@ -14,10 +14,24 @@ Tinkerer's Quilt Plus is a **Vanilla+ Modpack** - It adds a bit of content to it
 
 If you're looking for the original vanilla-compatible pack, that's [Tinkerer's Quilt](https://modrinth.com/modpack/tinkerers-quilt).
 
+The content added is a slight expansion on exploration, self-defense, and homesteading. In total, it bumps the quest count to 193.
 
-| Relevant Mod                                                                    | Summary                                                                        |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 🛠️ [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements)                                    | Removes advancements so you can focus on quests.                |
+
+| Relevant Mod                                                                    | Summary                                                     |
+|---------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [Aurora's Decorations](https://modrinth.com/mod/aurorasdecorations)             | Adds decorations, including two wood types and a new biome. |
+| [Antique Atlas](https://modrinth.com/mod/antique-atlas)                         | Press M to open a full dimension map.                       |
+| 🛠️ [Antique Fwaystones](https://modrinth.com/mod/crunchy-crunchy-advancements) | Adds global atlas markers for discovered waystones.         |
+| [Campanion](https://modrinth.com/mod/campanion)                                 | Adds camping-themed tools and building materials.           |
+| [Consistency+](https://modrinth.com/mod/consistencyplus)                        | Adds missing block type variations for many blocks.         |
+| [Earth2Java](https://modrinth.com/mod/earth2java)                               | Adds cosmetic passive entity variants.                      |
+| [Fabric Seasons](https://modrinth.com/mod/fabric-seasons)                       | Adds crop-affecting and visual seasons to the world.        |
+| [Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)             | Adds many new crops and cooking methods.                    |
+| [Fabric Waystones](https://modrinth.com/mod/fwaystones)                         | Adds a fast travel system of standing stones.               |
+| [Lovely Snails](https://modrinth.com/mod/lovely-snails)                         | Adds tameable and rideable snails to the world.             |
+| [Repurposed Structures](https://modrinth.com/mod/repurposed-structures-fabric)  | Adds new village variants to the world.                     |
+| [Sandwichable](https://modrinth.com/mod/sandwichable)                           | Allows making arbitrary sandwiches out of foods.            |
+| [YUNGs Better Mods](https://modrinth.com/user/YUNGNICKYOUNG)                    | Overhauls various vanilla structures for intricacy.         |
 
 
 <details>
@@ -25,10 +39,47 @@ If you're looking for the original vanilla-compatible pack, that's [Tinkerer's Q
 
 ```
 Mods:
-
+[Jar/Fork] Aileron
+Amplified Nether
+[Jar/Fork] Antique Atlas
+Antique Fwaystones
+Architecture Extensions
+Aurora's Decorations
+Bovines and Buttercups (Mooblooms)
+Campanion
+Chalk (Fabric)
+Consistency+
+Dawn API
+Earth2Java
+EMICompat
+Fabric Seasons: Delight Compat
+[Jar/Fork] Fabric Seasons
+Farmer's Delight [Fabric]
+Fabric Waystones
+Geophilic
+Halfdoors
+Lovely Snails
+Meal API
+MidnightLib
+Nature's Compass
+Polaroid Camera
+Repurposed Structures - Quilt/Fabric
+[Jar/Fork] Sandwichable
+Trinkets
+Universal Ores
+YUNG's API
+YUNG's Better Desert Temples
+YUNG's Better Dungeons
+YUNG's Better Mineshafts
+YUNG's Better Nether Fortresses
+YUNG's Better Ocean Monuments
+YUNG's Better Strongholds
+YUNG's Better Witch Huts
 ```
 
 </details>
+
+Below this section continues the original Tinkerer's Quilt Description.
 
 ## A Playable Minecraft Wiki [Vanilla Quests]
 
