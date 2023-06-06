@@ -8,6 +8,22 @@ Making minecraft smoother, more discoverable, and have the slightly more items s
 
 # Pack Features
 
+## Celebrity Celebration [Major Mods]
+
+Tinkerer's Quilt Modded offers an easy inroad to exploring polished, interesting mods with their own progression and gameplay systems.
+
+These mods are elaborate, and come equipped with quest trees that mimic their various facets of progression.
+
+This places the total quest count at 2##.
+
+| Relevant Mod                                     | Summary                                                                                  |
+|--------------------------------------------------|------------------------------------------------------------------------------------------|
+| [Botania](https://modrinth.com/mod/botania)      | Tech themed around magic, flowers, and nature.                                           |
+| [Create](https://modrinth.com/mod/create-fabric) | Tech themed around clockwork and large mechanisms.                                       |
+| [Yttr](https://modrinth.com/mod/yttr)            | Tech, magic, and world themed around the void, mistakes, and a union of past and future. |
+
+Below this section continues the Tinkerer's Quilt Plus description.
+
 ## Vanilla Ice [Vanilla+ Content]
 
 Tinkerer's Quilt Plus is a **Vanilla+ Modpack** - It adds a bit of content to items, blocks, and worlds, but doesn't add any elaborate new systems.
