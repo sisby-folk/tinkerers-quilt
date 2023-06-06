@@ -10,7 +10,7 @@ Making minecraft smoother, more discoverable, and show you cool mods since 2022.
 
 ## Celebrity Celebration [Major Mods]
 
-Tinkerer's Quilt Modded offers an easy inroad to exploring polished, interesting mods with their own progression and gameplay systems.
+Tinkerer's Quilt Modded offers an easy inroad to explore polished, interesting mods with their own progression and gameplay systems.
 
 These mods are elaborate, and come equipped with quest trees that mimic their various facets of progression.
 
