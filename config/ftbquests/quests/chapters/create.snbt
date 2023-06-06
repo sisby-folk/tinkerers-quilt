@@ -1,25 +1,631 @@
 {
-	id: "2112F0052C26E175"
-	group: "7DB835B4DE75D2B4"
-	order_index: 1
-	filename: "create"
-	title: "Create"
-	icon: "create:goggles"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Machines in Motion"
-		x: 0.0d
-		y: 0.0d
-		shape: "rsquare"
-		subtitle: "Craft some Andestite Alloy"
-		description: ["Create begins with Andestite Alloy, which is used to craft all basic machinery and sources of rotational energy."]
-		id: "6E67A256A8FD3AC3"
-		tasks: [{
-			id: "6C6F991E31AFF000"
-			type: "item"
-			item: "create:andesite_alloy"
-		}]
-	}]
+	default_quest_shape: ""
+	filename: "create"
+	group: "7DB835B4DE75D2B4"
+	icon: "create:goggles"
+	id: "2112F0052C26E175"
+	order_index: 1
 	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&3Andestite Alloy&r is required to craft all basic &dKinetic Sources, Kinetic Blocks, and Kinetic Appliances&r."
+				""
+				"It's initially expensive, but becomes cheaper once crafting it using a &3Mixer&r."
+				""
+				"In Create, all functional blocks can be &3pondered&r by holding &7[&r&6W&r&7]&r while hovering over them on any screen."
+				""
+				"This shows an &din-depth tutorial on how to use the block&r in the world."
+			]
+			hide: true
+			id: "6E67A256A8FD3AC3"
+			shape: "rsquare"
+			subtitle: "Craft some Andestite Alloy"
+			tasks: [{
+				id: "6C6F991E31AFF000"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Rock/Metal"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E67A256A8FD3AC3"]
+			hide: true
+			icon: "create:mechanical_press"
+			id: "65A7BDBBF8C0322B"
+			subtitle: "Craft Pressing Equipment"
+			tasks: [
+				{
+					id: "582BAD1606ECA146"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "349861E324CB4622"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "Sheetmetal 2 [Material Processing]"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DE45DD6404245F1"]
+			hide: true
+			id: "720CB8FF7E9F4088"
+			subtitle: "Craft a Water Wheel"
+			tasks: [{
+				id: "332D914E467223FE"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Wheely Good"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["128C53BFAD0E2864"]
+			hide: true
+			id: "0B69A261610B8712"
+			subtitle: "Craft a Blaze Burner"
+			tasks: [{
+				id: "6264562573C17850"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Burn Baby Burn"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65A7BDBBF8C0322B"]
+			hide: true
+			id: "128C53BFAD0E2864"
+			rewards: [{
+				id: "79B6725FD53B828F"
+				item: "create:basin"
+				type: "item"
+			}]
+			subtitle: "Craft a Mechanical Mixer"
+			tasks: [{
+				id: "250A5A7F5B05CE0A"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "Swirl Swirl"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["720CB8FF7E9F4088"]
+			hide: true
+			icon: "create:white_sail"
+			id: "213EDF1DA96F75E8"
+			rewards: [{
+				count: 20
+				id: "4903435694C5508E"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "Craft Windmill Materials"
+			tasks: [
+				{
+					id: "006441990F7F3B3F"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7055743D33869AA5"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Say it ain't so"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2985CD4953FA7F55"]
+			hide: true
+			id: "083E10D1864CD36F"
+			subtitle: "Craft a Steam Engine"
+			tasks: [{
+				id: "3087A8AFAEDEE21A"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Dark Energy Vortex"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"748E7628B26F42B5"
+				"7B418BFDCEAB8DC8"
+			]
+			hide: true
+			id: "2B8CB40C43A95217"
+			subtitle: "Craft a Crushing Wheel"
+			tasks: [{
+				id: "50CAE7AC5170FC37"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crush 40"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2985CD4953FA7F55"]
+			hide: true
+			icon: "create:spout"
+			id: "24B75C189F2B1998"
+			rewards: [{
+				id: "4C8F254A0295733E"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			subtitle: "Craft a Spout"
+			tasks: [{
+				id: "40F04EA9B21C4F52"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Empty and Fill"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["439EB45E8E1E6876"]
+			hide: true
+			id: "748E7628B26F42B5"
+			subtitle: "Craft a Millstone"
+			tasks: [{
+				id: "3EB42F3350887E37"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Millin' Time"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["128C53BFAD0E2864"]
+			hide: true
+			id: "439EB45E8E1E6876"
+			rewards: [
+				{
+					id: "7FBEB14CFB7AA7F9"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "569682D5C09F17F0"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Encased Fan"
+			tasks: [{
+				id: "22BFDB4FFBCFDD74"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Blow Me Away"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B5B720E18C10F37"]
+			hide: true
+			id: "2FB0CD81C2D1FC84"
+			subtitle: "Craft a Mechanical Drill"
+			tasks: [{
+				id: "542FDDE7995A7A4E"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Pointy Pointy"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B5B720E18C10F37"]
+			hide: true
+			id: "2B013F1752A002BB"
+			subtitle: "Craft a Mechanical Saw"
+			tasks: [{
+				id: "3425CDD8C489BCE1"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Slicey Slicey"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E67A256A8FD3AC3"]
+			hide: true
+			id: "3FC7E89D287252FF"
+			rewards: [{
+				id: "1DB2EF7622394856"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a Mechanical Bearing"
+			tasks: [{
+				id: "16DF1978332A5826"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Right Round [Contraptions]"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FC7E89D287252FF"]
+			hide: true
+			id: "3CCD16FAE7C9934B"
+			rewards: [{
+				count: 2
+				id: "289F3A4E8995FFF8"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			subtitle: "Craft a Mechanical Harvester"
+			tasks: [{
+				id: "075CA54FB6F16ECC"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "IT'S ALMOST HARVESTING SEASON"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FC7E89D287252FF"]
+			hide: true
+			id: "5B5B720E18C10F37"
+			rewards: [
+				{
+					count: 8
+					id: "70C3D7561019E7C2"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7E4324838A5952B7"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Gantry Carriage"
+			tasks: [{
+				id: "02BF0FA9E136FC47"
+				item: "create:gantry_carriage"
+				type: "item"
+			}]
+			title: "Skater Girl"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E67A256A8FD3AC3"]
+			description: [
+				"A &3Hand Crank&r can be placed on a &3Kinetic Appliance&r or &3Kinetic Block&r and then turned by holding &7[&r&6Right-Click&r&7]&r to &dprovide Kinetic Energy&r. The turn direction is inverted while &6sneaking&r."
+				""
+				"As a rule of thumb, better &3Kinetic Sources&r can provide &dmore impact and speed&r, but are harder to move."
+			]
+			hide: true
+			id: "0DE45DD6404245F1"
+			subtitle: "Craft a Hand Crank"
+			tasks: [{
+				id: "6656A8A0A98C8653"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Crank it Up [Kinetic Sources]"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B69A261610B8712"]
+			hide: true
+			id: "6A27EDB529972A09"
+			subtitle: "Craft a Blaze Cake"
+			tasks: [{
+				id: "07109F0C0FE83D4E"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Blake"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E67A256A8FD3AC3"]
+			hide: true
+			icon: "create:large_cogwheel"
+			id: "3AD4BD9D1ECD3C97"
+			rewards: [
+				{
+					count: 2
+					id: "21E08BDA22D5D5F3"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2BC9F9F5BE51A28E"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			subtitle: "Craft Cogwheels"
+			tasks: [
+				{
+					id: "02D635EDA9F0552E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0476B910C5215D79"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Borderlands -1 [Kinetic Blocks]"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E67A256A8FD3AC3"]
+			hide: true
+			id: "1E860EF97D43A959"
+			rewards: [{
+				count: 2
+				id: "0AF01681F1319A9B"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			subtitle: "Craft a Mechanical Belt"
+			tasks: [{
+				id: "1975D59418861397"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Like that other game [Item Transport]"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["748E7628B26F42B5"]
+			hide: true
+			id: "7B418BFDCEAB8DC8"
+			subtitle: "Craft a Mechanical Crafter"
+			tasks: [{
+				id: "298E4EEDAA7BD56B"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "I can craft bigger than you"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3AD4BD9D1ECD3C97"]
+			hide: true
+			id: "2A694014547FE64E"
+			subtitle: "Craft a Chain Drive"
+			tasks: [{
+				id: "34FE35979E312EBE"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "This party is ON the chain"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2A694014547FE64E"
+				"3935AB33CC2D74E2"
+			]
+			hide: true
+			id: "4046A6ED8F55251E"
+			subtitle: "Craft an Adjustable Chain Gearshift"
+			tasks: [{
+				id: "23797DAAF0518409"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			title: "Double Time? Double Time!"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FD457EB8FA58AE4"]
+			hide: true
+			id: "214AC2B713204305"
+			subtitle: "Craft a Mechanical Arm"
+			tasks: [{
+				id: "11EAF64C183ED827"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Express Inserter"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["748E7628B26F42B5"]
+			hide: true
+			id: "272BA010A75C95A7"
+			subtitle: "Craft a Deployer"
+			tasks: [{
+				id: "08139A06CC18A63D"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "MSN Messenger"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1E860EF97D43A959"]
+			hide: true
+			id: "70E21C371C514F0C"
+			subtitle: "Craft a Chute"
+			tasks: [{
+				id: "7B6AFE60D266BC03"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Verticality"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70E21C371C514F0C"]
+			hide: true
+			id: "5F76C9EFB8780794"
+			subtitle: "Craft a Weighted Ejector"
+			tasks: [{
+				id: "23B7BB3FEE51CBB5"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			title: "Faith Plates"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F76C9EFB8780794"]
+			hide: true
+			id: "1FD457EB8FA58AE4"
+			rewards: [{
+				count: 2
+				id: "1096710D31CBEABE"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			subtitle: "Craft a Brass Tunnel"
+			tasks: [{
+				id: "19F30AED8DA294F2"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "Filter Splitter"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3AD4BD9D1ECD3C97"]
+			hide: true
+			id: "3935AB33CC2D74E2"
+			subtitle: "Craft a Gearshift"
+			tasks: [{
+				id: "3B69F4E81753EE5A"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			title: "Back it Up"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4046A6ED8F55251E"]
+			hide: true
+			id: "199A0569C3C5584C"
+			subtitle: "Craft a Sequenced Gearshift"
+			tasks: [{
+				id: "0CCB450EFCA48946"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			title: "Calculated"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4046A6ED8F55251E"]
+			hide: true
+			id: "3875D4B672F7F462"
+			subtitle: "Craft a Rotation Speed Controller"
+			tasks: [{
+				id: "540E62B4FE7F83DB"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "ALL POWER TO ENGINES"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E67A256A8FD3AC3"]
+			description: [
+				"Pressed &3Copper&r is used to craft all kinds of useful &dfluid-related components&r."
+				""
+				"That includes a special &3Kinetic Source&r, &3Kinetic Appliance&r, and its very own &3Fluid Transport&r!"
+			]
+			hide: true
+			id: "2985CD4953FA7F55"
+			subtitle: "Craft a Mechanical Pump"
+			tasks: [{
+				id: "685ADA80FCF868A5"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "Dark Side [Fluids]"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2985CD4953FA7F55"]
+			hide: true
+			id: "73DFB4ADAC73F945"
+			subtitle: "Craft a Fluid Pipe"
+			tasks: [{
+				id: "29193AC388E60382"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "Evil... Pipe"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2985CD4953FA7F55"]
+			hide: true
+			id: "0B301994E3D6787A"
+			rewards: [{
+				count: 2
+				id: "0C3B89FE3F54608B"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			subtitle: "Craft a Hose Pulley"
+			tasks: [{
+				id: "5E6C152345C68A7C"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Sniff Snork"
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+	title: "Create"
 }

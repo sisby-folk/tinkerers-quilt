@@ -298,6 +298,33 @@
 			x: -1.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["553B60371B6CB85B"]
+			description: [
+				"Some items in Yttr are &3NYI&r - \"Not Yet Implemented\" - and &dserve no non-cosmetic function&r."
+				""
+				"&3Haemopal&r can be dangerously centrifuged to reduce your maximum health, and then refilled with beetroot soup and consumed to restore it. This has no purpose just yet!"
+			]
+			hide: true
+			icon: "yttr:neodymium_disc"
+			id: "33CDBD47B24424C4"
+			subtitle: "Obtain an NYI Item"
+			tasks: [
+				{
+					id: "42254A6350F5DC2B"
+					item: "yttr:neodymium_disc"
+					type: "item"
+				}
+				{
+					id: "12A91B40D5D3707D"
+					item: "yttr:haemopal"
+					type: "item"
+				}
+			]
+			title: "Nyimplemented"
+			x: 1.5d
+			y: 2.5d
+		}
 	]
 	title: "Yttr"
 }
