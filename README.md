@@ -22,6 +22,22 @@ This places the total quest count at 2##.
 | [Create](https://modrinth.com/mod/create-fabric) | Tech themed around clockwork and large mechanisms.                                       |
 | [Yttr](https://modrinth.com/mod/yttr)            | Tech, magic, and world themed around the void, mistakes, and a union of past and future. |
 
+<details>
+<summary>Click to show all Modded mods</summary>
+
+```
+Mods:
+  -Amplified Nether (replaced by yttr)
+  Botania
+  Create Fabric
+  Lib39
+  Patchouli
+  Create: Slice and Dice
+  Yttr
+```
+
+</details>
+
 Below this section continues the Tinkerer's Quilt Plus description.
 
 ## Vanilla Ice [Vanilla+ Content]
