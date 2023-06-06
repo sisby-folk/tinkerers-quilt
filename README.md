@@ -6,6 +6,12 @@ Making minecraft smoother, more discoverable, and show you cool mods since 2022.
 
 ---
 
+### Alpha Note
+
+TQuilt Modded is in alpha! It should be stable, but the quest modventuring quest trees are blatantly unfinished. Try one of the other two packs for a more complete experience!
+
+---
+
 # Pack Features
 
 ## Celebrity Celebration [Major Mods]
