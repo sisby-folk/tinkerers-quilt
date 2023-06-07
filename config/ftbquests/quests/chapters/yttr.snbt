@@ -11,9 +11,9 @@
 		{
 			dependencies: ["2983D49DB7507B63"]
 			description: [
-				"Yttr begins with an unsteady hand, a prototype rifle, too much gunpowder, a diamond-tipped spike, and a hole at the bottom of the world."
+				"&3Yttr&r begins with an unsteady hand, a prototype rifle, too much gunpowder, a diamond-tipped spike, and a hole at the bottom of the world."
 				""
-				"It also begins with Yttrium."
+				"It also begins with &3Yttrium&r."
 			]
 			id: "63E0B5109F75FE08"
 			shape: "rsquare"
@@ -29,11 +29,11 @@
 		}
 		{
 			description: [
-				"&bGadolonite&r is a plentiful source of early &biron ingots&r."
+				"&3Raw Gadolonite&r is a &dplentiful source of Iron&r."
 				""
-				"When smelted in a furnace, it produces &6Big Iron&r, which can be crafted into multiple iron ingots."
+				"When smelted in a &3Furnace&r, it produces &3Big Iron&r, which can be crafted into many &3Iron Nuggets&r."
 				""
-				"When smelted in a blast furnace, it instead produces &3Yttrium&r"
+				"When smelted in a &3Blast Furnace&r, it instead produces &3Yttrium&r."
 			]
 			id: "2983D49DB7507B63"
 			subtitle: "Mine Raw Gadolonite"
@@ -47,11 +47,7 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"Brookite is a tool material similar to iron, but more durable."
-				""
-				"It can be &2upgraded&r from iron, and to diamond."
-			]
+			description: ["&3Brookite&r is a gem that can be used to make tools similar in effectiveness to &3Iron&r tools, but &dmore durable&r."]
 			id: "341A6F174FB8BF50"
 			invisible: true
 			subtitle: "Mine Brookite"
@@ -88,17 +84,27 @@
 			description: [
 				"&oA rifle is a precise instrument, one must play in tune, and in time&r"
 				""
-				"An &6Yttric Rifle&r is a charged weapon with many firing modes, each consuming a different type of reagent."
+				"An &3Yttric Rifle&r is a &dcharged ranged weapon&r with many firing modes, each consuming a different type of &3reagent&r."
 				""
-				"The rifle timing varies between modes - the safer &4Beam Mode&r, costing only redstone, can be used alongside a &bPower Meter&r to practice timing."
+				"Each mode has a &dprecise audiovisual timing cue&r to fire at full power without causing a deadly &3overload&r. It's safest to practice in a desolate area while aiming at a &ePower Meter&r, which nullifies shot effects."
+				""
+				"&7[&r&4Warning&r&7]&r The &3Explode&r and &3Void&r modes can &dremove blocks in a large area&r. Type &6/yttr:void_undo by {username}&r to reverse accidental void damage."
 			]
 			hide: true
 			id: "6B602F8EA182727E"
-			rewards: [{
-				id: "158B1328DDF07D5E"
-				item: "yttr:power_meter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "158B1328DDF07D5E"
+					item: "yttr:power_meter"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "239FCCD2D660DD1D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
 			subtitle: "Craft an Yttric Rifle"
 			tasks: [{
 				id: "2056C534B5DBA442"
@@ -131,9 +137,17 @@
 		{
 			dependencies: ["63E0B5109F75FE08"]
 			description: [
-				"&4Snares&r can be used to temporarily catch mobs, or move around immoveable blocks like &2chests&r and &2signs&r."
+				"&3Snares&r can be used to &dtemporarily catch mobs&r."
 				""
-				"Specific snared mobs can be used to create useful abominations."
+				"Snares can also be used to move &dmove normally immobile blocks&r like &3Chests&r and &3Signs&r."
+				""
+				"Snared mobs can be used to craft various &3Abominations&r - living &dmechanism components&r."
+				""
+				"In order of least to most unsettling "
+				"- &3Skeletal Sorters&r can &dsort items&r, "
+				"- &3Screeper Nests&r can break blocks, "
+				"- &3Transferent Fungus&r can place blocks, "
+				"- &3Aware Hoppers&r can craft recipes you &dcraft in front of them&r."
 			]
 			hide: true
 			id: "3D478C54485BA22C"
@@ -233,7 +247,7 @@
 			description: [
 				"&oEver wondered what keeps those things up?&r"
 				""
-				"&5Continuity&r can be used to recreate useful artifacts."
+				"&3Drops of Continuity&r can be used to &drecreate useful artifacts&r."
 				""
 				"Pick somewhere to land."
 			]
@@ -273,6 +287,7 @@
 		}
 		{
 			dependencies: ["63E0B5109F75FE08"]
+			description: ["A &3Deep Storage Unit&r can only be opened from one side, but can hold &dmany stacks of items&r."]
 			hide: true
 			id: "6B676180532DFAF3"
 			subtitle: "Craft a DSU"
@@ -286,6 +301,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["A &3Project Table&r is an advanced Crafting Table with &dextra storage space&r."]
 			id: "6A39A92DC29FB316"
 			invisible: true
 			subtitle: "Craft a Project Table"
@@ -324,6 +340,164 @@
 			title: "Nyimplemented"
 			x: 1.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["39BC95EE872FA168"]
+			description: [
+				"A &3Lazor Emitter&r produces a light source that &dextends infinitely until it hits a block&r."
+				""
+				"This can be used to create convenient light sources for tunnels, bases, and show signals in the air like &3Beacons&r."
+				""
+				"Just &ddon't touch the beam&r! it hurts."
+			]
+			id: "77678A2DEE3B3BA7"
+			subtitle: "Craft a Lazor Emitter"
+			tasks: [{
+				id: "362AD08BFF94978D"
+				item: {
+					Count: 1b
+					id: "yttr:lazor_emitter"
+					tag: {
+						LampColor: "colorless"
+					}
+				}
+				type: "item"
+			}]
+			title: "You got BEAM"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70E7A0765C9FBFD2"]
+			description: [
+				"A &3Void Cleaver&r can be used to &dcleave&r any standard block."
+				""
+				"This can be used to make slopes, ramps, interestingly shaped rooms and windows, and other decorations."
+			]
+			id: "26BB8D71CC44C59B"
+			subtitle: "Craft a Void Cleaver"
+			tasks: [{
+				id: "4FA8BE2FFBF536B7"
+				item: {
+					Count: 1b
+					id: "yttr:cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mundo throw!"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"&3Squeeze Trees&r are found in &2Deep Ocean&r biomes and are a source of &3Sponge&r, &3Squeeze Leaves&r, and &3Delicace&r."
+				""
+				"&3Squeeze Leaves&r can be waterlogged and then squeezed repeatedly using &7[&r&6Right-Click&r&7]&r to &dflood an area with water&r."
+				""
+				"&3Delicace&r can be consumed to &dimprove food and potion effects&r for some time."
+				""
+				"It can also be used to craft a &dconveyor-like resin&r, and tiny &dConstruction Brickss&r used to make &dcustom sculptures&r that can then be sealed using &3liquid void&r."
+			]
+			id: "4D1B237AE4873550"
+			invisible: true
+			subtitle: "Find a Squeeze Tree"
+			tasks: [{
+				icon: "yttr:squeeze_leaves"
+				id: "2857172BA776EEA2"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Squeeze Tree"
+				to_observe: "yttr:squeeze_leaves"
+				type: "observation"
+			}]
+			title: "egnopS"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70E7A0765C9FBFD2"]
+			description: [
+				"&3Void Effectors&r can be filled from &3Liquid Void&r in-world or from a Bucket. "
+				""
+				"By pressing &7[&r&6Right-Click&r&7]&r, a surface of solid block can become &dcompletely traversible&r."
+				""
+				"The &3Effector&r is non-destructive - however, don't stick yourself inside solid blocks!"
+			]
+			id: "490A1ECA6B4CBB35"
+			subtitle: "Craft a Void Effector"
+			tasks: [{
+				id: "5CC39B8149BFF1A0"
+				item: "yttr:effector"
+				type: "item"
+			}]
+			title: "Painted Tunnel"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63E0B5109F75FE08"]
+			description: [
+				"&3Chutes&r instantly drop any item dropped on or transferred to them &dstraight down&r."
+				""
+				"They can be chained to &dinstantly transport items downwards&r."
+				""
+				"When combined with a &3Levitation Chamber&r, made from a snared &cShulker&r bullet, they can also instantly &dtransport items upwards&r."
+				""
+				"Chutes can also be used to craft the &3Dopper&r which &dinserts items in two directions&r, and the &3Flopper&r can &dpull from the side of a block&r (and it's linked inventory). "
+			]
+			id: "2C2326F912EFFC14"
+			subtitle: "Craft a Chute"
+			tasks: [{
+				id: "5AF101EB86B7D14B"
+				item: "yttr:chute"
+				type: "item"
+			}]
+			title: "Bopper"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["70E7A0765C9FBFD2"]
+			description: [
+				"&oMaybe not a sensible one, but a choice nonetheless.&r"
+				""
+				"A &3Suit Station&r is capable of preparing a &3Void Diving Suit&r for a &3Void Dive&r - a dangerous form of &dfast travel&r between &3Void Geysers&r."
+				""
+				"Suit &3hull&r can be filled with &3fluxes&r like &eCharcoal&r and &3Honeycomb&r, Suit &3fuel&r can be filled by smelting &eGlowstone Dust&r at the station, and Suit &3oxygen&r is filled over time."
+				""
+				"With all three filled and equipped, you can stand on a &3Diving Plate&r near a Geyser and &7[&r&6Sneak&r&7]&r to enter the void."
+				""
+				"Travelling between known &3Geysers&r with &3Diving Plates&r using &7[&r&6Left-Click&r&7]&r is auto-calculated to be safe."
+				""
+				"Moving around with &7[&r&6WASD&r&7]&r can be used to travel to Geysers without known Diving Plates, but can be &dquite deadly&r!"
+			]
+			id: "2E5990FAF5A05FDD"
+			rewards: [
+				{
+					count: 16
+					id: "69E30E5FD69C7C94"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3AAC42DEAA0331D0"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Suit Station"
+			tasks: [{
+				id: "7F38A28608077ABF"
+				item: "yttr:suit_station"
+				type: "item"
+			}]
+			title: "A Choice"
+			x: 0.0d
+			y: 8.5d
 		}
 	]
 	title: "Yttr"

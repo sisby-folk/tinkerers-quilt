@@ -10,9 +10,13 @@
 	quests: [
 		{
 			description: [
-				"The Lexica Botania is a guide to everything in Botania. "
+				"The &3Lexica Botania&r is a guide to magical flora and phenomena. "
 				""
-				"It doesn't indicate a clear order, but serves as a look-up for all functionality."
+				"It details the creation of &3Flora&r, including the collection of &3Mana&r through &3Generating Flora&r, and the various uses of &3Functional Flora&r."
+				""
+				"In addition, structures and objects capable of &dstoring and transfering Mana&r, and consuming it to &dperform various functions&r, are covered in detail."
+				""
+				"In return, the Lexica shows ways to create and obtain &dall manner of useful magical equipment and artifacts&r."
 			]
 			id: "21FCBC7C1F07A4E0"
 			shape: "rsquare"
@@ -28,6 +32,7 @@
 		}
 		{
 			dependencies: ["21FCBC7C1F07A4E0"]
+			description: ["&3Iron Ingots&r bathed in a sufficiently filled &3Mana Pool&r becomes &3Manasteel&r, a useful material for &darmor, tools, and all manner of botanists' purposes&r."]
 			hide: true
 			id: "5D423971FAD473E1"
 			subtitle: "Create a Manasteel Ingot"
@@ -42,6 +47,11 @@
 		}
 		{
 			dependencies: ["5D423971FAD473E1"]
+			description: [
+				"The &3Terrestrial Agglomeration Plate&r, crafted from many complex runes, can refine &3Manasteel&r using other mana artifacts and an &dimmense amount of Mana&r."
+				""
+				"One &3Terrasteel Ingot&r can't do very much, but broken down it alone can be used to begin practicing &3Alfhomancy&r."
+			]
 			hide: true
 			id: "7AE8C6EB3917B9C0"
 			subtitle: "Create a Terrasteel Ingot"
@@ -53,6 +63,59 @@
 			title: "Green Boys"
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["21BC132B7FA28495"]
+			description: ["The harder &cGuardian of Gaia&r summoned using a &3Gaia Spirit Ingot&r is a feat requiring endgame equipment that &dyields yet more endgame equipment&r - and double the &3Gaia Spirits&r."]
+			hide: true
+			id: "19F082F687DBFAF4"
+			subtitle: "Obtain some Dice of Fate"
+			tasks: [{
+				id: "4287A9D408EC2AB1"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "SA-X"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7AE8C6EB3917B9C0"]
+			description: [
+				"Throwing the &3Lexica Botania&r through an activated &3Alfheim Portal&r provides &dknowledge of flora and magical phenomena&r that only the elves know."
+				""
+				"Passing most other things through is a waste. &3Manasteel&r, on the other hand..."
+			]
+			hide: true
+			id: "6AE35CDEFC5BBBB8"
+			subtitle: "Trade for an Elementium Ingot"
+			tasks: [{
+				id: "0A10AF6097BA27DB"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			title: "Mellon"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6AE35CDEFC5BBBB8"]
+			description: [
+				"Overcoming the &cGuardian of Gaia&r requires taking every opportunity to tip the odds heavily in your favour - &3Elementium Armor&r, a &3Terra Sword&r, potent &3Incense&r, and &das many trinkets as you can cram on&r."
+				""
+				"The &3Spirits&r rewarded can be used to &denhance many an apparatus&r - and create all new things, too."
+			]
+			hide: true
+			id: "21BC132B7FA28495"
+			subtitle: "Defeat the Guardian of Gaia"
+			tasks: [{
+				id: "0851BC78A48F87AB"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			title: "Fight for your Life"
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "Botania"
