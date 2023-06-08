@@ -379,10 +379,10 @@
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "tinkerer:fence_gates"
+						value: "c:fence_gates"
 					}
 				}
-				title: "Any #tinkerer:fence_gates"
+				title: "Any Fence Gate"
 				type: "item"
 			}]
 			title: "Plotting"
