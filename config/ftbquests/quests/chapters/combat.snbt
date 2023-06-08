@@ -419,7 +419,7 @@
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "tinkerer:boots"
+							value: "c:boots"
 						}
 					}
 					title: "Any Boots"
@@ -432,7 +432,7 @@
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "tinkerer:leggings"
+							value: "c:leggings"
 						}
 					}
 					title: "Any Leggings"
@@ -445,7 +445,7 @@
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "tinkerer:chestplates"
+							value: "c:chestplates"
 						}
 					}
 					title: "Any Chestplate"
@@ -458,7 +458,7 @@
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "tinkerer:helmets"
+							value: "c:helmets"
 						}
 					}
 					title: "Any Helmet"

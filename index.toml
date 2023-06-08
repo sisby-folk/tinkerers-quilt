@@ -106,11 +106,11 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "ef795bdf4b40be8d391619a4c0999302224c36556dfda0cd27fe47a637e70a0d"
+hash = "7dfe6aef141e866a1c5a7c8ca286087817f124b9e97878d7e483fb8313015002"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "221b5ef4727069f6c8ed72476bcf2c2d9bba2d83e638a0dcecbd11690a079dca"
+hash = "40255e4244bf4881b6274e72eb689f292ea4aa2128d1e4a117d9352f7ea1021e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -130,7 +130,7 @@ hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "27c0b67841f23e281c1117b5d7e1fd3064f76e5cb595f289793574f15204f2c2"
+hash = "fac269b306f404ae41825741ea0f70abf74982c183194a848ee9d34e6eda55c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
@@ -1216,6 +1216,26 @@ file = "resources/assets/tinkerer/lang/en_us.json"
 hash = "bbcfccc23712ead940e3a3063987fd85bc6fffad7c8bb9fb9d2af9fbe3603dba"
 
 [[files]]
+file = "resources/data/c/tags/items/boots.json"
+hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
+
+[[files]]
+file = "resources/data/c/tags/items/chestplates.json"
+hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
+
+[[files]]
+file = "resources/data/c/tags/items/fence_gates.json"
+hash = "e5e5e8b0d8296fa813f9f8f1f92a9867bf87b2c3146b8c56a2c1cb8e69b51c94"
+
+[[files]]
+file = "resources/data/c/tags/items/helmets.json"
+hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
+
+[[files]]
+file = "resources/data/c/tags/items/leggings.json"
+hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
+
+[[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
 hash = "97de19ddad68c14aef12dad479e2c22b3764c7a4ffcbd7d98f81ead5c8451046"
 
@@ -1238,26 +1258,6 @@ hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
 [[files]]
 file = "resources/data/tinkerer/recipes/trident.json"
 hash = "09879b5f78bd601f10f411b6e1473f6e0231f7d671615f7b489b90b6e77cea24"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/boots.json"
-hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/chestplates.json"
-hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/fence_gates.json"
-hash = "85822c016f30658fb2ce252c5deca168e7cbefa650eb2f229be8970875d4c8da"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/helmets.json"
-hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/leggings.json"
-hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
 
 [[files]]
 file = "resources/data/tinkerers_smithing/tags/items/dework_materials.json"
