@@ -110,7 +110,7 @@ hash = "a7dedf419c308e134e990f8625136531b72377fc93dcd5666a090a02938ae699"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "ef795bdf4b40be8d391619a4c0999302224c36556dfda0cd27fe47a637e70a0d"
+hash = "7dfe6aef141e866a1c5a7c8ca286087817f124b9e97878d7e483fb8313015002"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -118,7 +118,7 @@ hash = "bba13fd7274bb9b25cb1bbbefee956112cd6cc4f12d4aedd0abba2bb6fc04313"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "221b5ef4727069f6c8ed72476bcf2c2d9bba2d83e638a0dcecbd11690a079dca"
+hash = "40255e4244bf4881b6274e72eb689f292ea4aa2128d1e4a117d9352f7ea1021e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -142,7 +142,7 @@ hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "27c0b67841f23e281c1117b5d7e1fd3064f76e5cb595f289793574f15204f2c2"
+hash = "09cf131d70438316059769d5316a6c0df3210013dae42f8afd496a838378a431"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
@@ -574,7 +574,7 @@ metafile = true
 
 [[files]]
 file = "mods/earth2java.pw.toml"
-hash = "f3fd5cf310f0d15fb99f70437d86a7cb15e560478d4c8e7f2af2319934b94df7"
+hash = "b449c083634ff6df61ca11af41daccda028890cb2bf0373e31a7f1b6cea39342"
 metafile = true
 
 [[files]]
@@ -684,7 +684,7 @@ metafile = true
 
 [[files]]
 file = "mods/fwaystones.pw.toml"
-hash = "5ebaa368b8497942a070b4216a182d6850bbd1e6dd19390c34b47b07b5b0887f"
+hash = "577d6d70b5a7ab61e454ac05d0753bce12726499da97416025285f863308fc89"
 metafile = true
 
 [[files]]
@@ -732,7 +732,7 @@ hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "ec644a70524673946d8a987bbc4d3f0968c4885f55541b837ee14a366b218d35"
+hash = "af3675c9022d8669af5486c58fa9a685189a579a772a4c2ea5705bbe29bb169d"
 metafile = true
 
 [[files]]
@@ -972,7 +972,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "e35b48ca4017b6099823c624d9bb8a27f4cf8635eb3f0af940de68d44c1b177b"
+hash = "9d6bf8335bffe88c5b8abfc25fbeebec7dd873c472eb49380ffd99a16bc092bf"
 metafile = true
 
 [[files]]
@@ -1264,6 +1264,26 @@ file = "resources/assets/yttr/atlas/tiles/wasteland.json"
 hash = "8fb1c0a7f6f9e4c1303221a744a14af9b5967a7bf54718452ab3d85d9a05c58c"
 
 [[files]]
+file = "resources/data/c/tags/items/boots.json"
+hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
+
+[[files]]
+file = "resources/data/c/tags/items/chestplates.json"
+hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
+
+[[files]]
+file = "resources/data/c/tags/items/fence_gates.json"
+hash = "57c816ff57d5eb46ba4c83f01e29a02230f63b2b060c64a5a76fcb57b31d9cd3"
+
+[[files]]
+file = "resources/data/c/tags/items/helmets.json"
+hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
+
+[[files]]
+file = "resources/data/c/tags/items/leggings.json"
+hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
+
+[[files]]
 file = "resources/data/create/recipes/crafting/curiosities/cake.json"
 hash = "64446f085c617dad7bf3b974bda2f11dfba6343fbe3e63e2ce2df0ea3d19a146"
 
@@ -1294,26 +1314,6 @@ hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
 [[files]]
 file = "resources/data/tinkerer/recipes/trident.json"
 hash = "09879b5f78bd601f10f411b6e1473f6e0231f7d671615f7b489b90b6e77cea24"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/boots.json"
-hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/chestplates.json"
-hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/fence_gates.json"
-hash = "85822c016f30658fb2ce252c5deca168e7cbefa650eb2f229be8970875d4c8da"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/helmets.json"
-hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/leggings.json"
-hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
 
 [[files]]
 file = "resources/data/tinkerers_smithing/tags/items/dework_materials.json"
@@ -2329,7 +2329,7 @@ hash = "c76f9f51edd4f46503553e2308211870473b436d525e71d19419b2fda368657e"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "eb5d07ac1370825eaa1a35eea0b9fa53bf89f7716f7eb62b626effca4f5817b1"
+hash = "ef5060e4fee094045e79fad89880359d0f3ad6042a63c74314adde206f8f208c"
 metafile = true
 
 [[files]]
@@ -2339,12 +2339,12 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "6610547224f85161e6ba49aaadfe882e058f2d3851dcef3b77ae9df1314f3dae"
+hash = "8445f71e1d1a5d5574204382fba1c75b5506ccf07b8a7605f0d810574c113d70"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "256a6bfe7b1afd19060e42a7ac498c7c39ae598436561335bb029a3f34de3b6d"
+hash = "5fef0beadf88815e435197ec9fd863793a5ab38e45a6d8d7f9a2a3095159fdf0"
 metafile = true
 
 [[files]]
@@ -2354,7 +2354,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "04aca8185d12f687fee56369b4697e7389647bad4a0953ab9d558a04a84d4fab"
+hash = "dcdb5fbe52b1746de1b48d5543d708b0df79577f52d56b04a5cda333327228e9"
 metafile = true
 
 [[files]]
