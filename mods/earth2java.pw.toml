@@ -1,13 +1,13 @@
 name = "Earth2Java"
-filename = "earth2java-fabric-1.10.0b+1.19.2.jar"
+filename = "earth2java-fabric-1.10.1+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/D2Q91keW/versions/bXu57CgM/earth2java-fabric-1.10.0b%2B1.19.2.jar"
+url = "https://cdn.modrinth.com/data/D2Q91keW/versions/8sH4bMyx/earth2java-fabric-1.10.1%2B1.19.2.jar"
 hash-format = "sha1"
-hash = "7c221ff66a97c29728f66cf8fc67352b61ac7997"
+hash = "471a07b7ee1a19f347ed2fe77e9d58628e00699a"
 
 [update]
 [update.modrinth]
 mod-id = "D2Q91keW"
-version = "bXu57CgM"
+version = "8sH4bMyx"
