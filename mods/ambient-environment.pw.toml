@@ -3,11 +3,11 @@ filename = "AmbientEnvironment-fabric-1.19.2-8.0+3.jar"
 side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/DyTvM1dv/versions/vhKkH9Tn/AmbientEnvironment-fabric-1.19.2-8.0%2B3.jar"
 hash-format = "sha1"
 hash = "e9d27fe450b32caa7c171991e41f3ca7c072ef5e"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 3955823
-project-id = 320163
+[update.modrinth]
+mod-id = "DyTvM1dv"
+version = "vhKkH9Tn"
