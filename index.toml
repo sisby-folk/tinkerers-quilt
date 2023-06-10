@@ -380,11 +380,6 @@ hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
 metafile = true
 
 [[files]]
-file = "mods/cleancut.pw.toml"
-hash = "7a09da6066eaaac81061420526f46c3329aa99ff11334fcedf5842f81bdac459"
-metafile = true
-
-[[files]]
 file = "mods/client-tweaks.pw.toml"
 hash = "246cd2214d087ee9ad322af509738cf49806030fdea0ce0ed3e3def80c466848"
 metafile = true
@@ -821,6 +816,10 @@ metafile = true
 file = "mods/styledplayerlist.pw.toml"
 hash = "03191d93838921d6267303721f3b769bb338f6baf5089af61f47c8bf09fdd088"
 metafile = true
+
+[[files]]
+file = "mods/swingthrough-1.0.1+1.19.jar"
+hash = "84090e6005fc9764594de3fab2998c1bd81a7849eb5354f0b8bc3db160ee750c"
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
