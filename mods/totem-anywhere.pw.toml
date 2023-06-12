@@ -1,0 +1,13 @@
+name = "Totem Anywhere"
+filename = "totem_anywhere-1.1.4+1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f4ppGsAE/versions/egOfA1uE/totem_anywhere-1.1.4%2B1.19.2.jar"
+hash-format = "sha1"
+hash = "97746a5e7d80015466c6ef946dd8cdcfa83306d2"
+
+[update]
+[update.modrinth]
+mod-id = "f4ppGsAE"
+version = "egOfA1uE"

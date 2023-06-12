@@ -371,7 +371,7 @@ hash = "4b74f6b30d2b1bcca8ceb83c3ea0171317ad6d1250fe298d1b3006a65c7d7522"
 
 [[files]]
 file = "mods/ambient-environment.pw.toml"
-hash = "6d064aeec2cc5f9dd4ffca7c81e781418619ef39d71e84596051c45e7e64271a"
+hash = "b6676e184b94a0efda7769df4413c91162341d1fdbcb668857509f20ace34be1"
 metafile = true
 
 [[files]]
@@ -390,7 +390,7 @@ hash = "83cdd6d9257985ca4cf844641157b45ce8685538eb9f409e3c079e8490f596bf"
 
 [[files]]
 file = "mods/apathy.pw.toml"
-hash = "0f7154531872f39e9365d15087908f77227b6b0356068d5e1b98c9f590faddd4"
+hash = "c47872d29aff3f6a05cce35dcf6a451bd72c95d2f90608749432cd71b7c6558e"
 metafile = true
 
 [[files]]
@@ -496,11 +496,6 @@ metafile = true
 [[files]]
 file = "mods/cit-resewn.pw.toml"
 hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
-metafile = true
-
-[[files]]
-file = "mods/cleancut.pw.toml"
-hash = "7a09da6066eaaac81061420526f46c3329aa99ff11334fcedf5842f81bdac459"
 metafile = true
 
 [[files]]
@@ -1044,13 +1039,18 @@ hash = "03191d93838921d6267303721f3b769bb338f6baf5089af61f47c8bf09fdd088"
 metafile = true
 
 [[files]]
+file = "mods/swingthrough.pw.toml"
+hash = "f6bc424d119901d5b20f417eb1df66eaa004f7739d804489cb86520e2b053a76"
+metafile = true
+
+[[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "90146110e019a23019b59782f90a68302a4cc96270761046cee14c8ed6c1173a"
+hash = "618e124f8a7a25ea380deb3d13e677ca816d8bc066553d50bbaef9c47a289da6"
 metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "066d3d8ddd77714bd0fcc306ac76c0f5529092cd78a2ffb73d84eee445510ce0"
+hash = "2e66a28ba28730d15f5bb43527e7ef18f16a6b91ccd95cc37a77b0d3a999f304"
 metafile = true
 
 [[files]]
@@ -1064,7 +1064,7 @@ hash = "021e419e2e3986e274d7af785f20638ccbe28a098f1c8a02f8fc23dab859d920"
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "0fdff1b00a3f61466222cd080b216897764afde26164b174908f9d3aece2ba33"
+hash = "1ab86959baf546a58bc9f15295198fe11d3bd99dc00d66cfe8a9b7a055c84983"
 metafile = true
 
 [[files]]
@@ -1098,8 +1098,8 @@ hash = "4f782435d758d3cfd57ba49e2a4994006722d42307ef74ef3d35a1704f9ed5c4"
 metafile = true
 
 [[files]]
-file = "mods/totem-anywhere-standalone.pw.toml"
-hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
+file = "mods/totem-anywhere.pw.toml"
+hash = "30c44924c1dca550a85de358424728fcb395200058c2b7ff57e8848b5e9adb05"
 metafile = true
 
 [[files]]
@@ -1129,7 +1129,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "cb5b7eb800446c47610ced26441b0a4950dcca6c43bdf1ebe12ad9370cbfb3ba"
+hash = "054693e37282d6fe3c49461adfb8412d4dec5efdd757a7af6b61fe7506b04f4e"
 metafile = true
 
 [[files]]
@@ -2354,7 +2354,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "dcdb5fbe52b1746de1b48d5543d708b0df79577f52d56b04a5cda333327228e9"
+hash = "1f2ec0bcd3a5e8e5a4070b141654039f726812ae0a76acf2b6b5e309da24dc0e"
 metafile = true
 
 [[files]]

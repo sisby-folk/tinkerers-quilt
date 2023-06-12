@@ -1,0 +1,13 @@
+name = "SwingThrough"
+filename = "swingthrough-1.0.2+1.19.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JyKlunuD/versions/PsgOs1tS/swingthrough-1.0.2%2B1.19.jar"
+hash-format = "sha1"
+hash = "c226d21479d20116cd856437c59d5ba610b0ace1"
+
+[update]
+[update.modrinth]
+mod-id = "JyKlunuD"
+version = "PsgOs1tS"
