@@ -389,6 +389,8 @@
 				"Allow &3Piston&r double-retraction."
 				"Non-positional &3Redstone Dust&r."
 				"&3Repeaters&r don't miss quick pulses."
+				""
+				"&7[ClickThrough]&r &7[&r&6Sneak&r&7]&r to interact with &3Item Frames&r and &3Signs&r on chests"
 			]
 			disable_toast: true
 			icon: "minecraft:writable_book"

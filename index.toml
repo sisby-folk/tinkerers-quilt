@@ -126,7 +126,7 @@ hash = "8450a8df5f1e1526e6ac5a68a03ba5ec6873c10a81e5e8c9c7770b2b0431637d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "ae326c30e9913bc75c312ce690aaf7971aff0301fbab785c16ddf45bd75749d8"
+hash = "8afccbfc5361c8a0d4e33c5ad87fb8dc88985160e2362d0dc6c9035288143e10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -499,6 +499,11 @@ hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
 metafile = true
 
 [[files]]
+file = "mods/clickthrough.pw.toml"
+hash = "1a4c9d83b0709fd2f91814eb67f81e19bb1493315c42cb65efe911d0f34c5a13"
+metafile = true
+
+[[files]]
 file = "mods/client-tweaks.pw.toml"
 hash = "246cd2214d087ee9ad322af509738cf49806030fdea0ce0ed3e3def80c466848"
 metafile = true
@@ -703,10 +708,6 @@ hash = "6fd7515689f5d615195b919471c55704adb1937ca5f78950b238b9b45ecb1b07"
 metafile = true
 
 [[files]]
-file = "mods/illuminations-1.10.8.jar"
-hash = "2c25dc32b10e335016b91bd3a6d67195cb79c561857316a44d51fe631998d230"
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "fd0d31c123f53fb70d79e3ac5333dc9178b378c87d46eb0b8f63db324f67fe51"
 metafile = true
@@ -827,7 +828,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "4ce761e594c255a802bd4b0b4b6312e740130b17d77764c389cef4c8417ae8af"
+hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
 
 [[files]]
@@ -1139,7 +1140,7 @@ metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
-hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
+hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
 
 [[files]]
@@ -2360,6 +2361,11 @@ metafile = true
 [[files]]
 file = "shaderpacks/sildurs-enhanced-default.pw.toml"
 hash = "edaff1d813dc803f9ccf5bd7a1196c6d0c0f5bb1a82633588ff7b542a5e43c85"
+metafile = true
+
+[[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "224067f730c8cd269def3883caed3cdd2c93cc562455acd8f1cb337ca48c41a6"
 metafile = true
 
 [[files]]

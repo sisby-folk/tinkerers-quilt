@@ -258,7 +258,6 @@ Mods:
     ChickensShed
     Chunks fade in
     CIT Resewn
-    CleanCut
     Client Tweaks
     Cloth Config API
     Colormatic
@@ -328,7 +327,7 @@ Mods:
     Pehkui
     Pettable
     PicoHUD
-    Portable Crafting Standalone
+    Portable Crafting
     Presence Footsteps
     Project: Save the Pets!
     QDResLoader
@@ -350,6 +349,7 @@ Mods:
     Styled Chat
     Styled Nicknames
     Styled Player List
+    SwingThrough
     Switchy Inventories
     Switchy Proxy
     Switchy Resource Packs
@@ -361,7 +361,7 @@ Mods:
     Tinkerer's Statures
     Loading Screen Tips
     ToolTipFix
-    Totem Anywhere Standalone
+    Totem Anywhere
     VehicleFix
     Visuality
     WTHIT Plugins
@@ -377,6 +377,7 @@ Recommended Shader Packs:
     Prismarine Shaders
     Rethinking Voxels
     Sildurs Enhanced Default Shaders
+    Solas Shader
     Super Duper Vanilla
 ```
 
