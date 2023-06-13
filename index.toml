@@ -639,7 +639,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "4ce761e594c255a802bd4b0b4b6312e740130b17d77764c389cef4c8417ae8af"
+hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
 
 [[files]]
@@ -908,7 +908,7 @@ metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
-hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
+hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
 
 [[files]]
@@ -1504,6 +1504,11 @@ metafile = true
 [[files]]
 file = "shaderpacks/sildurs-enhanced-default.pw.toml"
 hash = "edaff1d813dc803f9ccf5bd7a1196c6d0c0f5bb1a82633588ff7b542a5e43c85"
+metafile = true
+
+[[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "224067f730c8cd269def3883caed3cdd2c93cc562455acd8f1cb337ca48c41a6"
 metafile = true
 
 [[files]]
