@@ -86,7 +86,7 @@ hash = "60419c076bf4048995834e866b86306f4136e132ec7b79902f9fd1f6036a8b3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "a2c08d1514a6a9b23896ae676420d7570f2a7ecfe3b277c5e0756f618e06e367"
+hash = "d74be5b28605bf5d5b74eb189cbbe3f934e195248015a4cf5512f68ea1d11724"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -377,6 +377,11 @@ metafile = true
 [[files]]
 file = "mods/cit-resewn.pw.toml"
 hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
+metafile = true
+
+[[files]]
+file = "mods/clickthrough.pw.toml"
+hash = "1a4c9d83b0709fd2f91814eb67f81e19bb1493315c42cb65efe911d0f34c5a13"
 metafile = true
 
 [[files]]
