@@ -220,6 +220,7 @@ Mods:
     ChickensShed
     Chunks fade in
     CIT Resewn
+    ClickThrough
     Client Tweaks
     Cloth Config API
     Colormatic
@@ -252,7 +253,6 @@ Mods:
     FTB Teams (Fabric)
     Horse Buff
     Idwtialsimmoedm
-    [Jar/Fork] Illuminations
     ImmediatelyFast
     Indium
     [Jar/Fork] Inventory Tabs
