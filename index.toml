@@ -839,8 +839,9 @@ hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
 metafile = true
 
 [[files]]
-file = "mods/switchy-teleport-1.2.1+1.19.2.jar"
-hash = "021e419e2e3986e274d7af785f20638ccbe28a098f1c8a02f8fc23dab859d920"
+file = "mods/switchy-teleport.pw.toml"
+hash = "2f8513442857bce9ced9a120fd17a0702c3cf83df6402ebe897c8cae03cad500"
+metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
