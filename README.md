@@ -375,7 +375,7 @@ The many, many other folks who've provided development support and feedback for 
 ```
 Vanilla Tweaks: https://vanillatweaks.net/
 OriginsPlus and Lepus: Dan's Other Clone https://www.youtube.com/c/DansOtherClone
-Illuminations: https://www.curseforge.com/minecraft/mc-mods/illuminations
+Effective: https://modrinth.com/mod/effective
 ```
 
 ---
