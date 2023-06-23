@@ -81,6 +81,10 @@ file = "config/easierenchanting.properties"
 hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 
 [[files]]
+file = "config/effective.json"
+hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
+
+[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -549,7 +553,7 @@ metafile = true
 
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
-hash = "9974d9608f42b266c35a658f1ff1899f254a02d13def06c1ff9a6c2cf7a924a2"
+hash = "1a0ec29dab9ef1b23bdd8a7a017d8ff29d78e404c9fbd2f63a84802898df83c2"
 metafile = true
 
 [[files]]
@@ -588,8 +592,13 @@ hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
 metafile = true
 
 [[files]]
+file = "mods/effective.pw.toml"
+hash = "a1c33d8c55a535adf0bfc25bec6ae2e2a62b9fdf37a836818468d18428a85723"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
-hash = "bd2da695b087ca82cc4b6d5063c0b8466aa8ee322a78fdc41539999e22618909"
+hash = "0692059aa9d74400804eaa6030158a251296b280b91a82eb55757c2f2ccf8972"
 metafile = true
 
 [[files]]
@@ -674,7 +683,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "36c6086dd2c9ae6a062d3e221f80d0835d380dcdf1605be5db5e7a15d42d7f9c"
+hash = "db8de46447b4211a0b179a7b93f4b51fc59c5bc5fe1680e27549dc7f23e27874"
 metafile = true
 
 [[files]]
@@ -898,7 +907,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "8475894e2eeeaef0b12f4209b7c6da565d2d23b866437f23c70361160af17114"
+hash = "e6ad8855aee828b004b5be87f5cad12dbc9de346e7200add290b1b93a2a0ad5c"
 metafile = true
 
 [[files]]
@@ -918,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
-hash = "a56ce3bef27b70930e49cd7f21a2a65cbd73d019cc72b779125504bfc1f21319"
+hash = "dd84b19dbfc8ede085d849adc31f0f42546f5390e2cc1abc151e84d9ba0ab58f"
 metafile = true
 
 [[files]]
@@ -1061,12 +1070,12 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "2f8513442857bce9ced9a120fd17a0702c3cf83df6402ebe897c8cae03cad500"
+hash = "45cfb1774eee4ece0713fa6351538bb20f6d380a8caa33cc354af825c77f2765"
 metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "1ab86959baf546a58bc9f15295198fe11d3bd99dc00d66cfe8a9b7a055c84983"
+hash = "c4bca4c16f2081022e92eb5379505518971e55d10346789ab777b59de38bebe7"
 metafile = true
 
 [[files]]
@@ -1081,7 +1090,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "fce968b9f5e89dd122fe8409db961bf4f5f27cc14b16bd6d2423970c0e41c40d"
+hash = "752faeacb8ac21375a37e1b96a0086656df60723cdca24625bf06275dd79bba2"
 metafile = true
 
 [[files]]
