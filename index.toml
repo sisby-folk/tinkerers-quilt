@@ -49,6 +49,10 @@ file = "config/easierenchanting.properties"
 hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 
 [[files]]
+file = "config/effective.json"
+hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
+
+[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -447,6 +451,11 @@ metafile = true
 [[files]]
 file = "mods/ebe.pw.toml"
 hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
+metafile = true
+
+[[files]]
+file = "mods/effective.pw.toml"
+hash = "a1c33d8c55a535adf0bfc25bec6ae2e2a62b9fdf37a836818468d18428a85723"
 metafile = true
 
 [[files]]
