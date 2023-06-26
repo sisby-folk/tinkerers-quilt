@@ -1,13 +1,13 @@
 name = "BedrockWaters"
-filename = "bedrockwaters-1.7.3+1.19.2.jar"
+filename = "bedrockwaters-1.7.7+1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/3WAUHe3k/versions/gL34oBJl/bedrockwaters-1.7.3%2B1.19.2.jar"
+url = "https://cdn.modrinth.com/data/3WAUHe3k/versions/xuDuAUJ2/bedrockwaters-1.7.7%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "5540bc4918419c37196ad15102570d40d83bfd17"
+hash = "cbeec37b7673fbed69a5f31e871c444544540d96"
 
 [update]
 [update.modrinth]
 mod-id = "3WAUHe3k"
-version = "gL34oBJl"
+version = "xuDuAUJ2"

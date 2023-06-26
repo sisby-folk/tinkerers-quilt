@@ -1,13 +1,13 @@
 name = "Sully's Peeves"
-filename = "Sully's Peeves.zip"
+filename = "Sullys_Peeves-FreshAnimations COMPAT.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "0cfb6c80994af49d1bcbda4283ed391ba7f66074"
+hash = "1fa44af79211c6dfe74ffba923dd523d091fc47a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3973254
+file-id = 4040600
 project-id = 492485

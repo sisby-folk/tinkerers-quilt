@@ -1,0 +1,13 @@
+name = "Heracles"
+filename = "heracles-fabric-1.20-0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lo90fZoB/versions/fAbq55C2/heracles-fabric-1.20-0.0.4.jar"
+hash-format = "sha1"
+hash = "997ea73a02cd2171a7d73a7b01ddece90c89a34a"
+
+[update]
+[update.modrinth]
+mod-id = "lo90fZoB"
+version = "fAbq55C2"
