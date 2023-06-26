@@ -1,13 +1,13 @@
 name = "Bovines and Buttercups (Mooblooms)"
-filename = "Bovines-And-Buttercups-Quilt-1.6.1+1.19.2.jar"
+filename = "Bovines-And-Buttercups-Quilt-1.6.2.1+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/BDg6nMn3/versions/bE16SwI2/Bovines-And-Buttercups-Quilt-1.6.1%2B1.19.2.jar"
+url = "https://cdn.modrinth.com/data/BDg6nMn3/versions/30KIm8xG/Bovines-And-Buttercups-Quilt-1.6.2.1%2B1.19.2.jar"
 hash-format = "sha1"
-hash = "936072c90978149e8f3e649813de4ba18cd6b588"
+hash = "935dd7ed8f284000505575d18f6df8d2cc5cf050"
 
 [update]
 [update.modrinth]
 mod-id = "BDg6nMn3"
-version = "bE16SwI2"
+version = "30KIm8xG"
