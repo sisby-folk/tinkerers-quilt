@@ -40,6 +40,15 @@ jobs:
       - name: import quilt_1.19.2 - clean
         run: rm -rf cdn/quilt_1.19.2/.git
 
+      - name: import quilt_1.20
+        uses: actions/checkout@v3
+        with:
+          ref: quilt_1.20
+          path: cdn/quilt_1.20
+          clean: false
+      - name: import quilt_1.20 - clean
+        run: rm -rf cdn/quilt_1.20/.git
+
       - name: import quilt_1.19.2_plus
         uses: actions/checkout@v3
         with:
