@@ -4,7 +4,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["quilt_1.19.2", "quilt_1.19.2_plus", "quilt_1.19.2_modded"]
+    branches: ["quilt_1.19.2", "quilt_1.19.2_plus", "quilt_1.19.2_modded", "quilt_1.20"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
