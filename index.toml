@@ -85,6 +85,10 @@ file = "config/effective.json"
 hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
 
 [[files]]
+file = "config/emogg.json"
+hash = "c524bd7e0e27258dcb0122f15303ac80723a1b6d0bb872e63b203d87bdc62136"
+
+[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
@@ -588,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/emitrades.pw.toml"
 hash = "cfcfcb3c97190708fe47074148d803d339713bdaa908b98d57a6ef4e40e053b5"
+metafile = true
+
+[[files]]
+file = "mods/emogg.pw.toml"
+hash = "4a8dfc8814dd3f177ce6d6128b1a15a2f9b55e37d0d7d2caaccd9108adff33ea"
 metafile = true
 
 [[files]]
@@ -1378,6 +1387,14 @@ hash = "bd32eff1567a6ae10d7a06f751b353d5a5188f60c363d431438071f1db653352"
 [[files]]
 file = "resources/packs/hide_yigd/pack.mcmeta"
 hash = "c9b84c7d95f0aac4f81b5a7ebaa7d727d8bd1f3d53f67ea5fcee9fed4de90b82"
+
+[[files]]
+file = "resources/packs/niceemogg.zip"
+hash = "a8a413d3224d9b4578c4c52f49718e6cfcdbc6c4a6ed4e93d339a51ee25f263d"
+
+[[files]]
+file = "resources/packs/pridemogg.zip"
+hash = "bab2a39422a26cccebaf36cccd0caaef5f4fb2eaf9968c95c66def0ef5fc04b0"
 
 [[files]]
 file = "resources/packs/repurposed_structures_tweaks/data/repurposed_structures/loot_modifiers/import_modded_loot.json"
@@ -2255,6 +2272,10 @@ hash = "62dad0ca0ca693c815dd3c303acfd6bc48eb5da0ca4384b35324df4a73adcda0"
 file = "resources/packs/sullys-peeves.pw.toml"
 hash = "89380cc7890f27b4da0485a417ca58874e390678a3b4f65d40e615fd8ff99394"
 metafile = true
+
+[[files]]
+file = "resources/packs/twemogg.zip"
+hash = "6360f624e8afc063bc33604a60bfdc2f5c5382308ab84f62cb2a371b1359a289"
 
 [[files]]
 file = "resources/packs/varied-connected-bookshelves.pw.toml"
