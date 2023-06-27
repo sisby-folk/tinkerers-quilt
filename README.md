@@ -83,18 +83,33 @@ It's not just about making the game easier - with annoyances alleviated in death
 
 Tinkerer's Quilt **Encourages player expression** with better skins, origins, and more ways to build.
 
-| Relevant Mod                                                               | Summary                                                                                      |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [Ears](https://ears.unascribed.com/)                              | Skins with tails, horns, ears, claws, wings and more! |
-| [Fabric Tailor](https://modrinth.com/mod/fabrictailor)            | Swap your skin in-game.                                                |
-| 🛠️ [Drogstyle](https://modrinth.com/mod/drogtor)                  | Change player name, color, and bio (e.g. pronouns) any time.                                     |
-| 🛠️ [Switchy](https://modrinth.com/mod/switchy)                              | Swap between player profiles with names, skins, or even inventories! |
-| [Origins](https://modrinth.com/mod/origins)                       | Choose an _Origin_, with abilities and limitations.     |
-| 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)                              | Simple origins with fun abilities! |
-| 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus)                              | Choose your height and size with origins! |
-| [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc. |
-| [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks.                  |
-| [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions. |
+| Relevant Mod                                                      | Summary                                                                                                                                                         |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Ears](https://ears.unascribed.com/)                              | Skins with tails, horns, ears, claws, wings and more!                                                                                                           |
+| [Fabric Tailor](https://modrinth.com/mod/fabrictailor)            | Swap your skin in-game.                                                                                                                                         |
+| 🛠️ [Drogstyle](https://modrinth.com/mod/drogtor)                 | Change player name, color, and bio (e.g. pronouns) any time.                                                                                                    |
+| 🛠️ [Switchy](https://modrinth.com/mod/switchy)                   | Swap between player profiles with names, skins, or even inventories!                                                                                            |
+| [Origins](https://modrinth.com/mod/origins)                       | Choose an _Origin_, with abilities and limitations.                                                                                                             |
+| 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple origins with fun abilities!                                                                                                                              |
+| 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus) | Choose your height and size with origins!                                                                                                                       |
+| [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc.                                                                                       |
+| [EmoGG](https://modrinth.com/mod/emogg)                           | Allows emoji in chat, including discord [twemoji](https://github.com/twitter/twemoji), [Mothcharm's nice emoji](https://mothcharm.carrd.co/#emoji), and extras. |
+| [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks.                                                                                 |
+| [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions.                                                                                               |
+
+## Pretty Pretty [Visuals]
+
+Tinkerer's Quilt is just as opinionated about visuals as it is about everything else - it includes various visual tweaks and improvements for clarity, performance, and often just plain aesthetic!
+
+In addition to the below, Tinkerer's Quilt has support for the majority of optifine-format resource packs, including things like connected textures and custom skyboxes, thanks to [optifine alternative mods](https://lambdaurora.dev/optifine_alternatives/) made by the community.
+
+| Relevant Mod                                                                       | Summary                                                                                                                                                                                                                                    |
+|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Vanilla Tweaks](https://vanillatweaks.net/)                                       | Decaying tools, less obtrusive shields and fire, and minor texture changes.                                                                                                                                                                |
+| [Sodium](https://modrinth.com/mod/sodium)                                          | Client go fast.                                                                                                                                                                                                                            |
+| [Iris](https://modrinth.com/mod/iris)                                              | Allows using shaders like [Complementary](https://modrinth.com/shader/complementary-shaders-v4), [Prismarine](https://github.com/Septonious/Prismarine-Shader), and [Super Duper Vanilla](https://modrinth.com/shader/super-duper-vanilla) |
+| [Xali's Enchanted Books](https://modrinth.com/resourcepack/xalis-enchanted-books)  | Unique textures for enchanted books.                                                                                                                                                                                                       |
+| [Sully's Peeves](https://www.curseforge.com/minecraft/texture-packs/sullys-peeves) | Texture improvements for many everyday blocks and items.                                                                                                                                                                                   |
 
 ---
 
