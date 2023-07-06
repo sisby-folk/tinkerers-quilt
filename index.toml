@@ -341,6 +341,11 @@ hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
 metafile = true
 
 [[files]]
+file = "mods/chickensshed.pw.toml"
+hash = "d1059d88d7deb358141cb0fc58d200cb458642f7474f85b483e824e746d8d353"
+metafile = true
+
+[[files]]
 file = "mods/chunks-fade-in.pw.toml"
 hash = "16c2d094c033d848e77d2217085501d05c7cacb41ff6193da5eb5772ab4a7d6e"
 metafile = true
@@ -396,6 +401,11 @@ hash = "6a4afd7b42387477795e73b17b8963ea313ce6f8a960343a2579ff0b41544beb"
 metafile = true
 
 [[files]]
+file = "mods/ebe.pw.toml"
+hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "62ba442e767de89381f384df293bf1aca9b2272e83862b9893748f5a598523c6"
 metafile = true
@@ -446,6 +456,11 @@ hash = "c0a161511f53f1629aa1fce0510890c4a8593906d57c661160896c5052a6ae9e"
 metafile = true
 
 [[files]]
+file = "mods/horsebuff.pw.toml"
+hash = "c64590151ce7a968e093058924fcb60e3cbfd7aa3934e50409523e3f95375316"
+metafile = true
+
+[[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
 hash = "a266409ee7850768e0883f4a9fbb64c0697cf63f393f5e35d03e23b772ab7452"
 metafile = true
@@ -478,11 +493,6 @@ metafile = true
 [[files]]
 file = "mods/keep-my-hand.pw.toml"
 hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
-metafile = true
-
-[[files]]
-file = "mods/kiwi.pw.toml"
-hash = "6dcf067135f24f4a3488bb1be306e0886bc234bf3c562c69fe6185445cf85af0"
 metafile = true
 
 [[files]]
@@ -528,6 +538,11 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
 metafile = true
 
 [[files]]
@@ -767,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "650ed46daae873d60ff8627aa2c47d02d2e2aa4950258a4570bf34ec512c554b"
+hash = "df0c1accbcf32d62e1ead82fc0003ee69b3c15255d4235dbee36383ffa3ec529"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
