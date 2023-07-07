@@ -70,7 +70,7 @@ The content added is a slight expansion on exploration, self-defense, and homest
 | [Repurposed Structures](https://modrinth.com/mod/repurposed-structures-fabric) | Adds new village variants to the world.                     |
 | [Sandwichable](https://modrinth.com/mod/sandwichable)                          | Allows making arbitrary sandwiches out of foods.            |
 | [YUNGs Better Mods](https://modrinth.com/user/YUNGNICKYOUNG)                   | Overhauls various vanilla structures for intricacy.         |
-| [Ecotones](https://modrinth.com/user/ecotones)                                 | Adds a new optional world type with flowing terrain.        |
+| [Ecotones](https://modrinth.com/user/ecotones)                                 | Adds a new optional world type with flowing terrain. (Disclaimer: Not all quests are completable in the ecotones world type!) |
 
 
 <details>
