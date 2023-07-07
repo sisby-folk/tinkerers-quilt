@@ -621,6 +621,11 @@ hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
 metafile = true
 
 [[files]]
+file = "mods/qdresloader.pw.toml"
+hash = "f7cebb9f191593ed8d3aee3a1bd3ea8c400625702aea0fd5d6ffb9db0105b926"
+metafile = true
+
+[[files]]
 file = "mods/qkl.pw.toml"
 hash = "02343a477f6f4ffd9cbedd4f93252f443c599b2f8d250037920d3a47f5756e6a"
 metafile = true
@@ -782,7 +787,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "df0c1accbcf32d62e1ead82fc0003ee69b3c15255d4235dbee36383ffa3ec529"
+hash = "b89bff57a0bd8b134cf0d4c5322bc0a5648adf11c865a9b177baace95cef4084"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
