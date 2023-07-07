@@ -70,6 +70,7 @@ The content added is a slight expansion on exploration, self-defense, and homest
 | [Repurposed Structures](https://modrinth.com/mod/repurposed-structures-fabric) | Adds new village variants to the world.                     |
 | [Sandwichable](https://modrinth.com/mod/sandwichable)                          | Allows making arbitrary sandwiches out of foods.            |
 | [YUNGs Better Mods](https://modrinth.com/user/YUNGNICKYOUNG)                   | Overhauls various vanilla structures for intricacy.         |
+| [Ecotones](https://modrinth.com/user/ecotones)                                 | Adds a new optional world type with flowing terrain.        |
 
 
 <details>
@@ -89,6 +90,7 @@ Chalk (Fabric)
 Consistency+
 Dawn API
 Earth2Java
+Ecotones
 EMICompat
 Fabric Seasons: Delight Compat
 [Jar/Fork] Fabric Seasons
