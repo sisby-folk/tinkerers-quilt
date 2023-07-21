@@ -186,7 +186,7 @@ hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
 
 [[files]]
 file = "config/yosbr/config/emi.css"
-hash = "e9def0836246318989b6179227556af4c355048e07e5dbedc95d52809133e8cd"
+hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 
 [[files]]
 file = "config/yosbr/config/illuminations.properties"
@@ -679,11 +679,6 @@ metafile = true
 [[files]]
 file = "mods/music-notification.pw.toml"
 hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
-metafile = true
-
-[[files]]
-file = "mods/norecipebook-fabric.pw.toml"
-hash = "afae97e455506516e6d196935777d3cd1b733f8f36505cfc3491c69300cbb511"
 metafile = true
 
 [[files]]

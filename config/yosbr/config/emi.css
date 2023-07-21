@@ -1,58 +1,12 @@
 #ui {
-	/**
-	 * The amount of columns to display
-	 * on the favorites sidebar.
-	 * A value of zero will disable it.
-	 */
 	max-favorite-columns: 8;
-
-	/**
-	 * The amount of columns to display
-	 * on the index sidebar.
-	 * A value of zero will disable it.
-	 */
 	max-index-columns: 8;
-
-	/**
-	 * The unit to display fluids as.
-	 */
 	fluid-unit: millibuckets;
-
-	/**
-	 * Whether to use the batched render system.
-	 * Batching is faster, but may have incompatibilities
-	 * with shaders or other mods.
-	 */
 	use-batched-renderer: true;
-
-	/**
-	 * Whether to move status effects to the top of the screen.
-	 */
-	move-effects: false;
-
-	/**
-	 * Whether to add mod name to tooltips
-	 */
 	append-mod-id: false;
-
-	/**
-	 * Whether to add mod name to item tooltips, in case another mod provides behavior
-	 */
 	append-item-mod-id: false;
-
-	/**
-	 * Which theme to use for the right sidebar
-	 */
 	right-sidebar-theme: modern;
-
-
-	/**
-	 * Which sidebar type to switch to when searching.
-	 */
 	search-sidebar-focus: index;
-
-	/**
-	 * Which sidebar type to focus when the search is empty.
-	 */
 	empty-search-sidebar-focus: craftables;
+	recipe-book-action: toggle-visibility;
 }
