@@ -1,11 +1,12 @@
-version:3120
+version:3465
 resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix"]
 autoJump:false
+darkMojangStudiosBackground:true
 key_[Fabrication] Toggle Stance:key.keyboard.z
 key_key.advancements:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.m
 key_key.presencefootsteps.settings:key.keyboard.p
-key_key.ftbquests.quests:key.keyboard.j
+key_key.heracles.open_quests:key.keyboard.j
 key_key.fabrictailor.toggle_skin_gui:key.keyboard.t
 key_key.origins.view_origin:key.keyboard.o
 key_key.waila.show_overlay:key.keyboard.left.alt
