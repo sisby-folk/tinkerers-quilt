@@ -1,0 +1,13 @@
+name = "Kaffee's Dual Ride"
+filename = "kaffees_dual_ride-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dv1QW2PN/versions/FOeILfbw/kaffees_dual_ride-1.1.0.jar"
+hash-format = "sha1"
+hash = "3a8c1a800716692f2819ccecc82aebd1bee0c9d1"
+
+[update]
+[update.modrinth]
+mod-id = "dv1QW2PN"
+version = "FOeILfbw"

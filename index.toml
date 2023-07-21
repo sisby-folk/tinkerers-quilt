@@ -321,8 +321,18 @@ hash = "ef19c47b968d01edf1d08b28343e005758ecdff419425685f2c7a30d9fb53369"
 metafile = true
 
 [[files]]
+file = "mods/better-end-sky.pw.toml"
+hash = "9d5eb5ff51dfc7123dfea318a027ec5fdf96ac9a29451367ce36cfcb88833679"
+metafile = true
+
+[[files]]
 file = "mods/boring-default-game-rules.pw.toml"
 hash = "e7892e2baf8ede8bae05e040a0a41db72f9abd891b74143484ef94fc8351006e"
+metafile = true
+
+[[files]]
+file = "mods/cardinalboats.pw.toml"
+hash = "19858e3dc496697b534659e7c2b1ca54b1be4d8d591652fab2b5988ef489c0f5"
 metafile = true
 
 [[files]]
@@ -373,6 +383,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "8e73f68cbcbff53b6a00c30f371fc34a63c2ac2240af4792008d67dce74fb507"
+metafile = true
+
+[[files]]
+file = "mods/couplings.pw.toml"
+hash = "47e796fa0168407d6bf12e3aac6cf29881960df43ed21f844ab34ac891ee0730"
 metafile = true
 
 [[files]]
@@ -451,6 +466,11 @@ hash = "03e174cf691b52da20bd973b955fae6f3720d3d2120f9d6cc1de5fdf3180013c"
 metafile = true
 
 [[files]]
+file = "mods/fishing-real.pw.toml"
+hash = "1641f46d991917601e7b27581c4b3a1cebeaee58b3533afec8ee7fe80f2d3812"
+metafile = true
+
+[[files]]
 file = "mods/heracles.pw.toml"
 hash = "e0c6a6c8d5902d44cddd8aecaac6fa20542402b69883d910718d1afd6ae0fcc1"
 metafile = true
@@ -488,6 +508,11 @@ metafile = true
 [[files]]
 file = "mods/jamlib.pw.toml"
 hash = "4cd28f6942c4df1618f8a9ccadc41e22666aef02b88315e0424b79c058c404cb"
+metafile = true
+
+[[files]]
+file = "mods/kaffees_dual_ride.pw.toml"
+hash = "820dece3f5d18fa4d429dd5412674f398b35d5ab43ff0690afee75fab3effaa1"
 metafile = true
 
 [[files]]
@@ -636,6 +661,11 @@ hash = "995f1b735ae6863759d589aff3b905ec5883db99aa6f406c25326d16d2704eb0"
 metafile = true
 
 [[files]]
+file = "mods/quilt-loading-screen.pw.toml"
+hash = "0431d2fbc92b56108c48fc955caafbefcafeb69bc9773c5413daa89af5d87966"
+metafile = true
+
+[[files]]
 file = "mods/reacharound.pw.toml"
 hash = "1bdc2b4d59ee6805bcd05fb4a68782c2a020270a7da21531b245fd03b5ba2426"
 metafile = true
@@ -663,6 +693,11 @@ metafile = true
 [[files]]
 file = "mods/simplefog.pw.toml"
 hash = "1ecb59adbb103f86496203ff3f44a80b18193512e74fd7a367ed06234702059f"
+metafile = true
+
+[[files]]
+file = "mods/skip-transitions.pw.toml"
+hash = "f907362d33b691fd58a7d05407284c6084a20daf2efb4694fe6c71f0e4820b0a"
 metafile = true
 
 [[files]]
@@ -787,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "removed.txt"
-hash = "b89bff57a0bd8b134cf0d4c5322bc0a5648adf11c865a9b177baace95cef4084"
+hash = "569edd2c0c504b43b5ba862f1c89fd8f94dd80f28b726f0836d4e8be5c20db90"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
