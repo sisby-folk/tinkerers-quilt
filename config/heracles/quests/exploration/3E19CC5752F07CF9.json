@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "30EEC5B4C5178E93"
+  ],
+  "tasks": {},
+  "rewards": {
+    "12F3D951A36D61B1": {
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find an Allay"
+    },
+    "description": [
+      "&lt;h1&gt;Fairy Prisoner&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find an Allay",
+      "&lt;br/&gt;",
+      "&amp;aAllays&amp;r can be found imprisoned in some &amp;2Mansions&amp;r and &amp;2Outposts&amp;r. ",
+      "",
+      "When given any item, Allays follow the player and &amp;dcollect similar dropped items&amp;r, returning them to the player.",
+      "",
+      "If they hear a &amp;3Note Block&amp;r, they&#x27;ll return items there for a little while.",
+      "",
+      "Allays can be duplicated with &amp;eAmethyst Shards&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -160,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Fairy Prisoner"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

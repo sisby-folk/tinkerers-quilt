@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "562B62E5B498DC8C": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3A673F89C721DF64": {
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "67F09C40592B44D1": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "take on the realms' challenges"
+    },
+    "description": [
+      "&lt;h1&gt;Path of the Hero&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "take on the realms&#x27; challenges",
+      "&lt;br/&gt;",
+      "Many &amp;4Great Challenges&amp;r are present in the world, that threaten the &amp;2three dimensions&amp;r.",
+      "",
+      "Face them all and you shall be &amp;drewarded&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:blue_banner",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Path of the Hero"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

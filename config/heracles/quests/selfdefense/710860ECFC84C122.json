@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "0F4FAE3B1041001F"
+  ],
+  "tasks": {
+    "6E56DAE917B8B5AD": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:lingering_potion"
+    }
+  },
+  "rewards": {
+    "33508FE688FE6CFE": {
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "35A2A1542BB7C29B": {
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "361DC853B9E05076": {
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "4BBD5D56918482B0": {
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "34DF6C60CBABBFA0": {
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Lingering Potion"
+    },
+    "description": [
+      "&lt;h1&gt;Rogue&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Lingering Potion",
+      "&lt;br/&gt;",
+      "&amp;3Dragon&#x27;s Breath&amp;r can be &amp;dgathered with bottles&amp;r while fighting the &amp;4Ender Dragon&amp;r.",
+      "",
+      "The &amp;3Lingering Potions&amp;r it brews can &amp;dtip arrows&amp;r, inflicting effects on hit.",
+      "",
+      "An &amp;3off-handed&amp;r bow will &amp;dfire the arrow type in the main hand&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -70,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Rogue"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

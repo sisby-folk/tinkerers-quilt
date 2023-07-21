@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "1989BBAD04C1D853": {
+      "stat": "minecraft:swim_one_cm",
+      "target": 50000,
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "42737083D92865C9": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "300CCD3C108FB644": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Swim 500 Blocks"
+    },
+    "description": [
+      "&lt;h1&gt;Olympic Underwater Highway&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Swim 500 Blocks",
+      "&lt;br/&gt;",
+      "By combining any amount of &amp;3Depth Strider&amp;r boots, &amp;3Soul Speed&amp;r highways, and &amp;3Dolphin&#x27;s Grace&amp;r (granted by &amp;aDolphins&amp;r) - the player can &amp;dswim at unfathomable speeds&amp;r.",
+      "",
+      "By using a renamed &amp;3Name Tag&amp;r on a mob, it gains that custom name. Named mobs &amp;dcan&#x27;t despawn&amp;r, which can help with the population of rare mobs like Dolphins - just pretend you&#x27;re a marine biologist!",
+      "",
+      "&amp;7[Tinkerer&#x27;s Quilt]&amp;r &amp;3Name Tags&amp;r are &amp;dcraftable&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -150,
+          -210
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:tropical_fish_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Olympic Underwater Highway"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

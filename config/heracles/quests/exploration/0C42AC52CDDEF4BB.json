@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "6547EBF566C0E5D9": {
+      "biomes": "minecraft:swamp",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "0D44674F73BC9845": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "2ABF649EA43F4E91": {
+      "item": {
+        "id": "minecraft:ochre_froglight",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Swamp"
+    },
+    "description": [
+      "&lt;h1&gt;Wisdom of Huu&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Swamp",
+      "&lt;br/&gt;",
+      "Signified by patches of land and green water, &amp;2Swamps&amp;r are home to &amp;aFrogs&amp;r, &amp;cSlimes&amp;r, and &amp;3Lily Pads&amp;r.",
+      "",
+      "&amp;3Lily Pads&amp;r can be &amp;dplaced on water&amp;r, and are solid - they can be used to make &amp;dthin decorative water bridges&amp;r.",
+      "",
+      "&amp;cSlimes&amp;r can spawn in swamps at night when the &amp;dmoon is visible&amp;r - most commonly during a full moon.",
+      "",
+      "Orange &amp;aTemperate Frogs&amp;r will produce &amp;eOchre Froglights&amp;r when swallowing small &amp;cMagma Cubes&amp;r.",
+      "",
+      "&amp;7[Carpet]&amp;r Lily Pads are &amp;drenewable&amp;r through using &amp;3Bone Meal&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -200,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Wisdom of Huu"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

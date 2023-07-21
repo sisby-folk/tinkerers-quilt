@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "13A47D4ACD23046E": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": "Apathy, Graves, and Pets"
+    },
+    "description": [
+      "&lt;h1&gt;Difficulty Changes&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Apathy, Graves, and Pets",
+      "&lt;br/&gt;",
+      "&amp;7[Apathy]&amp;r On &amp;3Easy Difficulty&amp;r, mobs &amp;dwill not attack you&amp;r unless you attack them first - including guard mobs and bosses. On Normal and above servers, type &amp;6/apathy set join neutral&amp;r to enable this for just you.",
+      "",
+      "&amp;7[YIGD]&amp;r On death, a &amp;3Grave&amp;r will be placed that &amp;dcontains your items&amp;r. Simply &amp;6Right-Click&amp;r the grave to restore them. When respawning, you&#x27;ll receive a &amp;3Compass&amp;r that points to your grave.",
+      "",
+      "&amp;7[SaveThePets]&amp;r You can&#x27;t accidentally hit your tamed animals like &amp;aHorses&amp;r or &amp;aWolves&amp;r. On death, tamed animals drop a note that, when used on a &amp;3Copper Block&amp;r, will &amp;drevive&amp;r them. ",
+      "",
+      "&amp;7[Pettable]&amp;r Animals can be pet with &amp;6Middle-Click&amp;r to &amp;drestore some health&amp;r.",
+      "",
+      "&amp;7[HorseBuff/Fabrication]&amp;r Saddled &amp;aHorses&amp;r &amp;dwill not wander&amp;r from where they&#x27;re left. &amp;6Sneak+Right-Click&amp;r to unsaddle mobs."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -30,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:structure_void",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Difficulty Changes"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

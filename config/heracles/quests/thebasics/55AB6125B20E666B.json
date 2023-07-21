@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0F468F8A2DD53AD9": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "rewards": {
+    "6AAA5988974BBFC1": {
+      "item": {
+        "id": "minecraft:carved_pumpkin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "0C26DFC36B24FB14": {
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft 12 Eyes of Ender"
+    },
+    "description": [
+      "&lt;h1&gt;Finders Keepers&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft 12 Eyes of Ender",
+      "&lt;br/&gt;",
+      "&amp;3Eyes of Ender&amp;r require &amp;3Blaze Powder&amp;r from the &amp;2Nether&amp;r, and &amp;eEnder Pearls&amp;r - obtained by defeating an &amp;cEnderman&amp;r.",
+      "",
+      "&amp;cEndermen&amp;r hit hard, teleport erratically while attacking, and can &amp;dbecome angered through eye contact&amp;r. They&#x27;re most easily found in the &amp;2Desert&amp;r at night.",
+      "",
+      "A &amp;eCarved Pumpkin&amp;r can be worn to prevent eye contact.",
+      "",
+      "When thrown, an &amp;eEnder Pearl&amp;r will &amp;dteleport the user&amp;r wherever it falls, costing some health.",
+      "",
+      "&amp;7[VanillaTweaks]&amp;r Wearing a carved pumpkin will not obscure your vision."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          170,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Finders Keepers"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

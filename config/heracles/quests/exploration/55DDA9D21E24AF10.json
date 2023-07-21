@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "4C668EE4C88BCB5B": {
+      "structures": "#minecraft:mineshaft",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "3C2CDDC1AECDF2CE": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find an Abandoned Mineshaft"
+    },
+    "description": [
+      "&lt;h1&gt;TRUCK PARTS!!!&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find an Abandoned Mineshaft",
+      "&lt;br/&gt;",
+      "&amp;2Abandoned Mineshafts&amp;r often connect caves, and contain &amp;dMinecarts, Rails, and other loot&amp;r!",
+      "",
+      "Mineshaft hallways can also contain &amp;cCave Spider&amp;r spawners and slowing &amp;3Cobwebs&amp;r. ",
+      "",
+      "&amp;3Chest Minecarts&amp;r contain the most loot - including &amp;dName Tags, Pumpkin and Melon Seeds, and Ore&amp;r!"
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "TRUCK PARTS!!!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

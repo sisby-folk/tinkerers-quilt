@@ -1,0 +1,131 @@
+{
+  "dependencies": [
+    "192BAFDE101F900B"
+  ],
+  "tasks": {
+    "6A13495A82B9D2D1": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:melon_slice"
+    },
+    "4A960FBD73A0DCD5": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:carrot"
+    },
+    "31C19C20A9214A51": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:beetroot"
+    },
+    "77E92354F1DDDFCA": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:sugar_cane"
+    },
+    "0E343560095A48E3": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:wheat_seeds"
+    },
+    "1943791BC82BE452": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:pumpkin"
+    },
+    "0BEB433BA59213DA": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:potato"
+    }
+  },
+  "rewards": {
+    "5D20D49CE7EC008D": {
+      "item": {
+        "id": "minecraft:hay_block",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "52674EC747CC8B56": {
+      "item": {
+        "id": "minecraft:green_banner",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "3644525BA1DA0B7D": {
+      "item": {
+        "id": "minecraft:jack_o_lantern",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "42132307A54F28F3": {
+      "item": {
+        "id": "minecraft:spruce_fence",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "6FB5B7F2B77F76F8": {
+      "item": {
+        "id": "minecraft:birch_slab",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "09A893DF3BDFA974": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Farm every basic crop"
+    },
+    "description": [
+      "&lt;h1&gt;Bases Loaded&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Farm every basic crop",
+      "&lt;br/&gt;",
+      "Farming crops is great for &amp;dmaking Books, Food, and Potions&amp;r. Plus &amp;3Emeralds&amp;r when trading with &amp;aFarmers&amp;r! ",
+      "",
+      "&amp;3Watered farms&amp;r can be made in &amp;dstrips up to 8 blocks wide&amp;r by building channels on either side. ",
+      "",
+      "&amp;3Slabs&amp;r can be placed on the top half of a channel, making it walkable. This is called &amp;3waterlogging&amp;r.",
+      "",
+      "Farms continue &amp;dgrowing overnight&amp;r if they have &amp;3light&amp;r - try making &amp;3decorative scarecrows&amp;r with a &amp;eHay Bale&amp;r body, &amp;eSpruce Fence&amp;r stand, &amp;eJack&#x27;o&#x27;Lantern&amp;r head, and &amp;eBirch Slab&amp;r hat!"
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          20,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:pumpkin",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Bases Loaded"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

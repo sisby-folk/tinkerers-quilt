@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "2AEFE77787E113A3"
+  ],
+  "tasks": {
+    "2903CAD5158DD4B5": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:comparator"
+    }
+  },
+  "rewards": {
+    "383B477AF836D509": {
+      "item": {
+        "id": "minecraft:observer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "11E3CEE7928D92AF": {
+      "item": {
+        "id": "minecraft:daylight_detector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "6270301AFBA65ECA": {
+      "item": {
+        "id": "minecraft:sculk_sensor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Comparator"
+    },
+    "description": [
+      "&lt;h1&gt;Automated Input&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Comparator",
+      "&lt;br/&gt;",
+      "Along with manual inputs, certain things can be observed to &amp;dmake mechanisms activate automatically&amp;r.",
+      "",
+      "The &amp;eComparator&amp;r provides power based on &amp;dspecific information about the block it&#x27;s facing&amp;r - like the fullness of &amp;3Containers&amp;r (0-15), &amp;3Beehives&amp;r (0-5), and &amp;3Cauldrons&amp;r (0-3), &amp;3Item Frame&amp;r rotation (1-8), and &amp;3Respawn Anchor&amp;r charge (0-15).",
+      "",
+      "The &amp;eDaylight Detector&amp;r provides &amp;dpower during the daytime&amp;r, slowly transitioning at dusk and dawn. &amp;6Right-Click&amp;r a daylight detector to invert this, &amp;dproviding power at night&amp;r instead.",
+      "",
+      "The &amp;eObserver&amp;r provides full power &amp;dwhenever the block it&#x27;s facing changes&amp;r - breaking and placing, &amp;3Piston&amp;r movements, &amp;3Containers&amp;r opening, &amp;3Crops&amp;r growing, &amp;3Doors&amp;r opening, and much more.",
+      "",
+      "The &amp;eSculk Sensor&amp;r provides power when it &amp;3senses vibrations&amp;r in an area - including all kinds of sounds."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          260,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Automated Input"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

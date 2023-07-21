@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "47D97349DBC5E67F": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": "Sentimentality and Vegetarianism"
+    },
+    "description": [
+      "&lt;h1&gt;Crafting Rebalance&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Sentimentality and Vegetarianism",
+      "&lt;br/&gt;",
+      "&amp;7[Tinkerer&#x27;s Quilt]&amp;r There are alternative recipes for &amp;dLeather, Slimeballs, and Glow Ink Sacs&amp;r that don&#x27;t require killing their respective mobs. &amp;dArrows&amp;r can also be scavenged from &amp;cskeletons&amp;r.",
+      "",
+      "&amp;7[Fabrication]&amp;r Villagers will &amp;drotate their stock every day&amp;r: You&#x27;re more likely to see special items, but &amp;dcan&#x27;t buy them infinitely&amp;r.",
+      "",
+      "&amp;7[Tinkerer&#x27;s Smithing]&amp;r There are recipes to &amp;dupgrade&amp;r equipment to better materials at the &amp;3Smithing Table&amp;r - or the &amp;3Crafting Table&amp;r for &amp;3unenchanted&amp;r gear.",
+      "",
+      "There are also matching recipes to &amp;drepair&amp;r equipment at the &amp;3Anvil&amp;r or the &amp;3Crafting Table&amp;r, costing no experience or work.",
+      "",
+      "Additionally, equipment that with an &amp;3enchantment&amp;r or a custom name can be &amp;drepaired after it breaks&amp;r",
+      "",
+      "Finally, equipment can be &amp;dde-worked&amp;r one stage using &amp;3Netherite Scrap&amp;r at an &amp;3Anvil&amp;r, making adding enchantments &amp;dcost less experience&amp;r."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          30,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:smithing_table",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Crafting Rebalance"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

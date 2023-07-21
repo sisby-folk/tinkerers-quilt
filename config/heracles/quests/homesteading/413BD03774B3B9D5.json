@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {},
+  "rewards": {
+    "6E76D2404A19CFFE": {
+      "item": {
+        "id": "minecraft:oak_trapdoor",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "0EC6F6EF842B4B5F": {
+      "item": {
+        "id": "minecraft:stone_pressure_plate",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Make a Door"
+    },
+    "description": [
+      "&lt;h1&gt;Speak Friend&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Make a Door",
+      "&lt;br/&gt;",
+      "&amp;3Doors&amp;r can be opened and closed with &amp;7[&amp;r&amp;6Right-Click&amp;r&amp;7]&amp;r, or by &amp;epowering&amp;r them.",
+      "",
+      "On &amp;3hard difficulty&amp;r, &amp;cZombies&amp;r can &amp;dbreak wooden doors&amp;r - Alternative door styles can be used to avoid this.",
+      "",
+      "&amp;7[Couplings]&amp;r Double doors will &amp;dopen at once&amp;r.",
+      "",
+      "&amp;7[Tinkerer&#x27;s Statures]&amp;r Doorways may need to accommodate for taller players. &amp;eTrapdoors&amp;r, &amp;3Fence Gates&amp;r, and inverted &amp;3Stairs&amp;r can be utilized for this."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -20,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Speak Friend"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

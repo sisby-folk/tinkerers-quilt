@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "41C9341CA261E52B"
+  ],
+  "tasks": {
+    "7F5C1B92A8E5D119": {
+      "advancements": [
+        "minecraft:story/obtain_armor"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "52E20E5197263BE5": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Equip a piece of Iron Armor"
+    },
+    "description": [
+      "&lt;h1&gt;MK-1&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Equip a piece of Iron Armor",
+      "&lt;br/&gt;",
+      "&amp;3Armor&amp;r increases your &amp;3defense&amp;r, which &amp;dreduces damage taken&amp;r.",
+      "",
+      "Your &amp;3total defense&amp;r is shown as a meter above your health.",
+      "",
+      "&amp;eFood and Potions&amp;r can provide beneficial &amp;3status effects&amp;r for dangerous situations."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MK-1"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

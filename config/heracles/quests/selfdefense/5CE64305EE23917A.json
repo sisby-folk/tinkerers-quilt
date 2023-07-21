@@ -1,0 +1,119 @@
+{
+  "dependencies": [
+    "42E807C7DFC19EBF"
+  ],
+  "tasks": {
+    "4D378B775FD99873": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:splash_potion"
+    },
+    "6529E7DCE66DE510": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:fishing_rod"
+    },
+    "45B5320B6047A2A3": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "rewards": {
+    "0E7DF24905B9DBAA": {
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "703514C5A7050A38": {
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "190317846E468685": {
+      "item": {
+        "id": "minecraft:tnt",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "7A89AF556DE4C7C8": {
+      "item": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "404C593B0C3F2638": {
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "460FDDDDF317DC48": {
+      "item": {
+        "id": "minecraft:end_crystal",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "1C81447FC4D47B20": {
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Acquire risky materials"
+    },
+    "description": [
+      "&lt;h1&gt;Olak&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Acquire risky materials",
+      "&lt;br/&gt;",
+      "&amp;3Lava Buckets&amp;r are an intense alternative to &amp;3Flint and Steel&amp;r - decimating crowds of unprepared mobs at the cost of their drops.",
+      "",
+      "&amp;3TNT&amp;r and &amp;3Beds&amp;r (outside of &amp;2The Overworld&amp;r) can be used as explosive weaponry. Both deal &amp;dmassive damage&amp;r at risk of damaging &amp;dyou and the terrain&amp;r. ",
+      "",
+      "&amp;3End Crystals&amp;r placed on &amp;3Obsidian&amp;r are an expensive but &amp;deven more effective&amp;r alternative.",
+      "",
+      "&amp;3Splash Potions&amp;r can inflict &amp;3status effects&amp;r on crowds of enemies at once. Just remember - &amp;dHealing damages undead&amp;r, but Harming will heal!",
+      "",
+      "&amp;3Fall Damage&amp;r can be your friend by hooking a mob on a &amp;3Fishing Rod&amp;r from very high above. Large &amp;3Pillars&amp;r or &amp;3Gliding&amp;r can achieve this."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:tnt",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Olak"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

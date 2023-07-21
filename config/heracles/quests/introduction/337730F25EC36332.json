@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "22742977937BA2B1": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7F93E999EA1BDBC4": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Tweak Stuff!"
+    },
+    "description": [
+      "&lt;h1&gt;Pack Configuration&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Tweak Stuff!",
+      "&lt;br/&gt;",
+      "&amp;7[ModMenu]&amp;r Press &amp;7[&amp;r&amp;6ALT+M&amp;r&amp;7]&amp;r to open the mod menu, allowing you to change options for mods in the pack.",
+      "",
+      "&amp;7[Iris]&amp;r Press &amp;7[&amp;r&amp;6ALT+I&amp;r&amp;7]&amp;r to configure &amp;3shaders&amp;r, and &amp;7[&amp;r&amp;6I&amp;r&amp;7]&amp;r to toggle them once configured.",
+      "",
+      "&amp;7[Presence Footsteps]&amp;r Press &amp;7[&amp;r&amp;6ALT+P&amp;r&amp;7]&amp;r to adjust the volume or gait of your footsteps, including number of legs.",
+      "",
+      "&amp;7[LambdaBetterGrass]&amp;r You can change whether &amp;3Grass Blocks&amp;r connect vertically from the &amp;3Better Grass&amp;r mod menu.",
+      "",
+      "&amp;7[Charmonium]&amp;r You can adjust the volume of audio ambience from the &amp;3Charmonium&amp;r mod menu."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -50,
+          69
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:repeating_command_block",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pack Configuration"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

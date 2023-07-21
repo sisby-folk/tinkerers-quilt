@@ -1,0 +1,132 @@
+{
+  "dependencies": [
+    "349E511AA603A620",
+    "68C1E9C446D8A069",
+    "52AC9ECD81435809",
+    "21738CE4F9A8D8ED",
+    "20147B09F8E40DE9",
+    "35AED8D09C7CF638",
+    "023DDA57ED1603C5",
+    "26CD2014C0B206D0",
+    "4FC61BF1949C8BE9",
+    "0CB054935E7926CC",
+    "2BA288C7EE0930DB",
+    "6102768050D4F3E5",
+    "3CF0AC2D4BCAC32A",
+    "694FD9F0D62B459F",
+    "5E4CDD8923AF498D",
+    "7BA5B355C7DFF7E3"
+  ],
+  "tasks": {
+    "4FC35A920EB9938B": {
+      "type": "heracles:check"
+    },
+    "6EE4EB7F7556CC79": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:gold_block"
+    }
+  },
+  "rewards": {
+    "7583A8810BB00121": {
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "2DD2CBCE8531DF64": {
+      "item": {
+        "id": "minecraft:bow",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "1D4362E8C41C383F": {
+      "item": {
+        "id": "minecraft:trident",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "165D9A617B8BA360": {
+      "item": {
+        "id": "minecraft:netherite_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "05F828B8616A9507": {
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "4D16F81AB9FE5B5F": {
+      "item": {
+        "id": "minecraft:crossbow",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "16C9B3A5E3C35A66": {
+      "item": {
+        "id": "minecraft:red_banner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Send monsters back to Hell"
+    },
+    "description": [
+      "&lt;h1&gt;Zagreus&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Send monsters back to Hell",
+      "&lt;br/&gt;",
+      "&amp;o&amp;dInvest in these, they&#x27;ll return the favour.&amp;r&amp;r"
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          90,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:red_nether_bricks",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Zagreus"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

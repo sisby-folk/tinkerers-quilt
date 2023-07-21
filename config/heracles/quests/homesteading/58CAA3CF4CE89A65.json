@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "1233042213A9729E"
+  ],
+  "tasks": {
+    "759F54485E9734BA": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "51D1A2C53843604A": {
+      "command": "/deop @p",
+      "type": "heracles:command"
+    },
+    "58BD55E774BC4DD8": {
+      "command": "/locate biome minecraft:badlands",
+      "type": "heracles:command"
+    },
+    "7D1A0DD72136D14D": {
+      "command": "/op @p",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Glazed Foresight"
+    },
+    "description": [
+      "&lt;h1&gt;Terracotta Builder&#x27;s Pack&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Glazed Foresight",
+      "&lt;br/&gt;",
+      "Derives the co-ordinates of the nearest &amp;2Badlands Biome&amp;r - once. For gathering &amp;3Terracotta&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          130,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:orange_terracotta",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Terracotta Builder's Pack"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

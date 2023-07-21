@@ -1,0 +1,109 @@
+{
+  "dependencies": [
+    "29358767A696B164"
+  ],
+  "tasks": {
+    "1F606E3FDB50CED9": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:dispenser"
+    }
+  },
+  "rewards": {
+    "0616041E8113D26A": {
+      "item": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "658F62BCBC99A1FA": {
+      "item": {
+        "id": "minecraft:stick",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "759706E6D69FE6F8": {
+      "item": {
+        "id": "minecraft:bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "65C59DBDB23F27FA": {
+      "item": {
+        "id": "minecraft:cactus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Dispenser"
+    },
+    "description": [
+      "&lt;h1&gt;Advanced Functional Components&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Dispenser",
+      "&lt;br/&gt;",
+      "When powered, &amp;3Dispensers&amp;r will &amp;dperform a variety of actions&amp;r depending on the item in their first non-empty slot.",
+      "",
+      "Dispensers can:",
+      " - Fire &amp;3Arrows&amp;r/&amp;3Fire Charges&amp;r/&amp;3Fireworks&amp;r",
+      " - Throw all &amp;3throwables&amp;r",
+      " - Ignite and drop &amp;3TNT&amp;r straight down",
+      " - Use &amp;3Flint and Steel&amp;r",
+      " - Use empty and filled &amp;eBuckets&amp;r",
+      " - Place &amp;3Boats&amp;r and &amp;3Minecarts&amp;r",
+      " - Place &amp;3Shulker Boxes&amp;r",
+      " - Equip &amp;3Armor&amp;r or &amp;3Saddles&amp;r",
+      " - Complete &amp;aGolems&amp;r and &amp;cWithers&amp;r",
+      " - &amp;eShear&amp;r &amp;3Beehives&amp;r and &amp;aSheep&amp;r",
+      " - Bottle &amp;3Honey&amp;r and &amp;3Water&amp;r",
+      " - Use &amp;3Bone Meal&amp;r on &amp;3crops&amp;r",
+      " - Charge &amp;3Respawn Anchors&amp;r",
+      "",
+      "&amp;7[Carpet]&amp;r Dispensers can also:",
+      " - Place blocks",
+      " - (&amp;eCactus&amp;r) Rotate blocks ",
+      " - Carve &amp;3Pumpkins&amp;r",
+      " - Feed animals",
+      " - Add &amp;3Chests&amp;r/etc to &amp;3Minecarts&amp;r",
+      " - Milk animals",
+      " - Pot plants",
+      " - Play a &amp;3Music Disc&amp;r at a &amp;3Jukebox&amp;r",
+      " - Till &amp;3Soil&amp;r",
+      " - Strip &amp;3Logs&amp;r and &amp;3Copper Blocks&amp;r",
+      " - Fill and empty &amp;3Cauldrons&amp;r",
+      " - (&amp;eStick&amp;r) Toggle things - &amp;3Buttons&amp;r, &amp;3Note Blocks&amp;r, &amp;3Comparators&amp;r, &amp;3Repeaters&amp;r...",
+      "",
+      "The dispenser is very powerful! &amp;dgive it a try ^^&amp;r"
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          260,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Advanced Functional Components"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

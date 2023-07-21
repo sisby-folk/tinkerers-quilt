@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "19B47DDA285B5750": {
+      "structures": "minecraft:pillager_outpost",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "3167F3EE675CA950": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find an Outpost"
+    },
+    "description": [
+      "&lt;h1&gt;Wrong Neighbourhood&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find an Outpost",
+      "&lt;br/&gt;",
+      "&amp;2Outposts&amp;r are structures defended by many &amp;3Crossbow&amp;r-wielding &amp;cPillagers&amp;r.",
+      "",
+      "Killing a &amp;3Banner&amp;r-bearing &amp;cCaptain Pillager&amp;r inflicts &amp;3Bad Omen&amp;r, initiating a &amp;4Raid&amp;r at the next village visited unless cleansed.",
+      "",
+      "Basic loot and &amp;3Goat Horns&amp;r can be found here."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -160,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:spruce_stairs",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wrong Neighbourhood"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

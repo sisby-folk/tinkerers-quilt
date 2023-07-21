@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "11D4F63B25BA830B": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:vine"
+    },
+    "3CFC2F1F445CC8ED": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": "Farm 32 Vines"
+    },
+    "description": [
+      "&lt;h1&gt;Vine Farming&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Farm 32 Vines",
+      "&lt;br/&gt;",
+      "&amp;3Vines&amp;r will &amp;dgrow downwards&amp;r if unobstructed, and harvested using &amp;3Shears&amp;r.",
+      "",
+      "They&#x27;re useful for climbing and decoration.",
+      "",
+      "&amp;7[Tinkerer&#x27;s Quilt]&amp;r Vines can be crafted into &amp;3Slimeballs&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          60,
+          -330
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:vine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Vine Farming"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

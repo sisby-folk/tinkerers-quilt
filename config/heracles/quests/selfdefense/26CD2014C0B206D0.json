@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "3FB71FB6BCA65B96": {
+      "entity": {
+        "type": "minecraft:wither_skeleton"
+      },
+      "amount": 6,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "76D951FE99BF0C42": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 6 Wither Skeletons"
+    },
+    "description": [
+      "&lt;h1&gt;Come Hither&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 6 Wither Skeletons",
+      "&lt;br/&gt;",
+      "In a &amp;2Nether Fortress&amp;r, a swift death may be delivered by &amp;cWither Skeletons&amp;r; sword-wielders that inflict &amp;3Wither&amp;r - which is a bit like &amp;3Poison&amp;r except &amp;dpoison can&#x27;t kill players&amp;r!",
+      "",
+      "Not getting hit requires &amp;dprecise knockback timing&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          50,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Come Hither"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

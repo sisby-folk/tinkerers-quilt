@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "41C9341CA261E52B"
+  ],
+  "tasks": {},
+  "rewards": {
+    "0072CA8B14AD480A": {
+      "item": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft every Tool"
+    },
+    "description": [
+      "&lt;h1&gt;Bag of Tricks&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft every Tool",
+      "&lt;br/&gt;",
+      "Most blocks have a &amp;3preferred tool&amp;r that breaks them the fastest.",
+      "",
+      "&amp;3Axes&amp;r break &amp;3Wood&amp;r, including logs, planks, and most furniture.",
+      "",
+      "&amp;3Shovels&amp;r break &amp;3Dirt&amp;r, &amp;3Sand&amp;r, &amp;3Clay&amp;r, &amp;3Snow&amp;r, and similar groundcover.",
+      "",
+      "&amp;3Swords&amp;r break &amp;3Cobwebs&amp;r and &amp;3Bamboo&amp;r.",
+      "",
+      "&amp;3Hoes&amp;r break &amp;3Hay Bales&amp;r, &amp;3Leaves&amp;r, &amp;3Moss&amp;r, and &amp;3Fungi&amp;r.",
+      "",
+      "&amp;3Pickaxes&amp;r break most &quot;hard&quot; blocks, including anything stone or metal. When broken with any other tool, many of these are &amp;ddestroyed&amp;r.",
+      "",
+      "&amp;eShears&amp;r can be used to collect fragile blocks like plants and cobwebs."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          60,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:iron_shovel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Bag of Tricks"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

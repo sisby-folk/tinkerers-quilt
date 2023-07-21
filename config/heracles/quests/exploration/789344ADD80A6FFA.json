@@ -1,0 +1,53 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6B61580BF4D462A5": {
+      "stat": "minecraft:sprint_one_cm",
+      "target": 50000,
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "184E8B07DD980340": {
+      "item": {
+        "id": "minecraft:compass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Walk 500 Blocks"
+    },
+    "description": [
+      "&lt;h1&gt;Leaping Lateral [Naturalist]&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Walk 500 Blocks",
+      "&lt;br/&gt;",
+      "A &amp;3Compass&amp;r visually points towards the &amp;2Overworld Spawn&amp;r &amp;7(X:0 Z:0)&amp;r. ",
+      "",
+      "This can help you return to a familiar location if you get lost."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -190,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Leaping Lateral [Naturalist]"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "36FE4BD5E967A888": {
+      "entity": {
+        "type": "minecraft:creeper"
+      },
+      "amount": 15,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "448CCDD562B9DE27": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "2FF00C331F6E4A3C": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 15 Creepers"
+    },
+    "description": [
+      "&lt;h1&gt;Aw man&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 15 Creepers",
+      "&lt;br/&gt;",
+      "The self-destructing explosions from a &amp;cCreeper&amp;r can pack a punch! ",
+      "",
+      "Creepers are easiest taken out &amp;dfrom a distance&amp;r, or by &amp;emaking distance&amp;r after each hit.",
+      "",
+      "Creepers are the best source of &amp;3Gunpowder&amp;r, which is invaluable for &amp;dTNT and Fireworks&amp;r.",
+      "",
+      "&amp;3TNT&amp;r can be primed with &amp;3Flint and Steel&amp;r or via &amp;3Mechanism&amp;r, causing it to blink before &amp;3exploding&amp;r - breaking blocks in a large area.",
+      "",
+      "You can make an area &amp;dspawn only Creepers&amp;r by creating a &amp;22x2 tunnel&amp;r with a roof lined with &amp;3Trapdoors&amp;r.",
+      "",
+      "&amp;7[Fabrication]&amp;r Creeper explosions &amp;dcan&#x27;t break blocks&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -10,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Aw man"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

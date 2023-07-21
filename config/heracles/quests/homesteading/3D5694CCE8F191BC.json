@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "7AA799B6789ABD71"
+  ],
+  "tasks": {
+    "7051C5FC93FAC3C0": {
+      "stat": "minecraft:horse_one_cm",
+      "target": 500000,
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "0DEF357A8093D66F": {
+      "item": {
+        "id": "minecraft:golden_carrot",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Travel far by Horse"
+    },
+    "description": [
+      "&lt;h1&gt;Thorough&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Travel far by Horse",
+      "&lt;br/&gt;",
+      "&amp;aHorses&amp;r have three &amp;3statistics&amp;r - &amp;3health&amp;r, &amp;3jump height&amp;r, and &amp;3speed&amp;r.",
+      "",
+      "&amp;3Breeding&amp;r horses can create &amp;dhorses with better stats&amp;r, which requires feeding two horses &amp;eGolden Carrots&amp;r or &amp;3Golden Apples&amp;r.",
+      "",
+      "&amp;aDonkeys&amp;r are similar to horses but can &amp;dcarry chests&amp;r. While slower then horses, the two can be bred to create an infertile &amp;aMule&amp;r with improved stats.",
+      "",
+      "&amp;7[WTHIT]&amp;r The &amp;dspeed and jump height&amp;r of a horse can be viewed by holding &amp;7[&amp;r&amp;6ALT&amp;r&amp;7]&amp;r",
+      "",
+      "&amp;7[HorseBuff]&amp;r Horses/Mules will have stats around the &amp;3average of their parents&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -140,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:diamond_horse_armor",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Thorough"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

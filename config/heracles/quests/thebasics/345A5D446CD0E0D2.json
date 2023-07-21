@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "2803B3AF9D4E64A3"
+  ],
+  "tasks": {
+    "45538435550F3E5E": {
+      "block": "minecraft:end_portal",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "3C92DF27111BD7E9": {
+      "item": {
+        "id": "minecraft:golden_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Activate an End Portal"
+    },
+    "description": [
+      "&lt;h1&gt;Where are the Hot Dra-oh&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Activate an End Portal",
+      "&lt;br/&gt;",
+      "&amp;2The End&amp;r consists of islands floating in the &amp;3void&amp;r, where falling is very dangerous.",
+      "",
+      "You spawn at the &amp;2Central Island&amp;r, where the &amp;4Ender Dragon&amp;r guards the &amp;2Return Portal&amp;r and &amp;2End Gateway&amp;r.",
+      "",
+      "&amp;7[Fabrication]&amp;r Falling into the void instead &amp;dreturns you&amp;r to where you fell, dealing high damage.",
+      "",
+      "&amp;7[Apathy]&amp;r The central &amp;2Return Portal&amp;r and &amp;2End Gateway&amp;r are active without defeating the Ender Dragon."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          170,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:end_portal_frame",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Where are the Hot Dra-oh"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

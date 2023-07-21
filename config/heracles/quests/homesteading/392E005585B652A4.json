@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "7A605FF99394FAAE": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:respawn_anchor"
+    }
+  },
+  "rewards": {
+    "065134E7CCC364F3": {
+      "item": {
+        "id": "minecraft:glowstone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "3E2FBE9ED10CF886": {
+      "item": {
+        "id": "minecraft:warped_slab",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Respawn Anchor"
+    },
+    "description": [
+      "&lt;h1&gt;Stay Feisty, Hellspawn&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Respawn Anchor",
+      "&lt;br/&gt;",
+      "A &amp;3Respawn Anchor&amp;r allows you to create a &amp;dhome in the nether&amp;r. ",
+      "",
+      "By placing it and &amp;3charging&amp;r it with &amp;3Glowstone Blocks&amp;r, you&#x27;ll respawn there.",
+      "",
+      "&amp;2Warped forests&amp;r are &amp;dsafe havens for base building&amp;r - only &amp;cEndermen&amp;r can spawn there.",
+      "",
+      "&amp;3Lights&amp;r don&#x27;t prevent mob spawning in the nether, but &amp;eHalf Slabs&amp;r do - stay safe out there!"
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -40,
+          -270
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Stay Feisty, Hellspawn"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

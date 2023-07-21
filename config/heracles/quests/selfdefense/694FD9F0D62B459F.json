@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "779F514660FF7C50": {
+      "entity": {
+        "type": "minecraft:guardian"
+      },
+      "amount": 4,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "4D4C3E79E74474D0": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 4 Guardians"
+    },
+    "description": [
+      "&lt;h1&gt;Hostile Architecture&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 4 Guardians",
+      "&lt;br/&gt;",
+      "Surrounding &amp;2Ocean Monuments&amp;r are &amp;cGuardians&amp;r, which fire &amp;dunblockable, undodgeable lasers&amp;r.",
+      "",
+      "Guardians must be taken out with a loyal &amp;3Trident&amp;r, or &amp;3rushed&amp;r - but beware! When a Guardian&#x27;s &amp;3spikes&amp;r are extended, damage is &amp;dreflected to attackers&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          20,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:prismarine_bricks",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Hostile Architecture"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

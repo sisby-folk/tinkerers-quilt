@@ -1,0 +1,102 @@
+{
+  "dependencies": [
+    "7164FFFB3AFAFEF3",
+    "03CF663BF52022CB",
+    "1E92A6BE31198EF3",
+    "52E05DC7ED68C824"
+  ],
+  "tasks": {
+    "2739CE44EC749396": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "05CA8ACF859674AA": {
+      "item": {
+        "id": "minecraft:sculk_sensor",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "1C13B73B235357E9": {
+      "item": {
+        "id": "minecraft:slime_block",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "0B58257D7FB203A7": {
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "7F031284957C81EE": {
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "03A9AC11B72065CF": {
+      "item": {
+        "id": "minecraft:black_banner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "5292D4AF7705340C": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "2ECE07CDA1C0B837": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 256
+      },
+      "type": "heracles:item"
+    },
+    "2C27467EDAE5BE86": {
+      "item": {
+        "id": "minecraft:piston",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Forge great machines"
+    },
+    "description": [
+      "&lt;h1&gt;Hephaestus&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Forge great machines",
+      "&lt;br/&gt;"
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          300,
+          -230
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:redstone_block",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Hephaestus"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "18D4E5CF52B9AE80": {
+      "structures": "minecraft:village_desert",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "5BEC5A1C8696533D": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "54E9913FE63FDEAD": {
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Visit a Desert Village"
+    },
+    "description": [
+      "&lt;h1&gt;Send Stones&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Visit a Desert Village",
+      "&lt;br/&gt;",
+      "&amp;aVillagers&amp;r are often attacked by &amp;cZombies&amp;r, who can &amp;3Zombify&amp;r them on harder difficulties. &amp;cZombified Villagers&amp;r can also spawn naturally.",
+      "",
+      "A &amp;cZombie Villager&amp;r that is &amp;eweakened&amp;r and fed a &amp;eGolden Apple&amp;r will slowly become cured - Careful, they can still &amp;3burn in daylight&amp;r while this happens!",
+      "",
+      "Cured villagers offer the player &amp;ddiscounted trade prices&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -210,
+          -190
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Send Stones"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

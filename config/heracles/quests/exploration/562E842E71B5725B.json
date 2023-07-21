@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "10CFFE20ABD36803"
+  ],
+  "tasks": {
+    "1A15F24B8D29BF11": {
+      "structures": "minecraft:ancient_city",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "68238F218B413962": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "58CDEF403BDAA4A6": {
+      "item": {
+        "id": "minecraft:snowball",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find an Ancient City"
+    },
+    "description": [
+      "&lt;h1&gt;Forgotten Depths&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find an Ancient City",
+      "&lt;br/&gt;",
+      "&amp;2Ancient Cities&amp;r are full of &amp;chostile vibration-sensing organisms&amp;r, and &amp;drare loot&amp;r.",
+      "",
+      "&amp;3Sculk Sensors&amp;r are able to detect vibrations, including walking and &amp;dinteracting with blocks and items&amp;r.",
+      "",
+      "They trigger &amp;3Sculk Shriekers&amp;r, which spawn &amp;cWardens&amp;r.",
+      "",
+      "&amp;cWardens&amp;r are large, &amp;3near-unkillable&amp;r monsters that can &amp;dblind players and deal high damage&amp;r. ",
+      "",
+      "However, their vision is &amp;dbased on vibrations&amp;r - &amp;eSnowballs&amp;r can be used to distract them.",
+      "",
+      "&amp;7[Tinkerer&#x27;s Quilt]&amp;r &amp;cWardens&amp;r do not spawn. This can be changed via &amp;6/gamerule doWardenSpawning true&amp;r.",
+      "",
+      "&amp;7[Apathy]&amp;r On &amp;3easy difficulty&amp;r, &amp;cWardens&amp;r won&#x27;t target the player, and won&#x27;t apply blindness when provoked."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -190,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Forgotten Depths"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

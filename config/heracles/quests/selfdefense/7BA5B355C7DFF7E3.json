@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "577F61C1ABAF56B6": {
+      "entity": {
+        "type": "minecraft:spider"
+      },
+      "amount": 30,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "547DB984D373B91B": {
+      "item": {
+        "id": "minecraft:white_glazed_terracotta",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "6792DDBF86C7A648": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 30 Spiders"
+    },
+    "description": [
+      "&lt;h1&gt;Eye of the Spider&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 30 Spiders",
+      "&lt;br/&gt;",
+      "By climbing, &amp;cSpiders&amp;r can overcome most obstacles and walls. Adding an &amp;3overhang&amp;r to any defensive wall can prevent this.",
+      "",
+      "&amp;7[Fabrication]&amp;r Spiders can&#x27;t climb &amp;3Glazed Terracotta&amp;r, or when they&#x27;re wet from water or &amp;dSplash Water Bottles&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -10,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:string",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Eye of the Spider"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "4D3BB7698E3126D7": {
+      "entity": {
+        "type": "minecraft:blaze"
+      },
+      "amount": 15,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "118C5144B9A873E3": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 15 Blazes"
+    },
+    "description": [
+      "&lt;h1&gt;405 too few i guess&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 15 Blazes",
+      "&lt;br/&gt;",
+      "Floating around &amp;2Nether Fortresses&amp;r, &amp;cBlazes&amp;r come in packs and emerge from spawners - spitting fire in small bursts then &amp;dstopping to recharge&amp;r - that&#x27;s your chance!"
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          70,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "405 too few i guess"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

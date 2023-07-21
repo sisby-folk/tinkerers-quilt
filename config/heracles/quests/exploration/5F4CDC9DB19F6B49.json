@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "47ED4204DD0D65C4",
+    "4B74AEAA4D30B428"
+  ],
+  "tasks": {
+    "734C2555CE2C2618": {
+      "structures": "minecraft:jungle_pyramid",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "3EA710567373A797": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "1F204BD684E29A2D": {
+      "item": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Jungle Temple"
+    },
+    "description": [
+      "&lt;h1&gt;Come and have a go&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Jungle Temple",
+      "&lt;br/&gt;",
+      "&amp;2Jungle Temples&amp;r contain &amp;3Tripwire&amp;r-&amp;3Dispenser&amp;r dart traps and &amp;dvaluable loot&amp;r.",
+      "",
+      "&amp;3Tripwire&amp;r traps can only be safely dismantled using &amp;eShears&amp;r.",
+      "",
+      "Some loot is revealed by a &amp;3Lever&amp;r puzzle, but nothing stops you from &amp;dbreaking in instead&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -250,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:mossy_cobblestone",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Come and have a go"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

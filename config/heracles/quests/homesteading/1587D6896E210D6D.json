@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "68BCEE273A77F4DA",
+    "0FC2E6F08F772324",
+    "2D74603197C7629C",
+    "6E20F24C33A627DC",
+    "4E2B415A2E99BCF6",
+    "5BF7F408031029E9",
+    "1254376D14A00E56",
+    "54AA1BD5E8241369",
+    "531358BD1C258F99",
+    "74001D2726E7133D"
+  ],
+  "tasks": {
+    "39DC4F3432624CFD": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "30817A1DB77C9DFD": {
+      "item": {
+        "id": "minecraft:wooden_hoe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "4BBCD767172D1A8B": {
+      "item": {
+        "id": "minecraft:black_banner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Keep the world renewed"
+    },
+    "description": [
+      "&lt;h1&gt;Gaia&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Keep the world renewed",
+      "&lt;br/&gt;"
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          50,
+          -370
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:fern",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Gaia"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

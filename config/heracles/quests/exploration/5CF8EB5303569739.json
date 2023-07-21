@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "09796221B64CFFF4": {
+      "structures": "minecraft:desert_pyramid",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "122D1702C9C1C756": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Desert Temple"
+    },
+    "description": [
+      "&lt;h1&gt;Hur-Ra!&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Desert Temple",
+      "&lt;br/&gt;",
+      "&amp;2Desert Temples&amp;r contain a &amp;3TNT&amp;r-&amp;3Pressure Plate&amp;r pit trap with &amp;dloot chests&amp;r inside.",
+      "",
+      "A pattern adorns the centre of the centre of the temple, concealing the pit. By &amp;dbreaking the centre blocks without standing on them&amp;r, the pit can be revealed.",
+      "",
+      "The explosive pressure plate is visible in the centre of the pit. After &amp;dmining downwards to reach the bottom&amp;r, the pressure plate can be broken to defuse the trap.",
+      "",
+      "The &amp;3Chests&amp;r and &amp;3TNT&amp;r can then both be taken."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -220,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:chiseled_sandstone",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Hur-Ra!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

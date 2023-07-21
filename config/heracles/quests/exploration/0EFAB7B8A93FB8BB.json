@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "3619EC0F75E5445E": {
+      "biomes": "minecraft:mushroom_fields",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "66838A1862390F74": {
+      "item": {
+        "id": "minecraft:lightning_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "38435BB389EA5DFE": {
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "4ABAEFED9CFFDCDD": {
+      "item": {
+        "id": "minecraft:bowl",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "4646433CE89F2129": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "077A190E67F93F56": {
+      "item": {
+        "id": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Mushroom Island"
+    },
+    "description": [
+      "&lt;h1&gt;Fungal Wastes&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Mushroom Island",
+      "&lt;br/&gt;",
+      "&amp;3Giant Mushrooms&amp;r and &amp;aMooshrooms&amp;r are plentiful on the &amp;3Mycelium&amp;r-clad &amp;2Mushroom Islands&amp;r.",
+      "",
+      "&amp;3Mycelium&amp;r spreads to nearby grass, and allows &amp;dmushrooms to be planted at any light level&amp;r.",
+      "",
+      "&amp;aMooshrooms&amp;r are a bright-red variant of &amp;aCows&amp;r that can fill &amp;dbuckets with milk&amp;r and &amp;dbowls with mushroom stew&amp;r.",
+      "",
+      "When struck by &amp;eLightning&amp;r in a &amp;3thunderstorm&amp;r, they become &amp;aBrown Mooshrooms&amp;r, which produce &amp;3Suspicious Stew&amp;r with hidden effects based on the &amp;eFlower&amp;r they&#x27;re fed."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -160,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Fungal Wastes"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

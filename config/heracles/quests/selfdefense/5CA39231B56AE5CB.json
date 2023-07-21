@@ -1,0 +1,46 @@
+{
+  "dependencies": [
+    "4FE0BE6BF0009C4E"
+  ],
+  "tasks": {
+    "42F460492A4ACDC4": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:nether_star"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": "Overcome the Wither"
+    },
+    "description": [
+      "&lt;h1&gt;Undertaker&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Overcome the Wither",
+      "&lt;br/&gt;",
+      "&amp;7(See Basics: Nether)&amp;r"
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -70,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Undertaker"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

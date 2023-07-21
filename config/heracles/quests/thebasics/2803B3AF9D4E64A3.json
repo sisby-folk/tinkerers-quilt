@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "55AB6125B20E666B"
+  ],
+  "tasks": {
+    "546CEA05C1DFDE9B": {
+      "structures": "minecraft:stronghold",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "3D420BECFE373EFA": {
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "5F4C65875DC43F7B": {
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Stronghold"
+    },
+    "description": [
+      "&lt;h1&gt;Geometry Dash&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Stronghold",
+      "&lt;br/&gt;",
+      "To reach &amp;2The End&amp;r, you first must locate a &amp;2Stronghold&amp;r, an underground fortress made of &amp;3Stone Brick&amp;r.",
+      "",
+      "A thrown &amp;3Eye of Ender&amp;r will slowly drift towards the nearest &amp;2Stronghold&amp;r, with a chance of being consumed.",
+      "",
+      "The &amp;2End Portal&amp;r inside is incomplete, and up to 12 &amp;3Eye of Ender&amp;r must be inserted to &amp;dactivate&amp;r it."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          170,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Geometry Dash"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

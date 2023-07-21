@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "6A706B67651B7F1D": {
+      "biomes": "minecraft:badlands",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "778D3D7F93D43770": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Badlands"
+    },
+    "description": [
+      "&lt;h1&gt;Plenty big for both of us&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Badlands",
+      "&lt;br/&gt;",
+      "&amp;2Badlands&amp;r are the main source of &amp;3Terracotta&amp;r, which can be crafted into &amp;dmany decorative blocks&amp;r.",
+      "",
+      "Their &amp;2Mineshafts&amp;r reach high up to the surface, and are &amp;drich with Gold Ore&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -100,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Plenty big for both of us"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

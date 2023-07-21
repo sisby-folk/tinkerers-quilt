@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {},
+  "rewards": {
+    "2E45BCED40DE4980": {
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Become a Tree Farmer"
+    },
+    "description": [
+      "&lt;h1&gt;Forestry&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Become a Tree Farmer",
+      "&lt;br/&gt;",
+      "&amp;3Tree farming&amp;r provides sustainable wood, compostable saplings, and apples.",
+      "",
+      "A &amp;eFortune-enchanted Hoe&amp;r can collect many apples from oak tree leaves."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          50,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:oak_sapling",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Forestry"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

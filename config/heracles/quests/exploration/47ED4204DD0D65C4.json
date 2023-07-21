@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "318791BA274D0278": {
+      "stat": "minecraft:jump",
+      "target": 75,
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "05B359937A79F3EF": {
+      "item": {
+        "id": "minecraft:hay_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Jump 75 Times"
+    },
+    "description": [
+      "&lt;h1&gt;Vying Vertical [Sightseer]&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Jump 75 Times",
+      "&lt;br/&gt;",
+      "&amp;eHay Bales&amp;r can &amp;dbreak high falls&amp;r, or instead be used for &amp;3Bread&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -190,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Vying Vertical [Sightseer]"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "61C1C9ADFC09F727": {
+      "stat": "minecraft:horse_one_cm",
+      "target": 5000,
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "610567D311799E3F": {
+      "item": {
+        "id": "minecraft:leather_horse_armor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "681402F43E21EDA4": {
+      "item": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Saddle and ride a Horse"
+    },
+    "description": [
+      "&lt;h1&gt;Yeehaw&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Saddle and ride a Horse",
+      "&lt;br/&gt;",
+      "&amp;aHorses&amp;r are some of the simplest forms of &amp;dimproved transport&amp;r. ",
+      "",
+      "A &amp;aHorse&amp;r must first be broken in by &amp;3trying to ride it until it calms&amp;r. Then saddle it with &amp;7[&amp;r&amp;6Sneak+Right-Click&amp;r&amp;7]&amp;r.",
+      "",
+      "Horses can also equip &amp;3Horse Armor&amp;r (including dyed leather armor!) to &amp;dimprove their survivability&amp;r. Just try not to get one stuck in terrain!",
+      "",
+      "&amp;aPigs&amp;r can also be &amp;dridden using saddles&amp;r, and a &amp;3Carrot on a Stick&amp;r can lead them.",
+      "",
+      "&amp;7[Dual Ride]&amp;r Horses can also seat a &amp;dpassenger&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -130,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Yeehaw"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

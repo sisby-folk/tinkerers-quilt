@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "2180A88C978A8C70": {
+      "biomes": "minecraft:crimson_forest",
+      "type": "heracles:biome"
+    },
+    "235FD333274DE457": {
+      "biomes": "minecraft:warped_forest",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "1A886DF1D1C3675E": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "1007B8702881D9D9": {
+      "item": {
+        "id": "minecraft:music_disc_pigstep",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find both Nether Forests"
+    },
+    "description": [
+      "&lt;h1&gt;Red Vs Blue&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find both Nether Forests",
+      "&lt;br/&gt;",
+      "The two &amp;2Nether Forests&amp;r are home to unique &amp;3Wood Types&amp;r and &amp;3Fungus&amp;r.",
+      "",
+      "&amp;2Warped Forests&amp;r are a &amp;dvery safe biome&amp;r - spawning only &amp;cEndermen&amp;r.",
+      "",
+      "&amp;2Crimson Forests&amp;r are more dangerous, housing &amp;cPiglins&amp;r and &amp;cHoglins&amp;r.",
+      "",
+      "&amp;3Nether Wood Types&amp;r are &amp;dcompletely non-flammable&amp;r.",
+      "",
+      "&amp;3Warped Fungus&amp;r can be put on a &amp;3Fishing Rod&amp;r to ride saddled &amp;aStriders&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -130,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:warped_nylium",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Red Vs Blue"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

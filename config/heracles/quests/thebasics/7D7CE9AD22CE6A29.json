@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "71B31B0EAE8DCD3D"
+  ],
+  "tasks": {
+    "1E03C0456495EB2B": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:nether_star"
+    }
+  },
+  "rewards": {
+    "598DAB4227729FA0": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "5B4342A1AACA2637": {
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "59F754265F0F8A3C": {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Receive a Nether Star"
+    },
+    "description": [
+      "&lt;h1&gt;I am a Comet&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Receive a Nether Star",
+      "&lt;br/&gt;",
+      "A &amp;3Nether Star&amp;r can be obtained by completing the &amp;4Wither&amp;r ritual. It&#x27;s used to create a &amp;3Beacon&amp;r that provides a &amp;dpermanent status effect&amp;r in a radius. ",
+      "",
+      "To function, &amp;3Beacons&amp;r must be placed on top of a 3x3 flat square of &amp;3Iron, Gold, Diamond, Emerald, or Netherite Blocks&amp;r.",
+      "",
+      "Further layers can be added below the pyramid to &amp;dimprove the beacon&amp;r - 5x5, then 7x7, etc.",
+      "",
+      "&amp;7[Tinkerer&#x27;s Quilt]&amp;r &amp;eCopper Blocks&amp;r can also be used for pyramids, as long as they&#x27;re &amp;3kept clean&amp;r using an &amp;3Axe&amp;r."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          130,
+          70
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "I am a Comet"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

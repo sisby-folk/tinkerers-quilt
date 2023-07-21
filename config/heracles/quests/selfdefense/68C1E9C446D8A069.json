@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "1D2880C0A22B3902": {
+      "entity": {
+        "type": "minecraft:shulker"
+      },
+      "amount": 5,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "1466E7DFFE8CE159": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 5 Shulkers"
+    },
+    "description": [
+      "&lt;h1&gt;You LOSE. Good DAY sir.&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 5 Shulkers",
+      "&lt;br/&gt;",
+      "&amp;2End Cities&amp;r are guarded by &amp;cShulkers&amp;r, which shoot homing bolts that inflict &amp;3Levitation&amp;r. ",
+      "",
+      "The projectiles can be &amp;3blocked&amp;r or &amp;3attacked&amp;r to &amp;ddispel them&amp;r.",
+      "",
+      "If you&#x27;re hit, careful navigation or throwing &amp;3Ender Pearls&amp;r can help &amp;davoid fall damage&amp;r from levitation.",
+      "",
+      "When Shulkers close their shells, they gain high &amp;3defense&amp;r. ",
+      "",
+      "Shulkers do not respawn naturally, but if &amp;3hit by a a shulker bolt&amp;r, a Shulker might &amp;dmultiply&amp;r.",
+      "",
+      "&amp;7[Carpet]&amp;r Chorus Fruit &amp;dcompletely cancels fall damage&amp;r on grounding."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          60,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "You LOSE. Good DAY sir."
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "3079DAC3AB1B0AD9"
+  ],
+  "tasks": {},
+  "rewards": {
+    "70202BB1A11D57BC": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find a Nether Fortress"
+    },
+    "description": [
+      "&lt;h1&gt;Stairway to Hell&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find a Nether Fortress",
+      "&lt;br/&gt;",
+      "A &amp;2Nether Fortress&amp;r can be identified by its large &amp;3Nether Brick&amp;r bridges. ",
+      "",
+      "It contains unique enemies like &amp;cBlazes&amp;r and &amp;cWither Skeletons&amp;r, along with inner keeps containing &amp;dchests of loot&amp;r.",
+      "",
+      "&amp;eFire Resistance&amp;r can &amp;dprotect you from all heat damage&amp;r, including from touching lava."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          110,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Stairway to Hell"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

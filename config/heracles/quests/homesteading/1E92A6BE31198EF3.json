@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "657AC96A28C41511"
+  ],
+  "tasks": {
+    "542BBAFBD01800E0": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:redstone_torch"
+    },
+    "2AEADB626546F10B": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:comparator"
+    }
+  },
+  "rewards": {
+    "2E86378A10DF29F5": {
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "4A83DE2B32FDFFBE": {
+      "item": {
+        "id": "minecraft:piston",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "177EC598C2DE7388": {
+      "item": {
+        "id": "minecraft:slime_block",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Torch and Comparator"
+    },
+    "description": [
+      "&lt;h1&gt;Logic&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Torch and Comparator",
+      "&lt;br/&gt;",
+      "Redstone signals can be &amp;dinverted&amp;r using &amp;3Redstone Torches&amp;r. While the block a redstone torch is &amp;3attached to&amp;r is &amp;3powered&amp;r, the &amp;dtorch will turn off&amp;r.",
+      "",
+      "&amp;3Repeaters&amp;r can be &amp;3locked&amp;r by &amp;3strongly powering&amp;r them from the side, &amp;dholding their output state&amp;r.",
+      "",
+      "With an &amp;3input&amp;r and &amp;3side&amp;r signal, &amp;3Comparators&amp;r will &amp;donly output power&amp;r when the &amp;3input&amp;r has the higher &amp;3power level&amp;r.",
+      "",
+      "When toggled with &amp;6Right-Click&amp;r, a &amp;3Comparator&amp;r will subtract the highest &amp;3side power level&amp;r from the &amp;3input power level&amp;r.",
+      "",
+      "&amp;ePistons&amp;r with &amp;eRedstone&amp;r or other blocks can be used and collided to create &amp;dbasic blocking/locking logic&amp;r.",
+      "",
+      "These elements can be combined to create &amp;dredstone logic&amp;r (e.g. &amp;3AND&amp;r and &amp;3OR&amp;r gates), which can provide &amp;dcomplex control for advanced mechanisms&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          260,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:repeater",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Logic"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

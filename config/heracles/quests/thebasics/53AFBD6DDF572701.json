@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {
+    "7DE872D39C3E7272": {
+      "item": {
+        "id": "minecraft:stone_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Wooden Pickaxe"
+    },
+    "description": [
+      "&lt;h1&gt;Recipe Chim-Cheri&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Wooden Pickaxe",
+      "&lt;br/&gt;",
+      "A &amp;3Wooden Pickaxe&amp;r can be made using material from &amp;3Trees&amp;r at a &amp;3Crafting Table&amp;r.",
+      "",
+      "&amp;7[EMI]&amp;r You can &amp;dlook up recipes for both any time&amp;r in the search box!"
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          30,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:crafting_table",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Recipe Chim-Cheri"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "0343D01EE4CED033": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:magma_block"
+    },
+    "01AB8E607E758E63": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:soul_sand"
+    },
+    "48F6931772905D71": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "rewards": {
+    "062569DA6AD87480": {
+      "item": {
+        "id": "minecraft:spruce_trapdoor",
+        "count": 10
+      },
+      "type": "heracles:item"
+    },
+    "5DF53F8015B9942B": {
+      "item": {
+        "id": "minecraft:spruce_fence_gate",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Gather Bubble Elevator materials"
+    },
+    "description": [
+      "&lt;h1&gt;Glub Glub&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Gather Bubble Elevator materials",
+      "&lt;br/&gt;",
+      "&amp;3Magma Blocks&amp;r and &amp;3Soul Sand&amp;r under water create &quot;Bubble Columns&quot; in either direction, which both provide air and pull/push the mobs and the player down/up in the water",
+      "",
+      "These can be used to &amp;dmake elevators&amp;r for your home. &amp;eFence gates&amp;r work great as blocks that prevent water flow."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -110,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:lingering_potion",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Glub Glub"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

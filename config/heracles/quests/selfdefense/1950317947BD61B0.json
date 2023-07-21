@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "53A796604A3A0CDA": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "64DBD5ABDBCF2CE0": {
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "052C621B419B34F9": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "take on the realms' monsters"
+    },
+    "description": [
+      "&lt;h1&gt;Path of the Gladiator&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "take on the realms&#x27; monsters",
+      "&lt;br/&gt;",
+      "Hostile &amp;cmonsters&amp;r roam the world, threatening wanderers either out of instinct or ill intent. ",
+      "",
+      "Prove yourself in combat by showing proficiency defeating each type, and be &amp;dhandsomely rewarded&amp;r."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          10,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:red_banner",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Path of the Gladiator"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

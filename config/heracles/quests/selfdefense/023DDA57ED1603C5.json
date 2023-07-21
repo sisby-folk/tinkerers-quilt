@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "3DFB272AB2779EA5": {
+      "entity": {
+        "type": "minecraft:enderman"
+      },
+      "amount": 20,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "3EA569A7271CDC20": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "3B5DB34653CC23ED": {
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill 20 Endermen"
+    },
+    "description": [
+      "&lt;h1&gt;Longer Boy&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill 20 Endermen",
+      "&lt;br/&gt;",
+      "The large open space of a &amp;2Desert&amp;r makes &amp;cEndermen&amp;r easier to &amp;dspot and fight&amp;r. ",
+      "",
+      "While &amp;3Arrows&amp;r are ineffective at range, placing a &amp;eWater Bucket&amp;r at your feet protects you from sustained Enderman attack."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          40,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Longer Boy"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

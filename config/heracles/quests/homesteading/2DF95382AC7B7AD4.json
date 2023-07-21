@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {
+    "5A8BF1DC3D8BAEA7": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "rewards": {
+    "758977765A6FA05B": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Fishing Rod"
+    },
+    "description": [
+      "&lt;h1&gt;WOMEN FEAR ME&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Fishing Rod",
+      "&lt;br/&gt;",
+      "&amp;3Fishing Rods&amp;r can cast a line into a body of water with &amp;7[&amp;r&amp;6Right-Click&amp;r&amp;7]&amp;r. Eventually, a line of bubbles will appear and the lure will be pulled down - &amp;7[&amp;r&amp;6Right-Click&amp;r&amp;7]&amp;r again to reel the catch in!",
+      "",
+      "Catches include fish, junk, and, with a large enough pool - &amp;dtreasure&amp;r! including enchantments, nautilus shells, saddles, and name tags.  ",
+      "",
+      "Fishing rods can also be used to &amp;d&quot;yank&quot; mobs&amp;r at a 5x durability cost.",
+      "",
+      "Fishing rods can be &amp;3enchanted&amp;r to increase &amp;3durability&amp;r, increase &amp;dcatch speed&amp;r, and &amp;eimprove luck&amp;r.",
+      "",
+      "&amp;7[FishingReal]&amp;r Fishing is &amp;3catch-and-release&amp;r. Given room, reeled-in fish will simply swim away.",
+      "",
+      "&amp;7[DyableFishingLines]&amp;r You can &amp;ddye your fishing line&amp;r with any &amp;3dye&amp;r in the &amp;3crafting grid&amp;r. Rods can also be given special names (e.g. aro, pan, plural) for &amp;dspecial line colours&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          30,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "WOMEN FEAR ME"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

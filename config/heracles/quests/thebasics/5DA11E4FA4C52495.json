@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "28AFD82AD9C0B721"
+  ],
+  "tasks": {
+    "0F6EBD8A1A1D375E": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "rewards": {
+    "47985ECF276FEE7A": {
+      "item": {
+        "id": "minecraft:ancient_debris",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "191C95A50E20CDF1": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Mine Ancient Debris"
+    },
+    "description": [
+      "&lt;h1&gt;It&#x27;s Just Like Breath of the Wild!&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Mine Ancient Debris",
+      "&lt;br/&gt;",
+      "&amp;3Ancient Debris&amp;r is a rare &amp;2Nether&amp;r material found in &amp;3Bastion Remnants&amp;r.",
+      "",
+      "With sufficient preparation, it can also be mined &amp;2under the lava sea&amp;r &amp;7(around y:9)&amp;r, risking lava flows.",
+      "",
+      "It&#x27;s used to make &amp;dNetherite Ingots&amp;r, which can upgrade &amp;3Diamond Equipment&amp;r at a &amp;3Smithing Table&amp;r.",
+      "",
+      "&amp;7[Tinkerer&#x27;s Smithing]&amp;r &amp;3Netherite Scrap&amp;r can also be applied to equipment at an &amp;3Anvil&amp;r to &amp;dlower its anvil costs&amp;r."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          30,
+          70
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "It's Just Like Breath of the Wild!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

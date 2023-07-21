@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "5568AF3262E9717C": {
+      "structures": "minecraft:monument",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "2EE6D4829F7AD6ED": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "4653B3BA9076A428": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find an Ocean Monument"
+    },
+    "description": [
+      "&lt;h1&gt;Snorkel not included&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find an Ocean Monument",
+      "&lt;br/&gt;",
+      "&amp;2Ocean Monuments&amp;r are underwater fortresses containing &amp;cGuardians&amp;r, &amp;cElder Guardians&amp;r, &amp;3Prismarine Crystals&amp;r and &amp;3Sponges&amp;r.",
+      "",
+      "They can be found using &amp;3Ocean Explorer Maps&amp;r sold by &amp;aCartographers&amp;r.",
+      "",
+      "&amp;cGuardians&amp;r are stone-like fish that fire charged &amp;3lasers&amp;r at the player, and can extend their spikes to &amp;dreflect melee damage&amp;r.",
+      "",
+      "Each fortress is guarded by three &amp;cElder Guardians&amp;r, a boss-like variant of Guardians that inflict &amp;3Mining Fatigue&amp;r to all visitors.",
+      "",
+      "&amp;3Sponges&amp;r can be placed to remove water in an area. They must be &amp;3smelted&amp;r before reuse."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -280,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Snorkel not included"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

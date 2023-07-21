@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "687ED1196101F48D",
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "4332DE476304087F": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:turtle_helmet"
+    }
+  },
+  "rewards": {
+    "256FDDB934BF6FDE": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "777F2EAF4C750945": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Turtle Shell"
+    },
+    "description": [
+      "&lt;h1&gt;Cowabunga!&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Turtle Shell",
+      "&lt;br/&gt;",
+      "&amp;3Turtle Shells&amp;r are helmets that provide additional &amp;dBreath Capacity&amp;r, similar to the &amp;3Respiration&amp;r enchantment. ",
+      "",
+      "They can also be brewed into three &amp;ePotion of the Turtle Master&amp;r - a specialized &amp;3Combat Potion&amp;r that &amp;dslows you&amp;r."
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -210,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Cowabunga!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "41C9341CA261E52B"
+  ],
+  "tasks": {
+    "6940D98A01D79913": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:anvil"
+    }
+  },
+  "rewards": {
+    "1E8AA706DE3AC6CC": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "5CB3416D1CA7E6FA": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "2F3F55D656F85A4F": {
+      "item": {
+        "id": "minecraft:grindstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft an Anvil"
+    },
+    "description": [
+      "&lt;h1&gt;Heavy Metal&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft an Anvil",
+      "&lt;br/&gt;",
+      "An &amp;3Anvil&amp;r can be used to &amp;drepair&amp;r equipment with materials, apply &amp;denchantments from books&amp;r, and &amp;dcombine&amp;r equipment of the same type.",
+      "",
+      "Applying enchantments costs &amp;3experience levels&amp;r based on their strength, and increases each time the tool is modified. ",
+      "",
+      "Enchantments like &amp;eSilk Touch and Fortune&amp;r, Bow &amp;3Infinity and Mending&amp;r, Armor &amp;3Protection&amp;r, and Weapon &amp;3Damage&amp;r, are &amp;dincompatible&amp;r with eachother.",
+      "",
+      "&amp;eGrindstones&amp;r completely un-enchant equipment, &amp;drefunding&amp;r a small amount of experience.",
+      "",
+      "&amp;7[idwtialsimmoedm]&amp;r hold &amp;7[&amp;r&amp;6Shift&amp;r&amp;7]&amp;r on an &amp;eenchanted item&amp;r to see enchantment descriptions.",
+      "",
+      "&amp;7[Fabrication]&amp;r Tools with &amp;3Fortune&amp;r or &amp;3Silk Touch&amp;r show an initial on their icon."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          60,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:anvil",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Heavy Metal"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

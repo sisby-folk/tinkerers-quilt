@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "5D59AF700C3FD338": {
+      "structures": "#minecraft:ocean_ruin",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "2FE51CCB8EF07E74": {
+      "item": {
+        "id": "minecraft:trident",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "400C030A828BCD26": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Find Ocean Ruins"
+    },
+    "description": [
+      "&lt;h1&gt;Sleeping with the Fishes&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Find Ocean Ruins",
+      "&lt;br/&gt;",
+      "&amp;2Ocean Ruins&amp;r are guarded by &amp;cDrowned&amp;r and contain &amp;dloot chests - including Buried Treasure Maps&amp;r!",
+      "",
+      "Ruins are either made of &amp;3Stone Brick&amp;r in the &amp;2Colder Ocean Biomes&amp;r (with deeper blue water), or &amp;3Sandstone Bricks&amp;r in &amp;2Warmer Ocean Biomes&amp;r (like those with &amp;3Coral&amp;r)!"
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -310,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:mossy_stone_bricks",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Sleeping with the Fishes"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

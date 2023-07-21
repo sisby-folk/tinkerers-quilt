@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {
+    "32437F064A5A9BC6": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Acquire Melee Weapons"
+    },
+    "description": [
+      "&lt;h1&gt;Direct Approach&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Acquire Melee Weapons",
+      "&lt;br/&gt;",
+      "&amp;3Melee attacks&amp;r have a &amp;3cooldown&amp;r, which causes rapid attacks to deal as little as &amp;done fifth of their normal damage&amp;r.",
+      "",
+      "The cooldown is indicated by a &amp;3sword indicator&amp;r near the crosshair. When the sword is full, &amp;dattacks deal full damage&amp;r.",
+      "",
+      "&amp;3Swords&amp;r can attack very quickly, and when fully charged perform a &amp;3sweep&amp;r that deals damage to &amp;dall enemies in an area&amp;r. &amp;eSweeping Edge&amp;r increases sweep damage.",
+      "",
+      "Other tools have no abilities, but deal more damage than fists. &amp;3Axes&amp;r deal more damage than swords, but have a &amp;dvery long cooldown&amp;r.",
+      "",
+      "If an attack connects while you&#x27;re &amp;3falling&amp;r, it becomes a critical hit, dealing &amp;d1.5x damage&amp;r and spilling stars.",
+      "",
+      "&amp;7[EnhancedAttackIndicator]&amp;r the attack indicator also shows bow charging, food eating, and block breaking progress."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -30,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:iron_axe",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Direct Approach"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

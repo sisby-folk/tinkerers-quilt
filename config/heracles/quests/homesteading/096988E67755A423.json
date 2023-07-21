@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "12C095116F80A80B": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "rewards": {
+    "06431CBC247EA616": {
+      "item": {
+        "id": "minecraft:black_stained_glass_pane",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "36196BC047ECD6F4": {
+      "item": {
+        "id": "minecraft:light_gray_stained_glass_pane",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft some Glass Panes"
+    },
+    "description": [
+      "&lt;h1&gt;Mr. Cellophane&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft some Glass Panes",
+      "&lt;br/&gt;",
+      "&amp;3Glass Panes&amp;r are helpful for &amp;ddecorations and windows&amp;r. They&#x27;re cheaper, but can&#x27;t be used for skylights. ",
+      "",
+      "&amp;3Glass&amp;r can also be stained using &amp;3Dye&amp;r, &amp;dcoloring it&amp;r. "
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -20,
+          -210
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Mr. Cellophane"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

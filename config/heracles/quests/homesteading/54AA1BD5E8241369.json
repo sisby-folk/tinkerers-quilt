@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "4E96545334B04D98": {
+      "type": "heracles:check"
+    },
+    "03646A14192AD73C": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": "Farm 64 Nether Wart"
+    },
+    "description": [
+      "&lt;h1&gt;Nether Wart Farming&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Farm 64 Nether Wart",
+      "&lt;br/&gt;",
+      "&amp;3Nether Wart&amp;r can be planted on &amp;3Soul Sand&amp;r in &amp;2any dimension&amp;r. ",
+      "",
+      "It &amp;3doesn&#x27;t even require light to grow&amp;r - simple!",
+      "",
+      "&amp;7[Carpet]&amp;r &amp;3Blaze Powder&amp;r can be used to grow nether wart quickly."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          50,
+          -350
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:nether_wart",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Nether Wart Farming"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

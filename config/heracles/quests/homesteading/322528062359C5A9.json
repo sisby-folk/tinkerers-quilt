@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "69664F854B5F66A8": {
+      "type": "heracles:check"
+    },
+    "3A309E57BCB63BF2": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:redstone"
+    }
+  },
+  "rewards": {
+    "65546E15954AA223": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "41573153DA4B06B1": {
+      "item": {
+        "id": "minecraft:stick",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "5FB600BFF6987B3E": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "195837F96D182834": {
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Begin exploring mechanisms"
+    },
+    "description": [
+      "&lt;h1&gt;Accursed Machines&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Begin exploring mechanisms",
+      "&lt;br/&gt;",
+      "&amp;3Mechanisms&amp;r are built by the player and can &amp;dperform complex tasks&amp;r - they have components in three categories.",
+      "",
+      "&amp;3Input&amp;r or &amp;3Power&amp;r components provide an &amp;dinitial redstone signal&amp;r (or &quot;power&quot;).",
+      "",
+      "&amp;3Transmission&amp;r components &amp;dmove and transform signals&amp;r.",
+      "",
+      "&amp;3Functional&amp;r components &amp;dperform the actual function desired&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          200,
+          -230
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:hopper_minecart",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Accursed Machines"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

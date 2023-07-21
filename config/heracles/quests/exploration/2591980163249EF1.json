@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "3A1BD6DEB90F7E2D": {
+      "structures": "minecraft:village_savanna",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "36361E75C99FC81F": {
+      "item": {
+        "id": "minecraft:fletching_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Visit a Savannah Village"
+    },
+    "description": [
+      "&lt;h1&gt;Madagascar 2&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Visit a Savannah Village",
+      "&lt;br/&gt;",
+      "Employed &amp;aVillagers&amp;r restock from a bound &amp;3Job Site&amp;r block up to twice a day. ",
+      "",
+      "A villager without any &amp;3trade experience&amp;r can &amp;dchange professions&amp;r if their Job Site block is broken and another one is placed.",
+      "",
+      "A &amp;dlist of professions&amp;r and their Job Sites can be found over the page.",
+      "{@pagebreak}",
+      "&amp;aArmorer&amp;r - &amp;3Blast Furnace&amp;r ",
+      "&amp;aButcher&amp;r - &amp;3Smoker&amp;r",
+      "&amp;aCartographer&amp;r - &amp;3Cartography Table&amp;r",
+      "&amp;aCleric&amp;r - &amp;3Brewing Stand&amp;r",
+      "&amp;aFarmer&amp;r - &amp;3Composter&amp;r",
+      "&amp;aFisherman&amp;r - &amp;3Barrel&amp;r",
+      "&amp;aFletcher&amp;r - &amp;3Fletching Table&amp;r",
+      "&amp;aLeatherworker&amp;r - &amp;3Cauldron&amp;r",
+      "&amp;aLibrarian&amp;r - &amp;3Lectern&amp;r",
+      "&amp;aMason&amp;r - &amp;3Stonecutter&amp;r",
+      "&amp;aShepherd&amp;r - &amp;3Loom&amp;r",
+      "&amp;aToolsmith&amp;r - &amp;3Smithing Table&amp;r",
+      "&amp;aWeaponsmith&amp;r - &amp;3Grindstone&amp;r"
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -220,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Madagascar 2"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

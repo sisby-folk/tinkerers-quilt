@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "4048B08BA7BA39BE"
+  ],
+  "tasks": {
+    "702F50852618854C": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:nether_wart"
+    },
+    "57C85AE7D22E4328": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "rewards": {
+    "1528B67155CB6378": {
+      "item": {
+        "id": "minecraft:pufferfish",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "46B82B5C477BA0F3": {
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 10
+      },
+      "type": "heracles:item"
+    },
+    "39B9A72FFADE2792": {
+      "item": {
+        "id": "minecraft:phantom_membrane",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "5D033BFC370CD3BF": {
+      "item": {
+        "id": "minecraft:magma_cream",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Acquire Brewing Ingredients"
+    },
+    "description": [
+      "&lt;h1&gt;§o*cackles*§r&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Acquire Brewing Ingredients",
+      "&lt;br/&gt;",
+      "&amp;2Nether Fortresses&amp;r contain both &amp;3Blazes&amp;r and &amp;3Nether Wart&amp;r, which are required to begin &amp;dBrewing Potions&amp;r.",
+      "",
+      "&amp;3Nether Wart&amp;r can be regrown by planting it on &amp;3Soul Sand&amp;r in any dimension.",
+      "",
+      "&amp;3Brewing Stands&amp;r accept &amp;3Blaze Powder&amp;r as fuel, up to three bottles, and a &amp;3brewing ingredient&amp;r. ",
+      "",
+      "&amp;3Awkward Potions&amp;r are made from water bottles brewed with &amp;3Nether Wart&amp;r, which can in turn be brewed with &amp;evarious ingredients&amp;r to create helpful potions."
+    ],
+    "groups": {
+      "The Basics": {
+        "position": [
+          90,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:brewing_stand",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "§o*cackles*§r"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

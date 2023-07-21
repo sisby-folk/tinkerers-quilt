@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "322528062359C5A9"
+  ],
+  "tasks": {
+    "35834B56641501E3": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:repeater"
+    }
+  },
+  "rewards": {
+    "1A767C788B6AE3AD": {
+      "item": {
+        "id": "minecraft:redstone_lamp",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "2D44ADA60A0C073A": {
+      "item": {
+        "id": "minecraft:smooth_stone_slab",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Craft a Repeater"
+    },
+    "description": [
+      "&lt;h1&gt;Transmission&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Craft a Repeater",
+      "&lt;br/&gt;",
+      "&amp;3Redstone Dust&amp;r can have &amp;315 levels of power&amp;r, decreasing each block away from the &amp;3power source&amp;r.",
+      "",
+      "&amp;3Opaque Blocks&amp;r can be &amp;3strongly&amp;r or &amp;3weakly&amp;r powered.",
+      "",
+      "&amp;3Strongly powered&amp;r blocks will &amp;dprovide full power to adjacent Redstone Dust&amp;r. ",
+      "",
+      "Both kinds of power will power adjacent &amp;3Repeaters&amp;r, &amp;3Comparators&amp;r, and &amp;3Functional Components&amp;r.",
+      "",
+      "A &amp;3Repeater&amp;r can be used to &amp;dextend a redstone signal&amp;r, delaying it by 0.1 seconds. This delay can be increased with &amp;7[&amp;r&amp;6Right-Click&amp;r&amp;7]&amp;r.",
+      "",
+      "&amp;3Redstone Dust&amp;r can &amp;dtransport power upwards&amp;r in a 2x1 area using top-facing &amp;eSlabs&amp;r &amp;dto form stairs&amp;r.",
+      "",
+      "&amp;eLamps&amp;r can help find out &amp;dwhere functional components can receive power&amp;r."
+    ],
+    "groups": {
+      "Homesteading": {
+        "position": [
+          230,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:redstone",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Transmission"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}

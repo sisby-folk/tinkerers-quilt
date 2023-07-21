@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "3FC5F826E273A912": {
+      "entity": {
+        "type": "minecraft:silverfish"
+      },
+      "amount": 1,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "4554086874FEF98E": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Kill a Silverfish"
+    },
+    "description": [
+      "&lt;h1&gt;Plague ?/10&lt;/h1&gt;",
+      "&lt;hl/&gt;",
+      "Kill a Silverfish",
+      "&lt;br/&gt;",
+      "Rarely, &amp;3Stone&amp;r will contain a &amp;cSilverfish&amp;r with several guaranteed near an &amp;2End Portal&amp;r of a &amp;2Stronghold&amp;r.",
+      "",
+      "Damaged Silverfish will &amp;dcall others to their aid&amp;r, creating swarms."
+    ],
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          20,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Plague ?/10"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true
+  }
+}
