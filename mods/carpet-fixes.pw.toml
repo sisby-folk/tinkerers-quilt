@@ -1,13 +1,13 @@
 name = "Carpet-Fixes"
-filename = "carpet-fixes-1.20-1.15.2.jar"
+filename = "carpet-fixes-1.20-1.16.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7Jaxgqip/versions/oQD5ay0s/carpet-fixes-1.20-1.15.2.jar"
+url = "https://cdn.modrinth.com/data/7Jaxgqip/versions/NBCnBGZj/carpet-fixes-1.20-1.16.1.jar"
 hash-format = "sha1"
-hash = "7dbdccfb0e090366f110511db27023dfa2dca2e4"
+hash = "0e4f0f766ffbb059f8992e63987975f111e45780"
 
 [update]
 [update.modrinth]
 mod-id = "7Jaxgqip"
-version = "oQD5ay0s"
+version = "NBCnBGZj"

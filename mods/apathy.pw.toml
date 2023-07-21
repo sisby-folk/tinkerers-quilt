@@ -1,13 +1,13 @@
 name = "Apathy"
-filename = "apathy-fabric-1.20.0-2.7.jar"
+filename = "apathy-fabric-1.20.1-2.7.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fvtFPg1k/versions/K1KXzoHJ/apathy-fabric-1.20.0-2.7.jar"
+url = "https://cdn.modrinth.com/data/fvtFPg1k/versions/2v7E22NN/apathy-fabric-1.20.1-2.7.1.jar"
 hash-format = "sha1"
-hash = "0689cc553ce9f8dab8adf09affafa57a4d16c732"
+hash = "e83d0bb62d16d3a0c64a8eb3dbad469d47d80b85"
 
 [update]
 [update.modrinth]
 mod-id = "fvtFPg1k"
-version = "K1KXzoHJ"
+version = "2v7E22NN"
