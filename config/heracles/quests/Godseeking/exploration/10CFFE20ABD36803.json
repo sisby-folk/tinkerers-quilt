@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "2D7A058F67957E97": {
+      "type": "heracles:block_interaction",
+      "block": "minecraft:deepslate"
+    }
+  },
+  "rewards": {
+    "24C742924575F435": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Sleeping in the cold below",
+    "description": [
+      "<h1>Sleeping in the cold below</h1>",
+      "<hr/>",
+      "Find Deepslate",
+      "<br/>",
+      "Deep §2Underground§r §7(around y:0)§r, all stone is replaced with §3Deepslate§r, which is harder to mine.",
+      "<br/>",
+      "§3Cobbled Deepslate§r can be §dused like Cobblestone§r in crafting.",
+      "Tasks:",
+      "<task task=\"2D7A058F67957E97\" quest=\"10CFFE20ABD36803\"/>",
+      "Rewards:",
+      "<reward reward=\"24C742924575F435\" quest=\"10CFFE20ABD36803\"/>"
+    ],
+    "subtitle": {
+      "text": "Find Deepslate"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          112
+        ]
+      }
+    }
+  }
+}

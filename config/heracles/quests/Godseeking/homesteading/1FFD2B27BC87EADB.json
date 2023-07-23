@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "6BBB2677D85E0344": {
+      "type": "heracles:item",
+      "item": "#c:fence_gates",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "2470161007F8B771": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:brown_carpet",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Plotting",
+    "description": [
+      "<h1>Plotting</h1>",
+      "<hr/>",
+      "Make a Fence Gate",
+      "<br/>",
+      "§3Fence Gates§r can be opened and closed, and connect to fences.",
+      "<br/>",
+      "§eFences§r and §3Walls§r are an essential part of §dkeeping hostile mobs from wandering into your base§r!",
+      "<br/>",
+      "§eCarpet§r can be used to create a §dtraversable area of fence§r by placing it on top of a fence post.",
+      "<br/>",
+      "§7[Couplings]§r Vertically stacked fence gates will §dopen at once§r.",
+      "Tasks:",
+      "<task task=\"6BBB2677D85E0344\" quest=\"1FFD2B27BC87EADB\"/>",
+      "Rewards:",
+      "<reward reward=\"2470161007F8B771\" quest=\"1FFD2B27BC87EADB\"/>"
+    ],
+    "subtitle": {
+      "text": "Make a Fence Gate"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -16,
+          -368
+        ]
+      }
+    }
+  }
+}

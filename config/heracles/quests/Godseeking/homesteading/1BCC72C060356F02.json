@@ -1,0 +1,107 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "4562EEDCA84EE3E3": {
+      "type": "heracles:item",
+      "item": "minecraft:bookshelf",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "2A30AFEC57A4D34F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:barrel",
+        "count": 4
+      }
+    },
+    "789FEED8C9205907": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_trapdoor",
+        "count": 8
+      }
+    },
+    "0E51BAD15DF368DD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_stairs",
+        "count": 8
+      }
+    },
+    "0A01CD625EAE398C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:netherrack",
+        "count": 2
+      }
+    },
+    "54F3A94B2D57B561": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:soul_soil",
+        "count": 2
+      }
+    },
+    "062F45C29C656DA6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_bars",
+        "count": 2
+      }
+    },
+    "4D54DDEB3C7D5DCE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cyan_carpet",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Cozy",
+    "description": [
+      "<h1>Cozy</h1>",
+      "<hr/>",
+      "Craft a Bookshelf",
+      "<br/>",
+      "Decorative blocks like §3Bookshelves§r can help fill a house's interior, but most indoor furniture §disn't crafted§r.",
+      "<br/>",
+      "Instead, facsimiles are created by arranging §eunrelated blocks§r into familiar-looking shapes.",
+      "<br/>",
+      "§dClosets, dressers, and cabinets§r can all be created by placing §3Doors§r and §eTrapdoors§r in front of functional blocks like §3Chests§r and §eBarrels§r or decorative blocks like §3Stairs§r and §3Bookshelves§r.§l",
+      "<br/>",
+      "§eStairs§r with §3Signs§r on either side can serve as §dArmchairs§r, especially when facing §dTables§r made of §3Inverted Stairs§r, §3Floating Slabs§r, or §3Fences§r with §3Pressure Plates§r on top.",
+      "<br/>",
+      "§dFireplaces§r can be made of non-flammable blocks with §eNetherrack§r as the flammable base. Fire can spread up to §dtwo blocks away, and four blocks up§r. If space is limited, use §eSoul Soil§r instead for a §dnon-spreading blue flame§r.",
+      "<br/>",
+      "§3Blue Ice§r can serve as water in §dbathtubs and aquariums§r without needing to be enclosed.",
+      "Tasks:",
+      "<task task=\"4562EEDCA84EE3E3\" quest=\"1BCC72C060356F02\"/>",
+      "Rewards:",
+      "<reward reward=\"2A30AFEC57A4D34F\" quest=\"1BCC72C060356F02\"/>",
+      "<reward reward=\"789FEED8C9205907\" quest=\"1BCC72C060356F02\"/>",
+      "<reward reward=\"0E51BAD15DF368DD\" quest=\"1BCC72C060356F02\"/>",
+      "<reward reward=\"0A01CD625EAE398C\" quest=\"1BCC72C060356F02\"/>",
+      "<reward reward=\"54F3A94B2D57B561\" quest=\"1BCC72C060356F02\"/>",
+      "<reward reward=\"062F45C29C656DA6\" quest=\"1BCC72C060356F02\"/>",
+      "<reward reward=\"4D54DDEB3C7D5DCE\" quest=\"1BCC72C060356F02\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Bookshelf"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -96,
+          -336
+        ]
+      }
+    }
+  }
+}

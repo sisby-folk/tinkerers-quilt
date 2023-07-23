@@ -1,0 +1,109 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1E92A6BE31198EF3",
+    "03CF663BF52022CB",
+    "52E05DC7ED68C824",
+    "7164FFFB3AFAFEF3"
+  ],
+  "tasks": {
+    "2739CE44EC749396": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "03A9AC11B72065CF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:black_banner",
+        "count": "1"
+      }
+    },
+    "05CA8ACF859674AA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sculk_sensor",
+        "count": 16
+      }
+    },
+    "0B58257D7FB203A7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 64
+      }
+    },
+    "7F031284957C81EE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 64
+      }
+    },
+    "2ECE07CDA1C0B837": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone",
+        "count": 256
+      }
+    },
+    "5292D4AF7705340C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chest",
+        "count": 64
+      }
+    },
+    "1C13B73B235357E9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:slime_block",
+        "count": 16
+      }
+    },
+    "2C27467EDAE5BE86": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:piston",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Hephaestus",
+    "description": [
+      "<h1>Hephaestus</h1>",
+      "<hr/>",
+      "Forge great machines",
+      "<br/>",
+      "Tasks:",
+      "<task task=\"2739CE44EC749396\" quest=\"0E3858BCFECB6862\"/>",
+      "Rewards:",
+      "<reward reward=\"03A9AC11B72065CF\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"05CA8ACF859674AA\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"0B58257D7FB203A7\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"7F031284957C81EE\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"2ECE07CDA1C0B837\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"5292D4AF7705340C\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"1C13B73B235357E9\" quest=\"0E3858BCFECB6862\"/>",
+      "<reward reward=\"2C27467EDAE5BE86\" quest=\"0E3858BCFECB6862\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone_block"
+    },
+    "subtitle": {
+      "text": "Forge great machines"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          480,
+          -368
+        ]
+      }
+    }
+  }
+}

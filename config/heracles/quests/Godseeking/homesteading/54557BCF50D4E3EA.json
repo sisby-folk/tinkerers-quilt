@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "796366A8D7D8BBF8"
+  ],
+  "tasks": {
+    "46C8036E99DA86DC": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace_minecart",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "6AAB5E2685C1561F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal_block",
+        "count": 16
+      }
+    },
+    "2718EBD9A068D8C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lava_bucket",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Back in a sec!",
+    "description": [
+      "<h1>Back in a sec!</h1>",
+      "<hr/>",
+      "Build a Furnace Minecart",
+      "<br/>",
+      "§3Furnace Minecarts§r are used to §dtravel long distances§r by pushing minecart trains. Just add one §3Fuel§r and the minecart will §3push until it runs out§r.",
+      "<br/>",
+      "§7[Fabrication]§r Furnace minecarts can §daccept any Fuel§r. A running Furnace Minecart will §dkeep its chunk loaded§r§r, preventing farms and machines from freezing once you're far away.",
+      "<br/>",
+      "You can press §7[§r§6F3+G§r§7]§r at any time to view chunks in the world.",
+      "<br/>",
+      "Filling a Furnace Minecart with a §eLava Bucket§r will run a chunk for §d17 minutes§r.",
+      "Tasks:",
+      "<task task=\"46C8036E99DA86DC\" quest=\"54557BCF50D4E3EA\"/>",
+      "Rewards:",
+      "<reward reward=\"6AAB5E2685C1561F\" quest=\"54557BCF50D4E3EA\"/>",
+      "<reward reward=\"2718EBD9A068D8C2\" quest=\"54557BCF50D4E3EA\"/>"
+    ],
+    "subtitle": {
+      "text": "Build a Furnace Minecart"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          224,
+          -464
+        ]
+      }
+    }
+  }
+}

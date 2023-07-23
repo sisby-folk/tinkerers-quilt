@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "10CFFE20ABD36803"
+  ],
+  "tasks": {
+    "50E52E8C54CF6323": {
+      "type": "heracles:biome",
+      "biomes": "minecraft:dripstone_caves"
+    }
+  },
+  "rewards": {
+    "6DC6F16FCEF30131": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "34E94170F5478DC5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cauldron"
+      }
+    },
+    "688EDB1BF3BFE7FB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lava_bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Minecraft Drip",
+    "description": [
+      "<h1>Minecraft Drip</h1>",
+      "<hr/>",
+      "Find a Dripstone Cave",
+      "<br/>",
+      "§2Dripstone Caves§r, found deep underground, is full of §3Pointed Dripstone§r that §dgrows over time§r.",
+      "<br/>",
+      "Careful! pointed dripstone §dhurts when landing on it§r!",
+      "<br/>",
+      "If a §3Dripstone Block§r with a stalactite has §3lava§r above it, the resulting drips can §drenewably fill cauldrons with lava§r.",
+      "Tasks:",
+      "<task task=\"50E52E8C54CF6323\" quest=\"1932327D56163D18\"/>",
+      "Rewards:",
+      "<reward reward=\"6DC6F16FCEF30131\" quest=\"1932327D56163D18\"/>",
+      "<reward reward=\"34E94170F5478DC5\" quest=\"1932327D56163D18\"/>",
+      "<reward reward=\"688EDB1BF3BFE7FB\" quest=\"1932327D56163D18\"/>"
+    ],
+    "subtitle": {
+      "text": "Find a Dripstone Cave"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -336,
+          144
+        ]
+      }
+    }
+  }
+}

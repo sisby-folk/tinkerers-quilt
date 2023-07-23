@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "41C9341CA261E52B"
+  ],
+  "tasks": {
+    "5FC0E582CDFDC762": {
+      "type": "heracles:item",
+      "item": "#c:pickaxes",
+      "collection_type": "manual"
+    },
+    "4D0BFD3A0D9238C9": {
+      "type": "heracles:item",
+      "item": "#c:shovels",
+      "collection_type": "manual"
+    },
+    "553123730A74F060": {
+      "type": "heracles:item",
+      "item": "#c:axes",
+      "collection_type": "manual"
+    },
+    "3AAD0A84BDDF6E04": {
+      "type": "heracles:item",
+      "item": "#c:hoes",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "0072CA8B14AD480A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shears",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Bag of Tricks",
+    "description": [
+      "<h1>Bag of Tricks</h1>",
+      "<hr/>",
+      "Craft every Tool",
+      "<br/>",
+      "Most blocks have a §3preferred tool§r that breaks them the fastest.",
+      "<br/>",
+      "§3Axes§r break §3Wood§r, including logs, planks, and most furniture.",
+      "<br/>",
+      "§3Shovels§r break §3Dirt§r, §3Sand§r, §3Clay§r, §3Snow§r, and similar groundcover.",
+      "<br/>",
+      "§3Swords§r break §3Cobwebs§r and §3Bamboo§r.",
+      "<br/>",
+      "§3Hoes§r break §3Hay Bales§r, §3Leaves§r, §3Moss§r, and §3Fungi§r.",
+      "<br/>",
+      "§3Pickaxes§r break most \"hard\" blocks, including anything stone or metal. When broken with any other tool, many of these are §ddestroyed§r.",
+      "<br/>",
+      "§eShears§r can be used to collect fragile blocks like plants and cobwebs.",
+      "Tasks:",
+      "<task task=\"5FC0E582CDFDC762\" quest=\"358409FE5C2E19E6\"/>",
+      "<task task=\"4D0BFD3A0D9238C9\" quest=\"358409FE5C2E19E6\"/>",
+      "<task task=\"553123730A74F060\" quest=\"358409FE5C2E19E6\"/>",
+      "<task task=\"3AAD0A84BDDF6E04\" quest=\"358409FE5C2E19E6\"/>",
+      "Rewards:",
+      "<reward reward=\"0072CA8B14AD480A\" quest=\"358409FE5C2E19E6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_shovel"
+    },
+    "subtitle": {
+      "text": "Craft every Tool"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          96,
+          16
+        ]
+      }
+    }
+  }
+}

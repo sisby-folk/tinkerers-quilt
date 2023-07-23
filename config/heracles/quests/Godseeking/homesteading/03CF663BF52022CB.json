@@ -1,0 +1,116 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "29358767A696B164"
+  ],
+  "tasks": {
+    "0E86C86F5AFC7C93": {
+      "type": "heracles:item",
+      "item": "minecraft:dropper",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "5FEE53083C3BBAEB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 4
+      }
+    },
+    "3456A37AA9D4BE15": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:water_bucket"
+      }
+    },
+    "25710D638E2567CB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_pressure_plate"
+      }
+    },
+    "3C28472C5739BB6C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:packed_ice",
+        "count": 16
+      }
+    },
+    "5538C906B7205D16": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hopper_minecart"
+      }
+    },
+    "2D3B61F4AE131C37": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chest_minecart"
+      }
+    },
+    "45A90E315C63278F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:light_weighted_pressure_plate"
+      }
+    },
+    "165279ED12C374FE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:heavy_weighted_pressure_plate"
+      }
+    },
+    "4481C1EB27086278": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:note_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Item Transport",
+    "description": [
+      "<h1>Item Transport</h1>",
+      "<hr/>",
+      "Craft a Dropper",
+      "<br/>",
+      "§3Droppers§r will §ddrop§r the first item in their inventory when powered, which can be used to §dtransport items§r by utilizing §3Bubble Columns§r, or §eIce and Water§r slides.",
+      "<br/>",
+      "§eHoppers§r §dtransfer items between inventories§r, including of other hoppers. They become §3locked§r when powered, halting flow.",
+      "<br/>",
+      "§eHopper Minecarts§r work similarly, but can also §dpick up dropped items§r. They can be used to §ddistribute items§r into inventories below a track. They can be §3locked and unlocked§r by powered and unpowered §3Activator Rails§r.",
+      "<br/>",
+      "§eMinecarts with Chests§r can §dtransport items long distances§r. They can be filled and emptied by §3Hoppers§r.",
+      "<br/>",
+      "§eWooden Pressure Plates§r §dfully activate with one item§r, while §eWeighted Pressure Plates§r §dslowly power every 1 or 10 items respectively§r.",
+      "<br/>",
+      "§aAllays§r §7(See Exploration: Sightseer)§r that hear §3Note Blocks§r will §ddeposit their items nearby§r for the next §330 seconds§r.",
+      "Tasks:",
+      "<task task=\"0E86C86F5AFC7C93\" quest=\"03CF663BF52022CB\"/>",
+      "Rewards:",
+      "<reward reward=\"5FEE53083C3BBAEB\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"3456A37AA9D4BE15\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"25710D638E2567CB\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"3C28472C5739BB6C\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"5538C906B7205D16\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"2D3B61F4AE131C37\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"45A90E315C63278F\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"165279ED12C374FE\" quest=\"03CF663BF52022CB\"/>",
+      "<reward reward=\"4481C1EB27086278\" quest=\"03CF663BF52022CB\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Dropper"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          416,
+          -352
+        ]
+      }
+    }
+  }
+}

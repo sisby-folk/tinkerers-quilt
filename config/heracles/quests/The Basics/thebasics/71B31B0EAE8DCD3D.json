@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4048B08BA7BA39BE"
+  ],
+  "tasks": {
+    "0B1FFAD97E03BE43": {
+      "type": "heracles:item",
+      "amount": "3",
+      "item": "minecraft:wither_skeleton_skull",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "58344DE55762F044": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 9
+      }
+    }
+  },
+  "display": {
+    "title": "Mob Grinder",
+    "description": [
+      "<h1>Mob Grinder</h1>",
+      "<hr/>",
+      "Obtain 3 Wither Skeleton Skulls",
+      "<br/>",
+      "§4The Wither§r is a high-tier boss fight best fought in an arena near bedrock in §2The Overworld§r, or near the bedrock roof of §2The Nether§r.",
+      "<br/>",
+      "It's summoned by placing 3 §3Wither Skulls§r on a row of §3Soul Sand§r, with another §3Soul Sand§r below the middle.",
+      "<br/>",
+      "The Wither is capable of destroying much of the map (even §3Obsidian§r) with explosions if not well-contained. At half health, arrows §dstop being effective§r.",
+      "<br/>",
+      "§eHealing Potions§r heal players, but hurt §cundead enemies§r.",
+      "<br/>",
+      "§7[Apathy]§r On §3Easy Difficulty§r, the summoning ritual itself is sufficient to receive the reward.",
+      "Tasks:",
+      "<task task=\"0B1FFAD97E03BE43\" quest=\"71B31B0EAE8DCD3D\"/>",
+      "Rewards:",
+      "<reward reward=\"58344DE55762F044\" quest=\"71B31B0EAE8DCD3D\"/>"
+    ],
+    "subtitle": {
+      "text": "Obtain 3 Wither Skeleton Skulls"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          208,
+          64
+        ]
+      }
+    }
+  }
+}

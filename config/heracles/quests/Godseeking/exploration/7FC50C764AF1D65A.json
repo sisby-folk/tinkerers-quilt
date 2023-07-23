@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "27B5E2FB0A7F43F8": {
+      "type": "heracles:structure",
+      "structures": "#minecraft:shipwreck"
+    }
+  },
+  "rewards": {
+    "3A922BA72BB5CC88": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "5BFCB6D800D5A18E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Chipwrecked",
+    "description": [
+      "<h1>Chipwrecked</h1>",
+      "<hr/>",
+      "Find a Shipwreck",
+      "<br/>",
+      "§2Shipwrecks§r can be found deep underwater, or §2Beached§r.",
+      "<br/>",
+      "They contain up to §d3 loot chests§r, depending on the wreck's condition.",
+      "<br/>",
+      "The §3Bow§r contains §dSupplies§r, the §3Upper Stern§r contains §dTreasure§r, and the §3Lower Stern§r contains §dNavigation Equipment§r",
+      "Tasks:",
+      "<task task=\"27B5E2FB0A7F43F8\" quest=\"7FC50C764AF1D65A\"/>",
+      "Rewards:",
+      "<reward reward=\"3A922BA72BB5CC88\" quest=\"7FC50C764AF1D65A\"/>",
+      "<reward reward=\"5BFCB6D800D5A18E\" quest=\"7FC50C764AF1D65A\"/>"
+    ],
+    "subtitle": {
+      "text": "Find a Shipwreck"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          -80
+        ]
+      }
+    }
+  }
+}

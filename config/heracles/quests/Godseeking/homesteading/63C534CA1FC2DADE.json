@@ -1,0 +1,90 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {
+    "3E3C60D53FD25DBB": {
+      "type": "heracles:item",
+      "item": "minecraft:milk_bucket",
+      "collection_type": "manual"
+    },
+    "47609D194C5D4BA2": {
+      "type": "heracles:item",
+      "amount": "10",
+      "item": "minecraft:white_wool",
+      "collection_type": "manual"
+    },
+    "3E9A11449E0BF316": {
+      "type": "heracles:item",
+      "amount": "4",
+      "item": "minecraft:egg",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "193E7AE725327338": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hay_block",
+        "count": 16
+      }
+    },
+    "70C312A9A950A397": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lead",
+        "count": 4
+      }
+    },
+    "48DC8A200AD1A06B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:saddle"
+      }
+    }
+  },
+  "display": {
+    "title": "Rancher",
+    "description": [
+      "<h1>Rancher</h1>",
+      "<hr/>",
+      "Do some Ranching",
+      "<br/>",
+      "All animals can be §dlead§r around by holding their §3favourite food§r.",
+      "<br/>",
+      "This can help bring them into safe fenced areas.",
+      "<br/>",
+      "Animals can also be §3fed§r their favourite foods instead, to §dencourage them to breed§r.",
+      "<br/>",
+      "§aPigs§r like §3Vegetables§r, §aBovids§r like §3Wheat§r, §aChickens§r like §3Seeds§r, §aWolves§r like §3Meat§r, §aCats§r like §3Raw Fish§r, and §aFoxes§r like §3Berries§r.",
+      "<br/>",
+      "§7[ChickensShed]§r §aChickens§r will occasionally shed a §3Feather§r.",
+      "Tasks:",
+      "<task task=\"3E3C60D53FD25DBB\" quest=\"63C534CA1FC2DADE\"/>",
+      "<task task=\"47609D194C5D4BA2\" quest=\"63C534CA1FC2DADE\"/>",
+      "<task task=\"3E9A11449E0BF316\" quest=\"63C534CA1FC2DADE\"/>",
+      "Rewards:",
+      "<reward reward=\"193E7AE725327338\" quest=\"63C534CA1FC2DADE\"/>",
+      "<reward reward=\"70C312A9A950A397\" quest=\"63C534CA1FC2DADE\"/>",
+      "<reward reward=\"48DC8A200AD1A06B\" quest=\"63C534CA1FC2DADE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spruce_fence"
+    },
+    "subtitle": {
+      "text": "Do some Ranching"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          112,
+          -416
+        ]
+      }
+    }
+  }
+}

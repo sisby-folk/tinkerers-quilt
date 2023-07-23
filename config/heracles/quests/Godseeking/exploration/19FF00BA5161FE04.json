@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "68CBD82A4FF87F3F": {
+      "type": "heracles:biome",
+      "biomes": "minecraft:frozen_peaks"
+    }
+  },
+  "rewards": {
+    "6BED877089ECDC53": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "0866DC750474E58E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Throat of the World",
+    "description": [
+      "<h1>Throat of the World</h1>",
+      "<hr/>",
+      "Find Frozen Peaks",
+      "<br/>",
+      "§2Mountain Peaks§r are a great source of §3Packed Ice§r, which is §dslippery but doesn't melt§r!",
+      "<br/>",
+      "Peaks also contain §aGoats§r, neutral animals that can be §dmilked§r, jump high, and §3ram blocks§r - §ddropping a musical horn§r when hitting hard blocks!",
+      "Tasks:",
+      "<task task=\"68CBD82A4FF87F3F\" quest=\"19FF00BA5161FE04\"/>",
+      "Rewards:",
+      "<reward reward=\"6BED877089ECDC53\" quest=\"19FF00BA5161FE04\"/>",
+      "<reward reward=\"0866DC750474E58E\" quest=\"19FF00BA5161FE04\"/>"
+    ],
+    "subtitle": {
+      "text": "Find Frozen Peaks"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -448,
+          -16
+        ]
+      }
+    }
+  }
+}

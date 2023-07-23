@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "423493D133AB8111": {
+      "type": "heracles:item",
+      "item": "minecraft:trident",
+      "collection_type": "manual",
+      "nbt": {
+        "Damage": 0
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "What is it, Boy.",
+    "description": [
+      "<h1>What is it, Boy.</h1>",
+      "<hr/>",
+      "Acquire a Trident",
+      "<br/>",
+      "As the only §dhybrid melee/ranged§r weapon, §3Tridents§r can be §dthrown at speed underwater§r, outmatching §3Bows§r.",
+      "<br/>",
+      "Tridents need to be §dpicked up after throwing§r, unless they're enchanted with §eLoyalty§r or §eRiptide§r. ",
+      "<br/>",
+      "§eLoyalty§r causes the trident to §dreturn§r after being thrown. §eRiptide§r turns the trident throw into a §dlunging melee attack§r.",
+      "<br/>",
+      "§7[Tinkerer's Quilt]§r Tridents can be crafted from §3Prismarine Shards§r, which drop from guardians in §2Ocean Monuments§r.",
+      "<br/>",
+      "§7[Fabrication]§r Tridents can also be enchanted with §dPower or Sharpness§r. §3Impaling§r works on any wet mob. §3Channeling II§r works in rain.",
+      "Tasks:",
+      "<task task=\"423493D133AB8111\" quest=\"2F6EDECBF7606385\"/>"
+    ],
+    "subtitle": {
+      "text": "Acquire a Trident"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          -64
+        ]
+      }
+    }
+  }
+}

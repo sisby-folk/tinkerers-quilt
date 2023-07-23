@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "039E822D32DC0A9B",
+    "56E8B3168203AA6F",
+    "56FFE5307AA82DCD",
+    "51AC2E4D1053FC19",
+    "471B71E3199030AC",
+    "4E780825E91BA9CA",
+    "3D5694CCE8F191BC"
+  ],
+  "tasks": {
+    "7D62C1C889EBCCF0": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "11148912213C7C5F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:white_banner",
+        "count": "1"
+      }
+    },
+    "6D70B93E29F89580": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond_boots",
+        "count": "1"
+      }
+    },
+    "42C0FC5578746887": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond_horse_armor",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Hermes",
+    "description": [
+      "<h1>Hermes</h1>",
+      "<hr/>",
+      "Embrace the fastest travel",
+      "<br/>",
+      "Tasks:",
+      "<task task=\"7D62C1C889EBCCF0\" quest=\"3347D4D672927CA6\"/>",
+      "Rewards:",
+      "<reward reward=\"11148912213C7C5F\" quest=\"3347D4D672927CA6\"/>",
+      "<reward reward=\"6D70B93E29F89580\" quest=\"3347D4D672927CA6\"/>",
+      "<reward reward=\"42C0FC5578746887\" quest=\"3347D4D672927CA6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_boots"
+    },
+    "subtitle": {
+      "text": "Embrace the fastest travel"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -320,
+          -368
+        ]
+      }
+    }
+  }
+}

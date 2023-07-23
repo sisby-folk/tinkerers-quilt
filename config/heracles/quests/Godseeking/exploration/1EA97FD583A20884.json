@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "464044A582E87B61": {
+      "type": "heracles:biome",
+      "biomes": "minecraft:dark_forest"
+    }
+  },
+  "rewards": {
+    "7994DB3C25E2858B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Vampire Haven",
+    "description": [
+      "<h1>Vampire Haven</h1>",
+      "<hr/>",
+      "Find a Dark Forest",
+      "<br/>",
+      "§2Dark Forests§r are home to §3Dark Oaks§r, large trees with wide leaf canopies, §dshading most of the biome§r.",
+      "<br/>",
+      "This can §dprotect sunlight-sensitive creatures§r, allowing hostile mobs to survive during the day.",
+      "Tasks:",
+      "<task task=\"464044A582E87B61\" quest=\"1EA97FD583A20884\"/>",
+      "Rewards:",
+      "<reward reward=\"7994DB3C25E2858B\" quest=\"1EA97FD583A20884\"/>"
+    ],
+    "subtitle": {
+      "text": "Find a Dark Forest"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -112,
+          -16
+        ]
+      }
+    }
+  }
+}

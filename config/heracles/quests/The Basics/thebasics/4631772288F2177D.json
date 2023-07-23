@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6CDF6FE603499CB1",
+    "345A5D446CD0E0D2"
+  ],
+  "tasks": {
+    "3403F8CB9F8DB4E1": {
+      "type": "heracles:structure",
+      "structures": "minecraft:end_city"
+    }
+  },
+  "rewards": {
+    "32566A5555DA9E2B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chorus_fruit",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Shell City",
+    "description": [
+      "<h1>Shell City</h1>",
+      "<hr/>",
+      "Find an End City",
+      "<br/>",
+      "An §2End Gateway§r can be identified by its beam of purple light. Throwing an §3Ender Pearl§r through it transports you to the §2Outer End§r.",
+      "<br/>",
+      "Here, you can find a large ring of islands, broken up by only §3Chorus Plants§r and §2End Cities§r.",
+      "<br/>",
+      "§eChorus Fruit§r randomly §dteleports§r the user, grounding them.",
+      "<br/>",
+      "§2End Cities§r contain §cShulkers§r, loot chests, and rarely an §2End Ship§r.",
+      "<br/>",
+      "§cShulkers§r shoot homing bullets that cause dangerous §dlevitation§r on hit, and are §3invulnerable§r while their shells are closed.",
+      "<br/>",
+      "§7[Carpet]§r Chorus Fruit grounds players §dwithout fall damage§r",
+      "Tasks:",
+      "<task task=\"3403F8CB9F8DB4E1\" quest=\"4631772288F2177D\"/>",
+      "Rewards:",
+      "<reward reward=\"32566A5555DA9E2B\" quest=\"4631772288F2177D\"/>"
+    ],
+    "subtitle": {
+      "text": "Find an End City"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          320,
+          64
+        ]
+      }
+    }
+  }
+}

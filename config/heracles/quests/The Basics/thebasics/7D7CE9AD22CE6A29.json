@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "71B31B0EAE8DCD3D"
+  ],
+  "tasks": {
+    "1E03C0456495EB2B": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_star",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "598DAB4227729FA0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_block"
+      }
+    },
+    "5B4342A1AACA2637": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 8
+      }
+    },
+    "59F754265F0F8A3C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald"
+      }
+    }
+  },
+  "display": {
+    "title": "I am a Comet",
+    "description": [
+      "<h1>I am a Comet</h1>",
+      "<hr/>",
+      "Receive a Nether Star",
+      "<br/>",
+      "A §3Nether Star§r can be obtained by completing the §4Wither§r ritual. It's used to create a §3Beacon§r that provides a §dpermanent status effect§r in a radius. ",
+      "<br/>",
+      "To function, §3Beacons§r must be placed on top of a 3x3 flat square of §3Iron, Gold, Diamond, Emerald, or Netherite Blocks§r.",
+      "<br/>",
+      "Further layers can be added below the pyramid to §dimprove the beacon§r - 5x5, then 7x7, etc.",
+      "<br/>",
+      "§7[Tinkerer's Quilt]§r §eCopper Blocks§r can also be used for pyramids, as long as they're §3kept clean§r using an §3Axe§r.",
+      "Tasks:",
+      "<task task=\"1E03C0456495EB2B\" quest=\"7D7CE9AD22CE6A29\"/>",
+      "Rewards:",
+      "<reward reward=\"598DAB4227729FA0\" quest=\"7D7CE9AD22CE6A29\"/>",
+      "<reward reward=\"5B4342A1AACA2637\" quest=\"7D7CE9AD22CE6A29\"/>",
+      "<reward reward=\"59F754265F0F8A3C\" quest=\"7D7CE9AD22CE6A29\"/>"
+    ],
+    "subtitle": {
+      "text": "Receive a Nether Star"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          208,
+          112
+        ]
+      }
+    }
+  }
+}

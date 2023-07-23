@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "322528062359C5A9"
+  ],
+  "tasks": {
+    "154B36532DA2223D": {
+      "type": "heracles:item",
+      "item": "minecraft:piston",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "156C9AB09D17BD00": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone_lamp"
+      }
+    },
+    "14B58E2635453524": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sticky_piston",
+        "count": 8
+      }
+    },
+    "092F75816E5B1F60": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:piston",
+        "count": 3
+      }
+    },
+    "10FAA401E153B5A8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_trapdoor",
+        "count": 6
+      }
+    },
+    "2BE6AB4D8AFF5767": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:slime_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Functional Components",
+    "description": [
+      "<h1>Functional Components</h1>",
+      "<hr/>",
+      "Craft a Piston",
+      "<br/>",
+      "§3Functional Components§r will §3activate§r when weakly or strongly powered, or when §dadjacent to weakly powered blocks§r.",
+      "<br/>",
+      "When activated, a §ePiston§r §3extends§r, §dpushing up to 16 blocks in front of them§r forward. ",
+      "<br/>",
+      "When deactivated, they §3retract§r - A §eSticky Piston§r will §dpull the block in front of it backwards§r.",
+      "<br/>",
+      "§eSlime Blocks§r will §3attach blocks together§r, causing piston movements to §dmove all at once§r.",
+      "<br/>",
+      "§3Doors and Trapdoors§r can §dalso be toggled by redstone§r. §eIron Variants§r of these can only be opened this way.",
+      "<br/>",
+      "§7[Carpet]§r §3Chain§r will also connect pushed blocks along its axis. Two §3Pistons§r can be powered at the same time to §dextend twice as far§r.",
+      "Tasks:",
+      "<task task=\"154B36532DA2223D\" quest=\"29358767A696B164\"/>",
+      "Rewards:",
+      "<reward reward=\"156C9AB09D17BD00\" quest=\"29358767A696B164\"/>",
+      "<reward reward=\"14B58E2635453524\" quest=\"29358767A696B164\"/>",
+      "<reward reward=\"092F75816E5B1F60\" quest=\"29358767A696B164\"/>",
+      "<reward reward=\"10FAA401E153B5A8\" quest=\"29358767A696B164\"/>",
+      "<reward reward=\"2BE6AB4D8AFF5767\" quest=\"29358767A696B164\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Piston"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          368,
+          -368
+        ]
+      }
+    }
+  }
+}

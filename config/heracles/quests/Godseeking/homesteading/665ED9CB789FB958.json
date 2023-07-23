@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2DF95382AC7B7AD4"
+  ],
+  "tasks": {
+    "01CB40E24772863D": {
+      "type": "heracles:item",
+      "item": "minecraft:nautilus_shell",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "6AF69D0FC37EB581": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:prismarine_shard",
+        "count": 16
+      }
+    },
+    "07421828A6ADE48A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:nautilus_shell",
+        "count": 6
+      }
+    }
+  },
+  "display": {
+    "title": "Treasure Fisher",
+    "description": [
+      "<h1>Treasure Fisher</h1>",
+      "<hr/>",
+      "Fish up a Nautilus Shell",
+      "<br/>",
+      "§eNautilus Shells§r can be §3fished§r at a 1% chance, or up to 2% with §eLuck of the Sea§r.",
+      "Tasks:",
+      "<task task=\"01CB40E24772863D\" quest=\"665ED9CB789FB958\"/>",
+      "Rewards:",
+      "<reward reward=\"6AF69D0FC37EB581\" quest=\"665ED9CB789FB958\"/>",
+      "<reward reward=\"07421828A6ADE48A\" quest=\"665ED9CB789FB958\"/>"
+    ],
+    "subtitle": {
+      "text": "Fish up a Nautilus Shell"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          0,
+          -320
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {
+    "36831BB40E3FD9DA": {
+      "type": "heracles:item",
+      "item": "minecraft:beehive",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "15E683D9BB2C556A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 16
+      }
+    },
+    "1F26D521AD2B03C0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cornflower",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Buzzed",
+    "description": [
+      "<h1>Buzzed</h1>",
+      "<hr/>",
+      "Craft a Beehive",
+      "<br/>",
+      "§2Bees§r provide both §3Honeycomb§r and §3Honey Bottles§r, and also §dimprove crop growth§r.",
+      "<br/>",
+      "After crafting a §3Beehive§r using honeycomb from §3Bee Nests§r §7(See Exploration: Naturalist)§r, bees must be lead using §eflowers§r to the new hive, where they can then be bred.",
+      "<br/>",
+      "Bees §dpollinate crops§r below them after visiting a flower. Try building your farm §dbetween hives and flowers§r!",
+      "<br/>",
+      "Honeycomb can make §3Candles§r, and also §dprevent copper blocks from aging§r!",
+      "<br/>",
+      "§7[FeedTheBees]§r Bees will §donly take damage§r to regrow their stinger. They can be fed §3Sugar§r to heal them.",
+      "<br/>",
+      "§7[Tinkerer's Quilt]§r §3Waxing§r copper beacons will prevent expiry.",
+      "Tasks:",
+      "<task task=\"36831BB40E3FD9DA\" quest=\"5DE40B33B987E149\"/>",
+      "Rewards:",
+      "<reward reward=\"15E683D9BB2C556A\" quest=\"5DE40B33B987E149\"/>",
+      "<reward reward=\"1F26D521AD2B03C0\" quest=\"5DE40B33B987E149\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Beehive"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          128,
+          -368
+        ]
+      }
+    }
+  }
+}

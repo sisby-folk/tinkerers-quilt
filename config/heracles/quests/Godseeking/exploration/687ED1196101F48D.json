@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "2D8CC208859BC15D": {
+      "type": "heracles:entity_interaction",
+      "entity": "minecraft:turtle"
+    }
+  },
+  "rewards": {
+    "7C89F52AB86043C4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:seagrass",
+        "count": 10
+      }
+    },
+    "57BADD860E69CFA5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_fence",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Hey, Little Blue!",
+    "description": [
+      "<h1>Hey, Little Blue!</h1>",
+      "<hr/>",
+      "Find a Turtle",
+      "<br/>",
+      "§3Turtles§r can be found roaming on §2Beaches§r. ",
+      "<br/>",
+      "Their favourite food is §eSeagrass§r.",
+      "<br/>",
+      "Bred turtles lay §3Turtle Eggs§r, which hatch after many days if not §3trampled§r by mobs - build a §eFence§r!",
+      "<br/>",
+      "When it grows into an adult, a §3Baby Turtle§r drops a §dScute§r.",
+      "Tasks:",
+      "<task task=\"2D8CC208859BC15D\" quest=\"687ED1196101F48D\"/>",
+      "Rewards:",
+      "<reward reward=\"7C89F52AB86043C4\" quest=\"687ED1196101F48D\"/>",
+      "<reward reward=\"57BADD860E69CFA5\" quest=\"687ED1196101F48D\"/>"
+    ],
+    "subtitle": {
+      "text": "Find a Turtle"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -272,
+          -192
+        ]
+      }
+    }
+  }
+}

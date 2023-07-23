@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "tasks": {
+    "774A1B2AF13DC558": {
+      "type": "heracles:stat",
+      "stat": "minecraft:play_time",
+      "target": 1
+    }
+  },
+  "rewards": {
+    "7F1DBC92AA84645F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ftbquests:book"
+      }
+    }
+  },
+  "display": {
+    "title": "Welcome to §a§lTinkerer's Quilt!§r",
+    "description": [
+      "<h1>Welcome to §a§lTinkerer's Quilt!§r</h1>",
+      "<hr/>",
+      "Humans are also allowed!",
+      "<br/>",
+      "This is a vanilla-compatible modpack made by §2clawby§r, §7kapesi§r, §5hornby§r, §dlaughter§r, §cherrah§r, §4metal§r, and §3bea§r",
+      "<br/>",
+      "It focuses on small changes to make the game feel smoother and more accessible, like this quest book.",
+      "<br/>",
+      "To access these quests, use the quest book or press §7[§r§6J§r§7]§r§r at any time.",
+      "<br/>",
+      "This quest category contains §dbasic information about the modpack§r, for all players.",
+      "Tasks:",
+      "<task task=\"774A1B2AF13DC558\" quest=\"15402DCFAC7CC56A\"/>",
+      "Rewards:",
+      "<reward reward=\"7F1DBC92AA84645F\" quest=\"15402DCFAC7CC56A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ftbquests:book"
+    },
+    "subtitle": {
+      "text": "Humans are also allowed!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          -32
+        ]
+      }
+    }
+  }
+}

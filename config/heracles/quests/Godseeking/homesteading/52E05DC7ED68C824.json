@@ -1,0 +1,101 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "29358767A696B164"
+  ],
+  "tasks": {
+    "1F606E3FDB50CED9": {
+      "type": "heracles:item",
+      "item": "minecraft:dispenser",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "759706E6D69FE6F8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bucket"
+      }
+    },
+    "65C59DBDB23F27FA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cactus"
+      }
+    },
+    "0616041E8113D26A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shears",
+        "count": "1"
+      }
+    },
+    "658F62BCBC99A1FA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stick"
+      }
+    }
+  },
+  "display": {
+    "title": "Advanced Functional Components",
+    "description": [
+      "<h1>Advanced Functional Components</h1>",
+      "<hr/>",
+      "Craft a Dispenser",
+      "<br/>",
+      "When powered, §3Dispensers§r will §dperform a variety of actions§r depending on the item in their first non-empty slot.",
+      "<br/>",
+      "Dispensers can:",
+      " - Fire §3Arrows§r/§3Fire Charges§r/§3Fireworks§r",
+      " - Throw all §3throwables§r",
+      " - Ignite and drop §3TNT§r straight down",
+      " - Use §3Flint and Steel§r",
+      " - Use empty and filled §eBuckets§r",
+      " - Place §3Boats§r and §3Minecarts§r",
+      " - Place §3Shulker Boxes§r",
+      " - Equip §3Armor§r or §3Saddles§r",
+      " - Complete §aGolems§r and §cWithers§r",
+      " - §eShear§r §3Beehives§r and §aSheep§r",
+      " - Bottle §3Honey§r and §3Water§r",
+      " - Use §3Bone Meal§r on §3crops§r",
+      " - Charge §3Respawn Anchors§r",
+      "<br/>",
+      "§7[Carpet]§r Dispensers can also:",
+      " - Place blocks",
+      " - (§eCactus§r) Rotate blocks ",
+      " - Carve §3Pumpkins§r",
+      " - Feed animals",
+      " - Add §3Chests§r/etc to §3Minecarts§r",
+      " - Milk animals",
+      " - Pot plants",
+      " - Play a §3Music Disc§r at a §3Jukebox§r",
+      " - Till §3Soil§r",
+      " - Strip §3Logs§r and §3Copper Blocks§r",
+      " - Fill and empty §3Cauldrons§r",
+      " - (§eStick§r) Toggle things - §3Buttons§r, §3Note Blocks§r, §3Comparators§r, §3Repeaters§r...",
+      "<br/>",
+      "The dispenser is very powerful! §dgive it a try ^^§r",
+      "Tasks:",
+      "<task task=\"1F606E3FDB50CED9\" quest=\"52E05DC7ED68C824\"/>",
+      "Rewards:",
+      "<reward reward=\"759706E6D69FE6F8\" quest=\"52E05DC7ED68C824\"/>",
+      "<reward reward=\"65C59DBDB23F27FA\" quest=\"52E05DC7ED68C824\"/>",
+      "<reward reward=\"0616041E8113D26A\" quest=\"52E05DC7ED68C824\"/>",
+      "<reward reward=\"658F62BCBC99A1FA\" quest=\"52E05DC7ED68C824\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Dispenser"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          416,
+          -384
+        ]
+      }
+    }
+  }
+}

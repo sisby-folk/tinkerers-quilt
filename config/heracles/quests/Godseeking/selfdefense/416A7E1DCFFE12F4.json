@@ -1,0 +1,119 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7BA5B355C7DFF7E3",
+    "2BA288C7EE0930DB",
+    "3CF0AC2D4BCAC32A",
+    "21738CE4F9A8D8ED",
+    "694FD9F0D62B459F",
+    "4FC61BF1949C8BE9",
+    "5E4CDD8923AF498D",
+    "20147B09F8E40DE9",
+    "35AED8D09C7CF638",
+    "52AC9ECD81435809",
+    "349E511AA603A620",
+    "26CD2014C0B206D0",
+    "6102768050D4F3E5",
+    "0CB054935E7926CC",
+    "023DDA57ED1603C5",
+    "68C1E9C446D8A069"
+  ],
+  "tasks": {
+    "4FC35A920EB9938B": {
+      "type": "heracles:check"
+    },
+    "6EE4EB7F7556CC79": {
+      "type": "heracles:item",
+      "amount": "2",
+      "item": "minecraft:gold_block",
+      "collection_type": "consume"
+    }
+  },
+  "rewards": {
+    "16C9B3A5E3C35A66": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:red_banner",
+        "count": "1"
+      }
+    },
+    "7583A8810BB00121": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shield",
+        "count": "1"
+      }
+    },
+    "4D16F81AB9FE5B5F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:crossbow",
+        "count": "1"
+      }
+    },
+    "2DD2CBCE8531DF64": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bow",
+        "count": "1"
+      }
+    },
+    "1D4362E8C41C383F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:trident",
+        "count": "1"
+      }
+    },
+    "165D9A617B8BA360": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:netherite_sword",
+        "count": "1"
+      }
+    },
+    "05F828B8616A9507": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Zagreus",
+    "description": [
+      "<h1>Zagreus</h1>",
+      "<hr/>",
+      "Send monsters back to Hell",
+      "<br/>",
+      "§o§dInvest in these, they'll return the favour.§r§r",
+      "Tasks:",
+      "<task task=\"4FC35A920EB9938B\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<task task=\"6EE4EB7F7556CC79\" quest=\"416A7E1DCFFE12F4\"/>",
+      "Rewards:",
+      "<reward reward=\"16C9B3A5E3C35A66\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"7583A8810BB00121\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"4D16F81AB9FE5B5F\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"2DD2CBCE8531DF64\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"1D4362E8C41C383F\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"165D9A617B8BA360\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"05F828B8616A9507\" quest=\"416A7E1DCFFE12F4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_nether_bricks"
+    },
+    "subtitle": {
+      "text": "Send monsters back to Hell"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          144,
+          -272
+        ]
+      }
+    }
+  }
+}

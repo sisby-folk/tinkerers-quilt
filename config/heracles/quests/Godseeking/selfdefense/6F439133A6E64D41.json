@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "72AE8CA31BEC3944": {
+      "type": "heracles:item",
+      "item": "#c:boots",
+      "collection_type": "manual"
+    },
+    "4DC5C93AD5B25BBB": {
+      "type": "heracles:item",
+      "item": "#c:leggings",
+      "collection_type": "manual"
+    },
+    "3F128FDAF39A72A0": {
+      "type": "heracles:item",
+      "item": "#c:chestplates",
+      "collection_type": "manual"
+    },
+    "5497F18CED1A1CD1": {
+      "type": "heracles:item",
+      "item": "#c:helmets",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "66EA84057C1C7C46": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "No Service",
+    "description": [
+      "<h1>No Service</h1>",
+      "<hr/>",
+      "Acquire armor for every slot",
+      "<br/>",
+      "Armor §3defense§r stacks for each piece worn, reducing damage further.",
+      "<br/>",
+      "§3Diamond and Netherite Armor§r provide §3Toughness§r, which §dresists high-damage hits§r.",
+      "<br/>",
+      "Netherite also provides §3Knockback Resistance§r, §dreducing the force of hits§r.",
+      "<br/>",
+      "All armor can be enchanted with §3Protection§r, §dreducing all damage§r slightly. Alternatively, it can be enchanted with §3Projectile, §3Blast, or Fire Protection§r, resisting their respective damage type moreso.",
+      "<br/>",
+      "§eThorns§r armor §ddeals damage back to attackers§r.",
+      "<br/>",
+      "Helmets can receive §3Respiration§r and §3Aqua Affinity§r, increasing breath time and mining speed §2underwater§r.",
+      "<br/>",
+      "Boots can receive §3Feather Falling§r, §dreducing fall damage§r.",
+      "<br/>",
+      "§7[Fabrication]§r §3Feather Falling V§r makes boots take §dall player fall damage§r.",
+      "Tasks:",
+      "<task task=\"72AE8CA31BEC3944\" quest=\"6F439133A6E64D41\"/>",
+      "<task task=\"4DC5C93AD5B25BBB\" quest=\"6F439133A6E64D41\"/>",
+      "<task task=\"3F128FDAF39A72A0\" quest=\"6F439133A6E64D41\"/>",
+      "<task task=\"5497F18CED1A1CD1\" quest=\"6F439133A6E64D41\"/>",
+      "Rewards:",
+      "<reward reward=\"66EA84057C1C7C46\" quest=\"6F439133A6E64D41\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:leather_chestplate"
+    },
+    "subtitle": {
+      "text": "Acquire armor for every slot"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -48,
+          0
+        ]
+      }
+    }
+  }
+}

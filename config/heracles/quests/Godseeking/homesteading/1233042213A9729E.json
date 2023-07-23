@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "19EF31E91BB0C484": {
+      "type": "heracles:item",
+      "item": "minecraft:stonecutter",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "6C023B3A87A36F36": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Architect",
+    "description": [
+      "<h1>Architect</h1>",
+      "<hr/>",
+      "Craft a Stonecutter",
+      "<br/>",
+      "§3Stonecutters§r are used to §dcheaply craft decorative blocks§r.",
+      "<br/>",
+      "By placing a stone-like block in the §3input slot§r, you can §dtransform it§r into many decorative and functional variants.",
+      "Tasks:",
+      "<task task=\"19EF31E91BB0C484\" quest=\"1233042213A9729E\"/>",
+      "Rewards:",
+      "<reward reward=\"6C023B3A87A36F36\" quest=\"1233042213A9729E\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Stonecutter"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          224,
+          -320
+        ]
+      }
+    }
+  }
+}

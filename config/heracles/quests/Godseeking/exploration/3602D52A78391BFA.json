@@ -1,0 +1,76 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "0305A29ECBFA79FA"
+  ],
+  "tasks": {
+    "372E5994E7E2ABAB": {
+      "type": "heracles:item",
+      "item": "minecraft:axolotl_bucket",
+      "collection_type": "manual",
+      "nbt": {}
+    }
+  },
+  "rewards": {
+    "6EC735EE10ADF7A1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tropical_fish_bucket",
+        "count": "1"
+      }
+    },
+    "55F85E84106E9EE7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tropical_fish_bucket",
+        "count": "1"
+      }
+    },
+    "6ED6A0A24EC1C4FB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tropical_fish_bucket",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Underwater Fighting Team!",
+    "description": [
+      "<h1>Underwater Fighting Team!</h1>",
+      "<hr/>",
+      "Bucket an Axolotl",
+      "<br/>",
+      "§aAxolotls§r can be both §dtamed and transported§r using a §3Bucket§r - where they can also be §drenamed§r at an §3Anvil§r.",
+      "<br/>",
+      "Axolotls are §dunderwater combat allies§r - attacking enemies, cleansing fatigue, and even healing!",
+      "<br/>",
+      "They're very hardy, and even §dplay dead to regenerate§r when low on health.",
+      "<br/>",
+      "Their favourite food is a §3Bucket of Tropical Fish§r.",
+      "<br/>",
+      "Axolotls §ddon't follow the player§r! Use §3Buckets§r or §3Leads§r to keep them close by.",
+      "<br/>",
+      "§7[Tinkerer's Quilt]§r Feeding a bucketed axolotl §3Glow Berries§r will produce a §3Glow Ink Sac§r.§7 {Bug: This removes their name!}§r",
+      "Tasks:",
+      "<task task=\"372E5994E7E2ABAB\" quest=\"3602D52A78391BFA\"/>",
+      "Rewards:",
+      "<reward reward=\"6EC735EE10ADF7A1\" quest=\"3602D52A78391BFA\"/>",
+      "<reward reward=\"55F85E84106E9EE7\" quest=\"3602D52A78391BFA\"/>",
+      "<reward reward=\"6ED6A0A24EC1C4FB\" quest=\"3602D52A78391BFA\"/>"
+    ],
+    "subtitle": {
+      "text": "Bucket an Axolotl"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -544,
+          -48
+        ]
+      }
+    }
+  }
+}

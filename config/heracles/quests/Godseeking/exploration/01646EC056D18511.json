@@ -1,0 +1,86 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2591980163249EF1",
+    "51415C8C88AA350B",
+    "3F3A1267F224AD07",
+    "65DADF56E2AB01DF",
+    "0B63891D4F70167D"
+  ],
+  "tasks": {},
+  "rewards": {
+    "5F533ACB0CD57C46": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald_block"
+      }
+    },
+    "7464DF60ADE26E4B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald_block"
+      }
+    },
+    "3838C1067FEF0042": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald_block"
+      }
+    },
+    "443294621BF1DF97": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald_block"
+      }
+    },
+    "17DAFF23D966A7D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 4
+      }
+    },
+    "37BEFF87E8E3C39B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:carved_pumpkin"
+      }
+    }
+  },
+  "display": {
+    "title": "Well-Travelled",
+    "description": [
+      "<h1>Well-Travelled</h1>",
+      "<hr/>",
+      "Become a familiar face",
+      "<br/>",
+      "Large enough §2Villages§r are protected by §3Iron Golems§r.",
+      "<br/>",
+      "Iron Golems can also be built with a 4-block T of §eIron Blocks§r topped with a §eCarved Pumpkin§r.",
+      "<br/>",
+      "Iron Golems are §dcombat allies§r and will fight hostile mobs, including §cIllagers§r.",
+      "Rewards:",
+      "<reward reward=\"5F533ACB0CD57C46\" quest=\"01646EC056D18511\"/>",
+      "<reward reward=\"7464DF60ADE26E4B\" quest=\"01646EC056D18511\"/>",
+      "<reward reward=\"3838C1067FEF0042\" quest=\"01646EC056D18511\"/>",
+      "<reward reward=\"443294621BF1DF97\" quest=\"01646EC056D18511\"/>",
+      "<reward reward=\"17DAFF23D966A7D8\" quest=\"01646EC056D18511\"/>",
+      "<reward reward=\"37BEFF87E8E3C39B\" quest=\"01646EC056D18511\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:filled_map"
+    },
+    "subtitle": {
+      "text": "Become a familiar face"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          -368
+        ]
+      }
+    }
+  }
+}

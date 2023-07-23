@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "145253845DFC11C4": {
+      "type": "heracles:item",
+      "item": "minecraft:crossbow",
+      "collection_type": "manual",
+      "nbt": {
+        "Damage": 0
+      }
+    }
+  },
+  "rewards": {
+    "15AEF76194DAE572": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:crossbow",
+        "count": "1"
+      }
+    },
+    "5970722A25047306": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:firework_rocket",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Very enthusiastic walks",
+    "description": [
+      "<h1>Very enthusiastic walks</h1>",
+      "<hr/>",
+      "Acquire a Crossbow",
+      "<br/>",
+      "Whether crafted or looted from a §cPillager§r, §3Crossbows§r can fire a bolt §dinstantly once loaded§r - even after sitting in the inventory.",
+      "<br/>",
+      "You can load a whole toolbar full, or even load §3Firework Rockets§r - up to 7 §3Firework Stars§r can be used for §dincreased area damage§r.",
+      "<br/>",
+      "Crossbows can be enchanted to §dload faster§r, §dpierce enemies§r, and §dmultiply fired bolts§r.",
+      "<br/>",
+      "§7[Fabrication]§r Crossbows can also receive §3Infinity§r.",
+      "Tasks:",
+      "<task task=\"145253845DFC11C4\" quest=\"6F32C33B97BE205B\"/>",
+      "Rewards:",
+      "<reward reward=\"15AEF76194DAE572\" quest=\"6F32C33B97BE205B\"/>",
+      "<reward reward=\"5970722A25047306\" quest=\"6F32C33B97BE205B\"/>"
+    ],
+    "subtitle": {
+      "text": "Acquire a Crossbow"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -48,
+          -128
+        ]
+      }
+    }
+  }
+}

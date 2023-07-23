@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {
+    "586A744062E94A9A": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Variety Fair",
+    "description": [
+      "<h1>Variety Fair</h1>",
+      "<hr/>",
+      "Learn to farm many things",
+      "<br/>",
+      "Many resources are §3renewable§r, meaning they can be §dacquired endlessly§r without moving around.",
+      "<br/>",
+      "That means §3farms§r! but not just for crops - for §dbuilding materials, special food, and more§r!",
+      "<br/>",
+      "Farms that involve §3killing mobs§r are not covered here. Most farms can be §dautomated with machines§r - but this isn't required!",
+      "<br/>",
+      "Don't just gather the quest materials - §dmake the farms§r! and don't be afraid to make them look cool.",
+      "Tasks:",
+      "<task task=\"586A744062E94A9A\" quest=\"6B1E74EF171BFD5E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:composter"
+    },
+    "subtitle": {
+      "text": "Learn to farm many things"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          80,
+          -416
+        ]
+      }
+    }
+  }
+}

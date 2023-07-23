@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4631772288F2177D"
+  ],
+  "tasks": {
+    "46644D7C1F998D18": {
+      "type": "heracles:item",
+      "item": "#c:shulker_boxes",
+      "collection_type": "manual"
+    }
+  },
+  "rewards": {
+    "136655B16D9C5F53": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bundle",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Not a Backpack",
+    "description": [
+      "<h1>Not a Backpack</h1>",
+      "<hr/>",
+      "Craft a Shulker Box",
+      "<br/>",
+      "§3Shulker Boxes§r are chests that can be broken and picked up with the items still inside.",
+      "<br/>",
+      "An §eEnder Chest§r provides access to a player-specific inventory that's the §3same from any location§r. This can be used to §dstore valuable items and supplies§r. They cannot be collected with a regular pickaxe.",
+      "<br/>",
+      "§eBundles§r fit in §3Shulker Boxes§r, which fit in §3Ender Chests§r, allowing for §dextensive personal storage§r.",
+      "Tasks:",
+      "<task task=\"46644D7C1F998D18\" quest=\"58FCE9FA57CB5D39\"/>",
+      "Rewards:",
+      "<reward reward=\"136655B16D9C5F53\" quest=\"58FCE9FA57CB5D39\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a Shulker Box"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          320,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "6529785FCB4BFBCA": {
+      "type": "heracles:biome",
+      "biomes": "minecraft:jungle"
+    }
+  },
+  "rewards": {
+    "711E73395CE09CA1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Not Funny, Didn't Laugh",
+    "description": [
+      "<h1>Not Funny, Didn't Laugh</h1>",
+      "<hr/>",
+      "Find a Jungle",
+      "<br/>",
+      "§2Jungles§r are populated with huge §3Trees§r, §aParrots§r, and §aOcelots§r.",
+      "<br/>",
+      "§3Jungle Trees§r are covered in §3Vines§r - a §dclimbable§r plant gatherable with §3Shears§r.",
+      "<br/>",
+      "Jungle Trees can only regrown with four §3Jungle Saplings§r in a square.",
+      "<br/>",
+      "§3Cocoa Beans§r also grow on jungle trees, and can be §dcrafted into Cookies§r.",
+      "<br/>",
+      "When §dtamed with seeds§r, §aParrots§r will perch on your shoulder and occasionally §dmimic the sounds of mobs§r.",
+      "<br/>",
+      "Like §aCats§r, §aOcelots§r scare away §cCreepers§r - but they §dcan't be tamed§r. They can be fed §3Raw Fish§r if approached slowly to gain §3trust§r.",
+      "Tasks:",
+      "<task task=\"6529785FCB4BFBCA\" quest=\"4B74AEAA4D30B428\"/>",
+      "Rewards:",
+      "<reward reward=\"711E73395CE09CA1\" quest=\"4B74AEAA4D30B428\"/>"
+    ],
+    "subtitle": {
+      "text": "Find a Jungle"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -400,
+          -16
+        ]
+      }
+    }
+  }
+}

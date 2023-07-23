@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "25CF745E88778E86": {
+      "type": "heracles:kill_entity",
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:cave_spider"
+      }
+    }
+  },
+  "rewards": {
+    "15BE08046D7F49F0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Kuzco's Poison",
+    "description": [
+      "<h1>Kuzco's Poison</h1>",
+      "<hr/>",
+      "Kill 5 Cave Spiders",
+      "<br/>",
+      "The poison from a §cCave Spider§r can deal damage very quickly, and make §2Abandoned Mineshafts§r much more dangerous.",
+      "<br/>",
+      "Stay out of §3Cobwebs§r where they can outmaneuver you, and stick to §dhallways where you can't be surrounded§r.",
+      "Tasks:",
+      "<task task=\"25CF745E88778E86\" quest=\"5E4CDD8923AF498D\"/>",
+      "Rewards:",
+      "<reward reward=\"15BE08046D7F49F0\" quest=\"5E4CDD8923AF498D\"/>"
+    ],
+    "subtitle": {
+      "text": "Kill 5 Cave Spiders"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          32,
+          -160
+        ]
+      }
+    }
+  }
+}

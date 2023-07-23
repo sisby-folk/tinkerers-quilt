@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "021CBA58542E43A1": {
+      "type": "heracles:item",
+      "item": "minecraft:flint_and_steel",
+      "collection_type": "consume",
+      "nbt": {
+        "Damage": 0
+      }
+    }
+  },
+  "rewards": {
+    "6A0B4BFA09FCF31E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:flint_and_steel",
+        "count": "1"
+      }
+    }
+  },
+  "display": {
+    "title": "Resourceful",
+    "description": [
+      "<h1>Resourceful</h1>",
+      "<hr/>",
+      "Pursue Improvised Weaponry",
+      "<br/>",
+      "While not designed as weapons, many items can be §dused offensively and defensively§r in combat.",
+      "<br/>",
+      "Quick use of §3Flint and Steel§r can burn enemies, damaging even §dlarge packs of mobs§r while you retreat.",
+      "Tasks:",
+      "<task task=\"021CBA58542E43A1\" quest=\"42E807C7DFC19EBF\"/>",
+      "Rewards:",
+      "<reward reward=\"6A0B4BFA09FCF31E\" quest=\"42E807C7DFC19EBF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:flint_and_steel"
+    },
+    "subtitle": {
+      "text": "Pursue Improvised Weaponry"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          0
+        ]
+      }
+    }
+  }
+}

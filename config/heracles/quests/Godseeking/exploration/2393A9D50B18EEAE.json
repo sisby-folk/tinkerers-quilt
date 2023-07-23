@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "10CFFE20ABD36803"
+  ],
+  "tasks": {
+    "3A8EA4DA6B1CD11A": {
+      "type": "heracles:block_interaction",
+      "block": "minecraft:amethyst_block"
+    }
+  },
+  "rewards": {
+    "6BFD9A2D48C54DCF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Come on, P!",
+    "description": [
+      "<h1>Come on, P!</h1>",
+      "<hr/>",
+      "Find a Geode",
+      "<br/>",
+      "§3Amethyst§r grows in large §2Geodes§r lined with §3Basalt§r and §3Calcite§r underground.",
+      "<br/>",
+      "Budding Amethyst Blocks §dcan't be removed§r! Only §3Clusters§r can be renewably broken.",
+      "<br/>",
+      "§3Amethyst Shards§r can be used to make §3Tinted Glass§r which blocks light.",
+      "Tasks:",
+      "<task task=\"3A8EA4DA6B1CD11A\" quest=\"2393A9D50B18EEAE\"/>",
+      "Rewards:",
+      "<reward reward=\"6BFD9A2D48C54DCF\" quest=\"2393A9D50B18EEAE\"/>"
+    ],
+    "subtitle": {
+      "text": "Find a Geode"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -272,
+          144
+        ]
+      }
+    }
+  }
+}

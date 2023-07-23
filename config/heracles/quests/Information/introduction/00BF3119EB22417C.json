@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "47D97349DBC5E67F": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Crafting Rebalance",
+    "description": [
+      "<h1>Crafting Rebalance</h1>",
+      "<hr/>",
+      "Sentimentality and Vegetarianism",
+      "<br/>",
+      "§7[Tinkerer's Quilt]§r There are alternative recipes for §dLeather, Slimeballs, and Glow Ink Sacs§r that don't require killing their respective mobs. §dArrows§r can also be scavenged from §cskeletons§r.",
+      "<br/>",
+      "§7[Fabrication]§r Villagers will §drotate their stock every day§r: You're more likely to see special items, but §dcan't buy them infinitely§r.",
+      "<br/>",
+      "§7[Tinkerer's Smithing]§r There are recipes to §dupgrade§r equipment to better materials at the §3Smithing Table§r - or the §3Crafting Table§r for §3unenchanted§r gear.",
+      "<br/>",
+      "There are also matching recipes to §drepair§r equipment at the §3Anvil§r or the §3Crafting Table§r, costing no experience or work.",
+      "<br/>",
+      "Additionally, equipment that with an §3enchantment§r or a custom name can be §drepaired after it breaks§r",
+      "<br/>",
+      "Finally, equipment can be §dde-worked§r one stage using §3Netherite Scrap§r at an §3Anvil§r, making adding enchantments §dcost less experience§r.",
+      "Tasks:",
+      "<task task=\"47D97349DBC5E67F\" quest=\"00BF3119EB22417C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:smithing_table"
+    },
+    "subtitle": {
+      "text": "Sentimentality and Vegetarianism"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          48,
+          -64
+        ]
+      }
+    }
+  }
+}
