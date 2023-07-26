@@ -55,6 +55,10 @@
       "<reward reward=\"383B477AF836D509\" quest=\"7164FFFB3AFAFEF3\"/>",
       "<reward reward=\"6270301AFBA65ECA\" quest=\"7164FFFB3AFAFEF3\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:comparator"
+    },
     "subtitle": {
       "text": "Craft a Comparator"
     },

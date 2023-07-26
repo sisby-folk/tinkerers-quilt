@@ -48,6 +48,10 @@
       "<reward reward=\"065134E7CCC364F3\" quest=\"392E005585B652A4\"/>",
       "<reward reward=\"3E2FBE9ED10CF886\" quest=\"392E005585B652A4\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:respawn_anchor"
+    },
     "subtitle": {
       "text": "Craft a Respawn Anchor"
     },

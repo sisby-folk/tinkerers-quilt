@@ -55,6 +55,10 @@
       "<reward reward=\"18573A5F8C328475\" quest=\"0BB19BE0BA8A2037\"/>",
       "<reward reward=\"484F8FCB4B3A66BE\" quest=\"0BB19BE0BA8A2037\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:smoker"
+    },
     "subtitle": {
       "text": "Craft a Smoker"
     },

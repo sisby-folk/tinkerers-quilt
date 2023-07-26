@@ -74,6 +74,10 @@
       "<reward reward=\"10FAA401E153B5A8\" quest=\"29358767A696B164\"/>",
       "<reward reward=\"2BE6AB4D8AFF5767\" quest=\"29358767A696B164\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:piston"
+    },
     "subtitle": {
       "text": "Craft a Piston"
     },

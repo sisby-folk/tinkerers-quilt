@@ -44,6 +44,10 @@
       "<reward reward=\"36196BC047ECD6F4\" quest=\"096988E67755A423\"/>",
       "<reward reward=\"06431CBC247EA616\" quest=\"096988E67755A423\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:glass_pane"
+    },
     "subtitle": {
       "text": "Craft some Glass Panes"
     },

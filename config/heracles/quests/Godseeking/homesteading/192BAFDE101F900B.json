@@ -38,6 +38,10 @@
       "Rewards:",
       "<reward reward=\"4CB4E7F6893DB29C\" quest=\"192BAFDE101F900B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat_seeds"
+    },
     "subtitle": {
       "text": "Farm some Wheat"
     },

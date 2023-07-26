@@ -92,6 +92,10 @@
       "<reward reward=\"062F45C29C656DA6\" quest=\"1BCC72C060356F02\"/>",
       "<reward reward=\"4D54DDEB3C7D5DCE\" quest=\"1BCC72C060356F02\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bookshelf"
+    },
     "subtitle": {
       "text": "Craft a Bookshelf"
     },

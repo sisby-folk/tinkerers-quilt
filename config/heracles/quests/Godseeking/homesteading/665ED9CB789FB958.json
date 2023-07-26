@@ -42,6 +42,10 @@
       "<reward reward=\"6AF69D0FC37EB581\" quest=\"665ED9CB789FB958\"/>",
       "<reward reward=\"07421828A6ADE48A\" quest=\"665ED9CB789FB958\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nautilus_shell"
+    },
     "subtitle": {
       "text": "Fish up a Nautilus Shell"
     },

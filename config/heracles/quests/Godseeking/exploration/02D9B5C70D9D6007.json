@@ -38,6 +38,10 @@
       "Rewards:",
       "<reward reward=\"6226F2DFFF989177\" quest=\"02D9B5C70D9D6007\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sculk_catalyst"
+    },
     "subtitle": {
       "text": "Acquire a Sculk Catalyst"
     },

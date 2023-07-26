@@ -54,6 +54,10 @@
       "<reward reward=\"5B4342A1AACA2637\" quest=\"7D7CE9AD22CE6A29\"/>",
       "<reward reward=\"59F754265F0F8A3C\" quest=\"7D7CE9AD22CE6A29\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_star"
+    },
     "subtitle": {
       "text": "Receive a Nether Star"
     },

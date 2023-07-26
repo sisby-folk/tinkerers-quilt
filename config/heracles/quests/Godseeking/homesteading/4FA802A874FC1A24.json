@@ -44,6 +44,10 @@
       "<reward reward=\"7BD813AE660B2A00\" quest=\"4FA802A874FC1A24\"/>",
       "<reward reward=\"3A3C4FDE5BDFF070\" quest=\"4FA802A874FC1A24\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:heart_of_the_sea"
+    },
     "subtitle": {
       "text": "Find a Heart of the Sea"
     },

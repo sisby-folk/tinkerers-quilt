@@ -38,6 +38,10 @@
       "Rewards:",
       "<reward reward=\"3FFC081E8E887B66\" quest=\"51AC2E4D1053FC19\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blue_ice"
+    },
     "subtitle": {
       "text": "Acquire 1 Blue Ice"
     },

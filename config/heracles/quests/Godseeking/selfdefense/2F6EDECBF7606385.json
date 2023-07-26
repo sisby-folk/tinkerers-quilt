@@ -35,6 +35,10 @@
       "Tasks:",
       "<task task=\"423493D133AB8111\" quest=\"2F6EDECBF7606385\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:trident"
+    },
     "subtitle": {
       "text": "Acquire a Trident"
     },

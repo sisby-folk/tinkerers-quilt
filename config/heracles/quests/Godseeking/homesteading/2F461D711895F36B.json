@@ -64,6 +64,10 @@
       "<reward reward=\"30FE445CAB4EB5B8\" quest=\"2F461D711895F36B\"/>",
       "<reward reward=\"6075422D11F4102E\" quest=\"2F461D711895F36B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lantern"
+    },
     "subtitle": {
       "text": "Craft a Lantern"
     },

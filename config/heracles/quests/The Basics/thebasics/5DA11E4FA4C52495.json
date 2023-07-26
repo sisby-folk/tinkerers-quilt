@@ -48,6 +48,10 @@
       "<reward reward=\"191C95A50E20CDF1\" quest=\"5DA11E4FA4C52495\"/>",
       "<reward reward=\"47985ECF276FEE7A\" quest=\"5DA11E4FA4C52495\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ancient_debris"
+    },
     "subtitle": {
       "text": "Mine Ancient Debris"
     },

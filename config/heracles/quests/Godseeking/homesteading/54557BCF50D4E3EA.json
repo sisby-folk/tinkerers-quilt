@@ -48,6 +48,10 @@
       "<reward reward=\"6AAB5E2685C1561F\" quest=\"54557BCF50D4E3EA\"/>",
       "<reward reward=\"2718EBD9A068D8C2\" quest=\"54557BCF50D4E3EA\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace_minecart"
+    },
     "subtitle": {
       "text": "Build a Furnace Minecart"
     },

@@ -36,6 +36,10 @@
       "Rewards:",
       "<reward reward=\"6C023B3A87A36F36\" quest=\"1233042213A9729E\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stonecutter"
+    },
     "subtitle": {
       "text": "Craft a Stonecutter"
     },

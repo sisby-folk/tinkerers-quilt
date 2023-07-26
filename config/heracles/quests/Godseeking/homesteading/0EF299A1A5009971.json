@@ -89,6 +89,10 @@
       "<reward reward=\"5B9889C5B7BB26F8\" quest=\"0EF299A1A5009971\"/>",
       "<reward reward=\"07C3FFE36ED0CBEB\" quest=\"0EF299A1A5009971\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:rail"
+    },
     "subtitle": {
       "text": "Gather some Rail materials"
     },

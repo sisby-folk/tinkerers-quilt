@@ -58,6 +58,10 @@
       "<reward reward=\"6D0F8920542CF32D\" quest=\"1D22455B9931408B\"/>",
       "<reward reward=\"474AF377E296BE69\" quest=\"1D22455B9931408B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cartography_table"
+    },
     "subtitle": {
       "text": "Craft a Cartography Table"
     },

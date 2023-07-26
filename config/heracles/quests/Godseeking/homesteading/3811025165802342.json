@@ -44,6 +44,10 @@
       "<reward reward=\"541513A64B024FDD\" quest=\"3811025165802342\"/>",
       "<reward reward=\"21CA961DC7B55768\" quest=\"3811025165802342\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:honey_block"
+    },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "subtitle": {
       "text": "Craft a Honey Block"

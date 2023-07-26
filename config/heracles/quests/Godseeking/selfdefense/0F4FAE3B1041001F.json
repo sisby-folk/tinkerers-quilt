@@ -55,6 +55,10 @@
       "<reward reward=\"563CD36069D1D81A\" quest=\"0F4FAE3B1041001F\"/>",
       "<reward reward=\"5D87F90592336743\" quest=\"0F4FAE3B1041001F\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bow"
+    },
     "subtitle": {
       "text": "Acquire a Bow"
     },

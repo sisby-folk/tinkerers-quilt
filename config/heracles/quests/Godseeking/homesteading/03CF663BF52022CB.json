@@ -101,6 +101,10 @@
       "<reward reward=\"165279ED12C374FE\" quest=\"03CF663BF52022CB\"/>",
       "<reward reward=\"4481C1EB27086278\" quest=\"03CF663BF52022CB\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dropper"
+    },
     "subtitle": {
       "text": "Craft a Dropper"
     },

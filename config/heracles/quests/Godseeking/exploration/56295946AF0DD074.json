@@ -48,6 +48,10 @@
       "<reward reward=\"777F2EAF4C750945\" quest=\"56295946AF0DD074\"/>",
       "<reward reward=\"256FDDB934BF6FDE\" quest=\"56295946AF0DD074\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:turtle_helmet"
+    },
     "subtitle": {
       "text": "Craft a Turtle Shell"
     },

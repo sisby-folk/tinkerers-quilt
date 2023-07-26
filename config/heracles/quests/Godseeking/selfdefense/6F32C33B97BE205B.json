@@ -51,6 +51,10 @@
       "<reward reward=\"15AEF76194DAE572\" quest=\"6F32C33B97BE205B\"/>",
       "<reward reward=\"5970722A25047306\" quest=\"6F32C33B97BE205B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:crossbow"
+    },
     "subtitle": {
       "text": "Acquire a Crossbow"
     },

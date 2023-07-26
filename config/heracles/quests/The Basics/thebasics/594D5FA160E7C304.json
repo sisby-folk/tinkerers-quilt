@@ -56,6 +56,10 @@
       "<reward reward=\"225520377FB917DE\" quest=\"594D5FA160E7C304\"/>",
       "<reward reward=\"26E9795985070CF2\" quest=\"594D5FA160E7C304\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanting_table"
+    },
     "subtitle": {
       "text": "Craft an Enchanting Table"
     },

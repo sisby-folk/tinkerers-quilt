@@ -61,6 +61,10 @@
       "<reward reward=\"55F85E84106E9EE7\" quest=\"3602D52A78391BFA\"/>",
       "<reward reward=\"6ED6A0A24EC1C4FB\" quest=\"3602D52A78391BFA\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:axolotl_bucket"
+    },
     "subtitle": {
       "text": "Bucket an Axolotl"
     },

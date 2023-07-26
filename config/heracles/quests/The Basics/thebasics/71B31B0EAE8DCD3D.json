@@ -43,6 +43,10 @@
       "Rewards:",
       "<reward reward=\"58344DE55762F044\" quest=\"71B31B0EAE8DCD3D\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wither_skeleton_skull"
+    },
     "subtitle": {
       "text": "Obtain 3 Wither Skeleton Skulls"
     },

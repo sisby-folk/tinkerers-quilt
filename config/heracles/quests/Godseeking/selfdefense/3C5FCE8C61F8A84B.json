@@ -37,6 +37,10 @@
       "Rewards:",
       "<reward reward=\"3AFE2DDB58D42CEB\" quest=\"3C5FCE8C61F8A84B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:totem_of_undying"
+    },
     "subtitle": {
       "text": "Acquire a Totem of Undying"
     },

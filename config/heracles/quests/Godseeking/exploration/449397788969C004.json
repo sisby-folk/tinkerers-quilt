@@ -35,6 +35,10 @@
       "Rewards:",
       "<reward reward=\"2CB308083236D0E5\" quest=\"449397788969C004\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lodestone"
+    },
     "subtitle": {
       "text": "Find a Lodestone"
     },

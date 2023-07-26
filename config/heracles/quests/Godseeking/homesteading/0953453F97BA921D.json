@@ -57,6 +57,10 @@
       "<reward reward=\"582EDB12860E3AA7\" quest=\"0953453F97BA921D\"/>",
       "<reward reward=\"3092A26061AE76C8\" quest=\"0953453F97BA921D\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:conduit"
+    },
     "subtitle": {
       "text": "Craft a Conduit"
     },

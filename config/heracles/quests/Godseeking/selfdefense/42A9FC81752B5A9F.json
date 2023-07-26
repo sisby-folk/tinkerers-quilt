@@ -61,6 +61,10 @@
       "<reward reward=\"6EAB026D6644F841\" quest=\"42A9FC81752B5A9F\"/>",
       "<reward reward=\"602BE26182C32F8A\" quest=\"42A9FC81752B5A9F\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:shield"
+    },
     "subtitle": {
       "text": "Craft a Shield"
     },

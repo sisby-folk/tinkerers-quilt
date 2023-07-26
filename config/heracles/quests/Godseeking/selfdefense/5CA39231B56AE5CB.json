@@ -24,6 +24,10 @@
       "Tasks:",
       "<task task=\"42F460492A4ACDC4\" quest=\"5CA39231B56AE5CB\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_star"
+    },
     "subtitle": {
       "text": "Overcome the Wither"
     },

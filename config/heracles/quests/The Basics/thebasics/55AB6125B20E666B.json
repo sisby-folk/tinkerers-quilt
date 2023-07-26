@@ -45,6 +45,10 @@
       "<reward reward=\"6AAA5988974BBFC1\" quest=\"55AB6125B20E666B\"/>",
       "<reward reward=\"0C26DFC36B24FB14\" quest=\"55AB6125B20E666B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_eye"
+    },
     "subtitle": {
       "text": "Craft 12 Eyes of Ender"
     },

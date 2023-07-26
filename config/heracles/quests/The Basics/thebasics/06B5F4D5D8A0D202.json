@@ -43,6 +43,10 @@
       "Rewards:",
       "<reward reward=\"4C6D37B53B9A2DF5\" quest=\"06B5F4D5D8A0D202\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:elytra"
+    },
     "subtitle": {
       "text": "Obtain an Elytra"
     },

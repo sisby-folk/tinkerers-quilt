@@ -86,6 +86,10 @@
       "<reward reward=\"0616041E8113D26A\" quest=\"52E05DC7ED68C824\"/>",
       "<reward reward=\"658F62BCBC99A1FA\" quest=\"52E05DC7ED68C824\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dispenser"
+    },
     "subtitle": {
       "text": "Craft a Dispenser"
     },

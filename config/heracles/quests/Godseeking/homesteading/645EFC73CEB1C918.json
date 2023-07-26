@@ -35,6 +35,10 @@
       "Rewards:",
       "<reward reward=\"027CEF93AEA981E4\" quest=\"645EFC73CEB1C918\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ladder"
+    },
     "subtitle": {
       "text": "Make some Ladders"
     },

@@ -50,6 +50,10 @@
       "<reward reward=\"47C766F3D087F2F2\" quest=\"796366A8D7D8BBF8\"/>",
       "<reward reward=\"170B785E7A4604F5\" quest=\"796366A8D7D8BBF8\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blast_furnace"
+    },
     "subtitle": {
       "text": "Craft a Blast Furnace"
     },

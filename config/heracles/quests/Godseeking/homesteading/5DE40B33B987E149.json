@@ -52,6 +52,10 @@
       "<reward reward=\"15E683D9BB2C556A\" quest=\"5DE40B33B987E149\"/>",
       "<reward reward=\"1F26D521AD2B03C0\" quest=\"5DE40B33B987E149\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:beehive"
+    },
     "subtitle": {
       "text": "Craft a Beehive"
     },

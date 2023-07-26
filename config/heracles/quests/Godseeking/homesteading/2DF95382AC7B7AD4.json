@@ -47,6 +47,10 @@
       "Rewards:",
       "<reward reward=\"758977765A6FA05B\" quest=\"2DF95382AC7B7AD4\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:fishing_rod"
+    },
     "subtitle": {
       "text": "Craft a Fishing Rod"
     },
