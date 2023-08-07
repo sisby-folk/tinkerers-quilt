@@ -289,9 +289,11 @@ Mods:
     Dynamic FPS
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
     EasierEnchanting
+    Effective
     Enhanced Block Entities
     EMI
     EMI Trades
+    EmoGG
     Enhanced Attack Indicator
     Exordium
     Window Title Changer
@@ -334,7 +336,6 @@ Mods:
     More Culling
     Mouse Wheelie
     Music Notification
-    NoRecipeBook (Fabric)
     Not Enough Animations
     Noteable
     Ok Zoomer
@@ -370,7 +371,7 @@ Mods:
     Switchy Inventories
     Switchy Proxy
     Switchy Resource Packs
-    [Jar/Fork] Switchy Teleport
+    Switchy Teleport
     Switchy
     SwitchyKit
     Tax Free Levels
