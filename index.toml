@@ -847,11 +847,6 @@ hash = "5f770e57e77d265a780c5c5c3fda8d3a99cdccdd7d1dcaa9cfefbac1fbeb957c"
 metafile = true
 
 [[files]]
-file = "mods/switchy-resource-packs.pw.toml"
-hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
-metafile = true
-
-[[files]]
 file = "mods/switchy-teleport.pw.toml"
 hash = "d6d03845bac41aed6b0258e0ff96007cfc647177970ebeb380589934f5f63b7c"
 metafile = true
