@@ -38,21 +38,30 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:splash_potion",
-        "count": 3
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_slowness"
+        }
       }
     },
     "0E7DF24905B9DBAA": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:splash_potion",
-        "count": 3
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_harming"
+        }
       }
     },
     "703514C5A7050A38": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:splash_potion",
-        "count": 3
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_healing"
+        }
       }
     },
     "190317846E468685": {
@@ -80,7 +89,18 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:fishing_rod",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "RepairCost": 31,
+          "Unbreakable": 1,
+          "display": {
+            "Lore": [
+              "[{\"text\":\"C'mere!\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"Chain Hook\",\"italic\":false}]"
+          }
+        }
       }
     }
   },

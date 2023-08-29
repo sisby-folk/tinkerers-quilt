@@ -75,7 +75,26 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:green_banner",
-        "count": 32
+        "count": 32,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 15,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bts"
+              }
+            ],
+            "id": "minecraft:banner"
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Scarecrow Poncho\"}"
+          }
+        }
       }
     },
     "6FB5B7F2B77F76F8": {

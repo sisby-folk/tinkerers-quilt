@@ -18,21 +18,24 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": "1"
+        "count": "1",
+        "nbt": {}
       }
     },
     "55F85E84106E9EE7": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": "1"
+        "count": "1",
+        "nbt": {}
       }
     },
     "6ED6A0A24EC1C4FB": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": "1"
+        "count": "1",
+        "nbt": {}
       }
     }
   },

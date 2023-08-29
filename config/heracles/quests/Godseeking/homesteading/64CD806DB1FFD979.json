@@ -17,14 +17,39 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:leather_leggings",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "id": "swift_sneak",
+              "lvl": 5
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "[{\"text\":\"Comfy\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"Pyjama Pants\",\"italic\":false}]",
+            "color": 15975899
+          }
+        }
       }
     },
     "31513DC7CDA6BC87": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:silk_touch",
+              "lvl": "1"
+            }
+          ]
+        }
       }
     }
   },

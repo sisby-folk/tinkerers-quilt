@@ -20,14 +20,20 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tipped_arrow",
-        "count": 16
+        "count": 16,
+        "nbt": {
+          "Potion": "minecraft:strong_harming"
+        }
       }
     },
     "5D87F90592336743": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tipped_arrow",
-        "count": 16
+        "count": 16,
+        "nbt": {
+          "Potion": "minecraft:strong_healing"
+        }
       }
     }
   },

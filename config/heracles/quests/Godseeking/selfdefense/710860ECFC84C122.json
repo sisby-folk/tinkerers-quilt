@@ -18,35 +18,50 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:lingering_potion",
-        "count": 3
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:long_poison"
+        }
       }
     },
     "33508FE688FE6CFE": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:lingering_potion",
-        "count": 6
+        "count": 6,
+        "nbt": {
+          "Potion": "minecraft:strong_healing"
+        }
       }
     },
     "35A2A1542BB7C29B": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:lingering_potion",
-        "count": 3
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_slowness"
+        }
       }
     },
     "361DC853B9E05076": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:lingering_potion",
-        "count": 6
+        "count": 6,
+        "nbt": {
+          "Potion": "minecraft:strong_harming"
+        }
       }
     },
     "34DF6C60CBABBFA0": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:lingering_potion",
-        "count": 3
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:long_weakness"
+        }
       }
     }
   },

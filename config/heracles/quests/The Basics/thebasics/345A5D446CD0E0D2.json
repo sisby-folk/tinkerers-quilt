@@ -16,7 +16,20 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:golden_boots",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": "3"
+            }
+          ],
+          "RepairCost": 1,
+          "display": {
+            "Name": "{\"text\":\"Feather Boots\"}"
+          }
+        }
       }
     }
   },

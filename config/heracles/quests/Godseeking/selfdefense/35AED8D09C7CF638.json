@@ -24,7 +24,21 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:stick",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "knockback",
+              "lvl": 5
+            }
+          ],
+          "display": {
+            "Lore": [
+              "[{\"text\":\"Batter Up!\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"The Sandman\",\"italic\":false}]"
+          }
+        }
       }
     }
   },

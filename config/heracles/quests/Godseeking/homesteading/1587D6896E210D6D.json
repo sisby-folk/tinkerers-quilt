@@ -24,14 +24,77 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:black_banner",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 12,
+                "Pattern": "ss"
+              },
+              {
+                "Color": 15,
+                "Pattern": "hh"
+              },
+              {
+                "Color": 13,
+                "Pattern": "tts"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bts"
+              },
+              {
+                "Color": 13,
+                "Pattern": "flo"
+              },
+              {
+                "Color": 12,
+                "Pattern": "mr"
+              },
+              {
+                "Color": 5,
+                "Pattern": "mc"
+              },
+              {
+                "Color": 13,
+                "Pattern": "mc"
+              },
+              {
+                "Color": 12,
+                "Pattern": "sku"
+              }
+            ]
+          },
+          "display": {
+            "Name": "{\"text\":\"Gaia\"}"
+          }
+        }
       }
     },
     "30817A1DB77C9DFD": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:wooden_hoe",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "id": "minecraft:fortune",
+              "lvl": "3"
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Gaia\"}",
+              "{\"text\":\"Unbreakable\"}"
+            ],
+            "Name": "{\"text\":\"Earth Tiller\", \"color\":\"dark_green\"}"
+          },
+          "unbreakable": 1
+        }
       }
     }
   },

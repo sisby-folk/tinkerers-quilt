@@ -18,7 +18,53 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:black_banner",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 8,
+                "Pattern": "cre"
+              },
+              {
+                "Color": 15,
+                "Pattern": "hhb"
+              },
+              {
+                "Color": 7,
+                "Pattern": "mc"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bt"
+              },
+              {
+                "Color": 12,
+                "Pattern": "sc"
+              },
+              {
+                "Color": 8,
+                "Pattern": "ms"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 15,
+                "Pattern": "ts"
+              },
+              {
+                "Color": 14,
+                "Pattern": "tts"
+              }
+            ]
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Hephaestus\"}"
+          }
+        }
       }
     },
     "05CA8ACF859674AA": {

@@ -22,7 +22,10 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:shears",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0
+        }
       }
     }
   },

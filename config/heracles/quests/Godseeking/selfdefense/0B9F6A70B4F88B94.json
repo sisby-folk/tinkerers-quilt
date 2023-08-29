@@ -18,14 +18,72 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:light_blue_banner",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 0,
+                "Pattern": "dls"
+              },
+              {
+                "Color": 11,
+                "Pattern": "gra"
+              },
+              {
+                "Color": 0,
+                "Pattern": "gra"
+              },
+              {
+                "Color": 11,
+                "Pattern": "gra"
+              },
+              {
+                "Color": 4,
+                "Pattern": "tts"
+              },
+              {
+                "Color": 4,
+                "Pattern": "bo"
+              }
+            ]
+          },
+          "RepairCost": 31,
+          "display": {
+            "Name": "{\"text\":\"Athena\"}"
+          }
+        }
       }
     },
     "21309049BC4259E0": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:golden_chestplate",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "id": "minecraft:fire_protection",
+              "lvl": "4"
+            },
+            {
+              "id": "minecraft:blast_protection",
+              "lvl": "4"
+            },
+            {
+              "id": "minecraft:projectile_protection",
+              "lvl": "4"
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Athena\"}"
+            ],
+            "Name": "{\"text\":\"Divine Dashplate\", \"color\":\"yellow\"}"
+          }
+        }
       }
     }
   },

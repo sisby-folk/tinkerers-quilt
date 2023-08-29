@@ -1,13 +1,13 @@
 name = "Chunks fade in"
-filename = "chunksfadein-v1.0.1-1.20.jar"
+filename = "chunksfadein-v1.0.3-1.20.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/JaNmzvA8/versions/15vyEm1W/chunksfadein-v1.0.1-1.20.jar"
+url = "https://cdn.modrinth.com/data/JaNmzvA8/versions/ksY4JosB/chunksfadein-v1.0.3-1.20.jar"
 hash-format = "sha1"
-hash = "150c082b864a6a56c1d77495790f23163bccb33c"
+hash = "e854f69d4b374a80b7129ac88ccfe7dc1d92f6a2"
 
 [update]
 [update.modrinth]
 mod-id = "JaNmzvA8"
-version = "15vyEm1W"
+version = "ksY4JosB"

@@ -24,7 +24,15 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:luck_of_the_sea",
+              "lvl": "2"
+            }
+          ]
+        }
       }
     }
   },

@@ -20,7 +20,24 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:flint_and_steel",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": "3"
+            },
+            {
+              "id": "minecraft:mending",
+              "lvl": "1"
+            }
+          ],
+          "RepairCost": 3,
+          "display": {
+            "Name": "{\"text\":\"Firestarter\"}"
+          }
+        }
       }
     }
   },

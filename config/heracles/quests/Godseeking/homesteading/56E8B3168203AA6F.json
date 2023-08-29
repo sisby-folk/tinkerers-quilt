@@ -17,14 +17,30 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:respiration",
+              "lvl": "1"
+            }
+          ]
+        }
       }
     },
     "300CCD3C108FB644": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:depth_strider",
+              "lvl": "1"
+            }
+          ]
+        }
       }
     }
   },

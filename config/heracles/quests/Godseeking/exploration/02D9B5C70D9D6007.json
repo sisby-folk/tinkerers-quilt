@@ -17,7 +17,15 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:swift_sneak",
+              "lvl": "2"
+            }
+          ]
+        }
       }
     }
   },

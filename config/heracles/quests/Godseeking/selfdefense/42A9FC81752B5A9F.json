@@ -20,14 +20,49 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:white_banner",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 3,
+                "Pattern": "ls"
+              },
+              {
+                "Color": 3,
+                "Pattern": "rs"
+              },
+              {
+                "Color": 6,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 7,
+                "Pattern": "sku"
+              }
+            ],
+            "id": "minecraft:banner"
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"\\\"Down with Cis\\\" Frigate Crest\"}"
+          }
+        }
       }
     },
     "6EAB026D6644F841": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": "1"
+            }
+          ]
+        }
       }
     },
     "602BE26182C32F8A": {

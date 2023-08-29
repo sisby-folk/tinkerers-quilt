@@ -15,14 +15,54 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:shield",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Base": 11,
+            "Patterns": [
+              {
+                "Color": 14,
+                "Pattern": "flo"
+              },
+              {
+                "Color": 11,
+                "Pattern": "hh"
+              },
+              {
+                "Color": 4,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 11,
+                "Pattern": "ts"
+              },
+              {
+                "Color": 8,
+                "Pattern": "cbo"
+              }
+            ]
+          },
+          "Damage": 0,
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Shield of the Hero\"}"
+          }
+        }
       }
     },
     "67F09C40592B44D1": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:protection",
+              "lvl": "2"
+            }
+          ]
+        }
       }
     }
   },

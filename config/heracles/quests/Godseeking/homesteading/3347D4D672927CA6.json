@@ -21,21 +21,110 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:white_banner",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 6,
+                "Pattern": "ts"
+              },
+              {
+                "Color": 3,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 0,
+                "Pattern": "cr"
+              },
+              {
+                "Color": 15,
+                "Pattern": "ms"
+              },
+              {
+                "Color": 0,
+                "Pattern": "bt"
+              },
+              {
+                "Color": 3,
+                "Pattern": "cbo"
+              },
+              {
+                "Color": 0,
+                "Pattern": "bts"
+              }
+            ]
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Hermes\"}"
+          }
+        }
       }
     },
     "6D70B93E29F89580": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:diamond_boots",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Damage": 0,
+          "Enchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": "5"
+            },
+            {
+              "id": "minecraft:soul_speed",
+              "lvl": "3"
+            },
+            {
+              "id": "minecraft:depth_strider",
+              "lvl": "3"
+            },
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": "3"
+            },
+            {
+              "id": "minecraft:swift_sneak",
+              "lvl": "4"
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Hermes\"}"
+            ],
+            "Name": "{\"text\":\"Messenger Treads\", \"color\":\"dark_aqua\"}"
+          }
+        }
       }
     },
     "42C0FC5578746887": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:diamond_horse_armor",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": "5"
+            },
+            {
+              "id": "minecraft:depth_strider",
+              "lvl": "3"
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Hermes\"}"
+            ],
+            "Name": "{\"text\":\"Pegasus Barding\", \"color\":\"dark_aqua\"}"
+          }
+        }
       }
     }
   },

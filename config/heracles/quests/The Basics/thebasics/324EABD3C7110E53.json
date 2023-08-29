@@ -17,14 +17,30 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": "2"
+            }
+          ]
+        }
       }
     },
     "5CB3416D1CA7E6FA": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:fortune",
+              "lvl": "1"
+            }
+          ]
+        }
       }
     },
     "2F3F55D656F85A4F": {

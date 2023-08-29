@@ -1,0 +1,13 @@
+name = "EMI Trades"
+filename = "emitrades-fabric-1.2.0+mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/j2HhbEE7/versions/hlcZDRJ1/emitrades-fabric-1.2.0%2Bmc1.20.1.jar"
+hash-format = "sha1"
+hash = "880671a5d55859627eb91f5938ff8d81b9cb24ad"
+
+[update]
+[update.modrinth]
+mod-id = "j2HhbEE7"
+version = "hlcZDRJ1"

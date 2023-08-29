@@ -16,7 +16,10 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:splash_potion",
-        "count": 4
+        "count": 4,
+        "nbt": {
+          "Potion": "minecraft:long_weakness"
+        }
       }
     },
     "5BEC5A1C8696533D": {

@@ -21,7 +21,36 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:white_banner",
-        "count": "1"
+        "count": "1",
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 15,
+                "Pattern": "mr"
+              },
+              {
+                "Color": 2,
+                "Pattern": "mr"
+              },
+              {
+                "Color": 10,
+                "Pattern": "glb"
+              },
+              {
+                "Color": 0,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 15,
+                "Pattern": "cbo"
+              }
+            ]
+          },
+          "display": {
+            "Name": "{\"text\":\"Amethyst Geode\"}"
+          }
+        }
       }
     }
   },
