@@ -1050,7 +1050,7 @@ metafile = true
 
 [[files]]
 file = "mods/drogstyle.pw.toml"
-hash = "4dfeb4a7f9ba351ce1cac51a97693b317ce26f0dcf9ba89e9f2ed96cd5472f57"
+hash = "fac46bb9d03a62b30c63f126af61c1a7679a229aebe234dec6236fd678999abf"
 metafile = true
 
 [[files]]
@@ -1270,7 +1270,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "d46a3fac2fdeb35c27e7245fa162ccde40dd449dbe4812d162c13d95d742ccc3"
+hash = "1e1e434f917fde38e55d7783569083b327c918a2c567b5d4967e6446b69d9d9f"
 metafile = true
 
 [[files]]
@@ -1330,7 +1330,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "135bc946a52da94a866626b73e7b4ed3352aaeac1223dd08260250eb2e6cac23"
+hash = "31b3bcbde9677f9fc1006aab482e6f43b7552146359cc4ef363e30a237d1d12b"
 metafile = true
 
 [[files]]
@@ -1390,17 +1390,12 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "618e124f8a7a25ea380deb3d13e677ca816d8bc066553d50bbaef9c47a289da6"
+hash = "1084bc8dcf5a209cbec1c4bc95154018da7f14ad95711ea1511d4eb2d9f6127f"
 metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
 hash = "927e2290b641d3c7b45adfc938f6f20d0ec5eed45e7da35b0f3e9b01fb689035"
-metafile = true
-
-[[files]]
-file = "mods/switchy-resource-packs.pw.toml"
-hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
 metafile = true
 
 [[files]]
@@ -1430,7 +1425,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-statures.pw.toml"
-hash = "cd09188b0513997033f6a1031a89e1144536c9924a7ab12618ec184750390f84"
+hash = "a68248a634fe0dcf235a0c31378af2ccb15b74e7cb80537534f03f9b6640c5d2"
 metafile = true
 
 [[files]]
@@ -2048,7 +2043,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "ce18d14782c7d414c416de2b2613369c23d39a85c252f81ed1073816d5587b44"
+hash = "52b2b9aa9245d6ba6e0a22cf96926401535bb722844cb4b0c1ae32a243791241"
 metafile = true
 
 [[files]]
@@ -2078,5 +2073,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/super-duper-vanilla.pw.toml"
-hash = "a5ed01e32d65dbd67e9573e1575874284a0e3c64aebbbbb872230d8be9fd0e8e"
+hash = "fde89efa0ba937c2f4d05eba0b0ea1259e7e628b90446da5a74cfb95ea9353c9"
 metafile = true
