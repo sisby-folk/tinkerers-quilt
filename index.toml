@@ -801,6 +801,10 @@ file = "config/snowrealmagic-common.toml"
 hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 
 [[files]]
+file = "config/styled_chat_emoji.json"
+hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
+
+[[files]]
 file = "config/waila/waila.json"
 hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
 
@@ -1076,11 +1080,6 @@ metafile = true
 [[files]]
 file = "mods/emitrades.pw.toml"
 hash = "4c59088a2cb975f60347da57d72bb1069b65452c6a7b92af8facec6e1bed9409"
-metafile = true
-
-[[files]]
-file = "mods/emogg.pw.toml"
-hash = "0ff4cbbf164fb8bf001b9d4f3ebeb1bc72db497eefa92f248e683f72fe4e2471"
 metafile = true
 
 [[files]]
@@ -1595,10 +1594,6 @@ file = "resources/packs/niceemogg.zip"
 hash = "a8a413d3224d9b4578c4c52f49718e6cfcdbc6c4a6ed4e93d339a51ee25f263d"
 
 [[files]]
-file = "resources/packs/pridemogg.zip"
-hash = "bab2a39422a26cccebaf36cccd0caaef5f4fb2eaf9968c95c66def0ef5fc04b0"
-
-[[files]]
 file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/acacia_planks.json"
 hash = "7904758b9431834faa15610d25d375b56f28cc1053cccd950426ca5342228bf4"
 
@@ -2028,10 +2023,6 @@ hash = "6bb86fce4c17a9f6ec572f614b59e6173c3b1c00aeeb724c3c4a3e777c2998a5"
 metafile = true
 
 [[files]]
-file = "resources/packs/twemogg.zip"
-hash = "6360f624e8afc063bc33604a60bfdc2f5c5382308ab84f62cb2a371b1359a289"
-
-[[files]]
 file = "resources/packs/varied-connected-bookshelves.pw.toml"
 hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
 metafile = true
@@ -2040,6 +2031,18 @@ metafile = true
 file = "resources/packs/xalis-enchanted-books.pw.toml"
 hash = "81e456094c4decb60cd5af5e7eaf53d9b3ba775aa05ea319c99d2325e60ca6a0"
 metafile = true
+
+[[files]]
+file = "resources/resourcepacks/sc.zip"
+hash = "6cb8c7a72e0238dc158cb60f1ee443782c11a1d429b32259727bd6eff16f671c"
+
+[[files]]
+file = "resources/resourcepacks/styled_chat_emoji.json"
+hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
+
+[[files]]
+file = "resources/resourcepacks/twemojis.zip"
+hash = "77fd21d736e443a5418117a34e68393ee93020be42b0861e503fcc2e25382515"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
