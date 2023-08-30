@@ -1,3 +1,4 @@
+<!--suppress HtmlDeprecatedTag, XmlDeprecatedElement -->
 <center><img alt="Tinkerer's Quilt banner" src="https://cdn.modrinth.com/data/vrkQdo9Y/images/8088722fdded8e265ca038739b4a5605c6dfb1d4.png" />
 First, add nothing. Then, season to taste.<br/>
 Making minecraft smoother, more discoverable, and have the slightly more items since 2022.<br/>
@@ -106,9 +107,9 @@ From **basic game progression** to **niche mechanics** like mechanisms, building
 </details>
 
 
-| Relevant Mod                                                                    | Summary                                                                        |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 🛠️ [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements)                                    | Removes advancements so you can focus on quests.                |
+| Relevant Mod                                                                              | Summary                                          |
+|-------------------------------------------------------------------------------------------|--------------------------------------------------|
+| 🛠️ [Crunchy Crunchy Advancements](https://modrinth.com/mod/crunchy-crunchy-advancements) | Removes advancements so you can focus on quests. |
 
 ## My Other Modpack Description Is A Quest [In-Game Documentation]
 
@@ -120,11 +121,11 @@ Most of the information is available in the **Introduction Quest Category**:
 ![Quests: Introduction](https://cdn.modrinth.com/data/vrkQdo9Y/images/54e0e54c3c6097660e3810a7d7149ccd503c6af1.png)
 
 
-| Relevant Mod                                                                    | Summary                                                                        |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [EMI](https://modrinth.com/mod/emi)                                    | An advanced recipe book for learning how to craft and use any item.                |
-| [What The Hell Is That?](https://modrinth.com/mod/wthit)               | Hold alt to see information on the block or mob you're looking at.                 |
-| 🛠️ [PicoHUD](https://modrinth.com/mod/picohud)                                    | Hold alt to see your location, direction, and the in-game time.                |
+| Relevant Mod                                             | Summary                                                             |
+|----------------------------------------------------------|---------------------------------------------------------------------|
+| [EMI](https://modrinth.com/mod/emi)                      | An advanced recipe book for learning how to craft and use any item. |
+| [What The Hell Is That?](https://modrinth.com/mod/wthit) | Hold alt to see information on the block or mob you're looking at.  |
+| 🛠️ [PicoHUD](https://modrinth.com/mod/picohud)          | Hold alt to see your location, direction, and the in-game time.     |
 
 ## Smooth As Butter [Game Rebalancing / QoL]
 
@@ -132,17 +133,17 @@ Tinkerer's Quilt focuses rebalancing on making the game accessible to more peopl
 
 It's not just about making the game easier - with annoyances alleviated in death, movement, and equipment mechanics, more experienced players can **crank the difficulty** and have a blast!
 
-| Relevant Mod                                                                    | Summary                                                                        |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [Apathy](https://modrinth.com/mod/apathy)                              | Mobs are neutral on easy difficulty, and will only attack you if provoked.         |
-| [You're In Grave Danger](https://modrinth.com/mod/yigd)                | Leaves a grave on death with your items and XP that won't de-spawn.                |
-| 🛠️ [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing)                                    | Repair, upgrade, and maintain your favourite tools.                |
-| [Project: Save The Pets!](https://modrinth.com/mod/projectsavethepets) | Prevents pet harm and adds a pet revival system.                                   |
-| [Horse Buff](https://modrinth.com/mod/horsebuff)                       | Improves and protects horses, making them easier to take out on adventures.        |
-| [Reacharound](https://modrinth.com/mod/reacharound)                    | Build midair bridges without sneaking, and even downwards stairs.                  |
-| [Fabrication](https://modrinth.com/mod/fabrication)                    | A multitude of minor improvements, like automatic block pickup and crawling.    |
-| [Noteable](https://modrinth.com/mod/noteable)     | Allows players to take in-game notes about their plans, locations to revisit, etc. |
-| 🛠️ [Portable Crafting](https://modrinth.com/mod/portable-crafting-standalone)                                    | Open the crafting table from your inventory.                |
+| Relevant Mod                                                                   | Summary                                                                            |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Apathy](https://modrinth.com/mod/apathy)                                      | Mobs are neutral on easy difficulty, and will only attack you if provoked.         |
+| [You're In Grave Danger](https://modrinth.com/mod/yigd)                        | Leaves a grave on death with your items and XP that won't de-spawn.                |
+| 🛠️ [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing)         | Repair, upgrade, and maintain your favourite tools.                                |
+| [Project: Save The Pets!](https://modrinth.com/mod/projectsavethepets)         | Prevents pet harm and adds a pet revival system.                                   |
+| [Horse Buff](https://modrinth.com/mod/horsebuff)                               | Improves and protects horses, making them easier to take out on adventures.        |
+| [Reacharound](https://modrinth.com/mod/reacharound)                            | Build midair bridges without sneaking, and even downwards stairs.                  |
+| [Fabrication](https://modrinth.com/mod/fabrication)                            | A multitude of minor improvements, like automatic block pickup and crawling.       |
+| [Noteable](https://modrinth.com/mod/noteable)                                  | Allows players to take in-game notes about their plans, locations to revisit, etc. |
+| 🛠️ [Portable Crafting](https://modrinth.com/mod/portable-crafting-standalone) | Open the crafting table from your inventory.                                       |
 
 
 
@@ -186,23 +187,26 @@ In addition to the below, Tinkerer's Quilt has support for the majority of optif
 
 ### Stable (Modrinth)
 
-Use your modrinth-supporting launcher of choice (e.g. [Prism](https://prismlauncher.org/)) - follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then manually download the mods listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
+Use your modrinth-supporting launcher of choice (e.g. [Prism](https://prismlauncher.org/)) - follow [modrinth instructions](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher), then **manually download the mods** listed in the [changelog](https://modrinth.com/modpack/tinkerers-quilt/changelog) for your version.
 
-### Edge (Packwiz)
+### Edge (Unsup)
 
 This pack version auto-updates every launch. Slightly higher chance of experiencing pack-jank.
 
 - Install [Prism Launcher](https://prismlauncher.org/) and [Java 17](https://adoptium.net/temurin/releases/) (on Windows? choose `Windows-x64-JRE-17-.msi`)
-  - Alternatively, run `winget install "Prism Launcher"` and `winget install --id EclipseAdoptium.TemurinJRE.17`.
-- Download Tinkerer's Quilt from the [packwiz downloads page](https://sisby-folk.github.io/mc-packs/).
+- Download Tinkerer's Quilt from the [downloads page](https://sisby-folk.github.io/tinkerers-quilt/).
 - Drag and drop onto an open Prism window, press OK, and double click it to play!
-  - To disable auto-updates, turn off **custom commands** in Edit Instance -> Settings.
+- Whenever the pack updates, you'll be prompted on launch for if you'd like to update.
+- When an update contains config changes, you'll often be prompted to allow the update overwrite your own. 
+  - Clicking "yes to all" will allow the update to change these files universally.
+  - If you're a more experienced user, you can manually reject configs you've set up how you like.
+- Note that **deleting a file is no longer sufficient for it to be redownloaded**. To force the pack to "reverify" all pack files next launch (like steam), delete `unsup_state.json` from the instance folder.
 
-#### Packwiz Server
+#### Server
 
-- Download the server from the [packwiz downloads page](https://sisby-folk.github.io/mc-packs/).
+- Download the server from the [downloads page](https://sisby-folk.github.io/tinkerers-quilt/).
 - Run the included Quilt Installer, selecting your minecraft version and the latest non-beta loader version.
-- Run the `Update` script to install the pack, then the `Start` script to run the server
+- The provided `Start` script will both update and run the server via the JVM argument.
 
 ## Full Modlist
 
@@ -255,7 +259,6 @@ Mods:
     Enhanced Block Entities
     EMI
     EMI Trades
-    EmoGG
     Enhanced Attack Indicator
     Exordium
     Window Title Changer
@@ -293,7 +296,6 @@ Mods:
     Luna Slimes
     Main Menu Credits
     LAN World Plug-n-Play (mcwifipnp)
-    Memory Leak Fix
     Mod Menu
     More Culling
     Mouse Wheelie
@@ -347,7 +349,6 @@ Mods:
     WTHIT Plugins
     WTHIT
     You're in Grave Danger
-    Your Options Shall Be Respected (YOSBR)
 
 Recommended Shader Packs:
     BSL Shaders
@@ -374,7 +375,7 @@ This modpack started in January 2021 as a skyrim-style vanilla+ "modding guide" 
 ### Special Thanks
 
 [Emi](https://github.com/emilyploszaj) ([EMI](https://modrinth.com/mod/emi))<br/>
-[Una](https://github.com/unascribed) ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor](https://github.com/unascribed/Drogtor/), [Yttr](https://modrinth.com/mod/yttr))<br/>
+[Una](https://github.com/unascribed) ([Fabrication](https://github.com/unascribed/Fabrication), [Ears](https://modrinth.com/mod/ears), [Drogtor](https://github.com/unascribed/Drogtor/), [Yttr](https://modrinth.com/mod/yttr), [Unsup](https://git.sleeping.town/unascribed/unsup))<br/>
 [Quat](https://github.com/quat1024) ([Apathy](https://modrinth.com/mod/apathy))<br/>
 [Comp500](https://github.com/comp500) ([Packwiz](https://github.com/packwiz/packwiz))<br/>
 [LambdAurora](https://github.com/LambdAurora) ([QSL](https://modrinth.com/mod/qsl), [LambdaBetterGrass](https://modrinth.com/mod/lambdabettergrass), [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights))<br/>
