@@ -9,6 +9,10 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
+file = "config/SkipTransitions.properties"
+hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
+
+[[files]]
 file = "config/apathy/boss.cfg"
 hash = "6d01925c16f5913cb67d2d88a27886d56121c83ab08ac1e09d7e5114a85b59f0"
 
@@ -19,6 +23,10 @@ hash = "3d4dba742f0bc59c924a8e76bfd5a00cfbb0d6bd19fd2060cef89a43b2c6f5df"
 [[files]]
 file = "config/apathy/mobs.cfg"
 hash = "a73bd0828dee679ecb97cda97fc792337a72a95210fa3559fda4395d6ade3e88"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
 
 [[files]]
 file = "config/boring_default_game_rules/config.json"
@@ -33,8 +41,20 @@ file = "config/carpet/default_carpet.conf"
 hash = "971441aaa80e3839edd5fa6006c65a2866638b7117d83e5afdd9e454c36eec8c"
 
 [[files]]
+file = "config/charmonium.toml"
+hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
+
+[[files]]
+file = "config/chunksfadein.properties"
+hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
+
+[[files]]
 file = "config/citresewn.json"
 hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
+
+[[files]]
+file = "config/clienttweaks.toml"
+hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
 
 [[files]]
 file = "config/colormatic.properties"
@@ -51,6 +71,10 @@ hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 [[files]]
 file = "config/effective.json"
 hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
+
+[[files]]
+file = "config/emi.css"
+hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 
 [[files]]
 file = "config/emogg.json"
@@ -117,6 +141,10 @@ file = "config/idwtialsimmoedm.json"
 hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 
 [[files]]
+file = "config/illuminations.properties"
+hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
+
+[[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
@@ -129,12 +157,28 @@ file = "config/lucium-hidden-debug-entries.txt"
 hash = "bc8876f1afd54ff5f5f862e6ba531f8a80853688fd2e99cdfb1b633f1386dd5f"
 
 [[files]]
+file = "config/modmenu.json"
+hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
 [[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
+
+[[files]]
 file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
+
+[[files]]
+file = "config/qdaa.ini"
+hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
@@ -145,12 +189,40 @@ file = "config/sidebar_buttons.json"
 hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
+file = "config/simplefog.json"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
+
+[[files]]
 file = "config/snowrealmagic-client.toml"
 hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
 
 [[files]]
 file = "config/snowrealmagic-common.toml"
 hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
+
+[[files]]
+file = "config/styled-nicknames.json"
+hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
+
+[[files]]
+file = "config/styledplayerlist/config.json"
+hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
+
+[[files]]
+file = "config/styledplayerlist/styles/default.json"
+hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
+
+[[files]]
+file = "config/switchy_resource_packs/config.toml"
+hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
 
 [[files]]
 file = "config/waila/waila.json"
@@ -163,118 +235,6 @@ hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
 [[files]]
 file = "config/yigd.toml"
 hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
-
-[[files]]
-file = "config/yosbr/config/SkipTransitions.properties"
-hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
-
-[[files]]
-file = "config/yosbr/config/appleskin.json5"
-hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
-
-[[files]]
-file = "config/yosbr/config/charmonium.toml"
-hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
-
-[[files]]
-file = "config/yosbr/config/chunksfadein.properties"
-hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
-
-[[files]]
-file = "config/yosbr/config/clienttweaks.toml"
-hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
-
-[[files]]
-file = "config/yosbr/config/emi.css"
-hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
-
-[[files]]
-file = "config/yosbr/config/illuminations.properties"
-hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
-
-[[files]]
-file = "config/yosbr/config/modmenu.json"
-hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
-
-[[files]]
-file = "config/yosbr/config/presencefootsteps/updater.json"
-hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
-
-[[files]]
-file = "config/yosbr/config/presencefootsteps/userconfig.json"
-hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
-
-[[files]]
-file = "config/yosbr/config/qdaa.ini"
-hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
-
-[[files]]
-file = "config/yosbr/config/simplefog.json"
-hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
-
-[[files]]
-file = "config/yosbr/config/sodium-extra-options.json"
-hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
-
-[[files]]
-file = "config/yosbr/config/sodium-options.json"
-hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
-
-[[files]]
-file = "config/yosbr/config/styled-nicknames.json"
-hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
-
-[[files]]
-file = "config/yosbr/config/styledplayerlist/config.json"
-hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
-
-[[files]]
-file = "config/yosbr/config/styledplayerlist/styles/default.json"
-hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
-
-[[files]]
-file = "config/yosbr/config/switchy_resource_packs/config.toml"
-hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
-
-[[files]]
-file = "config/yosbr/config/waila/waila.json"
-hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
-
-[[files]]
-file = "config/yosbr/config/waila/waila_plugins.json"
-hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
-
-[[files]]
-file = "config/yosbr/options.amecsapi.txt"
-hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
-
-[[files]]
-file = "config/yosbr/options.txt"
-hash = "51121d91f5dafc06e54a595e64998b9f35fea7cb9ff8c5d742d295863f388482"
-
-[[files]]
-file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
-hash = "92f7a737346e05856588bb2788c4cf1e08c149aed3fe0efe4f1e0c80aed009a4"
-
-[[files]]
-file = "config/yosbr/shaderpacks/ComplementaryReimagined_r1.2.2.zip.txt"
-hash = "16ff6881fe17da0af04bcc512a5258ab27bafc9f8a0e6889c70c8161c1ad900b"
-
-[[files]]
-file = "config/yosbr/shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "965e252dc01cdaa608c831013274b6493a98fd710ebbc3233b4184cee3c21d2a"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Prismarine V4.1a.zip.txt"
-hash = "b07a4e99f3571dc6c0a3118ba304db4b30e168551b54efb12cb672b26f4d1662"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip.txt"
-hash = "76d2fbc4e14be83aac3e9d9b807eb971724877d1f004d333eff2944aa7700ad0"
-
-[[files]]
-file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
-hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
 
 [[files]]
 file = "credits.txt"
@@ -917,9 +877,12 @@ hash = "36bc57806a6d997d79767620bc3f0b019e878f337a2655b9cb98a006c4e5d2e8"
 metafile = true
 
 [[files]]
-file = "mods/yosbr.pw.toml"
-hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
-metafile = true
+file = "options.amecsapi.txt"
+hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
+
+[[files]]
+file = "options.txt"
+hash = "51121d91f5dafc06e54a595e64998b9f35fea7cb9ff8c5d742d295863f388482"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"

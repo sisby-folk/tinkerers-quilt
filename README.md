@@ -282,7 +282,6 @@ Mods:
     WTHIT Plugins
     WTHIT
     You're in Grave Danger
-    Your Options Shall Be Respected (YOSBR)
 
 Recommended Shader Packs:
     BSL Shaders
