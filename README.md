@@ -1,1 +1,1 @@
-[[View on sisby-folk.github.io]](https://sisby-folk.github.io/mc-packs/)
+[view on github.io](https://sisby-folk.github.io/tinkerers-quilt/)
