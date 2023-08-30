@@ -9,6 +9,10 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
+file = "config/SkipTransitions.properties"
+hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
+
+[[files]]
 file = "config/apathy/boss.cfg"
 hash = "6d01925c16f5913cb67d2d88a27886d56121c83ab08ac1e09d7e5114a85b59f0"
 
@@ -19,6 +23,10 @@ hash = "3d4dba742f0bc59c924a8e76bfd5a00cfbb0d6bd19fd2060cef89a43b2c6f5df"
 [[files]]
 file = "config/apathy/mobs.cfg"
 hash = "a73bd0828dee679ecb97cda97fc792337a72a95210fa3559fda4395d6ade3e88"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
 
 [[files]]
 file = "config/boring_default_game_rules/config.json"
@@ -33,8 +41,20 @@ file = "config/carpet/default_carpet.conf"
 hash = "971441aaa80e3839edd5fa6006c65a2866638b7117d83e5afdd9e454c36eec8c"
 
 [[files]]
+file = "config/charmonium.toml"
+hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
+
+[[files]]
+file = "config/chunksfadein.properties"
+hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
+
+[[files]]
 file = "config/citresewn.json"
 hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
+
+[[files]]
+file = "config/clienttweaks.toml"
+hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
 
 [[files]]
 file = "config/colormatic.properties"
@@ -51,6 +71,10 @@ hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 [[files]]
 file = "config/effective.json"
 hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
+
+[[files]]
+file = "config/emi.css"
+hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 
 [[files]]
 file = "config/emogg.json"
@@ -765,6 +789,10 @@ file = "config/idwtialsimmoedm.json"
 hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 
 [[files]]
+file = "config/illuminations.properties"
+hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
+
+[[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
@@ -777,12 +805,28 @@ file = "config/lucium-hidden-debug-entries.txt"
 hash = "bc8876f1afd54ff5f5f862e6ba531f8a80853688fd2e99cdfb1b633f1386dd5f"
 
 [[files]]
+file = "config/modmenu.json"
+hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
 [[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
+
+[[files]]
 file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
+
+[[files]]
+file = "config/qdaa.ini"
+hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
@@ -793,6 +837,10 @@ file = "config/sidebar_buttons.json"
 hash = "69261db307b3287fa0aad5f8cf7e53bd4f7c2c4322bc708c95d9df6447afd95c"
 
 [[files]]
+file = "config/simplefog.json"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
+
+[[files]]
 file = "config/snowrealmagic-client.toml"
 hash = "cc0b4aaa0a95dd42ee25dcb42ac0f370e76554b9077161635dea792aaa287883"
 
@@ -801,8 +849,32 @@ file = "config/snowrealmagic-common.toml"
 hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 
 [[files]]
+file = "config/sodium-extra-options.json"
+hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
+
+[[files]]
+file = "config/styled-nicknames.json"
+hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
+
+[[files]]
 file = "config/styled_chat_emoji.json"
 hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
+
+[[files]]
+file = "config/styledplayerlist/config.json"
+hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
+
+[[files]]
+file = "config/styledplayerlist/styles/default.json"
+hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
+
+[[files]]
+file = "config/switchy_resource_packs/config.toml"
+hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
 
 [[files]]
 file = "config/waila/waila.json"
@@ -815,118 +887,6 @@ hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
 [[files]]
 file = "config/yigd.toml"
 hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
-
-[[files]]
-file = "config/yosbr/config/SkipTransitions.properties"
-hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
-
-[[files]]
-file = "config/yosbr/config/appleskin.json5"
-hash = "ca7b1b82007fcf3fbd2e45daa2f970881c9e930ca507a51e9c206bd459317c01"
-
-[[files]]
-file = "config/yosbr/config/charmonium.toml"
-hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
-
-[[files]]
-file = "config/yosbr/config/chunksfadein.properties"
-hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
-
-[[files]]
-file = "config/yosbr/config/clienttweaks.toml"
-hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
-
-[[files]]
-file = "config/yosbr/config/emi.css"
-hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
-
-[[files]]
-file = "config/yosbr/config/illuminations.properties"
-hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
-
-[[files]]
-file = "config/yosbr/config/modmenu.json"
-hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
-
-[[files]]
-file = "config/yosbr/config/presencefootsteps/updater.json"
-hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
-
-[[files]]
-file = "config/yosbr/config/presencefootsteps/userconfig.json"
-hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
-
-[[files]]
-file = "config/yosbr/config/qdaa.ini"
-hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
-
-[[files]]
-file = "config/yosbr/config/simplefog.json"
-hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
-
-[[files]]
-file = "config/yosbr/config/sodium-extra-options.json"
-hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
-
-[[files]]
-file = "config/yosbr/config/sodium-options.json"
-hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
-
-[[files]]
-file = "config/yosbr/config/styled-nicknames.json"
-hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
-
-[[files]]
-file = "config/yosbr/config/styledplayerlist/config.json"
-hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
-
-[[files]]
-file = "config/yosbr/config/styledplayerlist/styles/default.json"
-hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
-
-[[files]]
-file = "config/yosbr/config/switchy_resource_packs/config.toml"
-hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
-
-[[files]]
-file = "config/yosbr/config/waila/waila.json"
-hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
-
-[[files]]
-file = "config/yosbr/config/waila/waila_plugins.json"
-hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
-
-[[files]]
-file = "config/yosbr/options.amecsapi.txt"
-hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
-
-[[files]]
-file = "config/yosbr/options.txt"
-hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
-
-[[files]]
-file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
-hash = "92f7a737346e05856588bb2788c4cf1e08c149aed3fe0efe4f1e0c80aed009a4"
-
-[[files]]
-file = "config/yosbr/shaderpacks/ComplementaryReimagined_r1.2.2.zip.txt"
-hash = "16ff6881fe17da0af04bcc512a5258ab27bafc9f8a0e6889c70c8161c1ad900b"
-
-[[files]]
-file = "config/yosbr/shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "965e252dc01cdaa608c831013274b6493a98fd710ebbc3233b4184cee3c21d2a"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Prismarine V4.1a.zip.txt"
-hash = "b07a4e99f3571dc6c0a3118ba304db4b30e168551b54efb12cb672b26f4d1662"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip.txt"
-hash = "76d2fbc4e14be83aac3e9d9b807eb971724877d1f004d333eff2944aa7700ad0"
-
-[[files]]
-file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
-hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
 
 [[files]]
 file = "credits.txt"
@@ -1463,9 +1423,12 @@ hash = "fc11ca1eec1dc3785b51c51b061fed1a68044cd7ffb412cdabdaf76ecc0d9a29"
 metafile = true
 
 [[files]]
-file = "mods/yosbr.pw.toml"
-hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
-metafile = true
+file = "options.amecsapi.txt"
+hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
+
+[[files]]
+file = "options.txt"
+hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
@@ -1556,476 +1519,461 @@ file = "resources/data/tinkerer/recipes/trident.json"
 hash = "09879b5f78bd601f10f411b6e1473f6e0231f7d671615f7b489b90b6e77cea24"
 
 [[files]]
-file = "resources/packs/VanillaTweaks_c667075.zip"
+file = "resources/datapacks/VanillaTweaks_c667075.zip"
 hash = "6f8b8b79131422c3cb03e15a35b9ea9ddd2cbde1b57edbd0ab269e46df830dfd"
 
 [[files]]
-file = "resources/packs/VanillaTweaks_r311441.zip"
+file = "resources/datapacks/hide_origin_orb/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "e1ddaad4526210ee59d7c2800b259cd122167c35ca200485a3818abb0a3ad31a"
+
+[[files]]
+file = "resources/datapacks/hide_origin_orb/pack.mcmeta"
+hash = "0d31c599f159241b5b5e9d1c853a6495bc371115770aa61616872cfaa30bef4d"
+
+[[files]]
+file = "resources/datapacks/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
+hash = "bd32eff1567a6ae10d7a06f751b353d5a5188f60c363d431438071f1db653352"
+
+[[files]]
+file = "resources/datapacks/hide_yigd/pack.mcmeta"
+hash = "c9b84c7d95f0aac4f81b5a7ebaa7d727d8bd1f3d53f67ea5fcee9fed4de90b82"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/acacia_planks.json"
+hash = "7904758b9431834faa15610d25d375b56f28cc1053cccd950426ca5342228bf4"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/andesite.json"
+hash = "561a18766fd73c5339e8d0bef33f6c8118ba31a29447dbe1f8400ad7b0fa6346"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/birch_planks.json"
+hash = "651e873eea742537c9c955bb6449b39327b6067478d0cc70730712427d643bed"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/blackstone.json"
+hash = "8cec7c312dd4fcf36e920bbf4e82e27b53c6bf50664e1492fc103b92bc719299"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/bricks.json"
+hash = "e7090604d2be4bbfb1f66b2040e17b54fe91b61e2aed308f74aa9ce69474edef"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobbled_deepslate.json"
+hash = "f3b2778afceb4822f00b277280450f6df6f0cb8de7641b6acd2ee25a3e221f42"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobblestone.json"
+hash = "6673a6edfd6dbe5969c6d0aed6c2032c000cc63d6f6e5d2f94c9f167b5229a80"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/crimson_planks.json"
+hash = "3b75acc80f653b71ea2a8b7b97ecc2585ef3ccb196f9236889d6e615fc01467d"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_copper.json"
+hash = "2544a5ca8756ad5c740befa46489c537172ca6b6c7656cde8795f7309dfbdbcd"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_red_sandstone.json"
+hash = "289707cfdc4acc488e5fb410512d97370f1df3b710b28e0d1050b1ceedd55497"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_sandstone.json"
+hash = "494d1d709e65adefd83a0755fcdc7c52f2301578310e6312691c2c912e497144"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_oak_planks.json"
+hash = "b6e4c3dbdbc0578cb9878ff0c5699b71e1c97b53229731ddde1d58fe44642f36"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_prismarine.json"
+hash = "a0ccf87c6782ba53113d11a23fff8b6eece8c9986780cb19dfa5519dd3086fe8"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_bricks.json"
+hash = "6ad50a79d98df2596394046cbfd92890d139ebe45b13c095cfe15a43a3ed2823"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_tiles.json"
+hash = "f705d0b19f48bf9c7f723013c87e1a9977a30d1788ea3d44f8059b651f145e7b"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/diorite.json"
+hash = "43b38129f8ba12c8a373c87d50f00393fcb34cfa411b8f451bd555b41e450761"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/end_stone_bricks.json"
+hash = "1cae0b6c5b03a203f929092a19a81adc248e2e2742b7113b4e6bccd648bc667a"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/exposed_cut_copper.json"
+hash = "4dad5bb1f3c014a73e205e31206c8518e5615df525002aa561ac1646ee846750"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/granite.json"
+hash = "cd09376e06408ead88b821771e1533b85abe13fbeb75f3b6a730c623c7d4f6bf"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/jungle_planks.json"
+hash = "b026f53e5c3099ef809621feb36200876131b8f44b99d9c2fdfd40dbf70adda4"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mangrove_planks.json"
+hash = "a8e40a04e9d3823bf42515d11a9b76cf8f1b5388973a19f3ab95add1a568ec38"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_cobblestone.json"
+hash = "07106c2f74275cc637d2f8fde76e46982dafdff63d250f05103f201a146726af"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_stone_bricks.json"
+hash = "c5e487d0a241a6dfb448df4666ccc8dd068264cb78e98b1710f8e47b35e5cd8a"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/nether_bricks.json"
+hash = "5d4719a14b535c494499b40b4e2d237ebd5b3d2d0b5d083580c655df107927b8"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oak_planks.json"
+hash = "e6ebd46e0479f7c6586b425c268414aabbc528672fe904dbd2db810ae0f38e61"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oxidized_cut_copper.json"
+hash = "eac0a9f8e4f97c42c711c330dbdc403e41fb009692b8dfb32adad04914b044d7"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_andesite.json"
+hash = "79bcee5713ca913b95bceb80d5d7aabc6b77a6c5ead4e182d0ed80d380d1c2ad"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone.json"
+hash = "124766001e44d0c902a5eb80b91d85a4d3febd93fdb810ae22b93bb0ab8af130"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone_bricks.json"
+hash = "1b3bcf194e55c38856c4b2fa8524fa4cc0e45eee025b28af042c0398c34fcd24"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_deepslate.json"
+hash = "96cca9f39fd8406876b12ed87d01922b1364bc2a68819c6d3087645568eb57ff"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_diorite.json"
+hash = "1625683d6d1812e45cae1ee5bcd020e2aad4bfb6b429c4b13215042d6de1fd3d"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_granite.json"
+hash = "62a345be2f9b6886606ad5a3a8213949015737e9bd4306cd9fa40c2e49ef8d44"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine.json"
+hash = "7afbc5bec64394939b28a4f4cbd5d0ef9cc54d7a822d50abba401010a23f9216"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine_bricks.json"
+hash = "9296a58959f671be9d9722665c3172d0b1c70013eaabacd14dde383344365f83"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/purpur_block.json"
+hash = "a068fd7b2e3ac41296f1eab54d596dfcd39fe0b75be0cb32f8e97dfaa7a22972"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/quartz_block.json"
+hash = "b3de4fde6e78e693d9079322eb7b704bb24f1ecefe2181ac33bb4f87370f7da9"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_nether_bricks.json"
+hash = "d40a116aa8eb85f018f300e02158e99aee3b03a19e827c1c7f3ef94be02fb2a0"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_sandstone.json"
+hash = "864edafde3ecf0bd1ebea6dd7ba0f7d145d8a8758f6963a65324f44c21040607"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/sandstone.json"
+hash = "789ab0da3d6822d9bd8b6f17bb985095a6353cb996176624c5b08a6807b0988b"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_quartz.json"
+hash = "ba81d08498a6f8179916054e8b62c5028faa5fbc1517e3e4ce0b3ddcd0f4a1dd"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_red_sandstone.json"
+hash = "9cc5de6987a4b603ed718d43397a9abcf78b63187d79ffc4031749e97abb7c5b"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_sandstone.json"
+hash = "292a1fb32cd8c649f465b699214d20fbe1f0a4961e9ae000467aa8e2c72e5f91"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_stone.json"
+hash = "350ad431e9d4641adcb16ad4e6aa0da8eb43539f27d50354484f2cc47183c8cd"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/spruce_planks.json"
+hash = "ad5769284981b6439d75a1c87496bda2f30bf747f97f9f7e9ef836427017aab1"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone.json"
+hash = "2474a4336e87a5fbad8bd5accfbe19ec2f17b510bb2495fb99616e30f2f6dd0f"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone_bricks.json"
+hash = "cb1e99c7a850f6db2e3e5d368ca41096506be451e69d588cda7531859f47bec6"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/warped_planks.json"
+hash = "2d65535ffc3615b035189f0281170745c768b8106f0a5267b444892cb83d0f71"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_cut_copper.json"
+hash = "658aae97aa19213fb6e34dc5e412cb58aab8a5def77376cbddc6dac0e11a5b42"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_exposed_cut_copper.json"
+hash = "bdb27570277484a0ce27dd417cfd647a21f61cd1317269f2e045559346cac45c"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_oxidized_cut_copper.json"
+hash = "8050e26afb949933e045a8fd7984862dfbaa8bf1655623076e58ca00e1d7cff8"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_weathered_cut_copper.json"
+hash = "96253e1f963e3247b75e0f7b890a6afafcdb230762823a4211339714f1225180"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/weathered_cut_copper.json"
+hash = "5c7ed3331569e159929371f1df4dd110fffd56635c8e6bc2d1983bb6a948643f"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/acacia_planks.json"
+hash = "0d99aa58477f857921bbe9aeb6a1f99d490ac047c833609d069364f6739fa3ab"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/andesite.json"
+hash = "e5b91cc226b2919b6e3e3c2b0b9d0d1f48c5a78f82ef864bf031520c240d7e9c"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/birch_planks.json"
+hash = "a79df60ecccc525a52ff5ba6ac804ac0bae8474962b87a4dbee551d3ea851b9b"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/blackstone.json"
+hash = "4145617c390e9885c53059ed83ae7588401791fff124d2ceef4024278c18e7c1"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/bricks.json"
+hash = "211f5d7c9f8929f5953192e7c7d0429009277ab78de012e3520581384b531ffc"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobbled_deepslate.json"
+hash = "213cb0c1adbfe2402e49baab02bec0d23956ccae50ae32123e78d7974af4386d"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobblestone.json"
+hash = "e62218173b2ff8373aaf83a01a40be16f1e47cfa48cdc8648475ac39ced8fce8"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/crimson_planks.json"
+hash = "4582e60b5bc468c4e04f1272d37ea3918dd7ca6cf6be06a828898031144c0d56"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_copper.json"
+hash = "c0d3c783796be3fd73233c08fefd03f1145868a22212ca2adf01f8997ff528bd"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_red_sandstone.json"
+hash = "430ddb7452448becf3469ba4327e023c2566bd73be6dd70cdb24c9824ef6a18f"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_sandstone.json"
+hash = "f89955cb6446e37722a7ca26ff13a9782d0f1b49d0279fea8f21e2dc91355226"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_oak_planks.json"
+hash = "855a0c6b4ab383770c64fab689dd16a0cc508431bbab2dfb1c2b9f1aef8e003c"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_prismarine.json"
+hash = "93f519d53a986aa4258311f9d99009d250e7442650170999fcf888a17bfb8c71"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_bricks.json"
+hash = "70f17aa2a6db920576b6b2c32c1c87a6648760a633f1e2acc092bbf21e328adb"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_tiles.json"
+hash = "d00ed5b8afdd57c2a226729d8dc648add1a664d3b2183c130304d111f93e129a"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/diorite.json"
+hash = "c606a9c4031fad12a05ae4f0e7c5d1546bca5976cfd881f887a64adfca28e857"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/end_stone_bricks.json"
+hash = "55c9b02acb4266617f46a26560ba26f29b972f93e68d040d250e04796b62a205"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/exposed_cut_copper.json"
+hash = "5ed3511f3ba88656202522567f28897037d1a813e4d686e6e3f79d0872965921"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/granite.json"
+hash = "05a8fe03f331834afc7b68d2b4810c9b931aa138db8f97c264eaeda975d2c1ad"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/jungle_planks.json"
+hash = "3759d6b35f60e27446e042f2fa35aa77cfc00e97ba6be74f22d83add92af8cb5"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mangrove_planks.json"
+hash = "45e706803c1d014fd8d4d52ce5ca2fd96f4fc5ce5fce759a63eeeccfbb3e252f"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_cobblestone.json"
+hash = "590e393f1c7621796d00b8a0a2928f32e40b45cc58b47131d386be49a460f760"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_stone_bricks.json"
+hash = "3d42eb0f1c1ec795779b47c35f9f920f1928bdf82e6d0cc9dda4976da96ad7b1"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mud_bricks.json"
+hash = "593114debeaf9284775f542e4cd4b59463e68c85d92cec1dcc9a44b109563146"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/nether_bricks.json"
+hash = "6315f53b22ce6b8548abd2c6cea17242a7bcb2db1b950b49a277629020b4f121"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oak_planks.json"
+hash = "9b80c064b84f39fe642396059195f829c0a02eb4a7907611a4a9f57b1d03e2da"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oxidized_cut_copper.json"
+hash = "50a44e1d868bb451176947d36e158c9adfe00c26a9929c1f5d66f052884b1352"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_andesite.json"
+hash = "63606689cb91f097ae626e814e5e9173d8fe20f4f0130c2dcf2773c549091327"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone.json"
+hash = "1aee18d8c5c52bd82f08c8da4ea19e023e8555f1fa1662a4e3b4a0a84cb5bc6f"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone_bricks.json"
+hash = "5fbc8061f53dd5927d1f42a7cca2efcd06a91852366ad2bcf1772810571a0d80"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_deepslate.json"
+hash = "025ea67f5ce15043304b0646faaf892d735d48c1fec1e5c2a137998bb40fe5f0"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_diorite.json"
+hash = "afe550be0ce82d2e9a88eba6b7abfc4dbb040ce7e9c0135c7d2129625b344bba"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_granite.json"
+hash = "228c1aec01be59a9894096e5c92f9d5f3fa99d3694996ae1d22acc14f95ba4e9"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine.json"
+hash = "2cc7e03300f20bd4c2d7c06274d3d971ea00dd7d24996ae4179058d0af7e72a0"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine_bricks.json"
+hash = "6ec986b051a4fadf550fcf04b5b6b0542c420b651d57be89164ce2324f2ac257"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/purpur_block.json"
+hash = "4a26d63e59ad52982de04b13b73678d31fe94ba79371d51a19c7d9f6c7f0c773"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/quartz_block.json"
+hash = "092c0fe2d177b3f0364861b68e9ae76c8fdcdf6640e20350dbbbd0809aba6098"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_nether_bricks.json"
+hash = "d20000be6b754c557758e2b5217cdf9512d0b0eea7774caaa4de1f6dbe30468a"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_sandstone.json"
+hash = "4da4a9aa74d1cd1271a7c543b46144eda7c24a6806ebc61d90cb90ac4a6594f7"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/sandstone.json"
+hash = "a49741c3afad58b4d157149d1cb3b71e4e4c8ace5708cdcc7a537e63cb67d5ed"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_quartz.json"
+hash = "d598f57cea9c39800d42bd33e6cfff41100cd122c61db7f921aefe4d80bc2cf7"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_red_sandstone.json"
+hash = "0f88c95369f7ed2a84520845a557ab8d951c43d1af798d6e71e953f7557e8161"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_sandstone.json"
+hash = "2803cb12da7e2213098317fc9eb57c5df8073475a6ca394e9724bf0e0e4a57fe"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_stone.json"
+hash = "20434ebc546842096666bd0fd6570f914fc3d3641fac3de58d7c0960dbcf9d9b"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/spruce_planks.json"
+hash = "710d15f3c6f411631b9e86a8ed4f173b7592824710fc6e0acf256abd756dde93"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone.json"
+hash = "805cf492b6302ecbfc3e61f85d66b6361a118a29e3dfa5dab53a42ed034f3775"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone_bricks.json"
+hash = "183cfd72ad46bd01fd62124bb224cc391f192a1ccd24f32aa0b97936a6a7ff4b"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/warped_planks.json"
+hash = "e569e7b1898d858d84766a4d60c6798bde4fb4d1fb767ec3ba6012048058a5c9"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_cut_copper.json"
+hash = "e6243ec72b297fae302f9ec27b5d20a0a4aeffc14a3acb42d5906210ed1b97a5"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_exposed_cut_copper.json"
+hash = "6547f6459faaf681d4f50c4439c5873323f03b40c1367ee68a8c772a65367e0f"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_oxidized_cut_copper.json"
+hash = "11623a328a69e2ac8f85f76669d0e4b09d67278286900c6d0d862c42ad1f0f3a"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_weathered_cut_copper.json"
+hash = "21d1eb219d8fa2d804106e01655f2a218def8f2a06d3bb168cb08a28474becec"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/weathered_cut_copper.json"
+hash = "bb21c0e8eb5835b8760dd0cfed1514825bf65b5916d26770a596c93f195d7d75"
+
+[[files]]
+file = "resources/datapacks/slabs_to_blocks/pack.mcmeta"
+hash = "62dad0ca0ca693c815dd3c303acfd6bc48eb5da0ca4384b35324df4a73adcda0"
+
+[[files]]
+file = "resources/resourcepacks/VanillaTweaks_r311441.zip"
 hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 
 [[files]]
-file = "resources/packs/axolotl-bucket-variants.pw.toml"
+file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
 hash = "65e1947cc3f7d4d5cde07448bb39fc71f75e8356a81fed2040b4fb18e92af240"
 metafile = true
 
 [[files]]
-file = "resources/packs/hide_origin_orb/data/c/tags/items/hidden_from_recipe_viewers.json"
-hash = "e1ddaad4526210ee59d7c2800b259cd122167c35ca200485a3818abb0a3ad31a"
-
-[[files]]
-file = "resources/packs/hide_origin_orb/pack.mcmeta"
-hash = "0d31c599f159241b5b5e9d1c853a6495bc371115770aa61616872cfaa30bef4d"
-
-[[files]]
-file = "resources/packs/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
-hash = "bd32eff1567a6ae10d7a06f751b353d5a5188f60c363d431438071f1db653352"
-
-[[files]]
-file = "resources/packs/hide_yigd/pack.mcmeta"
-hash = "c9b84c7d95f0aac4f81b5a7ebaa7d727d8bd1f3d53f67ea5fcee9fed4de90b82"
-
-[[files]]
-file = "resources/packs/niceemogg.zip"
+file = "resources/resourcepacks/niceemogg.zip"
 hash = "a8a413d3224d9b4578c4c52f49718e6cfcdbc6c4a6ed4e93d339a51ee25f263d"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/acacia_planks.json"
-hash = "7904758b9431834faa15610d25d375b56f28cc1053cccd950426ca5342228bf4"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/andesite.json"
-hash = "561a18766fd73c5339e8d0bef33f6c8118ba31a29447dbe1f8400ad7b0fa6346"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/birch_planks.json"
-hash = "651e873eea742537c9c955bb6449b39327b6067478d0cc70730712427d643bed"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/blackstone.json"
-hash = "8cec7c312dd4fcf36e920bbf4e82e27b53c6bf50664e1492fc103b92bc719299"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/bricks.json"
-hash = "e7090604d2be4bbfb1f66b2040e17b54fe91b61e2aed308f74aa9ce69474edef"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobbled_deepslate.json"
-hash = "f3b2778afceb4822f00b277280450f6df6f0cb8de7641b6acd2ee25a3e221f42"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobblestone.json"
-hash = "6673a6edfd6dbe5969c6d0aed6c2032c000cc63d6f6e5d2f94c9f167b5229a80"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/crimson_planks.json"
-hash = "3b75acc80f653b71ea2a8b7b97ecc2585ef3ccb196f9236889d6e615fc01467d"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_copper.json"
-hash = "2544a5ca8756ad5c740befa46489c537172ca6b6c7656cde8795f7309dfbdbcd"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_red_sandstone.json"
-hash = "289707cfdc4acc488e5fb410512d97370f1df3b710b28e0d1050b1ceedd55497"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_sandstone.json"
-hash = "494d1d709e65adefd83a0755fcdc7c52f2301578310e6312691c2c912e497144"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_oak_planks.json"
-hash = "b6e4c3dbdbc0578cb9878ff0c5699b71e1c97b53229731ddde1d58fe44642f36"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_prismarine.json"
-hash = "a0ccf87c6782ba53113d11a23fff8b6eece8c9986780cb19dfa5519dd3086fe8"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_bricks.json"
-hash = "6ad50a79d98df2596394046cbfd92890d139ebe45b13c095cfe15a43a3ed2823"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_tiles.json"
-hash = "f705d0b19f48bf9c7f723013c87e1a9977a30d1788ea3d44f8059b651f145e7b"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/diorite.json"
-hash = "43b38129f8ba12c8a373c87d50f00393fcb34cfa411b8f451bd555b41e450761"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/end_stone_bricks.json"
-hash = "1cae0b6c5b03a203f929092a19a81adc248e2e2742b7113b4e6bccd648bc667a"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/exposed_cut_copper.json"
-hash = "4dad5bb1f3c014a73e205e31206c8518e5615df525002aa561ac1646ee846750"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/granite.json"
-hash = "cd09376e06408ead88b821771e1533b85abe13fbeb75f3b6a730c623c7d4f6bf"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/jungle_planks.json"
-hash = "b026f53e5c3099ef809621feb36200876131b8f44b99d9c2fdfd40dbf70adda4"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mangrove_planks.json"
-hash = "a8e40a04e9d3823bf42515d11a9b76cf8f1b5388973a19f3ab95add1a568ec38"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_cobblestone.json"
-hash = "07106c2f74275cc637d2f8fde76e46982dafdff63d250f05103f201a146726af"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_stone_bricks.json"
-hash = "c5e487d0a241a6dfb448df4666ccc8dd068264cb78e98b1710f8e47b35e5cd8a"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/nether_bricks.json"
-hash = "5d4719a14b535c494499b40b4e2d237ebd5b3d2d0b5d083580c655df107927b8"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oak_planks.json"
-hash = "e6ebd46e0479f7c6586b425c268414aabbc528672fe904dbd2db810ae0f38e61"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oxidized_cut_copper.json"
-hash = "eac0a9f8e4f97c42c711c330dbdc403e41fb009692b8dfb32adad04914b044d7"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_andesite.json"
-hash = "79bcee5713ca913b95bceb80d5d7aabc6b77a6c5ead4e182d0ed80d380d1c2ad"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone.json"
-hash = "124766001e44d0c902a5eb80b91d85a4d3febd93fdb810ae22b93bb0ab8af130"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone_bricks.json"
-hash = "1b3bcf194e55c38856c4b2fa8524fa4cc0e45eee025b28af042c0398c34fcd24"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_deepslate.json"
-hash = "96cca9f39fd8406876b12ed87d01922b1364bc2a68819c6d3087645568eb57ff"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_diorite.json"
-hash = "1625683d6d1812e45cae1ee5bcd020e2aad4bfb6b429c4b13215042d6de1fd3d"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_granite.json"
-hash = "62a345be2f9b6886606ad5a3a8213949015737e9bd4306cd9fa40c2e49ef8d44"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine.json"
-hash = "7afbc5bec64394939b28a4f4cbd5d0ef9cc54d7a822d50abba401010a23f9216"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine_bricks.json"
-hash = "9296a58959f671be9d9722665c3172d0b1c70013eaabacd14dde383344365f83"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/purpur_block.json"
-hash = "a068fd7b2e3ac41296f1eab54d596dfcd39fe0b75be0cb32f8e97dfaa7a22972"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/quartz_block.json"
-hash = "b3de4fde6e78e693d9079322eb7b704bb24f1ecefe2181ac33bb4f87370f7da9"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_nether_bricks.json"
-hash = "d40a116aa8eb85f018f300e02158e99aee3b03a19e827c1c7f3ef94be02fb2a0"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_sandstone.json"
-hash = "864edafde3ecf0bd1ebea6dd7ba0f7d145d8a8758f6963a65324f44c21040607"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/sandstone.json"
-hash = "789ab0da3d6822d9bd8b6f17bb985095a6353cb996176624c5b08a6807b0988b"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_quartz.json"
-hash = "ba81d08498a6f8179916054e8b62c5028faa5fbc1517e3e4ce0b3ddcd0f4a1dd"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_red_sandstone.json"
-hash = "9cc5de6987a4b603ed718d43397a9abcf78b63187d79ffc4031749e97abb7c5b"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_sandstone.json"
-hash = "292a1fb32cd8c649f465b699214d20fbe1f0a4961e9ae000467aa8e2c72e5f91"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_stone.json"
-hash = "350ad431e9d4641adcb16ad4e6aa0da8eb43539f27d50354484f2cc47183c8cd"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/spruce_planks.json"
-hash = "ad5769284981b6439d75a1c87496bda2f30bf747f97f9f7e9ef836427017aab1"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone.json"
-hash = "2474a4336e87a5fbad8bd5accfbe19ec2f17b510bb2495fb99616e30f2f6dd0f"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone_bricks.json"
-hash = "cb1e99c7a850f6db2e3e5d368ca41096506be451e69d588cda7531859f47bec6"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/warped_planks.json"
-hash = "2d65535ffc3615b035189f0281170745c768b8106f0a5267b444892cb83d0f71"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_cut_copper.json"
-hash = "658aae97aa19213fb6e34dc5e412cb58aab8a5def77376cbddc6dac0e11a5b42"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_exposed_cut_copper.json"
-hash = "bdb27570277484a0ce27dd417cfd647a21f61cd1317269f2e045559346cac45c"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_oxidized_cut_copper.json"
-hash = "8050e26afb949933e045a8fd7984862dfbaa8bf1655623076e58ca00e1d7cff8"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_weathered_cut_copper.json"
-hash = "96253e1f963e3247b75e0f7b890a6afafcdb230762823a4211339714f1225180"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/weathered_cut_copper.json"
-hash = "5c7ed3331569e159929371f1df4dd110fffd56635c8e6bc2d1983bb6a948643f"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/acacia_planks.json"
-hash = "0d99aa58477f857921bbe9aeb6a1f99d490ac047c833609d069364f6739fa3ab"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/andesite.json"
-hash = "e5b91cc226b2919b6e3e3c2b0b9d0d1f48c5a78f82ef864bf031520c240d7e9c"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/birch_planks.json"
-hash = "a79df60ecccc525a52ff5ba6ac804ac0bae8474962b87a4dbee551d3ea851b9b"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/blackstone.json"
-hash = "4145617c390e9885c53059ed83ae7588401791fff124d2ceef4024278c18e7c1"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/bricks.json"
-hash = "211f5d7c9f8929f5953192e7c7d0429009277ab78de012e3520581384b531ffc"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobbled_deepslate.json"
-hash = "213cb0c1adbfe2402e49baab02bec0d23956ccae50ae32123e78d7974af4386d"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobblestone.json"
-hash = "e62218173b2ff8373aaf83a01a40be16f1e47cfa48cdc8648475ac39ced8fce8"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/crimson_planks.json"
-hash = "4582e60b5bc468c4e04f1272d37ea3918dd7ca6cf6be06a828898031144c0d56"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_copper.json"
-hash = "c0d3c783796be3fd73233c08fefd03f1145868a22212ca2adf01f8997ff528bd"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_red_sandstone.json"
-hash = "430ddb7452448becf3469ba4327e023c2566bd73be6dd70cdb24c9824ef6a18f"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_sandstone.json"
-hash = "f89955cb6446e37722a7ca26ff13a9782d0f1b49d0279fea8f21e2dc91355226"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_oak_planks.json"
-hash = "855a0c6b4ab383770c64fab689dd16a0cc508431bbab2dfb1c2b9f1aef8e003c"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_prismarine.json"
-hash = "93f519d53a986aa4258311f9d99009d250e7442650170999fcf888a17bfb8c71"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_bricks.json"
-hash = "70f17aa2a6db920576b6b2c32c1c87a6648760a633f1e2acc092bbf21e328adb"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_tiles.json"
-hash = "d00ed5b8afdd57c2a226729d8dc648add1a664d3b2183c130304d111f93e129a"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/diorite.json"
-hash = "c606a9c4031fad12a05ae4f0e7c5d1546bca5976cfd881f887a64adfca28e857"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/end_stone_bricks.json"
-hash = "55c9b02acb4266617f46a26560ba26f29b972f93e68d040d250e04796b62a205"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/exposed_cut_copper.json"
-hash = "5ed3511f3ba88656202522567f28897037d1a813e4d686e6e3f79d0872965921"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/granite.json"
-hash = "05a8fe03f331834afc7b68d2b4810c9b931aa138db8f97c264eaeda975d2c1ad"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/jungle_planks.json"
-hash = "3759d6b35f60e27446e042f2fa35aa77cfc00e97ba6be74f22d83add92af8cb5"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mangrove_planks.json"
-hash = "45e706803c1d014fd8d4d52ce5ca2fd96f4fc5ce5fce759a63eeeccfbb3e252f"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_cobblestone.json"
-hash = "590e393f1c7621796d00b8a0a2928f32e40b45cc58b47131d386be49a460f760"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_stone_bricks.json"
-hash = "3d42eb0f1c1ec795779b47c35f9f920f1928bdf82e6d0cc9dda4976da96ad7b1"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mud_bricks.json"
-hash = "593114debeaf9284775f542e4cd4b59463e68c85d92cec1dcc9a44b109563146"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/nether_bricks.json"
-hash = "6315f53b22ce6b8548abd2c6cea17242a7bcb2db1b950b49a277629020b4f121"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oak_planks.json"
-hash = "9b80c064b84f39fe642396059195f829c0a02eb4a7907611a4a9f57b1d03e2da"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oxidized_cut_copper.json"
-hash = "50a44e1d868bb451176947d36e158c9adfe00c26a9929c1f5d66f052884b1352"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_andesite.json"
-hash = "63606689cb91f097ae626e814e5e9173d8fe20f4f0130c2dcf2773c549091327"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone.json"
-hash = "1aee18d8c5c52bd82f08c8da4ea19e023e8555f1fa1662a4e3b4a0a84cb5bc6f"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone_bricks.json"
-hash = "5fbc8061f53dd5927d1f42a7cca2efcd06a91852366ad2bcf1772810571a0d80"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_deepslate.json"
-hash = "025ea67f5ce15043304b0646faaf892d735d48c1fec1e5c2a137998bb40fe5f0"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_diorite.json"
-hash = "afe550be0ce82d2e9a88eba6b7abfc4dbb040ce7e9c0135c7d2129625b344bba"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_granite.json"
-hash = "228c1aec01be59a9894096e5c92f9d5f3fa99d3694996ae1d22acc14f95ba4e9"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine.json"
-hash = "2cc7e03300f20bd4c2d7c06274d3d971ea00dd7d24996ae4179058d0af7e72a0"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine_bricks.json"
-hash = "6ec986b051a4fadf550fcf04b5b6b0542c420b651d57be89164ce2324f2ac257"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/purpur_block.json"
-hash = "4a26d63e59ad52982de04b13b73678d31fe94ba79371d51a19c7d9f6c7f0c773"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/quartz_block.json"
-hash = "092c0fe2d177b3f0364861b68e9ae76c8fdcdf6640e20350dbbbd0809aba6098"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_nether_bricks.json"
-hash = "d20000be6b754c557758e2b5217cdf9512d0b0eea7774caaa4de1f6dbe30468a"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_sandstone.json"
-hash = "4da4a9aa74d1cd1271a7c543b46144eda7c24a6806ebc61d90cb90ac4a6594f7"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/sandstone.json"
-hash = "a49741c3afad58b4d157149d1cb3b71e4e4c8ace5708cdcc7a537e63cb67d5ed"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_quartz.json"
-hash = "d598f57cea9c39800d42bd33e6cfff41100cd122c61db7f921aefe4d80bc2cf7"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_red_sandstone.json"
-hash = "0f88c95369f7ed2a84520845a557ab8d951c43d1af798d6e71e953f7557e8161"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_sandstone.json"
-hash = "2803cb12da7e2213098317fc9eb57c5df8073475a6ca394e9724bf0e0e4a57fe"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_stone.json"
-hash = "20434ebc546842096666bd0fd6570f914fc3d3641fac3de58d7c0960dbcf9d9b"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/spruce_planks.json"
-hash = "710d15f3c6f411631b9e86a8ed4f173b7592824710fc6e0acf256abd756dde93"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone.json"
-hash = "805cf492b6302ecbfc3e61f85d66b6361a118a29e3dfa5dab53a42ed034f3775"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone_bricks.json"
-hash = "183cfd72ad46bd01fd62124bb224cc391f192a1ccd24f32aa0b97936a6a7ff4b"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/warped_planks.json"
-hash = "e569e7b1898d858d84766a4d60c6798bde4fb4d1fb767ec3ba6012048058a5c9"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_cut_copper.json"
-hash = "e6243ec72b297fae302f9ec27b5d20a0a4aeffc14a3acb42d5906210ed1b97a5"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_exposed_cut_copper.json"
-hash = "6547f6459faaf681d4f50c4439c5873323f03b40c1367ee68a8c772a65367e0f"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_oxidized_cut_copper.json"
-hash = "11623a328a69e2ac8f85f76669d0e4b09d67278286900c6d0d862c42ad1f0f3a"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_weathered_cut_copper.json"
-hash = "21d1eb219d8fa2d804106e01655f2a218def8f2a06d3bb168cb08a28474becec"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/weathered_cut_copper.json"
-hash = "bb21c0e8eb5835b8760dd0cfed1514825bf65b5916d26770a596c93f195d7d75"
-
-[[files]]
-file = "resources/packs/slabs_to_blocks/pack.mcmeta"
-hash = "62dad0ca0ca693c815dd3c303acfd6bc48eb5da0ca4384b35324df4a73adcda0"
-
-[[files]]
-file = "resources/packs/sullys-peeves.pw.toml"
-hash = "6bb86fce4c17a9f6ec572f614b59e6173c3b1c00aeeb724c3c4a3e777c2998a5"
-metafile = true
-
-[[files]]
-file = "resources/packs/varied-connected-bookshelves.pw.toml"
-hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
-metafile = true
-
-[[files]]
-file = "resources/packs/xalis-enchanted-books.pw.toml"
-hash = "81e456094c4decb60cd5af5e7eaf53d9b3ba775aa05ea319c99d2325e60ca6a0"
-metafile = true
 
 [[files]]
 file = "resources/resourcepacks/sc.zip"
@@ -2036,8 +1984,23 @@ file = "resources/resourcepacks/styled_chat_emoji.json"
 hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
 
 [[files]]
+file = "resources/resourcepacks/sullys-peeves.pw.toml"
+hash = "6bb86fce4c17a9f6ec572f614b59e6173c3b1c00aeeb724c3c4a3e777c2998a5"
+metafile = true
+
+[[files]]
 file = "resources/resourcepacks/twemojis.zip"
 hash = "77fd21d736e443a5418117a34e68393ee93020be42b0861e503fcc2e25382515"
+
+[[files]]
+file = "resources/resourcepacks/varied-connected-bookshelves.pw.toml"
+hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
+metafile = true
+
+[[files]]
+file = "resources/resourcepacks/xalis-enchanted-books.pw.toml"
+hash = "81e456094c4decb60cd5af5e7eaf53d9b3ba775aa05ea319c99d2325e60ca6a0"
+metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"

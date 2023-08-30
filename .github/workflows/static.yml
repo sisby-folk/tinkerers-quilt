@@ -2,9 +2,8 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["quilt_1.19.2", "quilt_1.19.2_plus", "quilt_1.19.2_modded", "quilt_1.20"]
+    branches: ["website", "1.19", "1.19_plus", "1.19_modded", "1.20"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,41 +33,41 @@ jobs:
         with:
           ref: website
 
-      - name: import quilt_1.19.2
+      - name: import 1.19
         uses: actions/checkout@v3
         with:
-          ref: quilt_1.19.2
-          path: cdn/quilt_1.19.2
+          ref: 1.19
+          path: cdn/1.19
           clean: false
-      - name: import quilt_1.19.2 - clean
-        run: rm -rf cdn/quilt_1.19.2/.git
+      - name: import 1.19 - clean
+        run: rm -rf cdn/1.19/.git
 
-      - name: import quilt_1.20
+      - name: import 1.20
         uses: actions/checkout@v3
         with:
-          ref: quilt_1.20
-          path: cdn/quilt_1.20
+          ref: 1.20
+          path: cdn/1.20
           clean: false
-      - name: import quilt_1.20 - clean
-        run: rm -rf cdn/quilt_1.20/.git
+      - name: import 1.20 - clean
+        run: rm -rf cdn/1.20/.git
 
-      - name: import quilt_1.19.2_plus
+      - name: import 1.19_plus
         uses: actions/checkout@v3
         with:
-          ref: quilt_1.19.2_plus
-          path: cdn/quilt_1.19.2_plus
+          ref: 1.19_plus
+          path: cdn/1.19_plus
           clean: false
-      - name: import quilt_1.19.2_plus - clean
-        run: rm -rf cdn/quilt_1.19.2_plus/.git
+      - name: import 1.19_plus - clean
+        run: rm -rf cdn/1.19_plus/.git
 
-      - name: import quilt_1.19.2_modded
+      - name: import 1.19_modded
         uses: actions/checkout@v3
         with:
-          ref: quilt_1.19.2_modded
-          path: cdn/quilt_1.19.2_modded
+          ref: 1.19_modded
+          path: cdn/1.19_modded
           clean: false
-      - name: import quilt_1.19.2_modded - clean
-        run: rm -rf cdn/quilt_1.19.2_modded/.git
+      - name: import 1.19_modded - clean
+        run: rm -rf cdn/1.19_modded/.git
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
