@@ -1,13 +1,13 @@
 name = "Origins Minus"
-filename = "origins-minus-2.0.7.jar"
+filename = "origins-minus-2.0.8+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gbOL9is1/versions/BwPQoCLI/origins-minus-2.0.7.jar"
+url = "https://cdn.modrinth.com/data/gbOL9is1/versions/TLnqIl5i/origins-minus-2.0.8%2B1.19.2.jar"
 hash-format = "sha1"
-hash = "3e6ebb3b2b2ff31456940301ed9fb6fdd650ddf5"
+hash = "95f6c633a586ff484062232e5c58358dc91137f2"
 
 [update]
 [update.modrinth]
 mod-id = "gbOL9is1"
-version = "BwPQoCLI"
+version = "TLnqIl5i"
