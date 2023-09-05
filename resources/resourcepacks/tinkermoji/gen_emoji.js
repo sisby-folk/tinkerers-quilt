@@ -15,7 +15,7 @@ for (const namespace of ['twemoji', 'tinkerer']) {
 			chars: [value],
 		});
 
-		style[f.name.substring(0, f.name.length - 4)] = value;
+		style[f.name.substring(0, f.name.length - 4)] = `<font:'${namespace}:emoji'><white>${value}`;
 	}
 
 	Deno.writeTextFileSync(`assets/${namespace}/font/emoji.json`, JSON.stringify(font))
