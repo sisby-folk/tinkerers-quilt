@@ -2,9 +2,8 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["1.19", "1.19_plus", "1.19_modded", "1.20"]
+    branches: ["website", "1.19", "1.19_plus", "1.19_modded", "1.20"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,12 +31,12 @@ jobs:
       - name: import website
         uses: actions/checkout@v2
         with:
-          ref: website
+          ref: "website"
 
       - name: import 1.19
         uses: actions/checkout@v3
         with:
-          ref: 1.19
+          ref: "1.19"
           path: cdn/1.19
           clean: false
       - name: import 1.19 - clean
@@ -46,7 +45,7 @@ jobs:
       - name: import 1.20
         uses: actions/checkout@v3
         with:
-          ref: 1.20
+          ref: "1.20"
           path: cdn/1.20
           clean: false
       - name: import 1.20 - clean
@@ -55,7 +54,7 @@ jobs:
       - name: import 1.19_plus
         uses: actions/checkout@v3
         with:
-          ref: 1.19_plus
+          ref: "1.19_plus"
           path: cdn/1.19_plus
           clean: false
       - name: import 1.19_plus - clean
@@ -64,7 +63,7 @@ jobs:
       - name: import 1.19_modded
         uses: actions/checkout@v3
         with:
-          ref: 1.19_modded
+          ref: "1.19_modded"
           path: cdn/1.19_modded
           clean: false
       - name: import 1.19_modded - clean
