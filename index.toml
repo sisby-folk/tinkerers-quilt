@@ -65,6 +65,10 @@ file = "config/crunchy-crunchy-advancements.css"
 hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "2e522ef287cb56150bd2dd59a5cd6d28e6b45797a2bf9c150415740aaf1c2930"
+
+[[files]]
 file = "config/easierenchanting.properties"
 hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 
@@ -79,10 +83,6 @@ hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 [[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
-
-[[files]]
-file = "config/fabric-title-changer/settings.json"
-hash = "3456c66f286032e5bb18a52132f31cfdf19545cad70570cacc60ad21188a0087"
 
 [[files]]
 file = "config/fabrication/features.ini"
@@ -999,6 +999,10 @@ hash = "47e796fa0168407d6bf12e3aac6cf29881960df43ed21f844ab34ac891ee0730"
 metafile = true
 
 [[files]]
+file = "mods/coyote_time-1.0.1.jar"
+hash = "2c306c91e1086e8b4890088145fa1cda00cffc6e61cd5f1d7f606b464ff7da64"
+
+[[files]]
 file = "mods/crowmap.pw.toml"
 hash = "30f1ee40932a5918f97f85ac3c9bd48f2545e3baf0f40fde6a631606aae59b52"
 metafile = true
@@ -1006,6 +1010,11 @@ metafile = true
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
 hash = "6f16cd3ae8e62aa50926cec346d56f22b6402f20684c1438c243296fcdc74c09"
+metafile = true
+
+[[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "23741a1d4ab09af28cc04a035f30d0e9b0f26577697e0faaf797f2eed2833451"
 metafile = true
 
 [[files]]
@@ -1433,7 +1442,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "3ca3facb704f9635ff5bc10616c2af7455a3f226bb290b5f8c55e51563ab059e"
+hash = "eee87bf105d40ced80e808a6153ece9dfdfc61bb8e9eb0e36c1f007a0cbe3328"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
