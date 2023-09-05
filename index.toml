@@ -153,10 +153,6 @@ file = "config/isxander-main-menu-credits.json"
 hash = "9ede5f3c262d74cf2ec694d8c228f1fd8f3b363c13ba5695ea7eea2db6b63b0b"
 
 [[files]]
-file = "config/lucium-hidden-debug-entries.txt"
-hash = "bc8876f1afd54ff5f5f862e6ba531f8a80853688fd2e99cdfb1b633f1386dd5f"
-
-[[files]]
 file = "config/modmenu.json"
 hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
 
@@ -594,11 +590,6 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "54a337d13450b35dfc931e7a5f3ed9fca1a1992ec51d3b1e4ea1cb5f7cd2d09c"
-metafile = true
-
-[[files]]
-file = "mods/lucium.pw.toml"
-hash = "1e8141fb6f44da5f922d460a9903d1ac0541356aae0b6d3f68b9e5cf5824b089"
 metafile = true
 
 [[files]]

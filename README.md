@@ -225,7 +225,6 @@ Mods:
     LazyDFU
     Leaves Us In Peace
     Lithium
-    Lucium
     Luna Slimes
     Main Menu Credits
     LAN World Plug-n-Play (mcwifipnp)
