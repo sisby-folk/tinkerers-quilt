@@ -876,6 +876,11 @@ hash = "13fb4ccbfce4b5bb375b96630c5658e0a0677e7a25bc4fa4c9c16a409418091c"
 metafile = true
 
 [[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "dba5fb0ba3bd62a59aaaac43d7ecf5be268eccd0e2149a244f739a26108d959f"
+metafile = true
+
+[[files]]
 file = "mods/polaroidcamera.pw.toml"
 hash = "fa9c87aee7283f245834928b05b69d8269d0b9884ffceddaf743b3fce46b025f"
 metafile = true
