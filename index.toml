@@ -284,7 +284,7 @@ metafile = true
 
 [[files]]
 file = "mods/badpackets.pw.toml"
-hash = "63edbd012db544d0590a1cd2563a4973c0316b8033370b41a48c05b0e8e667e5"
+hash = "8ad70a37942196cdac3bab651037dec11ba0c0df5b6b261231ae66903ecfcdea"
 metafile = true
 
 [[files]]
@@ -339,7 +339,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunks-fade-in.pw.toml"
-hash = "44c83aabe1cb66201f4a2f7e6ccbfea2c226234a4c52103ef8d865526390b736"
+hash = "5d6498cf74852f8da28eef19c2fe1effcd69008ffebd316621629c759609e57b"
 metafile = true
 
 [[files]]
@@ -399,7 +399,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
+hash = "13900eb4d75010b02eaa6675770e15eaf33794c55658d9b7ae5f4d8299f680c8"
 metafile = true
 
 [[files]]
@@ -514,7 +514,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "72b3ed45f236d4528817b4022ba711bb8379dc39b5901b6dec7ae88e01d8c52b"
+hash = "0e9c1ac6fc821d1683d834ecbbdd4122980f0bf4599c9731a886cbb8006ce620"
 metafile = true
 
 [[files]]
@@ -617,8 +617,8 @@ hash = "1be161c5175de48cc080374582c6af01b02c57e3a7d21617c0ab558b59b6c954"
 metafile = true
 
 [[files]]
-file = "mods/memoryleakfix.pw.toml"
-hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
+file = "mods/modernfix.pw.toml"
+hash = "c6705186e23c5c3cb91f92af4a48be356cd6a18e384a0e1fa9616125f734f201"
 metafile = true
 
 [[files]]
@@ -658,7 +658,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "01de3298ca79bf4d2f2f29d6ef36b77c359c32b699ea0581c6487ec2930b2c70"
+hash = "53875fd3bced7c46a5180ab2c1915c77a7c47cd79932f91c0c1279aa39ed1d62"
 metafile = true
 
 [[files]]
@@ -778,7 +778,7 @@ metafile = true
 
 [[files]]
 file = "mods/styled-chat.pw.toml"
-hash = "b54a2d0cdb07a011d353462037ee68dfa2108767be8485c58f65fea4986cb934"
+hash = "d41931b825536bd673d15537f7bbacd0e5d518b9b5e9fc4ea3631326b636657c"
 metafile = true
 
 [[files]]
@@ -798,12 +798,12 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "1084bc8dcf5a209cbec1c4bc95154018da7f14ad95711ea1511d4eb2d9f6127f"
+hash = "0590a2e07eff602d56bebbf82e9805c5ee0313c3414420cd18aadadd34ef4c5e"
 metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "5f770e57e77d265a780c5c5c3fda8d3a99cdccdd7d1dcaa9cfefbac1fbeb957c"
+hash = "d79e9ce495bbcbe558479b989d0cada7c51af77d3abe9abbd024f4b574adf948"
 metafile = true
 
 [[files]]
@@ -813,7 +813,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "296efbfc6ee31a1f1bfdcb8734834153392b9cdf9254b027fcfa2dcd4e809bb7"
+hash = "e95b7ecf2da0f92a2369afff5bdfd25f2c16fa497059396f1aa5bd8e8448c9df"
 metafile = true
 
 [[files]]
@@ -833,7 +833,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-statures.pw.toml"
-hash = "a68248a634fe0dcf235a0c31378af2ccb15b74e7cb80537534f03f9b6640c5d2"
+hash = "b4dc484c42fdbc3052629e984338f52768daa84fedcd414c83d381b0798cc144"
 metafile = true
 
 [[files]]
@@ -868,7 +868,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "11fc5bfddb81b2f69bcf5664d86f3770dbca089318d023704fcf0db997e510ae"
+hash = "1b4f3fc969b6e8a14298e52c8be89c5fda8b6696ff70c1e457317af4e2c088bc"
 metafile = true
 
 [[files]]
