@@ -94,7 +94,7 @@ Tinkerer's Quilt **Encourages player expression** with better skins, origins, an
 | 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple origins with fun abilities!                                                                                                                              |
 | 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus) | Choose your height and size with origins!                                                                                                                       |
 | [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc.                                                                                       |
-| [EmoGG](https://modrinth.com/mod/emogg)                           | Allows emoji in chat, including discord [twemoji](https://github.com/twitter/twemoji), [Mothcharm's nice emoji](https://mothcharm.carrd.co/#emoji), and extras. |
+| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Allows emoji in chat, including discord [twemoji](https://github.com/twitter/twemoji), [Mothcharm's nice emoji](https://mothcharm.carrd.co/#emoji), and extras. |
 | [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks.                                                                                 |
 | [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions.                                                                                               |
 
