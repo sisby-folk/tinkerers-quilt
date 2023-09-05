@@ -915,7 +915,7 @@ metafile = true
 
 [[files]]
 file = "mods/badpackets.pw.toml"
-hash = "cbf5544ba86d4d10262fff9c53af6c9ef05bb92d329bb02f891a5aaf3ca94631"
+hash = "a1bea09f928280dd62cea871438231389ecbed00f4053bb5d1d4a3ad91545fc3"
 metafile = true
 
 [[files]]
@@ -965,7 +965,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunks-fade-in.pw.toml"
-hash = "6da7021ea032f8ba5bd6b8f101042d4f6fc6e45fb88d40382bd7f901d0202ea4"
+hash = "f15581274f9e3ad3501738d700965c40cd34808495b5798d762b5fd85ec431e9"
 metafile = true
 
 [[files]]
@@ -974,8 +974,8 @@ hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
 metafile = true
 
 [[files]]
-file = "mods/clickthrough-continued.pw.toml"
-hash = "9bf9c87541424695c92cb8f1a23e6b464af763991d82745dd4cd4d701220ab53"
+file = "mods/clickthrough.pw.toml"
+hash = "7703705832bac583d57f9c7c4abf04a669273f3bbf047fb8b333b52e9f5bb3ed"
 metafile = true
 
 [[files]]
@@ -1015,7 +1015,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "c8c6a3893859d2f0e04ebf400c8ce8b47de21cfe6097996b5dde1561e92f3c80"
+hash = "1f49e24c04e3bc0132a3542cd4fc9c0d012515f19f124fb0b48eaff9bb99861c"
 metafile = true
 
 [[files]]
@@ -1085,7 +1085,7 @@ metafile = true
 
 [[files]]
 file = "mods/heracles.pw.toml"
-hash = "81194cf5aca5065d266afceaee947ce9f76b3556a6ebe96f88c6f0f2dd93b143"
+hash = "5a20c0a4e123e5152d979fddfb78e169a2798438155004e5a1e96102152c783d"
 metafile = true
 
 [[files]]
@@ -1180,7 +1180,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c6705186e23c5c3cb91f92af4a48be356cd6a18e384a0e1fa9616125f734f201"
+hash = "e5f92dc07f3f57d187c366dc98c1d16d75df5cf47775b1c2d8589f5a01900536"
 metafile = true
 
 [[files]]
@@ -1220,7 +1220,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "bff5767c5d8da01b87edc7b373b3317d94be478c8e3e8acc33f8846b414698d7"
+hash = "c161ae2c617ecf9cd4a1f39e5a000ae7098ea9d0c7cd1155c866d78369286c98"
 metafile = true
 
 [[files]]
@@ -1270,7 +1270,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "cf32dc6616f160d2404e7d2f96d7547cdbdc639737d3107b525b38ea91000cac"
+hash = "6d2220fae4c96478450c462bca2f4d7f32cd988a78f677622bb6c6ab9ccd77fe"
 metafile = true
 
 [[files]]
@@ -1360,7 +1360,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "85dadcca0c32de1e182763a9ddfae8a706401c9d9dec3c256b639d7e0909c982"
+hash = "61850553c492f96163d94eba361d7536083bb136132b01838842661f5c86d43a"
 metafile = true
 
 [[files]]
@@ -1370,7 +1370,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "2f9678ea2fb3b5ef48b4569e46860941137fde93e24148fa7e1d62faeca68014"
+hash = "7ac7861d2121bdb32dd3c84326c3daebb35b9ff0a8b4f7f3d2d7ca0cc6941c79"
 metafile = true
 
 [[files]]
@@ -1420,7 +1420,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "fc11ca1eec1dc3785b51c51b061fed1a68044cd7ffb412cdabdaf76ecc0d9a29"
+hash = "874a680170fbf36204ee1c4e57650b6a28b15d10a32163964850aaccc9a7457a"
 metafile = true
 
 [[files]]
