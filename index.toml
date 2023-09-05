@@ -668,6 +668,11 @@ hash = "13fb4ccbfce4b5bb375b96630c5658e0a0677e7a25bc4fa4c9c16a409418091c"
 metafile = true
 
 [[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "dba5fb0ba3bd62a59aaaac43d7ecf5be268eccd0e2149a244f739a26108d959f"
+metafile = true
+
+[[files]]
 file = "mods/portable-crafting-standalone.pw.toml"
 hash = "24525096d6fbf0d3c8d3d64b255401046e0faa65db986dff1ca37609feb6434a"
 metafile = true
