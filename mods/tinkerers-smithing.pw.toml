@@ -1,13 +1,13 @@
 name = "Tinkerer's Smithing"
-filename = "tinkerers_smithing-2.4.0+1.19.jar"
+filename = "tinkerers_smithing-2.5.1+1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/RhVpNN5O/versions/1UcMRWHH/tinkerers_smithing-2.4.0%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/RhVpNN5O/versions/CbmPpBc9/tinkerers_smithing-2.5.1%2B1.19.jar"
 hash-format = "sha1"
-hash = "c0115d45cb03504a7855ed2913f324abdf09bc0a"
+hash = "621730ac340dc8119118f3910adab478c0af1870"
 
 [update]
 [update.modrinth]
 mod-id = "RhVpNN5O"
-version = "1UcMRWHH"
+version = "CbmPpBc9"
