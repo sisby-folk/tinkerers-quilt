@@ -1,13 +1,13 @@
 name = "Antique Fwaystones"
-filename = "antique-fwaystones-1.0.0+1.19.jar"
+filename = "antique-fwaystones-1.0.1+1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/f3WJvB4r/versions/A5vR12Dr/antique-fwaystones-1.0.0%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/f3WJvB4r/versions/VzvwiG9y/antique-fwaystones-1.0.1%2B1.19.jar"
 hash-format = "sha1"
-hash = "ae45a5a4968951c291670206cf78db068291914f"
+hash = "c6a651a08abdc8f5d420d82b45d13f0c743aba65"
 
 [update]
 [update.modrinth]
 mod-id = "f3WJvB4r"
-version = "A5vR12Dr"
+version = "VzvwiG9y"
