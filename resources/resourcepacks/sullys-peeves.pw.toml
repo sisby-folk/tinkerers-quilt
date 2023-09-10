@@ -1,13 +1,13 @@
 name = "Sully's Peeves"
-filename = "Sully's Peeves.zip"
+filename = "Sullys_Peeves.zip"
 side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/e6y66ttF/versions/hj0FPr2D/Sullys_Peeves.zip"
 hash-format = "sha1"
-hash = "0cfb6c80994af49d1bcbda4283ed391ba7f66074"
-mode = "metadata:curseforge"
+hash = "077b72532f7f09163e6e4109d532956da764972b"
 
 [update]
-[update.curseforge]
-file-id = 3973254
-project-id = 492485
+[update.modrinth]
+mod-id = "e6y66ttF"
+version = "hj0FPr2D"
