@@ -502,12 +502,12 @@ metafile = true
 
 [[files]]
 file = "mods/drogstyle.pw.toml"
-hash = "fac46bb9d03a62b30c63f126af61c1a7679a229aebe234dec6236fd678999abf"
+hash = "eac5cc7857d62d33767b0dd4fd9b5c0bb0f513ea36effcd32db65999dca2f376"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "13900eb4d75010b02eaa6675770e15eaf33794c55658d9b7ae5f4d8299f680c8"
+hash = "3a9f0237e0eb16ab1ffba6dc8de1e7fb9828c4b111c5c5fbee82dfdffcc1dcd7"
 metafile = true
 
 [[files]]
@@ -582,7 +582,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "8fbc5cb904298e1a4bc0b3ec02b76fd67a6b0e794c71920f76f0775b3000440f"
+hash = "d1909a737817c3acced1e84b600e778a1b49fb1adad552425db1a7cda1a2fc86"
 metafile = true
 
 [[files]]
@@ -662,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "0e9c1ac6fc821d1683d834ecbbdd4122980f0bf4599c9731a886cbb8006ce620"
+hash = "0c4f606884b6eaf614aba5fd9705467ffe2917e14b805e86951537ee0469ec41"
 metafile = true
 
 [[files]]
@@ -846,7 +846,7 @@ metafile = true
 
 [[files]]
 file = "mods/placeholder-api.pw.toml"
-hash = "dba5fb0ba3bd62a59aaaac43d7ecf5be268eccd0e2149a244f739a26108d959f"
+hash = "63e603aacd627262576ba4da78716c44957ab1a8013ba0129a56470a55ebe571"
 metafile = true
 
 [[files]]
@@ -980,22 +980,22 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "0590a2e07eff602d56bebbf82e9805c5ee0313c3414420cd18aadadd34ef4c5e"
+hash = "ee0867505705ee284a1a38dd9dbbd783668123ff49eca03195a651117d2572b2"
 metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "d79e9ce495bbcbe558479b989d0cada7c51af77d3abe9abbd024f4b574adf948"
+hash = "7e8f37358497336864d70f8586aa5ae06cbc867e80eb58119799aaa4d597658d"
 metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "d6d03845bac41aed6b0258e0ff96007cfc647177970ebeb380589934f5f63b7c"
+hash = "cc6b6468ffbc394119cbaa17779d25bde3d10e74215d3eca43d4980df8174022"
 metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "e95b7ecf2da0f92a2369afff5bdfd25f2c16fa497059396f1aa5bd8e8448c9df"
+hash = "ffc2a662b5be7d14c44fe88009daa58781b5e8f53494d2ff2a9d1cbb8d7e9b44"
 metafile = true
 
 [[files]]
@@ -1010,7 +1010,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "77cc38e199f843cacd02df78683d79a2b5fdc636c9bef5c43e9c35ab46977803"
+hash = "335158c9e5819931d9aa872e35c11a0197284541105a908009ff537d2b0cc2b8"
 metafile = true
 
 [[files]]
@@ -9446,7 +9446,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "ef5060e4fee094045e79fad89880359d0f3ad6042a63c74314adde206f8f208c"
+hash = "820c7a11a6d105ee6b8e4faaf0b93f807fcdbc803f816437e2170c76c439e38c"
 metafile = true
 
 [[files]]
@@ -9456,12 +9456,12 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "52b2b9aa9245d6ba6e0a22cf96926401535bb722844cb4b0c1ae32a243791241"
+hash = "1c426c0ee06129321c29f0055218f4910366a8b52fa5963402f78fff280397dd"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "5fef0beadf88815e435197ec9fd863793a5ab38e45a6d8d7f9a2a3095159fdf0"
+hash = "0d5dda2b2a579490f3e33b11ee6b87b649ab1065b60d6eaca341a7f5b912fd84"
 metafile = true
 
 [[files]]
