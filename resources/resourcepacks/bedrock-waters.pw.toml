@@ -1,0 +1,13 @@
+name = "Bedrock Water"
+filename = "Bedrock water V1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OQ2MRcra/versions/MKvLFVhy/Bedrock%20water%20V1.zip"
+hash-format = "sha1"
+hash = "ecb696dc2f369deb91a491f87e0c585747398328"
+
+[update]
+[update.modrinth]
+mod-id = "OQ2MRcra"
+version = "MKvLFVhy"

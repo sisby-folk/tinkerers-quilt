@@ -1023,12 +1023,12 @@ metafile = true
 
 [[files]]
 file = "mods/drogstyle.pw.toml"
-hash = "5e09fc8d9d4cbe026f0e5c6ca17c6d23213ac1b79c566210be3d919daa18dc15"
+hash = "68452ca16aae1de43cb10ace5eb52120108eb1d357d09120d3caefd7c13886ff"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "1f49e24c04e3bc0132a3542cd4fc9c0d012515f19f124fb0b48eaff9bb99861c"
+hash = "ad214677d7d7b71d0d962d4b3f668d34ba2faa19b30ad007afd89a205256505c"
 metafile = true
 
 [[files]]
@@ -1058,12 +1058,12 @@ metafile = true
 
 [[files]]
 file = "mods/exordium.pw.toml"
-hash = "54a35a60c72cb0881e99d3c186734ecb9bf9e32acb2a8f4d5b2936f6a0449698"
+hash = "2b9b5a34a6f3cb5796b4e9996fe1da41d7b063b2727743aeed6c8d350d7cdbb6"
 metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "fd1a0360d2d6eaecfe1af3bb8ae0037fbdc7c7a2cc47ebb02de8e6b37d99fb1a"
+hash = "702d060284b4c7f5b2bb794a9a78584a749f009842f715164bc76d2ce974b2e7"
 metafile = true
 
 [[files]]
@@ -1073,7 +1073,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "964ba2b17c1faef33809b6f3ccfb4ee73b3431ddd0d2c391da45034676fece26"
+hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
 metafile = true
 
 [[files]]
@@ -1112,7 +1112,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "b955450fc7798bd9490f24977a828a06aeee726198aacec1eef16703ab88fbc5"
+hash = "0115f86693696e977523c0137f7951a28577290d5e0e176b257e437e14f3fd5f"
 metafile = true
 
 [[files]]
@@ -1197,7 +1197,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "e2a93bfe1d1e55657afd64a361b1d05929c8984332f1c39afd957eb7f88e9a62"
+hash = "4cd171d3f5f3e1d2948cb1b0062e742a5e85110c9e9a668f9aed5b0cebcb9c97"
 metafile = true
 
 [[files]]
@@ -1302,7 +1302,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "20d8dfbc90c81bb784a17b7f88c4ff00ecb9946c29244af47b9e1586a9395a8d"
+hash = "c89835f045a03832c287470cd1729a70f1265e3eac7b3cdaf603c3c1fd677689"
 metafile = true
 
 [[files]]
@@ -1347,7 +1347,7 @@ metafile = true
 
 [[files]]
 file = "mods/styled-chat.pw.toml"
-hash = "4f101cf87d3e2228c8c62e3b91ecdb1825809841041e709f9d1480d4e25fad3a"
+hash = "4df7a83e4162bb71e20ef2bea25042daadf04ac5daab143b0035af0405160b65"
 metafile = true
 
 [[files]]
@@ -1372,17 +1372,17 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "61850553c492f96163d94eba361d7536083bb136132b01838842661f5c86d43a"
+hash = "515798e6cbe4410d55b01bababc9e1589eb8c7a0ff426d921870b1e7b5e933b4"
 metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "76aa7f6fb56c34e4af57647b557cd79e21c24fb1957387bf881c93fabf062e9a"
+hash = "2565eba14e887a66cd6688e5078de5554ad6ac0a4f6a83724b94aa21a849924f"
 metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "7ac7861d2121bdb32dd3c84326c3daebb35b9ff0a8b4f7f3d2d7ca0cc6941c79"
+hash = "b7e38d6d1340752e2d3611cb66f0787d92828d8e35c4e320d4886fad24438fe7"
 metafile = true
 
 [[files]]
@@ -1397,7 +1397,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "68eb30c62e3dd5cf24a41fb6dd6e9a3b155a1acb628f7bdfd39a4cc41a4b1902"
+hash = "c6b1b6f27f844211b7ceee4cf946b7fbcead884846be428d8da0418c66653aae"
 metafile = true
 
 [[files]]
@@ -1418,6 +1418,11 @@ metafile = true
 [[files]]
 file = "mods/totem-anywhere.pw.toml"
 hash = "30c44924c1dca550a85de358424728fcb395200058c2b7ff57e8848b5e9adb05"
+metafile = true
+
+[[files]]
+file = "mods/vanadium.pw.toml"
+hash = "f7afa1a98d5322794ceb31381e27859be80927a65fe738c47138834b2025e844"
 metafile = true
 
 [[files]]
@@ -1445,7 +1450,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "eee87bf105d40ced80e808a6153ece9dfdfc61bb8e9eb0e36c1f007a0cbe3328"
+hash = "d0d214b93431898f463925464f237905a6e4a7d7308aa8bfdf15e5e065901ac3"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
@@ -1982,6 +1987,11 @@ hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 [[files]]
 file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
 hash = "65e1947cc3f7d4d5cde07448bb39fc71f75e8356a81fed2040b4fb18e92af240"
+metafile = true
+
+[[files]]
+file = "resources/resourcepacks/bedrock-waters.pw.toml"
+hash = "16760b3009063ec7ba7aa26ab02dbdbb14ec485a59071fefca85b171f42c116e"
 metafile = true
 
 [[files]]
@@ -9231,12 +9241,12 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "1c426c0ee06129321c29f0055218f4910366a8b52fa5963402f78fff280397dd"
+hash = "e51d06862a5c8191182f4fd7d9870313533afdcacdca3130cb37f8f5fc7bf635"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "0d5dda2b2a579490f3e33b11ee6b87b649ab1065b60d6eaca341a7f5b912fd84"
+hash = "aec6b50020f142fec8f0065fc72638cf5b1ecfba11c6114a85f1cfcec7e33691"
 metafile = true
 
 [[files]]
@@ -9256,7 +9266,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "4c3709e69305d1cdfba1ee73bdf239e7298e4eff6e0dbdfc97cc05dd1490fb80"
+hash = "c7c5c5e8ac1a6c646580f60d5a8d484b1ec5d502ca56608c92828383fabb676c"
 metafile = true
 
 [[files]]

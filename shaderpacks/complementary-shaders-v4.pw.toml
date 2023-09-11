@@ -1,16 +1,16 @@
 name = "Complementary Shaders v4"
-filename = "ComplementaryUnbound_r5.0.zip"
+filename = "ComplementaryUnbound_r5.0.1.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1208PyS/ComplementaryUnbound_r5.0.zip"
+url = "https://cdn.modrinth.com/data/R6NEzAwj/versions/JHN3K1Ng/ComplementaryUnbound_r5.0.1.zip"
 hash-format = "sha1"
-hash = "292626f6ed2f34dfc8d1a69b8f082180c7bbd66e"
+hash = "52c599c7d23cf6c27cef0946e6bcaa248f59f5df"
 
 [update]
 [update.modrinth]
 mod-id = "R6NEzAwj"
-version = "B1208PyS"
+version = "JHN3K1Ng"
 
 [option]
 optional = false
