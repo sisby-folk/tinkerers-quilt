@@ -13,14 +13,15 @@
     "minecraft:overworld"
   ],
   "doTemperatureChanges": true,
+  "shouldSnowyBiomesMeltInSummer": true,
+  "shouldIceNearWaterMelt": true,
   "biomeDenylist": [
-    "terralith:glacial_chasm"
   ],
   "isSeasonTiedWithSystemTime": false,
   "isInNorthHemisphere": true,
   "isSeasonMessingCrops": true,
   "isSeasonMessingBonemeal": false,
-  "doCropsGrowsNormallyUnderground": true,
+  "doCropsGrowsNormallyUnderground": false,
   "doAnimalsBreedInWinter": true,
-  "notifyCompat": false
+  "debugCommandEnabled": false
 }
