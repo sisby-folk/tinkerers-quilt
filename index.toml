@@ -928,11 +928,6 @@ hash = "a69efb704b2ba8f1ec23809071f4902311db4ddf2c531358428e0803f2d8e26e"
 metafile = true
 
 [[files]]
-file = "mods/bedrockwaters.pw.toml"
-hash = "ef19c47b968d01edf1d08b28343e005758ecdff419425685f2c7a30d9fb53369"
-metafile = true
-
-[[files]]
 file = "mods/better-end-sky.pw.toml"
 hash = "9d5eb5ff51dfc7123dfea318a027ec5fdf96ac9a29451367ce36cfcb88833679"
 metafile = true
@@ -1418,11 +1413,6 @@ metafile = true
 [[files]]
 file = "mods/totem-anywhere.pw.toml"
 hash = "30c44924c1dca550a85de358424728fcb395200058c2b7ff57e8848b5e9adb05"
-metafile = true
-
-[[files]]
-file = "mods/vanadium.pw.toml"
-hash = "f7afa1a98d5322794ceb31381e27859be80927a65fe738c47138834b2025e844"
 metafile = true
 
 [[files]]
