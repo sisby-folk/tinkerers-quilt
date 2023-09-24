@@ -112,8 +112,6 @@ In addition to the below, Tinkerer's Quilt has support for the majority of optif
 | [Xali's Enchanted Books](https://modrinth.com/resourcepack/xalis-enchanted-books)  | Unique textures for enchanted books.                                                                                                                                                                                                       |
 | [Sully's Peeves](https://www.curseforge.com/minecraft/texture-packs/sullys-peeves) | Texture improvements for many everyday blocks and items.                                                                                                                                                                                   |
 
-If you have a capable computer and don't want to use shaders, we highly recommend [QDAA](https://modrinth.com/mod/qdaa/version/1.1.2) to improve visual consistency.
-
 ---
 
 # More Info
@@ -142,6 +140,16 @@ This pack version auto-updates every launch. Slightly higher chance of experienc
 - Download the server from the [downloads page](https://sisby-folk.github.io/tinkerers-quilt/).
 - Run the included Quilt Installer, selecting your minecraft version and the latest non-beta loader version.
 - The provided `Start` script will both update and run the server via the JVM argument.
+
+### Notes
+
+If you intend to play without shaders on a powerful machine, we highly recommend [QDAA](https://modrinth.com/mod/qdaa/version/1.1.2) to improve visual consistency.
+
+If you experience arachnophobia or otherwise need to disable the spawning of a mob entirely, try [VanillaDisable](https://modrinth.com/mod/vanilla-disable).
+
+If you'd like to play with a controller, install [MidnightControls](https://modrinth.com/mod/midnightcontrols) before playing.
+
+If you get lost without a map mod, try our [fork of Antique Atlas](https://github.com/sisby-folk/AntiqueAtlas/releases/tag/v8.0.2%2Bitemless) without items. Still required on both sides.
 
 ## Full Modlist
 
@@ -295,8 +303,6 @@ Recommended Shader Packs:
     Solas Shader
     Super Duper Vanilla
 ```
-
-If you can't get by without a map mod, try our [fork of Antique Atlas](https://github.com/sisby-folk/AntiqueAtlas/releases/tag/v8.0.1%2Bitemless) without items.
 
 </details>
 
