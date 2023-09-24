@@ -9,7 +9,7 @@ Making minecraft smoother, more discoverable, and have the exact same amount of 
 
 # Pack Features
 
-## No Items, No Blocks, All Service [Vanilla-Compaibility]
+## No Items, No Blocks, All Service [Vanilla-Compatibility]
 
 Tinkerer's Quilt is **Vanilla Compatible** - It doesn't add any new blocks items, or world features.
 
@@ -94,7 +94,7 @@ Tinkerer's Quilt **Encourages player expression** with better skins, origins, an
 | 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple, unbalanced, expressive origins that don't interrupt vanilla.            |
 | 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus) | Choose your height and size with origins!                                       |
 | [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc.       |
-| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Discord-like chat and emoji markdown. Type `:` and press tab!                  |
+| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Discord-like chat and emoji markdown. Type `:` and press tab!                   |
 | [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks. |
 | [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions.               |
 
