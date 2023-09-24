@@ -84,19 +84,19 @@ It's not just about making the game easier - with annoyances alleviated in death
 
 Tinkerer's Quilt **Encourages player expression** with better skins, origins, and more ways to build.
 
-| Relevant Mod                                                      | Summary                                                                                                                                                         |
-|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Ears](https://ears.unascribed.com/)                              | Skins with tails, horns, ears, claws, wings and more!                                                                                                           |
-| [Fabric Tailor](https://modrinth.com/mod/fabrictailor)            | Swap your skin in-game.                                                                                                                                         |
-| 🛠️ [Drogstyle](https://modrinth.com/mod/drogtor)                 | Change player name, color, and bio (e.g. pronouns) any time.                                                                                                    |
-| 🛠️ [Switchy](https://modrinth.com/mod/switchy)                   | Swap between player profiles with names, skins, or even inventories!                                                                                            |
-| [Origins](https://modrinth.com/mod/origins)                       | Choose an _Origin_, with abilities and limitations.                                                                                                             |
-| 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple origins with fun abilities!                                                                                                                              |
-| 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus) | Choose your height and size with origins!                                                                                                                       |
-| [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc.                                                                                       |
-| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Allows emoji in chat, including discord [twemoji](https://github.com/twitter/twemoji), [Mothcharm's nice emoji](https://mothcharm.carrd.co/#emoji), and extras. |
-| [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks.                                                                                 |
-| [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions.                                                                                               |
+| Relevant Mod                                                      | Summary                                                                         |
+|-------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [Ears](https://ears.unascribed.com/)                              | Skins with tails, horns, ears, claws, wings and more!                           |
+| [Fabric Tailor](https://modrinth.com/mod/fabrictailor)            | Swap your skin in-game.                                                         |
+| 🛠️ [Drogstyle](https://modrinth.com/mod/drogtor)                 | Change player name, color, and bio (e.g. pronouns) any time.                    |
+| 🛠️ [Switchy](https://modrinth.com/mod/switchy)                   | Swap between player profiles with names, skins, or even inventories!            |
+| [Origins](https://modrinth.com/mod/origins)                       | Choose an _Origin_, with abilities and limitations.                             |
+| 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple origins with fun abilities!                                              |
+| 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus) | Choose your height and size with origins!                                       |
+| [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc.       |
+| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Discord-like chat and emoji markdown. Type `:a` and press tab!                  |
+| [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks. |
+| [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions.               |
 
 ## Pretty Pretty [Visuals]
 
@@ -167,9 +167,9 @@ Mods:
     Better End Sky
     Boring Default Game Rules
     Cardinal Ice Boats
+    Carpet
     Carpet Extra
     Carpet-Fixes
-    Carpet
     Charmonium
     ChickensShed
     Chunks fade in
@@ -189,15 +189,14 @@ Mods:
     Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)
     EasierEnchanting
     Effective
-    Enhanced Block Entities
     EMI
     EMI Trades
     Enhanced Attack Indicator
+    Enhanced Block Entities
     Exordium
-    Window Title Changer
-    Fabrication
     Fabric Shield Lib
     Fabric Tailor
+    Fabrication
     Falling Leaves
     FastOpenLinksAndFolders
     Feed the Bees
@@ -210,7 +209,6 @@ Mods:
     Idwtialsimmoedm
     ImmediatelyFast
     Indium
-    [Jar/Fork] Inventory Tabs
     Inspecio
     Iris Shaders
     Item Filters
@@ -218,22 +216,24 @@ Mods:
     JamLib
     Kaffee's Dual Ride
     Keep My Hand
-    Kiwi 🥝
+    Kiwi
     Krypton
     LambdaBetterGrass
     LambDynamicLights
+    LAN World Plug-n-Play (mcwifipnp)
     LazyDFU
     Leaves Us In Peace
     Lithium
+    Loading Screen Tips
     Luna Slimes
     Main Menu Credits
-    LAN World Plug-n-Play (mcwifipnp)
     Mod Menu
+    ModernFix
     More Culling
     Mouse Wheelie
     Music Notification
     Not Enough Animations
-    Noteable
+    Notes
     Ok Zoomer
     [Jar/Fork] Origins
     Origins Minus
@@ -246,47 +246,47 @@ Mods:
     Project: Save the Pets!
     QDResLoader
     Quilt Kotlin Libraries (QKL)
-    Quilt Standard Libraries
     Quilt Loading Screen
+    Quilt Standard Libraries
     Reacharound
     Reese's Sodium Options
     RightClickHarvest
     Simple Durability Tooltip
     Simple Fog Control
     Skip Transitions
-    Snow! Real Magic! ⛄
     Snow Under Trees (Fabric)
-    Sodium Extra
+    Snow! Real Magic!
     Sodium
+    Sodium Extra
     Starlight (Fabric)
     Status Effect Timer
     Styled Chat
     Styled Nicknames
     Styled Player List
     SwingThrough
+    Switchy
     Switchy Inventories
     Switchy Proxy
-    Switchy Resource Packs
     Switchy Teleport
-    Switchy
     SwitchyKit
     Tax Free Levels
+    Text Placeholder API
     Tinkerer's Smithing
     Tinkerer's Statures
-    Loading Screen Tips
     ToolTipFix
     Totem Anywhere
     VehicleFix
     Visuality
-    WTHIT Plugins
+    Window Title Changer
     WTHIT
+    WTHIT Plugins
     You're in Grave Danger
 
 Recommended Shader Packs:
     BSL Shaders
     Builder's QOL Shaders
     Complementary Reimagined
-    Complementary Shaders v4
+    Complementary Shaders - Unbound
     Prismarine Shaders
     Rethinking Voxels
     Sildurs Enhanced Default Shaders
@@ -325,7 +325,6 @@ The many, many other folks who've provided development support and feedback for 
 
 ```
 Vanilla Tweaks: https://vanillatweaks.net/
-OriginsPlus and Lepus: Dan's Other Clone https://www.youtube.com/c/DansOtherClone
 Effective: https://modrinth.com/mod/effective
 ```
 
