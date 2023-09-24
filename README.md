@@ -90,11 +90,11 @@ Tinkerer's Quilt **Encourages player expression** with better skins, origins, an
 | [Fabric Tailor](https://modrinth.com/mod/fabrictailor)            | Swap your skin in-game.                                                         |
 | 🛠️ [Drogstyle](https://modrinth.com/mod/drogtor)                 | Change player name, color, and bio (e.g. pronouns) any time.                    |
 | 🛠️ [Switchy](https://modrinth.com/mod/switchy)                   | Swap between player profiles with names, skins, or even inventories!            |
-| [Origins](https://modrinth.com/mod/origins)                       | Choose an _Origin_, with abilities and limitations.                             |
-| 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple origins with fun abilities!                                              |
+| [Origins](https://modrinth.com/mod/origins)                       | Choose an _Origin_, with various traits and abilities.                          |
+| 🛠️ [Origins Minus](https://modrinth.com/mod/origins-minus)       | Simple, unbalanced, expressive origins that don't interrupt vanilla.            |
 | 🛠️ [Tinkerer's Statures](https://modrinth.com/mod/origins-minus) | Choose your height and size with origins!                                       |
 | [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Footstep audio redone - allows changing footstep gait for quadrupeds/etc.       |
-| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Discord-like chat and emoji markdown. Type `:a` and press tab!                  |
+| [Styled Chat](https://modrinth.com/mod/styled-chat)               | Discord-like chat and emoji markdown. Type `:` and press tab!                  |
 | [Fabrication](https://modrinth.com/mod/fabrication)               | A huge tweak mod, includes hiding armor and improvements for minecart networks. |
 | [Carpet](https://github.com/gnembon/fabric-carpet)                | Many server tweaks, including mechanism and renewable expansions.               |
 
