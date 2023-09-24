@@ -112,6 +112,8 @@ In addition to the below, Tinkerer's Quilt has support for the majority of optif
 | [Xali's Enchanted Books](https://modrinth.com/resourcepack/xalis-enchanted-books)  | Unique textures for enchanted books.                                                                                                                                                                                                       |
 | [Sully's Peeves](https://www.curseforge.com/minecraft/texture-packs/sullys-peeves) | Texture improvements for many everyday blocks and items.                                                                                                                                                                                   |
 
+If you have a capable computer and don't want to use shaders, we highly recommend [QDAA](https://modrinth.com/mod/qdaa/version/1.1.2) to improve visual consistency.
+
 ---
 
 # More Info
