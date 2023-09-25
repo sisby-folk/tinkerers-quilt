@@ -1,4 +1,4 @@
-name = "Complementary Shaders v4"
+name = "Complementary Shaders - Unbound"
 filename = "ComplementaryUnbound_r5.0.1.zip"
 side = "client"
 
@@ -11,8 +11,3 @@ hash = "52c599c7d23cf6c27cef0946e6bcaa248f59f5df"
 [update.modrinth]
 mod-id = "R6NEzAwj"
 version = "JHN3K1Ng"
-
-[option]
-optional = false
-description = "An Iris-Compatible Shader Pack! (Customized for this pack) Found Here: https://modrinth.com/shader/complementary-shaders-v4"
-default = true
