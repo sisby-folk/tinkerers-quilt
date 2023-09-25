@@ -1,13 +1,13 @@
 name = "NoRecipeBook (Fabric)"
-filename = "norecipebook-2.3+1.20.jar"
+filename = "norecipebook-2.4+1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/TvL1V8O5/versions/Sfxt80sM/norecipebook-2.3%2B1.20.jar"
+url = "https://cdn.modrinth.com/data/TvL1V8O5/versions/zsATCGJk/norecipebook-2.4%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "44f1c0adca1caecc6ee15fd170ae7b70d1fee9ff"
+hash = "33aa688e9dc316051397b6d4b53679ad1f7bab41"
 
 [update]
 [update.modrinth]
 mod-id = "TvL1V8O5"
-version = "Sfxt80sM"
+version = "zsATCGJk"
