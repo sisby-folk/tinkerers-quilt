@@ -8,7 +8,7 @@
   "tasks": {
     "4FD33CCBBC3D705A": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "#minecraft:saplings",
       "collection_type": "consume"
     }

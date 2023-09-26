@@ -6,7 +6,7 @@
   "tasks": {
     "1017D28DD8548D65": {
       "type": "heracles:item",
-      "amount": "6",
+      "amount": 6,
       "item": "#minecraft:beacon_payment_items",
       "collection_type": "manual"
     }

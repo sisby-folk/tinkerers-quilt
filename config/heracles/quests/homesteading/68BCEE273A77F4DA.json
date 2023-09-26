@@ -8,13 +8,13 @@
   "tasks": {
     "0ED6664E26DBEDE4": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:brown_mushroom",
       "collection_type": "manual"
     },
     "07198A4D07D6F53D": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:red_mushroom",
       "collection_type": "manual"
     },

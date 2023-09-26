@@ -8,7 +8,7 @@
   "tasks": {
     "031A173AC6CC6D04": {
       "type": "heracles:item",
-      "amount": "64",
+      "amount": 64,
       "item": "minecraft:ice",
       "collection_type": "manual"
     },

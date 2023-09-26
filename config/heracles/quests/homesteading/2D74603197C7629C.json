@@ -8,43 +8,43 @@
   "tasks": {
     "77E92354F1DDDFCA": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:sugar_cane",
       "collection_type": "manual"
     },
     "0E343560095A48E3": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:wheat_seeds",
       "collection_type": "manual"
     },
     "0BEB433BA59213DA": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:potato",
       "collection_type": "manual"
     },
     "4A960FBD73A0DCD5": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:carrot",
       "collection_type": "manual"
     },
     "1943791BC82BE452": {
       "type": "heracles:item",
-      "amount": "8",
+      "amount": 8,
       "item": "minecraft:pumpkin",
       "collection_type": "manual"
     },
     "6A13495A82B9D2D1": {
       "type": "heracles:item",
-      "amount": "64",
+      "amount": 64,
       "item": "minecraft:melon_slice",
       "collection_type": "manual"
     },
     "31C19C20A9214A51": {
       "type": "heracles:item",
-      "amount": "32",
+      "amount": 32,
       "item": "minecraft:beetroot",
       "collection_type": "manual"
     }
