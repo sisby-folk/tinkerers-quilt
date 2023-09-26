@@ -16,7 +16,7 @@
     }
   },
   "display": {
-    "title": "Welcome to &&a&&lTinkerer's Quilt!&&r",
+    "title": "Welcome to Tinkerer's Quilt!",
     "description": [
       "<h1>Welcome to &&a&&lTinkerer's Quilt!&&r</h1>",
       "<hr/>",
@@ -36,7 +36,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "ftbquests:book"
+      "item": "heracles:quest_book"
     },
     "subtitle": {
       "text": "Humans are also allowed!"
