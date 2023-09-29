@@ -487,7 +487,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "a51f3f98721a8e637e71c78d5413271cb0d4816a5d55a8b9cd5c19353d49f8a2"
+hash = "85177d5ff0334af62a87ae4ec1b175ecbbd478604f99474cf27e84663a52d551"
 metafile = true
 
 [[files]]
@@ -944,8 +944,9 @@ hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
 metafile = true
 
 [[files]]
-file = "mods/sliceanddice-fabric-2.1.3-fabric.jar"
-hash = "78acddf7f981af671154ad02ff7718b0e38bdc7baa69593b8f0eaebd13b7f769"
+file = "mods/slice-and-dice.pw.toml"
+hash = "b8b05210624a4edae6cb92795f96293375259f79bfbc90c359944b2c5561171e"
+metafile = true
 
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
