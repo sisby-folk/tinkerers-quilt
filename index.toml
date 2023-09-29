@@ -78,7 +78,7 @@ hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
 
 [[files]]
 file = "config/chunksfadein.properties"
-hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
+hash = "17dbebe8db17d26a777c8f10e3cc6afff3720d278def1fed45f038c08b8f7ab3"
 
 [[files]]
 file = "config/citresewn.json"
@@ -91,10 +91,6 @@ hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
 [[files]]
 file = "config/colormatic.properties"
 hash = "4fcc090a9488eee469956b8f70fead42eb60b513a7ee3de696887dcda051dd35"
-
-[[files]]
-file = "config/crunchy-crunchy-advancements.css"
-hash = "c5fc56ce0a3f20d4fb90ab9e64cacf1194a2951068cd98f75dba8dd6553bcb75"
 
 [[files]]
 file = "config/earthtojavamobs.json"
@@ -122,15 +118,11 @@ hash = "cd281341dcaca9438a70c38c3821f373998cbbd6abf4a5a3225fdf76d39c2f09"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "f66968b8d1a40cb5b4390f8d61f8c0dd2c814ddd8548020f5af7433b6a76ef4b"
+hash = "063310847edb89b45a13fc11d1761606741c74674278d370c19ef1ed70db1a14"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
 hash = "42c1b68105868aad0171e7ae21759d2c4582c9e97bc44fb140d3aba26db5bb04"
-
-[[files]]
-file = "config/forcecloseloadingscreen.json"
-hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -150,7 +142,7 @@ hash = "8450a8df5f1e1526e6ac5a68a03ba5ec6873c10a81e5e8c9c7770b2b0431637d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "4df01a07674ff84ffdedc049708ca3ccf82c6c1defb8f58ba946bed501713c92"
+hash = "e5fdcc97172409c9e94d660cade7c1abc9609ff4e321dfc13add4c0186e29e88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
@@ -175,10 +167,6 @@ hash = "8072d3930fd557613eaa4baf1e04ebfda9288119ea4f6de80a6b1f7b175e309d"
 [[files]]
 file = "config/idwtialsimmoedm.json"
 hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
-
-[[files]]
-file = "config/illuminations.properties"
-hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
 
 [[files]]
 file = "config/inspecio.json"
@@ -219,10 +207,6 @@ hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
 [[files]]
 file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
-
-[[files]]
-file = "config/qdaa.ini"
-hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
@@ -492,7 +476,7 @@ metafile = true
 
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
-hash = "8505877001161f967e2f5f1661a371133e612553a6e3268787a3d51af3b21fd9"
+hash = "f8077ff2ad89d2612b7eb7f5ce1fd20f1eac221d37ffca18beeb7d48ef9a0aaa"
 metafile = true
 
 [[files]]
@@ -502,12 +486,12 @@ metafile = true
 
 [[files]]
 file = "mods/drogstyle.pw.toml"
-hash = "eac5cc7857d62d33767b0dd4fd9b5c0bb0f513ea36effcd32db65999dca2f376"
+hash = "7efcd8fec8e46f93d5e392fc0b3432ccb619ef9b777eb18061359a87f4ce4827"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "3a9f0237e0eb16ab1ffba6dc8de1e7fb9828c4b111c5c5fbee82dfdffcc1dcd7"
+hash = "b2418ea39fdf365d839f2ecf6b3811552f9c95fe6bd673b612020856b4e07c73"
 metafile = true
 
 [[files]]
@@ -542,7 +526,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "10eb7188bdcac0c2921050239e6c59ff85a9ee56071a5edf38f5a904d3edb08d"
+hash = "1af331f149591f52845722de0191eabd889e924b54f300879753bb1270b00485"
 metafile = true
 
 [[files]]
@@ -627,7 +611,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "e92deede7520d2b40626ae010b74767b64afccda2f67062fcb9f893e06edbc46"
+hash = "5b4d9bb2a5980f003923929a43e1a862a496d556598f677f8fc2589e3bec3138"
 metafile = true
 
 [[files]]
@@ -662,7 +646,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "f666e4e2da72185b349bc7c009b5a7bbe10f4501972d3d34ed7966fd533a939c"
+hash = "510cc416989c890f0fa0394e39e605a319869eac7a29a00066cebfb6552d2aae"
 metafile = true
 
 [[files]]
@@ -841,7 +825,7 @@ metafile = true
 
 [[files]]
 file = "mods/picohud.pw.toml"
-hash = "13fb4ccbfce4b5bb375b96630c5658e0a0677e7a25bc4fa4c9c16a409418091c"
+hash = "735f1141155700673afb74f5fb7b19ef4a0ed5a3a1eb806bb30ecba78a65cb65"
 metafile = true
 
 [[files]]
@@ -855,8 +839,8 @@ hash = "fa9c87aee7283f245834928b05b69d8269d0b9884ffceddaf743b3fce46b025f"
 metafile = true
 
 [[files]]
-file = "mods/portable-crafting-standalone.pw.toml"
-hash = "24525096d6fbf0d3c8d3d64b255401046e0faa65db986dff1ca37609feb6434a"
+file = "mods/portable-crafting.pw.toml"
+hash = "39a0ee4d7b44753b714e9bbf62398442efa0d92d765272de6b851a3e4ad566c9"
 metafile = true
 
 [[files]]
@@ -980,7 +964,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "ee0867505705ee284a1a38dd9dbbd783668123ff49eca03195a651117d2572b2"
+hash = "b7b3080acea13424a7f6301ec97b61eb6fb8b541abc0b43864da3768059e6e86"
 metafile = true
 
 [[files]]
@@ -995,7 +979,7 @@ metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "ffc2a662b5be7d14c44fe88009daa58781b5e8f53494d2ff2a9d1cbb8d7e9b44"
+hash = "6e7aba32e000b65aff90d2d85566fc8c019badbb8bb0129c761ca02fffa8d3b6"
 metafile = true
 
 [[files]]
@@ -1030,7 +1014,7 @@ metafile = true
 
 [[files]]
 file = "mods/totem-anywhere.pw.toml"
-hash = "30c44924c1dca550a85de358424728fcb395200058c2b7ff57e8848b5e9adb05"
+hash = "80a08f7ba61f15061ce1fea737d38ee8f902faf7ef8c52b0459b8a29ceb754d1"
 metafile = true
 
 [[files]]
@@ -2214,7 +2198,7 @@ hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 
 [[files]]
 file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
-hash = "a286466952265156b08bc765b98b77225178fab50ef424608f949c212dcf24e5"
+hash = "5629447454b0a7c1feeaf83a1bea58bb8031db23e2bfdede5588a4319745ec25"
 metafile = true
 
 [[files]]
