@@ -24,7 +24,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:black_banner",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "BlockEntityTag": {
             "Patterns": [
@@ -76,13 +76,13 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:wooden_hoe",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:fortune",
-              "lvl": "3"
+              "lvl": 3
             }
           ],
           "RepairCost": 31,

@@ -15,7 +15,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:shield",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "BlockEntityTag": {
             "Base": 14,
@@ -50,12 +50,12 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "StoredEnchantments": [
             {
               "id": "minecraft:smite",
-              "lvl": "2"
+              "lvl": 2
             }
           ]
         }

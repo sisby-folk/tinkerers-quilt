@@ -20,7 +20,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:white_banner",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "BlockEntityTag": {
             "Patterns": [
@@ -54,12 +54,12 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "StoredEnchantments": [
             {
               "id": "minecraft:unbreaking",
-              "lvl": "1"
+              "lvl": 1
             }
           ]
         }

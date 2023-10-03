@@ -14,7 +14,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:golden_helmet",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Damage": 0
         }

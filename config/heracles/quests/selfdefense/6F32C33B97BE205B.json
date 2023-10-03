@@ -20,7 +20,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:crossbow",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Damage": 0
         }

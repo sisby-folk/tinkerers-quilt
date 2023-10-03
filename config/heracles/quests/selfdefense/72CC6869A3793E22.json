@@ -17,12 +17,12 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:enchanted_book",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "StoredEnchantments": [
             {
               "id": "minecraft:sweeping",
-              "lvl": "1"
+              "lvl": 1
             }
           ]
         }

@@ -21,7 +21,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:white_banner",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "BlockEntityTag": {
             "Patterns": [
@@ -66,29 +66,29 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:diamond_boots",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:feather_falling",
-              "lvl": "5"
+              "lvl": 5
             },
             {
               "id": "minecraft:soul_speed",
-              "lvl": "3"
+              "lvl": 3
             },
             {
               "id": "minecraft:depth_strider",
-              "lvl": "3"
+              "lvl": 3
             },
             {
               "id": "minecraft:unbreaking",
-              "lvl": "3"
+              "lvl": 3
             },
             {
               "id": "minecraft:swift_sneak",
-              "lvl": "4"
+              "lvl": 4
             }
           ],
           "RepairCost": 31,
@@ -105,16 +105,16 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:diamond_horse_armor",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Enchantments": [
             {
               "id": "minecraft:feather_falling",
-              "lvl": "5"
+              "lvl": 5
             },
             {
               "id": "minecraft:depth_strider",
-              "lvl": "3"
+              "lvl": 3
             }
           ],
           "RepairCost": 31,

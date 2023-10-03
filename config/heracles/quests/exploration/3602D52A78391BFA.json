@@ -18,7 +18,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": "1",
+        "count": 1,
         "nbt": {}
       }
     },
@@ -26,7 +26,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": "1",
+        "count": 1,
         "nbt": {}
       }
     },
@@ -34,7 +34,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": "1",
+        "count": 1,
         "nbt": {}
       }
     }

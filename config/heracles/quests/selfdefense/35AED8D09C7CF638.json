@@ -24,7 +24,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:stick",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Enchantments": [
             {

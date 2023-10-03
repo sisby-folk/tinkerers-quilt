@@ -14,7 +14,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:potion",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Potion": "minecraft:long_fire_resistance"
         }

@@ -17,27 +17,27 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:bundle",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Items": [
             {
-              "Count": "4",
+              "count": 4,
               "id": "minecraft:ender_chest"
             },
             {
-              "Count": "2",
+              "count": 2,
               "id": "minecraft:enchanted_golden_apple"
             },
             {
-              "Count": "16",
+              "count": 16,
               "id": "minecraft:golden_apple"
             },
             {
-              "Count": "34",
+              "count": 34,
               "id": "minecraft:golden_carrot"
             },
             {
-              "Count": "8",
+              "count": 8,
               "id": "minecraft:ancient_debris"
             }
           ]

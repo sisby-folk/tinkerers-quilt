@@ -18,17 +18,17 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:iron_hoe",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:fortune",
-              "lvl": "3"
+              "lvl": 3
             },
             {
               "id": "minecraft:unbreaking",
-              "lvl": "3"
+              "lvl": 3
             }
           ],
           "RepairCost": 1,

@@ -18,7 +18,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:black_banner",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "BlockEntityTag": {
             "Patterns": [

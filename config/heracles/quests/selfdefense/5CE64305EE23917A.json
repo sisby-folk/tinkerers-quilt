@@ -89,7 +89,7 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:fishing_rod",
-        "count": "1",
+        "count": 1,
         "nbt": {
           "Damage": 0,
           "RepairCost": 31,
