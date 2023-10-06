@@ -8,6 +8,7 @@
   "tasks": {
     "021CBA58542E43A1": {
       "type": "heracles:item",
+      "title": "Consume 1 Flint and Steel [Click] ",
       "item": "minecraft:flint_and_steel",
       "collection_type": "consume",
       "nbt": {
@@ -26,11 +27,11 @@
           "Enchantments": [
             {
               "id": "minecraft:unbreaking",
-              "lvl": 3
+              "lvl": "3"
             },
             {
               "id": "minecraft:mending",
-              "lvl": 1
+              "lvl": "1"
             }
           ],
           "RepairCost": 3,
@@ -44,16 +45,14 @@
   "display": {
     "title": "Resourceful",
     "description": [
-      "<h1>Resourceful</h1>",
+      "<h2>Pursue Improvised Weaponry</h2>",
       "<hr/>",
-      "Pursue Improvised Weaponry",
-      "<br/>",
+      "<task task=\"021CBA58542E43A1\" quest=\"42E807C7DFC19EBF\"/>",
+      "<hr/>",
       "While not designed as weapons, many items can be &&dused offensively and defensively&&r in combat.",
       "<br/>",
       "Quick use of &&3Flint and Steel&&r can burn enemies, damaging even &&dlarge packs of mobs&&r while you retreat.",
-      "Tasks:",
-      "<task task=\"021CBA58542E43A1\" quest=\"42E807C7DFC19EBF\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"6A0B4BFA09FCF31E\" quest=\"42E807C7DFC19EBF\"/>"
     ],
     "icon": {

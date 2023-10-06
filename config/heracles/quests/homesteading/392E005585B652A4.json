@@ -31,10 +31,10 @@
   "display": {
     "title": "Stay Feisty, Hellspawn",
     "description": [
-      "<h1>Stay Feisty, Hellspawn</h1>",
+      "<h2>Craft a Respawn Anchor</h2>",
       "<hr/>",
-      "Craft a Respawn Anchor",
-      "<br/>",
+      "<task task=\"7A605FF99394FAAE\" quest=\"392E005585B652A4\"/>",
+      "<hr/>",
       "A &&3Respawn Anchor&&r allows you to create a &&dhome in the nether&&r. ",
       "<br/>",
       "By placing it and &&3charging&&r it with &&3Glowstone Blocks&&r, you'll respawn there.",
@@ -42,9 +42,7 @@
       "&&2Warped forests&&r are &&dsafe havens for base building&&r - only &&cEndermen&&r can spawn there.",
       "<br/>",
       "&&3Lights&&r don't prevent mob spawning in the nether, but &&eHalf Slabs&&r do - stay safe out there!",
-      "Tasks:",
-      "<task task=\"7A605FF99394FAAE\" quest=\"392E005585B652A4\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"065134E7CCC364F3\" quest=\"392E005585B652A4\"/>",
       "<reward reward=\"3E2FBE9ED10CF886\" quest=\"392E005585B652A4\"/>"
     ],

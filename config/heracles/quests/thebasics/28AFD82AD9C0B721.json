@@ -6,6 +6,7 @@
   "tasks": {
     "6F3511A98C05DE7B": {
       "type": "heracles:item",
+      "title": "1x Diamond",
       "item": "minecraft:diamond",
       "collection_type": "manual"
     }
@@ -21,18 +22,16 @@
   "display": {
     "title": "Striking Gold",
     "description": [
-      "<h1>Striking Gold</h1>",
+      "<h2>Obtain a Diamond</h2>",
       "<hr/>",
-      "Obtain a Diamond",
-      "<br/>",
+      "<task task=\"6F3511A98C05DE7B\" quest=\"28AFD82AD9C0B721\"/>",
+      "<hr/>",
       "&&3Diamond Ore&&r spawns far underground, and is most common in &&2deep deepslate&&r.",
       "<br/>",
       "A &&3Diamond Pickaxe&&r can mine &&3Obsidian&&r, used for &&denchanting and portals&&r.",
       "<br/>",
       "&&7[Tinkerer's Smithing]&&r &&eSmithing Tables&&r can upgrade equipment using &&dless materials&&r - producing a partial-durability result.",
-      "Tasks:",
-      "<task task=\"6F3511A98C05DE7B\" quest=\"28AFD82AD9C0B721\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"6A949AA460E8D229\" quest=\"28AFD82AD9C0B721\"/>"
     ],
     "icon": {

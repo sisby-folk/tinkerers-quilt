@@ -9,7 +9,8 @@
   ],
   "tasks": {
     "04B0358DDE85654B": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Rest by the fire [Click]"
     }
   },
   "rewards": {
@@ -46,7 +47,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:silk_touch",
-              "lvl": 1
+              "lvl": "1"
             }
           ]
         }
@@ -56,13 +57,11 @@
   "display": {
     "title": "Vesta",
     "description": [
-      "<h1>Vesta</h1>",
+      "<h2>Settle hearth in three realms</h2>",
       "<hr/>",
-      "Settle hearth in three realms",
-      "<br/>",
-      "Tasks:",
       "<task task=\"04B0358DDE85654B\" quest=\"64CD806DB1FFD979\"/>",
-      "Rewards:",
+      "<hr/>",
+      "<hr/>",
       "<reward reward=\"79594AF7E372EA9B\" quest=\"64CD806DB1FFD979\"/>",
       "<reward reward=\"31513DC7CDA6BC87\" quest=\"64CD806DB1FFD979\"/>"
     ],

@@ -34,17 +34,15 @@
   "display": {
     "title": "Keep an eye on gravity",
     "description": [
-      "<h1>Keep an eye on gravity</h1>",
+      "<h2>Craft Bounce-Elevator materials</h2>",
       "<hr/>",
-      "Craft Bounce-Elevator materials",
-      "<br/>",
+      "<task task=\"581C4156E009B165\" quest=\"039E822D32DC0A9B\"/>",
+      "<task task=\"3218F9009FCE1D9F\" quest=\"039E822D32DC0A9B\"/>",
+      "<hr/>",
       "Try placing a &&3Slime Block&&r above a &&3Sticky Piston&&r, and &&epowering&&r it while standing on top!",
       "<br/>",
       "The resulting launch could &&dreach another floor&&r - try adding a &&eHoney Block&&r to help &&dcatch you at the top&&r!",
-      "Tasks:",
-      "<task task=\"581C4156E009B165\" quest=\"039E822D32DC0A9B\"/>",
-      "<task task=\"3218F9009FCE1D9F\" quest=\"039E822D32DC0A9B\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"2946ECA038C2E873\" quest=\"039E822D32DC0A9B\"/>",
       "<reward reward=\"3181FD8D6DCF864A\" quest=\"039E822D32DC0A9B\"/>"
     ],

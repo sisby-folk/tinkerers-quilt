@@ -13,6 +13,11 @@
     },
     "1B71413D5F033450": {
       "type": "heracles:item",
+      "title": "Wooden Button",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:oak_button"
+      },
       "item": "#minecraft:wooden_buttons",
       "collection_type": "manual"
     }
@@ -53,10 +58,11 @@
   "display": {
     "title": "Manual Input",
     "description": [
-      "<h1>Manual Input</h1>",
+      "<h2>Craft a Lever and a Wooden Button</h2>",
       "<hr/>",
-      "Craft a Lever and a Wooden Button",
-      "<br/>",
+      "<task task=\"76637FF72914A8AC\" quest=\"2AEFE77787E113A3\"/>",
+      "<task task=\"1B71413D5F033450\" quest=\"2AEFE77787E113A3\"/>",
+      "<hr/>",
       "&&3Levers&&r provide &&dconstant power&&r when toggled on with &&6Right-Clicked&&r.",
       "<br/>",
       "&&3Buttons&&r can be pressed with &&6Right-Click&&r to &&dprovide a short pulse&&r of power. &&3Wooden Buttons&&r press longer and can be &&dpressed by arrows and tridents&&r.",
@@ -70,10 +76,7 @@
       "&&eTrapped Chests&&r provide &&dpower below them when opened&&r.",
       "<br/>",
       "&&eTripwire Hooks&&r with &&3String&&r laid between will power hooked blocks when the &&dstring is depressed&&r.",
-      "Tasks:",
-      "<task task=\"76637FF72914A8AC\" quest=\"2AEFE77787E113A3\"/>",
-      "<task task=\"1B71413D5F033450\" quest=\"2AEFE77787E113A3\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"799E92562970349D\" quest=\"2AEFE77787E113A3\"/>",
       "<reward reward=\"5F46D7694818EEDE\" quest=\"2AEFE77787E113A3\"/>",
       "<reward reward=\"16C0BA5D22A97495\" quest=\"2AEFE77787E113A3\"/>",

@@ -8,6 +8,10 @@
   "tasks": {
     "3DFB272AB2779EA5": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:ender_pearl"
+      },
       "amount": 20,
       "entity": {
         "type": "minecraft:enderman"
@@ -30,19 +34,21 @@
   "display": {
     "title": "Longer Boy",
     "description": [
-      "<h1>Longer Boy</h1>",
+      "<h2>Kill 20 Endermen</h2>",
       "<hr/>",
-      "Kill 20 Endermen",
-      "<br/>",
+      "<task task=\"3DFB272AB2779EA5\" quest=\"023DDA57ED1603C5\"/>",
+      "<hr/>",
       "The large open space of a &&2Desert&&r makes &&cEndermen&&r easier to &&dspot and fight&&r. ",
       "<br/>",
       "While &&3Arrows&&r are ineffective at range, placing a &&eWater Bucket&&r at your feet protects you from sustained Enderman attack.",
-      "Tasks:",
-      "<task task=\"3DFB272AB2779EA5\" quest=\"023DDA57ED1603C5\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"3EA569A7271CDC20\" quest=\"023DDA57ED1603C5\"/>",
       "<reward reward=\"3B5DB34653CC23ED\" quest=\"023DDA57ED1603C5\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_pearl"
+    },
     "subtitle": {
       "text": "Kill 20 Endermen"
     },

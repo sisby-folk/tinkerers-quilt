@@ -5,6 +5,11 @@
   "tasks": {
     "6B61580BF4D462A5": {
       "type": "heracles:stat",
+      "title": "Sprint 500 Blocks",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:leather_boots"
+      },
       "stat": "minecraft:sprint_one_cm",
       "target": 50000
     }
@@ -20,18 +25,20 @@
   "display": {
     "title": "Leaping Lateral [Naturalist]",
     "description": [
-      "<h1>Leaping Lateral [Naturalist]</h1>",
+      "<h2>Walk 500 Blocks</h2>",
       "<hr/>",
-      "Walk 500 Blocks",
-      "<br/>",
+      "<task task=\"6B61580BF4D462A5\" quest=\"789344ADD80A6FFA\"/>",
+      "<hr/>",
       "A &&3Compass&&r visually points towards the &&2Overworld Spawn&&r &&7(X:0 Z:0)&&r. ",
       "<br/>",
       "This can help you return to a familiar location if you get lost.",
-      "Tasks:",
-      "<task task=\"6B61580BF4D462A5\" quest=\"789344ADD80A6FFA\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"184E8B07DD980340\" quest=\"789344ADD80A6FFA\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:leather_boots"
+    },
     "subtitle": {
       "text": "Walk 500 Blocks"
     },

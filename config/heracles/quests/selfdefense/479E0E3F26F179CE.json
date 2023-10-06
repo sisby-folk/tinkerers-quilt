@@ -5,6 +5,10 @@
   "tasks": {
     "2918E017D78CE0A0": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dark_oak_door"
+      },
       "amount": 1,
       "entity": {
         "type": "minecraft:pillager"
@@ -22,10 +26,10 @@
   "display": {
     "title": "Straight Illin'",
     "description": [
-      "<h1>Straight Illin'</h1>",
+      "<h2>Kill a Pillager</h2>",
       "<hr/>",
-      "Kill a Pillager",
-      "<br/>",
+      "<task task=\"2918E017D78CE0A0\" quest=\"479E0E3F26F179CE\"/>",
+      "<hr/>",
       "&&cIllagers&&r come in many varieties, with basic &&cPillagers&&r wielding &&3Crossbows&&r.",
       "<br/>",
       "Killing a &&3Banner&&r-bearing &&cCaptain Pillager&&r inflicts &&3Bad Omen&&r, initiating a &&4Raid&&r at the next village visited unless &&eCleansed&&r.",
@@ -35,11 +39,13 @@
       "Evokers have a vulnerable &&dcooldown between spells&&r, which include summoning &&3Ground Jaws&&r, or summoning flying &&cVexes&&r.",
       "<br/>",
       "Finally, &&cRavagers&&r are large mounted beasts that spawn purely in &&4Raids&&r, and are best taken out &&dfrom below or while distracted&&r.",
-      "Tasks:",
-      "<task task=\"2918E017D78CE0A0\" quest=\"479E0E3F26F179CE\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"3D59A9269D4E8EF7\" quest=\"479E0E3F26F179CE\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dark_oak_door"
+    },
     "subtitle": {
       "text": "Kill a Pillager"
     },

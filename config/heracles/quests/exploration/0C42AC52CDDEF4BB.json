@@ -8,6 +8,11 @@
   "tasks": {
     "6547EBF566C0E5D9": {
       "type": "heracles:biome",
+      "title": "Find a Swamp",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:lily_pad"
+      },
       "biomes": "minecraft:swamp"
     }
   },
@@ -28,10 +33,10 @@
   "display": {
     "title": "Wisdom of Huu",
     "description": [
-      "<h1>Wisdom of Huu</h1>",
+      "<h2>Find a Swamp</h2>",
       "<hr/>",
-      "Find a Swamp",
-      "<br/>",
+      "<task task=\"6547EBF566C0E5D9\" quest=\"0C42AC52CDDEF4BB\"/>",
+      "<hr/>",
       "Signified by patches of land and green water, &&2Swamps&&r are home to &&aFrogs&&r, &&cSlimes&&r, and &&3Lily Pads&&r.",
       "<br/>",
       "&&3Lily Pads&&r can be &&dplaced on water&&r, and are solid - they can be used to make &&dthin decorative water bridges&&r.",
@@ -41,12 +46,14 @@
       "Orange &&aTemperate Frogs&&r will produce &&eOchre Froglights&&r when swallowing small &&cMagma Cubes&&r.",
       "<br/>",
       "&&7[Carpet]&&r Lily Pads are &&drenewable&&r through using &&3Bone Meal&&r.",
-      "Tasks:",
-      "<task task=\"6547EBF566C0E5D9\" quest=\"0C42AC52CDDEF4BB\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"0D44674F73BC9845\" quest=\"0C42AC52CDDEF4BB\"/>",
       "<reward reward=\"2ABF649EA43F4E91\" quest=\"0C42AC52CDDEF4BB\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lily_pad"
+    },
     "subtitle": {
       "text": "Find a Swamp"
     },

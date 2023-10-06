@@ -8,6 +8,7 @@
     },
     "5F5DBBA6E98FACFA": {
       "type": "heracles:item",
+      "title": "Hoe",
       "item": "#c:hoes",
       "collection_type": "manual"
     }
@@ -24,10 +25,11 @@
   "display": {
     "title": "Bitch i'm Far-ming [Farming] ",
     "description": [
-      "<h1>Bitch i'm Far-ming [Farming] </h1>",
+      "<h2>Acquire basic farming equipment</h2>",
       "<hr/>",
-      "Acquire basic farming equipment",
-      "<br/>",
+      "<task task=\"698EC81BE855F4C9\" quest=\"5C7110BA96ECA231\"/>",
+      "<task task=\"5F5DBBA6E98FACFA\" quest=\"5C7110BA96ECA231\"/>",
+      "<hr/>",
       "By using a &&3Hoe&&r on &&3Dirt&&r, soil &&dcan be tilled&&r for planting seeds.",
       "<br/>",
       "&&3Watered soil&&r &&dgrows crops faster&&r, requiring water within 4 blocks in any direction.",
@@ -37,10 +39,7 @@
       "&&7[RightClickHarvest]&&r &&3Hoes&&r can be used to harvest crops in an area. Better hoes have a &&dlarger radius&&r.",
       "<br/>",
       "&&7[Carpet]&&r Bone Meal can also grow &&3Sugarcane&&r, &&3Cactus&&r, &&3Lily Pads&&r, and &&3Coral&&r.",
-      "Tasks:",
-      "<task task=\"698EC81BE855F4C9\" quest=\"5C7110BA96ECA231\"/>",
-      "<task task=\"5F5DBBA6E98FACFA\" quest=\"5C7110BA96ECA231\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"05EEFD50897A505C\" quest=\"5C7110BA96ECA231\"/>"
     ],
     "icon": {

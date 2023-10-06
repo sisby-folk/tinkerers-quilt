@@ -8,6 +8,10 @@
   "tasks": {
     "1D2880C0A22B3902": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:shulker_shell"
+      },
       "amount": 5,
       "entity": {
         "type": "minecraft:shulker"
@@ -24,10 +28,10 @@
   "display": {
     "title": "You LOSE. Good DAY sir.",
     "description": [
-      "<h1>You LOSE. Good DAY sir.</h1>",
+      "<h2>Kill 5 Shulkers</h2>",
       "<hr/>",
-      "Kill 5 Shulkers",
-      "<br/>",
+      "<task task=\"1D2880C0A22B3902\" quest=\"68C1E9C446D8A069\"/>",
+      "<hr/>",
       "&&2End Cities&&r are guarded by &&cShulkers&&r, which shoot homing bolts that inflict &&3Levitation&&r. ",
       "<br/>",
       "The projectiles can be &&3blocked&&r or &&3attacked&&r to &&ddispel them&&r.",
@@ -39,11 +43,13 @@
       "Shulkers do not respawn naturally, but if &&3hit by a a shulker bolt&&r, a Shulker might &&dmultiply&&r.",
       "<br/>",
       "&&7[Carpet]&&r Chorus Fruit &&dcompletely cancels fall damage&&r on grounding.",
-      "Tasks:",
-      "<task task=\"1D2880C0A22B3902\" quest=\"68C1E9C446D8A069\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"1466E7DFFE8CE159\" quest=\"68C1E9C446D8A069\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:shulker_shell"
+    },
     "subtitle": {
       "text": "Kill 5 Shulkers"
     },

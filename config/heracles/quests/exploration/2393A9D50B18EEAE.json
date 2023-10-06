@@ -8,6 +8,11 @@
   "tasks": {
     "3A8EA4DA6B1CD11A": {
       "type": "heracles:block_interaction",
+      "title": "Find an Amethyst Block",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:amethyst_block"
+      },
       "block": "minecraft:amethyst_block"
     }
   },
@@ -21,20 +26,22 @@
   "display": {
     "title": "Come on, P!",
     "description": [
-      "<h1>Come on, P!</h1>",
+      "<h2>Find a Geode</h2>",
       "<hr/>",
-      "Find a Geode",
-      "<br/>",
+      "<task task=\"3A8EA4DA6B1CD11A\" quest=\"2393A9D50B18EEAE\"/>",
+      "<hr/>",
       "&&3Amethyst&&r grows in large &&2Geodes&&r lined with &&3Basalt&&r and &&3Calcite&&r underground.",
       "<br/>",
       "Budding Amethyst Blocks &&dcan't be removed&&r! Only &&3Clusters&&r can be renewably broken.",
       "<br/>",
       "&&3Amethyst Shards&&r can be used to make &&3Tinted Glass&&r which blocks light.",
-      "Tasks:",
-      "<task task=\"3A8EA4DA6B1CD11A\" quest=\"2393A9D50B18EEAE\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"6BFD9A2D48C54DCF\" quest=\"2393A9D50B18EEAE\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:amethyst_block"
+    },
     "subtitle": {
       "text": "Find a Geode"
     },

@@ -8,6 +8,11 @@
   "tasks": {
     "34CCB8903E66DB2B": {
       "type": "heracles:structure",
+      "title": "Enter a Plains Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:oak_planks"
+      },
       "structures": "minecraft:village_plains"
     }
   },
@@ -23,18 +28,20 @@
   "display": {
     "title": "Plain and Simple",
     "description": [
-      "<h1>Plain and Simple</h1>",
+      "<h2>Visit a Plains Village</h2>",
       "<hr/>",
-      "Visit a Plains Village",
-      "<br/>",
+      "<task task=\"34CCB8903E66DB2B\" quest=\"3F3A1267F224AD07\"/>",
+      "<hr/>",
       "&&aVillagers&&r can &&3level up&&r their profession if you &&3trade&&r with them, &&dunlocking better trades&&r.",
       "<br/>",
       "&&7[Fabrication]&&r Villagers will have &&dnew trades every day&&r, or whenever they restock.",
-      "Tasks:",
-      "<task task=\"34CCB8903E66DB2B\" quest=\"3F3A1267F224AD07\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"5F91BA9B5A136015\" quest=\"3F3A1267F224AD07\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_planks"
+    },
     "subtitle": {
       "text": "Visit a Plains Village"
     },

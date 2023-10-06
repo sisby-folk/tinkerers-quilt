@@ -10,7 +10,8 @@
   ],
   "tasks": {
     "037FE2D130DBAAB7": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Meet shoulder-to-shoulder [Click]"
     }
   },
   "rewards": {
@@ -65,15 +66,15 @@
           "Enchantments": [
             {
               "id": "minecraft:fire_protection",
-              "lvl": 4
+              "lvl": "4"
             },
             {
               "id": "minecraft:blast_protection",
-              "lvl": 4
+              "lvl": "4"
             },
             {
               "id": "minecraft:projectile_protection",
-              "lvl": 4
+              "lvl": "4"
             }
           ],
           "RepairCost": 31,
@@ -90,14 +91,12 @@
   "display": {
     "title": "Athena",
     "description": [
-      "<h1>Athena</h1>",
+      "<h2>face danger head-on</h2>",
       "<hr/>",
-      "face danger head-on",
-      "<br/>",
-      "&&o&&dStay safe, These plates are fragile&&r&&r",
-      "Tasks:",
       "<task task=\"037FE2D130DBAAB7\" quest=\"0B9F6A70B4F88B94\"/>",
-      "Rewards:",
+      "<hr/>",
+      "&&o&&dStay safe, These plates are fragile&&r&&r",
+      "<hr/>",
       "<reward reward=\"008F068D27D3148E\" quest=\"0B9F6A70B4F88B94\"/>",
       "<reward reward=\"21309049BC4259E0\" quest=\"0B9F6A70B4F88B94\"/>"
     ],

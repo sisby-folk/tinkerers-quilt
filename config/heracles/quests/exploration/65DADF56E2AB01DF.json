@@ -8,6 +8,11 @@
   "tasks": {
     "0996CC3858DEAB84": {
       "type": "heracles:structure",
+      "title": "Enter a Taiga Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:spruce_planks"
+      },
       "structures": "minecraft:village_taiga"
     }
   },
@@ -23,18 +28,20 @@
   "display": {
     "title": "Mane Street",
     "description": [
-      "<h1>Mane Street</h1>",
+      "<h2>Visit a Taiga Village</h2>",
       "<hr/>",
-      "Visit a Taiga Village",
-      "<br/>",
+      "<task task=\"0996CC3858DEAB84\" quest=\"65DADF56E2AB01DF\"/>",
+      "<hr/>",
       "Villagers &&drepopulate naturally&&r by farming when an &&3enough houses&&r with doors and beds are built nearby.",
       "<br/>",
       "When a villager has &&33 Bread&&r, or &&312 carrots&&r, &&3Potatoes&&r, or &&3Beetroots&&r, they can do this - but also &&dgain more experience while trading&&r!",
-      "Tasks:",
-      "<task task=\"0996CC3858DEAB84\" quest=\"65DADF56E2AB01DF\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"2AD2C6E2B556E672\" quest=\"65DADF56E2AB01DF\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spruce_planks"
+    },
     "subtitle": {
       "text": "Visit a Taiga Village"
     },

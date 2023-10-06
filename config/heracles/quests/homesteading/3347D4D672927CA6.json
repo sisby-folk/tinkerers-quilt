@@ -13,7 +13,8 @@
   ],
   "tasks": {
     "7D62C1C889EBCCF0": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Tag along [Click]"
     }
   },
   "rewards": {
@@ -72,23 +73,23 @@
           "Enchantments": [
             {
               "id": "minecraft:feather_falling",
-              "lvl": 5
+              "lvl": "5"
             },
             {
               "id": "minecraft:soul_speed",
-              "lvl": 3
+              "lvl": "3"
             },
             {
               "id": "minecraft:depth_strider",
-              "lvl": 3
+              "lvl": "3"
             },
             {
               "id": "minecraft:unbreaking",
-              "lvl": 3
+              "lvl": "3"
             },
             {
               "id": "minecraft:swift_sneak",
-              "lvl": 4
+              "lvl": "4"
             }
           ],
           "RepairCost": 31,
@@ -110,11 +111,11 @@
           "Enchantments": [
             {
               "id": "minecraft:feather_falling",
-              "lvl": 5
+              "lvl": "5"
             },
             {
               "id": "minecraft:depth_strider",
-              "lvl": 3
+              "lvl": "3"
             }
           ],
           "RepairCost": 31,
@@ -131,13 +132,11 @@
   "display": {
     "title": "Hermes",
     "description": [
-      "<h1>Hermes</h1>",
+      "<h2>Embrace the fastest travel</h2>",
       "<hr/>",
-      "Embrace the fastest travel",
-      "<br/>",
-      "Tasks:",
       "<task task=\"7D62C1C889EBCCF0\" quest=\"3347D4D672927CA6\"/>",
-      "Rewards:",
+      "<hr/>",
+      "<hr/>",
       "<reward reward=\"11148912213C7C5F\" quest=\"3347D4D672927CA6\"/>",
       "<reward reward=\"6D70B93E29F89580\" quest=\"3347D4D672927CA6\"/>",
       "<reward reward=\"42C0FC5578746887\" quest=\"3347D4D672927CA6\"/>"

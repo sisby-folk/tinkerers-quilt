@@ -8,6 +8,10 @@
   "tasks": {
     "3FC5F826E273A912": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:infested_mossy_stone_bricks"
+      },
       "amount": 1,
       "entity": {
         "type": "minecraft:silverfish"
@@ -24,18 +28,20 @@
   "display": {
     "title": "Plague ?/10",
     "description": [
-      "<h1>Plague ?/10</h1>",
+      "<h2>Kill a Silverfish</h2>",
       "<hr/>",
-      "Kill a Silverfish",
-      "<br/>",
+      "<task task=\"3FC5F826E273A912\" quest=\"4FC61BF1949C8BE9\"/>",
+      "<hr/>",
       "Rarely, &&3Stone&&r will contain a &&cSilverfish&&r with several guaranteed near an &&2End Portal&&r of a &&2Stronghold&&r.",
       "<br/>",
       "Damaged Silverfish will &&dcall others to their aid&&r, creating swarms.",
-      "Tasks:",
-      "<task task=\"3FC5F826E273A912\" quest=\"4FC61BF1949C8BE9\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"4554086874FEF98E\" quest=\"4FC61BF1949C8BE9\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:infested_mossy_stone_bricks"
+    },
     "subtitle": {
       "text": "Kill a Silverfish"
     },

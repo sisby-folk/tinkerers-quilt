@@ -8,6 +8,10 @@
   "tasks": {
     "30B010BB2CE92D56": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:ghast_tear"
+      },
       "amount": 3,
       "entity": {
         "type": "minecraft:ghast"
@@ -45,19 +49,21 @@
   "display": {
     "title": "Sometimes she's a skhost",
     "description": [
-      "<h1>Sometimes she's a skhost</h1>",
+      "<h2>Kill 3 Ghasts</h2>",
       "<hr/>",
-      "Kill 3 Ghasts",
-      "<br/>",
+      "<task task=\"30B010BB2CE92D56\" quest=\"35AED8D09C7CF638\"/>",
+      "<hr/>",
       "Above the &&2Lava Seas&&r fly &&cGhasts&&r, making unsettling noises from great distances, and &&dspitting explosive fireballs&&r at players.",
       "<br/>",
       "Ghast fireballs can be &&3reflected&&r by hitting them for an &&dinstant kill&&r - or you can pull a trusty &&3Bow&&r.",
-      "Tasks:",
-      "<task task=\"30B010BB2CE92D56\" quest=\"35AED8D09C7CF638\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"2C75FA96B97A6A45\" quest=\"35AED8D09C7CF638\"/>",
       "<reward reward=\"51ADAE6159E0A531\" quest=\"35AED8D09C7CF638\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ghast_tear"
+    },
     "subtitle": {
       "text": "Kill 3 Ghasts"
     },

@@ -8,6 +8,10 @@
   "tasks": {
     "6FFE533C983C9A1D": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:skeleton_skull"
+      },
       "amount": 20,
       "entity": {
         "type": "minecraft:skeleton"
@@ -30,18 +34,16 @@
   "display": {
     "title": "Underground Corruption",
     "description": [
-      "<h1>Underground Corruption</h1>",
+      "<h2>Kill 20 Skeletons</h2>",
       "<hr/>",
-      "Kill 20 Skeletons",
-      "<br/>",
+      "<task task=\"6FFE533C983C9A1D\" quest=\"3CF0AC2D4BCAC32A\"/>",
+      "<hr/>",
       "The &&3ranged attack&&r from a &&cSkeleton&&r is dangerous when unarmored, unshielded, and when there's no room to &&drun circles&&r around them.",
       "<br/>",
       "Try any of those tactics for an easier fight! ",
       "<br/>",
       "When a Skeleton kills a &&cCreeper&&r, it drops a random &&emusic disc&&r!",
-      "Tasks:",
-      "<task task=\"6FFE533C983C9A1D\" quest=\"3CF0AC2D4BCAC32A\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"20B3AEEEA301D14B\" quest=\"3CF0AC2D4BCAC32A\"/>",
       "<reward reward=\"12C8E43B4E793209\" quest=\"3CF0AC2D4BCAC32A\"/>"
     ],

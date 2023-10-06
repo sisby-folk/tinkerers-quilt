@@ -8,6 +8,11 @@
   "tasks": {
     "6A706B67651B7F1D": {
       "type": "heracles:biome",
+      "title": "Find a Badlands",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:orange_terracotta"
+      },
       "biomes": "minecraft:badlands"
     }
   },
@@ -21,18 +26,20 @@
   "display": {
     "title": "Plenty big for both of us",
     "description": [
-      "<h1>Plenty big for both of us</h1>",
+      "<h2>Find a Badlands</h2>",
       "<hr/>",
-      "Find a Badlands",
-      "<br/>",
+      "<task task=\"6A706B67651B7F1D\" quest=\"75D48083C53616FF\"/>",
+      "<hr/>",
       "&&2Badlands&&r are the main source of &&3Terracotta&&r, which can be crafted into &&dmany decorative blocks&&r.",
       "<br/>",
       "Their &&2Mineshafts&&r reach high up to the surface, and are &&drich with Gold Ore&&r.",
-      "Tasks:",
-      "<task task=\"6A706B67651B7F1D\" quest=\"75D48083C53616FF\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"778D3D7F93D43770\" quest=\"75D48083C53616FF\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:orange_terracotta"
+    },
     "subtitle": {
       "text": "Find a Badlands"
     },

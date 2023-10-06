@@ -8,6 +8,11 @@
   "tasks": {
     "1FF73E768B241641": {
       "type": "heracles:block_interaction",
+      "title": "Find a Bee Nest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:bee_nest"
+      },
       "block": "minecraft:bee_nest"
     }
   },
@@ -50,23 +55,25 @@
   "display": {
     "title": "Farm Favourites!",
     "description": [
-      "<h1>Farm Favourites!</h1>",
+      "<h2>Find a Bee Nest</h2>",
       "<hr/>",
-      "Find a Bee Nest",
-      "<br/>",
+      "<task task=\"1FF73E768B241641\" quest=\"05737FE8552841E9\"/>",
+      "<hr/>",
       "&&3Bee Nests&&r house wild &&aBees&&r! They can't be moved, but produce &&3Honeycomb&&r that can be used to craft a moveable &&3Beehive&&r.",
       "<br/>",
       "To &&dsafely shear a full hive or nest&&r, a &&eCampfire&&r must be lit underneath. Otherwise, Bees will become angered.",
       "<br/>",
       "&&eCarpet&&r can be placed over Campfires to &&dprevent fire damage&&r.",
-      "Tasks:",
-      "<task task=\"1FF73E768B241641\" quest=\"05737FE8552841E9\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"510A8473FAD36C9F\" quest=\"05737FE8552841E9\"/>",
       "<reward reward=\"7EA2277E0F687304\" quest=\"05737FE8552841E9\"/>",
       "<reward reward=\"31CBD024A14767EF\" quest=\"05737FE8552841E9\"/>",
       "<reward reward=\"04820B107B3798DA\" quest=\"05737FE8552841E9\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bee_nest"
+    },
     "subtitle": {
       "text": "Find a Bee Nest"
     },

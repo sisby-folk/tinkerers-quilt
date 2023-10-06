@@ -7,7 +7,8 @@
   ],
   "tasks": {
     "69664F854B5F66A8": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Explore Mechanisms [Click]"
     },
     "3A309E57BCB63BF2": {
       "type": "heracles:item",
@@ -48,10 +49,11 @@
   "display": {
     "title": "Accursed Machines",
     "description": [
-      "<h1>Accursed Machines</h1>",
+      "<h2>Begin exploring mechanisms</h2>",
       "<hr/>",
-      "Begin exploring mechanisms",
-      "<br/>",
+      "<task task=\"69664F854B5F66A8\" quest=\"322528062359C5A9\"/>",
+      "<task task=\"3A309E57BCB63BF2\" quest=\"322528062359C5A9\"/>",
+      "<hr/>",
       "&&3Mechanisms&&r are built by the player and can &&dperform complex tasks&&r - they have components in three categories.",
       "<br/>",
       "&&3Input&&r or &&3Power&&r components provide an &&dinitial redstone signal&&r (or \"power\").",
@@ -59,10 +61,7 @@
       "&&3Transmission&&r components &&dmove and transform signals&&r.",
       "<br/>",
       "&&3Functional&&r components &&dperform the actual function desired&&r.",
-      "Tasks:",
-      "<task task=\"69664F854B5F66A8\" quest=\"322528062359C5A9\"/>",
-      "<task task=\"3A309E57BCB63BF2\" quest=\"322528062359C5A9\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"65546E15954AA223\" quest=\"322528062359C5A9\"/>",
       "<reward reward=\"41573153DA4B06B1\" quest=\"322528062359C5A9\"/>",
       "<reward reward=\"5FB600BFF6987B3E\" quest=\"322528062359C5A9\"/>",

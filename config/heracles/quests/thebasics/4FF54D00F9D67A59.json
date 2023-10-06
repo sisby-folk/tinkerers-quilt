@@ -8,6 +8,7 @@
   "tasks": {
     "7F5C1B92A8E5D119": {
       "type": "heracles:advancement",
+      "title": "Equip any Iron Armor",
       "advancements": [
         "minecraft:story/obtain_armor"
       ]
@@ -24,20 +25,22 @@
   "display": {
     "title": "MK-1",
     "description": [
-      "<h1>MK-1</h1>",
+      "<h2>Equip a piece of Iron Armor</h2>",
       "<hr/>",
-      "Equip a piece of Iron Armor",
-      "<br/>",
+      "<task task=\"7F5C1B92A8E5D119\" quest=\"4FF54D00F9D67A59\"/>",
+      "<hr/>",
       "&&3Armor&&r increases your &&3defense&&r, which &&dreduces damage taken&&r.",
       "<br/>",
       "Your &&3total defense&&r is shown as a meter above your health.",
       "<br/>",
       "&&eFood and Potions&&r can provide beneficial &&3status effects&&r for dangerous situations.",
-      "Tasks:",
-      "<task task=\"7F5C1B92A8E5D119\" quest=\"4FF54D00F9D67A59\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"52E20E5197263BE5\" quest=\"4FF54D00F9D67A59\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:knowledge_book"
+    },
     "subtitle": {
       "text": "Equip a piece of Iron Armor"
     },

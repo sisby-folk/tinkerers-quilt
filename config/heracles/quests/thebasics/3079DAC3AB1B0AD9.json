@@ -6,6 +6,8 @@
   "tasks": {
     "3E480E6CE0408D0A": {
       "type": "heracles:changed_dimension",
+      "title": "Enter the Nether",
+      "from": "minecraft:overworld",
       "to": "minecraft:the_nether"
     }
   },
@@ -30,10 +32,10 @@
   "display": {
     "title": "Where are the Hot Demons?",
     "description": [
-      "<h1>Where are the Hot Demons?</h1>",
+      "<h2>Enter the Nether</h2>",
       "<hr/>",
-      "Enter the Nether",
-      "<br/>",
+      "<task task=\"3E480E6CE0408D0A\" quest=\"3079DAC3AB1B0AD9\"/>",
+      "<hr/>",
       "The &&2Nether&&r is a dimension full of lava, dangerous falls, and monsters - it can only be reached via a &&3Nether Portal&&r.",
       "<br/>",
       "Building a &&3Nether Portal&&r requires 10 &&3Obsidian&&r blocks, formed into an upright rectangular frame - 5 blocks high, and 4 blocks wide. The corners can be &&3any block&&r.",
@@ -43,12 +45,14 @@
       "&&aPiglins&&r are denizens of the nether that attack players that aren't wearing &&eGold Armor&&r. They'll also attack any player that mines &&3Nether Gold Ore&&r.",
       "<br/>",
       "To help find your way back to a portal, you can use an &&eEmpty Map&&r while standing next to it.",
-      "Tasks:",
-      "<task task=\"3E480E6CE0408D0A\" quest=\"3079DAC3AB1B0AD9\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"07F2FBF6621572C3\" quest=\"3079DAC3AB1B0AD9\"/>",
       "<reward reward=\"7D86112E85D8D6D7\" quest=\"3079DAC3AB1B0AD9\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherrack"
+    },
     "subtitle": {
       "text": "Enter the Nether"
     },

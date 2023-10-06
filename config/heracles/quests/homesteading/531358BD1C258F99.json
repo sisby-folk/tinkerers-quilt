@@ -13,25 +13,24 @@
       "collection_type": "manual"
     },
     "7EE4AC839C4D72B3": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Farmed! [Click]"
     }
   },
   "rewards": {},
   "display": {
     "title": "Sweet Berry Farming",
     "description": [
-      "<h1>Sweet Berry Farming</h1>",
+      "<h2>Farm 64 Sweet Berries</h2>",
       "<hr/>",
-      "Farm 64 Sweet Berries",
-      "<br/>",
+      "<task task=\"07C376A60F9F3148\" quest=\"531358BD1C258F99\"/>",
+      "<task task=\"7EE4AC839C4D72B3\" quest=\"531358BD1C258F99\"/>",
+      "<hr/>",
       "Just throw a bunch on the ground, honestly. There's not much to it. &&dMaybe put them in rows? I'm not a cop&&r.",
       "<br/>",
       "&&aFoxes&&r like sweet berries. If a fox is &&dholding an item you want&&r, try throwing one!",
       "<br/>",
-      "&&7[Fabrication]&&r Brushing through brambles &&dwon't hurt&&r if you're sneaking or wearing both &&3Leggings&&r and &&3Boots&&r.",
-      "Tasks:",
-      "<task task=\"07C376A60F9F3148\" quest=\"531358BD1C258F99\"/>",
-      "<task task=\"7EE4AC839C4D72B3\" quest=\"531358BD1C258F99\"/>"
+      "&&7[Fabrication]&&r Brushing through brambles &&dwon't hurt&&r if you're sneaking or wearing both &&3Leggings&&r and &&3Boots&&r."
     ],
     "icon": {
       "type": "heracles:item",

@@ -29,7 +29,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:soul_speed",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -39,19 +39,17 @@
   "display": {
     "title": "Olympic Highway",
     "description": [
-      "<h1>Olympic Highway</h1>",
+      "<h2>Gather Soul Speed Highway materials</h2>",
       "<hr/>",
-      "Gather Soul Speed Highway materials",
-      "<br/>",
+      "<task task=\"193B528A78694A90\" quest=\"56FFE5307AA82DCD\"/>",
+      "<task task=\"2071C293A277F0B7\" quest=\"56FFE5307AA82DCD\"/>",
+      "<hr/>",
       "&&3Soul Sand&&r slows the player down, &&3Soul Soil&&r does not. With &&eSoul Speed&&r, you &&dmove faster on both&&r.",
       "<br/>",
       "&&aPiglins&&r can be thrown &&3Gold Ingots&&r to &&3Barter&&r with them, rarely yielding &&dSoul Speed -enchanted Books or Boots&&r.",
       "<br/>",
       "If a Piglin puts on the boots instead, they can be bartered back for &&3Golden Boots&&r",
-      "Tasks:",
-      "<task task=\"193B528A78694A90\" quest=\"56FFE5307AA82DCD\"/>",
-      "<task task=\"2071C293A277F0B7\" quest=\"56FFE5307AA82DCD\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"586193A0EA230FBE\" quest=\"56FFE5307AA82DCD\"/>"
     ],
     "subtitle": {

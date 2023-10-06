@@ -5,7 +5,8 @@
   ],
   "tasks": {
     "22742977937BA2B1": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Click Here!"
     }
   },
   "rewards": {
@@ -20,10 +21,10 @@
   "display": {
     "title": "Pack Configuration",
     "description": [
-      "<h1>Pack Configuration</h1>",
+      "<h2>Tweak Stuff!</h2>",
       "<hr/>",
-      "Tweak Stuff!",
-      "<br/>",
+      "<task task=\"22742977937BA2B1\" quest=\"337730F25EC36332\"/>",
+      "<hr/>",
       "&&7[ModMenu]&&r Press &&7[&&r&&6ALT+M&&r&&7]&&r to open the mod menu, allowing you to change options for mods in the pack.",
       "<br/>",
       "&&7[Iris]&&r Press &&7[&&r&&6ALT+I&&r&&7]&&r to configure &&3shaders&&r, and &&7[&&r&&6I&&r&&7]&&r to toggle them once configured.",
@@ -33,9 +34,7 @@
       "&&7[LambdaBetterGrass]&&r You can change whether &&3Grass Blocks&&r connect vertically from the &&3Better Grass&&r mod menu.",
       "<br/>",
       "&&7[Charmonium]&&r You can adjust the volume of audio ambience from the &&3Charmonium&&r mod menu.",
-      "Tasks:",
-      "<task task=\"22742977937BA2B1\" quest=\"337730F25EC36332\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"7F93E999EA1BDBC4\" quest=\"337730F25EC36332\"/>"
     ],
     "icon": {

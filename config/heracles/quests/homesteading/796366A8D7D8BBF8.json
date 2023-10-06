@@ -31,10 +31,10 @@
   "display": {
     "title": "Sheetmetal",
     "description": [
-      "<h1>Sheetmetal</h1>",
+      "<h2>Craft a Blast Furnace</h2>",
       "<hr/>",
-      "Craft a Blast Furnace",
-      "<br/>",
+      "<task task=\"58184DF53B179A23\" quest=\"796366A8D7D8BBF8\"/>",
+      "<hr/>",
       "A &&3Blast Furnace&&r is a specialized furnace variant that &&dsmelts ores at double speed&&r.",
       "<br/>",
       "&&3Hoppers&&r can automatically &&dtake items from&&r or &&dinsert items into&&r into any blocks with an inventory - including &&3Furnaces&&r and &&3Chests&&r.",
@@ -44,9 +44,7 @@
       "By adding chests to each, this can be used to &&dsmelt many stacks of items&&r without checking in.",
       "<br/>",
       "&&7[Fabrication]&&r &&6Clicking&&r the &&3output slot&&r of a furnace set up this way will transfer you any experience generated.",
-      "Tasks:",
-      "<task task=\"58184DF53B179A23\" quest=\"796366A8D7D8BBF8\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"47C766F3D087F2F2\" quest=\"796366A8D7D8BBF8\"/>",
       "<reward reward=\"170B785E7A4604F5\" quest=\"796366A8D7D8BBF8\"/>"
     ],

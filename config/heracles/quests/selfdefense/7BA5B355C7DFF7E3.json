@@ -8,6 +8,10 @@
   "tasks": {
     "577F61C1ABAF56B6": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:string"
+      },
       "amount": 30,
       "entity": {
         "type": "minecraft:spider"
@@ -31,16 +35,14 @@
   "display": {
     "title": "Eye of the Spider",
     "description": [
-      "<h1>Eye of the Spider</h1>",
+      "<h2>Kill 30 Spiders</h2>",
       "<hr/>",
-      "Kill 30 Spiders",
-      "<br/>",
+      "<task task=\"577F61C1ABAF56B6\" quest=\"7BA5B355C7DFF7E3\"/>",
+      "<hr/>",
       "By climbing, &&cSpiders&&r can overcome most obstacles and walls. Adding an &&3overhang&&r to any defensive wall can prevent this.",
       "<br/>",
       "&&7[Fabrication]&&r Spiders can't climb &&3Glazed Terracotta&&r, or when they're wet from water or &&dSplash Water Bottles&&r.",
-      "Tasks:",
-      "<task task=\"577F61C1ABAF56B6\" quest=\"7BA5B355C7DFF7E3\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"6792DDBF86C7A648\" quest=\"7BA5B355C7DFF7E3\"/>",
       "<reward reward=\"547DB984D373B91B\" quest=\"7BA5B355C7DFF7E3\"/>"
     ],

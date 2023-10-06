@@ -8,6 +8,10 @@
   "tasks": {
     "36FE4BD5E967A888": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:creeper_head"
+      },
       "amount": 15,
       "entity": {
         "type": "minecraft:creeper"
@@ -29,7 +33,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:knockback",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -39,10 +43,10 @@
   "display": {
     "title": "Aw man",
     "description": [
-      "<h1>Aw man</h1>",
+      "<h2>Kill 15 Creepers</h2>",
       "<hr/>",
-      "Kill 15 Creepers",
-      "<br/>",
+      "<task task=\"36FE4BD5E967A888\" quest=\"2BA288C7EE0930DB\"/>",
+      "<hr/>",
       "The self-destructing explosions from a &&cCreeper&&r can pack a punch! ",
       "<br/>",
       "Creepers are easiest taken out &&dfrom a distance&&r, or by &&emaking distance&&r after each hit.",
@@ -54,12 +58,14 @@
       "You can make an area &&dspawn only Creepers&&r by creating a &&22x2 tunnel&&r with a roof lined with &&3Trapdoors&&r.",
       "<br/>",
       "&&7[Fabrication]&&r Creeper explosions &&dcan't break blocks&&r.",
-      "Tasks:",
-      "<task task=\"36FE4BD5E967A888\" quest=\"2BA288C7EE0930DB\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"2FF00C331F6E4A3C\" quest=\"2BA288C7EE0930DB\"/>",
       "<reward reward=\"448CCDD562B9DE27\" quest=\"2BA288C7EE0930DB\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:creeper_head"
+    },
     "subtitle": {
       "text": "Kill 15 Creepers"
     },

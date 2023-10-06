@@ -22,7 +22,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:unbreaking",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -37,7 +37,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:fortune",
-              "lvl": 1
+              "lvl": "1"
             }
           ]
         }
@@ -53,10 +53,10 @@
   "display": {
     "title": "Heavy Metal",
     "description": [
-      "<h1>Heavy Metal</h1>",
+      "<h2>Craft an Anvil</h2>",
       "<hr/>",
-      "Craft an Anvil",
-      "<br/>",
+      "<task task=\"6940D98A01D79913\" quest=\"324EABD3C7110E53\"/>",
+      "<hr/>",
       "An &&3Anvil&&r can be used to &&drepair&&r equipment with materials, apply &&denchantments from books&&r, and &&dcombine&&r equipment of the same type.",
       "<br/>",
       "Applying enchantments costs &&3experience levels&&r based on their strength, and increases each time the tool is modified. ",
@@ -68,9 +68,7 @@
       "&&7[idwtialsimmoedm]&&r hold &&7[&&r&&6Shift&&r&&7]&&r on an &&eenchanted item&&r to see enchantment descriptions.",
       "<br/>",
       "&&7[Fabrication]&&r Tools with &&3Fortune&&r or &&3Silk Touch&&r show an initial on their icon.",
-      "Tasks:",
-      "<task task=\"6940D98A01D79913\" quest=\"324EABD3C7110E53\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"1E8AA706DE3AC6CC\" quest=\"324EABD3C7110E53\"/>",
       "<reward reward=\"5CB3416D1CA7E6FA\" quest=\"324EABD3C7110E53\"/>",
       "<reward reward=\"2F3F55D656F85A4F\" quest=\"324EABD3C7110E53\"/>"

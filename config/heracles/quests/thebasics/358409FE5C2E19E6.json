@@ -8,21 +8,25 @@
   "tasks": {
     "5FC0E582CDFDC762": {
       "type": "heracles:item",
+      "title": "Pickaxe",
       "item": "#c:pickaxes",
       "collection_type": "manual"
     },
     "4D0BFD3A0D9238C9": {
       "type": "heracles:item",
+      "title": "Shovel",
       "item": "#c:shovels",
       "collection_type": "manual"
     },
     "553123730A74F060": {
       "type": "heracles:item",
+      "title": "Axe",
       "item": "#c:axes",
       "collection_type": "manual"
     },
     "3AAD0A84BDDF6E04": {
       "type": "heracles:item",
+      "title": "Hoe",
       "item": "#c:hoes",
       "collection_type": "manual"
     }
@@ -42,10 +46,13 @@
   "display": {
     "title": "Bag of Tricks",
     "description": [
-      "<h1>Bag of Tricks</h1>",
+      "<h2>Craft every Tool</h2>",
       "<hr/>",
-      "Craft every Tool",
-      "<br/>",
+      "<task task=\"5FC0E582CDFDC762\" quest=\"358409FE5C2E19E6\"/>",
+      "<task task=\"4D0BFD3A0D9238C9\" quest=\"358409FE5C2E19E6\"/>",
+      "<task task=\"553123730A74F060\" quest=\"358409FE5C2E19E6\"/>",
+      "<task task=\"3AAD0A84BDDF6E04\" quest=\"358409FE5C2E19E6\"/>",
+      "<hr/>",
       "Most blocks have a &&3preferred tool&&r that breaks them the fastest.",
       "<br/>",
       "&&3Axes&&r break &&3Wood&&r, including logs, planks, and most furniture.",
@@ -59,12 +66,7 @@
       "&&3Pickaxes&&r break most \"hard\" blocks, including anything stone or metal. When broken with any other tool, many of these are &&ddestroyed&&r.",
       "<br/>",
       "&&eShears&&r can be used to collect fragile blocks like plants and cobwebs.",
-      "Tasks:",
-      "<task task=\"5FC0E582CDFDC762\" quest=\"358409FE5C2E19E6\"/>",
-      "<task task=\"4D0BFD3A0D9238C9\" quest=\"358409FE5C2E19E6\"/>",
-      "<task task=\"553123730A74F060\" quest=\"358409FE5C2E19E6\"/>",
-      "<task task=\"3AAD0A84BDDF6E04\" quest=\"358409FE5C2E19E6\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"0072CA8B14AD480A\" quest=\"358409FE5C2E19E6\"/>"
     ],
     "icon": {

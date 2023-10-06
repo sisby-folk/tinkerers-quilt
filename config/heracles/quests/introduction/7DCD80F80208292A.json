@@ -5,17 +5,18 @@
   ],
   "tasks": {
     "13A47D4ACD23046E": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Click Here!"
     }
   },
   "rewards": {},
   "display": {
     "title": "Difficulty Changes",
     "description": [
-      "<h1>Difficulty Changes</h1>",
+      "<h2>Apathy, Graves, and Pets</h2>",
       "<hr/>",
-      "Apathy, Graves, and Pets",
-      "<br/>",
+      "<task task=\"13A47D4ACD23046E\" quest=\"7DCD80F80208292A\"/>",
+      "<hr/>",
       "&&7[Apathy]&&r On &&3Easy Difficulty&&r, mobs &&dwill not attack you&&r unless you attack them first - including guard mobs and bosses. On Normal and above servers, type &&6/apathy set join neutral&&r to enable this for just you.",
       "<br/>",
       "&&7[YIGD]&&r On death, a &&3Grave&&r will be placed that &&dcontains your items&&r. Simply &&6Right-Click&&r the grave to restore them. When respawning, you'll receive a &&3Compass&&r that points to your grave.",
@@ -24,9 +25,7 @@
       "<br/>",
       "&&7[Pettable]&&r Animals can be pet with &&6Middle-Click&&r to &&drestore some health&&r.",
       "<br/>",
-      "&&7[HorseBuff/Fabrication]&&r Saddled &&aHorses&&r &&dwill not wander&&r from where they're left. &&6Sneak+Right-Click&&r to unsaddle mobs.",
-      "Tasks:",
-      "<task task=\"13A47D4ACD23046E\" quest=\"7DCD80F80208292A\"/>"
+      "&&7[HorseBuff/Fabrication]&&r Saddled &&aHorses&&r &&dwill not wander&&r from where they're left. &&6Sneak+Right-Click&&r to unsaddle mobs."
     ],
     "icon": {
       "type": "heracles:item",

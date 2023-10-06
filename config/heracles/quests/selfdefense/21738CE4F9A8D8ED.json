@@ -8,6 +8,10 @@
   "tasks": {
     "68CCD723DFFF39DD": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:zombie_head"
+      },
       "amount": 50,
       "entity": {
         "type": "minecraft:zombie"
@@ -24,16 +28,14 @@
   "display": {
     "title": "Working Dead",
     "description": [
-      "<h1>Working Dead</h1>",
+      "<h2>Kill 50 Zombies</h2>",
       "<hr/>",
-      "Kill 50 Zombies",
-      "<br/>",
+      "<task task=\"68CCD723DFFF39DD\" quest=\"21738CE4F9A8D8ED\"/>",
+      "<hr/>",
       "Spawning in droves at night and in caves, the slow amble of a &&cZombie&&r can be &&doutmaneuvered&&r in many ways.",
       "<br/>",
       "Try &&3pillaring&&r by jumping and placing two blocks beneath you. This allows you to &&deasily kill most melee enemies&&r.",
-      "Tasks:",
-      "<task task=\"68CCD723DFFF39DD\" quest=\"21738CE4F9A8D8ED\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"40D869E83ACD5092\" quest=\"21738CE4F9A8D8ED\"/>"
     ],
     "icon": {

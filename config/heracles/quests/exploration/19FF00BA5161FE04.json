@@ -8,6 +8,11 @@
   "tasks": {
     "68CBD82A4FF87F3F": {
       "type": "heracles:biome",
+      "title": "Reach some Frozen Peaks",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:packed_ice"
+      },
       "biomes": "minecraft:frozen_peaks"
     }
   },
@@ -31,19 +36,21 @@
   "display": {
     "title": "Throat of the World",
     "description": [
-      "<h1>Throat of the World</h1>",
+      "<h2>Find Frozen Peaks</h2>",
       "<hr/>",
-      "Find Frozen Peaks",
-      "<br/>",
+      "<task task=\"68CBD82A4FF87F3F\" quest=\"19FF00BA5161FE04\"/>",
+      "<hr/>",
       "&&2Mountain Peaks&&r are a great source of &&3Packed Ice&&r, which is &&dslippery but doesn't melt&&r!",
       "<br/>",
       "Peaks also contain &&aGoats&&r, neutral animals that can be &&dmilked&&r, jump high, and &&3ram blocks&&r - &&ddropping a musical horn&&r when hitting hard blocks!",
-      "Tasks:",
-      "<task task=\"68CBD82A4FF87F3F\" quest=\"19FF00BA5161FE04\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"6BED877089ECDC53\" quest=\"19FF00BA5161FE04\"/>",
       "<reward reward=\"0866DC750474E58E\" quest=\"19FF00BA5161FE04\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:packed_ice"
+    },
     "subtitle": {
       "text": "Find Frozen Peaks"
     },

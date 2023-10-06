@@ -8,6 +8,10 @@
   "tasks": {
     "3FB71FB6BCA65B96": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:wither_skeleton_skull"
+      },
       "amount": 6,
       "entity": {
         "type": "minecraft:wither_skeleton"
@@ -24,16 +28,14 @@
   "display": {
     "title": "Come Hither",
     "description": [
-      "<h1>Come Hither</h1>",
+      "<h2>Kill 6 Wither Skeletons</h2>",
       "<hr/>",
-      "Kill 6 Wither Skeletons",
-      "<br/>",
+      "<task task=\"3FB71FB6BCA65B96\" quest=\"26CD2014C0B206D0\"/>",
+      "<hr/>",
       "In a &&2Nether Fortress&&r, a swift death may be delivered by &&cWither Skeletons&&r; sword-wielders that inflict &&3Wither&&r - which is a bit like &&3Poison&&r except &&dpoison can't kill players&&r!",
       "<br/>",
       "Not getting hit requires &&dprecise knockback timing&&r.",
-      "Tasks:",
-      "<task task=\"3FB71FB6BCA65B96\" quest=\"26CD2014C0B206D0\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"76D951FE99BF0C42\" quest=\"26CD2014C0B206D0\"/>"
     ],
     "icon": {

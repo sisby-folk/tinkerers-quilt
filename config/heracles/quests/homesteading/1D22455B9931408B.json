@@ -38,10 +38,10 @@
   "display": {
     "title": "Explorer",
     "description": [
-      "<h1>Explorer</h1>",
+      "<h2>Craft a Cartography Table</h2>",
       "<hr/>",
-      "Craft a Cartography Table",
-      "<br/>",
+      "<task task=\"3075251E9DC7E660\" quest=\"1D22455B9931408B\"/>",
+      "<hr/>",
       "&&3Cartography Tables&&r allow you to &&dduplicate map contents&&r, including their zoom level. They also allow &&dcheaper zooming out&&r of Maps with &&ePaper&&r.",
       "<br/>",
       "This means you can &&dshare large regions&&r of map (e.g. the region around your base) with &&3other players&&r.",
@@ -51,9 +51,7 @@
       "&&eMaps&&r can be placed into &&eItem Frames&&r, allowing them to be &&dassembled into much larger physical maps&&r.",
       "<br/>",
       "&&7[Crowmap]&&r &&eMaps&&r can be filled out from &&3any slot in your inventory&&r.",
-      "Tasks:",
-      "<task task=\"3075251E9DC7E660\" quest=\"1D22455B9931408B\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"60E3542185DA5F63\" quest=\"1D22455B9931408B\"/>",
       "<reward reward=\"6D0F8920542CF32D\" quest=\"1D22455B9931408B\"/>",
       "<reward reward=\"474AF377E296BE69\" quest=\"1D22455B9931408B\"/>"

@@ -3,6 +3,11 @@
   "tasks": {
     "6B547341AB9F3005": {
       "type": "heracles:item",
+      "title": "Wooden Pickaxe",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:wooden_pickaxe"
+      },
       "item": "#c:pickaxes",
       "collection_type": "manual"
     }
@@ -22,16 +27,14 @@
   "display": {
     "title": "Recipe Chim-Cheri",
     "description": [
-      "<h1>Recipe Chim-Cheri</h1>",
+      "<h2>Craft a Wooden Pickaxe</h2>",
       "<hr/>",
-      "Craft a Wooden Pickaxe",
-      "<br/>",
+      "<task task=\"6B547341AB9F3005\" quest=\"53AFBD6DDF572701\"/>",
+      "<hr/>",
       "A &&3Wooden Pickaxe&&r can be made using material from &&3Trees&&r at a &&3Crafting Table&&r.",
       "<br/>",
       "&&7[EMI]&&r You can &&dlook up recipes for both any time&&r in the search box!",
-      "Tasks:",
-      "<task task=\"6B547341AB9F3005\" quest=\"53AFBD6DDF572701\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"7DE872D39C3E7272\" quest=\"53AFBD6DDF572701\"/>"
     ],
     "icon": {

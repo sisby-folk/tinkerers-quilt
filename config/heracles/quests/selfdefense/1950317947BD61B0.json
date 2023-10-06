@@ -7,7 +7,8 @@
   ],
   "tasks": {
     "53A796604A3A0CDA": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Follow the path of the Gladiator [Click]"
     }
   },
   "rewards": {
@@ -55,7 +56,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:smite",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -65,16 +66,14 @@
   "display": {
     "title": "Path of the Gladiator",
     "description": [
-      "<h1>Path of the Gladiator</h1>",
+      "<h2>take on the realms' monsters</h2>",
       "<hr/>",
-      "take on the realms' monsters",
-      "<br/>",
+      "<task task=\"53A796604A3A0CDA\" quest=\"1950317947BD61B0\"/>",
+      "<hr/>",
       "Hostile &&cmonsters&&r roam the world, threatening wanderers either out of instinct or ill intent. ",
       "<br/>",
       "Prove yourself in combat by showing proficiency defeating each type, and be &&dhandsomely rewarded&&r.",
-      "Tasks:",
-      "<task task=\"53A796604A3A0CDA\" quest=\"1950317947BD61B0\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"64DBD5ABDBCF2CE0\" quest=\"1950317947BD61B0\"/>",
       "<reward reward=\"052C621B419B34F9\" quest=\"1950317947BD61B0\"/>"
     ],

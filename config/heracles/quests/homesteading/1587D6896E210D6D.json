@@ -16,7 +16,8 @@
   ],
   "tasks": {
     "39DC4F3432624CFD": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Chill out over tea [Click]"
     }
   },
   "rewards": {
@@ -82,7 +83,7 @@
           "Enchantments": [
             {
               "id": "minecraft:fortune",
-              "lvl": 3
+              "lvl": "3"
             }
           ],
           "RepairCost": 31,
@@ -101,13 +102,11 @@
   "display": {
     "title": "Gaia",
     "description": [
-      "<h1>Gaia</h1>",
+      "<h2>Keep the world renewed</h2>",
       "<hr/>",
-      "Keep the world renewed",
-      "<br/>",
-      "Tasks:",
       "<task task=\"39DC4F3432624CFD\" quest=\"1587D6896E210D6D\"/>",
-      "Rewards:",
+      "<hr/>",
+      "<hr/>",
       "<reward reward=\"4BBCD767172D1A8B\" quest=\"1587D6896E210D6D\"/>",
       "<reward reward=\"30817A1DB77C9DFD\" quest=\"1587D6896E210D6D\"/>"
     ],

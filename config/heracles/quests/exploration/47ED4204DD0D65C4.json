@@ -3,6 +3,11 @@
   "tasks": {
     "318791BA274D0278": {
       "type": "heracles:stat",
+      "title": "Jump 75 Times",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:ladder"
+      },
       "stat": "minecraft:jump",
       "target": 75
     }
@@ -18,16 +23,18 @@
   "display": {
     "title": "Vying Vertical [Sightseer]",
     "description": [
-      "<h1>Vying Vertical [Sightseer]</h1>",
+      "<h2>Jump 75 Times</h2>",
       "<hr/>",
-      "Jump 75 Times",
-      "<br/>",
-      "&&eHay Bales&&r can &&dbreak high falls&&r, or instead be used for &&3Bread&&r.",
-      "Tasks:",
       "<task task=\"318791BA274D0278\" quest=\"47ED4204DD0D65C4\"/>",
-      "Rewards:",
+      "<hr/>",
+      "&&eHay Bales&&r can &&dbreak high falls&&r, or instead be used for &&3Bread&&r.",
+      "<hr/>",
       "<reward reward=\"05B359937A79F3EF\" quest=\"47ED4204DD0D65C4\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ladder"
+    },
     "subtitle": {
       "text": "Jump 75 Times"
     },

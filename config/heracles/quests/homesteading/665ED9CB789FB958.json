@@ -31,14 +31,12 @@
   "display": {
     "title": "Treasure Fisher",
     "description": [
-      "<h1>Treasure Fisher</h1>",
+      "<h2>Fish up a Nautilus Shell</h2>",
       "<hr/>",
-      "Fish up a Nautilus Shell",
-      "<br/>",
-      "&&eNautilus Shells&&r can be &&3fished&&r at a 1% chance, or up to 2% with &&eLuck of the Sea&&r.",
-      "Tasks:",
       "<task task=\"01CB40E24772863D\" quest=\"665ED9CB789FB958\"/>",
-      "Rewards:",
+      "<hr/>",
+      "&&eNautilus Shells&&r can be &&3fished&&r at a 1% chance, or up to 2% with &&eLuck of the Sea&&r.",
+      "<hr/>",
       "<reward reward=\"6AF69D0FC37EB581\" quest=\"665ED9CB789FB958\"/>",
       "<reward reward=\"07421828A6ADE48A\" quest=\"665ED9CB789FB958\"/>"
     ],

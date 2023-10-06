@@ -3,11 +3,13 @@
   "tasks": {
     "2ABA43D1E425E35D": {
       "type": "heracles:item",
+      "title": "Axe",
       "item": "#c:axes",
       "collection_type": "manual"
     },
     "4BFE3469B59F7C8F": {
       "type": "heracles:item",
+      "title": "Sword",
       "item": "#c:swords",
       "collection_type": "manual"
     }
@@ -22,7 +24,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:sweeping",
-              "lvl": 1
+              "lvl": "1"
             }
           ]
         }
@@ -32,10 +34,11 @@
   "display": {
     "title": "Direct Approach",
     "description": [
-      "<h1>Direct Approach</h1>",
+      "<h2>Acquire Melee Weapons</h2>",
       "<hr/>",
-      "Acquire Melee Weapons",
-      "<br/>",
+      "<task task=\"2ABA43D1E425E35D\" quest=\"72CC6869A3793E22\"/>",
+      "<task task=\"4BFE3469B59F7C8F\" quest=\"72CC6869A3793E22\"/>",
+      "<hr/>",
       "&&3Melee attacks&&r have a &&3cooldown&&r, which causes rapid attacks to deal as little as &&done fifth of their normal damage&&r.",
       "<br/>",
       "The cooldown is indicated by a &&3sword indicator&&r near the crosshair. When the sword is full, &&dattacks deal full damage&&r.",
@@ -47,10 +50,7 @@
       "If an attack connects while you're &&3falling&&r, it becomes a critical hit, dealing &&d1.5x damage&&r and spilling stars.",
       "<br/>",
       "&&7[EnhancedAttackIndicator]&&r the attack indicator also shows bow charging, food eating, and block breaking progress.",
-      "Tasks:",
-      "<task task=\"2ABA43D1E425E35D\" quest=\"72CC6869A3793E22\"/>",
-      "<task task=\"4BFE3469B59F7C8F\" quest=\"72CC6869A3793E22\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"32437F064A5A9BC6\" quest=\"72CC6869A3793E22\"/>"
     ],
     "icon": {

@@ -13,7 +13,8 @@
       "collection_type": "manual"
     },
     "149D5F5038C2BC78": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Farmed! [Click]"
     }
   },
   "rewards": {
@@ -57,17 +58,15 @@
   "display": {
     "title": "Amethyst Farming",
     "description": [
-      "<h1>Amethyst Farming</h1>",
+      "<h2>Farm 32 Amethyst</h2>",
       "<hr/>",
-      "Farm 32 Amethyst",
-      "<br/>",
+      "<task task=\"1AE1B289AED19E40\" quest=\"0FC2E6F08F772324\"/>",
+      "<task task=\"149D5F5038C2BC78\" quest=\"0FC2E6F08F772324\"/>",
+      "<hr/>",
       "&&3Amethyst&&r can only be &&dfarmed at the source&&r - an &&2Underground Geode&&r.",
       "<br/>",
       "This means the farm comes pre-made - Just mark it on your map!",
-      "Tasks:",
-      "<task task=\"1AE1B289AED19E40\" quest=\"0FC2E6F08F772324\"/>",
-      "<task task=\"149D5F5038C2BC78\" quest=\"0FC2E6F08F772324\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"112A4EFC03516D1B\" quest=\"0FC2E6F08F772324\"/>"
     ],
     "icon": {

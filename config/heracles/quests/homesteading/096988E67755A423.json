@@ -31,16 +31,14 @@
   "display": {
     "title": "Mr. Cellophane",
     "description": [
-      "<h1>Mr. Cellophane</h1>",
+      "<h2>Craft some Glass Panes</h2>",
       "<hr/>",
-      "Craft some Glass Panes",
-      "<br/>",
+      "<task task=\"12C095116F80A80B\" quest=\"096988E67755A423\"/>",
+      "<hr/>",
       "&&3Glass Panes&&r are helpful for &&ddecorations and windows&&r. They're cheaper, but can't be used for skylights. ",
       "<br/>",
       "&&3Glass&&r can also be stained using &&3Dye&&r, &&dcoloring it&&r. ",
-      "Tasks:",
-      "<task task=\"12C095116F80A80B\" quest=\"096988E67755A423\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"36196BC047ECD6F4\" quest=\"096988E67755A423\"/>",
       "<reward reward=\"06431CBC247EA616\" quest=\"096988E67755A423\"/>"
     ],

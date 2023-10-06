@@ -8,10 +8,20 @@
   "tasks": {
     "235FD333274DE457": {
       "type": "heracles:biome",
+      "title": "Find a Warped Forest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:warped_nylium"
+      },
       "biomes": "minecraft:warped_forest"
     },
     "2180A88C978A8C70": {
       "type": "heracles:biome",
+      "title": "Find a Crimson Forest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:crimson_nylium"
+      },
       "biomes": "minecraft:crimson_forest"
     }
   },
@@ -31,10 +41,11 @@
   "display": {
     "title": "Red Vs Blue",
     "description": [
-      "<h1>Red Vs Blue</h1>",
+      "<h2>Find both Nether Forests</h2>",
       "<hr/>",
-      "Find both Nether Forests",
-      "<br/>",
+      "<task task=\"235FD333274DE457\" quest=\"522B247B10CCF04E\"/>",
+      "<task task=\"2180A88C978A8C70\" quest=\"522B247B10CCF04E\"/>",
+      "<hr/>",
       "The two &&2Nether Forests&&r are home to unique &&3Wood Types&&r and &&3Fungus&&r.",
       "<br/>",
       "&&2Warped Forests&&r are a &&dvery safe biome&&r - spawning only &&cEndermen&&r.",
@@ -44,10 +55,7 @@
       "&&3Nether Wood Types&&r are &&dcompletely non-flammable&&r.",
       "<br/>",
       "&&3Warped Fungus&&r can be put on a &&3Fishing Rod&&r to ride saddled &&aStriders&&r.",
-      "Tasks:",
-      "<task task=\"235FD333274DE457\" quest=\"522B247B10CCF04E\"/>",
-      "<task task=\"2180A88C978A8C70\" quest=\"522B247B10CCF04E\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"1A886DF1D1C3675E\" quest=\"522B247B10CCF04E\"/>",
       "<reward reward=\"1007B8702881D9D9\" quest=\"522B247B10CCF04E\"/>"
     ],

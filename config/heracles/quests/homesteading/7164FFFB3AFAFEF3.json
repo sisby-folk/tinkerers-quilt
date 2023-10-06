@@ -35,10 +35,10 @@
   "display": {
     "title": "Automated Input",
     "description": [
-      "<h1>Automated Input</h1>",
+      "<h2>Craft a Comparator</h2>",
       "<hr/>",
-      "Craft a Comparator",
-      "<br/>",
+      "<task task=\"2903CAD5158DD4B5\" quest=\"7164FFFB3AFAFEF3\"/>",
+      "<hr/>",
       "Along with manual inputs, certain things can be observed to &&dmake mechanisms activate automatically&&r.",
       "<br/>",
       "The &&eComparator&&r provides power based on &&dspecific information about the block it's facing&&r - like the fullness of &&3Containers&&r (0-15), &&3Beehives&&r (0-5), and &&3Cauldrons&&r (0-3), &&3Item Frame&&r rotation (1-8), and &&3Respawn Anchor&&r charge (0-15).",
@@ -48,9 +48,7 @@
       "The &&eObserver&&r provides full power &&dwhenever the block it's facing changes&&r - breaking and placing, &&3Piston&&r movements, &&3Containers&&r opening, &&3Crops&&r growing, &&3Doors&&r opening, and much more.",
       "<br/>",
       "The &&eSculk Sensor&&r provides power when it &&3senses vibrations&&r in an area - including all kinds of sounds.",
-      "Tasks:",
-      "<task task=\"2903CAD5158DD4B5\" quest=\"7164FFFB3AFAFEF3\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"11E3CEE7928D92AF\" quest=\"7164FFFB3AFAFEF3\"/>",
       "<reward reward=\"383B477AF836D509\" quest=\"7164FFFB3AFAFEF3\"/>",
       "<reward reward=\"6270301AFBA65ECA\" quest=\"7164FFFB3AFAFEF3\"/>"

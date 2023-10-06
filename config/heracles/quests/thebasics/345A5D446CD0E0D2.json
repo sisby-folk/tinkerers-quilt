@@ -8,6 +8,11 @@
   "tasks": {
     "45538435550F3E5E": {
       "type": "heracles:block_interaction",
+      "title": "Look into an End Portal",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:end_portal_frame"
+      },
       "block": "minecraft:end_portal"
     }
   },
@@ -22,7 +27,7 @@
           "Enchantments": [
             {
               "id": "minecraft:feather_falling",
-              "lvl": 3
+              "lvl": "3"
             }
           ],
           "RepairCost": 1,
@@ -36,10 +41,10 @@
   "display": {
     "title": "Where are the Hot Dra-oh",
     "description": [
-      "<h1>Where are the Hot Dra-oh</h1>",
+      "<h2>Activate an End Portal</h2>",
       "<hr/>",
-      "Activate an End Portal",
-      "<br/>",
+      "<task task=\"45538435550F3E5E\" quest=\"345A5D446CD0E0D2\"/>",
+      "<hr/>",
       "&&2The End&&r consists of islands floating in the &&3void&&r, where falling is very dangerous.",
       "<br/>",
       "You spawn at the &&2Central Island&&r, where the &&4Ender Dragon&&r guards the &&2Return Portal&&r and &&2End Gateway&&r.",
@@ -47,9 +52,7 @@
       "&&7[Fabrication]&&r Falling into the void instead &&dreturns you&&r to where you fell, dealing high damage.",
       "<br/>",
       "&&7[Apathy]&&r The central &&2Return Portal&&r and &&2End Gateway&&r are active without defeating the Ender Dragon.",
-      "Tasks:",
-      "<task task=\"45538435550F3E5E\" quest=\"345A5D446CD0E0D2\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"3C92DF27111BD7E9\" quest=\"345A5D446CD0E0D2\"/>"
     ],
     "icon": {

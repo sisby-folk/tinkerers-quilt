@@ -7,7 +7,8 @@
   ],
   "tasks": {
     "2797C82C4C23C124": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Click Here!"
     }
   },
   "rewards": {
@@ -25,10 +26,10 @@
   "display": {
     "title": "Crafting Controls",
     "description": [
-      "<h1>Crafting Controls</h1>",
+      "<h2>Mining *and* Crafting</h2>",
       "<hr/>",
-      "Mining *and* Crafting",
-      "<br/>",
+      "<task task=\"2797C82C4C23C124\" quest=\"438625063C95601F\"/>",
+      "<hr/>",
       "&&7[Inventory Tabs]&&r Press &&7[&&r&&6Tab&&r&&7]&&r in the inventory to &&dchange workstations&&r, or &&6Click&&r the visual tabs around the screen. ",
       "<br/>",
       "&&7[MouseWheelie]&&r &&6Middle Click&&r in any inventory to &&dsort items&&r. Hold &&7[&&r&&6Space&&r&&7]&&r while clicking an inventory to &&drestock from it&&r, or while clicking your inventory to &&dquick store to it&&r.",
@@ -42,9 +43,7 @@
       "The &&3right pane&&r shows what you can craft right now. &&6Click&&r an item to add it to the workstation. &&6CTRL+Click&&r to craft it instantly.",
       "<br/>",
       "Press &&7[&&r&&6CTRL+F&&r&&7]&&r to search up items and blocks instead. &&6Click&&r to see recipes, or &&6Right-Click&&r to see usages.",
-      "Tasks:",
-      "<task task=\"2797C82C4C23C124\" quest=\"438625063C95601F\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"12ED530D4B5BB824\" quest=\"438625063C95601F\"/>"
     ],
     "icon": {

@@ -31,7 +31,8 @@
   ],
   "tasks": {
     "63DE6483F0A04B81": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Observatory high tea [Click]"
     }
   },
   "rewards": {
@@ -94,19 +95,19 @@
           "Enchantments": [
             {
               "id": "minecraft:aqua_affinity",
-              "lvl": 1
+              "lvl": "1"
             },
             {
               "id": "minecraft:respiration",
-              "lvl": 20
+              "lvl": "20"
             },
             {
               "id": "minecraft:unbreaking",
-              "lvl": 3
+              "lvl": "3"
             },
             {
               "id": "minecraft:mending",
-              "lvl": 1
+              "lvl": "1"
             }
           ],
           "RepairCost": 31,
@@ -169,10 +170,10 @@
   "display": {
     "title": "Mercury",
     "description": [
-      "<h1>Mercury</h1>",
+      "<h2>Explore the worlds</h2>",
       "<hr/>",
-      "Explore the worlds",
-      "<br/>",
+      "<task task=\"63DE6483F0A04B81\" quest=\"61E3A3B353DCD588\"/>",
+      "<hr/>",
       "&&3Beacons&&r beams can be coloured with &&3Stained Glass&&r.",
       "<br/>",
       "Beacons can be placed adjacent to eachother to &&duse less pyramid materials&&r.",
@@ -180,9 +181,7 @@
       "As an example, three level 2 beacons can be arranged in a line using only &&e46 Pyramid Blocks&&r.",
       "<br/>",
       "&&7[Tinkerer's Quilt]&&r By keeping any &&3Copper Blocks&&r on the outermost layer of a &&3Beacon&&r pyramid, it stays easy to clean. ",
-      "Tasks:",
-      "<task task=\"63DE6483F0A04B81\" quest=\"61E3A3B353DCD588\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"259FC60D45DEDA9F\" quest=\"61E3A3B353DCD588\"/>",
       "<reward reward=\"10D6B7356A2AD29B\" quest=\"61E3A3B353DCD588\"/>",
       "<reward reward=\"41FB1A8C265AF4A6\" quest=\"61E3A3B353DCD588\"/>",

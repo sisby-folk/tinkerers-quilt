@@ -8,6 +8,11 @@
   "tasks": {
     "0E98F0430979C3AB": {
       "type": "heracles:structure",
+      "title": "Enter a Snow Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:blue_ice"
+      },
       "structures": "minecraft:village_snowy"
     }
   },
@@ -27,7 +32,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:piercing",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -37,21 +42,23 @@
   "display": {
     "title": "Shivery!",
     "description": [
-      "<h1>Shivery!</h1>",
+      "<h2>Visit a Snow Village</h2>",
       "<hr/>",
-      "Visit a Snow Village",
-      "<br/>",
+      "<task task=\"0E98F0430979C3AB\" quest=\"51415C8C88AA350B\"/>",
+      "<hr/>",
       "&&cIllagers&&r are a hostile faction of &&aVillagers&&r, which hunt in small packs and gather at &&2Outposts&&r.",
       "<br/>",
       "During an &&4Illager Raid&&r, Villagers will ring the &&eTown Bell&&r and &&dhide&&r. &&eBells&&r can also be rung with &&7[&&r&&6Right-Click&&r&&7]&&r to the same effect.",
       "<br/>",
       "Completing a raid provides the &&3Hero of the Village&&r buff - providing &&ddiscounts with all villagers for 2 days&&r.",
-      "Tasks:",
-      "<task task=\"0E98F0430979C3AB\" quest=\"51415C8C88AA350B\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"497BDF0CD32B821B\" quest=\"51415C8C88AA350B\"/>",
       "<reward reward=\"4D17D0F47149180D\" quest=\"51415C8C88AA350B\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blue_ice"
+    },
     "subtitle": {
       "text": "Visit a Snow Village"
     },

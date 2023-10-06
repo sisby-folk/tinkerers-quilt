@@ -43,10 +43,11 @@
   "display": {
     "title": "Logic",
     "description": [
-      "<h1>Logic</h1>",
+      "<h2>Craft a Torch and Comparator</h2>",
       "<hr/>",
-      "Craft a Torch and Comparator",
-      "<br/>",
+      "<task task=\"542BBAFBD01800E0\" quest=\"1E92A6BE31198EF3\"/>",
+      "<task task=\"2AEADB626546F10B\" quest=\"1E92A6BE31198EF3\"/>",
+      "<hr/>",
       "Redstone signals can be &&dinverted&&r using &&3Redstone Torches&&r. While the block a redstone torch is &&3attached to&&r is &&3powered&&r, the &&dtorch will turn off&&r.",
       "<br/>",
       "&&3Repeaters&&r can be &&3locked&&r by &&3strongly powering&&r them from the side, &&dholding their output state&&r.",
@@ -58,10 +59,7 @@
       "&&ePistons&&r with &&eRedstone&&r or other blocks can be used and collided to create &&dbasic blocking/locking logic&&r.",
       "<br/>",
       "These elements can be combined to create &&dredstone logic&&r (e.g. &&3AND&&r and &&3OR&&r gates), which can provide &&dcomplex control for advanced mechanisms&&r.",
-      "Tasks:",
-      "<task task=\"542BBAFBD01800E0\" quest=\"1E92A6BE31198EF3\"/>",
-      "<task task=\"2AEADB626546F10B\" quest=\"1E92A6BE31198EF3\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"4A83DE2B32FDFFBE\" quest=\"1E92A6BE31198EF3\"/>",
       "<reward reward=\"177EC598C2DE7388\" quest=\"1E92A6BE31198EF3\"/>",
       "<reward reward=\"2E86378A10DF29F5\" quest=\"1E92A6BE31198EF3\"/>"

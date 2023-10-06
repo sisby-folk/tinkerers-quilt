@@ -13,23 +13,22 @@
       "collection_type": "manual"
     },
     "111FFC65D5FB6D46": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Farmed! [Click]"
     }
   },
   "rewards": {},
   "display": {
     "title": "Ice Farming",
     "description": [
-      "<h1>Ice Farming</h1>",
+      "<h2>Farm 64 Ice</h2>",
       "<hr/>",
-      "Farm 64 Ice",
-      "<br/>",
+      "<task task=\"031A173AC6CC6D04\" quest=\"1254376D14A00E56\"/>",
+      "<task task=\"111FFC65D5FB6D46\" quest=\"1254376D14A00E56\"/>",
+      "<hr/>",
       "&&3Ice&&r can be farmed with &&3Silk Touch&&r in &&2cold biomes&&r in an exposed one-deep square hole of &&dany size&&r.",
       "<br/>",
-      "Fill the hole with water, then place &&3Slabs&&r in a diagonal line to &&dprotect the source water&&r. Then get breaking!",
-      "Tasks:",
-      "<task task=\"031A173AC6CC6D04\" quest=\"1254376D14A00E56\"/>",
-      "<task task=\"111FFC65D5FB6D46\" quest=\"1254376D14A00E56\"/>"
+      "Fill the hole with water, then place &&3Slabs&&r in a diagonal line to &&dprotect the source water&&r. Then get breaking!"
     ],
     "icon": {
       "type": "heracles:item",

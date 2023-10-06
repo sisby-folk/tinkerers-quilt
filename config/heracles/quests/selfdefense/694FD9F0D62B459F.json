@@ -8,6 +8,10 @@
   "tasks": {
     "779F514660FF7C50": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:prismarine_bricks"
+      },
       "amount": 4,
       "entity": {
         "type": "minecraft:guardian"
@@ -24,16 +28,14 @@
   "display": {
     "title": "Hostile Architecture",
     "description": [
-      "<h1>Hostile Architecture</h1>",
+      "<h2>Kill 4 Guardians</h2>",
       "<hr/>",
-      "Kill 4 Guardians",
-      "<br/>",
+      "<task task=\"779F514660FF7C50\" quest=\"694FD9F0D62B459F\"/>",
+      "<hr/>",
       "Surrounding &&2Ocean Monuments&&r are &&cGuardians&&r, which fire &&dunblockable, undodgeable lasers&&r.",
       "<br/>",
       "Guardians must be taken out with a loyal &&3Trident&&r, or &&3rushed&&r - but beware! When a Guardian's &&3spikes&&r are extended, damage is &&dreflected to attackers&&r.",
-      "Tasks:",
-      "<task task=\"779F514660FF7C50\" quest=\"694FD9F0D62B459F\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"4D4C3E79E74474D0\" quest=\"694FD9F0D62B459F\"/>"
     ],
     "icon": {

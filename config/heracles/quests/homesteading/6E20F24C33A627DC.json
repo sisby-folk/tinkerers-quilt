@@ -13,23 +13,22 @@
       "collection_type": "manual"
     },
     "4F708FA2E530244F": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Farmed! [Click]"
     }
   },
   "rewards": {},
   "display": {
     "title": "Kelp Farming",
     "description": [
-      "<h1>Kelp Farming</h1>",
+      "<h2>Farm 16 Dried Kelp Blocks</h2>",
       "<hr/>",
-      "Farm 16 Dried Kelp Blocks",
-      "<br/>",
+      "<task task=\"3E01636D14923C60\" quest=\"6E20F24C33A627DC\"/>",
+      "<task task=\"4F708FA2E530244F\" quest=\"6E20F24C33A627DC\"/>",
+      "<hr/>",
       "&&3Kelp&&r can be planted underwater and grows to a random height up to &&315 blocks&&r. ",
       "<br/>",
-      "This is a good source of &&3Dried Kelp Blocks&&r - the &&dstrongest renewable fuel by stack&&r.",
-      "Tasks:",
-      "<task task=\"3E01636D14923C60\" quest=\"6E20F24C33A627DC\"/>",
-      "<task task=\"4F708FA2E530244F\" quest=\"6E20F24C33A627DC\"/>"
+      "This is a good source of &&3Dried Kelp Blocks&&r - the &&dstrongest renewable fuel by stack&&r."
     ],
     "icon": {
       "type": "heracles:item",

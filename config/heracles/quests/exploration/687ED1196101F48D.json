@@ -8,6 +8,11 @@
   "tasks": {
     "2D8CC208859BC15D": {
       "type": "heracles:entity_interaction",
+      "title": "Find a Turtle",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:scute"
+      },
       "entity": "minecraft:turtle"
     }
   },
@@ -30,10 +35,10 @@
   "display": {
     "title": "Hey, Little Blue!",
     "description": [
-      "<h1>Hey, Little Blue!</h1>",
+      "<h2>Find a Turtle</h2>",
       "<hr/>",
-      "Find a Turtle",
-      "<br/>",
+      "<task task=\"2D8CC208859BC15D\" quest=\"687ED1196101F48D\"/>",
+      "<hr/>",
       "&&3Turtles&&r can be found roaming on &&2Beaches&&r. ",
       "<br/>",
       "Their favourite food is &&eSeagrass&&r.",
@@ -41,12 +46,14 @@
       "Bred turtles lay &&3Turtle Eggs&&r, which hatch after many days if not &&3trampled&&r by mobs - build a &&eFence&&r!",
       "<br/>",
       "When it grows into an adult, a &&3Baby Turtle&&r drops a &&dScute&&r.",
-      "Tasks:",
-      "<task task=\"2D8CC208859BC15D\" quest=\"687ED1196101F48D\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"7C89F52AB86043C4\" quest=\"687ED1196101F48D\"/>",
       "<reward reward=\"57BADD860E69CFA5\" quest=\"687ED1196101F48D\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:scute"
+    },
     "subtitle": {
       "text": "Find a Turtle"
     },

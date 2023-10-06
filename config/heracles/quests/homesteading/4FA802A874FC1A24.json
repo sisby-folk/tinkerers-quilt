@@ -29,7 +29,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:luck_of_the_sea",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -39,16 +39,14 @@
   "display": {
     "title": "Friend of the Mer",
     "description": [
-      "<h1>Friend of the Mer</h1>",
+      "<h2>Find a Heart of the Sea</h2>",
       "<hr/>",
-      "Find a Heart of the Sea",
-      "<br/>",
+      "<task task=\"3185D01BB3B3A323\" quest=\"4FA802A874FC1A24\"/>",
+      "<hr/>",
       "A &&3Heart of the Sea&&r can be found as buried treasure &&2underwater&&r and under &&2beaches&&r. ",
       "<br/>",
       "&&3Cartographers&&r can sell &&3Maps&&r to buried treasure, or you can &&3feed raw fish to a dolphin&&r and &&dfollow it&&r.",
-      "Tasks:",
-      "<task task=\"3185D01BB3B3A323\" quest=\"4FA802A874FC1A24\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"7BD813AE660B2A00\" quest=\"4FA802A874FC1A24\"/>",
       "<reward reward=\"3A3C4FDE5BDFF070\" quest=\"4FA802A874FC1A24\"/>"
     ],

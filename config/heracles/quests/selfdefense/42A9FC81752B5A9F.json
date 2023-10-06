@@ -59,7 +59,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:unbreaking",
-              "lvl": 1
+              "lvl": "1"
             }
           ]
         }
@@ -76,10 +76,10 @@
   "display": {
     "title": "AC +2",
     "description": [
-      "<h1>AC +2</h1>",
+      "<h2>Craft a Shield</h2>",
       "<hr/>",
-      "Craft a Shield",
-      "<br/>",
+      "<task task=\"7A3DABD5009149C4\" quest=\"42A9FC81752B5A9F\"/>",
+      "<hr/>",
       "&&3Shields&&r can be held in the &&3off-hand&&r, and raised with &&7[&&r&&6Right-Click&&r&&7]&&r, &&dreducing incoming damage&&r.",
       "<br/>",
       "Shields can be equipped with &&3Banners&&r, and enchanted with &&eUnbreaking&&r.",
@@ -89,9 +89,7 @@
       "&&7[ShieldLib]&&r Shields can also be enchanted at an &&3Enchanting Table&&r.",
       "<br/>",
       "&&7[Tinkerer's Smithing]&&r Shields can be quickly repaired with &&3Planks&&r or &&3Iron Ingots&&r.",
-      "Tasks:",
-      "<task task=\"7A3DABD5009149C4\" quest=\"42A9FC81752B5A9F\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"0B28372E3FA38A08\" quest=\"42A9FC81752B5A9F\"/>",
       "<reward reward=\"6EAB026D6644F841\" quest=\"42A9FC81752B5A9F\"/>",
       "<reward reward=\"602BE26182C32F8A\" quest=\"42A9FC81752B5A9F\"/>"

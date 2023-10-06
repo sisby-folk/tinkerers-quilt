@@ -8,6 +8,7 @@
   "tasks": {
     "10DE07FBCB9E502D": {
       "type": "heracles:item",
+      "title": "A Sacrifice To the Mason Gods",
       "amount": 384,
       "item": "minecraft:stone",
       "collection_type": "consume"
@@ -109,14 +110,12 @@
   "display": {
     "title": "Mason's Blessing",
     "description": [
-      "<h1>Mason's Blessing</h1>",
+      "<h2>A Sacrifice in Stone</h2>",
       "<hr/>",
-      "A Sacrifice in Stone",
-      "<br/>",
-      "Many block types can be cut in the &&3Stonecutter&&r, producing various patterns and shapes.",
-      "Tasks:",
       "<task task=\"10DE07FBCB9E502D\" quest=\"643F41D93DC1FB81\"/>",
-      "Rewards:",
+      "<hr/>",
+      "Many block types can be cut in the &&3Stonecutter&&r, producing various patterns and shapes.",
+      "<hr/>",
       "<reward reward=\"6C0A6B21AD7C1390\" quest=\"643F41D93DC1FB81\"/>",
       "<reward reward=\"49B3112802884586\" quest=\"643F41D93DC1FB81\"/>",
       "<reward reward=\"46138A5E35DE232F\" quest=\"643F41D93DC1FB81\"/>",

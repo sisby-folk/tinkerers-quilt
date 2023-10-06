@@ -13,11 +13,17 @@
     },
     "5183D9A746C01BA5": {
       "type": "heracles:item",
+      "title": "Bed",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:red_bed"
+      },
       "item": "#minecraft:beds",
       "collection_type": "manual"
     },
     "4D378B775FD99873": {
       "type": "heracles:item",
+      "title": "Splash Potion: Poison II",
       "item": "minecraft:splash_potion",
       "collection_type": "manual",
       "nbt": {
@@ -107,10 +113,13 @@
   "display": {
     "title": "Olak",
     "description": [
-      "<h1>Olak</h1>",
+      "<h2>Acquire risky materials</h2>",
       "<hr/>",
-      "Acquire risky materials",
-      "<br/>",
+      "<task task=\"45B5320B6047A2A3\" quest=\"5CE64305EE23917A\"/>",
+      "<task task=\"5183D9A746C01BA5\" quest=\"5CE64305EE23917A\"/>",
+      "<task task=\"4D378B775FD99873\" quest=\"5CE64305EE23917A\"/>",
+      "<task task=\"6529E7DCE66DE510\" quest=\"5CE64305EE23917A\"/>",
+      "<hr/>",
       "&&3Lava Buckets&&r are an intense alternative to &&3Flint and Steel&&r - decimating crowds of unprepared mobs at the cost of their drops.",
       "<br/>",
       "&&3TNT&&r and &&3Beds&&r (outside of &&2The Overworld&&r) can be used as explosive weaponry. Both deal &&dmassive damage&&r at risk of damaging &&dyou and the terrain&&r. ",
@@ -120,12 +129,7 @@
       "&&3Splash Potions&&r can inflict &&3status effects&&r on crowds of enemies at once. Just remember - &&dHealing damages undead&&r, but Harming will heal!",
       "<br/>",
       "&&3Fall Damage&&r can be your friend by hooking a mob on a &&3Fishing Rod&&r from very high above. Large &&3Pillars&&r or &&3Gliding&&r can achieve this.",
-      "Tasks:",
-      "<task task=\"45B5320B6047A2A3\" quest=\"5CE64305EE23917A\"/>",
-      "<task task=\"5183D9A746C01BA5\" quest=\"5CE64305EE23917A\"/>",
-      "<task task=\"4D378B775FD99873\" quest=\"5CE64305EE23917A\"/>",
-      "<task task=\"6529E7DCE66DE510\" quest=\"5CE64305EE23917A\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"404C593B0C3F2638\" quest=\"5CE64305EE23917A\"/>",
       "<reward reward=\"0E7DF24905B9DBAA\" quest=\"5CE64305EE23917A\"/>",
       "<reward reward=\"703514C5A7050A38\" quest=\"5CE64305EE23917A\"/>",

@@ -8,6 +8,11 @@
   "tasks": {
     "6E143ADB9519AE94": {
       "type": "heracles:stat",
+      "title": "Travel 1,000 Blocks by Minecart",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:minecart"
+      },
       "stat": "minecraft:minecart_one_cm",
       "target": 1000000
     }
@@ -51,16 +56,14 @@
   "display": {
     "title": "Conductor",
     "description": [
-      "<h1>Conductor</h1>",
+      "<h2>Travel far by rail</h2>",
       "<hr/>",
-      "Travel far by rail",
-      "<br/>",
+      "<task task=\"6E143ADB9519AE94\" quest=\"471B71E3199030AC\"/>",
+      "<hr/>",
       "Rail can be expanded into &&dfully automated transit&&r and freight systems.",
       "<br/>",
       "&&3When powered&&r, rails at &&3T intersections&&r will &&dswap their direction&&r, and &&eActivator Rails&&r will cause players to &&ddismount minecarts&&r.",
-      "Tasks:",
-      "<task task=\"6E143ADB9519AE94\" quest=\"471B71E3199030AC\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"6602F9A433E4F2E5\" quest=\"471B71E3199030AC\"/>",
       "<reward reward=\"4479B131B6E6A2A6\" quest=\"471B71E3199030AC\"/>",
       "<reward reward=\"1C20D59F776801F5\" quest=\"471B71E3199030AC\"/>",

@@ -2,17 +2,18 @@
   "settings": {},
   "tasks": {
     "2B6CD287B75CD676": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Click Here!"
     }
   },
   "rewards": {},
   "display": {
     "title": "Vanilla Discrepancies",
     "description": [
-      "<h1>Vanilla Discrepancies</h1>",
+      "<h2>You don't have to read this.</h2>",
       "<hr/>",
-      "You don't have to read this.",
-      "<br/>",
+      "<task task=\"2B6CD287B75CD676\" quest=\"1474F51D2832FCD5\"/>",
+      "<hr/>",
       "&&2&&lWorld Interaction&&r",
       "<br/>",
       "&&7[Fabrication]&&r ",
@@ -38,7 +39,7 @@
       "&&3Chorus Fruit&&r resets fall damage.",
       "&&cSpider Jockeys&&r can drop &&3Enchanted Golden Apples&&r",
       "<br/>",
-      "&&7[CleanCut]&&r Enemies can be &&dattacked through grass&&r.",
+      "&&7[SwingThrough]&&r Enemies can be &&dattacked through grass&&r.",
       "&&7[Couplings]&&r &&3Double doors&&r move together.",
       "&&7[Coyote Time]&&r Jumping is more lenient.",
       "&&7[Leaves Us In Peace]&&r &&3Leaves&&r decay faster.",
@@ -54,11 +55,12 @@
       "&&2&&lInterfaces&&r",
       "<br/>",
       "&&7[Fabrication]&&r  ",
-      "Chat &&o*italics*&&r*, &&l**bold**&&r, ~~&&mstrike&&r~~.",
       "Old commands still work.",
       "&&3Maps&&r show their number.",
       "Important enchantments show a letter.",
       "<br/>",
+      "&&7[StyledChat]&&r Chat &&o*italics*&&r*, &&l**bold**&&r, ~~&&mstrike&&r~~.",
+      "&&7[StyledChat]&&r Chat &&d:emoji:&&r. Suggest with &&6:&&r and &&7[&&r&&6Tab&&r&&7]&&r.",
       "&&7[Appleskin]&&r &&3Hunger bar&&r shows saturation.",
       "&&7[Enhanced Attack Indicator]&&r The &&3attack indicator&&r shows various progresses.",
       "&&7[Status Effect Timer]&&r &&3Status effects&&r show their remaining time.",
@@ -129,9 +131,7 @@
       "Non-positional &&3Redstone Dust&&r.",
       "&&3Repeaters&&r don't miss quick pulses.",
       "<br/>",
-      "&&7[ClickThrough]&&r &&7[&&r&&6Sneak&&r&&7]&&r to interact with &&3Item Frames&&r and &&3Signs&&r on chests",
-      "Tasks:",
-      "<task task=\"2B6CD287B75CD676\" quest=\"1474F51D2832FCD5\"/>"
+      "&&7[ClickThrough]&&r &&7[&&r&&6Sneak&&r&&7]&&r to interact with &&3Item Frames&&r and &&3Signs&&r on chests"
     ],
     "icon": {
       "type": "heracles:item",

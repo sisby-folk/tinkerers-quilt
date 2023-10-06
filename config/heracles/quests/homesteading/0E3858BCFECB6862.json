@@ -10,7 +10,8 @@
   ],
   "tasks": {
     "2739CE44EC749396": {
-      "type": "heracles:check"
+      "type": "heracles:check",
+      "title": "Forge-heated spa day [Click]"
     }
   },
   "rewards": {
@@ -120,13 +121,11 @@
   "display": {
     "title": "Hephaestus",
     "description": [
-      "<h1>Hephaestus</h1>",
+      "<h2>Forge great machines</h2>",
       "<hr/>",
-      "Forge great machines",
-      "<br/>",
-      "Tasks:",
       "<task task=\"2739CE44EC749396\" quest=\"0E3858BCFECB6862\"/>",
-      "Rewards:",
+      "<hr/>",
+      "<hr/>",
       "<reward reward=\"03A9AC11B72065CF\" quest=\"0E3858BCFECB6862\"/>",
       "<reward reward=\"05CA8ACF859674AA\" quest=\"0E3858BCFECB6862\"/>",
       "<reward reward=\"0B58257D7FB203A7\" quest=\"0E3858BCFECB6862\"/>",

@@ -8,6 +8,7 @@
   "tasks": {
     "5ECADB3B034C0997": {
       "type": "heracles:advancement",
+      "title": "Free the End",
       "advancements": [
         "minecraft:end/kill_dragon"
       ]
@@ -17,14 +18,16 @@
   "display": {
     "title": "Cool Skyrim Reference",
     "description": [
-      "<h1>Cool Skyrim Reference</h1>",
+      "<h2>Defeat the Ender Dragon</h2>",
       "<hr/>",
-      "Defeat the Ender Dragon",
-      "<br/>",
-      "&&7(See Basics: End)&&r",
-      "Tasks:",
-      "<task task=\"5ECADB3B034C0997\" quest=\"3BBB8E131ECD4FF5\"/>"
+      "<task task=\"5ECADB3B034C0997\" quest=\"3BBB8E131ECD4FF5\"/>",
+      "<hr/>",
+      "&&7(See Basics: End)&&r"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:knowledge_book"
+    },
     "subtitle": {
       "text": "Defeat the Ender Dragon"
     },

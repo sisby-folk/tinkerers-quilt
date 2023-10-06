@@ -8,6 +8,10 @@
   "tasks": {
     "4D3BB7698E3126D7": {
       "type": "heracles:kill_entity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:blaze_powder"
+      },
       "amount": 15,
       "entity": {
         "type": "minecraft:blaze"
@@ -24,16 +28,18 @@
   "display": {
     "title": "405 too few i guess",
     "description": [
-      "<h1>405 too few i guess</h1>",
+      "<h2>Kill 15 Blazes</h2>",
       "<hr/>",
-      "Kill 15 Blazes",
-      "<br/>",
-      "Floating around &&2Nether Fortresses&&r, &&cBlazes&&r come in packs and emerge from spawners - spitting fire in small bursts then &&dstopping to recharge&&r - that's your chance!",
-      "Tasks:",
       "<task task=\"4D3BB7698E3126D7\" quest=\"349E511AA603A620\"/>",
-      "Rewards:",
+      "<hr/>",
+      "Floating around &&2Nether Fortresses&&r, &&cBlazes&&r come in packs and emerge from spawners - spitting fire in small bursts then &&dstopping to recharge&&r - that's your chance!",
+      "<hr/>",
       "<reward reward=\"118C5144B9A873E3\" quest=\"349E511AA603A620\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blaze_powder"
+    },
     "subtitle": {
       "text": "Kill 15 Blazes"
     },

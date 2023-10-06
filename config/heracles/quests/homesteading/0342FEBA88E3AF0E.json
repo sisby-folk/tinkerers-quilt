@@ -8,6 +8,11 @@
   "tasks": {
     "7F0EA1048654217D": {
       "type": "heracles:item",
+      "title": "Craft a Sign",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:oak_sign"
+      },
       "item": "#minecraft:signs",
       "collection_type": "manual"
     }
@@ -24,10 +29,10 @@
   "display": {
     "title": "Organization",
     "description": [
-      "<h1>Organization</h1>",
+      "<h2>Craft a Sign</h2>",
       "<hr/>",
-      "Craft a Sign",
-      "<br/>",
+      "<task task=\"7F0EA1048654217D\" quest=\"0342FEBA88E3AF0E\"/>",
+      "<hr/>",
       "&&3Signs&&r can be used to help &&dlabel&&r &&3chests&&r, &&3rooms&&r, &&3machines&&r, and more. Different kinds of &&3Wood&&r change the background, and the &&dtext color can be dyed&&r!",
       "<br/>",
       "&&eItem frames&&r can also be used to help &&dorganize&&r - a &&3single item&&r can be placed in them for display.",
@@ -35,11 +40,13 @@
       "For longer notes, craft a &&3Book and Quill&&r to write and store passages. &&3Signing&&r a book prevents it from being edited further.",
       "<br/>",
       "&&7[Inventory Tabs]&&r Placing an item frame on a &&3Chest&&r will &&dchange its tab icon&&r.",
-      "Tasks:",
-      "<task task=\"7F0EA1048654217D\" quest=\"0342FEBA88E3AF0E\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"00EBA8DA6E3F263C\" quest=\"0342FEBA88E3AF0E\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_sign"
+    },
     "subtitle": {
       "text": "Craft a Sign"
     },

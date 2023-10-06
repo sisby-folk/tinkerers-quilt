@@ -25,7 +25,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:luck_of_the_sea",
-              "lvl": 2
+              "lvl": "2"
             }
           ]
         }
@@ -35,10 +35,10 @@
   "display": {
     "title": "WOMEN FEAR ME",
     "description": [
-      "<h1>WOMEN FEAR ME</h1>",
+      "<h2>Craft a Fishing Rod</h2>",
       "<hr/>",
-      "Craft a Fishing Rod",
-      "<br/>",
+      "<task task=\"5A8BF1DC3D8BAEA7\" quest=\"2DF95382AC7B7AD4\"/>",
+      "<hr/>",
       "&&3Fishing Rods&&r can cast a line into a body of water with &&7[&&r&&6Right-Click&&r&&7]&&r. Eventually, a line of bubbles will appear and the lure will be pulled down - &&7[&&r&&6Right-Click&&r&&7]&&r again to reel the catch in!",
       "<br/>",
       "Catches include fish, junk, and, with a large enough pool - &&dtreasure&&r! including enchantments, nautilus shells, saddles, and name tags.  ",
@@ -50,9 +50,7 @@
       "&&7[FishingReal]&&r Fishing is &&3catch-and-release&&r. Given room, reeled-in fish will simply swim away.",
       "<br/>",
       "&&7[DyableFishingLines]&&r You can &&ddye your fishing line&&r with any &&3dye&&r in the &&3crafting grid&&r. Rods can also be given special names (e.g. aro, pan, plural) for &&dspecial line colours&&r.",
-      "Tasks:",
-      "<task task=\"5A8BF1DC3D8BAEA7\" quest=\"2DF95382AC7B7AD4\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"758977765A6FA05B\" quest=\"2DF95382AC7B7AD4\"/>"
     ],
     "icon": {

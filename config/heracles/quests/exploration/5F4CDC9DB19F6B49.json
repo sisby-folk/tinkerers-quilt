@@ -9,6 +9,11 @@
   "tasks": {
     "734C2555CE2C2618": {
       "type": "heracles:structure",
+      "title": "Find a Jungle Temple",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:mossy_cobblestone"
+      },
       "structures": "minecraft:jungle_pyramid"
     }
   },
@@ -32,18 +37,16 @@
   "display": {
     "title": "Come and have a go",
     "description": [
-      "<h1>Come and have a go</h1>",
+      "<h2>Find a Jungle Temple</h2>",
       "<hr/>",
-      "Find a Jungle Temple",
-      "<br/>",
+      "<task task=\"734C2555CE2C2618\" quest=\"5F4CDC9DB19F6B49\"/>",
+      "<hr/>",
       "&&2Jungle Temples&&r contain &&3Tripwire&&r-&&3Dispenser&&r dart traps and &&dvaluable loot&&r.",
       "<br/>",
       "&&3Tripwire&&r traps can only be safely dismantled using &&eShears&&r.",
       "<br/>",
       "Some loot is revealed by a &&3Lever&&r puzzle, but nothing stops you from &&dbreaking in instead&&r.",
-      "Tasks:",
-      "<task task=\"734C2555CE2C2618\" quest=\"5F4CDC9DB19F6B49\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"3EA710567373A797\" quest=\"5F4CDC9DB19F6B49\"/>",
       "<reward reward=\"1F204BD684E29A2D\" quest=\"5F4CDC9DB19F6B49\"/>"
     ],

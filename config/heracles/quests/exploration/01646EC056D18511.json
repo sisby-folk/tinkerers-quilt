@@ -50,16 +50,14 @@
   "display": {
     "title": "Well-Travelled",
     "description": [
-      "<h1>Well-Travelled</h1>",
+      "<h2>Become a familiar face</h2>",
       "<hr/>",
-      "Become a familiar face",
-      "<br/>",
       "Large enough &&2Villages&&r are protected by &&3Iron Golems&&r.",
       "<br/>",
       "Iron Golems can also be built with a 4-block T of &&eIron Blocks&&r topped with a &&eCarved Pumpkin&&r.",
       "<br/>",
       "Iron Golems are &&dcombat allies&&r and will fight hostile mobs, including &&cIllagers&&r.",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"5F533ACB0CD57C46\" quest=\"01646EC056D18511\"/>",
       "<reward reward=\"7464DF60ADE26E4B\" quest=\"01646EC056D18511\"/>",
       "<reward reward=\"3838C1067FEF0042\" quest=\"01646EC056D18511\"/>",

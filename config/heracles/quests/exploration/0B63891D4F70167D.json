@@ -8,6 +8,11 @@
   "tasks": {
     "18D4E5CF52B9AE80": {
       "type": "heracles:structure",
+      "title": "Enter a Desert Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:sandstone"
+      },
       "structures": "minecraft:village_desert"
     }
   },
@@ -33,21 +38,23 @@
   "display": {
     "title": "Send Stones",
     "description": [
-      "<h1>Send Stones</h1>",
+      "<h2>Visit a Desert Village</h2>",
       "<hr/>",
-      "Visit a Desert Village",
-      "<br/>",
+      "<task task=\"18D4E5CF52B9AE80\" quest=\"0B63891D4F70167D\"/>",
+      "<hr/>",
       "&&aVillagers&&r are often attacked by &&cZombies&&r, who can &&3Zombify&&r them on harder difficulties. &&cZombified Villagers&&r can also spawn naturally.",
       "<br/>",
       "A &&cZombie Villager&&r that is &&eweakened&&r and fed a &&eGolden Apple&&r will slowly become cured - Careful, they can still &&3burn in daylight&&r while this happens!",
       "<br/>",
       "Cured villagers offer the player &&ddiscounted trade prices&&r.",
-      "Tasks:",
-      "<task task=\"18D4E5CF52B9AE80\" quest=\"0B63891D4F70167D\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"54E9913FE63FDEAD\" quest=\"0B63891D4F70167D\"/>",
       "<reward reward=\"5BEC5A1C8696533D\" quest=\"0B63891D4F70167D\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sandstone"
+    },
     "subtitle": {
       "text": "Visit a Desert Village"
     },

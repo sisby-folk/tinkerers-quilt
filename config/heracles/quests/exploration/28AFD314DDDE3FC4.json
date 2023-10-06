@@ -8,6 +8,11 @@
   "tasks": {
     "042C9CD92C61AC31": {
       "type": "heracles:block_interaction",
+      "title": "Find some Snow",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:snow"
+      },
       "block": "minecraft:snow"
     }
   },
@@ -23,20 +28,22 @@
   "display": {
     "title": "Gem Hunt",
     "description": [
-      "<h1>Gem Hunt</h1>",
+      "<h2>Find some Snow</h2>",
       "<hr/>",
-      "Find some Snow",
-      "<br/>",
+      "<task task=\"042C9CD92C61AC31\" quest=\"28AFD314DDDE3FC4\"/>",
+      "<hr/>",
       "Breaking snow with a &&3Shovel&&r will yield a &&3Snowball&&r, which can be &&dthrown at mobs&&r, but only damage &&cBlazes&&r.",
       "<br/>",
       "They can also be crafted into &&3Snow Blocks&&r, which when stacked two-high and topped with a &&eCarved Pumpkin&&r, create a &&aSnow Golem&&r.",
       "<br/>",
       "&&aSnow Golems&&r &&ddefend against hostile mobs&&r by throwing Snowballs!",
-      "Tasks:",
-      "<task task=\"042C9CD92C61AC31\" quest=\"28AFD314DDDE3FC4\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"7BB86E5809B36215\" quest=\"28AFD314DDDE3FC4\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:snow"
+    },
     "subtitle": {
       "text": "Find some Snow"
     },

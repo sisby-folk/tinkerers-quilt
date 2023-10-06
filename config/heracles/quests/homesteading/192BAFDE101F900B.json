@@ -24,18 +24,16 @@
   "display": {
     "title": "Farmer",
     "description": [
-      "<h1>Farmer</h1>",
+      "<h2>Farm some Wheat</h2>",
       "<hr/>",
-      "Farm some Wheat",
-      "<br/>",
+      "<task task=\"40348E6A122D7614\" quest=\"192BAFDE101F900B\"/>",
+      "<hr/>",
       "&&3Wheat&&r is the easiest crop to acquire - Just break some &&3Tall Grass&&r and get hoeing!",
       "<br/>",
       "Don't just grow wheat forever though - farms &&dgrow faster if they're diverse&&r, so try planting crops in rows!",
       "<br/>",
       "Farming creates many excess &&3Seeds&&r - a &&eComposter&&r can turn those into useful &&3Bone Meal&&r!",
-      "Tasks:",
-      "<task task=\"40348E6A122D7614\" quest=\"192BAFDE101F900B\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"4CB4E7F6893DB29C\" quest=\"192BAFDE101F900B\"/>"
     ],
     "icon": {

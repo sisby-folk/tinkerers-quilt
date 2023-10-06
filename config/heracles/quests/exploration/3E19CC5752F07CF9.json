@@ -8,6 +8,11 @@
   "tasks": {
     "7EA19D8707F9C4EC": {
       "type": "heracles:block_interaction",
+      "title": "Find an Allay",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:iron_bars"
+      },
       "block": "minecraft:allay"
     }
   },
@@ -22,10 +27,10 @@
   "display": {
     "title": "Fairy Prisoner",
     "description": [
-      "<h1>Fairy Prisoner</h1>",
+      "<h2>Find an Allay</h2>",
       "<hr/>",
-      "Find an Allay",
-      "<br/>",
+      "<task task=\"7EA19D8707F9C4EC\" quest=\"3E19CC5752F07CF9\"/>",
+      "<hr/>",
       "&&aAllays&&r can be found imprisoned in some &&2Mansions&&r and &&2Outposts&&r. ",
       "<br/>",
       "When given any item, Allays follow the player and &&dcollect similar dropped items&&r, returning them to the player.",
@@ -33,11 +38,13 @@
       "If they hear a &&3Note Block&&r, they'll return items there for a little while.",
       "<br/>",
       "Allays can be duplicated with &&eAmethyst Shards&&r.",
-      "Tasks:",
-      "<task task=\"7EA19D8707F9C4EC\" quest=\"3E19CC5752F07CF9\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"12F3D951A36D61B1\" quest=\"3E19CC5752F07CF9\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_bars"
+    },
     "subtitle": {
       "text": "Find an Allay"
     },

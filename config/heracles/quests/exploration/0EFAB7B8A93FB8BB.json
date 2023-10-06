@@ -8,6 +8,11 @@
   "tasks": {
     "3619EC0F75E5445E": {
       "type": "heracles:biome",
+      "title": "Find a Mushroom Island",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:mycelium"
+      },
       "biomes": "minecraft:mushroom_fields"
     }
   },
@@ -46,10 +51,10 @@
   "display": {
     "title": "Fungal Wastes",
     "description": [
-      "<h1>Fungal Wastes</h1>",
+      "<h2>Find a Mushroom Island</h2>",
       "<hr/>",
-      "Find a Mushroom Island",
-      "<br/>",
+      "<task task=\"3619EC0F75E5445E\" quest=\"0EFAB7B8A93FB8BB\"/>",
+      "<hr/>",
       "&&3Giant Mushrooms&&r and &&aMooshrooms&&r are plentiful on the &&3Mycelium&&r-clad &&2Mushroom Islands&&r.",
       "<br/>",
       "&&3Mycelium&&r spreads to nearby grass, and allows &&dmushrooms to be planted at any light level&&r.",
@@ -57,15 +62,17 @@
       "&&aMooshrooms&&r are a bright-red variant of &&aCows&&r that can fill &&dbuckets with milk&&r and &&dbowls with mushroom stew&&r.",
       "<br/>",
       "When struck by &&eLightning&&r in a &&3thunderstorm&&r, they become &&aBrown Mooshrooms&&r, which produce &&3Suspicious Stew&&r with hidden effects based on the &&eFlower&&r they're fed.",
-      "Tasks:",
-      "<task task=\"3619EC0F75E5445E\" quest=\"0EFAB7B8A93FB8BB\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"4646433CE89F2129\" quest=\"0EFAB7B8A93FB8BB\"/>",
       "<reward reward=\"4ABAEFED9CFFDCDD\" quest=\"0EFAB7B8A93FB8BB\"/>",
       "<reward reward=\"38435BB389EA5DFE\" quest=\"0EFAB7B8A93FB8BB\"/>",
       "<reward reward=\"077A190E67F93F56\" quest=\"0EFAB7B8A93FB8BB\"/>",
       "<reward reward=\"66838A1862390F74\" quest=\"0EFAB7B8A93FB8BB\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:mycelium"
+    },
     "subtitle": {
       "text": "Find a Mushroom Island"
     },

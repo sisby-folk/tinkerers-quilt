@@ -6,6 +6,11 @@
   "tasks": {
     "546CEA05C1DFDE9B": {
       "type": "heracles:structure",
+      "title": "Find a Stronghhold",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:mossy_stone_bricks"
+      },
       "structures": "minecraft:stronghold"
     }
   },
@@ -28,21 +33,23 @@
   "display": {
     "title": "Geometry Dash",
     "description": [
-      "<h1>Geometry Dash</h1>",
+      "<h2>Find a Stronghold</h2>",
       "<hr/>",
-      "Find a Stronghold",
-      "<br/>",
+      "<task task=\"546CEA05C1DFDE9B\" quest=\"2803B3AF9D4E64A3\"/>",
+      "<hr/>",
       "To reach &&2The End&&r, you first must locate a &&2Stronghold&&r, an underground fortress made of &&3Stone Brick&&r.",
       "<br/>",
       "A thrown &&3Eye of Ender&&r will slowly drift towards the nearest &&2Stronghold&&r, with a chance of being consumed.",
       "<br/>",
       "The &&2End Portal&&r inside is incomplete, and up to 12 &&3Eye of Ender&&r must be inserted to &&dactivate&&r it.",
-      "Tasks:",
-      "<task task=\"546CEA05C1DFDE9B\" quest=\"2803B3AF9D4E64A3\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"3D420BECFE373EFA\" quest=\"2803B3AF9D4E64A3\"/>",
       "<reward reward=\"5F4C65875DC43F7B\" quest=\"2803B3AF9D4E64A3\"/>"
     ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:mossy_stone_bricks"
+    },
     "subtitle": {
       "text": "Find a Stronghold"
     },

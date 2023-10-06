@@ -25,14 +25,12 @@
   "display": {
     "title": "Hello highlow!",
     "description": [
-      "<h1>Hello highlow!</h1>",
+      "<h2>Make some Ladders</h2>",
       "<hr/>",
-      "Make some Ladders",
-      "<br/>",
-      "&&dMulti-floor bases&&r are all the rage these days. Going down to your mine or up to your balcony is just in fashion!",
-      "Tasks:",
       "<task task=\"193C30D87FA711CF\" quest=\"645EFC73CEB1C918\"/>",
-      "Rewards:",
+      "<hr/>",
+      "&&dMulti-floor bases&&r are all the rage these days. Going down to your mine or up to your balcony is just in fashion!",
+      "<hr/>",
       "<reward reward=\"027CEF93AEA981E4\" quest=\"645EFC73CEB1C918\"/>"
     ],
     "icon": {

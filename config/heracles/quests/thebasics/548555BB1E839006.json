@@ -6,6 +6,11 @@
   "tasks": {
     "050711EC7A11A624": {
       "type": "heracles:item",
+      "title": "11x Cobblestone",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:cobblestone"
+      },
       "amount": 11,
       "item": "#minecraft:stone_tool_materials",
       "collection_type": "manual"
@@ -23,16 +28,14 @@
   "display": {
     "title": "Finally Mining",
     "description": [
-      "<h1>Finally Mining</h1>",
+      "<h2>Mine 11 Cobblestone</h2>",
       "<hr/>",
-      "Mine 11 Cobblestone",
-      "<br/>",
+      "<task task=\"050711EC7A11A624\" quest=\"548555BB1E839006\"/>",
+      "<hr/>",
       "Holding a &&3Pickaxe&&r allows you to break &&3Stone&&r, which can then be used to make &&dtools and furnaces&&r.",
       "<br/>",
       "&&7[Tinkerer's Smithing]&&r you can upgrade your &&3Wooden Pickaxe&&r by adding 3 &&3Cobblestone&&r in the crafting grid.",
-      "Tasks:",
-      "<task task=\"050711EC7A11A624\" quest=\"548555BB1E839006\"/>",
-      "Rewards:",
+      "<hr/>",
       "<reward reward=\"7FC731B2947608B3\" quest=\"548555BB1E839006\"/>"
     ],
     "icon": {

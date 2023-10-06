@@ -16,13 +16,11 @@
   "display": {
     "title": "Undertaker",
     "description": [
-      "<h1>Undertaker</h1>",
+      "<h2>Overcome the Wither</h2>",
       "<hr/>",
-      "Overcome the Wither",
-      "<br/>",
-      "&&7(See Basics: Nether)&&r",
-      "Tasks:",
-      "<task task=\"42F460492A4ACDC4\" quest=\"5CA39231B56AE5CB\"/>"
+      "<task task=\"42F460492A4ACDC4\" quest=\"5CA39231B56AE5CB\"/>",
+      "<hr/>",
+      "&&7(See Basics: Nether)&&r"
     ],
     "icon": {
       "type": "heracles:item",
