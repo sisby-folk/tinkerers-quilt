@@ -8,13 +8,11 @@
   "tasks": {
     "581C4156E009B165": {
       "type": "heracles:item",
-      "item": "minecraft:slime_block",
-      "collection_type": "manual"
+      "item": "minecraft:slime_block"
     },
     "3218F9009FCE1D9F": {
       "type": "heracles:item",
-      "item": "minecraft:sticky_piston",
-      "collection_type": "manual"
+      "item": "minecraft:sticky_piston"
     }
   },
   "rewards": {

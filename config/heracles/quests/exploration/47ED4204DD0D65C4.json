@@ -2,12 +2,12 @@
   "settings": {},
   "tasks": {
     "318791BA274D0278": {
-      "type": "heracles:stat",
       "title": "Jump 75 Times",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:ladder"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:jump",
       "target": 75
     }

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "3A1BD6DEB90F7E2D": {
-      "type": "heracles:structure",
       "title": "Enter a Savanna Village",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:acacia_log"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:village_savanna"
     }
   },

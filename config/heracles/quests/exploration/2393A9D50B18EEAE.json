@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "3A8EA4DA6B1CD11A": {
-      "type": "heracles:block_interaction",
       "title": "Find an Amethyst Block",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:amethyst_block"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:amethyst_block"
     }
   },

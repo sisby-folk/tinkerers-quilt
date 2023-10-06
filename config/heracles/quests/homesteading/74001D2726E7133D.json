@@ -8,17 +8,15 @@
   "tasks": {
     "5A02D956E22116A1": {
       "type": "heracles:item",
-      "item": "minecraft:water_bucket",
-      "collection_type": "manual"
+      "item": "minecraft:water_bucket"
     },
     "7F11AFC27592F6A8": {
       "type": "heracles:item",
-      "item": "minecraft:lava_bucket",
-      "collection_type": "manual"
+      "item": "minecraft:lava_bucket"
     },
     "75F8F5572007CD42": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

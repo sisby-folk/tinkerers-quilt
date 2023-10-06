@@ -31,8 +31,8 @@
   ],
   "tasks": {
     "63DE6483F0A04B81": {
-      "type": "heracles:check",
-      "title": "Observatory high tea [Click]"
+      "title": "Observatory high tea [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

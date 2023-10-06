@@ -8,12 +8,12 @@
   ],
   "tasks": {
     "613A669B401CB42E": {
-      "type": "heracles:structure",
       "title": "Find a Mansion",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dark_oak_stairs"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:mansion"
     }
   },

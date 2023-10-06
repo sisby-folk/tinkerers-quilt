@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "5568AF3262E9717C": {
-      "type": "heracles:structure",
       "title": "Find an Ocean Monument",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:prismarine_bricks"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:monument"
     }
   },

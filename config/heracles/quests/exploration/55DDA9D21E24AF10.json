@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "4C668EE4C88BCB5B": {
-      "type": "heracles:structure",
       "title": "Find an Abandoned Mineshaft",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:rail"
       },
+      "type": "heracles:structure",
       "structures": "#minecraft:mineshaft"
     }
   },

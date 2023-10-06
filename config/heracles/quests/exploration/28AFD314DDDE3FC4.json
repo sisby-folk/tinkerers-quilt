@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "042C9CD92C61AC31": {
-      "type": "heracles:block_interaction",
       "title": "Find some Snow",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:snow"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:snow"
     }
   },

@@ -2,14 +2,13 @@
   "settings": {},
   "tasks": {
     "3DA9DDCFB85248ED": {
-      "type": "heracles:item",
       "title": "Wooden Boat",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:oak_boat"
       },
-      "item": "#minecraft:boats",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#minecraft:boats"
     }
   },
   "rewards": {

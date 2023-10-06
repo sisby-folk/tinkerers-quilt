@@ -9,18 +9,16 @@
     "0ED6664E26DBEDE4": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:brown_mushroom",
-      "collection_type": "manual"
+      "item": "minecraft:brown_mushroom"
     },
     "07198A4D07D6F53D": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:red_mushroom",
-      "collection_type": "manual"
+      "item": "minecraft:red_mushroom"
     },
     "0E59CCC197C8B272": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

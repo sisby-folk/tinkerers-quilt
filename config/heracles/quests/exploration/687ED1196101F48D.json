@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "2D8CC208859BC15D": {
-      "type": "heracles:entity_interaction",
       "title": "Find a Turtle",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:scute"
       },
+      "type": "heracles:entity_interaction",
       "entity": "minecraft:turtle"
     }
   },

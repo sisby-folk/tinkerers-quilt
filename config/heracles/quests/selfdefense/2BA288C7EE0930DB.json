@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "36FE4BD5E967A888": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:creeper_head"
       },
+      "type": "heracles:kill_entity",
       "amount": 15,
       "entity": {
         "type": "minecraft:creeper"

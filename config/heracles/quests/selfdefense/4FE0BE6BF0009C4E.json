@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "562B62E5B498DC8C": {
-      "type": "heracles:check",
-      "title": "Follow the path of the Hero [Click]"
+      "title": "Follow the path of the Hero [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

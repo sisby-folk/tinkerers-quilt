@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "3DFB272AB2779EA5": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:ender_pearl"
       },
+      "type": "heracles:kill_entity",
       "amount": 20,
       "entity": {
         "type": "minecraft:enderman"

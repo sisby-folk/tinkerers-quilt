@@ -8,18 +8,15 @@
   "tasks": {
     "0343D01EE4CED033": {
       "type": "heracles:item",
-      "item": "minecraft:magma_block",
-      "collection_type": "manual"
+      "item": "minecraft:magma_block"
     },
     "01AB8E607E758E63": {
       "type": "heracles:item",
-      "item": "minecraft:soul_sand",
-      "collection_type": "manual"
+      "item": "minecraft:soul_sand"
     },
     "48F6931772905D71": {
       "type": "heracles:item",
-      "item": "minecraft:water_bucket",
-      "collection_type": "manual"
+      "item": "minecraft:water_bucket"
     }
   },
   "rewards": {

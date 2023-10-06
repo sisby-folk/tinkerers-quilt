@@ -8,24 +8,21 @@
   "tasks": {
     "45B5320B6047A2A3": {
       "type": "heracles:item",
-      "item": "minecraft:lava_bucket",
-      "collection_type": "manual"
+      "item": "minecraft:lava_bucket"
     },
     "5183D9A746C01BA5": {
-      "type": "heracles:item",
       "title": "Bed",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:red_bed"
       },
-      "item": "#minecraft:beds",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#minecraft:beds"
     },
     "4D378B775FD99873": {
-      "type": "heracles:item",
       "title": "Splash Potion: Poison II",
+      "type": "heracles:item",
       "item": "minecraft:splash_potion",
-      "collection_type": "manual",
       "nbt": {
         "Potion": "minecraft:strong_poison"
       }
@@ -33,7 +30,7 @@
     "6529E7DCE66DE510": {
       "type": "heracles:item",
       "item": "minecraft:fishing_rod",
-      "collection_type": "consume",
+      "collection_type": "manual",
       "nbt": {
         "Damage": 0
       }

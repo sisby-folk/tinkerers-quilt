@@ -9,44 +9,37 @@
     "77E92354F1DDDFCA": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:sugar_cane",
-      "collection_type": "manual"
+      "item": "minecraft:sugar_cane"
     },
     "0E343560095A48E3": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:wheat_seeds",
-      "collection_type": "manual"
+      "item": "minecraft:wheat_seeds"
     },
     "0BEB433BA59213DA": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:potato",
-      "collection_type": "manual"
+      "item": "minecraft:potato"
     },
     "4A960FBD73A0DCD5": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:carrot",
-      "collection_type": "manual"
+      "item": "minecraft:carrot"
     },
     "1943791BC82BE452": {
       "type": "heracles:item",
       "amount": 8,
-      "item": "minecraft:pumpkin",
-      "collection_type": "manual"
+      "item": "minecraft:pumpkin"
     },
     "6A13495A82B9D2D1": {
       "type": "heracles:item",
       "amount": 64,
-      "item": "minecraft:melon_slice",
-      "collection_type": "manual"
+      "item": "minecraft:melon_slice"
     },
     "31C19C20A9214A51": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:beetroot",
-      "collection_type": "manual"
+      "item": "minecraft:beetroot"
     }
   },
   "rewards": {

@@ -5,10 +5,9 @@
   ],
   "tasks": {
     "6F3511A98C05DE7B": {
-      "type": "heracles:item",
       "title": "1x Diamond",
-      "item": "minecraft:diamond",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
     }
   },
   "rewards": {

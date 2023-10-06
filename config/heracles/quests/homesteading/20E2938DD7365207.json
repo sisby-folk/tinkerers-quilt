@@ -2,14 +2,13 @@
   "settings": {},
   "tasks": {
     "394B1747873BEBD6": {
-      "type": "heracles:item",
       "title": "Make a Bed",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:red_bed"
       },
-      "item": "#minecraft:beds",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#minecraft:beds"
     }
   },
   "rewards": {

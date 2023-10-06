@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "1FF73E768B241641": {
-      "type": "heracles:block_interaction",
       "title": "Find a Bee Nest",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:bee_nest"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:bee_nest"
     }
   },

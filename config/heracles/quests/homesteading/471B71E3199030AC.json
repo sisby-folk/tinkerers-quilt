@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "6E143ADB9519AE94": {
-      "type": "heracles:stat",
       "title": "Travel 1,000 Blocks by Minecart",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:minecart"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:minecart_one_cm",
       "target": 1000000
     }

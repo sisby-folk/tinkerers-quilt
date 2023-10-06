@@ -7,14 +7,13 @@
   ],
   "tasks": {
     "6BBB2677D85E0344": {
-      "type": "heracles:item",
       "title": "Any Fence Gate",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:oak_fence_gate"
       },
-      "item": "#c:fence_gates",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:fence_gates"
     }
   },
   "rewards": {

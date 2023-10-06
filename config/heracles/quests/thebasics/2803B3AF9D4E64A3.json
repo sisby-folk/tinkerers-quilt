@@ -5,12 +5,12 @@
   ],
   "tasks": {
     "546CEA05C1DFDE9B": {
-      "type": "heracles:structure",
       "title": "Find a Stronghhold",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:mossy_stone_bricks"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:stronghold"
     }
   },

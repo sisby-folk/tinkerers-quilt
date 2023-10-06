@@ -4,11 +4,11 @@
   },
   "tasks": {
     "2918E017D78CE0A0": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dark_oak_door"
       },
+      "type": "heracles:kill_entity",
       "amount": 1,
       "entity": {
         "type": "minecraft:pillager"

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "0E98F0430979C3AB": {
-      "type": "heracles:structure",
       "title": "Enter a Snow Village",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:blue_ice"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:village_snowy"
     }
   },

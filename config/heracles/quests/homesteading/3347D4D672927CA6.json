@@ -13,8 +13,8 @@
   ],
   "tasks": {
     "7D62C1C889EBCCF0": {
-      "type": "heracles:check",
-      "title": "Tag along [Click]"
+      "title": "Tag along [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

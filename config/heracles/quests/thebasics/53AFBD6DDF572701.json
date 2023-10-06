@@ -2,14 +2,13 @@
   "settings": {},
   "tasks": {
     "6B547341AB9F3005": {
-      "type": "heracles:item",
       "title": "Wooden Pickaxe",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:wooden_pickaxe"
       },
-      "item": "#c:pickaxes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:pickaxes"
     }
   },
   "rewards": {

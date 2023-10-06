@@ -5,15 +5,14 @@
   ],
   "tasks": {
     "050711EC7A11A624": {
-      "type": "heracles:item",
       "title": "11x Cobblestone",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:cobblestone"
       },
+      "type": "heracles:item",
       "amount": 11,
-      "item": "#minecraft:stone_tool_materials",
-      "collection_type": "manual"
+      "item": "#minecraft:stone_tool_materials"
     }
   },
   "rewards": {

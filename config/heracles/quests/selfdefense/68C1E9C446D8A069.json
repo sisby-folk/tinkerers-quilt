@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "1D2880C0A22B3902": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:shulker_shell"
       },
+      "type": "heracles:kill_entity",
       "amount": 5,
       "entity": {
         "type": "minecraft:shulker"

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "18D4E5CF52B9AE80": {
-      "type": "heracles:structure",
       "title": "Enter a Desert Village",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:sandstone"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:village_desert"
     }
   },

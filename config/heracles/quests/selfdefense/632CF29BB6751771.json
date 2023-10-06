@@ -4,12 +4,12 @@
   },
   "tasks": {
     "6CF139C6D8BAEB50": {
-      "type": "heracles:block_interaction",
       "title": "Find a Monster Spawner",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:spawner"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:spawner"
     }
   },

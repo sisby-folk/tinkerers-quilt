@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "47F16DEAF8370460": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dark_prismarine"
       },
+      "type": "heracles:kill_entity",
       "amount": 3,
       "entity": {
         "type": "minecraft:elder_guardian"

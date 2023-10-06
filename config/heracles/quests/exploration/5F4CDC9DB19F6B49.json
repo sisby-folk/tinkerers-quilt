@@ -8,12 +8,12 @@
   ],
   "tasks": {
     "734C2555CE2C2618": {
-      "type": "heracles:structure",
       "title": "Find a Jungle Temple",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:mossy_cobblestone"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:jungle_pyramid"
     }
   },

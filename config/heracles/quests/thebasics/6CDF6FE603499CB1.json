@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "6554F5E5D6221299": {
-      "type": "heracles:advancement",
       "title": "Free the End",
+      "type": "heracles:advancement",
       "advancements": [
         "minecraft:end/kill_dragon"
       ]

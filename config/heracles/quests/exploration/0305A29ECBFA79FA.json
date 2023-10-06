@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "0FB37F4ABF69F503": {
-      "type": "heracles:biome",
       "title": "Find a Lush Cave",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:moss_block"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:lush_caves"
     }
   },

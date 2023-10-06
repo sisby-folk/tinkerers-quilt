@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "53A796604A3A0CDA": {
-      "type": "heracles:check",
-      "title": "Follow the path of the Gladiator [Click]"
+      "title": "Follow the path of the Gladiator [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

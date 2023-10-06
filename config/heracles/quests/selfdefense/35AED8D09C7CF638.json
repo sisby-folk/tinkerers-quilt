@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "30B010BB2CE92D56": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:ghast_tear"
       },
+      "type": "heracles:kill_entity",
       "amount": 3,
       "entity": {
         "type": "minecraft:ghast"

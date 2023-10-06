@@ -4,12 +4,12 @@
   },
   "tasks": {
     "7B58577F38ADC6E2": {
-      "type": "heracles:stat",
       "title": "Talk to a Villager",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:emerald"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:talked_to_villager",
       "target": 1
     }

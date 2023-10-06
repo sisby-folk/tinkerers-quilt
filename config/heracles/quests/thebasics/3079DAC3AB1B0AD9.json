@@ -5,8 +5,8 @@
   ],
   "tasks": {
     "3E480E6CE0408D0A": {
-      "type": "heracles:changed_dimension",
       "title": "Enter the Nether",
+      "type": "heracles:changed_dimension",
       "from": "minecraft:overworld",
       "to": "minecraft:the_nether"
     }

@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "4D3BB7698E3126D7": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:blaze_powder"
       },
+      "type": "heracles:kill_entity",
       "amount": 15,
       "entity": {
         "type": "minecraft:blaze"

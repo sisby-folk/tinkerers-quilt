@@ -20,15 +20,15 @@
   ],
   "tasks": {
     "4FC35A920EB9938B": {
-      "type": "heracles:check",
-      "title": "Drinks on the Styx [Click]"
+      "title": "Drinks on the Styx [Click]",
+      "type": "heracles:check"
     },
     "6EE4EB7F7556CC79": {
-      "type": "heracles:item",
       "title": "The Fee [Click]",
+      "type": "heracles:item",
       "amount": 2,
       "item": "minecraft:gold_block",
-      "collection_type": "consume"
+      "collection_type": "manual"
     }
   },
   "rewards": {

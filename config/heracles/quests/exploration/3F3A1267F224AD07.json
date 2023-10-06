@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "34CCB8903E66DB2B": {
-      "type": "heracles:structure",
       "title": "Enter a Plains Village",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:oak_planks"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:village_plains"
     }
   },

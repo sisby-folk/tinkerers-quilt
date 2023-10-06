@@ -9,12 +9,11 @@
     "07C376A60F9F3148": {
       "type": "heracles:item",
       "amount": 64,
-      "item": "minecraft:sweet_berries",
-      "collection_type": "manual"
+      "item": "minecraft:sweet_berries"
     },
     "7EE4AC839C4D72B3": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "2D7A058F67957E97": {
-      "type": "heracles:block_interaction",
       "title": "Find Deepslate",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:deepslate"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:deepslate"
     }
   },

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "50E52E8C54CF6323": {
-      "type": "heracles:biome",
       "title": "Find a Dripstone Cave",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dripstone_block"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:dripstone_caves"
     }
   },

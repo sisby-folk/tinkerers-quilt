@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "47AE4D2F39DC80E2": {
-      "type": "heracles:biome",
       "title": "Find a Bamboo Jungle",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:bamboo"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:bamboo_jungle"
     }
   },

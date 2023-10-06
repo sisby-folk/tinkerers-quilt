@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "586A744062E94A9A": {
-      "type": "heracles:check",
-      "title": "Follow the path of the Farmer [Click]"
+      "title": "Follow the path of the Farmer [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

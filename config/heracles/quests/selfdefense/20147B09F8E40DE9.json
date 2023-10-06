@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "21B77836A71A4F74": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:prismarine_crystals"
       },
+      "type": "heracles:kill_entity",
       "amount": 15,
       "entity": {
         "type": "minecraft:drowned"

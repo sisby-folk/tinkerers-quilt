@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "61C1C9ADFC09F727": {
-      "type": "heracles:stat",
       "title": "Travel 50 Blocks by Horse",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:saddle"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:horse_one_cm",
       "target": 5000
     }

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "464044A582E87B61": {
-      "type": "heracles:biome",
       "title": "Find a Dark Forest",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dark_oak_sapling"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:dark_forest"
     }
   },

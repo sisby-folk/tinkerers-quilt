@@ -4,12 +4,12 @@
   },
   "tasks": {
     "6B61580BF4D462A5": {
-      "type": "heracles:stat",
       "title": "Sprint 500 Blocks",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:leather_boots"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:sprint_one_cm",
       "target": 50000
     }

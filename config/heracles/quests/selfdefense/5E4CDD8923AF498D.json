@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "25CF745E88778E86": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:cobweb"
       },
+      "type": "heracles:kill_entity",
       "amount": 5,
       "entity": {
         "type": "minecraft:cave_spider"

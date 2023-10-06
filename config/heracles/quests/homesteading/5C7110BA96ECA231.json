@@ -3,14 +3,12 @@
   "tasks": {
     "698EC81BE855F4C9": {
       "type": "heracles:item",
-      "item": "minecraft:wheat_seeds",
-      "collection_type": "manual"
+      "item": "minecraft:wheat_seeds"
     },
     "5F5DBBA6E98FACFA": {
-      "type": "heracles:item",
       "title": "Hoe",
-      "item": "#c:hoes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:hoes"
     }
   },
   "rewards": {

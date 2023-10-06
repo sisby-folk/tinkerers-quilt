@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "6529785FCB4BFBCA": {
-      "type": "heracles:biome",
       "title": "Find a Jungle",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:jungle_sapling"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:jungle"
     }
   },

@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "636D01F223970749": {
-      "type": "heracles:check",
-      "title": "Click here to reselect your Origin!"
+      "title": "Click here to reselect your Origin!",
+      "type": "heracles:check"
     }
   },
   "rewards": {

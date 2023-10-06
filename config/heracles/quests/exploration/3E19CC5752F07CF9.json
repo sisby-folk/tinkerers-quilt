@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "7EA19D8707F9C4EC": {
-      "type": "heracles:block_interaction",
       "title": "Find an Allay",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:iron_bars"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:allay"
     }
   },

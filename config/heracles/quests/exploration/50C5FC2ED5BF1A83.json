@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "6D55CC4FAB9EC65D": {
-      "type": "heracles:biome",
       "title": "Find a Mangrove Swamp",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:mangrove_roots"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:mangrove_swamp"
     }
   },

@@ -7,28 +7,24 @@
   ],
   "tasks": {
     "5FC0E582CDFDC762": {
-      "type": "heracles:item",
       "title": "Pickaxe",
-      "item": "#c:pickaxes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:pickaxes"
     },
     "4D0BFD3A0D9238C9": {
-      "type": "heracles:item",
       "title": "Shovel",
-      "item": "#c:shovels",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:shovels"
     },
     "553123730A74F060": {
-      "type": "heracles:item",
       "title": "Axe",
-      "item": "#c:axes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:axes"
     },
     "3AAD0A84BDDF6E04": {
-      "type": "heracles:item",
       "title": "Hoe",
-      "item": "#c:hoes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:hoes"
     }
   },
   "rewards": {

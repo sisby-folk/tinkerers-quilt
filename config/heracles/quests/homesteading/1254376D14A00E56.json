@@ -9,12 +9,11 @@
     "031A173AC6CC6D04": {
       "type": "heracles:item",
       "amount": 64,
-      "item": "minecraft:ice",
-      "collection_type": "manual"
+      "item": "minecraft:ice"
     },
     "111FFC65D5FB6D46": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

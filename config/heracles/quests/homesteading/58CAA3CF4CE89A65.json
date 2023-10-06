@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "759F54485E9734BA": {
-      "type": "heracles:check",
-      "title": "Locate a Badlands Biome [Click]"
+      "title": "Locate a Badlands Biome [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

@@ -2,16 +2,14 @@
   "settings": {},
   "tasks": {
     "2ABA43D1E425E35D": {
-      "type": "heracles:item",
       "title": "Axe",
-      "item": "#c:axes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:axes"
     },
     "4BFE3469B59F7C8F": {
-      "type": "heracles:item",
       "title": "Sword",
-      "item": "#c:swords",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:swords"
     }
   },
   "rewards": {

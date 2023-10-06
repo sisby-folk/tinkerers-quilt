@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "5D59AF700C3FD338": {
-      "type": "heracles:structure",
       "title": "Find some Ocean Ruins",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:mossy_stone_bricks"
       },
+      "type": "heracles:structure",
       "structures": "#minecraft:ocean_ruin"
     }
   },

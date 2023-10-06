@@ -7,14 +7,13 @@
   ],
   "tasks": {
     "7F0EA1048654217D": {
-      "type": "heracles:item",
       "title": "Craft a Sign",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:oak_sign"
       },
-      "item": "#minecraft:signs",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#minecraft:signs"
     }
   },
   "rewards": {

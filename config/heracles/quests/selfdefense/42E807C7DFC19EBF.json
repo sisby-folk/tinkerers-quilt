@@ -7,10 +7,10 @@
   ],
   "tasks": {
     "021CBA58542E43A1": {
-      "type": "heracles:item",
       "title": "Consume 1 Flint and Steel [Click] ",
+      "type": "heracles:item",
       "item": "minecraft:flint_and_steel",
-      "collection_type": "consume",
+      "collection_type": "manual",
       "nbt": {
         "Damage": 0
       }

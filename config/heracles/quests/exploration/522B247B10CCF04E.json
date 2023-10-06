@@ -7,21 +7,21 @@
   ],
   "tasks": {
     "235FD333274DE457": {
-      "type": "heracles:biome",
       "title": "Find a Warped Forest",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:warped_nylium"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:warped_forest"
     },
     "2180A88C978A8C70": {
-      "type": "heracles:biome",
       "title": "Find a Crimson Forest",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:crimson_nylium"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:crimson_forest"
     }
   },

@@ -7,14 +7,13 @@
   ],
   "tasks": {
     "46644D7C1F998D18": {
-      "type": "heracles:item",
       "title": "Craft a Shulker Box",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:shulker_box"
       },
-      "item": "#c:shulker_boxes",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:shulker_boxes"
     }
   },
   "rewards": {

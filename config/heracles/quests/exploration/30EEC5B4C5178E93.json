@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "19B47DDA285B5750": {
-      "type": "heracles:structure",
       "title": "Find a Pillager Outpost",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:spruce_stairs"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:pillager_outpost"
     }
   },

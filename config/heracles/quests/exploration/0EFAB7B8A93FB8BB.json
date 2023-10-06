@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "3619EC0F75E5445E": {
-      "type": "heracles:biome",
       "title": "Find a Mushroom Island",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:mycelium"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:mushroom_fields"
     }
   },

@@ -16,8 +16,8 @@
   ],
   "tasks": {
     "39DC4F3432624CFD": {
-      "type": "heracles:check",
-      "title": "Chill out over tea [Click]"
+      "title": "Chill out over tea [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

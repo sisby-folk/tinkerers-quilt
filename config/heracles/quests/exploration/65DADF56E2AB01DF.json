@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "0996CC3858DEAB84": {
-      "type": "heracles:structure",
       "title": "Enter a Taiga Village",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:spruce_planks"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:village_taiga"
     }
   },

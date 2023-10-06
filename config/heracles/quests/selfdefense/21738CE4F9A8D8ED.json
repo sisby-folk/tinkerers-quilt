@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "68CCD723DFFF39DD": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:zombie_head"
       },
+      "type": "heracles:kill_entity",
       "amount": 50,
       "entity": {
         "type": "minecraft:zombie"

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "1A15F24B8D29BF11": {
-      "type": "heracles:structure",
       "title": "Find an Ancient City",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:reinforced_deepslate"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:ancient_city"
     }
   },

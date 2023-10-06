@@ -7,15 +7,15 @@
   ],
   "tasks": {
     "4FD33CCBBC3D705A": {
-      "type": "heracles:item",
       "title": "Consume 32 Saplings (Click)",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dark_oak_sapling"
       },
+      "type": "heracles:item",
       "amount": 32,
       "item": "#minecraft:saplings",
-      "collection_type": "consume"
+      "collection_type": "manual"
     }
   },
   "rewards": {

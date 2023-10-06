@@ -8,13 +8,11 @@
   "tasks": {
     "542BBAFBD01800E0": {
       "type": "heracles:item",
-      "item": "minecraft:redstone_torch",
-      "collection_type": "manual"
+      "item": "minecraft:redstone_torch"
     },
     "2AEADB626546F10B": {
       "type": "heracles:item",
-      "item": "minecraft:comparator",
-      "collection_type": "manual"
+      "item": "minecraft:comparator"
     }
   },
   "rewards": {

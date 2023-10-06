@@ -8,18 +8,16 @@
   "tasks": {
     "76637FF72914A8AC": {
       "type": "heracles:item",
-      "item": "minecraft:lever",
-      "collection_type": "manual"
+      "item": "minecraft:lever"
     },
     "1B71413D5F033450": {
-      "type": "heracles:item",
       "title": "Wooden Button",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:oak_button"
       },
-      "item": "#minecraft:wooden_buttons",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#minecraft:wooden_buttons"
     }
   },
   "rewards": {

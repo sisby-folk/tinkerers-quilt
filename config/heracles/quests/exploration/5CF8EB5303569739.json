@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "09796221B64CFFF4": {
-      "type": "heracles:structure",
       "title": "Find a Desert Temple",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:chiseled_sandstone"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:desert_pyramid"
     }
   },

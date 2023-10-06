@@ -3,18 +3,15 @@
   "tasks": {
     "69DB2CD979E668E6": {
       "type": "heracles:item",
-      "item": "minecraft:chest",
-      "collection_type": "manual"
+      "item": "minecraft:chest"
     },
     "24F8238455346F0E": {
       "type": "heracles:item",
-      "item": "minecraft:furnace",
-      "collection_type": "manual"
+      "item": "minecraft:furnace"
     },
     "769F2FC573E160FD": {
       "type": "heracles:item",
-      "item": "minecraft:crafting_table",
-      "collection_type": "manual"
+      "item": "minecraft:crafting_table"
     }
   },
   "rewards": {

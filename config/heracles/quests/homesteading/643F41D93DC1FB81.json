@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "10DE07FBCB9E502D": {
-      "type": "heracles:item",
       "title": "A Sacrifice To the Mason Gods",
+      "type": "heracles:item",
       "amount": 384,
       "item": "minecraft:stone",
-      "collection_type": "consume"
+      "collection_type": "manual"
     }
   },
   "rewards": {

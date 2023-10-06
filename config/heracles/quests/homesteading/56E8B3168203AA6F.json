@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "1989BBAD04C1D853": {
-      "type": "heracles:stat",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:tropical_fish_bucket"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:swim_one_cm",
       "target": 50000
     }

@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "6A706B67651B7F1D": {
-      "type": "heracles:biome",
       "title": "Find a Badlands",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:orange_terracotta"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:badlands"
     }
   },

@@ -9,12 +9,11 @@
     "03646A14192AD73C": {
       "type": "heracles:item",
       "amount": 64,
-      "item": "minecraft:nether_wart",
-      "collection_type": "manual"
+      "item": "minecraft:nether_wart"
     },
     "4E96545334B04D98": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

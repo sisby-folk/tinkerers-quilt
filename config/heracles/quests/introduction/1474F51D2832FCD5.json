@@ -2,8 +2,8 @@
   "settings": {},
   "tasks": {
     "2B6CD287B75CD676": {
-      "type": "heracles:check",
-      "title": "Click Here!"
+      "title": "Click Here!",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

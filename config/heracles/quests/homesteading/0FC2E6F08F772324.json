@@ -9,12 +9,11 @@
     "1AE1B289AED19E40": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:amethyst_shard",
-      "collection_type": "manual"
+      "item": "minecraft:amethyst_shard"
     },
     "149D5F5038C2BC78": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {

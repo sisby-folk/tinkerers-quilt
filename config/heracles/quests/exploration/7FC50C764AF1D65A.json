@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "27B5E2FB0A7F43F8": {
-      "type": "heracles:structure",
       "title": "Find a Shipwreck",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:dark_oak_boat"
       },
+      "type": "heracles:structure",
       "structures": "#minecraft:shipwreck"
     }
   },

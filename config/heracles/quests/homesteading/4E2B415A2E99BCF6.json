@@ -9,12 +9,11 @@
     "11D4F63B25BA830B": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:vine",
-      "collection_type": "manual"
+      "item": "minecraft:vine"
     },
     "3CFC2F1F445CC8ED": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

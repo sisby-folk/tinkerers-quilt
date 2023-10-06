@@ -5,12 +5,12 @@
   ],
   "tasks": {
     "319AF1FD9F7F4A83": {
-      "type": "heracles:structure",
       "title": "Find a Nether Fortress",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:nether_brick_stairs"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:fortress"
     }
   },

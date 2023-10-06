@@ -8,12 +8,12 @@
   ],
   "tasks": {
     "3403F8CB9F8DB4E1": {
-      "type": "heracles:structure",
       "title": "Find an End City",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:purpur_block"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:end_city"
     }
   },

@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "162DEDE2FB3C1168": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:magma_cream"
       },
+      "type": "heracles:kill_entity",
       "amount": 15,
       "entity": {
         "type": "minecraft:magma_cube"

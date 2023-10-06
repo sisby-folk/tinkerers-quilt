@@ -8,20 +8,17 @@
   "tasks": {
     "3E3C60D53FD25DBB": {
       "type": "heracles:item",
-      "item": "minecraft:milk_bucket",
-      "collection_type": "manual"
+      "item": "minecraft:milk_bucket"
     },
     "47609D194C5D4BA2": {
       "type": "heracles:item",
       "amount": 10,
-      "item": "minecraft:white_wool",
-      "collection_type": "manual"
+      "item": "minecraft:white_wool"
     },
     "3E9A11449E0BF316": {
       "type": "heracles:item",
       "amount": 4,
-      "item": "minecraft:egg",
-      "collection_type": "manual"
+      "item": "minecraft:egg"
     }
   },
   "rewards": {

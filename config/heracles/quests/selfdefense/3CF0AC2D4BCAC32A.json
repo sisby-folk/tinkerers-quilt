@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "6FFE533C983C9A1D": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:skeleton_skull"
       },
+      "type": "heracles:kill_entity",
       "amount": 20,
       "entity": {
         "type": "minecraft:skeleton"

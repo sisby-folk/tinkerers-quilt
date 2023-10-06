@@ -7,28 +7,24 @@
   ],
   "tasks": {
     "72AE8CA31BEC3944": {
-      "type": "heracles:item",
       "title": "Any Boots",
-      "item": "#c:boots",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:boots"
     },
     "4DC5C93AD5B25BBB": {
-      "type": "heracles:item",
       "title": "Any Leggings",
-      "item": "#c:leggings",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:leggings"
     },
     "3F128FDAF39A72A0": {
-      "type": "heracles:item",
       "title": "Any Chestplate",
-      "item": "#c:chestplates",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:chestplates"
     },
     "5497F18CED1A1CD1": {
-      "type": "heracles:item",
       "title": "Any Helmet",
-      "item": "#c:helmets",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "#c:helmets"
     }
   },
   "rewards": {

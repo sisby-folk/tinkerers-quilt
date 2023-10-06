@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "45538435550F3E5E": {
-      "type": "heracles:block_interaction",
       "title": "Look into an End Portal",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:end_portal_frame"
       },
+      "type": "heracles:block_interaction",
       "block": "minecraft:end_portal"
     }
   },

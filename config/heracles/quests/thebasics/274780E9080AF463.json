@@ -8,13 +8,11 @@
   "tasks": {
     "57C85AE7D22E4328": {
       "type": "heracles:item",
-      "item": "minecraft:brewing_stand",
-      "collection_type": "manual"
+      "item": "minecraft:brewing_stand"
     },
     "702F50852618854C": {
       "type": "heracles:item",
-      "item": "minecraft:nether_wart",
-      "collection_type": "manual"
+      "item": "minecraft:nether_wart"
     }
   },
   "rewards": {

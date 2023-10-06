@@ -2,12 +2,12 @@
   "settings": {},
   "tasks": {
     "774A1B2AF13DC558": {
-      "type": "heracles:stat",
       "title": "Start a New World",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:grass_block"
       },
+      "type": "heracles:stat",
       "stat": "minecraft:play_time",
       "target": 1
     }

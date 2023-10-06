@@ -7,10 +7,9 @@
   ],
   "tasks": {
     "0F6EBD8A1A1D375E": {
-      "type": "heracles:item",
       "title": "1x Ancient Debris",
-      "item": "minecraft:ancient_debris",
-      "collection_type": "manual"
+      "type": "heracles:item",
+      "item": "minecraft:ancient_debris"
     }
   },
   "rewards": {

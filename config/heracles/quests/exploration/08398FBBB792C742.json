@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "49C795AA701ECB2D": {
-      "type": "heracles:structure",
       "title": "Find a Bastion Remnant",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:polished_blackstone_bricks"
       },
+      "type": "heracles:structure",
       "structures": "minecraft:bastion_remnant"
     }
   },

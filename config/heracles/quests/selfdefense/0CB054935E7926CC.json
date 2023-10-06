@@ -7,11 +7,11 @@
   ],
   "tasks": {
     "4155F613D82EA5E1": {
-      "type": "heracles:kill_entity",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:golden_axe"
       },
+      "type": "heracles:kill_entity",
       "amount": 5,
       "entity": {
         "type": "minecraft:piglin_brute"

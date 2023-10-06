@@ -9,14 +9,12 @@
     "193B528A78694A90": {
       "type": "heracles:item",
       "amount": 64,
-      "item": "minecraft:soul_sand",
-      "collection_type": "manual"
+      "item": "minecraft:soul_sand"
     },
     "2071C293A277F0B7": {
       "type": "heracles:item",
       "amount": 64,
-      "item": "minecraft:soul_soil",
-      "collection_type": "manual"
+      "item": "minecraft:soul_soil"
     }
   },
   "rewards": {

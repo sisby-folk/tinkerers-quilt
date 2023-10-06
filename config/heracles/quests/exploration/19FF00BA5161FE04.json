@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "68CBD82A4FF87F3F": {
-      "type": "heracles:biome",
       "title": "Reach some Frozen Peaks",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:packed_ice"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:frozen_peaks"
     }
   },

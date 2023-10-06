@@ -7,12 +7,12 @@
   ],
   "tasks": {
     "6547EBF566C0E5D9": {
-      "type": "heracles:biome",
       "title": "Find a Swamp",
       "icon": {
         "type": "heracles:item",
         "item": "minecraft:lily_pad"
       },
+      "type": "heracles:biome",
       "biomes": "minecraft:swamp"
     }
   },

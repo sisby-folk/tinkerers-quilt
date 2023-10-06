@@ -9,12 +9,11 @@
     "1BB6AE5F94644FA4": {
       "type": "heracles:item",
       "amount": 32,
-      "item": "minecraft:cocoa_beans",
-      "collection_type": "manual"
+      "item": "minecraft:cocoa_beans"
     },
     "159E7DDB22E9FCD3": {
-      "type": "heracles:check",
-      "title": "Farmed! [Click]"
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
     }
   },
   "rewards": {},

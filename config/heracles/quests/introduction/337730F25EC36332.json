@@ -5,8 +5,8 @@
   ],
   "tasks": {
     "22742977937BA2B1": {
-      "type": "heracles:check",
-      "title": "Click Here!"
+      "title": "Click Here!",
+      "type": "heracles:check"
     }
   },
   "rewards": {

@@ -7,8 +7,8 @@
   ],
   "tasks": {
     "7F5C1B92A8E5D119": {
-      "type": "heracles:advancement",
       "title": "Equip any Iron Armor",
+      "type": "heracles:advancement",
       "advancements": [
         "minecraft:story/obtain_armor"
       ]

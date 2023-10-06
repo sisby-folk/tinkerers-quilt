@@ -5,8 +5,8 @@
   ],
   "tasks": {
     "47D97349DBC5E67F": {
-      "type": "heracles:check",
-      "title": "Click Here!"
+      "title": "Click Here!",
+      "type": "heracles:check"
     }
   },
   "rewards": {},
