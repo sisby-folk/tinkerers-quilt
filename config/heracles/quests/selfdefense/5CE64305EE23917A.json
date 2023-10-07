@@ -30,7 +30,7 @@
     "6529E7DCE66DE510": {
       "type": "heracles:item",
       "item": "minecraft:fishing_rod",
-      "collection_type": "manual",
+      "collection": "MANUAL",
       "nbt": {
         "Damage": 0
       }

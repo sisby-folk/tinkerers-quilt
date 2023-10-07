@@ -11,7 +11,7 @@
       "type": "heracles:item",
       "amount": 384,
       "item": "minecraft:stone",
-      "collection_type": "manual"
+      "collection": "MANUAL"
     }
   },
   "rewards": {

@@ -28,7 +28,7 @@
       "type": "heracles:item",
       "amount": 2,
       "item": "minecraft:gold_block",
-      "collection_type": "manual"
+      "collection": "MANUAL"
     }
   },
   "rewards": {

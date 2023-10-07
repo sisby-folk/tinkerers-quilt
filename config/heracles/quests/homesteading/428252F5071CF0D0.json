@@ -15,7 +15,7 @@
       "type": "heracles:item",
       "amount": 32,
       "item": "#minecraft:saplings",
-      "collection_type": "manual"
+      "collection": "MANUAL"
     }
   },
   "rewards": {
