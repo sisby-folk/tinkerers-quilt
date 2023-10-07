@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "657AC96A28C41511"
+  ],
+  "tasks": {
+    "542BBAFBD01800E0": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone_torch"
+    },
+    "2AEADB626546F10B": {
+      "type": "heracles:item",
+      "item": "minecraft:comparator"
+    }
+  },
+  "rewards": {
+    "4A83DE2B32FDFFBE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:piston",
+        "count": 16
+      }
+    },
+    "177EC598C2DE7388": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:slime_block",
+        "count": 8
+      }
+    },
+    "2E86378A10DF29F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Logic",
+    "description": [
+      "<h2>Craft a Torch and Comparator</h2>",
+      "<hr/>",
+      "<task task=\"542BBAFBD01800E0\" quest=\"1E92A6BE31198EF3\"/>",
+      "<task task=\"2AEADB626546F10B\" quest=\"1E92A6BE31198EF3\"/>",
+      "<hr/>",
+      "Redstone signals can be &&dinverted&&r using &&3Redstone Torches&&r. While the block a redstone torch is &&3attached to&&r is &&3powered&&r, the &&dtorch will turn off&&r.",
+      "<br/>",
+      "&&3Repeaters&&r can be &&3locked&&r by &&3strongly powering&&r them from the side, &&dholding their output state&&r.",
+      "<br/>",
+      "With an &&3input&&r and &&3side&&r signal, &&3Comparators&&r will &&donly output power&&r when the &&3input&&r has the higher &&3power level&&r.",
+      "<br/>",
+      "When toggled with &&6Right-Click&&r, a &&3Comparator&&r will subtract the highest &&3side power level&&r from the &&3input power level&&r.",
+      "<br/>",
+      "&&ePistons&&r with &&eRedstone&&r or other blocks can be used and collided to create &&dbasic blocking/locking logic&&r.",
+      "<br/>",
+      "These elements can be combined to create &&dredstone logic&&r (e.g. &&3AND&&r and &&3OR&&r gates), which can provide &&dcomplex control for advanced mechanisms&&r.",
+      "<hr/>",
+      "<reward reward=\"4A83DE2B32FDFFBE\" quest=\"1E92A6BE31198EF3\"/>",
+      "<reward reward=\"177EC598C2DE7388\" quest=\"1E92A6BE31198EF3\"/>",
+      "<reward reward=\"2E86378A10DF29F5\" quest=\"1E92A6BE31198EF3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:repeater"
+    },
+    "subtitle": {
+      "text": "Craft a Torch and Comparator"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          416,
+          -320
+        ]
+      }
+    }
+  }
+}

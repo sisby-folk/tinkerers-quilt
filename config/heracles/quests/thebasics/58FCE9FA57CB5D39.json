@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4631772288F2177D"
+  ],
+  "tasks": {
+    "46644D7C1F998D18": {
+      "title": "Craft a Shulker Box",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:shulker_box"
+      },
+      "type": "heracles:item",
+      "item": "#c:shulker_boxes"
+    }
+  },
+  "rewards": {
+    "136655B16D9C5F53": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bundle",
+        "count": 1,
+        "nbt": {
+          "Items": [
+            {
+              "Count": "4",
+              "id": "minecraft:ender_chest"
+            },
+            {
+              "Count": "2",
+              "id": "minecraft:enchanted_golden_apple"
+            },
+            {
+              "Count": "16",
+              "id": "minecraft:golden_apple"
+            },
+            {
+              "Count": "34",
+              "id": "minecraft:golden_carrot"
+            },
+            {
+              "Count": "8",
+              "id": "minecraft:ancient_debris"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Not a Backpack",
+    "description": [
+      "<h2>Craft a Shulker Box</h2>",
+      "<hr/>",
+      "<task task=\"46644D7C1F998D18\" quest=\"58FCE9FA57CB5D39\"/>",
+      "<hr/>",
+      "&&3Shulker Boxes&&r are chests that can be broken and picked up with the items still inside.",
+      "<br/>",
+      "An &&eEnder Chest&&r provides access to a player-specific inventory that's the &&3same from any location&&r. This can be used to &&dstore valuable items and supplies&&r. They cannot be collected with a regular pickaxe.",
+      "<br/>",
+      "&&eBundles&&r fit in &&3Shulker Boxes&&r, which fit in &&3Ender Chests&&r, allowing for &&dextensive personal storage&&r.",
+      "<hr/>",
+      "<reward reward=\"136655B16D9C5F53\" quest=\"58FCE9FA57CB5D39\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:shulker_box"
+    },
+    "subtitle": {
+      "text": "Craft a Shulker Box"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          320,
+          112
+        ]
+      }
+    }
+  }
+}

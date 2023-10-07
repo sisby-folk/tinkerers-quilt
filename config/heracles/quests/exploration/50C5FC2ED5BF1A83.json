@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "6D55CC4FAB9EC65D": {
+      "title": "Find a Mangrove Swamp",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:mangrove_roots"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:mangrove_swamp"
+    }
+  },
+  "rewards": {
+    "6416BB0F28D5AD5F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "428972B9E7817BEE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:pearlescent_froglight",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Tidal Countermeasures",
+    "description": [
+      "<h2>Find a Mangrove Swamp</h2>",
+      "<hr/>",
+      "<task task=\"6D55CC4FAB9EC65D\" quest=\"50C5FC2ED5BF1A83\"/>",
+      "<hr/>",
+      "Signified by their unique &&3Mangrove Trees&&r rooted in water, &&2Mangrove Swamps&&r are are a source of &&3Mud&&r and &&aWarm Frogs&&r.",
+      "<br/>",
+      "&&3Mud&&r can be made into &&3Mud Bricks&&r when fired with &&3Wheat&&r.",
+      "<br/>",
+      "&&3Mangrove Wood&&r is a deep red and can be used for &&dcrafting and decoration&&r.",
+      "<br/>",
+      "Grey &&aWarm Frogs&&r will produce &&ePearlescent Froglights&&r when swallowing small &&cMagma Cubes&&r.",
+      "<br/>",
+      "Frogs bred with &&3Slimeballs&&r in a &&2Cold Biome&&r will hatch a green &&aCold Frog&&r, capable of producing &&3Verdant Froglights&&r.",
+      "<hr/>",
+      "<reward reward=\"6416BB0F28D5AD5F\" quest=\"50C5FC2ED5BF1A83\"/>",
+      "<reward reward=\"428972B9E7817BEE\" quest=\"50C5FC2ED5BF1A83\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:mangrove_roots"
+    },
+    "subtitle": {
+      "text": "Find a Mangrove Swamp"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -288,
+          -16
+        ]
+      }
+    }
+  }
+}

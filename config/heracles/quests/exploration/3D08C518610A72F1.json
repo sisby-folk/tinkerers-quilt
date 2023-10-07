@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "47AE4D2F39DC80E2": {
+      "title": "Find a Bamboo Jungle",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:bamboo"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:bamboo_jungle"
+    }
+  },
+  "rewards": {
+    "48566F7A2C868EE0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Coconut Gun",
+    "description": [
+      "<h2>Find a Bamboo Jungle</h2>",
+      "<hr/>",
+      "<task task=\"47AE4D2F39DC80E2\" quest=\"3D08C518610A72F1\"/>",
+      "<hr/>",
+      "Strewn with &&3Bamboo&&r and rarely &&aPandas&&r, &&2Bamboo Jungles&&r can be recognised from a great distance.",
+      "<br/>",
+      "Climbable &&3Scaffolding&&r, crafted from &&3Bamboo&&r, can support &&dtemporary towers&&r up to six blocks wide, &&dbreaking instantly&&r when unsupported.",
+      "<br/>",
+      "&&aPandas&&r are neutral animals that like &&3Bamboo&&r, with &&3varying personality&&r types shown on their face.",
+      "<br/>",
+      "Pandas can only be bred &&3among bamboo&&r, and can't be &&dtoo close together&&r or they'll instead become angered.",
+      "<hr/>",
+      "<reward reward=\"48566F7A2C868EE0\" quest=\"3D08C518610A72F1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bamboo"
+    },
+    "subtitle": {
+      "text": "Find a Bamboo Jungle"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -352,
+          -16
+        ]
+      }
+    }
+  }
+}

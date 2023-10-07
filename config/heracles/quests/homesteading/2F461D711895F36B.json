@@ -1,0 +1,80 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "1B0C87963A2673AE": {
+      "type": "heracles:item",
+      "item": "minecraft:lantern"
+    }
+  },
+  "rewards": {
+    "3EBA24A48CFB4618": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone_lamp",
+        "count": 8
+      }
+    },
+    "13ACC7277BC1898F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lever",
+        "count": 8
+      }
+    },
+    "30FE445CAB4EB5B8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cobblestone_wall",
+        "count": 8
+      }
+    },
+    "6075422D11F4102E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_fence",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Lit",
+    "description": [
+      "<h2>Craft a Lantern</h2>",
+      "<hr/>",
+      "<task task=\"1B0C87963A2673AE\" quest=\"2F461D711895F36B\"/>",
+      "<hr/>",
+      "&&3Lanterns&&r provide &&dmore light than torches&&r, and can be &&3placed on walls&&r or &&3hung from ceilings&&r.",
+      "<br/>",
+      "They also &&dwork underwater&&r!",
+      "<br/>",
+      "Lights prevents &&3mob spawning&&r in a radius - essential for &&dbuilding a safe base&&r!",
+      "<br/>",
+      "&&eRedstone Lamps&&r can create great streetlights.",
+      "<hr/>",
+      "<reward reward=\"3EBA24A48CFB4618\" quest=\"2F461D711895F36B\"/>",
+      "<reward reward=\"13ACC7277BC1898F\" quest=\"2F461D711895F36B\"/>",
+      "<reward reward=\"30FE445CAB4EB5B8\" quest=\"2F461D711895F36B\"/>",
+      "<reward reward=\"6075422D11F4102E\" quest=\"2F461D711895F36B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lantern"
+    },
+    "subtitle": {
+      "text": "Craft a Lantern"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -112,
+          -368
+        ]
+      }
+    }
+  }
+}

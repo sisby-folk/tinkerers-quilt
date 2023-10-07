@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1EA97FD583A20884",
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "613A669B401CB42E": {
+      "title": "Find a Mansion",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dark_oak_stairs"
+      },
+      "type": "heracles:structure",
+      "structures": "minecraft:mansion"
+    }
+  },
+  "rewards": {
+    "79EEEA1E734B1360": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Miserable pile of secrets",
+    "description": [
+      "<h2>Find a Woodland Mansion</h2>",
+      "<hr/>",
+      "<task task=\"613A669B401CB42E\" quest=\"7CEE48A412C94320\"/>",
+      "<hr/>",
+      "&&2Woodland Mansions&&r are dark oak fortresses full of &&3many room types&&r with &&dspecial loot&&r, &&cIllagers&&r, and traps.",
+      "<br/>",
+      "They can be found using &&3Woodland Explorer Maps&&r sold by &&aCartographers&&r.",
+      "<br/>",
+      "Rooms can contain many useful, including &&3Bookshelves&&r, &&3Crops&&r, and &&3Loot Chests&&r - often &&dtucked in corners&&r. ",
+      "<br/>",
+      "In rare rooms, &&dDiamond Blocks&&r can be found encased in &&3Obsidian&&r or &&3lava&&r.",
+      "<hr/>",
+      "<reward reward=\"79EEEA1E734B1360\" quest=\"7CEE48A412C94320\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dark_oak_stairs"
+    },
+    "subtitle": {
+      "text": "Find a Woodland Mansion"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -112,
+          -80
+        ]
+      }
+    }
+  }
+}

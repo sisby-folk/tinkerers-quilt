@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "10CFFE20ABD36803"
+  ],
+  "tasks": {
+    "1A15F24B8D29BF11": {
+      "title": "Find an Ancient City",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:reinforced_deepslate"
+      },
+      "type": "heracles:structure",
+      "structures": "minecraft:ancient_city"
+    }
+  },
+  "rewards": {
+    "68238F218B413962": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "58CDEF403BDAA4A6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:snowball",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Forgotten Depths",
+    "description": [
+      "<h2>Find an Ancient City</h2>",
+      "<hr/>",
+      "<task task=\"1A15F24B8D29BF11\" quest=\"562E842E71B5725B\"/>",
+      "<hr/>",
+      "&&2Ancient Cities&&r are full of &&chostile vibration-sensing organisms&&r, and &&drare loot&&r.",
+      "<br/>",
+      "&&3Sculk Sensors&&r are able to detect vibrations, including walking and &&dinteracting with blocks and items&&r.",
+      "<br/>",
+      "They trigger &&3Sculk Shriekers&&r, which spawn &&cWardens&&r.",
+      "<br/>",
+      "&&cWardens&&r are large, &&3near-unkillable&&r monsters that can &&dblind players and deal high damage&&r. ",
+      "<br/>",
+      "However, their vision is &&dbased on vibrations&&r - &&eSnowballs&&r can be used to distract them.",
+      "<br/>",
+      "&&7[Tinkerer's Quilt]&&r &&cWardens&&r do not spawn. This can be changed via &&6/gamerule doWardenSpawning true&&r.",
+      "<br/>",
+      "&&7[Apathy]&&r On &&3easy difficulty&&r, &&cWardens&&r won't target the player, and won't apply blindness when provoked.",
+      "<hr/>",
+      "<reward reward=\"68238F218B413962\" quest=\"562E842E71B5725B\"/>",
+      "<reward reward=\"58CDEF403BDAA4A6\" quest=\"562E842E71B5725B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:reinforced_deepslate"
+    },
+    "subtitle": {
+      "text": "Find an Ancient City"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          160
+        ]
+      }
+    }
+  }
+}

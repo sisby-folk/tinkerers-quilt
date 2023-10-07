@@ -1,0 +1,95 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "53A796604A3A0CDA": {
+      "title": "Follow the path of the Gladiator [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "64DBD5ABDBCF2CE0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Base": 14,
+            "Patterns": [
+              {
+                "Color": 4,
+                "Pattern": "flo"
+              },
+              {
+                "Color": 14,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 14,
+                "Pattern": "mc"
+              },
+              {
+                "Color": 14,
+                "Pattern": "cbo"
+              }
+            ]
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Gladiator Shield\"}"
+          }
+        }
+      }
+    },
+    "052C621B419B34F9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:smite",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Path of the Gladiator",
+    "description": [
+      "<h2>take on the realms' monsters</h2>",
+      "<hr/>",
+      "<task task=\"53A796604A3A0CDA\" quest=\"1950317947BD61B0\"/>",
+      "<hr/>",
+      "Hostile &&cmonsters&&r roam the world, threatening wanderers either out of instinct or ill intent. ",
+      "<br/>",
+      "Prove yourself in combat by showing proficiency defeating each type, and be &&dhandsomely rewarded&&r.",
+      "<hr/>",
+      "<reward reward=\"64DBD5ABDBCF2CE0\" quest=\"1950317947BD61B0\"/>",
+      "<reward reward=\"052C621B419B34F9\" quest=\"1950317947BD61B0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_banner"
+    },
+    "subtitle": {
+      "text": "take on the realms' monsters"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          -128
+        ]
+      }
+    }
+  }
+}

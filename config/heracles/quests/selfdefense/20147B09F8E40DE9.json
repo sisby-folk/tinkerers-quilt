@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "21B77836A71A4F74": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:prismarine_crystals"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 15,
+      "entity": {
+        "type": "minecraft:drowned"
+      }
+    }
+  },
+  "rewards": {
+    "6E82D042CA51889F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "3DE92F12AB78040B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:trident",
+        "count": 1,
+        "nbt": {}
+      }
+    }
+  },
+  "display": {
+    "title": "[Scooby Doo Chase Theme]",
+    "description": [
+      "<h2>Kill 15 Drowned</h2>",
+      "<hr/>",
+      "<task task=\"21B77836A71A4F74\" quest=\"20147B09F8E40DE9\"/>",
+      "<hr/>",
+      "In &&2Rivers&&r and &&2Oceans&&r, &&cDrowned&&r pose a small threat unless carrying a &&3Trident&&r - which deals massive damage.",
+      "<br/>",
+      "Like many enemies, unarmed Drowned are &&dvulnerable from below&&r if you can keep a stable distance.",
+      "<br/>",
+      "Armed Drowned have a rare chance to &&ddrop their Trident&&r on death.",
+      "<hr/>",
+      "<reward reward=\"6E82D042CA51889F\" quest=\"20147B09F8E40DE9\"/>",
+      "<reward reward=\"3DE92F12AB78040B\" quest=\"20147B09F8E40DE9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:prismarine_crystals"
+    },
+    "subtitle": {
+      "text": "Kill 15 Drowned"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          32,
+          -192
+        ]
+      }
+    }
+  }
+}

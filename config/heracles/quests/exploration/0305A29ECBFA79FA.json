@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "0FB37F4ABF69F503": {
+      "title": "Find a Lush Cave",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:moss_block"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:lush_caves"
+    }
+  },
+  "rewards": {
+    "47E2F798DB2525BA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "42C6047CBB7C0A61": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Where's my Ivy Whip",
+    "description": [
+      "<h2>Find a Lush Cave</h2>",
+      "<hr/>",
+      "<task task=\"0FB37F4ABF69F503\" quest=\"0305A29ECBFA79FA\"/>",
+      "<hr/>",
+      "&&2Lush Caves&&r are indicated by the presence of a flowering &&3Azalea Tree&&r on the surface above.",
+      "<br/>",
+      "&&2Lush Caves&&r contain &&aAxolotls&&r, &&3Moss&&r, &&3Azalea Plants&&r, and &&3Glow Berries&&r.",
+      "<br/>",
+      "&&3Glow Berries&&r are a food that can be &&dgrown underneath blocks&&r, and &&demit light&&r while growing.",
+      "<hr/>",
+      "<reward reward=\"47E2F798DB2525BA\" quest=\"0305A29ECBFA79FA\"/>",
+      "<reward reward=\"42C6047CBB7C0A61\" quest=\"0305A29ECBFA79FA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:moss_block"
+    },
+    "subtitle": {
+      "text": "Find a Lush Cave"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -496,
+          -16
+        ]
+      }
+    }
+  }
+}

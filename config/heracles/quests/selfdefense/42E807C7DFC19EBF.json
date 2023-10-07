@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "021CBA58542E43A1": {
+      "title": "Consume 1 Flint and Steel [Click] ",
+      "type": "heracles:item",
+      "item": "minecraft:flint_and_steel",
+      "collection": "MANUAL",
+      "nbt": {}
+    }
+  },
+  "rewards": {
+    "6A0B4BFA09FCF31E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:flint_and_steel",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:mending",
+              "lvl": 1
+            }
+          ],
+          "RepairCost": 3,
+          "display": {
+            "Name": "{\"text\":\"Firestarter\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Resourceful",
+    "description": [
+      "<h2>Pursue Improvised Weaponry</h2>",
+      "<hr/>",
+      "<task task=\"021CBA58542E43A1\" quest=\"42E807C7DFC19EBF\"/>",
+      "<hr/>",
+      "While not designed as weapons, many items can be &&dused offensively and defensively&&r in combat.",
+      "<br/>",
+      "Quick use of &&3Flint and Steel&&r can burn enemies, damaging even &&dlarge packs of mobs&&r while you retreat.",
+      "<hr/>",
+      "<reward reward=\"6A0B4BFA09FCF31E\" quest=\"42E807C7DFC19EBF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:flint_and_steel"
+    },
+    "subtitle": {
+      "text": "Pursue Improvised Weaponry"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "08398FBBB792C742"
+  ],
+  "tasks": {
+    "6222355C0CE72BA1": {
+      "type": "heracles:item",
+      "item": "minecraft:lodestone"
+    }
+  },
+  "rewards": {
+    "2CB308083236D0E5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:compass"
+      }
+    }
+  },
+  "display": {
+    "title": "Misty Taste of Moonshine",
+    "description": [
+      "<h2>Find a Lodestone</h2>",
+      "<hr/>",
+      "<task task=\"6222355C0CE72BA1\" quest=\"449397788969C004\"/>",
+      "<hr/>",
+      "A &&eCompass&&r can be bound to a &&3Lodestones&&r with &&7[&&rRight-Click&&7]&&r, causing the &&dneedle to point towards it&&r when in the same dimension.",
+      "<br/>",
+      "&&3Lodestones&&r can be looted from &&2Bastions&&r, or crafted. ",
+      "<hr/>",
+      "<reward reward=\"2CB308083236D0E5\" quest=\"449397788969C004\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lodestone"
+    },
+    "subtitle": {
+      "text": "Find a Lodestone"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -208,
+          -48
+        ]
+      }
+    }
+  }
+}

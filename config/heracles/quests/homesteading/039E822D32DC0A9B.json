@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "581C4156E009B165": {
+      "type": "heracles:item",
+      "item": "minecraft:slime_block"
+    },
+    "3218F9009FCE1D9F": {
+      "type": "heracles:item",
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "rewards": {
+    "2946ECA038C2E873": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honey_block"
+      }
+    },
+    "3181FD8D6DCF864A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone_button"
+      }
+    }
+  },
+  "display": {
+    "title": "Keep an eye on gravity",
+    "description": [
+      "<h2>Craft Bounce-Elevator materials</h2>",
+      "<hr/>",
+      "<task task=\"581C4156E009B165\" quest=\"039E822D32DC0A9B\"/>",
+      "<task task=\"3218F9009FCE1D9F\" quest=\"039E822D32DC0A9B\"/>",
+      "<hr/>",
+      "Try placing a &&3Slime Block&&r above a &&3Sticky Piston&&r, and &&epowering&&r it while standing on top!",
+      "<br/>",
+      "The resulting launch could &&dreach another floor&&r - try adding a &&eHoney Block&&r to help &&dcatch you at the top&&r!",
+      "<hr/>",
+      "<reward reward=\"2946ECA038C2E873\" quest=\"039E822D32DC0A9B\"/>",
+      "<reward reward=\"3181FD8D6DCF864A\" quest=\"039E822D32DC0A9B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:slime_block"
+    },
+    "subtitle": {
+      "text": "Craft Bounce-Elevator materials"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -176,
+          -320
+        ]
+      }
+    }
+  }
+}

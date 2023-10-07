@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "2797C82C4C23C124": {
+      "title": "Click Here!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "12ED530D4B5BB824": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "nbt": {}
+      }
+    }
+  },
+  "display": {
+    "title": "Crafting Controls",
+    "description": [
+      "<h2>Mining *and* Crafting</h2>",
+      "<hr/>",
+      "<task task=\"2797C82C4C23C124\" quest=\"438625063C95601F\"/>",
+      "<hr/>",
+      "&&7[Inventory Tabs]&&r Press &&7[&&r&&6Tab&&r&&7]&&r in the inventory to &&dchange workstations&&r, or &&6Click&&r the visual tabs around the screen. ",
+      "<br/>",
+      "&&7[MouseWheelie]&&r &&6Middle Click&&r in any inventory to &&dsort items&&r. Hold &&7[&&r&&6Space&&r&&7]&&r while clicking an inventory to &&drestock from it&&r, or while clicking your inventory to &&dquick store to it&&r.",
+      "<br/>",
+      "&&7[Inspecio]&&r Tooltips contain &&ddetailed item information&&r, such as item contents, attributes, and effects.",
+      "<br/>",
+      "&&7[Portable Crafting]&&r Press &&7[&&r&&6V&&r&&7]&&r to &&dopen your crafting table anywhere&&r, if you have one.",
+      "<br/>",
+      "&&7[EMI]&&r Press &&7[&&r&&6R&&r&&7]&&r on an item to see its &&drecipes&&r, or &&7[&&r&&6U&&r&&7]&&r to see its &&dusages&&r.",
+      "<br/>",
+      "The &&3right pane&&r shows what you can craft right now. &&6Click&&r an item to add it to the workstation. &&6CTRL+Click&&r to craft it instantly.",
+      "<br/>",
+      "Press &&7[&&r&&6CTRL+F&&r&&7]&&r to search up items and blocks instead. &&6Click&&r to see recipes, or &&6Right-Click&&r to see usages.",
+      "<hr/>",
+      "<reward reward=\"12ED530D4B5BB824\" quest=\"438625063C95601F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table"
+    },
+    "subtitle": {
+      "text": "Mining *and* Crafting"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          -96
+        ]
+      }
+    }
+  }
+}

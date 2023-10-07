@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "235FD333274DE457": {
+      "title": "Find a Warped Forest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:warped_nylium"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:warped_forest"
+    },
+    "2180A88C978A8C70": {
+      "title": "Find a Crimson Forest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:crimson_nylium"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:crimson_forest"
+    }
+  },
+  "rewards": {
+    "1A886DF1D1C3675E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "1007B8702881D9D9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:music_disc_pigstep"
+      }
+    }
+  },
+  "display": {
+    "title": "Red Vs Blue",
+    "description": [
+      "<h2>Find both Nether Forests</h2>",
+      "<hr/>",
+      "<task task=\"235FD333274DE457\" quest=\"522B247B10CCF04E\"/>",
+      "<task task=\"2180A88C978A8C70\" quest=\"522B247B10CCF04E\"/>",
+      "<hr/>",
+      "The two &&2Nether Forests&&r are home to unique &&3Wood Types&&r and &&3Fungus&&r.",
+      "<br/>",
+      "&&2Warped Forests&&r are a &&dvery safe biome&&r - spawning only &&cEndermen&&r.",
+      "<br/>",
+      "&&2Crimson Forests&&r are more dangerous, housing &&cPiglins&&r and &&cHoglins&&r.",
+      "<br/>",
+      "&&3Nether Wood Types&&r are &&dcompletely non-flammable&&r.",
+      "<br/>",
+      "&&3Warped Fungus&&r can be put on a &&3Fishing Rod&&r to ride saddled &&aStriders&&r.",
+      "<hr/>",
+      "<reward reward=\"1A886DF1D1C3675E\" quest=\"522B247B10CCF04E\"/>",
+      "<reward reward=\"1007B8702881D9D9\" quest=\"522B247B10CCF04E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:warped_nylium"
+    },
+    "subtitle": {
+      "text": "Find both Nether Forests"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -208,
+          -16
+        ]
+      }
+    }
+  }
+}

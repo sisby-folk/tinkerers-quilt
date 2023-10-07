@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7AF853FC528DE6C6"
+  ],
+  "tasks": {
+    "3E480E6CE0408D0A": {
+      "title": "Enter the Nether",
+      "type": "heracles:changed_dimension",
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether"
+    }
+  },
+  "rewards": {
+    "07F2FBF6621572C3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_helmet",
+        "count": 1,
+        "nbt": {}
+      }
+    },
+    "7D86112E85D8D6D7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:map"
+      }
+    }
+  },
+  "display": {
+    "title": "Where are the Hot Demons?",
+    "description": [
+      "<h2>Enter the Nether</h2>",
+      "<hr/>",
+      "<task task=\"3E480E6CE0408D0A\" quest=\"3079DAC3AB1B0AD9\"/>",
+      "<hr/>",
+      "The &&2Nether&&r is a dimension full of lava, dangerous falls, and monsters - it can only be reached via a &&3Nether Portal&&r.",
+      "<br/>",
+      "Building a &&3Nether Portal&&r requires 10 &&3Obsidian&&r blocks, formed into an upright rectangular frame - 5 blocks high, and 4 blocks wide. The corners can be &&3any block&&r.",
+      "<br/>",
+      "By using &&3Flint and Steel&&r on the portal base, the portal will open and can be walked into.",
+      "<br/>",
+      "&&aPiglins&&r are denizens of the nether that attack players that aren't wearing &&eGold Armor&&r. They'll also attack any player that mines &&3Nether Gold Ore&&r.",
+      "<br/>",
+      "To help find your way back to a portal, you can use an &&eEmpty Map&&r while standing next to it.",
+      "<hr/>",
+      "<reward reward=\"07F2FBF6621572C3\" quest=\"3079DAC3AB1B0AD9\"/>",
+      "<reward reward=\"7D86112E85D8D6D7\" quest=\"3079DAC3AB1B0AD9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherrack"
+    },
+    "subtitle": {
+      "text": "Enter the Nether"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          176,
+          -32
+        ]
+      }
+    }
+  }
+}

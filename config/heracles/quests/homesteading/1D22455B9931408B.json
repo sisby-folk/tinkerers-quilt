@@ -1,0 +1,74 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "3075251E9DC7E660": {
+      "type": "heracles:item",
+      "item": "minecraft:cartography_table"
+    }
+  },
+  "rewards": {
+    "60E3542185DA5F63": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:map",
+        "count": 9
+      }
+    },
+    "6D0F8920542CF32D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:paper",
+        "count": 64
+      }
+    },
+    "474AF377E296BE69": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:item_frame",
+        "count": 6
+      }
+    }
+  },
+  "display": {
+    "title": "Explorer",
+    "description": [
+      "<h2>Craft a Cartography Table</h2>",
+      "<hr/>",
+      "<task task=\"3075251E9DC7E660\" quest=\"1D22455B9931408B\"/>",
+      "<hr/>",
+      "&&3Cartography Tables&&r allow you to &&dduplicate map contents&&r, including their zoom level. They also allow &&dcheaper zooming out&&r of Maps with &&ePaper&&r.",
+      "<br/>",
+      "This means you can &&dshare large regions&&r of map (e.g. the region around your base) with &&3other players&&r.",
+      "<br/>",
+      "&&3Markers&&r will also be copied - to add one to a map, simply &&7[&&r&&6Right-Click&&r&&7]&&r a banner &&3while holding the map&&r.",
+      "<br/>",
+      "&&eMaps&&r can be placed into &&eItem Frames&&r, allowing them to be &&dassembled into much larger physical maps&&r.",
+      "<br/>",
+      "&&7[Crowmap]&&r &&eMaps&&r can be filled out from &&3any slot in your inventory&&r.",
+      "<hr/>",
+      "<reward reward=\"60E3542185DA5F63\" quest=\"1D22455B9931408B\"/>",
+      "<reward reward=\"6D0F8920542CF32D\" quest=\"1D22455B9931408B\"/>",
+      "<reward reward=\"474AF377E296BE69\" quest=\"1D22455B9931408B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cartography_table"
+    },
+    "subtitle": {
+      "text": "Craft a Cartography Table"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          288,
+          -432
+        ]
+      }
+    }
+  }
+}

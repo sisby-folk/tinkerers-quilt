@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "1FF73E768B241641": {
+      "title": "Find a Bee Nest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:bee_nest"
+      },
+      "type": "heracles:block_interaction",
+      "block": "minecraft:bee_nest"
+    }
+  },
+  "rewards": {
+    "510A8473FAD36C9F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:moss_carpet",
+        "count": 3
+      }
+    },
+    "7EA2277E0F687304": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:campfire",
+        "count": 3
+      }
+    },
+    "31CBD024A14767EF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "nbt": {}
+      }
+    },
+    "04820B107B3798DA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:flint_and_steel",
+        "count": 1,
+        "nbt": {}
+      }
+    }
+  },
+  "display": {
+    "title": "Farm Favourites!",
+    "description": [
+      "<h2>Find a Bee Nest</h2>",
+      "<hr/>",
+      "<task task=\"1FF73E768B241641\" quest=\"05737FE8552841E9\"/>",
+      "<hr/>",
+      "&&3Bee Nests&&r house wild &&aBees&&r! They can't be moved, but produce &&3Honeycomb&&r that can be used to craft a moveable &&3Beehive&&r.",
+      "<br/>",
+      "To &&dsafely shear a full hive or nest&&r, a &&eCampfire&&r must be lit underneath. Otherwise, Bees will become angered.",
+      "<br/>",
+      "&&eCarpet&&r can be placed over Campfires to &&dprevent fire damage&&r.",
+      "<hr/>",
+      "<reward reward=\"510A8473FAD36C9F\" quest=\"05737FE8552841E9\"/>",
+      "<reward reward=\"7EA2277E0F687304\" quest=\"05737FE8552841E9\"/>",
+      "<reward reward=\"31CBD024A14767EF\" quest=\"05737FE8552841E9\"/>",
+      "<reward reward=\"04820B107B3798DA\" quest=\"05737FE8552841E9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bee_nest"
+    },
+    "subtitle": {
+      "text": "Find a Bee Nest"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -352,
+          112
+        ]
+      }
+    }
+  }
+}

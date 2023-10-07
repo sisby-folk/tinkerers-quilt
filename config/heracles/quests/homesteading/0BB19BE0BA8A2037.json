@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "296F49FBB8B236FA": {
+      "type": "heracles:item",
+      "item": "minecraft:smoker"
+    }
+  },
+  "rewards": {
+    "0ACB3CC0E9B9D3F7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal_block",
+        "count": 16
+      }
+    },
+    "18573A5F8C328475": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:dried_kelp_block",
+        "count": 16
+      }
+    },
+    "484F8FCB4B3A66BE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lava_bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Roasty",
+    "description": [
+      "<h2>Craft a Smoker</h2>",
+      "<hr/>",
+      "<task task=\"296F49FBB8B236FA\" quest=\"0BB19BE0BA8A2037\"/>",
+      "<hr/>",
+      "A &&3Smoker&&r is a specialized furnace variant that &&dcooks food at double speed&&r.",
+      "<br/>",
+      "All Furnaces accept many types of fuel. ",
+      "<br/>",
+      "&&3Smaller fuels&&r are less wasteful when processing smaller numbers of items. ",
+      "<br/>",
+      "&&eLarge fuels&&r are &&3only efficient for large loads&&r - with &&eLava Buckets&&r smelting &&d100 items&&r.",
+      "<hr/>",
+      "<reward reward=\"0ACB3CC0E9B9D3F7\" quest=\"0BB19BE0BA8A2037\"/>",
+      "<reward reward=\"18573A5F8C328475\" quest=\"0BB19BE0BA8A2037\"/>",
+      "<reward reward=\"484F8FCB4B3A66BE\" quest=\"0BB19BE0BA8A2037\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:smoker"
+    },
+    "subtitle": {
+      "text": "Craft a Smoker"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          272,
+          -336
+        ]
+      }
+    }
+  }
+}

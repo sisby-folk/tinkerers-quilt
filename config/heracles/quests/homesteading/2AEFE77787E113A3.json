@@ -1,0 +1,100 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "322528062359C5A9"
+  ],
+  "tasks": {
+    "76637FF72914A8AC": {
+      "type": "heracles:item",
+      "item": "minecraft:lever"
+    },
+    "1B71413D5F033450": {
+      "title": "Wooden Button",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:oak_button"
+      },
+      "type": "heracles:item",
+      "item": "#minecraft:wooden_buttons"
+    }
+  },
+  "rewards": {
+    "799E92562970349D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:trapped_chest"
+      }
+    },
+    "5F46D7694818EEDE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone_pressure_plate"
+      }
+    },
+    "16C0BA5D22A97495": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tripwire_hook",
+        "count": 2
+      }
+    },
+    "409DEDCC45FC7BAB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:detector_rail"
+      }
+    },
+    "46FE721445D7E685": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:target"
+      }
+    }
+  },
+  "display": {
+    "title": "Manual Input",
+    "description": [
+      "<h2>Craft a Lever and a Wooden Button</h2>",
+      "<hr/>",
+      "<task task=\"76637FF72914A8AC\" quest=\"2AEFE77787E113A3\"/>",
+      "<task task=\"1B71413D5F033450\" quest=\"2AEFE77787E113A3\"/>",
+      "<hr/>",
+      "&&3Levers&&r provide &&dconstant power&&r when toggled on with &&6Right-Clicked&&r.",
+      "<br/>",
+      "&&3Buttons&&r can be pressed with &&6Right-Click&&r to &&dprovide a short pulse&&r of power. &&3Wooden Buttons&&r press longer and can be &&dpressed by arrows and tridents&&r.",
+      "<br/>",
+      "&&ePressure Plates&&r provide power when &&ddepressed by mobs&&r. &&3Wooden Pressure Plates&&r are also sensitive to &&3items&&r, &&3arrows&&r, and &&3fishing hooks&&r.",
+      "<br/>",
+      "&&eDetector Rails&&r &&dpower the block below them&&r while a &&3minecart is on them&&r.",
+      "<br/>",
+      "&&eTargets&&r produce power when &&dhit with projectiles&&r, with &&3strength increasing with accuracy&&r.",
+      "<br/>",
+      "&&eTrapped Chests&&r provide &&dpower below them when opened&&r.",
+      "<br/>",
+      "&&eTripwire Hooks&&r with &&3String&&r laid between will power hooked blocks when the &&dstring is depressed&&r.",
+      "<hr/>",
+      "<reward reward=\"799E92562970349D\" quest=\"2AEFE77787E113A3\"/>",
+      "<reward reward=\"5F46D7694818EEDE\" quest=\"2AEFE77787E113A3\"/>",
+      "<reward reward=\"16C0BA5D22A97495\" quest=\"2AEFE77787E113A3\"/>",
+      "<reward reward=\"409DEDCC45FC7BAB\" quest=\"2AEFE77787E113A3\"/>",
+      "<reward reward=\"46FE721445D7E685\" quest=\"2AEFE77787E113A3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lever"
+    },
+    "subtitle": {
+      "text": "Craft a Lever and a Wooden Button"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          368,
+          -416
+        ]
+      }
+    }
+  }
+}

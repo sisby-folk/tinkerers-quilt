@@ -1,0 +1,327 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7BA5B355C7DFF7E3",
+    "2BA288C7EE0930DB",
+    "3CF0AC2D4BCAC32A",
+    "21738CE4F9A8D8ED",
+    "694FD9F0D62B459F",
+    "4FC61BF1949C8BE9",
+    "5E4CDD8923AF498D",
+    "20147B09F8E40DE9",
+    "35AED8D09C7CF638",
+    "52AC9ECD81435809",
+    "349E511AA603A620",
+    "26CD2014C0B206D0",
+    "6102768050D4F3E5",
+    "0CB054935E7926CC",
+    "023DDA57ED1603C5",
+    "68C1E9C446D8A069"
+  ],
+  "tasks": {
+    "4FC35A920EB9938B": {
+      "title": "Drinks on the Styx [Click]",
+      "type": "heracles:check"
+    },
+    "6EE4EB7F7556CC79": {
+      "title": "The Fee [Click]",
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "minecraft:gold_block",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "16C9B3A5E3C35A66": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:red_banner",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 15,
+                "Pattern": "mr"
+              },
+              {
+                "Color": 15,
+                "Pattern": "ss"
+              },
+              {
+                "Color": 15,
+                "Pattern": "cre"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 15,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 1,
+                "Pattern": "bts"
+              },
+              {
+                "Color": 0,
+                "Pattern": "sku"
+              },
+              {
+                "Color": 15,
+                "Pattern": "sku"
+              }
+            ]
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Zagreus\"}"
+          }
+        }
+      }
+    },
+    "7583A8810BB00121": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Base": 15,
+            "Patterns": [
+              {
+                "Color": 4,
+                "Pattern": "mc"
+              },
+              {
+                "Color": 14,
+                "Pattern": "flo"
+              },
+              {
+                "Color": 1,
+                "Pattern": "tts"
+              },
+              {
+                "Color": 1,
+                "Pattern": "bts"
+              },
+              {
+                "Color": 15,
+                "Pattern": "cbo"
+              },
+              {
+                "Color": 15,
+                "Pattern": "sku"
+              },
+              {
+                "Color": 14,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bo"
+              }
+            ]
+          },
+          "Enchantments": [
+            {
+              "id": "minecraft:knockback",
+              "lvl": 2
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Shield of Chaos\"}",
+              "{\"text\":\"Unbreakable\"}"
+            ],
+            "Name": "{\"text\":\"Aegis\", \"color\":\"gold\"}"
+          },
+          "unbreakable": 1
+        }
+      }
+    },
+    "4D16F81AB9FE5B5F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:crossbow",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:quick_charge",
+              "lvl": 5
+            }
+          ],
+          "RepairCost": 15,
+          "display": {
+            "Lore": [
+              "{\"text\":\"The Adamant Rail\"}"
+            ],
+            "Name": "{\"text\":\"Exagryph\", \"color\":\"gold\"}"
+          }
+        }
+      }
+    },
+    "2DD2CBCE8531DF64": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bow",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:infinity",
+              "lvl": 1
+            },
+            {
+              "id": "minecraft:mending",
+              "lvl": 1
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"The Heart-Seeking Bow\"}"
+            ],
+            "Name": "{\"text\":\"Coronacht\", \"color\":\"gold\"}"
+          }
+        }
+      }
+    },
+    "1D4362E8C41C383F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:trident",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:riptide",
+              "lvl": 5
+            }
+          ],
+          "RepairCost": 15,
+          "display": {
+            "Lore": [
+              "{\"text\":\"The Eternal Spear\"}",
+              "{\"text\":\"  Aspect of Achilles\"}"
+            ],
+            "Name": "{\"text\":\"Varatha\", \"color\":\"gold\"}"
+          }
+        }
+      }
+    },
+    "165D9A617B8BA360": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:netherite_sword",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:sweeping",
+              "lvl": 30
+            }
+          ],
+          "RepairCost": 15,
+          "display": {
+            "Lore": [
+              "{\"text\":\"The Blade of the Underworld\"}"
+            ],
+            "Name": "{\"text\":\"Stygius\", \"color\":\"gold\"}"
+          }
+        }
+      }
+    },
+    "05F828B8616A9507": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "AttributeModifiers": [
+            {
+              "Amount": 20,
+              "AttributeName": "generic.attack_speed",
+              "Name": "generic.attack_speed",
+              "Operation": 0,
+              "Slot": "mainhand",
+              "UUID": [
+                1651970931,
+                -1508882340,
+                -1475386211,
+                -1849167428
+              ]
+            },
+            {
+              "Amount": 2,
+              "AttributeName": "generic.attack_damage",
+              "Name": "generic.attack_damage",
+              "Operation": 0,
+              "Slot": "mainhand",
+              "UUID": [
+                262443461,
+                -2043656626,
+                -1590731523,
+                48632754
+              ]
+            }
+          ],
+          "Enchantments": [
+            {
+              "id": "minecraft:knockback",
+              "lvl": 4
+            },
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 3
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"The Twin Ends [of]\"}"
+            ],
+            "Name": "{\"text\":\"Malphon\", \"color\":\"gold\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Zagreus",
+    "description": [
+      "<h2>Send monsters back to Hell</h2>",
+      "<hr/>",
+      "<task task=\"4FC35A920EB9938B\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<task task=\"6EE4EB7F7556CC79\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<hr/>",
+      "&&o&&dInvest in these, they'll return the favour.&&r&&r",
+      "<hr/>",
+      "<reward reward=\"16C9B3A5E3C35A66\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"7583A8810BB00121\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"4D16F81AB9FE5B5F\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"2DD2CBCE8531DF64\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"1D4362E8C41C383F\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"165D9A617B8BA360\" quest=\"416A7E1DCFFE12F4\"/>",
+      "<reward reward=\"05F828B8616A9507\" quest=\"416A7E1DCFFE12F4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_nether_bricks"
+    },
+    "subtitle": {
+      "text": "Send monsters back to Hell"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          144,
+          -272
+        ]
+      }
+    }
+  }
+}

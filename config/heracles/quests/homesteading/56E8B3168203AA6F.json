@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "1989BBAD04C1D853": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:tropical_fish_bucket"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:swim_one_cm",
+      "target": 50000
+    }
+  },
+  "rewards": {
+    "42737083D92865C9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:respiration",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    },
+    "300CCD3C108FB644": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:depth_strider",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Olympic Underwater Highway",
+    "description": [
+      "<h2>Swim 500 Blocks</h2>",
+      "<hr/>",
+      "<task task=\"1989BBAD04C1D853\" quest=\"56E8B3168203AA6F\"/>",
+      "<hr/>",
+      "By combining any amount of &&3Depth Strider&&r boots, &&3Soul Speed&&r highways, and &&3Dolphin's Grace&&r (granted by &&aDolphins&&r) - the player can &&dswim at unfathomable speeds&&r.",
+      "<br/>",
+      "By using a renamed &&3Name Tag&&r on a mob, it gains that custom name. Named mobs &&dcan't despawn&&r, which can help with the population of rare mobs like Dolphins - just pretend you're a marine biologist!",
+      "<br/>",
+      "&&7[Tinkerer's Quilt]&&r &&3Name Tags&&r are &&dcraftable&&r.",
+      "<hr/>",
+      "<reward reward=\"42737083D92865C9\" quest=\"56E8B3168203AA6F\"/>",
+      "<reward reward=\"300CCD3C108FB644\" quest=\"56E8B3168203AA6F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    "subtitle": {
+      "text": "Swim 500 Blocks"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -240,
+          -336
+        ]
+      }
+    }
+  }
+}

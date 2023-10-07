@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "162DEDE2FB3C1168": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:magma_cream"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 15,
+      "entity": {
+        "type": "minecraft:magma_cube"
+      }
+    }
+  },
+  "rewards": {
+    "489A2EDD8DB40A65": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "326E62FF89E0A8F4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ochre_froglight",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "All 120 Vertices",
+    "description": [
+      "<h2>Kill 15 Magma Cubes</h2>",
+      "<hr/>",
+      "<task task=\"162DEDE2FB3C1168\" quest=\"52AC9ECD81435809\"/>",
+      "<hr/>",
+      "Throughout &&2The Nether&&r, &&cMagma Cubes&&r have an uncommon chance to spawn. Their &&3Magma Cream&&r is a valuable resource for &&dFire Resistance Potions&&r.",
+      "<br/>",
+      "If a small Magma Cube is eaten by a &&aFrog&&r, it drops a &&eFroglight&&r.",
+      "<hr/>",
+      "<reward reward=\"489A2EDD8DB40A65\" quest=\"52AC9ECD81435809\"/>",
+      "<reward reward=\"326E62FF89E0A8F4\" quest=\"52AC9ECD81435809\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:magma_cream"
+    },
+    "subtitle": {
+      "text": "Kill 15 Magma Cubes"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          80,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "039E822D32DC0A9B",
+    "56E8B3168203AA6F",
+    "56FFE5307AA82DCD",
+    "51AC2E4D1053FC19",
+    "471B71E3199030AC",
+    "4E780825E91BA9CA",
+    "3D5694CCE8F191BC"
+  ],
+  "tasks": {
+    "7D62C1C889EBCCF0": {
+      "title": "Tag along [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "11148912213C7C5F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:white_banner",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 6,
+                "Pattern": "ts"
+              },
+              {
+                "Color": 3,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 0,
+                "Pattern": "cr"
+              },
+              {
+                "Color": 15,
+                "Pattern": "ms"
+              },
+              {
+                "Color": 0,
+                "Pattern": "bt"
+              },
+              {
+                "Color": 3,
+                "Pattern": "cbo"
+              },
+              {
+                "Color": 0,
+                "Pattern": "bts"
+              }
+            ]
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Hermes\"}"
+          }
+        }
+      }
+    },
+    "6D70B93E29F89580": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond_boots",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": 5
+            },
+            {
+              "id": "minecraft:soul_speed",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:depth_strider",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:swift_sneak",
+              "lvl": 4
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Hermes\"}"
+            ],
+            "Name": "{\"text\":\"Messenger Treads\", \"color\":\"dark_aqua\"}"
+          }
+        }
+      }
+    },
+    "42C0FC5578746887": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond_horse_armor",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": 5
+            },
+            {
+              "id": "minecraft:depth_strider",
+              "lvl": 3
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Hermes\"}"
+            ],
+            "Name": "{\"text\":\"Pegasus Barding\", \"color\":\"dark_aqua\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Hermes",
+    "description": [
+      "<h2>Embrace the fastest travel</h2>",
+      "<hr/>",
+      "<task task=\"7D62C1C889EBCCF0\" quest=\"3347D4D672927CA6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11148912213C7C5F\" quest=\"3347D4D672927CA6\"/>",
+      "<reward reward=\"6D70B93E29F89580\" quest=\"3347D4D672927CA6\"/>",
+      "<reward reward=\"42C0FC5578746887\" quest=\"3347D4D672927CA6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_boots"
+    },
+    "subtitle": {
+      "text": "Embrace the fastest travel"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -320,
+          -368
+        ]
+      }
+    }
+  }
+}

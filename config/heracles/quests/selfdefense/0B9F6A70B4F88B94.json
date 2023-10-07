@@ -1,0 +1,118 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2D49941B8AEF7256",
+    "5CA39231B56AE5CB",
+    "3BBB8E131ECD4FF5",
+    "30ED364C540672C8"
+  ],
+  "tasks": {
+    "037FE2D130DBAAB7": {
+      "title": "Meet shoulder-to-shoulder [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "008F068D27D3148E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:light_blue_banner",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 0,
+                "Pattern": "dls"
+              },
+              {
+                "Color": 11,
+                "Pattern": "gra"
+              },
+              {
+                "Color": 0,
+                "Pattern": "gra"
+              },
+              {
+                "Color": 11,
+                "Pattern": "gra"
+              },
+              {
+                "Color": 4,
+                "Pattern": "tts"
+              },
+              {
+                "Color": 4,
+                "Pattern": "bo"
+              }
+            ]
+          },
+          "RepairCost": 31,
+          "display": {
+            "Name": "{\"text\":\"Athena\"}"
+          }
+        }
+      }
+    },
+    "21309049BC4259E0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_chestplate",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:fire_protection",
+              "lvl": 4
+            },
+            {
+              "id": "minecraft:blast_protection",
+              "lvl": 4
+            },
+            {
+              "id": "minecraft:projectile_protection",
+              "lvl": 4
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "{\"text\":\"Gift of Athena\"}"
+            ],
+            "Name": "{\"text\":\"Divine Dashplate\", \"color\":\"yellow\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Athena",
+    "description": [
+      "<h2>face danger head-on</h2>",
+      "<hr/>",
+      "<task task=\"037FE2D130DBAAB7\" quest=\"0B9F6A70B4F88B94\"/>",
+      "<hr/>",
+      "&&o&&dStay safe, These plates are fragile&&r&&r",
+      "<hr/>",
+      "<reward reward=\"008F068D27D3148E\" quest=\"0B9F6A70B4F88B94\"/>",
+      "<reward reward=\"21309049BC4259E0\" quest=\"0B9F6A70B4F88B94\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_chestplate"
+    },
+    "subtitle": {
+      "text": "face danger head-on"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -208,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "03646A14192AD73C": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:nether_wart"
+    },
+    "4E96545334B04D98": {
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nether Wart Farming",
+    "description": [
+      "<h2>Farm 64 Nether Wart</h2>",
+      "<hr/>",
+      "<task task=\"03646A14192AD73C\" quest=\"54AA1BD5E8241369\"/>",
+      "<task task=\"4E96545334B04D98\" quest=\"54AA1BD5E8241369\"/>",
+      "<hr/>",
+      "&&3Nether Wart&&r can be planted on &&3Soul Sand&&r in &&2any dimension&&r. ",
+      "<br/>",
+      "It &&3doesn't even require light to grow&&r - simple!",
+      "<br/>",
+      "&&7[Carpet]&&r &&3Blaze Powder&&r can be used to grow nether wart quickly."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_wart"
+    },
+    "subtitle": {
+      "text": "Farm 64 Nether Wart"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          80,
+          -560
+        ]
+      }
+    }
+  }
+}

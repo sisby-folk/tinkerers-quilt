@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "28AFD82AD9C0B721"
+  ],
+  "tasks": {
+    "28E2B53465A55920": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "rewards": {
+    "2E328D292A34A71A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bookshelf",
+        "count": 3
+      }
+    },
+    "225520377FB917DE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:book",
+        "count": 3
+      }
+    },
+    "26E9795985070CF2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 10
+      }
+    }
+  },
+  "display": {
+    "title": "I have over 9 powers",
+    "description": [
+      "<h2>Craft an Enchanting Table</h2>",
+      "<hr/>",
+      "<task task=\"28E2B53465A55920\" quest=\"594D5FA160E7C304\"/>",
+      "<hr/>",
+      "An &&3Enchanting Table&&r can &&dadd random enchantments&&r to an unenchanted piece of equipment or &&ebook&&r. This costs 1-3 &&3experience levels&&r and &&eLapis Lazuli&&r.",
+      "<br/>",
+      "Higher &&3level requirements&&r improve the odds of better enchantments. Placing &&eBookshelves&&r spaced one block from the table increases the &&3level requirement&&r, up to 30 with 15 shelves.",
+      "<br/>",
+      "&&7[EasierEnchanting]&&r You can &&6Click&&r the animated book to &&dreroll&&r guaranteed enchantments for 6 &&eLapis Lazuli&&r.",
+      "<br/>",
+      "&&7[TaxFreeLevels]&&r Enchanting at a specific &&3level requirement&&r costs the &&dsame amount of experience every time&&r, regardless of your own level.",
+      "<hr/>",
+      "<reward reward=\"2E328D292A34A71A\" quest=\"594D5FA160E7C304\"/>",
+      "<reward reward=\"225520377FB917DE\" quest=\"594D5FA160E7C304\"/>",
+      "<reward reward=\"26E9795985070CF2\" quest=\"594D5FA160E7C304\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanting_table"
+    },
+    "subtitle": {
+      "text": "Craft an Enchanting Table"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    }
+  }
+}

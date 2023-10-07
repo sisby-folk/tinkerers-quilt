@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "0EF299A1A5009971"
+  ],
+  "tasks": {
+    "6E143ADB9519AE94": {
+      "title": "Travel 1,000 Blocks by Minecart",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:minecart"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:minecart_one_cm",
+      "target": 1000000
+    }
+  },
+  "rewards": {
+    "6602F9A433E4F2E5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:rail",
+        "count": 512
+      }
+    },
+    "4479B131B6E6A2A6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:powered_rail",
+        "count": 64
+      }
+    },
+    "1C20D59F776801F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone_torch",
+        "count": 64
+      }
+    },
+    "1240BB05CA2384CF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chest_minecart"
+      }
+    },
+    "242ADA11C1EF7893": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:activator_rail",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Conductor",
+    "description": [
+      "<h2>Travel far by rail</h2>",
+      "<hr/>",
+      "<task task=\"6E143ADB9519AE94\" quest=\"471B71E3199030AC\"/>",
+      "<hr/>",
+      "Rail can be expanded into &&dfully automated transit&&r and freight systems.",
+      "<br/>",
+      "&&3When powered&&r, rails at &&3T intersections&&r will &&dswap their direction&&r, and &&eActivator Rails&&r will cause players to &&ddismount minecarts&&r.",
+      "<hr/>",
+      "<reward reward=\"6602F9A433E4F2E5\" quest=\"471B71E3199030AC\"/>",
+      "<reward reward=\"4479B131B6E6A2A6\" quest=\"471B71E3199030AC\"/>",
+      "<reward reward=\"1C20D59F776801F5\" quest=\"471B71E3199030AC\"/>",
+      "<reward reward=\"1240BB05CA2384CF\" quest=\"471B71E3199030AC\"/>",
+      "<reward reward=\"242ADA11C1EF7893\" quest=\"471B71E3199030AC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:chest_minecart"
+    },
+    "subtitle": {
+      "text": "Travel far by rail"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -224,
+          -448
+        ]
+      }
+    }
+  }
+}

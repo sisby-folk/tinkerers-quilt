@@ -1,0 +1,99 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "562B62E5B498DC8C": {
+      "title": "Follow the path of the Hero [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3A673F89C721DF64": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Base": 11,
+            "Patterns": [
+              {
+                "Color": 14,
+                "Pattern": "flo"
+              },
+              {
+                "Color": 11,
+                "Pattern": "hh"
+              },
+              {
+                "Color": 4,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 11,
+                "Pattern": "ts"
+              },
+              {
+                "Color": 8,
+                "Pattern": "cbo"
+              }
+            ]
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Shield of the Hero\"}"
+          }
+        }
+      }
+    },
+    "67F09C40592B44D1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:protection",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Path of the Hero",
+    "description": [
+      "<h2>take on the realms' challenges</h2>",
+      "<hr/>",
+      "<task task=\"562B62E5B498DC8C\" quest=\"4FE0BE6BF0009C4E\"/>",
+      "<hr/>",
+      "Many &&4Great Challenges&&r are present in the world, that threaten the &&2three dimensions&&r.",
+      "<br/>",
+      "Face them all and you shall be &&drewarded&&r.",
+      "<hr/>",
+      "<reward reward=\"3A673F89C721DF64\" quest=\"4FE0BE6BF0009C4E\"/>",
+      "<reward reward=\"67F09C40592B44D1\" quest=\"4FE0BE6BF0009C4E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blue_banner"
+    },
+    "subtitle": {
+      "text": "take on the realms' challenges"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -112,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "07C376A60F9F3148": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:sweet_berries"
+    },
+    "7EE4AC839C4D72B3": {
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sweet Berry Farming",
+    "description": [
+      "<h2>Farm 64 Sweet Berries</h2>",
+      "<hr/>",
+      "<task task=\"07C376A60F9F3148\" quest=\"531358BD1C258F99\"/>",
+      "<task task=\"7EE4AC839C4D72B3\" quest=\"531358BD1C258F99\"/>",
+      "<hr/>",
+      "Just throw a bunch on the ground, honestly. There's not much to it. &&dMaybe put them in rows? I'm not a cop&&r.",
+      "<br/>",
+      "&&aFoxes&&r like sweet berries. If a fox is &&dholding an item you want&&r, try throwing one!",
+      "<br/>",
+      "&&7[Fabrication]&&r Brushing through brambles &&dwon't hurt&&r if you're sneaking or wearing both &&3Leggings&&r and &&3Boots&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sweet_berries"
+    },
+    "subtitle": {
+      "text": "Farm 64 Sweet Berries"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          128,
+          -544
+        ]
+      }
+    }
+  }
+}

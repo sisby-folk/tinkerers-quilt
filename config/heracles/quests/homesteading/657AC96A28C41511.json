@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "322528062359C5A9"
+  ],
+  "tasks": {
+    "35834B56641501E3": {
+      "type": "heracles:item",
+      "item": "minecraft:repeater"
+    }
+  },
+  "rewards": {
+    "2D44ADA60A0C073A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:smooth_stone_slab",
+        "count": 64
+      }
+    },
+    "1A767C788B6AE3AD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone_lamp",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Transmission",
+    "description": [
+      "<h2>Craft a Repeater</h2>",
+      "<hr/>",
+      "<task task=\"35834B56641501E3\" quest=\"657AC96A28C41511\"/>",
+      "<hr/>",
+      "&&3Redstone Dust&&r can have &&315 levels of power&&r, decreasing each block away from the &&3power source&&r.",
+      "<br/>",
+      "&&3Opaque Blocks&&r can be &&3strongly&&r or &&3weakly&&r powered.",
+      "<br/>",
+      "&&3Strongly powered&&r blocks will &&dprovide full power to adjacent Redstone Dust&&r. ",
+      "<br/>",
+      "Both kinds of power will power adjacent &&3Repeaters&&r, &&3Comparators&&r, and &&3Functional Components&&r.",
+      "<br/>",
+      "A &&3Repeater&&r can be used to &&dextend a redstone signal&&r, delaying it by 0.1 seconds. This delay can be increased with &&7[&&r&&6Right-Click&&r&&7]&&r.",
+      "<br/>",
+      "&&3Redstone Dust&&r can &&dtransport power upwards&&r in a 2x1 area using top-facing &&eSlabs&&r &&dto form stairs&&r.",
+      "<br/>",
+      "&&eLamps&&r can help find out &&dwhere functional components can receive power&&r.",
+      "<hr/>",
+      "<reward reward=\"2D44ADA60A0C073A\" quest=\"657AC96A28C41511\"/>",
+      "<reward reward=\"1A767C788B6AE3AD\" quest=\"657AC96A28C41511\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone"
+    },
+    "subtitle": {
+      "text": "Craft a Repeater"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          368,
+          -320
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4FE0BE6BF0009C4E"
+  ],
+  "tasks": {
+    "47F16DEAF8370460": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dark_prismarine"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 3,
+      "entity": {
+        "type": "minecraft:elder_guardian"
+      }
+    }
+  },
+  "rewards": {
+    "01D56A801BFE61E5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:heart_of_the_sea"
+      }
+    }
+  },
+  "display": {
+    "title": "Into the Deep",
+    "description": [
+      "<h2>Vanquish three Elder Guardians</h2>",
+      "<hr/>",
+      "<task task=\"47F16DEAF8370460\" quest=\"30ED364C540672C8\"/>",
+      "<hr/>",
+      "Three &&4Elder Guardians&&r live at the heart of &&2Ocean Monuments&&r - &&drestricting your mining ability&&r.",
+      "<br/>",
+      "Guardians fire slow-charging lasers at the player and allied axolotls.",
+      "<br/>",
+      "When their spikes are extended, Guardians &&dreflect damage back to the attacker&&r.",
+      "<hr/>",
+      "<reward reward=\"01D56A801BFE61E5\" quest=\"30ED364C540672C8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dark_prismarine"
+    },
+    "subtitle": {
+      "text": "Vanquish three Elder Guardians"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -176,
+          32
+        ]
+      }
+    }
+  }
+}

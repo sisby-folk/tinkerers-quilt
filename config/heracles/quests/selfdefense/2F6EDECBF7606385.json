@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "423493D133AB8111": {
+      "type": "heracles:item",
+      "item": "minecraft:trident",
+      "nbt": {}
+    }
+  },
+  "rewards": {
+    "51CC401C11221252": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "51CC401C11221252_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": {
+              "id": "minecraft:enchanted_book",
+              "Count": "1",
+              "tag": {
+                "StoredEnchantments": [
+                  {
+                    "id": "minecraft:loyalty",
+                    "lvl": "1"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "51CC401C11221252_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": {
+              "id": "minecraft:enchanted_book",
+              "Count": "1",
+              "tag": {
+                "StoredEnchantments": [
+                  {
+                    "id": "minecraft:riptide",
+                    "lvl": "1"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "What is it, Boy.",
+    "description": [
+      "<h2>Acquire a Trident</h2>",
+      "<hr/>",
+      "<task task=\"423493D133AB8111\" quest=\"2F6EDECBF7606385\"/>",
+      "<hr/>",
+      "As the only &&dhybrid melee/ranged&&r weapon, &&3Tridents&&r can be &&dthrown at speed underwater&&r, outmatching &&3Bows&&r.",
+      "<br/>",
+      "Tridents need to be &&dpicked up after throwing&&r, unless they're enchanted with &&eLoyalty&&r or &&eRiptide&&r. ",
+      "<br/>",
+      "&&eLoyalty&&r causes the trident to &&dreturn&&r after being thrown. &&eRiptide&&r turns the trident throw into a &&dlunging melee attack&&r.",
+      "<br/>",
+      "&&7[Tinkerer's Quilt]&&r Tridents can be crafted from &&3Prismarine Shards&&r, which drop from guardians in &&2Ocean Monuments&&r.",
+      "<br/>",
+      "&&7[Fabrication]&&r Tridents can also be enchanted with &&dPower or Sharpness&&r. &&3Impaling&&r works on any wet mob. &&3Channeling II&&r works in rain.",
+      "<hr/>",
+      "<reward reward=\"51CC401C11221252\" quest=\"2F6EDECBF7606385\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:trident"
+    },
+    "subtitle": {
+      "text": "Acquire a Trident"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "42E807C7DFC19EBF"
+  ],
+  "tasks": {
+    "24CF62AE30B967D5": {
+      "type": "heracles:item",
+      "item": "minecraft:cactus"
+    },
+    "0902CDEF8811150A": {
+      "type": "heracles:item",
+      "item": "minecraft:water_bucket"
+    },
+    "31FD7D7BBBB9AD94": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_sand"
+    },
+    "3F83573828660A8E": {
+      "type": "heracles:item",
+      "item": "minecraft:netherrack"
+    }
+  },
+  "rewards": {
+    "6D77A075734742C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:powder_snow_bucket"
+      }
+    },
+    "4DB2617B6D2A84B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cactus",
+        "count": 32
+      }
+    },
+    "1C926FFA7B57952C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:magma_block",
+        "count": 64
+      }
+    },
+    "36ACCCEC6766FA37": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cobweb",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Lemaign",
+    "description": [
+      "<h2>Acquire defensive materials</h2>",
+      "<hr/>",
+      "<task task=\"24CF62AE30B967D5\" quest=\"745E392CA5AEA00D\"/>",
+      "<task task=\"0902CDEF8811150A\" quest=\"745E392CA5AEA00D\"/>",
+      "<task task=\"31FD7D7BBBB9AD94\" quest=\"745E392CA5AEA00D\"/>",
+      "<task task=\"3F83573828660A8E\" quest=\"745E392CA5AEA00D\"/>",
+      "<hr/>",
+      "Improvised defenses are often devised of &&dharmful barriers and traps&&r.",
+      "<br/>",
+      "&&3Cactus&&r can be made into &&dharmful partial walls&&r. &&3Magma Blocks&&r can be made into damaging floors, and &&3Netherrack&&r stays on fire forever - the three &&dcombine to great effect&&r.",
+      "<br/>",
+      "&&3Water Buckets&&r, &&3Cobwebs&&r, and &&3Soul Sand&&r can all &&dslow oncoming enemies&&r - combining excellently with other sources of damage. ",
+      "<br/>",
+      "Water can also be &&3deployed at your feet&&r in panic scenarios to &&dstall crowds&&r.",
+      "<br/>",
+      "&&3Powder Snow&&r can kill non-skeletal mobs and deals &&dmassive damage to Magma Cubes and Blazes&&r. It can be collected with a Bucket, or by leaving a Cauldron out in the snow.",
+      "<br/>",
+      "&&7[Fabrication]&&r Cactus &&ddoesn't destroy items&&r, making it easier to create traps with.",
+      "<hr/>",
+      "<reward reward=\"6D77A075734742C2\" quest=\"745E392CA5AEA00D\"/>",
+      "<reward reward=\"4DB2617B6D2A84B7\" quest=\"745E392CA5AEA00D\"/>",
+      "<reward reward=\"1C926FFA7B57952C\" quest=\"745E392CA5AEA00D\"/>",
+      "<reward reward=\"36ACCCEC6766FA37\" quest=\"745E392CA5AEA00D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone_bricks"
+    },
+    "subtitle": {
+      "text": "Acquire defensive materials"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          48
+        ]
+      }
+    }
+  }
+}

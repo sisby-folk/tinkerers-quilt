@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4048B08BA7BA39BE"
+  ],
+  "tasks": {
+    "57C85AE7D22E4328": {
+      "type": "heracles:item",
+      "item": "minecraft:brewing_stand"
+    },
+    "702F50852618854C": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "rewards": {
+    "46B82B5C477BA0F3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 10
+      }
+    },
+    "5D033BFC370CD3BF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:magma_cream",
+        "count": 6
+      }
+    },
+    "1528B67155CB6378": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:pufferfish",
+        "count": 6
+      }
+    },
+    "39B9A72FFADE2792": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:phantom_membrane",
+        "count": 6
+      }
+    }
+  },
+  "display": {
+    "title": "§o*cackles*§r",
+    "description": [
+      "<h2>Acquire Brewing Ingredients</h2>",
+      "<hr/>",
+      "<task task=\"57C85AE7D22E4328\" quest=\"274780E9080AF463\"/>",
+      "<task task=\"702F50852618854C\" quest=\"274780E9080AF463\"/>",
+      "<hr/>",
+      "&&2Nether Fortresses&&r contain both &&3Blazes&&r and &&3Nether Wart&&r, which are required to begin &&dBrewing Potions&&r.",
+      "<br/>",
+      "&&3Nether Wart&&r can be regrown by planting it on &&3Soul Sand&&r in any dimension.",
+      "<br/>",
+      "&&3Brewing Stands&&r accept &&3Blaze Powder&&r as fuel, up to three bottles, and a &&3brewing ingredient&&r. ",
+      "<br/>",
+      "&&3Awkward Potions&&r are made from water bottles brewed with &&3Nether Wart&&r, which can in turn be brewed with &&evarious ingredients&&r to create helpful potions.",
+      "<hr/>",
+      "<reward reward=\"46B82B5C477BA0F3\" quest=\"274780E9080AF463\"/>",
+      "<reward reward=\"5D033BFC370CD3BF\" quest=\"274780E9080AF463\"/>",
+      "<reward reward=\"1528B67155CB6378\" quest=\"274780E9080AF463\"/>",
+      "<reward reward=\"39B9A72FFADE2792\" quest=\"274780E9080AF463\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:brewing_stand"
+    },
+    "subtitle": {
+      "text": "Acquire Brewing Ingredients"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          144,
+          64
+        ]
+      }
+    }
+  }
+}

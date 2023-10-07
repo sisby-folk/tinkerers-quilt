@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2803B3AF9D4E64A3"
+  ],
+  "tasks": {
+    "45538435550F3E5E": {
+      "title": "Look into an End Portal",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:end_portal_frame"
+      },
+      "type": "heracles:block_interaction",
+      "block": "minecraft:end_portal"
+    }
+  },
+  "rewards": {
+    "3C92DF27111BD7E9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_boots",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": 3
+            }
+          ],
+          "RepairCost": 1,
+          "display": {
+            "Name": "{\"text\":\"Feather Boots\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Where are the Hot Dra-oh",
+    "description": [
+      "<h2>Activate an End Portal</h2>",
+      "<hr/>",
+      "<task task=\"45538435550F3E5E\" quest=\"345A5D446CD0E0D2\"/>",
+      "<hr/>",
+      "&&2The End&&r consists of islands floating in the &&3void&&r, where falling is very dangerous.",
+      "<br/>",
+      "You spawn at the &&2Central Island&&r, where the &&4Ender Dragon&&r guards the &&2Return Portal&&r and &&2End Gateway&&r.",
+      "<br/>",
+      "&&7[Fabrication]&&r Falling into the void instead &&dreturns you&&r to where you fell, dealing high damage.",
+      "<br/>",
+      "&&7[Apathy]&&r The central &&2Return Portal&&r and &&2End Gateway&&r are active without defeating the Ender Dragon.",
+      "<hr/>",
+      "<reward reward=\"3C92DF27111BD7E9\" quest=\"345A5D446CD0E0D2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:end_portal_frame"
+    },
+    "subtitle": {
+      "text": "Activate an End Portal"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          272,
+          16
+        ]
+      }
+    }
+  }
+}

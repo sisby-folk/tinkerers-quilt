@@ -93,6 +93,10 @@ file = "config/colormatic.properties"
 hash = "4fcc090a9488eee469956b8f70fead42eb60b513a7ee3de696887dcda051dd35"
 
 [[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "2e522ef287cb56150bd2dd59a5cd6d28e6b45797a2bf9c150415740aaf1c2930"
+
+[[files]]
 file = "config/earthtojavamobs.json"
 hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
@@ -113,10 +117,6 @@ file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
 [[files]]
-file = "config/fabric-title-changer/settings.json"
-hash = "cd281341dcaca9438a70c38c3821f373998cbbd6abf4a5a3225fdf76d39c2f09"
-
-[[files]]
 file = "config/fabrication/features.ini"
 hash = "063310847edb89b45a13fc11d1761606741c74674278d370c19ef1ed70db1a14"
 
@@ -125,44 +125,696 @@ file = "config/fabrication/yeet_recipes.ini"
 hash = "42c1b68105868aad0171e7ae21759d2c4582c9e97bc44fb140d3aba26db5bb04"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "7dfe6aef141e866a1c5a7c8ca286087817f124b9e97878d7e483fb8313015002"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "40255e4244bf4881b6274e72eb689f292ea4aa2128d1e4a117d9352f7ea1021e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/the_basics.snbt"
-hash = "8450a8df5f1e1526e6ac5a68a03ba5ec6873c10a81e5e8c9c7770b2b0431637d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
-hash = "e5fdcc97172409c9e94d660cade7c1abc9609ff4e321dfc13add4c0186e29e88"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "21f2cb588ae33b4a4cf42908ea52a0ea641319669c1f8795246ae5e616f7e8d0"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "09cf131d70438316059769d5316a6c0df3210013dae42f8afd496a838378a431"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
-hash = "b400495d827f7e688a0bae2c9546139be7ee1bfad4cf2652bce1722f8c82e51b"
-
-[[files]]
 file = "config/fwaystones/config.json5"
 hash = "8072d3930fd557613eaa4baf1e04ebfda9288119ea4f6de80a6b1f7b175e309d"
+
+[[files]]
+file = "config/heracles/groups.txt"
+hash = "799f72b841ccf42d0406c9107f3850037beb3c14bfe32df41704411b793b67eb"
+
+[[files]]
+file = "config/heracles/quests/exploration/01646EC056D18511.json"
+hash = "112603e47b82f179b8e411258ff6841c5263151a49d5e647bce48a7783e5b691"
+
+[[files]]
+file = "config/heracles/quests/exploration/02D9B5C70D9D6007.json"
+hash = "a770f798ea14bba3aa1aedd2111f90d51a358e7fcb96ef20056307767e709d29"
+
+[[files]]
+file = "config/heracles/quests/exploration/0305A29ECBFA79FA.json"
+hash = "a0fa6f4386d78eb90f8b55253e4a25dff21bf64778cbc9370226ea86bd03dc98"
+
+[[files]]
+file = "config/heracles/quests/exploration/05737FE8552841E9.json"
+hash = "39fc6e8f834c2fd587b278abb9394dded81755781e428ed69d8ec0dde48fe43d"
+
+[[files]]
+file = "config/heracles/quests/exploration/08398FBBB792C742.json"
+hash = "9de42869fa6b21ce742ca1f6e3ca137fceb5d624fdd2544bb60bc4ac401d2955"
+
+[[files]]
+file = "config/heracles/quests/exploration/09874FF0F69D98F0.json"
+hash = "64b0ff25c2a6d592e9132f646c77f19f6fdf956afc1651bdf0e7abe24dac673f"
+
+[[files]]
+file = "config/heracles/quests/exploration/0B63891D4F70167D.json"
+hash = "2847f5696ced3fe85beff7774cef4f258cebafcdaed44fe9413c221b67c9d775"
+
+[[files]]
+file = "config/heracles/quests/exploration/0C42AC52CDDEF4BB.json"
+hash = "62b27d872c118ad20dfac585ed79d71e1772f595f99de7eca46826211d67aa45"
+
+[[files]]
+file = "config/heracles/quests/exploration/0EFAB7B8A93FB8BB.json"
+hash = "79570c6e02844ee566042e7610226cc5a29b83e5e1e62eeb5ab9361ba7f057b7"
+
+[[files]]
+file = "config/heracles/quests/exploration/10CFFE20ABD36803.json"
+hash = "fb6b0291bb51c0b4088d090b23119fb7c368e67d904ce278c8f11a857525f665"
+
+[[files]]
+file = "config/heracles/quests/exploration/1932327D56163D18.json"
+hash = "9cf751c86cdf6d860674cdbbcc4167f4c8d6d084e234e587433733ceae7c3fb1"
+
+[[files]]
+file = "config/heracles/quests/exploration/19FF00BA5161FE04.json"
+hash = "325af367a4518a8af9b805f7dc7bc2aa2f572b16e885b578132e01a767e71b17"
+
+[[files]]
+file = "config/heracles/quests/exploration/1EA97FD583A20884.json"
+hash = "3a87f1cdc1426803cab906f868c0c176bb63f1d915e4c1ec096bd868f2a718ce"
+
+[[files]]
+file = "config/heracles/quests/exploration/2393A9D50B18EEAE.json"
+hash = "bfbfaaced5613cecfe812228d70dd322cabac442ea51e310b8960ae6734227af"
+
+[[files]]
+file = "config/heracles/quests/exploration/2591980163249EF1.json"
+hash = "e06dc0bed7c7fd577ae16c6d6d07cbc1acb2e17d3d39c167edf4c303ce4abbea"
+
+[[files]]
+file = "config/heracles/quests/exploration/28AFD314DDDE3FC4.json"
+hash = "41335e794be494080194cc71c13b76bbcaa42938dc522b5c22ec798935f58b64"
+
+[[files]]
+file = "config/heracles/quests/exploration/30EEC5B4C5178E93.json"
+hash = "eef01029d3cdbd3675e9c76ba21ed4627c5438d9294a28c3db00c846a29b7bf3"
+
+[[files]]
+file = "config/heracles/quests/exploration/3602D52A78391BFA.json"
+hash = "1fd44a5be1cca6c5e4cbbe2f30776a00cde6e925dcd5e9a0853e5821051b3ac5"
+
+[[files]]
+file = "config/heracles/quests/exploration/3D08C518610A72F1.json"
+hash = "c93eca180d493fd757f97b3598a2e180123b211cf3287f2dc2eb5e0bbd3d7153"
+
+[[files]]
+file = "config/heracles/quests/exploration/3E19CC5752F07CF9.json"
+hash = "cce8cea607f85c2bb02a63d2911a84a5870ba74d1b70820377d5c11b2f7240c6"
+
+[[files]]
+file = "config/heracles/quests/exploration/3F3A1267F224AD07.json"
+hash = "547ac7bc191f84ec5f8f807fa7029567760941275a45901d3103a48156c4b994"
+
+[[files]]
+file = "config/heracles/quests/exploration/449397788969C004.json"
+hash = "d63cc30e2cceb8a7fcc6a34e38d8709b6bb61caf13b0ef5ac67d4821b710b238"
+
+[[files]]
+file = "config/heracles/quests/exploration/47ED4204DD0D65C4.json"
+hash = "1273b72868d813f031824fffe7c68930f603d83d378d39762cd72ab6fa640e27"
+
+[[files]]
+file = "config/heracles/quests/exploration/4B74AEAA4D30B428.json"
+hash = "452ac5aa51fe7980a11820a305ba4850d5555e5109de223cf0b1ac3c8a349daf"
+
+[[files]]
+file = "config/heracles/quests/exploration/50C5FC2ED5BF1A83.json"
+hash = "6ac605722d03d4e025a0ec528080bb2a8576e7b1eb23443a594c136bc47d3bd6"
+
+[[files]]
+file = "config/heracles/quests/exploration/51415C8C88AA350B.json"
+hash = "f81ac76cb99dc3241651ed67d51a5aed53a4d620684daca71d496fd9a81708bd"
+
+[[files]]
+file = "config/heracles/quests/exploration/522B247B10CCF04E.json"
+hash = "2544b27b9c1f34c96dac8377e20ccd75b8d11fc569702714c86232c47829eb01"
+
+[[files]]
+file = "config/heracles/quests/exploration/55DDA9D21E24AF10.json"
+hash = "0b598289a7cea7dbb7f75ebdad3d3007e27b17e315c329a87821d7f2939cc625"
+
+[[files]]
+file = "config/heracles/quests/exploration/56295946AF0DD074.json"
+hash = "4c80243fa33980b9c33b21a8d0f6b727b988424afb8708a349093044e126fd93"
+
+[[files]]
+file = "config/heracles/quests/exploration/562E842E71B5725B.json"
+hash = "0537d44b73d66d07c39b9a5441a4d8a4ff077cdb435d5df660bd33bc9980fa28"
+
+[[files]]
+file = "config/heracles/quests/exploration/5CF8EB5303569739.json"
+hash = "a885a036715ad59684ea6e281a387fdf14d842310ac82b4edfb50868e4423dfd"
+
+[[files]]
+file = "config/heracles/quests/exploration/5DC1E9DC98895E6F.json"
+hash = "86bb8bf6429f747dcfb2c23631c0b4e02d52965b5fc9632f3d5a0993558b51b4"
+
+[[files]]
+file = "config/heracles/quests/exploration/5F4CDC9DB19F6B49.json"
+hash = "4517be5853ede6c2ec726e68b17c170cc12b8184b9237f784e85fdf8cbdbe554"
+
+[[files]]
+file = "config/heracles/quests/exploration/61E3A3B353DCD588.json"
+hash = "a664f3e40a0da0391f92697527c74d8c5f7b529779e5a62ef64016c3eac77bcd"
+
+[[files]]
+file = "config/heracles/quests/exploration/65DADF56E2AB01DF.json"
+hash = "0d3a53daf95602a645407ec23d1d8bf2db126e07fe3b11c6b7a26d9cac6f8e16"
+
+[[files]]
+file = "config/heracles/quests/exploration/687ED1196101F48D.json"
+hash = "7983ec3ea42c5fe2c96e202fd56ea336c14c3076d57d439ca204ea1c0005f243"
+
+[[files]]
+file = "config/heracles/quests/exploration/6FB48CC24D3230F5.json"
+hash = "9a292533253dfc2d94574a1591bb68bf9fd408d8718c941b9ed81173fb80b68f"
+
+[[files]]
+file = "config/heracles/quests/exploration/75D48083C53616FF.json"
+hash = "bf4fc11683eb718ba352cdeced21b2929a5f002e1f3a3cc12c32b4f7a3a47e83"
+
+[[files]]
+file = "config/heracles/quests/exploration/789344ADD80A6FFA.json"
+hash = "ead180d4fe58dffe20bebab8e255e7348f01e073b3a265530bf0b863ab454dd4"
+
+[[files]]
+file = "config/heracles/quests/exploration/7CEE48A412C94320.json"
+hash = "a3c7e5e6f71433e603c5f9d1439bbf625d65b04d851a108b4da1c95413873be7"
+
+[[files]]
+file = "config/heracles/quests/exploration/7FC50C764AF1D65A.json"
+hash = "cebbd906343d8e3645c9c1fcdbf664f491c922fee9eaba7df1bd0c2934ba66c4"
+
+[[files]]
+file = "config/heracles/quests/homesteading/0342FEBA88E3AF0E.json"
+hash = "5f1077cd20c06feefc9866731819ef3df535d5292fa8c6d330b7dce029915b27"
+
+[[files]]
+file = "config/heracles/quests/homesteading/039E822D32DC0A9B.json"
+hash = "d8cf29cd9153183ae6b375d8049b4d53e2561fd2efa721d261128fe3842a9dae"
+
+[[files]]
+file = "config/heracles/quests/homesteading/03CF663BF52022CB.json"
+hash = "b423fc670d418695a57149a08bcf30766c37cce5749633a37c26db9b842e5fb4"
+
+[[files]]
+file = "config/heracles/quests/homesteading/0953453F97BA921D.json"
+hash = "3117856c02cd39f191af430f817e8b3b9c22c9f8fd0a2a4bbdd116b861c51bf0"
+
+[[files]]
+file = "config/heracles/quests/homesteading/096988E67755A423.json"
+hash = "c5e45449b3b73e378651aa86b68205031dfb346d452856f343d5c5eb78be1165"
+
+[[files]]
+file = "config/heracles/quests/homesteading/0BB19BE0BA8A2037.json"
+hash = "df52ddedfed7a0e0e7879fbc9ef75f7a08636e370c0e558b2a5de4220c795f8f"
+
+[[files]]
+file = "config/heracles/quests/homesteading/0E3858BCFECB6862.json"
+hash = "6ae598e3d65f715c2518edf07e2f625f68705eb88bec24d2759b492576db1cab"
+
+[[files]]
+file = "config/heracles/quests/homesteading/0EF299A1A5009971.json"
+hash = "d27d78074491a1bb33b812d6e3b959216b1a46f6037cb7005ddfb95adc11a569"
+
+[[files]]
+file = "config/heracles/quests/homesteading/0FC2E6F08F772324.json"
+hash = "a5bd89c92772a147708ba676b4986e3d9029dd055edcb88cd38061ca31cef04c"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1233042213A9729E.json"
+hash = "490d532e52b8e5714de67f0bb06e964385d9642764989d9a7ec94c0bf0bf198f"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1254376D14A00E56.json"
+hash = "8ebd60558381e27adc622392c5363f1fbcb07a71c554da884825c6598a0350b9"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1587D6896E210D6D.json"
+hash = "7dcc5dfe87ec761a014bd3bf235a738d3fb965f3a9aff37e958c25d70f77b51e"
+
+[[files]]
+file = "config/heracles/quests/homesteading/192BAFDE101F900B.json"
+hash = "783283f6b4d9aa3d2359cf9f88a9ee3301cc558618a27b9d05c078d9e03c0e36"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1BCC72C060356F02.json"
+hash = "ae7956dcdab3242efd0d2ae7d7f4932e308bfd314e344108f78e2cbaeaf31720"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1D22455B9931408B.json"
+hash = "3389f52a53de925594f5c0a56ee89cbad1d299c5525fb3097d69258a77805f9d"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1E92A6BE31198EF3.json"
+hash = "b5d2afb92fd4e15b90f21fa71d420aa634f934706bea7dcf0b263bf801434a1a"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1FADE18B62E069A1.json"
+hash = "75a79f348493ce4ff74a9b6dbcbf5b2d4112f027188683353d96ec2d84edbd44"
+
+[[files]]
+file = "config/heracles/quests/homesteading/1FFD2B27BC87EADB.json"
+hash = "fbda98992cfa999fec22ccc3a0515c497eae60a575025ef2492774322f85c2fa"
+
+[[files]]
+file = "config/heracles/quests/homesteading/20E2938DD7365207.json"
+hash = "2e029e41743aaa1fafdeb3760cfd62c9c3f79e79eb694b5a0770a50269e708bb"
+
+[[files]]
+file = "config/heracles/quests/homesteading/29358767A696B164.json"
+hash = "a1c46f9a7a1c4a69a83def83812b20eba8125159cbc67d72caecf66daf6f5b05"
+
+[[files]]
+file = "config/heracles/quests/homesteading/2AEFE77787E113A3.json"
+hash = "7e603c0c718a2b85f1168e01b4cac465ea2eff5229dba047fb751b2b33ac7ef0"
+
+[[files]]
+file = "config/heracles/quests/homesteading/2D74603197C7629C.json"
+hash = "d54c7a9ac2d86296c81693b421cb214d61e58dca88cca804900e8c7735e329c7"
+
+[[files]]
+file = "config/heracles/quests/homesteading/2DF95382AC7B7AD4.json"
+hash = "f297c3c00cb0b7faab809ead8cef171a39267f98982ab2dcf1624c0af111a1e9"
+
+[[files]]
+file = "config/heracles/quests/homesteading/2F461D711895F36B.json"
+hash = "25c20d810f2479b0826911f3992834f97b0303494766e4a32525b7b10d2a6b16"
+
+[[files]]
+file = "config/heracles/quests/homesteading/322528062359C5A9.json"
+hash = "ac79d19314ccccecc40db7d54f40bc69153565445e6f5fb57722978a4be4c95d"
+
+[[files]]
+file = "config/heracles/quests/homesteading/3347D4D672927CA6.json"
+hash = "e83d47c2e446a02a56cf0286299cbbf92a8f5303c948899e6749642329d93926"
+
+[[files]]
+file = "config/heracles/quests/homesteading/3811025165802342.json"
+hash = "3156becbd3ca3229289c985b54eed959c64d2e6e1eeaffc31b327a295ffa4101"
+
+[[files]]
+file = "config/heracles/quests/homesteading/392E005585B652A4.json"
+hash = "135d9ee1c9472ec1e18f03cb3cb36399af4e6ddd533dc5fe6cae62767b08aaa6"
+
+[[files]]
+file = "config/heracles/quests/homesteading/3D5694CCE8F191BC.json"
+hash = "6d6b491e66e86aced5d97e5d5d52091a729e03162eec55edb74471654fecbb5f"
+
+[[files]]
+file = "config/heracles/quests/homesteading/413BD03774B3B9D5.json"
+hash = "f68aef5b9a804044e9028769067ce140c59d39312e73763633b5120b703789cc"
+
+[[files]]
+file = "config/heracles/quests/homesteading/423E897DEB76653D.json"
+hash = "c7f51e1bc2656454fbdc817766e83cf69dbfdcb65d87e4e6025df42bdd5f5d46"
+
+[[files]]
+file = "config/heracles/quests/homesteading/428252F5071CF0D0.json"
+hash = "797ebd8ec19b06cca24272a6e57c48f958af6774a5771a43999146f9a06028da"
+
+[[files]]
+file = "config/heracles/quests/homesteading/471B71E3199030AC.json"
+hash = "eb1aad2f67b1280c1399d94bb1eb60fa0ac6ccd98b57b8d8b66796e1aae3fd75"
+
+[[files]]
+file = "config/heracles/quests/homesteading/4E2B415A2E99BCF6.json"
+hash = "151b1797d46feeabc977f9c66d8188a12c5eb2420d08d4b747a5e85140d0c969"
+
+[[files]]
+file = "config/heracles/quests/homesteading/4E780825E91BA9CA.json"
+hash = "4cc1ac9a1bafd327e6c971a517ae9add073eb913a5fe43766f808139f59221d0"
+
+[[files]]
+file = "config/heracles/quests/homesteading/4FA802A874FC1A24.json"
+hash = "bf36210def1b250d73b0f4d719175a923cfba1b11cef4334eb9b04977e603131"
+
+[[files]]
+file = "config/heracles/quests/homesteading/51AC2E4D1053FC19.json"
+hash = "1cd75254dca76645ef0c4d87027cdd2a1ceb832958ded59bdf02803610ddcc1a"
+
+[[files]]
+file = "config/heracles/quests/homesteading/52E05DC7ED68C824.json"
+hash = "2861031948f8f6aa18c2161641a615ddb9eeffade9137a2d5d2c74f58cdd9203"
+
+[[files]]
+file = "config/heracles/quests/homesteading/531358BD1C258F99.json"
+hash = "25a7a6b688891419c96de76678b59af0b96a70b3d9bcb896d00aa27721b3619b"
+
+[[files]]
+file = "config/heracles/quests/homesteading/54557BCF50D4E3EA.json"
+hash = "c79f52004b799a82322705399f0169c812b6f6aa29f24f30962239f083c113e2"
+
+[[files]]
+file = "config/heracles/quests/homesteading/54AA1BD5E8241369.json"
+hash = "a82593b9e7c1cb8cfce6f5dff21b0fed715a3210e01c93aaddfe632738380842"
+
+[[files]]
+file = "config/heracles/quests/homesteading/55783EE248BAC550.json"
+hash = "967a93b2410337cdbc31eb7a5f08f37c02f1a39ae4c74ce2f1e89b62494dabed"
+
+[[files]]
+file = "config/heracles/quests/homesteading/56E8B3168203AA6F.json"
+hash = "9d634908ff60aa5441b73e5207631c4abaf6eab59853fa37df456b6427b751db"
+
+[[files]]
+file = "config/heracles/quests/homesteading/56FFE5307AA82DCD.json"
+hash = "beed52af8fe7863638eefab5946b3ac47016dc27cdd0cd82daf268172b95bf46"
+
+[[files]]
+file = "config/heracles/quests/homesteading/58CAA3CF4CE89A65.json"
+hash = "232105c601edf9ffddfd83e9b157ed90d6933a8ed0816c4bd92d31af7d8f5cb1"
+
+[[files]]
+file = "config/heracles/quests/homesteading/5BF7F408031029E9.json"
+hash = "b8a56f6da21fceae60c799de6ca5ea8bb677506f2b30b1521acf01b5b3d7c266"
+
+[[files]]
+file = "config/heracles/quests/homesteading/5C7110BA96ECA231.json"
+hash = "ab6976302a92e69a0fc210e165e1fded54edf8c801be07016fcddc437a019b7a"
+
+[[files]]
+file = "config/heracles/quests/homesteading/5DE40B33B987E149.json"
+hash = "2eb3c073a19af81d5e6f7dfc54f6373709c7c01109bfb6501b12923d33bee5ed"
+
+[[files]]
+file = "config/heracles/quests/homesteading/63C534CA1FC2DADE.json"
+hash = "e541345e68939fa01a3b7de166dc2ce2d721abddacc8e1f1e829950c54f92211"
+
+[[files]]
+file = "config/heracles/quests/homesteading/643F41D93DC1FB81.json"
+hash = "2fe4ae5e96f51e29ca683a4f0e3a98e809d82cbce1ba4a8a53458c51560fb769"
+
+[[files]]
+file = "config/heracles/quests/homesteading/645EFC73CEB1C918.json"
+hash = "13dc0045665ac5db21aab17ad21cd3a244ff182f39fd33fefef35ebf5a6022d3"
+
+[[files]]
+file = "config/heracles/quests/homesteading/64CD806DB1FFD979.json"
+hash = "1a7cf258c12cb40d22ed120ccd8f092f21da68c17d9c06f0acf45af7db63701c"
+
+[[files]]
+file = "config/heracles/quests/homesteading/657AC96A28C41511.json"
+hash = "e83c70a445b8f5ac502b7527b4ef544f0b28f1faed3caebfaff16e55b2bf43e0"
+
+[[files]]
+file = "config/heracles/quests/homesteading/665ED9CB789FB958.json"
+hash = "75f5ca3a695f944b4eae0c78be4b676cd4dcc47cd53658de57d53b7a0b4dd76d"
+
+[[files]]
+file = "config/heracles/quests/homesteading/68BCEE273A77F4DA.json"
+hash = "8e95e96c7f045e01a37cd503a07057c5de36ee8050db13e31a11240e85d699d5"
+
+[[files]]
+file = "config/heracles/quests/homesteading/6B1E74EF171BFD5E.json"
+hash = "19ad9fddcc6f671252b6e4d7afca4a4f02a670a47516abd456325e7747130df4"
+
+[[files]]
+file = "config/heracles/quests/homesteading/6E20F24C33A627DC.json"
+hash = "563a0bd5cdd3ae248b7a99388bc0e3662ea37fde7dfce54d215256a0bd790971"
+
+[[files]]
+file = "config/heracles/quests/homesteading/7164FFFB3AFAFEF3.json"
+hash = "ec4895499364f6fab45a10c4a938b2156a795d03549057be649c18bf6aa6d38d"
+
+[[files]]
+file = "config/heracles/quests/homesteading/74001D2726E7133D.json"
+hash = "72575a37fc678c8dc5747c45f0d7f75469dbc18d1d6bfd3e7655355f6dc5f82d"
+
+[[files]]
+file = "config/heracles/quests/homesteading/796366A8D7D8BBF8.json"
+hash = "0428d445af2721359ff538b9077ed3604ebc1831eac4b0121fadd92722b37e81"
+
+[[files]]
+file = "config/heracles/quests/homesteading/7AA799B6789ABD71.json"
+hash = "3b182eb6419413ea1e1d8743a8a87b9f16b719362a435b52a15cefe334ebcde9"
+
+[[files]]
+file = "config/heracles/quests/introduction/00BF3119EB22417C.json"
+hash = "e61e03233a45545061f3b54910f6505ef7c48c486ed75c31c63c21486e0334ab"
+
+[[files]]
+file = "config/heracles/quests/introduction/1474F51D2832FCD5.json"
+hash = "f23b2d27382531a25c40022faa78ca5240be485e7ca6555dcb11c3ead39cbed4"
+
+[[files]]
+file = "config/heracles/quests/introduction/15402DCFAC7CC56A.json"
+hash = "1cdfa5f1811c8e185e40c0ed382963c8aea4fd731ec3d580aae1a4cb9f070276"
+
+[[files]]
+file = "config/heracles/quests/introduction/227C88C00E509DAD.json"
+hash = "265593906abccacc3417302b563126c65d13e7e5068acbaeacaa1164ac1d934e"
+
+[[files]]
+file = "config/heracles/quests/introduction/337730F25EC36332.json"
+hash = "a5b8a656299b0d4b22abcd6788b982b070f0f3aab87fc0247b7fe78dc94bac39"
+
+[[files]]
+file = "config/heracles/quests/introduction/438625063C95601F.json"
+hash = "aa66d0acbc982007bef4f19aa0e43b5f4023a63d33358ede73a46e8512f8984d"
+
+[[files]]
+file = "config/heracles/quests/introduction/7840EB3C8B8048EF.json"
+hash = "be592478f816544d220ed2b5b9d4a99ebe8937b395955bd521b4c22ef34d500d"
+
+[[files]]
+file = "config/heracles/quests/introduction/7DCD80F80208292A.json"
+hash = "00a490e752817e79a2bc816971e7b30daf774f4a8b7c9df4f60f0be967ecd9f1"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/023DDA57ED1603C5.json"
+hash = "3899d2d47d3c60459b095ba59651cf5b68ff5e83339c9305fd9ac6b3f78d6c28"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/0B9F6A70B4F88B94.json"
+hash = "577ef0a2d1af5735e2bfc34e2bcc4f6253aaf9a7032d835cf6a13f41d053dd16"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/0CB054935E7926CC.json"
+hash = "c3b91f949a471adb9b36d0918a51191315efa1234498cfa7020063b52742ebc3"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/0F4FAE3B1041001F.json"
+hash = "d9ecf7b3dfda9941d1f14fa902f4ebf4c3149e6c64aac644e0a9d933ba15e3c5"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/1950317947BD61B0.json"
+hash = "62ada659f49fb6419f2728696344568a9dcd17ab7e9048931f2f829ffe14ebcc"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/20147B09F8E40DE9.json"
+hash = "75a83f839e3c8ef3107224d6ca8441d5b77de0fd2baa7d72ff72f7b4ddded54a"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/21738CE4F9A8D8ED.json"
+hash = "4d182db656193e9648d41dc9f06226cd171b3c82ce98b0d7ad2c995a6351e49e"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/26CD2014C0B206D0.json"
+hash = "a322eb7da9f27f85fa7dc371d45262a99dfaab160c3e30139ffc8004dd79e831"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/2BA288C7EE0930DB.json"
+hash = "65cee7591de262a4ce197f45b72fa7d8de50ac5bece4e087b6097d4776a8ef87"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/2D49941B8AEF7256.json"
+hash = "1d22765ea43c8f756e30e19a49dac045eacd0813c68c731768de27a46268dbe1"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/2F6EDECBF7606385.json"
+hash = "d45f8602d8c45b29ee06c6b2973f748a913fcf80584ba58febd5c6870cc311de"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/30ED364C540672C8.json"
+hash = "873ccb6c2c755d21eb7f6982433c8b2fa53c48e80722e2416bc0d01ce2d97d7f"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/349E511AA603A620.json"
+hash = "78f62a069d48d98d0526d4e32135a3668761ff6a3f4bc751d235c82e9a9b3c30"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/35AED8D09C7CF638.json"
+hash = "2942d934d1fa6542de92f19a451203e60b2e2debf3e7268b310f1196477e6083"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/3BBB8E131ECD4FF5.json"
+hash = "964c8b86de698335dc893c380271ebe9abbcc05b4a075f66c354b87a3c77ebbb"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/3C5FCE8C61F8A84B.json"
+hash = "a3b4c95bb5d2866cfbde122864cb79d0486240e55c32c70d0dcfb43b36df8e0d"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/3CF0AC2D4BCAC32A.json"
+hash = "0646bdfd614400bfe767f464ea8b04f8b36984b9ff57b65e4d878c4225a01b80"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/416A7E1DCFFE12F4.json"
+hash = "73a889551aaeb1e504e4e8f747b8753f6faab6e5f40019d69249a0ceb9165665"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/42A9FC81752B5A9F.json"
+hash = "41790df4a8e1e16ec944776e67335e809613fed203aa1f3c1a2a0a1f30bdd5e4"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/42E807C7DFC19EBF.json"
+hash = "d9aeedefe9560843f8fb5e5d60840425b1454f25f72c46f911b7b97282dcd09f"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/479E0E3F26F179CE.json"
+hash = "2ae02c2bbde0a0ccf4f7c8a342a3ee61707f8455fc535744597d2528db1ded12"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/4FC61BF1949C8BE9.json"
+hash = "d5d91ab1502f9ba0f1f02416d90e09eee49cbbd413814a1a7039adfa2f8958e2"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/4FE0BE6BF0009C4E.json"
+hash = "51a5c211019ba83964e92e01f0021524de204362fbc6697b9caa09494a1f05fe"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/52AC9ECD81435809.json"
+hash = "213a8a4541adc824480b38a647ce1d4c4f201480d0dcbffcdd6c4fd578a93b6d"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/5CA39231B56AE5CB.json"
+hash = "928660bac11578daacfe7fc267f6d32ffd5c41af220f0a0385291f4b6b2bb868"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/5CE64305EE23917A.json"
+hash = "e42a119dc8551d83441df0805b9fab240f7971c316c74a5499b89866c50a4b4b"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/5E4CDD8923AF498D.json"
+hash = "7cbbb7338ae717a71bf2a4d8d2ab8ff9d212dd50517db7a48cba42bdf3682f54"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/6102768050D4F3E5.json"
+hash = "fb76ecec7efaf9aded5dc464795e29a68357db7dffe69f39f5e09d4d3809ab03"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/632CF29BB6751771.json"
+hash = "51d73b853f4dd8a0053e43335db68bb61179fa342841276554ef7bb0cbeef05d"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/68C1E9C446D8A069.json"
+hash = "ae196ae7dd9cc7a76fdf821d62eb675d0738396896a5001fe594355c0b6ae4fd"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/694FD9F0D62B459F.json"
+hash = "04765df6927c66c7f7873517bb47b98c4499a951533eee0b2312ef305048a63a"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/6F32C33B97BE205B.json"
+hash = "b4112adf42f364f58631bef27d151c0fc83c5698f58648b886fde4a7c4496d8e"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/6F439133A6E64D41.json"
+hash = "e124124b8482c71d5b7fbafc80d3fc9ef8da42dd0c56c6e7646eb09f71367258"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/710860ECFC84C122.json"
+hash = "10412510f63bb2a5cda5c07b0f792d2f01e22a86049c07f8317914416eba33d6"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/72CC6869A3793E22.json"
+hash = "e39c233179fc584b4d083e82084d956c86f6d765e7653412ec0ec6291b8e481d"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/745E392CA5AEA00D.json"
+hash = "dc2955e43ba7fb55332df6e4e278d2d2006f1e7008427295f8950a4a9ebffebf"
+
+[[files]]
+file = "config/heracles/quests/selfdefense/7BA5B355C7DFF7E3.json"
+hash = "849ff31dd32d73719264566756ee15b59260ac1ac433e1b03895e55945cabccf"
+
+[[files]]
+file = "config/heracles/quests/thebasics/06B5F4D5D8A0D202.json"
+hash = "065076b9d5c93e3d04a85b2d77006c27e8ec2f23a89764f5d5c7363ce4407ef6"
+
+[[files]]
+file = "config/heracles/quests/thebasics/0C2C9057CE459E63.json"
+hash = "89899395e63059dea958854415906e4b3406966f6fa05b488c2ad5ba1a5e9a1c"
+
+[[files]]
+file = "config/heracles/quests/thebasics/274780E9080AF463.json"
+hash = "2629e166b4c13b747a598d2a9aeab38dade9ae6ff6fee3931de443701571abf5"
+
+[[files]]
+file = "config/heracles/quests/thebasics/2803B3AF9D4E64A3.json"
+hash = "b209c6c09090bd72e6482110aab42d50c74702472be80f4bdb1d0f69d5de9dd5"
+
+[[files]]
+file = "config/heracles/quests/thebasics/28AFD82AD9C0B721.json"
+hash = "5c2e345eed24fbca82d41244098737a4c477f451c60d1b22cf0c27b7887751dd"
+
+[[files]]
+file = "config/heracles/quests/thebasics/3079DAC3AB1B0AD9.json"
+hash = "affecf8c49ea9632b666a03162e7749fad046a67a0cd517fbce6473e3a6a226f"
+
+[[files]]
+file = "config/heracles/quests/thebasics/324EABD3C7110E53.json"
+hash = "0d301140e2e3209388a9efca457d4c0146a6c990dc26d36a0fb3da68951721dc"
+
+[[files]]
+file = "config/heracles/quests/thebasics/345A5D446CD0E0D2.json"
+hash = "0d737b95f856d772cbccbea850bd207ffa3ad267963cb317012d0693af7567a7"
+
+[[files]]
+file = "config/heracles/quests/thebasics/358409FE5C2E19E6.json"
+hash = "7696b1599abd4492f4f27dfd786c39feb87684156ad0c5658aa8cd0d0f9978d2"
+
+[[files]]
+file = "config/heracles/quests/thebasics/4048B08BA7BA39BE.json"
+hash = "81e222e23a984c0d8353673955781e071c796e28fd5219240bb7e51370d2729c"
+
+[[files]]
+file = "config/heracles/quests/thebasics/41C9341CA261E52B.json"
+hash = "a36871f66dbe8fc0daca634605d4bce958634e81d87ae29d2382ef6363f9880d"
+
+[[files]]
+file = "config/heracles/quests/thebasics/4631772288F2177D.json"
+hash = "85eb4d8604b8c9bcf85c448e86932fcc0779a2efdbe6f08da09e2e2350980d7b"
+
+[[files]]
+file = "config/heracles/quests/thebasics/4FF54D00F9D67A59.json"
+hash = "b6d32f82ff3b32b34337257d4d03e2ee14cd98d3367ff5f4a599ae61cb7a1363"
+
+[[files]]
+file = "config/heracles/quests/thebasics/53AFBD6DDF572701.json"
+hash = "0558b0272b0147ad068fefa4d5eaadac8fec7050e77f46d355935524d8be9f9d"
+
+[[files]]
+file = "config/heracles/quests/thebasics/548555BB1E839006.json"
+hash = "41163f16b4c09a7dbb18873c40e87d59809d2ec2a2f6b9e037225e2b98628531"
+
+[[files]]
+file = "config/heracles/quests/thebasics/55AB6125B20E666B.json"
+hash = "08c453abb76341baaf29eb1cfa6ecc898ac99fa8f80f20712ba95a1d41c59525"
+
+[[files]]
+file = "config/heracles/quests/thebasics/58FCE9FA57CB5D39.json"
+hash = "636a0ee59d687d8d0ed16ac359af1c4bd334c1ed2446c17529f8a452a52753a1"
+
+[[files]]
+file = "config/heracles/quests/thebasics/594D5FA160E7C304.json"
+hash = "21f61f7e2819b355e956f8e3c0bea7a9fe61d8167641ce8947bc38905515c56e"
+
+[[files]]
+file = "config/heracles/quests/thebasics/5DA11E4FA4C52495.json"
+hash = "4e63d916e4ffe29e662b4347e41216c26536c020a090d07168fac7687a3fdca2"
+
+[[files]]
+file = "config/heracles/quests/thebasics/6CDF6FE603499CB1.json"
+hash = "c68d4b6f71d0e355bafbb047167286e4ad89d0f70133f56ad6c3773ffc83431b"
+
+[[files]]
+file = "config/heracles/quests/thebasics/71B31B0EAE8DCD3D.json"
+hash = "592c150906a45dc73279ccdb125725f24e15b251b910a28fec34fe1e920f3ab4"
+
+[[files]]
+file = "config/heracles/quests/thebasics/7AF853FC528DE6C6.json"
+hash = "5e43583a28ba5265fd1932e20a349d136411780692e9ba72eb5fe92e1a4c2cec"
+
+[[files]]
+file = "config/heracles/quests/thebasics/7D7CE9AD22CE6A29.json"
+hash = "e71f3dca5ccf05ae44a6796aab5bcb3087476a9bacdeefcdfc67b35fc4e3a056"
+
+[[files]]
+file = "config/heracles/tutorial.html"
+hash = "ae0a2441985818e428f057c6b9d8c7ae8ce09d627a447d676f15732ae713f32d"
 
 [[files]]
 file = "config/idwtialsimmoedm.json"
@@ -210,7 +862,7 @@ hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
-hash = "c9b843a1d89fbd86aa5e10f015d6ebad265897bfac6f2642f1f46a3c23073e86"
+hash = "988b58cfdf8f11be2c7942cc486104580be973193a0845ad803e22ed8d83456f"
 
 [[files]]
 file = "config/seasons.json"
@@ -234,7 +886,7 @@ hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
+hash = "2c642535700062a568bae2a8dedc8de4da6666e78d05e101fafd6eecea845db7"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -247,6 +899,10 @@ hash = "bed87a61fa40553e72fba632d269f452d62f3c03c02a296e78bd948bb5c78e11"
 [[files]]
 file = "config/styled-nicknames.json"
 hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
+
+[[files]]
+file = "config/styled_chat_emoji.json"
+hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
 
 [[files]]
 file = "config/styledplayerlist/config.json"
@@ -281,29 +937,12 @@ file = "data/seasons_compat_warn.dat"
 hash = "e4acf1365f8aba457ccde7923fd8b75e370e5f41da4673fb9cf9e0acabb442e2"
 
 [[files]]
-file = "mods/DyeableFishingLines-1.0.1.jar"
-hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
-
-[[files]]
-file = "mods/Fishingreal-1.19.2-1.6.jar"
-hash = "09319a9d29191677835fb252f586cb0e920b83c5f5606e33c63efc25eb54d2db"
-
-[[files]]
-file = "mods/Origins-1.19.2-1.7.1.jar"
-hash = "5b691abcae94af27295b9afaa1ee78fdda35cdf0355220aee30c0f8ee3e4f9d6"
-
-[[files]]
-file = "mods/advancements-debug.pw.toml"
-hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
-metafile = true
-
-[[files]]
 file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
 hash = "4b74f6b30d2b1bcca8ceb83c3ea0171317ad6d1250fe298d1b3006a65c7d7522"
 
 [[files]]
 file = "mods/ambient-environment.pw.toml"
-hash = "b6676e184b94a0efda7769df4413c91162341d1fdbcb668857509f20ace34be1"
+hash = "e57c4c652b887c25b8f5e8035b1fb172a5478076f1bba48ad0fb8d7d6d0b2b3f"
 metafile = true
 
 [[files]]
@@ -313,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/animatica.pw.toml"
-hash = "b494eb2872c5eb3c498e147be24a62e2c62485e375b9b99c15ae0faf8f9dd2ca"
+hash = "f0463f1b50e2c2ab3c726b14236b22e07ce9be4896528ede9d51486a212a5c07"
 metafile = true
 
 [[files]]
@@ -327,12 +966,12 @@ hash = "4da31f393c6645fc2b5c4d0958294c5d826333655591c7e4ab294268c936830b"
 
 [[files]]
 file = "mods/apathy.pw.toml"
-hash = "a86871c274f33dcff6d8153130e2bfb1b35a1c133e5b51705edd5d370525985f"
+hash = "125278fbba2150649dee164b0435b3f4a24ecf9d362dbdccdafbdf3e31661e4e"
 metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
+hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
 metafile = true
 
 [[files]]
@@ -342,7 +981,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "7916e9bf676dd9730f970893ff61fd25f43c563ff6133d1e7886366a3cd9e282"
+hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
@@ -352,27 +991,22 @@ metafile = true
 
 [[files]]
 file = "mods/badpackets.pw.toml"
-hash = "997c16130f34bf02d072731b8495b44cdd468aab70c1c65c1b640df6895a601c"
+hash = "e5a68e0e0d90aac1d965ab7cab5858c474e875be9012a7c8a3adf96420faa726"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "d607c1487fd6296778a954162c33bc9ba04a1f170a6bb454d1a850835dadb9d2"
-metafile = true
-
-[[files]]
-file = "mods/bedrockwaters.pw.toml"
-hash = "e143f0581d9a5079eef15faa984c73f8b242d7a54c0472b1ed461789eb91241b"
+hash = "7213c1f85dede9a36f77d4a0064a1c6aae79bcb4e281ae5d6d8698793ddda046"
 metafile = true
 
 [[files]]
 file = "mods/better-end-sky.pw.toml"
-hash = "9db7e0c35795f22069c8e789d5c1276a1b433aa26f287e3e80275b244a11d2ff"
+hash = "9d5eb5ff51dfc7123dfea318a027ec5fdf96ac9a29451367ce36cfcb88833679"
 metafile = true
 
 [[files]]
 file = "mods/boring-default-game-rules.pw.toml"
-hash = "b2e0150953510e34ad42d4ca70c1e42308b7935fd7aee54c1e7be359e50c78c2"
+hash = "e7892e2baf8ede8bae05e040a0a41db72f9abd891b74143484ef94fc8351006e"
 metafile = true
 
 [[files]]
@@ -387,22 +1021,22 @@ metafile = true
 
 [[files]]
 file = "mods/cardinalboats.pw.toml"
-hash = "8542b06b8be9d23a827f66caeb0adb8c33c8ad964491696ec3d9981fd75c0fe2"
+hash = "19858e3dc496697b534659e7c2b1ca54b1be4d8d591652fab2b5988ef489c0f5"
 metafile = true
 
 [[files]]
 file = "mods/carpet-extra.pw.toml"
-hash = "7c175e2efca8751fde89b7f3edd10860ec0d6e315f20ed9a95151f039dcf8804"
+hash = "787ec3dcce9e24a4e41e242c42b553926c607fa2cbabc9b5019e5653d7e249ac"
 metafile = true
 
 [[files]]
 file = "mods/carpet-fixes.pw.toml"
-hash = "25eb272f5f04290914e0b4c7370cf0ee059ee11888c43b8fd2805aaafecfa39c"
+hash = "d7c6555b666ff113894f6dd6dba7e6cc95c041542d06a39fd6f67421341711b9"
 metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "46b444dc88aac495a314699961072c72b16661130aff501d176a2b8c12c49b72"
+hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
 metafile = true
 
 [[files]]
@@ -411,43 +1045,33 @@ hash = "3b1ab484e2e6240f704b382d169d98f69ba3a312d89c0027f56e9ed7cd549c7f"
 metafile = true
 
 [[files]]
-file = "mods/charmonium.pw.toml"
-hash = "93d73b7d173197c7a9ab09f69bcb509c3c1f29cf3a552119f086b3f164a4d323"
-metafile = true
-
-[[files]]
 file = "mods/chickensshed.pw.toml"
-hash = "8bc786e062df82909ca65960da8c49469a70638587f28edbde548c47b94e1126"
+hash = "d1059d88d7deb358141cb0fc58d200cb458642f7474f85b483e824e746d8d353"
 metafile = true
 
 [[files]]
 file = "mods/chunks-fade-in.pw.toml"
-hash = "5d6498cf74852f8da28eef19c2fe1effcd69008ffebd316621629c759609e57b"
+hash = "ed917f425399ad4d2b38249319b4ecaac72f23eff3b3c723ad706a13cb4da2f7"
 metafile = true
 
 [[files]]
 file = "mods/cit-resewn.pw.toml"
-hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
+hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
 metafile = true
 
 [[files]]
 file = "mods/clickthrough.pw.toml"
-hash = "1a4c9d83b0709fd2f91814eb67f81e19bb1493315c42cb65efe911d0f34c5a13"
+hash = "7703705832bac583d57f9c7c4abf04a669273f3bbf047fb8b333b52e9f5bb3ed"
 metafile = true
 
 [[files]]
 file = "mods/client-tweaks.pw.toml"
-hash = "e1e6ae770f49d7c433bd557a61b918e514385af664a9976266e6256967feec4b"
+hash = "d850ebf55e4799b3dc85bbc5629ea162a7e164d6321d42032757a94c8a048792"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "d1dc8ac9ea0e5aed978c464ff34e460924dfc44d518eece4abbbfb9a5d49abf8"
-metafile = true
-
-[[files]]
-file = "mods/colormatic.pw.toml"
-hash = "c49d1423a5f2563335fd5719862a861c8ae2c9cbc46598e767c3e2fe1042ecae"
+hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
 
 [[files]]
@@ -456,18 +1080,17 @@ hash = "b45343ef120eae1ad7be38f01836cf03108568832a62b267d1bd8b95e00e11a2"
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "984741a3b4d5612df37b81d7349dd1f130257eaf7d94d95b72ce43fff9411885"
+hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
 metafile = true
 
 [[files]]
 file = "mods/couplings.pw.toml"
-hash = "e9959b342401ffdb0ddae4e9fd151b97a9cb94624d4658daafdac0c17d8bc262"
+hash = "47e796fa0168407d6bf12e3aac6cf29881960df43ed21f844ab34ac891ee0730"
 metafile = true
 
 [[files]]
-file = "mods/coyote-time.pw.toml"
-hash = "8f78b048d5efc3f130f26580941a8f0df00ef47090bf59be4fcf3afbcab54ecb"
-metafile = true
+file = "mods/coyote_time-1.0.1.jar"
+hash = "2c306c91e1086e8b4890088145fa1cda00cffc6e61cd5f1d7f606b464ff7da64"
 
 [[files]]
 file = "mods/crowmap.pw.toml"
@@ -476,7 +1099,12 @@ metafile = true
 
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
-hash = "f8077ff2ad89d2612b7eb7f5ce1fd20f1eac221d37ffca18beeb7d48ef9a0aaa"
+hash = "5bd8931f3b97b474845ce9e638b69c56b41dac2ea89c35b13f7638fe55c3aaa8"
+metafile = true
+
+[[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "23741a1d4ab09af28cc04a035f30d0e9b0f26577697e0faaf797f2eed2833451"
 metafile = true
 
 [[files]]
@@ -486,17 +1114,17 @@ metafile = true
 
 [[files]]
 file = "mods/drogstyle.pw.toml"
-hash = "7efcd8fec8e46f93d5e392fc0b3432ccb619ef9b777eb18061359a87f4ce4827"
+hash = "3cb69f9380e633b3187fef3c0855ffc8f8bee0477626d37329ba8a90c8c20ec9"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "b31179108f658fdc015f1eed9a3614d08b212de2e67b2391678d93e3e561c1f2"
+hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
 metafile = true
 
 [[files]]
 file = "mods/ears.pw.toml"
-hash = "bd52ab27068961afc53efd50c527302775b87fb176d10779e0d6a0428dcc51e4"
+hash = "6a4afd7b42387477795e73b17b8963ea313ce6f8a960343a2579ff0b41544beb"
 metafile = true
 
 [[files]]
@@ -505,13 +1133,8 @@ hash = "b449c083634ff6df61ca11af41daccda028890cb2bf0373e31a7f1b6cea39342"
 metafile = true
 
 [[files]]
-file = "mods/easierenchanting.pw.toml"
-hash = "40a973c3278a5a666ca0506ffec8f015c6479479868fbf14ffd42da5b401306e"
-metafile = true
-
-[[files]]
 file = "mods/ebe.pw.toml"
-hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
+hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
@@ -520,13 +1143,8 @@ hash = "ce46478d7297c220e75085fc756382a6eff91796ffffd3e217448e32c31cd155"
 metafile = true
 
 [[files]]
-file = "mods/effective.pw.toml"
-hash = "192d5837406f350de1551233735b6de7deb374669585d8759b554edfb4f72c05"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
-hash = "6d8aff1890fddf88884c516484b9bc774088222228f3ee2ded5bee376548e3a2"
+hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
 metafile = true
 
 [[files]]
@@ -536,17 +1154,17 @@ metafile = true
 
 [[files]]
 file = "mods/emitrades.pw.toml"
-hash = "cfcfcb3c97190708fe47074148d803d339713bdaa908b98d57a6ef4e40e053b5"
+hash = "4c59088a2cb975f60347da57d72bb1069b65452c6a7b92af8facec6e1bed9409"
 metafile = true
 
 [[files]]
 file = "mods/enhanced-attack-indicator.pw.toml"
-hash = "3dbaa5547de693172431a16b53fd042ef6b0d2658d0f5669b60951dec02b9731"
+hash = "bda35046f0b3d657acc0f32eaaead78999d353e0611f9760016e2c85c567a482"
 metafile = true
 
 [[files]]
 file = "mods/exordium.pw.toml"
-hash = "2a6e243aabbad7c6bb23561a4f4572403a06e41b7cbcc94282eeae899d0e54a6"
+hash = "2b9b5a34a6f3cb5796b4e9996fe1da41d7b063b2727743aeed6c8d350d7cdbb6"
 metafile = true
 
 [[files]]
@@ -560,28 +1178,18 @@ hash = "5c14680577c4f8b06c74b79b63505d82314c40c85bc489023e79fe70127965bf"
 metafile = true
 
 [[files]]
-file = "mods/fabric-title-changer.pw.toml"
-hash = "aede43ee969adaadd8004bece0cf1592c353c6341def612c963bedb5af7cb766"
-metafile = true
-
-[[files]]
 file = "mods/fabrication.pw.toml"
-hash = "28375fa3b0114370ae3b9db5cf7ef9e0b7caefcbd3a87edcf86485dc03f5d2f7"
-metafile = true
-
-[[files]]
-file = "mods/fabricshieldlib.pw.toml"
-hash = "d441b6d8d55b8f6c0e7f1f6ddb6dc95a83c84f70acd9cc420c9765026d001beb"
+hash = "32f25932e00131ebd1b68f2e28bb5ee42a9e1b251b1a27cc1293d43c0d93329b"
 metafile = true
 
 [[files]]
 file = "mods/fabrictailor.pw.toml"
-hash = "b3e1f7b080b5c4a2e3de434a6873d84ba5bd357dff99268d45db4a79fb6d43b9"
+hash = "b5fa39db5c13454ebc82cfc76da7fa33ccaa389986f407a033c5c9675633f00c"
 metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "423581d9738b23798456b7ba021698355ef8f03cef93d8c1266102a227d9a200"
+hash = "41b6ced96a53594eff35395e452dd2e67107e8b529a3f3724e80556ca31e71f0"
 metafile = true
 
 [[files]]
@@ -601,22 +1209,12 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "98da553a1ba2d41bfce3585198641c2d927c702d5403ebec82402ae51ddf707f"
+hash = "03e174cf691b52da20bd973b955fae6f3720d3d2120f9d6cc1de5fdf3180013c"
 metafile = true
 
 [[files]]
-file = "mods/ftb-library-fabric.pw.toml"
-hash = "3962cc289af4c636f20748d33729a61f14ddd38d55405a0f4169c8e2133f279f"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-fabric.pw.toml"
-hash = "7c89c501b72635ddc3b3506fb407783392f6448a8e997bf34d3dbcd116edcef9"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-fabric.pw.toml"
-hash = "191e7106a3915d5946487cbf827befceed9896ea937a99a12a73a702c31a707d"
+file = "mods/fishing-real.pw.toml"
+hash = "1641f46d991917601e7b27581c4b3a1cebeaee58b3533afec8ee7fe80f2d3812"
 metafile = true
 
 [[files]]
@@ -635,57 +1233,47 @@ hash = "fd34910c7292b2b48bb57c2b348c968cf5ea58f7c19683bf662ef801d167e233"
 metafile = true
 
 [[files]]
+file = "mods/heracles-fabric-1.20.1-1.0.5.jar"
+hash = "fad9be7c7bf7fc8038368f3c4bfc8afe0a17a4f5a9bbc9eae9e7fcc7c72f3b9e"
+
+[[files]]
 file = "mods/horsebuff.pw.toml"
-hash = "a1f6e5c7010b82cc022a4ae37290966eff652658a0d0f6598d6519f068b659ae"
+hash = "5e60804222681b936e5878d228fb10b5682e3af1d0eedbe120c0b4ee63cc8aaf"
 metafile = true
 
 [[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
-hash = "6fd7515689f5d615195b919471c55704adb1937ca5f78950b238b9b45ecb1b07"
+hash = "a266409ee7850768e0883f4a9fbb64c0697cf63f393f5e35d03e23b772ab7452"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "990729ecdd3fe5a2417d11bed4216fd956d3edf87ba0df86eb3a97e21d1ff6c1"
+hash = "7e9f6a5b564e4fbe92bff784eb13a2565eb5a631ed452cf9b8748e73935ae8b2"
 metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "e8168531c092676d47cac3657bfc525f096f11ff5372ce6e322ad57778b81635"
+hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
 metafile = true
 
 [[files]]
 file = "mods/inspecio.pw.toml"
-hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
+hash = "280af6886fbdec37ccfab4d8a7cbd2d3777a198a5fa0d2ec15dc9b9c8b0eff67"
 metafile = true
-
-[[files]]
-file = "mods/inventorytabs-0.6.2+1.19.x.jar"
-hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "a16799bfb18ad3723165408cc7ca841091497ffd2a4ea31da365017f67846bbf"
-metafile = true
-
-[[files]]
-file = "mods/item-filters.pw.toml"
-hash = "7bc644f41930868103d6bf86868293abf583843d4945ee46bde614e95ab4250f"
-metafile = true
-
-[[files]]
-file = "mods/item-model-fix.pw.toml"
-hash = "e6895b572857d6381b9c5c8d153eb6606b3cd2755feec53ff3905d025656a124"
+hash = "e160cd9f6d5beb781af38f9b75b88002a5bd65daa566fb3fc3a1e1e036a4c229"
 metafile = true
 
 [[files]]
 file = "mods/jamlib.pw.toml"
-hash = "d1df8e86811120c594a88895d3366d000736a6c1fad7124a72c8f05925775095"
+hash = "4a37864ebe44ddf66f7a127683adc76515d3dc97f8d8dba6fe362c43a1f39464"
 metafile = true
 
 [[files]]
 file = "mods/kaffees_dual_ride.pw.toml"
-hash = "395e906a3ea26e62185f6ad673295ac0d2c09055b46d560f5a6cbc9926e635a8"
+hash = "820dece3f5d18fa4d429dd5412674f398b35d5ab43ff0690afee75fab3effaa1"
 metafile = true
 
 [[files]]
@@ -694,38 +1282,28 @@ hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
 metafile = true
 
 [[files]]
-file = "mods/kiwi.pw.toml"
-hash = "c5473808679eecaa918f2e9a102dd016eb8dee13934a8832354d04839f49007d"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
-hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
+hash = "71ef7cc16632c0039fe194183b5885968c6d740aaa67a58000653ae0cb40b882"
 metafile = true
 
 [[files]]
 file = "mods/lambdabettergrass.pw.toml"
-hash = "507abebf9ae5282c92a1c799ed9666e23f0605190633c16e086b1c9e17ad4465"
+hash = "0e0ad3001c99ec281023ad8fefb7ace9931cb8cbda6d4ed18abf2b47c02320da"
 metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "9b628c73b749c901f12ba08b8304c161801903b1dd3fdbb6d4b93a9d42d25afa"
-metafile = true
-
-[[files]]
-file = "mods/lazydfu.pw.toml"
-hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
+hash = "a626674fc1092afe5ccc6cbf4856c09119e42395494f1c3862eed2ab17da0221"
 metafile = true
 
 [[files]]
 file = "mods/leaves-us-in-peace.pw.toml"
-hash = "1f1435768beb36acf48e3a0f385a4423f2ee3d43ef42d7de138bd3a39b2559a2"
+hash = "57cae0b7139111e4c74b41efc9543e662bf7300344e01d8b13e67ee1b47d38b9"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "54a337d13450b35dfc931e7a5f3ed9fca1a1992ec51d3b1e4ea1cb5f7cd2d09c"
+hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
 
 [[files]]
@@ -735,17 +1313,17 @@ metafile = true
 
 [[files]]
 file = "mods/luna-slimes.pw.toml"
-hash = "a469e60b67c502d2ab6945f5c49792e8083ca465c819f1b5c689b438123d7466"
+hash = "03ac1d5ac0c7cdf604331180be0b2550bf9d9b13e60bb52c6333055d262ec119"
 metafile = true
 
 [[files]]
 file = "mods/main-menu-credits.pw.toml"
-hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
+hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
 metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
-hash = "1be161c5175de48cc080374582c6af01b02c57e3a7d21617c0ab558b59b6c954"
+hash = "42630d7549eac1fed323855564344dfc3819d2fef3c2d9ffb440cba04ddc297f"
 metafile = true
 
 [[files]]
@@ -759,28 +1337,33 @@ hash = "9421355a24881292851803d45726a5aebce4c5a5863793d7d373565b4fceb1eb"
 metafile = true
 
 [[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
-hash = "088d7693dae653ff299d1454674e29ab3b1649cf889c5ecd32ccced2b0c48472"
+hash = "e2979be57609f1f74666d2f69c003836b8551941e761a79707fbf3f9562dc603"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "be0fd8b9cd9f8a94428ea8ac5ec84f4f7bab23697236b7a2e54d8537834e0315"
+hash = "4cd171d3f5f3e1d2948cb1b0062e742a5e85110c9e9a668f9aed5b0cebcb9c97"
 metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "631a4aeea3ca16afe689e67c409cb39d18af269e1eecd944d042a85a88d34314"
+hash = "be1f88824f7ceb008ce38ae763a93921db0c27db68577fdb16c29c6a085ec1f3"
 metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "e1b20a8d22c09bcfbbcc5f32abe8918af8d9fc0b98692c5000901367b5d0d184"
+hash = "f5eb9d19a205a42dbb9d8ad4ee95e2cf0364814dd8416a9147b21f261dd93c97"
 metafile = true
 
 [[files]]
 file = "mods/music-notification.pw.toml"
-hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
+hash = "842c56b457771a48f741c94f3f615460cbe86fdfab2bdc3629aa8200e894750d"
 metafile = true
 
 [[files]]
@@ -790,27 +1373,32 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "17dc4f0920a4089790c8d13abff319a5e83f2aea7a06cdd3cc79699fa5ccdc8a"
+hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
 
 [[files]]
 file = "mods/notes.pw.toml"
-hash = "127e342c09e94406dfb97d916740a9cae1d8e51be66bc86400b7e9571da6eaf3"
+hash = "dfdd6d6e1ddca69c3815fd86c821bef75c195cb7465074a47967b90770ad05ad"
 metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "67e52f1d24affe5295829b38769d1181fb147c4ebc86531fce0fae2d1549ef9a"
+hash = "a60f50e7c0ae6420e4a36f4e2fabaa4663bf79236531c1b23fd9c425121b2203"
 metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "53875fd3bced7c46a5180ab2c1915c77a7c47cd79932f91c0c1279aa39ed1d62"
+hash = "c161ae2c617ecf9cd4a1f39e5a000ae7098ea9d0c7cd1155c866d78369286c98"
+metafile = true
+
+[[files]]
+file = "mods/origins.pw.toml"
+hash = "e09b4e3348ee5e8b836e40ea4745bf3ab0d584512e31166ab34a219c437a736a"
 metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "d6a99e144be13fb3d0865925bf73357a2ff82f4114929cc2f35930eb21f3c7e9"
+hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
 metafile = true
 
 [[files]]
@@ -819,18 +1407,8 @@ hash = "1e1e434f917fde38e55d7783569083b327c918a2c567b5d4967e6446b69d9d9f"
 metafile = true
 
 [[files]]
-file = "mods/pettable.pw.toml"
-hash = "43f11eb7babcc05358ac4e1c4148776ee7fe5c224dc6d92ef7045649c799cbb5"
-metafile = true
-
-[[files]]
 file = "mods/picohud.pw.toml"
-hash = "735f1141155700673afb74f5fb7b19ef4a0ed5a3a1eb806bb30ecba78a65cb65"
-metafile = true
-
-[[files]]
-file = "mods/placeholder-api.pw.toml"
-hash = "63e603aacd627262576ba4da78716c44957ab1a8013ba0129a56470a55ebe571"
+hash = "df50fd5cf76122fe91096f1273a8036f20b461d138c860e82aae49d1351159b9"
 metafile = true
 
 [[files]]
@@ -840,52 +1418,52 @@ metafile = true
 
 [[files]]
 file = "mods/portable-crafting.pw.toml"
-hash = "39a0ee4d7b44753b714e9bbf62398442efa0d92d765272de6b851a3e4ad566c9"
+hash = "7a54866b8101b4476f3abf0b0cde343a949e857218830c6d83141b1ef0508a8b"
 metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "d44a47592608a2ef6eb105eb6a4642839e1a9ea59736b92345c0fa492ddbc47a"
-metafile = true
-
-[[files]]
-file = "mods/projectsavethepets.pw.toml"
-hash = "b4431b2a14519455d564ec3105a7a603a88f4820a12c92ab48081474a20936e6"
+hash = "5027329d763899c40db5e3f389cfb2262d61d0037668c331db0cec1491c585d8"
 metafile = true
 
 [[files]]
 file = "mods/qdresloader.pw.toml"
-hash = "6722d21c6afd03769c9792270061bf7dedb604b94161624403525bae7614df63"
+hash = "f7cebb9f191593ed8d3aee3a1bd3ea8c400625702aea0fd5d6ffb9db0105b926"
 metafile = true
 
 [[files]]
 file = "mods/qkl.pw.toml"
-hash = "78fe291bc3d50234209d5b80735b469044f4d858dc8d3ba5bc38d1e098cb786f"
+hash = "47217cc1489533f668d622f2078351a61873be573311a9a94be7293328a849a7"
 metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "4461d2eb73a6b92c34c931460fcc3d5784ebc19e2f4fe03d4330decda28524df"
+hash = "4efc53298621a17d5b5fff6a8cb5833aa1a2798ab1020d133ecccd27c6d2bf1e"
 metafile = true
 
 [[files]]
 file = "mods/quilt-loading-screen.pw.toml"
-hash = "77aa1af076bfb1175a407037a2d1db80437bae5193db45a557f5f32b3cc4a67f"
+hash = "0431d2fbc92b56108c48fc955caafbefcafeb69bc9773c5413daa89af5d87966"
 metafile = true
 
 [[files]]
 file = "mods/reacharound.pw.toml"
-hash = "afedc35545eb5be295caee5e0cac50de9941e4487a1a78d54ead98cc69110843"
+hash = "1bdc2b4d59ee6805bcd05fb4a68782c2a020270a7da21531b245fd03b5ba2426"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "17651adb28b085101dcded29ef037e6622849a98b21d1c1872185e7b241a32f6"
+hash = "44b0a2294e1693230308e53b529d671a0303e94b623ba2c2650cdf5760a5a335"
 metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
 hash = "72a369066ded78fdf4592fa4643b9fc642230cc0b733eab8c03b733286216900"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "c89835f045a03832c287470cd1729a70f1265e3eac7b3cdaf603c3c1fd677689"
 metafile = true
 
 [[files]]
@@ -904,57 +1482,46 @@ metafile = true
 
 [[files]]
 file = "mods/simplefog.pw.toml"
-hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
+hash = "1ecb59adbb103f86496203ff3f44a80b18193512e74fd7a367ed06234702059f"
 metafile = true
 
 [[files]]
 file = "mods/skip-transitions.pw.toml"
-hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic.pw.toml"
-hash = "0d0620723ad1dec603edb2b36e8b218e2d2c1ea6d1c226e416d4f259d6ec53bf"
+hash = "f907362d33b691fd58a7d05407284c6084a20daf2efb4694fe6c71f0e4820b0a"
 metafile = true
 
 [[files]]
 file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "e6b7aed5ae934b4331ff35b6dac657aa5cd4fa0754f4a4d580c05cb74039662f"
+hash = "3e296e373e17d6c4d9e8a914d07b841fcfa4faaefcb1ac00aafd4ac9d71e72aa"
 metafile = true
 
 [[files]]
-file = "mods/sodium-extra.pw.toml"
-hash = "8da0d4c285e7e57aee3f08ab4e268d04518704ace4060744f042aef3a7f6bc50"
-metafile = true
+file = "mods/sodium-extra-0.5.1+mc1.20.1-unknown.jar"
+hash = "39513ba8ede3fca37d7ca6b79d5880697b990c0787eed6aec43dda463932b7ff"
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
+hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
 metafile = true
 
 [[files]]
 file = "mods/starlight.pw.toml"
-hash = "2aeab4f3b0a720ed02f400d9b521f1858474d4f8f7c3577ce916d5aa31fe37e1"
-metafile = true
-
-[[files]]
-file = "mods/statuseffecttimer.pw.toml"
-hash = "26b3e4ca90196024b0cdc02fb3591af480e03bde037ffb3e800499dc2c45167e"
+hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
 
 [[files]]
 file = "mods/styled-chat.pw.toml"
-hash = "d41931b825536bd673d15537f7bbacd0e5d518b9b5e9fc4ea3631326b636657c"
+hash = "4df7a83e4162bb71e20ef2bea25042daadf04ac5daab143b0035af0405160b65"
 metafile = true
 
 [[files]]
 file = "mods/styled-nicknames.pw.toml"
-hash = "d0cd4b1f936b73cbe367ccc74c325688bb5aa1e87e41f571124a22c3b361c2c1"
+hash = "e6f4e06c4d4442c08a9f64772a3e078209d57a5d81f6c8ee0fde0da006789a3a"
 metafile = true
 
 [[files]]
 file = "mods/styledplayerlist.pw.toml"
-hash = "03191d93838921d6267303721f3b769bb338f6baf5089af61f47c8bf09fdd088"
+hash = "8a6442ca759237fb4346e02653feba023529db29127c6b20740801199395241d"
 metafile = true
 
 [[files]]
@@ -969,17 +1536,17 @@ metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "7e8f37358497336864d70f8586aa5ae06cbc867e80eb58119799aaa4d597658d"
+hash = "515798e6cbe4410d55b01bababc9e1589eb8c7a0ff426d921870b1e7b5e933b4"
 metafile = true
 
 [[files]]
 file = "mods/switchy-teleport.pw.toml"
-hash = "cc6b6468ffbc394119cbaa17779d25bde3d10e74215d3eca43d4980df8174022"
+hash = "2565eba14e887a66cd6688e5078de5554ad6ac0a4f6a83724b94aa21a849924f"
 metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "6e7aba32e000b65aff90d2d85566fc8c019badbb8bb0129c761ca02fffa8d3b6"
+hash = "27f5efe6758f32ccdac8f19bab0708f91125c9ec3f55d2092ab79ee1f2d90513"
 metafile = true
 
 [[files]]
@@ -994,7 +1561,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "335158c9e5819931d9aa872e35c11a0197284541105a908009ff537d2b0cc2b8"
+hash = "c6b1b6f27f844211b7ceee4cf946b7fbcead884846be428d8da0418c66653aae"
 metafile = true
 
 [[files]]
@@ -1004,12 +1571,12 @@ metafile = true
 
 [[files]]
 file = "mods/tips.pw.toml"
-hash = "47128ec737c02dfac163db723625223a684a1204dc2e20d63f3691d2fa7f38d2"
+hash = "bb519a58938a902ff23c27a5fddfed432763d1b62b8393e4fb9a8b27d2199057"
 metafile = true
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
-hash = "4f782435d758d3cfd57ba49e2a4994006722d42307ef74ef3d35a1704f9ed5c4"
+hash = "fe592547ec2aedf1de7add34f747f7845e103de228e2426328e9e60fe93298cc"
 metafile = true
 
 [[files]]
@@ -1028,13 +1595,8 @@ hash = "377f9bb0ff4133e639b9017434cb8ad9bd0af6c9eef4366de04764ab755dc688"
 metafile = true
 
 [[files]]
-file = "mods/vehiclefix.pw.toml"
-hash = "7e50104fe4dcfe7343e09443607050cb930d101dc5a17ce7993272cfd8b3447d"
-metafile = true
-
-[[files]]
 file = "mods/visuality.pw.toml"
-hash = "151a53057bd6f757ff073dd8f8344b354f872f0dc4d236daad3fffea5de0b7dc"
+hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
 metafile = true
 
 [[files]]
@@ -1044,12 +1606,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "1b4f3fc969b6e8a14298e52c8be89c5fda8b6696ff70c1e457317af4e2c088bc"
-metafile = true
-
-[[files]]
-file = "mods/yigd.pw.toml"
-hash = "36bc57806a6d997d79767620bc3f0b019e878f337a2655b9cb98a006c4e5d2e8"
+hash = "874a680170fbf36204ee1c4e57650b6a28b15d10a32163964850aaccc9a7457a"
 metafile = true
 
 [[files]]
@@ -1098,7 +1655,11 @@ hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
 
 [[files]]
 file = "options.txt"
-hash = "51121d91f5dafc06e54a595e64998b9f35fea7cb9ff8c5d742d295863f388482"
+hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
+
+[[files]]
+file = "removed.txt"
+hash = "029d3def116b798c0e0d213c94b7511457caad1e8aafe1d2dd6390877e8c5f97"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
@@ -1287,14 +1848,6 @@ hash = "3ac37b8be31ca11528210c57f302bef727f693671b07b420af150f7267cce3de"
 [[files]]
 file = "resources/datapacks/deco_consistency_compat/pack.mcmeta"
 hash = "354060901020a9c8a7a06004f2a0927f12cefa438534255e6674fd5e3b325ec5"
-
-[[files]]
-file = "resources/datapacks/hide_item_filters/data/c/tags/items/hidden_from_recipe_viewers.json"
-hash = "b2a5eb471e7b668ec0b71c28a5867860c300accb319b1a9c88fcf553bc477ab1"
-
-[[files]]
-file = "resources/datapacks/hide_item_filters/pack.mcmeta"
-hash = "cc5444187a5dc9be0ff325b63aa0f01447ca6c8a1b3675b3322d30a035c65f71"
 
 [[files]]
 file = "resources/datapacks/hide_origin_orb/data/c/tags/items/hidden_from_recipe_viewers.json"
@@ -2198,8 +2751,17 @@ hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 
 [[files]]
 file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
-hash = "5629447454b0a7c1feeaf83a1bea58bb8031db23e2bfdede5588a4319745ec25"
+hash = "7088a0163fb4f97a026feadea41c497c4ec55ba495eb0fa81c0e51bfb1890eb5"
 metafile = true
+
+[[files]]
+file = "resources/resourcepacks/bedrock-waters.pw.toml"
+hash = "41646e5dbb47cf1d9b6b05bc44e8b6dd91d933ffde0ea29a0684d1a2c42faecb"
+metafile = true
+
+[[files]]
+file = "resources/resourcepacks/styled_chat_emoji.json"
+hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
 
 [[files]]
 file = "resources/resourcepacks/sullys-peeves.pw.toml"
@@ -2209,6 +2771,10 @@ metafile = true
 [[files]]
 file = "resources/resourcepacks/tinkermoji.zip"
 hash = "f4fba99e58986e1f41728aeac387a973fef80b91a41a3a6728e789cff84a3481"
+
+[[files]]
+file = "resources/resourcepacks/twemojis.zip"
+hash = "77fd21d736e443a5418117a34e68393ee93020be42b0861e503fcc2e25382515"
 
 [[files]]
 file = "resources/resourcepacks/varied-connected-bookshelves.pw.toml"
@@ -2247,17 +2813,17 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "1f2ec0bcd3a5e8e5a4070b141654039f726812ae0a76acf2b6b5e309da24dc0e"
+hash = "ff019bacf0458d33588410c520495c55d88f19dc26bf85af4cf9fbd9856eac7f"
 metafile = true
 
 [[files]]
 file = "shaderpacks/sildurs-enhanced-default.pw.toml"
-hash = "edaff1d813dc803f9ccf5bd7a1196c6d0c0f5bb1a82633588ff7b542a5e43c85"
+hash = "69fa58f49f5241e69e8820a7a2810f6e09c5e5d63cefa9ba991168302c95e985"
 metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "224067f730c8cd269def3883caed3cdd2c93cc562455acd8f1cb337ca48c41a6"
+hash = "c7c5c5e8ac1a6c646580f60d5a8d484b1ec5d502ca56608c92828383fabb676c"
 metafile = true
 
 [[files]]
