@@ -40,49 +40,62 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:white_dye",
-        "count": 16
+        "count": 32
       }
     },
     "240752E0B3758DDD": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:blue_dye",
-        "count": 16
+        "count": 32
       }
     },
     "603A66AEFB21253E": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:black_dye",
-        "count": 16
+        "count": 32
       }
     },
     "7CD45A7D585FF971": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:red_dye",
-        "count": 16
+        "count": 32
       }
     },
     "1AB47C5DBDFE0A43": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:green_dye",
-        "count": 16
+        "count": 32
       }
     },
     "6F48D4D4BCE46394": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:yellow_dye",
-        "count": 16
+        "count": 32
       }
     },
     "794E4D2D3C56C124": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:brown_dye",
-        "count": 16
+        "count": 32
+      }
+    },
+    "50FE3E4610DCD379": {
+      "type": "heracles:item",
+      "item": {
+        "id": "aurorasdeco:blackboard",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "lit": "0",
+            "version": 2
+          }
+        }
       }
     }
   },
@@ -100,6 +113,8 @@
       "All &&d16 colors of dye&&r can be crafted from &&e7 base dyes&&r.",
       "<br/>",
       "&&3Banners&&r and dyed &&3Leather Armor&&r can be &&dwashed clean&&r by throwing them in a &&3Water Cauldron&&r.",
+      "<br/>",
+      "&&7[Aurora's Decorations]&&r The &&eBlackboard&&r and &&3Glassboard&&r can be drawn on pixel-by-pixel using Dyes - allowing you to create &&dcompletely custom signs&&r!",
       "<hr/>",
       "<reward reward=\"7444D5FD1B81724D\" quest=\"1FADE18B62E069A1\"/>",
       "<reward reward=\"00B4C19857875706\" quest=\"1FADE18B62E069A1\"/>",
@@ -111,7 +126,8 @@
       "<reward reward=\"7CD45A7D585FF971\" quest=\"1FADE18B62E069A1\"/>",
       "<reward reward=\"1AB47C5DBDFE0A43\" quest=\"1FADE18B62E069A1\"/>",
       "<reward reward=\"6F48D4D4BCE46394\" quest=\"1FADE18B62E069A1\"/>",
-      "<reward reward=\"794E4D2D3C56C124\" quest=\"1FADE18B62E069A1\"/>"
+      "<reward reward=\"794E4D2D3C56C124\" quest=\"1FADE18B62E069A1\"/>",
+      "<reward reward=\"50FE3E4610DCD379\" quest=\"1FADE18B62E069A1\"/>"
     ],
     "icon": {
       "type": "heracles:item",

@@ -11,7 +11,7 @@
         "item": "minecraft:nether_brick_stairs"
       },
       "type": "heracles:structure",
-      "structures": "minecraft:fortress"
+      "structures": "#betterfortresses:better_fortresses"
     }
   },
   "rewards": {
@@ -38,6 +38,8 @@
       "It contains unique enemies like &&cBlazes&&r and &&cWither Skeletons&&r, along with inner keeps containing &&dchests of loot&&r.",
       "<br/>",
       "&&eFire Resistance&&r can &&dprotect you from all heat damage&&r, including from touching lava.",
+      "<br/>",
+      "&&7[YUNG's Better Fortresses]&&r Fortresses are more elaborate, and &&dcontain better loot&&r.",
       "<hr/>",
       "<reward reward=\"70202BB1A11D57BC\" quest=\"4048B08BA7BA39BE\"/>"
     ],

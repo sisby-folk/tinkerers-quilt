@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "3DA00F63C2E8D365": {
+      "title": "Enter a Mountain Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:stone"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_mountains"
+    }
+  },
+  "rewards": {
+    "47F56931F6B33C71": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Per Gynt",
+    "description": [
+      "<h2>Find a Mountain Village</h2>",
+      "<hr/>",
+      "<task task=\"3DA00F63C2E8D365\" quest=\"0100CE18C09040FB\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"47F56931F6B33C71\" quest=\"0100CE18C09040FB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone"
+    },
+    "subtitle": {
+      "text": "Find a Mountain Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -224,
+          -240
+        ]
+      }
+    }
+  }
+}

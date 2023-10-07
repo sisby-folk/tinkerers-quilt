@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "56F57EF954A01CC7": {
+      "title": "Find a Flower Forest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:cornflower"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:flower_forest"
+    }
+  },
+  "rewards": {
+    "5A68CA4D8AE3247F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "A Florist?",
+    "description": [
+      "<h2>Find a Flower Forest</h2>",
+      "<hr/>",
+      "<task task=\"56F57EF954A01CC7\" quest=\"614E11C34F346AFF\"/>",
+      "<hr/>",
+      "&&2Flower Forests&&r are a rare biome that contain &&dmany flowers and beehives&&r.",
+      "<hr/>",
+      "<reward reward=\"5A68CA4D8AE3247F\" quest=\"614E11C34F346AFF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cornflower"
+    },
+    "subtitle": {
+      "text": "Find a Flower Forest"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -80,
+          0
+        ]
+      }
+    }
+  }
+}

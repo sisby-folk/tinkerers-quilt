@@ -11,7 +11,7 @@
         "item": "minecraft:mossy_stone_bricks"
       },
       "type": "heracles:structure",
-      "structures": "minecraft:stronghold"
+      "structures": "#betterstrongholds:better_strongholds"
     }
   },
   "rewards": {
@@ -42,6 +42,8 @@
       "A thrown &&3Eye of Ender&&r will slowly drift towards the nearest &&2Stronghold&&r, with a chance of being consumed.",
       "<br/>",
       "The &&2End Portal&&r inside is incomplete, and up to 12 &&3Eye of Ender&&r must be inserted to &&dactivate&&r it.",
+      "<br/>",
+      "&&7[YUNG's Better Strongholds]&&r Strongholds are more elaborate, and &&dcontain better loot&&r.",
       "<hr/>",
       "<reward reward=\"3D420BECFE373EFA\" quest=\"2803B3AF9D4E64A3\"/>",
       "<reward reward=\"5F4C65875DC43F7B\" quest=\"2803B3AF9D4E64A3\"/>"

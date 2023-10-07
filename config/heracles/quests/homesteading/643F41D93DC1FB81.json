@@ -105,6 +105,41 @@
         "id": "minecraft:bricks",
         "count": 64
       }
+    },
+    "089FC0E0F547457D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:dripstone_block",
+        "count": 64
+      }
+    },
+    "289867B16BF99D44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:calcite",
+        "count": 64
+      }
+    },
+    "69485A718A881256": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tuff",
+        "count": 64
+      }
+    },
+    "50148DD6C2F17662": {
+      "type": "heracles:item",
+      "item": {
+        "id": "consistency_plus:soul_sandstone",
+        "count": 64
+      }
+    },
+    "3F19E460462C07C6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ice",
+        "count": 64
+      }
     }
   },
   "display": {
@@ -115,6 +150,8 @@
       "<task task=\"10DE07FBCB9E502D\" quest=\"643F41D93DC1FB81\"/>",
       "<hr/>",
       "Many block types can be cut in the &&3Stonecutter&&r, producing various patterns and shapes.",
+      "<br/>",
+      "&&7[Consistency+]&&r Many exotic blocks can be used on the Sonecutter, like &&3End Stone&&r, &&3Obsidian&&r, both &&3Bones&&r both &&3Warts&&r, all colours of &&3Terracotta&&r, and even &&eIce&&r!",
       "<hr/>",
       "<reward reward=\"6C0A6B21AD7C1390\" quest=\"643F41D93DC1FB81\"/>",
       "<reward reward=\"49B3112802884586\" quest=\"643F41D93DC1FB81\"/>",
@@ -128,7 +165,12 @@
       "<reward reward=\"1CD81BFA7D7D8283\" quest=\"643F41D93DC1FB81\"/>",
       "<reward reward=\"1B39366065BBCD7D\" quest=\"643F41D93DC1FB81\"/>",
       "<reward reward=\"34F74B99602E7DCD\" quest=\"643F41D93DC1FB81\"/>",
-      "<reward reward=\"2C5FCC4FD4454AB5\" quest=\"643F41D93DC1FB81\"/>"
+      "<reward reward=\"2C5FCC4FD4454AB5\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"089FC0E0F547457D\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"289867B16BF99D44\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"69485A718A881256\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"50148DD6C2F17662\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"3F19E460462C07C6\" quest=\"643F41D93DC1FB81\"/>"
     ],
     "icon": {
       "type": "heracles:item",
@@ -140,7 +182,7 @@
     "groups": {
       "Homesteading": {
         "position": [
-          240,
+          224,
           -272
         ]
       }

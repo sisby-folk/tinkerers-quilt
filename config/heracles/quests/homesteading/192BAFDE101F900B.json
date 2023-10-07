@@ -18,6 +18,12 @@
       "item": {
         "id": "minecraft:composter"
       }
+    },
+    "28B7014B816FB8F4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:rice"
+      }
     }
   },
   "display": {
@@ -32,8 +38,11 @@
       "Don't just grow wheat forever though - farms &&dgrow faster if they're diverse&&r, so try planting crops in rows!",
       "<br/>",
       "Farming creates many excess &&3Seeds&&r - a &&eComposter&&r can turn those into useful &&3Bone Meal&&r!",
+      "<br/>",
+      "&&7[Farmer's Delight]&&r An &&dincreased variety of crops&&r can be obtained by finding them &&2in the wild&&r. &&eRice&&r can only be grown in &&3water&&r.",
       "<hr/>",
-      "<reward reward=\"4CB4E7F6893DB29C\" quest=\"192BAFDE101F900B\"/>"
+      "<reward reward=\"4CB4E7F6893DB29C\" quest=\"192BAFDE101F900B\"/>",
+      "<reward reward=\"28B7014B816FB8F4\" quest=\"192BAFDE101F900B\"/>"
     ],
     "icon": {
       "type": "heracles:item",

@@ -15,10 +15,18 @@
     }
   },
   "rewards": {
-    "184E8B07DD980340": {
+    "5C2FA5AA4F3A024C": {
       "type": "heracles:item",
       "item": {
-        "id": "minecraft:compass"
+        "id": "fwaystones:waystone"
+      }
+    },
+    "55A7116EF55A5CB8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1,
+        "nbt": {}
       }
     }
   },
@@ -29,11 +37,14 @@
       "<hr/>",
       "<task task=\"6B61580BF4D462A5\" quest=\"789344ADD80A6FFA\"/>",
       "<hr/>",
-      "A &&3Compass&&r visually points towards the &&2Overworld Spawn&&r &&7(X:0 Z:0)&&r. ",
+      "&&7[Fwaystones]&&r A &&3Waystone&&r allows for &&dfast travel&&r, and adds a &&dpermanent marker to all atlases&&r. ",
       "<br/>",
       "This can help you return to a familiar location if you get lost.",
+      "<br/>",
+      "&&7[Nature's Compass]&&r A &&eNature's Compass&&r can &&dfind any one specific biome&&r. Perfect for if you want to settle down in a specific area - or if you've done lots of travelling and just can't find the &&dlast few biomes&&r!",
       "<hr/>",
-      "<reward reward=\"184E8B07DD980340\" quest=\"789344ADD80A6FFA\"/>"
+      "<reward reward=\"5C2FA5AA4F3A024C\" quest=\"789344ADD80A6FFA\"/>",
+      "<reward reward=\"55A7116EF55A5CB8\" quest=\"789344ADD80A6FFA\"/>"
     ],
     "icon": {
       "type": "heracles:item",

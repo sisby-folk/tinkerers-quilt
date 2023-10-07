@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "1C4AC2DCDB69183D": {
+      "title": "Enter a Badlands Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dead_bush"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_badlands"
+    }
+  },
+  "rewards": {
+    "0C1EEA674BC6BE36": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Agua Fria",
+    "description": [
+      "<h2>Find a Badlands Village</h2>",
+      "<hr/>",
+      "<task task=\"1C4AC2DCDB69183D\" quest=\"68BA2ED131675132\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"0C1EEA674BC6BE36\" quest=\"68BA2ED131675132\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dead_bush"
+    },
+    "subtitle": {
+      "text": "Find a Badlands Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -384,
+          -240
+        ]
+      }
+    }
+  }
+}

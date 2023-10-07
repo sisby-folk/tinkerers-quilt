@@ -1,0 +1,77 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "2CB771E873BE51DA": {
+      "title": "Picturesque",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:feather"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:jump",
+      "target": 750
+    }
+  },
+  "rewards": {
+    "2F806FE4B260F349": {
+      "type": "heracles:item",
+      "item": {
+        "id": "polaroidcamera:camera"
+      }
+    },
+    "3B200B34CEE7E8E4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:map",
+        "count": 2
+      }
+    },
+    "7D72E3D6BE51D680": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:item_frame",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Picturesque",
+    "description": [
+      "<h2>Jump 750 Times</h2>",
+      "<hr/>",
+      "<task task=\"2CB771E873BE51DA\" quest=\"565D2EAA71C41B48\"/>",
+      "<hr/>",
+      "&&7[Polaroid Camera]&&r ",
+      "<br/>",
+      "&&3Polaroid Cameras&&r allow you to &&dtake photos&&r onto &&eEmpty Maps&&r.",
+      "<br/>",
+      "&&7[&&r&&6Right-Click&&r&&7]&&r to look through the camera, then press &&7[&&r&&6C&&r&&7]&&r to capture an image.",
+      "<br/>",
+      "Remember, maps can be displayed on &&3Item Frames&&r!",
+      "<hr/>",
+      "<reward reward=\"2F806FE4B260F349\" quest=\"565D2EAA71C41B48\"/>",
+      "<reward reward=\"3B200B34CEE7E8E4\" quest=\"565D2EAA71C41B48\"/>",
+      "<reward reward=\"7D72E3D6BE51D680\" quest=\"565D2EAA71C41B48\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "polaroidcamera:camera"
+    },
+    "subtitle": {
+      "text": "Jump 750 Times"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -240,
+          -160
+        ]
+      }
+    }
+  }
+}

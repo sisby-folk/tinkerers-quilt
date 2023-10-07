@@ -20,10 +20,10 @@
         "nbt": {}
       }
     },
-    "7D86112E85D8D6D7": {
+    "1A8D72D83E3451B9": {
       "type": "heracles:item",
       "item": {
-        "id": "minecraft:map"
+        "id": "fwaystones:nether_brick_waystone"
       }
     }
   },
@@ -42,10 +42,12 @@
       "<br/>",
       "&&aPiglins&&r are denizens of the nether that attack players that aren't wearing &&eGold Armor&&r. They'll also attack any player that mines &&3Nether Gold Ore&&r.",
       "<br/>",
-      "To help find your way back to a portal, you can use an &&eEmpty Map&&r while standing next to it.",
+      "&&7[Fwaystones]&&r To help find your way back to a portal, you can place a &&eWaystone&&r next to it.",
+      "<br/>",
+      "&&7[Amplified Nether]&&r The Nether is substantially taller and more open.",
       "<hr/>",
       "<reward reward=\"07F2FBF6621572C3\" quest=\"3079DAC3AB1B0AD9\"/>",
-      "<reward reward=\"7D86112E85D8D6D7\" quest=\"3079DAC3AB1B0AD9\"/>"
+      "<reward reward=\"1A8D72D83E3451B9\" quest=\"3079DAC3AB1B0AD9\"/>"
     ],
     "icon": {
       "type": "heracles:item",

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "455A3B547898046D": {
+      "title": "Enter a Giant Taiga Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:spruce_log"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_giant_taiga"
+    }
+  },
+  "rewards": {
+    "05C583F07453EDD2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Gardens",
+    "description": [
+      "<h2>Find a Giant Taiga Village</h2>",
+      "<hr/>",
+      "<task task=\"455A3B547898046D\" quest=\"4A8BE14167255678\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"05C583F07453EDD2\" quest=\"4A8BE14167255678\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spruce_log"
+    },
+    "subtitle": {
+      "text": "Find a Giant Taiga Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -272,
+          -336
+        ]
+      }
+    }
+  }
+}

@@ -31,6 +31,12 @@
       "item": {
         "id": "minecraft:lava_bucket"
       }
+    },
+    "0A9F666EBA340109": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:stove"
+      }
     }
   },
   "display": {
@@ -47,10 +53,19 @@
       "&&3Smaller fuels&&r are less wasteful when processing smaller numbers of items. ",
       "<br/>",
       "&&eLarge fuels&&r are &&3only efficient for large loads&&r - with &&eLava Buckets&&r smelting &&d100 items&&r.",
+      "<br/>",
+      "&&7[Farmer's Delight]&&r A &&eStove&&r can be used to provide a heart source similar to a &&3Campfire&&r. ",
+      "<br/>",
+      "Like campfires, it can be used with a &&3Cooking Pot&&r or a &&3Skillet&&r.",
+      "<br/>",
+      "A &&3Cooking Pot&&r can cook &&dmany bowls of hearty meals&&r - and can be picked up with them in it!",
+      "<br/>",
+      "A &&3Skillet&&r can be used to &&dcook food in the off-hand&&r when neaby to heat sources. It can also be placed on one with &&7[&&r&&6Sneak+Right-Click&&r&&7]&&r, where it can cook a &&dwhole stack of food&&r. In a pinch, it also &&dworks as a weapon&&r.",
       "<hr/>",
       "<reward reward=\"0ACB3CC0E9B9D3F7\" quest=\"0BB19BE0BA8A2037\"/>",
       "<reward reward=\"18573A5F8C328475\" quest=\"0BB19BE0BA8A2037\"/>",
-      "<reward reward=\"484F8FCB4B3A66BE\" quest=\"0BB19BE0BA8A2037\"/>"
+      "<reward reward=\"484F8FCB4B3A66BE\" quest=\"0BB19BE0BA8A2037\"/>",
+      "<reward reward=\"0A9F666EBA340109\" quest=\"0BB19BE0BA8A2037\"/>"
     ],
     "icon": {
       "type": "heracles:item",

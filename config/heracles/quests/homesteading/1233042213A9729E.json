@@ -18,6 +18,13 @@
         "id": "minecraft:stone",
         "count": 64
       }
+    },
+    "0CA9651094AE2FCF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "architecture_extensions:oak_post_lantern",
+        "count": 2
+      }
     }
   },
   "display": {
@@ -30,8 +37,11 @@
       "&&3Stonecutters&&r are used to &&dcheaply craft decorative blocks&&r.",
       "<br/>",
       "By placing a stone-like block in the &&3input slot&&r, you can &&dtransform it&&r into many decorative and functional variants.",
+      "<br/>",
+      "&&7[Architecture Extensions]&&r Stonecutters can produce intricate blocks like &&3Rooves&&r, &&3Arches&&r, and &&3Columns&&r - even things like &&eFence Post Caps&&r out of &&3Wood Planks&&r.",
       "<hr/>",
-      "<reward reward=\"6C023B3A87A36F36\" quest=\"1233042213A9729E\"/>"
+      "<reward reward=\"6C023B3A87A36F36\" quest=\"1233042213A9729E\"/>",
+      "<reward reward=\"0CA9651094AE2FCF\" quest=\"1233042213A9729E\"/>"
     ],
     "icon": {
       "type": "heracles:item",

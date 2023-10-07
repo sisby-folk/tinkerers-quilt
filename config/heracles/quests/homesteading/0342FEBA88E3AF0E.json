@@ -23,6 +23,13 @@
         "id": "minecraft:item_frame",
         "count": 8
       }
+    },
+    "4ACFEFF529957BF3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glow_ink_sac",
+        "count": 2
+      }
     }
   },
   "display": {
@@ -39,8 +46,11 @@
       "For longer notes, craft a &&3Book and Quill&&r to write and store passages. &&3Signing&&r a book prevents it from being edited further.",
       "<br/>",
       "&&7[Inventory Tabs]&&r Placing an item frame on a &&3Chest&&r will &&dchange its tab icon&&r.",
+      "<br/>",
+      "&&7[Consistency+]&&r Instead of &&3Glow Ink Sac&&r, &&eGlow Dye&&r is used to &&dmake Sign text and Item Frame items glow&&r.",
       "<hr/>",
-      "<reward reward=\"00EBA8DA6E3F263C\" quest=\"0342FEBA88E3AF0E\"/>"
+      "<reward reward=\"00EBA8DA6E3F263C\" quest=\"0342FEBA88E3AF0E\"/>",
+      "<reward reward=\"4ACFEFF529957BF3\" quest=\"0342FEBA88E3AF0E\"/>"
     ],
     "icon": {
       "type": "heracles:item",

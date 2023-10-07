@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "352685AD6A30B2A2": {
+      "title": "Not plain in the slightest",
+      "icon": {
+        "type": "heracles:item",
+        "item": "aurorasdeco:lavender"
+      },
+      "type": "heracles:biome",
+      "biomes": "aurorasdeco:lavender_plains"
+    }
+  },
+  "rewards": {
+    "1E473A04DF60870F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Not plain in the Slightest",
+    "description": [
+      "<h2>Find Lavender Plains</h2>",
+      "<hr/>",
+      "<task task=\"352685AD6A30B2A2\" quest=\"47DB051494BEDC6C\"/>",
+      "<hr/>",
+      "&&7[Aurora's Decorations]&&r ",
+      "<br/>",
+      "&&2Lavender Plains&&r are home to the &&dpurple-wooded&&r &&3Jacaranda Trees&&r, along with many &&3Lavender&&r plants and their floating petals.",
+      "<hr/>",
+      "<reward reward=\"1E473A04DF60870F\" quest=\"47DB051494BEDC6C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aurorasdeco:lavender"
+    },
+    "subtitle": {
+      "text": "Find Lavender Plains"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -528,
+          0
+        ]
+      }
+    }
+  }
+}

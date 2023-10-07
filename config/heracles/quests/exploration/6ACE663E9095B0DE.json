@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "69FA3844F94B301A": {
+      "title": "Enter a Mushroom Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:red_mushroom_block"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_mushroom"
+    }
+  },
+  "rewards": {
+    "5C77B300A0BF8D97": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "It'sa Me!",
+    "description": [
+      "<h2>Find a Mushroom Village</h2>",
+      "<hr/>",
+      "<task task=\"69FA3844F94B301A\" quest=\"6ACE663E9095B0DE\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"5C77B300A0BF8D97\" quest=\"6ACE663E9095B0DE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_mushroom_block"
+    },
+    "subtitle": {
+      "text": "Find a Mushroom Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -272,
+          -240
+        ]
+      }
+    }
+  }
+}

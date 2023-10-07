@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "7D468FAA3C76C7A1": {
+      "title": "Enter an Abandoned Ocean Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:sea_pickle"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_ocean"
+    }
+  },
+  "rewards": {
+    "081B6757DE79DAA9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    },
+    "632EE43A2B22EECF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:nautilus_shell",
+        "count": 3
+      }
+    }
+  },
+  "display": {
+    "title": "Down where it's Wetter",
+    "description": [
+      "<h2>Find an Abandoned Ocean Village</h2>",
+      "<hr/>",
+      "<task task=\"7D468FAA3C76C7A1\" quest=\"11A0AAD39B488E1A\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r &&2Ocean Villages&&r are once-populated &&dunderwater villages&&r, which could be revitalised with a &&eConduit&&r - though &&aVillagers&&r still can't swim!",
+      "<hr/>",
+      "<reward reward=\"081B6757DE79DAA9\" quest=\"11A0AAD39B488E1A\"/>",
+      "<reward reward=\"632EE43A2B22EECF\" quest=\"11A0AAD39B488E1A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sea_pickle"
+    },
+    "subtitle": {
+      "text": "Find an Abandoned Ocean Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          -224
+        ]
+      }
+    }
+  }
+}

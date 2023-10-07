@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "16ECD6B31AD88226": {
+      "title": "Enter a Swamp Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:vine"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_swamp"
+    }
+  },
+  "rewards": {
+    "0A1651B1D023AD11": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "It has Layers",
+    "description": [
+      "<h2>Find a Swamp Village</h2>",
+      "<hr/>",
+      "<task task=\"16ECD6B31AD88226\" quest=\"61BBCA6326D797AA\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"0A1651B1D023AD11\" quest=\"61BBCA6326D797AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:vine"
+    },
+    "subtitle": {
+      "text": "Find a Swamp Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -336,
+          -240
+        ]
+      }
+    }
+  }
+}

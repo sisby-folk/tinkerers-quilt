@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "297D0E6AB07DBDC1": {
+      "type": "heracles:item",
+      "item": "fwaystones:abyss_watcher"
+    }
+  },
+  "rewards": {
+    "4D7040A2FB1D4BDD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:obsidian"
+      }
+    },
+    "1803D34177BF1710": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald"
+      }
+    },
+    "1D51295ACE6B1DF0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "fwaystones:waystone_scroll"
+      }
+    }
+  },
+  "display": {
+    "title": "Zzzoop!",
+    "description": [
+      "<h2>Craft an Abyss Watcher</h2>",
+      "<hr/>",
+      "<task task=\"297D0E6AB07DBDC1\" quest=\"758233D3BC54702C\"/>",
+      "<hr/>",
+      "&&3Abyss Watchers&&r are consumable items that allow you to warp to any &&3Waystone&&r.",
+      "<br/>",
+      "They can also be crafted into more permanent &&3Waystones&&r, or into &&3Local Voids&&r - which after being bound to a Waystone with &&7[&&r&&6Sneak+Right-Click&&r&&7]&&r, can &&dreturn you&&r there from anywhere for only the usual &&3experience fee&&r.",
+      "<br/>",
+      "Using an &&eEmpty Scroll&&r, you can &&dshare your discovered Waystones&&r with other players in multiplayer.",
+      "<hr/>",
+      "<reward reward=\"4D7040A2FB1D4BDD\" quest=\"758233D3BC54702C\"/>",
+      "<reward reward=\"1803D34177BF1710\" quest=\"758233D3BC54702C\"/>",
+      "<reward reward=\"1D51295ACE6B1DF0\" quest=\"758233D3BC54702C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "fwaystones:abyss_watcher"
+    },
+    "subtitle": {
+      "text": "Craft an Abyss Watcher"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          288,
+          -432
+        ]
+      }
+    }
+  }
+}

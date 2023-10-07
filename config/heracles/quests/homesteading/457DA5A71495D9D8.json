@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1BCC72C060356F02"
+  ],
+  "tasks": {
+    "662750DA1DDCD8F6": {
+      "type": "heracles:item",
+      "item": "aurorasdeco:sawmill"
+    }
+  },
+  "rewards": {
+    "7D6DE37CFE0556A1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "aurorasdeco:shelf/oak"
+      }
+    },
+    "15A44DA3B8711870": {
+      "type": "heracles:item",
+      "item": {
+        "id": "aurorasdeco:bench/oak"
+      }
+    },
+    "5107CA15C02ACE96": {
+      "type": "heracles:item",
+      "item": {
+        "id": "campanion:white_lawn_chair"
+      }
+    }
+  },
+  "display": {
+    "title": "Archi2ct",
+    "description": [
+      "<h2>Craft a Sawmill</h2>",
+      "<hr/>",
+      "<task task=\"662750DA1DDCD8F6\" quest=\"457DA5A71495D9D8\"/>",
+      "<hr/>",
+      "&&7[Campanion / Aurora's Decorations]&&r Some &&eprebuilt furniture&&r can also be built from wood and other materials. &&eChairs&&r and &&eBenches&&r can be &&dsat on&&r, and &&eShelves&&r can &&dstore items&&r.",
+      "<br/>",
+      "Many of these can be &&dcrafted cheaply&&r using the &&3Sawmill&&r, along with &&3Doors&&r, &&3Fences&&r, and other wooden blocks.",
+      "<hr/>",
+      "<reward reward=\"7D6DE37CFE0556A1\" quest=\"457DA5A71495D9D8\"/>",
+      "<reward reward=\"15A44DA3B8711870\" quest=\"457DA5A71495D9D8\"/>",
+      "<reward reward=\"5107CA15C02ACE96\" quest=\"457DA5A71495D9D8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aurorasdeco:sawmill"
+    },
+    "subtitle": {
+      "text": "Craft a Sawmill"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -96,
+          -304
+        ]
+      }
+    }
+  }
+}
