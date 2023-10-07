@@ -1317,9 +1317,8 @@ hash = "50cc94fc6be060961dc3f1f4b2104927e2dcf3fcd4728caf0b507aee21d9226f"
 metafile = true
 
 [[files]]
-file = "mods/half-doors.pw.toml"
-hash = "fd34910c7292b2b48bb57c2b348c968cf5ea58f7c19683bf662ef801d167e233"
-metafile = true
+file = "mods/halfdoors-1.0-SNAPSHOT.jar"
+hash = "e4d8e8059a44238536bf594bdf577e203a136d2a0b7d8c143ae72d255f5d6c27"
 
 [[files]]
 file = "mods/heracles-fabric-1.20.1-1.0.5.jar"
