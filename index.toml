@@ -1195,11 +1195,6 @@ hash = "842c56b457771a48f741c94f3f615460cbe86fdfab2bdc3629aa8200e894750d"
 metafile = true
 
 [[files]]
-file = "mods/norecipebook-fabric.pw.toml"
-hash = "7fea8ed44526f07aac9923e57429ba34bd60377d13594b04e22dd5b58fe09a21"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
