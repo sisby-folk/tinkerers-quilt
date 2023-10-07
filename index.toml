@@ -1240,11 +1240,6 @@ hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
 metafile = true
 
 [[files]]
-file = "mods/emicompat.pw.toml"
-hash = "7f2bac9db41f54dfc2f505602ea94e9fcd01454282f3d7f0075fb61ad2543e76"
-metafile = true
-
-[[files]]
 file = "mods/emitrades.pw.toml"
 hash = "4c59088a2cb975f60347da57d72bb1069b65452c6a7b92af8facec6e1bed9409"
 metafile = true
@@ -1260,13 +1255,18 @@ hash = "2b9b5a34a6f3cb5796b4e9996fe1da41d7b063b2727743aeed6c8d350d7cdbb6"
 metafile = true
 
 [[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "4b5af07a3311d776868ed6f0c22180ab50f224caca07e6fd7b33c6d8bb2ff80d"
+metafile = true
+
+[[files]]
 file = "mods/fabric-seasons-delight-compat.pw.toml"
 hash = "9a787be39525c0ad8bfc755162990e22f802c94acb9cd4f968cb119f43b6d447"
 metafile = true
 
 [[files]]
 file = "mods/fabric-seasons.pw.toml"
-hash = "5c14680577c4f8b06c74b79b63505d82314c40c85bc489023e79fe70127965bf"
+hash = "a279b276bfeff8bf9b475d90cad4a7c1359e295cca6c5bf5b79e4e6746e3d704"
 metafile = true
 
 [[files]]
