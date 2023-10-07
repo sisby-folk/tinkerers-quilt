@@ -124,11 +124,10 @@
               }
             ]
           },
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:knockback",
-              "lvl": "2"
+              "lvl": 2
             }
           ],
           "RepairCost": 31,
@@ -149,11 +148,10 @@
         "id": "minecraft:crossbow",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:quick_charge",
-              "lvl": "5"
+              "lvl": 5
             }
           ],
           "RepairCost": 15,
@@ -172,15 +170,14 @@
         "id": "minecraft:bow",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:infinity",
-              "lvl": "1"
+              "lvl": 1
             },
             {
               "id": "minecraft:mending",
-              "lvl": "1"
+              "lvl": 1
             }
           ],
           "RepairCost": 31,
@@ -199,11 +196,10 @@
         "id": "minecraft:trident",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:riptide",
-              "lvl": "5"
+              "lvl": 5
             }
           ],
           "RepairCost": 15,
@@ -223,11 +219,10 @@
         "id": "minecraft:netherite_sword",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:sweeping",
-              "lvl": "30"
+              "lvl": 30
             }
           ],
           "RepairCost": 15,
@@ -274,15 +269,14 @@
               ]
             }
           ],
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:knockback",
-              "lvl": "4"
+              "lvl": 4
             },
             {
               "id": "minecraft:unbreaking",
-              "lvl": "3"
+              "lvl": 3
             }
           ],
           "RepairCost": 31,

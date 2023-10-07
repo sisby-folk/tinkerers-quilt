@@ -62,19 +62,18 @@
         "id": "minecraft:golden_chestplate",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:fire_protection",
-              "lvl": "4"
+              "lvl": 4
             },
             {
               "id": "minecraft:blast_protection",
-              "lvl": "4"
+              "lvl": 4
             },
             {
               "id": "minecraft:projectile_protection",
-              "lvl": "4"
+              "lvl": 4
             }
           ],
           "RepairCost": 31,

@@ -43,7 +43,6 @@
               }
             ]
           },
-          "Damage": 0,
           "RepairCost": 0,
           "display": {
             "Name": "{\"text\":\"Shield of the Hero\"}"
@@ -60,7 +59,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:protection",
-              "lvl": "2"
+              "lvl": 2
             }
           ]
         }

@@ -9,9 +9,7 @@
     "5A8BF1DC3D8BAEA7": {
       "type": "heracles:item",
       "item": "minecraft:fishing_rod",
-      "nbt": {
-        "Damage": 0
-      }
+      "nbt": {}
     }
   },
   "rewards": {
@@ -24,7 +22,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:luck_of_the_sea",
-              "lvl": "2"
+              "lvl": 2
             }
           ]
         }

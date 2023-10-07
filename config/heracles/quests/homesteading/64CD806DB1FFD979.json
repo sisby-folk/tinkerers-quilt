@@ -20,7 +20,6 @@
         "id": "minecraft:leather_leggings",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "swift_sneak",
@@ -47,7 +46,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:silk_touch",
-              "lvl": "1"
+              "lvl": 1
             }
           ]
         }

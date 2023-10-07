@@ -9,9 +9,7 @@
     "7A3DABD5009149C4": {
       "type": "heracles:item",
       "item": "minecraft:shield",
-      "nbt": {
-        "Damage": 0
-      }
+      "nbt": {}
     }
   },
   "rewards": {
@@ -58,7 +56,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:unbreaking",
-              "lvl": "1"
+              "lvl": 1
             }
           ]
         }

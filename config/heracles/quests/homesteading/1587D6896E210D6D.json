@@ -79,11 +79,10 @@
         "id": "minecraft:wooden_hoe",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:fortune",
-              "lvl": "3"
+              "lvl": 3
             }
           ],
           "RepairCost": 31,

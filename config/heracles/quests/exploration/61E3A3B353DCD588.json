@@ -91,23 +91,22 @@
         "id": "minecraft:turtle_helmet",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:aqua_affinity",
-              "lvl": "1"
+              "lvl": 1
             },
             {
               "id": "minecraft:respiration",
-              "lvl": "20"
+              "lvl": 20
             },
             {
               "id": "minecraft:unbreaking",
-              "lvl": "3"
+              "lvl": 3
             },
             {
               "id": "minecraft:mending",
-              "lvl": "1"
+              "lvl": 1
             }
           ],
           "RepairCost": 31,

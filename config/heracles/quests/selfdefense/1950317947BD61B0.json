@@ -39,7 +39,6 @@
               }
             ]
           },
-          "Damage": 0,
           "RepairCost": 0,
           "display": {
             "Name": "{\"text\":\"Gladiator Shield\"}"
@@ -56,7 +55,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:smite",
-              "lvl": "2"
+              "lvl": 2
             }
           ]
         }

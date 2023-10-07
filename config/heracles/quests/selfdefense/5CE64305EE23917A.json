@@ -31,9 +31,7 @@
       "type": "heracles:item",
       "item": "minecraft:fishing_rod",
       "collection": "MANUAL",
-      "nbt": {
-        "Damage": 0
-      }
+      "nbt": {}
     }
   },
   "rewards": {
@@ -94,7 +92,6 @@
         "id": "minecraft:fishing_rod",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "RepairCost": 31,
           "Unbreakable": 1,
           "display": {

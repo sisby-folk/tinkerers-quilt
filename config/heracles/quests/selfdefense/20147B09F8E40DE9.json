@@ -29,9 +29,7 @@
       "item": {
         "id": "minecraft:trident",
         "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "nbt": {}
       }
     }
   },

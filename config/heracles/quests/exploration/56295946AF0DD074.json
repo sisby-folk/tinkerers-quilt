@@ -10,9 +10,7 @@
     "4332DE476304087F": {
       "type": "heracles:item",
       "item": "minecraft:turtle_helmet",
-      "nbt": {
-        "Damage": 0
-      }
+      "nbt": {}
     }
   },
   "rewards": {
@@ -25,7 +23,7 @@
           "StoredEnchantments": [
             {
               "id": "minecraft:aqua_affinity",
-              "lvl": "1"
+              "lvl": 1
             }
           ]
         }

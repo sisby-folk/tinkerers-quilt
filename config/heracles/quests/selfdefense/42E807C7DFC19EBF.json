@@ -11,9 +11,7 @@
       "type": "heracles:item",
       "item": "minecraft:flint_and_steel",
       "collection": "MANUAL",
-      "nbt": {
-        "Damage": 0
-      }
+      "nbt": {}
     }
   },
   "rewards": {
@@ -23,15 +21,14 @@
         "id": "minecraft:flint_and_steel",
         "count": 1,
         "nbt": {
-          "Damage": 0,
           "Enchantments": [
             {
               "id": "minecraft:unbreaking",
-              "lvl": "3"
+              "lvl": 3
             },
             {
               "id": "minecraft:mending",
-              "lvl": "1"
+              "lvl": 1
             }
           ],
           "RepairCost": 3,
