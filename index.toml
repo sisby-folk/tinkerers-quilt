@@ -1029,10 +1029,6 @@ file = "data/seasons_compat_warn.dat"
 hash = "e4acf1365f8aba457ccde7923fd8b75e370e5f41da4673fb9cf9e0acabb442e2"
 
 [[files]]
-file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
-hash = "4b74f6b30d2b1bcca8ceb83c3ea0171317ad6d1250fe298d1b3006a65c7d7522"
-
-[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "e57c4c652b887c25b8f5e8035b1fb172a5478076f1bba48ad0fb8d7d6d0b2b3f"
 metafile = true
@@ -1748,7 +1744,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "c10f5930d03ae94b496e66d159d2278eedab27ec80a8835f09baefdff0c1555c"
+hash = "e8dab9366f88b1c9efe35ee0d17b3f65f4755a031d0062c3a49ef67959b6139b"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
