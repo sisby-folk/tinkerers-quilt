@@ -1167,8 +1167,9 @@ hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
 
 [[files]]
-file = "mods/consistency_plus-fabric-0.5.2+1.19.2.jar"
-hash = "b45343ef120eae1ad7be38f01836cf03108568832a62b267d1bd8b95e00e11a2"
+file = "mods/consistencyplus.pw.toml"
+hash = "1163602dac7aea2e98a45827d8527d7e596d9f9d72e1aa6c8aebfef39d6d73c9"
+metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
@@ -1564,10 +1565,6 @@ hash = "31b3bcbde9677f9fc1006aab482e6f43b7552146359cc4ef363e30a237d1d12b"
 metafile = true
 
 [[files]]
-file = "mods/sandwichable-1.4.3-farmersdelight+1.19.jar"
-hash = "4fb59c905334c5dc7fa53a624305a7c1d1d9bf2d408f20d490631c9c06203bc2"
-
-[[files]]
 file = "mods/simple-durability-tooltip.pw.toml"
 hash = "36c5793fe006b94902672303fba4a074c73f5fce4f6704d27e8fcaf2f08171de"
 metafile = true
@@ -1751,7 +1748,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "029d3def116b798c0e0d213c94b7511457caad1e8aafe1d2dd6390877e8c5f97"
+hash = "c10f5930d03ae94b496e66d159d2278eedab27ec80a8835f09baefdff0c1555c"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
