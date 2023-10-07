@@ -9,7 +9,7 @@ hash-format = "sha256"
 hash = "297a1cc3de0a3c2686aa3438d4713ae06002a7b5f4331889397fb85f3ac6c2dd"
 
 [versions]
-minecraft = "1.19.2"
+minecraft = "1.20.1"
 quilt = "0.20.2"
 
 [options]
