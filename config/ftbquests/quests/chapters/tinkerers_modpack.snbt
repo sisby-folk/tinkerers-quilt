@@ -1,0 +1,404 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "tinkerers_modpack"
+	group: "735E26125A90EB5D"
+	icon: "minecraft:bookshelf"
+	id: "26D6454CBC062E3D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This is a vanilla-compatible modpack made by &2clawby&r, &7kapesi&r, &5hornby&r, &dlaughter&r, &cherrah&r, &4metal&r, and &3bea&r"
+				""
+				"It focuses on small changes to make the game feel smoother and more accessible, like this quest book."
+				""
+				"To access these quests, use the quest book or press &7[&r&6J&r&7]&r§r at any time."
+				""
+				"This quest category contains &dbasic information about the modpack&r, for all players."
+			]
+			icon: "ftbquests:book"
+			id: "15402DCFAC7CC56A"
+			rewards: [{
+				auto: "enabled"
+				id: "7F1DBC92AA84645F"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Humans are also allowed!"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "774A1B2AF13DC558"
+				stat: "minecraft:play_time"
+				title: "Start a New World"
+				type: "stat"
+				value: 1
+			}]
+			title: "Welcome to §a§lTinkerer's Quilt!§r"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15402DCFAC7CC56A"]
+			dependency_requirement: "one_started"
+			description: [
+				"&7[Fabrication]&r Press &7[&r&6Z&r&7]&r to toggle between standing, sneaking, and prone."
+				""
+				"&7[PicoHUD/WTHIT]&r Hold &7[&r&6ALT&r&7]&r to show your &3location&r, the &3time&r, and information about what's in front of you."
+				""
+				"&7[OkZoomer]&r Hold &7[&r&6C&r&7]&r to zoom in on far away objects."
+				""
+				"&7[Noteable]&r Press &7[&r&6N&r&7]&r to open your notes, where you can write things down for this world."
+				""
+				"&7[LambDynamicLights/ClientTweaks]&r Held items like &3Torches&r will &dlight up their surroundings&r. Press &7[&r&6F&r&7]&r to swap one to your &3off-hand&r, where it can't be placed accidentally."
+				""
+				"&7[Reacharound]&r When a &3visual [- -] indicator&r appears at the crosshair, you can place blocks on &dnormally unreachable sides&r - Useful for building &dbridges, walls, and downward staircases&r."
+			]
+			disable_toast: true
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7840EB3C8B8048EF"
+			rewards: [{
+				id: "2B52865B1A2AB9EB"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Movement, Information, and Crafting"
+			tasks: [{
+				disable_toast: true
+				id: "1458865ACC4EFFB5"
+				title: "Click Here!"
+				type: "checkmark"
+			}]
+			title: "Pack Controls"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["15402DCFAC7CC56A"]
+			description: [
+				"&7[Origins/Minus/Statures]&r Press &7[&r&6ALT+O&r&7]&r to review your selected &3origin&r and &3stature&r, affecting your &dabilities&r and &dsize&r. "
+				""
+				"&7[Fabrication]&r Type &6/hidearmor&r to hide some or all &3Armor&r to better show your skin. Type &6/showarmor&r to reverse this change. "
+				""
+				"&7[Drogstyle/StyledNicknames]&r In Multiplayer, type &6/nick&r to set your name, and &6/colour&r and &6/bio&r to style it."
+				""
+				"&7[Fabric Tailor]&r Press &7[&r&6ALT+T&r&7]&r to change your skin in this world, including drag-n-dropping a skin file into the &3local skin upload&r tab."
+				""
+				"&7[Ears]&r Your skin can include &dears, claws, tails, wings, horns&r, and other features when added to the skin file and configured using the &3Ears Skin Manipulator&r online."
+				""
+				"&7[Switchy]&r Press &7[&r&6;&r&7]&r to open the &3preset switcher&r, which allows you to create &3player profiles&r in this world. Profiles can contain &dorigins, skins, nicknames, and optionally inventories and position&r!"
+			]
+			disable_toast: true
+			hide: true
+			icon: "minecraft:dragon_breath"
+			id: "227C88C00E509DAD"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/origin gui @p"
+				icon: "origins:orb_of_origin"
+				id: "5F931878C79AE893"
+				player_command: false
+				title: "Origin Selection Screen"
+				type: "command"
+			}]
+			shape: "octagon"
+			subtitle: "Origins, Skins, and Switches!"
+			tasks: [{
+				disable_toast: true
+				id: "636D01F223970749"
+				title: "Click here to reselect your Origin!"
+				type: "checkmark"
+			}]
+			title: "Character Customization"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15402DCFAC7CC56A"]
+			description: [
+				"&7[ModMenu]&r Press &7[&r&6ALT+M&r&7]&r to open the mod menu, allowing you to change options for mods in the pack."
+				""
+				"&7[Iris]&r Press &7[&r&6ALT+I&r&7]&r to configure &3shaders&r, and &7[&r&6I&r&7]&r to toggle them once configured."
+				""
+				"&7[Presence Footsteps]&r Press &7[&r&6ALT+P&r&7]&r to adjust the volume or gait of your footsteps, including number of legs."
+				""
+				"&7[LambdaBetterGrass]&r You can change whether &3Grass Blocks&r connect vertically from the &3Better Grass&r mod menu."
+				""
+				"&7[Charmonium]&r You can adjust the volume of audio ambience from the &3Charmonium&r mod menu."
+			]
+			disable_toast: true
+			icon: "minecraft:repeating_command_block"
+			id: "337730F25EC36332"
+			rewards: [{
+				count: 10
+				id: "7F93E999EA1BDBC4"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Tweak Stuff!"
+			tasks: [{
+				disable_toast: true
+				id: "22742977937BA2B1"
+				title: "Click Here!"
+				type: "checkmark"
+			}]
+			title: "Pack Configuration"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15402DCFAC7CC56A"]
+			description: [
+				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &dchange workstations&r, or &6Click&r the visual tabs around the screen. "
+				""
+				"&7[MouseWheelie]&r &6Middle Click&r in any inventory to &dsort items&r. Hold &7[&r&6Space&r&7]&r while clicking an inventory to &drestock from it&r, or while clicking your inventory to &dquick store to it&r."
+				""
+				"&7[Inspecio]&r Tooltips contain &ddetailed item information&r, such as item contents, attributes, and effects."
+				""
+				"&7[Portable Crafting]&r Press &7[&r&6V&r&7]&r to &dopen your crafting table anywhere&r, if you have one."
+				""
+				"&7[EMI]&r Press &7[&r&6R&r&7]&r on an item to see its &drecipes&r, or &7[&r&6U&r&7]&r to see its &dusages&r."
+				""
+				"The &3right pane&r shows what you can craft right now. &6Click&r an item to add it to the workstation. &6CTRL+Click&r to craft it instantly."
+				""
+				"Press &7[&r&6CTRL+F&r&7]&r to search up items and blocks instead. &6Click&r to see recipes, or &6Right-Click&r to see usages."
+			]
+			disable_toast: true
+			hide: true
+			icon: "minecraft:crafting_table"
+			id: "438625063C95601F"
+			rewards: [{
+				id: "12ED530D4B5BB824"
+				item: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Mining *and* Crafting"
+			tasks: [{
+				disable_toast: true
+				id: "2797C82C4C23C124"
+				title: "Click Here!"
+				type: "checkmark"
+			}]
+			title: "Crafting Controls"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15402DCFAC7CC56A"]
+			description: [
+				"&7[Apathy]&r On &3Easy Difficulty&r, mobs &dwill not attack you&r unless you attack them first - including guard mobs and bosses. On Normal and above servers, type &6/apathy set join neutral&r to enable this for just you."
+				""
+				"&7[YIGD]&r On death, a &3Grave&r will be placed that &dcontains your items&r. Simply &6Right-Click&r the grave to restore them. When respawning, you'll receive a &3Compass&r that points to your grave."
+				""
+				"&7[SaveThePets]&r You can't accidentally hit your tamed animals like &aHorses&r or &aWolves&r. On death, tamed animals drop a note that, when used on a &3Copper Block&r, will &drevive&r them. "
+				""
+				"&7[Pettable]&r Animals can be pet with &6Middle-Click&r to &drestore some health&r."
+				""
+				"&7[HorseBuff/Fabrication]&r Saddled &aHorses&r &dwill not wander&r from where they're left. &6Sneak+Right-Click&r to unsaddle mobs."
+			]
+			disable_toast: true
+			icon: "minecraft:structure_void"
+			id: "7DCD80F80208292A"
+			shape: "octagon"
+			subtitle: "Apathy, Graves, and Pets"
+			tasks: [{
+				disable_toast: true
+				id: "13A47D4ACD23046E"
+				title: "Click Here!"
+				type: "checkmark"
+			}]
+			title: "Difficulty Changes"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15402DCFAC7CC56A"]
+			description: [
+				"&7[Tinkerer's Quilt]&r There are alternative recipes for &dLeather, Slimeballs, and Glow Ink Sacs&r that don't require killing their respective mobs. &dArrows&r can also be scavenged from &cskeletons&r."
+				""
+				"&7[Fabrication]&r Villagers will &drotate their stock every day&r: You're more likely to see special items, but &dcan't buy them infinitely&r."
+				""
+				"&7[Tinkerer's Smithing]&r There are recipes to &dupgrade&r equipment to better materials at the &3Smithing Table&r - or the &3Crafting Table&r for &3unenchanted&r gear."
+				""
+				"There are also matching recipes to &drepair&r equipment at the &3Anvil&r or the &3Crafting Table&r, costing no experience or work."
+				""
+				"Additionally, equipment that with an &3enchantment&r or a custom name can be &drepaired after it breaks&r"
+				""
+				"Finally, equipment can be &dde-worked&r one stage using &3Netherite Scrap&r at an &3Anvil&r, making adding enchantments &dcost less experience&r."
+			]
+			disable_toast: true
+			icon: "minecraft:smithing_table"
+			id: "00BF3119EB22417C"
+			shape: "octagon"
+			subtitle: "Sentimentality and Vegetarianism"
+			tasks: [{
+				disable_toast: true
+				id: "47D97349DBC5E67F"
+				title: "Click Here!"
+				type: "checkmark"
+			}]
+			title: "Crafting Rebalance"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&2&lWorld Interaction&r"
+				""
+				"&7[Fabrication]&r "
+				"&3Block&r drops are picked up instantly."
+				"&3Cactus&r doesn't delete items."
+				"The void deals damage and recalls you."
+				"&3Campfires&r must be lit."
+				"&3Obsidian&r breaks faster."
+				"Filling &3Bottles&r provides air."
+				"&3Cactus Blocks&r don't hurt with armor."
+				"&3Bushes&r don't hurt with armor/sneaking."
+				"&cEndermen&r and &cCreepers&r don't grief."
+				"&aVillagers&r follow &3Emerald Blocks&r."
+				"&cSpiders&r can't climb &3Glazed Blocks&r, or when wet."
+				"&cCreepers&r can't climb &3Ladders&r/&3Vines&r."
+				"Water sources spread more easily."
+				"&3Water Cauldrons&r can evaporate."
+				"No random lava in the nether."
+				"&2Void&r damages and recalls."
+				""
+				"&7[Carpet]&r "
+				"&3Nether portals&r move players faster."
+				"&3Chorus Fruit&r resets fall damage."
+				"&cSpider Jockeys&r can drop &3Enchanted Golden Apples&r"
+				""
+				"&7[SwingThrough]&r Enemies can be &dattacked through grass&r."
+				"&7[Couplings]&r &3Double doors&r move together."
+				"&7[Coyote Time]&r Jumping is more lenient."
+				"&7[Leaves Us In Peace]&r &3Leaves&r decay faster."
+				"&7[YIGD]&r 5% &3experience&r is lost on death."
+				"&7[SnowUnderTrees]&r &3Snow&r generates under trees."
+				"&7[DualRide]&r &aHorses&r seat two players."
+				"&7[VehicleFix]&r Mounted players collide properly."
+				""
+				"&7[BoringDefaultGameRules]&r"
+				"&cPhantoms&r do not spawn. &7(/gamerule doInsomnia)&r"
+				"&cWardens&r do not spawn. &7(/gamerule doWardenSpawning)&r"
+				"{@pagebreak}"
+				"&2&lInterfaces&r"
+				""
+				"&7[Fabrication]&r  "
+				"Old commands still work."
+				"&3Maps&r show their number."
+				"Important enchantments show a letter."
+				""
+				"&7[StyledChat]&r Chat §o*italics*§r*, §l**bold**§r, ~~§mstrike§r~~."
+				"&7[StyledChat]&r Chat &d:emoji:&r. Suggest with &6:&r and &7[&r&6Tab&r&7]&r."
+				"&7[Appleskin]&r &3Hunger bar&r shows saturation."
+				"&7[Enhanced Attack Indicator]&r The &3attack indicator&r shows various progresses."
+				"&7[Status Effect Timer]&r &3Status effects&r show their remaining time."
+				"&7[MCWifiPnP]&r The &3open to LAN&r button works for online play (most networks)."
+				"&7[CrunchyAdvancements]&r &3advancements&r are hidden."
+				"&7[Crowmap]&r &3Maps&r fill from the inventory."
+				"&7[NoRecipeBook]&r The &3Recipe Book&r is hidden."
+				""
+				"{@pagebreak}"
+				"&2&lFarming&r"
+				""
+				"&7[Fabrication]&r "
+				"&3Bone Meal&r can grow &3Moss Carpet&r."
+				"Farms are &dtrample-resistant&r."
+				"&3Dragon Eggs&r always spawn and are breakable."
+				""
+				"&7[Carpet]&r"
+				"&3Bone Meal&r grows &3Sugarcane&r, &3Cactus&r, &3Lily Pads&r, and &3Coral&r."
+				"&3Blaze Powder&r grows &3Nether Wart&r."
+				"&3Blackstone&r generates instead of &3Basalt&r above &3Soul Sand&r."
+				"&3Deepslate&r can generate from water and lava &7(below y:0)&r."
+				"&cGuardians&r turn into &cElder Guardians&r when struck by lightning."
+				"&aClerics&r farm &3Nether Wart&r."
+				""
+				"&7[ChickensShed]&r &aChickens&r occasionally drop &3Feathers&r."
+				"&7[FeedTheBees]&r &aBees&r don't die from stinging, and can be healed with &3Sugar&r."
+				"&7[FishingReal]&r &aFish&r are reeled alive."
+				"&7[RightClickHarvest]&r &3Hoes&r harvest and replant on &7[&r&6Right-Click&r&7]&r."
+				"{@pagebreak}"
+				"&2&lEquipment&r"
+				""
+				"&7[Fabrication]&r "
+				"&3Infinity&r doesn't need &3Arrows&r."
+				"&3Impaling&r works on wet mobs."
+				"&3Tridents&r get &3Power&r and &3Sharpness&r."
+				"&3Feather Falling V&r redirects all damage."
+				"&3Soul Speed&r doesn't damage boots."
+				"&3Infinity&r on &3Crossbows&r."
+				"&3Arrows&r travel faster underwater."
+				"&3Channeling II&r works in rain."
+				"&3Bundles&r can fit 8 tools."
+				"&3Loyalty Tridents&r return from voids."
+				"&3Anvils&r aren't damaged by use."
+				""
+				"&7[TaxFreeLevels]&r &3Experience&r costs are normalised, including &3renaming&r."
+				"&7[EasierEnchanting]&r &3Enchanting Tables&r can be rerolled for 6 &3Lapis Lazuli&r."
+				"&7[ShieldLib]&r &3Shields&r can be table enchanted."
+				"&7[Tinkerer's Smithing]&r Equipment combine cost is order-agnostic."
+				"{@pagebreak}"
+				"&2&lMachines&r"
+				""
+				"&7[Fabrication]&r "
+				"&3Minecarts&r are silent."
+				"&3Furnace Carts&r are efficient and fast, can be pushed, and load chunks."
+				"&3Chest Carts&r don't slow down when full."
+				"&3Magenta Terracotta&r can make &3Powered Rails&r and &3Detector Rails&r directional."
+				"&3Comparators&r work on &3Powered Rails&r."
+				"&3Furnace&r output slots give &3experience&r."
+				"&3Note Blocks&r work from any side, tune to &3Stick&r stacks, and tune down when sneaking."
+				"&3Wool&r silences functional mechanisms."
+				""
+				"&7[Carpet]&r"
+				"&3Cactus&r rotates blocks with &7[&r&6Right-Click&r&7]&r"
+				"&3Dispensers&r do more things &7(see Homesteading: Mechanisms)&r."
+				"&3Hopper Carts&r can insert, and delay like &3Hoppers&r."
+				"&3Chains&r link blocks when pushed."
+				"Allow &3Piston&r double-retraction."
+				"Non-positional &3Redstone Dust&r."
+				"&3Repeaters&r don't miss quick pulses."
+				""
+				"&7[ClickThrough]&r &7[&r&6Sneak&r&7]&r to interact with &3Item Frames&r and &3Signs&r on chests"
+			]
+			disable_toast: true
+			icon: "minecraft:writable_book"
+			id: "1474F51D2832FCD5"
+			shape: "octagon"
+			subtitle: "You don't have to read this."
+			tasks: [{
+				disable_toast: true
+				id: "2B6CD287B75CD676"
+				title: "Click Here!"
+				type: "checkmark"
+			}]
+			title: "Vanilla Discrepancies"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Introduction"
+}

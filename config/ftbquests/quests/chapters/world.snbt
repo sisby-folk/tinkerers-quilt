@@ -1,0 +1,1726 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "world"
+	group: "6B747C3DB5A16A71"
+	icon: "minecraft:globe_banner_pattern"
+	id: "21C1A3CB857EC4AE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: [
+				"&cIllagers&r are a hostile faction of &aVillagers&r, which hunt in small packs and gather at &2Outposts&r."
+				""
+				"During an &4Illager Raid&r, Villagers will ring the &eTown Bell&r and &dhide&r. &eBells&r can also be rung with &7[&r&6Right-Click&r&7]&r to the same effect."
+				""
+				"Completing a raid provides the &3Hero of the Village&r buff - providing &ddiscounts with all villagers for 2 days&r."
+			]
+			hide: true
+			id: "51415C8C88AA350B"
+			rewards: [
+				{
+					id: "497BDF0CD32B821B"
+					item: "minecraft:bell"
+					type: "item"
+				}
+				{
+					id: "4D17D0F47149180D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:piercing"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Snow Village"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:blue_ice"
+				id: "0E98F0430979C3AB"
+				structure: "minecraft:village_snowy"
+				title: "Enter a Snow Village"
+				type: "structure"
+			}]
+			title: "Shivery!"
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Ocean Monuments&r are underwater fortresses containing &cGuardians&r, &cElder Guardians&r, &3Prismarine Crystals&r and &3Sponges&r."
+				""
+				"They can be found using &3Ocean Explorer Maps&r sold by &aCartographers&r."
+				""
+				"&cGuardians&r are stone-like fish that fire charged &3lasers&r at the player, and can extend their spikes to &dreflect melee damage&r."
+				""
+				"Each fortress is guarded by three &cElder Guardians&r, a boss-like variant of Guardians that inflict &3Mining Fatigue&r to all visitors."
+				""
+				"&3Sponges&r can be placed to remove water in an area. They must be &3smelted&r before reuse."
+			]
+			hide: true
+			id: "5DC1E9DC98895E6F"
+			rewards: [
+				{
+					id: "2EE6D4829F7AD6ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4653B3BA9076A428"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find an Ocean Monument"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:prismarine_bricks"
+				id: "5568AF3262E9717C"
+				structure: "minecraft:monument"
+				title: "Find an Ocean Monument"
+				type: "structure"
+			}]
+			title: "Snorkel not included"
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&3Bee Nests&r house wild &aBees&r! They can't be moved, but produce &3Honeycomb&r that can be used to craft a moveable &3Beehive&r."
+				""
+				"To &dsafely shear a full hive or nest&r, a &eCampfire&r must be lit underneath. Otherwise, Bees will become angered."
+				""
+				"&eCarpet&r can be placed over Campfires to &dprevent fire damage&r."
+			]
+			hide: true
+			id: "05737FE8552841E9"
+			rewards: [
+				{
+					count: 3
+					id: "510A8473FAD36C9F"
+					item: "minecraft:moss_carpet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7EA2277E0F687304"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "31CBD024A14767EF"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04820B107B3798DA"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a Bee Nest"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:bee_nest"
+				id: "1FF73E768B241641"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Bee Nest"
+				to_observe: "minecraft:bee_nest"
+				type: "observation"
+			}]
+			title: "Farm Favourites!"
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Abandoned Mineshafts&r often connect caves, and contain &dMinecarts, Rails, and other loot&r!"
+				""
+				"Mineshaft hallways can also contain &cCave Spider&r spawners and slowing &3Cobwebs&r. "
+				""
+				"&3Chest Minecarts&r contain the most loot - including &dName Tags, Pumpkin and Melon Seeds, and Ore&r!"
+			]
+			hide: true
+			id: "55DDA9D21E24AF10"
+			rewards: [{
+				id: "3C2CDDC1AECDF2CE"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find an Abandoned Mineshaft"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:rail"
+				id: "4C668EE4C88BCB5B"
+				structure: "#minecraft:mineshaft"
+				title: "Find an Abandoned Mineshaft"
+				type: "structure"
+			}]
+			title: "TRUCK PARTS!!!"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&2Lush Caves&r are indicated by the presence of a flowering &3Azalea Tree&r on the surface above."
+				""
+				"&2Lush Caves&r contain &aAxolotls&r, &3Moss&r, &3Azalea Plants&r, and &3Glow Berries&r."
+				""
+				"&3Glow Berries&r are a food that can be &dgrown underneath blocks&r, and &demit light&r while growing."
+			]
+			hide: true
+			id: "0305A29ECBFA79FA"
+			rewards: [
+				{
+					id: "47E2F798DB2525BA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "42C6047CBB7C0A61"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Lush Cave"
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				disable_toast: true
+				icon: "minecraft:moss_block"
+				id: "0FB37F4ABF69F503"
+				title: "Find a Lush Cave"
+				type: "biome"
+			}]
+			title: "Where's my Ivy Whip"
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0305A29ECBFA79FA"]
+			description: [
+				"&aAxolotls&r can be both &dtamed and transported&r using a &3Bucket&r - where they can also be &drenamed&r at an &3Anvil&r."
+				""
+				"Axolotls are &dunderwater combat allies&r - attacking enemies, cleansing fatigue, and even healing!"
+				""
+				"They're very hardy, and even &dplay dead to regenerate&r when low on health."
+				""
+				"Their favourite food is a &3Bucket of Tropical Fish&r."
+				""
+				"Axolotls &ddon't follow the player&r! Use &3Buckets&r or &3Leads&r to keep them close by."
+				""
+				"&7[Tinkerer's Quilt]&r Feeding a bucketed axolotl &3Glow Berries&r will produce a &3Glow Ink Sac&r.&7 \\{Bug: This removes their name!\\}&r"
+			]
+			hide: true
+			id: "3602D52A78391BFA"
+			rewards: [
+				{
+					id: "6EC735EE10ADF7A1"
+					item: {
+						Count: 1b
+						id: "minecraft:tropical_fish_bucket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "55F85E84106E9EE7"
+					item: {
+						Count: 1b
+						id: "minecraft:tropical_fish_bucket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6ED6A0A24EC1C4FB"
+					item: {
+						Count: 1b
+						id: "minecraft:tropical_fish_bucket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bucket an Axolotl"
+			tasks: [{
+				disable_toast: true
+				id: "372E5994E7E2ABAB"
+				item: {
+					Count: 1b
+					id: "minecraft:axolotl_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Underwater Fighting Team!"
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"A &2Bastion Remnant&r is a high-level fortress full of well-equipped &cPiglin Brutes&r - and a &dlarge variety of loot&r."
+				""
+				"Brutes can also aggravate normally-neutral &aPiglins&r - which can lead to being quickly overrun."
+			]
+			hide: true
+			id: "08398FBBB792C742"
+			rewards: [{
+				id: "5E9BB26ADED7D3B7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Bastion Remnant"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:polished_blackstone_bricks"
+				id: "49C795AA701ECB2D"
+				structure: "minecraft:bastion_remnant"
+				title: "Find a Bastion Remnant"
+				type: "structure"
+			}]
+			title: "A Proper Story"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08398FBBB792C742"]
+			description: [
+				"A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the &dneedle to point towards it&r when in the same dimension."
+				""
+				"&3Lodestones&r can be looted from &2Bastions&r, or crafted. "
+			]
+			hide: true
+			id: "449397788969C004"
+			rewards: [{
+				id: "2CB308083236D0E5"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Find a Lodestone"
+			tasks: [{
+				id: "6222355C0CE72BA1"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			title: "Misty Taste of Moonshine"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: [
+				"&aVillagers&r are often attacked by &cZombies&r, who can &3Zombify&r them on harder difficulties. &cZombified Villagers&r can also spawn naturally."
+				""
+				"A &cZombie Villager&r that is &eweakened&r and fed a &eGolden Apple&r will slowly become cured - Careful, they can still &3burn in daylight&r while this happens!"
+				""
+				"Cured villagers offer the player &ddiscounted trade prices&r."
+			]
+			hide: true
+			id: "0B63891D4F70167D"
+			rewards: [
+				{
+					count: 4
+					id: "54E9913FE63FDEAD"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BEC5A1C8696533D"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Visit a Desert Village"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:sandstone"
+				id: "18D4E5CF52B9AE80"
+				structure: "minecraft:village_desert"
+				title: "Enter a Desert Village"
+				type: "structure"
+			}]
+			title: "Send Stones"
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&3Turtles&r can be found roaming on &2Beaches&r. "
+				""
+				"Their favourite food is &eSeagrass&r."
+				""
+				"Bred turtles lay &3Turtle Eggs&r, which hatch after many days if not &3trampled&r by mobs - build a &eFence&r!"
+				""
+				"When it grows into an adult, a &3Baby Turtle&r drops a &dScute&r."
+			]
+			hide: true
+			id: "687ED1196101F48D"
+			rewards: [
+				{
+					count: 10
+					id: "7C89F52AB86043C4"
+					item: "minecraft:seagrass"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "57BADD860E69CFA5"
+					item: "minecraft:oak_fence"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Turtle"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:scute"
+				id: "2D8CC208859BC15D"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Turtle"
+				to_observe: "minecraft:turtle"
+				type: "observation"
+			}]
+			title: "Hey, Little Blue!"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"687ED1196101F48D"
+				"47ED4204DD0D65C4"
+			]
+			description: [
+				"&3Turtle Shells&r are helmets that provide additional &dBreath Capacity&r, similar to the &3Respiration&r enchantment. "
+				""
+				"They can also be brewed into three &ePotion of the Turtle Master&r - a specialized &3Combat Potion&r that &dslows you&r."
+			]
+			hide: true
+			hide_dependency_lines: false
+			id: "56295946AF0DD074"
+			rewards: [
+				{
+					id: "777F2EAF4C750945"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256FDDB934BF6FDE"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_turtle_master"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft a Turtle Shell"
+			tasks: [{
+				disable_toast: true
+				id: "4332DE476304087F"
+				item: {
+					Count: 1b
+					id: "minecraft:turtle_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cowabunga!"
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: [
+				"&aVillagers&r can &3level up&r their profession if you &3trade&r with them, &dunlocking better trades&r."
+				""
+				"&7[Fabrication]&r Villagers will have &dnew trades every day&r, or whenever they restock."
+			]
+			hide: true
+			id: "3F3A1267F224AD07"
+			rewards: [{
+				count: 4
+				id: "5F91BA9B5A136015"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Visit a Plains Village"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:oak_planks"
+				id: "34CCB8903E66DB2B"
+				structure: "minecraft:village_plains"
+				title: "Enter a Plains Village"
+				type: "structure"
+			}]
+			title: "Plain and Simple"
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: [
+				"Villagers &drepopulate naturally&r by farming when an &3enough houses&r with doors and beds are built nearby."
+				""
+				"When a villager has &33 Bread&r, or &312 carrots&r, &3Potatoes&r, or &3Beetroots&r, they can do this - but also &dgain more experience while trading&r!"
+			]
+			hide: true
+			id: "65DADF56E2AB01DF"
+			rewards: [{
+				count: 21
+				id: "2AD2C6E2B556E672"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Visit a Taiga Village"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:spruce_planks"
+				id: "0996CC3858DEAB84"
+				structure: "minecraft:village_taiga"
+				title: "Enter a Taiga Village"
+				type: "structure"
+			}]
+			title: "Mane Street"
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: [
+				"Employed &aVillagers&r restock from a bound &3Job Site&r block up to twice a day. "
+				""
+				"A villager without any &3trade experience&r can &dchange professions&r if their Job Site block is broken and another one is placed."
+				""
+				"A &dlist of professions&r and their Job Sites can be found over the page."
+				"{@pagebreak}"
+				"&aArmorer&r - &3Blast Furnace&r "
+				"&aButcher&r - &3Smoker&r"
+				"&aCartographer&r - &3Cartography Table&r"
+				"&aCleric&r - &3Brewing Stand&r"
+				"&aFarmer&r - &3Composter&r"
+				"&aFisherman&r - &3Barrel&r"
+				"&aFletcher&r - &3Fletching Table&r"
+				"&aLeatherworker&r - &3Cauldron&r"
+				"&aLibrarian&r - &3Lectern&r"
+				"&aMason&r - &3Stonecutter&r"
+				"&aShepherd&r - &3Loom&r"
+				"&aToolsmith&r - &3Smithing Table&r"
+				"&aWeaponsmith&r - &3Grindstone&r"
+			]
+			hide: true
+			id: "2591980163249EF1"
+			rewards: [{
+				id: "36361E75C99FC81F"
+				item: "minecraft:fletching_table"
+				type: "item"
+			}]
+			subtitle: "Visit a Savannah Village"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:acacia_log"
+				id: "3A1BD6DEB90F7E2D"
+				structure: "minecraft:village_savanna"
+				title: "Enter a Savanna Village"
+				type: "structure"
+			}]
+			title: "Madagascar 2"
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"2591980163249EF1"
+				"51415C8C88AA350B"
+				"3F3A1267F224AD07"
+				"65DADF56E2AB01DF"
+				"0B63891D4F70167D"
+			]
+			description: [
+				"Large enough &2Villages&r are protected by &3Iron Golems&r."
+				""
+				"Iron Golems can also be built with a 4-block T of &eIron Blocks&r topped with a &eCarved Pumpkin&r."
+				""
+				"Iron Golems are &dcombat allies&r and will fight hostile mobs, including &cIllagers&r."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:filled_map"
+			id: "01646EC056D18511"
+			rewards: [
+				{
+					id: "5F533ACB0CD57C46"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "7464DF60ADE26E4B"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "3838C1067FEF0042"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "443294621BF1DF97"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17DAFF23D966A7D8"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "37BEFF87E8E3C39B"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Become a familiar face"
+			title: "Well-Travelled"
+			x: -9.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"1EA97FD583A20884"
+				"47ED4204DD0D65C4"
+			]
+			description: [
+				"&2Woodland Mansions&r are dark oak fortresses full of &3many room types&r with &dspecial loot&r, &cIllagers&r, and traps."
+				""
+				"They can be found using &3Woodland Explorer Maps&r sold by &aCartographers&r."
+				""
+				"Rooms can contain many useful, including &3Bookshelves&r, &3Crops&r, and &3Loot Chests&r - often &dtucked in corners&r. "
+				""
+				"In rare rooms, &dDiamond Blocks&r can be found encased in &3Obsidian&r or &3lava&r."
+			]
+			hide: true
+			id: "7CEE48A412C94320"
+			rewards: [{
+				id: "79EEEA1E734B1360"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Woodland Mansion"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:dark_oak_stairs"
+				id: "613A669B401CB42E"
+				structure: "minecraft:mansion"
+				title: "Find a Mansion"
+				type: "structure"
+			}]
+			title: "Miserable pile of secrets"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10CFFE20ABD36803"]
+			description: [
+				"&3Amethyst&r grows in large &2Geodes&r lined with &3Basalt&r and &3Calcite&r underground."
+				""
+				"Budding Amethyst Blocks &dcan't be removed&r! Only &3Clusters&r can be renewably broken."
+				""
+				"&3Amethyst Shards&r can be used to make &3Tinted Glass&r which blocks light."
+			]
+			hide: true
+			id: "2393A9D50B18EEAE"
+			rewards: [{
+				id: "6BFD9A2D48C54DCF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Geode"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:amethyst_block"
+				id: "3A8EA4DA6B1CD11A"
+				observe_type: 0
+				timer: 0L
+				title: "Find an Amethyst Block"
+				to_observe: "minecraft:amethyst_block"
+				type: "observation"
+			}]
+			title: "Come on, P!"
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"Breaking snow with a &3Shovel&r will yield a &3Snowball&r, which can be &dthrown at mobs&r, but only damage &cBlazes&r."
+				""
+				"They can also be crafted into &3Snow Blocks&r, which when stacked two-high and topped with a &eCarved Pumpkin&r, create a &aSnow Golem&r."
+				""
+				"&aSnow Golems&r &ddefend against hostile mobs&r by throwing Snowballs!"
+			]
+			hide: true
+			id: "28AFD314DDDE3FC4"
+			rewards: [{
+				count: 10
+				id: "7BB86E5809B36215"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			subtitle: "Find some Snow"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:snow"
+				id: "042C9CD92C61AC31"
+				observe_type: 1
+				timer: 0L
+				title: "Find some Snow"
+				to_observe: "minecraft:snow"
+				type: "observation"
+			}]
+			title: "Gem Hunt"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0305A29ECBFA79FA"
+				"19FF00BA5161FE04"
+				"4B74AEAA4D30B428"
+				"0EFAB7B8A93FB8BB"
+				"3D08C518610A72F1"
+				"0C42AC52CDDEF4BB"
+				"522B247B10CCF04E"
+				"75D48083C53616FF"
+				"1EA97FD583A20884"
+				"7CEE48A412C94320"
+				"55DDA9D21E24AF10"
+				"08398FBBB792C742"
+				"30EEC5B4C5178E93"
+				"7FC50C764AF1D65A"
+				"5CF8EB5303569739"
+				"5F4CDC9DB19F6B49"
+				"5DC1E9DC98895E6F"
+				"6FB48CC24D3230F5"
+				"1932327D56163D18"
+				"2393A9D50B18EEAE"
+				"28AFD314DDDE3FC4"
+				"01646EC056D18511"
+				"02D9B5C70D9D6007"
+				"50C5FC2ED5BF1A83"
+				"3E19CC5752F07CF9"
+			]
+			description: [
+				"&3Beacons&r beams can be coloured with &3Stained Glass&r."
+				""
+				"Beacons can be placed adjacent to eachother to &duse less pyramid materials&r."
+				""
+				"As an example, three level 2 beacons can be arranged in a line using only &e46 Pyramid Blocks&r."
+				""
+				"&7[Tinkerer's Quilt]&r By keeping any &3Copper Blocks&r on the outermost layer of a &3Beacon&r pyramid, it stays easy to clean. "
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:spyglass"
+			id: "61E3A3B353DCD588"
+			rewards: [
+				{
+					id: "259FC60D45DEDA9F"
+					item: {
+						Count: 1b
+						id: "minecraft:purple_banner"
+						tag: {
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Color: 10
+										Pattern: "hhb"
+									}
+									{
+										Color: 10
+										Pattern: "hh"
+									}
+									{
+										Color: 10
+										Pattern: "rud"
+									}
+									{
+										Color: 0
+										Pattern: "tt"
+									}
+									{
+										Color: 10
+										Pattern: "ld"
+									}
+									{
+										Color: 1
+										Pattern: "gru"
+									}
+									{
+										Color: 5
+										Pattern: "bts"
+									}
+									{
+										Color: 12
+										Pattern: "bts"
+									}
+								]
+							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Mercury\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10D6B7356A2AD29B"
+					item: {
+						Count: 1b
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:respiration"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							RepairCost: 31
+							display: {
+								Lore: ["{\"text\":\"Gift of Mercury\"}"]
+								Name: "{\"text\":\"Explorer's Helmet\", \"color\":\"dark_purple\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 14
+					id: "41FB1A8C265AF4A6"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "35EF258CE7DA207D"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78BEDB58DB379044"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "69C9A06A42299AEF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7DD08B86F7FF6997"
+					item: "minecraft:pink_stained_glass"
+					type: "item"
+				}
+				{
+					id: "35FDF1F93AFA33C3"
+					item: "minecraft:white_stained_glass"
+					type: "item"
+				}
+				{
+					id: "4AF0E01CB24EB481"
+					item: "minecraft:light_blue_stained_glass"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Explore the worlds"
+			tasks: [{
+				id: "63DE6483F0A04B81"
+				title: "Observatory high tea [Click]"
+				type: "checkmark"
+			}]
+			title: "Mercury"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"Strewn with &3Bamboo&r and rarely &aPandas&r, &2Bamboo Jungles&r can be recognised from a great distance."
+				""
+				"Climbable &3Scaffolding&r, crafted from &3Bamboo&r, can support &dtemporary towers&r up to six blocks wide, &dbreaking instantly&r when unsupported."
+				""
+				"&aPandas&r are neutral animals that like &3Bamboo&r, with &3varying personality&r types shown on their face."
+				""
+				"Pandas can only be bred &3among bamboo&r, and can't be &dtoo close together&r or they'll instead become angered."
+			]
+			hide: true
+			id: "3D08C518610A72F1"
+			rewards: [{
+				id: "48566F7A2C868EE0"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Bamboo Jungle"
+			tasks: [{
+				biome: "minecraft:bamboo_jungle"
+				disable_toast: true
+				icon: "minecraft:bamboo"
+				id: "47AE4D2F39DC80E2"
+				title: "Find a Bamboo Jungle"
+				type: "biome"
+			}]
+			title: "Coconut Gun"
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Outposts&r are structures defended by many &3Crossbow&r-wielding &cPillagers&r."
+				""
+				"Killing a &3Banner&r-bearing &cCaptain Pillager&r inflicts &3Bad Omen&r, initiating a &4Raid&r at the next village visited unless cleansed."
+				""
+				"Basic loot and &3Goat Horns&r can be found here."
+			]
+			hide: true
+			icon: "minecraft:spruce_stairs"
+			id: "30EEC5B4C5178E93"
+			rewards: [{
+				id: "3167F3EE675CA950"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find an Outpost"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:spruce_stairs"
+				id: "19B47DDA285B5750"
+				structure: "minecraft:pillager_outpost"
+				title: "Find a Pillager Outpost"
+				type: "structure"
+			}]
+			title: "Wrong Neighbourhood"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Shipwrecks&r can be found deep underwater, or &2Beached&r."
+				""
+				"They contain up to &d3 loot chests&r, depending on the wreck's condition."
+				""
+				"The &3Bow&r contains &dSupplies&r, the &3Upper Stern&r contains &dTreasure&r, and the &3Lower Stern&r contains &dNavigation Equipment&r"
+			]
+			hide: true
+			id: "7FC50C764AF1D65A"
+			rewards: [
+				{
+					id: "3A922BA72BB5CC88"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5BFCB6D800D5A18E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a Shipwreck"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:dark_oak_boat"
+				id: "27B5E2FB0A7F43F8"
+				structure: "#minecraft:shipwreck"
+				title: "Find a Shipwreck"
+				type: "structure"
+			}]
+			title: "Chipwrecked"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Desert Temples&r contain a &3TNT&r-&3Pressure Plate&r pit trap with &dloot chests&r inside."
+				""
+				"A pattern adorns the centre of the centre of the temple, concealing the pit. By &dbreaking the centre blocks without standing on them&r, the pit can be revealed."
+				""
+				"The explosive pressure plate is visible in the centre of the pit. After &dmining downwards to reach the bottom&r, the pressure plate can be broken to defuse the trap."
+				""
+				"The &3Chests&r and &3TNT&r can then both be taken."
+			]
+			hide: true
+			icon: "minecraft:chiseled_sandstone"
+			id: "5CF8EB5303569739"
+			rewards: [{
+				id: "122D1702C9C1C756"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Desert Temple"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:chiseled_sandstone"
+				id: "09796221B64CFFF4"
+				structure: "minecraft:desert_pyramid"
+				title: "Find a Desert Temple"
+				type: "structure"
+			}]
+			title: "Hur-Ra!"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4B74AEAA4D30B428"
+				"47ED4204DD0D65C4"
+			]
+			description: [
+				"&2Jungle Temples&r contain &3Tripwire&r-&3Dispenser&r dart traps and &dvaluable loot&r."
+				""
+				"&3Tripwire&r traps can only be safely dismantled using &eShears&r."
+				""
+				"Some loot is revealed by a &3Lever&r puzzle, but nothing stops you from &dbreaking in instead&r."
+			]
+			hide: true
+			icon: "minecraft:mossy_cobblestone"
+			id: "5F4CDC9DB19F6B49"
+			rewards: [
+				{
+					id: "3EA710567373A797"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F204BD684E29A2D"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a Jungle Temple"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:mossy_cobblestone"
+				id: "734C2555CE2C2618"
+				structure: "minecraft:jungle_pyramid"
+				title: "Find a Jungle Temple"
+				type: "structure"
+			}]
+			title: "Come and have a go"
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Ocean Ruins&r are guarded by &cDrowned&r and contain &dloot chests - including Buried Treasure Maps&r!"
+				""
+				"Ruins are either made of &3Stone Brick&r in the &2Colder Ocean Biomes&r (with deeper blue water), or &3Sandstone Bricks&r in &2Warmer Ocean Biomes&r (like those with &3Coral&r)!"
+			]
+			hide: true
+			icon: "minecraft:mossy_stone_bricks"
+			id: "6FB48CC24D3230F5"
+			rewards: [
+				{
+					id: "400C030A828BCD26"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2FE51CCB8EF07E74"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find Ocean Ruins"
+			tasks: [{
+				icon: "minecraft:mossy_stone_bricks"
+				id: "5D59AF700C3FD338"
+				structure: "#minecraft:ocean_ruin"
+				title: "Find some Ocean Ruins"
+				type: "structure"
+			}]
+			title: "Sleeping with the Fishes"
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&3Giant Mushrooms&r and &aMooshrooms&r are plentiful on the &3Mycelium&r-clad &2Mushroom Islands&r."
+				""
+				"&3Mycelium&r spreads to nearby grass, and allows &dmushrooms to be planted at any light level&r."
+				""
+				"&aMooshrooms&r are a bright-red variant of &aCows&r that can fill &dbuckets with milk&r and &dbowls with mushroom stew&r."
+				""
+				"When struck by &eLightning&r in a &3thunderstorm&r, they become &aBrown Mooshrooms&r, which produce &3Suspicious Stew&r with hidden effects based on the &eFlower&r they're fed."
+			]
+			hide: true
+			id: "0EFAB7B8A93FB8BB"
+			rewards: [
+				{
+					id: "4646433CE89F2129"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "4ABAEFED9CFFDCDD"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "38435BB389EA5DFE"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "077A190E67F93F56"
+					item: "minecraft:oxeye_daisy"
+					type: "item"
+				}
+				{
+					id: "66838A1862390F74"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Mushroom Island"
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				disable_toast: true
+				icon: "minecraft:mycelium"
+				id: "3619EC0F75E5445E"
+				title: "Find a Mushroom Island"
+				type: "biome"
+			}]
+			title: "Fungal Wastes"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10CFFE20ABD36803"]
+			description: [
+				"&2Dripstone Caves&r, found deep underground, is full of &3Pointed Dripstone&r that &dgrows over time&r."
+				""
+				"Careful! pointed dripstone &dhurts when landing on it&r!"
+				""
+				"If a &3Dripstone Block&r with a stalactite has &3lava&r above it, the resulting drips can &drenewably fill cauldrons with lava&r."
+			]
+			hide: true
+			id: "1932327D56163D18"
+			rewards: [
+				{
+					id: "6DC6F16FCEF30131"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "34E94170F5478DC5"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "688EDB1BF3BFE7FB"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Dripstone Cave"
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				disable_toast: true
+				icon: "minecraft:dripstone_block"
+				id: "50E52E8C54CF6323"
+				title: "Find a Dripstone Cave"
+				type: "biome"
+			}]
+			title: "Minecraft Drip"
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"Deep &2Underground&r &7(around y:0)&r, all stone is replaced with &3Deepslate&r, which is harder to mine."
+				""
+				"&3Cobbled Deepslate&r can be &dused like Cobblestone&r in crafting."
+			]
+			hide: true
+			id: "10CFFE20ABD36803"
+			rewards: [{
+				id: "24C742924575F435"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find Deepslate"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:deepslate"
+				id: "2D7A058F67957E97"
+				observe_type: 0
+				timer: 0L
+				title: "Find Deepslate"
+				to_observe: "minecraft:deepslate"
+				type: "observation"
+			}]
+			title: "Sleeping in the cold below"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"Signified by patches of land and green water, &2Swamps&r are home to &aFrogs&r, &cSlimes&r, and &3Lily Pads&r."
+				""
+				"&3Lily Pads&r can be &dplaced on water&r, and are solid - they can be used to make &dthin decorative water bridges&r."
+				""
+				"&cSlimes&r can spawn in swamps at night when the &dmoon is visible&r - most commonly during a full moon."
+				""
+				"Orange &aTemperate Frogs&r will produce &eOchre Froglights&r when swallowing small &cMagma Cubes&r."
+				""
+				"&7[Carpet]&r Lily Pads are &drenewable&r through using &3Bone Meal&r."
+			]
+			hide: true
+			id: "0C42AC52CDDEF4BB"
+			rewards: [
+				{
+					id: "0D44674F73BC9845"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "2ABF649EA43F4E91"
+					item: "minecraft:ochre_froglight"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Swamp"
+			tasks: [{
+				biome: "minecraft:swamp"
+				disable_toast: true
+				icon: "minecraft:lily_pad"
+				id: "6547EBF566C0E5D9"
+				title: "Find a Swamp"
+				type: "biome"
+			}]
+			title: "Wisdom of Huu"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&2Dark Forests&r are home to &3Dark Oaks&r, large trees with wide leaf canopies, &dshading most of the biome&r."
+				""
+				"This can &dprotect sunlight-sensitive creatures&r, allowing hostile mobs to survive during the day."
+			]
+			hide: true
+			id: "1EA97FD583A20884"
+			rewards: [{
+				id: "7994DB3C25E2858B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Dark Forest"
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				disable_toast: true
+				icon: "minecraft:dark_oak_sapling"
+				id: "464044A582E87B61"
+				title: "Find a Dark Forest"
+				type: "biome"
+			}]
+			title: "Vampire Haven"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&2Jungles&r are populated with huge &3Trees&r, &aParrots&r, and &aOcelots&r."
+				""
+				"&3Jungle Trees&r are covered in &3Vines&r - a &dclimbable&r plant gatherable with &3Shears&r."
+				""
+				"Jungle Trees can only regrown with four &3Jungle Saplings&r in a square."
+				""
+				"&3Cocoa Beans&r also grow on jungle trees, and can be &dcrafted into Cookies&r."
+				""
+				"When &dtamed with seeds&r, &aParrots&r will perch on your shoulder and occasionally &dmimic the sounds of mobs&r."
+				""
+				"Like &aCats&r, &aOcelots&r scare away &cCreepers&r - but they &dcan't be tamed&r. They can be fed &3Raw Fish&r if approached slowly to gain &3trust&r."
+			]
+			hide: true
+			id: "4B74AEAA4D30B428"
+			rewards: [{
+				id: "711E73395CE09CA1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Jungle"
+			tasks: [{
+				biome: "minecraft:jungle"
+				disable_toast: true
+				icon: "minecraft:jungle_sapling"
+				id: "6529785FCB4BFBCA"
+				title: "Find a Jungle"
+				type: "biome"
+			}]
+			title: "Not Funny, Didn't Laugh"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"A &3Compass&r visually points towards the &2Overworld Spawn&r &7(X:0 Z:0)&r. "
+				""
+				"This can help you return to a familiar location if you get lost."
+			]
+			hide: true
+			id: "789344ADD80A6FFA"
+			rewards: [{
+				id: "184E8B07DD980340"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Walk 500 Blocks"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1b
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6B61580BF4D462A5"
+				stat: "minecraft:sprint_one_cm"
+				title: "Sprint 500 Blocks"
+				type: "stat"
+				value: 50000
+			}]
+			title: "Leaping Lateral [Naturalist]"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			description: ["&eHay Bales&r can &dbreak high falls&r, or instead be used for &3Bread&r."]
+			id: "47ED4204DD0D65C4"
+			rewards: [{
+				id: "05B359937A79F3EF"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Jump 75 Times"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:ladder"
+				id: "318791BA274D0278"
+				stat: "minecraft:jump"
+				title: "Jump 75 Times"
+				type: "stat"
+				value: 75
+			}]
+			title: "Vying Vertical [Sightseer]"
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"The two &2Nether Forests&r are home to unique &3Wood Types&r and &3Fungus&r."
+				""
+				"&2Warped Forests&r are a &dvery safe biome&r - spawning only &cEndermen&r."
+				""
+				"&2Crimson Forests&r are more dangerous, housing &cPiglins&r and &cHoglins&r."
+				""
+				"&3Nether Wood Types&r are &dcompletely non-flammable&r."
+				""
+				"&3Warped Fungus&r can be put on a &3Fishing Rod&r to ride saddled &aStriders&r."
+			]
+			hide: true
+			icon: "minecraft:warped_nylium"
+			id: "522B247B10CCF04E"
+			rewards: [
+				{
+					id: "1A886DF1D1C3675E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1007B8702881D9D9"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+			]
+			subtitle: "Find both Nether Forests"
+			tasks: [
+				{
+					biome: "minecraft:warped_forest"
+					disable_toast: true
+					icon: "minecraft:warped_nylium"
+					id: "235FD333274DE457"
+					title: "Find a Warped Forest"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:crimson_forest"
+					disable_toast: true
+					icon: "minecraft:crimson_nylium"
+					id: "2180A88C978A8C70"
+					title: "Find a Crimson Forest"
+					type: "biome"
+				}
+			]
+			title: "Red Vs Blue"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&2Mountain Peaks&r are a great source of &3Packed Ice&r, which is &dslippery but doesn't melt&r!"
+				""
+				"Peaks also contain &aGoats&r, neutral animals that can be &dmilked&r, jump high, and &3ram blocks&r - &ddropping a musical horn&r when hitting hard blocks!"
+			]
+			hide: true
+			id: "19FF00BA5161FE04"
+			rewards: [
+				{
+					id: "6BED877089ECDC53"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0866DC750474E58E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find Frozen Peaks"
+			tasks: [{
+				biome: "minecraft:frozen_peaks"
+				disable_toast: true
+				icon: "minecraft:packed_ice"
+				id: "68CBD82A4FF87F3F"
+				title: "Reach some Frozen Peaks"
+				type: "biome"
+			}]
+			title: "Throat of the World"
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&2Badlands&r are the main source of &3Terracotta&r, which can be crafted into &dmany decorative blocks&r."
+				""
+				"Their &2Mineshafts&r reach high up to the surface, and are &drich with Gold Ore&r."
+			]
+			hide: true
+			id: "75D48083C53616FF"
+			rewards: [{
+				id: "778D3D7F93D43770"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Badlands"
+			tasks: [{
+				biome: "minecraft:badlands"
+				disable_toast: true
+				icon: "minecraft:orange_terracotta"
+				id: "6A706B67651B7F1D"
+				title: "Find a Badlands"
+				type: "biome"
+			}]
+			title: "Plenty big for both of us"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&2Villages&r consist of various &2Houses&r connected by &3paths&r, and are inhabited by &aVillagers&r. "
+				""
+				"Villages are useful &dlandmarks and gathering points&r, and convenient locations to build an outpost or base."
+				""
+				"Villagers have various professions and can &dbuy and sell items&r for &eEmeralds&r "
+				""
+				"&7[EMI Trades]&r Villager trades are listed under &eEmerald&r recipes and usages."
+			]
+			hide: true
+			id: "09874FF0F69D98F0"
+			rewards: [{
+				id: "309D1305F6D6CB17"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Talk to a Villager"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:emerald"
+				id: "7B58577F38ADC6E2"
+				stat: "minecraft:talked_to_villager"
+				title: "Talk to a Villager"
+				type: "stat"
+				value: 1
+			}]
+			title: "No, not \"Traitor\" i'm - [Wanderer]"
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["10CFFE20ABD36803"]
+			description: [
+				"&2Ancient Cities&r are full of &chostile vibration-sensing organisms&r, and &drare loot&r."
+				""
+				"&3Sculk Sensors&r are able to detect vibrations, including walking and &dinteracting with blocks and items&r."
+				""
+				"They trigger &3Sculk Shriekers&r, which spawn &cWardens&r."
+				""
+				"&cWardens&r are large, &3near-unkillable&r monsters that can &dblind players and deal high damage&r. "
+				""
+				"However, their vision is &dbased on vibrations&r - &eSnowballs&r can be used to distract them."
+				""
+				"&7[Tinkerer's Quilt]&r &cWardens&r do not spawn. This can be changed via &6/gamerule doWardenSpawning true&r."
+				""
+				"&7[Apathy]&r On &3easy difficulty&r, &cWardens&r won't target the player, and won't apply blindness when provoked."
+			]
+			hide: true
+			id: "562E842E71B5725B"
+			rewards: [
+				{
+					id: "68238F218B413962"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 64
+					id: "58CDEF403BDAA4A6"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Ancient City"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:reinforced_deepslate"
+				id: "1A15F24B8D29BF11"
+				structure: "minecraft:ancient_city"
+				title: "Find an Ancient City"
+				type: "structure"
+			}]
+			title: "Forgotten Depths"
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"Signified by their unique &3Mangrove Trees&r rooted in water, &2Mangrove Swamps&r are are a source of &3Mud&r and &aWarm Frogs&r."
+				""
+				"&3Mud&r can be made into &3Mud Bricks&r when fired with &3Wheat&r."
+				""
+				"&3Mangrove Wood&r is a deep red and can be used for &dcrafting and decoration&r."
+				""
+				"Grey &aWarm Frogs&r will produce &ePearlescent Froglights&r when swallowing small &cMagma Cubes&r."
+				""
+				"Frogs bred with &3Slimeballs&r in a &2Cold Biome&r will hatch a green &aCold Frog&r, capable of producing &3Verdant Froglights&r."
+			]
+			hide: true
+			id: "50C5FC2ED5BF1A83"
+			rewards: [
+				{
+					id: "6416BB0F28D5AD5F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "428972B9E7817BEE"
+					item: "minecraft:pearlescent_froglight"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Mangrove Swamp"
+			tasks: [{
+				biome: "minecraft:mangrove_swamp"
+				disable_toast: true
+				icon: "minecraft:mangrove_roots"
+				id: "6D55CC4FAB9EC65D"
+				title: "Find a Mangrove Swamp"
+				type: "biome"
+			}]
+			title: "Tidal Countermeasures"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["562E842E71B5725B"]
+			description: [
+				"&3Sculk Catalysts&r allow renewably collecting &3Sculk&r and &3Sculk Sensors&r."
+				""
+				"Killing mobs near a &3Sculk Catalyst&r will &dtransform surface blocks&r into &3Sculk&r, and &3Sculk&r into &3Sculk Sensors&r."
+				""
+				"Rarely, a non-hazardous &3Sculk Shrieker&r will be transformed instead."
+			]
+			hide: true
+			id: "02D9B5C70D9D6007"
+			rewards: [{
+				id: "6226F2DFFF989177"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:swift_sneak"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire a Sculk Catalyst"
+			tasks: [{
+				id: "52CEA86A3AC221DF"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			title: "World Seed"
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30EEC5B4C5178E93"]
+			description: [
+				"&aAllays&r can be found imprisoned in some &2Mansions&r and &2Outposts&r. "
+				""
+				"When given any item, Allays follow the player and &dcollect similar dropped items&r, returning them to the player."
+				""
+				"If they hear a &3Note Block&r, they'll return items there for a little while."
+				""
+				"Allays can be duplicated with &eAmethyst Shards&r."
+			]
+			hide: true
+			id: "3E19CC5752F07CF9"
+			rewards: [{
+				id: "12F3D951A36D61B1"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Find an Allay"
+			tasks: [{
+				icon: "minecraft:iron_bars"
+				id: "7EA19D8707F9C4EC"
+				observe_type: 0
+				timer: 0L
+				title: "Find an Allay"
+				to_observe: "minecraft:allay"
+				type: "observation"
+			}]
+			title: "Fairy Prisoner"
+			x: -8.0d
+			y: -1.5d
+		}
+	]
+	title: "Exploration"
+}

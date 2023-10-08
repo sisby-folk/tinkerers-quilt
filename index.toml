@@ -89,6 +89,42 @@ file = "config/fabrication/yeet_recipes.ini"
 hash = "3d0f2a0e965fe090a131fefc78e934c004fe5c91cdb5fa082d5b9f47b2934b0a"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/combat.snbt"
+hash = "dc4c152f843e5722ac69b9e20778c5226149400ecdf83be50ac678d9e28b5c70"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/homesteading.snbt"
+hash = "74405f4a1949d53a8f634a96a6716503a47c620da7bc57b5fb5688cb8eb4f442"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_basics.snbt"
+hash = "ea164ce03029105ce5b3f7d7e47f596da0961f8deacb64db262d4805bc8b276d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tinkerers_modpack.snbt"
+hash = "9126b653bf85bc8ce48bb0ecfc42d53b0f9ba33ca57f366ee3b991e6e10a8a3a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/world.snbt"
+hash = "831dadc7a64475f6c284b3678afa53fbe9e3410b6d2152d7b18837ae12e53102"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/fences.snbt"
+hash = "fac269b306f404ae41825741ea0f70abf74982c183194a848ee9d34e6eda55c6"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
+hash = "b400495d827f7e688a0bae2c9546139be7ee1bfad4cf2652bce1722f8c82e51b"
+
+[[files]]
 file = "config/heracles/groups.txt"
 hash = "799f72b841ccf42d0406c9107f3850037beb3c14bfe32df41704411b793b67eb"
 

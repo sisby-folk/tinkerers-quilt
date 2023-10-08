@@ -1,0 +1,34 @@
+{
+	id: "4A144DFA2AEAECCC"
+	order_index: 1
+	title: "Loyalty or Riptide"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Loyalty I"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:loyalty"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			title: "Riptide I"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:riptide"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+	]
+}
