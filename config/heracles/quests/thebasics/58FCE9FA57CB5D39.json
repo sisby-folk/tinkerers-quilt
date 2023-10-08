@@ -25,23 +25,23 @@
         "nbt": {
           "Items": [
             {
-              "Count": "4",
+              "Count": 4,
               "id": "minecraft:ender_chest"
             },
             {
-              "Count": "2",
+              "Count": 2,
               "id": "minecraft:enchanted_golden_apple"
             },
             {
-              "Count": "16",
+              "Count": 16,
               "id": "minecraft:golden_apple"
             },
             {
-              "Count": "34",
+              "Count": 34,
               "id": "minecraft:golden_carrot"
             },
             {
-              "Count": "8",
+              "Count": 8,
               "id": "minecraft:ancient_debris"
             }
           ]

@@ -8,8 +8,7 @@
   "tasks": {
     "372E5994E7E2ABAB": {
       "type": "heracles:item",
-      "item": "minecraft:axolotl_bucket",
-      "nbt": {}
+      "item": "minecraft:axolotl_bucket"
     }
   },
   "rewards": {
@@ -17,24 +16,21 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": 1,
-        "nbt": {}
+        "count": 1
       }
     },
     "55F85E84106E9EE7": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": 1,
-        "nbt": {}
+        "count": 1
       }
     },
     "6ED6A0A24EC1C4FB": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:tropical_fish_bucket",
-        "count": 1,
-        "nbt": {}
+        "count": 1
       }
     }
   },
