@@ -120,7 +120,9 @@
 				""
 				"&aPiglins&r are denizens of the nether that attack players that aren't wearing &eGold Armor&r. They'll also attack any player that mines &3Nether Gold Ore&r."
 				""
-				"To help find your way back to a portal, you can use an &eEmpty Map&r while standing next to it."
+				"&7[Fwaystones]&r To help find your way back to a portal, you can place a &eWaystone&r next to it."
+				""
+				"&7[Amplified Nether]&r The Nether is substantially taller and more open."
 			]
 			id: "3079DAC3AB1B0AD9"
 			rewards: [
@@ -136,8 +138,8 @@
 					type: "item"
 				}
 				{
-					id: "7D86112E85D8D6D7"
-					item: "minecraft:map"
+					id: "1A8D72D83E3451B9"
+					item: "fwaystones:nether_brick_waystone"
 					type: "item"
 				}
 			]
@@ -209,6 +211,8 @@
 				"It contains unique enemies like &cBlazes&r and &cWither Skeletons&r, along with inner keeps containing &dchests of loot&r."
 				""
 				"&eFire Resistance&r can &dprotect you from all heat damage&r, including from touching lava."
+				""
+				"&7[YUNG's Better Fortresses]&r Fortresses are more elaborate, and &dcontain better loot&r."
 			]
 			id: "4048B08BA7BA39BE"
 			rewards: [{
@@ -226,7 +230,7 @@
 			tasks: [{
 				icon: "minecraft:nether_brick_stairs"
 				id: "319AF1FD9F7F4A83"
-				structure: "minecraft:fortress"
+				structure: "#betterfortresses:better_fortresses"
 				title: "Find a Nether Fortress"
 				type: "structure"
 			}]
@@ -283,6 +287,8 @@
 				"A thrown &3Eye of Ender&r will slowly drift towards the nearest &2Stronghold&r, with a chance of being consumed."
 				""
 				"The &2End Portal&r inside is incomplete, and up to 12 &3Eye of Ender&r must be inserted to &dactivate&r it."
+				""
+				"&7[YUNG's Better Strongholds]&r Strongholds are more elaborate, and &dcontain better loot&r."
 			]
 			id: "2803B3AF9D4E64A3"
 			rewards: [
@@ -304,7 +310,7 @@
 			tasks: [{
 				icon: "minecraft:mossy_stone_bricks"
 				id: "546CEA05C1DFDE9B"
-				structure: "minecraft:stronghold"
+				structure: "#betterstrongholds:better_strongholds"
 				title: "Find a Stronghhold"
 				type: "structure"
 			}]
@@ -412,7 +418,7 @@
 				""
 				"It's used to make &dNetherite Ingots&r, which can upgrade &3Diamond Equipment&r at a &3Smithing Table&r."
 				""
-				"&7[Tinkerer's Smithing]&r &3Netherite Scrap&r can also be applied to equipment at an &3Anvil&r to &dlower its anvil costs&r."
+				"&7[Tinkerer's Smithing]&r &3Netherite Nuggets&r can be applied to equipment at an &3Anvil&r to &dlower its anvil costs&r."
 			]
 			hide: true
 			id: "5DA11E4FA4C52495"
@@ -548,7 +554,7 @@
 				icon: "minecraft:purpur_block"
 				id: "3403F8CB9F8DB4E1"
 				structure: "minecraft:end_city"
-				"title": "Find an End City"
+				title: "Find an End City"
 				type: "structure"
 			}]
 			title: "Shell City"
@@ -564,16 +570,36 @@
 				""
 				"Flight direction is controlled by where you &6look&r. Be sure to &dpull up or turn around&r before striking surfaces as fast impacts deal heavy damage."
 				""
-				"&eFirework Rockets&r will provide a boost of speed if used while &3gliding&r."
+				"&7[Aileron]&r When placed close together, &eCampfires&r provide a boost of air while &3gliding&r. "
+				""
+				"&eSmokestack&r Elytras can charge boosts at a fire while &6Sneaking&r, consuming them with &7[&r&6Space&r&7]&r in the air."
+				""
+				"&3Firework Rockets&r only leave a &dcosmetic smoke trail&r with Elytra."
 			]
 			hide: true
 			id: "06B5F4D5D8A0D202"
-			rewards: [{
-				count: 32
-				id: "4C6D37B53B9A2DF5"
-				item: "minecraft:firework_rocket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "4C6D37B53B9A2DF5"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "46D6E6364221073C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "aileron:smokestack"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Obtain an Elytra"
 			tasks: [{
 				id: "6C7823064E1563F1"

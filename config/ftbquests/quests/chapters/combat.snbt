@@ -2175,6 +2175,144 @@
 			x: 2.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Halfdoors]&r"
+				""
+				"A &3Door Launcher&r is a handheld device capable of sending &dmechanically propelled halfdoors through scary monsters&r."
+				""
+				"It consumes &eHalfdoors&r on use, which can be picked up if they miss."
+				""
+				"&3Iron Halfdoors&r deal more damage. The Door Launcher can also be &dupgraded&r through smithing for &dvarious improvements&r."
+			]
+			hide: true
+			id: "0ADBA66707A72B35"
+			rewards: [{
+				count: 16
+				id: "319651CE5A8731F8"
+				item: "halfdoors:oak_halfdoor"
+				type: "item"
+			}]
+			subtitle: "Acquire a Door Launcher"
+			tasks: [{
+				disable_toast: true
+				id: "08EFAF64F2B18B5A"
+				item: {
+					Count: 1b
+					id: "halfdoors:door_launcher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "I Wouldn't Trust Me Either"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Campanion]&r"
+				""
+				"The &3Spear&r is the landlubber of the &3Trident&r - a &3Hybrid Melee-Ranged Weapon&r. "
+				""
+				"It can receive standard &3melee weapon enchanments&r, alongside &ePiercing&r, making its thrown attack &dtravel through enemies&r."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "campanion:iron_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "005AB44C0F20C556"
+			rewards: [{
+				id: "362C8D7B041BC30A"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:piercing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire a Spear"
+			tasks: [{
+				disable_toast: true
+				id: "3238C1F9CB32C68D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "campanion:spears"
+					}
+				}
+				title: "Any Spear"
+				type: "item"
+			}]
+			title: "NGAHHH!!!!!"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72CC6869A3793E22"]
+			description: [
+				"&7[Farmer's Delight]&r"
+				""
+				"A &3Knife&r can cut ingredients placed on a &3Cutting Board&r with &7[&r&6Right-Click&r&7]&r."
+				""
+				"It can also be used to collect &3Straw&r from &3Tall Grass&r, useful for making &dCanvas, Rope and Books&r. "
+				""
+				"They're also viable &dmelee weapons&r with a &dlow attack cooldown&r."
+				""
+				"They can receive &3melee weapon enchantments&r, along with &eBackstabbing&r, which &dincreases damage from behind enemies&r."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "farmersdelight:golden_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "243427D8CFF65490"
+			rewards: [{
+				id: "7CF485029A136E35"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire a Knife"
+			tasks: [{
+				disable_toast: true
+				id: "2C4F7623C5745F47"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:tools/knives"
+					}
+				}
+				title: "Any Knife"
+				type: "item"
+			}]
+			title: "Where's my Cloak"
+			x: -3.5d
+			y: -1.0d
+		}
 	]
 	title: "Self-Defense"
 }

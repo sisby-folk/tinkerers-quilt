@@ -48,6 +48,8 @@
 			description: [
 				"&7[Fabrication]&r Press &7[&r&6Z&r&7]&r to toggle between standing, sneaking, and prone."
 				""
+				"&7[Antique Atlas]&r Press &7[&r&6M&r&7]&r to open your &3Atlas&r, an &dexplorable dimension map&r where you can name and place &darbitrary markers&r at no cost."
+				""
 				"&7[PicoHUD/WTHIT]&r Hold &7[&r&6ALT&r&7]&r to show your &3location&r, the &3time&r, and information about what's in front of you."
 				""
 				"&7[OkZoomer]&r Hold &7[&r&6C&r&7]&r to zoom in on far away objects."
@@ -246,7 +248,7 @@
 				""
 				"Additionally, equipment that with an &3enchantment&r or a custom name can be &drepaired after it breaks&r"
 				""
-				"Finally, equipment can be &dde-worked&r one stage using &3Netherite Scrap&r at an &3Anvil&r, making adding enchantments &dcost less experience&r."
+				"Finally, equipment can be &dde-worked&r one stage using &3Netherite Nuggets&r at an &3Anvil&r, making adding enchantments &dcost less experience&r."
 			]
 			disable_toast: true
 			icon: "minecraft:smithing_table"
@@ -298,6 +300,8 @@
 				"&7[SnowUnderTrees]&r &3Snow&r generates under trees."
 				"&7[DualRide]&r &aHorses&r seat two players."
 				"&7[VehicleFix]&r Mounted players collide properly."
+				"&7[UniversalOres]&r Ores can spawn in other stone types."
+				"&7[Geophilic]&r Biomes have slightly more diverse vegetation."
 				""
 				"&7[BoringDefaultGameRules]&r"
 				"&cPhantoms&r do not spawn. &7(/gamerule doInsomnia)&r"

@@ -21,6 +21,8 @@
 				"By adding chests to each, this can be used to &dsmelt many stacks of items&r without checking in."
 				""
 				"&7[Fabrication]&r &6Clicking&r the &3output slot&r of a furnace set up this way will transfer you any experience generated."
+				""
+				"&7[Aurora's Decorations]&r A &eCopper Hopper&r can have an item placed in its &3Filter Slot&r, causing it to &donly extract similar items&r."
 			]
 			hide: true
 			id: "796366A8D7D8BBF8"
@@ -35,6 +37,11 @@
 					count: 2
 					id: "170B785E7A4604F5"
 					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "7BCCC29CC0BB4BFD"
+					item: "aurorasdeco:copper_hopper"
 					type: "item"
 				}
 			]
@@ -58,6 +65,14 @@
 				"&3Smaller fuels&r are less wasteful when processing smaller numbers of items. "
 				""
 				"&eLarge fuels&r are &3only efficient for large loads&r - with &eLava Buckets&r smelting &d100 items&r."
+				""
+				"&7[Farmer's Delight]&r A &eStove&r can be used to provide a heart source similar to a &3Campfire&r. "
+				""
+				"Like campfires, it can be used with a &3Cooking Pot&r or a &3Skillet&r."
+				""
+				"A &3Cooking Pot&r can cook &dmany bowls of hearty meals&r - and can be picked up with them in it!"
+				""
+				"A &3Skillet&r can be used to &dcook food in the off-hand&r when neaby to heat sources. It can also be placed on one with &7[&r&6Sneak+Right-Click&r&7]&r, where it can cook a &dwhole stack of food&r. In a pinch, it also &dworks as a weapon&r."
 			]
 			hide: true
 			id: "0BB19BE0BA8A2037"
@@ -79,6 +94,11 @@
 					item: "minecraft:lava_bucket"
 					type: "item"
 				}
+				{
+					id: "0A9F666EBA340109"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
 			]
 			subtitle: "Craft a Smoker"
 			tasks: [{
@@ -92,7 +112,11 @@
 		}
 		{
 			dependencies: ["1233042213A9729E"]
-			description: ["Many block types can be cut in the &3Stonecutter&r, producing various patterns and shapes."]
+			description: [
+				"Many block types can be cut in the &3Stonecutter&r, producing various patterns and shapes."
+				""
+				"&7[Consistency+]&r Many exotic blocks can be used on the Sonecutter, like &3End Stone&r, &3Obsidian&r, both &3Bones&r both &3Warts&r, all colours of &3Terracotta&r, and even &eIce&r!"
+			]
 			hide: true
 			icon: "minecraft:light_gray_shulker_box"
 			id: "643F41D93DC1FB81"
@@ -176,6 +200,36 @@
 					item: "minecraft:bricks"
 					type: "item"
 				}
+				{
+					count: 64
+					id: "089FC0E0F547457D"
+					item: "minecraft:dripstone_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "289867B16BF99D44"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "69485A718A881256"
+					item: "minecraft:tuff"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50148DD6C2F17662"
+					item: "consistency_plus:soul_sandstone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3F19E460462C07C6"
+					item: "minecraft:ice"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "A Sacrifice in Stone"
@@ -188,7 +242,7 @@
 				type: "item"
 			}]
 			title: "Mason's Blessing"
-			x: 7.5d
+			x: 7.0d
 			y: -8.5d
 		}
 		{
@@ -272,6 +326,10 @@
 				"Lights prevents &3mob spawning&r in a radius - essential for &dbuilding a safe base&r!"
 				""
 				"&eRedstone Lamps&r can create great streetlights."
+				""
+				"&7[Aurora's Decorations]&r Along with Torches and &3Soul Torches&r, Lanterns can also be made in &3Redstone&r, &3Copper Sulfate&r, and a spawn-blocking &3Amethyst&r variety."
+				""
+				"&3Copper Sulfate&r can be obtained from &dexploding aged copper&r, and its &3Campfires&r and &3Braziers&r can &dbreak Leaves and Mushroom Blocks above them&r."
 			]
 			hide: true
 			id: "2F461D711895F36B"
@@ -446,6 +504,8 @@
 				"&aPigs&r like &3Vegetables&r, &aBovids&r like &3Wheat&r, &aChickens&r like &3Seeds&r, &aWolves&r like &3Meat&r, &aCats&r like &3Raw Fish&r, and &aFoxes&r like &3Berries&r."
 				""
 				"&7[ChickensShed]&r &aChickens&r will occasionally shed a &3Feather&r."
+				""
+				"&7[Earth2Java]&r Many variants of passive mobs can be found, which sometimes produce &eslightly different products&r."
 			]
 			hide: true
 			icon: "minecraft:spruce_fence"
@@ -466,6 +526,12 @@
 				{
 					id: "48DC8A200AD1A06B"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2599652A888442CB"
+					item: "earthtojavamobs:rainbow_wool"
 					type: "item"
 				}
 			]
@@ -581,6 +647,8 @@
 				"All &d16 colors of dye&r can be crafted from &e7 base dyes&r."
 				""
 				"&3Banners&r and dyed &3Leather Armor&r can be &dwashed clean&r by throwing them in a &3Water Cauldron&r."
+				""
+				"&7[Aurora's Decorations]&r The &eBlackboard&r and &3Glassboard&r can be drawn on pixel-by-pixel using Dyes - allowing you to create &dcompletely custom signs&r!"
 			]
 			hide: true
 			id: "1FADE18B62E069A1"
@@ -606,45 +674,59 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "7BB131F81CE0EE05"
 					item: "minecraft:white_dye"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "240752E0B3758DDD"
 					item: "minecraft:blue_dye"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "603A66AEFB21253E"
 					item: "minecraft:black_dye"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "7CD45A7D585FF971"
 					item: "minecraft:red_dye"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "1AB47C5DBDFE0A43"
 					item: "minecraft:green_dye"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "6F48D4D4BCE46394"
 					item: "minecraft:yellow_dye"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 32
 					id: "794E4D2D3C56C124"
 					item: "minecraft:brown_dye"
+					type: "item"
+				}
+				{
+					id: "50FE3E4610DCD379"
+					item: {
+						Count: 1b
+						id: "aurorasdeco:blackboard"
+						tag: {
+							BlockEntityTag: {
+								lit: 0b
+								version: 2
+							}
+						}
+					}
 					type: "item"
 				}
 			]
@@ -659,7 +741,7 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["55783EE248BAC550"]
+			dependencies: ["758233D3BC54702C"]
 			description: [
 				"&3Cartography Tables&r allow you to &dduplicate map contents&r, including their zoom level. They also allow &dcheaper zooming out&r of Maps with &ePaper&r."
 				""
@@ -701,7 +783,7 @@
 			}]
 			title: "Explorer"
 			x: 9.0d
-			y: -13.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["20E2938DD7365207"]
@@ -752,6 +834,8 @@
 				"&7[RightClickHarvest]&r &3Hoes&r can be used to harvest crops in an area. Better hoes have a &dlarger radius&r."
 				""
 				"&7[Carpet]&r Bone Meal can also grow &3Sugarcane&r, &3Cactus&r, &3Lily Pads&r, and &3Coral&r."
+				""
+				"&7[Seasons]&r The &3Season&r affects both the &dgrowth of crops&r and the appearance of plants."
 			]
 			icon: {
 				Count: 1b
@@ -853,15 +937,25 @@
 				"&3Stonecutters&r are used to &dcheaply craft decorative blocks&r."
 				""
 				"By placing a stone-like block in the &3input slot&r, you can &dtransform it&r into many decorative and functional variants."
+				""
+				"&7[Architecture Extensions]&r Stonecutters can produce intricate blocks like &3Rooves&r, &3Arches&r, and &3Columns&r - even things like &eFence Post Caps&r out of &3Wood Planks&r."
 			]
 			hide: true
 			id: "1233042213A9729E"
-			rewards: [{
-				count: 64
-				id: "6C023B3A87A36F36"
-				item: "minecraft:stone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "6C023B3A87A36F36"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CA9651094AE2FCF"
+					item: "architecture_extensions:oak_post_lantern"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Craft a Stonecutter"
 			tasks: [{
@@ -957,53 +1051,6 @@
 			title: "WOMEN FEAR ME"
 			x: 1.5d
 			y: -10.0d
-		}
-		{
-			dependencies: ["1233042213A9729E"]
-			description: ["Derives the co-ordinates of the nearest &2Badlands Biome&r - once. For gathering &3Terracotta&r."]
-			hide: true
-			icon: "minecraft:orange_terracotta"
-			id: "58CAA3CF4CE89A65"
-			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/op @p"
-					icon: "minecraft:red_sand"
-					id: "7D1A0DD72136D14D"
-					player_command: false
-					title: "Prepare Foresight..."
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/locate biome minecraft:badlands"
-					icon: "minecraft:terracotta"
-					id: "58BD55E774BC4DD8"
-					player_command: true
-					title: "Locate the nearest Badlands..."
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/deop @p"
-					icon: "minecraft:orange_terracotta"
-					id: "51D1A2C53843604A"
-					player_command: false
-					title: "Deliver the verdict..."
-					type: "command"
-				}
-			]
-			shape: "gear"
-			subtitle: "Glazed Foresight"
-			tasks: [{
-				id: "759F54485E9734BA"
-				title: "Locate a Badlands Biome [Click]"
-				type: "checkmark"
-			}]
-			title: "Terracotta Builder's Pack"
-			x: 6.5d
-			y: -8.5d
 		}
 		{
 			dependencies: ["2DF95382AC7B7AD4"]
@@ -1602,6 +1649,8 @@
 				"They're useful for climbing and decoration."
 				""
 				"&7[Tinkerer's Quilt]&r Vines can be crafted into &3Slimeballs&r."
+				""
+				"&7[Aurora's Decorations]&r Vine ends can be burned using &3Flint and Steel&r to &dprevent further spread&r."
 			]
 			hide: true
 			icon: "minecraft:vine"
@@ -1957,14 +2006,23 @@
 				"Don't just grow wheat forever though - farms &dgrow faster if they're diverse&r, so try planting crops in rows!"
 				""
 				"Farming creates many excess &3Seeds&r - a &eComposter&r can turn those into useful &3Bone Meal&r!"
+				""
+				"&7[Farmer's Delight]&r An &dincreased variety of crops&r can be obtained by finding them &2in the wild&r. &eRice&r can only be grown in &3water&r."
 			]
 			hide: true
 			id: "192BAFDE101F900B"
-			rewards: [{
-				id: "4CB4E7F6893DB29C"
-				item: "minecraft:composter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CB4E7F6893DB29C"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "28B7014B816FB8F4"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
 			subtitle: "Farm some Wheat"
 			tasks: [{
 				count: 32L
@@ -2320,6 +2378,7 @@
 				"4E780825E91BA9CA"
 				"3D5694CCE8F191BC"
 			]
+			description: ["&7[Consistency+]&r &eDiamond Horse Armor&r can be &3Netherite&r-gilded."]
 			hide: true
 			hide_dependency_lines: true
 			icon: {
@@ -3069,15 +3128,25 @@
 				"For longer notes, craft a &3Book and Quill&r to write and store passages. &3Signing&r a book prevents it from being edited further."
 				""
 				"&7[Inventory Tabs]&r Placing an item frame on a &3Chest&r will &dchange its tab icon&r."
+				""
+				"&7[Consistency+]&r Instead of &3Glow Ink Sac&r, &eGlow Dye&r is used to &dmake Sign text and Item Frame items glow&r."
 			]
 			hide: true
 			id: "0342FEBA88E3AF0E"
-			rewards: [{
-				count: 8
-				id: "00EBA8DA6E3F263C"
-				item: "minecraft:item_frame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "00EBA8DA6E3F263C"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4ACFEFF529957BF3"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Sign"
 			tasks: [{
 				disable_toast: true
@@ -3199,6 +3268,318 @@
 			title: "Logic"
 			x: 13.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["1BCC72C060356F02"]
+			description: [
+				"&7[Campanion / Aurora's Decorations]&r Some &eprebuilt furniture&r can also be built from wood and other materials. &eChairs&r and &eBenches&r can be &dsat on&r, and &eShelves&r can &dstore items&r."
+				""
+				"Many of these can be &dcrafted cheaply&r using the &3Sawmill&r, along with &3Doors&r, &3Fences&r, and other wooden blocks."
+			]
+			hide: true
+			id: "457DA5A71495D9D8"
+			rewards: [
+				{
+					id: "7D6DE37CFE0556A1"
+					item: "aurorasdeco:shelf/oak"
+					type: "item"
+				}
+				{
+					id: "15A44DA3B8711870"
+					item: "aurorasdeco:bench/oak"
+					type: "item"
+				}
+				{
+					id: "5107CA15C02ACE96"
+					item: "campanion:white_lawn_chair"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Sawmill"
+			tasks: [{
+				disable_toast: true
+				id: "662750DA1DDCD8F6"
+				item: "aurorasdeco:sawmill"
+				type: "item"
+			}]
+			title: "Archi2ct"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["423E897DEB76653D"]
+			description: [
+				"&7[Campanion]&r "
+				""
+				"&3Pouches&r can be used to craft &3Packs&r, which have &dportable inventory space&r."
+				""
+				"While a pack is equipped, press &7[&r&6B&r&7]&r to open it. Careful, taking off a pack will &ddrop all its items&r!"
+				""
+				"Some Packs are made using &3Tanned Leather&r, which requires placing leather in a &eLeather Tanner&r and sitting it in the sun."
+				""
+				"Other camping supplies include &3Sleeping Bags&r and &3Tents&r, crafted from &eWool Tarp&r."
+				""
+				"&2Rope Bridges&r can be built by aligning two &eRope Bridge Posts&r using many &eRope&r. &6Click&r each post with your rope stack to string the bridge, then add &ePlanks&r."
+			]
+			hide: true
+			id: "1F87E7C1F9EC0A8D"
+			rewards: [
+				{
+					count: 10
+					id: "364F558A644186DB"
+					item: "campanion:rope"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F88051EEA6AF05C"
+					item: "campanion:rope_bridge_post"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3C8D1EE42C93485B"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1B8F69BC9BBE1BF5"
+					item: "campanion:wool_tarp"
+					type: "item"
+				}
+				{
+					id: "1D863C3EAD53CF43"
+					item: "campanion:leather_tanner"
+					type: "item"
+				}
+			]
+			subtitle: "Make a Leather Pouch"
+			tasks: [{
+				disable_toast: true
+				id: "50BFA1EEC645C6BB"
+				item: "campanion:leather_pouch"
+				type: "item"
+			}]
+			title: "But not Too Light"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["423E897DEB76653D"]
+			description: [
+				"&7[Campanion]&r "
+				""
+				"The &3Grappling Hook&r is a source of &dspeed and danger&r that could easily kill via impact."
+				""
+				"It's &dgreat for caves&r!"
+			]
+			hide: true
+			id: "2FB1C0658F3B91C4"
+			rewards: [{
+				id: "4D741380A7FA05A0"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Make the Grappling Hook"
+			tasks: [{
+				disable_toast: true
+				id: "16B7A3AED5563A76"
+				item: {
+					Count: 1b
+					id: "campanion:grappling_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "GRAPPLING HOOK!!!"
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1FADE18B62E069A1"]
+			description: [
+				"&7[Aurora's Decorations]&r A &3Painter's Palette&r allows for conveniently drawing on &3Blackboards&r and &3Glassboards&r &dwithout consuming dyes&r."
+				""
+				"A &3Palette&r can be opened using &7[&r&6Sneak+Right-Click&r&7]&r to insert &3tools&r and &3Dyes&r."
+				""
+				"Once inserted, &3Dyes&r can be swapped using &7[&r&6Sneak+Scroll&r&7]&r and &3tools&r can be swapped using &7[&r&6Sneak+Sprint+Scroll&r&7]&r."
+				""
+				"The default &3Pixel&r tool, which affects &done pixel&r."
+				""
+				"&eWhite Wool&r provides the &3Brush&r tool, which affects &dnine pixels&r."
+				""
+				"A &eStick&r provides the &3Line&r tool, which affects &dpixels in a line&r between two pixels."
+				""
+				"A &eBucket&r provides a &3Fill&r tool, which affects a &dsingle-color area&r."
+				""
+				"An &eEnder Pearl&r provides the &3Replace&r tool, which affects &dall pixels of one colour&r."
+				""
+				"As dyes, &ePaper&r clears a pixel, &eBone Meal&r lightens a colour, &eCoal&r darkens a colour, and &eGlowstone&r makes a colour saturated."
+				""
+				"Remember to &3Wax&r your finished board! Boards are be &dfully cleared&r using &3Water&r if they're not waxed."
+			]
+			id: "409A91101828380E"
+			rewards: [
+				{
+					id: "1EEFB020056A70F7"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "4080B8F5283D9132"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "7DC5E7F3216698E3"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "2DA77BAAE04B6667"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "04AD1FE27B55FFE6"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "3C993582E898ABAE"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "0C19252EF2DA40EA"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "7393CC876D66BFB9"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Painter's Palette"
+			tasks: [{
+				id: "4692C581634E548F"
+				item: "aurorasdeco:painter_palette"
+				type: "item"
+			}]
+			title: "Spectra Spectra"
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55783EE248BAC550"]
+			description: [
+				"&3Abyss Watchers&r are consumable items that allow you to warp to any &3Waystone&r."
+				""
+				"They can also be crafted into more permanent &3Waystones&r, or into &3Local Voids&r - which after being bound to a Waystone with &7[&r&6Sneak+Right-Click&r&7]&r, can &dreturn you&r there from anywhere for only the usual &3experience fee&r."
+				""
+				"Using an &eEmpty Scroll&r, you can &dshare your discovered Waystones&r with other players in multiplayer."
+			]
+			hide: true
+			id: "758233D3BC54702C"
+			rewards: [
+				{
+					id: "4D7040A2FB1D4BDD"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "1803D34177BF1710"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1D51295ACE6B1DF0"
+					item: "fwaystones:waystone_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Abyss Watcher"
+			tasks: [{
+				id: "297D0E6AB07DBDC1"
+				item: "fwaystones:abyss_watcher"
+				type: "item"
+			}]
+			title: "Zzzoop!"
+			x: 9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0BB19BE0BA8A2037"]
+			description: [
+				"&7[Sandwichable]&r"
+				""
+				"A &3Sandwich Table&r allows you to make &3Sandwiches&r that &dcombine arbitrary foods into one&r."
+				""
+				"First stack the foods on the table, then &7[&r&6Sneak+Right-Click&r&7]&r to collect the sandwich. It can be &dplaced back down to edit it,&r including removing items using an &3empty hand&r."
+				""
+				"A &eToaster&r can be used to toast various items, including &3Sliced Bread&r. If overused, it converts food into &3Burnt and Charred Morsels&r, the latter can be &dused as fuel&r. "
+				""
+				"Just remember, &ddon't stick anything metal in the toaster&r!"
+				""
+				"&eBasins&r can be filled with &3Milk&r and &eCheese Culture&r to slowly create a &dCheese Wheel&r!"
+				""
+				"&3Lettuce and Cucumber&r work great on sandwiches, and their seeds can be found by &3fishing in brine&r or &3searching village chests&r. "
+				""
+				"Cucumbers can be pickled in &eJars&r using salty water."
+			]
+			id: "5C9B1F6C79CD8F3F"
+			rewards: [
+				{
+					id: "772ED655D04889ED"
+					item: "sandwichable:toaster"
+					type: "item"
+				}
+				{
+					id: "4964D9405B01794F"
+					item: "sandwichable:andesite_basin"
+					type: "item"
+				}
+				{
+					id: "409008737B36A615"
+					item: {
+						Count: 1b
+						id: "sandwichable:regular_cheese_culture_bottle"
+						tag: {
+							UsageData: {
+								uses: 10
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55CCE84BDBF66DD9"
+					item: "sandwichable:empty_pickle_jar"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Sandwich Table"
+			tasks: [{
+				id: "1C19809020E1B6EB"
+				item: "sandwichable:sandwich_table"
+				type: "item"
+			}]
+			title: "Like, Zoinks"
+			x: 9.5d
+			y: -10.5d
 		}
 	]
 	title: "Homesteading"

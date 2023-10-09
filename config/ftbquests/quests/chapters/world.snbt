@@ -65,6 +65,8 @@
 				"Each fortress is guarded by three &cElder Guardians&r, a boss-like variant of Guardians that inflict &3Mining Fatigue&r to all visitors."
 				""
 				"&3Sponges&r can be placed to remove water in an area. They must be &3smelted&r before reuse."
+				""
+				"&7[YUNG's Better Ocean Monuments]&r Monuments are more elaborate, and &dcontain better loot&r."
 			]
 			hide: true
 			id: "5DC1E9DC98895E6F"
@@ -91,7 +93,7 @@
 				disable_toast: true
 				icon: "minecraft:prismarine_bricks"
 				id: "5568AF3262E9717C"
-				structure: "minecraft:monument"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
 				title: "Find an Ocean Monument"
 				type: "structure"
 			}]
@@ -169,6 +171,8 @@
 				"Mineshaft hallways can also contain &cCave Spider&r spawners and slowing &3Cobwebs&r. "
 				""
 				"&3Chest Minecarts&r contain the most loot - including &dName Tags, Pumpkin and Melon Seeds, and Ore&r!"
+				""
+				"&7[YUNG's Better Mineshafts]&r Mineshafts are more elaborate, and &dcontain better loot&r."
 			]
 			hide: true
 			id: "55DDA9D21E24AF10"
@@ -434,6 +438,8 @@
 				"&3Turtle Shells&r are helmets that provide additional &dBreath Capacity&r, similar to the &3Respiration&r enchantment. "
 				""
 				"They can also be brewed into three &ePotion of the Turtle Master&r - a specialized &3Combat Potion&r that &dslows you&r."
+				""
+				"&7[Consistency+]&r &3Turtle Armor&r can be crafted for all slots, providing a &dspecialized Turtle Master effect&r."
 			]
 			hide: true
 			hide_dependency_lines: false
@@ -681,6 +687,8 @@
 				"Budding Amethyst Blocks &dcan't be removed&r! Only &3Clusters&r can be renewably broken."
 				""
 				"&3Amethyst Shards&r can be used to make &3Tinted Glass&r which blocks light."
+				""
+				"&7[Aurora's Decorations]&r Amethyst can also be used to make &3Lanterns&r, which &dprevent mob spawning&r in a large radius."
 			]
 			hide: true
 			id: "2393A9D50B18EEAE"
@@ -763,6 +771,9 @@
 				"02D9B5C70D9D6007"
 				"50C5FC2ED5BF1A83"
 				"3E19CC5752F07CF9"
+				"07B1A0FE64198EF7"
+				"614E11C34F346AFF"
+				"47DB051494BEDC6C"
 			]
 			description: [
 				"&3Beacons&r beams can be coloured with &3Stained Glass&r."
@@ -1019,13 +1030,9 @@
 		{
 			dependencies: ["47ED4204DD0D65C4"]
 			description: [
-				"&2Desert Temples&r contain a &3TNT&r-&3Pressure Plate&r pit trap with &dloot chests&r inside."
+				"&7[YUNG's Better Desert Temples]&r"
 				""
-				"A pattern adorns the centre of the centre of the temple, concealing the pit. By &dbreaking the centre blocks without standing on them&r, the pit can be revealed."
-				""
-				"The explosive pressure plate is visible in the centre of the pit. After &dmining downwards to reach the bottom&r, the pressure plate can be broken to defuse the trap."
-				""
-				"The &3Chests&r and &3TNT&r can then both be taken."
+				"&2Desert Temples&r are dangerous fortresses full of traps, challenges, and &dloot chests&r."
 			]
 			hide: true
 			icon: "minecraft:chiseled_sandstone"
@@ -1040,7 +1047,7 @@
 				disable_toast: true
 				icon: "minecraft:chiseled_sandstone"
 				id: "09796221B64CFFF4"
-				structure: "minecraft:desert_pyramid"
+				structure: "#betterdeserttemples:better_desert_temples"
 				title: "Find a Desert Temple"
 				type: "structure"
 			}]
@@ -1235,14 +1242,37 @@
 				"Deep &2Underground&r &7(around y:0)&r, all stone is replaced with &3Deepslate&r, which is harder to mine."
 				""
 				"&3Cobbled Deepslate&r can be &dused like Cobblestone&r in crafting."
+				""
+				"&7[Chalk]&r &eChalk&r is made of &3Calcite&r, and can be used to &dmark directions&r when caving."
+				""
+				"&7[Campanion]&r &eFlares&r are cheap modifications of torches that can be &dthrown&r - however, they can't be reused."
 			]
 			hide: true
 			id: "10CFFE20ABD36803"
-			rewards: [{
-				id: "24C742924575F435"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "24C742924575F435"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C8686CB4E3D029D"
+					item: {
+						Count: 1b
+						id: "chalk:chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "786617C6613FDE16"
+					item: "campanion:flare"
+					type: "item"
+				}
+			]
 			subtitle: "Find Deepslate"
 			tasks: [{
 				disable_toast: true
@@ -1363,17 +1393,30 @@
 		}
 		{
 			description: [
-				"A &3Compass&r visually points towards the &2Overworld Spawn&r &7(X:0 Z:0)&r. "
+				"&7[Fwaystones]&r A &3Waystone&r allows for &dfast travel&r, and adds a &dpermanent marker to all atlases&r. "
 				""
 				"This can help you return to a familiar location if you get lost."
+				""
+				"&7[Nature's Compass]&r A &eNature's Compass&r can &dfind any one specific biome&r. Perfect for if you want to settle down in a specific area - or if you've done lots of travelling and just can't find the &dlast few biomes&r!"
 			]
 			hide: true
 			id: "789344ADD80A6FFA"
-			rewards: [{
-				id: "184E8B07DD980340"
-				item: "minecraft:compass"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C2FA5AA4F3A024C"
+					item: "fwaystones:waystone"
+					type: "item"
+				}
+				{
+					id: "55A7116EF55A5CB8"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Walk 500 Blocks"
 			tasks: [{
@@ -1720,6 +1763,437 @@
 			title: "Fairy Prisoner"
 			x: -8.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&7[Polaroid Camera]&r "
+				""
+				"&3Polaroid Cameras&r allow you to &dtake photos&r onto &eEmpty Maps&r."
+				""
+				"&7[&r&6Right-Click&r&7]&r to look through the camera, then press &7[&r&6C&r&7]&r to capture an image."
+				""
+				"Remember, maps can be displayed on &3Item Frames&r!"
+			]
+			hide: true
+			icon: "polaroidcamera:camera"
+			id: "565D2EAA71C41B48"
+			invisible: true
+			rewards: [
+				{
+					id: "2F806FE4B260F349"
+					item: "polaroidcamera:camera"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B200B34CEE7E8E4"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D72E3D6BE51D680"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+			]
+			subtitle: "Jump 750 Times"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:feather"
+				id: "2CB771E873BE51DA"
+				stat: "minecraft:jump"
+				title: "Picturesque"
+				type: "stat"
+				value: 750
+			}]
+			title: "Picturesque"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&7[Aurora's Decorations]&r "
+				""
+				"&2Lavender Plains&r are home to the &dpurple-wooded&r &3Jacaranda Trees&r, along with many &3Lavender&r plants and their floating petals."
+			]
+			hide: true
+			id: "47DB051494BEDC6C"
+			rewards: [{
+				id: "1E473A04DF60870F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find Lavender Plains"
+			tasks: [{
+				biome: "aurorasdeco:lavender_plains"
+				disable_toast: true
+				icon: "aurorasdeco:lavender"
+				id: "352685AD6A30B2A2"
+				title: "Not plain in the slightest"
+				type: "biome"
+			}]
+			title: "Not plain in the Slightest"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&7[Lovely Snails]&r "
+				""
+				"&aSnails&r spawn in &2Swamps&r, and can be tamed with &eMushrooms&r and lead around with &3Leads&r."
+				""
+				"They can be kept happy by blanketing them with &3Carpet&r, feeding them &3Grass&r or &eKelp&r, or splashing a &eWater Bottle&r on them."
+				""
+				"Happy Snails may grow into rideable &aBig Snails&r, which can &dcarry up to four Chests&r."
+			]
+			hide: true
+			id: "363D88902D0237AA"
+			rewards: [
+				{
+					count: 6
+					id: "63608EBBA0676BBB"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "148369F5E56090D8"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "169D0F671162E39B"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Snail"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:nautilus_shell"
+				id: "372A7C2E3C9BD2CB"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Snail"
+				to_observe: "lovely_snails:snail"
+				type: "observation"
+			}]
+			title: "Bessie"
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["614E11C34F346AFF"]
+			description: [
+				"&7[Bovines and Buttercups]&r "
+				""
+				"&aMooblooms&r are a variant of &aCows&r can be found in &2Flower Forests&r. "
+				""
+				"&3Bone Meal&r can be used on Mooblooms with &7[&r&6Right-Click&r&7]&r, &ddropping some of it's flower type&r."
+				""
+				"&eBowls&r can be similarly used to collect &3Nectar&r - which &3Freezes&r a specific status effect, &dpreventing it from being obtained, or expiring&r."
+				""
+				"Only two Moobloom varieties spawn naturally - others spawn when &dbreeding mooblooms in certain conditions&r."
+			]
+			hide: true
+			id: "38B0E68B1130D006"
+			rewards: [
+				{
+					id: "6FA96429D1795E16"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61B7C7B4F3640835"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Moobloom"
+			tasks: [{
+				disable_toast: true
+				icon: "bovinesandbuttercups:buttercup"
+				id: "5D28A3A6CA23D544"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Moobloom"
+				to_observe: "bovinesandbuttercups:moobloom"
+				type: "observation"
+			}]
+			title: "Unvoted"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: ["&2Flower Forests&r are a rare biome that contain &dmany flowers and beehives&r."]
+			hide: true
+			id: "614E11C34F346AFF"
+			rewards: [{
+				id: "5A68CA4D8AE3247F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Flower Forest"
+			tasks: [{
+				biome: "minecraft:flower_forest"
+				disable_toast: true
+				icon: "minecraft:cornflower"
+				id: "56F57EF954A01CC7"
+				title: "Find a Flower Forest"
+				type: "biome"
+			}]
+			title: "A Florist?"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&7[YUNG's Better Dungeons]&r"
+				""
+				"&2Dungeons&r are underground fortresses with many &3Mob Spawners&r and &dloot chests&r."
+				""
+				"They have many twists and corners that allow becoming &doverrun by enemies&r."
+			]
+			hide: true
+			id: "07B1A0FE64198EF7"
+			subtitle: "Find a Dungeon"
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "580D574B6658BC6B"
+				structure: "#betterdungeons:better_dungeons"
+				title: "Find a Dungeon"
+				type: "structure"
+			}]
+			title: "No dragons to speak of"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "68BA2ED131675132"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "0C1EEA674BC6BE36"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Badlands Village"
+			tasks: [{
+				icon: "minecraft:dead_bush"
+				id: "1C4AC2DCDB69183D"
+				structure: "repurposed_structures:village_badlands"
+				title: "Enter a Badlands Village"
+				type: "structure"
+			}]
+			title: "Agua Fria"
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "03DAA03E966BA7CE"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "2D23F55F2509077A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Birch Village"
+			tasks: [{
+				icon: "minecraft:stripped_birch_log"
+				id: "69389899367F5F58"
+				structure: "repurposed_structures:village_birch"
+				title: "Enter a Birch Village"
+				type: "structure"
+			}]
+			title: "Paperbark"
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "4D8AAC1A6AA04D4D"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "335EE78502B193FF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Dark Forest Village"
+			tasks: [{
+				icon: "minecraft:dark_oak_log"
+				id: "7EDEF684E103A114"
+				structure: "repurposed_structures:village_dark_forest"
+				title: "Enter a Dark Forest Village"
+				type: "structure"
+			}]
+			title: "Monster Camp"
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "4A8BE14167255678"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "05C583F07453EDD2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Giant Taiga Village"
+			tasks: [{
+				icon: "minecraft:spruce_log"
+				id: "455A3B547898046D"
+				structure: "repurposed_structures:village_giant_taiga"
+				title: "Enter a Giant Taiga Village"
+				type: "structure"
+			}]
+			title: "Steam Gardens"
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "7F06B4A5FAAC22EF"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "219831036888DE7B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Jungle VIllage"
+			tasks: [{
+				icon: "minecraft:jungle_log"
+				id: "7351993E01D1EAD5"
+				structure: "repurposed_structures:village_jungle"
+				title: "Enter a Jungle Village"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "0100CE18C09040FB"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "47F56931F6B33C71"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Mountain Village"
+			tasks: [{
+				icon: "minecraft:stone"
+				id: "3DA00F63C2E8D365"
+				structure: "repurposed_structures:village_mountains"
+				title: "Enter a Mountain Village"
+				type: "structure"
+			}]
+			title: "Per Gynt"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "6ACE663E9095B0DE"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "5C77B300A0BF8D97"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Mushroom Village"
+			tasks: [{
+				icon: "minecraft:red_mushroom_block"
+				id: "69FA3844F94B301A"
+				structure: "repurposed_structures:village_mushroom"
+				title: "Enter a Mushroom Village"
+				type: "structure"
+			}]
+			title: "It'sa Me!"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r &2Ocean Villages&r are once-populated &dunderwater villages&r, which could be revitalised with a &eConduit&r - though &aVillagers&r still can't swim!"]
+			id: "11A0AAD39B488E1A"
+			invisible: true
+			rewards: [
+				{
+					count: 8
+					id: "081B6757DE79DAA9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "632EE43A2B22EECF"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Abandoned Ocean Village"
+			tasks: [{
+				icon: "minecraft:sea_pickle"
+				id: "7D468FAA3C76C7A1"
+				structure: "repurposed_structures:village_ocean"
+				title: "Enter an Abandoned Ocean Village"
+				type: "structure"
+			}]
+			title: "Down where it's Wetter"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["09874FF0F69D98F0"]
+			description: ["&7[Repurposed Structures]&r"]
+			id: "61BBCA6326D797AA"
+			invisible: true
+			rewards: [{
+				count: 8
+				id: "0A1651B1D023AD11"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Find a Swamp Village"
+			tasks: [{
+				icon: "minecraft:vine"
+				id: "16ECD6B31AD88226"
+				structure: "repurposed_structures:village_swamp"
+				title: "Enter a Swamp Village"
+				type: "structure"
+			}]
+			title: "It has Layers"
+			x: -10.5d
+			y: -7.5d
 		}
 	]
 	title: "Exploration"
