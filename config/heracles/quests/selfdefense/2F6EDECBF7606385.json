@@ -8,8 +8,7 @@
   "tasks": {
     "423493D133AB8111": {
       "type": "heracles:item",
-      "item": "minecraft:trident",
-      "nbt": {}
+      "item": "minecraft:trident"
     }
   },
   "rewards": {
@@ -19,34 +18,30 @@
         "51CC401C11221252_0": {
           "type": "heracles:item",
           "item": {
-            "id": {
-              "id": "minecraft:enchanted_book",
-              "Count": "1",
-              "tag": {
-                "StoredEnchantments": [
-                  {
-                    "id": "minecraft:loyalty",
-                    "lvl": "1"
-                  }
-                ]
-              }
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "nbt": {
+              "StoredEnchantments": [
+                {
+                  "id": "minecraft:loyalty",
+                  "lvl": 1
+                }
+              ]
             }
           }
         },
         "51CC401C11221252_1": {
           "type": "heracles:item",
           "item": {
-            "id": {
-              "id": "minecraft:enchanted_book",
-              "Count": "1",
-              "tag": {
-                "StoredEnchantments": [
-                  {
-                    "id": "minecraft:riptide",
-                    "lvl": "1"
-                  }
-                ]
-              }
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "nbt": {
+              "StoredEnchantments": [
+                {
+                  "id": "minecraft:riptide",
+                  "lvl": 1
+                }
+              ]
             }
           }
         }

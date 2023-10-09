@@ -35,16 +35,14 @@
       "type": "heracles:item",
       "item": {
         "id": "minecraft:shears",
-        "count": 1,
-        "nbt": {}
+        "count": 1
       }
     },
     "04820B107B3798DA": {
       "type": "heracles:item",
       "item": {
         "id": "minecraft:flint_and_steel",
-        "count": 1,
-        "nbt": {}
+        "count": 1
       }
     }
   },
