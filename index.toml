@@ -1416,8 +1416,8 @@ file = "mods/coyote_time-1.0.1.jar"
 hash = "2c306c91e1086e8b4890088145fa1cda00cffc6e61cd5f1d7f606b464ff7da64"
 
 [[files]]
-file = "mods/create-fabric.pw.toml"
-hash = "e5bbc96d6d5d6bffb8e36c89bbd1331d923e23fbb87be8bae208d206832adb1c"
+file = "mods/create-fabric-sodium-fix.pw.toml"
+hash = "738234a75b69eadde29b6ebda5f0be28a3ac7f583d31f9a9a62febd4e784c3b7"
 metafile = true
 
 [[files]]
@@ -1952,9 +1952,8 @@ hash = "874a680170fbf36204ee1c4e57650b6a28b15d10a32163964850aaccc9a7457a"
 metafile = true
 
 [[files]]
-file = "mods/yttr.pw.toml"
-hash = "96d260faf47b17a4ab9d61d71b82e40126d232c2abf4862240e8c856a166b92c"
-metafile = true
+file = "mods/yttr-7.736+1.20.jar"
+hash = "f4f6711978a72bbeb84ad6dc768515ac3f1522d54819742d92ad4f2c295687c4"
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
