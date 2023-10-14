@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "4D3BB7698E3126D7": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:blaze_powder"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 15,
+      "entity": {
+        "type": "minecraft:blaze"
+      }
+    }
+  },
+  "rewards": {
+    "118C5144B9A873E3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "405 too few i guess",
+    "description": [
+      "<subtitle id=\"349E511AA603A620\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4D3BB7698E3126D7\" quest=\"349E511AA603A620\"/>",
+      "<hr/>",
+      "Floating around &&2Nether Fortresses&&r, &&cBlazes&&r come in packs and emerge from spawners - spitting fire in small bursts then &&dstopping to recharge&&r - that's your chance!",
+      "<hr/>",
+      "<reward reward=\"118C5144B9A873E3\" quest=\"349E511AA603A620\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blaze_powder"
+    },
+    "subtitle": {
+      "text": "Kill 15 Blazes"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          112,
+          -240
+        ]
+      }
+    }
+  }
+}

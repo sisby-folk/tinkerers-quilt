@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "16B7A3AED5563A76": {
+      "type": "heracles:item",
+      "item": "campanion:grappling_hook"
+    }
+  },
+  "rewards": {
+    "4D741380A7FA05A0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:feather_falling",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "GRAPPLING HOOK!!!",
+    "description": [
+      "<h2>Make the Grappling Hook</h2>",
+      "<hr/>",
+      "<task task=\"16B7A3AED5563A76\" quest=\"2FB1C0658F3B91C4\"/>",
+      "<hr/>",
+      "&&7[Campanion]&&r ",
+      "<br/>",
+      "The &&3Grappling Hook&&r is a source of &&dspeed and danger&&r that could easily kill via impact.",
+      "<br/>",
+      "It's &&dgreat for caves&&r!",
+      "<hr/>",
+      "<reward reward=\"4D741380A7FA05A0\" quest=\"2FB1C0658F3B91C4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "campanion:grappling_hook"
+    },
+    "subtitle": {
+      "text": "Make the Grappling Hook"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -144,
+          -416
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "58184DF53B179A23": {
+      "type": "heracles:item",
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "rewards": {
+    "47C766F3D087F2F2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 3
+      }
+    },
+    "170B785E7A4604F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chest",
+        "count": 2
+      }
+    },
+    "7BCCC29CC0BB4BFD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "aurorasdeco:copper_hopper"
+      }
+    }
+  },
+  "display": {
+    "title": "Sheetmetal",
+    "description": [
+      "<subtitle id=\"796366A8D7D8BBF8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"58184DF53B179A23\" quest=\"796366A8D7D8BBF8\"/>",
+      "<hr/>",
+      "A &&3Blast Furnace&&r is a specialized furnace variant that &&dsmelts ores at double speed&&r.",
+      "<br/>",
+      "&&3Hoppers&&r can automatically &&dtake items from&&r or &&dinsert items into&&r into any blocks with an inventory - including &&3Furnaces&&r and &&3Chests&&r.",
+      "<br/>",
+      "Any furnace can have a hopper above it, inserting into the &&3material slot&&r, a hopper beside it, inserting into the &&3fuel slot&&r, and a hopper below it, extracting from the &&3result slot&&r.",
+      "<br/>",
+      "By adding chests to each, this can be used to &&dsmelt many stacks of items&&r without checking in.",
+      "<br/>",
+      "&&7[Fabrication]&&r &&6Clicking&&r the &&3output slot&&r of a furnace set up this way will transfer you any experience generated.",
+      "<br/>",
+      "&&7[Aurora's Decorations]&&r A &&eCopper Hopper&&r can have an item placed in its &&3Filter Slot&&r, causing it to &&donly extract similar items&&r.",
+      "<hr/>",
+      "<reward reward=\"47C766F3D087F2F2\" quest=\"796366A8D7D8BBF8\"/>",
+      "<reward reward=\"170B785E7A4604F5\" quest=\"796366A8D7D8BBF8\"/>",
+      "<reward reward=\"7BCCC29CC0BB4BFD\" quest=\"796366A8D7D8BBF8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blast_furnace"
+    },
+    "subtitle": {
+      "text": "Craft a Blast Furnace"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          224,
+          -416
+        ]
+      }
+    }
+  }
+}

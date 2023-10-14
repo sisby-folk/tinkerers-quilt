@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41C9341CA261E52B"
+  ],
+  "tasks": {
+    "6F3511A98C05DE7B": {
+      "title": "1x Diamond",
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
+    }
+  },
+  "rewards": {
+    "6A949AA460E8D229": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:smithing_table"
+      }
+    }
+  },
+  "display": {
+    "title": "Striking Gold",
+    "description": [
+      "<subtitle id=\"28AFD82AD9C0B721\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6F3511A98C05DE7B\" quest=\"28AFD82AD9C0B721\"/>",
+      "<hr/>",
+      "&&3Diamond Ore&&r spawns far underground, and is most common in &&2deep deepslate&&r.",
+      "<br/>",
+      "A &&3Diamond Pickaxe&&r can mine &&3Obsidian&&r, used for &&denchanting and portals&&r.",
+      "<br/>",
+      "&&7[Tinkerer's Smithing]&&r &&eSmithing Tables&&r can upgrade equipment using &&dless materials&&r - producing a partial-durability result.",
+      "<hr/>",
+      "<reward reward=\"6A949AA460E8D229\" quest=\"28AFD82AD9C0B721\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_ore"
+    },
+    "subtitle": {
+      "text": "Obtain a Diamond"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          48,
+          64
+        ]
+      }
+    }
+  }
+}

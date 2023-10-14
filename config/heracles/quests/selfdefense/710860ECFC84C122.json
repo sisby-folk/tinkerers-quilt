@@ -1,0 +1,102 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F4FAE3B1041001F"
+  ],
+  "tasks": {
+    "6E56DAE917B8B5AD": {
+      "type": "heracles:item",
+      "item": "minecraft:lingering_potion",
+      "nbt": {
+        "Potion": "minecraft:awkward"
+      }
+    }
+  },
+  "rewards": {
+    "4BBD5D56918482B0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:long_poison"
+        }
+      }
+    },
+    "33508FE688FE6CFE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 6,
+        "nbt": {
+          "Potion": "minecraft:strong_healing"
+        }
+      }
+    },
+    "35A2A1542BB7C29B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_slowness"
+        }
+      }
+    },
+    "361DC853B9E05076": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 6,
+        "nbt": {
+          "Potion": "minecraft:strong_harming"
+        }
+      }
+    },
+    "34DF6C60CBABBFA0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:long_weakness"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Rogue",
+    "description": [
+      "<subtitle id=\"710860ECFC84C122\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6E56DAE917B8B5AD\" quest=\"710860ECFC84C122\"/>",
+      "<hr/>",
+      "&&3Dragon's Breath&&r can be &&dgathered with bottles&&r while fighting the &&4Ender Dragon&&r.",
+      "<br/>",
+      "The &&3Lingering Potions&&r it brews can &&dtip arrows&&r, inflicting effects on hit.",
+      "<br/>",
+      "An &&3off-handed&&r bow will &&dfire the arrow type in the main hand&&r.",
+      "<hr/>",
+      "<reward reward=\"4BBD5D56918482B0\" quest=\"710860ECFC84C122\"/>",
+      "<reward reward=\"33508FE688FE6CFE\" quest=\"710860ECFC84C122\"/>",
+      "<reward reward=\"35A2A1542BB7C29B\" quest=\"710860ECFC84C122\"/>",
+      "<reward reward=\"361DC853B9E05076\" quest=\"710860ECFC84C122\"/>",
+      "<reward reward=\"34DF6C60CBABBFA0\" quest=\"710860ECFC84C122\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:tipped_arrow"
+    },
+    "subtitle": {
+      "text": "Craft a Lingering Potion"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -112,
+          -176
+        ]
+      }
+    }
+  }
+}

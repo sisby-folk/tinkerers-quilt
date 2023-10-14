@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "09796221B64CFFF4": {
+      "title": "Find a Desert Temple",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:chiseled_sandstone"
+      },
+      "type": "heracles:structure",
+      "structures": "#betterdeserttemples:better_desert_temples"
+    }
+  },
+  "rewards": {
+    "122D1702C9C1C756": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Hur-Ra!",
+    "description": [
+      "<subtitle id=\"5CF8EB5303569739\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"09796221B64CFFF4\" quest=\"5CF8EB5303569739\"/>",
+      "<hr/>",
+      "&&7[YUNG's Better Desert Temples]&&r",
+      "<br/>",
+      "&&2Desert Temples&&r are dangerous fortresses full of traps, challenges, and &&dloot chests&&r.",
+      "<hr/>",
+      "<reward reward=\"122D1702C9C1C756\" quest=\"5CF8EB5303569739\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "subtitle": {
+      "text": "Find a Desert Temple"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -352,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "36FE4BD5E967A888": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:creeper_head"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 15,
+      "entity": {
+        "type": "minecraft:creeper"
+      }
+    }
+  },
+  "rewards": {
+    "2FF00C331F6E4A3C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "448CCDD562B9DE27": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:knockback",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Aw man",
+    "description": [
+      "<subtitle id=\"2BA288C7EE0930DB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"36FE4BD5E967A888\" quest=\"2BA288C7EE0930DB\"/>",
+      "<hr/>",
+      "The self-destructing explosions from a &&cCreeper&&r can pack a punch! ",
+      "<br/>",
+      "Creepers are easiest taken out &&dfrom a distance&&r, or by &&emaking distance&&r after each hit.",
+      "<br/>",
+      "Creepers are the best source of &&3Gunpowder&&r, which is invaluable for &&dTNT and Fireworks&&r.",
+      "<br/>",
+      "&&3TNT&&r can be primed with &&3Flint and Steel&&r or via &&3Mechanism&&r, causing it to blink before &&3exploding&&r - breaking blocks in a large area.",
+      "<br/>",
+      "You can make an area &&dspawn only Creepers&&r by creating a &&22x2 tunnel&&r with a roof lined with &&3Trapdoors&&r.",
+      "<br/>",
+      "&&7[Fabrication]&&r Creeper explosions &&dcan't break blocks&&r.",
+      "<hr/>",
+      "<reward reward=\"2FF00C331F6E4A3C\" quest=\"2BA288C7EE0930DB\"/>",
+      "<reward reward=\"448CCDD562B9DE27\" quest=\"2BA288C7EE0930DB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:creeper_head"
+    },
+    "subtitle": {
+      "text": "Kill 15 Creepers"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -16,
+          -192
+        ]
+      }
+    }
+  }
+}

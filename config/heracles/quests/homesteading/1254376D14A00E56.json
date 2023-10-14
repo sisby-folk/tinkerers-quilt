@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "031A173AC6CC6D04": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:ice"
+    },
+    "111FFC65D5FB6D46": {
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ice Farming",
+    "description": [
+      "<subtitle id=\"1254376D14A00E56\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"031A173AC6CC6D04\" quest=\"1254376D14A00E56\"/>",
+      "<task task=\"111FFC65D5FB6D46\" quest=\"1254376D14A00E56\"/>",
+      "<hr/>",
+      "&&3Ice&&r can be farmed with &&3Silk Touch&&r in &&2cold biomes&&r in an exposed one-deep square hole of &&dany size&&r.",
+      "<br/>",
+      "Fill the hole with water, then place &&3Slabs&&r in a diagonal line to &&dprotect the source water&&r. Then get breaking!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:packed_ice"
+    },
+    "subtitle": {
+      "text": "Farm 64 Ice"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          128,
+          -496
+        ]
+      }
+    }
+  }
+}

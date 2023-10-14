@@ -1,0 +1,150 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "42E807C7DFC19EBF"
+  ],
+  "tasks": {
+    "45B5320B6047A2A3": {
+      "type": "heracles:item",
+      "item": "minecraft:lava_bucket"
+    },
+    "5183D9A746C01BA5": {
+      "title": "Bed",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:red_bed"
+      },
+      "type": "heracles:item",
+      "item": "#minecraft:beds"
+    },
+    "4D378B775FD99873": {
+      "title": "Splash Potion: Poison II",
+      "type": "heracles:item",
+      "item": "minecraft:splash_potion",
+      "nbt": {
+        "Potion": "minecraft:strong_poison"
+      }
+    },
+    "6529E7DCE66DE510": {
+      "type": "heracles:item",
+      "item": "minecraft:fishing_rod",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "404C593B0C3F2638": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_slowness"
+        }
+      }
+    },
+    "0E7DF24905B9DBAA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_harming"
+        }
+      }
+    },
+    "703514C5A7050A38": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:strong_healing"
+        }
+      }
+    },
+    "190317846E468685": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tnt",
+        "count": 4
+      }
+    },
+    "460FDDDDF317DC48": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:end_crystal",
+        "count": 3
+      }
+    },
+    "1C81447FC4D47B20": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 3
+      }
+    },
+    "7A89AF556DE4C7C8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": {
+          "RepairCost": 31,
+          "Unbreakable": 1,
+          "display": {
+            "Lore": [
+              "[{\"text\":\"C'mere!\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"Chain Hook\",\"italic\":false}]"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Olak",
+    "description": [
+      "<subtitle id=\"5CE64305EE23917A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"45B5320B6047A2A3\" quest=\"5CE64305EE23917A\"/>",
+      "<task task=\"5183D9A746C01BA5\" quest=\"5CE64305EE23917A\"/>",
+      "<task task=\"4D378B775FD99873\" quest=\"5CE64305EE23917A\"/>",
+      "<task task=\"6529E7DCE66DE510\" quest=\"5CE64305EE23917A\"/>",
+      "<hr/>",
+      "&&3Lava Buckets&&r are an intense alternative to &&3Flint and Steel&&r - decimating crowds of unprepared mobs at the cost of their drops.",
+      "<br/>",
+      "&&3TNT&&r and &&3Beds&&r (outside of &&2The Overworld&&r) can be used as explosive weaponry. Both deal &&dmassive damage&&r at risk of damaging &&dyou and the terrain&&r. ",
+      "<br/>",
+      "&&3End Crystals&&r placed on &&3Obsidian&&r are an expensive but &&deven more effective&&r alternative.",
+      "<br/>",
+      "&&3Splash Potions&&r can inflict &&3status effects&&r on crowds of enemies at once. Just remember - &&dHealing damages undead&&r, but Harming will heal!",
+      "<br/>",
+      "&&3Fall Damage&&r can be your friend by hooking a mob on a &&3Fishing Rod&&r from very high above. Large &&3Pillars&&r or &&3Gliding&&r can achieve this.",
+      "<hr/>",
+      "<reward reward=\"404C593B0C3F2638\" quest=\"5CE64305EE23917A\"/>",
+      "<reward reward=\"0E7DF24905B9DBAA\" quest=\"5CE64305EE23917A\"/>",
+      "<reward reward=\"703514C5A7050A38\" quest=\"5CE64305EE23917A\"/>",
+      "<reward reward=\"190317846E468685\" quest=\"5CE64305EE23917A\"/>",
+      "<reward reward=\"460FDDDDF317DC48\" quest=\"5CE64305EE23917A\"/>",
+      "<reward reward=\"1C81447FC4D47B20\" quest=\"5CE64305EE23917A\"/>",
+      "<reward reward=\"7A89AF556DE4C7C8\" quest=\"5CE64305EE23917A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:tnt"
+    },
+    "subtitle": {
+      "text": "Acquire risky materials"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

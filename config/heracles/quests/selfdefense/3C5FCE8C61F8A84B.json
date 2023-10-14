@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "479E0E3F26F179CE"
+  ],
+  "tasks": {
+    "7E973FBCC832794D": {
+      "type": "heracles:item",
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "rewards": {
+    "3AFE2DDB58D42CEB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bundle"
+      }
+    }
+  },
+  "display": {
+    "title": "Dio's Best Friend",
+    "description": [
+      "<subtitle id=\"3C5FCE8C61F8A84B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7E973FBCC832794D\" quest=\"3C5FCE8C61F8A84B\"/>",
+      "<hr/>",
+      "&&cEvokers&&r drop a &&3Totem of Undying&&r on death. ",
+      "<br/>",
+      "The Totem of Undying &&dprevents player death&&r. Instead of dying, the totem is consumed - giving the player a &&dsmall health boost and protective buffs&&r.",
+      "<br/>",
+      "&&7[Totem Anywhere]&&r Totems work from &&dany slot of the inventory&&r - but not &&ebundles&&r!",
+      "<hr/>",
+      "<reward reward=\"3AFE2DDB58D42CEB\" quest=\"3C5FCE8C61F8A84B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:totem_of_undying"
+    },
+    "subtitle": {
+      "text": "Acquire a Totem of Undying"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    }
+  }
+}

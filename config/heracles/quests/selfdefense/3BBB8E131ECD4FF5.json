@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4FE0BE6BF0009C4E"
+  ],
+  "tasks": {
+    "5ECADB3B034C0997": {
+      "title": "Free the End",
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:end/kill_dragon"
+      ]
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cool Skyrim Reference",
+    "description": [
+      "<subtitle id=\"3BBB8E131ECD4FF5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5ECADB3B034C0997\" quest=\"3BBB8E131ECD4FF5\"/>",
+      "<hr/>",
+      "&&7(See Basics: End)&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:knowledge_book"
+    },
+    "subtitle": {
+      "text": "Defeat the Ender Dragon"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -192,
+          0
+        ]
+      }
+    }
+  }
+}

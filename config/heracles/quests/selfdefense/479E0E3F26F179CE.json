@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "2918E017D78CE0A0": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dark_oak_door"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:pillager"
+      }
+    }
+  },
+  "rewards": {
+    "3D59A9269D4E8EF7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:milk_bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Straight Illin'",
+    "description": [
+      "<subtitle id=\"479E0E3F26F179CE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2918E017D78CE0A0\" quest=\"479E0E3F26F179CE\"/>",
+      "<hr/>",
+      "&&cIllagers&&r come in many varieties, with basic &&cPillagers&&r wielding &&3Crossbows&&r.",
+      "<br/>",
+      "Killing a &&3Banner&&r-bearing &&cCaptain Pillager&&r inflicts &&3Bad Omen&&r, initiating a &&4Raid&&r at the next village visited unless &&eCleansed&&r.",
+      "<br/>",
+      "In raids and mansions &&cVindicators&&r appear, moving fast and wielding &&3Iron Axes&&r - and &&cEvokers&&r, dangerous spellcasters.",
+      "<br/>",
+      "Evokers have a vulnerable &&dcooldown between spells&&r, which include summoning &&3Ground Jaws&&r, or summoning flying &&cVexes&&r.",
+      "<br/>",
+      "Finally, &&cRavagers&&r are large mounted beasts that spawn purely in &&4Raids&&r, and are best taken out &&dfrom below or while distracted&&r.",
+      "<hr/>",
+      "<reward reward=\"3D59A9269D4E8EF7\" quest=\"479E0E3F26F179CE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dark_oak_door"
+    },
+    "subtitle": {
+      "text": "Kill a Pillager"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -48,
+          48
+        ]
+      }
+    }
+  }
+}

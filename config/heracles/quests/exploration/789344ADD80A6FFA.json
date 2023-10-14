@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "6B61580BF4D462A5": {
+      "title": "Sprint 500 Blocks",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:leather_boots"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:sprint_one_cm",
+      "target": 50000
+    }
+  },
+  "rewards": {
+    "5C2FA5AA4F3A024C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "fwaystones:waystone"
+      }
+    },
+    "55A7116EF55A5CB8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Leaping Lateral [Naturalist]",
+    "description": [
+      "<subtitle id=\"789344ADD80A6FFA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6B61580BF4D462A5\" quest=\"789344ADD80A6FFA\"/>",
+      "<hr/>",
+      "&&7[Fwaystones]&&r A &&3Waystone&&r allows for &&dfast travel&&r, and adds a &&dpermanent marker to all atlases&&r. ",
+      "<br/>",
+      "This can help you return to a familiar location if you get lost.",
+      "<br/>",
+      "&&7[Nature's Compass]&&r A &&eNature's Compass&&r can &&dfind any one specific biome&&r. Perfect for if you want to settle down in a specific area - or if you've done lots of travelling and just can't find the &&dlast few biomes&&r!",
+      "<hr/>",
+      "<reward reward=\"5C2FA5AA4F3A024C\" quest=\"789344ADD80A6FFA\"/>",
+      "<reward reward=\"55A7116EF55A5CB8\" quest=\"789344ADD80A6FFA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:leather_boots"
+    },
+    "subtitle": {
+      "text": "Walk 500 Blocks"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          64
+        ]
+      }
+    }
+  }
+}

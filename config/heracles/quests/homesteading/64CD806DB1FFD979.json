@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207",
+    "0953453F97BA921D",
+    "392E005585B652A4"
+  ],
+  "tasks": {
+    "04B0358DDE85654B": {
+      "title": "Rest by the fire [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "79594AF7E372EA9B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:leather_leggings",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "swift_sneak",
+              "lvl": 5
+            }
+          ],
+          "RepairCost": 31,
+          "display": {
+            "Lore": [
+              "[{\"text\":\"Comfy\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"Pyjama Pants\",\"italic\":false}]",
+            "color": 15975899
+          }
+        }
+      }
+    },
+    "31513DC7CDA6BC87": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:silk_touch",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Vesta",
+    "description": [
+      "<subtitle id=\"64CD806DB1FFD979\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"04B0358DDE85654B\" quest=\"64CD806DB1FFD979\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"79594AF7E372EA9B\" quest=\"64CD806DB1FFD979\"/>",
+      "<reward reward=\"31513DC7CDA6BC87\" quest=\"64CD806DB1FFD979\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire"
+    },
+    "subtitle": {
+      "text": "Settle hearth in three realms"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -64,
+          -480
+        ]
+      }
+    }
+  }
+}

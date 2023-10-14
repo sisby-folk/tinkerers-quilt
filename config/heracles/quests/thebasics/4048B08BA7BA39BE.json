@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3079DAC3AB1B0AD9"
+  ],
+  "tasks": {
+    "319AF1FD9F7F4A83": {
+      "title": "Find a Nether Fortress",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:nether_brick_stairs"
+      },
+      "type": "heracles:structure",
+      "structures": "#betterfortresses:better_fortresses"
+    }
+  },
+  "rewards": {
+    "70202BB1A11D57BC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Stairway to Hell",
+    "description": [
+      "<subtitle id=\"4048B08BA7BA39BE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"319AF1FD9F7F4A83\" quest=\"4048B08BA7BA39BE\"/>",
+      "<hr/>",
+      "A &&2Nether Fortress&&r can be identified by its large &&3Nether Brick&&r bridges. ",
+      "<br/>",
+      "It contains unique enemies like &&cBlazes&&r and &&cWither Skeletons&&r, along with inner keeps containing &&dchests of loot&&r.",
+      "<br/>",
+      "&&eFire Resistance&&r can &&dprotect you from all heat damage&&r, including from touching lava.",
+      "<br/>",
+      "&&7[YUNG's Better Fortresses]&&r Fortresses are more elaborate, and &&dcontain better loot&&r.",
+      "<hr/>",
+      "<reward reward=\"70202BB1A11D57BC\" quest=\"4048B08BA7BA39BE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_brick_stairs"
+    },
+    "subtitle": {
+      "text": "Find a Nether Fortress"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          176,
+          16
+        ]
+      }
+    }
+  }
+}

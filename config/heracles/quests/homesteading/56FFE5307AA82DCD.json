@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "193B528A78694A90": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:soul_sand"
+    },
+    "2071C293A277F0B7": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "rewards": {
+    "586193A0EA230FBE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:soul_speed",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Olympic Highway",
+    "description": [
+      "<subtitle id=\"56FFE5307AA82DCD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"193B528A78694A90\" quest=\"56FFE5307AA82DCD\"/>",
+      "<task task=\"2071C293A277F0B7\" quest=\"56FFE5307AA82DCD\"/>",
+      "<hr/>",
+      "&&3Soul Sand&&r slows the player down, &&3Soul Soil&&r does not. With &&eSoul Speed&&r, you &&dmove faster on both&&r.",
+      "<br/>",
+      "&&aPiglins&&r can be thrown &&3Gold Ingots&&r to &&3Barter&&r with them, rarely yielding &&dSoul Speed -enchanted Books or Boots&&r.",
+      "<br/>",
+      "If a Piglin puts on the boots instead, they can be bartered back for &&3Golden Boots&&r",
+      "<hr/>",
+      "<reward reward=\"586193A0EA230FBE\" quest=\"56FFE5307AA82DCD\"/>"
+    ],
+    "subtitle": {
+      "text": "Gather Soul Speed Highway materials"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -272,
+          -368
+        ]
+      }
+    }
+  }
+}

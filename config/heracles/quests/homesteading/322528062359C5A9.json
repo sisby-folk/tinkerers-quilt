@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "55783EE248BAC550"
+  ],
+  "tasks": {
+    "69664F854B5F66A8": {
+      "title": "Explore Mechanisms [Click]",
+      "type": "heracles:check"
+    },
+    "3A309E57BCB63BF2": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone"
+    }
+  },
+  "rewards": {
+    "65546E15954AA223": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 64
+      }
+    },
+    "41573153DA4B06B1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stick",
+        "count": 64
+      }
+    },
+    "5FB600BFF6987B3E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone",
+        "count": 64
+      }
+    },
+    "195837F96D182834": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Accursed Machines",
+    "description": [
+      "<subtitle id=\"322528062359C5A9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"69664F854B5F66A8\" quest=\"322528062359C5A9\"/>",
+      "<task task=\"3A309E57BCB63BF2\" quest=\"322528062359C5A9\"/>",
+      "<hr/>",
+      "&&3Mechanisms&&r are built by the player and can &&dperform complex tasks&&r - they have components in three categories.",
+      "<br/>",
+      "&&3Input&&r or &&3Power&&r components provide an &&dinitial redstone signal&&r (or \"power\").",
+      "<br/>",
+      "&&3Transmission&&r components &&dmove and transform signals&&r.",
+      "<br/>",
+      "&&3Functional&&r components &&dperform the actual function desired&&r.",
+      "<hr/>",
+      "<reward reward=\"65546E15954AA223\" quest=\"322528062359C5A9\"/>",
+      "<reward reward=\"41573153DA4B06B1\" quest=\"322528062359C5A9\"/>",
+      "<reward reward=\"5FB600BFF6987B3E\" quest=\"322528062359C5A9\"/>",
+      "<reward reward=\"195837F96D182834\" quest=\"322528062359C5A9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:hopper_minecart"
+    },
+    "subtitle": {
+      "text": "Begin exploring mechanisms"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          320,
+          -368
+        ]
+      }
+    }
+  }
+}

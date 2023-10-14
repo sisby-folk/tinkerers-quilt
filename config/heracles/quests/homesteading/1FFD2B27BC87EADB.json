@@ -1,0 +1,165 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "6BBB2677D85E0344": {
+      "title": "Any Fence Gate",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:oak_fence_gate"
+      },
+      "type": "heracles:item",
+      "item": "#c:fence_gates"
+    }
+  },
+  "rewards": {
+    "007B699DEE2A8811": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "007B699DEE2A8811_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:oak_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:spruce_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_2": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:birch_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_3": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:jungle_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_4": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:acacia_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_5": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:dark_oak_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_6": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:mangrove_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_7": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:azalea_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_8": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:jacaranda_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_9": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:mangrove_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_10": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:crimson_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_11": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:warped_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_12": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:warped_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_13": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:nether_brick_fence",
+            "count": 128
+          }
+        }
+      }
+    },
+    "2470161007F8B771": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:brown_carpet",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Plotting",
+    "description": [
+      "<subtitle id=\"1FFD2B27BC87EADB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6BBB2677D85E0344\" quest=\"1FFD2B27BC87EADB\"/>",
+      "<hr/>",
+      "&&3Fence Gates&&r can be opened and closed, and connect to fences.",
+      "<br/>",
+      "&&eFences&&r and &&3Walls&&r are an essential part of &&dkeeping hostile mobs from wandering into your base&&r!",
+      "<br/>",
+      "&&eCarpet&&r can be used to create a &&dtraversable area of fence&&r by placing it on top of a fence post.",
+      "<br/>",
+      "&&7[Couplings]&&r Vertically stacked fence gates will &&dopen at once&&r.",
+      "<hr/>",
+      "<reward reward=\"007B699DEE2A8811\" quest=\"1FFD2B27BC87EADB\"/>",
+      "<reward reward=\"2470161007F8B771\" quest=\"1FFD2B27BC87EADB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_fence_gate"
+    },
+    "subtitle": {
+      "text": "Make a Fence Gate"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -16,
+          -368
+        ]
+      }
+    }
+  }
+}

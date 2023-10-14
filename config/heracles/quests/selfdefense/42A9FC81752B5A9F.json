@@ -1,0 +1,109 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "7A3DABD5009149C4": {
+      "type": "heracles:item",
+      "item": "minecraft:shield"
+    }
+  },
+  "rewards": {
+    "0B28372E3FA38A08": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:white_banner",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 3,
+                "Pattern": "ls"
+              },
+              {
+                "Color": 3,
+                "Pattern": "rs"
+              },
+              {
+                "Color": 6,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 7,
+                "Pattern": "sku"
+              }
+            ],
+            "id": "minecraft:banner"
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"\\\"Down with Cis\\\" Frigate Crest\"}"
+          }
+        }
+      }
+    },
+    "6EAB026D6644F841": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    },
+    "602BE26182C32F8A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_carrot",
+        "count": 10
+      }
+    }
+  },
+  "display": {
+    "title": "AC +2",
+    "description": [
+      "<subtitle id=\"42A9FC81752B5A9F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7A3DABD5009149C4\" quest=\"42A9FC81752B5A9F\"/>",
+      "<hr/>",
+      "&&3Shields&&r can be held in the &&3off-hand&&r, and raised with &&7[&&r&&6Right-Click&&r&&7]&&r, &&dreducing incoming damage&&r.",
+      "<br/>",
+      "Shields can be equipped with &&3Banners&&r, and enchanted with &&eUnbreaking&&r.",
+      "<br/>",
+      "Along with shields - &&3Bows, Crossbows, Snowballs, Ender Pearls, Tridents, Fishing Rods, Flint and Steel, Food, Potions, and Milk&&r - can all be &&dutilized in the off-hand&&r for combat.",
+      "<br/>",
+      "&&7[ShieldLib]&&r Shields can also be enchanted at an &&3Enchanting Table&&r.",
+      "<br/>",
+      "&&7[Tinkerer's Smithing]&&r Shields can be quickly repaired with &&3Planks&&r or &&3Iron Ingots&&r.",
+      "<hr/>",
+      "<reward reward=\"0B28372E3FA38A08\" quest=\"42A9FC81752B5A9F\"/>",
+      "<reward reward=\"6EAB026D6644F841\" quest=\"42A9FC81752B5A9F\"/>",
+      "<reward reward=\"602BE26182C32F8A\" quest=\"42A9FC81752B5A9F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:shield"
+    },
+    "subtitle": {
+      "text": "Craft a Shield"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -112,
+          -64
+        ]
+      }
+    }
+  }
+}

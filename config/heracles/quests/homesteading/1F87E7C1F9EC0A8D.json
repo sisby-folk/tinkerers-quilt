@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "50BFA1EEC645C6BB": {
+      "type": "heracles:item",
+      "item": "campanion:leather_pouch"
+    }
+  },
+  "rewards": {
+    "364F558A644186DB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "campanion:rope",
+        "count": 10
+      }
+    },
+    "7F88051EEA6AF05C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "campanion:rope_bridge_post",
+        "count": 2
+      }
+    },
+    "3C8D1EE42C93485B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 10
+      }
+    },
+    "1B8F69BC9BBE1BF5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "campanion:wool_tarp",
+        "count": 10
+      }
+    },
+    "1D863C3EAD53CF43": {
+      "type": "heracles:item",
+      "item": {
+        "id": "campanion:leather_tanner"
+      }
+    }
+  },
+  "display": {
+    "title": "But not Too Light",
+    "description": [
+      "<h2>Make a Leather Pouch</h2>",
+      "<hr/>",
+      "<task task=\"50BFA1EEC645C6BB\" quest=\"1F87E7C1F9EC0A8D\"/>",
+      "<hr/>",
+      "&&7[Campanion]&&r ",
+      "<br/>",
+      "&&3Pouches&&r can be used to craft &&3Packs&&r, which have &&dportable inventory space&&r.",
+      "<br/>",
+      "While a pack is equipped, press &&7[&&r&&6B&&r&&7]&&r to open it. Careful, taking off a pack will &&ddrop all its items&&r!",
+      "<br/>",
+      "Some Packs are made using &&3Tanned Leather&&r, which requires placing leather in a &&eLeather Tanner&&r and sitting it in the sun.",
+      "<br/>",
+      "Other camping supplies include &&3Sleeping Bags&&r and &&3Tents&&r, crafted from &&eWool Tarp&&r.",
+      "<br/>",
+      "&&2Rope Bridges&&r can be built by aligning two &&eRope Bridge Posts&&r using many &&eRope&&r. &&6Click&&r each post with your rope stack to string the bridge, then add &&ePlanks&&r.",
+      "<hr/>",
+      "<reward reward=\"364F558A644186DB\" quest=\"1F87E7C1F9EC0A8D\"/>",
+      "<reward reward=\"7F88051EEA6AF05C\" quest=\"1F87E7C1F9EC0A8D\"/>",
+      "<reward reward=\"3C8D1EE42C93485B\" quest=\"1F87E7C1F9EC0A8D\"/>",
+      "<reward reward=\"1B8F69BC9BBE1BF5\" quest=\"1F87E7C1F9EC0A8D\"/>",
+      "<reward reward=\"1D863C3EAD53CF43\" quest=\"1F87E7C1F9EC0A8D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "campanion:leather_pouch"
+    },
+    "subtitle": {
+      "text": "Make a Leather Pouch"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -144,
+          -320
+        ]
+      }
+    }
+  }
+}

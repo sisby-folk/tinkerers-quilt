@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "042C9CD92C61AC31": {
+      "title": "Find some Snow",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:snow"
+      },
+      "type": "heracles:block_interaction",
+      "block": "minecraft:snow"
+    }
+  },
+  "rewards": {
+    "7BB86E5809B36215": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:carved_pumpkin",
+        "count": 10
+      }
+    }
+  },
+  "display": {
+    "title": "Gem Hunt",
+    "description": [
+      "<subtitle id=\"28AFD314DDDE3FC4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"042C9CD92C61AC31\" quest=\"28AFD314DDDE3FC4\"/>",
+      "<hr/>",
+      "Breaking snow with a &&3Shovel&&r will yield a &&3Snowball&&r, which can be &&dthrown at mobs&&r, but only damage &&cBlazes&&r.",
+      "<br/>",
+      "They can also be crafted into &&3Snow Blocks&&r, which when stacked two-high and topped with a &&eCarved Pumpkin&&r, create a &&aSnow Golem&&r.",
+      "<br/>",
+      "&&aSnow Golems&&r &&ddefend against hostile mobs&&r by throwing Snowballs!",
+      "<hr/>",
+      "<reward reward=\"7BB86E5809B36215\" quest=\"28AFD314DDDE3FC4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:snow"
+    },
+    "subtitle": {
+      "text": "Find some Snow"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -256,
+          112
+        ]
+      }
+    }
+  }
+}

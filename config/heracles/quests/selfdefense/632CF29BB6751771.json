@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "6CF139C6D8BAEB50": {
+      "title": "Find a Monster Spawner",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:spawner"
+      },
+      "type": "heracles:block_interaction",
+      "block": "minecraft:spawner"
+    }
+  },
+  "rewards": {
+    "44B50C5F221AE134": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lantern"
+      }
+    }
+  },
+  "display": {
+    "title": "Argent Tower",
+    "description": [
+      "<subtitle id=\"632CF29BB6751771\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6CF139C6D8BAEB50\" quest=\"632CF29BB6751771\"/>",
+      "<hr/>",
+      "&&3Monster Spawners&&r endlessly spawn the monster shown inside in waves until &&3broken&&r.",
+      "<br/>",
+      "Mobs still respect &&3spawning rules&&r for the mob and dimension - so most overworld spawners can be &&ddefused&&r with &&eLights&&r to save for later.",
+      "<hr/>",
+      "<reward reward=\"44B50C5F221AE134\" quest=\"632CF29BB6751771\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spawner"
+    },
+    "subtitle": {
+      "text": "Find a Monster Spawner"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    }
+  }
+}

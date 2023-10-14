@@ -1,0 +1,74 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "314AE6BD6989969B": {
+      "type": "heracles:item",
+      "item": "minecraft:bow"
+    }
+  },
+  "rewards": {
+    "563CD36069D1D81A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tipped_arrow",
+        "count": 16,
+        "nbt": {
+          "Potion": "minecraft:strong_harming"
+        }
+      }
+    },
+    "5D87F90592336743": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tipped_arrow",
+        "count": 16,
+        "nbt": {
+          "Potion": "minecraft:strong_healing"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Longshot",
+    "description": [
+      "<subtitle id=\"0F4FAE3B1041001F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"314AE6BD6989969B\" quest=\"0F4FAE3B1041001F\"/>",
+      "<hr/>",
+      "&&3Bows&&r are a charged ranged weapon requiring &&3Arrows&&r to fire.",
+      "<br/>",
+      "Bows deal up to &&d10x damage when fully charged&&r, with fully charged arrows having a &&3star trail&&r.",
+      "<br/>",
+      "Bows can be &&3enchanted&&r to &&dincrease damage&&r, &&dincrease knockback&&r, &&dignite enemies&&r, and &&dcost no arrows&&r.",
+      "<br/>",
+      "&&eArrows of Harming&&r deal more damage to &&3living mobs&&r. &&eArrows of Healing&&r deal more damage to &&3undead mobs&&r.",
+      "<br/>",
+      "&&7[Fabrication]&&r Arrows travel less slowly underwater, though &&3Tridents&&r are still much faster.",
+      "<br/>",
+      "&&3Arrows&&r can also be &&dscavenged from angered skeletons&&r.",
+      "<hr/>",
+      "<reward reward=\"563CD36069D1D81A\" quest=\"0F4FAE3B1041001F\"/>",
+      "<reward reward=\"5D87F90592336743\" quest=\"0F4FAE3B1041001F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bow"
+    },
+    "subtitle": {
+      "text": "Acquire a Bow"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -112,
+          -128
+        ]
+      }
+    }
+  }
+}

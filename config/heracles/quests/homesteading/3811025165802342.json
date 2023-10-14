@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5DE40B33B987E149"
+  ],
+  "tasks": {
+    "47F35CC118356E8D": {
+      "type": "heracles:item",
+      "item": "minecraft:honey_block"
+    }
+  },
+  "rewards": {
+    "541513A64B024FDD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:vine",
+        "count": 16
+      }
+    },
+    "21CA961DC7B55768": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honey_block",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Unlikely (and sticky) ally",
+    "description": [
+      "<subtitle id=\"3811025165802342\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"47F35CC118356E8D\" quest=\"3811025165802342\"/>",
+      "<hr/>",
+      "&&3Honey Blocks&&r are sticky! and can be stuck to as a wall.",
+      "<br/>",
+      "&&7[Tinkerer's Quilt]&&r &&3Honey Bottles&&r can be combined with &&3Wheat&&r and &&eVines&&r to create &&3Slimeballs&&r!",
+      "<hr/>",
+      "<reward reward=\"541513A64B024FDD\" quest=\"3811025165802342\"/>",
+      "<reward reward=\"21CA961DC7B55768\" quest=\"3811025165802342\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:honey_block"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Craft a Honey Block"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          128,
+          -320
+        ]
+      }
+    }
+  }
+}

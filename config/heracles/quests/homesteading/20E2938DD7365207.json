@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "tasks": {
+    "394B1747873BEBD6": {
+      "title": "Make a Bed",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:red_bed"
+      },
+      "type": "heracles:item",
+      "item": "#minecraft:beds"
+    }
+  },
+  "rewards": {
+    "6E55816EB6C398FF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:candle"
+      }
+    },
+    "3C2A2EEA798536DD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:crafting_table"
+      }
+    },
+    "4EFC22A08C5CE99E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:fire_charge"
+      }
+    }
+  },
+  "display": {
+    "title": "Blanky Mode [Housing]",
+    "description": [
+      "<subtitle id=\"20E2938DD7365207\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"394B1747873BEBD6\" quest=\"20E2938DD7365207\"/>",
+      "<hr/>",
+      "&&3Beds&&r allow you to &&dskip the night&&r, and &&dset your spawn point&&r in case you die.",
+      "<br/>",
+      "They're also &&dslightly bouncy&&r!",
+      "<br/>",
+      "You can &&7[&&r&&6Sneak+Right-Click&&r&&7]&&r interactables to place things on top of them. Try making a &&ebedside table&&r!",
+      "<hr/>",
+      "<reward reward=\"6E55816EB6C398FF\" quest=\"20E2938DD7365207\"/>",
+      "<reward reward=\"3C2A2EEA798536DD\" quest=\"20E2938DD7365207\"/>",
+      "<reward reward=\"4EFC22A08C5CE99E\" quest=\"20E2938DD7365207\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_bed"
+    },
+    "subtitle": {
+      "text": "Make a Bed"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -64,
+          -368
+        ]
+      }
+    }
+  }
+}

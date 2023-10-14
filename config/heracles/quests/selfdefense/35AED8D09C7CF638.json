@@ -1,0 +1,79 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "30B010BB2CE92D56": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:ghast_tear"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 3,
+      "entity": {
+        "type": "minecraft:ghast"
+      }
+    }
+  },
+  "rewards": {
+    "2C75FA96B97A6A45": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "51ADAE6159E0A531": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stick",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "knockback",
+              "lvl": 5
+            }
+          ],
+          "display": {
+            "Lore": [
+              "[{\"text\":\"Batter Up!\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"The Sandman\",\"italic\":false}]"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Sometimes she's a skhost",
+    "description": [
+      "<subtitle id=\"35AED8D09C7CF638\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"30B010BB2CE92D56\" quest=\"35AED8D09C7CF638\"/>",
+      "<hr/>",
+      "Above the &&2Lava Seas&&r fly &&cGhasts&&r, making unsettling noises from great distances, and &&dspitting explosive fireballs&&r at players.",
+      "<br/>",
+      "Ghast fireballs can be &&3reflected&&r by hitting them for an &&dinstant kill&&r - or you can pull a trusty &&3Bow&&r.",
+      "<hr/>",
+      "<reward reward=\"2C75FA96B97A6A45\" quest=\"35AED8D09C7CF638\"/>",
+      "<reward reward=\"51ADAE6159E0A531\" quest=\"35AED8D09C7CF638\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ghast_tear"
+    },
+    "subtitle": {
+      "text": "Kill 3 Ghasts"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          80,
+          -240
+        ]
+      }
+    }
+  }
+}

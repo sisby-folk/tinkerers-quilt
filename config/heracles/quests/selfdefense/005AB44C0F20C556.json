@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "3238C1F9CB32C68D": {
+      "title": "Any Spear",
+      "type": "heracles:item",
+      "item": "#campanion:spears"
+    }
+  },
+  "rewards": {
+    "362C8D7B041BC30A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:piercing",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "NGAHHH!!!!!",
+    "description": [
+      "<h2>Acquire a Spear</h2>",
+      "<hr/>",
+      "<task task=\"3238C1F9CB32C68D\" quest=\"005AB44C0F20C556\"/>",
+      "<hr/>",
+      "&&7[Campanion]&&r",
+      "<br/>",
+      "The &&3Spear&&r is the landlubber of the &&3Trident&&r - a &&3Hybrid Melee-Ranged Weapon&&r. ",
+      "<br/>",
+      "It can receive standard &&3melee weapon enchanments&&r, alongside &&ePiercing&&r, making its thrown attack &&dtravel through enemies&&r.",
+      "<hr/>",
+      "<reward reward=\"362C8D7B041BC30A\" quest=\"005AB44C0F20C556\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "campanion:iron_spear"
+    },
+    "subtitle": {
+      "text": "Acquire a Spear"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          16,
+          -96
+        ]
+      }
+    }
+  }
+}

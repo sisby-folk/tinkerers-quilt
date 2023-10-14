@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "41C9341CA261E52B"
+  ],
+  "tasks": {
+    "6940D98A01D79913": {
+      "type": "heracles:item",
+      "item": "minecraft:anvil"
+    }
+  },
+  "rewards": {
+    "1E8AA706DE3AC6CC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    },
+    "5CB3416D1CA7E6FA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:fortune",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    },
+    "2F3F55D656F85A4F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:grindstone"
+      }
+    }
+  },
+  "display": {
+    "title": "Heavy Metal",
+    "description": [
+      "<subtitle id=\"324EABD3C7110E53\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6940D98A01D79913\" quest=\"324EABD3C7110E53\"/>",
+      "<hr/>",
+      "An &&3Anvil&&r can be used to &&drepair&&r equipment with materials, apply &&denchantments from books&&r, and &&dcombine&&r equipment of the same type.",
+      "<br/>",
+      "Applying enchantments costs &&3experience levels&&r based on their strength, and increases each time the tool is modified. ",
+      "<br/>",
+      "Enchantments like &&eSilk Touch and Fortune&&r, Bow &&3Infinity and Mending&&r, Armor &&3Protection&&r, and Weapon &&3Damage&&r, are &&dincompatible&&r with eachother.",
+      "<br/>",
+      "&&eGrindstones&&r completely un-enchant equipment, &&drefunding&&r a small amount of experience.",
+      "<br/>",
+      "&&7[idwtialsimmoedm]&&r hold &&7[&&r&&6Shift&&r&&7]&&r on an &&eenchanted item&&r to see enchantment descriptions.",
+      "<br/>",
+      "&&7[Fabrication]&&r Tools with &&3Fortune&&r or &&3Silk Touch&&r show an initial on their icon.",
+      "<hr/>",
+      "<reward reward=\"1E8AA706DE3AC6CC\" quest=\"324EABD3C7110E53\"/>",
+      "<reward reward=\"5CB3416D1CA7E6FA\" quest=\"324EABD3C7110E53\"/>",
+      "<reward reward=\"2F3F55D656F85A4F\" quest=\"324EABD3C7110E53\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:anvil"
+    },
+    "subtitle": {
+      "text": "Craft an Anvil"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          96,
+          64
+        ]
+      }
+    }
+  }
+}

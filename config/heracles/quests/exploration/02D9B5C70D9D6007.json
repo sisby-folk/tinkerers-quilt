@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "562E842E71B5725B"
+  ],
+  "tasks": {
+    "52CEA86A3AC221DF": {
+      "type": "heracles:item",
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "rewards": {
+    "6226F2DFFF989177": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:swift_sneak",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "World Seed",
+    "description": [
+      "<subtitle id=\"02D9B5C70D9D6007\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"52CEA86A3AC221DF\" quest=\"02D9B5C70D9D6007\"/>",
+      "<hr/>",
+      "&&3Sculk Catalysts&&r allow renewably collecting &&3Sculk&&r and &&3Sculk Sensors&&r.",
+      "<br/>",
+      "Killing mobs near a &&3Sculk Catalyst&&r will &&dtransform surface blocks&&r into &&3Sculk&&r, and &&3Sculk&&r into &&3Sculk Sensors&&r.",
+      "<br/>",
+      "Rarely, a non-hazardous &&3Sculk Shrieker&&r will be transformed instead.",
+      "<hr/>",
+      "<reward reward=\"6226F2DFFF989177\" quest=\"02D9B5C70D9D6007\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sculk_catalyst"
+    },
+    "subtitle": {
+      "text": "Acquire a Sculk Catalyst"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          208
+        ]
+      }
+    }
+  }
+}

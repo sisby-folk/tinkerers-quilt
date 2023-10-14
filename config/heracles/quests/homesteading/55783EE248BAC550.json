@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "tasks": {
+    "69DB2CD979E668E6": {
+      "type": "heracles:item",
+      "item": "minecraft:chest"
+    },
+    "24F8238455346F0E": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace"
+    },
+    "769F2FC573E160FD": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "rewards": {
+    "79D1BF339F7C8089": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:music_disc_stal"
+      }
+    },
+    "33916F3F2601EFC5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:jukebox"
+      }
+    },
+    "26879A3EA848C4FE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:barrel"
+      }
+    }
+  },
+  "display": {
+    "title": "Here in my Garage [Workshopping]",
+    "description": [
+      "<subtitle id=\"55783EE248BAC550\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"69DB2CD979E668E6\" quest=\"55783EE248BAC550\"/>",
+      "<task task=\"24F8238455346F0E\" quest=\"55783EE248BAC550\"/>",
+      "<task task=\"769F2FC573E160FD\" quest=\"55783EE248BAC550\"/>",
+      "<hr/>",
+      "The core of any base is a &&2workshop&&r - dedicated to &&3storing and crafting items&&r.",
+      "<br/>",
+      "&&eBarrels&&r can be accessed with only one side exposed, great for &&dcompact storage&&r in space-tight areas.",
+      "<br/>",
+      "&&eMusic Discs&&r can be inserted into &&eJukeboxes&&r to &&dplay songs&&r in an area!",
+      "<hr/>",
+      "<reward reward=\"79D1BF339F7C8089\" quest=\"55783EE248BAC550\"/>",
+      "<reward reward=\"33916F3F2601EFC5\" quest=\"55783EE248BAC550\"/>",
+      "<reward reward=\"26879A3EA848C4FE\" quest=\"55783EE248BAC550\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace"
+    },
+    "subtitle": {
+      "text": "Make a Crafting Table, Chest, and Furnace"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          192,
+          -368
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "215F03C618FC5D76": {
+      "title": "Any Door",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:oak_door"
+      },
+      "type": "heracles:item",
+      "item": "#minecraft:doors"
+    }
+  },
+  "rewards": {
+    "6E76D2404A19CFFE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_trapdoor",
+        "count": 6
+      }
+    },
+    "0EC6F6EF842B4B5F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone_pressure_plate",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Speak Friend",
+    "description": [
+      "<subtitle id=\"413BD03774B3B9D5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"215F03C618FC5D76\" quest=\"413BD03774B3B9D5\"/>",
+      "<hr/>",
+      "&&3Doors&&r can be opened and closed with &&7[&&r&&6Right-Click&&r&&7]&&r, or by &&epowering&&r them.",
+      "<br/>",
+      "On &&3hard difficulty&&r, &&cZombies&&r can &&dbreak wooden doors&&r - Alternative door styles can be used to avoid this.",
+      "<br/>",
+      "&&7[Couplings]&&r Double doors will &&dopen at once&&r.",
+      "<br/>",
+      "&&7[Tinkerer's Statures]&&r Doorways may need to accommodate for taller players. &&eTrapdoors&&r, &&3Fence Gates&&r, and inverted &&3Stairs&&r can be utilized for this.",
+      "<hr/>",
+      "<reward reward=\"6E76D2404A19CFFE\" quest=\"413BD03774B3B9D5\"/>",
+      "<reward reward=\"0EC6F6EF842B4B5F\" quest=\"413BD03774B3B9D5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_door"
+    },
+    "subtitle": {
+      "text": "Make a Door"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -32,
+          -400
+        ]
+      }
+    }
+  }
+}

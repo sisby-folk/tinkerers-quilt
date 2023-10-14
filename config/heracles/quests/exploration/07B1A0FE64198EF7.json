@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "580D574B6658BC6B": {
+      "title": "Find a Dungeon",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:mossy_cobblestone"
+      },
+      "type": "heracles:structure",
+      "structures": "#betterdungeons:better_dungeons"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "No dragons to speak of",
+    "description": [
+      "<h2>Find a Dungeon</h2>",
+      "<hr/>",
+      "<task task=\"580D574B6658BC6B\" quest=\"07B1A0FE64198EF7\"/>",
+      "<hr/>",
+      "&&7[YUNG's Better Dungeons]&&r",
+      "<br/>",
+      "&&2Dungeons&&r are underground fortresses with many &&3Mob Spawners&&r and &&dloot chests&&r.",
+      "<br/>",
+      "They have many twists and corners that allow becoming &&doverrun by enemies&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "subtitle": {
+      "text": "Find a Dungeon"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -80,
+          -96
+        ]
+      }
+    }
+  }
+}

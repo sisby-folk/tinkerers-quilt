@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "1458865ACC4EFFB5": {
+      "title": "Click Here!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "2B52865B1A2AB9EB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lantern"
+      }
+    }
+  },
+  "display": {
+    "title": "Pack Controls",
+    "description": [
+      "<subtitle id=\"7840EB3C8B8048EF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1458865ACC4EFFB5\" quest=\"7840EB3C8B8048EF\"/>",
+      "<hr/>",
+      "&&7[Fabrication]&&r Press &&7[&&r&&6Z&&r&&7]&&r to toggle between standing, sneaking, and prone.",
+      "<br/>",
+      "&&7[Antique Atlas]&&r Press &&7[&&r&&6M&&r&&7]&&r to open your &&3Atlas&&r, an &&dexplorable dimension map&&r where you can name and place &&darbitrary markers&&r at no cost.",
+      "<br/>",
+      "&&7[PicoHUD/WTHIT]&&r Hold &&7[&&r&&6ALT&&r&&7]&&r to show your &&3location&&r, the &&3time&&r, and information about what's in front of you.",
+      "<br/>",
+      "&&7[OkZoomer]&&r Hold &&7[&&r&&6C&&r&&7]&&r to zoom in on far away objects.",
+      "<br/>",
+      "&&7[Noteable]&&r Press &&7[&&r&&6N&&r&&7]&&r to open your notes, where you can write things down for this world.",
+      "<br/>",
+      "&&7[LambDynamicLights/ClientTweaks]&&r Held items like &&3Torches&&r will &&dlight up their surroundings&&r. Press &&7[&&r&&6F&&r&&7]&&r to swap one to your &&3off-hand&&r, where it can't be placed accidentally.",
+      "<br/>",
+      "&&7[Reacharound]&&r When a &&3visual [- -] indicator&&r appears at the crosshair, you can place blocks on &&dnormally unreachable sides&&r - Useful for building &&dbridges, walls, and downward staircases&&r.",
+      "<hr/>",
+      "<reward reward=\"2B52865B1A2AB9EB\" quest=\"7840EB3C8B8048EF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:fishing_rod"
+    },
+    "subtitle": {
+      "text": "Movement, Information, and Crafting"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          -48,
+          0
+        ]
+      }
+    }
+  }
+}

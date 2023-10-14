@@ -1,0 +1,74 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "5568AF3262E9717C": {
+      "title": "Find an Ocean Monument",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:prismarine_bricks"
+      },
+      "type": "heracles:structure",
+      "structures": "#betteroceanmonuments:better_ocean_monuments"
+    }
+  },
+  "rewards": {
+    "2EE6D4829F7AD6ED": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "4653B3BA9076A428": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_water_breathing"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Snorkel not included",
+    "description": [
+      "<subtitle id=\"5DC1E9DC98895E6F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5568AF3262E9717C\" quest=\"5DC1E9DC98895E6F\"/>",
+      "<hr/>",
+      "&&2Ocean Monuments&&r are underwater fortresses containing &&cGuardians&&r, &&cElder Guardians&&r, &&3Prismarine Crystals&&r and &&3Sponges&&r.",
+      "<br/>",
+      "They can be found using &&3Ocean Explorer Maps&&r sold by &&aCartographers&&r.",
+      "<br/>",
+      "&&cGuardians&&r are stone-like fish that fire charged &&3lasers&&r at the player, and can extend their spikes to &&dreflect melee damage&&r.",
+      "<br/>",
+      "Each fortress is guarded by three &&cElder Guardians&&r, a boss-like variant of Guardians that inflict &&3Mining Fatigue&&r to all visitors.",
+      "<br/>",
+      "&&3Sponges&&r can be placed to remove water in an area. They must be &&3smelted&&r before reuse.",
+      "<br/>",
+      "&&7[YUNG's Better Ocean Monuments]&&r Monuments are more elaborate, and &&dcontain better loot&&r.",
+      "<hr/>",
+      "<reward reward=\"2EE6D4829F7AD6ED\" quest=\"5DC1E9DC98895E6F\"/>",
+      "<reward reward=\"4653B3BA9076A428\" quest=\"5DC1E9DC98895E6F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:prismarine_bricks"
+    },
+    "subtitle": {
+      "text": "Find an Ocean Monument"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -448,
+          -80
+        ]
+      }
+    }
+  }
+}

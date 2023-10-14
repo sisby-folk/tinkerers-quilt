@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7AA799B6789ABD71"
+  ],
+  "tasks": {
+    "7051C5FC93FAC3C0": {
+      "title": "Travel 5,000 Blocks by Horse",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:saddle"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:horse_one_cm",
+      "target": 500000
+    }
+  },
+  "rewards": {
+    "0DEF357A8093D66F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_carrot",
+        "count": 10
+      }
+    }
+  },
+  "display": {
+    "title": "Thorough",
+    "description": [
+      "<subtitle id=\"3D5694CCE8F191BC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7051C5FC93FAC3C0\" quest=\"3D5694CCE8F191BC\"/>",
+      "<hr/>",
+      "&&aHorses&&r have three &&3statistics&&r - &&3health&&r, &&3jump height&&r, and &&3speed&&r.",
+      "<br/>",
+      "&&3Breeding&&r horses can create &&dhorses with better stats&&r, which requires feeding two horses &&eGolden Carrots&&r or &&3Golden Apples&&r.",
+      "<br/>",
+      "&&aDonkeys&&r are similar to horses but can &&dcarry chests&&r. While slower then horses, the two can be bred to create an infertile &&aMule&&r with improved stats.",
+      "<br/>",
+      "&&7[WTHIT]&&r The &&dspeed and jump height&&r of a horse can be viewed by holding &&7[&&r&&6ALT&&r&&7]&&r",
+      "<br/>",
+      "&&7[HorseBuff]&&r Horses/Mules will have stats around the &&3average of their parents&&r.",
+      "<hr/>",
+      "<reward reward=\"0DEF357A8093D66F\" quest=\"3D5694CCE8F191BC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_horse_armor"
+    },
+    "subtitle": {
+      "text": "Travel far by Horse"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -224,
+          -288
+        ]
+      }
+    }
+  }
+}

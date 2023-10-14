@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "0ED6664E26DBEDE4": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:brown_mushroom"
+    },
+    "07198A4D07D6F53D": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:red_mushroom"
+    },
+    "0E59CCC197C8B272": {
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mushroom Farming",
+    "description": [
+      "<subtitle id=\"68BCEE273A77F4DA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0ED6664E26DBEDE4\" quest=\"68BCEE273A77F4DA\"/>",
+      "<task task=\"07198A4D07D6F53D\" quest=\"68BCEE273A77F4DA\"/>",
+      "<task task=\"0E59CCC197C8B272\" quest=\"68BCEE273A77F4DA\"/>",
+      "<hr/>",
+      "&&3Mushrooms&&r can only be placed in dark areas, where they very slowly spread - try your local &&2caves&&r",
+      "<br/>",
+      "&&3Mycelium&&r, found on &&2Mushroom Islands&&r, can grow mushrooms at any light level.",
+      "<br/>",
+      "Mushrooms can also be &&3Bone Meal&&r'd into &&3Huge Mushrooms&&r, which yield 0-2 mushrooms per block.",
+      "<br/>",
+      "That means this is actually a &&3Bone Meal&&r compost farm! You can use a &&3Hopper&&r to &&dfill and empty composters&&r automatically."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_mushroom_block"
+    },
+    "subtitle": {
+      "text": "Farm 32+32 Mushrooms"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          32,
+          -544
+        ]
+      }
+    }
+  }
+}

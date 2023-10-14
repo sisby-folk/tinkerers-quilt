@@ -1,0 +1,88 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BB19BE0BA8A2037"
+  ],
+  "tasks": {
+    "1C19809020E1B6EB": {
+      "type": "heracles:item",
+      "item": "sandwichable:sandwich_table"
+    }
+  },
+  "rewards": {
+    "772ED655D04889ED": {
+      "type": "heracles:item",
+      "item": {
+        "id": "sandwichable:toaster"
+      }
+    },
+    "4964D9405B01794F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "sandwichable:andesite_basin"
+      }
+    },
+    "409008737B36A615": {
+      "type": "heracles:item",
+      "item": {
+        "id": "sandwichable:regular_cheese_culture_bottle",
+        "count": 1,
+        "nbt": {
+          "UsageData": {
+            "uses": 10
+          }
+        }
+      }
+    },
+    "55CCE84BDBF66DD9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "sandwichable:empty_pickle_jar"
+      }
+    }
+  },
+  "display": {
+    "title": "Like, Zoinks",
+    "description": [
+      "<h2>Craft a Sandwich Table</h2>",
+      "<hr/>",
+      "<task task=\"1C19809020E1B6EB\" quest=\"5C9B1F6C79CD8F3F\"/>",
+      "<hr/>",
+      "&&7[Sandwichable]&&r",
+      "<br/>",
+      "A &&3Sandwich Table&&r allows you to make &&3Sandwiches&&r that &&dcombine arbitrary foods into one&&r.",
+      "<br/>",
+      "First stack the foods on the table, then &&7[&&r&&6Sneak+Right-Click&&r&&7]&&r to collect the sandwich. It can be &&dplaced back down to edit it,&&r including removing items using an &&3empty hand&&r.",
+      "<br/>",
+      "A &&eToaster&&r can be used to toast various items, including &&3Sliced Bread&&r. If overused, it converts food into &&3Burnt and Charred Morsels&&r, the latter can be &&dused as fuel&&r. ",
+      "<br/>",
+      "Just remember, &&ddon't stick anything metal in the toaster&&r!",
+      "<br/>",
+      "&&eBasins&&r can be filled with &&3Milk&&r and &&eCheese Culture&&r to slowly create a &&dCheese Wheel&&r!",
+      "<br/>",
+      "&&3Lettuce and Cucumber&&r work great on sandwiches, and their seeds can be found by &&3fishing in brine&&r or &&3searching village chests&&r. ",
+      "<br/>",
+      "Cucumbers can be pickled in &&eJars&&r using salty water.",
+      "<hr/>",
+      "<reward reward=\"772ED655D04889ED\" quest=\"5C9B1F6C79CD8F3F\"/>",
+      "<reward reward=\"4964D9405B01794F\" quest=\"5C9B1F6C79CD8F3F\"/>",
+      "<reward reward=\"409008737B36A615\" quest=\"5C9B1F6C79CD8F3F\"/>",
+      "<reward reward=\"55CCE84BDBF66DD9\" quest=\"5C9B1F6C79CD8F3F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sandwichable:sandwich_table"
+    },
+    "subtitle": {
+      "text": "Craft a Sandwich Table"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          304,
+          -336
+        ]
+      }
+    }
+  }
+}

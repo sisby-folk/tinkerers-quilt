@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4FE0BE6BF0009C4E"
+  ],
+  "tasks": {
+    "11414E2921EACBED": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "minecraft:adventure/hero_of_the_village"
+      ]
+    }
+  },
+  "rewards": {
+    "2ACF516C6FDB4853": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald_block",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Onslaught",
+    "description": [
+      "<subtitle id=\"2D49941B8AEF7256\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"11414E2921EACBED\" quest=\"2D49941B8AEF7256\"/>",
+      "<hr/>",
+      "Triggered by entering a village with &&3Bad Omen&&r, a &&4Raid&&r is an onslaught of &&cPillagers&&r, &&cVindicators&&r, &&cEvokers&&r, &&cWitches&&r, and &&cRavagers&&r.",
+      "<br/>",
+      "The reward is &&3Hero Of The Village&&r, which grants &&ddiscounted trade prices&&r for two days.",
+      "<hr/>",
+      "<reward reward=\"2ACF516C6FDB4853\" quest=\"2D49941B8AEF7256\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:knowledge_book"
+    },
+    "subtitle": {
+      "text": "Survive a Raid"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -144,
+          48
+        ]
+      }
+    }
+  }
+}

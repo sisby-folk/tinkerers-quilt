@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B1E74EF171BFD5E"
+  ],
+  "tasks": {
+    "1AE1B289AED19E40": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:amethyst_shard"
+    },
+    "149D5F5038C2BC78": {
+      "title": "Farmed! [Click]",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "112A4EFC03516D1B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:white_banner",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 15,
+                "Pattern": "mr"
+              },
+              {
+                "Color": 2,
+                "Pattern": "mr"
+              },
+              {
+                "Color": 10,
+                "Pattern": "glb"
+              },
+              {
+                "Color": 0,
+                "Pattern": "bo"
+              },
+              {
+                "Color": 15,
+                "Pattern": "cbo"
+              }
+            ]
+          },
+          "display": {
+            "Name": "{\"text\":\"Amethyst Geode\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Amethyst Farming",
+    "description": [
+      "<subtitle id=\"0FC2E6F08F772324\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1AE1B289AED19E40\" quest=\"0FC2E6F08F772324\"/>",
+      "<task task=\"149D5F5038C2BC78\" quest=\"0FC2E6F08F772324\"/>",
+      "<hr/>",
+      "&&3Amethyst&&r can only be &&dfarmed at the source&&r - an &&2Underground Geode&&r.",
+      "<br/>",
+      "This means the farm comes pre-made - Just mark it on your map!",
+      "<hr/>",
+      "<reward reward=\"112A4EFC03516D1B\" quest=\"0FC2E6F08F772324\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:amethyst_shard"
+    },
+    "subtitle": {
+      "text": "Farm 32 Amethyst"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          32,
+          -464
+        ]
+      }
+    }
+  }
+}

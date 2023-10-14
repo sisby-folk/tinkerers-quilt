@@ -1,0 +1,75 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {
+    "4FD33CCBBC3D705A": {
+      "title": "Consume 32 Saplings (Click)",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dark_oak_sapling"
+      },
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "#minecraft:saplings",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "2E45BCED40DE4980": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "id": "minecraft:fortune",
+              "lvl": 3
+            },
+            {
+              "id": "minecraft:unbreaking",
+              "lvl": 3
+            }
+          ],
+          "RepairCost": 1,
+          "display": {
+            "Name": "{\"text\":\"Orchard Crook\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Forestry",
+    "description": [
+      "<subtitle id=\"428252F5071CF0D0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4FD33CCBBC3D705A\" quest=\"428252F5071CF0D0\"/>",
+      "<hr/>",
+      "&&3Tree farming&&r provides sustainable wood, compostable saplings, and apples.",
+      "<br/>",
+      "A &&eFortune-enchanted Hoe&&r can collect many apples from oak tree leaves.",
+      "<hr/>",
+      "<reward reward=\"2E45BCED40DE4980\" quest=\"428252F5071CF0D0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_sapling"
+    },
+    "subtitle": {
+      "text": "Become a Tree Farmer"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          80,
+          -320
+        ]
+      }
+    }
+  }
+}

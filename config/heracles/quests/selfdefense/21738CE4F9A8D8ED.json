@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "68CCD723DFFF39DD": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:zombie_head"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 50,
+      "entity": {
+        "type": "minecraft:zombie"
+      }
+    }
+  },
+  "rewards": {
+    "40D869E83ACD5092": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Working Dead",
+    "description": [
+      "<subtitle id=\"21738CE4F9A8D8ED\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"68CCD723DFFF39DD\" quest=\"21738CE4F9A8D8ED\"/>",
+      "<hr/>",
+      "Spawning in droves at night and in caves, the slow amble of a &&cZombie&&r can be &&doutmaneuvered&&r in many ways.",
+      "<br/>",
+      "Try &&3pillaring&&r by jumping and placing two blocks beneath you. This allows you to &&deasily kill most melee enemies&&r.",
+      "<hr/>",
+      "<reward reward=\"40D869E83ACD5092\" quest=\"21738CE4F9A8D8ED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:zombie_head"
+    },
+    "subtitle": {
+      "text": "Kill 50 Zombies"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -16,
+          -160
+        ]
+      }
+    }
+  }
+}

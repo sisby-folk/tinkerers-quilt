@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "15402DCFAC7CC56A"
+  ],
+  "tasks": {
+    "636D01F223970749": {
+      "title": "Click here to reselect your Origin!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5F931878C79AE893": {
+      "title": "Origin Selection Screen",
+      "icon": {
+        "type": "heracles:item",
+        "item": "origins:orb_of_origin"
+      },
+      "type": "heracles:command",
+      "command": "/origin gui @p"
+    }
+  },
+  "display": {
+    "title": "Character Customization",
+    "description": [
+      "<subtitle id=\"227C88C00E509DAD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"636D01F223970749\" quest=\"227C88C00E509DAD\"/>",
+      "<hr/>",
+      "&&7[Origins/Minus/Statures]&&r Press &&7[&&r&&6ALT+O&&r&&7]&&r to review your selected &&3origin&&r and &&3stature&&r, affecting your &&dabilities&&r and &&dsize&&r. ",
+      "<br/>",
+      "&&7[Fabrication]&&r Type &&6/hidearmor&&r to hide some or all &&3Armor&&r to better show your skin. Type &&6/showarmor&&r to reverse this change. ",
+      "<br/>",
+      "&&7[Drogstyle/StyledNicknames]&&r In Multiplayer, type &&6/nick&&r to set your name, and &&6/colour&&r and &&6/bio&&r to style it.",
+      "<br/>",
+      "&&7[Fabric Tailor]&&r Press &&7[&&r&&6ALT+T&&r&&7]&&r to change your skin in this world, including drag-n-dropping a skin file into the &&3local skin upload&&r tab.",
+      "<br/>",
+      "&&7[Ears]&&r Your skin can include &&dears, claws, tails, wings, horns&&r, and other features when added to the skin file and configured using the &&3Ears Skin Manipulator&&r online.",
+      "<br/>",
+      "&&7[Switchy]&&r Press &&7[&&r&&6;&&r&&7]&&r to open the &&3preset switcher&&r, which allows you to create &&3player profiles&&r in this world. Profiles can contain &&dorigins, skins, nicknames, and optionally inventories and position&&r!",
+      "<hr/>",
+      "<reward reward=\"5F931878C79AE893\" quest=\"227C88C00E509DAD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_breath"
+    },
+    "subtitle": {
+      "text": "Origins, Skins, and Switches!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  }
+}

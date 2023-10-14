@@ -1,0 +1,114 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FADE18B62E069A1"
+  ],
+  "tasks": {
+    "4692C581634E548F": {
+      "type": "heracles:item",
+      "item": "aurorasdeco:painter_palette"
+    }
+  },
+  "rewards": {
+    "1EEFB020056A70F7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bucket"
+      }
+    },
+    "4080B8F5283D9132": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stick"
+      }
+    },
+    "7DC5E7F3216698E3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:white_wool"
+      }
+    },
+    "2DA77BAAE04B6667": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ender_pearl"
+      }
+    },
+    "04AD1FE27B55FFE6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:paper"
+      }
+    },
+    "3C993582E898ABAE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glowstone_dust"
+      }
+    },
+    "0C19252EF2DA40EA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal"
+      }
+    },
+    "7393CC876D66BFB9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bone_meal"
+      }
+    }
+  },
+  "display": {
+    "title": "Spectra Spectra",
+    "description": [
+      "<h2>Craft a Painter's Palette</h2>",
+      "<hr/>",
+      "<task task=\"4692C581634E548F\" quest=\"409A91101828380E\"/>",
+      "<hr/>",
+      "&&7[Aurora's Decorations]&&r A &&3Painter's Palette&&r allows for conveniently drawing on &&3Blackboards&&r and &&3Glassboards&&r &&dwithout consuming dyes&&r.",
+      "<br/>",
+      "A &&3Palette&&r can be opened using &&7[&&r&&6Sneak+Right-Click&&r&&7]&&r to insert &&3tools&&r and &&3Dyes&&r.",
+      "<br/>",
+      "Once inserted, &&3Dyes&&r can be swapped using &&7[&&r&&6Sneak+Scroll&&r&&7]&&r and &&3tools&&r can be swapped using &&7[&&r&&6Sneak+Sprint+Scroll&&r&&7]&&r.",
+      "<br/>",
+      "The default &&3Pixel&&r tool, which affects &&done pixel&&r.",
+      "<br/>",
+      "&&eWhite Wool&&r provides the &&3Brush&&r tool, which affects &&dnine pixels&&r.",
+      "<br/>",
+      "A &&eStick&&r provides the &&3Line&&r tool, which affects &&dpixels in a line&&r between two pixels.",
+      "<br/>",
+      "A &&eBucket&&r provides a &&3Fill&&r tool, which affects a &&dsingle-color area&&r.",
+      "<br/>",
+      "An &&eEnder Pearl&&r provides the &&3Replace&&r tool, which affects &&dall pixels of one colour&&r.",
+      "<br/>",
+      "As dyes, &&ePaper&&r clears a pixel, &&eBone Meal&&r lightens a colour, &&eCoal&&r darkens a colour, and &&eGlowstone&&r makes a colour saturated.",
+      "<br/>",
+      "Remember to &&3Wax&&r your finished board! Boards are be &&dfully cleared&&r using &&3Water&&r if they're not waxed.",
+      "<hr/>",
+      "<reward reward=\"1EEFB020056A70F7\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"4080B8F5283D9132\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"7DC5E7F3216698E3\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"2DA77BAAE04B6667\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"04AD1FE27B55FFE6\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"3C993582E898ABAE\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"0C19252EF2DA40EA\" quest=\"409A91101828380E\"/>",
+      "<reward reward=\"7393CC876D66BFB9\" quest=\"409A91101828380E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aurorasdeco:painter_palette"
+    },
+    "subtitle": {
+      "text": "Craft a Painter's Palette"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          288,
+          -272
+        ]
+      }
+    }
+  }
+}

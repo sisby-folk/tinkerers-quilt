@@ -1,0 +1,191 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1233042213A9729E"
+  ],
+  "tasks": {
+    "10DE07FBCB9E502D": {
+      "title": "A Sacrifice To the Mason Gods",
+      "type": "heracles:item",
+      "amount": 384,
+      "item": "minecraft:stone",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "6C0A6B21AD7C1390": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone",
+        "count": 64
+      }
+    },
+    "49B3112802884586": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:deepslate",
+        "count": 64
+      }
+    },
+    "46138A5E35DE232F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:granite",
+        "count": 64
+      }
+    },
+    "1171EE8F19695858": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diorite",
+        "count": 64
+      }
+    },
+    "2D7E8E30AFF0FE2A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:andesite",
+        "count": 64
+      }
+    },
+    "0DC0EDE3A5174EA9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sandstone",
+        "count": 64
+      }
+    },
+    "0E870E4C20AF3893": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:red_sandstone",
+        "count": 64
+      }
+    },
+    "6DF9DCDBF4600CE8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:prismarine_bricks",
+        "count": 64
+      }
+    },
+    "24C5D61B8F35AFFE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:quartz_block",
+        "count": 64
+      }
+    },
+    "1CD81BFA7D7D8283": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:dark_prismarine",
+        "count": 64
+      }
+    },
+    "1B39366065BBCD7D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:purpur_block",
+        "count": 64
+      }
+    },
+    "34F74B99602E7DCD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:blackstone",
+        "count": 64
+      }
+    },
+    "2C5FCC4FD4454AB5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bricks",
+        "count": 64
+      }
+    },
+    "089FC0E0F547457D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:dripstone_block",
+        "count": 64
+      }
+    },
+    "289867B16BF99D44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:calcite",
+        "count": 64
+      }
+    },
+    "69485A718A881256": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:tuff",
+        "count": 64
+      }
+    },
+    "50148DD6C2F17662": {
+      "type": "heracles:item",
+      "item": {
+        "id": "consistency_plus:soul_sandstone",
+        "count": 64
+      }
+    },
+    "3F19E460462C07C6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ice",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Mason's Blessing",
+    "description": [
+      "<subtitle id=\"643F41D93DC1FB81\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10DE07FBCB9E502D\" quest=\"643F41D93DC1FB81\"/>",
+      "<hr/>",
+      "Many block types can be cut in the &&3Stonecutter&&r, producing various patterns and shapes.",
+      "<br/>",
+      "&&7[Consistency+]&&r Many exotic blocks can be used on the Sonecutter, like &&3End Stone&&r, &&3Obsidian&&r, both &&3Bones&&r both &&3Warts&&r, all colours of &&3Terracotta&&r, and even &&eIce&&r!",
+      "<hr/>",
+      "<reward reward=\"6C0A6B21AD7C1390\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"49B3112802884586\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"46138A5E35DE232F\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"1171EE8F19695858\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"2D7E8E30AFF0FE2A\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"0DC0EDE3A5174EA9\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"0E870E4C20AF3893\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"6DF9DCDBF4600CE8\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"24C5D61B8F35AFFE\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"1CD81BFA7D7D8283\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"1B39366065BBCD7D\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"34F74B99602E7DCD\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"2C5FCC4FD4454AB5\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"089FC0E0F547457D\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"289867B16BF99D44\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"69485A718A881256\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"50148DD6C2F17662\" quest=\"643F41D93DC1FB81\"/>",
+      "<reward reward=\"3F19E460462C07C6\" quest=\"643F41D93DC1FB81\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:light_gray_shulker_box"
+    },
+    "subtitle": {
+      "text": "A Sacrifice in Stone"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          224,
+          -272
+        ]
+      }
+    }
+  }
+}

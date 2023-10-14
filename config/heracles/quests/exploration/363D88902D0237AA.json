@@ -1,0 +1,80 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "372A7C2E3C9BD2CB": {
+      "title": "Find a Snail",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:nautilus_shell"
+      },
+      "type": "heracles:entity_interaction",
+      "entity": "lovely_snails:snail"
+    }
+  },
+  "rewards": {
+    "63608EBBA0676BBB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "count": 6
+      }
+    },
+    "148369F5E56090D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:splash_potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:water"
+        }
+      }
+    },
+    "169D0F671162E39B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:kelp",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Bessie",
+    "description": [
+      "<h2>Find a Snail</h2>",
+      "<hr/>",
+      "<task task=\"372A7C2E3C9BD2CB\" quest=\"363D88902D0237AA\"/>",
+      "<hr/>",
+      "&&7[Lovely Snails]&&r ",
+      "<br/>",
+      "&&aSnails&&r spawn in &&2Swamps&&r, and can be tamed with &&eMushrooms&&r and lead around with &&3Leads&&r.",
+      "<br/>",
+      "They can be kept happy by blanketing them with &&3Carpet&&r, feeding them &&3Grass&&r or &&eKelp&&r, or splashing a &&eWater Bottle&&r on them.",
+      "<br/>",
+      "Happy Snails may grow into rideable &&aBig Snails&&r, which can &&dcarry up to four Chests&&r.",
+      "<hr/>",
+      "<reward reward=\"63608EBBA0676BBB\" quest=\"363D88902D0237AA\"/>",
+      "<reward reward=\"148369F5E56090D8\" quest=\"363D88902D0237AA\"/>",
+      "<reward reward=\"169D0F671162E39B\" quest=\"363D88902D0237AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nautilus_shell"
+    },
+    "subtitle": {
+      "text": "Find a Snail"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -368,
+          -160
+        ]
+      }
+    }
+  }
+}

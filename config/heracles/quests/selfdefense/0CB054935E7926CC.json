@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "4155F613D82EA5E1": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:golden_axe"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:piglin_brute"
+      }
+    }
+  },
+  "rewards": {
+    "2F565D4DB1F1F64F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Et tu",
+    "description": [
+      "<subtitle id=\"0CB054935E7926CC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4155F613D82EA5E1\" quest=\"0CB054935E7926CC\"/>",
+      "<hr/>",
+      "Similarly brutal to &&cVindicators&&r, &&cPiglin Brutes&&r defend &&2Bastions&&r and move fast - dealing &&dmassive melee damage&&r with their &&3Golden Axes&&r. ",
+      "<br/>",
+      "It's &&deasy to become overrun&&r by fast melee enemies. Taking some out &&3from a distance&&r helps, but they often incidentally &&dhide around corners&&r for ambushes.",
+      "<br/>",
+      "Like &&3Pillaring&&r, a more resilient defensive method for dangerous melee enemies is &&3ankle biting&&r - instead of moving above the danger zone, you move &&dbelow it&&r.",
+      "<br/>",
+      "First &&3pillar three blocks&&r, then &&3break the bottom two&&r blocks, &&3dig down two blocks&&r below it, and &&3replacing one block&&r above you. This &&dblocks entry&&r by tall enemies, and allows you to attract them with a bow, then safely &&dattack their legs&&r.",
+      "<hr/>",
+      "<reward reward=\"2F565D4DB1F1F64F\" quest=\"0CB054935E7926CC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:golden_axe"
+    },
+    "subtitle": {
+      "text": "Kill 5 Piglin Brutes"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          112,
+          -208
+        ]
+      }
+    }
+  }
+}

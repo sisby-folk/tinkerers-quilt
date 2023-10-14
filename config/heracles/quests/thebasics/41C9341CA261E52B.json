@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "548555BB1E839006"
+  ],
+  "tasks": {
+    "1017D28DD8548D65": {
+      "title": "6x Iron Ingot",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:iron_ingot"
+      },
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "#minecraft:beacon_payment_items"
+    }
+  },
+  "rewards": {
+    "35D4A094E1392970": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bundle"
+      }
+    }
+  },
+  "display": {
+    "title": "Going Underground",
+    "description": [
+      "<subtitle id=\"41C9341CA261E52B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1017D28DD8548D65\" quest=\"41C9341CA261E52B\"/>",
+      "<hr/>",
+      "A &&3Stone Pickaxe&&r allows you to mine &&3Iron Ore&&r, which can be smelted at a &&3Furnace&&r into &&dIron Ingots&&r",
+      "<br/>",
+      "An &&3Iron Pickaxe&&r can in turn mine &&3Gold&&r, which makes poor equipment, and the rarer &&3Diamond&&r, which &&dmakes the best overworld equipment&&r.",
+      "<br/>",
+      "&&eBundles&&r can &&dhelp store small varied items&&r, simply &&6Right-Click&&r while holding a stack over the bundle.",
+      "<br/>",
+      "&&7[Fabrication]&&r Bundles can hold up to 8 tools.",
+      "<hr/>",
+      "<reward reward=\"35D4A094E1392970\" quest=\"41C9341CA261E52B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ore"
+    },
+    "subtitle": {
+      "text": "Smelt 6 Iron Ingots"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          48,
+          16
+        ]
+      }
+    }
+  }
+}

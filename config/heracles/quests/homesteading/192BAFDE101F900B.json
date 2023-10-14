@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5C7110BA96ECA231"
+  ],
+  "tasks": {
+    "40348E6A122D7614": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "rewards": {
+    "4CB4E7F6893DB29C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:composter"
+      }
+    },
+    "28B7014B816FB8F4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:rice"
+      }
+    }
+  },
+  "display": {
+    "title": "Farmer",
+    "description": [
+      "<subtitle id=\"192BAFDE101F900B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"40348E6A122D7614\" quest=\"192BAFDE101F900B\"/>",
+      "<hr/>",
+      "&&3Wheat&&r is the easiest crop to acquire - Just break some &&3Tall Grass&&r and get hoeing!",
+      "<br/>",
+      "Don't just grow wheat forever though - farms &&dgrow faster if they're diverse&&r, so try planting crops in rows!",
+      "<br/>",
+      "Farming creates many excess &&3Seeds&&r - a &&eComposter&&r can turn those into useful &&3Bone Meal&&r!",
+      "<br/>",
+      "&&7[Farmer's Delight]&&r An &&dincreased variety of crops&&r can be obtained by finding them &&2in the wild&&r. &&eRice&&r can only be grown in &&3water&&r.",
+      "<hr/>",
+      "<reward reward=\"4CB4E7F6893DB29C\" quest=\"192BAFDE101F900B\"/>",
+      "<reward reward=\"28B7014B816FB8F4\" quest=\"192BAFDE101F900B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat_seeds"
+    },
+    "subtitle": {
+      "text": "Farm some Wheat"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          32,
+          -368
+        ]
+      }
+    }
+  }
+}

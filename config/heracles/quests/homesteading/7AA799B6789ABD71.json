@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "61C1C9ADFC09F727": {
+      "title": "Travel 50 Blocks by Horse",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:saddle"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:horse_one_cm",
+      "target": 5000
+    }
+  },
+  "rewards": {
+    "610567D311799E3F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:leather_horse_armor"
+      }
+    },
+    "681402F43E21EDA4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Yeehaw",
+    "description": [
+      "<subtitle id=\"7AA799B6789ABD71\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"61C1C9ADFC09F727\" quest=\"7AA799B6789ABD71\"/>",
+      "<hr/>",
+      "&&aHorses&&r are some of the simplest forms of &&dimproved transport&&r. ",
+      "<br/>",
+      "A &&aHorse&&r must first be broken in by &&3trying to ride it until it calms&&r. Then saddle it with &&7[&&r&&6Sneak+Right-Click&&r&&7]&&r.",
+      "<br/>",
+      "Horses can also equip &&3Horse Armor&&r (including dyed leather armor!) to &&dimprove their survivability&&r. Just try not to get one stuck in terrain!",
+      "<br/>",
+      "&&aPigs&&r can also be &&dridden using saddles&&r, and a &&3Carrot on a Stick&&r can lead them.",
+      "<br/>",
+      "&&7[Dual Ride]&&r Horses can also seat a &&dpassenger&&r.",
+      "<hr/>",
+      "<reward reward=\"610567D311799E3F\" quest=\"7AA799B6789ABD71\"/>",
+      "<reward reward=\"681402F43E21EDA4\" quest=\"7AA799B6789ABD71\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:saddle"
+    },
+    "subtitle": {
+      "text": "Saddle and ride a Horse"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -208,
+          -320
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "6FFE533C983C9A1D": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:skeleton_skull"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 20,
+      "entity": {
+        "type": "minecraft:skeleton"
+      }
+    }
+  },
+  "rewards": {
+    "20B3AEEEA301D14B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "12C8E43B4E793209": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:music_disc_cat"
+      }
+    }
+  },
+  "display": {
+    "title": "Underground Corruption",
+    "description": [
+      "<subtitle id=\"3CF0AC2D4BCAC32A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6FFE533C983C9A1D\" quest=\"3CF0AC2D4BCAC32A\"/>",
+      "<hr/>",
+      "The &&3ranged attack&&r from a &&cSkeleton&&r is dangerous when unarmored, unshielded, and when there's no room to &&drun circles&&r around them.",
+      "<br/>",
+      "Try any of those tactics for an easier fight! ",
+      "<br/>",
+      "When a Skeleton kills a &&cCreeper&&r, it drops a random &&emusic disc&&r!",
+      "<hr/>",
+      "<reward reward=\"20B3AEEEA301D14B\" quest=\"3CF0AC2D4BCAC32A\"/>",
+      "<reward reward=\"12C8E43B4E793209\" quest=\"3CF0AC2D4BCAC32A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:skeleton_skull"
+    },
+    "subtitle": {
+      "text": "Kill 20 Skeletons"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -16,
+          -256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "7351993E01D1EAD5": {
+      "title": "Enter a Jungle Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:jungle_log"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_jungle"
+    }
+  },
+  "rewards": {
+    "219831036888DE7B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Enter a Jungle Village",
+    "description": [
+      "<h2>Find a Jungle VIllage</h2>",
+      "<hr/>",
+      "<task task=\"7351993E01D1EAD5\" quest=\"7F06B4A5FAAC22EF\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"219831036888DE7B\" quest=\"7F06B4A5FAAC22EF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:jungle_log"
+    },
+    "subtitle": {
+      "text": "Find a Jungle VIllage"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -224,
+          -304
+        ]
+      }
+    }
+  }
+}

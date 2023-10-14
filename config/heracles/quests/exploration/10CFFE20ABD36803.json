@@ -1,0 +1,75 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "2D7A058F67957E97": {
+      "title": "Find Deepslate",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:deepslate"
+      },
+      "type": "heracles:block_interaction",
+      "block": "minecraft:deepslate"
+    }
+  },
+  "rewards": {
+    "24C742924575F435": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "1C8686CB4E3D029D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "chalk:chalk",
+        "count": 1
+      }
+    },
+    "786617C6613FDE16": {
+      "type": "heracles:item",
+      "item": {
+        "id": "campanion:flare",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Sleeping in the cold below",
+    "description": [
+      "<subtitle id=\"10CFFE20ABD36803\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2D7A058F67957E97\" quest=\"10CFFE20ABD36803\"/>",
+      "<hr/>",
+      "Deep &&2Underground&&r &&7(around y:0)&&r, all stone is replaced with &&3Deepslate&&r, which is harder to mine.",
+      "<br/>",
+      "&&3Cobbled Deepslate&&r can be &&dused like Cobblestone&&r in crafting.",
+      "<br/>",
+      "&&7[Chalk]&&r &&eChalk&&r is made of &&3Calcite&&r, and can be used to &&dmark directions&&r when caving.",
+      "<br/>",
+      "&&7[Campanion]&&r &&eFlares&&r are cheap modifications of torches that can be &&dthrown&&r - however, they can't be reused.",
+      "<hr/>",
+      "<reward reward=\"24C742924575F435\" quest=\"10CFFE20ABD36803\"/>",
+      "<reward reward=\"1C8686CB4E3D029D\" quest=\"10CFFE20ABD36803\"/>",
+      "<reward reward=\"786617C6613FDE16\" quest=\"10CFFE20ABD36803\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:deepslate"
+    },
+    "subtitle": {
+      "text": "Find Deepslate"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          112
+        ]
+      }
+    }
+  }
+}

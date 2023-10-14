@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "3FC5F826E273A912": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:infested_mossy_stone_bricks"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:silverfish"
+      }
+    }
+  },
+  "rewards": {
+    "4554086874FEF98E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Plague ?/10",
+    "description": [
+      "<subtitle id=\"4FC61BF1949C8BE9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3FC5F826E273A912\" quest=\"4FC61BF1949C8BE9\"/>",
+      "<hr/>",
+      "Rarely, &&3Stone&&r will contain a &&cSilverfish&&r with several guaranteed near an &&2End Portal&&r of a &&2Stronghold&&r.",
+      "<br/>",
+      "Damaged Silverfish will &&dcall others to their aid&&r, creating swarms.",
+      "<hr/>",
+      "<reward reward=\"4554086874FEF98E\" quest=\"4FC61BF1949C8BE9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:infested_mossy_stone_bricks"
+    },
+    "subtitle": {
+      "text": "Kill a Silverfish"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          32,
+          -256
+        ]
+      }
+    }
+  }
+}

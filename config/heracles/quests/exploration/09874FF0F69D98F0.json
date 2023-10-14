@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "7B58577F38ADC6E2": {
+      "title": "Talk to a Villager",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:emerald"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:talked_to_villager",
+      "target": 1
+    }
+  },
+  "rewards": {
+    "309D1305F6D6CB17": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald"
+      }
+    }
+  },
+  "display": {
+    "title": "No, not \"Traitor\" i'm - [Wanderer]",
+    "description": [
+      "<subtitle id=\"09874FF0F69D98F0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B58577F38ADC6E2\" quest=\"09874FF0F69D98F0\"/>",
+      "<hr/>",
+      "&&2Villages&&r consist of various &&2Houses&&r connected by &&3paths&&r, and are inhabited by &&aVillagers&&r. ",
+      "<br/>",
+      "Villages are useful &&dlandmarks and gathering points&&r, and convenient locations to build an outpost or base.",
+      "<br/>",
+      "Villagers have various professions and can &&dbuy and sell items&&r for &&eEmeralds&&r ",
+      "<br/>",
+      "&&7[EMI Trades]&&r Villager trades are listed under &&eEmerald&&r recipes and usages.",
+      "<hr/>",
+      "<reward reward=\"309D1305F6D6CB17\" quest=\"09874FF0F69D98F0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:emerald"
+    },
+    "subtitle": {
+      "text": "Talk to a Villager"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -304,
+          -272
+        ]
+      }
+    }
+  }
+}

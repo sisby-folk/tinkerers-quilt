@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "53AFBD6DDF572701"
+  ],
+  "tasks": {
+    "050711EC7A11A624": {
+      "title": "11x Cobblestone",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:cobblestone"
+      },
+      "type": "heracles:item",
+      "amount": 11,
+      "item": "#minecraft:stone_tool_materials"
+    }
+  },
+  "rewards": {
+    "7FC731B2947608B3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:torch",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Finally Mining",
+    "description": [
+      "<subtitle id=\"548555BB1E839006\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"050711EC7A11A624\" quest=\"548555BB1E839006\"/>",
+      "<hr/>",
+      "Holding a &&3Pickaxe&&r allows you to break &&3Stone&&r, which can then be used to make &&dtools and furnaces&&r.",
+      "<br/>",
+      "&&7[Tinkerer's Smithing]&&r you can upgrade your &&3Wooden Pickaxe&&r by adding 3 &&3Cobblestone&&r in the crafting grid.",
+      "<hr/>",
+      "<reward reward=\"7FC731B2947608B3\" quest=\"548555BB1E839006\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cobblestone"
+    },
+    "subtitle": {
+      "text": "Mine 11 Cobblestone"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          48,
+          -32
+        ]
+      }
+    }
+  }
+}

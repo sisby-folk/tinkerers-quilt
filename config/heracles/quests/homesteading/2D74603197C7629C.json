@@ -1,0 +1,152 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "192BAFDE101F900B"
+  ],
+  "tasks": {
+    "77E92354F1DDDFCA": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:sugar_cane"
+    },
+    "0E343560095A48E3": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:wheat_seeds"
+    },
+    "0BEB433BA59213DA": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:potato"
+    },
+    "4A960FBD73A0DCD5": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:carrot"
+    },
+    "1943791BC82BE452": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "minecraft:pumpkin"
+    },
+    "6A13495A82B9D2D1": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:melon_slice"
+    },
+    "31C19C20A9214A51": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:beetroot"
+    }
+  },
+  "rewards": {
+    "3644525BA1DA0B7D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:jack_o_lantern",
+        "count": 16
+      }
+    },
+    "42132307A54F28F3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:spruce_fence",
+        "count": 64
+      }
+    },
+    "5D20D49CE7EC008D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hay_block",
+        "count": 16
+      }
+    },
+    "52674EC747CC8B56": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:green_banner",
+        "count": 32,
+        "nbt": {
+          "BlockEntityTag": {
+            "Patterns": [
+              {
+                "Color": 15,
+                "Pattern": "tt"
+              },
+              {
+                "Color": 15,
+                "Pattern": "bts"
+              }
+            ],
+            "id": "minecraft:banner"
+          },
+          "RepairCost": 0,
+          "display": {
+            "Name": "{\"text\":\"Scarecrow Poncho\"}"
+          }
+        }
+      }
+    },
+    "6FB5B7F2B77F76F8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:birch_slab",
+        "count": 16
+      }
+    },
+    "09A893DF3BDFA974": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Bases Loaded",
+    "description": [
+      "<subtitle id=\"2D74603197C7629C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"77E92354F1DDDFCA\" quest=\"2D74603197C7629C\"/>",
+      "<task task=\"0E343560095A48E3\" quest=\"2D74603197C7629C\"/>",
+      "<task task=\"0BEB433BA59213DA\" quest=\"2D74603197C7629C\"/>",
+      "<task task=\"4A960FBD73A0DCD5\" quest=\"2D74603197C7629C\"/>",
+      "<task task=\"1943791BC82BE452\" quest=\"2D74603197C7629C\"/>",
+      "<task task=\"6A13495A82B9D2D1\" quest=\"2D74603197C7629C\"/>",
+      "<task task=\"31C19C20A9214A51\" quest=\"2D74603197C7629C\"/>",
+      "<hr/>",
+      "Farming crops is great for &&dmaking Books, Food, and Potions&&r. Plus &&3Emeralds&&r when trading with &&aFarmers&&r! ",
+      "<br/>",
+      "&&3Watered farms&&r can be made in &&dstrips up to 8 blocks wide&&r by building channels on either side. ",
+      "<br/>",
+      "&&3Slabs&&r can be placed on the top half of a channel, making it walkable. This is called &&3waterlogging&&r.",
+      "<br/>",
+      "Farms continue &&dgrowing overnight&&r if they have &&3light&&r - try making &&3decorative scarecrows&&r with a &&eHay Bale&&r body, &&eSpruce Fence&&r stand, &&eJack'o'Lantern&&r head, and &&eBirch Slab&&r hat!",
+      "<hr/>",
+      "<reward reward=\"3644525BA1DA0B7D\" quest=\"2D74603197C7629C\"/>",
+      "<reward reward=\"42132307A54F28F3\" quest=\"2D74603197C7629C\"/>",
+      "<reward reward=\"5D20D49CE7EC008D\" quest=\"2D74603197C7629C\"/>",
+      "<reward reward=\"52674EC747CC8B56\" quest=\"2D74603197C7629C\"/>",
+      "<reward reward=\"6FB5B7F2B77F76F8\" quest=\"2D74603197C7629C\"/>",
+      "<reward reward=\"09A893DF3BDFA974\" quest=\"2D74603197C7629C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:pumpkin"
+    },
+    "subtitle": {
+      "text": "Farm every basic crop"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          32,
+          -416
+        ]
+      }
+    }
+  }
+}

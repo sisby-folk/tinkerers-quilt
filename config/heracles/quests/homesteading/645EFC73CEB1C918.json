@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "20E2938DD7365207"
+  ],
+  "tasks": {
+    "193C30D87FA711CF": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:ladder"
+    }
+  },
+  "rewards": {
+    "027CEF93AEA981E4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_stairs",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Hello highlow!",
+    "description": [
+      "<subtitle id=\"645EFC73CEB1C918\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"193C30D87FA711CF\" quest=\"645EFC73CEB1C918\"/>",
+      "<hr/>",
+      "&&dMulti-floor bases&&r are all the rage these days. Going down to your mine or up to your balcony is just in fashion!",
+      "<hr/>",
+      "<reward reward=\"027CEF93AEA981E4\" quest=\"645EFC73CEB1C918\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ladder"
+    },
+    "subtitle": {
+      "text": "Make some Ladders"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -96,
+          -400
+        ]
+      }
+    }
+  }
+}

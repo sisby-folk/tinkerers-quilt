@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "423E897DEB76653D"
+  ],
+  "tasks": {
+    "4EDE04AAE35B8B8E": {
+      "type": "heracles:item",
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "rewards": {
+    "3FFC081E8E887B66": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:blue_ice",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Hyperspeed Lane",
+    "description": [
+      "<subtitle id=\"51AC2E4D1053FC19\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4EDE04AAE35B8B8E\" quest=\"51AC2E4D1053FC19\"/>",
+      "<hr/>",
+      "&&3Blue Ice&&r is an unmeltable variant of &&3Ice&&r that allows boats to &&dmove at ludicrous speeds&&r on its surface. They can be crafted using 81 &&3Ice Blocks&&r, or found in the world.",
+      "<br/>",
+      "Ice can be &&3farmed&&r &&7(See Farming: Variety Fair)&&r, or you can collect &&3packed and blue ice&&r from &&2Icebergs&&r or &&2Frozen Peaks&&r.",
+      "<br/>",
+      "&&7[Cardinal Ice Boats]&&r you can use the &&7[&&r&&6Arrow Keys&&r&&7]&&r to make or buffer &&d90 degree turns&&r on ice lanes.",
+      "<hr/>",
+      "<reward reward=\"3FFC081E8E887B66\" quest=\"51AC2E4D1053FC19\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blue_ice"
+    },
+    "subtitle": {
+      "text": "Acquire 1 Blue Ice"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          -240,
+          -400
+        ]
+      }
+    }
+  }
+}

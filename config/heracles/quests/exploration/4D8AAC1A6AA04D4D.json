@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09874FF0F69D98F0"
+  ],
+  "tasks": {
+    "7EDEF684E103A114": {
+      "title": "Enter a Dark Forest Village",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dark_oak_log"
+      },
+      "type": "heracles:structure",
+      "structures": "repurposed_structures:village_dark_forest"
+    }
+  },
+  "rewards": {
+    "335EE78502B193FF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Monster Camp",
+    "description": [
+      "<h2>Find a Dark Forest Village</h2>",
+      "<hr/>",
+      "<task task=\"7EDEF684E103A114\" quest=\"4D8AAC1A6AA04D4D\"/>",
+      "<hr/>",
+      "&&7[Repurposed Structures]&&r",
+      "<hr/>",
+      "<reward reward=\"335EE78502B193FF\" quest=\"4D8AAC1A6AA04D4D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dark_oak_log"
+    },
+    "subtitle": {
+      "text": "Find a Dark Forest Village"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -336,
+          -336
+        ]
+      }
+    }
+  }
+}

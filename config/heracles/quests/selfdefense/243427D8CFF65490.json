@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "2C4F7623C5745F47": {
+      "title": "Any Knife",
+      "type": "heracles:item",
+      "item": "#c:tools/knives"
+    }
+  },
+  "rewards": {
+    "7CF485029A136E35": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "farmersdelight:backstabbing",
+              "lvl": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Where's my Cloak",
+    "description": [
+      "<h2>Acquire a Knife</h2>",
+      "<hr/>",
+      "<task task=\"2C4F7623C5745F47\" quest=\"243427D8CFF65490\"/>",
+      "<hr/>",
+      "&&7[Farmer's Delight]&&r",
+      "<br/>",
+      "A &&3Knife&&r can cut ingredients placed on a &&3Cutting Board&&r with &&7[&&r&&6Right-Click&&r&&7]&&r.",
+      "<br/>",
+      "It can also be used to collect &&3Straw&&r from &&3Tall Grass&&r, useful for making &&dCanvas, Rope and Books&&r. ",
+      "<br/>",
+      "They're also viable &&dmelee weapons&&r with a &&dlow attack cooldown&&r.",
+      "<br/>",
+      "They can receive &&3melee weapon enchantments&&r, along with &&eBackstabbing&&r, which &&dincreases damage from behind enemies&&r.",
+      "<hr/>",
+      "<reward reward=\"7CF485029A136E35\" quest=\"243427D8CFF65490\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:golden_knife"
+    },
+    "subtitle": {
+      "text": "Acquire a Knife"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -112,
+          -32
+        ]
+      }
+    }
+  }
+}

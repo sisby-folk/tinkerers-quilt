@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2AEFE77787E113A3"
+  ],
+  "tasks": {
+    "2903CAD5158DD4B5": {
+      "type": "heracles:item",
+      "item": "minecraft:comparator"
+    }
+  },
+  "rewards": {
+    "11E3CEE7928D92AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:daylight_detector"
+      }
+    },
+    "383B477AF836D509": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:observer"
+      }
+    },
+    "6270301AFBA65ECA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sculk_sensor"
+      }
+    }
+  },
+  "display": {
+    "title": "Automated Input",
+    "description": [
+      "<subtitle id=\"7164FFFB3AFAFEF3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2903CAD5158DD4B5\" quest=\"7164FFFB3AFAFEF3\"/>",
+      "<hr/>",
+      "Along with manual inputs, certain things can be observed to &&dmake mechanisms activate automatically&&r.",
+      "<br/>",
+      "The &&eComparator&&r provides power based on &&dspecific information about the block it's facing&&r - like the fullness of &&3Containers&&r (0-15), &&3Beehives&&r (0-5), and &&3Cauldrons&&r (0-3), &&3Item Frame&&r rotation (1-8), and &&3Respawn Anchor&&r charge (0-15).",
+      "<br/>",
+      "The &&eDaylight Detector&&r provides &&dpower during the daytime&&r, slowly transitioning at dusk and dawn. &&6Right-Click&&r a daylight detector to invert this, &&dproviding power at night&&r instead.",
+      "<br/>",
+      "The &&eObserver&&r provides full power &&dwhenever the block it's facing changes&&r - breaking and placing, &&3Piston&&r movements, &&3Containers&&r opening, &&3Crops&&r growing, &&3Doors&&r opening, and much more.",
+      "<br/>",
+      "The &&eSculk Sensor&&r provides power when it &&3senses vibrations&&r in an area - including all kinds of sounds.",
+      "<hr/>",
+      "<reward reward=\"11E3CEE7928D92AF\" quest=\"7164FFFB3AFAFEF3\"/>",
+      "<reward reward=\"383B477AF836D509\" quest=\"7164FFFB3AFAFEF3\"/>",
+      "<reward reward=\"6270301AFBA65ECA\" quest=\"7164FFFB3AFAFEF3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:comparator"
+    },
+    "subtitle": {
+      "text": "Craft a Comparator"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          416,
+          -416
+        ]
+      }
+    }
+  }
+}

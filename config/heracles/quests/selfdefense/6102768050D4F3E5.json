@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1950317947BD61B0"
+  ],
+  "tasks": {
+    "1704E69B9488B589": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:porkchop"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 4,
+      "entity": {
+        "type": "minecraft:hoglin"
+      }
+    }
+  },
+  "rewards": {
+    "7EE921DD5586F169": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "And he worked on dark crystal so he knows what he's talking about.",
+    "description": [
+      "<subtitle id=\"6102768050D4F3E5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1704E69B9488B589\" quest=\"6102768050D4F3E5\"/>",
+      "<hr/>",
+      "Keeping the &&2Crimson Forest&&r dangerous, &&cHoglins&&r move quickly and have high knockback.",
+      "<br/>",
+      "They're too wide to enter a &&dthree-block hole&&r, but their fast movement can make it hard to dig one once angered.",
+      "<br/>",
+      "Hoglins drop &&3Porkchops&&r and &&3Leather&&r - the only hostile mob to do so.",
+      "<hr/>",
+      "<reward reward=\"7EE921DD5586F169\" quest=\"6102768050D4F3E5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:porkchop"
+    },
+    "subtitle": {
+      "text": "Kill 4 Hoglins"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          112,
+          -176
+        ]
+      }
+    }
+  }
+}

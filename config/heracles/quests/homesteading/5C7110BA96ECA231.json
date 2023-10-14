@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "tasks": {
+    "698EC81BE855F4C9": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat_seeds"
+    },
+    "5F5DBBA6E98FACFA": {
+      "title": "Hoe",
+      "type": "heracles:item",
+      "item": "#c:hoes"
+    }
+  },
+  "rewards": {
+    "05EEFD50897A505C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Bitch i'm Far-ming [Farming] ",
+    "description": [
+      "<subtitle id=\"5C7110BA96ECA231\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"698EC81BE855F4C9\" quest=\"5C7110BA96ECA231\"/>",
+      "<task task=\"5F5DBBA6E98FACFA\" quest=\"5C7110BA96ECA231\"/>",
+      "<hr/>",
+      "By using a &&3Hoe&&r on &&3Dirt&&r, soil &&dcan be tilled&&r for planting seeds.",
+      "<br/>",
+      "&&3Watered soil&&r &&dgrows crops faster&&r, requiring water within 4 blocks in any direction.",
+      "<br/>",
+      "&&eBone Meal&&r can be used to &&dinstantly grow crops&&r.",
+      "<br/>",
+      "&&7[RightClickHarvest]&&r &&3Hoes&&r can be used to harvest crops in an area. Better hoes have a &&dlarger radius&&r.",
+      "<br/>",
+      "&&7[Carpet]&&r Bone Meal can also grow &&3Sugarcane&&r, &&3Cactus&&r, &&3Lily Pads&&r, and &&3Coral&&r.",
+      "<br/>",
+      "&&7[Seasons]&&r The &&3Season&&r affects both the &&dgrowth of crops&&r and the appearance of plants.",
+      "<hr/>",
+      "<reward reward=\"05EEFD50897A505C\" quest=\"5C7110BA96ECA231\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone_hoe"
+    },
+    "subtitle": {
+      "text": "Acquire basic farming equipment"
+    },
+    "groups": {
+      "Homesteading": {
+        "position": [
+          80,
+          -368
+        ]
+      }
+    }
+  }
+}

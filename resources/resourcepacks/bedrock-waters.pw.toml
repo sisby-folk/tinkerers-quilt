@@ -1,0 +1,13 @@
+name = "Bedrock Water"
+filename = "Bedrock water colors V1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OQ2MRcra/versions/SdY7iVzX/Bedrock%20water%20colors%20V1.1.zip"
+hash-format = "sha1"
+hash = "e619010ddc44e266b10db0f25eb71d4fb70792fa"
+
+[update]
+[update.modrinth]
+mod-id = "OQ2MRcra"
+version = "SdY7iVzX"

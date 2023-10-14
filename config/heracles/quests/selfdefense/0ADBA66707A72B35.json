@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "72CC6869A3793E22"
+  ],
+  "tasks": {
+    "08EFAF64F2B18B5A": {
+      "type": "heracles:item",
+      "item": "halfdoors:door_launcher"
+    }
+  },
+  "rewards": {
+    "319651CE5A8731F8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "halfdoors:oak_halfdoor",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "I Wouldn't Trust Me Either",
+    "description": [
+      "<h2>Acquire a Door Launcher</h2>",
+      "<hr/>",
+      "<task task=\"08EFAF64F2B18B5A\" quest=\"0ADBA66707A72B35\"/>",
+      "<hr/>",
+      "&&7[Halfdoors]&&r",
+      "<br/>",
+      "A &&3Door Launcher&&r is a handheld device capable of sending &&dmechanically propelled halfdoors through scary monsters&&r.",
+      "<br/>",
+      "It consumes &&eHalfdoors&&r on use, which can be picked up if they miss.",
+      "<br/>",
+      "&&3Iron Halfdoors&&r deal more damage. The Door Launcher can also be &&dupgraded&&r through smithing for &&dvarious improvements&&r.",
+      "<hr/>",
+      "<reward reward=\"319651CE5A8731F8\" quest=\"0ADBA66707A72B35\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "halfdoors:door_launcher"
+    },
+    "subtitle": {
+      "text": "Acquire a Door Launcher"
+    },
+    "groups": {
+      "Self-Defense": {
+        "position": [
+          -80,
+          -128
+        ]
+      }
+    }
+  }
+}

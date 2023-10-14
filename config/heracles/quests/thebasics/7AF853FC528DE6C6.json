@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "tasks": {
+    "394CD32C1D98C5ED": {
+      "title": "Enter The Overworld",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:grass_block"
+      },
+      "type": "heracles:stat",
+      "stat": "minecraft:play_time",
+      "target": 1
+    },
+    "711B997B0F3BC7B3": {
+      "title": "Find a Ruined Portal",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:crying_obsidian"
+      },
+      "type": "heracles:structure",
+      "structures": "#minecraft:ruined_portal"
+    }
+  },
+  "rewards": {
+    "67191C389147B266": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:fire_charge"
+      }
+    },
+    "66D4926373F59523": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Fiends in High Places",
+    "description": [
+      "<subtitle id=\"7AF853FC528DE6C6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"394CD32C1D98C5ED\" quest=\"7AF853FC528DE6C6\"/>",
+      "<task task=\"711B997B0F3BC7B3\" quest=\"7AF853FC528DE6C6\"/>",
+      "<hr/>",
+      "A &&3Ruined Portal&&r is a partially built nether portal surrounded by nether blocks.",
+      "<br/>",
+      "They often have &&dloot chests&&r with materials that can help you &&dfix the portal&&r.",
+      "<br/>",
+      "A &&eFire Charge&&r can be used to set fire to a single block.",
+      "<hr/>",
+      "<reward reward=\"67191C389147B266\" quest=\"7AF853FC528DE6C6\"/>",
+      "<reward reward=\"66D4926373F59523\" quest=\"7AF853FC528DE6C6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:crying_obsidian"
+    },
+    "subtitle": {
+      "text": "Find a Ruined Portal"
+    },
+    "groups": {
+      "The Basics": {
+        "position": [
+          176,
+          -80
+        ]
+      }
+    }
+  }
+}
