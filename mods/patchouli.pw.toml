@@ -1,13 +1,13 @@
 name = "Patchouli"
-filename = "Patchouli-1.19.2-77-FABRIC.jar"
+filename = "Patchouli-1.20.1-81-FABRIC.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nU0bVIaL/versions/NorgAU8F/Patchouli-1.19.2-77-FABRIC.jar"
+url = "https://cdn.modrinth.com/data/nU0bVIaL/versions/tzz6fEoj/Patchouli-1.20.1-81-FABRIC.jar"
 hash-format = "sha1"
-hash = "668cf78f543d43412453759961adeac4fabcafeb"
+hash = "eaab83736fedfd7336c3b8429b08c6f56a4f5d69"
 
 [update]
 [update.modrinth]
 mod-id = "nU0bVIaL"
-version = "NorgAU8F"
+version = "tzz6fEoj"
