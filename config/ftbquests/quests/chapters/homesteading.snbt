@@ -959,53 +959,6 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["1233042213A9729E"]
-			description: ["Derives the co-ordinates of the nearest &2Badlands Biome&r - once. For gathering &3Terracotta&r."]
-			hide: true
-			icon: "minecraft:orange_terracotta"
-			id: "58CAA3CF4CE89A65"
-			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/op @p"
-					icon: "minecraft:red_sand"
-					id: "7D1A0DD72136D14D"
-					player_command: false
-					title: "Prepare Foresight..."
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/locate biome minecraft:badlands"
-					icon: "minecraft:terracotta"
-					id: "58BD55E774BC4DD8"
-					player_command: true
-					title: "Locate the nearest Badlands..."
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/deop @p"
-					icon: "minecraft:orange_terracotta"
-					id: "51D1A2C53843604A"
-					player_command: false
-					title: "Deliver the verdict..."
-					type: "command"
-				}
-			]
-			shape: "gear"
-			subtitle: "Glazed Foresight"
-			tasks: [{
-				id: "759F54485E9734BA"
-				title: "Locate a Badlands Biome [Click]"
-				type: "checkmark"
-			}]
-			title: "Terracotta Builder's Pack"
-			x: 6.5d
-			y: -8.5d
-		}
-		{
 			dependencies: ["2DF95382AC7B7AD4"]
 			description: ["&eNautilus Shells&r can be &3fished&r at a 1% chance, or up to 2% with &eLuck of the Sea&r."]
 			hide: true
