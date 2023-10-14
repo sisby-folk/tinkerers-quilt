@@ -1044,6 +1044,15 @@ hash = "f0463f1b50e2c2ab3c726b14236b22e07ce9be4896528ede9d51486a212a5c07"
 metafile = true
 
 [[files]]
+file = "mods/antique-fwaystones.pw.toml"
+hash = "1673e442015ae4728e94f8a3f92a3bf5153189f4502993370bc881d24745b4d3"
+metafile = true
+
+[[files]]
+file = "mods/antiqueatlas-9.0.0+itemless-fabric-mc1.20.1.jar"
+hash = "202a852556ead43f67fc1dcdb848bc652eb007af900db3261c83fffda84dc205"
+
+[[files]]
 file = "mods/apathy.pw.toml"
 hash = "125278fbba2150649dee164b0435b3f4a24ecf9d362dbdccdafbdf3e31661e4e"
 metafile = true
@@ -1737,7 +1746,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "7bd972535a8f03cadea765a9485e4fd5720351e11b1c5dfd26e2887b8d4d18d2"
+hash = "7209af79d54fa9e462a87a932fa5faaf1c332c1dbada9f1f68870f6f2cc154d7"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
