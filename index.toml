@@ -1632,11 +1632,6 @@ hash = "57cae0b7139111e4c74b41efc9543e662bf7300344e01d8b13e67ee1b47d38b9"
 metafile = true
 
 [[files]]
-file = "mods/lib39.pw.toml"
-hash = "4436493b3c81de2af5a0528f5a80b57930bd12340806437df9cf4ba85a6d1354"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
