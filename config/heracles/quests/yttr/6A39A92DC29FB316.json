@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "065E94C60AFA0AE5": {
+      "type": "heracles:item",
+      "item": "yttr:project_table"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Table Pockets",
+    "description": [
+      "<subtitle id=\"6A39A92DC29FB316\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"065E94C60AFA0AE5\" quest=\"6A39A92DC29FB316\"/>",
+      "<hr/>",
+      "A &&3Project Table&&r is an advanced Crafting Table with &&dextra storage space&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:project_table"
+    },
+    "subtitle": {
+      "text": "Craft a Project Table"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -48,
+          -80
+        ]
+      }
+    }
+  }
+}

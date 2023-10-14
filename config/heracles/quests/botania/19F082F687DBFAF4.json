@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "21BC132B7FA28495"
+  ],
+  "tasks": {
+    "4287A9D408EC2AB1": {
+      "type": "heracles:item",
+      "item": "botania:dice"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "SA-X",
+    "description": [
+      "<subtitle id=\"19F082F687DBFAF4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4287A9D408EC2AB1\" quest=\"19F082F687DBFAF4\"/>",
+      "<hr/>",
+      "The harder &&cGuardian of Gaia&&r summoned using a &&3Gaia Spirit Ingot&&r is a feat requiring endgame equipment that &&dyields yet more endgame equipment&&r - and double the &&3Gaia Spirits&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:dice"
+    },
+    "subtitle": {
+      "text": "Obtain some Dice of Fate"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          240
+        ]
+      }
+    }
+  }
+}

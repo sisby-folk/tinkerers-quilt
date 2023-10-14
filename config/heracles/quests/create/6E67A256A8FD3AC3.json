@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "6C6F991E31AFF000": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Rock/Metal",
+    "description": [
+      "<subtitle id=\"6E67A256A8FD3AC3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6C6F991E31AFF000\" quest=\"6E67A256A8FD3AC3\"/>",
+      "<hr/>",
+      "&&3Andestite Alloy&&r is required to craft all basic &&dKinetic Sources, Kinetic Blocks, and Kinetic Appliances&&r.",
+      "<br/>",
+      "It's initially expensive, but becomes cheaper once crafting it using a &&3Mixer&&r.",
+      "<br/>",
+      "In Create, all functional blocks can be &&3pondered&&r by holding &&7[&&r&&6W&&r&&7]&&r while hovering over them on any screen.",
+      "<br/>",
+      "This shows an &&din-depth tutorial on how to use the block&&r in the world."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    },
+    "subtitle": {
+      "text": "Craft some Andestite Alloy"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  }
+}

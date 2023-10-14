@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "tasks": {
+    "2857172BA776EEA2": {
+      "title": "Find a Squeeze Tree",
+      "icon": {
+        "type": "heracles:item",
+        "item": "yttr:squeeze_leaves"
+      },
+      "type": "heracles:block_interaction",
+      "block": "yttr:squeeze_leaves"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "egnopS",
+    "description": [
+      "<subtitle id=\"4D1B237AE4873550\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2857172BA776EEA2\" quest=\"4D1B237AE4873550\"/>",
+      "<hr/>",
+      "&&3Squeeze Trees&&r are found in &&2Deep Ocean&&r biomes and are a source of &&3Sponge&&r, &&3Squeeze Leaves&&r, and &&3Delicace&&r.",
+      "<br/>",
+      "&&3Squeeze Leaves&&r can be waterlogged and then squeezed repeatedly using &&7[&&r&&6Right-Click&&r&&7]&&r to &&dflood an area with water&&r.",
+      "<br/>",
+      "&&3Delicace&&r can be consumed to &&dimprove food and potion effects&&r for some time.",
+      "<br/>",
+      "It can also be used to craft a &&dconveyor-like resin&&r, and tiny &&dConstruction Brickss&&r used to make &&dcustom sculptures&&r that can then be sealed using &&3liquid void&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:squeeze_leaves"
+    },
+    "subtitle": {
+      "text": "Find a Squeeze Tree"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          48,
+          -80
+        ]
+      }
+    }
+  }
+}

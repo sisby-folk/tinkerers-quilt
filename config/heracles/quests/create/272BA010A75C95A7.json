@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "748E7628B26F42B5"
+  ],
+  "tasks": {
+    "08139A06CC18A63D": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "MSN Messenger",
+    "description": [
+      "<subtitle id=\"272BA010A75C95A7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"08139A06CC18A63D\" quest=\"272BA010A75C95A7\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    },
+    "subtitle": {
+      "text": "Craft a Deployer"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          240
+        ]
+      }
+    }
+  }
+}

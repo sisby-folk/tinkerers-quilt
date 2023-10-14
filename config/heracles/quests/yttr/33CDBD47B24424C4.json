@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "553B60371B6CB85B"
+  ],
+  "tasks": {
+    "42254A6350F5DC2B": {
+      "type": "heracles:item",
+      "item": "yttr:neodymium_disc"
+    },
+    "12A91B40D5D3707D": {
+      "type": "heracles:item",
+      "item": "yttr:haemopal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nyimplemented",
+    "description": [
+      "<subtitle id=\"33CDBD47B24424C4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"42254A6350F5DC2B\" quest=\"33CDBD47B24424C4\"/>",
+      "<task task=\"12A91B40D5D3707D\" quest=\"33CDBD47B24424C4\"/>",
+      "<hr/>",
+      "Some items in Yttr are &&3NYI&&r - \"Not Yet Implemented\" - and &&dserve no non-cosmetic function&&r.",
+      "<br/>",
+      "&&3Haemopal&&r can be dangerously centrifuged to reduce your maximum health, and then refilled with beetroot soup and consumed to restore it. This has no purpose just yet!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:neodymium_disc"
+    },
+    "subtitle": {
+      "text": "Obtain an NYI Item"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          48,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "65A7BDBBF8C0322B"
+  ],
+  "tasks": {
+    "250A5A7F5B05CE0A": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    }
+  },
+  "rewards": {
+    "79B6725FD53B828F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:basin"
+      }
+    }
+  },
+  "display": {
+    "title": "Swirl Swirl",
+    "description": [
+      "<subtitle id=\"128C53BFAD0E2864\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"250A5A7F5B05CE0A\" quest=\"128C53BFAD0E2864\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"79B6725FD53B828F\" quest=\"128C53BFAD0E2864\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Mixer"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "70E21C371C514F0C"
+  ],
+  "tasks": {
+    "23B7BB3FEE51CBB5": {
+      "type": "heracles:item",
+      "item": "create:weighted_ejector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Faith Plates",
+    "description": [
+      "<subtitle id=\"5F76C9EFB8780794\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"23B7BB3FEE51CBB5\" quest=\"5F76C9EFB8780794\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:weighted_ejector"
+    },
+    "subtitle": {
+      "text": "Craft a Weighted Ejector"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          144
+        ]
+      }
+    }
+  }
+}

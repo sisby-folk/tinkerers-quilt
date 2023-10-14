@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "128C53BFAD0E2864"
+  ],
+  "tasks": {
+    "6264562573C17850": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Burn Baby Burn",
+    "description": [
+      "<subtitle id=\"0B69A261610B8712\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6264562573C17850\" quest=\"0B69A261610B8712\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "subtitle": {
+      "text": "Craft a Blaze Burner"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          80,
+          112
+        ]
+      }
+    }
+  }
+}

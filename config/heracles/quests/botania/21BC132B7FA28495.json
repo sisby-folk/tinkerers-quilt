@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6AE35CDEFC5BBBB8"
+  ],
+  "tasks": {
+    "0851BC78A48F87AB": {
+      "type": "heracles:item",
+      "item": "botania:life_essence"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fight for your Life",
+    "description": [
+      "<subtitle id=\"21BC132B7FA28495\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0851BC78A48F87AB\" quest=\"21BC132B7FA28495\"/>",
+      "<hr/>",
+      "Overcoming the &&cGuardian of Gaia&&r requires taking every opportunity to tip the odds heavily in your favour - &&3Elementium Armor&&r, a &&3Terra Sword&&r, potent &&3Incense&&r, and &&das many trinkets as you can cram on&&r.",
+      "<br/>",
+      "The &&3Spirits&&r rewarded can be used to &&denhance many an apparatus&&r - and create all new things, too."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:life_essence"
+    },
+    "subtitle": {
+      "text": "Defeat the Guardian of Gaia"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          192
+        ]
+      }
+    }
+  }
+}

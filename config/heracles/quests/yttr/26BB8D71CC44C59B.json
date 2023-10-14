@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70E7A0765C9FBFD2"
+  ],
+  "tasks": {
+    "4FA8BE2FFBF536B7": {
+      "type": "heracles:item",
+      "item": "yttr:cleaver"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mundo throw!",
+    "description": [
+      "<subtitle id=\"26BB8D71CC44C59B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4FA8BE2FFBF536B7\" quest=\"26BB8D71CC44C59B\"/>",
+      "<hr/>",
+      "A &&3Void Cleaver&&r can be used to &&dcleave&&r any standard block.",
+      "<br/>",
+      "This can be used to make slopes, ramps, interestingly shaped rooms and windows, and other decorations."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:cleaver"
+    },
+    "subtitle": {
+      "text": "Craft a Void Cleaver"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -16,
+          208
+        ]
+      }
+    }
+  }
+}

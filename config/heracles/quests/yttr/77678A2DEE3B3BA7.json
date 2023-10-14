@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "39BC95EE872FA168"
+  ],
+  "tasks": {
+    "362AD08BFF94978D": {
+      "type": "heracles:item",
+      "item": "yttr:lazor_emitter",
+      "nbt": {
+        "LampColor": "colorless"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "You got BEAM",
+    "description": [
+      "<subtitle id=\"77678A2DEE3B3BA7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"362AD08BFF94978D\" quest=\"77678A2DEE3B3BA7\"/>",
+      "<hr/>",
+      "A &&3Lazor Emitter&&r produces a light source that &&dextends infinitely until it hits a block&&r.",
+      "<br/>",
+      "This can be used to create convenient light sources for tunnels, bases, and show signals in the air like &&3Beacons&&r.",
+      "<br/>",
+      "Just &&ddon't touch the beam&&r! it hurts."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:lazor_emitter"
+    },
+    "subtitle": {
+      "text": "Craft a Lazor Emitter"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -96,
+          96
+        ]
+      }
+    }
+  }
+}

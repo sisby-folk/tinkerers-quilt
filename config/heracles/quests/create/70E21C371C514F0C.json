@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1E860EF97D43A959"
+  ],
+  "tasks": {
+    "7B6AFE60D266BC03": {
+      "type": "heracles:item",
+      "item": "create:chute"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Verticality",
+    "description": [
+      "<subtitle id=\"70E21C371C514F0C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B6AFE60D266BC03\" quest=\"70E21C371C514F0C\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:chute"
+    },
+    "subtitle": {
+      "text": "Craft a Chute"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          96
+        ]
+      }
+    }
+  }
+}

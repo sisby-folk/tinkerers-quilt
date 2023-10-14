@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5B5B720E18C10F37"
+  ],
+  "tasks": {
+    "3425CDD8C489BCE1": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Slicey Slicey",
+    "description": [
+      "<subtitle id=\"2B013F1752A002BB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3425CDD8C489BCE1\" quest=\"2B013F1752A002BB\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Saw"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70E7A0765C9FBFD2"
+  ],
+  "tasks": {
+    "5CC39B8149BFF1A0": {
+      "type": "heracles:item",
+      "item": "yttr:effector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Painted Tunnel",
+    "description": [
+      "<subtitle id=\"490A1ECA6B4CBB35\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5CC39B8149BFF1A0\" quest=\"490A1ECA6B4CBB35\"/>",
+      "<hr/>",
+      "&&3Void Effectors&&r can be filled from &&3Liquid Void&&r in-world or from a Bucket. ",
+      "<br/>",
+      "By pressing &&7[&&r&&6Right-Click&&r&&7]&&r, a surface of solid block can become &&dcompletely traversible&&r.",
+      "<br/>",
+      "The &&3Effector&&r is non-destructive - however, don't stick yourself inside solid blocks!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:effector"
+    },
+    "subtitle": {
+      "text": "Craft a Void Effector"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          16,
+          208
+        ]
+      }
+    }
+  }
+}

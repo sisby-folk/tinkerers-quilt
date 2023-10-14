@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63E0B5109F75FE08"
+  ],
+  "tasks": {
+    "5AF101EB86B7D14B": {
+      "type": "heracles:item",
+      "item": "yttr:chute"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Bopper",
+    "description": [
+      "<subtitle id=\"2C2326F912EFFC14\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5AF101EB86B7D14B\" quest=\"2C2326F912EFFC14\"/>",
+      "<hr/>",
+      "&&3Chutes&&r instantly drop any item dropped on or transferred to them &&dstraight down&&r.",
+      "<br/>",
+      "They can be chained to &&dinstantly transport items downwards&&r.",
+      "<br/>",
+      "When combined with a &&3Levitation Chamber&&r, made from a snared &&cShulker&&r bullet, they can also instantly &&dtransport items upwards&&r.",
+      "<br/>",
+      "Chutes can also be used to craft the &&3Dopper&&r which &&dinserts items in two directions&&r, and the &&3Flopper&&r can &&dpull from the side of a block&&r (and it's linked inventory). "
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:chute"
+    },
+    "subtitle": {
+      "text": "Craft a Chute"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -80,
+          16
+        ]
+      }
+    }
+  }
+}

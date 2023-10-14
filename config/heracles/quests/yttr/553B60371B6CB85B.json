@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "63E0B5109F75FE08"
+  ],
+  "tasks": {
+    "6F6397E048B763DF": {
+      "type": "heracles:item",
+      "item": "yttr:centrifuge"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Thunk",
+    "description": [
+      "<subtitle id=\"553B60371B6CB85B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6F6397E048B763DF\" quest=\"553B60371B6CB85B\"/>",
+      "<hr/>",
+      "Centrifuges can be used to extract both iron and yttrium from &&bRaw Gadolonite&&r",
+      "<br/>",
+      "They can also separate useful materials from flowers, coal, cobblestone, and magma cream."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:centrifuge"
+    },
+    "subtitle": {
+      "text": "Craft a Centrifuge"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

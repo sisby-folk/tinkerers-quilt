@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "0B69A261610B8712"
+  ],
+  "tasks": {
+    "07109F0C0FE83D4E": {
+      "type": "heracles:item",
+      "item": "create:blaze_cake"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Blake",
+    "description": [
+      "<subtitle id=\"6A27EDB529972A09\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"07109F0C0FE83D4E\" quest=\"6A27EDB529972A09\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_cake"
+    },
+    "subtitle": {
+      "text": "Craft a Blaze Cake"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          96
+        ]
+      }
+    }
+  }
+}

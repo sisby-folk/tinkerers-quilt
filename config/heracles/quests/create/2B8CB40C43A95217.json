@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "748E7628B26F42B5",
+    "7B418BFDCEAB8DC8"
+  ],
+  "tasks": {
+    "50CAE7AC5170FC37": {
+      "type": "heracles:item",
+      "item": "create:crushing_wheel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Crush 40",
+    "description": [
+      "<subtitle id=\"2B8CB40C43A95217\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"50CAE7AC5170FC37\" quest=\"2B8CB40C43A95217\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:crushing_wheel"
+    },
+    "subtitle": {
+      "text": "Craft a Crushing Wheel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          96,
+          192
+        ]
+      }
+    }
+  }
+}

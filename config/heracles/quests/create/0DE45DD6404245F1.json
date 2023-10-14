@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6E67A256A8FD3AC3"
+  ],
+  "tasks": {
+    "6656A8A0A98C8653": {
+      "type": "heracles:item",
+      "item": "create:hand_crank"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Crank it Up [Kinetic Sources]",
+    "description": [
+      "<subtitle id=\"0DE45DD6404245F1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6656A8A0A98C8653\" quest=\"0DE45DD6404245F1\"/>",
+      "<hr/>",
+      "A &&3Hand Crank&&r can be placed on a &&3Kinetic Appliance&&r or &&3Kinetic Block&&r and then turned by holding &&7[&&r&&6Right-Click&&r&&7]&&r to &&dprovide Kinetic Energy&&r. The turn direction is inverted while &&6sneaking&&r.",
+      "<br/>",
+      "As a rule of thumb, better &&3Kinetic Sources&&r can provide &&dmore impact and speed&&r, but are harder to move."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:hand_crank"
+    },
+    "subtitle": {
+      "text": "Craft a Hand Crank"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          48
+        ]
+      }
+    }
+  }
+}

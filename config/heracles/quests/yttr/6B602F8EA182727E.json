@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "63E0B5109F75FE08"
+  ],
+  "tasks": {
+    "2056C534B5DBA442": {
+      "type": "heracles:item",
+      "item": "yttr:rifle"
+    }
+  },
+  "rewards": {
+    "158B1328DDF07D5E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "yttr:power_meter"
+      }
+    },
+    "239FCCD2D660DD1D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Centripetal-Action",
+    "description": [
+      "<subtitle id=\"6B602F8EA182727E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2056C534B5DBA442\" quest=\"6B602F8EA182727E\"/>",
+      "<hr/>",
+      "&&oA rifle is a precise instrument, one must play in tune, and in time&&r",
+      "<br/>",
+      "An &&3Yttric Rifle&&r is a &&dcharged ranged weapon&&r with many firing modes, each consuming a different type of &&3reagent&&r.",
+      "<br/>",
+      "Each mode has a &&dprecise audiovisual timing cue&&r to fire at full power without causing a deadly &&3overload&&r. It's safest to practice in a desolate area while aiming at a &&ePower Meter&&r, which nullifies shot effects.",
+      "<br/>",
+      "&&7[&&r&&4Warning&&r&&7]&&r The &&3Explode&&r and &&3Void&&r modes can &&dremove blocks in a large area&&r. Type &&6/yttr:void_undo by {username}&&r to reverse accidental void damage.",
+      "<hr/>",
+      "<reward reward=\"158B1328DDF07D5E\" quest=\"6B602F8EA182727E\"/>",
+      "<reward reward=\"239FCCD2D660DD1D\" quest=\"6B602F8EA182727E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:rifle"
+    },
+    "subtitle": {
+      "text": "Craft an Yttric Rifle"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    }
+  }
+}

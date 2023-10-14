@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6E67A256A8FD3AC3"
+  ],
+  "tasks": {
+    "16DF1978332A5826": {
+      "type": "heracles:item",
+      "item": "create:mechanical_bearing"
+    }
+  },
+  "rewards": {
+    "1DB2EF7622394856": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:super_glue",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Right Round [Contraptions]",
+    "description": [
+      "<subtitle id=\"3FC7E89D287252FF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"16DF1978332A5826\" quest=\"3FC7E89D287252FF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DB2EF7622394856\" quest=\"3FC7E89D287252FF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_bearing"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Bearing"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          48
+        ]
+      }
+    }
+  }
+}

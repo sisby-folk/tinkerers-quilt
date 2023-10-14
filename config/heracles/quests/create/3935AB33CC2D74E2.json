@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "3AD4BD9D1ECD3C97"
+  ],
+  "tasks": {
+    "3B69F4E81753EE5A": {
+      "type": "heracles:item",
+      "item": "create:gearshift"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Back it Up",
+    "description": [
+      "<subtitle id=\"3935AB33CC2D74E2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3B69F4E81753EE5A\" quest=\"3935AB33CC2D74E2\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:gearshift"
+    },
+    "subtitle": {
+      "text": "Craft a Gearshift"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -16,
+          80
+        ]
+      }
+    }
+  }
+}

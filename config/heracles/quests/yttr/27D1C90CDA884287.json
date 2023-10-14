@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B602F8EA182727E"
+  ],
+  "tasks": {
+    "64B8B38DD6B3AB6E": {
+      "type": "heracles:item",
+      "item": "yttr:bedrock_smasher"
+    },
+    "47237DDFAC66F2EC": {
+      "type": "heracles:item",
+      "item": "yttr:bedrock_shard"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Unbreakable",
+    "description": [
+      "<subtitle id=\"27D1C90CDA884287\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"64B8B38DD6B3AB6E\" quest=\"27D1C90CDA884287\"/>",
+      "<task task=\"47237DDFAC66F2EC\" quest=\"27D1C90CDA884287\"/>",
+      "<hr/>",
+      "Breaking bedrock requires a &&6high-powered&&r, &&7explosive&&r force be applied to very sturdy &&bpoint&&r.",
+      "<br/>",
+      "High bedrock can be smashed into valuable shards, consuming the smasher once broken.",
+      "<br/>",
+      "Shards can be used to create advanced materials and equipment."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:bedrock_shard"
+    },
+    "subtitle": {
+      "text": "Gather a Bedrock Shard"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          0,
+          112
+        ]
+      }
+    }
+  }
+}

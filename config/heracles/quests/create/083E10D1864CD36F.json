@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2985CD4953FA7F55"
+  ],
+  "tasks": {
+    "3087A8AFAEDEE21A": {
+      "type": "heracles:item",
+      "item": "create:steam_engine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Dark Energy Vortex",
+    "description": [
+      "<subtitle id=\"083E10D1864CD36F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3087A8AFAEDEE21A\" quest=\"083E10D1864CD36F\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:steam_engine"
+    },
+    "subtitle": {
+      "text": "Craft a Steam Engine"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -96
+        ]
+      }
+    }
+  }
+}

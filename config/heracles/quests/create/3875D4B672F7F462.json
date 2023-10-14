@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4046A6ED8F55251E"
+  ],
+  "tasks": {
+    "540E62B4FE7F83DB": {
+      "type": "heracles:item",
+      "item": "create:rotation_speed_controller"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "ALL POWER TO ENGINES",
+    "description": [
+      "<subtitle id=\"3875D4B672F7F462\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"540E62B4FE7F83DB\" quest=\"3875D4B672F7F462\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:rotation_speed_controller"
+    },
+    "subtitle": {
+      "text": "Craft a Rotation Speed Controller"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          144
+        ]
+      }
+    }
+  }
+}

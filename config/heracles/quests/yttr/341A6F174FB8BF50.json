@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "3556944E293D3B4D": {
+      "type": "heracles:item",
+      "item": "yttr:brookite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Harder, Better, Not Faster, The Same.",
+    "description": [
+      "<subtitle id=\"341A6F174FB8BF50\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3556944E293D3B4D\" quest=\"341A6F174FB8BF50\"/>",
+      "<hr/>",
+      "&&3Brookite&&r is a gem that can be used to make tools similar in effectiveness to &&3Iron&&r tools, but &&dmore durable&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:brookite"
+    },
+    "subtitle": {
+      "text": "Mine Brookite"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          48,
+          -32
+        ]
+      }
+    }
+  }
+}

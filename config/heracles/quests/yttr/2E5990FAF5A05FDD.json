@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70E7A0765C9FBFD2"
+  ],
+  "tasks": {
+    "7F38A28608077ABF": {
+      "type": "heracles:item",
+      "item": "yttr:suit_station"
+    }
+  },
+  "rewards": {
+    "69E30E5FD69C7C94": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glowstone_dust",
+        "count": 16
+      }
+    },
+    "3AAC42DEAA0331D0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:charcoal",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "A Choice",
+    "description": [
+      "<subtitle id=\"2E5990FAF5A05FDD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7F38A28608077ABF\" quest=\"2E5990FAF5A05FDD\"/>",
+      "<hr/>",
+      "&&oMaybe not a sensible one, but a choice nonetheless.&&r",
+      "<br/>",
+      "A &&3Suit Station&&r is capable of preparing a &&3Void Diving Suit&&r for a &&3Void Dive&&r - a dangerous form of &&dfast travel&&r between &&3Void Geysers&&r.",
+      "<br/>",
+      "Suit &&3hull&&r can be filled with &&3fluxes&&r like &&eCharcoal&&r and &&3Honeycomb&&r, Suit &&3fuel&&r can be filled by smelting &&eGlowstone Dust&&r at the station, and Suit &&3oxygen&&r is filled over time.",
+      "<br/>",
+      "With all three filled and equipped, you can stand on a &&3Diving Plate&&r near a Geyser and &&7[&&r&&6Sneak&&r&&7]&&r to enter the void.",
+      "<br/>",
+      "Travelling between known &&3Geysers&&r with &&3Diving Plates&&r using &&7[&&r&&6Left-Click&&r&&7]&&r is auto-calculated to be safe.",
+      "<br/>",
+      "Moving around with &&7[&&r&&6WASD&&r&&7]&&r can be used to travel to Geysers without known Diving Plates, but can be &&dquite deadly&&r!",
+      "<hr/>",
+      "<reward reward=\"69E30E5FD69C7C94\" quest=\"2E5990FAF5A05FDD\"/>",
+      "<reward reward=\"3AAC42DEAA0331D0\" quest=\"2E5990FAF5A05FDD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:suit_station"
+    },
+    "subtitle": {
+      "text": "Craft a Suit Station"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          0,
+          272
+        ]
+      }
+    }
+  }
+}

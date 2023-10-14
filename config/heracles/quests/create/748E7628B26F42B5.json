@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "439EB45E8E1E6876"
+  ],
+  "tasks": {
+    "3EB42F3350887E37": {
+      "type": "heracles:item",
+      "item": "create:millstone"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Millin' Time",
+    "description": [
+      "<subtitle id=\"748E7628B26F42B5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3EB42F3350887E37\" quest=\"748E7628B26F42B5\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:millstone"
+    },
+    "subtitle": {
+      "text": "Craft a Millstone"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          192
+        ]
+      }
+    }
+  }
+}

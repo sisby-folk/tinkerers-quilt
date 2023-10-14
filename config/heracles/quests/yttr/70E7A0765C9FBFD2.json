@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "27D1C90CDA884287",
+    "084D1B2B30F0C658"
+  ],
+  "tasks": {
+    "2376C7634CBBAECC": {
+      "type": "heracles:item",
+      "item": "yttr:glassy_void"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "What Stares Back",
+    "description": [
+      "<subtitle id=\"70E7A0765C9FBFD2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2376C7634CBBAECC\" quest=\"70E7A0765C9FBFD2\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:glassy_void"
+    },
+    "subtitle": {
+      "text": "Obtain Glassy Void"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          0,
+          160
+        ]
+      }
+    }
+  }
+}

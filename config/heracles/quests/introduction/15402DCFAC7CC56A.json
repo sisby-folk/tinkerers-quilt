@@ -18,6 +18,12 @@
       "item": {
         "id": "heracles:quest_book"
       }
+    },
+    "15544A991E7D3E9C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "yttr:spectral_axe"
+      }
     }
   },
   "display": {
@@ -35,7 +41,8 @@
       "<br/>",
       "This quest category contains &&dbasic information about the modpack&&r, for all players.",
       "<hr/>",
-      "<reward reward=\"7F1DBC92AA84645F\" quest=\"15402DCFAC7CC56A\"/>"
+      "<reward reward=\"7F1DBC92AA84645F\" quest=\"15402DCFAC7CC56A\"/>",
+      "<reward reward=\"15544A991E7D3E9C\" quest=\"15402DCFAC7CC56A\"/>"
     ],
     "icon": {
       "type": "heracles:item",

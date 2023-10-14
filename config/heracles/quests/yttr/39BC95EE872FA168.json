@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "63E0B5109F75FE08"
+  ],
+  "tasks": {
+    "4C7EDA11862EA1AC": {
+      "type": "heracles:item",
+      "item": "yttr:glowing_gas"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Smells Bright",
+    "description": [
+      "<subtitle id=\"39BC95EE872FA168\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4C7EDA11862EA1AC\" quest=\"39BC95EE872FA168\"/>",
+      "<hr/>",
+      "&&6Glowdamp&&r can be collected in bottles after crushing a &&bShroomlight&&r between two &&3Yttrium Blocks&&r using a piston.",
+      "<br/>",
+      "Glowdamp can be thrown, or crafted into more permanent &&6lamps&&r. It can also be used to pressurize &&3rifle ammunition&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:glowing_gas"
+    },
+    "subtitle": {
+      "text": "Collect Glowdamp"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    }
+  }
+}

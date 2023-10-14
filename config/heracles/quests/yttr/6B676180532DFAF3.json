@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "63E0B5109F75FE08"
+  ],
+  "tasks": {
+    "016694FA1165154E": {
+      "type": "heracles:item",
+      "item": "yttr:dsu"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cheeeeeeeest",
+    "description": [
+      "<subtitle id=\"6B676180532DFAF3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"016694FA1165154E\" quest=\"6B676180532DFAF3\"/>",
+      "<hr/>",
+      "A &&3Deep Storage Unit&&r can only be opened from one side, but can hold &&dmany stacks of items&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:dsu"
+    },
+    "subtitle": {
+      "text": "Craft a DSU"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          80,
+          16
+        ]
+      }
+    }
+  }
+}

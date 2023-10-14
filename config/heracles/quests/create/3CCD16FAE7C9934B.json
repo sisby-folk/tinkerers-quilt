@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "3FC7E89D287252FF"
+  ],
+  "tasks": {
+    "075CA54FB6F16ECC": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester"
+    }
+  },
+  "rewards": {
+    "289F3A4E8995FFF8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:portable_storage_interface",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "IT'S ALMOST HARVESTING SEASON",
+    "description": [
+      "<subtitle id=\"3CCD16FAE7C9934B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"075CA54FB6F16ECC\" quest=\"3CCD16FAE7C9934B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"289F3A4E8995FFF8\" quest=\"3CCD16FAE7C9934B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Harvester"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          80
+        ]
+      }
+    }
+  }
+}

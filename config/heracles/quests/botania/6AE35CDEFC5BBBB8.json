@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7AE8C6EB3917B9C0"
+  ],
+  "tasks": {
+    "0A10AF6097BA27DB": {
+      "type": "heracles:item",
+      "item": "botania:elementium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mellon",
+    "description": [
+      "<subtitle id=\"6AE35CDEFC5BBBB8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0A10AF6097BA27DB\" quest=\"6AE35CDEFC5BBBB8\"/>",
+      "<hr/>",
+      "Throwing the &&3Lexica Botania&&r through an activated &&3Alfheim Portal&&r provides &&dknowledge of flora and magical phenomena&&r that only the elves know.",
+      "<br/>",
+      "Passing most other things through is a waste. &&3Manasteel&&r, on the other hand..."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_ingot"
+    },
+    "subtitle": {
+      "text": "Trade for an Elementium Ingot"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          144
+        ]
+      }
+    }
+  }
+}

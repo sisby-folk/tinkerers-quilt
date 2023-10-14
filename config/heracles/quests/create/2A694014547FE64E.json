@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "3AD4BD9D1ECD3C97"
+  ],
+  "tasks": {
+    "34FE35979E312EBE": {
+      "type": "heracles:item",
+      "item": "create:encased_chain_drive"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "This party is ON the chain",
+    "description": [
+      "<subtitle id=\"2A694014547FE64E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"34FE35979E312EBE\" quest=\"2A694014547FE64E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_chain_drive"
+    },
+    "subtitle": {
+      "text": "Craft a Chain Drive"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          80
+        ]
+      }
+    }
+  }
+}

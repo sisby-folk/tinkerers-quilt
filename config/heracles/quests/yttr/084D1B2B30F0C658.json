@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B602F8EA182727E"
+  ],
+  "tasks": {
+    "158A4C0DAD0D950C": {
+      "title": "Break Y-64 Bedrock",
+      "type": "heracles:advancement",
+      "advancements": [
+        "yttr:open_geyser"
+      ]
+    }
+  },
+  "rewards": {
+    "30ED89A5DBC26A75": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "What Lies Beneath",
+    "description": [
+      "<subtitle id=\"084D1B2B30F0C658\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"158A4C0DAD0D950C\" quest=\"084D1B2B30F0C658\"/>",
+      "<hr/>",
+      "Low bedrock can only be broken once. ",
+      "<br/>",
+      "It cannot be unbroken.",
+      "<hr/>",
+      "<reward reward=\"30ED89A5DBC26A75\" quest=\"084D1B2B30F0C658\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:knowledge_book"
+    },
+    "subtitle": {
+      "text": "Break Low Bedrock"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          48,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "748E7628B26F42B5"
+  ],
+  "tasks": {
+    "298E4EEDAA7BD56B": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "I can craft bigger than you",
+    "description": [
+      "<subtitle id=\"7B418BFDCEAB8DC8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"298E4EEDAA7BD56B\" quest=\"7B418BFDCEAB8DC8\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Crafter"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          80,
+          240
+        ]
+      }
+    }
+  }
+}

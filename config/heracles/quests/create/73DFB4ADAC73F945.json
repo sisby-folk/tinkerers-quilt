@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2985CD4953FA7F55"
+  ],
+  "tasks": {
+    "29193AC388E60382": {
+      "type": "heracles:item",
+      "item": "create:fluid_pipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Evil... Pipe",
+    "description": [
+      "<subtitle id=\"73DFB4ADAC73F945\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"29193AC388E60382\" quest=\"73DFB4ADAC73F945\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:fluid_pipe"
+    },
+    "subtitle": {
+      "text": "Craft a Fluid Pipe"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "tasks": {
+    "696B1DFF3A9FB16E": {
+      "type": "heracles:item",
+      "item": "yttr:raw_gadolinite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The New Strange",
+    "description": [
+      "<subtitle id=\"2983D49DB7507B63\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"696B1DFF3A9FB16E\" quest=\"2983D49DB7507B63\"/>",
+      "<hr/>",
+      "&&3Raw Gadolonite&&r is a &&dplentiful source of Iron&&r.",
+      "<br/>",
+      "When smelted in a &&3Furnace&&r, it produces &&3Big Iron&&r, which can be crafted into many &&3Iron Nuggets&&r.",
+      "<br/>",
+      "When smelted in a &&3Blast Furnace&&r, it instead produces &&3Yttrium&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:raw_gadolinite"
+    },
+    "subtitle": {
+      "text": "Mine Raw Gadolonite"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

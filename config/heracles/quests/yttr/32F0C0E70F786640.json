@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6B602F8EA182727E",
+    "39BC95EE872FA168"
+  ],
+  "tasks": {
+    "645307A63DB0E6BD": {
+      "type": "heracles:item",
+      "item": "yttr:can_filler"
+    }
+  },
+  "rewards": {
+    "62CA4B757D1F5218": {
+      "type": "heracles:item",
+      "item": {
+        "id": "yttr:empty_ammo_can"
+      }
+    }
+  },
+  "display": {
+    "title": "Overprepared",
+    "description": [
+      "<subtitle id=\"32F0C0E70F786640\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"645307A63DB0E6BD\" quest=\"32F0C0E70F786640\"/>",
+      "<hr/>",
+      "&&4Canisters&&r allow you to pack a lot of a single type of ammo into one slot using &&6Glowdamp&&r.",
+      "<br/>",
+      "They also &&9consume less material&&r when firing than loose reagents.",
+      "<hr/>",
+      "<reward reward=\"62CA4B757D1F5218\" quest=\"32F0C0E70F786640\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:can_filler"
+    },
+    "subtitle": {
+      "text": "Craft a Canister Filler"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -48,
+          144
+        ]
+      }
+    }
+  }
+}

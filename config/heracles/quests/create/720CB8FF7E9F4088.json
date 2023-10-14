@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "0DE45DD6404245F1"
+  ],
+  "tasks": {
+    "332D914E467223FE": {
+      "type": "heracles:item",
+      "item": "create:water_wheel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Wheely Good",
+    "description": [
+      "<subtitle id=\"720CB8FF7E9F4088\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"332D914E467223FE\" quest=\"720CB8FF7E9F4088\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:water_wheel"
+    },
+    "subtitle": {
+      "text": "Craft a Water Wheel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          96
+        ]
+      }
+    }
+  }
+}

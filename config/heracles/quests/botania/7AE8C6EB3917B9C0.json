@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5D423971FAD473E1"
+  ],
+  "tasks": {
+    "4200BF8AF95E30FF": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Green Boys",
+    "description": [
+      "<subtitle id=\"7AE8C6EB3917B9C0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4200BF8AF95E30FF\" quest=\"7AE8C6EB3917B9C0\"/>",
+      "<hr/>",
+      "The &&3Terrestrial Agglomeration Plate&&r, crafted from many complex runes, can refine &&3Manasteel&&r using other mana artifacts and an &&dimmense amount of Mana&&r.",
+      "<br/>",
+      "One &&3Terrasteel Ingot&&r can't do very much, but broken down it alone can be used to begin practicing &&3Alfhomancy&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_ingot"
+    },
+    "subtitle": {
+      "text": "Create a Terrasteel Ingot"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6E67A256A8FD3AC3"
+  ],
+  "tasks": {
+    "02D635EDA9F0552E": {
+      "type": "heracles:item",
+      "item": "create:cogwheel"
+    },
+    "0476B910C5215D79": {
+      "type": "heracles:item",
+      "item": "create:large_cogwheel"
+    }
+  },
+  "rewards": {
+    "21E08BDA22D5D5F3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:gearbox",
+        "count": 2
+      }
+    },
+    "2BC9F9F5BE51A28E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:vertical_gearbox",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Borderlands -1 [Kinetic Blocks]",
+    "description": [
+      "<subtitle id=\"3AD4BD9D1ECD3C97\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"02D635EDA9F0552E\" quest=\"3AD4BD9D1ECD3C97\"/>",
+      "<task task=\"0476B910C5215D79\" quest=\"3AD4BD9D1ECD3C97\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"21E08BDA22D5D5F3\" quest=\"3AD4BD9D1ECD3C97\"/>",
+      "<reward reward=\"2BC9F9F5BE51A28E\" quest=\"3AD4BD9D1ECD3C97\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:large_cogwheel"
+    },
+    "subtitle": {
+      "text": "Craft Cogwheels"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "3FC7E89D287252FF"
+  ],
+  "tasks": {
+    "02BF0FA9E136FC47": {
+      "type": "heracles:item",
+      "item": "create:gantry_carriage"
+    }
+  },
+  "rewards": {
+    "70C3D7561019E7C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:gantry_shaft",
+        "count": 8
+      }
+    },
+    "7E4324838A5952B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:linear_chassis",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Skater Girl",
+    "description": [
+      "<subtitle id=\"5B5B720E18C10F37\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"02BF0FA9E136FC47\" quest=\"5B5B720E18C10F37\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"70C3D7561019E7C2\" quest=\"5B5B720E18C10F37\"/>",
+      "<reward reward=\"7E4324838A5952B7\" quest=\"5B5B720E18C10F37\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:gantry_carriage"
+    },
+    "subtitle": {
+      "text": "Craft a Gantry Carriage"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          112
+        ]
+      }
+    }
+  }
+}

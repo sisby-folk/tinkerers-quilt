@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5B5B720E18C10F37"
+  ],
+  "tasks": {
+    "542FDDE7995A7A4E": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pointy Pointy",
+    "description": [
+      "<subtitle id=\"2FB0CD81C2D1FC84\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"542FDDE7995A7A4E\" quest=\"2FB0CD81C2D1FC84\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Drill"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5F76C9EFB8780794"
+  ],
+  "tasks": {
+    "19F30AED8DA294F2": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel"
+    }
+  },
+  "rewards": {
+    "1096710D31CBEABE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:brass_funnel",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Filter Splitter",
+    "description": [
+      "<subtitle id=\"1FD457EB8FA58AE4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"19F30AED8DA294F2\" quest=\"1FD457EB8FA58AE4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1096710D31CBEABE\" quest=\"1FD457EB8FA58AE4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel"
+    },
+    "subtitle": {
+      "text": "Craft a Brass Tunnel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          192
+        ]
+      }
+    }
+  }
+}

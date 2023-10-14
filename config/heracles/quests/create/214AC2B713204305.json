@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1FD457EB8FA58AE4"
+  ],
+  "tasks": {
+    "11EAF64C183ED827": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Express Inserter",
+    "description": [
+      "<subtitle id=\"214AC2B713204305\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"11EAF64C183ED827\" quest=\"214AC2B713204305\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Arm"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          240
+        ]
+      }
+    }
+  }
+}

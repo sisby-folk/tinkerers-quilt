@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2985CD4953FA7F55"
+  ],
+  "tasks": {
+    "5E6C152345C68A7C": {
+      "type": "heracles:item",
+      "item": "create:hose_pulley"
+    }
+  },
+  "rewards": {
+    "0C3B89FE3F54608B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:portable_fluid_interface",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Sniff Snork",
+    "description": [
+      "<subtitle id=\"0B301994E3D6787A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5E6C152345C68A7C\" quest=\"0B301994E3D6787A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0C3B89FE3F54608B\" quest=\"0B301994E3D6787A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:hose_pulley"
+    },
+    "subtitle": {
+      "text": "Craft a Hose Pulley"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -96
+        ]
+      }
+    }
+  }
+}

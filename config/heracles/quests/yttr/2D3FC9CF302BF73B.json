@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "7B5FD475948DB0F6": {
+      "title": "Observe a Root of Continuity",
+      "icon": {
+        "type": "heracles:item",
+        "item": "yttr:root_of_continuity"
+      },
+      "type": "heracles:block_interaction",
+      "block": "yttr:root_of_continuity"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Don't Look Down",
+    "description": [
+      "<subtitle id=\"2D3FC9CF302BF73B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B5FD475948DB0F6\" quest=\"2D3FC9CF302BF73B\"/>",
+      "<hr/>",
+      "&&oEver wondered what keeps those things up?&&r",
+      "<br/>",
+      "&&3Drops of Continuity&&r can be used to &&drecreate useful artifacts&&r.",
+      "<br/>",
+      "Pick somewhere to land."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:root_of_continuity"
+    },
+    "subtitle": {
+      "text": "Observe a Root of Continuity"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -48,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2A694014547FE64E",
+    "3935AB33CC2D74E2"
+  ],
+  "tasks": {
+    "23797DAAF0518409": {
+      "type": "heracles:item",
+      "item": "create:adjustable_chain_gearshift"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Double Time? Double Time!",
+    "description": [
+      "<subtitle id=\"4046A6ED8F55251E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"23797DAAF0518409\" quest=\"4046A6ED8F55251E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:adjustable_chain_gearshift"
+    },
+    "subtitle": {
+      "text": "Craft an Adjustable Chain Gearshift"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          112
+        ]
+      }
+    }
+  }
+}

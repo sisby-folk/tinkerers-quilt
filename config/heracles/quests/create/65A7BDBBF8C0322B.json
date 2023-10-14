@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6E67A256A8FD3AC3"
+  ],
+  "tasks": {
+    "582BAD1606ECA146": {
+      "type": "heracles:item",
+      "item": "create:depot"
+    },
+    "349861E324CB4622": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sheetmetal 2 [Material Processing]",
+    "description": [
+      "<subtitle id=\"65A7BDBBF8C0322B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"582BAD1606ECA146\" quest=\"65A7BDBBF8C0322B\"/>",
+      "<task task=\"349861E324CB4622\" quest=\"65A7BDBBF8C0322B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press"
+    },
+    "subtitle": {
+      "text": "Craft Pressing Equipment"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

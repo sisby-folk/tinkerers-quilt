@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "tasks": {
+    "54C02DCB31F1224E": {
+      "type": "heracles:item",
+      "item": "botania:lexicon"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Magic-Themed Tech Mod",
+    "description": [
+      "<subtitle id=\"21FCBC7C1F07A4E0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"54C02DCB31F1224E\" quest=\"21FCBC7C1F07A4E0\"/>",
+      "<hr/>",
+      "The &&3Lexica Botania&&r is a guide to magical flora and phenomena. ",
+      "<br/>",
+      "It details the creation of &&3Flora&&r, including the collection of &&3Mana&&r through &&3Generating Flora&&r, and the various uses of &&3Functional Flora&&r.",
+      "<br/>",
+      "In addition, structures and objects capable of &&dstoring and transfering Mana&&r, and consuming it to &&dperform various functions&&r, are covered in detail.",
+      "<br/>",
+      "In return, the Lexica shows ways to create and obtain &&dall manner of useful magical equipment and artifacts&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lexicon"
+    },
+    "subtitle": {
+      "text": "Craft a Lexica Botania"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

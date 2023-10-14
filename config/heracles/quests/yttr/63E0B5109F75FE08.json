@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2983D49DB7507B63"
+  ],
+  "tasks": {
+    "02B7231CE9C5F1BA": {
+      "type": "heracles:item",
+      "item": "yttr:yttrium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Something's Wrong, I Can Feel It",
+    "description": [
+      "<subtitle id=\"63E0B5109F75FE08\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"02B7231CE9C5F1BA\" quest=\"63E0B5109F75FE08\"/>",
+      "<hr/>",
+      "&&3Yttr&&r begins with an unsteady hand, a prototype rifle, too much gunpowder, a diamond-tipped spike, and a hole at the bottom of the world.",
+      "<br/>",
+      "It also begins with &&3Yttrium&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:yttrium_ingot"
+    },
+    "subtitle": {
+      "text": "Smelt an Yttrium Ingot"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "128C53BFAD0E2864"
+  ],
+  "tasks": {
+    "22BFDB4FFBCFDD74": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    }
+  },
+  "rewards": {
+    "7FBEB14CFB7AA7F9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lava_bucket"
+      }
+    },
+    "569682D5C09F17F0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:water_bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Blow Me Away",
+    "description": [
+      "<subtitle id=\"439EB45E8E1E6876\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"22BFDB4FFBCFDD74\" quest=\"439EB45E8E1E6876\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7FBEB14CFB7AA7F9\" quest=\"439EB45E8E1E6876\"/>",
+      "<reward reward=\"569682D5C09F17F0\" quest=\"439EB45E8E1E6876\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    },
+    "subtitle": {
+      "text": "Craft an Encased Fan"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          144
+        ]
+      }
+    }
+  }
+}

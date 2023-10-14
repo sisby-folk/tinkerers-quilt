@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6E67A256A8FD3AC3"
+  ],
+  "tasks": {
+    "1975D59418861397": {
+      "type": "heracles:item",
+      "item": "create:belt_connector"
+    }
+  },
+  "rewards": {
+    "0AF01681F1319A9B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:andesite_funnel",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Like that other game [Item Transport]",
+    "description": [
+      "<subtitle id=\"1E860EF97D43A959\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1975D59418861397\" quest=\"1E860EF97D43A959\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0AF01681F1319A9B\" quest=\"1E860EF97D43A959\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:belt_connector"
+    },
+    "subtitle": {
+      "text": "Craft a Mechanical Belt"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    }
+  }
+}

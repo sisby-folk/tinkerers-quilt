@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "63E0B5109F75FE08"
+  ],
+  "tasks": {
+    "3EDBB91F77D6FAB8": {
+      "type": "heracles:item",
+      "item": "yttr:snare"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Safari Zone",
+    "description": [
+      "<subtitle id=\"3D478C54485BA22C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3EDBB91F77D6FAB8\" quest=\"3D478C54485BA22C\"/>",
+      "<hr/>",
+      "&&3Snares&&r can be used to &&dtemporarily catch mobs&&r.",
+      "<br/>",
+      "Snares can also be used to move &&dmove normally immobile blocks&&r like &&3Chests&&r and &&3Signs&&r.",
+      "<br/>",
+      "Snared mobs can be used to craft various &&3Abominations&&r - living &&dmechanism components&&r.",
+      "<br/>",
+      "In order of least to most unsettling ",
+      "- &&3Skeletal Sorters&&r can &&dsort items&&r, ",
+      "- &&3Screeper Nests&&r can break blocks, ",
+      "- &&3Transferent Fungus&&r can place blocks, ",
+      "- &&3Aware Hoppers&&r can craft recipes you &&dcraft in front of them&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "yttr:snare"
+    },
+    "subtitle": {
+      "text": "Craft a Snare"
+    },
+    "groups": {
+      "Yttr": {
+        "position": [
+          -48,
+          48
+        ]
+      }
+    }
+  }
+}

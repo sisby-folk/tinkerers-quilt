@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "21FCBC7C1F07A4E0"
+  ],
+  "tasks": {
+    "7D4B991CFBBB70D2": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Blue Steel",
+    "description": [
+      "<subtitle id=\"5D423971FAD473E1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7D4B991CFBBB70D2\" quest=\"5D423971FAD473E1\"/>",
+      "<hr/>",
+      "&&3Iron Ingots&&r bathed in a sufficiently filled &&3Mana Pool&&r becomes &&3Manasteel&&r, a useful material for &&darmor, tools, and all manner of botanists' purposes&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_ingot"
+    },
+    "subtitle": {
+      "text": "Create a Manasteel Ingot"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    }
+  }
+}

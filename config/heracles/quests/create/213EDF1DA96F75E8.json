@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "720CB8FF7E9F4088"
+  ],
+  "tasks": {
+    "006441990F7F3B3F": {
+      "type": "heracles:item",
+      "item": "create:windmill_bearing"
+    },
+    "7055743D33869AA5": {
+      "type": "heracles:item",
+      "amount": 20,
+      "item": "create:white_sail"
+    }
+  },
+  "rewards": {
+    "4903435694C5508E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:white_sail",
+        "count": 20
+      }
+    }
+  },
+  "display": {
+    "title": "Say it ain't so",
+    "description": [
+      "<subtitle id=\"213EDF1DA96F75E8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"006441990F7F3B3F\" quest=\"213EDF1DA96F75E8\"/>",
+      "<task task=\"7055743D33869AA5\" quest=\"213EDF1DA96F75E8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4903435694C5508E\" quest=\"213EDF1DA96F75E8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:white_sail"
+    },
+    "subtitle": {
+      "text": "Craft Windmill Materials"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    }
+  }
+}

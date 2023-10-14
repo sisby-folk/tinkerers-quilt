@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "4046A6ED8F55251E"
+  ],
+  "tasks": {
+    "0CCB450EFCA48946": {
+      "type": "heracles:item",
+      "item": "create:sequenced_gearshift"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Calculated",
+    "description": [
+      "<subtitle id=\"199A0569C3C5584C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0CCB450EFCA48946\" quest=\"199A0569C3C5584C\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:sequenced_gearshift"
+    },
+    "subtitle": {
+      "text": "Craft a Sequenced Gearshift"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -16,
+          144
+        ]
+      }
+    }
+  }
+}

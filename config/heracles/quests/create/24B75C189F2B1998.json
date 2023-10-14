@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "2985CD4953FA7F55"
+  ],
+  "tasks": {
+    "40F04EA9B21C4F52": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    }
+  },
+  "rewards": {
+    "4C8F254A0295733E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:item_drain"
+      }
+    }
+  },
+  "display": {
+    "title": "Empty and Fill",
+    "description": [
+      "<subtitle id=\"24B75C189F2B1998\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"40F04EA9B21C4F52\" quest=\"24B75C189F2B1998\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C8F254A0295733E\" quest=\"24B75C189F2B1998\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    },
+    "subtitle": {
+      "text": "Craft a Spout"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          -96
+        ]
+      }
+    }
+  }
+}
