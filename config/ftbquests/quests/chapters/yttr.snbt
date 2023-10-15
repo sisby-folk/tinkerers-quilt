@@ -350,6 +350,7 @@
 				""
 				"Just &ddon't touch the beam&r! it hurts."
 			]
+			hide: true
 			id: "77678A2DEE3B3BA7"
 			subtitle: "Craft a Lazor Emitter"
 			tasks: [{
@@ -374,6 +375,7 @@
 				""
 				"This can be used to make slopes, ramps, interestingly shaped rooms and windows, and other decorations."
 			]
+			hide: true
 			id: "26BB8D71CC44C59B"
 			subtitle: "Craft a Void Cleaver"
 			tasks: [{
@@ -426,6 +428,7 @@
 				""
 				"The &3Effector&r is non-destructive - however, don't stick yourself inside solid blocks!"
 			]
+			hide: true
 			id: "490A1ECA6B4CBB35"
 			subtitle: "Craft a Void Effector"
 			tasks: [{
@@ -448,6 +451,7 @@
 				""
 				"Chutes can also be used to craft the &3Dopper&r which &dinserts items in two directions&r, and the &3Flopper&r can &dpull from the side of a block&r (and it's linked inventory). "
 			]
+			hide: true
 			id: "2C2326F912EFFC14"
 			subtitle: "Craft a Chute"
 			tasks: [{
@@ -474,6 +478,7 @@
 				""
 				"Moving around with &7[&r&6WASD&r&7]&r can be used to travel to Geysers without known Diving Plates, but can be &dquite deadly&r!"
 			]
+			hide: true
 			id: "2E5990FAF5A05FDD"
 			rewards: [
 				{
