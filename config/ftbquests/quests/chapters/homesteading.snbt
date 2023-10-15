@@ -3430,6 +3430,7 @@
 				""
 				"Remember to &3Wax&r your finished board! Boards are be &dfully cleared&r using &3Water&r if they're not waxed."
 			]
+			hide: true
 			id: "409A91101828380E"
 			rewards: [
 				{
@@ -3540,6 +3541,7 @@
 				""
 				"Cucumbers can be pickled in &eJars&r using salty water."
 			]
+			hide: true
 			id: "5C9B1F6C79CD8F3F"
 			rewards: [
 				{
