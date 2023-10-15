@@ -1,5 +1,7 @@
 {
-  "settings": {},
+  "settings": {
+    "hidden": true
+  },
   "tasks": {
     "065E94C60AFA0AE5": {
       "type": "heracles:item",

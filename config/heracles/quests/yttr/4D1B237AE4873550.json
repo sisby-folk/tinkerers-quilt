@@ -1,5 +1,7 @@
 {
-  "settings": {},
+  "settings": {
+    "hidden": true
+  },
   "tasks": {
     "2857172BA776EEA2": {
       "title": "Find a Squeeze Tree",
