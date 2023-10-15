@@ -1496,6 +1496,7 @@
 			]
 			description: ["&o&dInvest in these, they'll return the favour.&r&r"]
 			hide_dependency_lines: true
+			hide: true
 			icon: "minecraft:red_nether_bricks"
 			id: "416A7E1DCFFE12F4"
 			rewards: [
@@ -1785,6 +1786,7 @@
 				""
 				"An &3off-handed&r bow will &dfire the arrow type in the main hand&r."
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "minecraft:tipped_arrow"
