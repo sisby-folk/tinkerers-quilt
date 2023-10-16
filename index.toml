@@ -1281,6 +1281,11 @@ file = "mods/Botania-1.20.1-441-FABRIC-SNAPSHOT.jar"
 hash = "086ad0a6f35be4dcccb74dc13f10c207f1d9d9ef0dd356773421c23c379d37ab"
 
 [[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "984a09bc0fae7c6d2407fba7273e6b27c2fbf66040161e842e381ac314026d08"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "e57c4c652b887c25b8f5e8035b1fb172a5478076f1bba48ad0fb8d7d6d0b2b3f"
 metafile = true
@@ -1607,6 +1612,11 @@ hash = "4a37864ebe44ddf66f7a127683adc76515d3dc97f8d8dba6fe362c43a1f39464"
 metafile = true
 
 [[files]]
+file = "mods/just-an-end-anchor.pw.toml"
+hash = "17bad47cc7b10a1ecac30bc87cd3eb18c5ad31426621f2fa4bad94d145121576"
+metafile = true
+
+[[files]]
 file = "mods/kaffees_dual_ride.pw.toml"
 hash = "820dece3f5d18fa4d429dd5412674f398b35d5ab43ff0690afee75fab3effaa1"
 metafile = true
@@ -1704,6 +1714,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "5ec7e0e8cb5d8cd6b09f49f9a8eff32a4f7c8f95af37e076644f15ea0011583f"
+metafile = true
+
+[[files]]
+file = "mods/nbt-autocomplete.pw.toml"
+hash = "2f0128bf1c12a809cfdf2c9e7fe86b4f4e7f03213e30db0450ed008442d57ff2"
 metafile = true
 
 [[files]]
@@ -1846,6 +1861,11 @@ hash = "e1c646ae0e861ddec4dd8c3a590e24cf50ac2caada7ad11f3e5f5c6ade342f80"
 [[files]]
 file = "mods/sodium4.pw.toml"
 hash = "61c730ecc59ae6bf7fd413d52bd203d122a4a85ebbe953e79a3114f0328dc2b9"
+metafile = true
+
+[[files]]
+file = "mods/soundsbegone.pw.toml"
+hash = "a8254b73d33d9b8b1e01b63161a6df8d8f83317611bae7d8add4697b27a089e4"
 metafile = true
 
 [[files]]
@@ -3160,7 +3180,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "820c7a11a6d105ee6b8e4faaf0b93f807fcdbc803f816437e2170c76c439e38c"
+hash = "b32427d80bba69d74dec8e9a44476ab543f564580879d8ca9c8e40543ccc0363"
 metafile = true
 
 [[files]]
