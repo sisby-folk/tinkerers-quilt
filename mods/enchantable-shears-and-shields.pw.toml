@@ -1,0 +1,13 @@
+name = "Enchantable Shears and Shields"
+filename = "enchantableshears-0.1.0-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6hRgAD76/versions/3uUnB2gZ/enchantableshears-0.1.0-1.20.1.jar"
+hash-format = "sha1"
+hash = "0b0a5c73ced7b1d3d7dc17c2ef830053ab76307b"
+
+[update]
+[update.modrinth]
+mod-id = "6hRgAD76"
+version = "3uUnB2gZ"
