@@ -1035,10 +1035,6 @@ hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
-file = "mods/effective-2.1.1+1.20.1.jar"
-hash = "47d3c389a7c947601b7032b33e4c1889eb39636cbbfe65d38280acc72a907476"
-
-[[files]]
 file = "mods/elytra-trims.pw.toml"
 hash = "93ed5e4493f07f0a9eaaecf2642b897fcc5af6e9644f83a75f30b7a060f5717c"
 metafile = true
