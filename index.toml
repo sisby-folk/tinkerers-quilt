@@ -318,6 +318,11 @@ file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
 hash = "4b74f6b30d2b1bcca8ceb83c3ea0171317ad6d1250fe298d1b3006a65c7d7522"
 
 [[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "984a09bc0fae7c6d2407fba7273e6b27c2fbf66040161e842e381ac314026d08"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "b6676e184b94a0efda7769df4413c91162341d1fdbcb668857509f20ace34be1"
 metafile = true
@@ -547,7 +552,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "6d8aff1890fddf88884c516484b9bc774088222228f3ee2ded5bee376548e3a2"
+hash = "99b425ee377426a557730872870b09d387787c20b7dc3956b8dc7e9f33782e50"
 metafile = true
 
 [[files]]
@@ -587,7 +592,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "28375fa3b0114370ae3b9db5cf7ef9e0b7caefcbd3a87edcf86485dc03f5d2f7"
+hash = "1b8b51bc62aebde986b5394b1af62fcd6f7efcc249f7d5d2939b785027364e60"
 metafile = true
 
 [[files]]
@@ -686,7 +691,7 @@ hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "a16799bfb18ad3723165408cc7ca841091497ffd2a4ea31da365017f67846bbf"
+hash = "dfbdb89a9b842c190339d6d60a6a2e812e3d3bdcd986610e3b740ec478e4dcb0"
 metafile = true
 
 [[files]]
@@ -786,7 +791,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "088d7693dae653ff299d1454674e29ab3b1649cf889c5ecd32ccced2b0c48472"
+hash = "e92b8d83b1c7cbf0245dd3588a4b9653d77a21d2b01c33951e35b03fb87f110b"
 metafile = true
 
 [[files]]
@@ -812,6 +817,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "df5d311dc2b08556afa338e43b69abb71448644375dd892a3dc97d455f28203c"
+metafile = true
+
+[[files]]
+file = "mods/nbt-autocomplete.pw.toml"
+hash = "2f0128bf1c12a809cfdf2c9e7fe86b4f4e7f03213e30db0450ed008442d57ff2"
 metafile = true
 
 [[files]]
@@ -916,7 +926,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
-hash = "72a369066ded78fdf4592fa4643b9fc642230cc0b733eab8c03b733286216900"
+hash = "8a1b4b0557027eb36341123420b419bff1c2c91c50091abf0aedf5894596f342"
 metafile = true
 
 [[files]]
@@ -966,6 +976,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
+metafile = true
+
+[[files]]
+file = "mods/soundsbegone.pw.toml"
+hash = "a8254b73d33d9b8b1e01b63161a6df8d8f83317611bae7d8add4697b27a089e4"
 metafile = true
 
 [[files]]
@@ -2287,7 +2302,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "820c7a11a6d105ee6b8e4faaf0b93f807fcdbc803f816437e2170c76c439e38c"
+hash = "b32427d80bba69d74dec8e9a44476ab543f564580879d8ca9c8e40543ccc0363"
 metafile = true
 
 [[files]]
