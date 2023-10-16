@@ -1030,7 +1030,7 @@ hash = "e4acf1365f8aba457ccde7923fd8b75e370e5f41da4673fb9cf9e0acabb442e2"
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
-hash = "984a09bc0fae7c6d2407fba7273e6b27c2fbf66040161e842e381ac314026d08"
+hash = "9c5d0f1adf081043b74cd306ba4dee43182c837c06fd35619cf676ee838e44fd"
 metafile = true
 
 [[files]]
@@ -1095,6 +1095,11 @@ metafile = true
 [[files]]
 file = "mods/better-end-sky.pw.toml"
 hash = "9d5eb5ff51dfc7123dfea318a027ec5fdf96ac9a29451367ce36cfcb88833679"
+metafile = true
+
+[[files]]
+file = "mods/biome-sniffer.pw.toml"
+hash = "dbabd69c1d885d2102ae6c279e2b2d12640efa93a421249a78a839cdfc7545e3"
 metafile = true
 
 [[files]]
@@ -1229,6 +1234,11 @@ metafile = true
 [[files]]
 file = "mods/ecotones.pw.toml"
 hash = "fabb60a79ae2594891e4aff2b2ccbae3bafb434e2b228a1204919f66fad1c845"
+metafile = true
+
+[[files]]
+file = "mods/elytra-trims.pw.toml"
+hash = "93ed5e4493f07f0a9eaaecf2642b897fcc5af6e9644f83a75f30b7a060f5717c"
 metafile = true
 
 [[files]]
@@ -1466,7 +1476,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "2f0128bf1c12a809cfdf2c9e7fe86b4f4e7f03213e30db0450ed008442d57ff2"
+hash = "013f51850b4d677fec2fb03170990c30caa40bfbb9d15d2aef7a1b4c93eeab1b"
 metafile = true
 
 [[files]]
@@ -1540,6 +1550,11 @@ hash = "9698e92ee6014892a3732b258fdc6983148d4f6204f403176d2926e1694e12c2"
 metafile = true
 
 [[files]]
+file = "mods/quickstack.pw.toml"
+hash = "de651b423d80c4ec72a6e45b34c1b1b1a947f303cebf35e3d34dcac7e2c99380"
+metafile = true
+
+[[files]]
 file = "mods/quilt-loading-screen.pw.toml"
 hash = "0431d2fbc92b56108c48fc955caafbefcafeb69bc9773c5413daa89af5d87966"
 metafile = true
@@ -1547,6 +1562,11 @@ metafile = true
 [[files]]
 file = "mods/reacharound.pw.toml"
 hash = "1bdc2b4d59ee6805bcd05fb4a68782c2a020270a7da21531b245fd03b5ba2426"
+metafile = true
+
+[[files]]
+file = "mods/real-arrow-tip.pw.toml"
+hash = "e51093357d39df8d7f2cb4111f423baeedfe607b327e3219e27d45a92af5aef7"
 metafile = true
 
 [[files]]
@@ -1590,7 +1610,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "3e296e373e17d6c4d9e8a914d07b841fcfa4faaefcb1ac00aafd4ac9d71e72aa"
+hash = "5e7200fa5e96bc83fde6da5894f414858ce54f7067ec702e56d7872ed5b25ab2"
 metafile = true
 
 [[files]]
@@ -1604,7 +1624,7 @@ metafile = true
 
 [[files]]
 file = "mods/soundsbegone.pw.toml"
-hash = "a8254b73d33d9b8b1e01b63161a6df8d8f83317611bae7d8add4697b27a089e4"
+hash = "39327fbb4fb6a3bbbda50c4d063dde205c0af5eab9f7707a39a7b597633938f8"
 metafile = true
 
 [[files]]
@@ -1658,6 +1678,11 @@ hash = "be6df0675d9aa6ba25b569bd6986a0457ce08631b157e3ca718b2cbf89cd2da2"
 metafile = true
 
 [[files]]
+file = "mods/tall-flower-pots.pw.toml"
+hash = "63e4385fc8d762efa1dd9e0921d975f7684e91c52b060b6b4b499fbab30b6c8e"
+metafile = true
+
+[[files]]
 file = "mods/tax-free-levels.pw.toml"
 hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
 metafile = true
@@ -1695,6 +1720,11 @@ metafile = true
 [[files]]
 file = "mods/universal_ores.pw.toml"
 hash = "a31a9db89b6b0a610ae4b78edcf0f20527e6bde59bf47814d0d817be7c9a9dd6"
+metafile = true
+
+[[files]]
+file = "mods/useful-brush.pw.toml"
+hash = "b7830fee7b0b01aa7cb5cbb4faccaceed6758c9cda1132dd49f6d9b6dc581046"
 metafile = true
 
 [[files]]
@@ -2916,7 +2946,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "b71aae4389aa77112335858465e31b13f8bbdc4a1c60a0a54ceb6338e339ce1b"
+hash = "1c66dab8ed5239ab02c6778fef2c72aea8bdf18f94408bd13a2b90aefefec9b2"
 metafile = true
 
 [[files]]
