@@ -1017,6 +1017,11 @@ hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
+file = "mods/elytra-trims.pw.toml"
+hash = "93ed5e4493f07f0a9eaaecf2642b897fcc5af6e9644f83a75f30b7a060f5717c"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "1534cc48fe10f96a488339c716e8e8b2b639cf9355b8949e09fa264991f16432"
 metafile = true
