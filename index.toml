@@ -689,6 +689,11 @@ hash = "d1df8e86811120c594a88895d3366d000736a6c1fad7124a72c8f05925775095"
 metafile = true
 
 [[files]]
+file = "mods/just-an-end-anchor.pw.toml"
+hash = "17bad47cc7b10a1ecac30bc87cd3eb18c5ad31426621f2fa4bad94d145121576"
+metafile = true
+
+[[files]]
 file = "mods/kaffees_dual_ride.pw.toml"
 hash = "395e906a3ea26e62185f6ad673295ac0d2c09055b46d560f5a6cbc9926e635a8"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Just an End Anchor"
+filename = "just-end-anchor-1.0.2-1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WlyYERS6/versions/AZz1dhTo/just-end-anchor-1.0.2-1.19.jar"
+hash-format = "sha1"
+hash = "7ed0c467affe9385bfc8414a1a4433f90c41d540"
+
+[update]
+[update.modrinth]
+mod-id = "WlyYERS6"
+version = "AZz1dhTo"
