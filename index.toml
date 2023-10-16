@@ -1281,6 +1281,10 @@ file = "mods/Botania-1.20.1-441-FABRIC-SNAPSHOT.jar"
 hash = "086ad0a6f35be4dcccb74dc13f10c207f1d9d9ef0dd356773421c23c379d37ab"
 
 [[files]]
+file = "mods/Campanion-fabric-1.20.1-v4.1.3+1.20.f43befd+fabric.jar"
+hash = "d8da0fe4e2517d50ac81f120eb6f3cb62524f96e47ace853e97657f50cb2059d"
+
+[[files]]
 file = "mods/altorigingui.pw.toml"
 hash = "9c5d0f1adf081043b74cd306ba4dee43182c837c06fd35619cf676ee838e44fd"
 metafile = true
@@ -2057,7 +2061,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "8ce051af7acbfb64cb20a1a63f41050e7e5bd7b5cb6f34c198f70e126fc665a3"
+hash = "dbc0504bba585c1ab9ce1f35e994c05339c99e99a4d36770b367f9f6f6cb3584"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
