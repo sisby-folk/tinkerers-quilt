@@ -1037,6 +1037,10 @@ file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
 
 [[files]]
+file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
+hash = "3d9ab26b89cb5e01c1888ac8bc3d3a9df000f728d32d5dd8f9f47e84b1d19ed5"
+
+[[files]]
 file = "mods/altorigingui.pw.toml"
 hash = "9c5d0f1adf081043b74cd306ba4dee43182c837c06fd35619cf676ee838e44fd"
 metafile = true
@@ -1833,7 +1837,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "409c85c3001ab21082c4686b89194151862f48964a131b7f5b75c9e740dc24a9"
+hash = "6464c9de8bc7dc5a2d7becea14542084ee7b433f6df8fb96a7df9f81b091b9ce"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
