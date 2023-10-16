@@ -806,7 +806,7 @@ hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
 
 [[files]]
 file = "config/quilt-loading-screen.json"
-hash = "988b58cfdf8f11be2c7942cc486104580be973193a0845ad803e22ed8d83456f"
+hash = "ddb4b78652475595b3138cf26f0f82f1da495b614911f9971ba883960adcf8ba"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -871,6 +871,10 @@ hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
 [[files]]
 file = "credits.txt"
 hash = "7c68180a8e6416c3d5cdd8c00199c23123df202f4f401fca3d8d6518c4d96819"
+
+[[files]]
+file = "mods/DyeableFishingLines-1.0.1.jar"
+hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
@@ -1022,9 +1026,17 @@ hash = "6a4afd7b42387477795e73b17b8963ea313ce6f8a960343a2579ff0b41544beb"
 metafile = true
 
 [[files]]
+file = "mods/easierenchanting-1.5.0.jar"
+hash = "a6ad42356c4a82309fd542e067c6d68a85ef07c74e43661ac70cb66fe41cce55"
+
+[[files]]
 file = "mods/ebe.pw.toml"
 hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
+
+[[files]]
+file = "mods/effective-2.1.1+1.20.1.jar"
+hash = "47d3c389a7c947601b7032b33e4c1889eb39636cbbfe65d38280acc72a907476"
 
 [[files]]
 file = "mods/elytra-trims.pw.toml"
@@ -1119,6 +1131,10 @@ metafile = true
 file = "mods/inspecio.pw.toml"
 hash = "280af6886fbdec37ccfab4d8a7cbd2d3777a198a5fa0d2ec15dc9b9c8b0eff67"
 metafile = true
+
+[[files]]
+file = "mods/inventorytabs-0.9.0-beta-1.20.jar"
+hash = "1e639f115699594ecc7a347fcf557d3d9c36c7bdb28ccd8a3583eb7f3eeef241"
 
 [[files]]
 file = "mods/iris4.pw.toml"
@@ -1251,6 +1267,10 @@ hash = "1e1e434f917fde38e55d7783569083b327c918a2c567b5d4967e6446b69d9d9f"
 metafile = true
 
 [[files]]
+file = "mods/pettable-1.3.2.jar"
+hash = "8f5ae98a58150a972628f555493ef00b1e08ad958b36d117417d3ae27fa86019"
+
+[[files]]
 file = "mods/picohud.pw.toml"
 hash = "df50fd5cf76122fe91096f1273a8036f20b461d138c860e82aae49d1351159b9"
 metafile = true
@@ -1264,6 +1284,10 @@ metafile = true
 file = "mods/presence-footsteps.pw.toml"
 hash = "5027329d763899c40db5e3f389cfb2262d61d0037668c331db0cec1491c585d8"
 metafile = true
+
+[[files]]
+file = "mods/projectsavethepets-4.0.0-alpha+2023.d91c36f7ba.fabric.jar"
+hash = "0dff0733a16e69e7d41b9ecfb51a93ec2489f7d6e49532f990b9c4ae11096178"
 
 [[files]]
 file = "mods/qdresloader.pw.toml"
@@ -1444,6 +1468,10 @@ hash = "b7830fee7b0b01aa7cb5cbb4faccaceed6758c9cda1132dd49f6d9b6dc581046"
 metafile = true
 
 [[files]]
+file = "mods/vehiclefix-3.5.jar"
+hash = "61204aa2b21e3d26011307f9006e257cb3e308b2bc4f722fe188a9ffaea1990c"
+
+[[files]]
 file = "mods/visuality.pw.toml"
 hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
 metafile = true
@@ -1468,7 +1496,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "757f0e8ef189de95400a34bddca326c4741e152653ff34cf8830d73194b20ade"
+hash = "6464c9de8bc7dc5a2d7becea14542084ee7b433f6df8fb96a7df9f81b091b9ce"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
