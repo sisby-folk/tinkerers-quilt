@@ -913,6 +913,11 @@ hash = "9d5eb5ff51dfc7123dfea318a027ec5fdf96ac9a29451367ce36cfcb88833679"
 metafile = true
 
 [[files]]
+file = "mods/biome-sniffer.pw.toml"
+hash = "dbabd69c1d885d2102ae6c279e2b2d12640efa93a421249a78a839cdfc7545e3"
+metafile = true
+
+[[files]]
 file = "mods/boring-default-game-rules.pw.toml"
 hash = "e7892e2baf8ede8bae05e040a0a41db72f9abd891b74143484ef94fc8351006e"
 metafile = true
@@ -1261,6 +1266,11 @@ hash = "9698e92ee6014892a3732b258fdc6983148d4f6204f403176d2926e1694e12c2"
 metafile = true
 
 [[files]]
+file = "mods/quickstack.pw.toml"
+hash = "de651b423d80c4ec72a6e45b34c1b1b1a947f303cebf35e3d34dcac7e2c99380"
+metafile = true
+
+[[files]]
 file = "mods/quilt-loading-screen.pw.toml"
 hash = "0431d2fbc92b56108c48fc955caafbefcafeb69bc9773c5413daa89af5d87966"
 metafile = true
@@ -1268,6 +1278,11 @@ metafile = true
 [[files]]
 file = "mods/reacharound.pw.toml"
 hash = "1bdc2b4d59ee6805bcd05fb4a68782c2a020270a7da21531b245fd03b5ba2426"
+metafile = true
+
+[[files]]
+file = "mods/real-arrow-tip.pw.toml"
+hash = "e51093357d39df8d7f2cb4111f423baeedfe607b327e3219e27d45a92af5aef7"
 metafile = true
 
 [[files]]
@@ -1365,6 +1380,11 @@ hash = "be6df0675d9aa6ba25b569bd6986a0457ce08631b157e3ca718b2cbf89cd2da2"
 metafile = true
 
 [[files]]
+file = "mods/tall-flower-pots.pw.toml"
+hash = "63e4385fc8d762efa1dd9e0921d975f7684e91c52b060b6b4b499fbab30b6c8e"
+metafile = true
+
+[[files]]
 file = "mods/tax-free-levels.pw.toml"
 hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
 metafile = true
@@ -1392,6 +1412,11 @@ metafile = true
 [[files]]
 file = "mods/totem-anywhere.pw.toml"
 hash = "80a08f7ba61f15061ce1fea737d38ee8f902faf7ef8c52b0459b8a29ceb754d1"
+metafile = true
+
+[[files]]
+file = "mods/useful-brush.pw.toml"
+hash = "b7830fee7b0b01aa7cb5cbb4faccaceed6758c9cda1132dd49f6d9b6dc581046"
 metafile = true
 
 [[files]]
