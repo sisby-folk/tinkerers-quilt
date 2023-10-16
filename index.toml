@@ -1042,6 +1042,11 @@ hash = "4c59088a2cb975f60347da57d72bb1069b65452c6a7b92af8facec6e1bed9409"
 metafile = true
 
 [[files]]
+file = "mods/enchantable-shears-and-shields.pw.toml"
+hash = "c297cfffa7839ce15782d5bd0c8c040da3a1dda600a78da4bd0bb0ee7eb3f3dd"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-attack-indicator.pw.toml"
 hash = "bda35046f0b3d657acc0f32eaaead78999d353e0611f9760016e2c85c567a482"
 metafile = true
@@ -1458,7 +1463,7 @@ hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
 
 [[files]]
 file = "removed.txt"
-hash = "029d3def116b798c0e0d213c94b7511457caad1e8aafe1d2dd6390877e8c5f97"
+hash = "757f0e8ef189de95400a34bddca326c4741e152653ff34cf8830d73194b20ade"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
