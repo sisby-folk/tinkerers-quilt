@@ -1,0 +1,13 @@
+name = "Biome Sniffer"
+filename = "biome-sniffer-1.2-BETA+1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L32xmAlR/versions/CYT033AV/biome-sniffer-1.2-BETA%2B1.20.jar"
+hash-format = "sha1"
+hash = "1cd384e18979e5450b36fcdfe710871edb0b1192"
+
+[update]
+[update.modrinth]
+mod-id = "L32xmAlR"
+version = "CYT033AV"

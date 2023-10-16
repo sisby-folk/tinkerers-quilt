@@ -1,0 +1,13 @@
+name = "Tall Flower Pots"
+filename = "tall-flower-pots-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5arJRelr/versions/1jAxzDmL/tall-flower-pots-0.1.2.jar"
+hash-format = "sha1"
+hash = "6ba71939b9c80eacc32f2b39d67cea6a42f9364a"
+
+[update]
+[update.modrinth]
+mod-id = "5arJRelr"
+version = "1jAxzDmL"
