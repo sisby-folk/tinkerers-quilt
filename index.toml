@@ -873,6 +873,11 @@ file = "credits.txt"
 hash = "7c68180a8e6416c3d5cdd8c00199c23123df202f4f401fca3d8d6518c4d96819"
 
 [[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "984a09bc0fae7c6d2407fba7273e6b27c2fbf66040161e842e381ac314026d08"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "e57c4c652b887c25b8f5e8035b1fb172a5478076f1bba48ad0fb8d7d6d0b2b3f"
 metafile = true
@@ -1201,6 +1206,11 @@ hash = "842c56b457771a48f741c94f3f615460cbe86fdfab2bdc3629aa8200e894750d"
 metafile = true
 
 [[files]]
+file = "mods/nbt-autocomplete.pw.toml"
+hash = "2f0128bf1c12a809cfdf2c9e7fe86b4f4e7f03213e30db0450ed008442d57ff2"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
@@ -1327,6 +1337,11 @@ hash = "39513ba8ede3fca37d7ca6b79d5880697b990c0787eed6aec43dda463932b7ff"
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
+metafile = true
+
+[[files]]
+file = "mods/soundsbegone.pw.toml"
+hash = "a8254b73d33d9b8b1e01b63161a6df8d8f83317611bae7d8add4697b27a089e4"
 metafile = true
 
 [[files]]
@@ -2017,7 +2032,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "820c7a11a6d105ee6b8e4faaf0b93f807fcdbc803f816437e2170c76c439e38c"
+hash = "b32427d80bba69d74dec8e9a44476ab543f564580879d8ca9c8e40543ccc0363"
 metafile = true
 
 [[files]]
