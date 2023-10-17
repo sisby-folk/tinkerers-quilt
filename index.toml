@@ -1011,6 +1011,11 @@ hash = "23741a1d4ab09af28cc04a035f30d0e9b0f26577697e0faaf797f2eed2833451"
 metafile = true
 
 [[files]]
+file = "mods/darktitlebar.pw.toml"
+hash = "46fa80388cf9f12faf47f41227d2b44677a90b3839e6b253e53ec2f51ac2b1ed"
+metafile = true
+
+[[files]]
 file = "mods/drogstyle.pw.toml"
 hash = "3cb69f9380e633b3187fef3c0855ffc8f8bee0477626d37329ba8a90c8c20ec9"
 metafile = true
