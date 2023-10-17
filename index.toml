@@ -73,6 +73,10 @@ file = "config/emi.css"
 hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 
 [[files]]
+file = "config/euphonium.toml"
+hash = "8baf72223d8fccae4610d35f213545eb415cfcf600a5fb5a223f2819b011f2b6"
+
+[[files]]
 file = "config/euphonium/biome.toml"
 hash = "cc8c83fa73ce84b1e116e963cb9bdf86e6fad1c1b4dceaca184bf8cdf16c6a7d"
 
@@ -1068,8 +1072,8 @@ hash = "bda35046f0b3d657acc0f32eaaead78999d353e0611f9760016e2c85c567a482"
 metafile = true
 
 [[files]]
-file = "mods/euphonium-1.0.0+1.20.jar"
-hash = "a6477fcaedadeacc00f0a99dc1cc6faa236ca7841d87b5543bdf7a3dd27a6cbc"
+file = "mods/euphonium-1.0.1+1.20.jar"
+hash = "a4e25e917b235af88f484c8c944aeceb6c1532177ae43f8d49364693e1bc3283"
 
 [[files]]
 file = "mods/exordium.pw.toml"
