@@ -1,0 +1,13 @@
+name = "DarkTitleBar"
+filename = "DarkTitleBar-1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wAP4f8Jf/versions/Sb4qRFxl/DarkTitleBar-1.1.jar"
+hash-format = "sha1"
+hash = "5cf19523b985b27cbd6357e05c21fb036f3ef6ad"
+
+[update]
+[update.modrinth]
+mod-id = "wAP4f8Jf"
+version = "Sb4qRFxl"
