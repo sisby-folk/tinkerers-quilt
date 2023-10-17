@@ -917,6 +917,10 @@ file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
+file = "config/iris.properties"
+hash = "d82261cbaaecc17f96f8c94e7f3e0f08130f7a37112d0f0994fb08fe11abf5e3"
+
+[[files]]
 file = "config/isxander-main-menu-credits.json"
 hash = "fbc7314411b3cd19e84db17a56c0f21621160071d34d826c13449297c6da534f"
 
@@ -1362,7 +1366,7 @@ hash = "e4d8e8059a44238536bf594bdf577e203a136d2a0b7d8c143ae72d255f5d6c27"
 
 [[files]]
 file = "mods/heracles-fabric-1.20.1-1.0.5.jar"
-hash = "775c6c3f38fecdb6a626ce99b6713708622f424e832101d82b23233ec189ef2e"
+hash = "7c159134fbdccb256333e358f62258285cbe42741cb1b7c201395dfd150c421e"
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
