@@ -1,0 +1,4 @@
+# The channel that Euphonium will use for playing sounds. Defaults to 'ambient'.
+# Options: music, record, weather, block, hostile, neutral, player, ambient, voice
+# default: ambient
+channel = "ambient"
