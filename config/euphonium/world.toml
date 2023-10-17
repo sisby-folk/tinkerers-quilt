@@ -1,0 +1,57 @@
+# Plays ambient sound according to features of the world around the player.
+# default: true
+enabled = true
+# Affects the volume of all situational ambient sounds. 1.0 is full volume.
+# default: 0.1
+volumeScaling = 0.55
+# Number of blocks above the ground that biome ambience will be silenced.
+# Set to zero to disable.
+# default: 32
+cullSoundAboveGround = 32
+# If true, plays ambient sounds while anywhere in the End.
+# default: true
+alien = false
+# If true, plays ambient sounds in cold and/or barren overworld environments.
+# default: true
+bleak = false
+# If true, plays more Integerense cave sounds when below Y 0 and light level is lower than 10.
+# default: true
+caveDepth = false
+# If true, plays a low drone sound when in a cave below Y 48.
+# default: true
+caveDrone = false
+# If true, plays ambient sounds when the player is underground and near deepslate blocks.
+# default: true
+deepslate = false
+# If true, plays ambient sounds in dry and/or hot overworld environments.
+# default: true
+dry = false
+# If true, plays ambient sounds from a nearby amethyst geode.
+# default: true
+geode = true
+# If true, plays ambient sounds when the player is underground and near gravel blocks.
+# default: true
+gravel = false
+# If true, plays ambient sounds when high up in the overworld.
+# default: true
+high = false
+# If true, plays ambient sounds while inside a woodland mansion.
+# default: true
+mansion = false
+# If true, plays ambient sounds from a nearby mineshaft.
+# default: true
+mineshaft = false
+# If true, plays ambient sounds in plains environments at night.
+# default: true
+nightPlains = false
+# If true, plays ambient sounds when in a cold biome during a thunderstorm.
+# default: true
+snowstorm = false
+# If true, plays water sounds from a nearby water source when underground.
+# default: true
+undergroundWater = true
+# If true, plays ambient sounds when a player is inside a village.
+# default: true
+village = true
+# Dimensions in which cave ambience (drone and depth) will be played.
+caveDimensions = ["minecraft:overworld"]
