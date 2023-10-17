@@ -77,18 +77,6 @@ file = "config/euphonium.toml"
 hash = "8baf72223d8fccae4610d35f213545eb415cfcf600a5fb5a223f2819b011f2b6"
 
 [[files]]
-file = "config/euphonium/biome.toml"
-hash = "cc8c83fa73ce84b1e116e963cb9bdf86e6fad1c1b4dceaca184bf8cdf16c6a7d"
-
-[[files]]
-file = "config/euphonium/config.toml"
-hash = "8e02efb94e73c8eb814a5fc08793f7b4dd4760e17638800cd2f8b438d825faeb"
-
-[[files]]
-file = "config/euphonium/world.toml"
-hash = "a46875320ec90881abe4a92a8961b75c2ba805896bd0a7dbe6d80b6d6c96ad9c"
-
-[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
