@@ -110,7 +110,7 @@ hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 
 [[files]]
 file = "config/euphonium.toml"
-hash = "8baf72223d8fccae4610d35f213545eb415cfcf600a5fb5a223f2819b011f2b6"
+hash = "1847561c619eda6b779411ebea1344b2ed495fa7955981fe3a64d6faeca9d0d6"
 
 [[files]]
 file = "config/exordium.json"
@@ -1291,6 +1291,11 @@ file = "mods/euphonium-1.0.1+1.20.jar"
 hash = "a4e25e917b235af88f484c8c944aeceb6c1532177ae43f8d49364693e1bc3283"
 
 [[files]]
+file = "mods/euphonium.pw.toml"
+hash = "d34ee6c3ae84ae7d6ce3b82fcf839c76175973af3d7e2efb347b9e42c9955bee"
+metafile = true
+
+[[files]]
 file = "mods/exordium.pw.toml"
 hash = "2b9b5a34a6f3cb5796b4e9996fe1da41d7b063b2727743aeed6c8d350d7cdbb6"
 metafile = true
@@ -1734,7 +1739,7 @@ metafile = true
 
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
-hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
+hash = "f4899afec6500b2a8e3f061abbb6bc34287f3f6992b9e24ba4706d4dad825cc4"
 metafile = true
 
 [[files]]
