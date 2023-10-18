@@ -73,10 +73,6 @@ file = "config/carpet/default_carpet.conf"
 hash = "971441aaa80e3839edd5fa6006c65a2866638b7117d83e5afdd9e454c36eec8c"
 
 [[files]]
-file = "config/charmonium.toml"
-hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
-
-[[files]]
 file = "config/chunksfadein.properties"
 hash = "17dbebe8db17d26a777c8f10e3cc6afff3720d278def1fed45f038c08b8f7ab3"
 
@@ -107,6 +103,10 @@ hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
 [[files]]
 file = "config/emi.css"
 hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
+
+[[files]]
+file = "config/euphonium.toml"
+hash = "1847561c619eda6b779411ebea1344b2ed495fa7955981fe3a64d6faeca9d0d6"
 
 [[files]]
 file = "config/exordium.json"
@@ -432,11 +432,6 @@ hash = "3b1ab484e2e6240f704b382d169d98f69ba3a312d89c0027f56e9ed7cd549c7f"
 metafile = true
 
 [[files]]
-file = "mods/charmonium.pw.toml"
-hash = "93d73b7d173197c7a9ab09f69bcb509c3c1f29cf3a552119f086b3f164a4d323"
-metafile = true
-
-[[files]]
 file = "mods/chickensshed.pw.toml"
 hash = "8bc786e062df82909ca65960da8c49469a70638587f28edbde548c47b94e1126"
 metafile = true
@@ -568,6 +563,11 @@ metafile = true
 [[files]]
 file = "mods/enhanced-attack-indicator.pw.toml"
 hash = "3dbaa5547de693172431a16b53fd042ef6b0d2658d0f5669b60951dec02b9731"
+metafile = true
+
+[[files]]
+file = "mods/euphonium.pw.toml"
+hash = "652f4588727d9c1c52a21553da19abe78dfbf9cc373dcd526272f07f606888bb"
 metafile = true
 
 [[files]]
