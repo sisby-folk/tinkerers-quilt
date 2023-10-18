@@ -1,0 +1,90 @@
+# The channel that Euphonium will use for playing sounds
+# options: MASTER, MUSIC, RECORDS, WEATHER, BLOCKS, HOSTILE, NEUTRAL, PLAYERS, AMBIENT, VOICE
+# default: AMBIENT
+channel = "AMBIENT"
+# Plays ambient background sound according to the biome and time of day
+# default: true
+biomeAmbienceEnabled = true
+# Plays ambient sound according to world features around the player
+# default: true
+worldAmbienceEnabled = true
+
+[biomeAmbience]
+	# Number of blocks above the ground that biome ambience will be silenced
+	# Set to zero to disable
+	# default: 32
+	cullSoundAboveGround = 32
+	# Number of blocks to check for neighbouring biomes
+	# Set to zero to disable
+	# default: 32
+	biomeBlend = 32
+	# Affects the volume of all biome ambient sounds
+	# range[0.0, 1.0]
+	# default: 0.55
+	volumeScaling = 0.3
+	# Dimensions in which biome ambience will be played
+	dimensions = ["minecraft:overworld", "minecraft:the_end"]
+
+[worldAmbience]
+	# Affects the volume of all world ambient sounds
+	# range[0.0, 1.0]
+	# default: 0.55
+	volumeScaling = 0.1
+	# Number of blocks above the ground that biome ambience will be silenced
+	# Set to zero to disable
+	# default: 32
+	cullSoundAboveGround = 32
+	# Plays ambient sounds while anywhere in the End
+	# default: true
+	alien = false
+	# Plays ambient sounds in cold and/or barren overworld environments
+	# default: true
+	bleak = false
+	# Plays ambient sounds in dry and/or hot overworld environments
+	# default: true
+	dry = false
+	# Plays ambient sounds when high up in the overworld
+	# default: true
+	high = false
+	# Plays ambient sounds in plains environments at night
+	# default: true
+	nightPlains = false
+	# Plays ambient sounds when in a cold biome during a thunderstorm
+	# default: true
+	snowstorm = false
+	# Plays ambient sounds while inside a woodland mansion
+	# default: true
+	mansion = false
+	# Plays ambient sounds when a player is inside a village
+	# default: true
+	village = true
+	# Plays ambient sounds from a nearby mineshaft
+	# default: true
+	mineshaft = false
+	# Plays ambient sounds from a nearby amethyst geode
+	# default: true
+	geode = true
+	# Plays water sounds from a nearby water source when underground
+	# default: true
+	undergroundWater = true
+	# Plays ambient sounds when the player is underground and near gravel blocks
+	# default: true
+	gravel = false
+	# Plays ambient sounds when the player is underground and near deepslate blocks
+	# default: true
+	deepslate = false
+	# Plays more Intense cave sounds when below Y 0 and light level is lower than 10
+	# default: true
+	caveDepth = false
+	# Plays a low drone sound when in a cave below a certain depth
+	# default: true
+	caveDrone = false
+	# Depth (Y Coordinate) under which cave drone ambience will play
+	# default: 48
+	caveDroneDepth = 48
+	# Light level at which cave ambience (drone and depth) will stop playing
+	# range[0, 16]
+	# default: 10
+	caveLightLevel = 10
+	# Dimensions in which cave ambience (drone and depth) will be played
+	caveDimensions = ["minecraft:overworld"]
