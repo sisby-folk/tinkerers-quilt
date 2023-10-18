@@ -74,7 +74,7 @@ hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
 
 [[files]]
 file = "config/euphonium.toml"
-hash = "8baf72223d8fccae4610d35f213545eb415cfcf600a5fb5a223f2819b011f2b6"
+hash = "1847561c619eda6b779411ebea1344b2ed495fa7955981fe3a64d6faeca9d0d6"
 
 [[files]]
 file = "config/exordium.json"
@@ -1071,6 +1071,11 @@ metafile = true
 [[files]]
 file = "mods/euphonium-1.0.1+1.20.jar"
 hash = "a4e25e917b235af88f484c8c944aeceb6c1532177ae43f8d49364693e1bc3283"
+
+[[files]]
+file = "mods/euphonium.pw.toml"
+hash = "652f4588727d9c1c52a21553da19abe78dfbf9cc373dcd526272f07f606888bb"
+metafile = true
 
 [[files]]
 file = "mods/exordium.pw.toml"
