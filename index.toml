@@ -1314,9 +1314,8 @@ hash = "9698e92ee6014892a3732b258fdc6983148d4f6204f403176d2926e1694e12c2"
 metafile = true
 
 [[files]]
-file = "mods/quickstack.pw.toml"
-hash = "de651b423d80c4ec72a6e45b34c1b1b1a947f303cebf35e3d34dcac7e2c99380"
-metafile = true
+file = "mods/quickstack-1.0.1-beta2+1.20.1.jar"
+hash = "8323b9154f101f7963ba26843f4a97bfbe33af1faa16a616c66dd97298b2b2cc"
 
 [[files]]
 file = "mods/quilt-loading-screen.pw.toml"
