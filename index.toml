@@ -1406,8 +1406,8 @@ hash = "d1059d88d7deb358141cb0fc58d200cb458642f7474f85b483e824e746d8d353"
 metafile = true
 
 [[files]]
-file = "mods/chunks-fade-in.pw.toml"
-hash = "ed917f425399ad4d2b38249319b4ecaac72f23eff3b3c723ad706a13cb4da2f7"
+file = "mods/chunks-fade-in4.pw.toml"
+hash = "5c8caf300c2b144b51bfcdb2af41fd67ad7da121e7dc85d7e43cc25a6af83813"
 metafile = true
 
 [[files]]
@@ -1436,8 +1436,8 @@ hash = "1163602dac7aea2e98a45827d8527d7e596d9f9d72e1aa6c8aebfef39d6d73c9"
 metafile = true
 
 [[files]]
-file = "mods/continuity.pw.toml"
-hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
+file = "mods/continuity4.pw.toml"
+hash = "1610f0a0e34ccffc6ef268ed3fa2177100e522fb925945ddb990154a9223a1cc"
 metafile = true
 
 [[files]]
@@ -1636,13 +1636,13 @@ hash = "a266409ee7850768e0883f4a9fbb64c0697cf63f393f5e35d03e23b772ab7452"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "7e9f6a5b564e4fbe92bff784eb13a2565eb5a631ed452cf9b8748e73935ae8b2"
+file = "mods/immediatelyfast4.pw.toml"
+hash = "3de74a300704890a4c0a6458de38f5e4418c380ddae51508861f671f8a5f64d2"
 metafile = true
 
 [[files]]
-file = "mods/indium.pw.toml"
-hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
+file = "mods/indium4.pw.toml"
+hash = "2ab474f26e9e3553b3bade450c813fbba3b2b828ad7e63794e699e9483fbe442"
 metafile = true
 
 [[files]]
@@ -1655,8 +1655,8 @@ file = "mods/inventorytabs-0.9.0-beta-1.20.jar"
 hash = "1e639f115699594ecc7a347fcf557d3d9c36c7bdb28ccd8a3583eb7f3eeef241"
 
 [[files]]
-file = "mods/iris.pw.toml"
-hash = "87ea5bf588ed195eaee3bcbd2432b5671692a203b25b688ffcbfeea6d2cea775"
+file = "mods/iris4.pw.toml"
+hash = "1ff0bf1e908af06ebff487133e22fb967c4497d64773e806c107687c652d5796"
 metafile = true
 
 [[files]]
@@ -1848,13 +1848,12 @@ hash = "f7cebb9f191593ed8d3aee3a1bd3ea8c400625702aea0fd5d6ffb9db0105b926"
 metafile = true
 
 [[files]]
-file = "mods/qkl.pw.toml"
-hash = "47217cc1489533f668d622f2078351a61873be573311a9a94be7293328a849a7"
-metafile = true
+file = "mods/qfapi-6.1.1+1.20.1+hell2.jar"
+hash = "6647f19ca4421ef61e83b677964f3064afb725b2838b9c385e0d21d4a4763461"
 
 [[files]]
-file = "mods/qsl.pw.toml"
-hash = "9698e92ee6014892a3732b258fdc6983148d4f6204f403176d2926e1694e12c2"
+file = "mods/qkl.pw.toml"
+hash = "47217cc1489533f668d622f2078351a61873be573311a9a94be7293328a849a7"
 metafile = true
 
 [[files]]
@@ -1877,8 +1876,8 @@ hash = "e51093357d39df8d7f2cb4111f423baeedfe607b327e3219e27d45a92af5aef7"
 metafile = true
 
 [[files]]
-file = "mods/reeses-sodium-options.pw.toml"
-hash = "44b0a2294e1693230308e53b529d671a0303e94b623ba2c2650cdf5760a5a335"
+file = "mods/reeses-sodium-options4.pw.toml"
+hash = "55c3a6e1a2d346a1bcf2c5f6cc916ab649507ad43b70a7ee0be255854529a220"
 metafile = true
 
 [[files]]
@@ -1926,12 +1925,12 @@ hash = "5e7200fa5e96bc83fde6da5894f414858ce54f7067ec702e56d7872ed5b25ab2"
 metafile = true
 
 [[files]]
-file = "mods/sodium-extra-0.5.1+mc1.20.1-unknown.jar"
-hash = "39513ba8ede3fca37d7ca6b79d5880697b990c0787eed6aec43dda463932b7ff"
+file = "mods/sodium-extra-0.4.27+mc1.20.1-unknown.jar"
+hash = "e1c646ae0e861ddec4dd8c3a590e24cf50ac2caada7ad11f3e5f5c6ade342f80"
 
 [[files]]
-file = "mods/sodium.pw.toml"
-hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
+file = "mods/sodium4.pw.toml"
+hash = "61c730ecc59ae6bf7fd413d52bd203d122a4a85ebbe953e79a3114f0328dc2b9"
 metafile = true
 
 [[files]]
