@@ -49,8 +49,8 @@ file = "config/citresewn.json"
 hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
 
 [[files]]
-file = "config/clienttweaks.toml"
-hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
+file = "config/clienttweaks-common.toml"
+hash = "6e69478836cd53650a962a92894eb11434cb681a6ab23f8961967fb8f364c0ab"
 
 [[files]]
 file = "config/colormatic.properties"
