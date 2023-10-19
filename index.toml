@@ -793,6 +793,10 @@ file = "config/modmenu.json"
 hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
 
 [[files]]
+file = "config/mousewheelie.hjson"
+hash = "342520c2852bfc107b0325bdd64339f396ba1a3d35fd0a6a5c828fc50ba6de82"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
