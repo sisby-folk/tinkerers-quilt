@@ -2045,6 +2045,18 @@ file = "resources/datapacks/hide_origin_orb/pack.mcmeta"
 hash = "0d31c599f159241b5b5e9d1c853a6495bc371115770aa61616872cfaa30bef4d"
 
 [[files]]
+file = "resources/datapacks/hide_origin_unaffected/data/tinkerer/origins/unaffected.json"
+hash = "8cd9154ede49760cc9f100b25be7df9b3b08ae821ccabe382866c85413ffaa3c"
+
+[[files]]
+file = "resources/datapacks/hide_origin_unaffected/data/tinkerer/powers/sized.json"
+hash = "c7eab5da897864af27e8cd868697a299f3b4670ec3653eb95f9e738fdcc65367"
+
+[[files]]
+file = "resources/datapacks/hide_origin_unaffected/pack.mcmeta"
+hash = "b518e34ca505bd6270c55760f43d605a8d57677eb3f622e26d618cfc99bf1cc9"
+
+[[files]]
 file = "resources/datapacks/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
 hash = "bd32eff1567a6ae10d7a06f751b353d5a5188f60c363d431438071f1db653352"
 
