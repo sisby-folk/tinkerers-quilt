@@ -81,8 +81,8 @@ file = "config/citresewn.json"
 hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
 
 [[files]]
-file = "config/clienttweaks.toml"
-hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
+file = "config/clienttweaks-common.toml"
+hash = "6e69478836cd53650a962a92894eb11434cb681a6ab23f8961967fb8f364c0ab"
 
 [[files]]
 file = "config/colormatic.properties"
@@ -937,6 +937,10 @@ file = "config/modmenu.json"
 hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
 
 [[files]]
+file = "config/mousewheelie.hjson"
+hash = "342520c2852bfc107b0325bdd64339f396ba1a3d35fd0a6a5c828fc50ba6de82"
+
+[[files]]
 file = "config/naturescompass.json"
 hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
@@ -1371,7 +1375,7 @@ hash = "e4d8e8059a44238536bf594bdf577e203a136d2a0b7d8c143ae72d255f5d6c27"
 
 [[files]]
 file = "mods/heracles-fabric-1.20.1-1.0.5.jar"
-hash = "7c159134fbdccb256333e358f62258285cbe42741cb1b7c201395dfd150c421e"
+hash = "43e17c8d0695f429e7326cec63049329754192e206bb9fd0493cc1ab4f22ad89"
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
@@ -2934,8 +2938,8 @@ file = "resources/datapacks/yung_tweaks/pack.mcmeta"
 hash = "c76f9f51edd4f46503553e2308211870473b436d525e71d19419b2fda368657e"
 
 [[files]]
-file = "resources/resourcepacks/VanillaTweaks_r311441.zip"
-hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
+file = "resources/resourcepacks/VanillaTweaks_r222502.zip"
+hash = "765862e6b27b72a5b8a668b4b761b717b3f4603ff2e050f4a4ab5020a83ddc0e"
 
 [[files]]
 file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
