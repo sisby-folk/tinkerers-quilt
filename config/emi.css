@@ -3,8 +3,8 @@
 	max-index-columns: 8;
 	fluid-unit: millibuckets;
 	use-batched-renderer: true;
-	append-mod-id: false;
-	append-item-mod-id: false;
+	append-mod-id: true;
+	append-item-mod-id: true;
 	right-sidebar-theme: modern;
 	search-sidebar-focus: index;
 	empty-search-sidebar-focus: craftables;
