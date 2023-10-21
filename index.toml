@@ -1073,10 +1073,6 @@ hash = "bda35046f0b3d657acc0f32eaaead78999d353e0611f9760016e2c85c567a482"
 metafile = true
 
 [[files]]
-file = "mods/euphonium-1.0.1+1.20.jar"
-hash = "a4e25e917b235af88f484c8c944aeceb6c1532177ae43f8d49364693e1bc3283"
-
-[[files]]
 file = "mods/euphonium.pw.toml"
 hash = "d34ee6c3ae84ae7d6ce3b82fcf839c76175973af3d7e2efb347b9e42c9955bee"
 metafile = true
