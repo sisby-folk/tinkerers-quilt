@@ -1285,6 +1285,10 @@ file = "data/seasons_compat_warn.dat"
 hash = "e4acf1365f8aba457ccde7923fd8b75e370e5f41da4673fb9cf9e0acabb442e2"
 
 [[files]]
+file = "mods/Apoli-1.20.1-2.9.0+bc.23.3.jar"
+hash = "6a2ea2e7881b556aa4918eaf7e7a8ec456b9422b388cfce87888b9bd319f1c46"
+
+[[files]]
 file = "mods/Botania-1.20.1-441-FABRIC-SNAPSHOT.jar"
 hash = "086ad0a6f35be4dcccb74dc13f10c207f1d9d9ef0dd356773421c23c379d37ab"
 
@@ -1618,7 +1622,7 @@ hash = "e4d8e8059a44238536bf594bdf577e203a136d2a0b7d8c143ae72d255f5d6c27"
 
 [[files]]
 file = "mods/heracles-fabric-1.20.1-1.0.5.jar"
-hash = "449f051443387ca27de38b017517b694145cf1267e6bffbc30fc7df5f1a2b8b2"
+hash = "11f2c6d5af664dd3e87029717f1ed980b73997b6a0b2493b66941f84851e6df8"
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
@@ -1795,8 +1799,8 @@ hash = "e09b4e3348ee5e8b836e40ea4745bf3ab0d584512e31166ab34a219c437a736a"
 metafile = true
 
 [[files]]
-file = "mods/owo-lib.pw.toml"
-hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
+file = "mods/owo-lib-111.pw.toml"
+hash = "cff0ca19ba193df7e9e159c8dd6952c3cbbdc36e9378e7f3f5505f57513fc46f"
 metafile = true
 
 [[files]]
