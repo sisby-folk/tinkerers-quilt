@@ -1409,11 +1409,6 @@ hash = "bd2cab029b39f8a64e4f4b0d0b3c5b9bb6b6482e174af890be4f278cd502edc8"
 metafile = true
 
 [[files]]
-file = "mods/chickensshed.pw.toml"
-hash = "d1059d88d7deb358141cb0fc58d200cb458642f7474f85b483e824e746d8d353"
-metafile = true
-
-[[files]]
 file = "mods/chunks-fade-in4.pw.toml"
 hash = "5c8caf300c2b144b51bfcdb2af41fd67ad7da121e7dc85d7e43cc25a6af83813"
 metafile = true
@@ -1523,7 +1518,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1534cc48fe10f96a488339c716e8e8b2b639cf9355b8949e09fa264991f16432"
+hash = "61d4f489d43922fb32e1868ddce2129ecfaddb40e42029908d41142057a28f89"
 metafile = true
 
 [[files]]
@@ -1568,7 +1563,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "c84efcf48d95355667b0c0b863feeaa771c97bbc60f928d18f65eaaadb1ecd89"
+hash = "2ad1f039b9d00ab9df743874ccd93d9d5adb28321c475aab183f0d9d4d8aad02"
 metafile = true
 
 [[files]]
@@ -1598,7 +1593,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "03e174cf691b52da20bd973b955fae6f3720d3d2120f9d6cc1de5fdf3180013c"
+hash = "39a6a39433b1b104bfafafcd60a8171f866daa2ebefffd64df822d0e69288e3a"
 metafile = true
 
 [[files]]
@@ -1670,7 +1665,7 @@ metafile = true
 
 [[files]]
 file = "mods/kaffees_dual_ride.pw.toml"
-hash = "820dece3f5d18fa4d429dd5412674f398b35d5ab43ff0690afee75fab3effaa1"
+hash = "9866c2b994c7b34d462430b04c30e84538414954e6f07462ab7d21aead518e8f"
 metafile = true
 
 [[files]]
@@ -1740,7 +1735,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d354dda98d65a789e411d116321bb50a7cbe6852b1f36fa77451068922fa50e7"
+hash = "36868c5bce91c29a02aba65827e48273588a5452177dbffa828e45fdcd6e3a0e"
 metafile = true
 
 [[files]]
@@ -1770,7 +1765,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "013f51850b4d677fec2fb03170990c30caa40bfbb9d15d2aef7a1b4c93eeab1b"
+hash = "98238b40e54f717063e49b3672815b23f2be871a8d297f8c964339dd518cbf10"
 metafile = true
 
 [[files]]
@@ -1810,7 +1805,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "1e1e434f917fde38e55d7783569083b327c918a2c567b5d4967e6446b69d9d9f"
+hash = "43b1a56c118d6ca8ee7b9599a88711d1e9426ad565a26ec07d7384457edf97a6"
 metafile = true
 
 [[files]]
@@ -1834,7 +1829,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "5027329d763899c40db5e3f389cfb2262d61d0037668c331db0cec1491c585d8"
+hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
 metafile = true
 
 [[files]]
@@ -1887,7 +1882,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "c89835f045a03832c287470cd1729a70f1265e3eac7b3cdaf603c3c1fd677689"
+hash = "71a584ee7d09de1685259a9d35bf4917901bdf88800a73cf0cf246ecc415626b"
 metafile = true
 
 [[files]]
@@ -1921,7 +1916,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "5e7200fa5e96bc83fde6da5894f414858ce54f7067ec702e56d7872ed5b25ab2"
+hash = "f0d4c91e05277f989bd731424aba31391f9763dea4f15d11d04d52a3e03b5a30"
 metafile = true
 
 [[files]]
@@ -2059,7 +2054,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "874a680170fbf36204ee1c4e57650b6a28b15d10a32163964850aaccc9a7457a"
+hash = "b9c6fcd2cbada34f2f90a95f79bad0227df9d41b17344477103396e699a9ecca"
 metafile = true
 
 [[files]]
@@ -3302,7 +3297,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "1c66dab8ed5239ab02c6778fef2c72aea8bdf18f94408bd13a2b90aefefec9b2"
+hash = "cbafd85956650e5273e178863d766c89e32b1d24bd19ae8bd38abc8ddd12e876"
 metafile = true
 
 [[files]]
