@@ -35,6 +35,7 @@
       "type": "heracles:item",
       "item": "minecraft:ladder"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
     "subtitle": {
       "text": "Jump 75 Times"
     },

@@ -55,6 +55,7 @@
       "type": "heracles:item",
       "item": "minecraft:iron_axe"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
     "subtitle": {
       "text": "Acquire Melee Weapons"
     },

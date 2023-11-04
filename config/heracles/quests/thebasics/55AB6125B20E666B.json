@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "minecraft:ender_eye"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "subtitle": {
       "text": "Craft 12 Eyes of Ender"
     },

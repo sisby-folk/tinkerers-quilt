@@ -52,6 +52,7 @@
       "type": "heracles:item",
       "item": "minecraft:mossy_stone_bricks"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
     "subtitle": {
       "text": "Find a Stronghold"
     },

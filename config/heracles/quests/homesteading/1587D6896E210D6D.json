@@ -113,6 +113,7 @@
       "type": "heracles:item",
       "item": "minecraft:fern"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "subtitle": {
       "text": "Keep the world renewed"
     },

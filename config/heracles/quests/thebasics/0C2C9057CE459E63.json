@@ -65,6 +65,7 @@
       "type": "heracles:item",
       "item": "minecraft:potion"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Brew Fire Res. and Slow Fall. Potions"
     },
