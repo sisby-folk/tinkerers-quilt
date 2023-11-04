@@ -44,6 +44,7 @@
       "type": "heracles:item",
       "item": "minecraft:fishing_rod"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Movement, Information, and Crafting"
     },

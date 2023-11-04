@@ -137,6 +137,7 @@
       "type": "heracles:item",
       "item": "minecraft:writable_book"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "You don't have to read this."
     },

@@ -102,6 +102,7 @@
       "type": "heracles:item",
       "item": "minecraft:dropper"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Craft a Dropper"
     },

@@ -57,6 +57,7 @@
       "type": "heracles:item",
       "item": "minecraft:turtle_helmet"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Craft a Turtle Shell"
     },

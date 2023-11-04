@@ -74,6 +74,7 @@
       "type": "heracles:item",
       "item": "minecraft:chest_minecart"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Travel far by rail"
     },
