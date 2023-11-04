@@ -48,6 +48,7 @@
       "type": "heracles:item",
       "item": "heracles:quest_book"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
     "subtitle": {
       "text": "Humans are also allowed!"
     },

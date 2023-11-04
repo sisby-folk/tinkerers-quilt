@@ -139,6 +139,7 @@
       "type": "heracles:item",
       "item": "minecraft:redstone_block"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "subtitle": {
       "text": "Forge great machines"
     },

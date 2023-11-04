@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "minecraft:diamond_horse_armor"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Travel far by Horse"
     },

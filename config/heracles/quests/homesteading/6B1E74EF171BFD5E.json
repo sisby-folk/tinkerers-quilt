@@ -31,6 +31,7 @@
       "type": "heracles:item",
       "item": "minecraft:composter"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Learn to farm many things"
     },

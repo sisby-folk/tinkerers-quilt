@@ -43,6 +43,7 @@
       "type": "heracles:item",
       "item": "minecraft:nautilus_shell"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Fish up a Nautilus Shell"
     },

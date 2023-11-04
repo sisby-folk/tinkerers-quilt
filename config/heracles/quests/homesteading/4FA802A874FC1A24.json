@@ -53,6 +53,7 @@
       "type": "heracles:item",
       "item": "minecraft:heart_of_the_sea"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Find a Heart of the Sea"
     },

@@ -198,6 +198,7 @@
       "type": "heracles:item",
       "item": "minecraft:spyglass"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "subtitle": {
       "text": "Explore the worlds"
     },

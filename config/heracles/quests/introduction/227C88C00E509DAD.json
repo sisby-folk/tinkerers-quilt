@@ -47,6 +47,7 @@
       "type": "heracles:item",
       "item": "minecraft:dragon_breath"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Origins, Skins, and Switches!"
     },

@@ -57,6 +57,7 @@
       "type": "heracles:item",
       "item": "minecraft:crying_obsidian"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "subtitle": {
       "text": "Find a Ruined Portal"
     },

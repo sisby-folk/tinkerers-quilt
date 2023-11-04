@@ -137,6 +137,7 @@
       "type": "heracles:item",
       "item": "minecraft:pumpkin"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Farm every basic crop"
     },

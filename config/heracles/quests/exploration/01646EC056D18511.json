@@ -69,6 +69,7 @@
       "type": "heracles:item",
       "item": "minecraft:filled_map"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "subtitle": {
       "text": "Become a familiar face"
     },

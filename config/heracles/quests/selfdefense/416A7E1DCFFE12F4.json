@@ -314,6 +314,7 @@
       "type": "heracles:item",
       "item": "minecraft:red_nether_bricks"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "subtitle": {
       "text": "Send monsters back to Hell"
     },
