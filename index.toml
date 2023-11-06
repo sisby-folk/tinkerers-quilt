@@ -1769,6 +1769,11 @@ hash = "98238b40e54f717063e49b3672815b23f2be871a8d297f8c964339dd518cbf10"
 metafile = true
 
 [[files]]
+file = "mods/noisium.pw.toml"
+hash = "f29f36550027f56437f78d0173b56436fde507c2e3beb62fb0fe16e0892c5f39"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
@@ -1916,7 +1921,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "f0d4c91e05277f989bd731424aba31391f9763dea4f15d11d04d52a3e03b5a30"
+hash = "6ea6e6bfb6072e0d300111df69ca340b539e94de2cef839c1247ce02194ac281"
 metafile = true
 
 [[files]]

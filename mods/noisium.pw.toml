@@ -1,0 +1,13 @@
+name = "Noisium"
+filename = "noisium-1.0.1+mc1.20.x.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/BcqAoKZi/noisium-1.0.1%2Bmc1.20.x.jar"
+hash-format = "sha1"
+hash = "0c3bedc0697d9bda87083922032a396bd906af9f"
+
+[update]
+[update.modrinth]
+mod-id = "KuNKN7d2"
+version = "BcqAoKZi"
