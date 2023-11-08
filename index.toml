@@ -1049,6 +1049,10 @@ file = "mods/Campanion-fabric-1.20.1-v4.1.3+1.20.f43befd+fabric.jar"
 hash = "d8da0fe4e2517d50ac81f120eb6f3cb62524f96e47ace853e97657f50cb2059d"
 
 [[files]]
+file = "mods/Couplings-1.9.1+1.19.jar"
+hash = "b742f3402bc394562160811b986401c0e07b1c17c86801d6ef23941e61d24eca"
+
+[[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
 
@@ -1198,11 +1202,6 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
-metafile = true
-
-[[files]]
-file = "mods/couplings.pw.toml"
-hash = "47e796fa0168407d6bf12e3aac6cf29881960df43ed21f844ab34ac891ee0730"
 metafile = true
 
 [[files]]
