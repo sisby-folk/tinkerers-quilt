@@ -93,6 +93,10 @@ file = "config/customwindowtitle-client.toml"
 hash = "64434743708f356ef65b3b380e4eac61e037991e81c823ff8bf94635dac14b8e"
 
 [[files]]
+file = "config/dramaticdoors.toml"
+hash = "09d8c493b302cc5b88057351526c6ce0b213b55664327367d01bf73df9046da8"
+
+[[files]]
 file = "config/earthtojavamobs.json"
 hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
@@ -1483,6 +1487,11 @@ hash = "e6cd8a58a2938b799035c66df16b440db0edf09c798978b8e857a6a27e8a6474"
 metafile = true
 
 [[files]]
+file = "mods/dramatic-doors.pw.toml"
+hash = "42dc7e4be5b69e41283c072e4065995081c1203d416ca168e2deee3f2ef3fa9e"
+metafile = true
+
+[[files]]
 file = "mods/drogstyle.pw.toml"
 hash = "3cb69f9380e633b3187fef3c0855ffc8f8bee0477626d37329ba8a90c8c20ec9"
 metafile = true
@@ -1905,6 +1914,11 @@ hash = "36c5793fe006b94902672303fba4a074c73f5fce4f6704d27e8fcaf2f08171de"
 metafile = true
 
 [[files]]
+file = "mods/simple-snowy-fix.pw.toml"
+hash = "63a6e44282a76510c30782da7e8686c42ca5ffc9f063f0d120c480b7a61de681"
+metafile = true
+
+[[files]]
 file = "mods/simplefog.pw.toml"
 hash = "1ecb59adbb103f86496203ff3f44a80b18193512e74fd7a367ed06234702059f"
 metafile = true
@@ -1917,11 +1931,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "89fc4d8fa43ced76ba5452eef196d5986d831ba828921cc133e4fc6139a123f0"
-metafile = true
-
-[[files]]
-file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "6ea6e6bfb6072e0d300111df69ca340b539e94de2cef839c1247ce02194ac281"
 metafile = true
 
 [[files]]
@@ -3251,11 +3260,6 @@ metafile = true
 [[files]]
 file = "resources/resourcepacks/styled_chat_emoji.json"
 hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
-
-[[files]]
-file = "resources/resourcepacks/sullys-peeves.pw.toml"
-hash = "95d834ba5574987eec0f88fb78fae10b062b6e9c807ae1872344bb17a20e880c"
-metafile = true
 
 [[files]]
 file = "resources/resourcepacks/tinkermoji.zip"
