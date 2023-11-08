@@ -1266,7 +1266,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "61d4f489d43922fb32e1868ddce2129ecfaddb40e42029908d41142057a28f89"
+hash = "9884c9af4ba83cbdf8bc6b102a257068566641a17d2c6dde63dcf41d0dd0603e"
 metafile = true
 
 [[files]]
@@ -1483,7 +1483,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "36868c5bce91c29a02aba65827e48273588a5452177dbffa828e45fdcd6e3a0e"
+hash = "e0e8c3e60bac3df37dd6d4ea9d1a5ea91807727ef797b557996d4e4062219d90"
 metafile = true
 
 [[files]]
@@ -1648,6 +1648,11 @@ hash = "36c5793fe006b94902672303fba4a074c73f5fce4f6704d27e8fcaf2f08171de"
 metafile = true
 
 [[files]]
+file = "mods/simple-snowy-fix.pw.toml"
+hash = "63a6e44282a76510c30782da7e8686c42ca5ffc9f063f0d120c480b7a61de681"
+metafile = true
+
+[[files]]
 file = "mods/simplefog.pw.toml"
 hash = "1ecb59adbb103f86496203ff3f44a80b18193512e74fd7a367ed06234702059f"
 metafile = true
@@ -1655,11 +1660,6 @@ metafile = true
 [[files]]
 file = "mods/skip-transitions.pw.toml"
 hash = "f907362d33b691fd58a7d05407284c6084a20daf2efb4694fe6c71f0e4820b0a"
-metafile = true
-
-[[files]]
-file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "6ea6e6bfb6072e0d300111df69ca340b539e94de2cef839c1247ce02194ac281"
 metafile = true
 
 [[files]]
@@ -2963,11 +2963,6 @@ file = "resources/resourcepacks/styled_chat_emoji.json"
 hash = "fed5a10b86cc0a562cb3c57777e2b6189dd9ddd13ab19a810fb7d78dd57f2bad"
 
 [[files]]
-file = "resources/resourcepacks/sullys-peeves.pw.toml"
-hash = "95d834ba5574987eec0f88fb78fae10b062b6e9c807ae1872344bb17a20e880c"
-metafile = true
-
-[[files]]
 file = "resources/resourcepacks/tinkermoji.zip"
 hash = "f4fba99e58986e1f41728aeac387a973fef80b91a41a3a6728e789cff84a3481"
 
@@ -3012,7 +3007,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "cbafd85956650e5273e178863d766c89e32b1d24bd19ae8bd38abc8ddd12e876"
+hash = "5e138fee71ce6310ca9333c12cbb9f11926d390b5b1d0a2d352eccbbb83f7320"
 metafile = true
 
 [[files]]
