@@ -1,0 +1,5 @@
+#Allows doors to be waterlogged. Enable to allow waterlogging, disable for compatibility with certain mods. | default: true
+dramaticdoors.waterloggable_doors=true
+#Allows fence gates to be waterlogged. Enable to allow waterlogging, disable for compatibility with certain mods. | default: true
+dramaticdoors.waterloggable_fence_gates=false
+
