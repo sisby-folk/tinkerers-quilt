@@ -89,6 +89,10 @@ file = "config/colormatic.properties"
 hash = "4fcc090a9488eee469956b8f70fead42eb60b513a7ee3de696887dcda051dd35"
 
 [[files]]
+file = "config/dramaticdoors.toml"
+hash = "09d8c493b302cc5b88057351526c6ce0b213b55664327367d01bf73df9046da8"
+
+[[files]]
 file = "config/earthtojavamobs.json"
 hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
@@ -130,7 +134,7 @@ hash = "7896313f20004224eef0280e2c277eab0538d6c5448b390781ef5d2022a759c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "7dfe6aef141e866a1c5a7c8ca286087817f124b9e97878d7e483fb8313015002"
+hash = "bde2519fbf6585b93eca22576cfb0886ae04e43a42a1f650f5265ff200044540"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
@@ -485,6 +489,11 @@ hash = "4a13d096e82525f8cd4eb0e8c14f43929d11d7d8b54d7d34a981f7ac29614699"
 metafile = true
 
 [[files]]
+file = "mods/dramatic-doors.pw.toml"
+hash = "42dc7e4be5b69e41283c072e4065995081c1203d416ca168e2deee3f2ef3fa9e"
+metafile = true
+
+[[files]]
 file = "mods/drogstyle.pw.toml"
 hash = "7efcd8fec8e46f93d5e392fc0b3432ccb619ef9b777eb18061359a87f4ce4827"
 metafile = true
@@ -632,11 +641,6 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "5d5e6d15156b2452e86faf869b21643a7cf5e90af7747071044500adba22c305"
-metafile = true
-
-[[files]]
-file = "mods/half-doors.pw.toml"
-hash = "fd34910c7292b2b48bb57c2b348c968cf5ea58f7c19683bf662ef801d167e233"
 metafile = true
 
 [[files]]
