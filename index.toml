@@ -93,6 +93,10 @@ file = "config/customwindowtitle-client.toml"
 hash = "c13771eb996491a131322b4f5fbf44391c0d78411f9e22242ad60b17d3003ef1"
 
 [[files]]
+file = "config/dramaticdoors.toml"
+hash = "09d8c493b302cc5b88057351526c6ce0b213b55664327367d01bf73df9046da8"
+
+[[files]]
 file = "config/earthtojavamobs.json"
 hash = "37b0b28a0ffaeb1d0d4b73e4191e8493d0ed4e244cd2fba5d022540a5765faca"
 
@@ -1228,6 +1232,11 @@ metafile = true
 [[files]]
 file = "mods/dawn.pw.toml"
 hash = "e6cd8a58a2938b799035c66df16b440db0edf09c798978b8e857a6a27e8a6474"
+metafile = true
+
+[[files]]
+file = "mods/dramatic-doors.pw.toml"
+hash = "42dc7e4be5b69e41283c072e4065995081c1203d416ca168e2deee3f2ef3fa9e"
 metafile = true
 
 [[files]]
