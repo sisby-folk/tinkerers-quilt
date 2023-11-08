@@ -526,7 +526,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "99b425ee377426a557730872870b09d387787c20b7dc3956b8dc7e9f33782e50"
+hash = "bef966a2257e40889162174c55b97a5178e8a176197ec54f6c4b484506f5bc20"
 metafile = true
 
 [[files]]
@@ -571,7 +571,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "1b8b51bc62aebde986b5394b1af62fcd6f7efcc249f7d5d2939b785027364e60"
+hash = "6c8bdef5ad4d205b6d16adc6106f62e3534e0a91dd243b52147793a00f21db96"
 metafile = true
 
 [[files]]
@@ -695,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/kaffees_dual_ride.pw.toml"
-hash = "395e906a3ea26e62185f6ad673295ac0d2c09055b46d560f5a6cbc9926e635a8"
+hash = "7645efe2d0ae0e9f01f977dfa8ba027037d0f4e1381a15499013a816103d9ad0"
 metafile = true
 
 [[files]]
@@ -770,7 +770,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e92b8d83b1c7cbf0245dd3588a4b9653d77a21d2b01c33951e35b03fb87f110b"
+hash = "7069843aac59149458342b594235a210c0a81b190266cc30e5164271961c1a32"
 metafile = true
 
 [[files]]
@@ -830,7 +830,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "1e1e434f917fde38e55d7783569083b327c918a2c567b5d4967e6446b69d9d9f"
+hash = "43b1a56c118d6ca8ee7b9599a88711d1e9426ad565a26ec07d7384457edf97a6"
 metafile = true
 
 [[files]]
@@ -918,6 +918,11 @@ hash = "36c5793fe006b94902672303fba4a074c73f5fce4f6704d27e8fcaf2f08171de"
 metafile = true
 
 [[files]]
+file = "mods/simple-snowy-fix.pw.toml"
+hash = "63a6e44282a76510c30782da7e8686c42ca5ffc9f063f0d120c480b7a61de681"
+metafile = true
+
+[[files]]
 file = "mods/simplefog.pw.toml"
 hash = "389c5dc857826166cea4bc187389e3389d34263a3634edd755217f498b527dfe"
 metafile = true
@@ -930,11 +935,6 @@ metafile = true
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "0d0620723ad1dec603edb2b36e8b218e2d2c1ea6d1c226e416d4f259d6ec53bf"
-metafile = true
-
-[[files]]
-file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "e6b7aed5ae934b4331ff35b6dac657aa5cd4fa0754f4a4d580c05cb74039662f"
 metafile = true
 
 [[files]]
@@ -1009,7 +1009,7 @@ metafile = true
 
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
-hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
+hash = "f4899afec6500b2a8e3f061abbb6bc34287f3f6992b9e24ba4706d4dad825cc4"
 metafile = true
 
 [[files]]
@@ -1064,7 +1064,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "1b4f3fc969b6e8a14298e52c8be89c5fda8b6696ff70c1e457317af4e2c088bc"
+hash = "a2a30f21ae6c1228c2666465c1eae9e657236dc861023c73b67f906f4a59944d"
 metafile = true
 
 [[files]]
@@ -2219,11 +2219,6 @@ hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
 [[files]]
 file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
 hash = "5629447454b0a7c1feeaf83a1bea58bb8031db23e2bfdede5588a4319745ec25"
-metafile = true
-
-[[files]]
-file = "resources/resourcepacks/sullys-peeves.pw.toml"
-hash = "95d834ba5574987eec0f88fb78fae10b062b6e9c807ae1872344bb17a20e880c"
 metafile = true
 
 [[files]]
