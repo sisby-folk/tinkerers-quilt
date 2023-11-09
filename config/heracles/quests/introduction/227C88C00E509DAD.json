@@ -1,6 +1,7 @@
 {
   "settings": {
-    "hidden": "IN_PROGRESS"
+    "hidden": "IN_PROGRESS",
+    "repeatable": true
   },
   "dependencies": [
     "15402DCFAC7CC56A"
