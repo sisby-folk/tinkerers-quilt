@@ -42,6 +42,12 @@
         "id": "minecraft:saddle"
       }
     },
+    "48DC8B200AD1A06B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:feather"
+      }
+    },
     "2599652A888442CB": {
       "type": "heracles:item",
       "item": {
@@ -67,13 +73,14 @@
       "<br/>",
       "&&aPigs&&r like &&3Vegetables&&r, &&aBovids&&r like &&3Wheat&&r, &&aChickens&&r like &&3Seeds&&r, &&aWolves&&r like &&3Meat&&r, &&aCats&&r like &&3Raw Fish&&r, and &&aFoxes&&r like &&3Berries&&r.",
       "<br/>",
-      "&&7[ChickensShed]&&r &&aChickens&&r will occasionally shed a &&3Feather&&r.",
+      "&&7[UsefulBrush]&&r &&aChickens&&r can be brushed for &&eFeathers&&r, and &&aSheep&&r for &&3Wool&&r.",
       "<br/>",
       "&&7[Earth2Java]&&r Many variants of passive mobs can be found, which sometimes produce &&eslightly different products&&r.",
       "<hr/>",
       "<reward reward=\"193E7AE725327338\" quest=\"63C534CA1FC2DADE\"/>",
       "<reward reward=\"70C312A9A950A397\" quest=\"63C534CA1FC2DADE\"/>",
       "<reward reward=\"48DC8A200AD1A06B\" quest=\"63C534CA1FC2DADE\"/>",
+      "<reward reward=\"48DC8B200AD1A06B\" quest=\"63C534CA1FC2DADE\"/>",
       "<reward reward=\"2599652A888442CB\" quest=\"63C534CA1FC2DADE\"/>"
     ],
     "icon": {
