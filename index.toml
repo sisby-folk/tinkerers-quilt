@@ -897,8 +897,8 @@ file = "config/waila/waila_plugins.json"
 hash = "02b8e1ce0f9cb835348441b1e2d37896f117c4943e5fc01ec7f8472d086875e3"
 
 [[files]]
-file = "config/yigd.toml"
-hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
+file = "config/yigd.json"
+hash = "8d0e2cd4367a51375e9c98bd41ab939ada7780c0596edc9640a4e6d2c28570a8"
 
 [[files]]
 file = "credits.txt"
