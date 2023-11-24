@@ -28,6 +28,12 @@
         "id": "minecraft:trident",
         "count": 1
       }
+    },
+    "7EF5AC1DA0E9B764": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:feather"
+      }
     }
   },
   "display": {
@@ -40,9 +46,12 @@
       "&&2Ocean Ruins&&r are guarded by &&cDrowned&&r and contain &&dloot chests - including Buried Treasure Maps&&r!",
       "<br/>",
       "Ruins are either made of &&3Stone Brick&&r in the &&2Colder Ocean Biomes&&r (with deeper blue water), or &&3Sandstone Bricks&&r in &&2Warmer Ocean Biomes&&r (like those with &&3Coral&&r)!",
+      "<br/>",
+      "Each ruin is scattered with &&3Suspicious Gravel&&r or &&3Suspicious Sand&&r respectively, which can be looted with a &&3Brush&&r.",
       "<hr/>",
       "<reward reward=\"400C030A828BCD26\" quest=\"6FB48CC24D3230F5\"/>",
-      "<reward reward=\"2FE51CCB8EF07E74\" quest=\"6FB48CC24D3230F5\"/>"
+      "<reward reward=\"2FE51CCB8EF07E74\" quest=\"6FB48CC24D3230F5\"/>",
+      "<reward reward=\"7EF5AC1DA0E9B764\" quest=\"6FB48CC24D3230F5\"/>"
     ],
     "icon": {
       "type": "heracles:item",

@@ -21,6 +21,12 @@
       "type": "heracles:xp",
       "xptype": "points",
       "amount": 50
+    },
+    "030FBB7AF89B783E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:feather"
+      }
     }
   },
   "display": {
@@ -30,11 +36,14 @@
       "<hr/>",
       "<task task=\"09796221B64CFFF4\" quest=\"5CF8EB5303569739\"/>",
       "<hr/>",
+      "Like &&2Desert Wells&&r, &&2Desert Temples&&r are also dotted with &&3Suspicious Sand&&r, which can be &&dbrushed for loot&&r.",
+      "<br/>",
       "&&7[YUNG's Better Desert Temples]&&r",
       "<br/>",
       "&&2Desert Temples&&r are dangerous fortresses full of traps, challenges, and &&dloot chests&&r.",
       "<hr/>",
-      "<reward reward=\"122D1702C9C1C756\" quest=\"5CF8EB5303569739\"/>"
+      "<reward reward=\"122D1702C9C1C756\" quest=\"5CF8EB5303569739\"/>",
+      "<reward reward=\"030FBB7AF89B783E\" quest=\"5CF8EB5303569739\"/>"
     ],
     "icon": {
       "type": "heracles:item",

@@ -503,7 +503,7 @@
 				""
 				"&aPigs&r like &3Vegetables&r, &aBovids&r like &3Wheat&r, &aChickens&r like &3Seeds&r, &aWolves&r like &3Meat&r, &aCats&r like &3Raw Fish&r, and &aFoxes&r like &3Berries&r."
 				""
-				"&7[ChickensShed]&r &aChickens&r will occasionally shed a &3Feather&r."
+				"&7[UsefulBrush]&r &aChickens&r can be brushed for &eFeathers&r, and &aSheep&r for &3Wool&r."
 				""
 				"&7[Earth2Java]&r Many variants of passive mobs can be found, which sometimes produce &eslightly different products&r."
 			]
@@ -526,6 +526,11 @@
 				{
 					id: "48DC8A200AD1A06B"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "48DC8B200AD1A06B"
+					item: "minecraft:feather"
 					type: "item"
 				}
 				{
@@ -2456,16 +2461,12 @@
 									id: "minecraft:depth_strider"
 									lvl: 3s
 								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:swift_sneak"
-									lvl: 4s
-								}
 							]
 							RepairCost: 31
+							Trim: {
+								material: "minecraft:gold"
+								pattern: "minecraft:wild"
+							}
 							display: {
 								Lore: ["{\"text\":\"Gift of Hermes\"}"]
 								Name: "{\"text\":\"Messenger Treads\", \"color\":\"dark_aqua\"}"
@@ -2534,6 +2535,10 @@
 								lvl: 5
 							}]
 							RepairCost: 31
+							Trim: {
+								material: "minecraft:amethyst"
+								pattern: "minecraft:silence"
+							}
 							display: {
 								Lore: ["[{\"text\":\"Comfy\",\"italic\":false}]"]
 								Name: "[{\"text\":\"Pyjama Pants\",\"italic\":false}]"
@@ -2875,6 +2880,8 @@
 				"The &eObserver&r provides full power &dwhenever the block it's facing changes&r - breaking and placing, &3Piston&r movements, &3Containers&r opening, &3Crops&r growing, &3Doors&r opening, and much more."
 				""
 				"The &eSculk Sensor&r provides power when it &3senses vibrations&r in an area - including all kinds of sounds."
+				""
+				"The &eCalibrated Sculk Sensor&r has a 16 block (double) range. It only responds to sounds whose &3frequency&r &dmatch its input power level&r (0-15). Each type of sound has a frequency, such as movement (1), hurt sounds (7), item use (3), eating (8), or activating (10) and deactivating (9) blocks - Test it out!"
 			]
 			hide: true
 			id: "7164FFFB3AFAFEF3"
@@ -2892,6 +2899,11 @@
 				{
 					id: "6270301AFBA65ECA"
 					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					id: "58DFCDB0D28B9055"
+					item: "minecraft:calibrated_sculk_sensor"
 					type: "item"
 				}
 			]
@@ -3123,6 +3135,8 @@
 			description: [
 				"&3Signs&r can be used to help &dlabel&r &3chests&r, &3rooms&r, &3machines&r, and more. Different kinds of &3Wood&r change the background, and the &dtext color can be dyed&r!"
 				""
+				"After placing, &6Right-Click&r can be used to &dedit text on either side&r of the sign. &3Honeycomb&r can be used to prevent this."
+				""
 				"&eItem frames&r can also be used to help &dorganize&r - a &3single item&r can be placed in them for display."
 				""
 				"For longer notes, craft a &3Book and Quill&r to write and store passages. &3Signing&r a book prevents it from being edited further."
@@ -3268,6 +3282,45 @@
 			title: "Logic"
 			x: 13.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["1BCC72C060356F02"]
+			description: [
+				"&3Flower Pots&r can be used to &ddisplay one small flower&r for decoration."
+				""
+				"&eChiseled Bookshelves&r can &dstore up to 6 books of any kind&r, for decoration and storage."
+				""
+				"&eHanging Signs&r are another crafted decoration. They hang &dperpendicular to the face they're placed on&r, which can help with indicating locations and directions."
+				""
+				"&7[Tall Flower Pots]&r &eDecorated Pots&r can be used to &ddisplay one tall flower&r (such as a &3Lilac&r) for decoration."
+			]
+			id: "6688C6D2FFD12067"
+			rewards: [
+				{
+					id: "7786BEACC5855DE7"
+					item: "minecraft:chiseled_bookshelf"
+					type: "item"
+				}
+				{
+					id: "4D968DE433464BB5"
+					item: "minecraft:decorated_pot"
+					type: "item"
+				}
+				{
+					id: "3E2C96AF9DB9DEC7"
+					item: "minecraft:oak_hanging_sign"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a Flower Pot"
+			tasks: [{
+				id: "15D8310BE6D8AF1D"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			title: "Inefficient Storage"
+			x: -4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1BCC72C060356F02"]

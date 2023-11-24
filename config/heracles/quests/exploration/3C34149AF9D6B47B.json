@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": "IN_PROGRESS"
+  },
+  "dependencies": [
+    "6FB48CC24D3230F5"
+  ],
+  "tasks": {
+    "13617D11EAA6AD74": {
+      "type": "heracles:item",
+      "item": "minecraft:sniffer_egg"
+    }
+  },
+  "rewards": {
+    "1154AA3A5DB12A6B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:moss_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Land Before Time",
+    "description": [
+      "<subtitle id=\"3C34149AF9D6B47B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"13617D11EAA6AD74\" quest=\"3C34149AF9D6B47B\"/>",
+      "<hr/>",
+      "&&3Suspicious Sand&&r found in &&2Warm Ocean Ruins&&r can be brushed to obtain a &&aSniffer&&r egg.",
+      "<br/>",
+      "&&3Sniffer Eggs&&r can be placed to hatch in 20 minutes - or 10 minutes if placed on a &&eMoss Block&&r.",
+      "<br/>",
+      "Once grown, &&aSniffers&&r will dig up seeds for for &&dunique decorative flowers&&r - the &&3Torchflower&&r and the &&3Pitcher Plant&&r.",
+      "<br/>",
+      "&&7[Biome Sniffer]&&r &&aSniffers&&r will &&7resemble the biome they were hatched in&&r - collect them all!",
+      "<hr/>",
+      "<reward reward=\"1154AA3A5DB12A6B\" quest=\"3C34149AF9D6B47B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sniffer_egg"
+    },
+    "subtitle": {
+      "text": "Find a Sniffer Egg"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -544,
+          -64
+        ]
+      }
+    }
+  }
+}

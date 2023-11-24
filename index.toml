@@ -137,6 +137,10 @@ file = "config/heracles/groups.txt"
 hash = "799f72b841ccf42d0406c9107f3850037beb3c14bfe32df41704411b793b67eb"
 
 [[files]]
+file = "config/heracles/quests/exploration/008B27BCA21B2D06.json"
+hash = "f04e686087c483f8a74c2fb464acd49b141e0bbdfe0701afcd00262aca0fe06f"
+
+[[files]]
 file = "config/heracles/quests/exploration/0100CE18C09040FB.json"
 hash = "aa21b82dab125f00ae46c602070c8f8cff02ab8af65d163cb413f5fc0e499125"
 
@@ -189,6 +193,10 @@ file = "config/heracles/quests/exploration/10CFFE20ABD36803.json"
 hash = "2dc6e2388c2950b324c1a11ffa336de140fe806b238b3ef8fb837ae6ab5742a1"
 
 [[files]]
+file = "config/heracles/quests/exploration/10D348A5529DCBAC.json"
+hash = "fc27dc362d0eeedf77a10704132c886f23002dba69833a9f9bc9e4bcceb87ecd"
+
+[[files]]
 file = "config/heracles/quests/exploration/11A0AAD39B488E1A.json"
 hash = "d9a20256034a83c7fca44cc61d6fa25a6d281d3c7ee1cd156a98c93396c5e9de"
 
@@ -222,7 +230,7 @@ hash = "5c2a01023f93f14831c8eb191a7fc143a95d23a46cf614a20163ef9e799d107e"
 
 [[files]]
 file = "config/heracles/quests/exploration/3602D52A78391BFA.json"
-hash = "0ff682c0b76627dbc63ff3648d70bf82ed7f72e9b964edf2fcdf1b773a458335"
+hash = "f57d71c5258399d3a9770abcc6962ea56ad4e53a5a6b0da6cc51678c7a20ead9"
 
 [[files]]
 file = "config/heracles/quests/exploration/363D88902D0237AA.json"
@@ -233,8 +241,12 @@ file = "config/heracles/quests/exploration/38B0E68B1130D006.json"
 hash = "85e29407e6ad4ec1b3b9290dd2cd2a4b2b1bb91573707bee2cfce8908eb52306"
 
 [[files]]
+file = "config/heracles/quests/exploration/3C34149AF9D6B47B.json"
+hash = "50a489147f22bd2bc764931f7b8c2e4eb31b2dd764a2b6276c2113e3ab08b843"
+
+[[files]]
 file = "config/heracles/quests/exploration/3D08C518610A72F1.json"
-hash = "852ced2ac0c3470ce2d5ef24f47dc3ae48f6cb57b54bbdb463953e20d10aeb4f"
+hash = "26fc8dd07442a5ffe34d09546a80a69fc1036b2cc3189039375e2da2c8e5d30e"
 
 [[files]]
 file = "config/heracles/quests/exploration/3E19CC5752F07CF9.json"
@@ -298,7 +310,7 @@ hash = "375c6d513451689d0bdc59f95de92832672391875fe4e097eefe0d301b06f79f"
 
 [[files]]
 file = "config/heracles/quests/exploration/5CF8EB5303569739.json"
-hash = "55b31589d513a9744ed8eebe8d9e23803fe17773739e71c0f366f0a65ca74b84"
+hash = "fe8c95deb94c0242c393ed611448e44c955ef18b93b4ef24e0fc1663819602b6"
 
 [[files]]
 file = "config/heracles/quests/exploration/5DC1E9DC98895E6F.json"
@@ -338,7 +350,11 @@ hash = "d6ab8b7bf99781acf4ff7278613792de301d93d31b8205fb835755892e93b807"
 
 [[files]]
 file = "config/heracles/quests/exploration/6FB48CC24D3230F5.json"
-hash = "5e23d2e054429d287c21eed080c551d064a5c94c9ea75c703baf49694f4c9560"
+hash = "e6685a497b7997610b19f423a1f50fb58fb48247bef069a23d9c1ee83cc9bf69"
+
+[[files]]
+file = "config/heracles/quests/exploration/703FE6977316B339.json"
+hash = "16f9172c57e4e9e84b01dac83b7ed0a3c59559f4adc90d2dce3aa607227f1608"
 
 [[files]]
 file = "config/heracles/quests/exploration/75D48083C53616FF.json"
@@ -362,7 +378,7 @@ hash = "6707d969c30351c3729da0cb25b78a1c76f46c48d86699442e033e999723994d"
 
 [[files]]
 file = "config/heracles/quests/homesteading/0342FEBA88E3AF0E.json"
-hash = "a7875b54d158692fc9ac0892480945d0b8a6de65e0a6e267b195c6740770cd38"
+hash = "1dfe85eab0c33b364f89c551c597dcfaa2c5862a1406e78f41de7d6058214177"
 
 [[files]]
 file = "config/heracles/quests/homesteading/039E822D32DC0A9B.json"
@@ -434,7 +450,7 @@ hash = "9add03e0f316b91ddaa6c344ef5b3a77b2e919e97c21cafa918267672718cfdc"
 
 [[files]]
 file = "config/heracles/quests/homesteading/1FFD2B27BC87EADB.json"
-hash = "16b8e86e6663db59bc9b9eeb674a294eed82496abce7f663678e08d4cc5f03e5"
+hash = "692722473831ffb83d5f13004313fbb19ee270462f5a25a97e899931f6634282"
 
 [[files]]
 file = "config/heracles/quests/homesteading/20E2938DD7365207.json"
@@ -470,7 +486,7 @@ hash = "49d5c35e3f98505bcc18af6d6bfd90c6d010583449c6065262c8a329392c6f6c"
 
 [[files]]
 file = "config/heracles/quests/homesteading/3347D4D672927CA6.json"
-hash = "e6592f847d304710acae86e82ac9fa3fab3d2c5624dbbec9ae9d3b1e8f62ea3f"
+hash = "e80734793d7ab622a1186aac312904e8318b1e4ff1e71905bbfebe45f0b74465"
 
 [[files]]
 file = "config/heracles/quests/homesteading/3811025165802342.json"
@@ -582,7 +598,7 @@ hash = "5837a6e93f201412704bf6d0e9c2a2b80c0b97c4346fac1947ab4df70ceeef01"
 
 [[files]]
 file = "config/heracles/quests/homesteading/64CD806DB1FFD979.json"
-hash = "e309bf3b45affca6f1fde6909b51ae7f4ba24743b3807b2117d0cbe54487d359"
+hash = "0092b45674054800415034e9d28580342bf0416289281d0e2fbe064bfb681c9a"
 
 [[files]]
 file = "config/heracles/quests/homesteading/657AC96A28C41511.json"
@@ -591,6 +607,10 @@ hash = "4c86f96aff7c1566e0a962aae33ff34fbc7ed6063c9db04eaed5c62a12d33be4"
 [[files]]
 file = "config/heracles/quests/homesteading/665ED9CB789FB958.json"
 hash = "bcdd2e1049b82fcd1f745b6067feff8e65b0ce46f4cc254c72fb3fb3a69b4461"
+
+[[files]]
+file = "config/heracles/quests/homesteading/6688C6D2FFD12067.json"
+hash = "64ea1cbfce636c945a1ecc8d964dc7a99532aa7f330fb8d0732f497dc9d6ec47"
 
 [[files]]
 file = "config/heracles/quests/homesteading/68BCEE273A77F4DA.json"
@@ -606,7 +626,7 @@ hash = "67d75451431d3ecc9c53ffcbfbf5959814932b4a26941ad161dba5c1f9294d4e"
 
 [[files]]
 file = "config/heracles/quests/homesteading/7164FFFB3AFAFEF3.json"
-hash = "fdfead59dd68232f6867adb94bdd4bffe8cba0dbe6cdb98e35b54171e56b2000"
+hash = "c12a702a53344abf7f9e8bd786a5a6e5d6e58b595076f8fe281072e0b9db6bca"
 
 [[files]]
 file = "config/heracles/quests/homesteading/74001D2726E7133D.json"
@@ -630,7 +650,7 @@ hash = "c3838378292ab7767491abb576630cb487e3c9fe413e529e42921a1fee10aec9"
 
 [[files]]
 file = "config/heracles/quests/introduction/1474F51D2832FCD5.json"
-hash = "6e4e4bc241d9e56fe46299124cb43aa900760cd9a728fb0bd6da116eb551a066"
+hash = "36451871fef991597a003b2b654c728b91d95b1ebac85727840b9e3469b1403e"
 
 [[files]]
 file = "config/heracles/quests/introduction/15402DCFAC7CC56A.json"
@@ -638,15 +658,15 @@ hash = "e8b5f061d818865697891a85456ac01c28eb521eb7f34bf33660dd53600e5e0e"
 
 [[files]]
 file = "config/heracles/quests/introduction/227C88C00E509DAD.json"
-hash = "eb7d761dbf168064b2d5a914e7228c8ed9203990abf6c6941240a372b37d544b"
+hash = "28b9eccf8c3d0173a074c6e6b7aa67fac8922062e7d7c928ee11bca279ee894c"
 
 [[files]]
 file = "config/heracles/quests/introduction/337730F25EC36332.json"
-hash = "ec9e0b8da27845bf9260d73665207532b0e3c80bc09c8006345e8d04ce1d9a4b"
+hash = "bde740080a787113f2d5e50c9321cbea9b3b2a9b44ebf486ae966524c8bee71a"
 
 [[files]]
 file = "config/heracles/quests/introduction/438625063C95601F.json"
-hash = "69d2d2c3be3a7cb68b656c8e78544285b0481e0f560b1fe233e05a79555e795d"
+hash = "f2b855ba7f41c3ef964457db634af166bab19d91a76af1aefb182680c5531d81"
 
 [[files]]
 file = "config/heracles/quests/introduction/7840EB3C8B8048EF.json"
@@ -670,7 +690,7 @@ hash = "41d94766f7d8bf73026b08c417acbedef2c8776789f223b9e1e272de11f1e961"
 
 [[files]]
 file = "config/heracles/quests/selfdefense/0B9F6A70B4F88B94.json"
-hash = "7152c62d44a0a33278e6060fb250017daa9fc49d500b3aa6cfdca4fd57b598ea"
+hash = "315d4790d832331171883420cd6a06bb667397f7659acbcde9d446030b505248"
 
 [[files]]
 file = "config/heracles/quests/selfdefense/0CB054935E7926CC.json"
@@ -742,7 +762,7 @@ hash = "17233af967c059ce9dc2545ed0218bd55981440ef7954bd434a2d726dc3ad28d"
 
 [[files]]
 file = "config/heracles/quests/selfdefense/42A9FC81752B5A9F.json"
-hash = "ba117ee24d66a4ae5a06877a56f2fb259732873fabd8cb42eaafea4a7980d050"
+hash = "e9b1a987f0ead0e4838d45343a548f827ced3093254983899e61fb4ba0814266"
 
 [[files]]
 file = "config/heracles/quests/selfdefense/42E807C7DFC19EBF.json"
@@ -949,6 +969,10 @@ file = "config/naturescompass.json"
 hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
 [[files]]
+file = "config/origins_server.json"
+hash = "d120f58cc7533b2814cfe9398f34af87ea86f8d925cbceaaa0befed05bfd70ce"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -1026,11 +1050,11 @@ hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
-hash = "29e2704167b1c425c26aa6644c947fee16991a9b1381faf50390dc1089975d66"
+hash = "f3fd13df0c27c60276d55109e8f8b4de0cfe01fbbc6b52cb31dd8cd3946a224f"
 
 [[files]]
-file = "config/yigd.toml"
-hash = "57879ebb89361d9872e89e66a272882c8be951a751598b269524a7f77b3714a1"
+file = "config/yigd.json"
+hash = "292389620810337a8138812c9e77136311ea806769ac3778e9a3e91f6dc73ef4"
 
 [[files]]
 file = "credits.txt"
@@ -1055,6 +1079,10 @@ hash = "4485afb153ee69479f250973b66f824ab989e0f8c6db12612c5818864af2e662"
 [[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
+
+[[files]]
+file = "mods/Origins-1.20.1-1.10.0.jar"
+hash = "01675e2b3732782f5bfbc08a211f739c8123b269bb9f40d36ac56d9fbc90ae3d"
 
 [[files]]
 file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
@@ -1368,9 +1396,8 @@ hash = "50cc94fc6be060961dc3f1f4b2104927e2dcf3fcd4728caf0b507aee21d9226f"
 metafile = true
 
 [[files]]
-file = "mods/heracles.pw.toml"
-hash = "7aaba49cf42f36c6bfa947bfa96f85212839e3accefd0e3772a5916cf32aa8d9"
-metafile = true
+file = "mods/heracles-fabric-1.20.1-1.1.4.jar"
+hash = "6c0be475b025bb7d5290fdeb02efb5cc3acf80164e8ff16373910a734c6c65d1"
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
@@ -1544,11 +1571,6 @@ metafile = true
 [[files]]
 file = "mods/origins-minus.pw.toml"
 hash = "78fc85206130f9dbb6e3152789ffbf5b99e80b58bddbaee58e3fe585df2f018e"
-metafile = true
-
-[[files]]
-file = "mods/origins.pw.toml"
-hash = "e09b4e3348ee5e8b836e40ea4745bf3ab0d584512e31166ab34a219c437a736a"
 metafile = true
 
 [[files]]
@@ -1803,6 +1825,11 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "b9c6fcd2cbada34f2f90a95f79bad0227df9d41b17344477103396e699a9ecca"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "5edfd6fdb609ae07e92e79362f4dc25df093cdac8929f218d1f4fb639d7e059a"
 metafile = true
 
 [[files]]

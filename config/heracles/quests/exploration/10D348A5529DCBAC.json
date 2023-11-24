@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": "IN_PROGRESS"
+  },
+  "dependencies": [
+    "789344ADD80A6FFA"
+  ],
+  "tasks": {
+    "4AADD00072F91C4A": {
+      "title": "Find a Cherry Grove",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:cherry_sapling"
+      },
+      "type": "heracles:biome",
+      "biomes": "minecraft:cherry_grove"
+    }
+  },
+  "rewards": {
+    "2D189A482579D3C2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Anthyding Can Hadplen",
+    "description": [
+      "<subtitle id=\"10D348A5529DCBAC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4AADD00072F91C4A\" quest=\"10D348A5529DCBAC\"/>",
+      "<hr/>",
+      "&&2Cherry Groves&&r are home to &&3Cherry Trees&&r, whose leaves constantly drop petals into the wind.",
+      "<br/>",
+      "Their distinctive &&dpink planks&&r can be used to create all the usual wooden furniture.",
+      "<hr/>",
+      "<reward reward=\"2D189A482579D3C2\" quest=\"10D348A5529DCBAC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cherry_sapling"
+    },
+    "subtitle": {
+      "text": "Find a Cherry Grove"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -64,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -29,6 +29,12 @@
       "item": {
         "id": "minecraft:sculk_sensor"
       }
+    },
+    "58DFCDB0D28B9055": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:calibrated_sculk_sensor"
+      }
     }
   },
   "display": {
@@ -47,10 +53,13 @@
       "The &&eObserver&&r provides full power &&dwhenever the block it's facing changes&&r - breaking and placing, &&3Piston&&r movements, &&3Containers&&r opening, &&3Crops&&r growing, &&3Doors&&r opening, and much more.",
       "<br/>",
       "The &&eSculk Sensor&&r provides power when it &&3senses vibrations&&r in an area - including all kinds of sounds.",
+      "<br/>",
+      "The &&eCalibrated Sculk Sensor&&r has a 16 block (double) range. It only responds to sounds whose &&3frequency&&r &&dmatch its input power level&&r (0-15). Each type of sound has a frequency, such as movement (1), hurt sounds (7), item use (3), eating (8), or activating (10) and deactivating (9) blocks - Test it out!",
       "<hr/>",
       "<reward reward=\"11E3CEE7928D92AF\" quest=\"7164FFFB3AFAFEF3\"/>",
       "<reward reward=\"383B477AF836D509\" quest=\"7164FFFB3AFAFEF3\"/>",
-      "<reward reward=\"6270301AFBA65ECA\" quest=\"7164FFFB3AFAFEF3\"/>"
+      "<reward reward=\"6270301AFBA65ECA\" quest=\"7164FFFB3AFAFEF3\"/>",
+      "<reward reward=\"58DFCDB0D28B9055\" quest=\"7164FFFB3AFAFEF3\"/>"
     ],
     "icon": {
       "type": "heracles:item",
