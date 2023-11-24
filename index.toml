@@ -1145,9 +1145,8 @@ hash = "1641f46d991917601e7b27581c4b3a1cebeaee58b3533afec8ee7fe80f2d3812"
 metafile = true
 
 [[files]]
-file = "mods/heracles.pw.toml"
-hash = "7aaba49cf42f36c6bfa947bfa96f85212839e3accefd0e3772a5916cf32aa8d9"
-metafile = true
+file = "mods/heracles-fabric-1.20.1-1.1.4.jar"
+hash = "6c0be475b025bb7d5290fdeb02efb5cc3acf80164e8ff16373910a734c6c65d1"
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
