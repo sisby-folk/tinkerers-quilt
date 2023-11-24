@@ -174,7 +174,7 @@ hash = "f57d71c5258399d3a9770abcc6962ea56ad4e53a5a6b0da6cc51678c7a20ead9"
 
 [[files]]
 file = "config/heracles/quests/exploration/3C34149AF9D6B47B.json"
-hash = "d8bdef66cdf13e1bdab0dc046bca5f3f39380470570262edc11ca64fd35b9be9"
+hash = "50a489147f22bd2bc764931f7b8c2e4eb31b2dd764a2b6276c2113e3ab08b843"
 
 [[files]]
 file = "config/heracles/quests/exploration/3D08C518610A72F1.json"
@@ -462,7 +462,7 @@ hash = "8555100dba598cacd2e7a98db7c7754b5470d986235417bfebdd865ecae724c9"
 
 [[files]]
 file = "config/heracles/quests/homesteading/63C534CA1FC2DADE.json"
-hash = "a7262f5c6291878f1065765dea7fe964ccc0461b2c827b04feafc59012fd74cf"
+hash = "27b3e72ebc4c836461846c25b2924b9663eaa7b13f44eda2976a547318ac6970"
 
 [[files]]
 file = "config/heracles/quests/homesteading/643F41D93DC1FB81.json"
@@ -522,7 +522,7 @@ hash = "a7c87ddfbcb3ba10d465c5f267284b29e52b51545291779746a8ea1b323fad2d"
 
 [[files]]
 file = "config/heracles/quests/introduction/1474F51D2832FCD5.json"
-hash = "11597e5199cec1e88b8fa30c4d6f2d4b2ead914fb901afecf508dead5838fab5"
+hash = "5a7c7cf2a943d51d938feab03b69d9ecc853bb0a5256e9abb502c556eb6565fd"
 
 [[files]]
 file = "config/heracles/quests/introduction/15402DCFAC7CC56A.json"
@@ -534,11 +534,11 @@ hash = "28b9eccf8c3d0173a074c6e6b7aa67fac8922062e7d7c928ee11bca279ee894c"
 
 [[files]]
 file = "config/heracles/quests/introduction/337730F25EC36332.json"
-hash = "ec9e0b8da27845bf9260d73665207532b0e3c80bc09c8006345e8d04ce1d9a4b"
+hash = "bde740080a787113f2d5e50c9321cbea9b3b2a9b44ebf486ae966524c8bee71a"
 
 [[files]]
 file = "config/heracles/quests/introduction/438625063C95601F.json"
-hash = "69d2d2c3be3a7cb68b656c8e78544285b0481e0f560b1fe233e05a79555e795d"
+hash = "f2b855ba7f41c3ef964457db634af166bab19d91a76af1aefb182680c5531d81"
 
 [[files]]
 file = "config/heracles/quests/introduction/7840EB3C8B8048EF.json"
@@ -622,7 +622,7 @@ hash = "17233af967c059ce9dc2545ed0218bd55981440ef7954bd434a2d726dc3ad28d"
 
 [[files]]
 file = "config/heracles/quests/selfdefense/42A9FC81752B5A9F.json"
-hash = "ba117ee24d66a4ae5a06877a56f2fb259732873fabd8cb42eaafea4a7980d050"
+hash = "e9b1a987f0ead0e4838d45343a548f827ced3093254983899e61fb4ba0814266"
 
 [[files]]
 file = "config/heracles/quests/selfdefense/42E807C7DFC19EBF.json"
@@ -698,7 +698,7 @@ hash = "3bc89f59f2d437da4e5d6c6109222c6f463909565d31bac1539f0fee52351c50"
 
 [[files]]
 file = "config/heracles/quests/thebasics/06B5F4D5D8A0D202.json"
-hash = "8f12fe04740273f6dff44f7b2aada5691be7a607d6107a57f11e8c175558e9ad"
+hash = "723f34d6802dc0ba9d72f2928fd39b8e55f527401845db77eb73eea4a20b0c56"
 
 [[files]]
 file = "config/heracles/quests/thebasics/0C2C9057CE459E63.json"
@@ -817,6 +817,10 @@ file = "config/mousewheelie.hjson"
 hash = "342520c2852bfc107b0325bdd64339f396ba1a3d35fd0a6a5c828fc50ba6de82"
 
 [[files]]
+file = "config/origins_server.json"
+hash = "d120f58cc7533b2814cfe9398f34af87ea86f8d925cbceaaa0befed05bfd70ce"
+
+[[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
@@ -907,6 +911,10 @@ hash = "6a2ea2e7881b556aa4918eaf7e7a8ec456b9422b388cfce87888b9bd319f1c46"
 [[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
+
+[[files]]
+file = "mods/Origins-1.20.1-1.10.0.jar"
+hash = "01675e2b3732782f5bfbc08a211f739c8123b269bb9f40d36ac56d9fbc90ae3d"
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
@@ -1291,11 +1299,6 @@ hash = "78fc85206130f9dbb6e3152789ffbf5b99e80b58bddbaee58e3fe585df2f018e"
 metafile = true
 
 [[files]]
-file = "mods/origins.pw.toml"
-hash = "e09b4e3348ee5e8b836e40ea4745bf3ab0d584512e31166ab34a219c437a736a"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib-111.pw.toml"
 hash = "cff0ca19ba193df7e9e159c8dd6952c3cbbdc36e9378e7f3f5505f57513fc46f"
 metafile = true
@@ -1523,6 +1526,11 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "b9c6fcd2cbada34f2f90a95f79bad0227df9d41b17344477103396e699a9ecca"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "5edfd6fdb609ae07e92e79362f4dc25df093cdac8929f218d1f4fb639d7e059a"
 metafile = true
 
 [[files]]

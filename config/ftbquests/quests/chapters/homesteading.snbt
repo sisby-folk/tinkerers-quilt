@@ -445,7 +445,7 @@
 				""
 				"&aPigs&r like &3Vegetables&r, &aBovids&r like &3Wheat&r, &aChickens&r like &3Seeds&r, &aWolves&r like &3Meat&r, &aCats&r like &3Raw Fish&r, and &aFoxes&r like &3Berries&r."
 				""
-				"&7[ChickensShed]&r &aChickens&r will occasionally shed a &3Feather&r."
+				"&7[UsefulBrush]&r &aChickens&r can be brushed for &eFeathers&r, and &aSheep&r for &3Wool&r."
 			]
 			hide: true
 			icon: "minecraft:spruce_fence"
@@ -466,6 +466,11 @@
 				{
 					id: "48DC8A200AD1A06B"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "48DC8B200AD1A06B"
+					item: "minecraft:feather"
 					type: "item"
 				}
 			]
