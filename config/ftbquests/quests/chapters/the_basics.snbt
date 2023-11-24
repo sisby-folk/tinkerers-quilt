@@ -412,6 +412,8 @@
 				""
 				"It's used to make &dNetherite Ingots&r, which can upgrade &3Diamond Equipment&r at a &3Smithing Table&r."
 				""
+				"This upgrade also requires a &eNetherite Upgrade Template&r, which can be found in the treasure room of &2Bastion Remnants&r - or duplicated using 9 &3Diamonds&r."
+				""
 				"&7[Tinkerer's Smithing]&r &3Netherite Scrap&r can also be applied to equipment at an &3Anvil&r to &dlower its anvil costs&r."
 			]
 			hide: true
@@ -427,6 +429,11 @@
 					count: 4
 					id: "47985ECF276FEE7A"
 					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "790847ED33DDD32A"
+					item: "minecraft:netherite_upgrade_smithing_template"
 					type: "item"
 				}
 			]
@@ -548,7 +555,7 @@
 				icon: "minecraft:purpur_block"
 				id: "3403F8CB9F8DB4E1"
 				structure: "minecraft:end_city"
-				"title": "Find an End City"
+				title: "Find an End City"
 				type: "structure"
 			}]
 			title: "Shell City"

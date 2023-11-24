@@ -285,7 +285,7 @@
 			}]
 			title: "Underwater Fighting Team!"
 			x: -17.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["47ED4204DD0D65C4"]
@@ -763,6 +763,8 @@
 				"02D9B5C70D9D6007"
 				"50C5FC2ED5BF1A83"
 				"3E19CC5752F07CF9"
+				"10D348A5529DCBAC"
+				"008B27BCA21B2D06"
 			]
 			description: [
 				"&3Beacons&r beams can be coloured with &3Stained Glass&r."
@@ -845,15 +847,15 @@
 									lvl: 20s
 								}
 								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-								{
 									id: "minecraft:mending"
 									lvl: 1s
 								}
 							]
 							RepairCost: 31
+							Trim: {
+								material: "minecraft:iron"
+								pattern: "minecraft:wayfinder"
+							}
 							display: {
 								Lore: ["{\"text\":\"Gift of Mercury\"}"]
 								Name: "{\"text\":\"Explorer's Helmet\", \"color\":\"dark_purple\"}"
@@ -918,6 +920,8 @@
 			description: [
 				"Strewn with &3Bamboo&r and rarely &aPandas&r, &2Bamboo Jungles&r can be recognised from a great distance."
 				""
+				"&3Bamboo&r can be combined into &eBlocks&r, whose planks can be used to craft &dfurniture and boats&r with a unique look."
+				""
 				"Climbable &3Scaffolding&r, crafted from &3Bamboo&r, can support &dtemporary towers&r up to six blocks wide, &dbreaking instantly&r when unsupported."
 				""
 				"&aPandas&r are neutral animals that like &3Bamboo&r, with &3varying personality&r types shown on their face."
@@ -926,11 +930,18 @@
 			]
 			hide: true
 			id: "3D08C518610A72F1"
-			rewards: [{
-				id: "48566F7A2C868EE0"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "48566F7A2C868EE0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "31ABC4FFDCAC21FD"
+					item: "minecraft:bamboo_block"
+					type: "item"
+				}
+			]
 			subtitle: "Find a Bamboo Jungle"
 			tasks: [{
 				biome: "minecraft:bamboo_jungle"
@@ -1021,7 +1032,9 @@
 			description: [
 				"&2Desert Temples&r contain a &3TNT&r-&3Pressure Plate&r pit trap with &dloot chests&r inside."
 				""
-				"A pattern adorns the centre of the centre of the temple, concealing the pit. By &dbreaking the centre blocks without standing on them&r, the pit can be revealed."
+				"Like &2Desert Wells&r, they're also dotted with &3Suspicious Sand&r, which can be &dbrushed for loot&r."
+				""
+				"A pattern adorns the centre of the temple, concealing the pit. By &dbreaking the centre blocks without standing on them&r, the pit can be revealed."
 				""
 				"The explosive pressure plate is visible in the centre of the pit. After &dmining downwards to reach the bottom&r, the pressure plate can be broken to defuse the trap."
 				""
@@ -1030,11 +1043,18 @@
 			hide: true
 			icon: "minecraft:chiseled_sandstone"
 			id: "5CF8EB5303569739"
-			rewards: [{
-				id: "122D1702C9C1C756"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "122D1702C9C1C756"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "030FBB7AF89B783E"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
 			subtitle: "Find a Desert Temple"
 			tasks: [{
 				disable_toast: true
@@ -1100,6 +1120,8 @@
 				"&2Ocean Ruins&r are guarded by &cDrowned&r and contain &dloot chests - including Buried Treasure Maps&r!"
 				""
 				"Ruins are either made of &3Stone Brick&r in the &2Colder Ocean Biomes&r (with deeper blue water), or &3Sandstone Bricks&r in &2Warmer Ocean Biomes&r (like those with &3Coral&r)!"
+				""
+				"Each ruin is scattered with &3Suspicious Gravel&r or &3Suspicious Sand&r respectively, which can be looted with a &3Brush&r."
 			]
 			hide: true
 			icon: "minecraft:mossy_stone_bricks"
@@ -1119,6 +1141,11 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "7EF5AC1DA0E9B764"
+					item: "minecraft:feather"
 					type: "item"
 				}
 			]
@@ -1720,6 +1747,129 @@
 			title: "Fairy Prisoner"
 			x: -8.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["789344ADD80A6FFA"]
+			description: [
+				"&2Cherry Groves&r are home to &3Cherry Trees&r, whose leaves constantly drop petals into the wind."
+				""
+				"Their distinctive &dpink planks&r can be used to create all the usual wooden furniture."
+			]
+			hide: true
+			id: "10D348A5529DCBAC"
+			rewards: [{
+				id: "2D189A482579D3C2"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Find a Cherry Grove"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: "minecraft:cherry_sapling"
+				id: "4AADD00072F91C4A"
+				title: "Find a Cherry Grove"
+				type: "biome"
+			}]
+			title: "Anthyding Can Hadplen"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47ED4204DD0D65C4"]
+			description: [
+				"&2Trail Ruins&r are full of &3Suspicious Gravel&r, which can be &eBrushed&r to obtain loot - including rare &dpottery decorations, armor trims, and a music disc&r."
+				""
+				"&7[Useful Brush]&r &eBrushes&r can also be used to collect &3Feathers&r from &aChickens&r, &3String&r from &aSheep&r, and clean &3Mossy Cobblestone&r and &3Stone Bricks&r."
+			]
+			hide: true
+			id: "008B27BCA21B2D06"
+			rewards: [
+				{
+					id: "40DF3187582CB82D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5C5F93AC44A64FE9"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0298ECBAD725CA6D"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
+			subtitle: "Find Trail Ruins"
+			tasks: [{
+				icon: "minecraft:suspicious_gravel"
+				id: "435CAB1F15E19EF0"
+				structure: "minecraft:trail_ruins"
+				title: "Find Trail Ruins"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FB48CC24D3230F5"]
+			description: [
+				"&3Suspicious Sand&r found in &2Warm Ocean Ruins&r can be brushed to obtain a &aSniffer&r egg."
+				""
+				"&3Sniffer Eggs&r can be placed to hatch in 20 minutes - or 10 minutes if placed on a &eMoss Block&r."
+				""
+				"Once grown, &aSniffers&r will dig up seeds for for &dunique decorative flowers&r - the &3Torchflower&r and the &3Pitcher Plant&r."
+			]
+			hide: true
+			id: "3C34149AF9D6B47B"
+			rewards: [{
+				id: "1154AA3A5DB12A6B"
+				item: "minecraft:moss_block"
+				type: "item"
+			}]
+			subtitle: "Find a Sniffer Egg"
+			tasks: [{
+				id: "13617D11EAA6AD74"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "Land Before Time"
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B63891D4F70167D"]
+			description: [
+				"&aCamels&r can be &esaddled&r and ridden like &aHorses&r, but &dprotect the player from melee mobs&r while riding."
+				""
+				"They can &dfit two players&r, and &dwalk over 1.5 block tall obstacles&r like &3Fences&r."
+				""
+				"Jumping with a camel will instead perform a &3dash&r, travelling up to &d12 blocks forwards&r when fully charged - which can be used to cross gaps."
+			]
+			icon: "minecraft:saddle"
+			id: "703FE6977316B339"
+			rewards: [{
+				id: "3C5E0EF5049094D3"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			subtitle: "Find a Camel"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:camel_spawn_egg"
+					tag: { }
+				}
+				id: "326B0B2D36C87887"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Camel"
+				to_observe: "minecraft:camel"
+				type: "observation"
+			}]
+			title: "Can't afford a Carriage"
+			x: -11.5d
+			y: -10.5d
 		}
 	]
 	title: "Exploration"
