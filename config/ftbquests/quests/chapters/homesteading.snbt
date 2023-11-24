@@ -2401,10 +2401,6 @@
 									id: "minecraft:unbreaking"
 									lvl: 3s
 								}
-								{
-									id: "minecraft:swift_sneak"
-									lvl: 4s
-								}
 							]
 							RepairCost: 31
 							display: {

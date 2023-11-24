@@ -98,7 +98,7 @@ hash = "dc4c152f843e5722ac69b9e20778c5226149400ecdf83be50ac678d9e28b5c70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "74405f4a1949d53a8f634a96a6716503a47c620da7bc57b5fb5688cb8eb4f442"
+hash = "534756ec8b14b3b471764c8b08184e8558247efafd4bd0fb8b797c50067334ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -110,7 +110,7 @@ hash = "9126b653bf85bc8ce48bb0ecfc42d53b0f9ba33ca57f366ee3b991e6e10a8a3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/world.snbt"
-hash = "831dadc7a64475f6c284b3678afa53fbe9e3410b6d2152d7b18837ae12e53102"
+hash = "762017f80bb4ec80dea0d75ef5f0903d0f5731245c772b4aff58d8ad8c09e069"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -118,7 +118,7 @@ hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "fac269b306f404ae41825741ea0f70abf74982c183194a848ee9d34e6eda55c6"
+hash = "999bea40039cf1d843ce0b01b98ad2068dd5bfbd862ee4b24602f8cca8377553"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
@@ -223,10 +223,6 @@ hash = "7c68180a8e6416c3d5cdd8c00199c23123df202f4f401fca3d8d6518c4d96819"
 [[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
-
-[[files]]
-file = "mods/Fishingreal-1.19.2-1.6.jar"
-hash = "09319a9d29191677835fb252f586cb0e920b83c5f5606e33c63efc25eb54d2db"
 
 [[files]]
 file = "mods/Origins-1.19.2-1.7.1.jar"
@@ -465,6 +461,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "98da553a1ba2d41bfce3585198641c2d927c702d5403ebec82402ae51ddf707f"
+metafile = true
+
+[[files]]
+file = "mods/fishing-real.pw.toml"
+hash = "cab290a4e59451743fb5f8700ed9e0fbe91a501e78f8b2de9fd6982ffd149f90"
 metafile = true
 
 [[files]]
