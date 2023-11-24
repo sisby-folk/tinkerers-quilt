@@ -77,6 +77,10 @@
             }
           ],
           "RepairCost": 31,
+          "Trim": {
+            "material": "minecraft:gold",
+            "pattern": "minecraft:silence"
+          },
           "display": {
             "Lore": [
               "{\"text\":\"Gift of Athena\"}"

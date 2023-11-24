@@ -72,25 +72,32 @@
         "007B699DEE2A8811_7": {
           "type": "heracles:item",
           "item": {
-            "id": "minecraft:crimson_fence",
+            "id": "minecraft:cherry_fence",
             "count": 128
           }
         },
         "007B699DEE2A8811_8": {
           "type": "heracles:item",
           "item": {
-            "id": "minecraft:warped_fence",
+            "id": "minecraft:bamboo_fence",
             "count": 128
           }
         },
         "007B699DEE2A8811_9": {
           "type": "heracles:item",
           "item": {
-            "id": "minecraft:warped_fence",
+            "id": "minecraft:crimson_fence",
             "count": 128
           }
         },
         "007B699DEE2A8811_10": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:warped_fence",
+            "count": 128
+          }
+        },
+        "007B699DEE2A8811_11": {
           "type": "heracles:item",
           "item": {
             "id": "minecraft:nether_brick_fence",

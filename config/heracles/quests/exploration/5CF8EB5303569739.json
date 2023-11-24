@@ -21,6 +21,12 @@
       "type": "heracles:xp",
       "xptype": "points",
       "amount": 50
+    },
+    "030FBB7AF89B783E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:feather"
+      }
     }
   },
   "display": {
@@ -32,13 +38,16 @@
       "<hr/>",
       "&&2Desert Temples&&r contain a &&3TNT&&r-&&3Pressure Plate&&r pit trap with &&dloot chests&&r inside.",
       "<br/>",
-      "A pattern adorns the centre of the centre of the temple, concealing the pit. By &&dbreaking the centre blocks without standing on them&&r, the pit can be revealed.",
+      "Like &&2Desert Wells&&r, they're also dotted with &&3Suspicious Sand&&r, which can be &&dbrushed for loot&&r.",
+      "<br/>",
+      "A pattern adorns the centre of the temple, concealing the pit. By &&dbreaking the centre blocks without standing on them&&r, the pit can be revealed.",
       "<br/>",
       "The explosive pressure plate is visible in the centre of the pit. After &&dmining downwards to reach the bottom&&r, the pressure plate can be broken to defuse the trap.",
       "<br/>",
       "The &&3Chests&&r and &&3TNT&&r can then both be taken.",
       "<hr/>",
-      "<reward reward=\"122D1702C9C1C756\" quest=\"5CF8EB5303569739\"/>"
+      "<reward reward=\"122D1702C9C1C756\" quest=\"5CF8EB5303569739\"/>",
+      "<reward reward=\"030FBB7AF89B783E\" quest=\"5CF8EB5303569739\"/>"
     ],
     "icon": {
       "type": "heracles:item",

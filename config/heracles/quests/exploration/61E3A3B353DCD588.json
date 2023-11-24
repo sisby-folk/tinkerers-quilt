@@ -27,7 +27,9 @@
     "01646EC056D18511",
     "02D9B5C70D9D6007",
     "50C5FC2ED5BF1A83",
-    "3E19CC5752F07CF9"
+    "3E19CC5752F07CF9",
+    "10D348A5529DCBAC",
+    "008B27BCA21B2D06"
   ],
   "tasks": {
     "63DE6483F0A04B81": {
@@ -101,15 +103,15 @@
               "lvl": 20
             },
             {
-              "id": "minecraft:unbreaking",
-              "lvl": 3
-            },
-            {
               "id": "minecraft:mending",
               "lvl": 1
             }
           ],
           "RepairCost": 31,
+          "Trim": {
+            "material": "minecraft:iron",
+            "pattern": "minecraft:wayfinder"
+          },
           "display": {
             "Lore": [
               "{\"text\":\"Gift of Mercury\"}"

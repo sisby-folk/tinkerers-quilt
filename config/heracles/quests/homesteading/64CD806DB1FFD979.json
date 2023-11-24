@@ -27,6 +27,10 @@
             }
           ],
           "RepairCost": 31,
+          "Trim": {
+            "material": "minecraft:amethyst",
+            "pattern": "minecraft:silence"
+          },
           "display": {
             "Lore": [
               "[{\"text\":\"Comfy\",\"italic\":false}]"
