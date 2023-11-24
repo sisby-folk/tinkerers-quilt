@@ -1,13 +1,13 @@
 name = "YUNG's Better Ocean Monuments"
-filename = "YungsBetterOceanMonuments-1.20-Fabric-3.0.3.jar"
+filename = "YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/3dT9sgt4/versions/SyfairC7/YungsBetterOceanMonuments-1.20-Fabric-3.0.3.jar"
+url = "https://cdn.modrinth.com/data/3dT9sgt4/versions/4c00pjbt/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar"
 hash-format = "sha1"
-hash = "bb02d04dae34c5469690c1f59c1521d959943a09"
+hash = "e4e512ae388a57d4eb383657e52707c01283d7be"
 
 [update]
 [update.modrinth]
 mod-id = "3dT9sgt4"
-version = "SyfairC7"
+version = "4c00pjbt"

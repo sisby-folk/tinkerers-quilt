@@ -1,13 +1,13 @@
 name = "Geophilic"
-filename = "geophilic-v2.0.0-mc1.20u1.20.1.jar"
+filename = "geophilic-v2.1.0-mc1.20u1.20.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hl5OLM95/versions/pv4KqECY/geophilic-v2.0.0-mc1.20u1.20.1.jar"
+url = "https://cdn.modrinth.com/data/hl5OLM95/versions/LSWMMsCf/geophilic-v2.1.0-mc1.20u1.20.2.jar"
 hash-format = "sha1"
-hash = "68fdb4f8348850668c79f4f3607e6a1778cf9575"
+hash = "04e6047735561bc1ffb07cfafcdd0c3d51132ccc"
 
 [update]
 [update.modrinth]
 mod-id = "hl5OLM95"
-version = "pv4KqECY"
+version = "LSWMMsCf"
