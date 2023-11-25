@@ -94,11 +94,11 @@ hash = "799f72b841ccf42d0406c9107f3850037beb3c14bfe32df41704411b793b67eb"
 
 [[files]]
 file = "config/heracles/quests/exploration/008B27BCA21B2D06.json"
-hash = "f04e686087c483f8a74c2fb464acd49b141e0bbdfe0701afcd00262aca0fe06f"
+hash = "3fe3b182d196dbcc2e9d4b60a4cadf284602ab26e773f3e56086d73bcfbe7bc2"
 
 [[files]]
 file = "config/heracles/quests/exploration/01646EC056D18511.json"
-hash = "deb0bc9428d48b3c8d693e76ce6c0c760b000533beb856a832ed3cb3f5b02c79"
+hash = "28dc3fd67debc6e0671bb885e5a67813ee7996e396c5a78cbd787ffb6e4901cd"
 
 [[files]]
 file = "config/heracles/quests/exploration/02D9B5C70D9D6007.json"
@@ -254,7 +254,7 @@ hash = "e6685a497b7997610b19f423a1f50fb58fb48247bef069a23d9c1ee83cc9bf69"
 
 [[files]]
 file = "config/heracles/quests/exploration/703FE6977316B339.json"
-hash = "16f9172c57e4e9e84b01dac83b7ed0a3c59559f4adc90d2dce3aa607227f1608"
+hash = "5407eb9820ee87d263ef3a63fbe8b5f524cb01b91e0846e3032dc45f61f3e489"
 
 [[files]]
 file = "config/heracles/quests/exploration/75D48083C53616FF.json"
@@ -486,7 +486,7 @@ hash = "bcdd2e1049b82fcd1f745b6067feff8e65b0ce46f4cc254c72fb3fb3a69b4461"
 
 [[files]]
 file = "config/heracles/quests/homesteading/6688C6D2FFD12067.json"
-hash = "64ea1cbfce636c945a1ecc8d964dc7a99532aa7f330fb8d0732f497dc9d6ec47"
+hash = "8ab39368e97ca48f48661f0373fd10eece0a87ef86fb3fc6f16fdbc3486a8134"
 
 [[files]]
 file = "config/heracles/quests/homesteading/68BCEE273A77F4DA.json"
@@ -1145,8 +1145,9 @@ hash = "1641f46d991917601e7b27581c4b3a1cebeaee58b3533afec8ee7fe80f2d3812"
 metafile = true
 
 [[files]]
-file = "mods/heracles-fabric-1.20.1-1.1.4.jar"
-hash = "6c0be475b025bb7d5290fdeb02efb5cc3acf80164e8ff16373910a734c6c65d1"
+file = "mods/heracles.pw.toml"
+hash = "92a6238626c464f687082b2f8c8cdf310dd675a8796ca1e1f7a4b131c1d909d3"
+metafile = true
 
 [[files]]
 file = "mods/horsebuff.pw.toml"
