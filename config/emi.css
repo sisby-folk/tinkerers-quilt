@@ -1,12 +1,13 @@
 #ui {
-	max-favorite-columns: 8;
-	max-index-columns: 8;
-	fluid-unit: millibuckets;
-	use-batched-renderer: true;
+	recipe-book-action: toggle-visibility;
+	effect-location: left-compressed;
 	append-mod-id: false;
 	append-item-mod-id: false;
-	right-sidebar-theme: modern;
+	fluid-unit: millibuckets;
+	use-batched-renderer: true;
 	search-sidebar-focus: index;
 	empty-search-sidebar-focus: craftables;
-	recipe-book-action: toggle-visibility;
+	left-sidebar-size: 8, 100;
+	right-sidebar-size: 8, 100;
+	right-sidebar-theme: modern;
 }
