@@ -106,7 +106,7 @@ hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
 
 [[files]]
 file = "config/emi.css"
-hash = "43e0807cd1e833ae18d1b8bbc13ff643d0a79d1d1eabd5053e7d28f8ce7fa9a1"
+hash = "f3b760aa5c69ffabbc8e0075a4c326b69b813fee041f1498b078af87bb72d081"
 
 [[files]]
 file = "config/euphonium.toml"
@@ -138,7 +138,7 @@ hash = "bde2519fbf6585b93eca22576cfb0886ae04e43a42a1f650f5265ff200044540"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/homesteading.snbt"
-hash = "40255e4244bf4881b6274e72eb689f292ea4aa2128d1e4a117d9352f7ea1021e"
+hash = "75b2f7f12f047490e2ab0e27d8c9e82205f49836f0fe3192bf022469a9593195"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_basics.snbt"
@@ -158,7 +158,7 @@ hash = "9bf6f4b6b9569a784ddc6610196fba7e0c17fbca4af2923c819485c1b999d3c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/fences.snbt"
-hash = "09cf131d70438316059769d5316a6c0df3210013dae42f8afd496a838378a431"
+hash = "d259746d681110b720f0918de4f62857e97041c32b96c81714098b8554e086da"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/trident_enchants.snbt"
@@ -270,7 +270,7 @@ hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
-hash = "29e2704167b1c425c26aa6644c947fee16991a9b1381faf50390dc1089975d66"
+hash = "f3fd13df0c27c60276d55109e8f8b4de0cfe01fbbc6b52cb31dd8cd3946a224f"
 
 [[files]]
 file = "config/yigd.toml"
@@ -291,10 +291,6 @@ hash = "b742f3402bc394562160811b986401c0e07b1c17c86801d6ef23941e61d24eca"
 [[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "44651da576d891ca2ca24683efef478225e72824b5d25e5279eb2e09636346c1"
-
-[[files]]
-file = "mods/Fishingreal-1.19.2-1.6.jar"
-hash = "09319a9d29191677835fb252f586cb0e920b83c5f5606e33c63efc25eb54d2db"
 
 [[files]]
 file = "mods/Origins-1.19.2-1.7.1.jar"
@@ -618,6 +614,11 @@ hash = "98da553a1ba2d41bfce3585198641c2d927c702d5403ebec82402ae51ddf707f"
 metafile = true
 
 [[files]]
+file = "mods/fishing-real.pw.toml"
+hash = "cab290a4e59451743fb5f8700ed9e0fbe91a501e78f8b2de9fd6982ffd149f90"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-fabric.pw.toml"
 hash = "3962cc289af4c636f20748d33729a61f14ddd38d55405a0f4169c8e2133f279f"
 metafile = true
@@ -654,7 +655,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "990729ecdd3fe5a2417d11bed4216fd956d3edf87ba0df86eb3a97e21d1ff6c1"
+hash = "3fd84629dfb4a639c07c49ac3f41d3dfe66bc763f056c8b2d275d0d2742c1115"
 metafile = true
 
 [[files]]
@@ -773,7 +774,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "7069843aac59149458342b594235a210c0a81b190266cc30e5164271961c1a32"
+hash = "4dbb15fe63b26bb00d1853ea637caaaccabb373e4658d55ad22e584584db6beb"
 metafile = true
 
 [[files]]
@@ -808,7 +809,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "17dc4f0920a4089790c8d13abff319a5e83f2aea7a06cdd3cc79699fa5ccdc8a"
+hash = "62ef2bfdb19d1e8940639928b4d11beba6bf5e1a4244692e53feb49a428afe8b"
 metafile = true
 
 [[files]]
@@ -823,7 +824,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins-minus.pw.toml"
-hash = "269c28f3e50039a2b57727389ea6422653935bbb7eee0c72f237fde5410cc5b3"
+hash = "39ae7eb5b94ae5896e87557f877061d009f0beb7a3f60288575bf3d9446cb6ed"
 metafile = true
 
 [[files]]
@@ -1022,7 +1023,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-statures.pw.toml"
-hash = "b4dc484c42fdbc3052629e984338f52768daa84fedcd414c83d381b0798cc144"
+hash = "0297277ea3edfd7303153212c8ed6504b8f03fd841a489b19a9730a6732e5934"
 metafile = true
 
 [[files]]
@@ -1067,7 +1068,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "a2a30f21ae6c1228c2666465c1eae9e657236dc861023c73b67f906f4a59944d"
+hash = "7f112c1eacb516f50ec3a1cf2c245e8c5e676c6aa51bd592a89750cc8be5fd7e"
 metafile = true
 
 [[files]]
@@ -2240,7 +2241,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "b32427d80bba69d74dec8e9a44476ab543f564580879d8ca9c8e40543ccc0363"
+hash = "107b8b43e9fdd45cc38780875db8e4b976fadacc261f45cb39addd4e0ddb576a"
 metafile = true
 
 [[files]]
@@ -2275,7 +2276,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "224067f730c8cd269def3883caed3cdd2c93cc562455acd8f1cb337ca48c41a6"
+hash = "dffc3d3009e8650fb475b905b5e9d4a85b5b18dfb68c948cf9e1a52652aa26ef"
 metafile = true
 
 [[files]]
