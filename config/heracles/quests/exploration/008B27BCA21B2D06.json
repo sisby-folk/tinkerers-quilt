@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "hidden": "IN_PROGRESS"
+  },
+  "dependencies": [
+    "47ED4204DD0D65C4"
+  ],
+  "tasks": {
+    "435CAB1F15E19EF0": {
+      "title": "Ring of Fire",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:suspicious_gravel"
+      },
+      "type": "heracles:structure",
+      "structures": "minecraft:trail_ruins"
+    }
+  },
+  "rewards": {
+    "40DF3187582CB82D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    },
+    "5C5F93AC44A64FE9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:copper_ingot"
+      }
+    },
+    "0298ECBAD725CA6D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:feather"
+      }
+    }
+  },
+  "display": {
+    "title": "Ring of Fire",
+    "description": [
+      "<subtitle id=\"008B27BCA21B2D06\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"435CAB1F15E19EF0\" quest=\"008B27BCA21B2D06\"/>",
+      "<hr/>",
+      "&&2Trail Ruins&&r are full of &&3Suspicious Gravel&&r, which can be &&eBrushed&&r to obtain loot - including rare &&dpottery decorations, armor trims, and a music disc&&r.",
+      "<br/>",
+      "&&7[Useful Brush]&&r &&eBrushes&&r can also be used to collect &&3Feathers&&r from &&aChickens&&r, &&3String&&r from &&aSheep&&r, and clean &&3Mossy Cobblestone&&r and &&3Stone Bricks&&r.",
+      "<hr/>",
+      "<reward reward=\"40DF3187582CB82D\" quest=\"008B27BCA21B2D06\"/>",
+      "<reward reward=\"5C5F93AC44A64FE9\" quest=\"008B27BCA21B2D06\"/>",
+      "<reward reward=\"0298ECBAD725CA6D\" quest=\"008B27BCA21B2D06\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:suspicious_gravel"
+    },
+    "subtitle": {
+      "text": "Find Trail Ruins"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -144,8 +144,6 @@
 				"&7[Presence Footsteps]&r Press &7[&r&6ALT+P&r&7]&r to adjust the volume or gait of your footsteps, including number of legs."
 				""
 				"&7[LambdaBetterGrass]&r You can change whether &3Grass Blocks&r connect vertically from the &3Better Grass&r mod menu."
-				""
-				"&7[Charmonium]&r You can adjust the volume of audio ambience from the &3Charmonium&r mod menu."
 			]
 			disable_toast: true
 			icon: "minecraft:repeating_command_block"
@@ -171,7 +169,11 @@
 		{
 			dependencies: ["15402DCFAC7CC56A"]
 			description: [
-				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &dchange workstations&r, or &6Click&r the visual tabs around the screen. "
+				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &dchange workstations&r, or &6Click&r the visual tabs around the screen."
+				""
+				"&7[ItemFavorites]&r &7[&r&6ALT&r&7]&r+&6Click&r items in your inventory to prevent storing, sorting, and dropping."
+			    ""
+			    "&7[QuickStack]&r Press the &3Chest&r button in the inventory to &dstore items already present in nearby chests&r. "
 				""
 				"&7[MouseWheelie]&r &6Middle Click&r in any inventory to &dsort items&r. Hold &7[&r&6Space&r&7]&r while clicking an inventory to &drestock from it&r, or while clicking your inventory to &dquick store to it&r."
 				""
@@ -345,7 +347,6 @@
 				"&cGuardians&r turn into &cElder Guardians&r when struck by lightning."
 				"&aClerics&r farm &3Nether Wart&r."
 				""
-				"&7[ChickensShed]&r &aChickens&r occasionally drop &3Feathers&r."
 				"&7[FeedTheBees]&r &aBees&r don't die from stinging, and can be healed with &3Sugar&r."
 				"&7[FishingReal]&r &aFish&r are reeled alive."
 				"&7[RightClickHarvest]&r &3Hoes&r harvest and replant on &7[&r&6Right-Click&r&7]&r."
@@ -367,7 +368,7 @@
 				""
 				"&7[TaxFreeLevels]&r &3Experience&r costs are normalised, including &3renaming&r."
 				"&7[EasierEnchanting]&r &3Enchanting Tables&r can be rerolled for 6 &3Lapis Lazuli&r."
-				"&7[ShieldLib]&r &3Shields&r can be table enchanted."
+				"&7[ESAS]&r &3Shears&r and &3Shields&r can be table enchanted."
 				"&7[Tinkerer's Smithing]&r Equipment combine cost is order-agnostic."
 				"{@pagebreak}"
 				"&2&lMachines&r"

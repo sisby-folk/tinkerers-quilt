@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": "IN_PROGRESS"
+  },
+  "dependencies": [
+    "0B63891D4F70167D"
+  ],
+  "tasks": {
+    "326B0B2D36C87887": {
+      "title": "Find a Camel",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:camel_spawn_egg"
+      },
+      "type": "heracles:entity_interaction",
+      "entity": "minecraft:camel"
+    }
+  },
+  "rewards": {
+    "3C5E0EF5049094D3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:saddle"
+      }
+    }
+  },
+  "display": {
+    "title": "Can't afford a Carriage",
+    "description": [
+      "<subtitle id=\"703FE6977316B339\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"326B0B2D36C87887\" quest=\"703FE6977316B339\"/>",
+      "<hr/>",
+      "&&aCamels&&r can be &&esaddled&&r and ridden like &&aHorses&&r, but &&dprotect the player from melee mobs&&r while riding.",
+      "<br/>",
+      "They can &&dfit two players&&r, and &&dwalk over 1.5 block tall obstacles&&r like &&3Fences&&r.",
+      "<br/>",
+      "Jumping with a camel will instead perform a &&3dash&&r, travelling up to &&d12 blocks forwards&&r when fully charged - which can be used to cross gaps.",
+      "<hr/>",
+      "<reward reward=\"3C5E0EF5049094D3\" quest=\"703FE6977316B339\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:saddle"
+    },
+    "subtitle": {
+      "text": "Find a Camel"
+    },
+    "groups": {
+      "Exploration": {
+        "position": [
+          -368,
+          -336
+        ]
+      }
+    }
+  }
+}

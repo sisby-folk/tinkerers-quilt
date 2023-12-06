@@ -418,6 +418,8 @@
 				""
 				"It's used to make &dNetherite Ingots&r, which can upgrade &3Diamond Equipment&r at a &3Smithing Table&r."
 				""
+				"This upgrade also requires a &eNetherite Upgrade Template&r, which can be found in the treasure room of &2Bastion Remnants&r - or duplicated using 9 &3Diamonds&r."
+				""
 				"&7[Tinkerer's Smithing]&r &3Netherite Nuggets&r can be applied to equipment at an &3Anvil&r to &dlower its anvil costs&r."
 			]
 			hide: true
@@ -433,6 +435,11 @@
 					count: 4
 					id: "47985ECF276FEE7A"
 					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "790847ED33DDD32A"
+					item: "minecraft:netherite_upgrade_smithing_template"
 					type: "item"
 				}
 			]
@@ -569,6 +576,8 @@
 				"They can be equipped in place of a chestplate, granting the ability to &dglide through the air&r with &7[&r&6Space&r&7]&r."
 				""
 				"Flight direction is controlled by where you &6look&r. Be sure to &dpull up or turn around&r before striking surfaces as fast impacts deal heavy damage."
+				""
+				"&7[Elytra trims]&r &3Elytra&r can be &ddyed and trimmed&r like leather armor."
 				""
 				"&7[Aileron]&r When placed close together, &eCampfires&r provide a boost of air while &3gliding&r. "
 				""

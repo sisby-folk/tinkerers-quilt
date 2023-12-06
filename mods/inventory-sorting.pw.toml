@@ -1,13 +1,13 @@
 name = "Inventory Sorting"
-filename = "InventorySorter-1.8.10-1.19.jar"
+filename = "InventorySorter-1.9.0-1.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/5ibSyLAz/versions/ZsKcCN1N/InventorySorter-1.8.10-1.19.jar"
+url = "https://cdn.modrinth.com/data/5ibSyLAz/versions/tr2ZGtz4/InventorySorter-1.9.0-1.20.jar"
 hash-format = "sha1"
-hash = "6ce11087da3555f0f48e18e067384abae3e5acc6"
+hash = "19b4af69600fc940112f36a3256d492670d8d4c5"
 
 [update]
 [update.modrinth]
 mod-id = "5ibSyLAz"
-version = "ZsKcCN1N"
+version = "tr2ZGtz4"
