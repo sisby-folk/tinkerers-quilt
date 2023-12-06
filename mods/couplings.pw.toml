@@ -1,13 +1,13 @@
 name = "Couplings"
-filename = "Couplings-1.9.1+1.19.jar"
+filename = "Couplings-1.9.4+1.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/80ulerjA/versions/1.9.1%2B1.19/Couplings-1.9.1%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/80ulerjA/versions/1S2TEbqR/Couplings-1.9.4%2B1.20.jar"
 hash-format = "sha1"
-hash = "8adcc4d19154e3e79a754700519daf5c80821acf"
+hash = "82c6f03b017fd9abd69d8927d30c6fb9e7b40b8a"
 
 [update]
 [update.modrinth]
 mod-id = "80ulerjA"
-version = "cOTJKyN0"
+version = "1S2TEbqR"

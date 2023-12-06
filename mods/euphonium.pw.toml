@@ -1,13 +1,13 @@
 name = "Euphonium"
-filename = "euphonium-1.0.1+1.19.jar"
+filename = "euphonium-1.0.1+1.20.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/XH8cnjHW/versions/MJejGkh9/euphonium-1.0.1%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/XH8cnjHW/versions/O07ijkpp/euphonium-1.0.1%2B1.20.jar"
 hash-format = "sha1"
-hash = "ee7642a99a996093dfe5110049b07d1a2c98ad88"
+hash = "ee2f5a3ea4a9a6a43299427cca6bd78e1ed06fb0"
 
 [update]
 [update.modrinth]
 mod-id = "XH8cnjHW"
-version = "MJejGkh9"
+version = "O07ijkpp"

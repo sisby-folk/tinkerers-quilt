@@ -1,13 +1,13 @@
 name = "Switchy Proxy"
-filename = "switchy-proxy-1.6.1+1.19.jar"
+filename = "switchy-proxy-1.6.1+1.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6kt9OiyV/versions/OjdQS2Pj/switchy-proxy-1.6.1%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/6kt9OiyV/versions/zFPIV3Oa/switchy-proxy-1.6.1%2B1.20.jar"
 hash-format = "sha1"
-hash = "526978d3c680cd2882dab442847cefbda98b1b23"
+hash = "8601c896da85c5924cee80e9f6ddd766a9ceb84d"
 
 [update]
 [update.modrinth]
 mod-id = "6kt9OiyV"
-version = "OjdQS2Pj"
+version = "zFPIV3Oa"

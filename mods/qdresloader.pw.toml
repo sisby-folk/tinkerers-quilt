@@ -1,13 +1,13 @@
 name = "QDResLoader"
-filename = "QDResLoader-2.0.jar"
+filename = "QDResLoader-2.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8bvlUrBx/versions/MXv6K6PA/QDResLoader-2.0.jar"
+url = "https://cdn.modrinth.com/data/8bvlUrBx/versions/a9DhVCQy/QDResLoader-2.0.1.jar"
 hash-format = "sha1"
-hash = "4910debc662049053538206baac1523f57c47cf2"
+hash = "357ca4259a106237b549510f0eace1dd6104a3ad"
 
 [update]
 [update.modrinth]
 mod-id = "8bvlUrBx"
-version = "MXv6K6PA"
+version = "a9DhVCQy"

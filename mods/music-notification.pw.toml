@@ -1,13 +1,13 @@
 name = "Music Notification"
-filename = "MusicClient-mc1.19.2-1.0.0.jar"
+filename = "MusicNotification-1.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/A4YQgwzz/versions/LIArjRfI/MusicClient-mc1.19.2-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/A4YQgwzz/versions/aukZjCW6/MusicNotification-1.4.jar"
 hash-format = "sha1"
-hash = "f258338708c5568b2d6ea3e617206221e7fbbc23"
+hash = "7c5b8489de331bd5b4919e99f27498ea7a03b3d1"
 
 [update]
 [update.modrinth]
 mod-id = "A4YQgwzz"
-version = "LIArjRfI"
+version = "aukZjCW6"

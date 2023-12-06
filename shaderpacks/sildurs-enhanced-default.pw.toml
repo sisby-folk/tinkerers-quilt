@@ -1,20 +1,18 @@
-name = "Sildurs Enhanced Default Shaders"
-filename = "Sildur's+Enhanced+Default+v1.14+Fancy.zip"
+name = "Sildur's Enhanced Default"
+filename = "Sildur's Enhanced Default v1.16 Fancy.zip"
 side = "client"
 
 [download]
-url = "https://mediafiles.forgecdn.net/files/3912/674/Sildur%27s+Enhanced+Default+v1.14+Fancy.zip"
 hash-format = "sha1"
-hash = "4355c5c7a46a5b52449cd0138cbb986f8d9516c5"
+hash = "66afc73632c0ede5ee80f18e052741ce76e32f27"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3912674
+file-id = 4688998
 project-id = 544140
 
 [option]
 optional = false
-default = true
 description = "An Iris-Compatible Shader Pack! Found Here: https://www.curseforge.com/minecraft/customization/sildurs-enhanced-default"
-
-
+default = true

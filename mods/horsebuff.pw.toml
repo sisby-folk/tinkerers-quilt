@@ -1,13 +1,13 @@
 name = "Horse Buff"
-filename = "HorseBuff-1.19-2.0.1.jar"
+filename = "HorseBuff-1.20-2.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/IrrG0G8l/versions/1.19-2.0.1/HorseBuff-1.19-2.0.1.jar"
+url = "https://cdn.modrinth.com/data/IrrG0G8l/versions/20xITMg4/HorseBuff-1.20-2.1.2.jar"
 hash-format = "sha1"
-hash = "acd8be74c59291dbf09e2c08de11cabb4bfcd6dd"
+hash = "e834c5d06af3b47a9ae38dd7cd9fb02a10f5619b"
 
 [update]
 [update.modrinth]
 mod-id = "IrrG0G8l"
-version = "DvXgcRxr"
+version = "20xITMg4"
