@@ -307,11 +307,6 @@ hash = "30f1ee40932a5918f97f85ac3c9bd48f2545e3baf0f40fde6a631606aae59b52"
 metafile = true
 
 [[files]]
-file = "mods/custom-window-title.pw.toml"
-hash = "23741a1d4ab09af28cc04a035f30d0e9b0f26577697e0faaf797f2eed2833451"
-metafile = true
-
-[[files]]
 file = "mods/darktitlebar.pw.toml"
 hash = "1d23aa5ca75db1d13b206e7cb9f6205739662eba90cbafb6de78cd566bec72a6"
 metafile = true
