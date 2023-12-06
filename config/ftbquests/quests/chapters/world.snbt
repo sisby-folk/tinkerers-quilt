@@ -605,6 +605,7 @@
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:filled_map"
+			hide: true
 			id: "01646EC056D18511"
 			rewards: [
 				{
@@ -1848,7 +1849,7 @@
 				icon: "minecraft:suspicious_gravel"
 				id: "435CAB1F15E19EF0"
 				structure: "minecraft:trail_ruins"
-				title: "Find Trail Ruins"
+				title: "Ring of Fire"
 				type: "structure"
 			}]
 			x: -2.0d
@@ -1892,6 +1893,7 @@
 				"Jumping with a camel will instead perform a &3dash&r, travelling up to &d12 blocks forwards&r when fully charged - which can be used to cross gaps."
 			]
 			icon: "minecraft:saddle"
+			hide: true
 			id: "703FE6977316B339"
 			rewards: [{
 				id: "3C5E0EF5049094D3"
