@@ -666,7 +666,7 @@ hash = "bde740080a787113f2d5e50c9321cbea9b3b2a9b44ebf486ae966524c8bee71a"
 
 [[files]]
 file = "config/heracles/quests/introduction/438625063C95601F.json"
-hash = "f2b855ba7f41c3ef964457db634af166bab19d91a76af1aefb182680c5531d81"
+hash = "3c73e05e5d94ecae1a1d65d2568e1b0649a125ad66e674dc0662f5b3f6394d91"
 
 [[files]]
 file = "config/heracles/quests/introduction/7840EB3C8B8048EF.json"
@@ -939,6 +939,10 @@ hash = "49f669e1876f9293f4a34aed88102abed02ba6180f66f1d0ba0d1e94e711dcce"
 [[files]]
 file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
+
+[[files]]
+file = "config/inventory_tabs.toml"
+hash = "09e3a84e69838f0f9b3ef7a0ccaa1f80a5d0fd46f28ecd30a6488ecc01d6f388"
 
 [[files]]
 file = "config/inventorysorter/config.json5"
@@ -1446,6 +1450,11 @@ hash = "1e639f115699594ecc7a347fcf557d3d9c36c7bdb28ccd8a3583eb7f3eeef241"
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "41a3116f5642d40ed54efda3f863373fa4d3c0c3a24a447a38c8a106e9fbb079"
+metafile = true
+
+[[files]]
+file = "mods/itemfavorites.pw.toml"
+hash = "d70d6e01a172fe2fd7db9f47d7a5dd1cd56e8ebc73f6b4af88696f274a51f4ab"
 metafile = true
 
 [[files]]
