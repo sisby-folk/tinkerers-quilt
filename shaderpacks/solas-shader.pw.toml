@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/EpQFjzrQ/versions/ktRmeTUY/Solas%20Shader%20V1.8.zip"
-hash-format = "sha1"
-hash = "e3438f1309611313a8f6378325b5427ad894f63f"
+hash-format = "sha256"
+hash = "e71cd57f0867f2347f0a5667242dc492dc9b7dd26b0c4db30602da9362015059"
 
 [update]
 [update.modrinth]

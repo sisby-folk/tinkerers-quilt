@@ -530,7 +530,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "bef966a2257e40889162174c55b97a5178e8a176197ec54f6c4b484506f5bc20"
+hash = "56fe9263600bf85b95509fdaaa51cd2995b9a8beef151cfb84364c8a0e7d921f"
 metafile = true
 
 [[files]]
@@ -625,7 +625,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-fabric.pw.toml"
-hash = "7c89c501b72635ddc3b3506fb407783392f6448a8e997bf34d3dbcd116edcef9"
+hash = "1a5ecb8d54e86e7c9215bc881eb0c090aa2ebef39eff8ecd87c3abbbcd23b98a"
 metafile = true
 
 [[files]]
@@ -669,12 +669,18 @@ hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
 metafile = true
 
 [[files]]
-file = "mods/inventorytabs-0.6.2+1.19.x.jar"
-hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
+file = "mods/inventory-sorting.pw.toml"
+hash = "9ec7fac40bbe6f5e496993422b10b9df982cbf9ad5f8631f1070476cbf20b5fe"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tabs.pw.toml"
+hash = "c90a9620b2777e15f0bdc31ff7a32b5286c5fa998831b1d967436bb18b058202"
+metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "dfbdb89a9b842c190339d6d60a6a2e812e3d3bdcd986610e3b740ec478e4dcb0"
+hash = "14e50c7cd16b4650d3a491f5f31bc00af6be0c290734db9552852ab1de9bc3bb"
 metafile = true
 
 [[files]]
@@ -774,7 +780,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "4dbb15fe63b26bb00d1853ea637caaaccabb373e4658d55ad22e584584db6beb"
+hash = "ef6a2fce03bfeeb2f7186c9ef1277900956756e1ad09714893241c21d5205aa7"
 metafile = true
 
 [[files]]
@@ -859,7 +865,7 @@ metafile = true
 
 [[files]]
 file = "mods/portable-crafting.pw.toml"
-hash = "39a0ee4d7b44753b714e9bbf62398442efa0d92d765272de6b851a3e4ad566c9"
+hash = "d5efc788bec5796e7b2f121e6772e9157cce973daa7b0fe623c9f5a526554bfd"
 metafile = true
 
 [[files]]
@@ -1122,7 +1128,7 @@ hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
 
 [[files]]
 file = "options.txt"
-hash = "51121d91f5dafc06e54a595e64998b9f35fea7cb9ff8c5d742d295863f388482"
+hash = "90c2f0cc6cb8061a781ac5cd7be9244b37dbc3d7678e3902976c43cadb68b785"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
@@ -2246,17 +2252,17 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/builders-qol-shaders.pw.toml"
-hash = "73094c3517ba301eb3dea302e91d3cdfb88a5e7adb42f71ead5b582c2f344b8b"
+hash = "a0871b16400a5341d8da6567f1d3fb435124c19b0f06bde2a396a90bbf401b35"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "e51d06862a5c8191182f4fd7d9870313533afdcacdca3130cb37f8f5fc7bf635"
+hash = "93cc3c55259d0adef692cb4dda0ec348dab9f99b66b39e67f365ab5a1f070da2"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "5b488fd021ad1d6195dfdb63ca361be0d7a0941d0ffc6b31f31c53eccd623554"
+hash = "345a368be43732e614d93ffb06fa8c76fa8f6060f2d105455242d15acc97e80d"
 metafile = true
 
 [[files]]
@@ -2276,7 +2282,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "dffc3d3009e8650fb475b905b5e9d4a85b5b18dfb68c948cf9e1a52652aa26ef"
+hash = "8bac7beb8134faaa4cd9cbff899dee93d416ffc49ef2f871db7b2e11dd9ae9fb"
 metafile = true
 
 [[files]]
