@@ -1270,7 +1270,7 @@ hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
-hash = "29e2704167b1c425c26aa6644c947fee16991a9b1381faf50390dc1089975d66"
+hash = "f3fd13df0c27c60276d55109e8f8b4de0cfe01fbbc6b52cb31dd8cd3946a224f"
 
 [[files]]
 file = "config/yigd.toml"
@@ -1650,6 +1650,16 @@ hash = "280af6886fbdec37ccfab4d8a7cbd2d3777a198a5fa0d2ec15dc9b9c8b0eff67"
 metafile = true
 
 [[files]]
+file = "mods/inventory-sorting.pw.toml"
+hash = "9ec7fac40bbe6f5e496993422b10b9df982cbf9ad5f8631f1070476cbf20b5fe"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tabs.pw.toml"
+hash = "c90a9620b2777e15f0bdc31ff7a32b5286c5fa998831b1d967436bb18b058202"
+metafile = true
+
+[[files]]
 file = "mods/inventorytabs-0.9.0-beta-1.20.jar"
 hash = "1e639f115699594ecc7a347fcf557d3d9c36c7bdb28ccd8a3583eb7f3eeef241"
 
@@ -2015,7 +2025,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkerers-statures.pw.toml"
-hash = "b4dc484c42fdbc3052629e984338f52768daa84fedcd414c83d381b0798cc144"
+hash = "0297277ea3edfd7303153212c8ed6504b8f03fd841a489b19a9730a6732e5934"
 metafile = true
 
 [[files]]
@@ -2117,7 +2127,7 @@ hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
 
 [[files]]
 file = "options.txt"
-hash = "a041c1971866ecd281ddd1b3a9bf11434c236f1323e95808e0a738df2a87721a"
+hash = "90b4b908de45182232371dfc280cab554e96842e789e173f4abe8a8536785ab8"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
@@ -3277,22 +3287,22 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "b32427d80bba69d74dec8e9a44476ab543f564580879d8ca9c8e40543ccc0363"
+hash = "107b8b43e9fdd45cc38780875db8e4b976fadacc261f45cb39addd4e0ddb576a"
 metafile = true
 
 [[files]]
 file = "shaderpacks/builders-qol-shaders.pw.toml"
-hash = "73094c3517ba301eb3dea302e91d3cdfb88a5e7adb42f71ead5b582c2f344b8b"
+hash = "a0871b16400a5341d8da6567f1d3fb435124c19b0f06bde2a396a90bbf401b35"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "e51d06862a5c8191182f4fd7d9870313533afdcacdca3130cb37f8f5fc7bf635"
+hash = "93cc3c55259d0adef692cb4dda0ec348dab9f99b66b39e67f365ab5a1f070da2"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "5b488fd021ad1d6195dfdb63ca361be0d7a0941d0ffc6b31f31c53eccd623554"
+hash = "345a368be43732e614d93ffb06fa8c76fa8f6060f2d105455242d15acc97e80d"
 metafile = true
 
 [[files]]
@@ -3312,7 +3322,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "c7c5c5e8ac1a6c646580f60d5a8d484b1ec5d502ca56608c92828383fabb676c"
+hash = "8bac7beb8134faaa4cd9cbff899dee93d416ffc49ef2f871db7b2e11dd9ae9fb"
 metafile = true
 
 [[files]]

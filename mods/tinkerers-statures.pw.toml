@@ -1,13 +1,13 @@
 name = "Tinkerer's Statures"
-filename = "tinkerers-statures-1.0.3.jar"
+filename = "tinkerers-statures-1.1.0+1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Lq0ZLcTa/versions/VLyZBNaR/tinkerers-statures-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/Lq0ZLcTa/versions/NBf7urZq/tinkerers-statures-1.1.0%2B1.19.jar"
 hash-format = "sha1"
-hash = "d9389b916a54399cbf71f31f683307709dff8bc4"
+hash = "7ac114b20954420f9460c52f2ee80ff3bb035173"
 
 [update]
 [update.modrinth]
 mod-id = "Lq0ZLcTa"
-version = "VLyZBNaR"
+version = "NBf7urZq"
