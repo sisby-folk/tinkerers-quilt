@@ -509,8 +509,9 @@ hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
 metafile = true
 
 [[files]]
-file = "mods/inventorytabs-0.6.2+1.19.x.jar"
-hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
+file = "mods/inventory-tabs.pw.toml"
+hash = "c90a9620b2777e15f0bdc31ff7a32b5286c5fa998831b1d967436bb18b058202"
+metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
