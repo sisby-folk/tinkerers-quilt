@@ -1,0 +1,13 @@
+name = "Euphonium"
+filename = "euphonium-1.0.1+1.19.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XH8cnjHW/versions/MJejGkh9/euphonium-1.0.1%2B1.19.jar"
+hash-format = "sha1"
+hash = "ee7642a99a996093dfe5110049b07d1a2c98ad88"
+
+[update]
+[update.modrinth]
+mod-id = "XH8cnjHW"
+version = "MJejGkh9"

@@ -1,0 +1,13 @@
+#ui {
+	recipe-book-action: toggle-visibility;
+	effect-location: left-compressed;
+	append-mod-id: false;
+	append-item-mod-id: false;
+	fluid-unit: millibuckets;
+	use-batched-renderer: true;
+	search-sidebar-focus: index;
+	empty-search-sidebar-focus: craftables;
+	left-sidebar-size: 8, 100;
+	right-sidebar-size: 8, 100;
+	right-sidebar-theme: modern;
+}
