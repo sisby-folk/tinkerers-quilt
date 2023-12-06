@@ -1,13 +1,13 @@
 name = "Switchy Inventories"
-filename = "switchy-inventories-1.5.4+1.19.jar"
+filename = "switchy-inventories-1.8.2+1.19.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZLlbzi9I/versions/livpeip8/switchy-inventories-1.5.4%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/ZLlbzi9I/versions/QfOTVDPG/switchy-inventories-1.8.2%2B1.19.jar"
 hash-format = "sha1"
-hash = "51d88e672e0ef4cfc24df749a139a74818132d89"
+hash = "0a737fe2d0abdc1b63e1e8203d0b86491864bfdd"
 
 [update]
 [update.modrinth]
 mod-id = "ZLlbzi9I"
-version = "livpeip8"
+version = "QfOTVDPG"

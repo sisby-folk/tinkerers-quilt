@@ -9,6 +9,10 @@ file = "config/HorseBuff.toml"
 hash = "2ad80ee3cd6adb8579ea0efd677c8f5ee7a297b50b4d2c4c1c81f85edd1e2283"
 
 [[files]]
+file = "config/SkipTransitions.properties"
+hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
+
+[[files]]
 file = "config/apathy/boss.cfg"
 hash = "6d01925c16f5913cb67d2d88a27886d56121c83ab08ac1e09d7e5114a85b59f0"
 
@@ -26,15 +30,23 @@ hash = "d470b8c9c401dfd6edb8c849c849200409cdafd0262b9aa3f86a58e894517ea4"
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
-hash = "967d9a875103f996c235095207d4bde1d3b99cb1f7f6fbe20eb97b9d34902921"
+hash = "d16dd41591854f30de6715ceaf7810fb0c91dd5af6a36d998beb66cd0321f95b"
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
 hash = "971441aaa80e3839edd5fa6006c65a2866638b7117d83e5afdd9e454c36eec8c"
 
 [[files]]
+file = "config/chunksfadein.properties"
+hash = "17dbebe8db17d26a777c8f10e3cc6afff3720d278def1fed45f038c08b8f7ab3"
+
+[[files]]
 file = "config/citresewn.json"
 hash = "7942a329d631eaccd78fa9f5eea061dca41f0504b5ea0052d9ca5d6889b3a395"
+
+[[files]]
+file = "config/clienttweaks.toml"
+hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
 
 [[files]]
 file = "config/colormatic.properties"
@@ -45,20 +57,28 @@ file = "config/easierenchanting.properties"
 hash = "c2fda994299671087249b5601ed12baf6e9e823778f0cdecc0dc38cf572e7775"
 
 [[files]]
+file = "config/effective.json"
+hash = "084ae75802eeadfa5c4d2b83d347cdb79deb82eb5e87c7172f3f3e54d99916ab"
+
+[[files]]
+file = "config/emi.css"
+hash = "f3b760aa5c69ffabbc8e0075a4c326b69b813fee041f1498b078af87bb72d081"
+
+[[files]]
+file = "config/euphonium.toml"
+hash = "1847561c619eda6b779411ebea1344b2ed495fa7955981fe3a64d6faeca9d0d6"
+
+[[files]]
 file = "config/exordium.json"
 hash = "b2caa9c1a2ff986d6f1816371c44989ffc7c0336f91475b9a6fcdc61fae9ef40"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "f66968b8d1a40cb5b4390f8d61f8c0dd2c814ddd8548020f5af7433b6a76ef4b"
+hash = "063310847edb89b45a13fc11d1761606741c74674278d370c19ef1ed70db1a14"
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
 hash = "3d0f2a0e965fe090a131fefc78e934c004fe5c91cdb5fa082d5b9f47b2934b0a"
-
-[[files]]
-file = "config/forcecloseloadingscreen.json"
-hash = "ab85b51df50fc88da375ff53bbdd7120c07df8c77fde8e9d9a837623e7767fcc"
 
 [[files]]
 file = "config/idwtialsimmoedm.json"
@@ -69,20 +89,40 @@ file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
+file = "config/inventory_tabs.toml"
+hash = "09e3a84e69838f0f9b3ef7a0ccaa1f80a5d0fd46f28ecd30a6488ecc01d6f388"
+
+[[files]]
+file = "config/inventorysorter/config.json5"
+hash = "b64fa7ee465d964b662f291dad78a8c91a252854581ae2584f23ad8bdc010970"
+
+[[files]]
 file = "config/isxander-main-menu-credits.json"
 hash = "99f71394cf8b96e252fa33f74d3c3ac5eefa65e7e5782e74f4677d61f89e5a19"
 
 [[files]]
-file = "config/lucium-hidden-debug-entries.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "config/modmenu.json"
+hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
 
 [[files]]
 file = "config/pettable.json"
 hash = "17b28d004f9b3d3fd9dbffb2a22e2eaef072c0dbdffa1f89ecbb59082180fb0a"
 
 [[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
+
+[[files]]
 file = "config/projectsavethepets/projectsavethepets.json"
 hash = "a3db65d064f25b4f2899eb733d168231d8bc605e80c18738a3a0f333969defb5"
+
+[[files]]
+file = "config/simplefog.json"
+hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
 
 [[files]]
 file = "config/snowrealmagic-client.toml"
@@ -93,120 +133,40 @@ file = "config/snowrealmagic-common.toml"
 hash = "3799ac9d4b26b6db24f2409f19dbeb0b77ce671f12d104231ce7d8e3941c2c16"
 
 [[files]]
+file = "config/sodium-extra-options.json"
+hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
+
+[[files]]
+file = "config/styled-chat.json"
+hash = "bed87a61fa40553e72fba632d269f452d62f3c03c02a296e78bd948bb5c78e11"
+
+[[files]]
+file = "config/styled-nicknames.json"
+hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
+
+[[files]]
+file = "config/styledplayerlist/config.json"
+hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
+
+[[files]]
+file = "config/styledplayerlist/styles/default.json"
+hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
+
+[[files]]
+file = "config/switchy_resource_packs/config.toml"
+hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
+
+[[files]]
 file = "config/waila/waila.json"
 hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
-hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
-
-[[files]]
-file = "config/yosbr/config/SkipTransitions.properties"
-hash = "65c60525a8520ef94fb060b187bc73dd57128c77d865d5e417538823eb97c679"
-
-[[files]]
-file = "config/yosbr/config/charmonium.toml"
-hash = "1d512003802e219da043ce881bed4ccc54e5e55fceea98a703dd2c6b7fdd2d7c"
-
-[[files]]
-file = "config/yosbr/config/chunksfadein.properties"
-hash = "247af014a8ec1e497692d006fa6af57e03a91607c3938c2b8a5eeff93a83fcce"
-
-[[files]]
-file = "config/yosbr/config/clienttweaks.toml"
-hash = "14d34787a4bd8728ce822079dac57805dc7db4dcf534ed134d202c585c4716d3"
-
-[[files]]
-file = "config/yosbr/config/emi.css"
-hash = "e9def0836246318989b6179227556af4c355048e07e5dbedc95d52809133e8cd"
-
-[[files]]
-file = "config/yosbr/config/illuminations.properties"
-hash = "48b2499a2487f9e8c5bd3ab9f6717c3d8b400520b342aa191716ee09e2566687"
-
-[[files]]
-file = "config/yosbr/config/modmenu.json"
-hash = "0b47d0b6e65c4888517ca89941e8c46c5eba12bbb2fed511fc7ca716d0819329"
-
-[[files]]
-file = "config/yosbr/config/presencefootsteps/updater.json"
-hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
-
-[[files]]
-file = "config/yosbr/config/presencefootsteps/userconfig.json"
-hash = "4d6a751bc4e3a71c33cdc37b587922d5ae283ce92e8e4f8f0ae763178a08b5b1"
-
-[[files]]
-file = "config/yosbr/config/qdaa.ini"
-hash = "eae4357a7ad50ec935d45052dc264bf597d2160b8d549fa6e95ea0bf56894d51"
-
-[[files]]
-file = "config/yosbr/config/simplefog.json"
-hash = "cb432d624e454ece8f5bec48b3bd8fd544ba69a9ff7db9315b195d49a8206cc6"
-
-[[files]]
-file = "config/yosbr/config/sodium-extra-options.json"
-hash = "c6712cbed3e4565440152a16c0e05862fee105629572563d03bf0dd2bc0c798a"
-
-[[files]]
-file = "config/yosbr/config/sodium-options.json"
-hash = "e467b61963b8f8d78efd9971c266473100e29e084a22a604c4e5296608d1a1fb"
-
-[[files]]
-file = "config/yosbr/config/styled-nicknames.json"
-hash = "97b723f4cc379eb4b17ade4bf756029fb14a4af0d6ac9b4a2b0f396b8427630f"
-
-[[files]]
-file = "config/yosbr/config/styledplayerlist/config.json"
-hash = "bdf4cc878bdb267d4ddd015684b057839be65fab5a2d4c3a6b0d6ee96f6fe3b4"
-
-[[files]]
-file = "config/yosbr/config/styledplayerlist/styles/default.json"
-hash = "9ae03c8ae2d77dac24eed22ae517e82576aa03fdeb230976b3bfd8f297a7d768"
-
-[[files]]
-file = "config/yosbr/config/switchy_resource_packs/config.toml"
-hash = "cde083d92431a8f400067e09d9c16998a54a7d69d8cd70fa21476ccf15e7a3ed"
-
-[[files]]
-file = "config/yosbr/config/waila/waila.json"
-hash = "13dd715493f0fb3754583f6a97fcb8a7df61ccef983df3a664931be3d1e9c490"
-
-[[files]]
-file = "config/yosbr/config/waila/waila_plugins.json"
-hash = "9deab34e7c7dfcadf9cc87a3432d0f68e641d2d0e52b45d6febcf9a23de72e3f"
-
-[[files]]
-file = "config/yosbr/options.amecsapi.txt"
-hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
-
-[[files]]
-file = "config/yosbr/options.txt"
-hash = "6c5d3a29187e61e1bff997fe5a282786d6ffe0f2067ee53a52253c9da56963a2"
-
-[[files]]
-file = "config/yosbr/shaderpacks/BSL_v8.1.02.2.zip.txt"
-hash = "92f7a737346e05856588bb2788c4cf1e08c149aed3fe0efe4f1e0c80aed009a4"
-
-[[files]]
-file = "config/yosbr/shaderpacks/ComplementaryReimagined_r1.2.2.zip.txt"
-hash = "16ff6881fe17da0af04bcc512a5258ab27bafc9f8a0e6889c70c8161c1ad900b"
-
-[[files]]
-file = "config/yosbr/shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "965e252dc01cdaa608c831013274b6493a98fd710ebbc3233b4184cee3c21d2a"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Prismarine V4.1a.zip.txt"
-hash = "b07a4e99f3571dc6c0a3118ba304db4b30e168551b54efb12cb672b26f4d1662"
-
-[[files]]
-file = "config/yosbr/shaderpacks/Sildur's+Enhanced+Default+v1.131+Fancy.zip.txt"
-hash = "76d2fbc4e14be83aac3e9d9b807eb971724877d1f004d333eff2944aa7700ad0"
-
-[[files]]
-file = "config/yosbr/shaderpacks/SuperDuperVanilla.zip.txt"
-hash = "3b4c69b4c3dafbec7dc4130ffcd1bd23f7527475668458a163b8ee7fa42e7c65"
+hash = "02b8e1ce0f9cb835348441b1e2d37896f117c4943e5fc01ec7f8472d086875e3"
 
 [[files]]
 file = "credits.txt"
@@ -223,7 +183,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambient-environment.pw.toml"
-hash = "6d064aeec2cc5f9dd4ffca7c81e781418619ef39d71e84596051c45e7e64271a"
+hash = "b6676e184b94a0efda7769df4413c91162341d1fdbcb668857509f20ace34be1"
 metafile = true
 
 [[files]]
@@ -233,7 +193,7 @@ metafile = true
 
 [[files]]
 file = "mods/apathy.pw.toml"
-hash = "0f7154531872f39e9365d15087908f77227b6b0356068d5e1b98c9f590faddd4"
+hash = "a86871c274f33dcff6d8153130e2bfb1b35a1c133e5b51705edd5d370525985f"
 metafile = true
 
 [[files]]
@@ -248,12 +208,12 @@ metafile = true
 
 [[files]]
 file = "mods/badpackets.pw.toml"
-hash = "63edbd012db544d0590a1cd2563a4973c0316b8033370b41a48c05b0e8e667e5"
+hash = "997c16130f34bf02d072731b8495b44cdd468aab70c1c65c1b640df6895a601c"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "0708223179ebe2bad131cfc063dde7cf65ec355c18a3c1392646142e46ea95f3"
+hash = "d607c1487fd6296778a954162c33bc9ba04a1f170a6bb454d1a850835dadb9d2"
 metafile = true
 
 [[files]]
@@ -292,18 +252,13 @@ hash = "46b444dc88aac495a314699961072c72b16661130aff501d176a2b8c12c49b72"
 metafile = true
 
 [[files]]
-file = "mods/charmonium.pw.toml"
-hash = "93d73b7d173197c7a9ab09f69bcb509c3c1f29cf3a552119f086b3f164a4d323"
-metafile = true
-
-[[files]]
 file = "mods/chickensshed.pw.toml"
 hash = "8bc786e062df82909ca65960da8c49469a70638587f28edbde548c47b94e1126"
 metafile = true
 
 [[files]]
 file = "mods/chunks-fade-in.pw.toml"
-hash = "44c83aabe1cb66201f4a2f7e6ccbfea2c226234a4c52103ef8d865526390b736"
+hash = "5d6498cf74852f8da28eef19c2fe1effcd69008ffebd316621629c759609e57b"
 metafile = true
 
 [[files]]
@@ -312,18 +267,18 @@ hash = "0da3b33d0d62fcaf24835fb432b8dd9be02e82897cd43fddc38fa81106203d37"
 metafile = true
 
 [[files]]
-file = "mods/cleancut.pw.toml"
-hash = "7a09da6066eaaac81061420526f46c3329aa99ff11334fcedf5842f81bdac459"
+file = "mods/clickthrough.pw.toml"
+hash = "1a4c9d83b0709fd2f91814eb67f81e19bb1493315c42cb65efe911d0f34c5a13"
 metafile = true
 
 [[files]]
 file = "mods/client-tweaks.pw.toml"
-hash = "246cd2214d087ee9ad322af509738cf49806030fdea0ce0ed3e3def80c466848"
+hash = "e1e6ae770f49d7c433bd557a61b918e514385af664a9976266e6256967feec4b"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "213cad77d46ff46fe20780b01856cb1a8812747e9c3564203669bf3905e646e2"
+hash = "d1dc8ac9ea0e5aed978c464ff34e460924dfc44d518eece4abbbfb9a5d49abf8"
 metafile = true
 
 [[files]]
@@ -348,12 +303,12 @@ metafile = true
 
 [[files]]
 file = "mods/drogstyle.pw.toml"
-hash = "4dfeb4a7f9ba351ce1cac51a97693b317ce26f0dcf9ba89e9f2ed96cd5472f57"
+hash = "7efcd8fec8e46f93d5e392fc0b3432ccb619ef9b777eb18061359a87f4ce4827"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
+hash = "b31179108f658fdc015f1eed9a3614d08b212de2e67b2391678d93e3e561c1f2"
 metafile = true
 
 [[files]]
@@ -372,8 +327,13 @@ hash = "81a389a5035dc0852ce12c796f1d667bb4715b1d6ffde16433bf80f02e3796bc"
 metafile = true
 
 [[files]]
+file = "mods/effective.pw.toml"
+hash = "192d5837406f350de1551233735b6de7deb374669585d8759b554edfb4f72c05"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
-hash = "f84e1e13825bdc3947128a7d645a8cf90cfa13709d8f25b1e71dc62a0b39bf48"
+hash = "56fe9263600bf85b95509fdaaa51cd2995b9a8beef151cfb84364c8a0e7d921f"
 metafile = true
 
 [[files]]
@@ -387,13 +347,18 @@ hash = "3dbaa5547de693172431a16b53fd042ef6b0d2658d0f5669b60951dec02b9731"
 metafile = true
 
 [[files]]
+file = "mods/euphonium.pw.toml"
+hash = "652f4588727d9c1c52a21553da19abe78dfbf9cc373dcd526272f07f606888bb"
+metafile = true
+
+[[files]]
 file = "mods/exordium.pw.toml"
 hash = "2a6e243aabbad7c6bb23561a4f4572403a06e41b7cbcc94282eeae899d0e54a6"
 metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "0d393b5839c6a9d809a6735da0c870ef92d702225434826a1ca5427b1142bea0"
+hash = "6c8bdef5ad4d205b6d16adc6106f62e3534e0a91dd243b52147793a00f21db96"
 metafile = true
 
 [[files]]
@@ -413,7 +378,7 @@ metafile = true
 
 [[files]]
 file = "mods/feed-the-bees.pw.toml"
-hash = "170bf663e848d26391efc06ec066c2196943a2b6c9a144f147a6fd17cd8b382e"
+hash = "3a429f8efdd18f7efc74d5e93dacdde70a8a463b9c8bd986d015a7fa09eb8085"
 metafile = true
 
 [[files]]
@@ -423,7 +388,7 @@ metafile = true
 
 [[files]]
 file = "mods/fishing-real.pw.toml"
-hash = "34d038bd3c2b9bdc1253f92894e30fabc11f824efa08416a153437273e56a38d"
+hash = "cab290a4e59451743fb5f8700ed9e0fbe91a501e78f8b2de9fd6982ffd149f90"
 metafile = true
 
 [[files]]
@@ -437,12 +402,8 @@ hash = "6fd7515689f5d615195b919471c55704adb1937ca5f78950b238b9b45ecb1b07"
 metafile = true
 
 [[files]]
-file = "mods/illuminations-1.10.8.jar"
-hash = "2c25dc32b10e335016b91bd3a6d67195cb79c561857316a44d51fe631998d230"
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "fd0d31c123f53fb70d79e3ac5333dc9178b378c87d46eb0b8f63db324f67fe51"
+hash = "3fd84629dfb4a639c07c49ac3f41d3dfe66bc763f056c8b2d275d0d2742c1115"
 metafile = true
 
 [[files]]
@@ -456,12 +417,13 @@ hash = "373a56d7f4fb25661a0585492f7ea490e7613f1191e588fec08782438d52e1fd"
 metafile = true
 
 [[files]]
-file = "mods/inventorytabs-0.6.2+1.19.x.jar"
-hash = "7f4553d9bad0565f494e38d202061f5ddc6b5777717a798e7e7340882d6460c5"
+file = "mods/inventory-tabs.pw.toml"
+hash = "c90a9620b2777e15f0bdc31ff7a32b5286c5fa998831b1d967436bb18b058202"
+metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "ec644a70524673946d8a987bbc4d3f0968c4885f55541b837ee14a366b218d35"
+hash = "14e50c7cd16b4650d3a491f5f31bc00af6be0c290734db9552852ab1de9bc3bb"
 metafile = true
 
 [[files]]
@@ -471,12 +433,12 @@ metafile = true
 
 [[files]]
 file = "mods/jamlib.pw.toml"
-hash = "6cb50f4dcb3f6ba70ecbae01c0691b25fb40610a859aa41bf6ce261ad70429d2"
+hash = "d1df8e86811120c594a88895d3366d000736a6c1fad7124a72c8f05925775095"
 metafile = true
 
 [[files]]
 file = "mods/kaffees_dual_ride.pw.toml"
-hash = "395e906a3ea26e62185f6ad673295ac0d2c09055b46d560f5a6cbc9926e635a8"
+hash = "7645efe2d0ae0e9f01f977dfa8ba027037d0f4e1381a15499013a816103d9ad0"
 metafile = true
 
 [[files]]
@@ -486,7 +448,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "2ce31ab44b467a2d2ca1ef630ff879ae33236149ee02abb9a1527638614bd981"
+hash = "c5473808679eecaa918f2e9a102dd016eb8dee13934a8832354d04839f49007d"
 metafile = true
 
 [[files]]
@@ -520,11 +482,6 @@ hash = "54a337d13450b35dfc931e7a5f3ed9fca1a1992ec51d3b1e4ea1cb5f7cd2d09c"
 metafile = true
 
 [[files]]
-file = "mods/lucium.pw.toml"
-hash = "1e8141fb6f44da5f922d460a9903d1ac0541356aae0b6d3f68b9e5cf5824b089"
-metafile = true
-
-[[files]]
 file = "mods/main-menu-credits.pw.toml"
 hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
 metafile = true
@@ -535,8 +492,8 @@ hash = "1be161c5175de48cc080374582c6af01b02c57e3a7d21617c0ab558b59b6c954"
 metafile = true
 
 [[files]]
-file = "mods/memoryleakfix.pw.toml"
-hash = "4ce761e594c255a802bd4b0b4b6312e740130b17d77764c389cef4c8417ae8af"
+file = "mods/modernfix.pw.toml"
+hash = "ef6a2fce03bfeeb2f7186c9ef1277900956756e1ad09714893241c21d5205aa7"
 metafile = true
 
 [[files]]
@@ -551,7 +508,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "7629f7b9bc1b04f215a4bb9e6739ba03995f12efe8a810151a152ab9f1516866"
+hash = "e1b20a8d22c09bcfbbcc5f32abe8918af8d9fc0b98692c5000901367b5d0d184"
 metafile = true
 
 [[files]]
@@ -560,18 +517,18 @@ hash = "26860892f695bc57137f3b7d40dc28bb92ee26fb2dfeca251413c839e0c45ba3"
 metafile = true
 
 [[files]]
-file = "mods/norecipebook-fabric.pw.toml"
-hash = "afae97e455506516e6d196935777d3cd1b733f8f36505cfc3491c69300cbb511"
+file = "mods/nbt-autocomplete.pw.toml"
+hash = "2f0128bf1c12a809cfdf2c9e7fe86b4f4e7f03213e30db0450ed008442d57ff2"
 metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "17dc4f0920a4089790c8d13abff319a5e83f2aea7a06cdd3cc79699fa5ccdc8a"
+hash = "62ef2bfdb19d1e8940639928b4d11beba6bf5e1a4244692e53feb49a428afe8b"
 metafile = true
 
 [[files]]
-file = "mods/noteable.pw.toml"
-hash = "a7887ecc4d2a5914558dcb5d8e57058cc88e878b1301855591e30b58c8155cf7"
+file = "mods/notes.pw.toml"
+hash = "127e342c09e94406dfb97d916740a9cae1d8e51be66bc86400b7e9571da6eaf3"
 metafile = true
 
 [[files]]
@@ -591,7 +548,17 @@ metafile = true
 
 [[files]]
 file = "mods/picohud.pw.toml"
-hash = "07e64eab47329f81337ac779705006e9708f0d08d4759c7a63d2bbb392a0f19a"
+hash = "735f1141155700673afb74f5fb7b19ef4a0ed5a3a1eb806bb30ecba78a65cb65"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "63e603aacd627262576ba4da78716c44957ab1a8013ba0129a56470a55ebe571"
+metafile = true
+
+[[files]]
+file = "mods/portable-crafting.pw.toml"
+hash = "d5efc788bec5796e7b2f121e6772e9157cce973daa7b0fe623c9f5a526554bfd"
 metafile = true
 
 [[files]]
@@ -626,17 +593,22 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "b2e3be698473bfb3f08865a11e74c9ee8d47239ac72a79d60acc1ee381722a50"
+hash = "17651adb28b085101dcded29ef037e6622849a98b21d1c1872185e7b241a32f6"
 metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "39683680c7eeda074893c9ae8f4692c14f98227f8319c55849f079fd9adcc065"
+hash = "31b3bcbde9677f9fc1006aab482e6f43b7552146359cc4ef363e30a237d1d12b"
 metafile = true
 
 [[files]]
 file = "mods/simple-durability-tooltip.pw.toml"
 hash = "36c5793fe006b94902672303fba4a074c73f5fce4f6704d27e8fcaf2f08171de"
+metafile = true
+
+[[files]]
+file = "mods/simple-snowy-fix.pw.toml"
+hash = "63a6e44282a76510c30782da7e8686c42ca5ffc9f063f0d120c480b7a61de681"
 metafile = true
 
 [[files]]
@@ -650,11 +622,6 @@ hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
 metafile = true
 
 [[files]]
-file = "mods/snow-under-trees-remastered.pw.toml"
-hash = "e6b7aed5ae934b4331ff35b6dac657aa5cd4fa0754f4a4d580c05cb74039662f"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "8da0d4c285e7e57aee3f08ab4e268d04518704ace4060744f042aef3a7f6bc50"
 metafile = true
@@ -665,18 +632,23 @@ hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
 metafile = true
 
 [[files]]
+file = "mods/soundsbegone.pw.toml"
+hash = "a8254b73d33d9b8b1e01b63161a6df8d8f83317611bae7d8add4697b27a089e4"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "2aeab4f3b0a720ed02f400d9b521f1858474d4f8f7c3577ce916d5aa31fe37e1"
 metafile = true
 
 [[files]]
-file = "mods/statuseffecttimer.pw.toml"
-hash = "26b3e4ca90196024b0cdc02fb3591af480e03bde037ffb3e800499dc2c45167e"
+file = "mods/status-effect-bars.pw.toml"
+hash = "ab907ea5653d8869c147fea450bb1d553a85bc31b5f323bccb00b359533dabc6"
 metafile = true
 
 [[files]]
 file = "mods/styled-chat.pw.toml"
-hash = "70da594f4eadb175c7eedd58ec67caeffb71ac5fc8c503fcddf04e545e78e590"
+hash = "d41931b825536bd673d15537f7bbacd0e5d518b9b5e9fc4ea3631326b636657c"
 metafile = true
 
 [[files]]
@@ -690,27 +662,28 @@ hash = "03191d93838921d6267303721f3b769bb338f6baf5089af61f47c8bf09fdd088"
 metafile = true
 
 [[files]]
+file = "mods/swingthrough.pw.toml"
+hash = "164bd9070d86ca231da118c32790f2144195a29a9ed1c556fcbf9714a1e633f7"
+metafile = true
+
+[[files]]
 file = "mods/switchy-inventories.pw.toml"
-hash = "90146110e019a23019b59782f90a68302a4cc96270761046cee14c8ed6c1173a"
+hash = "b7b3080acea13424a7f6301ec97b61eb6fb8b541abc0b43864da3768059e6e86"
 metafile = true
 
 [[files]]
 file = "mods/switchy-proxy.pw.toml"
-hash = "066d3d8ddd77714bd0fcc306ac76c0f5529092cd78a2ffb73d84eee445510ce0"
+hash = "7e8f37358497336864d70f8586aa5ae06cbc867e80eb58119799aaa4d597658d"
 metafile = true
 
 [[files]]
-file = "mods/switchy-resource-packs.pw.toml"
-hash = "3644a1a2195e1c2d4354d02ef6f06bb6bdd2e7ad8e8eab82d74b661aa43819d8"
+file = "mods/switchy-teleport.pw.toml"
+hash = "cc6b6468ffbc394119cbaa17779d25bde3d10e74215d3eca43d4980df8174022"
 metafile = true
-
-[[files]]
-file = "mods/switchy-teleport-1.2.1+1.19.2.jar"
-hash = "021e419e2e3986e274d7af785f20638ccbe28a098f1c8a02f8fc23dab859d920"
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "0fdff1b00a3f61466222cd080b216897764afde26164b174908f9d3aece2ba33"
+hash = "6e7aba32e000b65aff90d2d85566fc8c019badbb8bb0129c761ca02fffa8d3b6"
 metafile = true
 
 [[files]]
@@ -720,12 +693,12 @@ metafile = true
 
 [[files]]
 file = "mods/tax-free-levels.pw.toml"
-hash = "d881b77b7acaaa149d385bbfe00f95135add06d8153a76e569a119fbc33e4d25"
+hash = "f4899afec6500b2a8e3f061abbb6bc34287f3f6992b9e24ba4706d4dad825cc4"
 metafile = true
 
 [[files]]
 file = "mods/tinkerers-smithing.pw.toml"
-hash = "611c4f54c465e236ec95d777a80121fb40ac38f01be4156b87e92fd47a62f163"
+hash = "335158c9e5819931d9aa872e35c11a0197284541105a908009ff537d2b0cc2b8"
 metafile = true
 
 [[files]]
@@ -739,8 +712,8 @@ hash = "4f782435d758d3cfd57ba49e2a4994006722d42307ef74ef3d35a1704f9ed5c4"
 metafile = true
 
 [[files]]
-file = "mods/totem-anywhere-standalone.pw.toml"
-hash = "7eed911577abdf221f789436f3ecb3ab61e63011d15fe22b087b465a3a97ce12"
+file = "mods/totem-anywhere.pw.toml"
+hash = "80a08f7ba61f15061ce1fea737d38ee8f902faf7ef8c52b0459b8a29ceb754d1"
 metafile = true
 
 [[files]]
@@ -755,13 +728,16 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "cb5b7eb800446c47610ced26441b0a4950dcca6c43bdf1ebe12ad9370cbfb3ba"
+hash = "7f112c1eacb516f50ec3a1cf2c245e8c5e676c6aa51bd592a89750cc8be5fd7e"
 metafile = true
 
 [[files]]
-file = "mods/yosbr.pw.toml"
-hash = "7c2712882baa2ed177b9b961cc1052b857f11ed1455609f9e9f01332c0317f12"
-metafile = true
+file = "options.amecsapi.txt"
+hash = "c6c58142d13d60d5b82ed6649b9d58420c85e7178065724c1fbe3ce158bb47ea"
+
+[[files]]
+file = "options.txt"
+hash = "6c5d3a29187e61e1bff997fe5a282786d6ffe0f2067ee53a52253c9da56963a2"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_Quiet_Animals.zip"
@@ -805,7 +781,27 @@ hash = "1ba0a133c16407ae2ee3d3fc00f19c6232954e01c503391a249e6b478ff724d5"
 
 [[files]]
 file = "resources/assets/tinkerer/lang/en_us.json"
-hash = "37bbbb1448a083ff517ee9d8db523935de13c73538a2657fc80ec8e31d626897"
+hash = "bb30096d74ed61ff9f8315bb99c729f301f98544520c7807c8fa05992e10b41a"
+
+[[files]]
+file = "resources/data/c/tags/items/boots.json"
+hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
+
+[[files]]
+file = "resources/data/c/tags/items/chestplates.json"
+hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
+
+[[files]]
+file = "resources/data/c/tags/items/fence_gates.json"
+hash = "e5e5e8b0d8296fa813f9f8f1f92a9867bf87b2c3146b8c56a2c1cb8e69b51c94"
+
+[[files]]
+file = "resources/data/c/tags/items/helmets.json"
+hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
+
+[[files]]
+file = "resources/data/c/tags/items/leggings.json"
+hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
 
 [[files]]
 file = "resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
@@ -828,519 +824,498 @@ file = "resources/data/tinkerer/recipes/trident.json"
 hash = "09879b5f78bd601f10f411b6e1473f6e0231f7d671615f7b489b90b6e77cea24"
 
 [[files]]
-file = "resources/data/tinkerer/tags/items/boots.json"
-hash = "359772bf93833f9f07ec01330cbb8deb3bdaae22df707c2cfca96a8766053cc3"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/chestplates.json"
-hash = "80c100d290646fb1cf01499a4476fb8fae08f7b4a12238707f49e25d733aa7d7"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/fence_gates.json"
-hash = "85822c016f30658fb2ce252c5deca168e7cbefa650eb2f229be8970875d4c8da"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/helmets.json"
-hash = "3ada9d0baef05c3e319f2b816f3eeaa55f5f0406dce0c6280d51a2d4606b48db"
-
-[[files]]
-file = "resources/data/tinkerer/tags/items/leggings.json"
-hash = "48b5becb42538c4940ed2c8d01d00d925daacd3fa900021ff455925870475423"
-
-[[files]]
-file = "resources/packs/VanillaTweaks_c667075.zip"
+file = "resources/datapacks/VanillaTweaks_c667075.zip"
 hash = "6f8b8b79131422c3cb03e15a35b9ea9ddd2cbde1b57edbd0ab269e46df830dfd"
 
 [[files]]
-file = "resources/packs/VanillaTweaks_r311441.zip"
-hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
-
-[[files]]
-file = "resources/packs/axolotl-bucket-variants.pw.toml"
-hash = "a286466952265156b08bc765b98b77225178fab50ef424608f949c212dcf24e5"
-metafile = true
-
-[[files]]
-file = "resources/packs/hide_item_filters/data/c/tags/items/hidden_from_recipe_viewers.json"
+file = "resources/datapacks/hide_item_filters/data/c/tags/items/hidden_from_recipe_viewers.json"
 hash = "b2a5eb471e7b668ec0b71c28a5867860c300accb319b1a9c88fcf553bc477ab1"
 
 [[files]]
-file = "resources/packs/hide_item_filters/pack.mcmeta"
+file = "resources/datapacks/hide_item_filters/pack.mcmeta"
 hash = "cc5444187a5dc9be0ff325b63aa0f01447ca6c8a1b3675b3322d30a035c65f71"
 
 [[files]]
-file = "resources/packs/hide_origin_orb/data/c/tags/items/hidden_from_recipe_viewers.json"
+file = "resources/datapacks/hide_origin_orb/data/c/tags/items/hidden_from_recipe_viewers.json"
 hash = "e1ddaad4526210ee59d7c2800b259cd122167c35ca200485a3818abb0a3ad31a"
 
 [[files]]
-file = "resources/packs/hide_origin_orb/pack.mcmeta"
+file = "resources/datapacks/hide_origin_orb/pack.mcmeta"
 hash = "0d31c599f159241b5b5e9d1c853a6495bc371115770aa61616872cfaa30bef4d"
 
 [[files]]
-file = "resources/packs/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
+file = "resources/datapacks/hide_yigd/data/c/tags/items/hidden_from_recipe_viewers.json"
 hash = "bd32eff1567a6ae10d7a06f751b353d5a5188f60c363d431438071f1db653352"
 
 [[files]]
-file = "resources/packs/hide_yigd/pack.mcmeta"
+file = "resources/datapacks/hide_yigd/pack.mcmeta"
 hash = "c9b84c7d95f0aac4f81b5a7ebaa7d727d8bd1f3d53f67ea5fcee9fed4de90b82"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/acacia_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/acacia_planks.json"
 hash = "7904758b9431834faa15610d25d375b56f28cc1053cccd950426ca5342228bf4"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/andesite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/andesite.json"
 hash = "561a18766fd73c5339e8d0bef33f6c8118ba31a29447dbe1f8400ad7b0fa6346"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/birch_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/birch_planks.json"
 hash = "651e873eea742537c9c955bb6449b39327b6067478d0cc70730712427d643bed"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/blackstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/blackstone.json"
 hash = "8cec7c312dd4fcf36e920bbf4e82e27b53c6bf50664e1492fc103b92bc719299"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/bricks.json"
 hash = "e7090604d2be4bbfb1f66b2040e17b54fe91b61e2aed308f74aa9ce69474edef"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobbled_deepslate.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobbled_deepslate.json"
 hash = "f3b2778afceb4822f00b277280450f6df6f0cb8de7641b6acd2ee25a3e221f42"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobblestone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cobblestone.json"
 hash = "6673a6edfd6dbe5969c6d0aed6c2032c000cc63d6f6e5d2f94c9f167b5229a80"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/crimson_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/crimson_planks.json"
 hash = "3b75acc80f653b71ea2a8b7b97ecc2585ef3ccb196f9236889d6e615fc01467d"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_copper.json"
 hash = "2544a5ca8756ad5c740befa46489c537172ca6b6c7656cde8795f7309dfbdbcd"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_red_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_red_sandstone.json"
 hash = "289707cfdc4acc488e5fb410512d97370f1df3b710b28e0d1050b1ceedd55497"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/cut_sandstone.json"
 hash = "494d1d709e65adefd83a0755fcdc7c52f2301578310e6312691c2c912e497144"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_oak_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_oak_planks.json"
 hash = "b6e4c3dbdbc0578cb9878ff0c5699b71e1c97b53229731ddde1d58fe44642f36"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_prismarine.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/dark_prismarine.json"
 hash = "a0ccf87c6782ba53113d11a23fff8b6eece8c9986780cb19dfa5519dd3086fe8"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_bricks.json"
 hash = "6ad50a79d98df2596394046cbfd92890d139ebe45b13c095cfe15a43a3ed2823"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_tiles.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/deepslate_tiles.json"
 hash = "f705d0b19f48bf9c7f723013c87e1a9977a30d1788ea3d44f8059b651f145e7b"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/diorite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/diorite.json"
 hash = "43b38129f8ba12c8a373c87d50f00393fcb34cfa411b8f451bd555b41e450761"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/end_stone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/end_stone_bricks.json"
 hash = "1cae0b6c5b03a203f929092a19a81adc248e2e2742b7113b4e6bccd648bc667a"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/exposed_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/exposed_cut_copper.json"
 hash = "4dad5bb1f3c014a73e205e31206c8518e5615df525002aa561ac1646ee846750"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/granite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/granite.json"
 hash = "cd09376e06408ead88b821771e1533b85abe13fbeb75f3b6a730c623c7d4f6bf"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/jungle_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/jungle_planks.json"
 hash = "b026f53e5c3099ef809621feb36200876131b8f44b99d9c2fdfd40dbf70adda4"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mangrove_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mangrove_planks.json"
 hash = "a8e40a04e9d3823bf42515d11a9b76cf8f1b5388973a19f3ab95add1a568ec38"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_cobblestone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_cobblestone.json"
 hash = "07106c2f74275cc637d2f8fde76e46982dafdff63d250f05103f201a146726af"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_stone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/mossy_stone_bricks.json"
 hash = "c5e487d0a241a6dfb448df4666ccc8dd068264cb78e98b1710f8e47b35e5cd8a"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/nether_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/nether_bricks.json"
 hash = "5d4719a14b535c494499b40b4e2d237ebd5b3d2d0b5d083580c655df107927b8"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oak_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oak_planks.json"
 hash = "e6ebd46e0479f7c6586b425c268414aabbc528672fe904dbd2db810ae0f38e61"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oxidized_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/oxidized_cut_copper.json"
 hash = "eac0a9f8e4f97c42c711c330dbdc403e41fb009692b8dfb32adad04914b044d7"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_andesite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_andesite.json"
 hash = "79bcee5713ca913b95bceb80d5d7aabc6b77a6c5ead4e182d0ed80d380d1c2ad"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone.json"
 hash = "124766001e44d0c902a5eb80b91d85a4d3febd93fdb810ae22b93bb0ab8af130"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_blackstone_bricks.json"
 hash = "1b3bcf194e55c38856c4b2fa8524fa4cc0e45eee025b28af042c0398c34fcd24"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_deepslate.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_deepslate.json"
 hash = "96cca9f39fd8406876b12ed87d01922b1364bc2a68819c6d3087645568eb57ff"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_diorite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_diorite.json"
 hash = "1625683d6d1812e45cae1ee5bcd020e2aad4bfb6b429c4b13215042d6de1fd3d"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_granite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/polished_granite.json"
 hash = "62a345be2f9b6886606ad5a3a8213949015737e9bd4306cd9fa40c2e49ef8d44"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine.json"
 hash = "7afbc5bec64394939b28a4f4cbd5d0ef9cc54d7a822d50abba401010a23f9216"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/prismarine_bricks.json"
 hash = "9296a58959f671be9d9722665c3172d0b1c70013eaabacd14dde383344365f83"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/purpur_block.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/purpur_block.json"
 hash = "a068fd7b2e3ac41296f1eab54d596dfcd39fe0b75be0cb32f8e97dfaa7a22972"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/quartz_block.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/quartz_block.json"
 hash = "b3de4fde6e78e693d9079322eb7b704bb24f1ecefe2181ac33bb4f87370f7da9"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_nether_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_nether_bricks.json"
 hash = "d40a116aa8eb85f018f300e02158e99aee3b03a19e827c1c7f3ef94be02fb2a0"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/red_sandstone.json"
 hash = "864edafde3ecf0bd1ebea6dd7ba0f7d145d8a8758f6963a65324f44c21040607"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/sandstone.json"
 hash = "789ab0da3d6822d9bd8b6f17bb985095a6353cb996176624c5b08a6807b0988b"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_quartz.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_quartz.json"
 hash = "ba81d08498a6f8179916054e8b62c5028faa5fbc1517e3e4ce0b3ddcd0f4a1dd"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_red_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_red_sandstone.json"
 hash = "9cc5de6987a4b603ed718d43397a9abcf78b63187d79ffc4031749e97abb7c5b"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_sandstone.json"
 hash = "292a1fb32cd8c649f465b699214d20fbe1f0a4961e9ae000467aa8e2c72e5f91"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_stone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/smooth_stone.json"
 hash = "350ad431e9d4641adcb16ad4e6aa0da8eb43539f27d50354484f2cc47183c8cd"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/spruce_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/spruce_planks.json"
 hash = "ad5769284981b6439d75a1c87496bda2f30bf747f97f9f7e9ef836427017aab1"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone.json"
 hash = "2474a4336e87a5fbad8bd5accfbe19ec2f17b510bb2495fb99616e30f2f6dd0f"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/stone_bricks.json"
 hash = "cb1e99c7a850f6db2e3e5d368ca41096506be451e69d588cda7531859f47bec6"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/warped_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/warped_planks.json"
 hash = "2d65535ffc3615b035189f0281170745c768b8106f0a5267b444892cb83d0f71"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_cut_copper.json"
 hash = "658aae97aa19213fb6e34dc5e412cb58aab8a5def77376cbddc6dac0e11a5b42"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_exposed_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_exposed_cut_copper.json"
 hash = "bdb27570277484a0ce27dd417cfd647a21f61cd1317269f2e045559346cac45c"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_oxidized_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_oxidized_cut_copper.json"
 hash = "8050e26afb949933e045a8fd7984862dfbaa8bf1655623076e58ca00e1d7cff8"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_weathered_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/waxed_weathered_cut_copper.json"
 hash = "96253e1f963e3247b75e0f7b890a6afafcdb230762823a4211339714f1225180"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/weathered_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/advancements/recipes/building_blocks/slabs/weathered_cut_copper.json"
 hash = "5c7ed3331569e159929371f1df4dd110fffd56635c8e6bc2d1983bb6a948643f"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/acacia_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/acacia_planks.json"
 hash = "0d99aa58477f857921bbe9aeb6a1f99d490ac047c833609d069364f6739fa3ab"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/andesite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/andesite.json"
 hash = "e5b91cc226b2919b6e3e3c2b0b9d0d1f48c5a78f82ef864bf031520c240d7e9c"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/birch_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/birch_planks.json"
 hash = "a79df60ecccc525a52ff5ba6ac804ac0bae8474962b87a4dbee551d3ea851b9b"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/blackstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/blackstone.json"
 hash = "4145617c390e9885c53059ed83ae7588401791fff124d2ceef4024278c18e7c1"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/bricks.json"
 hash = "211f5d7c9f8929f5953192e7c7d0429009277ab78de012e3520581384b531ffc"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobbled_deepslate.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobbled_deepslate.json"
 hash = "213cb0c1adbfe2402e49baab02bec0d23956ccae50ae32123e78d7974af4386d"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobblestone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cobblestone.json"
 hash = "e62218173b2ff8373aaf83a01a40be16f1e47cfa48cdc8648475ac39ced8fce8"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/crimson_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/crimson_planks.json"
 hash = "4582e60b5bc468c4e04f1272d37ea3918dd7ca6cf6be06a828898031144c0d56"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_copper.json"
 hash = "c0d3c783796be3fd73233c08fefd03f1145868a22212ca2adf01f8997ff528bd"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_red_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_red_sandstone.json"
 hash = "430ddb7452448becf3469ba4327e023c2566bd73be6dd70cdb24c9824ef6a18f"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/cut_sandstone.json"
 hash = "f89955cb6446e37722a7ca26ff13a9782d0f1b49d0279fea8f21e2dc91355226"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_oak_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_oak_planks.json"
 hash = "855a0c6b4ab383770c64fab689dd16a0cc508431bbab2dfb1c2b9f1aef8e003c"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_prismarine.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/dark_prismarine.json"
 hash = "93f519d53a986aa4258311f9d99009d250e7442650170999fcf888a17bfb8c71"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_bricks.json"
 hash = "70f17aa2a6db920576b6b2c32c1c87a6648760a633f1e2acc092bbf21e328adb"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_tiles.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/deepslate_tiles.json"
 hash = "d00ed5b8afdd57c2a226729d8dc648add1a664d3b2183c130304d111f93e129a"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/diorite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/diorite.json"
 hash = "c606a9c4031fad12a05ae4f0e7c5d1546bca5976cfd881f887a64adfca28e857"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/end_stone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/end_stone_bricks.json"
 hash = "55c9b02acb4266617f46a26560ba26f29b972f93e68d040d250e04796b62a205"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/exposed_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/exposed_cut_copper.json"
 hash = "5ed3511f3ba88656202522567f28897037d1a813e4d686e6e3f79d0872965921"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/granite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/granite.json"
 hash = "05a8fe03f331834afc7b68d2b4810c9b931aa138db8f97c264eaeda975d2c1ad"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/jungle_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/jungle_planks.json"
 hash = "3759d6b35f60e27446e042f2fa35aa77cfc00e97ba6be74f22d83add92af8cb5"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mangrove_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mangrove_planks.json"
 hash = "45e706803c1d014fd8d4d52ce5ca2fd96f4fc5ce5fce759a63eeeccfbb3e252f"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_cobblestone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_cobblestone.json"
 hash = "590e393f1c7621796d00b8a0a2928f32e40b45cc58b47131d386be49a460f760"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_stone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mossy_stone_bricks.json"
 hash = "3d42eb0f1c1ec795779b47c35f9f920f1928bdf82e6d0cc9dda4976da96ad7b1"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mud_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/mud_bricks.json"
 hash = "593114debeaf9284775f542e4cd4b59463e68c85d92cec1dcc9a44b109563146"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/nether_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/nether_bricks.json"
 hash = "6315f53b22ce6b8548abd2c6cea17242a7bcb2db1b950b49a277629020b4f121"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oak_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oak_planks.json"
 hash = "9b80c064b84f39fe642396059195f829c0a02eb4a7907611a4a9f57b1d03e2da"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oxidized_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/oxidized_cut_copper.json"
 hash = "50a44e1d868bb451176947d36e158c9adfe00c26a9929c1f5d66f052884b1352"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_andesite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_andesite.json"
 hash = "63606689cb91f097ae626e814e5e9173d8fe20f4f0130c2dcf2773c549091327"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone.json"
 hash = "1aee18d8c5c52bd82f08c8da4ea19e023e8555f1fa1662a4e3b4a0a84cb5bc6f"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_blackstone_bricks.json"
 hash = "5fbc8061f53dd5927d1f42a7cca2efcd06a91852366ad2bcf1772810571a0d80"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_deepslate.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_deepslate.json"
 hash = "025ea67f5ce15043304b0646faaf892d735d48c1fec1e5c2a137998bb40fe5f0"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_diorite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_diorite.json"
 hash = "afe550be0ce82d2e9a88eba6b7abfc4dbb040ce7e9c0135c7d2129625b344bba"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_granite.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/polished_granite.json"
 hash = "228c1aec01be59a9894096e5c92f9d5f3fa99d3694996ae1d22acc14f95ba4e9"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine.json"
 hash = "2cc7e03300f20bd4c2d7c06274d3d971ea00dd7d24996ae4179058d0af7e72a0"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/prismarine_bricks.json"
 hash = "6ec986b051a4fadf550fcf04b5b6b0542c420b651d57be89164ce2324f2ac257"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/purpur_block.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/purpur_block.json"
 hash = "4a26d63e59ad52982de04b13b73678d31fe94ba79371d51a19c7d9f6c7f0c773"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/quartz_block.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/quartz_block.json"
 hash = "092c0fe2d177b3f0364861b68e9ae76c8fdcdf6640e20350dbbbd0809aba6098"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_nether_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_nether_bricks.json"
 hash = "d20000be6b754c557758e2b5217cdf9512d0b0eea7774caaa4de1f6dbe30468a"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/red_sandstone.json"
 hash = "4da4a9aa74d1cd1271a7c543b46144eda7c24a6806ebc61d90cb90ac4a6594f7"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/sandstone.json"
 hash = "a49741c3afad58b4d157149d1cb3b71e4e4c8ace5708cdcc7a537e63cb67d5ed"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_quartz.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_quartz.json"
 hash = "d598f57cea9c39800d42bd33e6cfff41100cd122c61db7f921aefe4d80bc2cf7"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_red_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_red_sandstone.json"
 hash = "0f88c95369f7ed2a84520845a557ab8d951c43d1af798d6e71e953f7557e8161"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_sandstone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_sandstone.json"
 hash = "2803cb12da7e2213098317fc9eb57c5df8073475a6ca394e9724bf0e0e4a57fe"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_stone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/smooth_stone.json"
 hash = "20434ebc546842096666bd0fd6570f914fc3d3641fac3de58d7c0960dbcf9d9b"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/spruce_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/spruce_planks.json"
 hash = "710d15f3c6f411631b9e86a8ed4f173b7592824710fc6e0acf256abd756dde93"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone.json"
 hash = "805cf492b6302ecbfc3e61f85d66b6361a118a29e3dfa5dab53a42ed034f3775"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone_bricks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/stone_bricks.json"
 hash = "183cfd72ad46bd01fd62124bb224cc391f192a1ccd24f32aa0b97936a6a7ff4b"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/warped_planks.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/warped_planks.json"
 hash = "e569e7b1898d858d84766a4d60c6798bde4fb4d1fb767ec3ba6012048058a5c9"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_cut_copper.json"
 hash = "e6243ec72b297fae302f9ec27b5d20a0a4aeffc14a3acb42d5906210ed1b97a5"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_exposed_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_exposed_cut_copper.json"
 hash = "6547f6459faaf681d4f50c4439c5873323f03b40c1367ee68a8c772a65367e0f"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_oxidized_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_oxidized_cut_copper.json"
 hash = "11623a328a69e2ac8f85f76669d0e4b09d67278286900c6d0d862c42ad1f0f3a"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_weathered_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/waxed_weathered_cut_copper.json"
 hash = "21d1eb219d8fa2d804106e01655f2a218def8f2a06d3bb168cb08a28474becec"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/weathered_cut_copper.json"
+file = "resources/datapacks/slabs_to_blocks/data/slabs_stairs_to_block/recipes/slabs/weathered_cut_copper.json"
 hash = "bb21c0e8eb5835b8760dd0cfed1514825bf65b5916d26770a596c93f195d7d75"
 
 [[files]]
-file = "resources/packs/slabs_to_blocks/pack.mcmeta"
+file = "resources/datapacks/slabs_to_blocks/pack.mcmeta"
 hash = "62dad0ca0ca693c815dd3c303acfd6bc48eb5da0ca4384b35324df4a73adcda0"
 
 [[files]]
-file = "resources/packs/sullys-peeves.pw.toml"
-hash = "89380cc7890f27b4da0485a417ca58874e390678a3b4f65d40e615fd8ff99394"
+file = "resources/resourcepacks/VanillaTweaks_r311441.zip"
+hash = "f8ff75e945559496f89938550e717dd259f803911f9b22e54ed8ac8969c57c49"
+
+[[files]]
+file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
+hash = "5629447454b0a7c1feeaf83a1bea58bb8031db23e2bfdede5588a4319745ec25"
 metafile = true
 
 [[files]]
-file = "resources/packs/varied-connected-bookshelves.pw.toml"
+file = "resources/resourcepacks/tinkermoji.zip"
+hash = "f4fba99e58986e1f41728aeac387a973fef80b91a41a3a6728e789cff84a3481"
+
+[[files]]
+file = "resources/resourcepacks/varied-connected-bookshelves.pw.toml"
 hash = "7ad422d13158ebf54243285494d33853e80bad900360b195b1febf8662595c10"
 metafile = true
 
 [[files]]
-file = "resources/packs/xalis-enchanted-books.pw.toml"
+file = "resources/resourcepacks/xalis-enchanted-books.pw.toml"
 hash = "81e456094c4decb60cd5af5e7eaf53d9b3ba775aa05ea319c99d2325e60ca6a0"
 metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "eb5d07ac1370825eaa1a35eea0b9fa53bf89f7716f7eb62b626effca4f5817b1"
+hash = "107b8b43e9fdd45cc38780875db8e4b976fadacc261f45cb39addd4e0ddb576a"
 metafile = true
 
 [[files]]
 file = "shaderpacks/builders-qol-shaders.pw.toml"
-hash = "73094c3517ba301eb3dea302e91d3cdfb88a5e7adb42f71ead5b582c2f344b8b"
+hash = "a0871b16400a5341d8da6567f1d3fb435124c19b0f06bde2a396a90bbf401b35"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "6610547224f85161e6ba49aaadfe882e058f2d3851dcef3b77ae9df1314f3dae"
+hash = "93cc3c55259d0adef692cb4dda0ec348dab9f99b66b39e67f365ab5a1f070da2"
 metafile = true
 
 [[files]]
-file = "shaderpacks/complementary-shaders-v4.pw.toml"
-hash = "256a6bfe7b1afd19060e42a7ac498c7c39ae598436561335bb029a3f34de3b6d"
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "345a368be43732e614d93ffb06fa8c76fa8f6060f2d105455242d15acc97e80d"
 metafile = true
 
 [[files]]
@@ -1350,7 +1325,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "b7a6c9f0966fb1dacd80893f5041feddfe0206ce952958fc49ea08e7dcc2da69"
+hash = "1f2ec0bcd3a5e8e5a4070b141654039f726812ae0a76acf2b6b5e309da24dc0e"
 metafile = true
 
 [[files]]
@@ -1359,6 +1334,11 @@ hash = "edaff1d813dc803f9ccf5bd7a1196c6d0c0f5bb1a82633588ff7b542a5e43c85"
 metafile = true
 
 [[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "8bac7beb8134faaa4cd9cbff899dee93d416ffc49ef2f871db7b2e11dd9ae9fb"
+metafile = true
+
+[[files]]
 file = "shaderpacks/super-duper-vanilla.pw.toml"
-hash = "a5ed01e32d65dbd67e9573e1575874284a0e3c64aebbbbb872230d8be9fd0e8e"
+hash = "fde89efa0ba937c2f4d05eba0b0ea1259e7e628b90446da5a74cfb95ea9353c9"
 metafile = true

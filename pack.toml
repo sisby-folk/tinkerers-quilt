@@ -1,17 +1,18 @@
-name = "Tinkerer's Silk"
+name = "Tinkerer's Silk (1.19)"
 author = "Sisby folk"
-version = "4.0.0"
+version = "4.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d5ab8ccfa7226db17d0e597f51fc3ba575bc86acba84d7dcbb771d1dd4685d91"
+hash = "a8673bf55457d54c34ac871cd1a3150a11999900fb5cfb1e4ea15b29192414df"
 
 [versions]
 minecraft = "1.19.2"
-quilt = "0.18.10"
+quilt = "0.20.2"
 
 [options]
 acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
-datapack-folder = "/resources/packs/"
+datapack-folder = "/resources/datapacks/"
+resourcepack-folder = "/resources/resourcepacks/"
