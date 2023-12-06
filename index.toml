@@ -801,6 +801,10 @@ file = "config/inspecio.json"
 hash = "4435ab1d6a324ad59d5357cd287982c03c8e618db506f50b48d3e7e59037462c"
 
 [[files]]
+file = "config/inventory_tabs.toml"
+hash = "09e3a84e69838f0f9b3ef7a0ccaa1f80a5d0fd46f28ecd30a6488ecc01d6f388"
+
+[[files]]
 file = "config/inventorysorter/config.json5"
 hash = "b64fa7ee465d964b662f291dad78a8c91a252854581ae2584f23ad8bdc010970"
 
