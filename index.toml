@@ -1202,6 +1202,11 @@ hash = "41a3116f5642d40ed54efda3f863373fa4d3c0c3a24a447a38c8a106e9fbb079"
 metafile = true
 
 [[files]]
+file = "mods/itemfavorites.pw.toml"
+hash = "d70d6e01a172fe2fd7db9f47d7a5dd1cd56e8ebc73f6b4af88696f274a51f4ab"
+metafile = true
+
+[[files]]
 file = "mods/jamlib.pw.toml"
 hash = "4a37864ebe44ddf66f7a127683adc76515d3dc97f8d8dba6fe362c43a1f39464"
 metafile = true
