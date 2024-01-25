@@ -1247,10 +1247,6 @@ file = "resources/data/tinkerer/recipes/trident.json"
 hash = "09879b5f78bd601f10f411b6e1473f6e0231f7d671615f7b489b90b6e77cea24"
 
 [[files]]
-file = "resources/data/tinkerers_smithing/tags/items/dework_materials.json"
-hash = "ecd290ab926a8074252c0167b77c0a47859db0cac23f4fe41bf22581cbfdc3d4"
-
-[[files]]
 file = "resources/datapacks/Towers_Of_The_Wild_Reworked_v4.0.2_Fabric_Waystones.zip"
 hash = "ea056a272ca794ba9cdb86fa3a6dad302b2e2d6cd8dcaeb0324590b2e4753e18"
 
@@ -2269,6 +2265,14 @@ hash = "6213eb1ed3ffd15c1c2fb792033841ac5d78d05f9ad6d463c1f2330afa3dd242"
 [[files]]
 file = "resources/datapacks/tinkerers_smithing_chalk/pack.mcmeta"
 hash = "6c51f2d16e0192a561b037d103ffece287b7f5ffd90470be86044216872048c1"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_consistencyplus/data/tinkerers_smithing/tags/items/dework_materials.json"
+hash = "ecd290ab926a8074252c0167b77c0a47859db0cac23f4fe41bf22581cbfdc3d4"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_consistencyplus/pack.mcmeta"
+hash = "04dfe37a2cdcc0af6b73760e88d9bf4fc8d21ed6a15d8352f6eeac02b937f3f7"
 
 [[files]]
 file = "resources/datapacks/tinkerers_smithing_farmersdelight/data/farmersdelight/smithing_tool_materials/flint.json"
