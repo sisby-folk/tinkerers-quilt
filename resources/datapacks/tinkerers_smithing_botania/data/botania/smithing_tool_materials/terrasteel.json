@@ -1,0 +1,9 @@
+{
+  "inheritFromItem": [
+    "botania:terra_pick"
+  ],
+  "upgradesFrom": [
+    "minecraft:diamond",
+    "minecraft:netherite"
+  ]
+}
