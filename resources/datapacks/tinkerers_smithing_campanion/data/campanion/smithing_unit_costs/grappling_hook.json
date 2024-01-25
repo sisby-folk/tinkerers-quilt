@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "cost": 3,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "cost": 1,
+      "item": "campanion:rope"
+    }
+  ]
+}
