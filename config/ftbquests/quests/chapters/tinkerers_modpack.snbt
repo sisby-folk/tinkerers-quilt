@@ -168,7 +168,9 @@
 			description: [
 				"&7[Inventory Tabs]&r Press &7[&r&6Tab&r&7]&r in the inventory to &dchange workstations&r, or &6Click&r the visual tabs around the screen. "
 				""
-				"&7[MouseWheelie]&r &6Middle Click&r in any inventory to &dsort items&r. Hold &7[&r&6Space&r&7]&r while clicking an inventory to &drestock from it&r, or while clicking your inventory to &dquick store to it&r."
+				"&7[InventorySorter]&r &6Middle Click&r in any inventory to &dsort items&r."
+				""
+				"&7[MouseWheelie]&r Hold &7[&r&6Space&r&7]&r while clicking an inventory to &drestock from it&r, or while clicking your inventory to &dquick store to it&r."
 				""
 				"&7[Inspecio]&r Tooltips contain &ddetailed item information&r, such as item contents, attributes, and effects."
 				""
