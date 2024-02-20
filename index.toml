@@ -557,11 +557,6 @@ hash = "fc50e981481a00007950d850617a5b1354533f09303099e36d3bbaf6d23f43ce"
 metafile = true
 
 [[files]]
-file = "mods/kiwi.pw.toml"
-hash = "c5473808679eecaa918f2e9a102dd016eb8dee13934a8832354d04839f49007d"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
 hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
 metafile = true
@@ -749,11 +744,6 @@ metafile = true
 [[files]]
 file = "mods/skip-transitions.pw.toml"
 hash = "70b66e2a03d8a6531f0c6e71fa9d6d878ea8f42929ac43f4295b2a3111279b86"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic.pw.toml"
-hash = "0d0620723ad1dec603edb2b36e8b218e2d2c1ea6d1c226e416d4f259d6ec53bf"
 metafile = true
 
 [[files]]
