@@ -334,13 +334,14 @@ hash = "b494eb2872c5eb3c498e147be24a62e2c62485e375b9b99c15ae0faf8f9dd2ca"
 metafile = true
 
 [[files]]
-file = "mods/antique-fwaystones.pw.toml"
-hash = "1673e442015ae4728e94f8a3f92a3bf5153189f4502993370bc881d24745b4d3"
+file = "mods/antique-atlas-4.pw.toml"
+hash = "574123c23ecabf3cfc80f20fddef3474ddea134b7c3a76d9601486bf40f69dfc"
 metafile = true
 
 [[files]]
-file = "mods/antiqueatlas-8.0.3+itemless-fabric-mc1.19.2.jar"
-hash = "4da31f393c6645fc2b5c4d0958294c5d826333655591c7e4ab294268c936830b"
+file = "mods/antique-fwaystones.pw.toml"
+hash = "d80898c2247f8a6eb153612d5e8597f791acdc73da0cd6910b35390096126a87"
+metafile = true
 
 [[files]]
 file = "mods/apathy.pw.toml"
@@ -603,7 +604,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "e7fec92e06e88e8e596a79d1157bd142a89d64524c930023e863e8984b1607df"
+hash = "b1203401ca4f0f1a45f411eb7e070451a1a336bffc79f3a1ec6224e535e04780"
 metafile = true
 
 [[files]]
