@@ -1,13 +1,13 @@
 name = "PicoHUD"
-filename = "picohud-1.5.2+1.19.jar"
+filename = "picohud-1.5.3+1.19.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/483PZAuC/versions/JO5wZR1X/picohud-1.5.2%2B1.19.jar"
+url = "https://cdn.modrinth.com/data/483PZAuC/versions/mtltWUj9/picohud-1.5.3%2B1.19.jar"
 hash-format = "sha1"
-hash = "2951c68a7728657ef675ba67b941c3458ae03521"
+hash = "6b990396d65aee8ba83a291caeb61b8b140b32af"
 
 [update]
 [update.modrinth]
 mod-id = "483PZAuC"
-version = "JO5wZR1X"
+version = "mtltWUj9"
