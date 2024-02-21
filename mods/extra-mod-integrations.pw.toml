@@ -1,13 +1,13 @@
 name = "EMI Addon: Extra Mod Integrations"
-filename = "extra-mod-integrations-0.4.1+1.20.1.jar"
+filename = "extra-mod-integrations-0.4.2+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bpRHnWUb/versions/juXS5CaW/extra-mod-integrations-0.4.1%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/bpRHnWUb/versions/InD7xPaR/extra-mod-integrations-0.4.2%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "b52e8070940c96a156ba04d377b40f3555049ba7"
+hash = "14ed2f2fa2c72ae6fda9a1b744802f655b83de1c"
 
 [update]
 [update.modrinth]
 mod-id = "bpRHnWUb"
-version = "juXS5CaW"
+version = "InD7xPaR"
