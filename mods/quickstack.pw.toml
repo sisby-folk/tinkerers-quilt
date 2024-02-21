@@ -1,0 +1,13 @@
+name = "QuickStack"
+filename = "quickstack-1.0.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NdeIBctc/versions/Q0IBH3hq/quickstack-1.0.2%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "a54502ba6c7ff886a83c0e70c4f120be260b1c2b"
+
+[update]
+[update.modrinth]
+mod-id = "NdeIBctc"
+version = "Q0IBH3hq"
