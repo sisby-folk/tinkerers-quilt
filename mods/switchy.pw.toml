@@ -1,13 +1,13 @@
 name = "Switchy"
-filename = "switchy-2.8.4+1.20.jar"
+filename = "switchy-2.9.1+1.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ss0QuCRx/versions/WulnlZSA/switchy-2.8.4%2B1.20.jar"
+url = "https://cdn.modrinth.com/data/ss0QuCRx/versions/fUy8osoF/switchy-2.9.1%2B1.20.jar"
 hash-format = "sha1"
-hash = "18a3a1c070fbfb48839e8ac34d3174893cb72774"
+hash = "faeb29770df4f5a6a6136dc4621f42ff056e7f42"
 
 [update]
 [update.modrinth]
 mod-id = "ss0QuCRx"
-version = "WulnlZSA"
+version = "fUy8osoF"
