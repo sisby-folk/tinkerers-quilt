@@ -1117,13 +1117,14 @@ hash = "f0463f1b50e2c2ab3c726b14236b22e07ce9be4896528ede9d51486a212a5c07"
 metafile = true
 
 [[files]]
-file = "mods/antique-fwaystones.pw.toml"
-hash = "d80898c2247f8a6eb153612d5e8597f791acdc73da0cd6910b35390096126a87"
+file = "mods/antique-atlas-4.pw.toml"
+hash = "574123c23ecabf3cfc80f20fddef3474ddea134b7c3a76d9601486bf40f69dfc"
 metafile = true
 
 [[files]]
-file = "mods/antiqueatlas-9.0.0+itemless-fabric-mc1.20.1.jar"
-hash = "bac8d0e79c89a3f07d2f0230748d1aa51d49f4532ae23b3fe701645d07563d76"
+file = "mods/antique-fwaystones.pw.toml"
+hash = "d80898c2247f8a6eb153612d5e8597f791acdc73da0cd6910b35390096126a87"
+metafile = true
 
 [[files]]
 file = "mods/apathy.pw.toml"
@@ -2014,10 +2015,6 @@ hash = "2915a7eb678610d4d366886bb1ba30169ce1ae316ff8704d8ead79a4719e4d58"
 [[files]]
 file = "resources/data/tinkerer/recipes/trident.json"
 hash = "09879b5f78bd601f10f411b6e1473f6e0231f7d671615f7b489b90b6e77cea24"
-
-[[files]]
-file = "resources/data/tinkerers_smithing/tags/items/dework_materials.json"
-hash = "ecd290ab926a8074252c0167b77c0a47859db0cac23f4fe41bf22581cbfdc3d4"
 
 [[files]]
 file = "resources/datapacks/Towers_Of_The_Wild_Reworked_v4.0.2_Fabric_Waystones.zip"
@@ -2990,6 +2987,86 @@ hash = "bb21c0e8eb5835b8760dd0cfed1514825bf65b5916d26770a596c93f195d7d75"
 [[files]]
 file = "resources/datapacks/slabs_to_blocks/pack.mcmeta"
 hash = "62dad0ca0ca693c815dd3c303acfd6bc48eb5da0ca4384b35324df4a73adcda0"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/campanion/smithing_types/spear.json"
+hash = "e92397b257e733c004815195df9468f1cce02169fd5305de2d1ea3ab1ff1824f"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/campanion/smithing_unit_costs/grappling_hook.json"
+hash = "59f74aa329a2feed96a26cecde06b691f53d2b11235a5f45aa5382a63e8be791"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/campanion/smithing_unit_costs/sleeping_bag.json"
+hash = "480ed8142bff271d20a371060b494a0dce62527ed7addf8a66991d4d6c4900da"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/minecraft/smithing_tool_materials/campanion/diamond.json"
+hash = "fc798c23573c692db0dcfac77e99a620381743632c0fa9b852e7a6fd1211a09c"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/minecraft/smithing_tool_materials/campanion/gold.json"
+hash = "e16ec09f1a056d6db33a47d5ce66a632bbc89fe2e0d3c8fcdce08e9ad812fa63"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/minecraft/smithing_tool_materials/campanion/iron.json"
+hash = "0def25a8a16448d08195eba9d75737bba43f0f8b1b36a95a523602e4145dac1e"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/minecraft/smithing_tool_materials/campanion/netherite.json"
+hash = "0a98760282eab261bbfa0c6d4005538b6a2fb98d6545dc9222b19305e07a8e37"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/minecraft/smithing_tool_materials/campanion/stone.json"
+hash = "07d3dafd87732ad7e727621dac5edfb0cadec0cf5a0e226a670ad31049592c05"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/data/minecraft/smithing_tool_materials/campanion/wood.json"
+hash = "2d976111aab9c0fe073b52c1faa5bdfa1742cd4935d2336ec659afc2a1422d58"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_campanion/pack.mcmeta"
+hash = "e58b7879e719c0d0729fcfe35af45b31d55fab3f5d583629ef860aa3d9d8a85e"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_chalk/data/chalk/smithing_unit_costs/chalk.json"
+hash = "a85a9ddca6aac85411c180e9b494cfc5480082589f48ff1cd1f1b9924d4e1fab"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_chalk/data/chalk/smithing_unit_costs/glow_chalk.json"
+hash = "6213eb1ed3ffd15c1c2fb792033841ac5d78d05f9ad6d463c1f2330afa3dd242"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_chalk/pack.mcmeta"
+hash = "6c51f2d16e0192a561b037d103ffece287b7f5ffd90470be86044216872048c1"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_consistencyplus/data/tinkerers_smithing/tags/items/dework_materials.json"
+hash = "ecd290ab926a8074252c0167b77c0a47859db0cac23f4fe41bf22581cbfdc3d4"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_consistencyplus/pack.mcmeta"
+hash = "04dfe37a2cdcc0af6b73760e88d9bf4fc8d21ed6a15d8352f6eeac02b937f3f7"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_farmersdelight/data/farmersdelight/smithing_tool_materials/flint.json"
+hash = "e4571b53b8b78d01a67b3de107ec559a512e8f8c7b6ad5fc161996284b6394c6"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_farmersdelight/data/farmersdelight/smithing_types/knife.json"
+hash = "7afe8ea13a65b94539fd8c52a59519842fcb53b492968d9105e29c95cd9a1454"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_farmersdelight/data/farmersdelight/smithing_unit_costs/netherite_knife.json"
+hash = "5c69f9bf61f42255d02238269af970d54756c6a730b85acd11b093a37516129f"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_farmersdelight/data/farmersdelight/smithing_unit_costs/skillet.json"
+hash = "d1bbbdd9cf5cb0bf276b1b80fce398f9a61640eb0aec74566086e174397a45ff"
+
+[[files]]
+file = "resources/datapacks/tinkerers_smithing_farmersdelight/pack.mcmeta"
+hash = "7ab5d21b1b6db2aed4b73f2981e9ce07155fd33afc67a1a681410e6183db5b02"
 
 [[files]]
 file = "resources/datapacks/yung_tweaks/data/betterdungeons/tags/worldgen/biome/has_structure/spider_dungeon.json"
