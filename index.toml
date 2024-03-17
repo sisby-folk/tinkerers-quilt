@@ -1093,8 +1093,9 @@ file = "mods/Origins-1.20.1-1.10.0.jar"
 hash = "01675e2b3732782f5bfbc08a211f739c8123b269bb9f40d36ac56d9fbc90ae3d"
 
 [[files]]
-file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
-hash = "3d9ab26b89cb5e01c1888ac8bc3d3a9df000f728d32d5dd8f9f47e84b1d19ed5"
+file = "mods/aileron.pw.toml"
+hash = "92c0c8ce733ad75ae5a207b20786dd7c712d90e9d0d5a390a5cbc00bf1cdf3bb"
+metafile = true
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
