@@ -1333,6 +1333,10 @@ file = "mods/Couplings-1.9.4+1.20.jar"
 hash = "4485afb153ee69479f250973b66f824ab989e0f8c6db12612c5818864af2e662"
 
 [[files]]
+file = "mods/DramaticDoors-QuiFabrge-1.20.1-3.2.0.jar"
+hash = "2fc7460d55c60bec347aee118062c9fab18840d83e1e74ca6059f679177beb66"
+
+[[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
 
@@ -1522,11 +1526,6 @@ metafile = true
 [[files]]
 file = "mods/dawn.pw.toml"
 hash = "e6cd8a58a2938b799035c66df16b440db0edf09c798978b8e857a6a27e8a6474"
-metafile = true
-
-[[files]]
-file = "mods/dramatic-doors.pw.toml"
-hash = "0b4080241fd7fd10b53f79cd7a6e871b606d06a5df402ba9a259188946657a32"
 metafile = true
 
 [[files]]
