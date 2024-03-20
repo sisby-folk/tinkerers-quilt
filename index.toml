@@ -1980,8 +1980,9 @@ file = "mods/sodium-extra-0.4.27+mc1.20.1-unknown.jar"
 hash = "e1c646ae0e861ddec4dd8c3a590e24cf50ac2caada7ad11f3e5f5c6ade342f80"
 
 [[files]]
-file = "mods/sodium-pinned.toml"
+file = "mods/sodium-pinned.pw.toml"
 hash = "61c730ecc59ae6bf7fd413d52bd203d122a4a85ebbe953e79a3114f0328dc2b9"
+metafile = true
 
 [[files]]
 file = "mods/soundsbegone.pw.toml"
