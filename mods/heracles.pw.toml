@@ -1,13 +1,13 @@
 name = "Heracles"
-filename = "heracles-fabric-1.20.1-1.1.10.jar"
+filename = "Heracles-fabric-1.20.1-1.1.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lo90fZoB/versions/XFqquTji/heracles-fabric-1.20.1-1.1.10.jar"
+url = "https://cdn.modrinth.com/data/lo90fZoB/versions/GXxKjxGE/Heracles-fabric-1.20.1-1.1.11.jar"
 hash-format = "sha1"
-hash = "1ff88885eb14a65efb902b5119557c693937051a"
+hash = "a3a683ea2bed5fcbb1882e3cb7183020aac29489"
 
 [update]
 [update.modrinth]
 mod-id = "lo90fZoB"
-version = "XFqquTji"
+version = "GXxKjxGE"
