@@ -1527,9 +1527,8 @@ hash = "80a08f7ba61f15061ce1fea737d38ee8f902faf7ef8c52b0459b8a29ceb754d1"
 metafile = true
 
 [[files]]
-file = "mods/useful-brush.pw.toml"
-hash = "e7761f8cfd3762dcda3adcf3198945760ac00ab9df4402d6169e3359a0ba6124"
-metafile = true
+file = "mods/useful-brush-0.1.0.jar"
+hash = "472d4f712feaf98686e6d63e6b19f8edec1efa341d365d9a76342a6b42cdf133"
 
 [[files]]
 file = "mods/vehiclefix-3.5.jar"
