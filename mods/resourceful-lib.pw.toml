@@ -1,13 +1,13 @@
 name = "Resourceful Lib"
-filename = "resourcefullib-fabric-1.20.1-2.1.19.jar"
+filename = "resourcefullib-fabric-1.20.1-2.1.23.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/G1hIVOrD/versions/IJBIHU6K/resourcefullib-fabric-1.20.1-2.1.19.jar"
+url = "https://cdn.modrinth.com/data/G1hIVOrD/versions/YzWNEutS/resourcefullib-fabric-1.20.1-2.1.23.jar"
 hash-format = "sha1"
-hash = "fd01e032fcf1667c75a64614d347872b45f062ac"
+hash = "8ede002f0753ff813e2fdbbfbf22a1eeb8f032b6"
 
 [update]
 [update.modrinth]
 mod-id = "G1hIVOrD"
-version = "IJBIHU6K"
+version = "YzWNEutS"

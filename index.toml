@@ -826,7 +826,7 @@ hash = "bde740080a787113f2d5e50c9321cbea9b3b2a9b44ebf486ae966524c8bee71a"
 
 [[files]]
 file = "config/heracles/quests/introduction/438625063C95601F.json"
-hash = "f2b855ba7f41c3ef964457db634af166bab19d91a76af1aefb182680c5531d81"
+hash = "3c73e05e5d94ecae1a1d65d2568e1b0649a125ad66e674dc0662f5b3f6394d91"
 
 [[files]]
 file = "config/heracles/quests/introduction/7840EB3C8B8048EF.json"
@@ -1345,8 +1345,9 @@ file = "mods/Origins-1.20.1-1.10.0.jar"
 hash = "01675e2b3732782f5bfbc08a211f739c8123b269bb9f40d36ac56d9fbc90ae3d"
 
 [[files]]
-file = "mods/aileron-1.0.4+1.0.4-fabric.jar"
-hash = "3d9ab26b89cb5e01c1888ac8bc3d3a9df000f728d32d5dd8f9f47e84b1d19ed5"
+file = "mods/aileron.pw.toml"
+hash = "92c0c8ce733ad75ae5a207b20786dd7c712d90e9d0d5a390a5cbc00bf1cdf3bb"
+metafile = true
 
 [[files]]
 file = "mods/altorigingui.pw.toml"
@@ -1365,7 +1366,7 @@ metafile = true
 
 [[files]]
 file = "mods/antique-atlas-4.pw.toml"
-hash = "574123c23ecabf3cfc80f20fddef3474ddea134b7c3a76d9601486bf40f69dfc"
+hash = "76117558b32e4af33ca6faa921d7438aafec6aed532507745dc323b0fef819df"
 metafile = true
 
 [[files]]
@@ -1385,7 +1386,7 @@ metafile = true
 
 [[files]]
 file = "mods/arch-ex.pw.toml"
-hash = "518afbd739263e2daad886e514ddb0005daed4c5873f60f66b507ed35506c29e"
+hash = "06ae6401677dd9dbcb4edde0faad991812e7b8425e2e10c05913fccc9c261c71"
 metafile = true
 
 [[files]]
@@ -1405,7 +1406,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "7213c1f85dede9a36f77d4a0064a1c6aae79bcb4e281ae5d6d8698793ddda046"
+hash = "ab6a6dc2a3fa157464f0294d8b5d3e6b8b882c9b520c7f7e0ca8329094ed1dfa"
 metafile = true
 
 [[files]]
@@ -1440,7 +1441,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-fixes.pw.toml"
-hash = "d7c6555b666ff113894f6dd6dba7e6cc95c041542d06a39fd6f67421341711b9"
+hash = "7f71f5e7a7948fc1f08a253c13a0f6f6e2a03a691b1b6515b4442458175bd723"
 metafile = true
 
 [[files]]
@@ -1480,7 +1481,7 @@ metafile = true
 
 [[files]]
 file = "mods/consistencyplus.pw.toml"
-hash = "1163602dac7aea2e98a45827d8527d7e596d9f9d72e1aa6c8aebfef39d6d73c9"
+hash = "43955855758931bdd6be5b736278141a700265181cecf7ad9d8ae196dad89c5c"
 metafile = true
 
 [[files]]
@@ -1558,7 +1559,7 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-trims.pw.toml"
-hash = "676d4618afe1768b613e0aaea70adb95d27b55ee5f532e517da663528bdfb594"
+hash = "4fdb3fed87f0b60a09bd5ad1a0c3007ab0ea9a8b8508af10bc1c7a750c85f237"
 metafile = true
 
 [[files]]
@@ -1593,7 +1594,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-mod-integrations.pw.toml"
-hash = "4b5af07a3311d776868ed6f0c22180ab50f224caca07e6fd7b33c6d8bb2ff80d"
+hash = "eb4ad3d0bf47df52865312c343409c126379977f6036fd73cf6bf8d92952d67b"
 metafile = true
 
 [[files]]
@@ -1648,7 +1649,7 @@ metafile = true
 
 [[files]]
 file = "mods/fwaystones.pw.toml"
-hash = "3f09bb38efde1a93e272c206e11bbf9aed4b70dfea20a346f53c4e7da5080a82"
+hash = "8afe478f0e3b3d0609ea7efac63d9312302ab8261fffc964b9ad5d7b3d9eafc6"
 metafile = true
 
 [[files]]
@@ -1658,7 +1659,7 @@ metafile = true
 
 [[files]]
 file = "mods/heracles.pw.toml"
-hash = "ad5c647bdcdfaf786be19463bcbd8b2960e70062c752e9130707ec0f93c2efa7"
+hash = "5be24164786b21bccdc7356d159bc3e278fa738ce9b5fd35dd3871867285d985"
 metafile = true
 
 [[files]]
@@ -1668,7 +1669,7 @@ metafile = true
 
 [[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
-hash = "a266409ee7850768e0883f4a9fbb64c0697cf63f393f5e35d03e23b772ab7452"
+hash = "813823a936cc8c5d1764f47f1bf75c3561302d38abf5f13cb3f64556f4ddddf7"
 metafile = true
 
 [[files]]
@@ -1702,17 +1703,18 @@ hash = "09112b8a976916be03ab53c4300a2389ca55a65a2d82343f27923ee70de31069"
 metafile = true
 
 [[files]]
-file = "mods/inventorytabs-0.9.0-beta-1.20.jar"
-hash = "1e639f115699594ecc7a347fcf557d3d9c36c7bdb28ccd8a3583eb7f3eeef241"
-
-[[files]]
 file = "mods/iris.pw.toml"
-hash = "41a3116f5642d40ed54efda3f863373fa4d3c0c3a24a447a38c8a106e9fbb079"
+hash = "eb0d9a1475b609eb82f26d0440846d52034c1aef8fcc21ee1cc327dc52648f7d"
 metafile = true
 
 [[files]]
 file = "mods/iris4.pw.toml"
 hash = "1ff0bf1e908af06ebff487133e22fb967c4497d64773e806c107687c652d5796"
+metafile = true
+
+[[files]]
+file = "mods/itemfavorites.pw.toml"
+hash = "a1b0ffa4d465293465dcc3a1fd273a4ec3d327e59c2ef7dd781f9169730930ea"
 metafile = true
 
 [[files]]
@@ -1767,7 +1769,7 @@ metafile = true
 
 [[files]]
 file = "mods/luna-slimes.pw.toml"
-hash = "03ac1d5ac0c7cdf604331180be0b2550bf9d9b13e60bb52c6333055d262ec119"
+hash = "fcc438b7ed6f280be9cc7191a4b41c2066cd692e8bb63b3e3890f4623a040d11"
 metafile = true
 
 [[files]]
@@ -1807,7 +1809,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "be1f88824f7ceb008ce38ae763a93921db0c27db68577fdb16c29c6a085ec1f3"
+hash = "ef9c4bc27256d065df4feaba2bc05883ba22987c41cd48786070d37ae85cc8e1"
 metafile = true
 
 [[files]]
@@ -1827,7 +1829,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "98238b40e54f717063e49b3672815b23f2be871a8d297f8c964339dd518cbf10"
+hash = "bae708440354af3a72d45b528ad62fa9a861f5656e447dd6227a084d358a261e"
 metafile = true
 
 [[files]]
@@ -1847,7 +1849,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "a60f50e7c0ae6420e4a36f4e2fabaa4663bf79236531c1b23fd9c425121b2203"
+hash = "02ee44d056d0f9881b260b987a8651815c363f4f20f6f589eeb3df0f63006608"
 metafile = true
 
 [[files]]
@@ -1881,7 +1883,7 @@ metafile = true
 
 [[files]]
 file = "mods/polaroidcamera.pw.toml"
-hash = "a7570caa2eee8b389a4d8ed48bcaaf2d40a2235724241fc656f13aad253ffc9d"
+hash = "737ee5897cf8354ce9d767ed52382da37fab40c21907692ebce088a78e905487"
 metafile = true
 
 [[files]]
@@ -1895,8 +1897,9 @@ hash = "7a6c27fcdf9d6e4c25ad433a676357353b8d6125433e7a883de4ddb889767f88"
 metafile = true
 
 [[files]]
-file = "mods/projectsavethepets-4.0.0-alpha+2023.d91c36f7ba.fabric.jar"
-hash = "0dff0733a16e69e7d41b9ecfb51a93ec2489f7d6e49532f990b9c4ae11096178"
+file = "mods/projectsavethepets.pw.toml"
+hash = "b5e409cdc2335214907e1649a6a5fface19ac0350ec94811073126fb82d5ea0a"
+metafile = true
 
 [[files]]
 file = "mods/qdresloader.pw.toml"
@@ -1944,7 +1947,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "d8d167c69fa2b57d6ef71f1649da05ac7cbfbc9213b43aeb6e81ed9ffa49a114"
+hash = "4fac1756349c0f723621d5c5c1993e0c2b094b3fdff1bcb5006b7f43d803288c"
 metafile = true
 
 [[files]]
@@ -1986,13 +1989,18 @@ file = "mods/sodium-extra-0.4.27+mc1.20.1-unknown.jar"
 hash = "e1c646ae0e861ddec4dd8c3a590e24cf50ac2caada7ad11f3e5f5c6ade342f80"
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "5379b1da9fa50def37ede26e66dd963de3ce6f8576cd60a6b117998e09a5597c"
+metafile = true
+
+[[files]]
 file = "mods/sodium4.pw.toml"
 hash = "61c730ecc59ae6bf7fd413d52bd203d122a4a85ebbe953e79a3114f0328dc2b9"
 metafile = true
 
 [[files]]
 file = "mods/soundsbegone.pw.toml"
-hash = "d8b3a8ecc1c37be5db621a18ba1df007ff6d16de7815639e4d17475bb23f2399"
+hash = "c199e779569d6d33da411991954ada00a809d77ea8a9dba0baf371ab59ff642a"
 metafile = true
 
 [[files]]
@@ -2097,7 +2105,7 @@ metafile = true
 
 [[files]]
 file = "mods/useful-brush.pw.toml"
-hash = "b7830fee7b0b01aa7cb5cbb4faccaceed6758c9cda1132dd49f6d9b6dc581046"
+hash = "e7761f8cfd3762dcda3adcf3198945760ac00ab9df4402d6169e3359a0ba6124"
 metafile = true
 
 [[files]]
@@ -2121,7 +2129,7 @@ metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "ba39ea5cc12f798e6531815baf78ee423b6d6f71f818d9f46250ce73015d5f11"
+hash = "2747bdcecb68ac10a8af7f86bc38f09c4ed6959b7396834c241ebdab7d046332"
 metafile = true
 
 [[files]]
@@ -2130,7 +2138,7 @@ hash = "f4f6711978a72bbeb84ad6dc768515ac3f1522d54819742d92ad4f2c295687c4"
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "b9ffba892e9f541bbffc0fc9dc4360732e9edeb7d2d4560191fc08e457c9d372"
+hash = "95d6181cf78eb40066382ec4cdc27b101bda35e4a84523d7c46b4d936727af98"
 metafile = true
 
 [[files]]
@@ -3510,7 +3518,7 @@ hash = "765862e6b27b72a5b8a668b4b761b717b3f4603ff2e050f4a4ab5020a83ddc0e"
 
 [[files]]
 file = "resources/resourcepacks/axolotl-bucket-variants.pw.toml"
-hash = "7088a0163fb4f97a026feadea41c497c4ec55ba495eb0fa81c0e51bfb1890eb5"
+hash = "862f558be37d8e7d632921d620169cb69e9bc80b7b5a8593768d7a7df9063605"
 metafile = true
 
 [[files]]

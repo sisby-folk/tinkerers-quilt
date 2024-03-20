@@ -1,0 +1,13 @@
+name = "ItemFavorites"
+filename = "itemfavorites-1.0.5+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BBi9csxn/versions/9Rx4PcQL/itemfavorites-1.0.5%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "75bc261c6c2aa7ac3f2604f745f125eb55f0cedc"
+
+[update]
+[update.modrinth]
+mod-id = "BBi9csxn"
+version = "9Rx4PcQL"
