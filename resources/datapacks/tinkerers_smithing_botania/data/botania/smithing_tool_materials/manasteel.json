@@ -1,0 +1,16 @@
+{
+  "inheritFromItem": [
+    "botania:manasteel_pick"
+  ],
+  "addItem": [
+    "botania:manasteel_shears"
+  ],
+  "upgradesFrom": [
+    "minecraft:stone",
+    "minecraft:iron"
+  ],
+  "upgradesTo": [
+    "botania:elementium",
+    "botania:terrasteel"
+  ]
+}

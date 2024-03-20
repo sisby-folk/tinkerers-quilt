@@ -1,0 +1,69 @@
+# Whether to allow interacting with entities through blocks.
+# More seamless, but may be considered cheating by the server.
+# default: true
+ignoreWalls = true
+# Whether to rotate the player towards the clicked tab
+# Less seamless, but trips anti-cheat less often.
+# default: false
+rotatePlayer = false
+# Remove the 1 unit padding in container screens that makes single chest screens slightly taller
+# If a modded container has item stacks offset 1 unit below where they should, turn this off.
+# default: true
+consistentChests = true
+# Strip nonessential features from 6-row container screens to fit them onto minimum-ratio viewports.
+# default: false
+compactChests = false
+
+[tabDisplayFilter]
+	# Whether to allow or deny tab display on screens that don't match config or code filters.
+	# options: ALLOW, DENY
+	# default: ALLOW
+	fallback = "ALLOW"
+	# Screen Type IDs to deny rendering tabs on.
+	# Screens allowed through code take precedent over this, e.g. HorseScreen.
+	deny = [
+		"fwaystones:waystone",
+		"fwaystones:abyss",
+		"fwaystones:pocket_wormhole",
+	]
+	# Screen Type IDs to allow rendering tabs on.
+	# Screens denied through code take precedent over this, e.g. CreativeInventoryScreen.
+	allow = []
+# 
+# Allows forcing blocks or block tags to be handled by a specific tab provider. '' to disable.
+[blockProviderOverrides]
+	"minecraft:fletching_table" = ""
+	"#fwaystones:waystones" = ""
+# 
+# Allows forcing entities or entity tags to be handled by a specific tab provider. '' to disable.
+[entityProviderOverrides]
+	"minecraft:chest_minecart" = "inventory_tabs:entity_simple"
+# 
+# Allows forcing items or item tags to be handled by a specific tab provider. Use NONE to disable.
+[itemProviderOverrides]
+	"minecraft:dirt" = ""
+# Whether to enable the default registry-matching logic for each tab provider.
+# When default logic is disabled, a tab provider will only be used if overridden below!
+# Simple Block: Blocks with block entities that can be interacted with to open a screen.
+# -Default logic: All BlockEntityProviders that don't match a list of known-bad types are added.
+# Chest Block: Must have facing and single/left/right properties, and can be blocked above.
+# -Default logic: All AbstractChestBlocks are added.
+# Unique Block: Blocks that open the same screen, regardless of where they are.
+# -Default logic: Blocks from a list of known-good vanilla types are added.
+# Simple Entity: Entity that can be interacted with to open a screen.
+# -Default logic: Nothing is added.
+# Sneak Entity: Entity that can be interacted with while sneaking to open a screen.
+# -Default logic: Nothing is added.
+[registryProviderDefaults]
+	"inventory_tabs:block_shulker_box" = true
+	"inventory_tabs:block_ender_chest" = true
+	"inventory_tabs:block_chest" = true
+	"inventory_tabs:block_simple" = true
+	"inventory_tabs:block_unique" = true
+	"inventory_tabs:entity_sneak" = true
+	"inventory_tabs:entity_simple" = true
+	"inventory_tabs:item_unique" = true
+	"inventory_tabs:item_simple" = true
+	"inventory_tabs:player_inventory" = true
+	"inventory_tabs:vehicle_inventory" = true
+	"portable_crafting:item_portable_crafting" = true

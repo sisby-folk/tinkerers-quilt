@@ -1,0 +1,11 @@
+{
+  "inheritFromItem": [
+    "botania:manaweave_helmet"
+  ],
+  "upgradesFrom": [
+    "minecraft:leather"
+  ],
+  "upgradesTo": [
+    "botania:elementium"
+  ]
+}

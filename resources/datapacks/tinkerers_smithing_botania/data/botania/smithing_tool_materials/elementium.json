@@ -1,0 +1,14 @@
+{
+  "inheritFromItem": [
+    "botania:elementium_pickaxe"
+  ],
+  "addItem": [
+    "botania:elementium_shears"
+  ],
+  "upgradesFrom": [
+    "minecraft:gold"
+  ],
+  "upgradesTo": [
+    "botania:terrasteel"
+  ]
+}

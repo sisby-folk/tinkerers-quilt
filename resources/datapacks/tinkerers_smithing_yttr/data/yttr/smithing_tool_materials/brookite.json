@@ -1,0 +1,12 @@
+{
+  "inheritFromItem": [
+    "yttr:brookite_pickaxe"
+  ],
+  "upgradesFrom": [
+    "minecraft:iron",
+    "minecraft:stone"
+  ],
+  "upgradesTo": [
+    "minecraft:diamond"
+  ]
+}
