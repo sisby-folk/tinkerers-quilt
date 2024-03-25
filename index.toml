@@ -3307,7 +3307,7 @@ hash = "d07f7e8d5df69f2bebe47ae30e2c0f074e641f6589cb8fbde1679a19928bb711"
 
 [[files]]
 file = "resources/datapacks/tinkerers_smithing_botania/data/minecraft/smithing_types/bow.json"
-hash = "87ae7ec330a888a5ddeaeb4fec752295dd42b4b53dd586e23a447bdfcdc7ae7d"
+hash = "8fb5a1ae2dfe861f0e13648e950c5250e55cac8271bec5d771738a16c3e32cdd"
 
 [[files]]
 file = "resources/datapacks/tinkerers_smithing_botania/pack.mcmeta"
@@ -3422,23 +3422,23 @@ file = "resources/datapacks/tinkerers_smithing_farmersdelight/pack.mcmeta"
 hash = "7ab5d21b1b6db2aed4b73f2981e9ce07155fd33afc67a1a681410e6183db5b02"
 
 [[files]]
-file = "resources/datapacks/tinkerers_smithing_yttr/data/minecraft/smithing_types/axe.json"
-hash = "12c6a84a97dff3c94ba4e2e3e7e56b5469147d9cc06172594c05c126c1ed208f"
+file = "resources/datapacks/tinkerers_smithing_yttr/data/c/tags/items/axes.json"
+hash = "9f080885fe8d321ed0f32b640a52b2d5626ee4799adc94c3c8e02094469a40e7"
 
 [[files]]
-file = "resources/datapacks/tinkerers_smithing_yttr/data/minecraft/smithing_types/hoe.json"
+file = "resources/datapacks/tinkerers_smithing_yttr/data/c/tags/items/hoes.json"
 hash = "033290e87077bcedeb99233fa31f1bb519fe6fbb4ccde0fbef7137adb23d4413"
 
 [[files]]
-file = "resources/datapacks/tinkerers_smithing_yttr/data/minecraft/smithing_types/pickaxe.json"
+file = "resources/datapacks/tinkerers_smithing_yttr/data/c/tags/items/pickaxes.json"
 hash = "b59c5717264beda67942c697608ebbb96847f91daa8a87c3561ba9dbd78c3227"
 
 [[files]]
-file = "resources/datapacks/tinkerers_smithing_yttr/data/minecraft/smithing_types/shovel.json"
+file = "resources/datapacks/tinkerers_smithing_yttr/data/c/tags/items/shovels.json"
 hash = "d947b42ca1db40812b558a57e87d5d45459eb7a8e738daf9bbf98b2425206871"
 
 [[files]]
-file = "resources/datapacks/tinkerers_smithing_yttr/data/minecraft/smithing_types/sword.json"
+file = "resources/datapacks/tinkerers_smithing_yttr/data/c/tags/items/swords.json"
 hash = "32a366a95744c54c8048d958a408db8c80401499ee551ba3a0144645878a8a1e"
 
 [[files]]
