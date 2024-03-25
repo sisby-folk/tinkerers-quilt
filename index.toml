@@ -1333,10 +1333,6 @@ file = "mods/Couplings-1.9.4+1.20.jar"
 hash = "4485afb153ee69479f250973b66f824ab989e0f8c6db12612c5818864af2e662"
 
 [[files]]
-file = "mods/DramaticDoors-QuiFabrge-1.20.1-3.2.0-fapi87.jar"
-hash = "cab2ef538329a039560963756a29ad97fdb7c797048ac7187b46c0a344e94c72"
-
-[[files]]
 file = "mods/DyeableFishingLines-1.0.1.jar"
 hash = "ddefc636d2494006640d7a0164a986172b00285da20e82b0e265f31ead045091"
 
@@ -1460,8 +1456,8 @@ hash = "bd2cab029b39f8a64e4f4b0d0b3c5b9bb6b6482e174af890be4f278cd502edc8"
 metafile = true
 
 [[files]]
-file = "mods/chunks-fade-in-pinned.pw.toml"
-hash = "5c8caf300c2b144b51bfcdb2af41fd67ad7da121e7dc85d7e43cc25a6af83813"
+file = "mods/chunks-fade-in.pw.toml"
+hash = "f8f8cea05fc3ed93239749877488e696bd67b4a42054f11dba752c9afc106393"
 metafile = true
 
 [[files]]
@@ -1490,8 +1486,8 @@ hash = "43955855758931bdd6be5b736278141a700265181cecf7ad9d8ae196dad89c5c"
 metafile = true
 
 [[files]]
-file = "mods/continuity-pinned.pw.toml"
-hash = "1610f0a0e34ccffc6ef268ed3fa2177100e522fb925945ddb990154a9223a1cc"
+file = "mods/continuity.pw.toml"
+hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
 metafile = true
 
 [[files]]
@@ -1499,8 +1495,8 @@ file = "mods/coyote_time-1.0.1.jar"
 hash = "2c306c91e1086e8b4890088145fa1cda00cffc6e61cd5f1d7f606b464ff7da64"
 
 [[files]]
-file = "mods/create-fabric-pinned.pw.toml"
-hash = "c1c8183f30ad28af89c7ab4c29c02306e40a93127873e0ed461459028644e09b"
+file = "mods/create-fabric.pw.toml"
+hash = "cc457369350325e226471c9b070f7ef3e47b6ea8126e8c7c28622b2960ea3f2b"
 metafile = true
 
 [[files]]
@@ -1526,6 +1522,11 @@ metafile = true
 [[files]]
 file = "mods/dawn.pw.toml"
 hash = "e6cd8a58a2938b799035c66df16b440db0edf09c798978b8e857a6a27e8a6474"
+metafile = true
+
+[[files]]
+file = "mods/dramatic-doors.pw.toml"
+hash = "0b4080241fd7fd10b53f79cd7a6e871b606d06a5df402ba9a259188946657a32"
 metafile = true
 
 [[files]]
@@ -1559,12 +1560,12 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-trims.pw.toml"
-hash = "4fdb3fed87f0b60a09bd5ad1a0c3007ab0ea9a8b8508af10bc1c7a750c85f237"
+hash = "abcc2d09c4f837c7bb74fa84f802e4a31dd70d4a7ad73a3ea7eee543ffa23859"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "b4d08a3dddc2daf3771527f7ce940bf04f0dd96389d55e2194861d0b258fd373"
+hash = "515401aa2bd4394d05d410a306d1890a3094c6121e1861c48e6a45f05bd7f01b"
 metafile = true
 
 [[files]]
@@ -1673,13 +1674,13 @@ hash = "813823a936cc8c5d1764f47f1bf75c3561302d38abf5f13cb3f64556f4ddddf7"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast-pinned.pw.toml"
-hash = "3de74a300704890a4c0a6458de38f5e4418c380ddae51508861f671f8a5f64d2"
+file = "mods/immediatelyfast.pw.toml"
+hash = "b411b04e1dace15c7fc1465bb161c8e621750b1577282e0918f956212a57e864"
 metafile = true
 
 [[files]]
-file = "mods/indium-pinned.pw.toml"
-hash = "2ab474f26e9e3553b3bade450c813fbba3b2b828ad7e63794e699e9483fbe442"
+file = "mods/indium.pw.toml"
+hash = "e416b18eebf514dea2014cf5c7fd3ee8493934a0b4e937509f15172ad271fde2"
 metafile = true
 
 [[files]]
@@ -1698,8 +1699,8 @@ hash = "cb64e45acfc927c97d804a59ab625a7b3333349a654aa27e16bc1d6a45d36d79"
 metafile = true
 
 [[files]]
-file = "mods/iris-pinned.pw.toml"
-hash = "1ff0bf1e908af06ebff487133e22fb967c4497d64773e806c107687c652d5796"
+file = "mods/iris.pw.toml"
+hash = "eb0d9a1475b609eb82f26d0440846d52034c1aef8fcc21ee1cc327dc52648f7d"
 metafile = true
 
 [[files]]
@@ -1748,6 +1749,10 @@ hash = "57cae0b7139111e4c74b41efc9543e662bf7300344e01d8b13e67ee1b47d38b9"
 metafile = true
 
 [[files]]
+file = "mods/lib39-1.5.0-experimental6.1+1.20.1-all.jar"
+hash = "2d45243740a95b44787b291d631459a608d52e6bd4a333419268b4980a9797a6"
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
@@ -1758,8 +1763,8 @@ hash = "3226edfff02089c3e716e13474700b8c63450022178d8b818ad6d434c63426bf"
 metafile = true
 
 [[files]]
-file = "mods/luna-slimes-pinned.pw.toml"
-hash = "b53b0cdedb660e8eb7bc0854b28ea06047c2d88b4f7410f0e84e86523e104250"
+file = "mods/luna-slimes.pw.toml"
+hash = "fcc438b7ed6f280be9cc7191a4b41c2066cd692e8bb63b3e3890f4623a040d11"
 metafile = true
 
 [[files]]
@@ -1784,12 +1789,12 @@ metafile = true
 
 [[files]]
 file = "mods/modelfix.pw.toml"
-hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
+hash = "48812d772e135285b61d74a9936e22220efa1d8935ec1f06f34c2727ea915836"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "961a62a68dcb0da829ecc14d0cdb6040388ac05ddd1a29df0a4c9c3c9b96b0a7"
+hash = "160ab5c829c0af5fe32eaf637f13f953daee5eda164ca72833a8cee572e62e89"
 metafile = true
 
 [[files]]
@@ -1854,7 +1859,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "f44c2e138b41270813fc1a1f1516ef44018f6ccfe83828deab77a196f746f5ae"
+hash = "993380cf705a99319f426d7c43f92ef6076adf2bfdbcd53a065b7d6dea4a565c"
 metafile = true
 
 [[files]]
@@ -1877,8 +1882,8 @@ hash = "a70c806bb9940bbc664982b89b4562aceadfa654e293a9ba62b14d4e57b6385d"
 metafile = true
 
 [[files]]
-file = "mods/presence-footsteps-pinned.pw.toml"
-hash = "e3cdeb61b5c1552e49c4407eaea23dbe03c22a8546d8f8975888ddf73bf78acf"
+file = "mods/presence-footsteps.pw.toml"
+hash = "938b135f37da76c099b14ba0f381a8515a0a28de62445caff9b2de94737e8894"
 metafile = true
 
 [[files]]
@@ -1892,17 +1897,18 @@ hash = "f7cebb9f191593ed8d3aee3a1bd3ea8c400625702aea0fd5d6ffb9db0105b926"
 metafile = true
 
 [[files]]
-file = "mods/qfapi-6.1.1+1.20.1+hell2.jar"
-hash = "6647f19ca4421ef61e83b677964f3064afb725b2838b9c385e0d21d4a4763461"
-
-[[files]]
 file = "mods/qkl.pw.toml"
 hash = "47217cc1489533f668d622f2078351a61873be573311a9a94be7293328a849a7"
 metafile = true
 
 [[files]]
-file = "mods/quickstack-pinned.pw.toml"
-hash = "4f8fdd8d356fe745d1ed7f0a2c5a769466f4e214a6431acecd5b0f8b54dafd29"
+file = "mods/qsl.pw.toml"
+hash = "5a6df3930d69602402cd13bf860195ac44680e2d4556e8d1254ae730fcb4b0f9"
+metafile = true
+
+[[files]]
+file = "mods/quickstack.pw.toml"
+hash = "c6423eeef60aacad291b03c9b348e10e9243ffa317ccc0feeeadc08cb08316c5"
 metafile = true
 
 [[files]]
@@ -1921,8 +1927,8 @@ hash = "e51093357d39df8d7f2cb4111f423baeedfe607b327e3219e27d45a92af5aef7"
 metafile = true
 
 [[files]]
-file = "mods/reeses-sodium-options-pinned.pw.toml"
-hash = "55c3a6e1a2d346a1bcf2c5f6cc916ab649507ad43b70a7ee0be255854529a220"
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "0f9916dcded3aac68d56113e9617bbe3db5ec9036bd9bba784bc40a961b0c9f0"
 metafile = true
 
 [[files]]
@@ -1965,17 +1971,18 @@ hash = "f907362d33b691fd58a7d05407284c6084a20daf2efb4694fe6c71f0e4820b0a"
 metafile = true
 
 [[files]]
-file = "mods/slice-and-dice-pinned.pw.toml"
-hash = "89fc4d8fa43ced76ba5452eef196d5986d831ba828921cc133e4fc6139a123f0"
+file = "mods/slice-and-dice.pw.toml"
+hash = "8bc19b2297c704b501c34367b2c0f73adef7781d9099bd61becd62df5caea303"
 metafile = true
 
 [[files]]
-file = "mods/sodium-extra-0.4.27+mc1.20.1-unknown.jar"
-hash = "e1c646ae0e861ddec4dd8c3a590e24cf50ac2caada7ad11f3e5f5c6ade342f80"
+file = "mods/sodium-extra.pw.toml"
+hash = "5379b1da9fa50def37ede26e66dd963de3ce6f8576cd60a6b117998e09a5597c"
+metafile = true
 
 [[files]]
-file = "mods/sodium-pinned.pw.toml"
-hash = "61c730ecc59ae6bf7fd413d52bd203d122a4a85ebbe953e79a3114f0328dc2b9"
+file = "mods/sodium.pw.toml"
+hash = "cd49906a91e2ff1c11acba79192d609c232f2f73d82cc6a646e7338c8e76aa8a"
 metafile = true
 
 [[files]]
@@ -2097,23 +2104,18 @@ hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
 metafile = true
 
 [[files]]
-file = "mods/wthit-plugins.pw.toml"
-hash = "63e7c439fccdafeb42e3c2a6204b2293b177da0903c4ea6af877ca629085c5c2"
-metafile = true
-
-[[files]]
 file = "mods/wthit.pw.toml"
-hash = "2b0f9478abd56ae48db0f0881581615b489d283ba91bd145c3a4f0a03f5f69ba"
+hash = "91978f4b1043fdb967540467524a28878f519d1ca3324ab3ea8c7adafe8fbbf2"
 metafile = true
 
 [[files]]
 file = "mods/yigd.pw.toml"
-hash = "2747bdcecb68ac10a8af7f86bc38f09c4ed6959b7396834c241ebdab7d046332"
+hash = "6433aa1337792bf2e812b76acf2f92e1a8113287d1978e3ca89498783e672f79"
 metafile = true
 
 [[files]]
-file = "mods/yttr-7.736+1.20.jar"
-hash = "f4f6711978a72bbeb84ad6dc768515ac3f1522d54819742d92ad4f2c295687c4"
+file = "mods/yttr-7.751+1.20.jar"
+hash = "15d1a99574aca1eb68bc02755acea5fa68d86ca93245680ee0b020e04ae45865"
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
@@ -3529,7 +3531,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "68b79902d98bc38e4705b621dcc54321e35742f696b462070d457cf7156d7921"
+hash = "67b9869a6115164afaa3747142a4a971a09789b6d89d2451888ab31d7ab5bfb8"
 metafile = true
 
 [[files]]
