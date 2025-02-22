@@ -1,0 +1,13 @@
+name = "Malum"
+filename = "malum-1.20.1-1.6.3.0b-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/sL7telRE/malum-1.20.1-1.6.3.0b-fabric.jar"
+hash-format = "sha1"
+hash = "ea433f6e16a3339c605a147f4e410dbaa891fc21"
+
+[update]
+[update.modrinth]
+mod-id = "jgzwYsAN"
+version = "sL7telRE"

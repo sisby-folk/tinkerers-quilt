@@ -1916,8 +1916,9 @@ hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
 metafile = true
 
 [[files]]
-file = "mods/malum-1.20.1-1.6.1.0d-fabric.jar"
-hash = "677592e2bea565bee8f051008769bd89d43eabc787c74c8e91024e3f8fd3af35"
+file = "mods/malum.pw.toml"
+hash = "166058e88f8dd602d3f12416dbf01bc3e00ba6fb58b7a285cfb5e42e9d311a69"
+metafile = true
 
 [[files]]
 file = "mods/mcwifipnp.pw.toml"
