@@ -1,0 +1,13 @@
+name = "Item Descriptions"
+filename = "item-descriptions-fabric-2.3.0+1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UaizcMKP/versions/vVeqoubm/item-descriptions-fabric-2.3.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "192554ede1c8691ed80a14791341c51388a73f7fb2d192f3628feff71631849fb6d1105b83da04c0894c72eaee0c74a4d6c3817616e6d17d5936578781651ddf"
+
+[update]
+[update.modrinth]
+mod-id = "UaizcMKP"
+version = "vVeqoubm"

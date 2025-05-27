@@ -821,8 +821,8 @@ file = "config/isxander-main-menu-credits.json"
 hash = "9ede5f3c262d74cf2ec694d8c228f1fd8f3b363c13ba5695ea7eea2db6b63b0b"
 
 [[files]]
-file = "config/item_descriptions.toml"
-hash = "f809edcef2d757f845ccf397e1c8028f1e6c2b9b67a4ac581d9ac3d912bc1c1f"
+file = "config/item-descriptions.json"
+hash = "ebcd52adbda1fb7f36ce3ec7d53ae495985078893f154b9251726799c402a3ef"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -1257,8 +1257,9 @@ hash = "99efc9e805ce2888680d3cacb9be65733c6d4a8cfcb77e1976205f758db24346"
 metafile = true
 
 [[files]]
-file = "mods/item-descriptions-fabric-1.11+1.20.jar"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "mods/item-descriptions.pw.toml"
+hash = "af836830f6720f5642c18acb9f9367010359da9f7bbd9e0bedc53f72cb0f1289"
+metafile = true
 
 [[files]]
 file = "mods/itemfavorites.pw.toml"
@@ -1686,10 +1687,6 @@ hash = "d5d7090d2ab9d828c55b4f44c8adba3fb89365d191fb12d7da55b3e5bae67144"
 [[files]]
 file = "resourcepacks/Vanillatweaks_What_Spyglass.zip"
 hash = "74afe3bea48cc4a2971a20edabdead42bd3f587c002829ceca2ffc63880d3a62"
-
-[[files]]
-file = "resources/assets/item_descriptions/lang/en_us.json"
-hash = "4489f9e3e454748b3521eb214e0a5694d562cff3d9ff511cb456953c8f534c00"
 
 [[files]]
 file = "resources/assets/loadingscreentips/loading_tips/tips.json"
