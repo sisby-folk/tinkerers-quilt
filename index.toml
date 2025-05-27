@@ -1611,8 +1611,9 @@ file = "mods/useful-brush-0.1.0.jar"
 hash = "472d4f712feaf98686e6d63e6b19f8edec1efa341d365d9a76342a6b42cdf133"
 
 [[files]]
-file = "mods/vehiclefix-3.5.jar"
-hash = "61204aa2b21e3d26011307f9006e257cb3e308b2bc4f722fe188a9ffaea1990c"
+file = "mods/vehiclefix.pw.toml"
+hash = "ab2b49e1dd89ac70e2f36ac94d03a2e628fec7c55df1ac2962d93eba8cd5af85"
+metafile = true
 
 [[files]]
 file = "mods/village-healthcare.pw.toml"
