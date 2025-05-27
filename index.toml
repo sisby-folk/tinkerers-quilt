@@ -1202,6 +1202,11 @@ hash = "df919122cd5a7485059cd9ccdaddd82467a076a718978c128f1642a5c5f83d6c"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "73eaf730f838085585517587a39a8d8d865c58646346a5bfbf703e5f3ac30314"
 metafile = true
@@ -1253,7 +1258,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-descriptions-fabric-1.11+1.20.jar"
-hash = "4cf810c9359c30ae6b3e74d8fb79fc12bf1ae75182e86def7e256a4d9de6a593"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "mods/itemfavorites.pw.toml"
@@ -1262,7 +1267,7 @@ metafile = true
 
 [[files]]
 file = "mods/jamlib.pw.toml"
-hash = "a51d746fdd98949eb47b83a9da95a1121fd7163601e901d986e57b1d2aca7950"
+hash = "fcbc1b165528c9264aed4cc1686f52876300c97e70ad23dbc81d8c0d9cfca303"
 metafile = true
 
 [[files]]
@@ -1462,7 +1467,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "69c93a9cc5b36e2075bf52176b5f6f57613e301b0a660272316219d99d5b844e"
+hash = "48000ec64515238dc778396ab8e322ce2fcb64177cb9611b03fe5071b67fe306"
 metafile = true
 
 [[files]]
