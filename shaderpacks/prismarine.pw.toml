@@ -1,15 +1,15 @@
-name = "Prismarine Shader (Capt Tatsu's BSL Edit)"
-filename = "Prismarine Shader V4.3a.zip"
+name = "Prismarine Shader"
+filename = "Prismarine Shader V5.0.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "f45126b5366850769005c5267e8d333a6a089431"
+hash = "6509a7fb5071ca483076df855f07b26886a921ed"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5225745
+file-id = 6373462
 project-id = 478295
 
 [option]

@@ -1,6 +1,7 @@
 name = "RightClickHarvest"
 filename = "right-click-harvest-3.2.3+1.19.x-1.20.1-fabric.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Cnejf5xM/versions/4UWabEWo/right-click-harvest-3.2.3%2B1.19.x-1.20.1-fabric.jar"
