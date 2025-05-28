@@ -1,13 +1,13 @@
 name = "Fabric Waystones"
-filename = "wraith-waystones-3.3.2+mc1.20.1.jar"
+filename = "wraith-waystones-3.3.3+mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sTZr7NVo/versions/DZAntbmD/wraith-waystones-3.3.2%2Bmc1.20.1.jar"
-hash-format = "sha1"
-hash = "ae8a0df8c94058f589871396f64b6636b00568b4"
+url = "https://cdn.modrinth.com/data/sTZr7NVo/versions/pVMFGW45/wraith-waystones-3.3.3%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "7cadae39da277ad2cde6e9d55a4c2d00b7169bf73484b168bcd58992625a5c4da6ed18d0112d2d7a5468a39aab6647bdf8e493e33b076c4bcbd49a7e227386e8"
 
 [update]
 [update.modrinth]
 mod-id = "sTZr7NVo"
-version = "DZAntbmD"
+version = "pVMFGW45"
