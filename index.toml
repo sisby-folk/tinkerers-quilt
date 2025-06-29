@@ -1317,6 +1317,11 @@ hash = "2a79f7fb98b7073c926c6f87a93473f5714cf82a2ace7f344e4e2de4a33e0233"
 metafile = true
 
 [[files]]
+file = "mods/mcqoy.pw.toml"
+hash = "cc43f113dffb7f6b4a93b8f7603d59c0ab113fd6a211224bb87938ba68be72a4"
+metafile = true
+
+[[files]]
 file = "mods/mcwifipnp.pw.toml"
 hash = "abe2ae5490d9c519036de72565c15e582337d885a6f9417457fd98bd77e3f2c3"
 metafile = true
