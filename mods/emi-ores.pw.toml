@@ -1,0 +1,13 @@
+name = "EMI Ores"
+filename = "emi_ores-1.0+1.19.2+fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sG4TqDb8/versions/dv1bd2Fd/emi_ores-1.0%2B1.19.2%2Bfabric.jar"
+hash-format = "sha1"
+hash = "452304874fb426281a852e50750d801395d2f39d"
+
+[update]
+[update.modrinth]
+mod-id = "sG4TqDb8"
+version = "dv1bd2Fd"
